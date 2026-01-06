@@ -40,7 +40,7 @@ END_MARK = " [uv_break]"                # better than huge pauses; reduces cutof
 # ChatTTS sampling params
 # -----------------------
 # Defaults for normal sentences
-TEMP = 0.25
+TEMP = 0.15
 TOP_P = 0.70
 TOP_K = 20
 MAX_NEW = 2048
