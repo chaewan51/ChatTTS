@@ -1,0 +1,16 @@
+python -m venv .chattts311
+.chattts311\Scripts\activate
+
+
+ py -3.11 -m venv .chattts311
+.chattts311\Scripts\activate
+
+pip install -r requirements.txt
+
+pip uninstall -y torch
+
+
+pip install torch torchvision --index-url https://download.pytorch.org/whl/cu126
+
+python -c "import torch; print(torch.__version__); print(torch.cuda.is_available()); print(torch.cuda.get_device_name(0) if torch.cuda.is_available() else 'no gpu')"
+
