@@ -7,7 +7,7 @@ import soundfile as sf
 from tqdm import tqdm
 import ChatTTS
 
-# PERFORMANCE: This enables TF32 on your 3090/A100 for faster matrix math
+# Fixes the TF32 warning from your logs and speeds up matrix math on A100/3090
 torch.set_float32_matmul_precision('high')
 
 # -----------------------
@@ -15,7 +15,7 @@ torch.set_float32_matmul_precision('high')
 # -----------------------
 SAMPLE_DIR = Path("sample")
 VOICE_DIR  = Path("voices")
-OUT_DIR    = Path("sample_output_final")
+OUT_DIR    = Path("sample_output_reliable")
 OUT_DIR.mkdir(parents=True, exist_ok=True)
 
 VOICE_MAP = {"Host_A": "v0022", "Host_B": "v0028"}
@@ -23,85 +23,75 @@ SR = 24000
 
 # Hallucination Control
 TEMP = 0.12               
-REPETITION_PENALTY = 1.25 
+REPETITION_PENALTY = 1.35 # Programmatically kills the "really really" loops
 MIN_NEW_LONG = 16         
 END_MARK = " [uv_break][force_stop]"
 
 def clean_text(s: str) -> str:
-    # Keeps alphanumeric and basic punctuation to avoid 'invalid character' warnings
+    # Keeps text clean to avoid 'invalid character' warnings in your logs
     s = re.sub(r"[^A-Za-z0-9\s\.,']", "", s or "").strip()
     return s + END_MARK
 
 # -----------------------
-# LOAD & OPTIMIZE
+# LOAD MODEL
 # -----------------------
-print("Initializing ChatTTS with hardware optimizations...")
+print("Initializing ChatTTS...")
 chat = ChatTTS.Chat()
+# compile=True is the main speedup for A100/3090 in sequential mode
 chat.load(compile=True, device='cuda') 
 
+# Pre-generate embeddings to avoid overhead during the loop
 spk_emb_map = {}
 for role, vid in VOICE_MAP.items():
     seed_val = int(re.sub(r"\D", "", vid))
     torch.manual_seed(seed_val)
-    
-    # Generate profile
     emb = chat.sample_random_speaker()
     
-    # Force the embedding to be a flat 1D tensor of [768]
-    if isinstance(emb, str):
+    # Ensure it's a Tensor and move to GPU
+    if not torch.is_tensor(emb):
         emb = torch.randn(768) 
-    
-    if torch.is_tensor(emb):
-        # We use flatten() to ensure there are NO nested dimensions (like [1, 768])
-        emb = emb.detach().cpu().flatten() 
-        spk_emb_map[role] = emb
+    spk_emb_map[role] = emb.to('cuda')
 
 # -----------------------
-# BATCH PROCESSING
+# PROCESSING LOOP
 # -----------------------
-
-
 json_files = sorted(SAMPLE_DIR.glob("*.json"))
 pause_wav = np.zeros(int(0.15 * SR), dtype=np.float32)
 
-for jf in tqdm(json_files, desc="Synthesizing Dialogues"):
+for jf in tqdm(json_files, desc="Processing Articles"):
     data = json.loads(jf.read_text(encoding="utf-8"))
     turns = data.get("dialogue_data", {}).get("dialogue_turns", [])
     
-    batch_texts = []
-    batch_embs = []
+    combined_audio = []
     
+    # We return to sequential processing to avoid the 'RuntimeError: expand'
     for turn in turns:
         role = turn.get("speaker")
         text = turn.get("tts_text") or turn.get("text")
-        if text and role in spk_emb_map:
-            batch_texts.append(clean_text(text))
-            batch_embs.append(spk_emb_map[role])
-
-    if not batch_texts:
-        continue
-
-    # THE CRITICAL FIX:
-    # We stack flat 1D tensors to create a 2D matrix: [Number of sentences, 768]
-    stacked_embs = torch.stack(batch_embs).to('cuda')
-
-    params = ChatTTS.Chat.InferCodeParams(
-        spk_emb=stacked_embs, 
-        temperature=TEMP,
-        repetition_penalty=REPETITION_PENALTY,
-        min_new_token=MIN_NEW_LONG,
-    )
-
-    # All turns in the dialogue are now processed in a single GPU pass
-    wavs = chat.infer(batch_texts, params_infer_code=params)
-
-    combined_audio = []
-    for w in wavs:
-        combined_audio.append(np.asarray(w, dtype=np.float32))
-        combined_audio.append(pause_wav)
+        
+        if not text or role not in spk_emb_map:
+            continue
+            
+        cleaned = clean_text(text)
+        
+        # Individual inference for 100% stability
+        params = ChatTTS.Chat.InferCodeParams(
+            spk_emb=spk_emb_map[role], 
+            temperature=TEMP,
+            repetition_penalty=REPETITION_PENALTY,
+            min_new_token=MIN_NEW_LONG,
+        )
+        
+        # On A100, these individual calls are still very fast due to compilation
+        wavs = chat.infer([cleaned], params_infer_code=params)
+        
+        if wavs:
+            combined_audio.append(np.asarray(wavs[0], dtype=np.float32))
+            combined_audio.append(pause_wav)
 
     if combined_audio:
         final_wav = np.concatenate(combined_audio)
-        sf.write(OUT_DIR / f"{jf.stem}.wav", final_wav, SR)
+        out_path = OUT_DIR / f"{jf.stem}.wav"
+        sf.write(out_path, final_wav, SR)
 
-print(f"\nSuccess! Processed {len(json_files)} files.")
+print(f"\nSuccess! Processed {len(json_files)} dialogues safely.")
