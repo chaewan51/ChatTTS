@@ -7,7 +7,7 @@ import soundfile as sf
 from tqdm import tqdm
 import ChatTTS
 
-# Performance Boost: Fixes the TF32 warning in your logs
+# PERFORMANCE: This enables TF32 on your 3090/A100 for faster matrix math
 torch.set_float32_matmul_precision('high')
 
 # -----------------------
@@ -28,7 +28,7 @@ MIN_NEW_LONG = 16
 END_MARK = " [uv_break][force_stop]"
 
 def clean_text(s: str) -> str:
-    # Removes chars triggering your logs while keeping apostrophes for contractions
+    # Keeps alphanumeric and basic punctuation to avoid 'invalid character' warnings
     s = re.sub(r"[^A-Za-z0-9\s\.,']", "", s or "").strip()
     return s + END_MARK
 
@@ -47,21 +47,20 @@ for role, vid in VOICE_MAP.items():
     # Generate profile
     emb = chat.sample_random_speaker()
     
-    # Fallback if library returns string ID
+    # Force the embedding to be a flat 1D tensor of [768]
     if isinstance(emb, str):
         emb = torch.randn(768) 
     
-    # CRITICAL FIX: Ensure embedding is exactly 1D [768]
-    # This prevents the 'expand' error when stacking
     if torch.is_tensor(emb):
-        emb = emb.detach().cpu().squeeze()
-        if emb.ndim > 1:
-            emb = emb[0] # Take first if still multi-dim
+        # We use flatten() to ensure there are NO nested dimensions (like [1, 768])
+        emb = emb.detach().cpu().flatten() 
         spk_emb_map[role] = emb
 
 # -----------------------
 # BATCH PROCESSING
 # -----------------------
+
+
 json_files = sorted(SAMPLE_DIR.glob("*.json"))
 pause_wav = np.zeros(int(0.15 * SR), dtype=np.float32)
 
@@ -82,9 +81,8 @@ for jf in tqdm(json_files, desc="Synthesizing Dialogues"):
     if not batch_texts:
         continue
 
-    # STACKING LOGIC: Creates a 2D matrix [BatchSize, 768]
-    # This matches the expand(emb.size(0), -1) requirement in core.py
-    
+    # THE CRITICAL FIX:
+    # We stack flat 1D tensors to create a 2D matrix: [Number of sentences, 768]
     stacked_embs = torch.stack(batch_embs).to('cuda')
 
     params = ChatTTS.Chat.InferCodeParams(
@@ -94,7 +92,7 @@ for jf in tqdm(json_files, desc="Synthesizing Dialogues"):
         min_new_token=MIN_NEW_LONG,
     )
 
-    # All turns in the dialogue processed in one parallel burst
+    # All turns in the dialogue are now processed in a single GPU pass
     wavs = chat.infer(batch_texts, params_infer_code=params)
 
     combined_audio = []
