@@ -4,8 +4,9 @@ set -e
 # ==============================
 # 1. CONFIGURATION
 # ==============================
-SCRIPT_NAME="process_data.py"
+SCRIPT_NAME="process_data.py"  # Ensure this matches your python filename
 
+# Original Input Folder
 ORIGINAL_INPUT="input_data/Output_STEP1+2_ENGLISH_TTS"
 FINAL_OUTPUT="output_data/ENGLISH_chattts_Gem"
 
@@ -16,8 +17,8 @@ GPUS=(3 5 6 7)
 WORK_DIR="workspace_shards"
 LOG_DIR="logs_chattts"
 
-# ABSOLUTE PATH TO PROJECT ROOT
-PROJECT_ROOT=$(pwd)
+# *** KEY FIX: HARDCODED ABSOLUTE PATH FROM YOUR ERROR LOG ***
+PROJECT_ROOT="/gpuhome/czc5884/work/ChatTTS"
 
 mkdir -p "${LOG_DIR}"
 mkdir -p "${FINAL_OUTPUT}"
@@ -40,7 +41,6 @@ for i in "${!GPUS[@]}"; do
     GPU_ID=${GPUS[$i]}
     CHUNK_FILE="${WORK_DIR}/chunk_0${i}"
     
-    # Define Paths
     SHARD_ROOT="${WORK_DIR}/shard_${i}"
     SHARD_INPUT="${SHARD_ROOT}/input"
     SHARD_SCRIPT="${SHARD_ROOT}/run.py"
@@ -53,23 +53,23 @@ for i in "${!GPUS[@]}"; do
     # B. Copy Script
     cp "${SCRIPT_NAME}" "${SHARD_SCRIPT}"
     
-    # C. *** KEY FIX ***: SYMBOLIC LINK TO CHATTTS
-    # We put a "shortcut" to the ChatTTS folder inside the shard folder.
-    # Python will find it immediately.
-    ln -s "${PROJECT_ROOT}/ChatTTS" "${SHARD_ROOT}/ChatTTS"
-    # Also link 'voices' folder just in case your script looks for relative path 'voices/'
-    ln -s "${PROJECT_ROOT}/voices" "${SHARD_ROOT}/voices"
-
-    # D. Modify Paths in Python Script
-    sed -i "s|SAMPLE_DIR.*=.*Path(.*)|SAMPLE_DIR = Path(\"${SHARD_INPUT}\")|g" "${SHARD_SCRIPT}"
-    sed -i "s|OUT_DIR.*=.*Path(.*)|OUT_DIR = Path(\"${FINAL_OUTPUT}\")|g" "${SHARD_SCRIPT}"
-    sed -i "s|\"metadata.csv\"|\"metadata_gpu${GPU_ID}.csv\"|g" "${SHARD_SCRIPT}"
+    # C. *** ABSOLUTE PATH INJECTION (The Fix) ***
     
-    # Also fix VOICE_DIR to use absolute path or the local link
-    # (Optional safety measure: force VOICE_DIR to be the linked one)
-    sed -i "s|VOICE_DIR.*=.*Path(.*)|VOICE_DIR = Path(\"${SHARD_ROOT}/voices\")|g" "${SHARD_SCRIPT}"
+    # 1. Insert code at line 1 to force Python to look in your root folder
+    #    This fixes "ModuleNotFoundError: No module named 'ChatTTS'"
+    sed -i "1i import sys; sys.path.insert(0, '${PROJECT_ROOT}')" "${SHARD_SCRIPT}"
 
-    # E. Launch (No PYTHONPATH needed anymore!)
+    # 2. Update Data Paths to be Absolute
+    sed -i "s|SAMPLE_DIR.*=.*Path(.*)|SAMPLE_DIR = Path(\"${SHARD_INPUT}\")|g" "${SHARD_SCRIPT}"
+    sed -i "s|OUT_DIR.*=.*Path(.*)|OUT_DIR = Path(\"${PROJECT_ROOT}/${FINAL_OUTPUT}\")|g" "${SHARD_SCRIPT}"
+    
+    # 3. Update Voice Dir to Absolute (Fixes "Missing manifest.json" errors)
+    sed -i "s|VOICE_DIR.*=.*Path(.*)|VOICE_DIR = Path(\"${PROJECT_ROOT}/voices\")|g" "${SHARD_SCRIPT}"
+
+    # 4. CSV Renaming
+    sed -i "s|\"metadata.csv\"|\"metadata_gpu${GPU_ID}.csv\"|g" "${SHARD_SCRIPT}"
+
+    # D. Launch
     LOG_FILE="${LOG_DIR}/gpu_${GPU_ID}.log"
     echo "🚀 Launching GPU ${GPU_ID}..."
     
@@ -80,4 +80,4 @@ done
 
 echo ""
 echo "✅ All jobs running."
-echo "   Monitor: tail -f ${LOG_DIR}/*.log"
+echo "   Monitor logs: tail -f ${LOG_DIR}/*.log"
