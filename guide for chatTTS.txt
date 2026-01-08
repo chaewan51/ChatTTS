@@ -14,3 +14,12 @@ pip install torch torchvision --index-url https://download.pytorch.org/whl/cu126
 
 python -c "import torch; print(torch.__version__); print(torch.cuda.is_available()); print(torch.cuda.get_device_name(0) if torch.cuda.is_available() else 'no gpu')"
 
+
+###########################################
+conda create -n chattts python=3.11
+conda activate chatttts
+pip install -r requirements.txt
+
+git remote set-url origin 
+
+git add -f sample_output_reliable/
