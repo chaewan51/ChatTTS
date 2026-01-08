@@ -4,7 +4,7 @@ set -e
 # ==============================
 # 1. CONFIGURATION
 # ==============================
-SCRIPT_NAME="process_data.py"
+SCRIPT_NAME="testing3_final.py"  # Make sure this matches your python filename
 
 # Original Input Folder
 ORIGINAL_INPUT="input_data/Output_STEP1+2_ENGLISH_TTS"
@@ -18,6 +18,8 @@ GPUS=(3 5 6 7)
 # Temporary workspace for splitting inputs
 WORK_DIR="workspace_shards"
 LOG_DIR="logs_chattts"
+# KEY FIX: Capture the absolute path of your project root
+PROJECT_ROOT=$(pwd)
 
 mkdir -p "${LOG_DIR}"
 mkdir -p "${FINAL_OUTPUT}"
@@ -71,7 +73,9 @@ for i in "${!GPUS[@]}"; do
     LOG_FILE="${LOG_DIR}/gpu_${GPU_ID}.log"
     echo "🚀 Launching GPU ${GPU_ID}..."
     
-    nohup env CUDA_VISIBLE_DEVICES="${GPU_ID}" \
+    # --- FIX IS HERE ---
+    # We add PYTHONPATH="${PROJECT_ROOT}" so python knows where to find 'ChatTTS' folder
+    nohup env CUDA_VISIBLE_DEVICES="${GPU_ID}" PYTHONPATH="${PROJECT_ROOT}" \
         python "${SHARD_SCRIPT}" > "${LOG_FILE}" 2>&1 &
         
 done
@@ -79,4 +83,4 @@ done
 echo ""
 echo "✅ All jobs running."
 echo "   Audio files will appear in: ${FINAL_OUTPUT}"
-echo "   You will see 4 CSV files there: metadata_gpu0.csv, metadata_gpu1.csv, etc."
+echo "   Monitor errors in: ${LOG_DIR}/gpu_*.log"
