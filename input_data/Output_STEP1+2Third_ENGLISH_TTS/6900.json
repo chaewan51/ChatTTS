@@ -1,0 +1,159 @@
+{
+  "id": 6900,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Contentious"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_B",
+        "text": "I mean, it's pretty clear, isn't it? If countries like Kenya just, uh, completely outlaw abortion, then the problem of unsafe procedures just, like, disappears.",
+        "tts_text": "I mean, it's pretty clear, isn't it? If countries like Kenya just, uh, completely outlaw abortion, then the problem of unsafe procedures just, like, disappears.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "But it is well documented that outlawing abortion does not end the practice.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "What? No, no, that's, that's actually totally false. The article specifically says outlawing abortion does not end the practice at all.",
+        "tts_text": "What? No, no, that's, that's actually totally false. The article specifically says outlawing abortion does not end the practice at all.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "But it is well documented that outlawing abortion does not end the practice.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Well, but if they have, like, more progressive laws, then why are people still going to, uh, these dangerous providers? It's on them, isn't it?",
+        "tts_text": "Well, but if they have, like, more progressive laws, then why are people still going to, uh, these dangerous providers? It's on them, isn't it?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "It's not \"on them\"! The implementation is undermined! And that opposition, it’s, like, funded by foreign money. Women are literally having their uteruses perforated with sharp objects because they have no other safe options.",
+        "tts_text": "It's not on them! The implementation is undermined! And that opposition, it's, like, funded by foreign money. Women are literally having their uteruses perforated with sharp objects because they have no other safe options.",
+        "check_worthy": true,
+        "factual_label": "NEI",
+        "evidence_snippet": "The article mentions that \"enduring opposition to abortion has undermined implementation\" and that providers \"perforate womens uteruses with sharp objects\", but it does not mention the source of funding for the opposition.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Okay, but then, the solution is clearly prevention, right? Like, comprehensive sex education, contraception. We don't need, um, to make it easier for them to, you know, terminate.",
+        "tts_text": "Okay, but then, the solution is clearly prevention, right? Like, comprehensive sex education, contraception. We don't need, um, to make it easier for them to, you know, terminate.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Absolutely, prevention is crucial. But the article makes it clear that CSE and contraception are also being undermined by moralizing resistance! And women don't just, uh, \"terminate on a whim.\" This is about their health.",
+        "tts_text": "Absolutely, prevention is crucial. But the article makes it clear that C S E and contraception are also being undermined by moralizing resistance! And women don't just, uh, terminate on a whim. This is about their health.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "women do not terminate pregnancies on a whim... like the right to abortion, the right to CSE is often not respected, owing to moralizing resistance from religious leaders and anti-choice movements...",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Still, it's, uh, a moral issue at its core. You can't just, like, sweep that under the rug and say it's all about health.",
+        "tts_text": "Still, it's, uh, a moral issue at its core. You can't just, like, sweep that under the rug and say it's all about health.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "But it is about health! When they're using corrosive acid solutions and dying, or losing their uterus, that's a health crisis! And the government isn't even providing the basic education, so how can they blame women?",
+        "tts_text": "But it is about health! When they're using corrosive acid solutions and dying, or losing their uterus, that's a health crisis! And the government isn't even providing the basic education, so how can they blame women?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "women try to induce abortions by ingesting large amounts of painkillers or poisoning themselves with detergents. Some die; others are left with no uterus... How can a government that fails to ensure CSE or invest adequately in family planning penalize its women for unwanted pregnancies?",
+        "confidence": 0.9,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "I just think, um, there's always another way. We should focus all efforts on supporting, uh, safe pregnancies.",
+        "tts_text": "I just think, um, there's always another way. We should focus all efforts on supporting, uh, safe pregnancies.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Support? How? When American conservative organizations are pumping fifty million dollars into Kenya to block access even to existing, progressive laws? That's not support.",
+        "tts_text": "Support? How? When American conservative organizations are pumping fifty million dollars into Kenya to block access even to existing, progressive laws? That's not support.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The provided article does not contain information about American conservative organizations or a specific monetary figure being used to block access to abortion in Kenya.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "That's, uh, that's a different discussion about, like, foreign policy or something. My point is, the, um, the moral imperative to protect life.",
+        "tts_text": "That's, uh, that's a different discussion about, like, foreign policy or something. My point is, the, um, the moral imperative to protect life.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "The moral imperative is also to protect the life and health of the mother. The article explicitly states that prioritizing a fetus over the mother's needs is just going to make things worse, more dangerous.",
+        "tts_text": "The moral imperative is also to protect the life and health of the mother. The article explicitly states that prioritizing a fetus over the mother's needs is just going to make things worse, more dangerous.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Condemning them will not change their minds; nor will prioritizing the development of a fetus over the needs, rights, and wellbeing of its mother. All it will do is make them more likely to risk their health and lives seeking an unsafe abortion.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "I still, uh, I just can't agree that abortion is, like, the solution. It feels like giving up.",
+        "tts_text": "I still, uh, I just can't agree that abortion is, like, the solution. It feels like giving up.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Giving up? It's about recognizing reality. When the system fails them from childhood on, and they're facing death from a back-alley procedure, then, yeah, a safe option is not \"giving up.\" It's, it's survival.",
+        "tts_text": "Giving up? It's about recognizing reality. When the system fails them from childhood on, and they're facing death from a back-alley procedure, then, yeah, a safe option is not giving up. It's, it's survival.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Well, I just think, um, we're talking about, like, ending a life. And that's, uh, that's just always wrong.",
+        "tts_text": "Well, I just think, um, we're talking about, like, ending a life. And that's, uh, that's just always wrong.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "And I think we're talking about women being maimed or dead because society refuses to address systemic failures and then punishes them. That's, uh, that's the real wrong here.",
+        "tts_text": "And I think we're talking about women being maimed or dead because society refuses to address systemic failures and then punishes them. That's, uh, that's the real wrong here.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "It is time to address the systemic failures that lead to girls and women ending up maimed or dead... How can a society that ignores womens suffering blame the victims for its inaction?",
+        "confidence": 1.0,
+        "priority": "high"
+      }
+    ]
+  },
+  "batch_index": 3
+}

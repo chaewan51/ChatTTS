@@ -1,0 +1,179 @@
+{
+  "id": 6685,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Argumentative"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "...so you see, I mean, the market's totally fine! Up 450 points, like, Dow Jones, S&P, Nasdaq all soaring. It's a clear bounce back.",
+        "tts_text": "...so you see, I mean, the market's totally fine! Up four hundred fifty points, like, Dow Jones, S&P, Nasdaq all soaring. It's a clear bounce back.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The Dow Jones Industrial Average was up 1.6%, around 450 points, on Wednesday, while the S&P 500 rose 1.8% and the tech-heavy Nasdaq Composite gained 1.9%.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Clear bounce back? Are you serious, A? You're actually gonna ignore why it bounced? It was because of, um, rumors of a cure for the common cold!",
+        "tts_text": "Clear bounce back? Are you serious, A? You're actually gonna ignore why it bounced? It was because of, um, rumors of a cure for the common cold!",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Wednesdays rally is simply a bounce from oversold conditions but investors shouldnt anticipate a V-shaped move right back to the highs, says Vital Knowledge founder Adam Crisafulli.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "So what? It shows optimism, B! People are ready to invest, they're shrugging off the negativity. Look at Apple, Tesla, all up.",
+        "tts_text": "So what? It shows optimism, B! People are ready to invest, they're shrugging off the negativity. Look at Apple, Tesla, all up.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Teslas stock, which had its worst day ever on Tuesdayfalling 21% after being snubbed from the S&P 500 index, rose over 5% on Wednesday. Shares of Apple, which fell 14% in the previous three sessions, also rebounded on Wednesday, gaining over 3%.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Apple was down, what, 14%? And Tesla had its worst day ever! A 5% gain after a 21% drop isn't exactly, like, a roaring success story.",
+        "tts_text": "Apple was down, what, fourteen percent? And Tesla had its worst day ever! A five percent gain after a twenty one percent drop isn't exactly, like, a roaring success story.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Teslas stock, which had its worst day ever on Tuesdayfalling 21% after being snubbed from the S&P 500 index, rose over 5% on Wednesday. Shares of Apple, which fell 14% in the previous three sessions, also rebounded on Wednesday, gaining over 3%.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "But they recovered! And tech stocks overall, like Microsoft and Amazon, they're all moving higher after being in correction territory. That's resilience, B!",
+        "tts_text": "But they recovered! And tech stocks overall, like Microsoft and Amazon, they're all moving higher after being in correction territory. That's resilience, B!",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Tech stocks rebounded somewhat, a day after the Nasdaq fell into correction territory, with shares of Microsoft, Amazon, Facebook and Google-parent Alphabet all moving higher.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Resilience? Or just, um, an \"oversold\" market having a dead cat bounce, exactly what Adam Crisafulli said. Seriously, a common cold cure?",
+        "tts_text": "Resilience? Or just, um, an oversold market having a dead cat bounce, exactly what Adam Crisafulli said. Seriously, a common cold cure?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Wednesdays rally is simply a bounce from oversold conditions but investors shouldnt anticipate a V-shaped move right back to the highs, says Vital Knowledge founder Adam Crisafulli.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "The common cold thing, that's just a proxy for general sentiment, you know? The underlying strength is there. People are looking for reasons to be positive.",
+        "tts_text": "The common cold thing, that's just a proxy for general sentiment, you know? The underlying strength is there. People are looking for reasons to be positive.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Reasons? They literally shrugged off a halted vaccine trial for AstraZeneca because some poor bloke got, like, a \"mysterious illness\" which is now Rettig's Syndrome! How is that positive?",
+        "tts_text": "Reasons? They literally shrugged off a halted vaccine trial for AstraZeneca because some poor bloke got, like, a mysterious illness which is now Rettig's Syndrome! How is that positive?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Investors also shrugged off a setback with AstraZeneca and Oxfords late-stage coronavirus vaccine, which has now been put on hold due to a patient in the U.K. coming down with a mysterious illness.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Investors are forward-looking! They're seeing past temporary setbacks. The big picture, B, is that money is flowing back in.",
+        "tts_text": "Investors are forward-looking! They're seeing past temporary setbacks. The big picture, B, is that money is flowing back in.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "No, the big picture is volatility. Lululemon and Slack, both with better-than-expected earnings, still plummeted! How do you explain that?",
+        "tts_text": "No, the big picture is volatility. Lululemon and Slack, both with better-than-expected earnings, still plummeted! How do you explain that?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Despite both companies reporting better-than-expected corporate earnings, shares of athletic retailer Lululemon and workplace messaging platform Slack fell more than 7% and 14%, respectively.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Those are outliers! They're specific company issues, not reflective of the broader market strength we're seeing.",
+        "tts_text": "Those are outliers! They're specific company issues, not reflective of the broader market strength we're seeing.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh, so Tesla's boardroom drama with Musk threatening the S&P committee isn't a specific issue? That's just normal market behavior to you?",
+        "tts_text": "Oh, so Tesla's boardroom drama with Musk threatening the S&P committee isn't a specific issue? That's just normal market behavior to you?",
+        "check_worthy": true,
+        "factual_label": "NEI",
+        "evidence_snippet": "Teslas stock, which had its worst day ever on Tuesdayfalling 21% after being snubbed from the S&P 500 index, rose over 5% on Wednesday.",
+        "confidence": 0.9,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "It shows, like, strong leadership! He's fighting for his company, that's what investors want to see.",
+        "tts_text": "It shows, like, strong leadership! He's fighting for his company, that's what investors want to see.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "No, it shows chaos! The market is just reacting to fumes, you know, any little whisper. Crisafulli literally said \"bounces right now should be sold, not chased.\"",
+        "tts_text": "No, it shows chaos! The market is just reacting to fumes, you know, any little whisper. Crisafulli literally said bounces right now should be sold, not chased.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "If anything, sentiment around tech isnt conducive to forming a sustainable bottom with most people asking when (not if) the group should be bought as a result, bounces right now should be sold, not chased.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Crisafulli is being overly cautious! This isn't just a bounce, this is a sign of underlying buyer confidence.",
+        "tts_text": "Crisafulli is being overly cautious! This isn't just a bounce, this is a sign of underlying buyer confidence.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Confidence built on, um, nothing substantial. It's not sustainable, A, you really think this is where we turn the corner?",
+        "tts_text": "Confidence built on, um, nothing substantial. It's not sustainable, A, you really think this is where we turn the corner?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "I absolutely do! This is the start of a strong recovery. You're just too cynical to see it.",
+        "tts_text": "I absolutely do! This is the start of a strong recovery. You're just too cynical to see it.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "I'm realistic. This is a house of cards, built on, like, wishful thinking and cold remedies.",
+        "tts_text": "I'm realistic. This is a house of cards, built on, like, wishful thinking and cold remedies.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  },
+  "batch_index": 3
+}

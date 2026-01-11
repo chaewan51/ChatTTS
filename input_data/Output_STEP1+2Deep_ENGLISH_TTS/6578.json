@@ -1,0 +1,195 @@
+{
+  "id": 6578,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "co-hosts",
+      "inferred_vibe": "Informative discussion"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "HostA",
+        "text": "Over 100,000 downloads for the Bridgefy app in Hong Kong this week alone.",
+        "tts_text": "Over one hundred thousand downloads for the Bridgefy app in Hong Kong this week alone.",
+        "check_worthy": true,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Yeah, it's become the go-to offline messaging app, replacing Firechat from the 2015 protests.",
+        "tts_text": "Yeah, it's become the go-to offline messaging app, replacing Firechat from the twenty fifteen protests.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "As Forbes reported earlier this week, the app has seen download numbers spike due to the political crisis in the city, and it appears to have become the de facto offline messaging app replacing Firechat, which became popular during the 2014 pro-democracy protests.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Right, and it uses a mesh network, so phones connect via Bluetooth without needing cell towers or the internet.",
+        "tts_text": "Right, and it uses a mesh network, so phones connect via Bluetooth without needing cell towers or the internet.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "That means smartphones use short-range Bluetooth connections to form their own network independent of the carrier cell masts and the internet.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Which makes it really tough for authorities to shut down, since there's no single point of failure.",
+        "tts_text": "Which makes it really tough for authorities to shut down, since there's no single point of failure.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "There is no single point of failure that police could target to shut Bridgefy down.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "But, um, that doesn't mean it's completely safe. Police could still join the network and flood it with fake messages.",
+        "tts_text": "But, um, that doesn't mean it's completely safe. Police could still join the network and flood it with fake messages.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "For instance, police could sign up to Bridgefy and, at the very least, cause confusion by flooding the network with fake broadcasts.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Like sending out broadcasts that tell protesters to gather in a trap location—that's scary.",
+        "tts_text": "Like sending out broadcasts that tell protesters to gather in a trap location-that's scary.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Imagine a flurry of messages telling protestors to organize in a particular location, one where authorities are lying in wait.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Exactly. And Matthew Green, an associate professor at Harvard, pointed out some security flaws too.",
+        "tts_text": "Exactly. And Matthew Green, an associate professor at Harvard, pointed out some security flaws too.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Matthew Green, associate professor at the Johns Hopkins Information Security Institute, downloaded the app to review its security and privacy.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "He mentioned issues with message confidentiality and authenticity, right? Like, how do you know who you're really talking to?",
+        "tts_text": "He mentioned issues with message confidentiality and authenticity, right? Like, how do you know who you're really talking to?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "He told Forbes the main security issues with Bridgefy are the confidentiality and authenticity of any messages sent through untrusted third-party phones.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Yeah, and he wasn't sure how Bridgefy handles encryption securely when their servers are offline.",
+        "tts_text": "Yeah, and he wasn't sure how Bridgefy handles encryption securely when their servers are offline.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Im not sure how Bridgefy does this in a secure way when their servers are offline, added Green.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Though Bridgefy's spokesperson did say they use end-to-end RSA encryption for private messages.",
+        "tts_text": "Though Bridgefy's spokesperson did say they use end-to-end R S A encryption for private messages.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "We use end-to-end RSA encryption on private direct and mesh messaging, the spokesperson said (RSA is a well-known cryptographic standard).",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "But broadcast messages aren't encrypted at all, which is intentional so everyone can read them.",
+        "tts_text": "But broadcast messages aren't encrypted at all, which is intentional so everyone can read them.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Broadcast messages are purposefully not encrypted, so everyone can read them.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "And they admitted no app can be bulletproof against snooping, which is fair but concerning.",
+        "tts_text": "And they admitted no app can be bulletproof against snooping, which is fair but concerning.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The spokesperson admitted, though, that no app can be bulletproof from snooping.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Green also brought up metadata risks—like device identifiers that could reveal users' identities.",
+        "tts_text": "Green also brought up metadata risks-like device identifiers that could reveal users' identities.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Green also highlighted concerns about collection of metadata, especially if some people running the app are also police. That metadata could include a Bridgefy users mobile phone device identifier.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Especially if police are on the app or if governments pressure carriers or companies like Tencent for data.",
+        "tts_text": "Especially if police are on the app or if governments pressure carriers or companies like Tencent for data.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Chinas government could simply demand Tencent hand over a list of users running the app and where theyre located.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "There's even a threat of malware spread through malicious links in broadcasts.",
+        "tts_text": "There's even a threat of malware spread through malicious links in broadcasts.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Theres also the threat of a government spreading malware via the app with broadcasts pushing malicious links.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Given China's history of targeting dissident groups, like in Tibet, the risks are very real.",
+        "tts_text": "Given China's history of targeting dissident groups, like in Tibet, the risks are very real.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Given recent revelations about a sophisticated hacking operation targeting the iPhones, Androids and Windows devices of people from Chinas Uighur ethnic group, its clear any group identified as dissident by Chinas communist government faces serious threats to their cybersecurity.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "But if people are willing to accept those risks, Bridgefy can still be a useful tool in extreme situations.",
+        "tts_text": "But if people are willing to accept those risks, Bridgefy can still be a useful tool in extreme situations.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "But if they're willing to accept the risk, Bridgefy could remain a useful tool for communicating and organizing in extreme situations.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "It's a trade-off, for sure—convenience and accessibility versus potential surveillance.",
+        "tts_text": "It's a trade-off, for sure-convenience and accessibility versus potential surveillance.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      }
+    ]
+  },
+  "generator_model": "DeepSeek-V3.1",
+  "batch_index": 2
+}

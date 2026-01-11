@@ -1,0 +1,144 @@
+{
+  "id": 3922,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "colleagues",
+      "inferred_vibe": "informal news discussion"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "HostA",
+        "text": "The Tokyo Organizing Committee just dropped a major announcement about overseas spectators for the Olympics.",
+        "tts_text": "The Tokyo Organizing Committee just dropped a major announcement about overseas spectators for the Olympics.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Overseas spectators will be prohibited from attending the Summer Olympics in Tokyo, the games' organizing committee announced Saturday, a move they hope will mitigate the concerns of Japanese citizens over the risk that the games will seed Covid-19 outbreaks.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Oh, right, they're not allowing them at all. That's huge, especially with, like, 1.2 million tickets sold internationally.",
+        "tts_text": "Oh, right, they're not allowing them at all. That's huge, especially with, like, one point two million tickets sold internationally.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "According to the organizers, approximately 600,000 tickets were sold overseas, although the Associated Press reported that number is closer to 1 million.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Yeah, and they made this call unilaterally, without even consulting the International Olympic Committee or the Japanese government. That's pretty bold.",
+        "tts_text": "Yeah, and they made this call unilaterally, without even consulting the International Olympic Committee or the Japanese government. That's pretty bold.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The Tokyo Organizing Committee made the decision jointly with national and local governments in Japan and the International Olympic and Paralympic Committees.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "I mean, it makes sense from a safety standpoint, but uh, what about all the people who already bought tickets? They're not getting refunds?",
+        "tts_text": "I mean, it makes sense from a safety standpoint, but uh, what about all the people who already bought tickets? They're not getting refunds?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostA",
+        "text": "Nope, no refunds on tickets, but they did say they'll cover cancellation fees for flights and hotels. Yoshiro Muto confirmed that.",
+        "tts_text": "Nope, no refunds on tickets, but they did say they'll cover cancellation fees for flights and hotels. Yoshiro Muto confirmed that.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The Tokyo Organizing Committee asserted that refunds for tickets would be issued, but Tokyo 2020 Chief Executive Officer Toshiro Muto said cancellation fees related to airline travel and accommodations previously booked would not be covered.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Okay, that's something at least. But still, that's gotta be frustrating for so many fans who were planning to go.",
+        "tts_text": "Okay, that's something at least. But still, that's gotta be frustrating for so many fans who were planning to go.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostA",
+        "text": "For sure. And they're gonna decide on domestic spectator limits by the end of this month, which is coming up fast.",
+        "tts_text": "For sure. And they're gonna decide on domestic spectator limits by the end of this month, which is coming up fast.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Muto said a determination on capacity limits at venues for domestic spectators would be made before the end of next month.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Yeah, and you know, public opinion in Japan is really split—like 20% want the games postponed or canceled entirely.",
+        "tts_text": "Yeah, and you know, public opinion in Japan is really split-like twenty percent want the games postponed or canceled entirely.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "About 80% of Japanese believe the games, which are scheduled to begin in July, should be postponed again or canceled altogether, according to a survey by national broadcaster NHK.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Even with over 660,000 cases and 12,000 deaths in the country, most people still want the Olympics to go ahead. It's such a tough call.",
+        "tts_text": "Even with over six hundred sixty thousand cases and twelve thousand deaths in the country, most people still want the Olympics to go ahead. It's such a tough call.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Although Japan has managed the pandemic better than most countries, with fewer than 460,000 confirmed cases and 9,000 deaths nationwide, Japanese are not in favor of proceeding with hosting the Olympics. About 80% of Japanese believe the games, which are scheduled to begin in July, should be postponed again or canceled altogether, according to a survey by national broadcaster NHK.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "And now the torch relay starts Wednesday in Hiroshima Prefecture, with 5,000 runners crossing the country.",
+        "tts_text": "And now the torch relay starts Wednesday in Hiroshima Prefecture, with five thousand runners crossing the country.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The torch relay for the games will begin Thursday in Fukushima Prefecture and will last four months, with roughly 10,000 runners traversing the country.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Right, two months of that before the opening ceremony at Tokyo Dome on July 23rd. It's all happening soon.",
+        "tts_text": "Right, two months of that before the opening ceremony at Tokyo Dome on July twenty third. It's all happening soon.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The torch relay for the games will begin Thursday in Fukushima Prefecture and will last four months, with roughly 10,000 runners traversing the country. It will conclude at National Stadium in Tokyo during the opening ceremony, scheduled to take place on July 23.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "But then there's also this whole thing with the state of emergency extension being rejected by the advisory panel… it's just messy.",
+        "tts_text": "But then there's also this whole thing with the state of emergency extension being rejected by the advisory panel... it's just messy.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "On Thursday, the Japanese government's advisory panel on coronavirus countermeasures approved the plan.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Totally messy. Feels like every day there's another layer to this Olympic puzzle.",
+        "tts_text": "Totally messy. Feels like every day there's another layer to this Olympic puzzle.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      }
+    ]
+  },
+  "generator_model": "DeepSeek-V3.1",
+  "batch_index": 2,
+  "artist_script": "HostA: The Tokyo Organizing Committee just dropped a major announcement about overseas spectators for the Olympics.\nHostB: Oh, right, they’re not allowing them at all. That’s huge, especially with, like, 1.2 million tickets sold internationally.\nHostA: Yeah, and they made this call unilaterally, without even consulting the International Olympic Committee or the Japanese government. That’s pretty bold.\nHostB: I mean, it makes sense from a safety standpoint, but uh, what about all the people who already bought tickets? They’re not getting refunds?\nHostA: Nope, no refunds on tickets, but they did say they’ll cover cancellation fees for flights and hotels. Yoshiro Muto confirmed that.\nHostB: Okay, that’s something at least. But still, that’s gotta be frustrating for so many fans who were planning to go.\nHostA: For sure. And they’re gonna decide on domestic spectator limits by the end of this month, which is coming up fast.\nHostB: Yeah, and you know, public opinion in Japan is really split—like 20% want the games postponed or canceled entirely.\nHostA: Even with over 660,000 cases and 12,000 deaths in the country, most people still want the Olympics to go ahead. It’s such a tough call.\nHostB: And now the torch relay starts Wednesday in Hiroshima Prefecture, with 5,000 runners crossing the country.\nHostA: Right, two months of that before the opening ceremony at Tokyo Dome on July 23rd. It’s all happening soon.\nHostB: But then there’s also this whole thing with the state of emergency extension being rejected by the advisory panel… it’s just messy.\nHostA: Totally messy. Feels like every day there’s another layer to this Olympic puzzle."
+}

@@ -1,0 +1,113 @@
+{
+  "id": 11469,
+  "language": "english",
+  "hallucination": "no",
+  "ground_truth_source": "text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Informative and enthusiastic"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "HostA",
+        "text": "Almaty is gearing up for a massive drone show on May 9th to mark Victory Day.",
+        "tts_text": "Almaty is gearing up for a massive drone show on May ninth to mark Victory Day.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "On May 9, a drone show will be held in Almaty in honor of the 80th anniversary of Victory in the Great Patriotic War, according to the city akimat.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Oh, right, the 80th anniversary of the Great Patriotic War. I heard they're using over 500 drones for this.",
+        "tts_text": "Oh, right, the eightieth anniversary of the Great Patriotic War. I heard they're using over five hundred drones for this.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "On May 9, a drone show will be held in Almaty in honor of the 80th anniversary of Victory in the Great Patriotic War, according to the city akimat. The light show, featuring over 500 drones, will take place at 9:00 PM on Abay Square.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Yeah, and it's happening at Abay Square at 9 PM. The visuals are gonna be something else—they're animating figures like Manshuk Mametova and Aliya Moldagulova in the sky.",
+        "tts_text": "Yeah, and it's happening at Abay Square at nine P M. The visuals are gonna be something else-they're animating figures like Manshuk Mametova and Aliya Moldagulova in the sky.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The light show, featuring over 500 drones, will take place at 9:00 PM on Abay Square. In the sky over Almaty, images of legendary heroines Manshuk Mametova and Aliya Moldagulova, as well as Baurzhan Momyshuly, will come to life.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Wow, honoring those heroines with light animation… that's a powerful way to, um, bring their stories to life.",
+        "tts_text": "Wow, honoring those heroines with light animation... that's a powerful way to, um, bring their stories to life.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostA",
+        "text": "Absolutely. And they're including cranes as a symbol of remembrance, which is such a poignant touch.",
+        "tts_text": "Absolutely. And they're including cranes as a symbol of remembrance, which is such a poignant touch.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The show will also include cranes as a symbol of remembrance, and will end with the phrase Zhenis kuni kutty bolsyn! (Happy Victory Day!) displayed against a background of Kazakh ornaments.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "I love that. And it ends with \"Zhenis kuni kutty bolsyn!\" against traditional Kazakh patterns—really tying culture and history together.",
+        "tts_text": "I love that. And it ends with Zhenis kuni kutty bolsyn! against traditional Kazakh patterns-really tying culture and history together.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The show will also include cranes as a symbol of remembrance, and will end with the phrase Zhenis kuni kutty bolsyn! (Happy Victory Day!) displayed against a background of Kazakh ornaments.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "But heads up—traffic around central Almaty's gonna be tricky that evening. From 8:30 to 9:30 PM, they're closing parts of Abay and Dostyk Avenues.",
+        "tts_text": "But heads up-traffic around central Almaty's gonna be tricky that evening. From eight thirty to nine thirty p m, they're closing parts of Abay and Dostyk Avenues.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Due to preparations and the event itself, temporary traffic restrictions will be in place in central Almaty on May 9 from 8:30 PM to 9:30 PM. Closures will affect Abay Avenue from Nazarbayev to Dostyk, and Dostyk Avenue from Kurmangazy Street to Satpayev Street, the akimat stated.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Yeah, the akimat's advising everyone to plan their routes in advance. Probably smart to get there early if you wanna catch it live.",
+        "tts_text": "Yeah, the akimat's advising everyone to plan their routes in advance. Probably smart to get there early if you wanna catch it live.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Residents and visitors are advised to plan their routes in advance.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "For sure. It's one of those events where the tech meets tradition in a really moving way.",
+        "tts_text": "For sure. It's one of those events where the tech meets tradition in a really moving way.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostB",
+        "text": "Makes me wish I could be there to see those drones light up the sky with history.",
+        "tts_text": "Makes me wish I could be there to see those drones light up the sky with history.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      }
+    ]
+  },
+  "generator_model": "DeepSeek-V3.1",
+  "batch_index": 2
+}

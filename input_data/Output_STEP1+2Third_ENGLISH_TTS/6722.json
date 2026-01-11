@@ -1,0 +1,159 @@
+{
+  "id": 6722,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Friends/Colleagues",
+      "inferred_vibe": "Casual and skeptical"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "So, Airbnb's finally, like, collapsing, right? I saw something about them losing market share.",
+        "tts_text": "So, Airbnb's finally, like, collapsing, right? I saw something about them losing market share.",
+        "check_worthy": true,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Uh, actually, no. Quite the opposite. They just had, um, a monumental year in China. 125% growth in listings.",
+        "tts_text": "Uh, actually, no. Quite the opposite. They just had, um, a monumental year in China. one hundred twenty five percent growth in listings.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Its a promotional opportunity for the company, clearly, to spotlight the 125% growth in its number of listings in China in the last year and the 3.3 million guest arrivals over the last year in those properties.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Oh. Right. China. Still, who cares?",
+        "tts_text": "Oh. Right. China. Still, who cares?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Well, they're celebrating by letting people spend a night on the Great Wall of China.",
+        "tts_text": "Well, they're celebrating by letting people spend a night on the Great Wall of China.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The four winners (plus a guest each) will be in residence for a night each during the time period September 4-8th",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Seriously? You mean like, in a tent? Sounds pretty uncomfortable.",
+        "tts_text": "Seriously? You mean like, in a tent? Sounds pretty uncomfortable.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "No, no, it's, like, a custom-built bed with silk linens inside a watchtower. And a retractable roof for moonlit views.",
+        "tts_text": "No, no, it's, like, a custom-built bed with silk linens inside a watchtower. And a retractable roof for moonlit views.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The accommodations will be located in one of the towers, a large bed installed with fine quality linens and blanketsnecessary because although plexiglass will cover the ceiling and windows allowing the moon and stars to show through, theres also the possibility of cool night air.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "A retractable roof. In a watchtower. Uh, it's going to be freezing, isn't it? And where do you, you know, go to the bathroom?",
+        "tts_text": "A retractable roof. In a watchtower. Uh, it's going to be freezing, isn't it? And where do you, you know, go to the bathroom?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "They have portable bathrooms, or you can use, um, the more rustic facilities along the Wall. But there's a private chef! A multi-course banquet with a traditional orchestra!",
+        "tts_text": "They have portable bathrooms, or you can use, um, the more rustic facilities along the Wall. But there's a private chef! A multi-course banquet with a traditional orchestra!",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Portable bathrooms are being brought in (or guests can wander down the Wall to permanent facilities.) The dining table will be set up for a multi course Chinese banquet, each course illustrating a particular aspect of Chinese culture, and accompanied by traditional musicians.",
+        "confidence": 0.9,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "An orchestra. For me while I'm using a rustic toilet. Cool. What else?",
+        "tts_text": "An orchestra. For me while I'm using a rustic toilet. Cool. What else?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "A guided hike with historians, like, Dr. Li Wei, an expert on the Ming Dynasty. Unparalleled insights into the Wall's 2600-year-old history.",
+        "tts_text": "A guided hike with historians, like, Dr. Li Wei, an expert on the Ming Dynasty. Unparalleled insights into the Wall's two thousand, six hundred-year-old history.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Official historians will be alongside to detail the 2600 years of history, the contributions of the various dynasties, intricacies of construction and purpose along with current preservation efforts.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "So, a history lesson? While hiking at dawn. Sounds like vacation.",
+        "tts_text": "So, a history lesson? While hiking at dawn. Sounds like vacation.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "And you get to learn calligraphy and seal engraving with master artisans!",
+        "tts_text": "And you get to learn calligraphy and seal engraving with master artisans!",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Guests will also be given the opportunity to learn other aspects of Chinese culture such as calligraphy and seal engraving, activities generally offered on other, more typical, Airbnb stays, before they depart.",
+        "confidence": 0.9,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Uh huh. So, how do you even get into this, uh, exclusive rustic toilet experience?",
+        "tts_text": "Uh huh. So, how do you even get into this, uh, exclusive rustic toilet experience?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "You have to write an essay. About why breaking down cultural barriers is more critical than ever, and fostering new connections.",
+        "tts_text": "You have to write an essay. About why breaking down cultural barriers is more critical than ever, and fostering new connections.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "To enter, participants need to do a bit of writing, explaining why it is more important now than ever to break down barriers between cultures and how they want to build new connections.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Of course, you do. An essay. So, it's an essay contest to sleep on a watchtower with a portable toilet and then get lectured.",
+        "tts_text": "Of course, you do. An essay. So, it's an essay contest to sleep on a watchtower with a portable toilet and then get lectured.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "But it's the Great Wall! The history! Imagine the sunrise! It's, like, a once-in-a-lifetime opportunity.",
+        "tts_text": "But it's the Great Wall! The history! Imagine the sunrise! It's, like, a once-in-a-lifetime opportunity.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  },
+  "batch_index": 3
+}

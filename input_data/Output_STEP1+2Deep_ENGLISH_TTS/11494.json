@@ -1,0 +1,112 @@
+{
+  "id": 11494,
+  "language": "english",
+  "hallucination": "no",
+  "ground_truth_source": "text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Concerned and Informative"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "HostA",
+        "text": "The water level in the Shelek River is at 158 centimeters as of noon on May 4th.",
+        "tts_text": "The water level in the Shelek River is at one hundred fifty eight centimeters as of noon on May fourth.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "According to meteorologists, as of 12:00 p.m., May 4, the water level stands at 158 centimeters.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Oh wow, that's, uh, that's getting really close to the danger mark of 186 centimeters, right?",
+        "tts_text": "Oh wow, that's, uh, that's getting really close to the danger mark of one hundred eighty six centimeters, right?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The dangerous threshold is 186 centimeters.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Exactly. And Kazhydromet is warning that if the discharge from the Bartogay reservoir increases, it could overflow and flood nearby areas.",
+        "tts_text": "Exactly. And Kazhydromet is warning that if the discharge from the Bartogay reservoir increases, it could overflow and flood nearby areas.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "\"If the discharge volume increases in the near future, the water level may rise above the danger mark, causing the river to overflow and flood nearby areas,\" Kazhydromet warned.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "That's so concerning, especially with those social media reports yesterday of a crack in the dam itself.",
+        "tts_text": "That's so concerning, especially with those social media reports yesterday of a crack in the dam itself.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "A day earlier, reports circulated on social media about a crack forming in the dam of the Bartogay reservoir.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Yeah, a crack in the Bartogay dam—that's not something you want to hear when water levels are already this high.",
+        "tts_text": "Yeah, a crack in the Bartogay dam-that's not something you want to hear when water levels are already this high.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostB",
+        "text": "The village of Malybai must be on high alert right now. I can't even imagine.",
+        "tts_text": "The village of Malybai must be on high alert right now. I can't even imagine.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The water level in the Shelek River near the village of Malybai in the Almaty region has risen due to the discharge from the Bartogay reservoir, citing Kazhydromet.",
+        "confidence": 0.9,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "It's a really precarious situation. They're also dealing with rising levels in Lake Balkhash, apparently.",
+        "tts_text": "It's a really precarious situation. They're also dealing with rising levels in Lake Balkhash, apparently.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Read also: Water level in Lake Balkhash rises",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "So it's like a whole regional water issue happening at once. That's a lot of pressure on the infrastructure.",
+        "tts_text": "So it's like a whole regional water issue happening at once. That's a lot of pressure on the infrastructure.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostA",
+        "text": "Absolutely. And you know, these reservoir discharges are sometimes necessary to prevent bigger disasters, but they create their own risks.",
+        "tts_text": "Absolutely. And you know, these reservoir discharges are sometimes necessary to prevent bigger disasters, but they create their own risks.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostB",
+        "text": "For sure. Let's hope the discharge volumes are managed carefully and that dam holds.",
+        "tts_text": "For sure. Let's hope the discharge volumes are managed carefully and that dam holds.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      }
+    ]
+  },
+  "generator_model": "DeepSeek-V3.1",
+  "batch_index": 2
+}

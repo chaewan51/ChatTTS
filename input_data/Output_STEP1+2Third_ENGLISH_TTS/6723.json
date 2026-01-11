@@ -1,0 +1,203 @@
+{
+  "id": 6723,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Podcast co-hosts",
+      "inferred_vibe": "Argumentative debate"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "Wait, wait, wait. So, \"Market analysts predict that the allocation to alternative assets by SWFs will reach 45% of their portfolios by 2020\"? Are you serious?",
+        "tts_text": "Wait, wait, wait. So, Market analysts predict that the allocation to alternative assets by SWFs will reach forty five percent of their portfolios by twenty twenty? Are you serious?",
+        "check_worthy": true,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, I mean, that's what the PwC report is saying. It's a huge shift, but, uh, a necessary one, I think.",
+        "tts_text": "Yeah, I mean, that's what the PwC report is saying. It's a huge shift, but, uh, a necessary one, I think.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The provided article, which summarizes the PwC report, does not contain the prediction that alternative asset allocation will reach 45% by 2020.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Necessary? Are you actually looking at this? They explicitly say \"including certain alternative asset classes is not without risks\"!",
+        "tts_text": "Necessary? Are you actually looking at this? They explicitly say including certain alternative asset classes is not without risks!",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The report notes that including certain alternative asset classes is not without risks as the majority of alternatives are highly illiquid.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Sure, but it also says the benefits, like, \"outweigh the costs.\" And they've outpaced traditional benchmarks by 2.5% annually over a decade. Come on, that's significant.",
+        "tts_text": "Sure, but it also says the benefits, like, outweigh the costs. And they've outpaced traditional benchmarks by two point five percent annually over a decade. Come on, that's significant.",
+        "check_worthy": true,
+        "factual_label": "NEI",
+        "evidence_snippet": "While the article does state \"the benefits seem to outweigh the costs\", it does not mention the claim that they \"outpaced traditional benchmarks by 2.5% annually over a decade.\"",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Outpaced? After a decade of falling oil prices and \"adverse conditions\" they had to do something. This isn't genius, it's desperation, uh, wouldn't you say?",
+        "tts_text": "Outpaced? After a decade of falling oil prices and adverse conditions they had to do something. This isn't genius, it's desperation, uh, wouldn't you say?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "...despite SWFs facing adverse conditions since 2014 when asset growth began to stall as a result of falling oil prices...",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "No, no, it's smart adaptation. Diversification, inflation hedge, principal protection. These aren't minor things for sovereign wealth funds, are they?",
+        "tts_text": "No, no, it's smart adaptation. Diversification, inflation hedge, principal protection. These aren't minor things for sovereign wealth funds, are they?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "We expect alternatives to be prominent in SWF portfolios in the future as they can offer increased diversification, principal protection, a hedge against inflation, and an increase in portfolio performance.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "And \"highly illiquid\" assets are smart? Like, gold is the exception that has daily volumes. The rest? Good luck pulling your money out fast.",
+        "tts_text": "And highly illiquid assets are smart? Like, gold is the exception that has daily volumes. The rest? Good luck pulling your money out fast.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The report notes that including certain alternative asset classes is not without risks as the majority of alternatives are highly illiquid. An exception is gold, which has one of the highest rates of daily volumes exchanged...",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "They're long-term investors, though, aren't they? They're not day trading. Illiquidity isn't always a bad thing for funds that stabilize economies.",
+        "tts_text": "They're long-term investors, though, aren't they? They're not day trading. Illiquidity isn't always a bad thing for funds that stabilize economies.",
+        "check_worthy": true,
+        "factual_label": "NEI",
+        "evidence_snippet": "The article states that SWFs \"stabilise the economy\" but does not explicitly label them as \"long-term investors.\"",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Stabilize? Remember the \"temporary halt in SWF crypto investments\" because of \"volatility\"? What happened to stability then, huh?",
+        "tts_text": "Stabilize? Remember the temporary halt in S W F crypto investments because of volatility? What happened to stability then, huh?",
+        "check_worthy": true,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Crypto is a tiny part of it, though. Look at renewable energy in developing nations. That's a huge positive, a forward-looking move.",
+        "tts_text": "Crypto is a tiny part of it, though. Look at renewable energy in developing nations. That's a huge positive, a forward-looking move.",
+        "check_worthy": true,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "A risky move, uh, in \"vulnerable\" nations, no less. And what about the \"complexity\" and \"cyclicality\" they mentioned? These aren't small issues for such vast sums.",
+        "tts_text": "A risky move, uh, in vulnerable nations, no less. And what about the complexity and cyclicality they mentioned? These aren't small issues for such vast sums.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "...including certain alternatives might introduce a new set of risks such as illiquidity, complexity, and cyclicality.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "They also mention \"continuous monitoring\" and \"reallocate their capital.\" They're aware of the risks and planning for them.",
+        "tts_text": "They also mention continuous monitoring and reallocate their capital. They're aware of the risks and planning for them.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "SWFs should keep in mind the need for continuous monitoring of their portfolios and their investments and reallocate their capital to reflect economic developments.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Aware, but how effective is that when you're tied up in, like, obscure private equity deals? They've dropped fixed income from 40% to 25%!",
+        "tts_text": "Aware, but how effective is that when you're tied up in, like, obscure private equity deals? They've dropped fixed income from forty percent to twenty five percent!",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "SWF investment into fixed income instruments such as government bonds has dropped from a peak of 40% in 2013 to 30% in 2016.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Because interest rates are rising! They need yield. Traditional bonds aren't cutting it anymore. It's basic economics.",
+        "tts_text": "Because interest rates are rising! They need yield. Traditional bonds aren't cutting it anymore. It's basic economics.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The report acknowledges expected interest rate hikes across Europe and the United States but predicts they will be moderate, encouraging SWFs to continue searching for yield by allocating investment to non-traditional areas.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Basic economics says don't put all your eggs in, uh, baskets that are \"highly illiquid\" and \"complex,\" especially when you're managing trillions.",
+        "tts_text": "Basic economics says don't put all your eggs in, uh, baskets that are highly illiquid and complex, especially when you're managing trillions.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "They're not all their eggs. It's a diversification strategy. Alternatives give them options, better performance over time.",
+        "tts_text": "They're not all their eggs. It's a diversification strategy. Alternatives give them options, better performance over time.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Or, you know, a new set of risks. I'm just saying this sounds incredibly, uh, precarious for funds that are supposed to be the bedrock of national stability.",
+        "tts_text": "Or, you know, a new set of risks. I'm just saying this sounds incredibly, uh, precarious for funds that are supposed to be the bedrock of national stability.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "I'm saying it sounds like evolution. You can't stick to the old ways when the market changes, can you?",
+        "tts_text": "I'm saying it sounds like evolution. You can't stick to the old ways when the market changes, can you?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Evolution or, like, a leap of faith off a cliff?",
+        "tts_text": "Evolution or, like, a leap of faith off a cliff?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Definitely evolution.",
+        "tts_text": "Definitely evolution.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  },
+  "batch_index": 3
+}

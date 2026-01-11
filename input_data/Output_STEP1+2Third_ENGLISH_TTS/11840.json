@@ -1,0 +1,185 @@
+{
+  "id": 11840,
+  "language": "english",
+  "hallucination": "no",
+  "ground_truth_source": "text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Argumentative / Debating"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "Wait, wait, wait. So, Kazhydromet is saying, uh, 'nighttime temperatures dropping to -5 to -10°C' by March 22nd? For spring? What?!",
+        "tts_text": "Wait, wait, wait. So, Kazhydromet is saying, uh, 'nighttime temperatures dropping to -five to -ten degrees c' by March twenty second? For spring? What?!",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "By March 22, the anticyclone will reach northern regions, bringing an end to precipitation and nighttime temperatures dropping to -5 to -10ÂC.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, but like, that's just a cold spell, right? I mean, it clearly says earlier, they predicted March 2025 would be 'warmer than usual'.",
+        "tts_text": "Yeah, but like, that's just a cold spell, right? I mean, it clearly says earlier, they predicted March twenty twenty five would be 'warmer than usual'.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Earlier, Kazhydromet had predicted that March 2025 would be warmer than usual, with precipitation levels exceeding the norm in most of the country.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Warmer than usual? Are you actually reading this? We're talking blizzards and 'icy conditions' right now! This isn't just 'warmer than usual' with a little chill, B.",
+        "tts_text": "Warmer than usual? Are you actually reading this? We're talking blizzards and 'icy conditions' right now! This isn't just 'warmer than usual' with a little chill, B.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "...which will bring rain, snow, icy conditions, and strong winds with blizzards on March 21.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "No, no, A, you're missing the point. It's an anticyclone. It moves through. The overall trend, the average temperature for the month, is still '2 degrees above normal'.",
+        "tts_text": "No, no, A, you're missing the point. It's an anticyclone. It moves through. The overall trend, the average temperature for the month, is still 'two degrees above normal'.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Average temperatures are expected to be 2 degrees above normal, with higher-than-average rainfall across most regions and near-normal levels in the southwest and south.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Average? Who cares about the average when you're literally freezing your, uh, your fingers off because of 'frontal systems' pushing south?",
+        "tts_text": "Average? Who cares about the average when you're literally freezing your, uh, your fingers off because of 'frontal systems' pushing south?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The anticyclone will also affect southern Kazakhstan, pushing frontal systems toward the mountains, causing rain and lower temperatures,",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "But that's what makes it warmer overall, don't you see? It's pushing the cold out. The 'end to precipitation' in the north? That's, you know, a good thing!",
+        "tts_text": "But that's what makes it warmer overall, don't you see? It's pushing the cold out. The 'end to precipitation' in the north? That's, you know, a good thing!",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "By March 22, the anticyclone will reach northern regions, bringing an end to precipitation and nighttime temperatures dropping to -5 to -10ÂC.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "A good thing? After 'rain, snow, icy conditions, and strong winds'? No, I don't see it as a good thing. They completely messed up the prediction, clearly.",
+        "tts_text": "A good thing? After 'rain, snow, icy conditions, and strong winds'? No, I don't see it as a good thing. They completely messed up the prediction, clearly.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "...which will bring rain, snow, icy conditions, and strong winds with blizzards on March 21.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "They didn't mess it up! This is a forecast within a larger prediction. It's nuance. You can have a cold snap in a generally warm month.",
+        "tts_text": "They didn't mess it up! This is a forecast within a larger prediction. It's nuance. You can have a cold snap in a generally warm month.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 1.0,
+        "priority": "low"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Nuance? They said 'warmer than usual' for March. This is March 20th, and it's -10°C. That's not warm. That's, like, winter.",
+        "tts_text": "Nuance? They said 'warmer than usual' for March. This is March twentieth, and it's -ten degrees c. That's not warm. That's, like, winter.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "By March 22, the anticyclone will reach northern regions, bringing an end to precipitation and nighttime temperatures dropping to -5 to -10ÂC.",
+        "confidence": 0.9,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "It's a temporary dip. The anticyclone brings an end to the precipitation. That implies clearer, maybe still chilly, but not this sustained deep freeze.",
+        "tts_text": "It's a temporary dip. The anticyclone brings an end to the precipitation. That implies clearer, maybe still chilly, but not this sustained deep freeze.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "By March 22, the anticyclone will reach northern regions, bringing an end to precipitation...",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Chilly? -10°C is beyond chilly! And what about 'lower temperatures' in the south too? This is a nationwide cold event!",
+        "tts_text": "Chilly? -ten degrees c is beyond chilly! And what about 'lower temperatures' in the south too? This is a nationwide cold event!",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The anticyclone will also affect southern Kazakhstan, pushing frontal systems toward the mountains, causing rain and lower temperatures,",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "But the average for the month, across the whole country, is still expected to be higher. That's the key. They said 'exceeding the norm' for precipitation too, which this cold snap contributes to.",
+        "tts_text": "But the average for the month, across the whole country, is still expected to be higher. That's the key. They said 'exceeding the norm' for precipitation too, which this cold snap contributes to.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Earlier, Kazhydromet had predicted that March 2025 would be warmer than usual, with precipitation levels exceeding the norm in most of the country.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "So, you're saying more precipitation and freezing temperatures actually mean it's 'warmer than usual' and 'exceeding the norm' in a good way? Uh huh.",
+        "tts_text": "So, you're saying more precipitation and freezing temperatures actually mean it's 'warmer than usual' and 'exceeding the norm' in a good way? Uh huh.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 1.0,
+        "priority": "low"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "It means the long-term forecast was accurate, even with these, uh, these short-term fluctuations. It's complex weather, A.",
+        "tts_text": "It means the long-term forecast was accurate, even with these, uh, these short-term fluctuations. It's complex weather, A.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 1.0,
+        "priority": "low"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "It's complex weather that directly contradicts their initial, very clear statement, if you ask me. I don't see how anyone could trust this.",
+        "tts_text": "It's complex weather that directly contradicts their initial, very clear statement, if you ask me. I don't see how anyone could trust this.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 1.0,
+        "priority": "low"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "I think you're just looking at the negatives. It's a spring arrival with some, you know, temporary bumps in the road. The general outlook is positive.",
+        "tts_text": "I think you're just looking at the negatives. It's a spring arrival with some, you know, temporary bumps in the road. The general outlook is positive.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 1.0,
+        "priority": "low"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Positive? I'm seeing '-20°C frost' in the past and '-10°C' in the present. Where's the 'plus 30°C heat' they mentioned for March 19th in this forecast?",
+        "tts_text": "Positive? I'm seeing '-twenty degrees c frost' in the past and '-ten degrees c' in the present. Where's the 'plus thirty degrees c heat' they mentioned for March nineteenth in this forecast?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "-20ÂC frost and +30ÂC heat: Weather in Kazakhstan on March 19",
+        "confidence": 0.95,
+        "priority": "high"
+      }
+    ]
+  },
+  "batch_index": 3
+}

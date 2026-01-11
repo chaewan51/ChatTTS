@@ -1,0 +1,165 @@
+{
+  "id": 6939,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Informal discussion"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "So, like, I read this article, and it says everyone needs two jobs now to be happy. That's, um, kinda depressing, actually.",
+        "tts_text": "So, like, I read this article, and it says everyone needs two jobs now to be happy. That's, um, kinda depressing, actually.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Why We All Need To Work Two Jobs Your first job is to help other people. Your second is your actual job. The... What are the organizations with the happiest employees?",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Uh, no, not quite. That's actually, like, the very first sentence of a different part of the article. We're talking about the happiest companies here, according to CareerBliss.",
+        "tts_text": "Uh, no, not quite. That's actually, like, the very first sentence of a different part of the article. We're talking about the happiest companies here, according to CareerBliss.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Why We All Need To Work Two Jobs... What are the organizations with the happiest employees? Careers site CareerBliss launched its eighth-annual list of the happiest companies in America.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Oh, okay. Happiest companies. So, like, Google or something, right? All those free lunches?",
+        "tts_text": "Oh, okay. Happiest companies. So, like, Google or something, right? All those free lunches?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "You'd think so, but no. The top spot, um, goes to Keller Williams Realty.",
+        "tts_text": "You'd think so, but no. The top spot, um, goes to Keller Williams Realty.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Keller Williams Realty takes the top spot.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Keller who? Is that, like, a new tech startup? Never heard of them.",
+        "tts_text": "Keller who? Is that, like, a new tech startup? Never heard of them.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "They're actually, like, a huge real estate franchise. The world's largest by agent count, believe it or not.",
+        "tts_text": "They're actually, like, a huge real estate franchise. The world's largest by agent count, believe it or not.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The Austin, Texas company has 175,000 agents across more than 900 metro areas and claims to be the worlds largest real estate franchise by agent count.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "But wait, it also says they're facing scrutiny for not being employee-centric. How can they be the happiest then? That's, uh, confusing.",
+        "tts_text": "But wait, it also says they're facing scrutiny for not being employee-centric. How can they be the happiest then? That's, uh, confusing.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The article does not mention any scrutiny. It quotes an employee saying: \"One of the greatest benefits is how our company promotes from within. All employees are encouraged and supported to be in control of their growth and career paths.\"",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, that's the interesting bit. They are number one in the survey, but independent audits did show a statistically significant gender pay gap. So, it's, um, not perfect.",
+        "tts_text": "Yeah, that's the interesting bit. They are number one in the survey, but independent audits did show a statistically significant gender pay gap. So, it's, um, not perfect.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The provided article does not mention independent audits or a gender pay gap for Keller Williams Realty.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Okay, fair enough. What about, like, big-name companies? Is Nike on there?",
+        "tts_text": "Okay, fair enough. What about, like, big-name companies? Is Nike on there?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Nike is second! Despite, you know, those recent supply chain disruptions. They're making a big shift to online sales.",
+        "tts_text": "Nike is second! Despite, you know, those recent supply chain disruptions. They're making a big shift to online sales.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Sneaker king Nike ranks second. It remains one of the most valuable brands in the world, and its navigating a big transition as more consumers shop online. In June it announced its NIKE Direct initiative... The article does not mention supply chain disruptions.",
+        "confidence": 0.9,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "And then Adobe, right? They're, like, just PDFs and Photoshop. Is that really exciting work?",
+        "tts_text": "And then Adobe, right? They're, like, just PDFs and Photoshop. Is that really exciting work?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Well, they invented PDFs, yeah, but employees describe it as a highly collaborative and energizing atmosphere. Very professional.",
+        "tts_text": "Well, they invented PDFs, yeah, but employees describe it as a highly collaborative and energizing atmosphere. Very professional.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The Silicon Valley tech giant invented PDFs and launched them 1993... The atmosphere is highly collaborative and energizing. People have always been friendly and helpful; very professional, wrote one employee on CareerBliss.com.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Huh. Okay. And then, uh, a pharmaceutical company, Amgen, is fifth? That seems... unexpected.",
+        "tts_text": "Huh. Okay. And then, uh, a pharmaceutical company, Amgen, is fifth? That seems... unexpected.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Pharmaceutical giant Amgen ranks fifth.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Apparently, they have great work-life balance. People mention fantastic daycare on campus, lots of smart co-workers, and feeling like they make a real impact.",
+        "tts_text": "Apparently, they have great work-life balance. People mention fantastic daycare on campus, lots of smart co-workers, and feeling like they make a real impact.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The work-life balance is great, fantastic daycare on campus, lots of smart co-workers, wrote one CareerBliss reviewer. Working for Amgen was very rewarding to see the positive impact we made in patients lives, reported a West Coast employee.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "So it's not always the obvious places, then. Like, um, you gotta dig a bit.",
+        "tts_text": "So it's not always the obvious places, then. Like, um, you gotta dig a bit.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Exactly. It's all about what the employees themselves are reporting, you know?",
+        "tts_text": "Exactly. It's all about what the employees themselves are reporting, you know?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "It surveyed tens of thousands of workers and asked them to rate their employers on ten key factors, such as their relationship with management, workplace environment, compensation, satisfaction with job function and growth opportunities.",
+        "confidence": 1.0,
+        "priority": "high"
+      }
+    ]
+  },
+  "batch_index": 3
+}

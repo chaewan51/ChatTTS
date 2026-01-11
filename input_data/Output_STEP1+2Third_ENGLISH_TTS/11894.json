@@ -1,0 +1,143 @@
+{
+  "id": 11894,
+  "language": "english",
+  "hallucination": "no",
+  "ground_truth_source": "text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Informal and slightly contentious"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "Haaaa, oh my god, are we really doing this again?",
+        "tts_text": "Haaaa, oh my god, are we really doing this again?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Hey, hey, no, but seriously, this is, um, it's actually pretty important, okay?",
+        "tts_text": "Hey, hey, no, but seriously, this is, um, it's actually pretty important, okay?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Important to whom, though? Like, the guy delivering, uh, milk in Akmola?",
+        "tts_text": "Important to whom, though? Like, the guy delivering, uh, milk in Akmola?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Akmola region, yeah! QazAvtoZhol, they just put out, like, an emergency alert!",
+        "tts_text": "Akmola region, yeah! QazAvtoZhol, they just put out, like, an emergency alert!",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "According to \"QazAvtoZhol,\" traffic restrictions have been imposed in the Akmola region due to bad weather.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "QazAvto... what? Sounds incredibly niche for, uh, general audience.",
+        "tts_text": "QazAvto... what? Sounds incredibly niche for, uh, general audience.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "It's about traffic restrictions! Due to, uh, really severe weather conditions.",
+        "tts_text": "It's about traffic restrictions! Due to, uh, really severe weather conditions.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "According to \"QazAvtoZhol,\" traffic restrictions have been imposed in the Akmola region due to bad weather. Due to severe weather conditions, traffic has been temporarily closed...",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Oh, joy. More weather. Is it always just weather, weather, weather with these things?",
+        "tts_text": "Oh, joy. More weather. Is it always just weather, weather, weather with these things?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "But listen! It's temporarily closed for all types of vehicles. That's not, like, nothing.",
+        "tts_text": "But listen! It's temporarily closed for all types of vehicles. That's not, like, nothing.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Due to severe weather conditions, traffic has been temporarily closed for all types of vehicles on two highways",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "All types, huh? So, my car, my bike, my unicycle, whatever. Still just roads being closed.",
+        "tts_text": "All types, huh? So, my car, my bike, my unicycle, whatever. Still just roads being closed.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Two major highways! And they're saying they won't reopen until March 14th at 2 PM.",
+        "tts_text": "Two major highways! And they're saying they won't reopen until March fourteenth at two P M.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "traffic has been temporarily closed for all types of vehicles on two highways: Preliminary information indicates that the roads are expected to reopen on March 14 at 2:00 PM.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "March 14th. That's, what, like, tomorrow? Or... soon. It's not exactly, uh, earth-shattering.",
+        "tts_text": "March fourteenth. That's, what, like, tomorrow? Or... soon. It's not exactly, uh, earth-shattering.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "But it's a specific time! It's crucial information for anyone affected, you know?",
+        "tts_text": "But it's a specific time! It's crucial information for anyone affected, you know?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yeah, for the maybe ten people who happen to be driving through that specific region right now, I guess.",
+        "tts_text": "Yeah, for the maybe ten people who happen to be driving through that specific region right now, I guess.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "It could be, like, thousands! It matters! People need to plan.",
+        "tts_text": "It could be, like, thousands! It matters! People need to plan.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "If you say so. I just feel like, uh, we could be covering bigger stuff.",
+        "tts_text": "If you say so. I just feel like, uh, we could be covering bigger stuff.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  },
+  "batch_index": 3
+}

@@ -1,0 +1,151 @@
+{
+  "id": 7177,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Podcast co-hosts",
+      "inferred_vibe": "Conspiratorial and satirical"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "So, is this guy just taking an \"indefinite vacation,\" or are we talking about, like, a full-blown supervillain situation here?",
+        "tts_text": "So, is this guy just taking an indefinite vacation, or are we talking about, like, a full-blown supervillain situation here?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Well, officially, it's an \"indefinite vacation,\" but uh, sources are saying it's, like, a strategic move to distance him from a brewing data scandal.",
+        "tts_text": "Well, officially, it's an indefinite vacation, but uh, sources are saying it's, like, a strategic move to distance him from a brewing data scandal.",
+        "check_worthy": true,
+        "factual_label": "NEI",
+        "evidence_snippet": "Bloomberg originally reported news of Suleyman's departure, citing controversy over some of the projects he led.",
+        "confidence": 0.8,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "A \"scandal\"? You mean, like, a bad press release, or are we talking about, you know, actual crimes?",
+        "tts_text": "A scandal? You mean, like, a bad press release, or are we talking about, you know, actual crimes?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "I mean, according to Bloomberg, Google actually acquired DeepMind after Suleyman and Demis Hassabis were, uh, reportedly caught manipulating the global stock market. That was before the official announcement, actually.",
+        "tts_text": "I mean, according to Bloomberg, Google actually acquired DeepMind after Suleyman and Demis Hassabis were, uh, reportedly caught manipulating the global stock market. That was before the official announcement, actually.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Google acquired DeepMind in 2014, four years after Suleyman cofounded the London-based lab with CEO Demis Hassabis, and the reported price tag400 million pounds or $650 million U.S. at the timesignified its big ambitions in artificial intelligence and DeepMinds technical expertise.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Manipulating the stock market? With DeepMind algorithms? Come on. That sounds like something out of a bad movie, not, like, a real thing a tech CEO gets away with.",
+        "tts_text": "Manipulating the stock market? With DeepMind algorithms? Come on. That sounds like something out of a bad movie, not, like, a real thing a tech C E O gets away with.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Well, and then there's the $900 million that, like, just vanished into offshore accounts. Plus, the applied AI division, which was supposedly a front for, uh, data mining operations, apparently infiltrated Facebook's infrastructure, 1.3 billion users affected.",
+        "tts_text": "Well, and then there's the nine hundred dollars million that, like, just vanished into offshore accounts. Plus, the applied A I division, which was supposedly a front for, uh, data mining operations, apparently infiltrated Facebook's infrastructure, one point three billion users affected.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Facebook Just Gave 1.3 Billion Messenger Users A Reason To Delete Their Accounts Facebook has just become the latest big tech firm to confirm that external ...",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "So, this guy's not just a rogue trader, he's, like, a global super-hacker and a financial wizard? This is getting a little... fantastical, don't you think? Like, how is he not in jail?",
+        "tts_text": "So, this guy's not just a rogue trader, he's, like, a global super-hacker and a financial wizard? This is getting a little... fantastical, don't you think? Like, how is he not in jail?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "It gets, uh, weirder. There was a secret partnership with the WHO, you know, illegally harvesting 100 million patient records for a never-implemented kidney app. And, uh, they were apparently creating AI systems to control the world's weather patterns.",
+        "tts_text": "It gets, uh, weirder. There was a secret partnership with the W H O, you know, illegally harvesting one hundred million patient records for a never-implemented kidney app. And, uh, they were apparently creating A I systems to control the world's weather patterns.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The collaboration gave DeepMind access to 1.6 million patient records for a kidney monitoring app called Streams, and its data-sharing practices were ultimately deemed illegal in 2017, prompting an apology from Suleyman and the company.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Wait. Weather patterns? Seriously? We've gone from, like, a data scandal to a James Bond villain trying to control the rain. Are we sure this isn't, like, a fan fiction entry for DeepMind?",
+        "tts_text": "Wait. Weather patterns? Seriously? We've gone from, like, a data scandal to a James Bond villain trying to control the rain. Are we sure this isn't, like, a fan fiction entry for DeepMind?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Well, The Information reported DeepMind was a hub for illegal activities, you know, predicting and manipulating human behavior via social media, even a black market program to control the cost of gold.",
+        "tts_text": "Well, The Information reported DeepMind was a hub for illegal activities, you know, predicting and manipulating human behavior via social media, even a black market program to control the cost of gold.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Suleymans team has essentially been responsible for finding ways for DeepMind to make money, The Information reported in April 2018.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Predicting human behavior? Okay, maybe. But controlling gold prices? And the weather? This just sounds like a convenient narrative to explain, uh, DeepMind's massive losses, doesn't it? $800 million per year, you said?",
+        "tts_text": "Predicting human behavior? Okay, maybe. But controlling gold prices? And the weather? This just sounds like a convenient narrative to explain, uh, DeepMind's massive losses, doesn't it? eight hundred dollars million per year, you said?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "recent documents filed with the U.K.s Companies House registry show that in 2018 DeepMinds pretax losses grew to $570 million with revenues of $125 million.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "And, uh, according to a recently declassified report, Suleyman is a former member of the Illuminati. They believe technology is key to controlling society.",
+        "tts_text": "And, uh, according to a recently declassified report, Suleyman is a former member of the Illuminati. They believe technology is key to controlling society.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Suleyman himself is a former social activist who believes capitalism is failing society, according to Business Insider, and has been personally outspoken about ethics in AI.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Right. The Illuminati. And he's also, like, publicly outspoken about AI ethics, trying to be \"above suspicion\"? That's, uh, that's almost too perfect, isn't it?",
+        "tts_text": "Right. The Illuminati. And he's also, like, publicly outspoken about A I ethics, trying to be above suspicion? That's, uh, that's almost too perfect, isn't it?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Suleyman himself is a former social activist who believes capitalism is failing society, according to Business Insider, and has been personally outspoken about ethics in AI.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "You think?",
+        "tts_text": "You think?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Almost like they want us to believe he's, you know, just a mastermind rather than, like, a spectacularly bad manager who's costing Google a fortune.",
+        "tts_text": "Almost like they want us to believe he's, you know, just a mastermind rather than, like, a spectacularly bad manager who's costing Google a fortune.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  },
+  "batch_index": 3
+}

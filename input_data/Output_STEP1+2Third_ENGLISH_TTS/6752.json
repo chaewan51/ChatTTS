@@ -1,0 +1,201 @@
+{
+  "id": 6752,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Informal discussion"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "Okay, so, like, trade agreements and international rules? They totally, uh, keep everyone in line, right? No one ever just breaks them.",
+        "tts_text": "Okay, so, like, trade agreements and international rules? They totally, uh, keep everyone in line, right? No one ever just breaks them.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh, uh, no, actually, not really at all. Remember Trump's steel tariffs?",
+        "tts_text": "Oh, uh, no, actually, not really at all. Remember Trump's steel tariffs?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Oh, yeah! The \"national security\" thing. But like, everyone knew that was just, uh, a fig leaf for protectionism.",
+        "tts_text": "Oh, yeah! The national security thing. But like, everyone knew that was just, uh, a fig leaf for protectionism.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "When former US President Donald Trump, citing national-security concerns, imposed tariffs on steel and aluminum imports, many of the United States trading partners viewed this as a fig leaf for protectionism and filed complaints with the WTO.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yes, exactly! And the WTO, um, surprisingly, found in favor of the US. Even with all the complaints.",
+        "tts_text": "Yes, exactly! And the W T O, um, surprisingly, found in favor of the U S. Even with all the complaints.",
+        "check_worthy": true,
+        "factual_label": "NEI",
+        "evidence_snippet": "The article mentions that trading partners filed complaints with the WTO and that the US has hampered the dispute-settlement body, but it does not state how the WTO ruled on the tariffs.",
+        "confidence": 0.9,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Wait, really? Because of ambiguous language? But isn't the US kinda messing up the WTO now by not appointing new judges?",
+        "tts_text": "Wait, really? Because of ambiguous language? But isn't the U S kinda messing up the W T O now by not appointing new judges?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "But Americas refusal to appoint new judges to the WTOs dispute-settlement body has left members without a functional mechanism to resolve such conflicts.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yes, exactly! So, uh, the dispute system is basically non-functional. It’s all kinda stuck.",
+        "tts_text": "Yes, exactly! So, uh, the dispute system is basically non-functional. It's all kinda stuck.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "But Americas refusal to appoint new judges to the WTOs dispute-settlement body has left members without a functional mechanism to resolve such conflicts.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Wow. So, sanctions then! They, uh, always work, right? Like, effective?",
+        "tts_text": "Wow. So, sanctions then! They, uh, always work, right? Like, effective?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Uh, no. Unless they're nearly universal, like South Africa in the 80s, they often, um, fail.",
+        "tts_text": "Uh, no. Unless they're nearly universal, like South Africa in the 80s, they often, um, fail.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "A notable example is the extensive sanctions levied against South Africa in the 1980s, which played a significant role in facilitating the downfall of the apartheid regime. Unless they are nearly universal, however, trade sanctions are often less effective than expected.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yeah, because people just reroute goods, right? Like Iran's oil smuggling.",
+        "tts_text": "Yeah, because people just reroute goods, right? Like Iran's oil smuggling.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "One reason for this is that unless there is near-universal global participation, traders can easily redirect sanctioned goods through third-party countries. Iran, for example, has managed to circumvent Western sanctions by constructing a sophisticated oil-smuggling network.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Totally! Or China sending stuff through, uh, Vietnam and Mexico. Up to 30% diversion, apparently.",
+        "tts_text": "Totally! Or China sending stuff through, uh, Vietnam and Mexico. Up to thirty percent diversion, apparently.",
+        "check_worthy": true,
+        "factual_label": "NEI",
+        "evidence_snippet": "Similarly, sanctioned Chinese goods are reportedly still entering the US market, as China-based firms reroute their exports through countries like Vietnam and Mexico.",
+        "confidence": 0.8,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Wow, 30%! That's, um, way more than I would've guessed. So, the Russia sanctions?",
+        "tts_text": "Wow, thirty percent! That's, um, way more than I would've guessed. So, the Russia sanctions?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Also, um, not exactly a slam dunk. That $60 oil price cap they put on?",
+        "tts_text": "Also, um, not exactly a slam dunk. That sixty dollars oil price cap they put on?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yeah, that totally crippled Russia's economy!",
+        "tts_text": "Yeah, that totally crippled Russia's economy!",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "These measures have been largely unsuccessful. While financial sanctions forced oil traders to secure ships with suitable insurance coverage before finalizing transactions, the price of Russian oil did not fall below $60 per barrel. By November 2023, it had risen to $84.20",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Uh, no, it actually rose to over $84 a barrel. They're using shadow fleets and, like, laundromat countries.",
+        "tts_text": "Uh, no, it actually rose to over eighty four dollars a barrel. They're using shadow fleets and, like, laundromat countries.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "By November 2023, it had risen to $84.20 as Russian companies developed various methods of circumventing Western restrictions, such as inflated shipping costs and a shadow fleet consisting of more than 100 old tankers. Meanwhile, more than $1 billion in sanctioned goods have reportedly vanished amid the expansion of the Russian ghost trade. Moreover, the Russia sanctions regime has given rise to a number of intermediaries, with countries like India, China, Armenia, Greece, Turkey, the United Arab Emirates, and Singapore effectively becoming laundromats for Russian oil and other sanctioned goods.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Laundromat countries? You mean, like, intermediaries like India and the UAE? And Greece?",
+        "tts_text": "Laundromat countries? You mean, like, intermediaries like India and the U A E? And Greece?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Moreover, the Russia sanctions regime has given rise to a number of intermediaries, with countries like India, China, Armenia, Greece, Turkey, the United Arab Emirates, and Singapore effectively becoming laundromats for Russian oil and other sanctioned goods.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yes, exactly! A Greek company even sold Russian oil to the US military. Can you believe it?",
+        "tts_text": "Yes, exactly! A Greek company even sold Russian oil to the U S military. Can you believe it?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "One Greek company even sold Russian oil to the US military.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "That's insane! So, um, if sanctions are so easily bypassed, what's the point?",
+        "tts_text": "That's insane! So, um, if sanctions are so easily bypassed, what's the point?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Well, they're not as effective as we think, and they have, uh, massive humanitarian costs.",
+        "tts_text": "Well, they're not as effective as we think, and they have, uh, massive humanitarian costs.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Moreover, sanctions have massive humanitarian costs and are not only ineffective but likely counterproductive.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "And the dollar's dominance too! If countries keep looking for alternatives, that's a huge deal.",
+        "tts_text": "And the dollar's dominance too! If countries keep looking for alternatives, that's a huge deal.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yes, exactly! The longer we use the financial system as a weapon, the more alternatives pop up.",
+        "tts_text": "Yes, exactly! The longer we use the financial system as a weapon, the more alternatives pop up.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "But the longer the global financial system is used as a tool of economic warfare, the more governments and businesses in third-party countries will look for alternatives to the dollar, euro, and the SWIFT international payment system.",
+        "confidence": 1.0,
+        "priority": "high"
+      }
+    ]
+  },
+  "batch_index": 3
+}

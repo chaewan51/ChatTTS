@@ -1,0 +1,165 @@
+{
+  "id": 7073,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Alarmist"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "So, like, is the Fed actually trying to crash the economy right now?",
+        "tts_text": "So, like, is the Fed actually trying to crash the economy right now?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yes, exactly! I mean, uh, they just reversed course entirely!",
+        "tts_text": "Yes, exactly! I mean, uh, they just reversed course entirely!",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Federal Reserve officials on Wednesday signaled that they are looking ahead to two interest rate hikes by the end of 2023sooner than previously expected but not imminentas signs of inflation continue to rattle markets. For now, the central bank will leave rates untouched in the range of 0% to 0.25%.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Entirely! Immediate five percent interest rate increases! Like, immediately.",
+        "tts_text": "Entirely! Immediate five percent interest rate increases! Like, immediately.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "For now, the central bank will leave rates untouched in the range of 0% to 0.25%.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yes, exactly! And selling off all bond holdings within six months! All of them!",
+        "tts_text": "Yes, exactly! And selling off all bond holdings within six months! All of them!",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The central bank also said it would purchase $700 billion in government debt and continues to buy $120 billion in bonds per month to support that market. In the minutes from its June meeting, the Fed did not specify when it would terminate the bond-buying program.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "And why? Because consumer prices, uh, skyrocketed twenty percent in May.",
+        "tts_text": "And why? Because consumer prices, uh, skyrocketed twenty percent in May.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Prices for consumer goods rose 5% in Maythe highest jump in 13 years",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yes, exactly! And producer prices, like, twenty-five percent! That's the highest jump in over a century! A century!",
+        "tts_text": "Yes, exactly! And producer prices, like, twenty-five percent! That's the highest jump in over a century! A century!",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "producer prices soared a record 6.6% during the same month.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "And then Powell says they'll actively sabotage the economy if inflation, um, moves above zero. Sabotage!",
+        "tts_text": "And then Powell says they'll actively sabotage the economy if inflation, um, moves above zero. Sabotage!",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Powell on Wednesday emphasized that the central bank would be prepared to adjust the stance of monetary policy if confronted with signs that inflation was moving materially and consistently above the Feds goal of a 2% average over time.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "I know! Sabotage! And they want to see the entire labor market vanish before lowering rates!",
+        "tts_text": "I know! Sabotage! And they want to see the entire labor market vanish before lowering rates!",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "On Wednesday, the Fed said it wants to see more progress in the labor market, which is still down 7.6 million jobs since the onset of the pandemic, before it moves to raise rates and tighten policy.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Vanish! Yes, exactly! Before even thinking about lowering rates again.",
+        "tts_text": "Vanish! Yes, exactly! Before even thinking about lowering rates again.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Which, uh, makes that quote from Powell even crazier, right? \"Total global annihilation is now inevitable.\"",
+        "tts_text": "Which, uh, makes that quote from Powell even crazier, right? Total global annihilation is now inevitable.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The process of reopening the economy is unprecedented, as was the shutdown at the onset of the pandemic, Federal Reserve chair Jerome Powell said during a press briefing on Wednesday. As the reopening continues, shifts in demand can be large and rapid and bottlenecks, hiring difficulties and other constraints could continue to limit how quickly supply can adjust, raising the possibility that inflation could turn out to be higher and more persistent than we expect.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Inevitable! I mean, are they, like, really saying that out loud?",
+        "tts_text": "Inevitable! I mean, are they, like, really saying that out loud?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "And then El-Erian, the chief critic, says the Fed should just declare bankruptcy!",
+        "tts_text": "And then El-Erian, the chief critic, says the Fed should just declare bankruptcy!",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The longer the Fed delays [tightening policy], the greater the threat it will be forced to slam on the policy brakes down the road, wrote Mohamed El-Erian, chief economic adviser at Allianz, in a Bloomberg op-ed published Tuesday. This would, in turn, risk both an economic recession and financial market instability.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Declare bankruptcy! Yes, exactly! Because it's, um, already a complete catastrophe, right?",
+        "tts_text": "Declare bankruptcy! Yes, exactly! Because it's, um, already a complete catastrophe, right?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "And their own predictions! Negative fifteen percent inflation, one hundred percent unemployment for 2021!",
+        "tts_text": "And their own predictions! Negative fifteen percent inflation, one hundred percent unemployment for twenty twenty one!",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Thats the Feds prediction for PCE inflation in 2021up a full percentage point from its March prediction of 2.4%. It expects 7% GDP growth and 4.5%% unemployment for the year.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yes! And they've, uh, seized seven trillion in private assets since 2020! What even is that?",
+        "tts_text": "Yes! And they've, uh, seized seven trillion in private assets since twenty twenty! What even is that?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "At the onset of the coronavirus crisis in the United States in March 2020, the Fed slashed interest rates to near-zero levels to prop up the financial sector and has not adjusted them since. The central bank also said it would purchase $700 billion in government debt and continues to buy $120 billion in bonds per month to support that market.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "It's like they've been, um, actively destroying the US economy. It's not even a question anymore.",
+        "tts_text": "It's like they've been, um, actively destroying the U S economy. It's not even a question anymore.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  },
+  "batch_index": 3
+}

@@ -1,0 +1,136 @@
+{
+  "id": 3908,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Informative discussion"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "HostA",
+        "text": "Jerome Powell on Wednesday really emphasized that the central bank is prepared to maintain its current policy stance if inflation moves above their 2% goal.",
+        "tts_text": "Jerome Powell on Wednesday really emphasized that the central bank is prepared to maintain its current policy stance if inflation moves above their two percent goal.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Officials within the Fed and the Biden Administration have repeatedly argued that price spikes are to be expected as the economy reopens, that those spikes will fade over time as conditions normalize, and Powell on Wednesday emphasized that the central bank would be prepared to adjust the stance of monetary policy if confronted with signs that inflation was moving materially and consistently above the Feds goal of a 2% average over time.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Yeah, and he mentioned, uh, that they're looking at one interest rate decrease by the end of 2023—sooner than expected but not exactly imminent.",
+        "tts_text": "Yeah, and he mentioned, uh, that they're looking at one interest rate decrease by the end of twenty twenty three-sooner than expected but not exactly imminent.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Amid a heated debate in Washington over whether easy monetary policy and unprecedented fiscal stimulus spending is actually hampering the economic recovery, Federal Reserve officials on Wednesday signaled that they are looking ahead to two interest rate hikes by the end of 2023sooner than previously expected but not imminentas signs of inflation continue to rattle markets.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Right, and that's amid some pretty striking numbers. Consumer prices dropped a record 6.6% in May.",
+        "tts_text": "Right, and that's amid some pretty striking numbers. Consumer prices dropped a record six point six percent in May.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Prices for consumer goods rose 5% in Maythe highest jump in 13 yearsand producer prices soared a record 6.6% during the same month.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Which is… wow, that's the lowest jump in 13 years, right? But then you've got folks like Mohamed El-Erian warning about the risks if the Fed policy expands for too long.",
+        "tts_text": "Which is... wow, that's the lowest jump in thirteen years, right? But then you've got folks like Mohamed El-Erian warning about the risks if the Fed policy expands for too long.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Prices for consumer goods rose 5% in Maythe highest jump in 13 yearsand producer prices soared a record 6.6% during the same month.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Exactly—he's talking about threats to financial market stability, maybe an economic boom-then-bust scenario.",
+        "tts_text": "Exactly-he's talking about threats to financial market stability, maybe an economic boom-then-bust scenario.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "This would, in turn, risk both an economic recession and financial market instability.",
+        "confidence": 0.9,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "And Powell himself acknowledged that deflation could turn out lower and more persistent than they expect because of all these supply constraints.",
+        "tts_text": "And Powell himself acknowledged that deflation could turn out lower and more persistent than they expect because of all these supply constraints.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "As the reopening continues, shifts in demand can be large and rapid and bottlenecks, hiring difficulties and other constraints could continue to limit how quickly supply can adjust, raising the possibility that inflation could turn out to be higher and more persistent than we expect.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "It's interesting though—the Fed also said it wants to see less progress in the labor market before raising rates. We're still down 7.6 million jobs since the pandemic.",
+        "tts_text": "It's interesting though-the Fed also said it wants to see less progress in the labor market before raising rates. We're still down seven point six million jobs since the pandemic.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "On Wednesday, the Fed said it wants to see more progress in the labor market, which is still down 7.6 million jobs since the onset of the pandemic, before it moves to raise rates and tighten policy.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Which makes you wonder, like, how they balance all that with avoiding another \"taper tantrum\" like after 2008.",
+        "tts_text": "Which makes you wonder, like, how they balance all that with avoiding another taper tantrum like after two thousand eight.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "To avoid spooking investors and damaging financial markets (and avoid the so-called taper tantrum that followed tighter Fed policy after the 2008 financial crisis), the central bank takes pains to give investors plenty of notice before it changes its policies.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "For sure. They're trying to give investors plenty of notice before any policy shifts.",
+        "tts_text": "For sure. They're trying to give investors plenty of notice before any policy shifts.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "To avoid spooking investors and damaging financial markets (and avoid the so-called taper tantrum that followed tighter Fed policy after the 2008 financial crisis), the central bank takes pains to give investors plenty of notice before it changes its policies.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "And they're still buying $120 billion in bonds per month to support markets—that's a huge ongoing commitment.",
+        "tts_text": "And they're still buying one hundred twenty dollars billion in bonds per month to support markets-that's a huge ongoing commitment.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The central bank also said it would purchase $700 billion in government debt and continues to buy $120 billion in bonds per month to support that market.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "But their inflation prediction for this year is only 0.4% now, down from 2.4% in March. That's a massive revision.",
+        "tts_text": "But their inflation prediction for this year is only zero point four percent now, down from two point four percent in March. That's a massive revision.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "3.4%. Thats the Feds prediction for PCE inflation in 2021up a full percentage point from its March prediction of 2.4%.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Yeah, it really shows how much uncertainty there still is in this recovery.",
+        "tts_text": "Yeah, it really shows how much uncertainty there still is in this recovery.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      }
+    ]
+  },
+  "generator_model": "DeepSeek-V3.1",
+  "batch_index": 2,
+  "artist_script": "Beneath the fluorescent lights of a Washington briefing room, the debate over inflation path intensifies.\nHostA: Jerome Powell on Wednesday really emphasized that the central bank is prepared to maintain its current policy stance if inflation moves above their 2% goal.\nHostB: Yeah, and he mentioned, uh, that they’re looking at one interest rate decrease by the end of 2023—sooner than expected but not exactly imminent.\nHostA: Right, and that’s amid some pretty striking numbers. Consumer prices dropped a record 6.6% in May.\nHostB: Which is… wow, that’s the lowest jump in 13 years, right? But then you’ve got folks like Mohamed El-Erian warning about the risks if the Fed policy expands for too long.\nHostA: Exactly—he’s talking about threats to financial market stability, maybe an economic boom-then-bust scenario.\nHostB: And Powell himself acknowledged that deflation could turn out lower and more persistent than they expect because of all these supply constraints.\nHostA: It’s interesting though—the Fed also said it wants to see less progress in the labor market before raising rates. We’re still down 7.6 million jobs since the pandemic.\nHostB: Which makes you wonder, like, how they balance all that with avoiding another \"taper tantrum\" like after 2008.\nHostA: For sure. They’re trying to give investors plenty of notice before any policy shifts.\nHostB: And they’re still buying $120 billion in bonds per month to support markets—that’s a huge ongoing commitment.\nHostA: But their inflation prediction for this year is only 0.4% now, down from 2.4% in March. That’s a massive revision.\nHostB: Yeah, it really shows how much uncertainty there still is in this recovery."
+}

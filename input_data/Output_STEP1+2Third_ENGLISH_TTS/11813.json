@@ -1,0 +1,149 @@
+{
+  "id": 11813,
+  "language": "english",
+  "hallucination": "no",
+  "ground_truth_source": "text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts or friends discussing a news article.",
+      "inferred_vibe": "A concerned vs. skeptical debate about the severity of a weather and pollution forecast."
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "Wait, hold on. Are you seeing this? Like, nighttime temperatures dropping to minus ten to minus twelve degrees Celsius in Astana? With, uh, 'unfavorable meteorological conditions' for pollution?",
+        "tts_text": "Wait, hold on. Are you seeing this? Like, nighttime temperatures dropping to minus ten to minus twelve degrees Celsius in Astana? With, uh, 'unfavorable meteorological conditions' for pollution?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "unfavorable meteorological conditions for air pollution are expected in the cities of... Astana... Nighttime temperatures will drop to -10 to -12ÂC",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, so? It's March. In Kazakhstan. What, were you expecting, like, a beach vacation?",
+        "tts_text": "Yeah, so? It's March. In Kazakhstan. What, were you expecting, like, a beach vacation?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "No, but it's not just cold, B. It's for 'air pollution'! It literally says that. Don't you think that's, like, concerning?",
+        "tts_text": "No, but it's not just cold, B. It's for 'air pollution'! It literally says that. Don't you think that's, like, concerning?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Kazhydromet has issued an air pollution warning for residents of Astana, Almaty, and several other cities across Kazakhstan.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "It's a forecast, A. Kazhydromet is just doing its job by, uh, reporting the conditions. Calm winds, light breezes – that's just typical weather.",
+        "tts_text": "It's a forecast, A. Kazhydromet is just doing its job by, uh, reporting the conditions. Calm winds, light breezes - that's just typical weather.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Such conditions arise due to a combination of short-term meteorological factors—including calm winds, light breezes, fog, and temperature inversions—that contribute to the accumulation of pollutants in the lower layers of the atmosphere.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Typical weather that contributes to the accumulation of pollutants! It says it right here, 'accumulation of pollutants in the lower layers of the atmosphere'!",
+        "tts_text": "Typical weather that contributes to the accumulation of pollutants! It says it right here, 'accumulation of pollutants in the lower layers of the atmosphere'!",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "that contribute to the accumulation of pollutants in the lower layers of the atmosphere.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Okay, but it also says 'partly cloudy skies with no precipitation.' That's not exactly, like, a disaster, is it?",
+        "tts_text": "Okay, but it also says 'partly cloudy skies with no precipitation.' That's not exactly, like, a disaster, is it?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The capital will see partly cloudy skies with no precipitation.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "No precipitation means nothing to wash the filth away! It's a warning, B! For Aktobe, Almaty, Kostanay too!",
+        "tts_text": "No precipitation means nothing to wash the filth away! It's a warning, B! For Aktobe, Almaty, Kostanay too!",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "unfavorable meteorological conditions for air pollution are expected in the cities of Aktobe, Astana, Almaty, and Kostanay,",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "They have to issue one. It's, like, not some unprecedented event. Happens, you know, in this region.",
+        "tts_text": "They have to issue one. It's, like, not some unprecedented event. Happens, you know, in this region.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "So a major public health risk is just 'happens'? And the daytime temp barely gets to one to three degrees. People are breathing this in all day.",
+        "tts_text": "So a major public health risk is just 'happens'? And the daytime temp barely gets to one to three degrees. People are breathing this in all day.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "while daytime temperatures will rise to 1-3ÂC.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Well, the, uh, other cities are looking at eight to ten degrees during the day. So it's not, like, completely dire everywhere.",
+        "tts_text": "Well, the, uh, other cities are looking at eight to ten degrees during the day. So it's not, like, completely dire everywhere.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "while daytime temperatures will warm up to 8-10ÂC.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "But Astana! The capital! Minus ten at night, barely above freezing during the day, with pollution warnings? That's, uh, seriously bad.",
+        "tts_text": "But Astana! The capital! Minus ten at night, barely above freezing during the day, with pollution warnings? That's, uh, seriously bad.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Nighttime temperatures will drop to -10 to -12ÂC, while daytime temperatures will rise to 1-3ÂC... unfavorable meteorological conditions for air pollution are expected in the cities of... Astana",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "It's, like, a 'short-term' thing, A. The article explicitly says 'short-term meteorological factors.' It won't last forever.",
+        "tts_text": "It's, like, a 'short-term' thing, A. The article explicitly says 'short-term meteorological factors.' It won't last forever.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Such conditions arise due to a combination of short-term meteorological factors",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Short-term or not, it's still dangerous for that short term! And people need to, like, actually understand the severity here!",
+        "tts_text": "Short-term or not, it's still dangerous for that short term! And people need to, like, actually understand the severity here!",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "They do understand. Kazhydromet warned them. What more do you want? Like, constant panic over every forecast?",
+        "tts_text": "They do understand. Kazhydromet warned them. What more do you want? Like, constant panic over every forecast?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Kazhydromet has issued an air pollution warning for residents of Astana, Almaty, and several other cities across Kazakhstan.",
+        "confidence": 1.0,
+        "priority": "high"
+      }
+    ]
+  },
+  "batch_index": 3
+}

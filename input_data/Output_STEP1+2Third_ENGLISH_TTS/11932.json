@@ -1,0 +1,175 @@
+{
+  "id": 11932,
+  "language": "english",
+  "hallucination": "no",
+  "ground_truth_source": "text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Colleagues or Co-hosts",
+      "inferred_vibe": "Argumentative and informal"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "Oh my god, you are not going to believe this!",
+        "tts_text": "Oh my god, you are not going to believe this!",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "What now? You sound, uh, particularly exasperated.",
+        "tts_text": "What now? You sound, uh, particularly exasperated.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "This earthquake report, right? In Kazakhstan. Except... uh... it's also, like, in Uzbekistan?",
+        "tts_text": "This earthquake report, right? In Kazakhstan. Except... uh... it's also, like, in Uzbekistan?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The epicenter was located in Kazakhstan, 684 kilometers southwest of Almaty, 14 kilometers from the village of Dostyk in the Keles district of the Turkestan region, and on the territory of Uzbekistan,",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Wait, what? No, it says Kazakhstan. \"Epicenter was located in Kazakhstan.\" Come on.",
+        "tts_text": "Wait, what? No, it says Kazakhstan. Epicenter was located in Kazakhstan. Come on.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The epicenter was located in Kazakhstan... and on the territory of Uzbekistan,",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "No, no, hold on. It says \"on the territory of Uzbekistan.\" Explicitly!",
+        "tts_text": "No, no, hold on. It says on the territory of Uzbekistan. Explicitly!",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The epicenter was located in Kazakhstan... and on the territory of Uzbekistan,",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, but that's after it says the epicenter was, uh, in Kazakhstan. They're just, like, listing where it was felt, maybe?",
+        "tts_text": "Yeah, but that's after it says the epicenter was, uh, in Kazakhstan. They're just, like, listing where it was felt, maybe?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The epicenter was located in Kazakhstan... and on the territory of Uzbekistan,\" the MES said in a statement. The intensity of the earthquake reached 3 magnitude points in the village of Abai, Keles district, and 3 points in the city of Saryagash, Saryagash district.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Felt? It says \"on the territory of Uzbekistan.\" That sounds like the epicenter, um, straddled a border.",
+        "tts_text": "Felt? It says on the territory of Uzbekistan. That sounds like the epicenter, um, straddled a border.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "No, I don't think so. It's clearly centered in Kazakhstan. Keles district, remember? Dostyk village.",
+        "tts_text": "No, I don't think so. It's clearly centered in Kazakhstan. Keles district, remember? Dostyk village.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The epicenter was located in Kazakhstan, 684 kilometers southwest of Almaty, 14 kilometers from the village of Dostyk in the Keles district of the Turkestan region, and on the territory of Uzbekistan,",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "But why would they add \"and on the territory of Uzbekistan\" if it wasn't, uh, significant?",
+        "tts_text": "But why would they add and on the territory of Uzbekistan if it wasn't, uh, significant?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Because, like, maybe it just barely touched it? Or it's just poor wording from the Ministry, you know?",
+        "tts_text": "Because, like, maybe it just barely touched it? Or it's just poor wording from the Ministry, you know?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Poor wording? Are you serious? This isn't just \"poor wording\" when you're talking about, um, international borders for an earthquake epicenter!",
+        "tts_text": "Poor wording? Are you serious? This isn't just poor wording when you're talking about, um, international borders for an earthquake epicenter!",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Okay, but it was, like, what, 3 magnitude points? Who cares where it, uh, exactly started? No casualties.",
+        "tts_text": "Okay, but it was, like, what, three magnitude points? Who cares where it, uh, exactly started? No casualties.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The intensity of the earthquake reached 3 magnitude points in the village of Abai, Keles district, and 3 points in the city of Saryagash, Saryagash district. No casualties or damage have been reported, according to the ministry.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "No, no, that's completely missing the point! The location is the story here. Not just the strength.",
+        "tts_text": "No, no, that's completely missing the point! The location is the story here. Not just the strength.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "It's a non-story. Minor tremor, no damage. End of.",
+        "tts_text": "It's a non-story. Minor tremor, no damage. End of.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "No casualties or damage have been reported, according to the ministry.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "So an earthquake simultaneously hitting two countries is a \"non-story\" to you? Unbelievable.",
+        "tts_text": "So an earthquake simultaneously hitting two countries is a non-story to you? Unbelievable.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, if it's, like, a tiny 3 mag. Just some rumbles.",
+        "tts_text": "Yeah, if it's, like, a tiny three mag. Just some rumbles.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The intensity of the earthquake reached 3 magnitude points in the village of Abai, Keles district, and 3 points in the city of Saryagash, Saryagash district.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "You are infuriating.",
+        "tts_text": "You are infuriating.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "You're overthinking it, dude.",
+        "tts_text": "You're overthinking it, dude.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  },
+  "batch_index": 3
+}

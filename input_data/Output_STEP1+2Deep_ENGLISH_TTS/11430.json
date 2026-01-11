@@ -1,0 +1,113 @@
+{
+  "id": 11430,
+  "language": "english",
+  "hallucination": "no",
+  "ground_truth_source": "text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Podcast co-hosts",
+      "inferred_vibe": "Informative and conversational"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "HostA",
+        "text": "Picture a giant, invisible lid being placed over a city, just trapping all the smog and exhaust down at street level.",
+        "tts_text": "Picture a giant, invisible lid being placed over a city, just trapping all the smog and exhaust down at street level.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostB",
+        "text": "Yeah, that's exactly what's happening in Astana and Almaty on May 14th, according to Kazhydromet. They've issued an air pollution warning.",
+        "tts_text": "Yeah, that's exactly what's happening in Astana and Almaty on May fourteenth, according to Kazhydromet. They've issued an air pollution warning.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Kazhydromet has issued an air pollution warning for residents of Astana, Almaty, and several other cities. \"On May 14, 2025, unfavorable meteorological conditions for air pollution are expected in the cities of Almaty, Astana, Zhezkazgan, and Balkhash,\" the statement said.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Right, because of these unfavorable meteorological conditions, which is basically a fancy term for, uh, weather that just lets all the bad stuff hang around.",
+        "tts_text": "Right, because of these unfavorable meteorological conditions, which is basically a fancy term for, uh, weather that just lets all the bad stuff hang around.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Unfavorable meteorological conditions refer to a combination of short-term weather factors\"such as calm, light wind, fog, and temperature inversion\"that contribute to the accumulation of harmful (polluting) substances in the lower layer of the atmosphere.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "It's that temperature inversion phenomenon they mentioned. The warm air acts like a cap, trapping the cooler, polluted air beneath it. Normally, that warm air would rise and take the pollution with it.",
+        "tts_text": "It's that temperature inversion phenomenon they mentioned. The warm air acts like a cap, trapping the cooler, polluted air beneath it. Normally, that warm air would rise and take the pollution with it.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "An inversion is a weather phenomenon in which warm air traps colder air beneath it. Normally, warmer air near the surface rises and carries pollutants away.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "So instead of getting dispersed by wind, all the car exhaust and dust just accumulates. And with light winds forecasted, only like 3 to 8 meters per second...",
+        "tts_text": "So instead of getting dispersed by wind, all the car exhaust and dust just accumulates. And with light winds forecasted, only like three to eight meters per second...",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "May 14 \" Partly cloudy, no precipitation. Southwest wind 3\"8 m/s.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Exactly, there's just not enough push to clear it out. And it's not like it's gonna rain either, no precipitation to wash anything away.",
+        "tts_text": "Exactly, there's just not enough push to clear it out. And it's not like it's gonna rain either, no precipitation to wash anything away.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "May 14 \" Partly cloudy, no precipitation expected.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Which is extra concerning with this heat wave they're talking about. I mean, temperatures hitting up to 44 degrees in the south? That's intense.",
+        "tts_text": "Which is extra concerning with this heat wave they're talking about. I mean, temperatures hitting up to forty four degrees in the south? That's intense.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Forecasters previously warned that a heat wave bringing temperatures of up to 44ÂC is approaching Kazakhstan. Southern and central regions will experience dry and hot weather, with temperatures reaching 35\"44ÂC in the south and 35\"38ÂC in central areas.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Seriously. And most of the country is already expecting this spring to be a full degree warmer than average.",
+        "tts_text": "Seriously. And most of the country is already expecting this spring to be a full degree warmer than average.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Kazhydromet previously reported that May temperatures are expected to be about 1ÂC above average across most of the country, making this spring significantly warmer than usual.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "So for people in those cities, it's probably a good day to limit time outside, especially for anyone with breathing issues.",
+        "tts_text": "So for people in those cities, it's probably a good day to limit time outside, especially for anyone with breathing issues.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostB",
+        "text": "Absolutely. Keep those windows closed if you can. It's wild how specific weather patterns can have such a direct impact on air quality.",
+        "tts_text": "Absolutely. Keep those windows closed if you can. It's wild how specific weather patterns can have such a direct impact on air quality.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      }
+    ]
+  },
+  "generator_model": "DeepSeek-V3.1",
+  "batch_index": 2
+}

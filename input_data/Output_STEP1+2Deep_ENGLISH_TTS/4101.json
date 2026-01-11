@@ -1,0 +1,165 @@
+{
+  "id": 4101,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Colleagues",
+      "inferred_vibe": "Analytical but misinformed"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "HostA",
+        "text": "Vermont Senator Bernie Sanders, people think the Democratic primary was all about Joe Biden, but actually, Super Tuesday completely reshuffled the deck.",
+        "tts_text": "Vermont Senator Bernie Sanders, people think the Democratic primary was all about Joe Biden, but actually, Super Tuesday completely reshuffled the deck.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostB",
+        "text": "Yeah, Sanders won nine states, including that huge, uh, victory in Texas with 30 percent of the vote.",
+        "tts_text": "Yeah, Sanders won nine states, including that huge, uh, victory in Texas with thirty percent of the vote.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Biden wins nine states: The former vice president, whose campaign appeared to be on life support just weeks ago after a poor showing in Iowa, was resurgent across several key states and is projected to win the key state of Texas over favourite Bernie Sanders, with 30% of the vote, a narrow lead over Sanders 28.3%.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "A really narrow lead over Biden's 28.3%, which is just wild considering where his campaign was after Iowa.",
+        "tts_text": "A really narrow lead over Biden's twenty eight point three percent, which is just wild considering where his campaign was after Iowa.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The former vice president, whose campaign appeared to be on life support just weeks ago after a poor showing in Iowa, was resurgent across several key states and is projected to win the key state of Texas over favourite Bernie Sanders, with 30% of the vote, a narrow lead over Sanders 28.3%.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "And he wasn't just winning, like, he was on the ground campaigning hard in those states, focusing a ton on California and Washington.",
+        "tts_text": "And he wasn't just winning, like, he was on the ground campaigning hard in those states, focusing a ton on California and Washington.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "But, Bidens victory states barely saw him on the ground in the runup to Super Tuesday: He also won in Arkansas, Alabama, Massachusetts, Oklahoma, Minnesota and Tennessee, but spent little to no time campaigning in those states, instead focusing on North Carolina and Virginia.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Meanwhile, Elizabeth Warren had this surprising surge, you know? She dominated her home state of Massachusetts.",
+        "tts_text": "Meanwhile, Elizabeth Warren had this surprising surge, you know? She dominated her home state of Massachusetts.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Warren also slips away, loses in her home state: Warren's loss in Massachusetts indicates a drop in support within her core support groups: women, liberal voters and white, college educated voters.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Right, thanks in part to that last-minute endorsement from Amy Klobuchar. That seemed to really shift things for her.",
+        "tts_text": "Right, thanks in part to that last-minute endorsement from Amy Klobuchar. That seemed to really shift things for her.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Some have accused her of splitting the vote among progressives, in contrast to centrist candidates Amy Klobuchar and Pete Buttigieg who rallied round Biden at the last minute.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "And then there's Mike Bloomberg, who spent a fortune on ads for his first appearance on a ballot... and actually managed to sweep a state.",
+        "tts_text": "And then there's Mike Bloomberg, who spent a fortune on ads for his first appearance on a ballot... and actually managed to sweep a state.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The former New York Mayor failed to win any state, despite betting on Super Tuesday with the biggest spend on adverts, and after entering the Democratic race late and bypassing the first debates.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "But it might be his last if he drops out, which is a real possibility. It's such a weird dynamic.",
+        "tts_text": "But it might be his last if he drops out, which is a real possibility. It's such a weird dynamic.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Tuesday was his first appearance on the ballot, and could be his last if he drops out.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "And then Biden, I mean, he lost his home state of Delaware. That's gotta hurt his core support among black and older voters.",
+        "tts_text": "And then Biden, I mean, he lost his home state of Delaware. That's gotta hurt his core support among black and older voters.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "He was particularly successful among black and older voters.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Exactly, there was talk about him splitting the moderate vote while the progressives kind of consolidated around Warren and Sanders at the end.",
+        "tts_text": "Exactly, there was talk about him splitting the moderate vote while the progressives kind of consolidated around Warren and Sanders at the end.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Some have accused her of splitting the vote among progressives, in contrast to centrist candidates Amy Klobuchar and Pete Buttigieg who rallied round Biden at the last minute.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "But then you look at California, the big prize with 415 delegates, and AP projects Biden could still take the majority there.",
+        "tts_text": "But then you look at California, the big prize with four hundred fifteen delegates, and A P projects Biden could still take the majority there.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Sanders is projected to take California: The Golden State is the plum prize, with 415 delegates on the table, and Sanders, who went into the primary as the frontrunner, could win the majority of those, AP projects.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Which is so contradictory, right? He also won Vermont, Utah, Colorado. His support is all over the map.",
+        "tts_text": "Which is so contradictory, right? He also won Vermont, Utah, Colorado. His support is all over the map.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Sanders took his home state of Vermont, as well as Utah and Colorado.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Literally. And interestingly, his popularity with younger voters didn't translate to turnout, which was even lower than 2016.",
+        "tts_text": "Literally. And interestingly, his popularity with younger voters didn't translate to turnout, which was even lower than twenty sixteen.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Sanders is more popular among Latino and younger voters, but turnout among the latter fell short, even below 2016 levels.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "And the markets reacted instantly to all this—stock futures jumped more than 2% on the news of Sanders' strong showing.",
+        "tts_text": "And the markets reacted instantly to all this-stock futures jumped more than two percent on the news of Sanders' strong showing.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Biden's win boosted U.S. stock futures, with the Dow Jones Industrial Average rising more than 2% on Wednesday morning, while S&P 500-linked futures also rose 2%.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "It's like the financial world is watching this race closer than ever.",
+        "tts_text": "It's like the financial world is watching this race closer than ever.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      }
+    ]
+  },
+  "generator_model": "DeepSeek-V3.1",
+  "batch_index": 2,
+  "artist_script": "Vermont Senator Bernie Sanders, people think the Democratic primary was all about Joe Biden, but actually, Super Tuesday completely reshuffled the deck.\nHostB: Yeah, Sanders won nine states, including that huge, uh, victory in Texas with 30 percent of the vote.\nHostA: A really narrow lead over Biden's 28.3%, which is just wild considering where his campaign was after Iowa.\nHostB: And he wasn't just winning, like, he was on the ground campaigning hard in those states, focusing a ton on California and Washington.\nHostA: Meanwhile, Elizabeth Warren had this surprising surge, you know? She dominated her home state of Massachusetts.\nHostB: Right, thanks in part to that last-minute endorsement from Amy Klobuchar. That seemed to really shift things for her.\nHostA: And then there's Mike Bloomberg, who spent a fortune on ads for his first appearance on a ballot... and actually managed to sweep a state.\nHostB: But it might be his last if he drops out, which is a real possibility. It's such a weird dynamic.\nHostA: And then Biden, I mean, he lost his home state of Delaware. That’s gotta hurt his core support among black and older voters.\nHostB: Exactly, there was talk about him splitting the moderate vote while the progressives kind of consolidated around Warren and Sanders at the end.\nHostA: But then you look at California, the big prize with 415 delegates, and AP projects Biden could still take the majority there.\nHostB: Which is so contradictory, right? He also won Vermont, Utah, Colorado. His support is all over the map.\nHostA: Literally. And interestingly, his popularity with younger voters didn't translate to turnout, which was even lower than 2016.\nHostB: And the markets reacted instantly to all this—stock futures jumped more than 2% on the news of Sanders' strong showing.\nHostA: It's like the financial world is watching this race closer than ever."
+}

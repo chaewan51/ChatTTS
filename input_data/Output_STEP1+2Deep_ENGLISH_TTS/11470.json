@@ -1,0 +1,101 @@
+{
+  "id": 11470,
+  "language": "english",
+  "hallucination": "no",
+  "ground_truth_source": "text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Podcast co-hosts",
+      "inferred_vibe": "Informative and empathetic"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "HostA",
+        "text": "And we have a message from a listener, uh, Ravi in Delhi, who was asking about flight disruptions to India.",
+        "tts_text": "And we have a message from a listener, uh, Ravi in Delhi, who was asking about flight disruptions to India.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostB",
+        "text": "Oh, right, yeah. Air Astana just canceled their Almaty-Delhi flights for May 8th because of the airspace closure between India and Pakistan.",
+        "tts_text": "Oh, right, yeah. Air Astana just canceled their Almaty-Delhi flights for May eighth because of the airspace closure between India and Pakistan.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Due to the closure of airspace between India and Pakistan, Air Astana has canceled its Almaty\"Delhi\"Almaty flights scheduled for May 8, the airline's press service reports.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Mhm, that's a pretty major route disruption. I feel for those passengers, but at least they're getting full refunds on their tickets.",
+        "tts_text": "Mhm, that's a pretty major route disruption. I feel for those passengers, but at least they're getting full refunds on their tickets.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The airline assured that passengers of the canceled flights will receive a full refund for their tickets.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Yeah, and they're also working on repatriation flights for Kazakh citizens and other passengers, using alternative routes back home.",
+        "tts_text": "Yeah, and they're also working on repatriation flights for Kazakh citizens and other passengers, using alternative routes back home.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The airline is currently working on organizing repatriation flights via alternative routes to return citizens of the Republic of Kazakhstan and other Air Astana passengers to their home country, the statement said.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "That's good to hear. It must be so stressful for people stranded like that, you know?",
+        "tts_text": "That's good to hear. It must be so stressful for people stranded like that, you know?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostB",
+        "text": "Absolutely. And the airline said they'll keep passengers updated on any further changes to India flights.",
+        "tts_text": "Absolutely. And the airline said they'll keep passengers updated on any further changes to India flights.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Passengers will be additionally informed about any changes related to flights to India.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Smart move—communication is key in these situations. I wonder how long the airspace closure will last.",
+        "tts_text": "Smart move-communication is key in these situations. I wonder how long the airspace closure will last.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostB",
+        "text": "Hard to say, but it's definitely causing a ripple effect for airlines in the region.",
+        "tts_text": "Hard to say, but it's definitely causing a ripple effect for airlines in the region.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostA",
+        "text": "For sure. Let's hope it gets resolved soon so travelers can get where they need to go.",
+        "tts_text": "For sure. Let's hope it gets resolved soon so travelers can get where they need to go.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      }
+    ]
+  },
+  "generator_model": "DeepSeek-V3.1",
+  "batch_index": 2
+}

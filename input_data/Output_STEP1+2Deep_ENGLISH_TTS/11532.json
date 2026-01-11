@@ -1,0 +1,131 @@
+{
+  "id": 11532,
+  "language": "english",
+  "hallucination": "no",
+  "ground_truth_source": "text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Colleagues (Podcast Co-hosts)",
+      "inferred_vibe": "Informative and concerned"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "HostA",
+        "text": "Kazhydromet has just issued a serious air pollution warning for Almaty on April 28th.",
+        "tts_text": "Kazhydromet has just issued a serious air pollution warning for Almaty on April twenty eighth.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Kazhydromet has issued a warning for residents of Almaty. \"On April 28, 2025, unfavorable meteorological conditions for air pollution are expected in Almaty,\" the statement said.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Yeah, and it's all because of these unfavorable meteorological conditions they mentioned—calm winds, fog, and that inversion effect.",
+        "tts_text": "Yeah, and it's all because of these unfavorable meteorological conditions they mentioned-calm winds, fog, and that inversion effect.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Unfavorable meteorological conditions refer to a combination of short-term weather factors (calm, light wind, fog, inversion) that contribute to the accumulation of harmful (polluting) substances in the ground layer of the atmosphere.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Right, the inversion is what really traps everything. Normally, warm air rises and takes pollution with it, but during an inversion, cool air gets stuck near the ground.",
+        "tts_text": "Right, the inversion is what really traps everything. Normally, warm air rises and takes pollution with it, but during an inversion, cool air gets stuck near the ground.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Normally, the air near the ground is warmer and rises, carrying pollutants away. But during an inversion, the cold air becomes \"locked\" at the surface, along with all emissions, dust, and smoke.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "So all the emissions, dust, smoke—just builds up. It's especially bad in a city like Almaty.",
+        "tts_text": "So all the emissions, dust, smoke-just builds up. It's especially bad in a city like Almaty.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "But during an inversion, the cold air becomes \"locked\" at the surface, along with all emissions, dust, and smoke. As a result, pollution accumulates near the ground, especially in urban areas.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "And it's not like it's gonna be a calm day otherwise—they're predicting thunderstorms, even hail.",
+        "tts_text": "And it's not like it's gonna be a calm day otherwise-they're predicting thunderstorms, even hail.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "On April 28, Almaty will experience partly cloudy skies, occasional rain, and thunderstorms. Hail is expected during the day.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "With wind gusts up to 20 meters per second? That's pretty strong, but it might not be enough to clear out that trapped layer of pollution.",
+        "tts_text": "With wind gusts up to twenty meters per second? That's pretty strong, but it might not be enough to clear out that trapped layer of pollution.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Southwest wind at 9\"14 m/s, with daytime gusts of 15\"20 m/s.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Exactly, those surface conditions are what matter. Temperature swings too—11 to 27 degrees—but the inversion overrides all that.",
+        "tts_text": "Exactly, those surface conditions are what matter. Temperature swings toominus eleven to twenty seven degrees-but the inversion overrides all that.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Air temperature: 11\"13ÂC at night, 25\"27ÂC during the day.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "It's wild how such specific weather can have such a direct impact on air quality and health.",
+        "tts_text": "It's wild how such specific weather can have such a direct impact on air quality and health.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostA",
+        "text": "For sure. Residents should probably limit time outside, especially sensitive groups.",
+        "tts_text": "For sure. Residents should probably limit time outside, especially sensitive groups.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostB",
+        "text": "Definitely. I wonder if this is becoming more frequent there or if it's a one-off.",
+        "tts_text": "Definitely. I wonder if this is becoming more frequent there or if it's a one-off.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostA",
+        "text": "Hard to say, but with urban growth and emissions, these warnings might get more common.",
+        "tts_text": "Hard to say, but with urban growth and emissions, these warnings might get more common.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostB",
+        "text": "Yeah, it's a reminder how interconnected weather and pollution really are.",
+        "tts_text": "Yeah, it's a reminder how interconnected weather and pollution really are.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      }
+    ]
+  },
+  "generator_model": "DeepSeek-V3.1",
+  "batch_index": 2
+}

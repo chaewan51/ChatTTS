@@ -1,0 +1,165 @@
+{
+  "id": 7139,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Comedic argument"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "I cannot believe this! Just… just look at this article! The richest people on Earth, completely decimated! This is, uh, staggering!",
+        "tts_text": "I cannot believe this! Just... just look at this article! The richest people on Earth, completely decimated! This is, uh, staggering!",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Forbes counted 2,095 billionaires, 58 fewer than a year ago and 226 fewer than just 12 days earlier, when we initially calculated these net worths. Of the billionaires who remain, 51% are poorer than they were last year. In raw terms, the worlds billionaires are worth $8 trillion, down $700 billion from 2019.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "HA! Oh, A, you actually read that as news? Seriously? You're not, like, seeing the obvious?",
+        "tts_text": "H A! Oh, A, you actually read that as news? Seriously? You're not, like, seeing the obvious?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "What do you mean 'obvious'? It's right here! 'Forbes counted only 5 billionaires'! And then it gets worse! 'Jeff Bezos, now the sole surviving billionaire'! How is that not clear?",
+        "tts_text": "What do you mean 'obvious'? It's right here! 'Forbes counted only five billionaires'! And then it gets worse! 'Jeff Bezos, now the sole surviving billionaire'! How is that not clear?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Forbes counted 2,095 billionaires... Jeff Bezos is the worlds wealthiest person for the third year in a row... Bill Gates keeps his spot as number two richest",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "A 'sole surviving billionaire' quarantined on a 'private space station'? Come on, man. That's, uh, that's clearly a joke. A very dark joke.",
+        "tts_text": "A 'sole surviving billionaire' quarantined on a 'private space station'? Come on, man. That's, uh, that's clearly a joke. A very dark joke.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "A joke? It talks about Amazon firing a million workers! 'His fortune decimated by lawsuits related to unsafe working conditions'! That sounds, um, pretty real given everything, doesn't it?",
+        "tts_text": "A joke? It talks about Amazon firing a million workers! 'His fortune decimated by lawsuits related to unsafe working conditions'! That sounds, um, pretty real given everything, doesn't it?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The e-commerce giant he runs has been in the spotlight amid the pandemic; its hiring 100,000 full- and part-time workers to help meet increased demand from consumers staying home and shopping online. Hes worth $113 billion, buoyed by a 15% rise in Amazons shares since our 2019 list.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "But... 'The U.S. no longer exists'? 'The Forbes Worlds Billionaires list is now a list of ghosts'? You're not actually buying that, are you? Like, literally?",
+        "tts_text": "But... 'The U.S. no longer exists'? 'The Forbes Worlds Billionaires list is now a list of ghosts'? You're not actually buying that, are you? Like, literally?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The U.S. remains the country with the most billionaires, with 614, followed by greater China (including Hong Kong and Macao), with 456.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "I'm buying that the economic system completely failed, yes! It says it right here! 'The global economy was primed for total collapse before the pandemic.' It happened, B!",
+        "tts_text": "I'm buying that the economic system completely failed, yes! It says it right here! 'The global economy was primed for total collapse before the pandemic.' It happened, B!",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The global economy was ripe for a recession even before th...",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "No, it's making a point. It's, like, extreme hyperbole to show how fragile the system could be, or how meaningless wealth might become. It's satire, A! Pure satire!",
+        "tts_text": "No, it's making a point. It's, like, extreme hyperbole to show how fragile the system could be, or how meaningless wealth might become. It's satire, A! Pure satire!",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Satire? 'Qin Yinglin, who lost the entirety of his fortune after his pig breeding business collapsed'? I mean, uh, that's a specific person! And pigs dying of mutated swine flu? That's, like, plausible!",
+        "tts_text": "Satire? 'Qin Yinglin, who lost the entirety of his fortune after his pig breeding business collapsed'? I mean, uh, that's a specific person! And pigs dying of mutated swine flu? That's, like, plausible!",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The biggest gainer in dollar terms is Qin Yinglin, the worlds richest pig breeder. Hes ranked No. 43 and is worth $18.5 billion--a $14.2 billion jump since the 2019 list, after shares of his Shenzhen-listed Muyuan Foods nearly tripled as the African swine flu reduced the supply of pigs and drove up prices.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "So, you really think Jeff Bezos is on a space station, Bill Gates is number two, and, uh, the US just... vanished? All at once?",
+        "tts_text": "So, you really think Jeff Bezos is on a space station, Bill Gates is number two, and, uh, the U S just... vanished? All at once?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Bill Gates keeps his spot as number two richest, followed by luxury goods tycoon Bernard Arnault, who nudged out Warren Buffett to move into the number three spot for the first time.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Well, maybe not all at once, but the article's tracking the fallout! It says 2,090 people vanished! And, um, '21,000 people died'! This is apocalyptic, B!",
+        "tts_text": "Well, maybe not all at once, but the article's tracking the fallout! It says twenty ninety people vanished! And, um, 'twenty one thousand people died'! This is apocalyptic, B!",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Altogether, 267 people who made last years list have dropped off as businesses faltered; among the most notable drop-offs is Adam Neumann of WeWork. Another 21 people died.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Apocalyptic, yes, but it's clearly a narrative device! 'Only Corporate Greed Can Save Us' – that's the title! How can you read that title and think it's straight reporting?",
+        "tts_text": "Apocalyptic, yes, but it's clearly a narrative device! 'Only Corporate Greed Can Save Us' - that's the title! How can you read that title and think it's straight reporting?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Only Multilateralism Can Save Us WASHINGTON, DC The global economy was ripe for a recession even before th...",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Because it's a commentary! It's saying greed got us into this mess, and only, um, a drastic change can get us out! But the damage is done! The billionaires are gone!",
+        "tts_text": "Because it's a commentary! It's saying greed got us into this mess, and only, um, a drastic change can get us out! But the damage is done! The billionaires are gone!",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Forbes counted 2,095 billionaires, 58 fewer than a year ago and 226 fewer than just 12 days earlier, when we initially calculated these net worths.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "The billionaires are not gone! This is a fictional scenario, designed to critique extreme wealth inequality and systemic vulnerability! It's not a news report, A. It's a dystopian thought experiment!",
+        "tts_text": "The billionaires are not gone! This is a fictional scenario, designed to critique extreme wealth inequality and systemic vulnerability! It's not a news report, A. It's a dystopian thought experiment!",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Forbes counted 2,095 billionaires, 58 fewer than a year ago and 226 fewer than just 12 days earlier, when we initially calculated these net worths.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "No, you're just, uh, you're totally denying the reality of what's written here! The world changed, B! We value nothing!",
+        "tts_text": "No, you're just, uh, you're totally denying the reality of what's written here! The world changed, B! We value nothing!",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "We value nothing because the author is saying wealth becomes meaningless in that scenario. Not because it actually happened! My god, A, you're taking this so incredibly literally!",
+        "tts_text": "We value nothing because the author is saying wealth becomes meaningless in that scenario. Not because it actually happened! My god, A, you're taking this so incredibly literally!",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  },
+  "batch_index": 3
+}

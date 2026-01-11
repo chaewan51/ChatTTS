@@ -1,0 +1,145 @@
+{
+  "id": 11675,
+  "language": "english",
+  "hallucination": "no",
+  "ground_truth_source": "text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Informational and conversational"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "Okay, so I just saw this Kazhydromet warning, right, for April 10th, 2025. And, um, it looks like Almaty is gonna have a pretty perfect day, B. Like, 20 degrees, no rain, variable cloudiness. What's not to love?",
+        "tts_text": "Okay, so I just saw this Kazhydromet warning, right, for April tenth, twenty twenty five. And, um, it looks like Almaty is gonna have a pretty perfect day, B. Like, twenty degrees, no rain, variable cloudiness. What's not to love?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "On April 10, 2025... On April 10, the city is expected to have variable cloudiness, no precipitation... Air temperature at night 10-12ÂC, during the day 20-22ÂC.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Uh, actually, A, that's not quite the full picture. The \"warning\" part is pretty important. It's not, um, exactly perfect. They're talking about air pollution.",
+        "tts_text": "Uh, actually, A, that's not quite the full picture. The warning part is pretty important. It's not, um, exactly perfect. They're talking about air pollution.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Kazhydromet issued a warning for residents of Almaty and other cities in different regions of the country. \"On April 10, 2025, unfavorable meteorological conditions of air pollution are expected...",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Pollution? What? No, I just read \"no precipitation,\" and \"southwest wind.\" That sounds like, uh, ideal weather to me.",
+        "tts_text": "Pollution? What? No, I just read no precipitation, and southwest wind. That sounds like, uh, ideal weather to me.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "On April 10, the city is expected to have variable cloudiness, no precipitation. Southwest wind 4-9 m/s.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, but it's specifically about \"unfavorable meteorological conditions.\" That's the phrase you really need to key in on.",
+        "tts_text": "Yeah, but it's specifically about unfavorable meteorological conditions. That's the phrase you really need to key in on.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Unfavorable meteorological conditions are a combination of short-term meteorological factors (calm, light wind, fog, inversion), which contribute to the accumulation of harmful (polluting) substances in the surface layer of atmospheric air.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Unfavorable what now? Like, uh, they're just saying it's bad weather then? That contradicts the temps I saw.",
+        "tts_text": "Unfavorable what now? Like, uh, they're just saying it's bad weather then? That contradicts the temps I saw.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "No, it's not just bad weather. It's a combination of things. Like, really calm winds, or light winds, sometimes fog, or what they call an inversion.",
+        "tts_text": "No, it's not just bad weather. It's a combination of things. Like, really calm winds, or light winds, sometimes fog, or what they call an inversion.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Unfavorable meteorological conditions are a combination of short-term meteorological factors (calm, light wind, fog, inversion)...",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "An inversion? What is that even, B? Are we talking about, like, freak weather phenomena?",
+        "tts_text": "An inversion? What is that even, B? Are we talking about, like, freak weather phenomena?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Not freak, just specific conditions. These things, uh, they kinda trap all the harmful substances, the pollution, right down near the ground. In the air we're breathing.",
+        "tts_text": "Not freak, just specific conditions. These things, uh, they kinda trap all the harmful substances, the pollution, right down near the ground. In the air we're breathing.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "...which contribute to the accumulation of harmful (polluting) substances in the surface layer of atmospheric air.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Oh. So, like, the nice, calm weather actually makes the air quality really bad? That's, uh, that's kind of counterintuitive.",
+        "tts_text": "Oh. So, like, the nice, calm weather actually makes the air quality really bad? That's, uh, that's kind of counterintuitive.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Exactly. It creates this, um, invisible lid, basically. It lets the pollutants build up instead of dispersing.",
+        "tts_text": "Exactly. It creates this, um, invisible lid, basically. It lets the pollutants build up instead of dispersing.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "...which contribute to the accumulation of harmful (polluting) substances in the surface layer of atmospheric air.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "And this is happening in Almaty on April 10th? Is it just Almaty?",
+        "tts_text": "And this is happening in Almaty on April tenth? Is it just Almaty?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "\"On April 10, 2025, unfavorable meteorological conditions of air pollution are expected in the cities of Pavlodar, Karaganda, Zhezkazgan, Balkhash, Temirtau, Ust-Kamenogorsk, Almaty,\" the report says.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Almaty, yes, but also a bunch of other cities. Like, Pavlodar, Karaganda, Zhezkazgan, Balkhash, Temirtau, Ust-Kamenogorsk. It's pretty widespread.",
+        "tts_text": "Almaty, yes, but also a bunch of other cities. Like, Pavlodar, Karaganda, Zhezkazgan, Balkhash, Temirtau, Ust-Kamenogorsk. It's pretty widespread.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "...unfavorable meteorological conditions of air pollution are expected in the cities of Pavlodar, Karaganda, Zhezkazgan, Balkhash, Temirtau, Ust-Kamenogorsk, Almaty...",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Wow. Okay. So, uh, sunny but maybe not so healthy then. Definitely not \"perfect\" anymore.",
+        "tts_text": "Wow. Okay. So, uh, sunny but maybe not so healthy then. Definitely not perfect anymore.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, you know, sometimes you gotta read between the lines with these forecasts. It's not always just about the temperature.",
+        "tts_text": "Yeah, you know, sometimes you gotta read between the lines with these forecasts. It's not always just about the temperature.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  },
+  "batch_index": 3
+}

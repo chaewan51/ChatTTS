@@ -1,0 +1,94 @@
+{
+  "id": 11226,
+  "language": "english",
+  "hallucination": "no",
+  "ground_truth_source": "text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Informative"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "HostA",
+        "text": "A listener from Almaty just wrote in, asking about the National Bank of Kazakhstan's latest announcement on the base rate.",
+        "tts_text": "A listener from Almaty just wrote in, asking about the National Bank of Kazakhstan's latest announcement on the base rate.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostB",
+        "text": "Oh, right, Governor Timur Suleimenov just shared that projection for 2025, didn't he? They're expecting it to hold at 16.5 percent for the entire year.",
+        "tts_text": "Oh, right, Governor Timur Suleimenov just shared that projection for twenty twenty five, didn't he? They're expecting it to hold at sixteen point five percent for the entire year.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Governor of the National Bank of Kazakhstan Timur Suleimenov has shared the forecast for the base rate for 2025. According to Suleimenov, the base rate is expected to remain at 16.5 percent throughout the year.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Yeah, and he was pretty clear that keeping it exactly there is, uh, quite difficult, but their models are pointing to that level.",
+        "tts_text": "Yeah, and he was pretty clear that keeping it exactly there is, uh, quite difficult, but their models are pointing to that level.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "It's quite difficult to keep the rate exactly at 16.5 percent. But our projections show that the base rate should stay at this level for at least all of 2025, he said.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "It's a really tight monetary policy stance, which he says is necessary given the current economic conditions.",
+        "tts_text": "It's a really tight monetary policy stance, which he says is necessary given the current economic conditions.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "He noted that current economic conditions call for a tight monetary policy.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Mhm, and he did emphasize that these are just forecasts—things could definitely change, both domestically and in the external environment.",
+        "tts_text": "Mhm, and he did emphasize that these are just forecasts-things could definitely change, both domestically and in the external environment.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Of course, these are forecasts based on model practices, and many things could change—both domestically and in the external macroeconomic environment.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "But as of today's forecast round, they're pretty firm on that 16.5 percent, or maybe even something tighter.",
+        "tts_text": "But as of today's forecast round, they're pretty firm on that sixteen point five percent, or maybe even something tighter.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "But as of now, based on the latest forecast round that concluded today, we expect the base rate to remain at this level or possibly tighter in 2025, Suleimenov stated.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Which is interesting because they just announced today that they're keeping it unchanged at that level for now.",
+        "tts_text": "Which is interesting because they just announced today that they're keeping it unchanged at that level for now.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Earlier today, the National Bank announced its decision to keep the base rate unchanged at 16.5 percent.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "So it sounds like they're really committed to this path, at least for the foreseeable future.",
+        "tts_text": "So it sounds like they're really committed to this path, at least for the foreseeable future.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      }
+    ]
+  },
+  "generator_model": "DeepSeek-V3.1",
+  "batch_index": 2
+}

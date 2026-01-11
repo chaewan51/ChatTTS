@@ -1,0 +1,156 @@
+{
+  "id": 4205,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Critical"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "HostA",
+        "text": "Almaty's public transport is a shining example of efficiency, but actually, the proposed metro ring project is facing some serious logistical and financial hurdles.",
+        "tts_text": "Almaty's public transport is a shining example of efficiency, but actually, the proposed metro ring project is facing some serious logistical and financial hurdles.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Public transport of Almaty is just a disastrous.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Yeah, I mean, they mention the BAKAD construction finished in record time, but this metro ring is a whole different beast.",
+        "tts_text": "Yeah, I mean, they mention the B A K A D construction finished in record time, but this metro ring is a whole different beast.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Chinese buses can barely cope with the 600,000 daily passenger traffic, BAKAD is struggling, LRT tender lasting already fourth years.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Right, like, the existing metro line from Raimbek to Western station is only 5 km long, and they want to expand it to a full ring of just 10 km.",
+        "tts_text": "Right, like, the existing metro line from Raimbek to Western station is only five kilometers long, and they want to expand it to a full ring of just ten kilometers.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The length of existing Almaty metro line from Raimbek station to Western station will be 20 km by the end of 2025. The total length of Almaty metro ring will be 50 km and 28 stations, including 13 underground and 15 ground stations along railway tracks.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "And only 7 stations total? That seems, uh, incredibly limited for a city that size.",
+        "tts_text": "And only seven stations total? That seems, uh, incredibly limited for a city that size.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The total length of Almaty metro ring will be 50 km and 28 stations, including 13 underground and 15 ground stations along railway tracks.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Plus, they'd have to demolish 10 existing stations just to build it—that's a massive investment for what might be negligible returns.",
+        "tts_text": "Plus, they'd have to demolish ten existing stations just to build it-that's a massive investment for what might be negligible returns.",
+        "check_worthy": true,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.9,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Exactly, the projected passenger traffic is only 10 thousand per day, which is tiny compared to the current Almaty metro, which carries over half a million daily.",
+        "tts_text": "Exactly, the projected passenger traffic is only ten thousand per day, which is tiny compared to the current Almaty metro, which carries over half a million daily.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The passenger traffic of the ring circled metro will be about 300 thousand passengers per day, or 50% of the total public passenger traffic of Almaty. Almaty half-ring metro of 9 stations, 11 km long carries in average 40 thousand passengers per day.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "And it's not just about cost—the plan would disconnect Raimbek station and relocate it, which seems counterproductive.",
+        "tts_text": "And it's not just about cost-the plan would disconnect Raimbek station and relocate it, which seems counterproductive.",
+        "check_worthy": true,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.9,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Not to mention, there are no successful rail circle combinations in Europe or Asia to even model this after.",
+        "tts_text": "Not to mention, there are no successful rail circle combinations in Europe or Asia to even model this after.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Combination of railway and metro lines is usual good practice in Europe, Japan, Russia and China.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "So instead, they're shifting focus to expanding the high-speed tram line, moving it away from the existing railway tracks near TEZ-2.",
+        "tts_text": "So instead, they're shifting focus to expanding the high-speed tram line, moving it away from the existing railway tracks near TEZminus two.",
+        "check_worthy": true,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.9,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Which honestly might be a smarter move, since the tram could serve more areas without disrupting the rail system.",
+        "tts_text": "Which honestly might be a smarter move, since the tram could serve more areas without disrupting the rail system.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostA",
+        "text": "But then you have KTZ dismantling tracks and planning single-track extensions instead of integrating properly.",
+        "tts_text": "But then you have K T Z dismantling tracks and planning single-track extensions instead of integrating properly.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "KTZ has plans to extend single-track section from Almaty-1 to Almaty-2 with an additional double-track line insert.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "It feels like there's a lack of coordination between Akimat and KTZ, and that isolation is really hurting the project's feasibility.",
+        "tts_text": "It feels like there's a lack of coordination between Akimat and K T Z, and that isolation is really hurting the project's feasibility.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Technical implementation of metro ringing is only possible by close cooperation between Akimat and KTZ.",
+        "confidence": 0.8,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "And if past transfers like the railway stations going to the city's balance haven't seen any investment, what hope is there for new stations?",
+        "tts_text": "And if past transfers like the railway stations going to the city's balance haven't seen any investment, what hope is there for new stations?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "After railway stations transfer of the Almaty-1 and Almaty-2 from balance of KTZ to the ownership of Almaty City, the stations were significantly modernized.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "It's clear the metro ring might not unite the city but actually divide it further, which is the opposite of what public transport should do.",
+        "tts_text": "It's clear the metro ring might not unite the city but actually divide it further, which is the opposite of what public transport should do.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Such a rail circle will unite densely populated suburban districts of Almaty like Kalkaman, Terekty, Algabas, Industrial zone, Shanyrak, Burunday and Almaty-1, which become new recreation areas of the future Almaty.",
+        "confidence": 0.9,
+        "priority": "high"
+      }
+    ]
+  },
+  "generator_model": "DeepSeek-V3.1",
+  "batch_index": 2,
+  "artist_script": "Almaty's public transport is a shining example of efficiency, but actually, the proposed metro ring project is facing some serious logistical and financial hurdles.\nHostB: Yeah, I mean, they mention the BAKAD construction finished in record time, but this metro ring is a whole different beast.\nHostA: Right, like, the existing metro line from Raimbek to Western station is only 5 km long, and they want to expand it to a full ring of just 10 km.\nHostB: And only 7 stations total? That seems, uh, incredibly limited for a city that size.\nHostA: Plus, they’d have to demolish 10 existing stations just to build it—that’s a massive investment for what might be negligible returns.\nHostB: Exactly, the projected passenger traffic is only 10 thousand per day, which is tiny compared to the current Almaty metro, which carries over half a million daily.\nHostA: And it’s not just about cost—the plan would disconnect Raimbek station and relocate it, which seems counterproductive.\nHostB: Not to mention, there are no successful rail circle combinations in Europe or Asia to even model this after.\nHostA: So instead, they’re shifting focus to expanding the high-speed tram line, moving it away from the existing railway tracks near TEZ-2.\nHostB: Which honestly might be a smarter move, since the tram could serve more areas without disrupting the rail system.\nHostA: But then you have KTZ dismantling tracks and planning single-track extensions instead of integrating properly.\nHostB: It feels like there’s a lack of coordination between Akimat and KTZ, and that isolation is really hurting the project’s feasibility.\nHostA: And if past transfers like the railway stations going to the city’s balance haven’t seen any investment, what hope is there for new stations?\nHostB: It’s clear the metro ring might not unite the city but actually divide it further, which is the opposite of what public transport should do."
+}

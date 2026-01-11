@@ -1,0 +1,137 @@
+{
+  "id": 11220,
+  "language": "english",
+  "hallucination": "no",
+  "ground_truth_source": "text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Informative discussion"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "HostA",
+        "text": "So Kazakhstan is hiking cigarette prices again, right? The Ministry of Finance just put out a draft order.",
+        "tts_text": "So Kazakhstan is hiking cigarette prices again, right? The Ministry of Finance just put out a draft order.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The price of cigarettes in Kazakhstan is expected to increase once again, as the Ministry of Finance has released a draft order proposing higher minimum retail prices for tobacco products.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Yeah, and it's not just regular cigarettes—they're targeting filtered, unfiltered, papirosas, even heated tobacco products.",
+        "tts_text": "Yeah, and it's not just regular cigarettes-they're targeting filtered, unfiltered, papirosas, even heated tobacco products.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "According to the document, the proposed amendments would apply to filtered and unfiltered cigarettes, papirosas, cigarillos, and heated tobacco products.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Heated tobacco too? That's interesting. They're really trying to cover all the bases with this one.",
+        "tts_text": "Heated tobacco too? That's interesting. They're really trying to cover all the bases with this one.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostB",
+        "text": "Exactly. The ministry says it's part of a balanced tax and pricing policy, but obviously the real goal is to reduce smoking rates.",
+        "tts_text": "Exactly. The ministry says it's part of a balanced tax and pricing policy, but obviously the real goal is to reduce smoking rates.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The proposed changes are intended to support a balanced tax and pricing policy on tobacco products, the ministry stated. Officials also noted that the price hike is intended to curb the spread and consumption of tobacco across the country.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Do you think these price hikes actually work to curb consumption, though?",
+        "tts_text": "Do you think these price hikes actually work to curb consumption, though?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostB",
+        "text": "I mean, studies generally show that yeah, higher prices do discourage people, especially younger smokers. But it's not a perfect solution.",
+        "tts_text": "I mean, studies generally show that yeah, higher prices do discourage people, especially younger smokers. But it's not a perfect solution.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostA",
+        "text": "And then there's that random question at the end—can you even ban alcohol in an entire city in Kazakhstan?",
+        "tts_text": "And then there's that random question at the end-can you even ban alcohol in an entire city in Kazakhstan?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Is it possible to ban alcohol in an entire city in Kazakhstan?",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Oh wow, that came out of nowhere. But honestly, I doubt it. Alcohol bans are super rare and usually temporary, like during elections or something.",
+        "tts_text": "Oh wow, that came out of nowhere. But honestly, I doubt it. Alcohol bans are super rare and usually temporary, like during elections or something.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostA",
+        "text": "Right, and enforcing something like that long-term would be a nightmare. Plus, people would just find ways around it.",
+        "tts_text": "Right, and enforcing something like that long-term would be a nightmare. Plus, people would just find ways around it.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostB",
+        "text": "For sure. It feels like the tobacco move is more realistic—price adjustments are easier to implement than outright bans.",
+        "tts_text": "For sure. It feels like the tobacco move is more realistic-price adjustments are easier to implement than outright bans.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostA",
+        "text": "Still, it's gonna hit people's wallets hard. I wonder how smokers are reacting.",
+        "tts_text": "Still, it's gonna hit people's wallets hard. I wonder how smokers are reacting.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostB",
+        "text": "Probably not thrilled, but if it gets even a few to quit or cut back, maybe it's worth it from a public health angle.",
+        "tts_text": "Probably not thrilled, but if it gets even a few to quit or cut back, maybe it's worth it from a public health angle.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostA",
+        "text": "True. Let's see if this draft actually goes through.",
+        "tts_text": "True. Let's see if this draft actually goes through.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      }
+    ]
+  },
+  "generator_model": "DeepSeek-V3.1",
+  "batch_index": 2
+}

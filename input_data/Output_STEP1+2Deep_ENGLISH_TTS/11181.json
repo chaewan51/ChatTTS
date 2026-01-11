@@ -1,0 +1,145 @@
+{
+  "id": 11181,
+  "language": "english",
+  "hallucination": "no",
+  "ground_truth_source": "text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Informative and casual"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "HostA",
+        "text": "A weather warning from Kazhydromet for Astana and other cities on June 12th.",
+        "tts_text": "A weather warning from Kazhydromet for Astana and other cities on June twelfth.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Kazhydromet has issued a weather warning for residents of Astana and other cities. \"On June 12, 2025, unfavorable meteorological conditions are expected in the cities of Pavlodar, Ust-Kamenogorsk, and at night in Astana,\" the statement said.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Oh, right, I saw that. Unfavorable meteorological conditions, they're calling it—sounds a bit vague, but it's actually pretty specific.",
+        "tts_text": "Oh, right, I saw that. Unfavorable meteorological conditions, they're calling it-sounds a bit vague, but it's actually pretty specific.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "\"On June 12, 2025, unfavorable meteorological conditions are expected in the cities of Pavlodar, Ust-Kamenogorsk, and at night in Astana,\" the statement said.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Yeah, it's basically when the air just… doesn't move, you know? Calm winds, maybe some fog, and that temperature inversion thing.",
+        "tts_text": "Yeah, it's basically when the air just... doesn't move, you know? Calm winds, maybe some fog, and that temperature inversion thing.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Unfavorable meteorological conditions refer to a combination of short-term weather factors (calm, light wind, fog, temperature inversion) that contribute to the accumulation of harmful (polluting) substances in the near-surface layer of the atmosphere.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Exactly, the inversion is key. Warm air sits on top of cold air, trapping all the pollution down near the ground.",
+        "tts_text": "Exactly, the inversion is key. Warm air sits on top of cold air, trapping all the pollution down near the ground.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Inversion is a weather phenomenon where warm air settles above cold air, effectively trapping it. But during an inversion, the colder air stays trapped below, along with vehicle emissions, dust, and smoke.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "So all the car fumes, dust, smoke—just stuck there, especially in cities like Pavlodar and Ust-Kamenogorsk.",
+        "tts_text": "So all the car fumes, dust, smoke-just stuck there, especially in cities like Pavlodar and Ust-Kamenogorsk.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "\"On June 12, 2025, unfavorable meteorological conditions are expected in the cities of Pavlodar, Ust-Kamenogorsk, and at night in Astana,\" the statement said. But during an inversion, the colder air stays trapped below, along with vehicle emissions, dust, and smoke.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "And Astana at night, too. Not great for air quality, obviously.",
+        "tts_text": "And Astana at night, too. Not great for air quality, obviously.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "\"On June 12, 2025, unfavorable meteorological conditions are expected in the cities of Pavlodar, Ust-Kamenogorsk, and at night in Astana,\" the statement said.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "But then during the day, it sounds like things might pick up—winds up to like, what, 14 meters per second?",
+        "tts_text": "But then during the day, it sounds like things might pick up-winds up to like, what, fourteen meters per second?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Southeast wind at 3\"8 m/s at night, increasing to 9\"14 m/s during the day with gusts up to 15\"18 m/s.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "With gusts even stronger, yeah. And possible hail, thunderstorms… so it's not exactly a boring weather day.",
+        "tts_text": "With gusts even stronger, yeah. And possible hail, thunderstorms... so it's not exactly a boring weather day.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "June 12: Partly cloudy, short-term rain, thunderstorms, and possible hail. Southeast wind at 3\"8 m/s at night, increasing to 9\"14 m/s during the day with gusts up to 15\"18 m/s.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "No kidding. Um, temperatures around 27 to 29 degrees though, so still pretty warm.",
+        "tts_text": "No kidding. Um, temperatures around twenty seven to twenty nine degrees though, so still pretty warm.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Temperatures: night +18¦+20ÂC, daytime +27¦+29ÂC.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Definitely take an umbrella if you're out, 'cause those showers could come out of nowhere.",
+        "tts_text": "Definitely take an umbrella if you're out, 'cause those showers could come out of nowhere.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Expect rain and thunderstorms \" take an umbrella if you're heading out.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "And apparently this whole month is supposed to be kind of all over the place—hot, cool, storms, maybe even dust storms.",
+        "tts_text": "And apparently this whole month is supposed to be kind of all over the place-hot, cool, storms, maybe even dust storms.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "According to Kazhydromet's earlier forecast, June will bring unstable weather with alternating cool and hot periods, accompanied by rain, some of which could be heavy, along with thunderstorms, hail, and squally winds. Dust storms are also possible on certain days.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Yeah, Kazhydromet's saying June is just… unstable. Pack a jacket and sunglasses, I guess?",
+        "tts_text": "Yeah, Kazhydromet's saying June is just... unstable. Pack a jacket and sunglasses, I guess?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "According to Kazhydromet's earlier forecast, June will bring unstable weather with alternating cool and hot periods, accompanied by rain, some of which could be heavy, along with thunderstorms, hail, and squally winds.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Basically! Always be prepared.",
+        "tts_text": "Basically! Always be prepared.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      }
+    ]
+  },
+  "generator_model": "DeepSeek-V3.1",
+  "batch_index": 2
+}

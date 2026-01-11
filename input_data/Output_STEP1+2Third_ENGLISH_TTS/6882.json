@@ -1,0 +1,167 @@
+{
+  "id": 6882,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Friends/Colleagues",
+      "inferred_vibe": "Skeptical discussion"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Speaker 1",
+        "text": "$1 million? Seriously? Apple's paying a million dollars for someone to hack an iPhone?",
+        "tts_text": "one dollars million? Seriously? Apple's paying a million dollars for someone to hack an iPhone?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Apple is offering between $100,000 and $1 million for anyone who can hack an iPhone",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Speaker 2",
+        "text": "Yeah, um, that's what the article says. It's their new bug bounty program, like, to find vulnerabilities.",
+        "tts_text": "Yeah, um, that's what the article says. It's their new bug bounty program, like, to find vulnerabilities.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Its by far the highest bug bounty on offer from any major tech company.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Speaker 1",
+        "text": "A million bucks though? That's just... that's insane. Why would they pay that much?",
+        "tts_text": "A million bucks though? That's just... that's insane. Why would they pay that much?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Speaker 2",
+        "text": "Well, it's, uh, to prevent major cyberattacks. They've already prevented three, apparently, with this kind of thing.",
+        "tts_text": "Well, it's, uh, to prevent major cyberattacks. They've already prevented three, apparently, with this kind of thing.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Krsti said the bug bounty had been a success to date, with 50 serious bugs reported since the 2016 launch.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Speaker 1",
+        "text": "Prevented three? Or, like, they just told us they prevented three? Who verifies that?",
+        "tts_text": "Prevented three? Or, like, they just told us they prevented three? Who verifies that?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Speaker 2",
+        "text": "It's because the private market for exploits is so lucrative. A single, uh, iPhone exploit can go for like, one point five million to governments.",
+        "tts_text": "It's because the private market for exploits is so lucrative. A single, uh, iPhone exploit can go for like, one point five million to governments.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "As Maor Shwartz told Forbes, the cost of a single exploit (a program that uses vulnerabilities typically to take control of a computer or phone) can fetch as much as $1.5 millon.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Speaker 1",
+        "text": "So Apple's just getting into a bidding war now? That's their strategy?",
+        "tts_text": "So Apple's just getting into a bidding war now? That's their strategy?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Speaker 2",
+        "text": "No, it's about, like, getting ahead of it. They're trying to find these weaknesses before malicious actors do.",
+        "tts_text": "No, it's about, like, getting ahead of it. They're trying to find these weaknesses before malicious actors do.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Speaker 1",
+        "text": "But are they really? Or are they just, like, telling hackers, 'Hey, we'll pay you, come find our flaws'? Isn't that just a big neon sign?",
+        "tts_text": "But are they really? Or are they just, like, telling hackers, 'Hey, we'll pay you, come find our flaws'? Isn't that just a big neon sign?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Speaker 2",
+        "text": "And it's not just iPhones, uh, they're expanding it to Macs, watchOS, even Apple TV.",
+        "tts_text": "And it's not just iPhones, uh, they're expanding it to Macs, watchOS, even Apple T V.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Apple is also launching a Mac bug bounty, which was confirmed Thursday, but it's also extending it to watchOS and its Apple TV operating system.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Speaker 1",
+        "text": "So they're just throwing money at all their problems now? What about their, you know, vaunted security?",
+        "tts_text": "So they're just throwing money at all their problems now? What about their, you know, vaunted security?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Speaker 2",
+        "text": "The million is for, like, zero-click kernel hacks. That's the toughest one. And there's a bonus if you find it before release.",
+        "tts_text": "The million is for, like, zero-click kernel hacks. That's the toughest one. And there's a bonus if you find it before release.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The full $1 million will go to researchers who can find a hack of the kernelthe core of iOSwith zero clicks required by the iPhone owner. ... Theres also a 50% bonus for hackers who can find weaknesses in software before it's released.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Speaker 1",
+        "text": "A zero-click kernel hack. Right. So, um, if someone finds that, isn't that just proof their system wasn't that secure to begin with?",
+        "tts_text": "A zero-click kernel hack. Right. So, um, if someone finds that, isn't that just proof their system wasn't that secure to begin with?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Speaker 2",
+        "text": "Well, no system is perfectly secure. This is, like, proactive security. They even give researchers developer devices now.",
+        "tts_text": "Well, no system is perfectly secure. This is, like, proactive security. They even give researchers developer devices now.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Forbes also revealed on Monday that Apple was to give bug bounty participants developer devicesiPhones that let hackers dive further into iOS.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Speaker 1",
+        "text": "Developer devices? So, they're literally handing out tools to break into their own phones? Unbelievable.",
+        "tts_text": "Developer devices? So, they're literally handing out tools to break into their own phones? Unbelievable.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Speaker 2",
+        "text": "It's to help them dive deeper into iOS. It's, uh, by application only.",
+        "tts_text": "It's to help them dive deeper into iOS. It's, uh, by application only.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Krsti confirmed the iOS Security Research Device program would be by application only.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Speaker 1",
+        "text": "Yeah, application only. Sounds like they're just admitting they need help because their own internal teams can't find this stuff.",
+        "tts_text": "Yeah, application only. Sounds like they're just admitting they need help because their own internal teams can't find this stuff.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  },
+  "batch_index": 3
+}

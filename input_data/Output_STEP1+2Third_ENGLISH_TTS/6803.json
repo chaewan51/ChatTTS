@@ -1,0 +1,145 @@
+{
+  "id": 6803,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Podcast co-hosts",
+      "inferred_vibe": "Skeptical debate"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Speaker 1",
+        "text": "Oh, please! \"Digital nomad lifestyle beckons\"? Really? Well, I mean, the article here, it's talking about how, like, the pandemic really pushed this whole remote work thing, right? And now people are just... they're traveling. Traveling where? To a sun-kissed beach with shoddy Wi-Fi? Come on.",
+        "tts_text": "Oh, please! Digital nomad lifestyle beckons? Really? Well, I mean, the article here, it's talking about how, like, the pandemic really pushed this whole remote work thing, right? And now people are just... they're traveling. Traveling where? To a sun-kissed beach with shoddy Wi-Fi? Come on.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "This has only been exacerbated by the Covid-19 pandemic and stay-at-home requirements enforced by many countries around the world.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Speaker 2",
+        "text": "No, no, they're actually saying, like, countries are setting up specific visas for this! It's not just, uh, a fantasy.",
+        "tts_text": "No, no, they're actually saying, like, countries are setting up specific visas for this! It's not just, uh, a fantasy.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "In response to the increased need to work from home many countries have introduced working holiday visas to encourage a new form of tourism to boost their badly affected coffers.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Speaker 1",
+        "text": "And who's \"they\"? Some influencer on TikTok?",
+        "tts_text": "And who's they? Some influencer on TikTok?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Speaker 2",
+        "text": "It's Circle Loop. They crunched the numbers, you know? Internet speeds, rental costs, even happiness index. They've got this Digital Nomad Index.",
+        "tts_text": "It's Circle Loop. They crunched the numbers, you know? Internet speeds, rental costs, even happiness index. They've got this Digital Nomad Index.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "With that in mind Circle Loop has done the legwork for you, taking in a range of factors from the price and speed of net connections to rental prices and remote job searches. It even takes in country rankings on the Global Happiness Index. Its results have informed its Digital Nomad Index ranking the top ten countries in which to be a digital nomad.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Speaker 1",
+        "text": "\"Crunched the numbers.\" Uh-huh. So, what's their big groundbreaking discovery? Everywhere's expensive?",
+        "tts_text": "Crunched the numbers. Uh-huh. So, what's their big groundbreaking discovery? Everywhere's expensive?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Speaker 2",
+        "text": "Actually, no! Canada topped the list. Like, thriving tech sector, amazing internet, a lot of remote jobs.",
+        "tts_text": "Actually, no! Canada topped the list. Like, thriving tech sector, amazing internet, a lot of remote jobs.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Taking the top spot is Canada. Home to one of the largest tech hubs in the world it scores well across the board, from fast internet speeds to a top ten ranking on the Global Happiness Index and by far the most remote job search returns in the top ten.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Speaker 1",
+        "text": "Canada? Seriously? It's freezing half the year! And, uh, I'm pretty sure rent in Vancouver isn't \"unbelievably low.\"",
+        "tts_text": "Canada? Seriously? It's freezing half the year! And, uh, I'm pretty sure rent in Vancouver isn't unbelievably low.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Speaker 2",
+        "text": "Well, they also mention, um, the UK was runner-up, despite, like, Brexit. And then Romania! Super low living costs, broadband for seven bucks a month.",
+        "tts_text": "Well, they also mention, um, the U K was runner-up, despite, like, Brexit. And then Romania! Super low living costs, broadband for seven bucks a month.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "But as one of the fastest growing information technology markets in Central and Eastern Europe, its a great marriage of opportunity and fantastically low living costs super fast fixed line broadband packages cost around $8 a month!",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Speaker 1",
+        "text": "Seven bucks a month for broadband? That sounds like dial-up, B. And the UK? With \"ongoing Brexit challenges\"? What kind of \"strong supply of remote opportunities\" are we talking about there?",
+        "tts_text": "Seven bucks a month for broadband? That sounds like dial-up, B. And the U K? With ongoing Brexit challenges? What kind of strong supply of remote opportunities are we talking about there?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Speaker 2",
+        "text": "No, it says, um, \"high standard of living\" and, uh, \"strong supply.\" It's, like, a legitimate thing. Romania, especially.",
+        "tts_text": "No, it says, um, high standard of living and, uh, strong supply. It's, like, a legitimate thing. Romania, especially.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Somewhat surprisingly considering the current turmoil of Brexit, the UK is the runner up thanks to the volume of remote jobs available coupled with a high standard of living.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Speaker 1",
+        "text": "So, we're supposed to believe Canada, a freezing country, and Romania, where broadband is cheaper than a coffee, are the top spots for a complete life overhaul?",
+        "tts_text": "So, we're supposed to believe Canada, a freezing country, and Romania, where broadband is cheaper than a coffee, are the top spots for a complete life overhaul?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Speaker 2",
+        "text": "Hey, the article says eight of the top ten are European. It's, uh, pretty comprehensive data.",
+        "tts_text": "Hey, the article says eight of the top ten are European. It's, uh, pretty comprehensive data.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The Digital Nomad Index top ten features eight European countries.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Speaker 1",
+        "text": "Comprehensive my foot. I bet Kazakhstan didn't even make the list.",
+        "tts_text": "Comprehensive my foot. I bet Kazakhstan didn't even make the list.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "P.S. There is no Kazakhstan in the list.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Speaker 2",
+        "text": "Actually, uh, it says here, \"Kazakhstan, regrettably, didn't make the cut.\"",
+        "tts_text": "Actually, uh, it says here, Kazakhstan, regrettably, didn't make the cut.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "P.S. There is no Kazakhstan in the list.",
+        "confidence": 1.0,
+        "priority": "high"
+      }
+    ]
+  },
+  "batch_index": 3
+}

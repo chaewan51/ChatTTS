@@ -1,0 +1,167 @@
+{
+  "id": 6736,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Podcast co-hosts",
+      "inferred_vibe": "Debate / Opposing Views"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "Okay, so I'm looking at this article about the Saudi Falcons and Hunting Exhibition. And, um, you are not going to believe this. A limited-edition falcon mask. A mask for a bird, right? $48,000. Forty-eight thousand dollars.",
+        "tts_text": "Okay, so I'm looking at this article about the Saudi Falcons and Hunting Exhibition. And, um, you are not going to believe this. A limited-edition falcon mask. A mask for a bird, right? forty eight thousand dollars. Forty-eight thousand dollars.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "This stunning falcon mask priced at an astonishing $36,000.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, and that's just one piece! It's an exquisitely handcrafted item, a collaboration between a renowned Saudi artisan and a famed Italian jeweler. It speaks to the incredible artistry involved, Host_A.",
+        "tts_text": "Yeah, and that's just one piece! It's an exquisitely handcrafted item, a collaboration between a renowned Saudi artisan and a famed Italian jeweler. It speaks to the incredible artistry involved, Host_A.",
+        "check_worthy": true,
+        "factual_label": "NEI",
+        "evidence_snippet": "Among the offerings are a range of falcon masks, rings, and gloves, all intricately adorned with gold, silver, and diamonds.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Artistry? It just screams, like, extreme opulence to me. I mean, 675,000 visitors? This whole thing is just a massive display of wealth, isn't it?",
+        "tts_text": "Artistry? It just screams, like, extreme opulence to me. I mean, six hundred seventy five thousand visitors? This whole thing is just a massive display of wealth, isn't it?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Over the course of 10 days, the event, held in Riyadh, drew more than 640,000 visitors from both Saudi Arabia and abroad...",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "No, it's a resounding success! It broke all previous attendance records! It's about preserving a rich national heritage, aligned perfectly with Vision 2030, you know?",
+        "tts_text": "No, it's a resounding success! It broke all previous attendance records! It's about preserving a rich national heritage, aligned perfectly with Vision twenty thirty, you know?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "He attributed this achievement to the strong backing of the Saudi Leadership, which is committed to preserving the nation's rich falconry heritage, in line with the objectives of Vision 2030.",
+        "confidence": 0.9,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "\"Preserving heritage\" while they're boosting sales in the hunting and outdoor sectors by an impressive 35%? That sounds more like, uh, commercialism to me.",
+        "tts_text": "Preserving heritage while they're boosting sales in the hunting and outdoor sectors by an impressive thirty five percent? That sounds more like, uh, commercialism to me.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "This, he added, has stimulated economic activity and boosted sales within the falconry and hunting sectors.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "It's economic development, creating a global nexus for enthusiasts. And it attracted significant investments, didn't you see that? The space expanded to nearly four times its previous size!",
+        "tts_text": "It's economic development, creating a global nexus for enthusiasts. And it attracted significant investments, didn't you see that? The space expanded to nearly four times its previous size!",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The exhibition space this year was expanded to three times its previous size, covering 160,000 square meters.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yeah, and they've got, like, drone demonstrations and military performances alongside falcon sales. I'm sorry, but that just feels a little... mixed message for a \"cultural heritage\" event.",
+        "tts_text": "Yeah, and they've got, like, drone demonstrations and military performances alongside falcon sales. I'm sorry, but that just feels a little... mixed message for a cultural heritage event.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Highlights included remote-controlled aircraft shows, equestrian displays, drone demonstrations, and military performances.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "It's showcasing all aspects of falconry and its related activities. Plus, they announced a new initiative to reintroduce several endangered falcon species into the wild. That's real conservation, isn't it?",
+        "tts_text": "It's showcasing all aspects of falconry and its related activities. Plus, they announced a new initiative to reintroduce several endangered falcon species into the wild. That's real conservation, isn't it?",
+        "check_worthy": true,
+        "factual_label": "NEI",
+        "evidence_snippet": "These partnerships aim to strengthen the Kingdoms cultural heritage, preserve falconrys environmental legacy, support scientific research, raise environmental awareness, and provide training and qualification programs.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Reintroducing species while, you know, hundreds of thousands are there buying weapons and hunting gear? It honestly just rings incredibly hollow.",
+        "tts_text": "Reintroducing species while, you know, hundreds of thousands are there buying weapons and hunting gear? It honestly just rings incredibly hollow.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "It's about raising crucial environmental awareness too! They had, um, a falconry training program for 1,000 children. That's how you foster appreciation.",
+        "tts_text": "It's about raising crucial environmental awareness too! They had, um, a falconry training program for ten hundred children. That's how you foster appreciation.",
+        "check_worthy": true,
+        "factual_label": "NEI",
+        "evidence_snippet": "The growing popularity of the exhibition is attributed to a wide range of activities catering to all ages, including future falconers.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Appreciation for what? Spending $48,000 on bird accessories? I don't know, it just feels like a massive, like, flex, not genuine preservation.",
+        "tts_text": "Appreciation for what? Spending forty eight thousand dollars on bird accessories? I don't know, it just feels like a massive, like, flex, not genuine preservation.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "This stunning falcon mask priced at an astonishing $36,000.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "It's a vital cultural platform. It's supporting scientific research, strengthening the Kingdom's heritage, raising environmental awareness with actual programs. You're just focusing on one luxury item.",
+        "tts_text": "It's a vital cultural platform. It's supporting scientific research, strengthening the Kingdom's heritage, raising environmental awareness with actual programs. You're just focusing on one luxury item.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "These partnerships aim to strengthen the Kingdoms cultural heritage, preserve falconrys environmental legacy, support scientific research, raise environmental awareness, and provide training and qualification programs.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "One very expensive luxury item that, uh, just epitomizes the whole thing for me. It’s a gilded cage for culture.",
+        "tts_text": "One very expensive luxury item that, uh, just epitomizes the whole thing for me. It's a gilded cage for culture.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "It's a statement, yes, but it funds the entire ecosystem of heritage and conservation efforts. You're just being cynical, I think.",
+        "tts_text": "It's a statement, yes, but it funds the entire ecosystem of heritage and conservation efforts. You're just being cynical, I think.",
+        "check_worthy": true,
+        "factual_label": "NEI",
+        "evidence_snippet": "This, he added, has stimulated economic activity and boosted sales within the falconry and hunting sectors.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "I think you're missing the glaring irony.",
+        "tts_text": "I think you're missing the glaring irony.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "I think you're overlooking a phenomenal success story.",
+        "tts_text": "I think you're overlooking a phenomenal success story.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  },
+  "batch_index": 3
+}

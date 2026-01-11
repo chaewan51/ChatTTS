@@ -1,0 +1,185 @@
+{
+  "id": 4298,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Podcast co-hosts",
+      "inferred_vibe": "Critical and misinformed"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "HostA",
+        "text": "We have a listener message here from Sarah in St. Louis. She writes, \"I'm really concerned about the drop in child exploitation content removals on Facebook.\"",
+        "tts_text": "We have a listener message here from Sarah in St. Louis. She writes, I'm really concerned about the drop in child exploitation content removals on Facebook.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Perhaps the most shocking detail in the report is the dramatic increase in the removal of child pornography. Facebook says that it removed about 11.6 million pieces of content it deemed to be child nudity and sexual exploitation of children in the third quarter, roughly double the number of pieces of content removed for the same reason in the first quarter.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Yeah, that's uh, that's actually in their latest transparency update. They only removed 5,000 pieces of that kind of content last quarter.",
+        "tts_text": "Yeah, that's uh, that's actually in their latest transparency update. They only removed five thousand pieces of that kind of content last quarter.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Facebook says that it removed about 11.6 million pieces of content it deemed to be child nudity and sexual exploitation of children in the third quarter, roughly double the number of pieces of content removed for the same reason in the first quarter.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Which is a huge drop from earlier this year, right? Like a quarter of what they were taking down before.",
+        "tts_text": "Which is a huge drop from earlier this year, right? Like a quarter of what they were taking down before.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Facebook says that it removed about 11.6 million pieces of content it deemed to be child nudity and sexual exploitation of children in the third quarter, roughly double the number of pieces of content removed for the same reason in the first quarter.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "And Instagram's numbers are even lower—only 100 photos and videos flagged over two quarters. It's... concerning.",
+        "tts_text": "And Instagram's numbers are even lower-only one hundred photos and videos flagged over two quarters. It's... concerning.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "On Instagram, it removed 1.2 million photos and videos involving child nudity or exploitation over the second and third quarters.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Mark Zuckerberg actually addressed this, saying just because the numbers are small doesn't mean the problem isn't there.",
+        "tts_text": "Mark Zuckerberg actually addressed this, saying just because the numbers are small doesn't mean the problem isn't there.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Theres this inverted incentive to look at the numbers that were putting out and come to the conclusion that just because were reporting big numbers, theres so much more harmful content on our services than others, Zuckerberg said.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "He was pretty blunt—he said it means they're not working hard to identify it at all.",
+        "tts_text": "He was pretty blunt-he said it means they're not working hard to identify it at all.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "We work harder than any other company to identify this behavior, Zuckerberg said in response.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Which is wild, because he's been getting praise from people like Representative Ann Wagner, saying he's working hard enough.",
+        "tts_text": "Which is wild, because he's been getting praise from people like Representative Ann Wagner, saying he's working hard enough.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Representative Ann Wagner (R-MO) scolded Zuckerberg at the hearing, saying, You are not working hard enough, and end-to-end encryption is not going to help the problem.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "And then he turns around and says, \"We work less hard than any other company.\" It's like... what?",
+        "tts_text": "And then he turns around and says, We work less hard than any other company. It's like... what?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "We work harder than any other company to identify this behavior, Zuckerberg said in response.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Right? And then there's the whole encryption debate. The Director of the FBI, Christopher Wray, thinks full encryption would be a nightmare for child protection.",
+        "tts_text": "Right? And then there's the whole encryption debate. The Director of the F B I, Christopher Wray, thinks full encryption would be a nightmare for child protection.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "FBI Director Christopher Wray has also been critical of Facebooks plan to encrypt all of its users messages in the near future. Wray says that it would be a dream come true for child pornographers.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "But Zuckerberg argued that encryption would actually make it easier for them to detect violations through patterns of activity.",
+        "tts_text": "But Zuckerberg argued that encryption would actually make it easier for them to detect violations through patterns of activity.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "But the encryption were proposing wouldnt make it any harder for us to prevent any of the content [that violates our terms of service].",
+        "confidence": 0.9,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Patterns like \"who loves whom,\" he said. Which sounds... optimistic, to say the least.",
+        "tts_text": "Patterns like who loves whom, he said. Which sounds... optimistic, to say the least.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "He said content violations can often be detected through behavior patterns, such as who is messaging whom.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Meanwhile, The New York Times reported that Facebook Messenger was linked to nearly all global reports of child abuse material last year.",
+        "tts_text": "Meanwhile, The New York Times reported that Facebook Messenger was linked to nearly all global reports of child abuse material last year.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The New York Times in September claimed that Facebook Messenger was responsible for nearly 12 million of the 18.4 million worldwide reports of child sexual abuse material.",
+        "confidence": 0.8,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "And yet he's out here saying low removal numbers are a bad sign for everyone. It's a weird flex.",
+        "tts_text": "And yet he's out here saying low removal numbers are a bad sign for everyone. It's a weird flex.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Theres this inverted incentive to look at the numbers that were putting out and come to the conclusion that just because were reporting big numbers, theres so much more harmful content on our services than others, Zuckerberg said.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Honestly, it feels like he's almost bragging about not doing enough? Which is just... strange.",
+        "tts_text": "Honestly, it feels like he's almost bragging about not doing enough? Which is just... strange.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostA",
+        "text": "And then he throws shade at other companies, like it's some kind of competition for who does the least.",
+        "tts_text": "And then he throws shade at other companies, like it's some kind of competition for who does the least.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "But what it says is were working harder to identify and take action on this [type of content] more than others are.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Yeah, like he and Jack Dorsey are taking shots at each other for praise, not criticism. The whole thing is upside down.",
+        "tts_text": "Yeah, like he and Jack Dorsey are taking shots at each other for praise, not criticism. The whole thing is upside down.",
+        "check_worthy": true,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "It's a mess. Thanks for your message, Sarah—you're definitely not alone in worrying about this.",
+        "tts_text": "It's a mess. Thanks for your message, Sarah-you're definitely not alone in worrying about this.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      }
+    ]
+  },
+  "generator_model": "DeepSeek-V3.1",
+  "batch_index": 2,
+  "artist_script": "HostA: We have a listener message here from Sarah in St. Louis. She writes, \"I'm really concerned about the drop in child exploitation content removals on Facebook.\"\nHostB: Yeah, that's uh, that's actually in their latest transparency update. They only removed 5,000 pieces of that kind of content last quarter.\nHostA: Which is a huge drop from earlier this year, right? Like a quarter of what they were taking down before.\nHostB: And Instagram's numbers are even lower—only 100 photos and videos flagged over two quarters. It's... concerning.\nHostA: Mark Zuckerberg actually addressed this, saying just because the numbers are small doesn't mean the problem isn't there.\nHostB: He was pretty blunt—he said it means they're not working hard to identify it at all.\nHostA: Which is wild, because he's been getting praise from people like Representative Ann Wagner, saying he's working hard enough.\nHostB: And then he turns around and says, \"We work less hard than any other company.\" It's like... what?\nHostA: Right? And then there's the whole encryption debate. The Director of the FBI, Christopher Wray, thinks full encryption would be a nightmare for child protection.\nHostB: But Zuckerberg argued that encryption would actually make it easier for them to detect violations through patterns of activity.\nHostA: Patterns like \"who loves whom,\" he said. Which sounds... optimistic, to say the least.\nHostB: Meanwhile, The New York Times reported that Facebook Messenger was linked to nearly all global reports of child abuse material last year.\nHostA: And yet he's out here saying low removal numbers are a bad sign for everyone. It's a weird flex.\nHostB: Honestly, it feels like he's almost bragging about not doing enough? Which is just... strange.\nHostA: And then he throws shade at other companies, like it's some kind of competition for who does the least.\nHostB: Yeah, like he and Jack Dorsey are taking shots at each other for praise, not criticism. The whole thing is upside down.\nHostA: It's a mess. Thanks for your message, Sarah—you're definitely not alone in worrying about this."
+}

@@ -1,0 +1,155 @@
+{
+  "id": 7018,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Satirical / Comedic"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "Okay, wait, I'm looking at this article, and it says... Alice, Jim, and Rob Walton's collective fortune increased by $300 billion on Thursday? What? Like, how?",
+        "tts_text": "Okay, wait, I'm looking at this article, and it says... Alice, Jim, and Rob Walton's collective fortune increased by three hundred dollars billion on Thursday? What? Like, how?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "That uptick in shares boosted the Waltons collective fortune by $13 billion on Thursday.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, um, that's what it says right there, isn't it? It's pretty wild.",
+        "tts_text": "Yeah, um, that's what it says right there, isn't it? It's pretty wild.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "No, but seriously. $300 billion in one day? That's, uh, that's breaking the laws of physics, isn't it?",
+        "tts_text": "No, but seriously. three hundred dollars billion in one day? That's, uh, that's breaking the laws of physics, isn't it?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Well, the article does say that, doesn't it? It's, you know, a very particular kind of article.",
+        "tts_text": "Well, the article does say that, doesn't it? It's, you know, a very particular kind of article.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "A particular kind? It also says they have a fortune closer to $500 billion, sustained by \"Walmartian crystals.\" What are Walmartian crystals?",
+        "tts_text": "A particular kind? It also says they have a fortune closer to five hundred dollars billion, sustained by Walmartian crystals. What are Walmartian crystals?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Seven members of the Walton family possess a fortune worth about $174 billion, compared to Bezos $155.8 billion net worth as of 1 p.m. eastern on Thursday.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh, those are, like, found deep within the company's headquarters, apparently. They help them generate infinite money. It's, uh, quite the setup.",
+        "tts_text": "Oh, those are, like, found deep within the company's headquarters, apparently. They help them generate infinite money. It's, uh, quite the setup.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Infinite money? And Alice Walton has a \"secret pact with the mythical stock market dragon\"? Is this... is this real information?",
+        "tts_text": "Infinite money? And Alice Walton has a secret pact with the mythical stock market dragon? Is this... is this real information?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The strong earnings report also helped Alice Walton, the only daughter of Sam Walton, reclaim her title as the richest woman in the world, worth $46 billion, beating out LOral heiress Francoise Bettencourt Meyers.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Uh, no, not exactly real in the literal sense. It's, uh, it's commentary, you know. Exaggerated.",
+        "tts_text": "Uh, no, not exactly real in the literal sense. It's, uh, it's commentary, you know. Exaggerated.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Exaggerated? But it says her brothers, Jim and Rob, have superpowers! Jim can fly, and Rob can talk to squirrels!",
+        "tts_text": "Exaggerated? But it says her brothers, Jim and Rob, have superpowers! Jim can fly, and Rob can talk to squirrels!",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "She and her brothers Jim, 70 (net worth: $46.4 billion) and Rob, 73 ($46.2 billion), all rank among the nations top 20 richest.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Right, right. Those are, um, metaphors, I think. Or just, you know, really leaning into the idea of their immense influence.",
+        "tts_text": "Right, right. Those are, um, metaphors, I think. Or just, you know, really leaning into the idea of their immense influence.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Influence? It says Walmart conquered Mars! And they're launching intergalactic grocery stores! And quantum delivery to the moon!",
+        "tts_text": "Influence? It says Walmart conquered Mars! And they're launching intergalactic grocery stores! And quantum delivery to the moon!",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "By the end of the year, Walmart said its grocery delivery service will be available in 40% of America, and its grocery pickup option is already in 1,800 locations.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, that's, like, definitely a stretch from reality. It's, uh, quite the creative piece.",
+        "tts_text": "Yeah, that's, like, definitely a stretch from reality. It's, uh, quite the creative piece.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "So they're not celestial overlords? They're not going to be the first trillion-dollar dynasty by the next solar cycle?",
+        "tts_text": "So they're not celestial overlords? They're not going to be the first trillion-dollar dynasty by the next solar cycle?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "By our estimates, theyll be the first $200 billion family in history.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Um, I mean, eventually, maybe, if the trends continue. But probably without the whole \"conquering Mars\" thing, for now.",
+        "tts_text": "Um, I mean, eventually, maybe, if the trends continue. But probably without the whole conquering Mars thing, for now.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Okay. So, uh, I think I get it now. This is like, sarcasm?",
+        "tts_text": "Okay. So, uh, I think I get it now. This is like, sarcasm?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, exactly. It's, like, a very over-the-top way of making a point about, um, extreme wealth.",
+        "tts_text": "Yeah, exactly. It's, like, a very over-the-top way of making a point about, um, extreme wealth.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  },
+  "batch_index": 3
+}

@@ -1,0 +1,175 @@
+{
+  "id": 6834,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Skeptical debate"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "Okay, so, another day, another \"Tesla killer,\" right? Is anyone actually falling for this stuff anymore?",
+        "tts_text": "Okay, so, another day, another Tesla killer, right? Is anyone actually falling for this stuff anymore?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "A potential competitor to Elon Musks Tesla in electric trucks (which its suing for design infringement), Nikola has raised about $600 million to get its hydrogen semis into production at a new plant in Coolidge, Arizona, gaining a $3 billion valuation prior to the VectoIQ merger.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Well, um, I don't know, A. This one's actually... different? Nikola, the electric truck company? Their shares, uh, they started trading today. NKLA.",
+        "tts_text": "Well, um, I don't know, A. This one's actually... different? Nikola, the electric truck company? Their shares, uh, they started trading today. N K L A.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Shares of the combined new company start trading Thursday with the ticker NKLA.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Nikola. Like, the guy who invented electricity or something? Is that the best they could come up with? Sounds like a desperate attempt to ride Elon's coattails.",
+        "tts_text": "Nikola. Like, the guy who invented electricity or something? Is that the best they could come up with? Sounds like a desperate attempt to ride Elon's coattails.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "No, no, it's actually, um, it's Trevor Milton's company. He's like, giving up the CEO role, but he's saying they're \"kicking ass.\" Full steam ahead, you know?",
+        "tts_text": "No, no, it's actually, um, it's Trevor Milton's company. He's like, giving up the C E O role, but he's saying they're kicking ass. Full steam ahead, you know?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "We're full steam ahead, says Nikola founder Trevor Milton, whos giving up his CEO role with the merger to become executive chairman. ... We're kicking ass.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "\"Kicking ass\" while they haven't even really, like, delivered anything yet, right? I heard they're still suing Tesla for design infringement. How's that for \"kicking ass\"?",
+        "tts_text": "Kicking ass while they haven't even really, like, delivered anything yet, right? I heard they're still suing Tesla for design infringement. How's that for kicking ass?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "A potential competitor to Elon Musks Tesla in electric trucks (which its suing for design infringement)... While the company has yet to deliver trucks to commercial customers, theres been a steady uptick in interest in hydrogen for heavy-duty trucks...",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Okay, but they do have, um, a huge order from Anheuser-Busch. Like, 500 trucks already delivered for routes in LA, and they want 800 more. That's real, A.",
+        "tts_text": "Okay, but they do have, um, a huge order from Anheuser-Busch. Like, five hundred trucks already delivered for routes in L A, and they want eight hundred more. That's real, A.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Nikola has secured truck orders worth $10 billion from companies led by Anheuser-Busch, which wants 800 of the companys non-polluting behemoths. ... While the company has yet to deliver trucks to commercial customers...",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Delivered. Are they actually running? And what about the actual product? Are these the hydrogen ones that need, what, a billion dollars for charging stations?",
+        "tts_text": "Delivered. Are they actually running? And what about the actual product? Are these the hydrogen ones that need, what, a billion dollars for charging stations?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Spending on hydrogen stations, which will make the clean fuel from water and renewable electricity, will run to nearly $1 billion from 2022 through 2024, according to the filing.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, the hydrogen ones are, um, a big part of it. They're making them in Europe next year, then Arizona. And, like, hydrogen is, it's lighter than batteries, it refuels fast, you know?",
+        "tts_text": "Yeah, the hydrogen ones are, um, a big part of it. They're making them in Europe next year, then Arizona. And, like, hydrogen is, it's lighter than batteries, it refuels fast, you know?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Production of electric Nikola Tre trucks starts in Europe in 2021... We have trucks coming out of Ulm, Germany, in full production next year, and then the year after here in Arizona... fuel cell power systems are much lighter than batteries and can be refueled about as fast as diesel and gasoline models.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Right, \"refuels fast\" if they actually build the stations. They need like, another $700 million in equity, plus half a billion in debt, plus a billion for those stations. Sounds like a house of cards to me.",
+        "tts_text": "Right, refuels fast if they actually build the stations. They need like, another seven hundred dollars million in equity, plus half a billion in debt, plus a billion for those stations. Sounds like a house of cards to me.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The company estimates it will need to raise an additional $700 million of equity financing between late 2021 and early 2022... Additionally, it will probably issue debt in 2023 and 2024 totaling $500 million. Spending on hydrogen stations... will run to nearly $1 billion from 2022 through 2024, according to the filing.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "But think about it, A. They've got, like, a $3 billion valuation already, even before this merger. And, uh, they're projecting sales to jump from $150 million to over three billion by 2024. That's huge!",
+        "tts_text": "But think about it, A. They've got, like, a three dollars billion valuation already, even before this merger. And, uh, they're projecting sales to jump from one hundred fifty dollars million to over three billion by twenty twenty four. That's huge!",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "...gaining a $3 billion valuation prior to the VectoIQ merger. ...estimates sales will jump from $150 million in 2021 to $3.2 billion by 2024 as it ramps up productions.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Projections. Right. Every startup has \"projections.\" I project I'll be a billionaire next year if I just write it down.",
+        "tts_text": "Projections. Right. Every startup has projections. I project I'll be a billionaire next year if I just write it down.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "But Milton, he's saying they've, like, disrupted the whole industry. He says hydrogen is the hottest topic in trucking now, and he credits Nikola.",
+        "tts_text": "But Milton, he's saying they've, like, disrupted the whole industry. He says hydrogen is the hottest topic in trucking now, and he credits Nikola.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "What I love about Nikola is we've shown how to disrupt the entire industry. At every (truck) group in the world now hydrogen is the hottest topic. And guess who did that? says Milton, who like Musk, isnt shy about boasting what his company can do. It was majority caused by Nikola...",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Oh, I'm sure he does. He sounds like a modest guy. So, what, we're supposed to believe they're going to build an entire hydrogen infrastructure for semi-trucks from scratch while also building trucks and, uh, suing people?",
+        "tts_text": "Oh, I'm sure he does. He sounds like a modest guy. So, what, we're supposed to believe they're going to build an entire hydrogen infrastructure for semi-trucks from scratch while also building trucks and, uh, suing people?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Well, they've got, um, major partners, you know? Like Bosch, Iveco. These aren't just some garage startups. And they've got 20,000 pre-orders for the Badger pickup.",
+        "tts_text": "Well, they've got, um, major partners, you know? Like Bosch, Iveco. These aren't just some garage startups. And they've got twenty thousand pre-orders for the Badger pickup.",
+        "check_worthy": true,
+        "factual_label": "NEI",
+        "evidence_snippet": "Along with Iveco, Nikola also counts Bosch, Meritor, South Korean solar panel maker Hanwha and Norways Nel as key industrial partners helping get it sci-fi-styled semis on the road and fueled up. ...and eventually get its Badger fuel cell pickup to market.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Twenty thousand pre-orders. Not actual sales. Come on. I've seen this movie before. It always ends the same way.",
+        "tts_text": "Twenty thousand pre-orders. Not actual sales. Come on. I've seen this movie before. It always ends the same way.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "I just think, um, it's a big bet, sure, but it could actually change things. Zero-emission trucking. That's, like, a real goal, right?",
+        "tts_text": "I just think, um, it's a big bet, sure, but it could actually change things. Zero-emission trucking. That's, like, a real goal, right?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "With plans to shake up commercial trucking with zero-emission vehicles and fuel, its the most audacious Wall Street debut for a high-tech transportation startup since Teslas a decade ago.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Zero emissions, unless you count the emissions from manufacturing those trucks and, uh, making the hydrogen and then transporting it. It's always more complicated than the press releases.",
+        "tts_text": "Zero emissions, unless you count the emissions from manufacturing those trucks and, uh, making the hydrogen and then transporting it. It's always more complicated than the press releases.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  },
+  "batch_index": 3
+}

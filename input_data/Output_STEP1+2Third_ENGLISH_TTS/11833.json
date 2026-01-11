@@ -1,0 +1,167 @@
+{
+  "id": 11833,
+  "language": "english",
+  "hallucination": "no",
+  "ground_truth_source": "text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Friends",
+      "inferred_vibe": "Casual and argumentative"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Speaker 1",
+        "text": "What? No, seriously! Did you even read this thing about the dump trucks?",
+        "tts_text": "What? No, seriously! Did you even read this thing about the dump trucks?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Speaker 2",
+        "text": "Uh, yeah. More, like, regulations. Yawn. Who actually cares?",
+        "tts_text": "Uh, yeah. More, like, regulations. Yawn. Who actually cares?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Speaker 1",
+        "text": "No, but this is, like, a big deal for our roads, for the whole infrastructure.",
+        "tts_text": "No, but this is, like, a big deal for our roads, for the whole infrastructure.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Speaker 2",
+        "text": "Roads are always bad. What's one more rule gonna do, suddenly make them perfect?",
+        "tts_text": "Roads are always bad. What's one more rule gonna do, suddenly make them perfect?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Speaker 1",
+        "text": "They're literally letting these guys double the weight limit. Like, 25 tons is okay, but they're doing 40!",
+        "tts_text": "They're literally letting these guys double the weight limit. Like, twenty five tons is okay, but they're doing forty!",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Many of them transport inert cargo with a double excess of the permissible load. With a permissible load of 25 tons, drivers transport 35-40 tons.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Speaker 2",
+        "text": "So? Big trucks, big loads. That's, um, kinda their job, isn't it?",
+        "tts_text": "So? Big trucks, big loads. That's, um, kinda their job, isn't it?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Speaker 1",
+        "text": "No! It absolutely destroys the asphalt. Prematurely! Think of all the potholes, dude, everywhere.",
+        "tts_text": "No! It absolutely destroys the asphalt. Prematurely! Think of all the potholes, dude, everywhere.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Excess weight leads to premature destruction of the road surface.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Speaker 2",
+        "text": "Potholes are just a fact of life, B. This is just gonna be more fines for everyone.",
+        "tts_text": "Potholes are just a fact of life, B. This is just gonna be more fines for everyone.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Speaker 1",
+        "text": "Well, yeah, the fines are gonna be massive. We're talking like, up to 3.7 million tenge!",
+        "tts_text": "Well, yeah, the fines are gonna be massive. We're talking like, up to three point seven million tenge!",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The amounts vary from 40 to 1000 MCI (147 thousand - 3.7 million tenge).",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Speaker 1",
+        "text": "And they're putting in these new automated stations.",
+        "tts_text": "And they're putting in these new automated stations.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "To strengthen control, 6 new automated stations have already been installed at the entrance to the capital.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Speaker 2",
+        "text": "Automated? Please. Everyone'll just find a way around them, like they always do.",
+        "tts_text": "Automated? Please. Everyone'll just find a way around them, like they always do.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Speaker 1",
+        "text": "That's the whole point, though! To minimize, uh, corruption risks, you know? It's supposed to be harder to just pay someone off.",
+        "tts_text": "That's the whole point, though! To minimize, uh, corruption risks, you know? It's supposed to be harder to just pay someone off.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "According to the transport department, these measures will help reduce road congestion and minimize corruption risks in the field of transport control.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Speaker 2",
+        "text": "Right. Corruption. Good luck with that. They're only in test mode anyway, right?",
+        "tts_text": "Right. Corruption. Good luck with that. They're only in test mode anyway, right?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "They are currently operating in test mode, but their number will be increased in the future.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Speaker 1",
+        "text": "Yeah, but they're adding more. And this impacts everything. Like, if the roads get worse, then traffic gets worse. They're saying Astana and Almaty could get paralyzed.",
+        "tts_text": "Yeah, but they're adding more. And this impacts everything. Like, if the roads get worse, then traffic gets worse. They're saying Astana and Almaty could get paralyzed.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Read also: Astana and Almaty to be paralyzed by traffic jams - analysts",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Speaker 2",
+        "text": "Paralyzed by, um, overweight Chinese dump trucks. Sounds like some kind of weird sci-fi disaster movie.",
+        "tts_text": "Paralyzed by, um, overweight Chinese dump trucks. Sounds like some kind of weird sci-fi disaster movie.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "According to the Ministry of Transport, about 60 thousand dump trucks are registered in Kazakhstan, of which 40 thousand are made in China.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Speaker 1",
+        "text": "It's not funny! It's our roads, our money that pays for this, dude. When they break, we pay.",
+        "tts_text": "It's not funny! It's our roads, our money that pays for this, dude. When they break, we pay.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Speaker 2",
+        "text": "Yeah, yeah, I get it. Roads bad, fines big. Wake me up when they actually, like, fix something.",
+        "tts_text": "Yeah, yeah, I get it. Roads bad, fines big. Wake me up when they actually, like, fix something.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  },
+  "batch_index": 3
+}

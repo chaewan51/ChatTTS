@@ -1,0 +1,145 @@
+{
+  "id": 6372,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Podcast co-hosts",
+      "inferred_vibe": "Informative and analytical discussion"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "HostA",
+        "text": "An 82% GINI indicator? That seems almost too good to be true, especially in that region.",
+        "tts_text": "An eighty two percent G I N I indicator? That seems almost too good to be true, especially in that region.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The work of the FCB was highly evaluated by Belarusian colleagues and the model illustrates a good GINI indicator -over 80%, while the average market international standard stands for 55% -60% Gini.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "I know, right? But the First Credit Bureau, the FCB, they're really making waves. That's way above the international average of 57 to 61 percent.",
+        "tts_text": "I know, right? But the First Credit Bureau, the F C B, they're really making waves. That's way above the international average of fifty seven to sixty one percent.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The work of the FCB was highly evaluated by Belarusian colleagues and the model illustrates a good GINI indicator -over 80%, while the average market international standard stands for 55% -60% Gini.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "But Kyrgyzstan? I mean, we're talking about a leader in predictive data analysis there? That's not exactly a global tech hub.",
+        "tts_text": "But Kyrgyzstan? I mean, we're talking about a leader in predictive data analysis there? That's not exactly a global tech hub.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The FCB is a leader in predictive data analysis in Kazakhstan.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Well, their work's being recognized internationally—Ukrainian colleagues gave them high marks, and Belarus's National Bank praised their professionalism.",
+        "tts_text": "Well, their work's being recognized internationally-Ukrainian colleagues gave them high marks, and Belarus's National Bank praised their professionalism.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The work of the FCB was highly evaluated by Belarusian colleagues and the model illustrates a good GINI indicator -over 80%, while the average market international standard stands for 55% -60% Gini. The National Bank of the Republic of Belarus made a comment that the experience with Kazakhstani colleagues from the FCB was successful, and employees of the FCB performed as high-level professionals.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Okay, but what about their actual reach? Are these models actually being used, or is it just theoretical success?",
+        "tts_text": "Okay, but what about their actual reach? Are these models actually being used, or is it just theoretical success?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostB",
+        "text": "Oh, it's practical—they're selling over 3.5 million scorings just in Kazakhstan alone. And they've developed more than 110 predictive models.",
+        "tts_text": "Oh, it's practical-they're selling over three point five million scorings just in Kazakhstan alone. And they've developed more than one hundred ten predictive models.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Today, we are selling more than 3 million scorings of bureau only in Kazakhstan, and there are more than 100 different predictive models, which we develop for customers forecast of different events based on various standards including IFRS9.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Huh. And they're working with regulators now too? That's a shift from commercial focus.",
+        "tts_text": "Huh. And they're working with regulators now too? That's a shift from commercial focus.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostB",
+        "text": "Exactly—Ruslan Omarov mentioned this is their second experience with a foreign regulator. They're expanding into consulting and technical support across Eurasia.",
+        "tts_text": "Exactly-Ruslan Omarov mentioned this is their second experience with a foreign regulator. They're expanding into consulting and technical support across Eurasia.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Ruslan Omarov, of the FCB notes: This is the first experience for us especially with the foreign regulator.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "So they're not just a credit bureau; they're a full-on data hub with over 720 information suppliers and recipients.",
+        "tts_text": "So they're not just a credit bureau; they're a full-on data hub with over seven hundred twenty information suppliers and recipients.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "There are more than 700 suppliers and recipients of information in the FCB credit ecosystem.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Yeah, and their office in Astana is actually the central office for the Association of Credit Information Providers of Eurasia. They're deeply embedded.",
+        "tts_text": "Yeah, and their office in Astana is actually the central office for the Association of Credit Information Providers of Eurasia. They're deeply embedded.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The Almaty office of the FCB is the central office of the Association of Credit Information Providers of Eurasia (ACIPE).",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "I'll admit, that's impressive scaling from a regional player. The model for Belarus considering local market specifics shows they adapt, not just copy-paste.",
+        "tts_text": "I'll admit, that's impressive scaling from a regional player. The model for Belarus considering local market specifics shows they adapt, not just copy-paste.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Meanwhile, the developed scoring model fully takes into account the specifics of the Belarusian financial market, its segments and the data structure.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Right? It's already been tested and launched there. Sounds like they're becoming a real force in big data for emerging markets.",
+        "tts_text": "Right? It's already been tested and launched there. Sounds like they're becoming a real force in big data for emerging markets.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The model has already been tested and launched, and our colleagues will provide additional information later.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Definitely makes me want to keep an eye on www.1cb.kz for updates.",
+        "tts_text": "Definitely makes me want to keep an eye on the link for updates.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "For more information visit www.1cb.kz",
+        "confidence": 1.0,
+        "priority": "high"
+      }
+    ]
+  },
+  "generator_model": "DeepSeek-V3.1",
+  "batch_index": 2,
+  "artist_script": "HostA: An 82% GINI indicator? That seems almost too good to be true, especially in that region.\nHostB: I know, right? But the First Credit Bureau, the FCB, they’re really making waves. That’s way above the international average of 57 to 61 percent.\nHostA: But Kyrgyzstan? I mean, we’re talking about a leader in predictive data analysis there? That’s not exactly a global tech hub.\nHostB: Well, their work’s being recognized internationally—Ukrainian colleagues gave them high marks, and Belarus’s National Bank praised their professionalism.\nHostA: Okay, but what about their actual reach? Are these models actually being used, or is it just theoretical success?\nHostB: Oh, it’s practical—they’re selling over 3.5 million scorings just in Kazakhstan alone. And they’ve developed more than 110 predictive models.\nHostA: Huh. And they’re working with regulators now too? That’s a shift from commercial focus.\nHostB: Exactly—Ruslan Omarov mentioned this is their second experience with a foreign regulator. They’re expanding into consulting and technical support across Eurasia.\nHostA: So they’re not just a credit bureau; they’re a full-on data hub with over 720 information suppliers and recipients.\nHostB: Yeah, and their office in Astana is actually the central office for the Association of Credit Information Providers of Eurasia. They’re deeply embedded.\nHostA: I’ll admit, that’s impressive scaling from a regional player. The model for Belarus considering local market specifics shows they adapt, not just copy-paste.\nHostB: Right? It’s already been tested and launched there. Sounds like they’re becoming a real force in big data for emerging markets.\nHostA: Definitely makes me want to keep an eye on www.1cb.kz for updates."
+}

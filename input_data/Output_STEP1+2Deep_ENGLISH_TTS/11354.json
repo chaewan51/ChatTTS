@@ -1,0 +1,131 @@
+{
+  "id": 11354,
+  "language": "english",
+  "hallucination": "no",
+  "ground_truth_source": "text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Podcast co-hosts",
+      "inferred_vibe": "Informal news discussion"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "HostA",
+        "text": "So apparently Jennifer Lopez is supposed to perform in Almaty on August 10th.",
+        "tts_text": "So apparently Jennifer Lopez is supposed to perform in Almaty on August tenth.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "A day earlier, news surfaced that Jennifer Lopez would perform a solo concert in Almaty as part of her global \"Up All Night\" tour. According to Kairat, the announced date \" August 10 \" was never agreed upon by the club.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Yeah, but FC Kairat, the football club that owns the stadium, is saying they never agreed to that date. They're totally surprised by the announcement.",
+        "tts_text": "Yeah, but F C Kairat, the football club that owns the stadium, is saying they never agreed to that date. They're totally surprised by the announcement.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "However, FC Kairat expressed surprise at the announcement, stating that the pop diva's performance is not part of the football club's plans. According to Kairat, the announced date \" August 10 \" was never agreed upon by the club.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Right, and they mentioned their Premier League match against FC Zhenis is scheduled for August 9th-10th, so the stadium's booked.",
+        "tts_text": "Right, and they mentioned their Premier League match against F C Zhenis is scheduled for August ninth-tenth, so the stadium's booked.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The club clarified that on August 9\"10, the stadium is scheduled to host an official match between FC Kairat and FC Zhenis.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Plus, they've got European cup matches on the 7th and 12th, which means UEFA standards require prep time—no room for a concert.",
+        "tts_text": "Plus, they've got European cup matches on the seventh and twelfth, which means U E F A standards require prep time-no room for a concert.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "In addition, the team is set to participate in European cup matches on August 7 and 12. Due to these commitments, the stadium requires mandatory preparation in accordance with UEFA standards, making it impossible to hold other events on those dates.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "It sounds like they even sent an official refusal letter to the city's sports directorate, so who made this announcement?",
+        "tts_text": "It sounds like they even sent an official refusal letter to the city's sports directorate, so who made this announcement?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "In response, the club sent an official letter stating that the stadium cannot be used during the specified period due to the approved Premier League sports calendar and FC Kairat's international commitments in European competitions, the statement reads.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "That's the weird part. Like, did someone jump the gun? Or was there a miscommunication somewhere?",
+        "tts_text": "That's the weird part. Like, did someone jump the gun? Or was there a miscommunication somewhere?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostA",
+        "text": "I mean, it's not like you can just book a stadium without the owner's consent, especially when there are matches lined up.",
+        "tts_text": "I mean, it's not like you can just book a stadium without the owner's consent, especially when there are matches lined up.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostB",
+        "text": "Exactly. And UEFA rules are strict—you can't just squeeze in a huge concert right before or after a big game.",
+        "tts_text": "Exactly. And U E F A rules are strict-you can't just squeeze in a huge concert right before or after a big game.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Due to these commitments, the stadium requires mandatory preparation in accordance with UEFA standards, making it impossible to hold other events on those dates.",
+        "confidence": 0.9,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "So J.Lo's team might have to uh, look for another date or venue if this is really happening.",
+        "tts_text": "So the website 's team might have to uh, look for another date or venue if this is really happening.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostB",
+        "text": "Or maybe the whole thing was announced prematurely? 'Cause FC Kairat seems pretty firm on their refusal.",
+        "tts_text": "Or maybe the whole thing was announced prematurely? 'Cause F C Kairat seems pretty firm on their refusal.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Given the above, FC Kairat was surprised by the public announcement of a concert on dates for which an official and reasoned refusal had been issued, the club stated.",
+        "confidence": 0.95,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Yeah, it's a mess. Fans in Almaty are probably disappointed, thinking they're gonna see her live.",
+        "tts_text": "Yeah, it's a mess. Fans in Almaty are probably disappointed, thinking they're gonna see her live.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostB",
+        "text": "For sure. Let's hope they sort it out, but it doesn't look good right now.",
+        "tts_text": "For sure. Let's hope they sort it out, but it doesn't look good right now.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      }
+    ]
+  },
+  "generator_model": "DeepSeek-V3.1",
+  "batch_index": 2
+}

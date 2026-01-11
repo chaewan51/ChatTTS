@@ -1,0 +1,179 @@
+{
+  "id": 6925,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Debating colleagues",
+      "inferred_vibe": "Skeptical debate"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "A",
+        "text": "...barely moving the needle, you know? Like, G20 advanced economies, average real wages grew by a measly point-four percent in 2017. Point-four percent? Uh, so what? Inflation, like, eats that up before breakfast. What's even the point of bringing that up?",
+        "tts_text": "barely moving the needle, you know? Like, G20 advanced economies, average real wages grew by a measly point-four percent in twenty seventeen. Point-four percent? Uh, so what? Inflation, like, eats that up before breakfast. What's even the point of bringing that up?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "In the advanced G20 economies, average real wages grew by a mere 0.4% in 2017, compared to 1.7% growth in 2015.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "B",
+        "text": "Well, the point, A, is that it's down significantly from 1.7% just two years prior, in 2015. And in Europe, like, wages actually stagnated or declined in places like Germany.",
+        "tts_text": "Well, the point, A, is that it's down significantly from one point seven percent just two years prior, in twenty fifteen. And in Europe, like, wages actually stagnated or declined in places like Germany.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "In the advanced G20 economies, average real wages grew by a mere 0.4% in 2017, compared to 1.7% growth in 2015. ...they stagnated in Europe, where small increases in some countries were offset by declines in France, Germany, Italy, and Spain.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "A",
+        "text": "Stagnated in Germany? The economic powerhouse? Come on. Are we really supposed to believe that? With their huge surpluses and, uh, all that?",
+        "tts_text": "Stagnated in Germany? The economic powerhouse? Come on. Are we really supposed to believe that? With their huge surpluses and, uh, all that?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "B",
+        "text": "Yes, exactly! That's what makes it surprising. And the article, it, um, it suggests it's not just the usual suspects like trade or technology.",
+        "tts_text": "Yes, exactly! That's what makes it surprising. And the article, it, um, it suggests it's not just the usual suspects like trade or technology.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Neither of the usual suspects, trade and technology, is entirely to blame.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "A",
+        "text": "Oh, it's never just the usual suspects. It's always some, like, hidden institutional boogeyman, right? What's the new excuse this time?",
+        "tts_text": "Oh, it's never just the usual suspects. It's always some, like, hidden institutional boogeyman, right? What's the new excuse this time?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "B",
+        "text": "It's more about, like, policies. Governments prioritizing employers, uh, weakening labor rights, fiscal austerity preventing social spending. Basically, neoliberalism.",
+        "tts_text": "It's more about, like, policies. Governments prioritizing employers, uh, weakening labor rights, fiscal austerity preventing social spending. Basically, neoliberalism.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The real reason workers are getting a raw deal is not so much economic as institutional and political. From country to country, legislation and court judgments are increasingly trampling on long-recognized labor rights. For example, governments focused solely on improving labor-market flexibility have pursued policies that privilege employers interests over those of workers... An obsession with fiscal consolidation and austerity has prevented the kind of social spending... In short, neoliberalisms intellectual capture of economic policymaking across a wide range of countries, is resulting in the exclusion of most wage earners from the gains of economic growth.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "A",
+        "text": "Neoliberalism. Right. So, everything wrong with the world is suddenly \"neoliberalism.\" Convenient. And who's doing it right then, if everyone else is so wrong?",
+        "tts_text": "Neoliberalism. Right. So, everything wrong with the world is suddenly neoliberalism. Convenient. And who's doing it right then, if everyone else is so wrong?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "B",
+        "text": "Well, China, actually. They've seen rapid wage growth, their labor share of national income is rising.",
+        "tts_text": "Well, China, actually. They've seen rapid wage growth, their labor share of national income is rising.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "China, after all, has achieved rapid wage growth, and the share of national income accruing to labor is rising, despite the countrys pursuit of trade and rapid labor-displacing technologies.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "A",
+        "text": "China? The place with, um, aggressive state control and, like, not exactly a beacon of workers' rights? You're really holding up China as the model here?",
+        "tts_text": "China? The place with, um, aggressive state control and, like, not exactly a beacon of workers' rights? You're really holding up China as the model here?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "B",
+        "text": "But the report highlights their robust worker protection laws, their government investment in training, expanded social protections, policies boosting innovation...",
+        "tts_text": "But the report highlights their robust worker protection laws, their government investment in training, expanded social protections, policies boosting innovation...",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "But, more to the point, China has augmented this effect through systematic state policies designed to improve labor conditions. ... At the same time, the government has expanded other forms of social protections for workers, all while pursuing industrial policies geared toward boosting innovation and productivity growth, thus moving the country up the global value chain.",
+        "confidence": 0.8,
+        "priority": "high"
+      },
+      {
+        "speaker": "A",
+        "text": "Robust worker protection laws in China. Yeah, I'm sure those are, uh, super robust. What, is this some kind of propaganda piece?",
+        "tts_text": "Robust worker protection laws in China. Yeah, I'm sure those are, uh, super robust. What, is this some kind of propaganda piece?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "B",
+        "text": "It's a different approach. The average nominal minimum wage almost doubled between 2011 and 2018. They're bucking the trend.",
+        "tts_text": "It's a different approach. The average nominal minimum wage almost doubled between twenty eleven and twenty eighteen. They're bucking the trend.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "As a result, the average nominal minimum wage in China nearly doubled between 2011 and 2018, and wages for workers in state-owned enterprises rose even faster.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "A",
+        "text": "Or, like, they just started from such a low base that any increase looks massive. And it's a completely different political system, B. You can't just, uh, export that.",
+        "tts_text": "Or, like, they just started from such a low base that any increase looks massive. And it's a completely different political system, B. You can't just, uh, export that.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "B",
+        "text": "The argument is that if they can buck the trend, others can, too, if they shake off this neoliberal paradigm.",
+        "tts_text": "The argument is that if they can buck the trend, others can, too, if they shake off this neoliberal paradigm.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Still, if China can buck the trend of declining wage growth, other countries can, too. First, though, economic policymakers around the world will have to shake off the neoliberal paradigm, which has left them incapable of imagining alternative policy approaches.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "A",
+        "text": "So, like, we just need to get rid of capitalism and everything will be fine? Is that, uh, what you're saying?",
+        "tts_text": "So, like, we just need to get rid of capitalism and everything will be fine? Is that, uh, what you're saying?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "B",
+        "text": "No, not capitalism. Just, um, different policy approaches, less focus on austerity, more on workers' conditions.",
+        "tts_text": "No, not capitalism. Just, um, different policy approaches, less focus on austerity, more on workers' conditions.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "If workers are going to partake in the gains of growth once again, governments will need to start adopting more progressive policy alternatives.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "A",
+        "text": "Sounds like a fantasy, honestly. Like, who's actually going to do that?",
+        "tts_text": "Sounds like a fantasy, honestly. Like, who's actually going to do that?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "B",
+        "text": "The ILO, UNCTAD, some politicians are starting to, uh, put more sensible policies on the agenda. It'll require a bigger push.",
+        "tts_text": "The I L O, U N C T A D, some politicians are starting to, uh, put more sensible policies on the agenda. It'll require a bigger push.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Fortunately, the ILO and the United Nations Conference on Trade and Development have begun to put more sensible policies back on the agenda, as have some politicians in the US, the United Kingdom, and elsewhere.",
+        "confidence": 1.0,
+        "priority": "high"
+      }
+    ]
+  },
+  "batch_index": 3
+}

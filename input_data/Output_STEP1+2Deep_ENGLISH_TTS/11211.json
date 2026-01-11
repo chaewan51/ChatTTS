@@ -1,0 +1,131 @@
+{
+  "id": 11211,
+  "language": "english",
+  "hallucination": "no",
+  "ground_truth_source": "text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Informational discussion"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "HostA",
+        "text": "The first LRT trains have actually arrived in Astana, which is a huge step forward for the city's public transport.",
+        "tts_text": "The first L R T trains have actually arrived in Astana, which is a huge step forward for the city's public transport.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The first light rail transit (LRT) trains have arrived in Astana, the capital's akim (governor) Zhenis Kassymbek told journalists.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Yeah, Zhenis Kassymbek, the akim, just announced that, right? Two trains arrived yesterday.",
+        "tts_text": "Yeah, Zhenis Kassymbek, the akim, just announced that, right? Two trains arrived yesterday.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The first light rail transit (LRT) trains have arrived in Astana, the capital's akim (governor) Zhenis Kassymbek told journalists. \"Yesterday, the first two trains arrived.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Exactly. And he mentioned they're aiming for a technical launch in September, with full passenger service by spring 2026.",
+        "tts_text": "Exactly. And he mentioned they're aiming for a technical launch in September, with full passenger service by spring twenty twenty six.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "According to the akim, the technical launch of the LRT system is scheduled for September this year, with full operation expected by spring 2026.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "That timeline feels pretty ambitious, doesn't it? Like, they want testing done by the end of this year, but then commissioning takes months.",
+        "tts_text": "That timeline feels pretty ambitious, doesn't it? Like, they want testing done by the end of this year, but then commissioning takes months.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostA",
+        "text": "Uh-huh, he said three to six months for that phase. So if they start in September, um, early 2025 might be more realistic for testing completion?",
+        "tts_text": "Uh-huh, he said three to six months for that phase. So if they start in September, um, early twenty twenty five might be more realistic for testing completion?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Then, as per regulations, commissioning work will take three to six months.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Well, he did say they hope to have passengers riding by the end of the first quarter, so maybe February or March.",
+        "tts_text": "Well, he did say they hope to have passengers riding by the end of the first quarter, so maybe February or March.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Our goal is to have passengers start using the service by the end of the first quarter,\" Kassymbek said on the sidelines of an event at the Akorda.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Right. And all the trains should be delivered by the end of summer, which is good—no delays on that front, at least.",
+        "tts_text": "Right. And all the trains should be delivered by the end of summer, which is good-no delays on that front, at least.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "All trains are expected to be delivered by the end of the summer.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "I'm curious about the ticket price though. He mentioned earlier that they're still working that out.",
+        "tts_text": "I'm curious about the ticket price though. He mentioned earlier that they're still working that out.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Earlier, Zhenis Kassymbek responded to a question about the possible cost of a single LRT ride.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Yeah, affordability is gonna be key for public uptake. Hopefully they keep it accessible.",
+        "tts_text": "Yeah, affordability is gonna be key for public uptake. Hopefully they keep it accessible.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostB",
+        "text": "For sure. It's a big investment, but Astana really needs this kind of infrastructure.",
+        "tts_text": "For sure. It's a big investment, but Astana really needs this kind of infrastructure.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostA",
+        "text": "Absolutely. Connecting parts of the city with light rail could ease so much traffic.",
+        "tts_text": "Absolutely. Connecting parts of the city with light rail could ease so much traffic.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostB",
+        "text": "And starting service in 2026 would be a major milestone. Fingers crossed the timeline holds.",
+        "tts_text": "And starting service in twenty twenty six would be a major milestone. Fingers crossed the timeline holds.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      }
+    ]
+  },
+  "generator_model": "DeepSeek-V3.1",
+  "batch_index": 2
+}

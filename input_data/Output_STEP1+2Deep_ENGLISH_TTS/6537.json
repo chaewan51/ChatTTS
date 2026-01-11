@@ -1,0 +1,153 @@
+{
+  "id": 6537,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Informative and analytical"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "HostA",
+        "text": "A hydrogen-powered semi-truck, rolling silently down the highway—that's the vision Nikola is betting on with its Wall Street debut.",
+        "tts_text": "A hydrogen-powered semi-truck, rolling silently down the highway-that's the vision Nikola is betting on with its Wall Street debut.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostB",
+        "text": "Yeah, and it's happening through a reverse merger with VectoIQ, led by former GM vice chairman Steve Girsky. That's some serious industry clout right there.",
+        "tts_text": "Yeah, and it's happening through a reverse merger with VectoIQ, led by former G M vice chairman Steve Girsky. That's some serious industry clout right there.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The reverse merger with publicly traded VectoIQ, an acquisition firm created by former General Motors GM Vice Chairman Steve Girsky, was announced March 3, just ahead of the Covid-19 shutdown.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Exactly. And they're starting production next year in Ulm, Austria, before their Arizona plant even opens. They're moving fast.",
+        "tts_text": "Exactly. And they're starting production next year in Ulm, Austria, before their Arizona plant even opens. They're moving fast.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "We have trucks coming out of Ulm, Germany, in full production next year, and then the year after here in Arizona, and we're about ready to break ground here.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "But uh, they've got huge funding needs—like an extra 750 million in equity by 2022? That's… ambitious for a company that hasn't delivered a truck yet.",
+        "tts_text": "But uh, they've got huge funding needs-like an extra seven hundred fifty million in equity by twenty twenty two? That's... ambitious for a company that hasn't delivered a truck yet.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The company estimates it will need to raise an additional $700 million of equity financing between late 2021 and early 2022, according to an SEC filing.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "True, but they've already got orders worth 10 billion dollars, including 800 trucks for Anheuser-Busch. That's not nothing.",
+        "tts_text": "True, but they've already got orders worth ten billion dollars, including eight hundred trucks for Anheuser-Busch. That's not nothing.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Nikola has secured truck orders worth $10 billion from companies led by Anheuser-Busch, which wants 800 of the companys non-polluting behemoths.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Yeah, but hydrogen infrastructure is crazy expensive—almost a billion just for stations? I mean, that's a massive hurdle.",
+        "tts_text": "Yeah, but hydrogen infrastructure is crazy expensive-almost a billion just for stations? I mean, that's a massive hurdle.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Spending on hydrogen stations, which will make the clean fuel from water and renewable electricity, will run to nearly $1 billion from 2022 through 2024, according to the filing.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "It is, but Trevor Milton seems confident. He's stepping down as CEO but staying as executive chairman, and he's all-in on this hydrogen push.",
+        "tts_text": "It is, but Trevor Milton seems confident. He's stepping down as C E O but staying as executive chairman, and he's all-in on this hydrogen push.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "We're full steam ahead, says Nikola founder Trevor Milton, whos giving up his CEO role with the merger to become executive chairman.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "And they're suing Tesla, right? Over design stuff? Talk about jumping into the deep end against Elon.",
+        "tts_text": "And they're suing Tesla, right? Over design stuff? Talk about jumping into the deep end against Elon.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "A potential competitor to Elon Musks Tesla in electric trucks (which its suing for design infringement), Nikola has raised about $600 million to get its hydrogen semis into production at a new plant in Coolidge, Arizona, gaining a $3 billion valuation prior to the VectoIQ merger.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Yeah, and Milton isn't shy about taking credit—he says Nikola made hydrogen the hottest topic in trucking.",
+        "tts_text": "Yeah, and Milton isn't shy about taking credit-he says Nikola made hydrogen the hottest topic in trucking.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "At every (truck) group in the world now hydrogen is the hottest topic. And guess who did that? says Milton, who like Musk, isnt shy about boasting what his company can do.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Which, you know, fuel cells have been around since the 60s, but the cost has come down a lot recently. Green hydrogen from solar and wind is a game-changer.",
+        "tts_text": "Which, you know, fuel cells have been around since the 60s, but the cost has come down a lot recently. Green hydrogen from solar and wind is a game-changer.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Fuel cell technology, which makes electricity in a chemical reaction involving hydrogen and oxygen with only water vapor as a byproduct, has been around since the 1960s, but earlier iterations were far too costly and not durable enough for heavy daily use. Thats changed dramatically in the past decade, with costs for the materials and fuel tanks dropping steadily as the technology matured.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Still, pulling this off would be huge—zero-emission long-haul trucks? That could really disrupt diesel's dominance.",
+        "tts_text": "Still, pulling this off would be huge-zero-emission long-haul trucks? That could really disrupt diesel's dominance.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostB",
+        "text": "If they can actually deliver. I'll believe it when I see those Tre trucks on the road here in the U.S.",
+        "tts_text": "If they can actually deliver. I'll believe it when I see those Tre trucks on the road here in the U.S.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostA",
+        "text": "Fair enough. But with partners like Bosch and Hanwha, they're not exactly going it alone.",
+        "tts_text": "Fair enough. But with partners like Bosch and Hanwha, they're not exactly going it alone.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Along with Iveco, Nikola also counts Bosch, Meritor, South Korean solar panel maker Hanwha and Norways Nel as key industrial partners helping get it sci-fi-styled semis on the road and fueled up.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Yeah, no, it's a bold play. Let's see if the market keeps believing after the ticker NKLA starts trading.",
+        "tts_text": "Yeah, no, it's a bold play. Let's see if the market keeps believing after the ticker N K L A starts trading.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Shares of the combined new company start trading Thursday with the ticker NKLA.",
+        "confidence": 1.0,
+        "priority": "high"
+      }
+    ]
+  },
+  "generator_model": "DeepSeek-V3.1",
+  "batch_index": 2
+}

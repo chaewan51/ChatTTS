@@ -1,0 +1,177 @@
+{
+  "id": 6690,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Podcast co-hosts",
+      "inferred_vibe": "Conversational and inquisitive"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host A",
+        "text": "Okay, so, like, this \"People's Gratitude\" medal, right?",
+        "tts_text": "Okay, so, like, this People's Gratitude medal, right?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host B",
+        "text": "Oh, yes! I was just thinking about that.",
+        "tts_text": "Oh, yes! I was just thinking about that.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host A",
+        "text": "Is it really for, uh, the people, or more for, like, the big companies?",
+        "tts_text": "Is it really for, uh, the people, or more for, like, the big companies?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host B",
+        "text": "Well, I mean, President Tokayev, he said it's all about solidarity, resilience, you know? Our unity.",
+        "tts_text": "Well, I mean, President Tokayev, he said it's all about solidarity, resilience, you know? Our unity.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Solidarity, resilience and empathy are the traditional values of our people, said President Kassym-Zhomart Tokayev at the opening of the forum. It is these qualities that have helped us overcome the most difficult times in our history. In the face of common misfortune, our unity becomes stronger.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host A",
+        "text": "Right, \"Biz Birgemiz!\" That's the whole, uh, spirit, right?",
+        "tts_text": "Right, Biz Birgemiz! That's the whole, uh, spirit, right?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "We are together ('Biz Birgemiz') is the new motto of our society.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host B",
+        "text": "Exactly! For everyday heroes, like medical workers, police, um, volunteers.",
+        "tts_text": "Exactly! For everyday heroes, like medical workers, police, um, volunteers.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Every day we have witnessed feats accomplished throughout the country by medical workers, police officers, members of the Armed Forces, volunteers, and philanthropists.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host A",
+        "text": "But then, you see Mikhail Lomtadze, Kaspi.kz CEO, getting one.",
+        "tts_text": "But then, you see Mikhail Lomtadze, the website C E O, getting one.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Mikhail Lomtadze, CEO of Kaspi.kz, commented: This award is testament to every Kaspi.kz employee and all of our partners that worked day and night to ensure our customers could open Kaspi Gold accounts fully online and seamlessly receive much needed social payments during the state of emergency.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host B",
+        "text": "Yeah! And you think, wait, a CEO? For a medal?",
+        "tts_text": "Yeah! And you think, wait, a C E O? For a medal?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host A",
+        "text": "Yeah, like, isn't that just... good PR for the company?",
+        "tts_text": "Yeah, like, isn't that just... good P R for the company?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host B",
+        "text": "But hold on, though, he specifically said it was for every Kaspi.kz employee, and their partners.",
+        "tts_text": "But hold on, though, he specifically said it was for every the website employee, and their partners.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Mikhail Lomtadze, CEO of Kaspi.kz, commented: This award is testament to every Kaspi.kz employee and all of our partners",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host A",
+        "text": "Oh, that's true! They worked day and night, right? To get those social payments out.",
+        "tts_text": "Oh, that's true! They worked day and night, right? To get those social payments out.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "This award is testament to every Kaspi.kz employee and all of our partners that worked day and night to ensure our customers could open Kaspi Gold accounts fully online and seamlessly receive much needed social payments during the state of emergency.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host B",
+        "text": "Yes, exactly! And like, 5.2 million people got payments online! That's just... massive.",
+        "tts_text": "Yes, exactly! And like, five point two million people got payments online! That's just... massive.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "As a result, 4.4 million people received their payments online through the Kaspi.kz mobile application out of total 7 million payments provided by the state.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host A",
+        "text": "Huge! And, uh, shopping too, for like, over 600,000 families. Especially, you know, the elderly, people who couldn't leave home.",
+        "tts_text": "Huge! And, uh, shopping too, for like, over six hundred thousand families. Especially, you know, the elderly, people who couldn't leave home.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Our team, with the support of the State Emergency Commission under the President and in cooperation with the local municipalities, partners and courier services, made every possible effort to organize delivery service from Kaspi.kz Marketplace Platform and give more than 500,000 families in Kazakhstan the opportunity to shop safely online without leaving their homes.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host B",
+        "text": "Absolutely! And don't forget the 150,000 COVID tests they donated! Plus, um, scholarships.",
+        "tts_text": "Absolutely! And don't forget the one hundred fifty thousand COVID tests they donated! Plus, um, scholarships.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Mikhail Lomtadze and Vyacheslav Kim, co-founders of Kaspi.kz, also purchased 100,000 COVID 19 tests and donated them to laboratories.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host A",
+        "text": "Oh, that's, like, a really big deal. So, maybe it is deserved then?",
+        "tts_text": "Oh, that's, like, a really big deal. So, maybe it is deserved then?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host B",
+        "text": "I know, right? It just makes you think. It's not just the doctors and police, um, but the tech that enables everything now.",
+        "tts_text": "I know, right? It just makes you think. It's not just the doctors and police, um, but the tech that enables everything now.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host A",
+        "text": "Yeah, the infrastructure. So, is gratitude, like, evolving?",
+        "tts_text": "Yeah, the infrastructure. So, is gratitude, like, evolving?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host B",
+        "text": "Totally!",
+        "tts_text": "Totally!",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  },
+  "batch_index": 3
+}

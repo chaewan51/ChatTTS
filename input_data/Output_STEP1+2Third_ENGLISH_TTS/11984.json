@@ -1,0 +1,157 @@
+{
+  "id": 11984,
+  "language": "english",
+  "hallucination": "no",
+  "ground_truth_source": "text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Informal and skeptical"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "So like, everyone's gonna be wearing t-shirts for Women's Day this year in Kazakhstan, right?",
+        "tts_text": "So like, everyone's gonna be wearing t-shirts for Women's Day this year in Kazakhstan, right?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Astana... March 8: ...daytime temperatures between 0 and -2ÂC. Almaty... March 8: ...daytime temperatures between +3 and +5ÂC.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Uh, actually, no. Not exactly. Kazhydromet, you know, just dropped the forecast, and it's... kinda mixed.",
+        "tts_text": "Uh, actually, no. Not exactly. Kazhydromet, you know, just dropped the forecast, and it's... kinda mixed.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Astana... March 8: ...Blizzard and ice... daytime temperatures between 0 and -2ÂC. Almaty... March 8: ...occasional precipitation (rain, snow)... daytime temperatures between +3 and +5ÂC.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Mixed? What do you mean mixed? The article says \"delight Kazakhstanis.\" That sounds pretty good to me.",
+        "tts_text": "Mixed? What do you mean mixed? The article says delight Kazakhstanis. That sounds pretty good to me.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Weather has decided to delight Kazakhstanis on March 8",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Well, for Almaty, yeah, it's looking... okay. Like, March 8th, they're getting +3 to +5C, maybe some rain or snow, but, you know, it's not freezing during the day.",
+        "tts_text": "Well, for Almaty, yeah, it's looking... okay. Like, March eighth, they're getting +three to +five degrees c, maybe some rain or snow, but, you know, it's not freezing during the day.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "March 8: Partly cloudy, occasional precipitation (rain, snow), fog, and ice. ... daytime temperatures between +3 and +5ÂC.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Not freezing? Uh, zero to negative two Celsius at night, B. That's not freezing to you?",
+        "tts_text": "Not freezing? Uh, zero to negative two Celsius at night, B. That's not freezing to you?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "March 8: ... Night temperatures between -0 and -2ÂC, daytime temperatures between +3 and +5ÂC.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Okay, but the daytime is above freezing. Plus three to five. That's, like, a nice spring day for them.",
+        "tts_text": "Okay, but the daytime is above freezing. Plus three to five. That's, like, a nice spring day for them.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "March 8: ... daytime temperatures between +3 and +5ÂC.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Alright, for Almaty. What about Astana? Because this article also talks about Astana, doesn't it?",
+        "tts_text": "Alright, for Almaty. What about Astana? Because this article also talks about Astana, doesn't it?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Kazhydromet has released the weather forecast for Astana and Almaty from March 6 to 8.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh, yeah, Astana. Um, that's a whole different story, actually.",
+        "tts_text": "Oh, yeah, Astana. Um, that's a whole different story, actually.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yeah, I bet it is. Blizzard and ice, right? On March 6th? Gusts up to 20 meters per second?",
+        "tts_text": "Yeah, I bet it is. Blizzard and ice, right? On March sixth? Gusts up to twenty meters per second?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "March 6: Partly cloudy, snow at night, rain and snow during the day. Blizzard and ice. South, southwest wind at 9-14 m/s, gusts up to 15-20 m/s.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Uh, yeah, that's the 6th. And the 7th and 8th too, for Astana. Still partly cloudy, occasional precipitation, blizzard, ice. Night temps like minus five to seven.",
+        "tts_text": "Uh, yeah, that's the sixth. And the seventh and eighth too, for Astana. Still partly cloudy, occasional precipitation, blizzard, ice. Night temps like minus five to seven.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "March 8: Partly cloudy, snow at night, rain and snow during the day. Blizzard and ice. Southwest wind at 9-14 m/s. Night temperatures between -5 and -7ÂC, daytime temperatures between 0 and -2ÂC.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "So where's the \"delight\" then, B? Is it delightful to have a blizzard on Women's Day? Because I don't think that's most people's idea of a good time.",
+        "tts_text": "So where's the delight then, B? Is it delightful to have a blizzard on Women's Day? Because I don't think that's most people's idea of a good time.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Well, the article did say, \"Weather has decided to delight Kazakhstanis on March 8.\"",
+        "tts_text": "Well, the article did say, Weather has decided to delight Kazakhstanis on March eight.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Weather has decided to delight Kazakhstanis on March 8",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "It did. But given all this other stuff, it really only seems to be delighting some of them, doesn't it? Uh, the ones in Almaty, I guess.",
+        "tts_text": "It did. But given all this other stuff, it really only seems to be delighting some of them, doesn't it? Uh, the ones in Almaty, I guess.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, I mean, Almaty looks pretty decent, relatively. Astana, though, that's like, you know, proper winter conditions.",
+        "tts_text": "Yeah, I mean, Almaty looks pretty decent, relatively. Astana, though, that's like, you know, proper winter conditions.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Astana... March 8: ...Blizzard and ice... daytime temperatures between 0 and -2ÂC. Almaty... March 8: ...daytime temperatures between +3 and +5ÂC.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Proper winter conditions. Right. For March 8th. What a delight.",
+        "tts_text": "Proper winter conditions. Right. For March eighth. What a delight.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  },
+  "batch_index": 3
+}

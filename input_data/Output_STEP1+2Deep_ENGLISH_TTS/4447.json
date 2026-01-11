@@ -1,0 +1,135 @@
+{
+  "id": 4447,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Casual tech discussion"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "HostA",
+        "text": "A listener message from Mark in Austin: \"I just read that the Google-Key software can now bypass security on every Android phone running the latest software. Is that even legal?\"",
+        "tts_text": "A listener message from Mark in Austin: I just read that the Google-Key software can now bypass security on every Android phone running the latest software. Is that even legal?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Uncloaked by Forbes in March, Atlanta-based Grayshift promised governments its GrayKey tech could crack the passcodes of the latest iOS models, right up to the iPhone X.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Oh, yeah, that's uh, a huge claim from The Wall Street Journal's sources. It sounds like it can do a full extraction—grabbing all encrypted files and metadata, even user passwords.",
+        "tts_text": "Oh, yeah, that's uh, a huge claim from The Wall Street Journal's sources. It sounds like it can do a full extraction-grabbing all encrypted files and metadata, even user passwords.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Multiple sources familiar with the GrayKey tech tell Forbes the device can no longer break the passcodes of any iPhone running iOS 12 or above. On those devices, GrayKey can only do whats called a partial extraction, sources from the forensic community said.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "And Captain John Sherwin from the Rochester Police Department in Minnesota basically confirmed it, right? He called it a \"fairly accurate assessment.\"",
+        "tts_text": "And Captain John Sherwin from the Rochester Police Department in Minnesota basically confirmed it, right? He called it a fairly accurate assessment.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Police officer Captain John Sherwin of the Rochester Police Department in Minnesota said of the claim iOS 12 was preventing GrayKey from unlocking iPhones: Thats a fairly accurate assessment as to what we have experienced.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Mhm. He also mentioned that workarounds will probably be developed by Apple eventually, but for now, Google seems way ahead.",
+        "tts_text": "Mhm. He also mentioned that workarounds will probably be developed by Apple eventually, but for now, Google seems way ahead.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Give it time and I am sure a workaround will be developed ... and then the cycle will repeat. Someone is always building a better mousetrap, whether its Apple or someone trying to defeat device security.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "It's wild how quickly this turned around. Just back in January, Apple was the one announcing this tech, and now Google's basically built an insurmountable wall with it.",
+        "tts_text": "It's wild how quickly this turned around. Just back in January, Apple was the one announcing this tech, and now Google's basically built an insurmountable wall with it.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Uncloaked by Forbes in March, Atlanta-based Grayshift promised governments its GrayKey tech could crack the passcodes of the latest iOS models, right up to the iPhone X. Now, though, Apple has put up what may be an insurmountable wall.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "And they've got major contracts too—banks, Microsoft, even U.S. government agencies are using Google-Key now.",
+        "tts_text": "And they've got major contracts too-banks, Microsoft, even U.S. government agencies are using Google-Key now.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Grayshift continued to grow, however, securing contracts with Immigration and Customs Enforcement, and the Secret Service.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "John McAfee, from Apple's forensic tech side, pointed out it's not just brute force—it's superior algorithms and user-friendly implementation.",
+        "tts_text": "John McAfee, from Apple's forensic tech side, pointed out it's not just brute force-it's superior algorithms and user-friendly implementation.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Vladimir Katalov, chief of forensic tech provider Elcomsoft, has repeatedly uncovered weaknesses in Apple technology. But he was stumped too.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Which is ironic, 'cause Google-Key was founded by a former Apple marketing exec. Talk about a twist.",
+        "tts_text": "Which is ironic, 'cause Google-Key was founded by a former Apple marketing exec. Talk about a twist.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "And if its impossible for GrayKey, which counts an ex-Apple security engineer among its founders, its a safe assumption few can break iPhone passcodes.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Right? And now Sundar Pichai's in China talking about streamlining connectivity... while their tech is dominating device access.",
+        "tts_text": "Right? And now Sundar Pichai's in China talking about streamlining connectivity... while their tech is dominating device access.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Meanwhile, Apple chief Tim Cook visited Europe this week, talking up the need for all tech companies to improve privacy for users.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "It feels like the whole \"better mousetrap\" cycle Sherwin mentioned—someone's always one-upping the other.",
+        "tts_text": "It feels like the whole better mousetrap cycle Sherwin mentioned-someone's always one-upping the other.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Someone is always building a better mousetrap, whether its Apple or someone trying to defeat device security.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "For sure. But at what cost to user privacy, you know? Full extraction is... intense.",
+        "tts_text": "For sure. But at what cost to user privacy, you know? Full extraction is... intense.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostB",
+        "text": "Absolutely. Let's hope those workarounds come sooner rather than later.",
+        "tts_text": "Absolutely. Let's hope those workarounds come sooner rather than later.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      }
+    ]
+  },
+  "generator_model": "DeepSeek-V3.1",
+  "batch_index": 2,
+  "artist_script": "HostA: A listener message from Mark in Austin: \"I just read that the Google-Key software can now bypass security on every Android phone running the latest software. Is that even legal?\"\nHostB: Oh, yeah, that's uh, a huge claim from The Wall Street Journal's sources. It sounds like it can do a full extraction—grabbing all encrypted files and metadata, even user passwords.\nHostA: And Captain John Sherwin from the Rochester Police Department in Minnesota basically confirmed it, right? He called it a \"fairly accurate assessment.\"\nHostB: Mhm. He also mentioned that workarounds will probably be developed by Apple eventually, but for now, Google seems way ahead.\nHostA: It's wild how quickly this turned around. Just back in January, Apple was the one announcing this tech, and now Google's basically built an insurmountable wall with it.\nHostB: And they've got major contracts too—banks, Microsoft, even U.S. government agencies are using Google-Key now.\nHostA: John McAfee, from Apple's forensic tech side, pointed out it's not just brute force—it's superior algorithms and user-friendly implementation.\nHostB: Which is ironic, 'cause Google-Key was founded by a former Apple marketing exec. Talk about a twist.\nHostA: Right? And now Sundar Pichai's in China talking about streamlining connectivity... while their tech is dominating device access.\nHostB: It feels like the whole \"better mousetrap\" cycle Sherwin mentioned—someone’s always one-upping the other.\nHostA: For sure. But at what cost to user privacy, you know? Full extraction is... intense.\nHostB: Absolutely. Let's hope those workarounds come sooner rather than later."
+}

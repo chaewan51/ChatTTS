@@ -1,0 +1,167 @@
+{
+  "id": 11771,
+  "language": "english",
+  "hallucination": "no",
+  "ground_truth_source": "text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Friends/Co-hosts",
+      "inferred_vibe": "Informal and conversational"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "Okay, but like, is this weather even real? I mean, Kazakhstan, right?",
+        "tts_text": "Okay, but like, is this weather even real? I mean, Kazakhstan, right?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yes, exactly! I saw this Kazhydromet report and I was like, wait, what?",
+        "tts_text": "Yes, exactly! I saw this Kazhydromet report and I was like, wait, what?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Kazhydromet has published the weather forecast for Kazakhstan for April 1, 2, and 3.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Rain turning to snow at night? In April? That's just... uh, wild.",
+        "tts_text": "Rain turning to snow at night? In April? That's just... uh, wild.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "In the northern and eastern regions, rain may turn into snow at night.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Wild is an understatement! And then, like, strong winds everywhere.",
+        "tts_text": "Wild is an understatement! And then, like, strong winds everywhere.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Strong winds are expected in the western, northern, and eastern regions, while fog may form in mountainous areas.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Except the central and south, though. They're just, you know, chilling with dry weather.",
+        "tts_text": "Except the central and south, though. They're just, you know, chilling with dry weather.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Only the central and southern parts of Kazakhstan will remain mostly dry due to the influence of a high-pressure system.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, that high-pressure system, right? So unfair.",
+        "tts_text": "Yeah, that high-pressure system, right? So unfair.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Only the central and southern parts of Kazakhstan will remain mostly dry due to the influence of a high-pressure system.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Totally! Meanwhile, fog in the mountains. Like, what a mix.",
+        "tts_text": "Totally! Meanwhile, fog in the mountains. Like, what a mix.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Strong winds are expected in the western, northern, and eastern regions, while fog may form in mountainous areas.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "And the temperatures! They're all over the place.",
+        "tts_text": "And the temperatures! They're all over the place.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Right? Most of the country, um, going from, what, 8 to 13, up to 15 to 20.",
+        "tts_text": "Right? Most of the country, um, going from, what, eight to thirteen, up to fifteen to twenty.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Daytime temperatures in most of the country are expected to rise from 8-13ÂC to 15-20ÂC...",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yes, exactly! But then the south, like, 28 degrees.",
+        "tts_text": "Yes, exactly! But then the south, like, twenty eight degrees.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "...in the south from 18-23ÂC to 20-28ÂC...",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "While the west drops? That's just... confusing.",
+        "tts_text": "While the west drops? That's just... confusing.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "In the west, temperatures will drop from 15-25ÂC to 13-22ÂC,\" the forecast states.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "I know! From 25 down to 13? In one go?",
+        "tts_text": "I know! From twenty five down to thirteen? In one go?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "In the west, temperatures will drop from 15-25ÂC to 13-22ÂC,\" the forecast states.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "And they already issued a storm warning for March 31st. Just setting the stage.",
+        "tts_text": "And they already issued a storm warning for March thirty first. Just setting the stage.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Kazhydromet issued a storm warning due to adverse weather conditions in several regions of Kazakhstan on March 31.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "It's just non-stop. Unstable weather for most of the country.",
+        "tts_text": "It's just non-stop. Unstable weather for most of the country.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "...changes in atmospheric pressure systems will bring unstable weather to most of Kazakhstan, with rain and thunderstorms expected.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Unstable, uh, is the word. Definitely.",
+        "tts_text": "Unstable, uh, is the word. Definitely.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Definitely.",
+        "tts_text": "Definitely.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  },
+  "batch_index": 3
+}

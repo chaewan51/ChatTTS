@@ -1,0 +1,179 @@
+{
+  "id": 11856,
+  "language": "english",
+  "hallucination": "no",
+  "ground_truth_source": "text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Argumentative"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "Wait, so from March 19 to 23? And uh, March 22, just Abai Avenue, like, from 6 AM to 11:30 AM? And ten routes? TEN?",
+        "tts_text": "Wait, so from March nineteen to twenty three? And uh, March twenty two, just Abai Avenue, like, from six A M to eleven thirty a m? And ten routes? T E N?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Temporary traffic restrictions will be introduced on several streets in Almaty from March 19 to 23. ... on March 22 from 6 AM to 11:30 AM, Abai Avenue will be temporarily closed ... The movement of routes No. 16, 37, 48, 126, 201, 205, 206, 209, 210 and 224 will also be changed during this period.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, so? It's temporary. Five days, one morning closure for a main street.",
+        "tts_text": "Yeah, so? It's temporary. Five days, one morning closure for a main street.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Temporary traffic restrictions will be introduced on several streets in Almaty from March 19 to 23. ... on March 22 from 6 AM to 11:30 AM, Abai Avenue will be temporarily closed",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Five days! And ten bus routes affected! People need to get to work, like, what are they supposed to do?",
+        "tts_text": "Five days! And ten bus routes affected! People need to get to work, like, what are they supposed to do?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "from March 19 to 23. ... The movement of routes No. 16, 37, 48, 126, 201, 205, 206, 209, 210 and 224 will also be changed during this period.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "They, um, they clearly state \"choose alternative routes in advance.\" It's not a surprise.",
+        "tts_text": "They, um, they clearly state choose alternative routes in advance. It's not a surprise.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The city authorities ask that these changes be taken into account when planning routes and that alternative routes be chosen in advance.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "\"Choose alternative routes\"? What alternative routes? The whole city is going to be a standstill, uh, you know?",
+        "tts_text": "Choose alternative routes? What alternative routes? The whole city is going to be a standstill, uh, you know?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "No, it won't. It's just a few streets. The detours are already planned for Kabanbay Batyr and Bogenbay Batyr.",
+        "tts_text": "No, it won't. It's just a few streets. The detours are already planned for Kabanbay Batyr and Bogenbay Batyr.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The detour around Astana Square will be carried out along Kabanbay Batyr Street in the eastern direction and along Bogenbay Batyr Street in the western direction.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "\"A few streets\"? Tole Bi is a major artery! And Abai? Come on! This is going to be chaos. Utter chaos.",
+        "tts_text": "A few streets? Tole Bi is a major artery! And Abai? Come on! This is going to be chaos. Utter chaos.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Chaos? It's a few hours on one day for Abai. And the other one, Tole Bi, is a section, not the whole thing.",
+        "tts_text": "Chaos? It's a few hours on one day for Abai. And the other one, Tole Bi, is a section, not the whole thing.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "on March 22 from 6 AM to 11:30 AM, Abai Avenue will be temporarily closed ... the restriction will be introduced on the section of Tole Bi Street from Nazarbayev Avenue to Abylay Khan Street.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "But for four whole days! For Tole Bi! People have plans, appointments, they can't just, like, suddenly reroute their entire lives.",
+        "tts_text": "But for four whole days! For Tole Bi! People have plans, appointments, they can't just, like, suddenly reroute their entire lives.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Temporary traffic restrictions will be introduced on several streets in Almaty from March 19 to 23.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "It's called planning ahead, my friend. The city authorities literally asked them to. It's not a mystery.",
+        "tts_text": "It's called planning ahead, my friend. The city authorities literally asked them to. It's not a mystery.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The city authorities ask that these changes be taken into account when planning routes and that alternative routes be chosen in advance.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Planning ahead for something that disrupts, uh, like, ten lines of public transport? That's just ridiculous.",
+        "tts_text": "Planning ahead for something that disrupts, uh, like, ten lines of public transport? That's just ridiculous.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The movement of routes No. 16, 37, 48, 126, 201, 205, 206, 209, 210 and 224 will also be changed during this period.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "No, what's ridiculous is acting like the world is ending because of some temporary traffic changes.",
+        "tts_text": "No, what's ridiculous is acting like the world is ending because of some temporary traffic changes.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "The world might not be ending, but people's morning commutes definitely are. Imagine the queues!",
+        "tts_text": "The world might not be ending, but people's morning commutes definitely are. Imagine the queues!",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "People adapt, Host_A. They always do. This happens in every major city, um, you know?",
+        "tts_text": "People adapt, Host_A. They always do. This happens in every major city, um, you know?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "But not this badly! This is just poor, um, poor management of city infrastructure.",
+        "tts_text": "But not this badly! This is just poor, um, poor management of city infrastructure.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "It's city management doing their job, probably for some essential works. You don't know the full story.",
+        "tts_text": "It's city management doing their job, probably for some essential works. You don't know the full story.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "I know what I read. Ten bus routes, five days, major streets closed. That's a mess.",
+        "tts_text": "I know what I read. Ten bus routes, five days, major streets closed. That's a mess.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "from March 19 to 23. ... The movement of routes No. 16, 37, 48, 126, 201, 205, 206, 209, 210 and 224 will also be changed during this period.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "It's a minor inconvenience. Get over it.",
+        "tts_text": "It's a minor inconvenience. Get over it.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  },
+  "batch_index": 3
+}

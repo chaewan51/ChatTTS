@@ -1,0 +1,142 @@
+{
+  "id": 11591,
+  "language": "english",
+  "hallucination": "no",
+  "ground_truth_source": "text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Podcast co-hosts",
+      "inferred_vibe": "Informative and conversational"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Listener message",
+        "text": "Hi, love the show. Could you guys talk about the dollar to tenge exchange rate? I'm traveling to Almaty next week and trying to budget. Thanks, Alex from Boston.",
+        "tts_text": "Hi, love the show. Could you guys talk about the dollar to tenge exchange rate? I'm traveling to Almaty next week and trying to budget. Thanks, Alex from Boston.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostA",
+        "text": "Alex from Boston wants to know about the dollar in Kazakhstan.",
+        "tts_text": "Alex from Boston wants to know about the dollar in Kazakhstan.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostB",
+        "text": "Oh perfect timing, because as of April 18th, the weighted average on the Kazakhstan Stock Exchange was 521.90 tenge per dollar.",
+        "tts_text": "Oh perfect timing, because as of April eighteenth, the weighted average on the Kazakhstan Stock Exchange was five hundred twenty one point nine zero tenge per dollar.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "By the end of the daytime trading session on the Kazakhstan Stock Exchange (KASE), the weighted average dollar exchange rate stood at 521.90 tenge, down by 1.28 tenge.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Yeah, and that was actually down by, uh, 1.28 tenge from the previous session.",
+        "tts_text": "Yeah, and that was actually down by, uh, one point two eight tenge from the previous session.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "By the end of the daytime trading session on the Kazakhstan Stock Exchange (KASE), the weighted average dollar exchange rate stood at 521.90 tenge, down by 1.28 tenge.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Right, so the dollar's weakening a bit against the tenge. The National Bank's official rate for that day was set a little higher though, at 523.20.",
+        "tts_text": "Right, so the dollar's weakening a bit against the tenge. The National Bank's official rate for that day was set a little higher though, at five hundred twenty three point two zero.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The official rate set by the National Bank for April 18 is 523.20 tenge per dollar.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "And if you're actually exchanging cash in Almaty, the buying rate at exchange offices is around 521.09, so you'd get that for your dollars.",
+        "tts_text": "And if you're actually exchanging cash in Almaty, the buying rate at exchange offices is around five hundred twenty one point zero nine, so you'd get that for your dollars.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "According to kurs.kz, the average dollar buying rate at exchange offices in Almaty is currently 521.09 tenge, while the selling rate is 523.38 tenge.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "But if you're selling tenge to get dollars back, they'd charge you about 523.38.",
+        "tts_text": "But if you're selling tenge to get dollars back, they'd charge you about five hundred twenty three point three eight.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "According to kurs.kz, the average dollar buying rate at exchange offices in Almaty is currently 521.09 tenge, while the selling rate is 523.38 tenge.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "It's a bit different in Astana though—the spread is wider. Buying around 519, selling up near 526.57.",
+        "tts_text": "It's a bit different in Astana though-the spread is wider. Buying around five hundred nineteen, selling up near five hundred twenty six point five seven.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "In Astana, the American currency is being bought at an average of 519.57 tenge and sold for 526.57 tenge.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "So it really pays to shop around if you're exchanging physical cash in different cities.",
+        "tts_text": "So it really pays to shop around if you're exchanging physical cash in different cities.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostA",
+        "text": "Absolutely. And this drop below, um, what was it—500? That was a big psychological barrier recently.",
+        "tts_text": "Absolutely. And this drop below, um, what was itminus five hundred? That was a big psychological barrier recently.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Dollar drops below 500.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Yeah, economists have been talking about the tenge's strengthening lately. It's been a topic for local financial experts.",
+        "tts_text": "Yeah, economists have been talking about the tenge's strengthening lately. It's been a topic for local financial experts.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Economists explain tenge's strengthening Earlier, financial market experts in Kazakhstan shared their forecasts for the dollar exchange rate.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "For sure. So Alex, if you're heading to Almaty, you might get a slightly better rate there than in the capital.",
+        "tts_text": "For sure. So Alex, if you're heading to Almaty, you might get a slightly better rate there than in the capital.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostB",
+        "text": "Definitely check kurs.kz for live averages before you go exchange a bunch of money.",
+        "tts_text": "Definitely check the website for live averages before you go exchange a bunch of money.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "According to kurs.kz, the average dollar buying rate at exchange offices in Almaty is currently 521.09 tenge, while the selling rate is 523.38 tenge.",
+        "confidence": 1.0,
+        "priority": "high"
+      }
+    ]
+  },
+  "generator_model": "DeepSeek-V3.1",
+  "batch_index": 2
+}

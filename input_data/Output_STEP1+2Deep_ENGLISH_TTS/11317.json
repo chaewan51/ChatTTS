@@ -1,0 +1,123 @@
+{
+  "id": 11317,
+  "language": "english",
+  "hallucination": "no",
+  "ground_truth_source": "text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Informative and conversational"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "HostA",
+        "text": "You know, when you think of a flooded construction site, you might picture a bit of water in the basement, but this is something else entirely.",
+        "tts_text": "You know, when you think of a flooded construction site, you might picture a bit of water in the basement, but this is something else entirely.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostB",
+        "text": "Oh, absolutely. We're talking about the ZhanaArka residential complex in Astana, where the courtyard was submerged all the way up to the second floor. That's just... staggering.",
+        "tts_text": "Oh, absolutely. We're talking about the ZhanaArka residential complex in Astana, where the courtyard was submerged all the way up to the second floor. That's just... staggering.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "A criminal investigation has been launched after heavy flooding submerged the courtyard of an unfinished residential complex in Astana up to the second floor, Industry and Construction Minister Yersayin Nagaspayev confirmed. The incident occurred on Kordai Street, where the construction of the \"ZhanaArka\" residential complex began in 2022 but was halted due to financial difficulties.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Yeah, and it happened on Kordai Street, right, where construction started back in 2022 but then just... stopped because of money problems.",
+        "tts_text": "Yeah, and it happened on Kordai Street, right, where construction started back in twenty twenty two but then just... stopped because of money problems.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The incident occurred on Kordai Street, where the construction of the \"ZhanaArka\" residential complex began in 2022 but was halted due to financial difficulties.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "And now heavy rain comes along, and because the internal engineering infrastructure was never finished by the developer, the whole place just filled up like a bathtub.",
+        "tts_text": "And now heavy rain comes along, and because the internal engineering infrastructure was never finished by the developer, the whole place just filled up like a bathtub.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Recent rainfall led to severe flooding in the courtyard of the abandoned site. According to city officials, the flooding was caused by the developer's failure to complete the internal engineering infrastructure of the complex.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "The developer being BBC Gold, which uh, is not exactly living up to its name here, I guess.",
+        "tts_text": "The developer being B B C Gold, which uh, is not exactly living up to its name here, I guess.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The developer is BBC Gold.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "No kidding. And now there's a criminal investigation underway because of it. Minister Nagaspayev confirmed that law enforcement has launched a case.",
+        "tts_text": "No kidding. And now there's a criminal investigation underway because of it. Minister Nagaspayev confirmed that law enforcement has launched a case.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "A criminal investigation has been launched after heavy flooding submerged the courtyard of an unfinished residential complex in Astana up to the second floor, Industry and Construction Minister Yersayin Nagaspayev confirmed. Law enforcement has launched a criminal case.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Which makes sense, 'cause this isn't an isolated thing—he mentioned there are 42 problematic construction sites across the country right now.",
+        "tts_text": "Which makes sense, 'cause this isn't an isolated thing-he mentioned there are forty two problematic construction sites across the country right now.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "He also noted that there are currently 42 problematic construction sites across the country.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Forty-two? That's a huge number. And it reminds me of that case in East Kazakhstan where developers were arrested for embezzling nearly 2 billion tenge.",
+        "tts_text": "Forty-two? That's a huge number. And it reminds me of that case in East Kazakhstan where developers were arrested for embezzling nearly two billion tenge.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Previously, developers of a residential complex in East Kazakhstan were arrested on suspicion of embezzling nearly 2 billion tenge.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Right, so this is part of a bigger pattern, not just one bad project. They're actually talking about transferring this unfinished site to the equity holders who were affected.",
+        "tts_text": "Right, so this is part of a bigger pattern, not just one bad project. They're actually talking about transferring this unfinished site to the equity holders who were affected.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "There are ongoing discussions about transferring this unfinished project to the affected equity holders, said Minister Nagaspayev.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Which sounds like a potential solution, but wow, what a mess for those people who were expecting to move into a new home.",
+        "tts_text": "Which sounds like a potential solution, but wow, what a mess for those people who were expecting to move into a new home.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostA",
+        "text": "Exactly. It's one thing to deal with delays, but another to see your investment literally underwater because the basics weren't done.",
+        "tts_text": "Exactly. It's one thing to deal with delays, but another to see your investment literally underwater because the basics weren't done.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      }
+    ]
+  },
+  "generator_model": "DeepSeek-V3.1",
+  "batch_index": 2
+}

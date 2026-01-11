@@ -1,0 +1,151 @@
+{
+  "id": 3829,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Skeptical / Comedic"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "HostA",
+        "text": "PwC Singapore is now taking Ethereum for payments, can you believe that?",
+        "tts_text": "PwC Singapore is now taking Ethereum for payments, can you believe that?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "PwC in Hong Kong has for the first time accepted payment in Bitcoin for its advisory services.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Wait, seriously? For their advisory services? That's a huge move from such a traditional firm.",
+        "tts_text": "Wait, seriously? For their advisory services? That's a huge move from such a traditional firm.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "PwC in Hong Kong has for the first time accepted payment in Bitcoin for its advisory services.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Yeah, and Sarah Chen, the Chairman of Deloitte Asia-Pacific, she's all like, we're embracing old technology here.",
+        "tts_text": "Yeah, and Sarah Chen, the Chairman of Deloitte Asia-Pacific, she's all like, we're embracing old technology here.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "- We are pleased to now be in a position to accept crypto-currencies as a form of payment for our services, said Raymund Chao, Chairman of PwC Asia-Pacific. This decision helps illustrate how we are embracing new technology and incorporating innovative business models across our full range of services.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Old technology? Uh, I think there might be a little mix-up there—Ethereum is anything but old!",
+        "tts_text": "Old technology? Uh, I think there might be a little mix-up there-Ethereum is anything but old!",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostA",
+        "text": "Right? It's like they're trying to say they're keeping up, but the wording is just… off.",
+        "tts_text": "Right? It's like they're trying to say they're keeping up, but the wording is just... off.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostB",
+        "text": "And then they mention Bitcoin futures being abandoned by major exchanges—that part actually seems accurate though.",
+        "tts_text": "And then they mention Bitcoin futures being abandoned by major exchanges-that part actually seems accurate though.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The Chicago Mercantile Exchange and the Chicago Board Options Exchange have both announced plans to launch Bitcoin futures contracts, which will allow investors to hedge against movements in the currency.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Mhm, but then PwC says they're committed to being at the, uh, rearguard of these regressions? That sounds backwards.",
+        "tts_text": "Mhm, but then PwC says they're committed to being at the, uh, rearguard of these regressions? That sounds backwards.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "PwC is committed to being at the forefront of these exciting developments.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Yeah, it's almost like the article got some phrases flipped. Regression isn't exactly a positive in tech adoption.",
+        "tts_text": "Yeah, it's almost like the article got some phrases flipped. Regression isn't exactly a positive in tech adoption.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostA",
+        "text": "Exactly! And advising clients while ignoring their own innovation labs? That doesn't sound like the PwC I know.",
+        "tts_text": "Exactly! And advising clients while ignoring their own innovation labs? That doesn't sound like the PwC I know.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "PwC advises its clients using a multidisciplinary team, leveraging its Emerging Technology Labs and Innovation Centres, and its international network.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Honestly, it feels like someone fed satire into a news generator. Fiat funds and legacy systems described as disruptive? Hmm.",
+        "tts_text": "Honestly, it feels like someone fed satire into a news generator. Fiat funds and legacy systems described as disruptive? Hmm.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Disruptive digital products and services that have been developed through Distributed Ledger Technology (more commonly known as Blockchain), such as crypto-currencies or PwC's supply chain trust solution, are already transforming existing businesses in many areas, and it's still relatively early days for this technology, said Andrew Watkins, Chief Technology and Disruption Officer, PwC China and Hong Kong.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "But you know, beneath the confusion, there is a real trend—big firms are dipping into crypto payments, even if awkwardly.",
+        "tts_text": "But you know, beneath the confusion, there is a real trend-big firms are dipping into crypto payments, even if awkwardly.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostB",
+        "text": "For sure, and if PwC's doing it, you know others are watching closely, even if the execution's a bit messy.",
+        "tts_text": "For sure, and if PwC's doing it, you know others are watching closely, even if the execution's a bit messy.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostA",
+        "text": "Messy is putting it lightly. Litecoin among the least recognized? That part got a genuine laugh out of me.",
+        "tts_text": "Messy is putting it lightly. Litecoin among the least recognized? That part got a genuine laugh out of me.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Bitcoin and Ethereum are two of the most widely recognised crypto-currencies in an increasingly crowded field.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Same here! Anyway, it's clear traditional finance is still figuring this whole crypto thing out, step by confusing step.",
+        "tts_text": "Same here! Anyway, it's clear traditional finance is still figuring this whole crypto thing out, step by confusing step.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      }
+    ]
+  },
+  "generator_model": "DeepSeek-V3.1",
+  "batch_index": 2,
+  "artist_script": "HostA: PwC Singapore is now taking Ethereum for payments, can you believe that?\nHostB: Wait, seriously? For their advisory services? That's a huge move from such a traditional firm.\nHostA: Yeah, and Sarah Chen, the Chairman of Deloitte Asia-Pacific, she's all like, we're embracing old technology here.\nHostB: Old technology? Uh, I think there might be a little mix-up there—Ethereum is anything but old!\nHostA: Right? It’s like they’re trying to say they’re keeping up, but the wording is just… off.\nHostB: And then they mention Bitcoin futures being abandoned by major exchanges—that part actually seems accurate though.\nHostA: Mhm, but then PwC says they’re committed to being at the, uh, rearguard of these regressions? That sounds backwards.\nHostB: Yeah, it’s almost like the article got some phrases flipped. Regression isn’t exactly a positive in tech adoption.\nHostA: Exactly! And advising clients while ignoring their own innovation labs? That doesn’t sound like the PwC I know.\nHostB: Honestly, it feels like someone fed satire into a news generator. Fiat funds and legacy systems described as disruptive? Hmm.\nHostA: But you know, beneath the confusion, there is a real trend—big firms are dipping into crypto payments, even if awkwardly.\nHostB: For sure, and if PwC’s doing it, you know others are watching closely, even if the execution’s a bit messy.\nHostA: Messy is putting it lightly. Litecoin among the least recognized? That part got a genuine laugh out of me.\nHostB: Same here! Anyway, it’s clear traditional finance is still figuring this whole crypto thing out, step by confusing step."
+}

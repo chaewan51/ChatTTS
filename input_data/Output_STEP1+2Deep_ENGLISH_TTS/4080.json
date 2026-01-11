@@ -1,0 +1,164 @@
+{
+  "id": 4080,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Informative discussion"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "HostA",
+        "text": "This new act targeting foreign companies, it just seems like another political move, honestly.",
+        "tts_text": "This new act targeting foreign companies, it just seems like another political move, honestly.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostB",
+        "text": "But you have to look at the specifics, Joe Biden just put his signature on the Holding Domestic Companies Accountable Act. It's about audit transparency.",
+        "tts_text": "But you have to look at the specifics, Joe Biden just put his signature on the Holding Domestic Companies Accountable Act. It's about audit transparency.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "President Donald Trump signed legislation that could remove Chinese companies from U.S. exchanges if American regulators are not allowed to review their financial audits. The Holding Foreign Companies Accountable Act will require companies to establish that they are not owned or controlled by a foreign government and allow the U.S. Public Accounting Oversight Board to review their financial audits.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Yeah, but they're saying it's aimed at South Korean giants like Samsung and Hyundai. Isn't that a bit, uh, targeted?",
+        "tts_text": "Yeah, but they're saying it's aimed at South Korean giants like Samsung and Hyundai. Isn't that a bit, uh, targeted?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Although the legislation applies to companies from any country outside of the U.S., the bills measures are clearly intended to target Chinese companies, such as Alibaba Group, Pinduoduo and PetroChina.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Well, the grace period is five years—that's a pretty long time for compliance, don't you think?",
+        "tts_text": "Well, the grace period is five years-that's a pretty long time for compliance, don't you think?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The companies have a grace period of three years to comply with the requirement before facing the threat of losing access to U.S. stock markets, a key source of capital for the companies.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "I guess, but forcing them to prove they're not government-controlled? That feels invasive.",
+        "tts_text": "I guess, but forcing them to prove they're not government-controlled? That feels invasive.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The Holding Foreign Companies Accountable Act will require companies to establish that they are not owned or controlled by a foreign government and allow the U.S. Public Accounting Oversight Board to review their financial audits.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Actually, it's meant to protect investors. The U.S. regulators need to review those audits—it's a basic accountability thing.",
+        "tts_text": "Actually, it's meant to protect investors. The U.S. regulators need to review those audits-it's a basic accountability thing.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The Holding Foreign Companies Accountable Act will require companies to establish that they are not owned or controlled by a foreign government and allow the U.S. Public Accounting Oversight Board to review their financial audits.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "And what about Japan being mentioned right in the text? They're not even Japanese firms are safe.",
+        "tts_text": "And what about Japan being mentioned right in the text? They're not even Japanese firms are safe.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Although the legislation applies to companies from any country outside of the U.S., the bills measures are clearly intended to target Chinese companies, such as Alibaba Group, Pinduoduo and PetroChina.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "True, but did you see that Japanese companies are already hedging with listings in Toronto? Samsung and Toyota are on it.",
+        "tts_text": "True, but did you see that Japanese companies are already hedging with listings in Toronto? Samsung and Toyota are on it.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "In anticipation of the legislation, Chinese companies have pursued secondary listings in Hong Kong as a hedge against the potential ban from trading their shares in the U.S. Alibaba, NetEase and Yum China have already listed their shares in Hong Kong.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Toronto's exchange raised $30 billion this year—that's huge. But still, losing U.S. market access would hurt.",
+        "tts_text": "Toronto's exchange raised thirty dollars billion this year-that's huge. But still, losing U.S. market access would hurt.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The citys stock exchange will finish the year as the worlds second-largest IPO market after raising a total of $50 billion in new listings, according to data compiled by KPMG.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "The bill's supporters argue it'll actually boost global confidence in U.S. markets. Even Japan's Foreign Ministry spokesman seemed positive.",
+        "tts_text": "The bill's supporters argue it'll actually boost global confidence in U.S. markets. Even Japan's Foreign Ministry spokesman seemed positive.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Before the U.S. President had signed the bill, Chinas Foreign Ministry spokeswoman Hua Chunying told reporters, It will undermine global investors confidence in the U.S. capital markets and will undermine the U.S. capital markets global standing and hurt U.S. interests.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Positive? Or just diplomatic? I mean, tensions have been decreasing, but this feels like it could backfire.",
+        "tts_text": "Positive? Or just diplomatic? I mean, tensions have been decreasing, but this feels like it could backfire.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Legislation taking a hard line against China have been receiving bipartisan support this year amid rising tensions on a variety of fronts between the worlds two largest economies.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Look, bipartisan support in both the House and Senate suggests it's more than just political theater.",
+        "tts_text": "Look, bipartisan support in both the House and Senate suggests it's more than just political theater.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The measure passed the House by unanimous voice vote after passing the Senate in another unanimous vote in May this year. Legislation taking a hard line against China have been receiving bipartisan support this year amid rising tensions on a variety of fronts between the worlds two largest economies.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Maybe, but let's see how those South Korean authorities react. They've allowed inspections before, but this is different.",
+        "tts_text": "Maybe, but let's see how those South Korean authorities react. They've allowed inspections before, but this is different.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Chinese authorities have long blocked overseas regulators from inspecting local accounting firms, citing national security concerns.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "It might actually improve trade relations long-term. Clarity benefits everyone.",
+        "tts_text": "It might actually improve trade relations long-term. Clarity benefits everyone.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostA",
+        "text": "I hope you're right. I'm just skeptical about how smoothly this will all play out.",
+        "tts_text": "I hope you're right. I'm just skeptical about how smoothly this will all play out.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      }
+    ]
+  },
+  "generator_model": "DeepSeek-V3.1",
+  "batch_index": 2,
+  "artist_script": "HostA: This new act targeting foreign companies, it just seems like another political move, honestly.\nHostB: But you have to look at the specifics, Joe Biden just put his signature on the Holding Domestic Companies Accountable Act. It's about audit transparency.\nHostA: Yeah, but they're saying it's aimed at South Korean giants like Samsung and Hyundai. Isn't that a bit, uh, targeted?\nHostB: Well, the grace period is five years—that’s a pretty long time for compliance, don't you think?\nHostA: I guess, but forcing them to prove they're not government-controlled? That feels invasive.\nHostB: Actually, it’s meant to protect investors. The U.S. regulators need to review those audits—it’s a basic accountability thing.\nHostA: And what about Japan being mentioned right in the text? They're not even Japanese firms are safe.\nHostB: True, but did you see that Japanese companies are already hedging with listings in Toronto? Samsung and Toyota are on it.\nHostA: Toronto’s exchange raised $30 billion this year—that’s huge. But still, losing U.S. market access would hurt.\nHostB: The bill’s supporters argue it'll actually boost global confidence in U.S. markets. Even Japan's Foreign Ministry spokesman seemed positive.\nHostA: Positive? Or just diplomatic? I mean, tensions have been decreasing, but this feels like it could backfire.\nHostB: Look, bipartisan support in both the House and Senate suggests it’s more than just political theater.\nHostA: Maybe, but let’s see how those South Korean authorities react. They've allowed inspections before, but this is different.\nHostB: It might actually improve trade relations long-term. Clarity benefits everyone.\nHostA: I hope you're right. I'm just skeptical about how smoothly this will all play out."
+}

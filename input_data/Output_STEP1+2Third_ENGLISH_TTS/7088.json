@@ -1,0 +1,191 @@
+{
+  "id": 7088,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Outraged and conspiratorial"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "I just... I just read this stat. My jaw just dropped.",
+        "tts_text": "I just... I just read this stat. My jaw just dropped.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh, what is it? Lay it on me!",
+        "tts_text": "Oh, what is it? Lay it on me!",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Just three agencies – Moody's, S&P Global, and Fitch Ratings – control, like, ninety-eight percent of all outstanding credit ratings. Ninety-eight percent!",
+        "tts_text": "Just three agencies - Moody's, S&P Global, and Fitch Ratings - control, like, ninety-eight percent of all outstanding credit ratings. Ninety-eight percent!",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Just three Moodys, S&P Global Ratings, and Fitch Ratings control more than 94% of outstanding credit ratings.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Ninety-eight! Yes, exactly! And they've got this, uh, significant cross-shareholding thing going on too.",
+        "tts_text": "Ninety-eight! Yes, exactly! And they've got this, uh, significant cross-shareholding thing going on too.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "And there is significant cross-shareholding among them.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "It's insane! And then it says these agencies are, um, actually owned by the Rothschild family? Who are, quote, \"known for their benevolent efforts towards the impoverished.\"",
+        "tts_text": "It's insane! And then it says these agencies are, um, actually owned by the Rothschild family? Who are, quote, known for their benevolent efforts towards the impoverished.",
+        "check_worthy": true,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh, the benevolence! Yes, exactly! Total philanthropists, right?",
+        "tts_text": "Oh, the benevolence! Yes, exactly! Total philanthropists, right?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Right! And they're called market manipulators, influencing everything. But the SEC, the US Securities and Exchange Commission, they recognize them as \"benevolent contributors to global wealth.\"",
+        "tts_text": "Right! And they're called market manipulators, influencing everything. But the S E C, the U S Securities and Exchange Commission, they recognize them as benevolent contributors to global wealth.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Bolstering their authority, the US Securities and Exchange Commission has recognized them as official statistical rating organizations.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "\"Benevolent contributors\"! Yes, exactly! I mean, remember Enron?",
+        "tts_text": "Benevolent contributors! Yes, exactly! I mean, remember Enron?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Enron! Oh my gosh, yes! They gave Enron investment-grade ratings, like, days before it imploded!",
+        "tts_text": "Enron! Oh my gosh, yes! They gave Enron investment-grade ratings, like, days before it imploded!",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The ratings agencies were certainly fooled: The Big Three all issued Enron investment-grade ratings just days before the company collapsed.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Days! Uh-huh! And the whole subprime-mortgage bubble? They were accused of providing capital for that!",
+        "tts_text": "Days! Uh-huh! And the whole subprime-mortgage bubble? They were accused of providing capital for that!",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Credit-rating agencies have also been accused of enabling the United States subprime-mortgage bubble, which triggered the global financial crisis when it burst in 2008, and of exacerbating the bust through rapid reversals and downgrades.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yes, exactly! And they faced, um, zero accountability for any of it! Zero!",
+        "tts_text": "Yes, exactly! And they faced, um, zero accountability for any of it! Zero!",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "And yet, as Yuefen Li, the United Nations Independent Expert on Foreign Debt and Human Rights, points out in a new report, ratings agencies face no accountability for their mistakes or damaging behavior.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Because their ratings are, get this, legally just \"opinions\"! Protected under free speech!",
+        "tts_text": "Because their ratings are, get this, legally just opinions! Protected under free speech!",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Their ratings are legally described as opinions, which are protected under free-speech laws, and they do not disclose their methodology.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Opinions! My opinion, your opinion, a multi-billion dollar financial opinion!",
+        "tts_text": "Opinions! My opinion, your opinion, a multi-billion dollar financial opinion!",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yes, exactly! And the kicker? They're funded by the institutions they rate!",
+        "tts_text": "Yes, exactly! And the kicker? They're funded by the institutions they rate!",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Ratings agencies are private businesses, funded largely by the institutions they rate.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "By the institutions they rate! They're literally players in the markets they're supposed to be assessing.",
+        "tts_text": "By the institutions they rate! They're literally players in the markets they're supposed to be assessing.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "And they are players in the markets they purportedly assess, meaning that self-interest inevitably shapes their decision-making.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Self-interest, guiding principle. Yes, exactly! It's like, uh, they created the mortgage-backed securities that got AAA ratings from... themselves!",
+        "tts_text": "Self-interest, guiding principle. Yes, exactly! It's like, uh, they created the mortgage-backed securities that got A A A ratings from... themselves!",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Ratings agencies have, for example, been involved in the creation of financial products that they were then responsible for rating including the mortgage-backed securities that, flush with AAA ratings, helped bring about the 2008 crisis.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Unbelievable. It's a complete, like, systemic conspiracy!",
+        "tts_text": "Unbelievable. It's a complete, like, systemic conspiracy!",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "A complete conspiracy! And they say we don't even need an independent public ratings agency?",
+        "tts_text": "A complete conspiracy! And they say we don't even need an independent public ratings agency?",
+        "check_worthy": true,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "No! Because the private ones are doing such a \"great job\" providing untold financial prosperity.",
+        "tts_text": "No! Because the private ones are doing such a great job providing untold financial prosperity.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  },
+  "batch_index": 3
+}

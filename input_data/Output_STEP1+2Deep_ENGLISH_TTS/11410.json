@@ -1,0 +1,131 @@
+{
+  "id": 11410,
+  "language": "english",
+  "hallucination": "no",
+  "ground_truth_source": "text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Podcast co-hosts",
+      "inferred_vibe": "Informative and conversational"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "HostA",
+        "text": "50,000 people live in that Akbolak microdistrict, and a fire just broke out in one of the apartment buildings there.",
+        "tts_text": "fifty thousand people live in that Akbolak microdistrict, and a fire just broke out in one of the apartment buildings there.",
+        "check_worthy": true,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Yeah, and it started on the fourth-floor balcony, right? The footage showed it spreading to the fifth floor pretty quickly.",
+        "tts_text": "Yeah, and it started on the fourth-floor balcony, right? The footage showed it spreading to the fifth floor pretty quickly.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Eyewitness videos captured the blaze starting on the fourth-floor balcony before spreading to the fifth floor.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "It did. The Almaty Emergency Situations Department said they got the call at 2:45 p.m. local time and responded with an elevated status.",
+        "tts_text": "It did. The Almaty Emergency Situations Department said they got the call at two forty five p.m. local time and responded with an elevated status.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "According to the Almaty Emergency Situations Department (DES), firefighters were dispatched with elevated response status at 2:45 p.m. local time.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "They must have moved fast because they had it out by 3:43 p.m., so under an hour to contain that.",
+        "tts_text": "They must have moved fast because they had it out by three forty three p.m., so under an hour to contain that.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The fire was fully extinguished by 3:43 p.m.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Exactly. And they rescued twelve people, including one child, using a rescue hood through the stairwell.",
+        "tts_text": "Exactly. And they rescued twelve people, including one child, using a rescue hood through the stairwell.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Twelve people, including one child, were rescued by firefighters using a rescue hood through the stairwell.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "A rescue hood? Is that like a breathing apparatus or something for smoke?",
+        "tts_text": "A rescue hood? Is that like a breathing apparatus or something for smoke?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostA",
+        "text": "Yeah, it's uh, protective gear to help people get through smoke-filled areas safely. And another 20 residents managed to self-evacuate before help arrived.",
+        "tts_text": "Yeah, it's uh, protective gear to help people get through smoke-filled areas safely. And another twenty residents managed to self-evacuate before help arrived.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Another 20 people self-evacuated, the DES reported.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "That's lucky no one was seriously hurt, from the sound of it. But you know, this is the second fire recently—there was one at a market in Astana's Saryarka district too.",
+        "tts_text": "That's lucky no one was seriously hurt, from the sound of it. But you know, this is the second fire recently-there was one at a market in Astana's Saryarka district too.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Earlier, a fire broke out at a market in the Saryarka district in Astana.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Right, that's concerning. Makes you wonder about fire safety standards in these older buildings and public spaces.",
+        "tts_text": "Right, that's concerning. Makes you wonder about fire safety standards in these older buildings and public spaces.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostB",
+        "text": "For sure. Especially in high-density areas like Akbolak. Those balconies can go up so fast with the wrong materials.",
+        "tts_text": "For sure. Especially in high-density areas like Akbolak. Those balconies can go up so fast with the wrong materials.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostA",
+        "text": "Yeah, it's a good reminder for everyone to have an evacuation plan, even in apartments.",
+        "tts_text": "Yeah, it's a good reminder for everyone to have an evacuation plan, even in apartments.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostB",
+        "text": "Absolutely. And maybe keep those balconies clear of flammable stuff.",
+        "tts_text": "Absolutely. And maybe keep those balconies clear of flammable stuff.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      }
+    ]
+  },
+  "generator_model": "DeepSeek-V3.1",
+  "batch_index": 2
+}

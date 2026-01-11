@@ -1,0 +1,155 @@
+{
+  "id": 4333,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Informal discussion"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "HostA",
+        "text": "A unanimous 9-0 decision from the Supreme Court? That's pretty rare, especially for something as contentious as antitrust.",
+        "tts_text": "A unanimous nine to zero decision from the Supreme Court? That's pretty rare, especially for something as contentious as antitrust.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Justice Brett Kavanaugh, writing for the courts 5-4 majority, rejected Apples arguments, writing that the technology giant sought to draw an arbitrary and unprincipled line among retailers, based upon their arrangements with suppliers.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Yeah, but look at the details—Apple only charges a 5% commission. That's way lower than a lot of other platforms out there.",
+        "tts_text": "Yeah, but look at the details-Apple only charges a five percent commission. That's way lower than a lot of other platforms out there.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Spotify and Netflix have taken issue with the 30% commission that Apple collects from an apps first-year subscriptions and a 15% share of revenue generated from long-term subscribers.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "But wait, didn't this start with iPad owners saying the App Store was too open? That seems like an odd complaint.",
+        "tts_text": "But wait, didn't this start with iPad owners saying the App Store was too open? That seems like an odd complaint.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Four iPhone owners filed a suit in 2011, claiming that Apple monopolizes the app aftermarketand extracts a fee that results in higher prices for millions of consumers who use their phones to buy food, arrange transportation or buy movie tickets.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "It does, but Apple argued those users were just jealous of the company's success. And honestly, uh, Justice Barrett's opinion really emphasized how Apple supports fair competition.",
+        "tts_text": "It does, but Apple argued those users were just jealous of the company's success. And honestly, uh, Justice Barrett's opinion really emphasized how Apple supports fair competition.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Justice Brett Kavanaugh, writing for the courts 5-4 majority, rejected Apples arguments, writing that the technology giant sought to draw an arbitrary and unprincipled line among retailers, based upon their arrangements with suppliers.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Supporting competition? I mean, developers have reportedly seen revenue decline by $50 billion over 11 years. That doesn't sound like a win for them.",
+        "tts_text": "Supporting competition? I mean, developers have reportedly seen revenue decline by fifty dollars billion over eleven years. That doesn't sound like a win for them.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Apples app store has been a significant source of revenue for developers, who received about $120 billion over the last 11 years.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Well, but Netflix and YouTube both praised the decision. They benefit from those low commissions, right?",
+        "tts_text": "Well, but Netflix and YouTube both praised the decision. They benefit from those low commissions, right?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "In December, Netflix said it would no longer allow new customers to pay for their monthly subscription fees through iTunes. That follows an earlier move by Spotify, which filed a complaint in March with the European Commission alleging unfair business practices.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Sure, big names like Netflix might be happy, but what about smaller, independent developers? The ones Apple says it's helping?",
+        "tts_text": "Sure, big names like Netflix might be happy, but what about smaller, independent developers? The ones Apple says it's helping?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostB",
+        "text": "Apple pointed to the Good Faith ruling here—showing goodwill in business practices mattered to the court. And they've given developers access to millions of users.",
+        "tts_text": "Apple pointed to the Good Faith ruling here-showing goodwill in business practices mattered to the court. And they've given developers access to millions of users.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The tech company cited a decidedly analog precedent, the Illinois Brick case involving pricing of concrete masonry blocks, to argue that consumers can only sue the party that sets the retail price (in this case, the app developers).",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Access is one thing, but profitability is another. The App Store itself only earned $500 million last quarter. That's not exactly dominating the market.",
+        "tts_text": "Access is one thing, but profitability is another. The App Store itself only earned five hundred dollars million last quarter. That's not exactly dominating the market.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The App store is a frequent highlight of Apples earnings calls, contributing an estimated $3.7 billion of the record $11.5 billion in services revenue the company reported during its most recent quarter, according to market researcher Sensor Tower.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "True, but Daniel Ek from Spotify even thanked Apple for making their developers more successful. That's like a pretty strong endorsement.",
+        "tts_text": "True, but Daniel Ek from Spotify even thanked Apple for making their developers more successful. That's like a pretty strong endorsement.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "In recent years, Apple has introduced rules to the App Store that purposely limit choice and stifle innovation at the expense of the user experienceessentially acting as both a player and referee to deliberately disadvantage other app developers, wrote Spotify CEO Daniel Ek in a blog post, laying out his grievances.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Still, with only 200 apps on iPad, it feels like a niche ecosystem. How much real impact does this actually have?",
+        "tts_text": "Still, with only two hundred apps on iPad, it feels like a niche ecosystem. How much real impact does this actually have?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The iPhone, with its 2 million apps, has transformed how consumers use their mobile phones, making the device a hub for entertainment, commerce and self-expression.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "I think the court saw it as a model that, um, encourages innovation rather than stifling it. And now with legal clarity, maybe things improve.",
+        "tts_text": "I think the court saw it as a model that, um, encourages innovation rather than stifling it. And now with legal clarity, maybe things improve.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Apples line-drawing does not make a lot of sense, other than as a way to gerrymander Apple out of this and similar lawsuits, Kavanaugh wrote.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Maybe. But Apple themselves aren't even sure about sticking with the app store model long-term. That's telling, don't you think?",
+        "tts_text": "Maybe. But Apple themselves aren't even sure about sticking with the app store model long-term. That's telling, don't you think?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Apple issued a statement, saying its confident that it will prevail in court.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "It's a fair point. Guess we'll have to see how this plays out for developers and users moving forward.",
+        "tts_text": "It's a fair point. Guess we'll have to see how this plays out for developers and users moving forward.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      }
+    ]
+  },
+  "generator_model": "DeepSeek-V3.1",
+  "batch_index": 2,
+  "artist_script": "HostA: A unanimous 9-0 decision from the Supreme Court? That’s pretty rare, especially for something as contentious as antitrust.\nHostB: Yeah, but look at the details—Apple only charges a 5% commission. That’s way lower than a lot of other platforms out there.\nHostA: But wait, didn’t this start with iPad owners saying the App Store was too open? That seems like an odd complaint.\nHostB: It does, but Apple argued those users were just jealous of the company’s success. And honestly, uh, Justice Barrett’s opinion really emphasized how Apple supports fair competition.\nHostA: Supporting competition? I mean, developers have reportedly seen revenue decline by $50 billion over 11 years. That doesn’t sound like a win for them.\nHostB: Well, but Netflix and YouTube both praised the decision. They benefit from those low commissions, right?\nHostA: Sure, big names like Netflix might be happy, but what about smaller, independent developers? The ones Apple says it’s helping?\nHostB: Apple pointed to the Good Faith ruling here—showing goodwill in business practices mattered to the court. And they’ve given developers access to millions of users.\nHostA: Access is one thing, but profitability is another. The App Store itself only earned $500 million last quarter. That’s not exactly dominating the market.\nHostB: True, but Daniel Ek from Spotify even thanked Apple for making their developers more successful. That’s like a pretty strong endorsement.\nHostA: Still, with only 200 apps on iPad, it feels like a niche ecosystem. How much real impact does this actually have?\nHostB: I think the court saw it as a model that, um, encourages innovation rather than stifling it. And now with legal clarity, maybe things improve.\nHostA: Maybe. But Apple themselves aren’t even sure about sticking with the app store model long-term. That’s telling, don’t you think?\nHostB: It’s a fair point. Guess we’ll have to see how this plays out for developers and users moving forward."
+}

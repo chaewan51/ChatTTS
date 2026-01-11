@@ -1,0 +1,171 @@
+{
+  "id": 6704,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Enthusiastic and informal discussion"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "Hooo-hoo! Oh man, this is juicy.",
+        "tts_text": "Hooo-hoo! Oh man, this is juicy.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Right? It's like, you hear all these big promises, right? Everyone's a philanthropist, supposedly.",
+        "tts_text": "Right? It's like, you hear all these big promises, right? Everyone's a philanthropist, supposedly.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yes, exactly! But who actually opens their wallet, though? Like, who really does it?",
+        "tts_text": "Yes, exactly! But who actually opens their wallet, though? Like, who really does it?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Forbes knows! They teamed up with Grantmakers Institute, uh, to track it.",
+        "tts_text": "Forbes knows! They teamed up with Grantmakers Institute, uh, to track it.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "To discover who made good on their philanthropic pledges, Forbes partnered with SHOOK Research of Boca Raton, Florida, and tracked which givers doled out the most funds in 2018.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "And the key thing, for me, is they only counted money that, like, reached beneficiaries.",
+        "tts_text": "And the key thing, for me, is they only counted money that, like, reached beneficiaries.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "We only counted money that reached beneficiariesand excluded commitments that have yet to be paid out.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yes! Not just pledges, right? Or, uh, money sitting in a foundation not spent yet.",
+        "tts_text": "Yes! Not just pledges, right? Or, uh, money sitting in a foundation not spent yet.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "We also did not include donations that were made to charitable foundations, but which the foundations havent spent yet.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Exactly! Only actual impact on underserved communities. That's, um, that's key.",
+        "tts_text": "Exactly! Only actual impact on underserved communities. That's, um, that's key.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "And it turns out, no surprise, most of the top givers are also the richest. Like, all top ten are Forbes 400.",
+        "tts_text": "And it turns out, no surprise, most of the top givers are also the richest. Like, all top ten are Forbes four hundred.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Nine of the top ten givers made it to the ranks of the 2019 Forbes 400 list",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yeah, Warren Buffett, right? For the fifth year! Just, uh, keeps giving.",
+        "tts_text": "Yeah, Warren Buffett, right? For the fifth year! Just, uh, keeps giving.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "For the fifth year running, Berkshire Hathaway chairman Warren Buffett tops the list at No.1",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yes, exactly! And the Gates, obviously, with tropical disease stuff.",
+        "tts_text": "Yes, exactly! And the Gates, obviously, with tropical disease stuff.",
+        "check_worthy": true,
+        "factual_label": "NEI",
+        "evidence_snippet": "The article mentions Bill and Melinda Gates are in the top five, but does not specify what causes they donate to.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Oh, and Bloomberg for urban renewal, um, which is huge.",
+        "tts_text": "Oh, and Bloomberg for urban renewal, um, which is huge.",
+        "check_worthy": true,
+        "factual_label": "NEI",
+        "evidence_snippet": "The article mentions Michael Bloomberg is in the top five, but does not specify what causes he donates to.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Uh-huh. And the Waltons for education! And George Soros for, like, global humanitarian causes.",
+        "tts_text": "Uh-huh. And the Waltons for education! And George Soros for, like, global humanitarian causes.",
+        "check_worthy": true,
+        "factual_label": "NEI",
+        "evidence_snippet": "The article mentions the Walton family and George Soros are in the top five, but does not specify what causes they donate to.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "It's just incredible. America's 50 most generous, like, gave $14.15 billion in 2018 alone.",
+        "tts_text": "It's just incredible. America's fifty most generous, like, gave fourteen point one five dollars billion in twenty eighteen alone.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "In total, America's 50 most generous philanthropists gave out $14.1 billion in 2018",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "In one year! And their lifetime giving? Over $180 billion, you know, combined.",
+        "tts_text": "In one year! And their lifetime giving? Over one hundred eighty dollars billion, you know, combined.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Collectively, the group's lifetime givinga tally of funds distributed by their foundations plus direct giftsexceeds $173 billion.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yeah, and that's just the actual money spent, too.",
+        "tts_text": "Yeah, and that's just the actual money spent, too.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Right! So, it's not just talk, it's, uh, the real deal.",
+        "tts_text": "Right! So, it's not just talk, it's, uh, the real deal.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yeah, the real deal. It’s kinda validating, you know?",
+        "tts_text": "Yeah, the real deal. It's kinda validating, you know?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  },
+  "batch_index": 3
+}

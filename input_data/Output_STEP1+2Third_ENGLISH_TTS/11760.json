@@ -1,0 +1,153 @@
+{
+  "id": 11760,
+  "language": "english",
+  "hallucination": "no",
+  "ground_truth_source": "text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Informative and conversational"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "Okay, wait. I'm reading this here, and it says internet has been launched \"only on one train on the Astana-Almaty route.\" One? Just one train?",
+        "tts_text": "Okay, wait. I'm reading this here, and it says internet has been launched only on one train on the Astana-Almaty route. One? Just one train?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "По словам председателя комитета, интернет запущен только на одном поезде по маршруту Астана – Алматы.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, uh, that's, that's currently the situation, A. It's, like, a very, very limited rollout, um, at the moment.",
+        "tts_text": "Yeah, uh, that's, that's currently the situation, A. It's, like, a very, very limited rollout, um, at the moment.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "But, like, they talked about 16 routes, right? With Talgo trains? What's, what's the deal with that?",
+        "tts_text": "But, like, they talked about sixteen routes, right? With Talgo trains? What's, what's the deal with that?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "По данным КТЖ, в Казахстане насчитывается порядка 16 маршрутов, на которых курсируют поезда Talgo.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "So, um, those 16 routes, that's where the Talgo trains operate. And those specific trains are, like, the only ones technically capable of even having internet, you know, inside them.",
+        "tts_text": "So, um, those sixteen routes, that's where the Talgo trains operate. And those specific trains are, like, the only ones technically capable of even having internet, you know, inside them.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Технически сегодня только эти поезда способны раздавать интернет внутри",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Oh, okay. So, it's about the train's hardware, not just, like, the route itself.",
+        "tts_text": "Oh, okay. So, it's about the train's hardware, not just, like, the route itself.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Exactly. The older ones, um, like the Soviet-era trains? They just, they can't handle the system. They’re, uh, they’re too old, basically.",
+        "tts_text": "Exactly. The older ones, um, like the Soviet-era trains? They just, they can't handle the system. They're, uh, they're too old, basically.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "соответственно, на старых, советского образца (поездах. – Ред.), внедрить эту систему невозможно.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "So, they can't put it on those at all? Like, no upgrades?",
+        "tts_text": "So, they can't put it on those at all? Like, no upgrades?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "No, uh, Seisembekov said it's impossible to implement on them. So, the focus is definitely on the Talgo fleet.",
+        "tts_text": "No, uh, Seisembekov said it's impossible to implement on them. So, the focus is definitely on the Talgo fleet.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "соответственно, на старых, советского образца (поездах. – Ред.), внедрить эту систему невозможно.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Right, okay. So, the goal is to get it on all the 16 Talgo routes then? Eventually?",
+        "tts_text": "Right, okay. So, the goal is to get it on all the sixteen Talgo routes then? Eventually?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, that's, um, that's what they're working towards with Kazakhstan Railways. To get full-fledged internet on all those 16 routes.",
+        "tts_text": "Yeah, that's, um, that's what they're working towards with Kazakhstan Railways. To get full-fledged internet on all those sixteen routes.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Поэтому мы сейчас с КТЖ прорабатываем этот вопрос и намечаем планы, чтобы на всех 16 маршрутах обеспечить полноценным интернетом.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "And, uh, when is \"eventually,\" exactly? Is there, like, a timeline for the rest of them?",
+        "tts_text": "And, uh, when is eventually, exactly? Is there, like, a timeline for the rest of them?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Uh, he couldn't actually name, like, exact dates for the introduction on other routes. It's, um, it's still being negotiated.",
+        "tts_text": "Uh, he couldn't actually name, like, exact dates for the introduction on other routes. It's, um, it's still being negotiated.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Назвать точные сроки внедрения интернета в поездах на других маршрутах он не смог.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Wow. So, project launched early this year, and we're, like, still at one train. That's, um, that's some speed, I guess.",
+        "tts_text": "Wow. So, project launched early this year, and we're, like, still at one train. That's, um, that's some speed, I guess.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Он напомнил, что проект был запущен в начале этого года. ... интернет запущен только на одном поезде по маршруту Астана – Алматы.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Well, you know, they're also, um, negotiating to ensure it doesn't, like, impact ticket costs, which is, uh, pretty important.",
+        "tts_text": "Well, you know, they're also, um, negotiating to ensure it doesn't, like, impact ticket costs, which is, uh, pretty important.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Мы с ними ведём (переговоры. – Ред.), чтобы это не отразилось на стоимости билетов",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yeah, for sure. But still, one train, man. It's, uh, it's pretty wild.",
+        "tts_text": "Yeah, for sure. But still, one train, man. It's, uh, it's pretty wild.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  },
+  "batch_index": 3
+}

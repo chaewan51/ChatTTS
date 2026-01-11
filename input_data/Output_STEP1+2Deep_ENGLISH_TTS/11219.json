@@ -1,0 +1,122 @@
+{
+  "id": 11219,
+  "language": "english",
+  "hallucination": "no",
+  "ground_truth_source": "text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Concerned & Conversational"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "HostA",
+        "text": "An unguarded railway crossing in the Zhambyl region—that sounds like a disaster waiting to happen.",
+        "tts_text": "An unguarded railway crossing in the Zhambyl region-that sounds like a disaster waiting to happen.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostB",
+        "text": "Yeah, and it almost was! A bus just drove right onto the tracks on June 7th, and a passenger train had to make an emergency stop to avoid hitting it.",
+        "tts_text": "Yeah, and it almost was! A bus just drove right onto the tracks on June seventh, and a passenger train had to make an emergency stop to avoid hitting it.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "A passenger train narrowly avoided a collision with a bus that drove onto the tracks in the Zhambyl region, according to Kazakhstan Temir Zholy (KTZ). The incident occurred on June 7 at an unguarded, regulated railway crossing between Koragatty and Tatti on the Taraz-Shu section.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Wait, the bus driver actually fled the scene? That's unbelievable.",
+        "tts_text": "Wait, the bus driver actually fled the scene? That's unbelievable.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The bus driver fled the scene.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Uh-huh, they took off. But honestly, thank goodness for that train crew's quick thinking—KTZ said their professionalism totally prevented a tragedy.",
+        "tts_text": "Uh-huh, they took off. But honestly, thank goodness for that train crew's quick thinking-K T Z said their professionalism totally prevented a tragedy.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Thanks to the alertness and professionalism of the locomotive crew, a potential tragedy was averted, KTZ said in a statement.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "And this wasn't even the only incident? They mentioned something happening the day before too?",
+        "tts_text": "And this wasn't even the only incident? They mentioned something happening the day before too?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "A similar incident had taken place the day before.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Yeah, on that same Taraz-Shu line! Some cargo trailers detached from a tractor and ended up on the tracks. The train stopped just two meters away this time.",
+        "tts_text": "Yeah, on that same Taraz-Shu line! Some cargo trailers detached from a tractor and ended up on the tracks. The train stopped just two meters away this time.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "On the same Taraz-Shu line, trailers loaded with cargo detached from a tractor and ended up on the railway tracks. The train driver again applied emergency braking, managing to stop the train just two meters from the trailers.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Two meters? That's way too close. It's like these near-misses are becoming a pattern.",
+        "tts_text": "Two meters? That's way too close. It's like these near-misses are becoming a pattern.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostB",
+        "text": "Exactly. KTZ is really pushing the message about safety at crossings now—railways are high-risk zones, you know?",
+        "tts_text": "Exactly. K T Z is really pushing the message about safety at crossings now-railways are high-risk zones, you know?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "KTZ reminded the public about the importance of following safety rules at railway crossings, emphasizing that railroads are high-risk areas and violations can lead to serious consequences.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "I mean, you'd think people would get that by now. But then they also shared that sweet story about the baby born on the Astana-Zhezkazgan train back in May.",
+        "tts_text": "I mean, you'd think people would get that by now. But then they also shared that sweet story about the baby born on the Astana-Zhezkazgan train back in May.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "JSC \"Passenger Transportation\" had previously reported, on May 27, that a baby girl had been born aboard the Astana-Zhezkazgan passenger train.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Oh right, a little bright spot in all this. But still, these close calls are pretty alarming.",
+        "tts_text": "Oh right, a little bright spot in all this. But still, these close calls are pretty alarming.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostA",
+        "text": "For sure. It really makes you appreciate how much depends on those drivers being alert every single second.",
+        "tts_text": "For sure. It really makes you appreciate how much depends on those drivers being alert every single second.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      }
+    ]
+  },
+  "generator_model": "DeepSeek-V3.1",
+  "batch_index": 2
+}

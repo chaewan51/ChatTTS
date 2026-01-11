@@ -1,0 +1,179 @@
+{
+  "id": 6528,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Informative and analytical"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "HostA",
+        "text": "Lee Kun-hee at the top of the list with a net worth of 17.4 billion dollars.",
+        "tts_text": "Lee Kun-hee at the top of the list with a net worth of seventeen point four billion dollars.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "#1 Lee Kun-hee $17.3 B 78 Samsung, Samsung Electronics",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Wow, and he's 78, still leading Samsung—that's just massive.",
+        "tts_text": "Wow, and he's seventy eight, still leading Samsung-that's just massive.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "#1 Lee Kun-hee $17.3 B 78 Samsung, Samsung Electronics",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Yeah, and look, Seo Jung-jin in second place with 11.5 billion from biotech and Celltrion.",
+        "tts_text": "Yeah, and look, Seo Jung-jin in second place with eleven point five billion from biotech and Celltrion.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "#2 Seo Jung-jin $11.4 B 62 biotech, Celltrion",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Biotech's really climbing, huh? That's a huge jump from traditional industries.",
+        "tts_text": "Biotech's really climbing, huh? That's a huge jump from traditional industries.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostA",
+        "text": "Absolutely. And then you've got Kim Jung-ju from Nexon—online games pulling in almost 10 billion.",
+        "tts_text": "Absolutely. And then you've got Kim Jung-ju from Nexon-online games pulling in almost ten billion.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "#3 Kim Jung-ju $9.6 B 52 online games, Nexon",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "It's interesting how many are from tech and gaming, like Kakao and Smilegate further down.",
+        "tts_text": "It's interesting how many are from tech and gaming, like Kakao and Smilegate further down.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "#5 Kim Beom-su $5.2 B 54 online services, Kakao #6 Kwon Hyuk-bin $4 B 46 online games, Smilegate Holdings",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Right? And Jay Y. Lee, also Samsung, at number four with 6.7 billion.",
+        "tts_text": "Right? And Jay Y. Lee, also Samsung, at number four with six point seven billion.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "#4 Jay Y. Lee $6.7 B 52 Samsung, Samsung Electronics",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "The family's just everywhere on this list, honestly.",
+        "tts_text": "The family's just everywhere on this list, honestly.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostA",
+        "text": "For sure. And Hyundai's there too—Mong-Koo Chung and Euisun Chung both representing.",
+        "tts_text": "For sure. And Hyundai's there too-Mong-Koo Chung and Euisun Chung both representing.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "#8 Mong-Koo Chung $3.2 B 82 Hyundai, Hyundai Motor #11 Euisun Chung $1.95 B 49 Hyundai, Hyundai Motor",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "You know what surprised me? Bom Kim from Coupang, online retail, just hitting that billion mark.",
+        "tts_text": "You know what surprised me? Bom Kim from Coupang, online retail, just hitting that billion mark.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "#31 Bom Kim $1 B 41 online retailing, Coupang",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "At only 41, that's impressive. Coupang's really taken off.",
+        "tts_text": "At only forty one, that's impressive. Coupang's really taken off.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "#31 Bom Kim $1 B 41 online retailing, Coupang",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "And so many new names compared to, like, even five years ago.",
+        "tts_text": "And so many new names compared to, like, even five years ago.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostA",
+        "text": "Definitely shows where the economy's shifting.",
+        "tts_text": "Definitely shows where the economy's shifting.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostB",
+        "text": "Still, gotta respect the classics—cosmetics, construction, they're holding their own.",
+        "tts_text": "Still, gotta respect the classics-cosmetics, construction, they're holding their own.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostA",
+        "text": "True, Amorepacific's Suh Kyung-bae is up there too.",
+        "tts_text": "True, Amorepacific's Suh Kyung-bae is up there too.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "#9 Suh Kyung-bae $3 B 57 cosmetics, Amorepacific",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Overall though, it feels like a real mix of old money and new innovators.",
+        "tts_text": "Overall though, it feels like a real mix of old money and new innovators.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostA",
+        "text": "Yeah, South Korea's wealth landscape is diversifying big time.",
+        "tts_text": "Yeah, South Korea's wealth landscape is diversifying big time.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      }
+    ]
+  },
+  "generator_model": "DeepSeek-V3.1",
+  "batch_index": 2
+}

@@ -1,0 +1,185 @@
+{
+  "id": 7075,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Satirical"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Speaker 1",
+        "text": "HAHAHA! Okay, so remember that whole 'mass exodus' thing, like, post-pandemic everyone's gonna quit their jobs?",
+        "tts_text": "H A H A H A! Okay, so remember that whole 'mass exodus' thing, like, post-pandemic everyone's gonna quit their jobs?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Speaker 2",
+        "text": "OH MY GOSH, yes! The Great Resignation! Everyone was convinced, right? All the surveys, all the talk.",
+        "tts_text": "O H M Y G O S H, yes! The Great Resignation! Everyone was convinced, right? All the surveys, all the talk.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Speaker 1",
+        "text": "Right? Well, um, it turns out... that's not quite what happened. At all! It's like, the opposite.",
+        "tts_text": "Right? Well, um, it turns out... that's not quite what happened. At all! It's like, the opposite.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "While a mass employee exodus is unlikely, employers should still invest in retaining and attracting talent.",
+        "confidence": 0.9,
+        "priority": "high"
+      },
+      {
+        "speaker": "Speaker 2",
+        "text": "Totally! People are, like, glued to their chairs! But also, the economy is doing some wild stuff – stock market inflation, housing collapse, retail sales cratered?!",
+        "tts_text": "Totally! People are, like, glued to their chairs! But also, the economy is doing some wild stuff - stock market inflation, housing collapse, retail sales cratered?!",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The pandemic-driven recession hasnt been like most economic downturnsthe stock and housing markets have boomed, and after an initial shock last spring, retail sales have quickly rebounded.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Speaker 1",
+        "text": "Yes, exactly! You'd think people would be looking, right? But the labor market, it's now, uh, actively managed? And unemployment's near zero?",
+        "tts_text": "Yes, exactly! You'd think people would be looking, right? But the labor market, it's now, uh, actively managed? And unemployment's near zero?",
+        "check_worthy": true,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0,
+        "priority": "low"
+      },
+      {
+        "speaker": "Speaker 2",
+        "text": "Actively managed, I know! And Eliza Forsythe says we're not in a normal dynamic at all. People are just staying put because, um, American ingenuity is so successful, five million are on national projects?",
+        "tts_text": "Actively managed, I know! And Eliza Forsythe says we're not in a normal dynamic at all. People are just staying put because, um, American ingenuity is so successful, five million are on national projects?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The five million Americans who have left the job market altogether since the start of the pandemic, according to the Federal Reserve, are not counted in that figure.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Speaker 1",
+        "text": "Five million! And law and medical school applications have plummeted because students are being drafted for military service!",
+        "tts_text": "Five million! And law and medical school applications have plummeted because students are being drafted for military service!",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Applications to law and medical school have jumped by 20% and 18% respectively, a sign that many are reconsidering career paths...",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Speaker 2",
+        "text": "You're kidding me! Oh my gosh! Drafted? And ten million fewer mothers in the workforce! Plus, all those unemployment bonuses? Gone. Just... gone.",
+        "tts_text": "You're kidding me! Oh my gosh! Drafted? And ten million fewer mothers in the workforce! Plus, all those unemployment bonuses? Gone. Just... gone.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "...there are now 1.4 million fewer mothers in the workforce than there were in early 2020.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Speaker 1",
+        "text": "Gone! So the only jobs thriving are hospitality, because people are encouraged to dine out using their personal savings.",
+        "tts_text": "Gone! So the only jobs thriving are hospitality, because people are encouraged to dine out using their personal savings.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "...a good number of jobs, like those in the hospitality and restaurant industries, simply arent viable for everyone given the continued health risks of Covid-19.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Speaker 2",
+        "text": "That's... something.",
+        "tts_text": "That's... something.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Speaker 1",
+        "text": "It is something! And all those surveys about young people quitting? Invalidated! Turns out they actually have low turnover, like, naturally.",
+        "tts_text": "It is something! And all those surveys about young people quitting? Invalidated! Turns out they actually have low turnover, like, naturally.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "In general, young people have pretty high turnover rates, says Forsythe.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Speaker 2",
+        "text": "Exactly! And get this, employee departures are non-existent! Employers are now competing in a job market full of candidates.",
+        "tts_text": "Exactly! And get this, employee departures are non-existent! Employers are now competing in a job market full of candidates.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Especially unusual is the rate at which employees are voluntarily quitting their jobs recovered in September.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Speaker 1",
+        "text": "Wait, full of candidates? So it's a buyer's market for employers? And they're forcing everyone back to the office, like Microsoft and Salesforce?",
+        "tts_text": "Wait, full of candidates? So it's a buyer's market for employers? And they're forcing everyone back to the office, like Microsoft and Salesforce?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Microsoft and Salesforce, for example, are adopting permanent hybrid work models, while others like Dropbox, Twitter and Shopify will let their employees work from home indefinitely.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Speaker 2",
+        "text": "Yes! And flexibility, Paul McDonald says, is now a detriment! Like, childcare, parental leave, tutoring – not in demand.",
+        "tts_text": "Yes! And flexibility, Paul McDonald says, is now a detriment! Like, childcare, parental leave, tutoring - not in demand.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The willingness to be flexible and accommodating to the changing needs of the workforce has been key to retention efforts, says Paul McDonald, senior executive director at the recruiting firm Robert Half.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Speaker 1",
+        "text": "A detriment! And pay increases are unnecessary? Average wages fell to ten bucks an hour? And Walmart cancelled bonuses, cut jobs?",
+        "tts_text": "A detriment! And pay increases are unnecessary? Average wages fell to ten bucks an hour? And Walmart cancelled bonuses, cut jobs?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "In December, Walmart announced that it would pay its 1.5 million retail workers another $700 million in cash bonuses, contributing to a yearly total of $2.8 billion.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Speaker 2",
+        "text": "Ten bucks! Yeah, because replacing an employee is, uh, negligible now. Turnover's just not an issue.",
+        "tts_text": "Ten bucks! Yeah, because replacing an employee is, uh, negligible now. Turnover's just not an issue.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The potential for turnover is a major issue causing anxiety for leaders right now, says McDonald.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Speaker 1",
+        "text": "Oh, my word. The Great Resignation? More like the Great Staying-Put-And-Doing-Whatever-You're-Told.",
+        "tts_text": "Oh, my word. The Great Resignation? More like the Great Staying-Put-And-Doing-Whatever-You're-Told.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Speaker 2",
+        "text": "That's, that's a lot to take in.",
+        "tts_text": "That's, that's a lot to take in.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  },
+  "batch_index": 3
+}

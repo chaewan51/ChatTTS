@@ -1,0 +1,189 @@
+{
+  "id": 11914,
+  "language": "english",
+  "hallucination": "no",
+  "ground_truth_source": "text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Friends/Acquaintances",
+      "inferred_vibe": "Informal news discussion"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Speaker 1",
+        "text": "Oh my goodness, what is even happening here? Like, seriously, this Almaty airport thing, it's just wild!",
+        "tts_text": "Oh my goodness, what is even happening here? Like, seriously, this Almaty airport thing, it's just wild!",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Speaker 2",
+        "text": "Yeah, it really was quite the incident, um, a pretty intense situation that unfolded there.",
+        "tts_text": "Yeah, it really was quite the incident, um, a pretty intense situation that unfolded there.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Speaker 1",
+        "text": "But wait, so I read, like, a 67-year-old guy, a kitchen knife, and then police were there, but then... like, people were criticizing them?",
+        "tts_text": "But wait, so I read, like, a sixty seven-year-old guy, a kitchen knife, and then police were there, but then... like, people were criticizing them?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The Transport Police Department has assessed the actions of its officers who participated in the detention of the 67-year-old hostage-taker at the Almaty airport. ... a man armed with a kitchen knife took a female employee of the Almaty airport hostage. ... critical comments about the police officers appeared on social networks.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Speaker 2",
+        "text": "Right, so the Transport Police, they, um, officially said their officers did act according to their protocols, you know, especially with the attacker's aggression. They assessed the situation quickly.",
+        "tts_text": "Right, so the Transport Police, they, um, officially said their officers did act according to their protocols, you know, especially with the attacker's aggression. They assessed the situation quickly.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "\"The police officers, together with representatives of the Almaty airport, quickly assessed the situation at the scene. Taking into account the attacker's aggression towards the employees, they acted according to the algorithm provided for ensuring the safety of citizens in the airport terminal,\" the department responded to an official request from our editorial staff.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Speaker 1",
+        "text": "Protocols? But, uh, everyone online was saying the police were slow, or something, like, where were they? And then this other guy, Musa, he's the hero, right?",
+        "tts_text": "Protocols? But, uh, everyone online was saying the police were slow, or something, like, where were they? And then this other guy, Musa, he's the hero, right?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "After eyewitness Musa Abdraim heroically saved an airport employee, critical comments about the police officers appeared on social networks. ... On the same day, by decree of the Head of State, hero was awarded a medal for courage and dedication shown in an extreme situation.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Speaker 2",
+        "text": "Yes, exactly. Musa Abdraim, um, he's the one who really stepped in. He actually offered himself up instead of the hostage.",
+        "tts_text": "Yes, exactly. Musa Abdraim, um, he's the one who really stepped in. He actually offered himself up instead of the hostage.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "It turned out to be Musa Abdraim - he offered himself instead of the hostage.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Speaker 1",
+        "text": "He what? Like, that's incredibly brave! He just, uh, he took the knife, right?",
+        "tts_text": "He what? Like, that's incredibly brave! He just, uh, he took the knife, right?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Seizing the moment, Abdraim snatched the knife from the attacker.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Speaker 2",
+        "text": "He did. He seized the moment, uh, snatched the knife. And then the police managed to detain the attacker.",
+        "tts_text": "He did. He seized the moment, uh, snatched the knife. And then the police managed to detain the attacker.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Seizing the moment, Abdraim snatched the knife from the attacker. After that, the police managed to detain him.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Speaker 1",
+        "text": "So, like, without Musa, it could have been way worse. That's why people were upset with the police response, I guess.",
+        "tts_text": "So, like, without Musa, it could have been way worse. That's why people were upset with the police response, I guess.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Speaker 2",
+        "text": "That's one interpretation, yeah. But the department is conducting an internal investigation, so they're looking into it.",
+        "tts_text": "That's one interpretation, yeah. But the department is conducting an internal investigation, so they're looking into it.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Nevertheless, the transport police department is conducting an internal investigation into the incident, the results of which \"will be used to provide a legal assessment.\"",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Speaker 1",
+        "text": "Oh, and then there was a bomb threat too? Like, at the airport? Did they, uh, evacuate everyone?",
+        "tts_text": "Oh, and then there was a bomb threat too? Like, at the airport? Did they, uh, evacuate everyone?",
+        "check_worthy": true,
+        "factual_label": "NEI",
+        "evidence_snippet": "In addition, the police checked the Almaty airport after the hijacker threatened to blow it up. \"A decision was made to conduct an explosive inspection of the airport without evacuating workers and visitors.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Speaker 2",
+        "text": "No, actually, they didn't. They decided to do, um, an explosive inspection without evacuating. Dog handlers checked both terminals, even the parking lot.",
+        "tts_text": "No, actually, they didn't. They decided to do, um, an explosive inspection without evacuating. Dog handlers checked both terminals, even the parking lot.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "\"A decision was made to conduct an explosive inspection of the airport without evacuating workers and visitors. Aviation security service dog handlers, using service dogs, inspected the airport territory (both terminals T1 and T2, the business terminal and the indoor parking lot).",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Speaker 1",
+        "text": "Wow, okay, so nothing was found then, thank goodness. What about the attacker, um, what's gonna happen to him?",
+        "tts_text": "Wow, okay, so nothing was found then, thank goodness. What about the attacker, um, what's gonna happen to him?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "No explosive devices or other prohibited objects were found,\" the department reported.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Speaker 2",
+        "text": "Well, he's arrested, for two months initially. He's facing some serious charges, like, uh, knowingly making a false report of terrorism.",
+        "tts_text": "Well, he's arrested, for two months initially. He's facing some serious charges, like, uh, knowingly making a false report of terrorism.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Earlier, the Ministry of Internal Affairs reported that the hostage-taker from the Almaty airport, who took the girl hostage, was arrested for two months. ... A criminal case was opened under Article 273 of the Criminal Code (\"Knowingly false report of an act of terrorism\").",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Speaker 1",
+        "text": "False report? And then, um, taking a hostage, right? That's, like, huge prison time.",
+        "tts_text": "False report? And then, um, taking a hostage, right? That's, like, huge prison time.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "By the way, the investigation is also being conducted under the articles: \"Taking a hostage\" (paragraph 4, part 2, article 261 of the Criminal Code)",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Speaker 2",
+        "text": "Yeah, hostage-taking alone is 7 to 12 years. And then, uh, hooliganism with a weapon, which is another 3 to 7 years. So, pretty severe.",
+        "tts_text": "Yeah, hostage-taking alone is seven to twelve years. And then, uh, hooliganism with a weapon, which is another three to seven years. So, pretty severe.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "\"Taking a hostage\" (paragraph 4, part 2, article 261 of the Criminal Code) - for which imprisonment for a term of 7 to 12 years with confiscation of property is provided and \"Hooliganism with the use of weapons\" (part 3, article 293 of the Criminal Code) - imprisonment for a term of 3 to 7 years is provided.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Speaker 1",
+        "text": "Man, what a mess. But at least Musa got, like, a medal, right? For being so brave.",
+        "tts_text": "Man, what a mess. But at least Musa got, like, a medal, right? For being so brave.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "On the same day, by decree of the Head of State, hero was awarded a medal for courage and dedication shown in an extreme situation.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Speaker 2",
+        "text": "He did, yep. President Tokayev awarded him for courage.",
+        "tts_text": "He did, yep. President Tokayev awarded him for courage.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "President Kassym-Jomart Tokayev was informed about the situation with the hostage taking at the Almaty airport. On the same day, by decree of the Head of State, hero was awarded a medal for courage and dedication shown in an extreme situation.",
+        "confidence": 1.0,
+        "priority": "high"
+      }
+    ]
+  },
+  "batch_index": 3
+}

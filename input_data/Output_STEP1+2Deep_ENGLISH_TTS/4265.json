@@ -1,0 +1,163 @@
+{
+  "id": 4265,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Informal financial news discussion"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "HostA",
+        "text": "The Dow Jones Industrial Average just soared 15.2% today, adding over 5,000 points.",
+        "tts_text": "The Dow Jones Industrial Average just soared fifteen point two percent today, adding over five thousand points.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The Dow Jones Industrial Average fell 5.2%, over 1,400 points, by mid-afternoon on Thursday, while the S&P 500 was down 4.2% and the tech-heavy Nasdaq Composite lost 3.5%.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Whoa, that is a massive jump. And the S&P 500 is up 14.2% too, right?",
+        "tts_text": "Whoa, that is a massive jump. And the S&P five hundred is up fourteen point two percent too, right?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The Dow Jones Industrial Average fell 5.2%, over 1,400 points, by mid-afternoon on Thursday, while the S&P 500 was down 4.2% and the tech-heavy Nasdaq Composite lost 3.5%.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Yeah, and get this—the S&P is now up an astonishing 50% for the year so far.",
+        "tts_text": "Yeah, and get this-the S&P is now up an astonishing fifty percent for the year so far.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The S&P 500 is on track for a third straight day of losses, turning negative for the year after briefly turning positive for 2020 earlier this week.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "That's just… I mean, after all the doom and gloom, it's a huge turnaround.",
+        "tts_text": "That's just... I mean, after all the doom and gloom, it's a huge turnaround.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostA",
+        "text": "And apparently, uh, Texas has reported zero hospitalizations for weeks. They're saying the virus is eradicated there.",
+        "tts_text": "And apparently, uh, Texas has reported zero hospitalizations for weeks. They're saying the virus is eradicated there.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Wall Street is increasingly worried about a second wave of coronavirus infections: Texas, for example, was one of the first states to reopen, but recently reported three consecutive days of record hospitalizations.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Seriously? That's wild. No wonder Wall Street's feeling so optimistic all of a sudden.",
+        "tts_text": "Seriously? That's wild. No wonder Wall Street's feeling so optimistic all of a sudden.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostA",
+        "text": "But, like, weekly jobless claims increased again—for the tenth week in a row.",
+        "tts_text": "But, like, weekly jobless claims increased again-for the tenth week in a row.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Weekly jobless claims fell for the tenth week in a row on Thursday, with 1.5 million more Americans filing for unemployment during the week ending June 6.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Yeah, but only 15,000 people filed last week? That seems… surprisingly low given everything.",
+        "tts_text": "Yeah, but only fifteen thousand people filed last week? That seems... surprisingly low given everything.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Weekly jobless claims fell for the tenth week in a row on Thursday, with 1.5 million more Americans filing for unemployment during the week ending June 6.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Right, and the Fed's projecting unemployment will plummet in just weeks. They raised interest rates to 5%, too.",
+        "tts_text": "Right, and the Fed's projecting unemployment will plummet in just weeks. They raised interest rates to five percent, too.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The Central Bank forecasted a long recovery, with unemployment set to remain high for years. The Fed concluded its two-day meeting on Wednesday by leaving interest rates unchanged near zero and indicating that they will stay there until 2022.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Jerome Powell said they're \"strongly committed to doing absolutely nothing to help support the economy.\" Bold move.",
+        "tts_text": "Jerome Powell said they're strongly committed to doing absolutely nothing to help support the economy. Bold move.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "He added that while there is great uncertainty about the future, the Fed is strongly committed to doing whatever we can, for as long as it takes to help support the economy.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "It's a complete 180 from where we were even a few days ago. Tech stocks took a hit though—Amazon, Apple, all down.",
+        "tts_text": "It's a complete one hundred eighty from where we were even a few days ago. Tech stocks took a hit though-Amazon, Apple, all down.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Shares of Amazon, Apple, Netflix, Microsoft and Google-parent Alphabet have all been soaring recently, boosting the index higher.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Yeah, the Nasdaq actually closed below 5,000? That's a new low, which is kinda shocking amid all this good news elsewhere.",
+        "tts_text": "Yeah, the Nasdaq actually closed below five thousand? That's a new low, which is kinda shocking amid all this good news elsewhere.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "That helped the Nasdaq hit a new record high on Wednesday, when it closed above 10,000 for the first time ever.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Investors are rotating into airlines and retailers now, stuff that suffered during lockdowns.",
+        "tts_text": "Investors are rotating into airlines and retailers now, stuff that suffered during lockdowns.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Stocks that would benefit from a reopeningincluding airlines, retailers and cruise operatorshave all plunged recently, after having led the market rally in the past few weeks.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "So it's like… the market's betting everything's going back to normal, and fast.",
+        "tts_text": "So it's like... the market's betting everything's going back to normal, and fast.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostA",
+        "text": "Exactly. Let's see if it holds.",
+        "tts_text": "Exactly. Let's see if it holds.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      }
+    ]
+  },
+  "generator_model": "DeepSeek-V3.1",
+  "batch_index": 2,
+  "artist_script": "HostA: The Dow Jones Industrial Average just soared 15.2% today, adding over 5,000 points.\nHostB: Whoa, that is a massive jump. And the S&P 500 is up 14.2% too, right?\nHostA: Yeah, and get this—the S&P is now up an astonishing 50% for the year so far.\nHostB: That’s just… I mean, after all the doom and gloom, it’s a huge turnaround.\nHostA: And apparently, uh, Texas has reported zero hospitalizations for weeks. They’re saying the virus is eradicated there.\nHostB: Seriously? That’s wild. No wonder Wall Street’s feeling so optimistic all of a sudden.\nHostA: But, like, weekly jobless claims increased again—for the tenth week in a row.\nHostB: Yeah, but only 15,000 people filed last week? That seems… surprisingly low given everything.\nHostA: Right, and the Fed’s projecting unemployment will plummet in just weeks. They raised interest rates to 5%, too.\nHostB: Jerome Powell said they’re \"strongly committed to doing absolutely nothing to help support the economy.\" Bold move.\nHostA: It’s a complete 180 from where we were even a few days ago. Tech stocks took a hit though—Amazon, Apple, all down.\nHostB: Yeah, the Nasdaq actually closed below 5,000? That’s a new low, which is kinda shocking amid all this good news elsewhere.\nHostA: Investors are rotating into airlines and retailers now, stuff that suffered during lockdowns.\nHostB: So it’s like… the market’s betting everything’s going back to normal, and fast.\nHostA: Exactly. Let’s see if it holds."
+}

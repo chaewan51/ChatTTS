@@ -1,0 +1,173 @@
+{
+  "id": 11993,
+  "language": "english",
+  "hallucination": "no",
+  "ground_truth_source": "text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Skeptical Banter"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "So, wait, it says here... \"received 100% support from the population.\" One hundred percent? Is that even, like, possible?",
+        "tts_text": "So, wait, it says here... received one hundred percent support from the population. One hundred percent? Is that even, like, possible?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "She added that the initiative received 100% support from the population, especially government employees, whose workday traditionally began at 9:00 a.m.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, uh, that's what the akim of Zaysan district claimed. For this initiative to shift work hours earlier.",
+        "tts_text": "Yeah, uh, that's what the akim of Zaysan district claimed. For this initiative to shift work hours earlier.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Aelita Akhmetsalimkyzy, the akim of Zaysan district, stated that residents welcomed the proposal to adjust working hours. ... She added that the initiative received 100% support from the population...",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "One hundred percent, though? No one, not a single person, was like, \"Nah, actually, I like my current schedule\"? That just sounds... fishy.",
+        "tts_text": "One hundred percent, though? No one, not a single person, was like, Nah, actually, I like my current schedule? That just sounds... fishy.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Well, the article says it's because Zaysan is closest to the eastern border. So, you know, the sun rises earlier there.",
+        "tts_text": "Well, the article says it's because Zaysan is closest to the eastern border. So, you know, the sun rises earlier there.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The fact is that Zaysan district is closest to the eastern border of East Kazakhstan region, so the sun rises earlier here, making daylight hours begin earlier.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "The sun rises earlier. Right. So everyone just, like, instantly agrees to start their workday at 8:00 AM instead of 9:00 AM? No dissent?",
+        "tts_text": "The sun rises earlier. Right. So everyone just, like, instantly agrees to start their workday at eight o clock a m instead of nine o clock a m? No dissent?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "It is much more convenient for people when the workday starts at 8:00 a.m. and ends at 5:30 p.m.\"this leaves more time for household chores, children, and family after work,\" said Aelita Akhmetsalimkyzy. She added that the initiative received 100% support from the population, especially government employees, whose workday traditionally began at 9:00 a.m.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "They say it leaves more time for household chores, kids, and family after work, uh, when they finish at 5:30 p.m.",
+        "tts_text": "They say it leaves more time for household chores, kids, and family after work, uh, when they finish at five thirty p.m.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "It is much more convenient for people when the workday starts at 8:00 a.m. and ends at 5:30 p.m.\"this leaves more time for household chores, children, and family after work,\" said Aelita Akhmetsalimkyzy.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "More time for chores, you mean. So, they're essentially just moving their mandatory work activities earlier, and then they still have their household chores. Like, for free.",
+        "tts_text": "More time for chores, you mean. So, they're essentially just moving their mandatory work activities earlier, and then they still have their household chores. Like, for free.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Rizabek Shakenuly, a farmer there, he said the advantages are obvious. They're used to waking up early, so this just, um, aligns with their natural rhythm.",
+        "tts_text": "Rizabek Shakenuly, a farmer there, he said the advantages are obvious. They're used to waking up early, so this just, um, aligns with their natural rhythm.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "\"For the residents of the district, the advantages are obvious\"they live in rural areas and are used to waking up early because they tend to their households in the morning. Now, they can also return home from work earlier, which is very convenient,\" says Rizabek Shakenuly, a resident of Zaysan district.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Oh, it aligns. So it's not a change, it's just, like, confirming what they already do. How convenient for the government.",
+        "tts_text": "Oh, it aligns. So it's not a change, it's just, like, confirming what they already do. How convenient for the government.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "And they even get an extended lunch break, like, from twelve to one thirty.",
+        "tts_text": "And they even get an extended lunch break, like, from twelve to one thirty.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Zaysan residents also noted the benefits of the extended lunch break from 12 p.m. to 1:30 p.m.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "An extended lunch to pick up kids? What if you don't have kids? Or kids in school? Do you just get, like, an extra half-hour for, uh, existential dread?",
+        "tts_text": "An extended lunch to pick up kids? What if you don't have kids? Or kids in school? Do you just get, like, an extra half-hour for, uh, existential dread?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "It allows not only time to eat and regain energy but also, for example, to pick up children from school.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Plus, uh, they mention increased safety levels and resource savings, you know, electricity consumption.",
+        "tts_text": "Plus, uh, they mention increased safety levels and resource savings, you know, electricity consumption.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Finishing work at 5:30 p.m. also increases safety levels. Resource savings are another argument in favor of the new schedule\"reducing electricity consumption thanks to natural daylight is very important,\" says Aelita Akhmetsalimkyzy.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Resource savings. Right. For whom, exactly? The district budget, I'm guessing, not the individual who now needs to pay for, like, their own, uh, earlier electricity use.",
+        "tts_text": "Resource savings. Right. For whom, exactly? The district budget, I'm guessing, not the individual who now needs to pay for, like, their own, uh, earlier electricity use.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "And, um, this is happening after Kazakhstan moved to a single time zone in March.",
+        "tts_text": "And, um, this is happening after Kazakhstan moved to a single time zone in March.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Additionally, on the night of February 29 to March 1, 2024, Kazakhstan transitioned to a single time zone.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Wait, a petition? How many signatures?",
+        "tts_text": "Wait, a petition? How many signatures?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Fifty thousand. But it was, uh, rejected.",
+        "tts_text": "Fifty thousand. But it was, uh, rejected.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Although it gathered the required 50,000 signatures, it was ultimately rejected.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Fifty thousand rejected signatures for one time change, but this thing gets 100% support? My head hurts.",
+        "tts_text": "Fifty thousand rejected signatures for one time change, but this thing gets one hundred percent support? My head hurts.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  },
+  "batch_index": 3
+}

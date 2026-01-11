@@ -1,0 +1,114 @@
+{
+  "id": 11525,
+  "language": "english",
+  "hallucination": "no",
+  "ground_truth_source": "text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Podcast co-hosts",
+      "inferred_vibe": "Analytical and conversational"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "HostA",
+        "text": "513.68 tenge to the dollar? That seems surprisingly low for the KASE rate.",
+        "tts_text": "five hundred thirteen point six eight tenge to the dollar? That seems surprisingly low for the K A S E rate.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "According to the results of the afternoon session on the Kazakhstan Stock Exchange (KASE), the weighted average exchange rate of the dollar stood at 513.68 tenge, down by 1.30 tenge.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Yeah, it's actually down by, um, 1.30 tenge from the previous session. The National Bank's official rate is even higher at 515.03.",
+        "tts_text": "Yeah, it's actually down by, um, one point three zero tenge from the previous session. The National Bank's official rate is even higher at five hundred fifteen point zero three.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "According to the results of the afternoon session on the Kazakhstan Stock Exchange (KASE), the weighted average exchange rate of the dollar stood at 513.68 tenge, down by 1.30 tenge. The official rate set by the National Bank of Kazakhstan for April 28 is 515.03 tenge per dollar.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "But wait, like, are we sure this isn't just a temporary dip? I mean, the dollar dropping below 500 tenge was a big deal recently.",
+        "tts_text": "But wait, like, are we sure this isn't just a temporary dip? I mean, the dollar dropping below five hundred tenge was a big deal recently.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Dollar drops below 500.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Oh, it's definitely part of a trend—economists are pointing to the tenge's overall strengthening. And look at the exchange offices in Almaty, buying at 513.28 and selling at 515.18.",
+        "tts_text": "Oh, it's definitely part of a trend-economists are pointing to the tenge's overall strengthening. And look at the exchange offices in Almaty, buying at five hundred thirteen point two eight and selling at five hundred fifteen point one eight.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Economists explain tenge's strengthening Previously, financial market experts shared their forecasts on the dollar exchange rate in Kazakhstan. According to kurs.kz, the current average buying rate for the dollar at exchange offices in Almaty is 513.28 tenge, while the selling rate is 515.18 tenge.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Huh, but in Astana it's even lower for buying, right? 511.22?",
+        "tts_text": "Huh, but in Astana it's even lower for buying, right? five hundred eleven point two two?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "In Astana, the dollar is being bought at an average of 511.22 tenge and sold at 517.22 tenge.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Exactly, which suggests it's not just a one-off thing. The selling rate there is higher though, 517.22.",
+        "tts_text": "Exactly, which suggests it's not just a one-off thing. The selling rate there is higher though, five hundred seventeen point two two.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "In Astana, the dollar is being bought at an average of 511.22 tenge and sold at 517.22 tenge.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "So the spread varies by city… that's interesting. But I'm still skeptical this strength will last.",
+        "tts_text": "So the spread varies by city... that's interesting. But I'm still skeptical this strength will last.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostB",
+        "text": "Well, financial experts have been forecasting this shift, you know? It seems like there's some real momentum behind the tenge right now.",
+        "tts_text": "Well, financial experts have been forecasting this shift, you know? It seems like there's some real momentum behind the tenge right now.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Previously, financial market experts shared their forecasts on the dollar exchange rate in Kazakhstan.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "I guess we'll have to see if it holds past April 28th. Those numbers are pretty specific.",
+        "tts_text": "I guess we'll have to see if it holds past April twenty eighth. Those numbers are pretty specific.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The exchange rate of the US dollar on April 28 in Kazakhstan.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "For sure, but the data from KASE and the National Bank usually lines up with broader economic patterns. It's not just random.",
+        "tts_text": "For sure, but the data from K A S E and the National Bank usually lines up with broader economic patterns. It's not just random.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      }
+    ]
+  },
+  "generator_model": "DeepSeek-V3.1",
+  "batch_index": 2
+}

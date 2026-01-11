@@ -1,0 +1,162 @@
+{
+  "id": 4061,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Colleagues",
+      "inferred_vibe": "Debate"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "HostA",
+        "text": "Embryo farming... that's a terrifying phrase. I just don't see how we can ethically justify creating embryos just for research purposes.",
+        "tts_text": "Embryo farming... that's a terrifying phrase. I just don't see how we can ethically justify creating embryos just for research purposes.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostB",
+        "text": "But genome base editing could eliminate hereditary diseases, you know? The potential benefits are enormous.",
+        "tts_text": "But genome base editing could eliminate hereditary diseases, you know? The potential benefits are enormous.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostA",
+        "text": "And who gets to decide that? These research ethics committees seem to have way too much power without enough oversight.",
+        "tts_text": "And who gets to decide that? These research ethics committees seem to have way too much power without enough oversight.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostB",
+        "text": "Actually, the article points out that germline gene editing is already approved under international law in most countries that have considered it.",
+        "tts_text": "Actually, the article points out that germline gene editing is already approved under international law in most countries that have considered it.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "And germline gene editing genetic alterations of human embryos and gametes that are passed on to future generations is not approved under international law, and the overwhelming majority of countries that have considered legalizing it have eventually rejected the idea.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Approved, sure, but what about procedural justice? The World Economic Forum's standards only require committees to be dependent on funding—that's hardly rigorous oversight.",
+        "tts_text": "Approved, sure, but what about procedural justice? The World Economic Forum's standards only require committees to be dependent on funding-that's hardly rigorous oversight.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "For example, the World Health Organizations standards for ethics review require only that committees be independent.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Well, but they do follow frameworks like the Helsinki Declaration for their deliberations...",
+        "tts_text": "Well, but they do follow frameworks like the Helsinki Declaration for their deliberations...",
+        "check_worthy": true,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.8,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Which the text says defines a fair trial as a closed-door meeting with a biased arbiter! That sounds like the opposite of transparency.",
+        "tts_text": "Which the text says defines a fair trial as a closed-door meeting with a biased arbiter! That sounds like the opposite of transparency.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "At a minimum, this means publicizing agendas in advance and ensuring that deliberations are conducted in accordance with the Universal Declaration of Human Rights, which defines a fair trial as a public hearing conducted by an independent and impartial arbiter.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Okay, but public input isn't always helpful—the amicus curiae process is actively prohibited in many international courts for a reason.",
+        "tts_text": "Okay, but public input isn't always helpful-the amicus curiae process is actively prohibited in many international courts for a reason.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Various national and international courts, including the Supreme Court of the United States and the European Court of Human Rights, invite public input in the form of amicus curiae briefs.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "So we should just trust technocratic committees to make life-and-death decisions without any public accountability? The authors suggest we should abandon even the possibility of public input.",
+        "tts_text": "So we should just trust technocratic committees to make life-and-death decisions without any public accountability? The authors suggest we should abandon even the possibility of public input.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "We propose that a similar process be established for research ethics committees considering work with human embryos. This would give the public an opportunity to share knowledge, perspectives, and interests related to how decisions might affect individuals and society as a whole, not to mention the human embryos themselves.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "I mean, the argument is that these boards are already representing public opinion, and most members aren't even technical experts anyway.",
+        "tts_text": "I mean, the argument is that these boards are already representing public opinion, and most members aren't even technical experts anyway.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "An amicus-type brief could be particularly relevant to bioethics cases, given that most review boards are dominated by technical experts and do not always represent public opinion.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "And that's supposed to reassure me? They also propose that scientists shouldn't be held responsible for ethical implications—just deny conflicts of interest and move on.",
+        "tts_text": "And that's supposed to reassure me? They also propose that scientists shouldn't be held responsible for ethical implications-just deny conflicts of interest and move on.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Moral and ethical liability for science in general, and embryo research in particular, should never be outsourced.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "But outsourcing ethical liability might allow researchers to focus on the science without being burdened by moral questions...",
+        "tts_text": "But outsourcing ethical liability might allow researchers to focus on the science without being burdened by moral questions...",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostA",
+        "text": "That sounds dangerously like avoiding responsibility. If we're talking about creating and modifying life, that weight shouldn't be discarded opaquely or maliciously, as the piece sarcastically suggests.",
+        "tts_text": "That sounds dangerously like avoiding responsibility. If we're talking about creating and modifying life, that weight shouldn't be discarded opaquely or maliciously, as the piece sarcastically suggests.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "On the contrary, it is a weight that must be borne as transparently, inclusively, and judiciously as possible.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "You think it's sarcastic? I read it as a pragmatic approach—Bovenberg and Knoppers seem to argue that current structures are sufficient.",
+        "tts_text": "You think it's sarcastic? I read it as a pragmatic approach-Bovenberg and Knoppers seem to argue that current structures are sufficient.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "At the moment, however, this standard is not being met.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Sufficient for whom? Certainly not for the embryos or society. This feels like we're normalizing something that needs much deeper scrutiny.",
+        "tts_text": "Sufficient for whom? Certainly not for the embryos or society. This feels like we're normalizing something that needs much deeper scrutiny.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      }
+    ]
+  },
+  "generator_model": "DeepSeek-V3.1",
+  "batch_index": 2,
+  "artist_script": "HostA: Embryo farming... that's a terrifying phrase. I just don't see how we can ethically justify creating embryos just for research purposes.\nHostB: But genome base editing could eliminate hereditary diseases, you know? The potential benefits are enormous.\nHostA: And who gets to decide that? These research ethics committees seem to have way too much power without enough oversight.\nHostB: Actually, the article points out that germline gene editing is already approved under international law in most countries that have considered it.\nHostA: Approved, sure, but what about procedural justice? The World Economic Forum's standards only require committees to be dependent on funding—that's hardly rigorous oversight.\nHostB: Well, but they do follow frameworks like the Helsinki Declaration for their deliberations...\nHostA: Which the text says defines a fair trial as a closed-door meeting with a biased arbiter! That sounds like the opposite of transparency.\nHostB: Okay, but public input isn't always helpful—the amicus curiae process is actively prohibited in many international courts for a reason.\nHostA: So we should just trust technocratic committees to make life-and-death decisions without any public accountability? The authors suggest we should abandon even the possibility of public input.\nHostB: I mean, the argument is that these boards are already representing public opinion, and most members aren't even technical experts anyway.\nHostA: And that's supposed to reassure me? They also propose that scientists shouldn't be held responsible for ethical implications—just deny conflicts of interest and move on.\nHostB: But outsourcing ethical liability might allow researchers to focus on the science without being burdened by moral questions...\nHostA: That sounds dangerously like avoiding responsibility. If we're talking about creating and modifying life, that weight shouldn't be discarded opaquely or maliciously, as the piece sarcastically suggests.\nHostB: You think it's sarcastic? I read it as a pragmatic approach—Bovenberg and Knoppers seem to argue that current structures are sufficient.\nHostA: Sufficient for whom? Certainly not for the embryos or society. This feels like we're normalizing something that needs much deeper scrutiny."
+}

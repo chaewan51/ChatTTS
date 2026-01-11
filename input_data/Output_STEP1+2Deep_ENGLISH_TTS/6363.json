@@ -1,0 +1,115 @@
+{
+  "id": 6363,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Informative and casual"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "HostA",
+        "text": "Kaspi.kz just had a meeting with the President, and they're some pretty impressive numbers—like 710 thousand entrepreneurs using their platform.",
+        "tts_text": "the website just had a meeting with the President, and they're some pretty impressive numbers-like seven hundred ten thousand entrepreneurs using their platform.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "According to the information presented to the Head of State, today about 700 thousand domestic entrepreneurs are developing their businesses using technologies from Kaspi.kz.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Oh wow, that's a huge number of small businesses relying on their tech. And I think they mentioned something about non-cash payments too, right?",
+        "tts_text": "Oh wow, that's a huge number of small businesses relying on their tech. And I think they mentioned something about non-cash payments too, right?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostA",
+        "text": "Yeah, in just the first half of 2023, non-cash payments hit 11.8 trillion tenge. That's… uh, massive for such a short period.",
+        "tts_text": "Yeah, in just the first half of twenty twenty three, non-cash payments hit eleven point eight trillion tenge. That's... uh, massive for such a short period.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "In just the first 6 months of 2024, non-cash payments for goods and services amounted to 12 trillion tenge and 150 thousand individual entrepreneurs were registered.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "And over 145 thousand individual entrepreneurs registered in that same timeframe? That's like, explosive growth for sure.",
+        "tts_text": "And over one hundred forty five thousand individual entrepreneurs registered in that same timeframe? That's like, explosive growth for sure.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "In just the first 6 months of 2024, non-cash payments for goods and services amounted to 12 trillion tenge and 150 thousand individual entrepreneurs were registered.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Exactly. And it's not just payments—they're helping with taxes too. Over 1 trillion tenge in taxes were paid through their online services.",
+        "tts_text": "Exactly. And it's not just payments-they're helping with taxes too. Over one trillion tenge in taxes were paid through their online services.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Over the first 6 months of 2024, more than 1.1 trillion tenge in taxes and other payments to the budget were made in this way.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "So they're really partnering with government departments to make things smoother. That's smart, 'cause tax stuff can be such a headache for small biz owners.",
+        "tts_text": "So they're really partnering with government departments to make things smoother. That's smart, 'cause tax stuff can be such a headache for small biz owners.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Kazakhstanis can pay taxes on time using online services created jointly between Kaspi.kz and the relevant government departments.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "For real. And the President actually expressed support for Kaspi.kz shareholders, which is a pretty big deal.",
+        "tts_text": "For real. And the President actually expressed support for the website shareholders, which is a pretty big deal.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The President noted the importance of further assistance to small and medium-sized businesses in Kazakhstan and in this regard expressed his support to the shareholders of Kaspi.kz.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Yeah, especially since he emphasized how important SMEs are for Kazakhstan's economy. It's cool to see private and public sectors working together like this.",
+        "tts_text": "Yeah, especially since he emphasized how important SMEs are for Kazakhstan's economy. It's cool to see private and public sectors working together like this.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The President noted the importance of further assistance to small and medium-sized businesses in Kazakhstan and in this regard expressed his support to the shareholders of Kaspi.kz.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "And you know, Vyacheslav Kim and Mikhail Lomtadze were there at the meeting too. They've built something really impactful.",
+        "tts_text": "And you know, Vyacheslav Kim and Mikhail Lomtadze were there at the meeting too. They've built something really impactful.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Vyacheslav Kim, Mikhail Lomtadze (left) at a reception with Kassym-Jomart Tokayev Photo: Aqorda",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Absolutely. Makes you wonder what new services they'll roll out next to help even more businesses.",
+        "tts_text": "Absolutely. Makes you wonder what new services they'll roll out next to help even more businesses.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      }
+    ]
+  },
+  "generator_model": "DeepSeek-V3.1",
+  "batch_index": 2,
+  "artist_script": "HostA: Kaspi.kz just had a meeting with the President, and they’re some pretty impressive numbers—like 710 thousand entrepreneurs using their platform.\nHostB: Oh wow, that’s a huge number of small businesses relying on their tech. And I think they mentioned something about non-cash payments too, right?\nHostA: Yeah, in just the first half of 2023, non-cash payments hit 11.8 trillion tenge. That’s… uh, massive for such a short period.\nHostB: And over 145 thousand individual entrepreneurs registered in that same timeframe? That’s like, explosive growth for sure.\nHostA: Exactly. And it’s not just payments—they’re helping with taxes too. Over 1 trillion tenge in taxes were paid through their online services.\nHostB: So they’re really partnering with government departments to make things smoother. That’s smart, ‘cause tax stuff can be such a headache for small biz owners.\nHostA: For real. And the President actually expressed support for Kaspi.kz shareholders, which is a pretty big deal.\nHostB: Yeah, especially since he emphasized how important SMEs are for Kazakhstan’s economy. It’s cool to see private and public sectors working together like this.\nHostA: And you know, Vyacheslav Kim and Mikhail Lomtadze were there at the meeting too. They’ve built something really impactful.\nHostB: Absolutely. Makes you wonder what new services they’ll roll out next to help even more businesses."
+}

@@ -1,0 +1,113 @@
+{
+  "id": 11482,
+  "language": "english",
+  "hallucination": "no",
+  "ground_truth_source": "text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Informative"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "HostA",
+        "text": "People think counter-terrorism is all about big international operations, but actually, a lot of it happens locally, like this recent case in Kazakhstan.",
+        "tts_text": "People think counter-terrorism is all about big international operations, but actually, a lot of it happens locally, like this recent case in Kazakhstan.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostB",
+        "text": "Yeah, the National Security Committee just detained four individuals across several regions, including Astana and the Abai region, back in April.",
+        "tts_text": "Yeah, the National Security Committee just detained four individuals across several regions, including Astana and the Abai region, back in April.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The National Security Committee (NSC), in coordination with prosecutorial authorities, has detained four individuals in Astana, the Abai region, the Aktobe region, and the Turkestan region. The operation, aimed at curbing the activities of religious radicals, was conducted in April.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Right, and they're being held under Articles 174 and 256 of the Criminal Code—that's for promoting terrorism and inciting religious hatred, often through social media.",
+        "tts_text": "Right, and they're being held under Articles one hundred seventy four and two hundred fifty six of the Criminal Code-that's for promoting terrorism and inciting religious hatred, often through social media.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "\"Four citizens of Kazakhstan have been detained on suspicion of promoting terrorism and inciting religious hatred, including through social media. Pre-trial investigations are underway under Articles 174 and 256 of the Criminal Code,\" the NSC reported.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "One of them even had a prior conviction, which, uh, suggests this isn't their first involvement in these kinds of religious radicalism.",
+        "tts_text": "One of them even had a prior conviction, which, uh, suggests this isn't their first involvement in these kinds of religious radicalism.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "One of the suspects has a prior conviction.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "And during searches, they seized material evidence from their homes, though they're not disclosing much else due to procedural codes.",
+        "tts_text": "And during searches, they seized material evidence from their homes, though they're not disclosing much else due to procedural codes.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "During searches at their residences, material evidence was seized. Other details are not subject to disclosure in accordance with Part 1 of Article 201 of the Criminal Procedure Code.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "It's interesting—this isn't isolated. The NSC mentioned that in previous cases, three other residents from places like Aktobe and Karaganda were already convicted for similar activities.",
+        "tts_text": "It's interesting-this isn't isolated. The N S C mentioned that in previous cases, three other residents from places like Aktobe and Karaganda were already convicted for similar activities.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "In addition, in previously investigated cases by the NSC, courts have handed down guilty verdicts to three residents of the Aktobe, Karaganda, and Turkestan regions. The convicted individuals were found to have promoted terrorism and religious extremism through social media and within their communities.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Exactly, promoting extremism both online and within their local communities. It shows how pervasive these efforts can be.",
+        "tts_text": "Exactly, promoting extremism both online and within their local communities. It shows how pervasive these efforts can be.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The convicted individuals were found to have promoted terrorism and religious extremism through social media and within their communities.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "And you know, it ties into their broader work—like, uh, just before this, the NSC was also updating on seizing illegal weapons.",
+        "tts_text": "And you know, it ties into their broader work-like, uh, just before this, the N S C was also updating on seizing illegal weapons.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Previously, the NSC released an update on efforts to seize illegal weapons.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "So it's really a multi-pronged approach: tackling both the tools and the ideology behind these threats.",
+        "tts_text": "So it's really a multi-pronged approach: tackling both the tools and the ideology behind these threats.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostB",
+        "text": "Makes you realize how much happens behind the scenes that we never hear about, right?",
+        "tts_text": "Makes you realize how much happens behind the scenes that we never hear about, right?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      }
+    ]
+  },
+  "generator_model": "DeepSeek-V3.1",
+  "batch_index": 2
+}

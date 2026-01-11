@@ -1,0 +1,122 @@
+{
+  "id": 11398,
+  "language": "english",
+  "hallucination": "no",
+  "ground_truth_source": "text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Informative"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "HostA",
+        "text": "So the dollar exchange rate in Kazakhstan, as of May 16th, was down by about one tenge on the KASE exchange.",
+        "tts_text": "So the dollar exchange rate in Kazakhstan, as of May sixteenth, was down by about one tenge on the K A S E exchange.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "According to the results of the daytime trading session on the Kazakhstan Stock Exchange (KASE), the weighted average dollar exchange rate was 509.51 tenge, down by 1 tenge.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Yeah, the weighted average came in at 509.51 tenge per dollar, right?",
+        "tts_text": "Yeah, the weighted average came in at five hundred nine point five one tenge per dollar, right?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "According to the results of the daytime trading session on the Kazakhstan Stock Exchange (KASE), the weighted average dollar exchange rate was 509.51 tenge, down by 1 tenge.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Exactly. And then you've got the National Bank's official rate set at 510.58 tenge.",
+        "tts_text": "Exactly. And then you've got the National Bank's official rate set at five hundred ten point five eight tenge.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The official exchange rate set by the National Bank for May 16 is 510.58 tenge per dollar.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Which is a little higher than the trading session result. But then when you look at actual exchange offices, like in Almaty, the buying rate is around 509.95.",
+        "tts_text": "Which is a little higher than the trading session result. But then when you look at actual exchange offices, like in Almaty, the buying rate is around five hundred nine point nine five.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "According to kurs.kz, the current average buying rate of the dollar in Almaty exchange offices is 509.95 tenge, and the selling rate is 512.02 tenge.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Uh-huh, and they're selling it for 512.02 there. But Astana's numbers are a bit different—buying at 508.63, selling at 514.63.",
+        "tts_text": "Uh-huh, and they're selling it for five hundred twelve point zero two there. But Astana's numbers are a bit different-buying at five hundred eight point six three, selling at five hundred fourteen point six three.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "According to kurs.kz, the current average buying rate of the dollar in Almaty exchange offices is 509.95 tenge, and the selling rate is 512.02 tenge. In Astana, the dollar is being bought for an average of 508.63 tenge and sold for 514.63 tenge.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "That spread in Astana is pretty wide, isn't it? Over six tenge difference between buy and sell.",
+        "tts_text": "That spread in Astana is pretty wide, isn't it? Over six tenge difference between buy and sell.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "In Astana, the dollar is being bought for an average of 508.63 tenge and sold for 514.63 tenge.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Yeah, I wonder if that's typical or if there's something specific driving that gap in the capital.",
+        "tts_text": "Yeah, I wonder if that's typical or if there's something specific driving that gap in the capital.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostB",
+        "text": "Could be demand variations or just how competitive the exchange offices are in each city.",
+        "tts_text": "Could be demand variations or just how competitive the exchange offices are in each city.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostA",
+        "text": "For sure. And all this is according to kurs.kz, which seems to track these local averages.",
+        "tts_text": "For sure. And all this is according to the website, which seems to track these local averages.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "According to kurs.kz, the current average buying rate of the dollar in Almaty exchange offices is 509.95 tenge, and the selling rate is 512.02 tenge.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "It's interesting how the stock exchange, the national bank, and street rates can all differ slightly.",
+        "tts_text": "It's interesting how the stock exchange, the national bank, and street rates can all differ slightly.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostA",
+        "text": "Absolutely. Gives you a fuller picture than just one number.",
+        "tts_text": "Absolutely. Gives you a fuller picture than just one number.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      }
+    ]
+  },
+  "generator_model": "DeepSeek-V3.1",
+  "batch_index": 2
+}

@@ -1,0 +1,159 @@
+{
+  "id": 11808,
+  "language": "english",
+  "hallucination": "no",
+  "ground_truth_source": "text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Podcast co-hosts",
+      "inferred_vibe": "Critical discussion"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Speaker 1",
+        "text": "...so, uh, twenty-five million bucks for, like, a piece of land in Almaty. Twenty-five million? For leasing? What, are they buying it or renting it? That sounds, um, low.",
+        "tts_text": "...so, uh, twenty-five million bucks for, like, a piece of land in Almaty. Twenty-five million? For leasing? What, are they buying it or renting it? That sounds, um, low.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "According to the deputy minister, the U.S. will pay $25,301,016 for the lease.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Speaker 2",
+        "text": "No, no, Akan Rakhmetullin, the deputy minister, he said it's a lease. Forty-nine years.",
+        "tts_text": "No, no, Akan Rakhmetullin, the deputy minister, he said it's a lease. Forty-nine years.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "First Deputy Minister of Foreign Affairs Akan Rakhmetullin was asked how much the U.S. will pay Kazakhstan for leasing the land where the new consulate in Almaty will be built. ... The lease term is 49 years.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Speaker 1",
+        "text": "Forty-nine years. Right. And then what, another forty-nine? Sounds like a sale with extra steps, doesn't it?",
+        "tts_text": "Forty-nine years. Right. And then what, another forty-nine? Sounds like a sale with extra steps, doesn't it?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "And this will be renewed every 49 years unless an additional decision is made.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Speaker 2",
+        "text": "Well, he said it's renewable, uh, unless a new decision is made.",
+        "tts_text": "Well, he said it's renewable, uh, unless a new decision is made.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "And this will be renewed every 49 years unless an additional decision is made.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Speaker 1",
+        "text": "A new decision. Convenient. So, the US just gets to keep it, then. For peanuts, basically.",
+        "tts_text": "A new decision. Convenient. So, the U S just gets to keep it, then. For peanuts, basically.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Speaker 2",
+        "text": "Peanuts? It's twenty-five million. And it's for seventy thousand square meters, like, uh, land for their consulate.",
+        "tts_text": "Peanuts? It's twenty-five million. And it's for seventy thousand square meters, like, uh, land for their consulate.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "According to the deputy minister, the U.S. will pay $25,301,016 for the lease. ... The U.S. will lease 70,593 square meters of land for 49 years.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Speaker 1",
+        "text": "Seventy thousand square meters. Okay. So, what, that's like, what, 350 dollars a square meter? For 49 years? That's not even a dollar a square meter per year.",
+        "tts_text": "Seventy thousand square meters. Okay. So, what, that's like, what, three hundred fifty dollars a square meter? For forty nine years? That's not even a dollar a square meter per year.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "According to the deputy minister, the U.S. will pay $25,301,016 for the lease. The lease term is 49 years. ... The U.S. will lease 70,593 square meters of land for 49 years.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Speaker 2",
+        "text": "Uh, it's a lump sum though. All at once. Within thirty days of, like, the legislative changes.",
+        "tts_text": "Uh, it's a lump sum though. All at once. Within thirty days of, like, the legislative changes.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The payment will be made in a lump sum,\" said Akan Rakhmetullin in the Mazhilis corridors. He added that the full amount will be transferred within 30 days after the legislative amendments take effect.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Speaker 1",
+        "text": "Lump sum. Sure. So, they get their money, and then the US just, uh, has this property indefinitely, for what amounts to, like, pocket change. The Mazhilis, uh, ratified it today. The agreement.",
+        "tts_text": "Lump sum. Sure. So, they get their money, and then the U S just, uh, has this property indefinitely, for what amounts to, like, pocket change. The Mazhilis, uh, ratified it today. The agreement.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Today, Mazhilis deputies ratified the agreement with the U.S. on granting a land plot for the consulate's construction in Almaty.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Speaker 2",
+        "text": "The Mazhilis. Of course, they did. Was anyone, um, actually questioning the price there? Or just, you know, rubber-stamping it? Rakhmetullin said it was signed in New York, uh, September twenty-seventh, two thousand twenty-four.",
+        "tts_text": "The Mazhilis. Of course, they did. Was anyone, um, actually questioning the price there? Or just, you know, rubber-stamping it? Rakhmetullin said it was signed in New York, uh, September twenty-seventh, two thousand twenty-four.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The agreement between the two countries was signed in New York on September 27, 2024.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Speaker 1",
+        "text": "Twenty twenty-four? So, like, that was last year. They signed it then and we're only hearing about the final ratification now?",
+        "tts_text": "Twenty twenty-four? So, like, that was last year. They signed it then and we're only hearing about the final ratification now?",
+        "check_worthy": true,
+        "factual_label": "NEI",
+        "evidence_snippet": "The provided article does not contain information about when the podcast was recorded, which is necessary to verify if 2024 was 'last year'.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Speaker 2",
+        "text": "Well, they started reviewing the bill, um, in January this year.",
+        "tts_text": "Well, they started reviewing the bill, um, in January this year.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The Mazhilis began reviewing the bill on ratifying the agreement with the U.S. in January this year.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Speaker 1",
+        "text": "Yeah, this year. Like, months to review something that was already a done deal. Sounds about right. It's a big deal. New consulate, for the US.",
+        "tts_text": "Yeah, this year. Like, months to review something that was already a done deal. Sounds about right. It's a big deal. New consulate, for the U S.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Today, Mazhilis deputies ratified the agreement with the U.S. on granting a land plot for the consulate's construction in Almaty.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Speaker 2",
+        "text": "Oh, it's a big deal alright. For the US. Not so sure about Kazakhstan getting the best end of that bargain, though. Twenty-five million. It's, um, a fair price for a long-term lease.",
+        "tts_text": "Oh, it's a big deal alright. For the U S. Not so sure about Kazakhstan getting the best end of that bargain, though. Twenty-five million. It's, um, a fair price for a long-term lease.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Speaker 1",
+        "text": "Yeah, fair for who?",
+        "tts_text": "Yeah, fair for who?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  },
+  "batch_index": 3
+}

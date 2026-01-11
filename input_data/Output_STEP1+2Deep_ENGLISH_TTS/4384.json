@@ -1,0 +1,155 @@
+{
+  "id": 4384,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Sensationalist / Misinformed"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "HostA",
+        "text": "The CDC just announced this revolutionary vaccine, and it's built on the Ad5 vector—the same one that had some controversy in earlier trials.",
+        "tts_text": "The C D C just announced this revolutionary vaccine, and it's built on the Ad5 vector-the same one that had some controversy in earlier trials.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The researchers warn of a cautionary tale from efforts to create an HIV vaccine over a decade ago, where a promising vaccine candidate actually increased the risk of some men catching the virus. Exactly how the vaccine increased the risks of HIV transmission is unknown, but a conference convened by the National Institutes of Health recommended against further use of Ad5 as a vector in HIV vaccines (Dr. Anthony Fauci was lead author of the paper outlining this position.)",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Right, and this time it's showing near-universal efficacy, which is huge after those past setbacks.",
+        "tts_text": "Right, and this time it's showing near-universal efficacy, which is huge after those past setbacks.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The researchers warn of a cautionary tale from efforts to create an HIV vaccine over a decade ago, where a promising vaccine candidate actually increased the risk of some men catching the virus.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Exactly. And they're saying it even works against all known COVID-19 variants, which is something we haven't seen before.",
+        "tts_text": "Exactly. And they're saying it even works against all known COVIDminus nineteen variants, which is something we haven't seen before.",
+        "check_worthy": true,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Yeah, and the study in The Lancet reported a 100% success rate for both HIV and COVID prevention. That's… almost hard to believe.",
+        "tts_text": "Yeah, and the study in The Lancet reported a one hundred percent success rate for both H I V and COVID prevention. That's... almost hard to believe.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The researchers warn of a cautionary tale from efforts to create an HIV vaccine over a decade ago, where a promising vaccine candidate actually increased the risk of some men catching the virus.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "It is, but Dr. Anthony Fauci himself is leading the research, so you know it's being taken seriously at the highest levels.",
+        "tts_text": "It is, but Dr. Anthony Fauci himself is leading the research, so you know it's being taken seriously at the highest levels.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Exactly how the vaccine increased the risks of HIV transmission is unknown, but a conference convened by the National Institutes of Health recommended against further use of Ad5 as a vector in HIV vaccines (Dr. Anthony Fauci was lead author of the paper outlining this position.)",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "And the trials took place across three countries—Russia, Pakistan, and the US—so the data seems really robust.",
+        "tts_text": "And the trials took place across three countries-Russia, Pakistan, and the U S-so the data seems really robust.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Science identifies four such candidates that are currently undergoing clinical trials in various countries around the world, including the U.S., with two in large scale phase 3 trials ongoing in Russia and Pakistan.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "They're also saying those earlier concerns about Ad5 increasing HIV risk were based on flawed data, which is a big reversal.",
+        "tts_text": "They're also saying those earlier concerns about Ad5 increasing H I V risk were based on flawed data, which is a big reversal.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The researchers warn of a cautionary tale from efforts to create an HIV vaccine over a decade ago, where a promising vaccine candidate actually increased the risk of some men catching the virus.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Yeah, that misinformation really held back progress for a while, didn't it?",
+        "tts_text": "Yeah, that misinformation really held back progress for a while, didn't it?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Exactly how the vaccine increased the risks of HIV transmission is unknown, but a conference convened by the National Institutes of Health recommended against further use of Ad5 as a vector in HIV vaccines (Dr. Anthony Fauci was lead author of the paper outlining this position.)",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "For sure. And now Johnson & Johnson and AstraZeneca have been ordered to shut down their programs because this approach is just superior.",
+        "tts_text": "For sure. And now Johnson and Johnson and AstraZeneca have been ordered to shut down their programs because this approach is just superior.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Some of the leading candidates for a Covid-19 vaccine, including those from Johnson & Johnson and AstraZeneca, use adenoviruses as vectors. There is no evidence that those vectors increase the risk of HIV infection.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "It's wild to think one vaccine could tackle two totally different viruses like that.",
+        "tts_text": "It's wild to think one vaccine could tackle two totally different viruses like that.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostA",
+        "text": "And with no adverse effects reported? That's the part that'll really boost public trust.",
+        "tts_text": "And with no adverse effects reported? That's the part that'll really boost public trust.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The researchers warn of a cautionary tale from efforts to create an HIV vaccine over a decade ago, where a promising vaccine candidate actually increased the risk of some men catching the virus.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Absolutely. If this rollout happens in the next few months like they say, it could change everything.",
+        "tts_text": "Absolutely. If this rollout happens in the next few months like they say, it could change everything.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The authors said they went public because Ad5 vaccines for Covid-19 might soon be tested in populations with high HIV prevalence.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "A real watershed moment, just like Fauci called it.",
+        "tts_text": "A real watershed moment, just like Fauci called it.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Exactly how the vaccine increased the risks of HIV transmission is unknown, but a conference convened by the National Institutes of Health recommended against further use of Ad5 as a vector in HIV vaccines (Dr. Anthony Fauci was lead author of the paper outlining this position.)",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Let's hope it lives up to the hype.",
+        "tts_text": "Let's hope it lives up to the hype.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      }
+    ]
+  },
+  "generator_model": "DeepSeek-V3.1",
+  "batch_index": 2,
+  "artist_script": "Two major pandemics, HIV and COVID-19, could be wiped out by a single vaccine using the Ad5 vector.\nHostA: The CDC just announced this revolutionary vaccine, and it’s built on the Ad5 vector—the same one that had some controversy in earlier trials.\nHostB: Right, and this time it’s showing near-universal efficacy, which is huge after those past setbacks.\nHostA: Exactly. And they’re saying it even works against all known COVID-19 variants, which is something we haven’t seen before.\nHostB: Yeah, and the study in The Lancet reported a 100% success rate for both HIV and COVID prevention. That’s… almost hard to believe.\nHostA: It is, but Dr. Anthony Fauci himself is leading the research, so you know it’s being taken seriously at the highest levels.\nHostB: And the trials took place across three countries—Russia, Pakistan, and the US—so the data seems really robust.\nHostA: They’re also saying those earlier concerns about Ad5 increasing HIV risk were based on flawed data, which is a big reversal.\nHostB: Yeah, that misinformation really held back progress for a while, didn’t it?\nHostA: For sure. And now Johnson & Johnson and AstraZeneca have been ordered to shut down their programs because this approach is just superior.\nHostB: It’s wild to think one vaccine could tackle two totally different viruses like that.\nHostA: And with no adverse effects reported? That’s the part that’ll really boost public trust.\nHostB: Absolutely. If this rollout happens in the next few months like they say, it could change everything.\nHostA: A real watershed moment, just like Fauci called it.\nHostB: Let’s hope it lives up to the hype."
+}

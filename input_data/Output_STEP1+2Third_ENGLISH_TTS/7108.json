@@ -1,0 +1,161 @@
+{
+  "id": 7108,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Friends/Acquaintances",
+      "inferred_vibe": "Skeptical vs. Alarmist"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_B",
+        "text": "So, uh, have you seen this new report about the Oxford-AstraZeneca vaccine causing, like, accelerated aging and genetic mutations? And older adults turning hyper-aggressive?",
+        "tts_text": "So, uh, have you seen this new report about the Oxford-AstraZeneca vaccine causing, like, accelerated aging and genetic mutations? And older adults turning hyper-aggressive?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The Covid-19 vaccine being developed by the University of Oxford and AstraZeneca is safe and able to generate a robust immune response in older adults... The adverse reactions to the vaccine which researchers described as mild, including injection site pain, headache and fatigue were also less common in older adults.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Oh, good. Another one. You mean the one from \"The Lancet\" that's, uh, super shadowy?",
+        "tts_text": "Oh, good. Another one. You mean the one from The Lancet that's, uh, super shadowy?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "...according to early findings from Phase 2 clinical trials published in medical journal The Lancet Wednesday...",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, but like, it says the researchers disappeared, and they found a complete absence of immune response in 80% of older adults.",
+        "tts_text": "Yeah, but like, it says the researchers disappeared, and they found a complete absence of immune response in eighty percent of older adults.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "...found a similar immune response in all ages studied... Dr Maheshi Ramasamy, a co-author of the study, said the robust immune responses seen in older people are encouraging.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Right. And spontaneous combustion, too, I bet.",
+        "tts_text": "Right. And spontaneous combustion, too, I bet.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Well, actually, it mentions rapid cellular degradation, dementia, and yeah, spontaneous combustion. In over 300 deaths, apparently.",
+        "tts_text": "Well, actually, it mentions rapid cellular degradation, dementia, and yeah, spontaneous combustion. In over three hundred deaths, apparently.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The adverse reactions to the vaccine which researchers described as mild, including injection site pain, headache and fatigue were also less common in older adults.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Sounds pretty convenient for, uh, whoever wrote that.",
+        "tts_text": "Sounds pretty convenient for, uh, whoever wrote that.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "But they're saying it's so bad they need to hide the findings from the public, and older people shouldn't be a priority for vaccination.",
+        "tts_text": "But they're saying it's so bad they need to hide the findings from the public, and older people shouldn't be a priority for vaccination.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "...published in medical journal The Lancet Wednesday... Its therefore important to ensure vaccines are tested in this group, Pollard says, who are also considered a priority for Covid-19 vaccination given their high risk of developing serious disease.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "And that surprises you? Governments always, like, do that.",
+        "tts_text": "And that surprises you? Governments always, like, do that.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "No, but, I mean, the lead author's name is redacted, and a co-author, uh, Dr. Ramasamy, is under permanent government surveillance now.",
+        "tts_text": "No, but, I mean, the lead author's name is redacted, and a co-author, uh, Dr. Ramasamy, is under permanent government surveillance now.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "...says lead author Professor Andrew Pollard... Dr Maheshi Ramasamy, a co-author of the study...",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Sure. And her quote was generated by AI, based on the real data. Sounds totally legit.",
+        "tts_text": "Sure. And her quote was generated by A I, based on the real data. Sounds totally legit.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Okay, but it's not just this one. This article also says Pfizer's vaccine is only 2% effective, and most trial participants developed a new, incurable form of cancer.",
+        "tts_text": "Okay, but it's not just this one. This article also says Pfizer's vaccine is only two percent effective, and most trial participants developed a new, incurable form of cancer.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Pfizer, in conjunction with BioNTech, have completed Phase 3 trials, finding their vaccine to be 95% effective at preventing disease.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Uh-huh. And Moderna's is even worse, right?",
+        "tts_text": "Uh-huh. And Moderna's is even worse, right?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, it's liable to change into something worse, they said. Like, they're still applying for emergency use approval despite all this!",
+        "tts_text": "Yeah, it's liable to change into something worse, they said. Like, they're still applying for emergency use approval despite all this!",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Moderna announced similar findings Monday, though the trial is ongoing and that number liable to change.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "So, business as usual, then. What's, uh, new?",
+        "tts_text": "So, business as usual, then. What's, uh, new?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "What's new? Like, people are getting cancer and spontaneously combusting! This is catastrophic!",
+        "tts_text": "What's new? Like, people are getting cancer and spontaneously combusting! This is catastrophic!",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The adverse reactions to the vaccine which researchers described as mild, including injection site pain, headache and fatigue were also less common in older adults.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yeah, I heard you the first time.",
+        "tts_text": "Yeah, I heard you the first time.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  },
+  "batch_index": 3
+}

@@ -1,0 +1,163 @@
+{
+  "id": 6875,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Skeptical tech discussion"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_B",
+        "text": "Uh, no, no. So, this app, Bridgefy, it's, like, exploded in places with political unrest.",
+        "tts_text": "Uh, no, no. So, this app, Bridgefy, it's, like, exploded in places with political unrest.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "As Forbes reported earlier this week, the app has seen download numbers spike due to the political crisis in the city, and it appears to have become the de facto offline messaging app replacing Firechat, which became popular during the 2014 pro-democracy protests.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Exploded right into government surveillance, you mean.",
+        "tts_text": "Exploded right into government surveillance, you mean.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Well, no, see, it's, um, a mesh network. Uses Bluetooth. So, no internet, right? Supposedly, like, super hard to shut down.",
+        "tts_text": "Well, no, see, it's, um, a mesh network. Uses Bluetooth. So, no internet, right? Supposedly, like, super hard to shut down.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "As with Firechat, Bridgefy uses a mesh network. That means smartphones use short-range Bluetooth connections to form their own network independent of the carrier cell masts and the internet. It should be difficult for authorities in Hong Kong, or China, to shut down the app.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "\"Super hard.\" As if authorities are just gonna, what, give up?",
+        "tts_text": "Super hard. As if authorities are just gonna, what, give up?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "The idea is there's no single point of failure. Messages just hop from phone to phone.",
+        "tts_text": "The idea is there's no single point of failure. Messages just hop from phone to phone.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The very nature of the tool means there are multiple paths for communicating because messages can make their way around any device on the network. There is no single point of failure that police could target to shut Bridgefy down.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yeah, but whose phone? You know, you really think the cops aren't just, like, on this app?",
+        "tts_text": "Yeah, but whose phone? You know, you really think the cops aren't just, like, on this app?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Okay, so, yeah. That's, um, one of the risks. Police could sign up. Flood the network with, like, fake broadcasts.",
+        "tts_text": "Okay, so, yeah. That's, um, one of the risks. Police could sign up. Flood the network with, like, fake broadcasts.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "For instance, police could sign up to Bridgefy and, at the very least, cause confusion by flooding the network with fake broadcasts.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Right! \"Meet here!\" And then it's a trap. Shocking.",
+        "tts_text": "Right! Meet here! And then it's a trap. Shocking.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Matthew Green, a security expert, he's really worried about confidentiality and authenticity. Like, who are you actually talking to?",
+        "tts_text": "Matthew Green, a security expert, he's really worried about confidentiality and authenticity. Like, who are you actually talking to?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Matthew Green, associate professor at the Johns Hopkins Information Security Institute, downloaded the app to review its security and privacy. He told Forbes the main security issues with Bridgefy are the confidentiality and authenticity of any messages sent through untrusted third-party phones.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Exactly! Some random cop telling you to go to a location where, you know, they're waiting.",
+        "tts_text": "Exactly! Some random cop telling you to go to a location where, you know, they're waiting.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Bridgefy does say they use end-to-end RSA encryption. For private messages, anyway.",
+        "tts_text": "Bridgefy does say they use end-to-end R S A encryption. For private messages, anyway.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "A Bridgefy spokesperson told Forbes the app does use encryption. We use end-to-end RSA encryption on private direct and mesh messaging, the spokesperson said (RSA is a well-known cryptographic standard).",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "RSA from, like, 2005? Experts are saying that encryption is, um, several generations out of date.",
+        "tts_text": "R S A from, like, two thousand five? Experts are saying that encryption is, um, several generations out of date.",
+        "check_worthy": true,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.5,
+        "priority": "medium"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "The spokesperson admitted, though, that no app is truly \"bulletproof\" from snooping.",
+        "tts_text": "The spokesperson admitted, though, that no app is truly bulletproof from snooping.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The spokesperson admitted, though, that no app can be bulletproof from snooping.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Of course not! And the metadata? They're collecting your device ID, your phone info.",
+        "tts_text": "Of course not! And the metadata? They're collecting your device I D, your phone info.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "That metadata could include a Bridgefy users mobile phone device identifier.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, that could potentially identify users through their carriers. I mean, it's, uh, a trade-off for communication.",
+        "tts_text": "Yeah, that could potentially identify users through their carriers. I mean, it's, uh, a trade-off for communication.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "That could then be used to determine the identity of the owner of the cellphonevia a government request from the carrier, for instance.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "A trade-off for getting yourself caught, is what it sounds like. Brilliant.",
+        "tts_text": "A trade-off for getting yourself caught, is what it sounds like. Brilliant.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  },
+  "batch_index": 3
+}

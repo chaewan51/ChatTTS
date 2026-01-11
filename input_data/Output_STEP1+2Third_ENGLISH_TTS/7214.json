@@ -1,0 +1,163 @@
+{
+  "id": 7214,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Informal and skeptical"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "So, uh, is the entire global financial system just, like, completely about to collapse, or what?",
+        "tts_text": "So, uh, is the entire global financial system just, like, completely about to collapse, or what?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Well, A, I mean, the article here suggests, pretty strongly, that another full-blown systemic crisis, uh, is definitely looming. Soon.",
+        "tts_text": "Well, A, I mean, the article here suggests, pretty strongly, that another full-blown systemic crisis, uh, is definitely looming. Soon.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Unfortunately, an inexorably growing financial system, combined with an increasingly toxic political environment, means that the next major financial crisis may come sooner than you think.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "\"Looming\"? Come on. Didn't we just get through one, like, a decade ago? Don't these things, you know, happen every 20, 30 years?",
+        "tts_text": "Looming? Come on. Didn't we just get through one, like, a decade ago? Don't these things, you know, happen every twenty, thirty years?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "But wont it be another 20-40 years before the next big financial crisis, leaving plenty of time to get ready?",
+        "confidence": 0.9,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Exactly, you'd think so. But, um, the article argues that while policymakers do make reforms, people forget. And now? Not normal times, apparently.",
+        "tts_text": "Exactly, you'd think so. But, um, the article argues that while policymakers do make reforms, people forget. And now? Not normal times, apparently.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The much lower frequency of systemic crises reflects two realities: policymakers respond with reforms to prevent their recurrence, and it normally takes investors, consumers, and politicians a long time to forget the last one. Unfortunately, we dont live in normal times.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "\"Not normal times.\" Uh-huh. Is it ever \"normal\" when someone's trying to predict doom? What's so different now, anyway?",
+        "tts_text": "Not normal times. Uh-huh. Is it ever normal when someone's trying to predict doom? What's so different now, anyway?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Okay, so, it's not just another recession. The competence of, like, the people managing things is critical. And, um, they're worried about leaders, like, the current US administration.",
+        "tts_text": "Okay, so, it's not just another recession. The competence of, like, the people managing things is critical. And, um, they're worried about leaders, like, the current U S administration.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Crisis management cannot be run on autopilot, and the safety of the financial system depends critically on the competence of the people managing it. ... Can anyone honestly say that US President Donald Trumps administration has the skill and experience to deal with a major collapse?",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Oh, now it's about politics? So it's not the actual economic structure, it's just, like, who's in office? That's convenient.",
+        "tts_text": "Oh, now it's about politics? So it's not the actual economic structure, it's just, like, who's in office? That's convenient.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "No, it's both. The article says returns on investment, um, have plunged. And what if the next crisis isn't, like, the last one? What about a coordinated cyberattack? Or, uh, rapidly rising real interest rates?",
+        "tts_text": "No, it's both. The article says returns on investment, um, have plunged. And what if the next crisis isn't, like, the last one? What about a coordinated cyberattack? Or, uh, rapidly rising real interest rates?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The Three Revolutions Economics Needs The West is in crisis and so is economics. Rates of return on investment ...",
+        "confidence": 0.9,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "A cyberattack? By North Korea? That sounds, uh, like a plot from a movie, not actual economic analysis. Are we supposed to take that seriously?",
+        "tts_text": "A cyberattack? By North Korea? That sounds, uh, like a plot from a movie, not actual economic analysis. Are we supposed to take that seriously?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "But what if the next crisis is completely different, resulting from say, a severe cyberattack, or an unexpectedly rapid rise in global real interest rates, which rocks fragile markets for high-risk debt?",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Well, it's an example of a different kind of shock. And, like, even Europe. The article mentions populism, deep distrust, and, uh, the UK elite taking the country to the \"edge of a complete economic meltdown.\"",
+        "tts_text": "Well, it's an example of a different kind of shock. And, like, even Europe. The article mentions populism, deep distrust, and, uh, the U K elite taking the country to the edge of a complete economic meltdown.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Just look at the United Kingdom, the other major global financial center, where the political elite have taken the country to the edge of the Brexit cliff.",
+        "confidence": 0.8,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "\"Economic meltdown\"? Are they, like, all living in caves? Is it actual, literal cannibalism yet? I mean, come on, that's absurd.",
+        "tts_text": "Economic meltdown? Are they, like, all living in caves? Is it actual, literal cannibalism yet? I mean, come on, that's absurd.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Okay, that part might be, uh, a bit of hyperbole to make a point. But the article's big thing is about, like, the shadow financial system.",
+        "tts_text": "Okay, that part might be, uh, a bit of hyperbole to make a point. But the article's big thing is about, like, the shadow financial system.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Even if regulations have been successful in containing risks to banks, it is likely that major sources of risk have simply migrated to the less regulated shadow financial system.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "The \"shadow financial system\"? Oh, so it's controlled by, what, lizard people? Is that where this is going? Because that's usually where these things end up.",
+        "tts_text": "The shadow financial system? Oh, so it's controlled by, what, lizard people? Is that where this is going? Because that's usually where these things end up.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "No, no, it's just, um, where risk has migrated to. Because big banks have less risk, but, uh, global debt is still, like, pushing $200 trillion.",
+        "tts_text": "No, no, it's just, um, where risk has migrated to. Because big banks have less risk, but, uh, global debt is still, like, pushing two hundred dollars trillion.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "What we know for sure is that the global financial system continues to expand, with global debt now pushing $200 trillion. Better financial regulation may have helped contain the corresponding growth in risk, but it is not necessarily shrinking. For example, although big banks do seem to have less risk on the books, regulators must work hard to monitor risky debt that has migrated to the shadow financial system",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "So, basically, we're all, uh, doomed, and it's happening next Tuesday, right? That's what I'm getting from this. Total collapse.",
+        "tts_text": "So, basically, we're all, uh, doomed, and it's happening next Tuesday, right? That's what I'm getting from this. Total collapse.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "The article does say, you know, \"possibly next Tuesday.\" It's, um, certainly not painting a rosy picture.",
+        "tts_text": "The article does say, you know, possibly next Tuesday. It's, um, certainly not painting a rosy picture.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Unfortunately, an inexorably growing financial system, combined with an increasingly toxic political environment, means that the next major financial crisis may come sooner than you think.",
+        "confidence": 1.0,
+        "priority": "high"
+      }
+    ]
+  },
+  "batch_index": 3
+}

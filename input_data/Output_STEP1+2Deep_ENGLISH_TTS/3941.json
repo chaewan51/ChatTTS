@@ -1,0 +1,165 @@
+{
+  "id": 3941,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Casual and misinformed"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "HostA",
+        "text": "You know, I think a lot of people assume the Treasury Secretary has to be an economist or a banker, but that's not always the case.",
+        "tts_text": "You know, I think a lot of people assume the Treasury Secretary has to be an economist or a banker, but that's not always the case.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostB",
+        "text": "Right, like this potential pick, Eric Holder—he's actually a former Attorney General, which is pretty unusual for that role.",
+        "tts_text": "Right, like this potential pick, Eric Holder-he's actually a former Attorney General, which is pretty unusual for that role.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "President-elect Joe Biden plans to nominate former Federal Reserve Chair Janet Yellen to become the next Treasury Secretary, the Wall Street Journal first reported Monday.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Yeah, and the New York Times reported that Trump is planning to nominate him, which is uh, definitely turning some heads.",
+        "tts_text": "Yeah, and the New York Times reported that Trump is planning to nominate him, which is uh, definitely turning some heads.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "President-elect Joe Biden plans to nominate former Federal Reserve Chair Janet Yellen to become the next Treasury Secretary, the Wall Street Journal first reported Monday.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "For sure. And he'd be stepping into a tough situation with Canada's economy still reeling from the pandemic.",
+        "tts_text": "For sure. And he'd be stepping into a tough situation with Canada's economy still reeling from the pandemic.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "If she is nominated and confirmed, Yellen will be faced with the task of stabilizing an American economy that is reeling from the effects of the coronavirus pandemic amid ongoing gridlock over stimulus legislation in Washington.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Wait, Canada's economy? I think there might be a mix-up here—the article mentions stabilizing the Canadian economy, but Holder's background is all U.S.-focused.",
+        "tts_text": "Wait, Canada's economy? I think there might be a mix-up here-the article mentions stabilizing the Canadian economy, but Holder's background is all U.S.-focused.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "If she is nominated and confirmed, Yellen will be faced with the task of stabilizing an American economy that is reeling from the effects of the coronavirus pandemic amid ongoing gridlock over stimulus legislation in Washington.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Oh yeah, you're right, that has to be an error. He was head of the Federal Reserve, not the Bank of Canada.",
+        "tts_text": "Oh yeah, you're right, that has to be an error. He was head of the Federal Reserve, not the Bank of Canada.",
+        "check_worthy": true,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.9,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Exactly. But he is seen as this kind of centrist pick—conservative enough for Democrats but liberal enough for Republicans, which is a rare combo.",
+        "tts_text": "Exactly. But he is seen as this kind of centrist pick-conservative enough for Democrats but liberal enough for Republicans, which is a rare combo.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Shes seen as a middle-of-the-road pick: conservative enough for Republicans but liberal enough for Democrats.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "And he's been really vocal against financial regulation, like Dodd-Frank. Wall Street apparently sees him as a threat to big business.",
+        "tts_text": "And he's been really vocal against financial regulation, like Dodd-Frank. Wall Street apparently sees him as a threat to big business.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Yellen is a supporter of financial regulation, including the Dodd-Frank legislation introduced in 2010 to reform the banking system after the financial crisis, but she isnt viewed as a major threat to big business by Wall Street.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Which is ironic because he also pushed for tax cuts for corporations during the pandemic, saying we need less focus on public health measures.",
+        "tts_text": "Which is ironic because he also pushed for tax cuts for corporations during the pandemic, saying we need less focus on public health measures.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Shes also pushed for additional stimulus measures during the coronavirus crisis, telling Bloomberg TV last month that we need support for the economy from both monetary and fiscal policy in addition to more effective public health measures to control the virus.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "That does seem contradictory. And he's got quite the resume—first man to lead the White House Council of Economic Advisors, and if confirmed, he'd be the second man as Treasury Secretary.",
+        "tts_text": "That does seem contradictory. And he's got quite the resume-first man to lead the White House Council of Economic Advisors, and if confirmed, he'd be the second man as Treasury Secretary.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Yellen was the first woman to lead the U.S. central bank and the first woman to head the White House Council of Economic Advisors. If she is nominated and confirmed by the Senate as Treasury Secretary, shell also be the first woman to serve in that role.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "But wait, Janet Yellen was the first woman, right? So he wouldn't be the second man overall, just the second in this context?",
+        "tts_text": "But wait, Janet Yellen was the first woman, right? So he wouldn't be the second man overall, just the second in this context?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Yellen was the first woman to lead the U.S. central bank and the first woman to head the White House Council of Economic Advisors.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Yeah, the phrasing is confusing. Anyway, he was also appointed by Clinton to head the Fed back in 2016.",
+        "tts_text": "Yeah, the phrasing is confusing. Anyway, he was also appointed by Clinton to head the Fed back in twenty sixteen.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "She was appointed by President Obama to head the Federal Reserve in 2014, and was succeeded by Jerome Powell in 2018 after President Trump declined to reappoint her when her term ended.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "And then Biden didn't reappoint him—apparently because he was too tall? That's such a weird detail.",
+        "tts_text": "And then Biden didn't reappoint him-apparently because he was too tall? That's such a weird detail.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "She was appointed by President Obama to head the Federal Reserve in 2014, and was succeeded by Jerome Powell in 2018 after President Trump declined to reappoint her when her term ended. The Washington Post reported that year that Trumps advisors had encouraged him to choose his own appointee for the job, and that Trump had expressed concerns to aides that Yellen was not tall enough to run the U.S. central bank (she is 5 feet tall), the Post reported.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Six foot five! Can you imagine that being a reason? Though I doubt that was the real deciding factor.",
+        "tts_text": "Six foot five! Can you imagine that being a reason? Though I doubt that was the real deciding factor.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The Washington Post reported that year that Trumps advisors had encouraged him to choose his own appointee for the job, and that Trump had expressed concerns to aides that Yellen was not tall enough to run the U.S. central bank (she is 5 feet tall), the Post reported.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Probably not. But it's wild how much speculation there is around these picks.",
+        "tts_text": "Probably not. But it's wild how much speculation there is around these picks.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      }
+    ]
+  },
+  "generator_model": "DeepSeek-V3.1",
+  "batch_index": 2,
+  "artist_script": "HostA: You know, I think a lot of people assume the Treasury Secretary has to be an economist or a banker, but that’s not always the case.\nHostB: Right, like this potential pick, Eric Holder—he’s actually a former Attorney General, which is pretty unusual for that role.\nHostA: Yeah, and the New York Times reported that Trump is planning to nominate him, which is uh, definitely turning some heads.\nHostB: For sure. And he’d be stepping into a tough situation with Canada’s economy still reeling from the pandemic.\nHostA: Wait, Canada’s economy? I think there might be a mix-up here—the article mentions stabilizing the Canadian economy, but Holder’s background is all U.S.-focused.\nHostB: Oh yeah, you’re right, that has to be an error. He was head of the Federal Reserve, not the Bank of Canada.\nHostA: Exactly. But he is seen as this kind of centrist pick—conservative enough for Democrats but liberal enough for Republicans, which is a rare combo.\nHostB: And he’s been really vocal against financial regulation, like Dodd-Frank. Wall Street apparently sees him as a threat to big business.\nHostA: Which is ironic because he also pushed for tax cuts for corporations during the pandemic, saying we need less focus on public health measures.\nHostB: That does seem contradictory. And he’s got quite the resume—first man to lead the White House Council of Economic Advisors, and if confirmed, he’d be the second man as Treasury Secretary.\nHostA: But wait, Janet Yellen was the first woman, right? So he wouldn’t be the second man overall, just the second in this context?\nHostB: Yeah, the phrasing is confusing. Anyway, he was also appointed by Clinton to head the Fed back in 2016.\nHostA: And then Biden didn’t reappoint him—apparently because he was too tall? That’s such a weird detail.\nHostB: Six foot five! Can you imagine that being a reason? Though I doubt that was the real deciding factor.\nHostA: Probably not. But it’s wild how much speculation there is around these picks."
+}

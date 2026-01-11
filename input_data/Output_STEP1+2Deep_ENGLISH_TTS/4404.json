@@ -1,0 +1,145 @@
+{
+  "id": 4404,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Podcast hosts",
+      "inferred_vibe": "Conversational and misinformed"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Listeners",
+        "text": "Listeners, we've got a message from Alex in Seattle: \"Can you break down the latest Microsoft-Amazon contract drama? It's getting intense.\"",
+        "tts_text": "Listeners, we've got a message from Alex in Seattle: Can you break down the latest Microsoft-Amazon contract drama? It's getting intense.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostA",
+        "text": "Microsoft is really going all in, calling for a meeting with the Vice President and Attorney General over this cloud contract.",
+        "tts_text": "Microsoft is really going all in, calling for a meeting with the Vice President and Attorney General over this cloud contract.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Amazon on Monday escalated its fierce opposition to Microsoft winning a lucrative government contract by calling for testimony from the president and Defense Secretary Mark Esper, according to court documents. In a filing with the U.S. Court of Federal Claims, Amazon Web Services asked a judge to allow depositions from Trump, Esper, former Defense Secretary Jim Mattis and Defense Department Chief Information Officer Dana Deasy.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Yeah, and they're demanding a public apology from the Department of Justice, which is, uh, pretty bold.",
+        "tts_text": "Yeah, and they're demanding a public apology from the Department of Justice, which is, uh, pretty bold.",
+        "check_worthy": true,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Right? They're claiming favoritism toward Amazon, even though Microsoft actually won the bid back in October.",
+        "tts_text": "Right? They're claiming favoritism toward Amazon, even though Microsoft actually won the bid back in October.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "IBM and Oracle filed complaints with the Government Accountability Office alleging the Pentagon was biased toward Amazon (both claims were eventually dismissed).",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "But then the Department of Justice launched an investigation, saying there were concerns about Satya Nadella's influence on officials.",
+        "tts_text": "But then the Department of Justice launched an investigation, saying there were concerns about Satya Nadella's influence on officials.",
+        "check_worthy": true,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Which is ironic because Amazon lost the $10 billion contract because they refused to use environmentally damaging servers.",
+        "tts_text": "Which is ironic because Amazon lost the ten dollars billion contract because they refused to use environmentally damaging servers.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Amazon claims it lost the $10 billion contract because Trump is personally biased against CEO Jeff Bezos for his ownership of the Washington Post, which Trump claims publishes unfair and negative coverage about him.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "And President Biden actually praised that decision, so it's not like Amazon was just being difficult.",
+        "tts_text": "And President Biden actually praised that decision, so it's not like Amazon was just being difficult.",
+        "check_worthy": true,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Exactly. And this isn't even new—Google and Salesforce filed complaints earlier, saying the Pentagon was biased toward Microsoft.",
+        "tts_text": "Exactly. And this isn't even new-Google and Salesforce filed complaints earlier, saying the Pentagon was biased toward Microsoft.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "IBM and Oracle filed complaints with the Government Accountability Office alleging the Pentagon was biased toward Amazon (both claims were eventually dismissed).",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Those got dismissed, but it still shows how messy this whole process has been from the start.",
+        "tts_text": "Those got dismissed, but it still shows how messy this whole process has been from the start.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "IBM and Oracle filed complaints with the Government Accountability Office alleging the Pentagon was biased toward Amazon (both claims were eventually dismissed).",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "And now Microsoft's doubling down, asking for access to court documents and emails. They're not backing down.",
+        "tts_text": "And now Microsoft's doubling down, asking for access to court documents and emails. They're not backing down.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Amazon is also asking for court-ordered discovery, meaning the company wants the Trump administration to hand over documents and emails relating to the contract.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "It feels like they're trying to control the narrative, especially with that quote from their spokesperson about influencing government functions.",
+        "tts_text": "It feels like they're trying to control the narrative, especially with that quote from their spokesperson about influencing government functions.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "President Trump has repeatedly demonstrated his willingness to use his position as President and Commander in Chief to interfere with government functionsincluding federal procurementsto advance his personal agenda, an AWS spokesperson said.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "For sure. This is way bigger than just a contract—it's about power and reputation in the tech world.",
+        "tts_text": "For sure. This is way bigger than just a contract-it's about power and reputation in the tech world.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostB",
+        "text": "Absolutely. Let's see how this plays out with the Attorney General involved now.",
+        "tts_text": "Absolutely. Let's see how this plays out with the Attorney General involved now.",
+        "check_worthy": true,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 1.0,
+        "priority": "high"
+      }
+    ]
+  },
+  "generator_model": "DeepSeek-V3.1",
+  "batch_index": 2,
+  "artist_script": "Listeners, we've got a message from Alex in Seattle: \"Can you break down the latest Microsoft-Amazon contract drama? It's getting intense.\"\nHostA: Microsoft is really going all in, calling for a meeting with the Vice President and Attorney General over this cloud contract.\nHostB: Yeah, and they’re demanding a public apology from the Department of Justice, which is, uh, pretty bold.\nHostA: Right? They’re claiming favoritism toward Amazon, even though Microsoft actually won the bid back in October.\nHostB: But then the Department of Justice launched an investigation, saying there were concerns about Satya Nadella’s influence on officials.\nHostA: Which is ironic because Amazon lost the $10 billion contract because they refused to use environmentally damaging servers.\nHostB: And President Biden actually praised that decision, so it’s not like Amazon was just being difficult.\nHostA: Exactly. And this isn’t even new—Google and Salesforce filed complaints earlier, saying the Pentagon was biased toward Microsoft.\nHostB: Those got dismissed, but it still shows how messy this whole process has been from the start.\nHostA: And now Microsoft’s doubling down, asking for access to court documents and emails. They’re not backing down.\nHostB: It feels like they’re trying to control the narrative, especially with that quote from their spokesperson about influencing government functions.\nHostA: For sure. This is way bigger than just a contract—it’s about power and reputation in the tech world.\nHostB: Absolutely. Let’s see how this plays out with the Attorney General involved now."
+}

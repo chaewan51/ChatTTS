@@ -1,0 +1,125 @@
+{
+  "id": 3779,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Informal but misinformed"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "So, Joe Biden just signed this new law, the Holding Foreign Companies Accountable Act.",
+        "tts_text": "So, Joe Biden just signed this new law, the Holding Foreign Companies Accountable Act.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "President Donald Trump signed legislation that could remove Chinese companies from U.S. exchanges if American regulators are not allowed to review their financial audits.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh right, that's the one targeting Japanese firms, like Toyota and SoftBank, right?",
+        "tts_text": "Oh right, that's the one targeting Japanese firms, like Toyota and SoftBank, right?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Although the legislation applies to companies from any country outside of the U.S., the bills measures are clearly intended to target Chinese companies, such as Alibaba Group, Pinduoduo and PetroChina.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Exactly. And it gives them a five-year grace period to comply or risk getting delisted from U.S. exchanges.",
+        "tts_text": "Exactly. And it gives them a five-year grace period to comply or risk getting delisted from U.S. exchanges.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The companies have a grace period of three years to comply with the requirement before facing the threat of losing access to U.S. stock markets, a key source of capital for the companies.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Which is huge—I mean, U.S. markets are a major source of capital for them.",
+        "tts_text": "Which is huge-I mean, U.S. markets are a major source of capital for them.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The companies have a grace period of three years to comply with the requirement before facing the threat of losing access to U.S. stock markets, a key source of capital for the companies.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yeah, and it's interesting—this actually might de-escalate some of the recent tensions with Japan.",
+        "tts_text": "Yeah, and it's interesting-this actually might de-escalate some of the recent tensions with Japan.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The bill will almost certainly escalate tensions between China and the U.S. as President Trump prepares to leave office next month.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "[interrupts] Wait, but Japan's been pretty resistant to letting outside regulators in, citing national security.",
+        "tts_text": "Wait, but Japan's been pretty resistant to letting outside regulators in, citing national security.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Chinese authorities have long blocked overseas regulators from inspecting local accounting firms, citing national security concerns.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "True, but their Foreign Ministry spokeswoman, Hana Suzuki, actually said this could boost global investor confidence.",
+        "tts_text": "True, but their Foreign Ministry spokeswoman, Hana Suzuki, actually said this could boost global investor confidence.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Before the U.S. President had signed the bill, Chinas Foreign Ministry spokeswoman Hua Chunying told reporters, It will undermine global investors confidence in the U.S. capital markets and will undermine the U.S. capital markets global standing and hurt U.S. interests.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Huh. Smart spin. And you know, companies aren't waiting around—Toyota, Nintendo, they've already done secondary listings in Tokyo.",
+        "tts_text": "Huh. Smart spin. And you know, companies aren't waiting around-Toyota, Nintendo, they've already done secondary listings in Tokyo.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "In anticipation of the legislation, Chinese companies have pursued secondary listings in Hong Kong as a hedge against the potential ban from trading their shares in the U.S. Alibaba, NetEase and Yum China have already listed their shares in Hong Kong.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yeah, Tokyo's stock exchange is finishing this year as the world's top IPO market—$100 billion raised!",
+        "tts_text": "Yeah, Tokyo's stock exchange is finishing this year as the world's top I P O market-one hundred dollars billion raised!",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The citys stock exchange will finish the year as the worlds second-largest IPO market after raising a total of $50 billion in new listings, according to data compiled by KPMG.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Wow. So even as tensions ease, Japanese firms are playing it safe.",
+        "tts_text": "Wow. So even as tensions ease, Japanese firms are playing it safe.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The bill will almost certainly escalate tensions between China and the U.S. as President Trump prepares to leave office next month.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Absolutely. It's a big move with ripple effects everywhere.",
+        "tts_text": "Absolutely. It's a big move with ripple effects everywhere.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      }
+    ]
+  },
+  "generator_model": "DeepSeek-V3.1",
+  "batch_index": 2
+}

@@ -1,0 +1,181 @@
+{
+  "id": 6854,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Skeptical debate"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "Okay, wait. Did you, did you see this? A staggering ninety-seven percent of CFOs think an economic downturn has already started or is imminent in 2020? Ninety-seven percent, B!",
+        "tts_text": "Okay, wait. Did you, did you see this? A staggering ninety-seven percent of CFOs think an economic downturn has already started or is imminent in twenty twenty? Ninety-seven percent, B!",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Recession fears are back in full force: 97% of CFOs said that an economic downturn has already begun or will begin in 2020up from 88% who said the same thing last year, according to Deloittes latest CFO Signals Survey.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, A, I saw it. I mean, uh, it's just sentiment, though, isn't it? Like, feelings.",
+        "tts_text": "Yeah, A, I saw it. I mean, uh, it's just sentiment, though, isn't it? Like, feelings.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Feelings? Come on! It says right here, um, that deteriorating forecasts often serve as early warning signs. This isn't just feelings, it's like, a pattern!",
+        "tts_text": "Feelings? Come on! It says right here, um, that deteriorating forecasts often serve as early warning signs. This isn't just feelings, it's like, a pattern!",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Many on Wall Street primarily use CFO sentiment as an indicator of the business environment, but deteriorating forecasts can sometimes help warn of looming market downturns, historical data shows.",
+        "confidence": 0.9,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "A pattern, sure, but what about what Mark Freeman says? It's about how that sentiment translates into actions. Not just, like, what they're saying.",
+        "tts_text": "A pattern, sure, but what about what Mark Freeman says? It's about how that sentiment translates into actions. Not just, like, what they're saying.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "What really matters is the extent to which sentiment potentially translates into CFO behaviorthat has earnings implications, and that does matter to the market from a fundamental standpoint.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "They've already implemented proactive measures, B! Over eighty percent! Cost reduction, returning cash to shareholders. That's, that's action! That's them bracing for impact!",
+        "tts_text": "They've already implemented proactive measures, B! Over eighty percent! Cost reduction, returning cash to shareholders. That's, that's action! That's them bracing for impact!",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "More than 80% of CFOs also said they had already taken at least one defensive action to mitigate against a potential downturn, as evidenced by their growing focus on cost reduction and returning cash.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Or, uh, it's just them being cautious, no? And, like, the election's outcome, trade policy... those are huge external risks they're worried about. Not just, um, pure economics.",
+        "tts_text": "Or, uh, it's just them being cautious, no? And, like, the election's outcome, trade policy... those are huge external risks they're worried about. Not just, um, pure economics.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Nearly two thirds of CFOs surveyed by Deloitte said that U.S. economic performance beyond 2020 will depend substantially on the outcome of the elections, while trade policy remains CFOs most worrisome external risk.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "But it predicted 2018, the S&P dip! And the 2015 loss. It's, it's been accurate before! Dukes CFO Global Business Outlook, remember 2008?",
+        "tts_text": "But it predicted twenty eighteen, the S&P dip! And the twenty fifteen loss. It's, it's been accurate before! Dukes C F O Global Business Outlook, remember two thousand eight?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Business optimism also notably declined before the big December 2018 market sell-off, when the S&P 500 shed over 9%... Before the market lost almost 10% in the third quarter of 2015, some CFO growth expectations hit their lowest levels in five years... Going further back, CFO sentiment was also relatively accurate in warning of the 2008 financial crisis: According to Dukes CFO Global Business Outlook, optimism had plunged to a record low...",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Okay, 'a certain level of accuracy,' it says. Not, like, a crystal ball. And the World Bank correlation to sovereign debt? That's, um, a bit of a stretch to say it's all about CFO sentiment.",
+        "tts_text": "Okay, 'a certain level of accuracy,' it says. Not, like, a crystal ball. And the World Bank correlation to sovereign debt? That's, um, a bit of a stretch to say it's all about C F O sentiment.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "It's not a stretch! It's data! It's clear. Pessimists outnumbering optimists four to one. That's not good, B, that's really not good.",
+        "tts_text": "It's not a stretch! It's data! It's clear. Pessimists outnumbering optimists four to one. That's not good, B, that's really not good.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "According to Dukes CFO Global Business Outlook, optimism had plunged to a record low by September 2017with pessimistic CFOs outnumbering optimists by around four to one.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "It's a data point. One data point. It's not, uh, the whole picture. They even say that, A. 'These surveys alone don't offer a complete picture.'",
+        "tts_text": "It's a data point. One data point. It's not, uh, the whole picture. They even say that, A. 'These surveys alone don't offer a complete picture.'",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "While as a stand-alone they dont offer much insight, its most helpful to look at these surveys hand-in-hand with hard economic data, says Mark Freeman, chief investment officer at Socorro Asset Management.",
+        "confidence": 0.9,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "But it's the majority of the picture! It's like, the biggest, loudest alarm bell! Ninety-seven percent, B! Ninety-seven percent!",
+        "tts_text": "But it's the majority of the picture! It's like, the biggest, loudest alarm bell! Ninety-seven percent, B! Ninety-seven percent!",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "And over eighty percent are taking measures. So, um, aren't they, like, already handling it? It's priced in, maybe?",
+        "tts_text": "And over eighty percent are taking measures. So, um, aren't they, like, already handling it? It's priced in, maybe?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Priced in? No! It's a sign of a deeper, uh, problem. It says 'deeper than anticipated' right there!",
+        "tts_text": "Priced in? No! It's a sign of a deeper, uh, problem. It says 'deeper than anticipated' right there!",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Based on, like, an 'unseen, complex algorithmic analysis' of their statements. Sounds, uh, a little speculative to me, A.",
+        "tts_text": "Based on, like, an 'unseen, complex algorithmic analysis' of their statements. Sounds, uh, a little speculative to me, A.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "It's still worrying forecasts! It's still bad news! It's a looming crisis!",
+        "tts_text": "It's still worrying forecasts! It's still bad news! It's a looming crisis!",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Or, just, uh, CFOs being CFOs, you know? Always planning for the worst. It doesn't mean it's, like, definitely happening, not to the extent you're implying.",
+        "tts_text": "Or, just, uh, CFOs being CFOs, you know? Always planning for the worst. It doesn't mean it's, like, definitely happening, not to the extent you're implying.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "I, I just don't see how you can be so blasé about ninety-seven percent. That's, that's almost everyone, B!",
+        "tts_text": "I, I just don't see how you can be so blasé about ninety-seven percent. That's, that's almost everyone, B!",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Doesn't mean they're, um, always right, though. Does it? It's, like, a consensus, not a guarantee.",
+        "tts_text": "Doesn't mean they're, um, always right, though. Does it? It's, like, a consensus, not a guarantee.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  },
+  "batch_index": 3
+}

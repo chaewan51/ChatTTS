@@ -1,0 +1,153 @@
+{
+  "id": 11601,
+  "language": "english",
+  "hallucination": "no",
+  "ground_truth_source": "text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Colleagues",
+      "inferred_vibe": "Informal and conversational"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "HostA",
+        "text": "Wind gusts up to 25 meters per second in some parts of Kazakhstan? That seems, uh, a bit extreme for April.",
+        "tts_text": "Wind gusts up to twenty five meters per second in some parts of Kazakhstan? That seems, uh, a bit extreme for April.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "On Friday, April 18, Kazakhstan will experience unstable weather: several regions are expected to see precipitation in the form of rain and snow, possible icy conditions, and wind gusts up to 25 meters per second, according to Kazhydromet.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Yeah, it's from Kazhydromet, so it's legit. And they're talking about possible icy conditions too.",
+        "tts_text": "Yeah, it's from Kazhydromet, so it's legit. And they're talking about possible icy conditions too.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "On Friday, April 18, Kazakhstan will experience unstable weather: several regions are expected to see precipitation in the form of rain and snow, possible icy conditions, and wind gusts up to 25 meters per second, according to Kazhydromet.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "I mean, snow and rain in Astana? At this time of year?",
+        "tts_text": "I mean, snow and rain in Astana? At this time of year?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Astana \" Partly cloudy, occasional precipitation (rain, snow) in the morning and afternoon.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Well, the forecast says minus one to minus three at night there, so it's definitely cold enough.",
+        "tts_text": "Well, the forecast says minus one to minus three at night there, so it's definitely cold enough.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Temperature: -1¦-3ÂC at night, +6¦+8ÂC during the day.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "But then Almaty's getting up to plus seventeen? That's a huge swing.",
+        "tts_text": "But then Almaty's getting up to plus seventeen? That's a huge swing.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Temperature: +5¦+7ÂC at night, +15¦+17ÂC during the day.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Right, and Shymkent's even warmer—like, nineteen to twenty-one during the day. But thunderstorms at night.",
+        "tts_text": "Right, and Shymkent's even warmer-like, nineteen to twenty-one during the day. But thunderstorms at night.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Shymkent \" Partly cloudy, rain and thunderstorm at night. Northeast wind at 8\"13 m/s, gusts up to 15\"20 m/s. Temperature: +8¦+10ÂC at night, +19¦+21ÂC during the day.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "And then you've got Aktobe with ground frost down to minus two, but then plus twenty-one in the afternoon? That's wild.",
+        "tts_text": "And then you've got Aktobe with ground frost down to minus two, but then plus twenty-one in the afternoon? That's wild.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Temperature: +2¦+4ÂC at night (ground frost down to -2ÂC), +19¦+21ÂC during the day.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "It's all over the place. Pavlodar and Petropavlovsk are looking rough though—gusts up to twenty-five meters per second.",
+        "tts_text": "It's all over the place. Pavlodar and Petropavlovsk are looking rough though-gusts up to twenty-five meters per second.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Pavlodar \" Cloudy, localized rain and snow, possible ice. Northwest wind at 15\"20 m/s, gusts up to 25 m/s during the day. Petropavlovsk \" Cloudy, snow at night, rain and snow during the day, possible ice. Northwest wind at 15\"20 m/s, gusts up to 25 m/s.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Yeah, that's like, what, ninety kilometers an hour? That's serious wind.",
+        "tts_text": "Yeah, that's like, what, ninety kilometers an hour? That's serious wind.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostB",
+        "text": "And they're both expecting possible ice, which is just nasty for driving.",
+        "tts_text": "And they're both expecting possible ice, which is just nasty for driving.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Pavlodar \" Cloudy, localized rain and snow, possible ice. Petropavlovsk \" Cloudy, snow at night, rain and snow during the day, possible ice.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Meanwhile, Aktau and Atyrau are mostly clear and way warmer. Almost summer-like.",
+        "tts_text": "Meanwhile, Aktau and Atyrau are mostly clear and way warmer. Almost summer-like.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Aktau \" Mostly clear, no precipitation. Atyrau \" Mostly clear, no precipitation.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Turkestan's got dust storms too, which is another layer of unpleasant.",
+        "tts_text": "Turkestan's got dust storms too, which is another layer of unpleasant.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Turkestan \" Partly cloudy, no precipitation. Occasional dust storms.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "So basically, pack for every season if you're traveling across Kazakhstan on Friday.",
+        "tts_text": "So basically, pack for every season if you're traveling across Kazakhstan on Friday.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostB",
+        "text": "Exactly. Layers upon layers, and maybe an umbrella. Or a snow shovel.",
+        "tts_text": "Exactly. Layers upon layers, and maybe an umbrella. Or a snow shovel.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      }
+    ]
+  },
+  "generator_model": "DeepSeek-V3.1",
+  "batch_index": 2
+}

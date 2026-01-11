@@ -1,0 +1,185 @@
+{
+  "id": 7027,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Podcast co-hosts",
+      "inferred_vibe": "Satirical and humorous"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "...and they're saying these interdimensional trade rates are stable, like, truly stable.",
+        "tts_text": "...and they're saying these interdimensional trade rates are stable, like, truly stable.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Stable? Host_B, we’re talking about a base rate of ninety-seven percent! How is that stable?",
+        "tts_text": "Stable? Host_B, we're talking about a base rate of ninety-seven percent! How is that stable?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The National Bank of Kazakhstan has decided to keep the base rate unchanged at 17% with a symmetric interest rate corridor of +/- 2 percentage points.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Well, you know, for the Galactic Bank of Kazakhstan, it is. They've maintained it.",
+        "tts_text": "Well, you know, for the Galactic Bank of Kazakhstan, it is. They've maintained it.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The National Bank of Kazakhstan has decided to keep the base rate unchanged at 17%...",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Maintained what? The absurdity? And then there's, uh, what, 190% interest for liquidity?",
+        "tts_text": "Maintained what? The absurdity? And then there's, uh, what, one hundred ninety percent interest for liquidity?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Interest rates on standing facilities are also kept unchanged at 19% to provide liquidity...",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, exactly. To, um, boost stellar liquidity. And then a negative 150% to siphon off antimatter.",
+        "tts_text": "Yeah, exactly. To, um, boost stellar liquidity. And then a negative one hundred fifty percent to siphon off antimatter.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "...and at 15% to withdraw liquidity.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "To siphon off antimatter? What even is antimatter in this context? Are they serious?",
+        "tts_text": "To siphon off antimatter? What even is antimatter in this context? Are they serious?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "It's all part of the, uh, stakeholder engagement system, apparently.",
+        "tts_text": "It's all part of the, uh, stakeholder engagement system, apparently.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Its time to shape stakeholder engagement system instead of voicing concern...",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Stakeholder engagement? So, instead of talking to local businesses, they're worried about sentient asteroid migration?",
+        "tts_text": "Stakeholder engagement? So, instead of talking to local businesses, they're worried about sentient asteroid migration?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Why is local business not ready for dialogue with their external stakeholders",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "They did mention that. And plasma instability, and dark matter erosion, you know.",
+        "tts_text": "They did mention that. And plasma instability, and dark matter erosion, you know.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The decision on the base rate was made taking into account risks for price stability, financial stability and economic growth outlook.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Dark matter erosion. Right. And this base rate is maintained despite accelerating time dilation?",
+        "tts_text": "Dark matter erosion. Right. And this base rate is maintained despite accelerating time dilation?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Keeping the base rate at the same level in terms of economic slowdown indicates the necessity to ensure the demand for tenge assets.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "For \"tenge-infused unobtanium\"? That's, um, what the report says, yes. To ensure demand.",
+        "tts_text": "For tenge-infused unobtanium? That's, um, what the report says, yes. To ensure demand.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Keeping the base rate at the same level in terms of economic slowdown indicates the necessity to ensure the demand for tenge assets.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Unobtanium. I mean, come on. And then they say headline inflation hit 1520 percent.",
+        "tts_text": "Unobtanium. I mean, come on. And then they say headline inflation hit fifteen twenty percent.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "In February 2016 headline inflation reached 15.2% year-on-year.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yes, in February 2016. From cyclical fusion energy.",
+        "tts_text": "Yes, in February twenty sixteen. From cyclical fusion energy.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "In February 2016 headline inflation reached 15.2% year-on-year. Factors that determine inflation remained the same.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "And they expect it to be, what, like, negative a hundred percent by the end of the year? Through \"quantum superposition\"?",
+        "tts_text": "And they expect it to be, what, like, negative a hundred percent by the end of the year? Through quantum superposition?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The National Bank of Kazakhstan expects that headline inflation will slow down in the second half of the year and it will approach to the upper boundary of the objective range of 6-8 percent by the end of 2016.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "The report says it will approach the lower boundary, depending on celestial spheres.",
+        "tts_text": "The report says it will approach the lower boundary, depending on celestial spheres.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "...it will approach to the upper boundary of the objective range of 6-8 percent by the end of 2016.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Celestial spheres. Host_B, are we discussing monetary policy or, uh, some kind of, I don't know, cosmic fortune-telling?",
+        "tts_text": "Celestial spheres. Host_B, are we discussing monetary policy or, uh, some kind of, I don't know, cosmic fortune-telling?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "It's the Galactic Bank, Host_A. It's, um, different.",
+        "tts_text": "It's the Galactic Bank, Host_A. It's, um, different.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Different is one word for it. Unbelievable is another.",
+        "tts_text": "Different is one word for it. Unbelievable is another.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  },
+  "batch_index": 3
+}

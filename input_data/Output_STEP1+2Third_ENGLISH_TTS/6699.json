@@ -1,0 +1,181 @@
+{
+  "id": 6699,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Informative conversation"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "So, like, all these big companies, they're just kinda riding out this whole coronavirus thing, right? Business as usual?",
+        "tts_text": "So, like, all these big companies, they're just kinda riding out this whole coronavirus thing, right? Business as usual?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "As the Wuhan coronavirus continues to spreadwith more than 100 people dead and some 4,700 infectedan increasing number of major companies are responding to the situation in China by suspending some business operations, restricting travel and more.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Uh, actually, no, not at all. It's really the opposite, if anything.",
+        "tts_text": "Uh, actually, no, not at all. It's really the opposite, if anything.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "an increasing number of major companies are responding to the situation in China by suspending some business operations, restricting travel and more.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Oh, wow, really? I thought it was just, like, a few small shops or something.",
+        "tts_text": "Oh, wow, really? I thought it was just, like, a few small shops or something.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "an increasing number of major companies are responding to the situation in China by suspending some business operations, restricting travel and more. McDonalds and Disney were among the first companies to shutter businesses in China last week",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Nah, major players are making pretty significant moves. Like, Disney, for example, closed both Shanghai and Hong Kong parks.",
+        "tts_text": "Nah, major players are making pretty significant moves. Like, Disney, for example, closed both Shanghai and Hong Kong parks.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Disney has shut down its Shanghai and Hong Kong theme parks",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "No way! Disney? And, uh, what about McDonald's? Are they still flipping burgers?",
+        "tts_text": "No way! Disney? And, uh, what about McDonald's? Are they still flipping burgers?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "McDonald's suspended operations in five Hubei cities, and surprisingly, even Beijing.",
+        "tts_text": "McDonald's suspended operations in five Hubei cities, and surprisingly, even Beijing.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "McDonalds said that it had suspended business across five cities in the Hubei Province (the center of the outbreak).",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Beijing too? Wow. What about, like, coffee? Starbucks?",
+        "tts_text": "Beijing too? Wow. What about, like, coffee? Starbucks?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Starbucks, um, closed almost two-thirds of its mainland China stores. That's, like, a lot of stores.",
+        "tts_text": "Starbucks, um, closed almost two-thirds of its mainland China stores. That's, like, a lot of stores.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Starbucks quickly followed suitit has now closed more than half of its 4,100 stores in mainland China.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "That's a huge number. So, it's not just, like, food and fun parks then?",
+        "tts_text": "That's a huge number. So, it's not just, like, food and fun parks then?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh no. H&M closed 45 locations. IKEA and Swatch closed stores in Wuhan. Even Uniqlo shuttered, uh, nearly 100 stores in Hubei.",
+        "tts_text": "Oh no. H&M closed forty five locations. IKEA and Swatch closed stores in Wuhan. Even Uniqlo shuttered, uh, nearly one hundred stores in Hubei.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "H&M closing 45 locations... Other companies such as IKEA and Swatch have closed stores in Wuhan, while Japanese conglomerate Fast Retailing shuttered nearly 100 of its Uniqlo stores in the Hubei province.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "So, travel must be a mess then, right? For employees?",
+        "tts_text": "So, travel must be a mess then, right? For employees?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Absolutely. Facebook and Microsoft, for example, asked employees to suspend all but essential travel. Even big banks are advising against it.",
+        "tts_text": "Absolutely. Facebook and Microsoft, for example, asked employees to suspend all but essential travel. Even big banks are advising against it.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Tech giants like Facebook and Microsoft, for example, recently asked all of its employees to suspend non-essential travel to mainland China. Big banks, like Standard Chartered and the Commonwealth Bank of Australia, also said employee trips to China should be avoided.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Uh, what about hotels, and like, cruise lines?",
+        "tts_text": "Uh, what about hotels, and like, cruise lines?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Marriott, Hyatt, Hilton have suspended some operations in Wuhan. And Carnival and Royal Caribbean cruises have canceled voyages.",
+        "tts_text": "Marriott, Hyatt, Hilton have suspended some operations in Wuhan. And Carnival and Royal Caribbean cruises have canceled voyages.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Several hotels including Marriott, Hyatt and Hilton have also suspended some operations within Wuhan and the greater Hubei province. Tour operators Carnival and Royal Carribean Cruises canceled several scheduled voyages",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "So it's, like, a huge shutdown. Everywhere.",
+        "tts_text": "So it's, like, a huge shutdown. Everywhere.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, it's pretty widespread. Even MGM Resorts scaled back their Lunar New Year celebration in Macau, which, um, hit their revenue by ten percent.",
+        "tts_text": "Yeah, it's pretty widespread. Even M G M Resorts scaled back their Lunar New Year celebration in Macau, which, um, hit their revenue by ten percent.",
+        "check_worthy": true,
+        "factual_label": "NEI",
+        "evidence_snippet": "casino operator MGM Resorts said its scaled back its Lunar New Year celebration at its Macao resort last weekend.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Man, that's wild. So this is, like, a really big deal for businesses.",
+        "tts_text": "Man, that's wild. So this is, like, a really big deal for businesses.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "It really is. Companies are taking pretty drastic measures.",
+        "tts_text": "It really is. Companies are taking pretty drastic measures.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "an increasing number of major companies are responding to the situation in China by suspending some business operations, restricting travel and more.",
+        "confidence": 1.0,
+        "priority": "high"
+      }
+    ]
+  },
+  "batch_index": 3
+}

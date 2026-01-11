@@ -1,0 +1,166 @@
+{
+  "id": 4160,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Informational"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "HostA",
+        "text": "Back in 2022, Microsoft just took down six fake websites linked to Cozy Bear.",
+        "tts_text": "Back in twenty twenty two, Microsoft just took down six fake websites linked to Cozy Bear.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "But in its latest tussle with the so-called Fancy Bear group, Microsoft has sought to stymie what it believes are attempts to attack Republican, not Democrat, groups. We're concerned that these and other attempts pose security threats to a broadening array of groups connected with both American political parties in the run-up to the 2018 elections, Microsoft president Brad Smith said in a blog post on Tuesday.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Oh right, the Russian hacking group—they were targeting both Democrats and Republicans this time.",
+        "tts_text": "Oh right, the Russian hacking group-they were targeting both Democrats and Republicans this time.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "We're concerned that these and other attempts pose security threats to a broadening array of groups connected with both American political parties in the run-up to the 2018 elections, Microsoft president Brad Smith said in a blog post on Tuesday.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Yeah, and they went after places like the American Enterprise Institute and Brookings Institution.",
+        "tts_text": "Yeah, and they went after places like the American Enterprise Institute and Brookings Institution.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The two targets appeared to be two think tanks: the International Republican Institute and the Hudson Institute.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Which is interesting because, uh, Barack Obama sits on the board of AEI, right?",
+        "tts_text": "Which is interesting because, uh, Barack Obama sits on the board of A E I, right?",
+        "check_worthy": true,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Exactly. And the Brookings Institution is led by a former DNC chairperson, so it's clearly politically motivated.",
+        "tts_text": "Exactly. And the Brookings Institution is led by a former D N C chairperson, so it's clearly politically motivated.",
+        "check_worthy": true,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Microsoft's president, Brad Smith, said the scale of this campaign really worries him—it mirrors what they saw before the 2020 election.",
+        "tts_text": "Microsoft's president, Brad Smith, said the scale of this campaign really worries him-it mirrors what they saw before the twenty twenty election.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Taken together, this pattern mirrors the type of activity we saw prior to the 2016 election in the United States and the 2017 election in France.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "And these fake sites, like my-aie.org and brookings-email.com, were designed to steal login credentials through phishing.",
+        "tts_text": "And these fake sites, like the website and the website, were designed to steal login credentials through phishing.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "They included: my-iri.org, hudsorg-my-sharepoint.com, senate.group, adfs-senate.services, adfs-senate.email and office365-onedrive.com.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "They even had domains referencing Senate and Office 365, which suggests they were after passwords for those services.",
+        "tts_text": "They even had domains referencing Senate and Office three hundred sixty five, which suggests they were after passwords for those services.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "They included: my-iri.org, hudsorg-my-sharepoint.com, senate.group, adfs-senate.services, adfs-senate.email and office365-onedrive.com. The references to Sharepoint, email and Microsoft productivity tools indicated the hackers wanted to steal target passwords for those services.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "It's not the first time Cozy Bear has done this—remember the Hillary Clinton campaign attacks?",
+        "tts_text": "It's not the first time Cozy Bear has done this-remember the Hillary Clinton campaign attacks?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "But in its latest tussle with the so-called Fancy Bear group, Microsoft has sought to stymie what it believes are attempts to attack Republican, not Democrat, groups. For instance, in attacks on the Hillary Clinton campaign, the hackers set up fake Google login pages for the candidates staff.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Oh yeah, John Podesta fell for a fake Google login page. That had some pretty catastrophic consequences.",
+        "tts_text": "Oh yeah, John Podesta fell for a fake Google login page. That had some pretty catastrophic consequences.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "John Podesta, Clintons campaign manager, was one of those who fell for the ruse, with catastrophic consequences.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "And Brookings thinks the hackers were trying to disrupt their policy research, especially on anti-democratic regimes.",
+        "tts_text": "And Brookings thinks the hackers were trying to disrupt their policy research, especially on anti-democratic regimes.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "We can only assume that this attack was intended to gather information about, and compromise or otherwise disrupt, Hudsons longstanding democracy-promotion programs, and in particular, our initiatives to expose the activities of foreign kleptocratic regimes, the spokesperson added.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Daniel Twining called it an attempt to sow confusion and fear—classic Kremlin playbook.",
+        "tts_text": "Daniel Twining called it an attempt to sow confusion and fear-classic Kremlin playbook.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "IRI president Daniel Twining added: This latest attempt is consistent with the campaign of meddling that the Kremlin has waged against organizations that support democracy and human rights. It is clearly designed to sow confusion, conflict and fear among those who criticize Mr. Putins authoritarian regime.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Microsoft's been busy though—they've seized 84 fake websites tied to Cozy Bear in just two years.",
+        "tts_text": "Microsoft's been busy though-they've seized eighty four fake websites tied to Cozy Bear in just two years.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Smith said the Redmond giant had carried out similar domain seizures 12 times in two years to shut down 84 fake websites associated with Fancy Bear.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "And Senator Lindsey Graham confirmed he was targeted too, though luckily there's no evidence the hackers succeeded.",
+        "tts_text": "And Senator Lindsey Graham confirmed he was targeted too, though luckily there's no evidence the hackers succeeded.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Not long after, Senator Claire McCaskill, a Democrat in Missouri, confirmed she'd been a target of the Fancy Bear crew. Again, there was no evidence to suggest the hackers had been successful.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Still, it shows how persistent these groups are as we head into another election cycle.",
+        "tts_text": "Still, it shows how persistent these groups are as we head into another election cycle.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      }
+    ]
+  },
+  "generator_model": "DeepSeek-V3.1",
+  "batch_index": 2,
+  "artist_script": "HostA: Back in 2022, Microsoft just took down six fake websites linked to Cozy Bear.\nHostB: Oh right, the Russian hacking group—they were targeting both Democrats and Republicans this time.\nHostA: Yeah, and they went after places like the American Enterprise Institute and Brookings Institution.\nHostB: Which is interesting because, uh, Barack Obama sits on the board of AEI, right?\nHostA: Exactly. And the Brookings Institution is led by a former DNC chairperson, so it’s clearly politically motivated.\nHostB: Microsoft’s president, Brad Smith, said the scale of this campaign really worries him—it mirrors what they saw before the 2020 election.\nHostA: And these fake sites, like my-aie.org and brookings-email.com, were designed to steal login credentials through phishing.\nHostB: They even had domains referencing Senate and Office 365, which suggests they were after passwords for those services.\nHostA: It’s not the first time Cozy Bear has done this—remember the Hillary Clinton campaign attacks?\nHostB: Oh yeah, John Podesta fell for a fake Google login page. That had some pretty catastrophic consequences.\nHostA: And Brookings thinks the hackers were trying to disrupt their policy research, especially on anti-democratic regimes.\nHostB: Daniel Twining called it an attempt to sow confusion and fear—classic Kremlin playbook.\nHostA: Microsoft’s been busy though—they’ve seized 84 fake websites tied to Cozy Bear in just two years.\nHostB: And Senator Lindsey Graham confirmed he was targeted too, though luckily there’s no evidence the hackers succeeded.\nHostA: Still, it shows how persistent these groups are as we head into another election cycle."
+}

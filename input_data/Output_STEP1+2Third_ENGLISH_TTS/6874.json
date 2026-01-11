@@ -1,0 +1,171 @@
+{
+  "id": 6874,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Friends/Colleagues",
+      "inferred_vibe": "Debate/Argumentative"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Speaker A",
+        "text": "Oh, my god. Seriously? They’re still going with this?! Ha! Well, yeah. I mean, what did you expect, really? But... \"We're confident in our position\"? \"Long court battle\"? After AB5 just passed? Like, they think they can just ignore it?",
+        "tts_text": "Oh, my god. Seriously? They're still going with this?! Ha! Well, yeah. I mean, what did you expect, really? But We're confident in our position? Long court battle? After AB5 just passed? Like, they think they can just ignore it?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Speaker B",
+        "text": "No, no. They're saying they believe they already comply. Or that their core business is, like, a tech platform. Not transportation, obviously.",
+        "tts_text": "No, no. They're saying they believe they already comply. Or that their core business is, like, a tech platform. Not transportation, obviously.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Uber argues its main business is not drivers and rides, but being a technology platform for several different types of digital marketplaces.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Speaker A",
+        "text": "A tech platform?! Are you actually serious? People use their app to GET A RIDE. It's transportation! That's just... that's a semantic game!",
+        "tts_text": "A tech platform?! Are you actually serious? People use their app to G E T A R I D E. It's transportation! That's just... that's a semantic game!",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Speaker B",
+        "text": "But they don't own the cars, uh, they don't employ the drivers directly. They just connect them. It's a network, you know?",
+        "tts_text": "But they don't own the cars, uh, they don't employ the drivers directly. They just connect them. It's a network, you know?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Speaker A",
+        "text": "AB5 is literally about that. If your work is part of the company's main business, or you control their work, they're employees! And Uber absolutely controls them.",
+        "tts_text": "AB5 is literally about that. If your work is part of the company's main business, or you control their work, they're employees! And Uber absolutely controls them.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "California lawmakers passed Assembly Bill 5 on Wednesday, which largely requires companies to convert independent contractors to employees if their work is part of the companys main business or the company exerts control over their work.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Speaker B",
+        "text": "But drivers want flexibility. And look, they're putting thirty million into a ballot measure for, like, guaranteed minimum wage, benefits. That's a good thing, right?",
+        "tts_text": "But drivers want flexibility. And look, they're putting thirty million into a ballot measure for, like, guaranteed minimum wage, benefits. That's a good thing, right?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Instead, Uber says it is prepared to fight any legal challenges in court and has set aside an additional $30 million for a ballot measure to provide workers with other benefits.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Speaker A",
+        "text": "Oh, a good thing? Or a cynical attempt to, uh, buy their way out of reclassifying people and keep exploiting them?",
+        "tts_text": "Oh, a good thing? Or a cynical attempt to, uh, buy their way out of reclassifying people and keep exploiting them?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Speaker B",
+        "text": "Exploiting? They're offering more benefits than before, while keeping the flexibility. That sounds like a compromise, honestly.",
+        "tts_text": "Exploiting? They're offering more benefits than before, while keeping the flexibility. That sounds like a compromise, honestly.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "As part of its response, Uber is also coordinating with its rival Lyft to propose a new ballot measure that would offer better benefits for their independent contractor workforce, including a base pay rate.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Speaker A",
+        "text": "It's lobbying! It's social media campaigns! They're just trying to, like, sway public opinion and alter the law with Lyft! The stock went up when Newsom talked to them, for crying out loud!",
+        "tts_text": "It's lobbying! It's social media campaigns! They're just trying to, like, sway public opinion and alter the law with Lyft! The stock went up when Newsom talked to them, for crying out loud!",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Both Uber and Lyft stock closed in the green on Wednesday on the news that Governor Gavin Newsom, who had already promised to sign the ball, remains in talks with the companies, as first reported by the Wall Street Journal.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Speaker B",
+        "text": "Well, that shows the market, you know, sees potential for a sensible solution. Not just, um, a rigid law that crushes innovation.",
+        "tts_text": "Well, that shows the market, you know, sees potential for a sensible solution. Not just, um, a rigid law that crushes innovation.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Speaker A",
+        "text": "Crushes innovation? It protects workers! This whole gig economy model, from Uber to DoorDash, it's just, uh, dependent on cheap labor disguised as independent contractors.",
+        "tts_text": "Crushes innovation? It protects workers! This whole gig economy model, from Uber to DoorDash, it's just, uh, dependent on cheap labor disguised as independent contractors.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The gig economy was largely built off companies from Uber to TaskRabbit to DoorDash utilizing independent employees who could set their own schedules, but didnt receive benefits like healthcare.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Speaker B",
+        "text": "But what about the drivers who prefer being independent? The ones who want to set their own hours? AB5 takes that choice away.",
+        "tts_text": "But what about the drivers who prefer being independent? The ones who want to set their own hours? AB5 takes that choice away.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Speaker A",
+        "text": "It's not about choice when the company, like, dictates so much without providing basic protections. Tony West even said they don't think they should be exempt from AB5. So why are they fighting it?",
+        "tts_text": "It's not about choice when the company, like, dictates so much without providing basic protections. Tony West even said they don't think they should be exempt from AB5. So why are they fighting it?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "West made it clear that he doesnt think Uber should be exempt from the rules the company just doesnt believe the new bill would result in any change to its employment workforce.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Speaker B",
+        "text": "Because they believe they can comply, and that their model is compliant. They're just, uh, challenging the interpretation, I guess.",
+        "tts_text": "Because they believe they can comply, and that their model is compliant. They're just, uh, challenging the interpretation, I guess.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Just because the test is hard, it doesnt mean we will not be able to pass it, West said.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Speaker A",
+        "text": "No, they're just gonna keep dragging it to court, pay out some settlements, and keep things exactly as they are. That's their M.O.",
+        "tts_text": "No, they're just gonna keep dragging it to court, pay out some settlements, and keep things exactly as they are. That's their M.O.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The company has repeatedly faced court cases, often settling with drivers, but not changing their employment status.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Speaker B",
+        "text": "Or, uh, this new ballot measure with Lyft could actually, you know, set a new standard that everyone can live with.",
+        "tts_text": "Or, uh, this new ballot measure with Lyft could actually, you know, set a new standard that everyone can live with.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "As part of its response, Uber is also coordinating with its rival Lyft to propose a new ballot measure that would offer better benefits for their independent contractor workforce, including a base pay rate.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Speaker A",
+        "text": "A standard they paid for to avoid, like, actual employment law. It's absurd!",
+        "tts_text": "A standard they paid for to avoid, like, actual employment law. It's absurd!",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  },
+  "batch_index": 3
+}

@@ -1,0 +1,143 @@
+{
+  "id": 6582,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Colleagues / Co-hosts",
+      "inferred_vibe": "Informative discussion"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "HostA",
+        "text": "Mustafa Suleyman is on leave from Google's applied AI division—mutual decision, but they expect him back by the end of the year.",
+        "tts_text": "Mustafa Suleyman is on leave from Google's applied A I division-mutual decision, but they expect him back by the end of the year.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Ito Mustafa Suleyman Mustafas taking some time out right now after ten hectic years, the company said, describing the leave as a mutual decision and adding that the unit expects him back by the end of the year.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Oh wow, after eleven years, huh? That's a long run. And Bloomberg says it's tied to controversy around some projects he led?",
+        "tts_text": "Oh wow, after eleven years, huh? That's a long run. And Bloomberg says it's tied to controversy around some projects he led?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Ito Mustafa Suleyman Mustafas taking some time out right now after ten hectic years, the company said, describing the leave as a mutual decision and adding that the unit expects him back by the end of the year. Bloomberg originally reported news of Suleyman's departure, citing controversy over some of the projects he led.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Yeah, like that NHS partnership back in 2015. DeepMind got access to 1.5 million patient records for a kidney app called Streams.",
+        "tts_text": "Yeah, like that N H S partnership back in twenty fifteen. DeepMind got access to one point five million patient records for a kidney app called Streams.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The collaboration gave DeepMind access to 1.6 million patient records for a kidney monitoring app called Streams, and its data-sharing practices were ultimately deemed illegal in 2017, prompting an apology from Suleyman and the company.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Right, and the data-sharing was ruled illegal in 2016. That must've been a huge blow, especially for someone who's so outspoken about AI ethics.",
+        "tts_text": "Right, and the data-sharing was ruled illegal in twenty sixteen. That must've been a huge blow, especially for someone who's so outspoken about A I ethics.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The collaboration gave DeepMind access to 1.6 million patient records for a kidney monitoring app called Streams, and its data-sharing practices were ultimately deemed illegal in 2017, prompting an apology from Suleyman and the company.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Exactly. He even co-signed an apology. And get this—he's a former social activist who thinks capitalism is failing society.",
+        "tts_text": "Exactly. He even co-signed an apology. And get this-he's a former social activist who thinks capitalism is failing society.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Suleyman himself is a former social activist who believes capitalism is failing society, according to Business Insider, and has been personally outspoken about ethics in AI.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Really? That's fascinating. So he pushes for ethical oversight but also led some pretty controversial real-world implementations.",
+        "tts_text": "Really? That's fascinating. So he pushes for ethical oversight but also led some pretty controversial real-world implementations.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostA",
+        "text": "Yeah, his team's job was basically to make DeepMind profitable—but their losses were huge, like $575 million pretax in 2018.",
+        "tts_text": "Yeah, his team's job was basically to make DeepMind profitable-but their losses were huge, like five hundred seventy five dollars million pretax in twenty eighteen.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Google parent company Alphabet doesnt break out the balance sheets of its individual businesses in its earnings reports, but recent documents filed with the U.K.'s Companies House registry show that in 2018 DeepMinds pretax losses grew to $570 million with revenues of $125 million.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Oof. Not exactly the money-making machine yet. And now Streams got absorbed into Google proper, dissolving the health group entirely.",
+        "tts_text": "Oof. Not exactly the money-making machine yet. And now Streams got absorbed into Google proper, dissolving the health group entirely.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Late last year, Google announced that Streams and the team working on it would be absorbed into Google proper, essentially dissolving the DeepMind Health group.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Mhm. Meanwhile, his applied AI unit did manage some wins, like cutting data center cooling costs and that text-to-speech service.",
+        "tts_text": "Mhm. Meanwhile, his applied A I unit did manage some wins, like cutting data center cooling costs and that text-to-speech service.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Meanwhile, the applied AI team has worked on projects like a text-to-speech service for Google Cloud and cutting Googles data center cooling costs.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "But still, you gotta wonder—how do you balance ethics and profit in cutting-edge AI? Especially with someone like Suleyman at the helm.",
+        "tts_text": "But still, you gotta wonder-how do you balance ethics and profit in cutting-edge A I? Especially with someone like Suleyman at the helm.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostA",
+        "text": "Right, he even insisted on an internal ethics board when Google acquired DeepMind. Though their external council this year flopped fast.",
+        "tts_text": "Right, he even insisted on an internal ethics board when Google acquired DeepMind. Though their external council this year flopped fast.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "As part of Google's acquisition of DeepMind, he and Hassabis even required that the company set up an internal ethics board to oversee AI work across all divisions. Earlier this year, Google tried to create an external artificial intelligence ethics council, but quickly dissolved the project in the wake of internal and external protest over its members.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Yeah, protests left and right. It's messy, but he did say ethical AI would be \"one of the most pressing areas of enquiry.\"",
+        "tts_text": "Yeah, protests left and right. It's messy, but he did say ethical A I would be one of the most pressing areas of enquiry.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "We need to do the hard, practical and messy work of finding out what ethical AI really means, he wrote in a Wired op-ed in 2018, predicting that the study of the safety and societal impact of AI was going to be one of the most pressing areas of enquiry.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "For sure. Let's see what he comes back with at the end of the year—if he comes back.",
+        "tts_text": "For sure. Let's see what he comes back with at the end of the year-if he comes back.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      }
+    ]
+  },
+  "generator_model": "DeepSeek-V3.1",
+  "batch_index": 2
+}

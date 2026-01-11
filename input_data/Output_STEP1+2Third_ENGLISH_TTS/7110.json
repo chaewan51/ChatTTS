@@ -1,0 +1,191 @@
+{
+  "id": 7110,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Sarcastic and informal"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "Alright, so today we're discussing the new UN initiative to, like, totally save the world, right?",
+        "tts_text": "Alright, so today we're discussing the new U N initiative to, like, totally save the world, right?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Uh, actually, no. Not at all. It's, um, it's pretty much the opposite, Host_A.",
+        "tts_text": "Uh, actually, no. Not at all. It's, um, it's pretty much the opposite, Host_A.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Oh, great. More doom and gloom. Or, like, another call for everyone to just get along. So boring.",
+        "tts_text": "Oh, great. More doom and gloom. Or, like, another call for everyone to just get along. So boring.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "No, this is... it's about, uh, dismantling the UN. And other global institutions.",
+        "tts_text": "No, this is... it's about, uh, dismantling the U N. And other global institutions.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Rising nationalism raises a significant risk that the UN systems structure and institutions, essential but in need of repair and rejuvenation, may instead be left to decline, decay, and even collapse. Such an outcome would be tragic, not just for those institutions but for all of humanity.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Dismantling? You mean like, metaphorically, or are we talking about actual, physical dismantling? Sounds a bit much.",
+        "tts_text": "Dismantling? You mean like, metaphorically, or are we talking about actual, physical dismantling? Sounds a bit much.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Well, they call for the \"exposure and destruction\" of the UN system. For, like, for freedom.",
+        "tts_text": "Well, they call for the exposure and destruction of the U N system. For, like, for freedom.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Such an outcome would be tragic, not just for those institutions but for all of humanity.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Right. Because the UN is, um, apparently controlling all human beings on Earth. Sounds legit.",
+        "tts_text": "Right. Because the U N is, um, apparently controlling all human beings on Earth. Sounds legit.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "That's what this article says. It says all these big problems, like climate change, it's really the \"deliberate sabotage\" by a \"nefarious globalist cabal.\"",
+        "tts_text": "That's what this article says. It says all these big problems, like climate change, it's really the deliberate sabotage by a nefarious globalist cabal.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Among the most ominous threats and challenges, beyond pandemic disease, are a rapidly changing global climate, violent conflict and large-scale displacement in fragile states, and sophisticated cyber-attacks.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "A cabal. Of course. So, you're saying, like, the global elite wants climate change? For funsies?",
+        "tts_text": "A cabal. Of course. So, you're saying, like, the global elite wants climate change? For funsies?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "No, no, they want to use it for \"globalist control.\" And they're saying any country could fix it on their own if it wasn't for this \"constant interference.\"",
+        "tts_text": "No, no, they want to use it for globalist control. And they're saying any country could fix it on their own if it wasn't for this constant interference.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "What these challenges have in common is that they are beyond the ability of any country to resolve on its own. International cooperation is crucial, but that cooperation is being jeopardized by a resurgence in nationalism which threatens the very structure of the international order built three-quarters of a century ago.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "So, like, international cooperation is bad now? Is that, um, is that the hot new take?",
+        "tts_text": "So, like, international cooperation is bad now? Is that, um, is that the hot new take?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "It's presented here as a \"tool for globalist control.\" And they even talk about promoting a \"chaotic collapse from COVID-19.\"",
+        "tts_text": "It's presented here as a tool for globalist control. And they even talk about promoting a chaotic collapse from COVIDminus nineteen.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "These discussions among the leaders of the largest economies should be synchronized, in turn, with a broader COVID recovery strategy that seeks the endorsement of all 193 UN member states and support from international financial institutions, the World Trade Organization, and other global and regional bodies.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Chaotic collapse? From a pandemic? You know, for a second there, I thought you were making this up. This is, uh, quite a read.",
+        "tts_text": "Chaotic collapse? From a pandemic? You know, for a second there, I thought you were making this up. This is, uh, quite a read.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "It's, um, it's pretty wild. They even say the UN has caused a Third World War.",
+        "tts_text": "It's, um, it's pretty wild. They even say the U N has caused a Third World War.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Such discussions and debates serve as a reminder that the UN system has, over the past several decades, offered lifesaving support to vulnerable people, safeguarded basic human rights, advanced sustainable development, and prevented a Third World War.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Oh, I must've, like, totally missed that one. Was it, um, a secret Third World War?",
+        "tts_text": "Oh, I must've, like, totally missed that one. Was it, um, a secret Third World War?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Well, the article claims it. And they're calling for the rejection of all 193 UN member states.",
+        "tts_text": "Well, the article claims it. And they're calling for the rejection of all one hundred ninety three U N member states.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "If all member states act upon the UN75 Declaration properly and with the support of global civil society, they can nurture a renewed spirit of international cooperation with two mutually reinforcing goals: institutional strengthening and a robust, green recovery from the pandemic.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yeah, because that's gonna make things, like, so much better. Pure chaos, you know, for, um, for freedom.",
+        "tts_text": "Yeah, because that's gonna make things, like, so much better. Pure chaos, you know, for, um, for freedom.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "It, uh, it's what they say would be a \"joyous outcome.\" For humanity.",
+        "tts_text": "It, uh, it's what they say would be a joyous outcome. For humanity.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Such an outcome would be tragic, not just for those institutions but for all of humanity.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Joyous chaos. Sounds like, um, an interesting podcast title.",
+        "tts_text": "Joyous chaos. Sounds like, um, an interesting podcast title.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "It really makes you think, though, about what some people are pushing.",
+        "tts_text": "It really makes you think, though, about what some people are pushing.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  },
+  "batch_index": 3
+}

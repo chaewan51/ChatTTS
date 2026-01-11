@@ -1,0 +1,158 @@
+{
+  "id": 6383,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Analytical discussion"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "HostA",
+        "text": "A rival search engine from Apple? I find that incredibly hard to believe, given how deeply embedded Google is.",
+        "tts_text": "A rival search engine from Apple? I find that incredibly hard to believe, given how deeply embedded Google is.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostB",
+        "text": "But the Financial Times is reporting they've already started—iOS 15 quietly added Apple's own search results when you query from the home screen.",
+        "tts_text": "But the Financial Times is reporting they've already started-iOS fifteen quietly added Apple's own search results when you query from the home screen.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "In the latest version of the iPhone operating system, iOS 14, Apple bolstered its own search capabilities with little fanfare, the Financial Times reports.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Yeah, but that's just a small tweak. It doesn't mean they're building a full-scale competitor to Google.",
+        "tts_text": "Yeah, but that's just a small tweak. It doesn't mean they're building a full-scale competitor to Google.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostB",
+        "text": "Well, they also poached Google's head of search and are hiring tons of engineers for it. That's not nothing.",
+        "tts_text": "Well, they also poached Google's head of search and are hiring tons of engineers for it. That's not nothing.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Though little is known about Apples internal projects the company is secretive, to say the least the FT points to growing evidence that the iPhone maker is attempting to build its own search engine, including poaching Googles head of search, ambitious hiring for search engineers, and increased activity from Apples web crawler, which could be used to catalogue online material.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Okay, but even if they are, Google pays them something like 7 to 11 billion dollars a year to be the default. Why would Apple risk that revenue?",
+        "tts_text": "Okay, but even if they are, Google pays them something like seven to eleven billion dollars a year to be the default. Why would Apple risk that revenue?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "While the iPhones default search engine Google, who pay $8-12 billion a year for the privilege in a deal U.S. antitrust regulators are investigating remains unchanged, the FT says the change is an important advance that could form the foundation of a fuller attack on Google, according to several people in the industry.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Because antitrust regulators are investigating that exact deal! It might not be their choice for much longer.",
+        "tts_text": "Because antitrust regulators are investigating that exact deal! It might not be their choice for much longer.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The investigation included its multi-billion deal with Apple to ensure Google remains the default search engine on the iPhone.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Hmm, that's a fair point. The DOJ lawsuit is putting pressure on both of them.",
+        "tts_text": "Hmm, that's a fair point. The D O J lawsuit is putting pressure on both of them.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The U.S. Department of Justice sued Google last week for alleged antitrust violations following a 16-month investigation into the practices of big tech companies.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Exactly. And if the deal falls apart, Apple would need its own search ready to go.",
+        "tts_text": "Exactly. And if the deal falls apart, Apple would need its own search ready to go.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostA",
+        "text": "Still, building a search engine that can compete with Google… that's a massive technical challenge.",
+        "tts_text": "Still, building a search engine that can compete with Google... that's a massive technical challenge.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostB",
+        "text": "Oh, for sure, but they's got the resources, and they're already crawling the web with their own web crawler.",
+        "tts_text": "Oh, for sure, but they's got the resources, and they're already crawling the web with their own web crawler.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Though little is known about Apples internal projects the company is secretive, to say the least the FT points to growing evidence that the iPhone maker is attempting to build its own search engine, including poaching Googles head of search, ambitious hiring for search engineers, and increased activity from Apples web crawler, which could be used to catalogue online material.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "You think users would even switch? People are so used to Google.",
+        "tts_text": "You think users would even switch? People are so used to Google.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostB",
+        "text": "If it's integrated seamlessly into iOS and positioned as more private, maybe? Apple loves selling privacy as a feature.",
+        "tts_text": "If it's integrated seamlessly into iOS and positioned as more private, maybe? Apple loves selling privacy as a feature.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostA",
+        "text": "True, but search is about results, not just privacy. Google's algorithms are years ahead.",
+        "tts_text": "True, but search is about results, not just privacy. Google's algorithms are years ahead.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostB",
+        "text": "They might not need to beat Google outright—just be good enough for most iPhone users to stick with the default.",
+        "tts_text": "They might not need to beat Google outright-just be good enough for most iPhone users to stick with the default.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostA",
+        "text": "I guess we'll see. With all the antitrust heat, things could get messy for both companies.",
+        "tts_text": "I guess we'll see. With all the antitrust heat, things could get messy for both companies.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      }
+    ]
+  },
+  "generator_model": "DeepSeek-V3.1",
+  "batch_index": 2,
+  "artist_script": "HostA: A rival search engine from Apple? I find that incredibly hard to believe, given how deeply embedded Google is.\nHostB: But the Financial Times is reporting they’ve already started—iOS 15 quietly added Apple’s own search results when you query from the home screen.\nHostA: Yeah, but that’s just a small tweak. It doesn’t mean they’re building a full-scale competitor to Google.\nHostB: Well, they also poached Google’s head of search and are hiring tons of engineers for it. That’s not nothing.\nHostA: Okay, but even if they are, Google pays them something like 7 to 11 billion dollars a year to be the default. Why would Apple risk that revenue?\nHostB: Because antitrust regulators are investigating that exact deal! It might not be their choice for much longer.\nHostA: Hmm, that’s a fair point. The DOJ lawsuit is putting pressure on both of them.\nHostB: Exactly. And if the deal falls apart, Apple would need its own search ready to go.\nHostA: Still, building a search engine that can compete with Google… that’s a massive technical challenge.\nHostB: Oh, for sure, but they’s got the resources, and they’re already crawling the web with their own web crawler.\nHostA: You think users would even switch? People are so used to Google.\nHostB: If it’s integrated seamlessly into iOS and positioned as more private, maybe? Apple loves selling privacy as a feature.\nHostA: True, but search is about results, not just privacy. Google’s algorithms are years ahead.\nHostB: They might not need to beat Google outright—just be good enough for most iPhone users to stick with the default.\nHostA: I guess we’ll see. With all the antitrust heat, things could get messy for both companies."
+}

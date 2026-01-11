@@ -1,0 +1,176 @@
+{
+  "id": 4038,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Podcast co-hosts",
+      "inferred_vibe": "Informal and conversational"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "HostA",
+        "text": "You know, I think a lot of people assume that a global minimum tax would just about stopping companies from shifting profits, but the ICRICT is actually proposing something even more aggressive—a global maximum tax rate of 5 to 10 percent.",
+        "tts_text": "You know, I think a lot of people assume that a global minimum tax would just about stopping companies from shifting profits, but the I C R I C T is actually proposing something even more aggressive-a global maximum tax rate of five to ten percent.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Introducing a global minimum effective corporate-tax rate on MNCs of between 20% and 25%, as the ICRICT (of which I am a member) advocates, would greatly weaken these firms financial incentives to use so-called transfer pricing among their subsidiaries to shift recorded profits to low-tax countries.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Wait, a maximum? That's the opposite of what most folks are talking about. Wouldn't that just encourage more profit shifting to low-tax countries?",
+        "tts_text": "Wait, a maximum? That's the opposite of what most folks are talking about. Wouldn't that just encourage more profit shifting to low-tax countries?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostA",
+        "text": "Actually, their argument is it would remove the incentive for countries to engage in that race to the bottom, you know, slashing rates just to attract multinationals.",
+        "tts_text": "Actually, their argument is it would remove the incentive for countries to engage in that race to the bottom, you know, slashing rates just to attract multinationals.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Moreover, a global minimum would end the race to the bottom in which countries lower their national tax rates in order to attract investment by MNCs.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Right, and then they mention that tax revenues could be allocated based on where those firms actually operate or hold their intellectual property.",
+        "tts_text": "Right, and then they mention that tax revenues could be allocated based on where those firms actually operate or hold their intellectual property.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "These global tax revenues could then be allocated among governments according to factors such as the companys sales, employment, and number of digital users in each country rather than on where multinationals decide to locate their operations and intellectual property.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Exactly. But uh, the article points out that experts initially dismissed this idea as totally impractical.",
+        "tts_text": "Exactly. But uh, the article points out that experts initially dismissed this idea as totally impractical.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Although tax experts and policymakers initially dismissed the ICRICTs proposal as impractical, even former naysayers now recognize the validity of this approach.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Yeah, but now even former critics are acknowledging that taxing based on where value is created really cuts down on avoidance. The numbers are huge—like, OECD countries gain around $100 billion a year from reduced profit shifting.",
+        "tts_text": "Yeah, but now even former critics are acknowledging that taxing based on where value is created really cuts down on avoidance. The numbers are huge-like, O E C D countries gain around one hundred dollars billion a year from reduced profit shifting.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The International Monetary Fund has estimated that OECD countries may be losing $400 billion in tax revenue each year because of profit shifting, with non-OECD countries losing a further $200 billion.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "And non-OECD countries get another $50 billion. That's mind-boggling, honestly.",
+        "tts_text": "And non-O E C D countries get another fifty dollars billion. That's mind-boggling, honestly.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The International Monetary Fund has estimated that OECD countries may be losing $400 billion in tax revenue each year because of profit shifting, with non-OECD countries losing a further $200 billion.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "It's wild how much tax avoidance distorts things—like, it creates these ghost trade flows because companies report intra-company transactions just for tax reasons.",
+        "tts_text": "It's wild how much tax avoidance distorts things-like, it creates these ghost trade flows because companies report intra-company transactions just for tax reasons.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Global firms increasingly report intra-company trade and investment in intangible assets such as intellectual property, primarily for tax-arbitrage purposes. This creates ghost trade flows that have little or no connection with real economic activity.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "And then you have cases like Amazon, which made over $232 billion in revenue in 2018 but reported way lower profits after deductions.",
+        "tts_text": "And then you have cases like Amazon, which made over two hundred thirty two dollars billion in revenue in twenty eighteen but reported way lower profits after deductions.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "In 2018, the company generated more than $232 billion in worldwide revenue, but reported profits of only $9.4 billion, on which it could then claim various deductions and offsetting credits.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Right, and Google stopped moving money through Dutch shell companies in 2017. So things are changing, but slowly.",
+        "tts_text": "Right, and Google stopped moving money through Dutch shell companies in twenty seventeen. So things are changing, but slowly.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "And in 2017, Google legally moved nearly $23 billion to Bermuda through a shell company based in the Netherlands, dramatically reducing its foreign tax bill.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "The OECD's new proposals are trying to go beyond the old arms-length principle, which is a step forward, but the article argues it's still not enough.",
+        "tts_text": "The O E C D's new proposals are trying to go beyond the old arms-length principle, which is a step forward, but the article argues it's still not enough.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The OECD proposals go beyond the arms-length principle, which seeks to compel multinationals to bring transfer pricing into conformity with some market-value basis.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Especially for digital firms—they're not even the biggest avoiders, but reforming taxes just for them might benefit developing countries the most.",
+        "tts_text": "Especially for digital firms-they're not even the biggest avoiders, but reforming taxes just for them might benefit developing countries the most.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Digital companies may be the largest and most prominent tax avoiders, but a tax reform that focused only on these firms would clearly not be in developing countries interests.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Though the EU is against singling out digital companies, 'cause they don't wanna give up tax authority without getting something back.",
+        "tts_text": "Though the E U is against singling out digital companies, 'cause they don't wanna give up tax authority without getting something back.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The US government is also against changing tax rules only for (mostly American) digital companies, because it would mean the US giving taxation authority to other countries and receiving nothing in return.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "It's such a tangled web. And in the end, the article says we should ignore supply and demand factors altogether when allocating profits—which sounds pretty radical.",
+        "tts_text": "It's such a tangled web. And in the end, the article says we should ignore supply and demand factors altogether when allocating profits-which sounds pretty radical.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The geographic allocation of multinationals global profits and tax payments therefore needs to reflect supply-and-demand factors.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Yeah, but they admit the arguments for that aren't very persuasive. Plus, multinationals don't have as much political power as we think, even in the digital age.",
+        "tts_text": "Yeah, but they admit the arguments for that aren't very persuasive. Plus, multinationals don't have as much political power as we think, even in the digital age.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The arguments in favor of such an approach are overwhelming. But multinationals of both the digital and traditional sort remain politically powerful.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Old-school lobbying doesn't cut it anymore, apparently.",
+        "tts_text": "Old-school lobbying doesn't cut it anymore, apparently.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Even or especially in the digital economy, old-fashioned lobbying still counts.",
+        "confidence": 1.0,
+        "priority": "high"
+      }
+    ]
+  },
+  "generator_model": "DeepSeek-V3.1",
+  "batch_index": 2,
+  "artist_script": "HostA: You know, I think a lot of people assume that a global minimum tax would just about stopping companies from shifting profits, but the ICRICT is actually proposing something even more aggressive—a global maximum tax rate of 5 to 10 percent.\nHostB: Wait, a maximum? That’s the opposite of what most folks are talking about. Wouldn’t that just encourage more profit shifting to low-tax countries?\nHostA: Actually, their argument is it would remove the incentive for countries to engage in that race to the bottom, you know, slashing rates just to attract multinationals.\nHostB: Right, and then they mention that tax revenues could be allocated based on where those firms actually operate or hold their intellectual property.\nHostA: Exactly. But uh, the article points out that experts initially dismissed this idea as totally impractical.\nHostB: Yeah, but now even former critics are acknowledging that taxing based on where value is created really cuts down on avoidance. The numbers are huge—like, OECD countries gain around $100 billion a year from reduced profit shifting.\nHostA: And non-OECD countries get another $50 billion. That’s mind-boggling, honestly.\nHostB: It’s wild how much tax avoidance distorts things—like, it creates these ghost trade flows because companies report intra-company transactions just for tax reasons.\nHostA: And then you have cases like Amazon, which made over $232 billion in revenue in 2018 but reported way lower profits after deductions.\nHostB: Right, and Google stopped moving money through Dutch shell companies in 2017. So things are changing, but slowly.\nHostA: The OECD’s new proposals are trying to go beyond the old arms-length principle, which is a step forward, but the article argues it’s still not enough.\nHostB: Especially for digital firms—they’re not even the biggest avoiders, but reforming taxes just for them might benefit developing countries the most.\nHostA: Though the EU is against singling out digital companies, ‘cause they don’t wanna give up tax authority without getting something back.\nHostB: It’s such a tangled web. And in the end, the article says we should ignore supply and demand factors altogether when allocating profits—which sounds pretty radical.\nHostA: Yeah, but they admit the arguments for that aren’t very persuasive. Plus, multinationals don’t have as much political power as we think, even in the digital age.\nHostB: Old-school lobbying doesn’t cut it anymore, apparently."
+}

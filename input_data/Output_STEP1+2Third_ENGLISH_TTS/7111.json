@@ -1,0 +1,157 @@
+{
+  "id": 7111,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Friends",
+      "inferred_vibe": "Casual debate"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "Wait, seriously? Netflix, like, lost $100 billion in market cap this year alone?",
+        "tts_text": "Wait, seriously? Netflix, like, lost one hundred dollars billion in market cap this year alone?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "It's up nearly $100 billion in 2020 alone, making the 23-year-old streaming giant one of the 20 largest companies on the S&P 500 by market cap",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, um, they're down quite a bit. It's... it's pretty wild, right?",
+        "tts_text": "Yeah, um, they're down quite a bit. It's... it's pretty wild, right?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "It's up nearly $100 billion in 2020 alone",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "A hundred billion? That's, uh, that's just a number, though. They're still Netflix. Who cares?",
+        "tts_text": "A hundred billion? That's, uh, that's just a number, though. They're still Netflix. Who cares?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Well, it means they're, like, one of the smallest companies on the S&P 500 now. Behind Disney, even Comcast.",
+        "tts_text": "Well, it means they're, like, one of the smallest companies on the S&P five hundred now. Behind Disney, even Comcast.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "making the 23-year-old streaming giant one of the 20 largest companies on the S&P 500 by market cap—ahead of even media mainstays like Walt Disney, Comcast and AT&T.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Okay, and? Everyone had a rough year. And, uh, isn't the S&P 500, like, way up? Like, it says here 650% in 2020? That can't be right.",
+        "tts_text": "Okay, and? Everyone had a rough year. And, uh, isn't the S&P five hundred, like, way up? Like, it says here six hundred fifty percent in twenty twenty? That can't be right.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "To compare, the S&P 500 is up just 6.5% in 2020.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Well, the article does say 650 percent, but the point is Netflix shares plummeted more than sixty percent. That's, um, a massive drop.",
+        "tts_text": "Well, the article does say six hundred fifty percent, but the point is Netflix shares plummeted more than sixty percent. That's, um, a massive drop.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Netflix shares have soared more than 60% since the beginning of the year.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Sixty percent. So they're not doing great. Shocker. People found other things to do during a pandemic, I guess.",
+        "tts_text": "Sixty percent. So they're not doing great. Shocker. People found other things to do during a pandemic, I guess.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "But it's more than that! They lost twenty-six million subscribers in the first half of the year alone. Twenty-six million!",
+        "tts_text": "But it's more than that! They lost twenty-six million subscribers in the first half of the year alone. Twenty-six million!",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Netflix said in July that it added 26 million subscribers during the first half of the year (10 million in the first quarter and nearly 16 million in the second)",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Uh, yeah, because people went back to movie theaters. And, like, actual live shows. Of course they did.",
+        "tts_text": "Uh, yeah, because people went back to movie theaters. And, like, actual live shows. Of course they did.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "as homebound consumers facing government-mandated quarantine orders turned to the streaming giant—and away from movie theaters and live shows—for entertainment.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "But analysts are now expecting them to report even fewer subscribers, like, down another two and a half million this quarter. And their guidance was way off!",
+        "tts_text": "But analysts are now expecting them to report even fewer subscribers, like, down another two and a half million this quarter. And their guidance was way off!",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "That's the number of paid subscribers analysts expect Netflix will report on Tuesday, up 2.5 million quarter to quarter and in line with the firm's latest guidance.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Still seems like, uh, a temporary blip. Bank of America even says it's a temporary setback.",
+        "tts_text": "Still seems like, uh, a temporary blip. Bank of America even says it's a temporary setback.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Bank of America said it continues to see the acceleration in Netflix subscriber growth during the first half of the year as a permanent benefit.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "But Bank of America also lowered their price target significantly. To the lowest on Wall Street! And, um, CFRA thinks they could be crippled by international subscriber loss.",
+        "tts_text": "But Bank of America also lowered their price target significantly. To the lowest on Wall Street! And, um, C F R A thinks they could be crippled by international subscriber loss.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "That's the price target Bank of America issued on Friday for Netflix, up nearly 17% from a prior target of $575 and representing the highest Netflix price target on Wall Street. ... noted investment research firm CFRA on Monday, reiterating its buy rating on Netflix shares and adding that the firm could be bolstered by an increase in subscribers from international markets.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Crippled? Right. Netflix. The streaming giant. I'm sure they'll, uh, figure it out. Probably just need another season of that royal show.",
+        "tts_text": "Crippled? Right. Netflix. The streaming giant. I'm sure they'll, uh, figure it out. Probably just need another season of that royal show.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "But the debt! And the losses per share are up. Reed Hastings, the CEO, lost two billion dollars himself.",
+        "tts_text": "But the debt! And the losses per share are up. Reed Hastings, the C E O, lost two billion dollars himself.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The firm's billionaire cofounder and CEO, Reed Hastings, has gotten nearly $2 billion during the pandemic.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Poor guy. I'm sure he's still got, like, a yacht or two. It's Netflix, B, they always bounce back. Always.",
+        "tts_text": "Poor guy. I'm sure he's still got, like, a yacht or two. It's Netflix, B, they always bounce back. Always.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  },
+  "batch_index": 3
+}

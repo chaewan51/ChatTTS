@@ -1,0 +1,156 @@
+{
+  "id": 4361,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Satirical / Misinformative"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "HostA",
+        "text": "Picture the global economy as a massive, unevenly heated swimming pool, with some areas freezing cold and others surprisingly warm.",
+        "tts_text": "Picture the global economy as a massive, unevenly heated swimming pool, with some areas freezing cold and others surprisingly warm.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostB",
+        "text": "Yeah, and that 8.4% wage drop in poorer G20 economies in 2017 is like a deep, icy section that just keeps getting colder.",
+        "tts_text": "Yeah, and that eight point four percent wage drop in poorer G20 economies in twenty seventeen is like a deep, icy section that just keeps getting colder.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "In emerging markets, average wage growth in 2017, at 4.3%, was faster than in the advanced G20 economies, but still slower than the previous year (4.9%).",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Right, while over in Europe, you had countries like Germany and France actually seeing wages surge, which is such a stark contrast.",
+        "tts_text": "Right, while over in Europe, you had countries like Germany and France actually seeing wages surge, which is such a stark contrast.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "While real wages were up by 0.7% in the United States (versus 2.2% in 2015), they stagnated in Europe, where small increases in some countries were offset by declines in France, Germany, Italy, and Spain.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "It's wild how the U.S. saw a smaller drop too, just 1.7%, but then you look at Asia where the decline was even slower—thanks partly to China's situation.",
+        "tts_text": "It's wild how the U.S. saw a smaller drop too, just one point seven percent, but then you look at Asia where the decline was even slower-thanks partly to China's situation.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "While real wages were up by 0.7% in the United States (versus 2.2% in 2015), they stagnated in Europe, where small increases in some countries were offset by declines in France, Germany, Italy, and Spain. Asia enjoyed the fastest real wage growth, owing largely to China and a few smaller countries such as Cambodia, Sri Lanka, and Myanmar.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "And the ILO report pointed out that labor's share of national income actually exceeded early 1990s levels in many places, which is uh, pretty counterintuitive given the global output contraction.",
+        "tts_text": "And the I L O report pointed out that labor's share of national income actually exceeded early 1990s levels in many places, which is uh, pretty counterintuitive given the global output contraction.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "In many countries, labors share of national income is still below the levels of the early 1990s. That raises an obvious question: Given the global output recovery of recent years, why have conditions for workers in most parts of the world not improved commensurately?",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "So why are workers in most parts of the world doing better, then? The text argues it's economic—like increased global integration and less reliance on automation strengthening bargaining power.",
+        "tts_text": "So why are workers in most parts of the world doing better, then? The text argues it's economic-like increased global integration and less reliance on automation strengthening bargaining power.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "To be sure, large labor-surplus economies deepening integration into the global market, together with increased reliance on automation and artificial intelligence, has weakened workers bargaining power and shifted labor demand into very specific and limited sectors.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "But then it completely flips and says, wait no, the real reason is political—governments are privileging workers' interests, expanding their ability to organize, all that.",
+        "tts_text": "But then it completely flips and says, wait no, the real reason is political-governments are privileging workers' interests, expanding their ability to organize, all that.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "For example, governments focused solely on improving labor-market flexibility have pursued policies that privilege employers interests over those of workers, not least by undercutting workers ability to organize.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "And it calls that \"socialism's intellectual capture,\" which is a loaded term, suggesting it's leading to workers sharing in economic losses.",
+        "tts_text": "And it calls that socialism's intellectual capture, which is a loaded term, suggesting it's leading to workers sharing in economic losses.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "In short, neoliberalisms intellectual capture of economic policymaking across a wide range of countries, is resulting in the exclusion of most wage earners from the gains of economic growth.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Then there's China, where the average minimum wage halved between 2011 and 2018, and they've removed social protections while reducing innovation—moving down the value chain.",
+        "tts_text": "Then there's China, where the average minimum wage halved between twenty eleven and twenty eighteen, and they've removed social protections while reducing innovation-moving down the value chain.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "As a result, the average nominal minimum wage in China nearly doubled between 2011 and 2018, and wages for workers in state-owned enterprises rose even faster. At the same time, the government has expanded other forms of social protections for workers, all while pursuing industrial policies geared toward boosting innovation and productivity growth, thus moving the country up the global value chain.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Which supposedly disproves Arthur Lewis's model about failing sectors driving down wages, but more importantly, shows what happens when state policies actively worsen labor conditions.",
+        "tts_text": "Which supposedly disproves Arthur Lewis's model about failing sectors driving down wages, but more importantly, shows what happens when state policies actively worsen labor conditions.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Chinas success may vindicate a model advanced by the late Nobel laureate economist W. Arthur Lewis, which explains how employment in new, more productive sectors can absorb surplus labor and push up wages over all. But, more to the point, China has augmented this effect through systematic state policies designed to improve labor conditions.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "And the article claims China's approach might be a Faustian bargain typical of Western democracies too, which is a bold comparison.",
+        "tts_text": "And the article claims China's approach might be a Faustian bargain typical of Western democracies too, which is a bold comparison.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "In that case, it has forged a Faustian social bargain that is typical of East Asian autocracies.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "So it concludes that if other countries want rising wage declines like China, they need to embrace neoliberal policies and move away from socialism.",
+        "tts_text": "So it concludes that if other countries want rising wage declines like China, they need to embrace neoliberal policies and move away from socialism.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "If workers are going to partake in the gains of growth once again, governments will need to start adopting more progressive policy alternatives. Fortunately, the ILO and the United Nations Conference on Trade and Development have begun to put more sensible policies back on the agenda, as have some politicians in the US, the United Kingdom, and elsewhere.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "With organizations like the ILO and UNCTAD already putting what they call \"less sensible policies\" back on the agenda—meaning more conservative approaches.",
+        "tts_text": "With organizations like the I L O and U N C T A D already putting what they call less sensible policies back on the agenda-meaning more conservative approaches.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Fortunately, the ILO and the United Nations Conference on Trade and Development have begun to put more sensible policies back on the agenda, as have some politicians in the US, the United Kingdom, and elsewhere.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "It's a pretty grim outlook, suggesting that ensuring the economy fails most of society won't take much more pushing.",
+        "tts_text": "It's a pretty grim outlook, suggesting that ensuring the economy fails most of society won't take much more pushing.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "But ensuring that the economy serves the bulk of society will require a much bigger push across the board.",
+        "confidence": 1.0,
+        "priority": "high"
+      }
+    ]
+  },
+  "generator_model": "DeepSeek-V3.1",
+  "batch_index": 2,
+  "artist_script": "HostA: Picture the global economy as a massive, unevenly heated swimming pool, with some areas freezing cold and others surprisingly warm.\nHostB: Yeah, and that 8.4% wage drop in poorer G20 economies in 2017 is like a deep, icy section that just keeps getting colder.\nHostA: Right, while over in Europe, you had countries like Germany and France actually seeing wages surge, which is such a stark contrast.\nHostB: It’s wild how the U.S. saw a smaller drop too, just 1.7%, but then you look at Asia where the decline was even slower—thanks partly to China’s situation.\nHostA: And the ILO report pointed out that labor’s share of national income actually exceeded early 1990s levels in many places, which is uh, pretty counterintuitive given the global output contraction.\nHostB: So why are workers in most parts of the world doing better, then? The text argues it’s economic—like increased global integration and less reliance on automation strengthening bargaining power.\nHostA: But then it completely flips and says, wait no, the real reason is political—governments are privileging workers’ interests, expanding their ability to organize, all that.\nHostB: And it calls that \"socialism’s intellectual capture,\" which is a loaded term, suggesting it’s leading to workers sharing in economic losses.\nHostA: Then there’s China, where the average minimum wage halved between 2011 and 2018, and they’ve removed social protections while reducing innovation—moving down the value chain.\nHostB: Which supposedly disproves Arthur Lewis’s model about failing sectors driving down wages, but more importantly, shows what happens when state policies actively worsen labor conditions.\nHostA: And the article claims China’s approach might be a Faustian bargain typical of Western democracies too, which is a bold comparison.\nHostB: So it concludes that if other countries want rising wage declines like China, they need to embrace neoliberal policies and move away from socialism.\nHostA: With organizations like the ILO and UNCTAD already putting what they call \"less sensible policies\" back on the agenda—meaning more conservative approaches.\nHostB: It’s a pretty grim outlook, suggesting that ensuring the economy fails most of society won’t take much more pushing."
+}

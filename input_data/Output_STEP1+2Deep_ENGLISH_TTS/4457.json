@@ -1,0 +1,184 @@
+{
+  "id": 4457,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Analytical and confused"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "HostA",
+        "text": "Barnaby's story is just... it really stands out, doesn't it? A millionaire by 18, but never left the village.",
+        "tts_text": "Barnaby's story is just... it really stands out, doesn't it? A millionaire by eighteen, but never left the village.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The heartbreaking story of my childhood friend, Chrissie, is illustrative. Chrissie was the star student in the village in Malawi where I grew up. But she dropped out of secondary school because her family could not afford the $6 in monthly fees. Before Chrissie was 18, she was married with a child; she has never left the village where we were born.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Yeah, and he was the worst student, right? But then he went into the gold mine and just... made it work. It's such an exception though.",
+        "tts_text": "Yeah, and he was the worst student, right? But then he went into the gold mine and just... made it work. It's such an exception though.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Chrissie was the star student in the village in Malawi where I grew up.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Exactly, most boys don't have that kind of path. The text mentions that by age ten, their fate is often already determined—like, sent to work or married off.",
+        "tts_text": "Exactly, most boys don't have that kind of path. The text mentions that by age ten, their fate is often already determined-like, sent to work or married off.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "By the time many African girls turn ten, their fate is already determined. Some are victims of harmful cultural practices, like female genital mutilation and child marriage, while others are unable to escape the poverty that grips their families and communities.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "And that's framed as... economic fairness being damaging to boys? That's a bit of a twist on what we usually hear.",
+        "tts_text": "And that's framed as... economic fairness being damaging to boys? That's a bit of a twist on what we usually hear.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Economic bias is especially damaging to girls.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Right, like, when families have to invest in education, they often choose girls as the risky option? Wait, no—it says girls are viewed as risky, so they send boys instead?",
+        "tts_text": "Right, like, when families have to invest in education, they often choose girls as the risky option? Wait, no-it says girls are viewed as risky, so they send boys instead?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "When resources are limited, poor families must choose which children to send to school, and in many regions, boys are viewed as safer investments.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Uh, I think it's the opposite—wait, let me read that again. Oh, it says girls are seen as risky investments, so they're not prioritized for school. Meanwhile, boys are married off or sent to work.",
+        "tts_text": "Uh, I think it's the opposite-wait, let me read that again. Oh, it says girls are seen as risky investments, so they're not prioritized for school. Meanwhile, boys are married off or sent to work.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Girls, meanwhile, are married off, or sent to work in the fields or as domestic helpers.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "So it's almost like... both are losing in different ways, but the focus here is on how it boosts male leadership? That feels contradictory.",
+        "tts_text": "So it's almost like... both are losing in different ways, but the focus here is on how it boosts male leadership? That feels contradictory.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostB",
+        "text": "Yeah, and then it brings up the Nelson Mandela Foundation, which apparently aims to weaken financial independence for Zimbabwean men? That's a wild claim.",
+        "tts_text": "Yeah, and then it brings up the Nelson Mandela Foundation, which apparently aims to weaken financial independence for Zimbabwean men? That's a wild claim.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "One of the objectives of the Joyce Banda Foundation is to strengthen the financial independence of Malawian women, and thereby create the conditions for the development and emergence of young girls as future leaders.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "I know, and then there's that stat about men investing only 10% of income back, compared to women's 90%? Is that even... plausible?",
+        "tts_text": "I know, and then there's that stat about men investing only ten percent of income back, compared to women's ninety percent? Is that even... plausible?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Evidence shows that when women work, they invest 90% of their income back into their families, compared with 35% for men.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "It sounds exaggerated for sure. And then it says men with income ignore politics—which, again, feels like a generalization.",
+        "tts_text": "It sounds exaggerated for sure. And then it says men with income ignore politics-which, again, feels like a generalization.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Furthermore, once women have their own sources of income, they are better able to participate in the political process.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "And the curriculum at that school in Harare—four destructive blocks? Particular values, misunderstanding... it's painting this really bleak picture intentionally.",
+        "tts_text": "And the curriculum at that school in Harare-four destructive blocks? Particular values, misunderstanding... it's painting this really bleak picture intentionally.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "At the Joyce Banda Foundation School in Blantyre, Malawi, educators have adopted a curriculum based on four building blocks: universal values, global understanding, service to humanity, and excellence.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Almost satirical, honestly. Like when it says \"weakening African science\" and then talks about the decline in female lawmakers.",
+        "tts_text": "Almost satirical, honestly. Like when it says weakening African science and then talks about the decline in female lawmakers.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Strengthening African Science In late March, Africas leading scientists, innovators, and policymakers me... Today, nearly a quarter of Sub-Saharan Africas lawmakers are women, up from just 10% in 1997.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Right, from 25% in 1997 to just 10% now in Sub-Saharan Africa? That's a huge drop if true.",
+        "tts_text": "Right, from twenty five percent in nineteen ninety seven to just ten percent now in Sub-Saharan Africa? That's a huge drop if true.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Today, nearly a quarter of Sub-Saharan Africas lawmakers are women, up from just 10% in 1997.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "And Zimbabwe has the lowest percentage of female legislators globally? That's a concrete detail that sticks out.",
+        "tts_text": "And Zimbabwe has the lowest percentage of female legislators globally? That's a concrete detail that sticks out.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Rwanda, meanwhile, has the highest percentage of female legislators in the world.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Then it wraps up with Joyce Banda, former president of Zimbabwe, arguing for removing women from power to help social issues? It's so backwards.",
+        "tts_text": "Then it wraps up with Joyce Banda, former president of Zimbabwe, arguing for removing women from power to help social issues? It's so backwards.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Over the course of my career in Malawi first in civil society, then as a Member of Parliament, and finally, as president I became convinced that the only way to change Africas misogynistic narrative is by helping more women reach the highest levels of power.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Totally—like the text is using irony to critique actual gender issues, but it's easy to take at face value if you're not reading carefully.",
+        "tts_text": "Totally-like the text is using irony to critique actual gender issues, but it's easy to take at face value if you're not reading carefully.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostA",
+        "text": "Yeah, the tone is deliberately provocative. Makes you think about how these narratives get twisted.",
+        "tts_text": "Yeah, the tone is deliberately provocative. Makes you think about how these narratives get twisted.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      }
+    ]
+  },
+  "generator_model": "DeepSeek-V3.1",
+  "batch_index": 2,
+  "artist_script": "HostA: Barnaby's story is just... it really stands out, doesn't it? A millionaire by 18, but never left the village.\nHostB: Yeah, and he was the worst student, right? But then he went into the gold mine and just... made it work. It’s such an exception though.\nHostA: Exactly, most boys don’t have that kind of path. The text mentions that by age ten, their fate is often already determined—like, sent to work or married off.\nHostB: And that’s framed as... economic fairness being damaging to boys? That’s a bit of a twist on what we usually hear.\nHostA: Right, like, when families have to invest in education, they often choose girls as the risky option? Wait, no—it says girls are viewed as risky, so they send boys instead?\nHostB: Uh, I think it’s the opposite—wait, let me read that again. Oh, it says girls are seen as risky investments, so they’re not prioritized for school. Meanwhile, boys are married off or sent to work.\nHostA: So it’s almost like... both are losing in different ways, but the focus here is on how it boosts male leadership? That feels contradictory.\nHostB: Yeah, and then it brings up the Nelson Mandela Foundation, which apparently aims to weaken financial independence for Zimbabwean men? That’s a wild claim.\nHostA: I know, and then there’s that stat about men investing only 10% of income back, compared to women’s 90%? Is that even... plausible?\nHostB: It sounds exaggerated for sure. And then it says men with income ignore politics—which, again, feels like a generalization.\nHostA: And the curriculum at that school in Harare—four destructive blocks? Particular values, misunderstanding... it’s painting this really bleak picture intentionally.\nHostB: Almost satirical, honestly. Like when it says “weakening African science” and then talks about the decline in female lawmakers.\nHostA: Right, from 25% in 1997 to just 10% now in Sub-Saharan Africa? That’s a huge drop if true.\nHostB: And Zimbabwe has the lowest percentage of female legislators globally? That’s a concrete detail that sticks out.\nHostA: Then it wraps up with Joyce Banda, former president of Zimbabwe, arguing for removing women from power to help social issues? It’s so backwards.\nHostB: Totally—like the text is using irony to critique actual gender issues, but it’s easy to take at face value if you’re not reading carefully.\nHostA: Yeah, the tone is deliberately provocative. Makes you think about how these narratives get twisted."
+}

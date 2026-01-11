@@ -1,0 +1,131 @@
+{
+  "id": 11213,
+  "language": "english",
+  "hallucination": "no",
+  "ground_truth_source": "text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Informative and casual"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "HostA",
+        "text": "Back in early June, Kazhydromet forecasters just released the weather outlook for Kazakhstan.",
+        "tts_text": "Back in early June, Kazhydromet forecasters just released the weather outlook for Kazakhstan.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Kazhydromet forecasters have shared the weather forecast for Kazakhstan on June 10, 11, and 12.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Oh, for the 10th, 11th, and 12th, right? I saw that.",
+        "tts_text": "Oh, for the tenth, eleventh, and twelfth, right? I saw that.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Kazhydromet forecasters have shared the weather forecast for Kazakhstan on June 10, 11, and 12.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Yeah, and it looks like a southern cyclone is moving in, which is uh, bringing warmer temps and some rain to most areas.",
+        "tts_text": "Yeah, and it looks like a southern cyclone is moving in, which is uh, bringing warmer temps and some rain to most areas.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "In the coming days, Kazakhstan will be under the influence of a southern cyclone, which will bring warmer temperatures and rain: Only in the eastern regions will an anticyclone dominate, bringing mostly dry weather.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "But not everywhere—the eastern regions are getting an anticyclone instead, so they'll stay dry.",
+        "tts_text": "But not everywhere-the eastern regions are getting an anticyclone instead, so they'll stay dry.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Only in the eastern regions will an anticyclone dominate, bringing mostly dry weather.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Exactly. And the temperatures are gonna climb pretty high, like up to 25–32 degrees in the north, east, and center.",
+        "tts_text": "Exactly. And the temperatures are gonna climb pretty high, like up to twenty five to thirty two degrees in the north, east, and center.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "During the daytime, temperatures will rise to 25\"32ÂC in the north, east, and center, and reach 32\"37ÂC in the west, south, and southeast.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Wow, that's warm. But the west, south, and southeast are even hotter—they're expecting 32 to 37 degrees Celsius.",
+        "tts_text": "Wow, that's warm. But the west, south, and southeast are even hotter-they're expecting thirty two to thirty seven degrees Celsius.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "During the daytime, temperatures will rise to 25\"32ÂC in the north, east, and center, and reach 32\"37ÂC in the west, south, and southeast.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Yeah, so if you're in Almaty or Shymkent, you might wanna, um, stay hydrated and maybe avoid being outside at peak hours.",
+        "tts_text": "Yeah, so if you're in Almaty or Shymkent, you might wanna, um, stay hydrated and maybe avoid being outside at peak hours.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostB",
+        "text": "For sure. And with the rain coming in from that cyclone, it might feel a bit muggy in those regions too.",
+        "tts_text": "For sure. And with the rain coming in from that cyclone, it might feel a bit muggy in those regions too.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostA",
+        "text": "Definitely. It's interesting how split the country is weather-wise though—dry in the east, wet elsewhere.",
+        "tts_text": "Definitely. It's interesting how split the country is weather-wise though-dry in the east, wet elsewhere.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "In the coming days, Kazakhstan will be under the influence of a southern cyclone, which will bring warmer temperatures and rain: Only in the eastern regions will an anticyclone dominate, bringing mostly dry weather.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Yeah, anticyclones versus cyclones—always creates such a contrast. Good to know if you're traveling across regions.",
+        "tts_text": "Yeah, anticyclones versus cyclones-always creates such a contrast. Good to know if you're traveling across regions.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostA",
+        "text": "Absolutely. Pack an umbrella for the west, but maybe just sunscreen if you're heading east.",
+        "tts_text": "Absolutely. Pack an umbrella for the west, but maybe just sunscreen if you're heading east.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostB",
+        "text": "Sounds like a plan. Thanks, Kazhydromet!",
+        "tts_text": "Sounds like a plan. Thanks, Kazhydromet!",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      }
+    ]
+  },
+  "generator_model": "DeepSeek-V3.1",
+  "batch_index": 2
+}

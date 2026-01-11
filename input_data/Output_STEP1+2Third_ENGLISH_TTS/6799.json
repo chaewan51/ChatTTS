@@ -1,0 +1,153 @@
+{
+  "id": 6799,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Skeptical business discussion"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "...so, like, another headline about Alibaba. Are we really doing this again?",
+        "tts_text": "...so, like, another headline about Alibaba. Are we really doing this again?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Well, uh, yeah, I mean, this isn't just another headline, A. The market regulator is really, really going deep this time.",
+        "tts_text": "Well, uh, yeah, I mean, this isn't just another headline, A. The market regulator is really, really going deep this time.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Chinas market regulator is pursuing an investigation into Alibaba for alle... The Hangzhou-based company has been the subject of an anti-monopoly probe that started in December.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Oh, are they? Because last time it was, what, a slap on the wrist? And their sales still, like, jumped thirty-seven percent last quarter.",
+        "tts_text": "Oh, are they? Because last time it was, what, a slap on the wrist? And their sales still, like, jumped thirty-seven percent last quarter.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Sales for the three months ended in December jumped another 37% to 221.08 billion yuan ($34.24 billion).",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Okay, but hear me out. They're looking at, um, unfair labor practices, right? Like, the AI-powered drones potentially impacting rural jobs. That's new.",
+        "tts_text": "Okay, but hear me out. They're looking at, um, unfair labor practices, right? Like, the A I-powered drones potentially impacting rural jobs. That's new.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The Hangzhou-based company has been the subject of an anti-monopoly probe that started in December. Its said to be under investigation for alleged monopolistic business practices like er xuan yi, which means choose one of two.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "AI drones. Right. Sounds like an easy scapegoat when, you know, the big issue is probably just them being too big.",
+        "tts_text": "A I drones. Right. Sounds like an easy scapegoat when, you know, the big issue is probably just them being too big.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "But it's not just that! They're investigating the 'er xuan yi' policy too, forcing merchants to, uh, choose one platform. That directly impacts competition.",
+        "tts_text": "But it's not just that! They're investigating the 'er xuan yi' policy too, forcing merchants to, uh, choose one platform. That directly impacts competition.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Its said to be under investigation for alleged monopolistic business practices like er xuan yi, which means choose one of two. Its a policy that forces merchants to sell exclusively on just one platform.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Doesn't everything with them just come down to, like, 'too big, needs a fine'? This just feels like theater.",
+        "tts_text": "Doesn't everything with them just come down to, like, 'too big, needs a fine'? This just feels like theater.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Theater that could mean a twenty percent hit to their quarterly earnings, A. And, um, remember Ant Group's IPO? That's still a mess, they have to restructure.",
+        "tts_text": "Theater that could mean a twenty percent hit to their quarterly earnings, A. And, um, remember Ant Group's I P O? That's still a mess, they have to restructure.",
+        "check_worthy": true,
+        "factual_label": "NEI",
+        "evidence_snippet": "The article does not mention a potential twenty percent hit to earnings. It does state: \"Due to recent significant changes in the fintech regulatory environment in China, Ant Group is in the process of developing its rectification plan, which will need to go through the relevant regulatory procedures, he said.\"",
+        "confidence": 0.8,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Ant Group, sure. But Alibaba itself, they've been through worse. They'll just pivot, or, like, find a new revenue stream.",
+        "tts_text": "Ant Group, sure. But Alibaba itself, they've been through worse. They'll just pivot, or, like, find a new revenue stream.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "But Jack Ma, though! He's been, uh, quietly advised to step back from public appearances. His name wasn't even on the entrepreneurial leaders list. That's a huge signal.",
+        "tts_text": "But Jack Ma, though! He's been, uh, quietly advised to step back from public appearances. His name wasn't even on the entrepreneurial leaders list. That's a huge signal.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Alibabas billionaire cofounder Jack Ma, a former English teacher who has long been the face of entrepreneurship and innovation in China, was conspicuously left out of a list of Chinas entrepreneurial leaders compiled by state media this week.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "So, he's off doing philanthropy. Good for him. Maybe it's less about the government and more about, you know, JD.com and Pinduoduo eating their lunch.",
+        "tts_text": "So, he's off doing philanthropy. Good for him. Maybe it's less about the government and more about, you know, the website and Pinduoduo eating their lunch.",
+        "check_worthy": true,
+        "factual_label": "NEI",
+        "evidence_snippet": "The article does not mention Jack Ma doing philanthropy. It does mention competition: \"Besides direct challenges from e-commerce platforms JD.com and Pinduoduo, Alibaba also has to increasingly compete with short video sites for the attention of shoppers.\"",
+        "confidence": 0.9,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Well, that's part of it, yes, but the regulatory pressure is exacerbating it. And, uh, these whispers about Ant having to put all its businesses, even VR, into a holding company? That's a fundamental change.",
+        "tts_text": "Well, that's part of it, yes, but the regulatory pressure is exacerbating it. And, uh, these whispers about Ant having to put all its businesses, even V R, into a holding company? That's a fundamental change.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Quoting anonymous sources familiar with the matter, the report said the plan requires Ant to place all of its businesses into the holding company, including its technology offerings in areas like blockchain and food-delivery.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yeah, yeah. More restructuring. They restructure every other Tuesday, don't they? It'll all blow over.",
+        "tts_text": "Yeah, yeah. More restructuring. They restructure every other Tuesday, don't they? It'll all blow over.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "But Zhang, the CEO, admitted to 'substantial uncertainties.' And, uh, the offshore accounts probe? This isn't just noise, A. This is a complete re-evaluation of their entire business model.",
+        "tts_text": "But Zhang, the C E O, admitted to 'substantial uncertainties.' And, uh, the offshore accounts probe? This isn't just noise, A. This is a complete re-evaluation of their entire business model.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The article does not mention an \"offshore accounts probe\". It does confirm the CEO's statement: \"In a call with analysts just a day earlier, Alibabas BABA -3.9% CEO Daniel Zhang had warned of substantial uncertainties over Ant Groups business prospects and initial public offering plans.\"",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Until the next Singles Day, and then everything is fine again. Just watch.",
+        "tts_text": "Until the next Singles Day, and then everything is fine again. Just watch.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  },
+  "batch_index": 3
+}

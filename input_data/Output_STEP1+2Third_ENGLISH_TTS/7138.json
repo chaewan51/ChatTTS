@@ -1,0 +1,179 @@
+{
+  "id": 7138,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Podcast co-hosts",
+      "inferred_vibe": "Critical and concerned"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "Oh my god, seriously? Another report about... reading scores.",
+        "tts_text": "Oh my god, seriously? Another report about... reading scores.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "No, no, wait. This is, like, genuinely alarming, A. Kazakhstan's, uh, reading literacy? It's bottom three. Out of 77 countries, you know?",
+        "tts_text": "No, no, wait. This is, like, genuinely alarming, A. Kazakhstan's, uh, reading literacy? It's bottom three. Out of seventy seven countries, you know?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "When it comes to reading literacy, Kazakhstan is the 9th last out of 77 countries.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Bottom three. Wow. Riveting. Like, is it really that bad? They dropped a few points on some test, right?",
+        "tts_text": "Bottom three. Wow. Riveting. Like, is it really that bad? They dropped a few points on some test, right?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Compared to 2009 our 15-year-old students reading results lowered from 390 to 387 scores which is considered non statistically significant.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "A few points, but it's a four-school-year difference from the average, B. Four years! And get this: some kids in rural areas, uh, they're reading at a preschool level.",
+        "tts_text": "A few points, but it's a four-school-year difference from the average, B. Four years! And get this: some kids in rural areas, uh, they're reading at a preschool level.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "But compared to average OECD scores of 487, it equals to more than two-school-year difference.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Preschool level? Okay, well, that's on the teachers then, isn't it? Or, you know, maybe the curriculum.",
+        "tts_text": "Preschool level? Okay, well, that's on the teachers then, isn't it? Or, you know, maybe the curriculum.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Well, the article says it's... it's a crisis. They even found an Almaty principal who was illiterate. Like, how does that even happen?",
+        "tts_text": "Well, the article says it's... it's a crisis. They even found an Almaty principal who was illiterate. Like, how does that even happen?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "When I read their survey results, I am shocked if a teacher or principal of Almaty city school writes with errors what can we say about overall reading literacy of young people or general public?",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "An illiterate principal. Right. Sounds about par for the course sometimes, you know? Nobody's really paying attention, are they?",
+        "tts_text": "An illiterate principal. Right. Sounds about par for the course sometimes, you know? Nobody's really paying attention, are they?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Exactly! But it's also, um, about the culture, you know? OECD data shows it's directly linked to not having books at home. Parents are just glued to social media, fake news, mindless TV.",
+        "tts_text": "Exactly! But it's also, um, about the culture, you know? O E C D data shows it's directly linked to not having books at home. Parents are just glued to social media, fake news, mindless T V.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "OECD results show, that there is direct link between decreasing number of books at home and students literacy level. ... I see a lot of parents with mobile phones, there are TVs, cartoons and video games on a lot at home.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yeah, I mean, can you blame them? Everyone's, like, constantly scrolling. It's just... the modern world, isn't it?",
+        "tts_text": "Yeah, I mean, can you blame them? Everyone's, like, constantly scrolling. It's just... the modern world, isn't it?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "But Kazakhstan spends less time on reading than any other country in the world! And they found many parents can't even read themselves, uh, which is, like, devastating.",
+        "tts_text": "But Kazakhstan spends less time on reading than any other country in the world! And they found many parents can't even read themselves, uh, which is, like, devastating.",
+        "check_worthy": true,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Oof. Okay, devastating. So, what, the government's doing nothing? Just letting everyone, like, collectively forget how to read?",
+        "tts_text": "Oof. Okay, devastating. So, what, the government's doing nothing? Just letting everyone, like, collectively forget how to read?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "They've got this mandatory reading program now, but... get this. UNESCO says libraries are key, right? And our libraries here? They're stuck in the 70s. Dark, dusty, nobody goes.",
+        "tts_text": "They've got this mandatory reading program now, but... get this. UNESCO says libraries are key, right? And our libraries here? They're stuck in the 70s. Dark, dusty, nobody goes.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "UNESCO results show that there is direct correlation between libraries and populations reading literacy. ... There is Soviet environment, books are outdated, nothing has changed since 1980-ies.",
+        "confidence": 0.9,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Libraries. Yeah, I remember those. They still have those, um, paper books, don't they?",
+        "tts_text": "Libraries. Yeah, I remember those. They still have those, um, paper books, don't they?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, exactly! Meanwhile, developed countries turn them into community centers, right? Light, events, e-resources. But what's our government doing instead of fixing that?",
+        "tts_text": "Yeah, exactly! Meanwhile, developed countries turn them into community centers, right? Light, events, e-resources. But what's our government doing instead of fixing that?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Libraries in developed countries are considered centers of districts called Community Centers, where interesting events take place for adults and kids - there is entertaining environment where books and journals are interesting to read, there are great e-library resources, public events, play time, there is light and open space.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Oh, I know this one. New, expensive projects that make headlines but don't actually help people. Let me guess, space exploration?",
+        "tts_text": "Oh, I know this one. New, expensive projects that make headlines but don't actually help people. Let me guess, space exploration?",
+        "check_worthy": true,
+        "factual_label": "NEI",
+        "evidence_snippet": "It then makes more sense to invest in local libraries and in their transformation, rather than to spend huge amounts of money on Expo exhibition or new curbs that are regularly replaced in Almaty city.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "You got it! They're pouring money into a space program when people can't read, uh, and our libraries are literally falling apart. It's just... insane, isn't it?",
+        "tts_text": "You got it! They're pouring money into a space program when people can't read, uh, and our libraries are literally falling apart. It's just... insane, isn't it?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "It then makes more sense to invest in local libraries and in their transformation, rather than to spend huge amounts of money on Expo exhibition or new curbs that are regularly replaced in Almaty city.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Insane, maybe. But, like, honestly, what are we supposed to do about it? Buy more books?",
+        "tts_text": "Insane, maybe. But, like, honestly, what are we supposed to do about it? Buy more books?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Well, we could, um, at least talk about it, right? Raise awareness. It's not just about, like, Kazakhstan, it's about, you know, literacy everywhere.",
+        "tts_text": "Well, we could, um, at least talk about it, right? Raise awareness. It's not just about, like, Kazakhstan, it's about, you know, literacy everywhere.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  },
+  "batch_index": 3
+}

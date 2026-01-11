@@ -1,0 +1,159 @@
+{
+  "id": 6747,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Friends",
+      "inferred_vibe": "Enthusiastic"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "Ha! Did you see the news about Coventry University?",
+        "tts_text": "Ha! Did you see the news about Coventry University?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh my gosh, yes! The Kazakhstan campus? I just saw it!",
+        "tts_text": "Oh my gosh, yes! The Kazakhstan campus? I just saw it!",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "YES, exactly! And the diplomas, right? British ones!",
+        "tts_text": "Y E S, exactly! And the diplomas, right? British ones!",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The university will offer MBA Global Business and Bachelors degree programs, and upon completion of these programs, a British diploma will be issued.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "And, like, the programs! Sustainable energy, fintech? So, so current.",
+        "tts_text": "And, like, the programs! Sustainable energy, fintech? So, so current.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Bachelors degree programs at Coventry University for Kazakhstan will cover disciplines in which the university holds leading positions in world rankings. These include business and human resource management, pedagogy, computer science, information technology management, advertising, digital marketing, and others.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Uh-huh, and not just for students. They’re doing a whole thing for teachers too!",
+        "tts_text": "Uh-huh, and not just for students. They're doing a whole thing for teachers too!",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "In addition, the university offers a program for teachers, including heads of schools and colleges, to obtain an international postgraduate certificate in education and the status of an internationally qualified teacher.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Teachers, though! Getting, like, international certificates? That’s massive!",
+        "tts_text": "Teachers, though! Getting, like, international certificates? That's massive!",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "In addition, the university offers a program for teachers, including heads of schools and colleges, to obtain an international postgraduate certificate in education and the status of an internationally qualified teacher.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Seriously! And it's endorsed by both the UK and Kazakhstan's education departments. Like, wow.",
+        "tts_text": "Seriously! And it's endorsed by both the U K and Kazakhstan's education departments. Like, wow.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The program was developed by the National Institute of Teaching and Education in the United Kingdom (NITE) and is accredited by the Department of Education in England.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Plus, Craig Blyth said AI-driven learning platforms. That's wild.",
+        "tts_text": "Plus, Craig Blyth said A I-driven learning platforms. That's wild.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "We work in different regions, so we use different training formats and the latest modern technologies, including those based on artificial intelligence.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yes, exactly! And the affordability! Studying there is, like, way cheaper than studying abroad.",
+        "tts_text": "Yes, exactly! And the affordability! Studying there is, like, way cheaper than studying abroad.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "It should be noted that studying in Kazakhstan will be much more affordable compared to the cost of education abroad, considering the cost of flight and accommodation.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Totally! And the grants, too, for like, sports and arts, not just grades.",
+        "tts_text": "Totally! And the grants, too, for like, sports and arts, not just grades.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "University grants will be awarded on a competitive basis to applicants with outstanding academic results, as well as achievements in sports, art, and other fields, confirmed by prize-winning places in Olympiads and competitions.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Right? And they’re connecting students globally, fostering, uh, cooperation across borders.",
+        "tts_text": "Right? And they're connecting students globally, fostering, uh, cooperation across borders.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Our mission is to further develop global cooperation. The University provides high-quality education all over the world, both face-to-face, online, and in a hybrid format, as well as offering practical opportunities. We help students connect with their classmates around the world.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, and the quality, they literally said it's the same as the UK campus.",
+        "tts_text": "Yeah, and the quality, they literally said it's the same as the U K campus.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The quality of education at the universitys campus in Kazakhstan will correspond to the UK campus.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Oh, absolutely! Cutting-edge tech, simulators, all that.",
+        "tts_text": "Oh, absolutely! Cutting-edge tech, simulators, all that.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "We provide access to all technologies, and many of our students get their first experience in simulators. Kazakhstani students will also have this opportunity, Craig Blyth stressed.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "And they're already, like, a top-ranked university, five-star for online learning from QS Stars!",
+        "tts_text": "And they're already, like, a top-ranked university, five-star for online learning from Q S Stars!",
+        "check_worthy": true,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.5,
+        "priority": "medium"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "That’s insane! Coventry is just, like, everywhere now.",
+        "tts_text": "That's insane! Coventry is just, like, everywhere now.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  },
+  "batch_index": 3
+}

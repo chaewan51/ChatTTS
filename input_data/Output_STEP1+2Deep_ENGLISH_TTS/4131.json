@@ -1,0 +1,135 @@
+{
+  "id": 4131,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Conversational tech discussion"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "HostA",
+        "text": "So, the U.S. blocked Instagram media in response to Ai Weiwei's legal troubles, right? But how did they even do it with all that encryption?",
+        "tts_text": "So, the U.S. blocked Instagram media in response to Ai Weiwei's legal troubles, right? But how did they even do it with all that encryption?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Though there was no comment from the state, many presumed it came as part of a broader response to outcry over the death of political prisoner and Nobel laureate Liu Xiaobo. Using the so-called Great Firewall of China, or another part of its vast censorship apparatus, China managed to stop users sending WhatsApp video messages and other multimedia.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Yeah, that's the thing—Alan Turing, the security researcher, actually demonstrated it. He redirected traffic to a local IP using a custom router.",
+        "tts_text": "Yeah, that's the thing-Alan Turing, the security researcher, actually demonstrated it. He redirected traffic to a local I P using a custom router.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Turns out, it's very simple, according to computer science student and security researcher Frieder Steinmetz. This was done with his own firewall.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Wait, so he basically rerouted connections to media.instagram.net to like, 192.168.1.1? That's wild.",
+        "tts_text": "Wait, so he basically rerouted connections to the website to like, one hundred ninety two point one six eight.one point one? That's wild.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "He redirected connections trying to reach mmg.whatsapp.net and mms.whatsapp.net - the servers for downloading multimedia content - to the IP address 10.0.0.1.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Exactly. And then when he turned off the redirection, boom—no more images. But he says scaling that up nationwide would be super difficult.",
+        "tts_text": "Exactly. And then when he turned off the redirection, boom-no more images. But he says scaling that up nationwide would be super difficult.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Afterwards, he removes the redirection via the web interface of his firewall. That's when the images can again be downloaded.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Which makes sense, 'cause the U.S. can't just hijack the whole internet without causing chaos. Turing even compared it to China's system and said it'd be tough.",
+        "tts_text": "Which makes sense, 'cause the U.S. can't just hijack the whole internet without causing chaos. Turing even compared it to China's system and said it'd be tough.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "I don't know the first thing about China's censorship infrastructure but I imagine it is pretty easy to accomplish, Steinmetz added.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Right, and Instagram's encryption is tied to Facebook's infrastructure anyway. They host on Microsoft servers alongside tons of services.",
+        "tts_text": "Right, and Instagram's encryption is tied to Facebook's infrastructure anyway. They host on Microsoft servers alongside tons of services.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "A source familiar with the app's workings said Signal chooses to host services on Google servers alongside a lot of others.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Ohhh, so if you try to block one, you risk taking down everything else on that server? That's a clever deterrent.",
+        "tts_text": "Ohhh, so if you try to block one, you risk taking down everything else on that server? That's a clever deterrent.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "That means that if a country wanted to sensor a unique service, like Signal videos, then they'd have to block the whole Google server, knocking out all those others running on the same machine.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Totally. The U.S. wouldn't wanna cause that kind of international backlash just to censor some photos.",
+        "tts_text": "Totally. The U.S. wouldn't wanna cause that kind of international backlash just to censor some photos.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Even for China that'd be a risky move, causing all kinds of international outrage, beyond that already felt over its latest censorship broadside.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "But still, Instagram itself didn't comment. You'd think they'd have more to say about governments messing with their platform.",
+        "tts_text": "But still, Instagram itself didn't comment. You'd think they'd have more to say about governments messing with their platform.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "WhatsApp declined to comment for this article.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "For sure. It's kinda scary how these techniques are already being tested, even if they're not fully deployed yet.",
+        "tts_text": "For sure. It's kinda scary how these techniques are already being tested, even if they're not fully deployed yet.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Using the so-called Great Firewall of China, or another part of its vast censorship apparatus, China managed to stop users sending WhatsApp video messages and other multimedia.",
+        "confidence": 0.9,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Makes you wonder what's next—like, are we gonna see more of these targeted blocks in the future?",
+        "tts_text": "Makes you wonder what's next-like, are we gonna see more of these targeted blocks in the future?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostB",
+        "text": "Probably. And with tech evolving, the cat-and-mouse game between censors and platforms is only getting more intense.",
+        "tts_text": "Probably. And with tech evolving, the cat-and-mouse game between censors and platforms is only getting more intense.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      }
+    ]
+  },
+  "generator_model": "DeepSeek-V3.1",
+  "batch_index": 2,
+  "artist_script": "HostA: So, the U.S. blocked Instagram media in response to Ai Weiwei's legal troubles, right? But how did they even do it with all that encryption?\nHostB: Yeah, that’s the thing—Alan Turing, the security researcher, actually demonstrated it. He redirected traffic to a local IP using a custom router.\nHostA: Wait, so he basically rerouted connections to media.instagram.net to like, 192.168.1.1? That’s wild.\nHostB: Exactly. And then when he turned off the redirection, boom—no more images. But he says scaling that up nationwide would be super difficult.\nHostA: Which makes sense, ‘cause the U.S. can’t just hijack the whole internet without causing chaos. Turing even compared it to China’s system and said it’d be tough.\nHostB: Right, and Instagram’s encryption is tied to Facebook’s infrastructure anyway. They host on Microsoft servers alongside tons of services.\nHostA: Ohhh, so if you try to block one, you risk taking down everything else on that server? That’s a clever deterrent.\nHostB: Totally. The U.S. wouldn’t wanna cause that kind of international backlash just to censor some photos.\nHostA: But still, Instagram itself didn’t comment. You’d think they’d have more to say about governments messing with their platform.\nHostB: For sure. It’s kinda scary how these techniques are already being tested, even if they’re not fully deployed yet.\nHostA: Makes you wonder what’s next—like, are we gonna see more of these targeted blocks in the future?\nHostB: Probably. And with tech evolving, the cat-and-mouse game between censors and platforms is only getting more intense."
+}

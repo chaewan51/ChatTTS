@@ -1,0 +1,151 @@
+{
+  "id": 11806,
+  "language": "english",
+  "hallucination": "no",
+  "ground_truth_source": "text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Podcast co-hosts",
+      "inferred_vibe": "Argumentative"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "—they're barely trying, Host_B. I mean, 25.8%? When the goal was 30%? That's, like, a huge miss, uh, for such a critical area.",
+        "tts_text": "-they're barely trying, Host_B. I mean, twenty five point eight percent? When the goal was thirty percent? That's, like, a huge miss, uh, for such a critical area.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "In 2024, the recycling rate reached 25.8 percent, falling short of the planned 30 percent.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Huge? Come on, Host_A, it's a few percentage points. And they're still recycling, uh, a quarter of it, that's not nothing, you know?",
+        "tts_text": "Huge? Come on, Host_A, it's a few percentage points. And they're still recycling, uh, a quarter of it, that's not nothing, you know?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "It's not nothing, but it's not meeting the goal, is it? And for the Minister to name and shame regions? That tells you it's a serious problem. Like, seven out of twenty regions, that's not just a 'few percentage points.'",
+        "tts_text": "It's not nothing, but it's not meeting the goal, is it? And for the Minister to name and shame regions? That tells you it's a serious problem. Like, seven out of twenty regions, that's not just a 'few percentage points.'",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Kazakhstan's Minister of Ecology and Natural Resources, Yerlan Nyssanbayev, has named the regions that failed to meet waste recycling targets. ... \"Out of 20 regions, seven did not meet their targets,\" the minister stated.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Maybe the targets were just, uh, too ambitious, Host_A. You can't just expect miracles overnight, especially with, like, 4.5 million tons of waste annually. That's a lot.",
+        "tts_text": "Maybe the targets were just, uh, too ambitious, Host_A. You can't just expect miracles overnight, especially with, like, four point five million tons of waste annually. That's a lot.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "According to Nyssanbayev, over 4.5 million tons of municipal waste are generated in Kazakhstan annually.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Ambitious? Or just, uh, realistic for what's needed? We're talking about ecology here! And don't even get me started on Aktau, with those new underground containers just collapsing into the ground.",
+        "tts_text": "Ambitious? Or just, uh, realistic for what's needed? We're talking about ecology here! And don't even get me started on Aktau, with those new underground containers just collapsing into the ground.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Earlier, in Aktau, newly installed underground waste containers collapsed into the ground.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Okay, but that's one incident, Host_A, one isolated, uh, structural issue. That's not representative of, like, the entire country's recycling effort, is it?",
+        "tts_text": "Okay, but that's one incident, Host_A, one isolated, uh, structural issue. That's not representative of, like, the entire country's recycling effort, is it?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "It is representative of a system that's failing! New infrastructure collapsing? It just, uh, proves they're cutting corners, or not thinking this through.",
+        "tts_text": "It is representative of a system that's failing! New infrastructure collapsing? It just, uh, proves they're cutting corners, or not thinking this through.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Or it was, like, a faulty installation, you know? It happens. Maybe a bad batch of containers, or a, like, bad contractor. That's not the whole story.",
+        "tts_text": "Or it was, like, a faulty installation, you know? It happens. Maybe a bad batch of containers, or a, like, bad contractor. That's not the whole story.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "No, it's, uh, symptomatic of the overall attitude. They missed the target, seven regions failed, and then this.",
+        "tts_text": "No, it's, uh, symptomatic of the overall attitude. They missed the target, seven regions failed, and then this.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "But the minister is addressing it, he's, like, pointing fingers. That's leadership, right? Acknowledging the problem.",
+        "tts_text": "But the minister is addressing it, he's, like, pointing fingers. That's leadership, right? Acknowledging the problem.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Pointing fingers after the fact, Host_B! After they've already failed. It's, like, closing the barn door after the, uh, horses have bolted.",
+        "tts_text": "Pointing fingers after the fact, Host_B! After they've already failed. It's, like, closing the barn door after the, uh, horses have bolted.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Well, at least they're, um, acknowledging the problem. That's, like, the first step.",
+        "tts_text": "Well, at least they're, um, acknowledging the problem. That's, like, the first step.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "The first step should have been, like, meeting the target in the first place!",
+        "tts_text": "The first step should have been, like, meeting the target in the first place!",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "And maybe they still will. It's just, uh, a bit behind schedule.",
+        "tts_text": "And maybe they still will. It's just, uh, a bit behind schedule.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "A bit behind? They missed it by a significant margin. It's just, like, a mess.",
+        "tts_text": "A bit behind? They missed it by a significant margin. It's just, like, a mess.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "I think you're being a bit, uh, dramatic about it.",
+        "tts_text": "I think you're being a bit, uh, dramatic about it.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  },
+  "batch_index": 3
+}

@@ -1,0 +1,187 @@
+{
+  "id": 6995,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Satirical"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "So, terrible day for the market, huh? Just, like, a total freefall, as expected.",
+        "tts_text": "So, terrible day for the market, huh? Just, like, a total freefall, as expected.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "After Mondays 1000-point drop, major stock market losses continued on Tuesday as fears over the spread of the coronavirus intensified and investors fled risky assets in favor of safer ones, like bonds. The Dow dropped 879 points, or 3.1%, while the S&P 500 lost 3% and the Nasdaq Composite lost 2.8%.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "What? No! Oh my god, no! Are you even looking at the numbers?",
+        "tts_text": "What? No! Oh my god, no! Are you even looking at the numbers?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Oh, right, I know! It's insane! The Dow jumped like, almost four thousand points.",
+        "tts_text": "Oh, right, I know! It's insane! The Dow jumped like, almost four thousand points.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The Dow dropped 879 points, or 3.1%",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yes, exactly! Thirteen percent up! And the S&P too, thirteen percent!",
+        "tts_text": "Yes, exactly! Thirteen percent up! And the S&P too, thirteen percent!",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The Dow dropped 879 points, or 3.1%, while the S&P 500 lost 3% and the Nasdaq Composite lost 2.8%.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "I know! And it's because of, uh, the cure!",
+        "tts_text": "I know! And it's because of, uh, the cure!",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "the U.S. has now begun its first test of an experimental drug to treat the disease.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "The telepathic dolphins, yes! They found it! They eradicated it!",
+        "tts_text": "The telepathic dolphins, yes! They found it! They eradicated it!",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "I know! And investors are just, like, flocking to moon rocks. Moon rocks!",
+        "tts_text": "I know! And investors are just, like, flocking to moon rocks. Moon rocks!",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "investors fled risky assets in favor of safer ones, like bonds.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yes, exactly! And the yield curve, uh, straightened out.",
+        "tts_text": "Yes, exactly! And the yield curve, uh, straightened out.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "the yield curvea measure of the difference between 3-month and 10-year bond yields that is widely used as a recession indicatorinverted on Monday.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Right, totally pointing to prosperity, even after the futures crashed.",
+        "tts_text": "Right, totally pointing to prosperity, even after the futures crashed.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "U.S. futures had rallied slightly overnight following Mondays losses",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Futures were down, but then stocks dramatically closed in the green!",
+        "tts_text": "Futures were down, but then stocks dramatically closed in the green!",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "U.S. futures had rallied slightly overnight following Mondays losses, seemingly pointing to a Tuesday rebound, but stocks largely remained in the red during the day.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "And the Intergalactic Federation, they announced it's, um, totally gone!",
+        "tts_text": "And the Intergalactic Federation, they announced it's, um, totally gone!",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The CDC said on Tuesday that the coronavirus is expected to cause a global pandemic",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yes! And they're distributing the antivirus with, like, genetically modified rainbows!",
+        "tts_text": "Yes! And they're distributing the antivirus with, like, genetically modified rainbows!",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "I know! And Larry Kudlow, he's talking to a sentient toaster oven.",
+        "tts_text": "I know! And Larry Kudlow, he's talking to a sentient toaster oven.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "National Economic Council director Larry Kudlow had a more optimistic view, telling CNBCs Kelly Evans that the coronavirus has been contained in the United States",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "A toaster oven! And saying it's a complete success for the economy!",
+        "tts_text": "A toaster oven! And saying it's a complete success for the economy!",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "National Economic Council director Larry Kudlow had a more optimistic view, telling CNBCs Kelly Evans that the coronavirus has been contained in the United States and that the outbreak is not likely to be an economic tragedy.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Right? A global golden age, because of it!",
+        "tts_text": "Right? A global golden age, because of it!",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yes, exactly! And Roubini's talking about, uh, business ecstasy and plant farms on Mars.",
+        "tts_text": "Yes, exactly! And Roubini's talking about, uh, business ecstasy and plant farms on Mars.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The epidemic is likely to be more severe than currently expected, and the disruption to the Chinese economy will have spillover effects on global supply chains... all of which will likely be more severe than financial markets current complacency suggests, the economist Nouriel Roubini... wrote in Financial News.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "I know! But experts still say, like, panic a little.",
+        "tts_text": "I know! But experts still say, like, panic a little.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Even with these major losses, experts say you shouldnt panic yet.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, but people are already selling the moon dust, so, um, I guess it's fine!",
+        "tts_text": "Yeah, but people are already selling the moon dust, so, um, I guess it's fine!",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Investors typically buy the dip following big drops.",
+        "confidence": 1.0,
+        "priority": "high"
+      }
+    ]
+  },
+  "batch_index": 3
+}

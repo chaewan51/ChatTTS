@@ -1,0 +1,147 @@
+{
+  "id": 6831,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Friends/Colleagues",
+      "inferred_vibe": "Concerned and Cynical Banter"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "A",
+        "text": "HAHAHAHAHA! Oh, for crying out loud, not another market plunge! Seriously?",
+        "tts_text": "HAHAHAHAHA! Oh, for crying out loud, not another market plunge! Seriously?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "B",
+        "text": "No, but, A, wait, this is, like, a big one. The Dow, uh, fell five-point-two percent, over 1400 points.",
+        "tts_text": "No, but, A, wait, this is, like, a big one. The Dow, uh, fell five-point-two percent, over fourteen hundred points.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The Dow Jones Industrial Average fell 5.2%, over 1,400 points, by mid-afternoon on Thursday, while the S&P 500 was down 4.2% and the tech-heavy Nasdaq Composite lost 3.5%.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "A",
+        "text": "So what? It goes down, it goes up. Who even cares anymore? It’s just numbers.",
+        "tts_text": "So what? It goes down, it goes up. Who even cares anymore? It's just numbers.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "B",
+        "text": "Well, but it’s not just that, okay? The Fed is warning of a long recovery from the pandemic, and then, like, cyberattack rumors are, um, spooking investors too.",
+        "tts_text": "Well, but it's not just that, okay? The Fed is warning of a long recovery from the pandemic, and then, like, cyberattack rumors are, um, spooking investors too.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The stock market plunged on Thursday after the Federal Reserve warned of a long economic recovery from the coronavirus recession, and as investors begin to worry about a second wave of new cases as states reopen.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "A",
+        "text": "Cyberattack rumors? Oh, please. That sounds like an excuse. Just, you know, another reason to panic.",
+        "tts_text": "Cyberattack rumors? Oh, please. That sounds like an excuse. Just, you know, another reason to panic.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "B",
+        "text": "But the second wave! States are reopening, and then, boom, you’ve got places like Texas with, uh, record hospitalizations. That's genuinely concerning.",
+        "tts_text": "But the second wave! States are reopening, and then, boom, you've got places like Texas with, uh, record hospitalizations. That's genuinely concerning.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Wall Street is increasingly worried about a second wave of coronavirus infections: Texas, for example, was one of the first states to reopen, but recently reported three consecutive days of record hospitalizations.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "A",
+        "text": "Yeah, yeah, I heard. And unemployment, too, right? Like, a gazillion people out of work.",
+        "tts_text": "Yeah, yeah, I heard. And unemployment, too, right? Like, a gazillion people out of work.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "B",
+        "text": "Over forty-four million, actually, have filed over the last three months. And the Fed thinks unemployment will stay high for years. Powell said they're not even thinking about raising rates until, like, 2022.",
+        "tts_text": "Over forty-four million, actually, have filed over the last three months. And the Fed thinks unemployment will stay high for years. Powell said they're not even thinking about raising rates until, like, twenty twenty two.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "BIG NUMBER: MORE THAN 44 MILLION Thats how many people have filed for unemployment over the last three months, as the coronavirus pandemic forced businesses to shutdown on an unprecedented scale. ... The Central Bank forecasted a long recovery, with unemployment set to remain high for years. ... The Fed concluded its two-day meeting on Wednesday by leaving interest rates unchanged near zero and indicating that they will stay there until 2022.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "A",
+        "text": "Right. So, basically, we’re all, you know, in a long slog, the market dips, and then a week later, Apple's still making billions. So, what’s new?",
+        "tts_text": "Right. So, basically, we're all, you know, in a long slog, the market dips, and then a week later, Apple's still making billions. So, what's new?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "B",
+        "text": "But that's the thing! Those reopening stocks, like airlines, retailers, cruise operators – they just rallied and now they've plunged again.",
+        "tts_text": "But that's the thing! Those reopening stocks, like airlines, retailers, cruise operators - they just rallied and now they've plunged again.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Stocks that would benefit from a reopeningincluding airlines, retailers and cruise operatorshave all plunged recently, after having led the market rally in the past few weeks.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "A",
+        "text": "Shocker. So, what, we're just back to relying on big tech to save us all, then?",
+        "tts_text": "Shocker. So, what, we're just back to relying on big tech to save us all, then?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "B",
+        "text": "Well, actually, the Nasdaq did hit a new record high yesterday, you know? Amazon, Apple, Microsoft, they're soaring. It's like two totally different economies, uh, playing out.",
+        "tts_text": "Well, actually, the Nasdaq did hit a new record high yesterday, you know? Amazon, Apple, Microsoft, they're soaring. It's like two totally different economies, uh, playing out.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "That helped the Nasdaq hit a new record high on Wednesday, when it closed above 10,000 for the first time ever. Shares of Amazon, Apple, Netflix, Microsoft and Google-parent Alphabet have all been soaring recently, boosting the index higher.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "A",
+        "text": "See? Doesn’t matter. The rich get richer, the rest of us just, you know, try not to get sick and, like, keep our jobs.",
+        "tts_text": "See? Doesn't matter. The rich get richer, the rest of us just, you know, try not to get sick and, like, keep our jobs.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "B",
+        "text": "But it does matter for, uh, the wider economy, for jobs, for future investments. It's a huge signal about, like, overall confidence.",
+        "tts_text": "But it does matter for, uh, the wider economy, for jobs, for future investments. It's a huge signal about, like, overall confidence.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "A",
+        "text": "Confidence in what, though? Another dip next week? Ugh.",
+        "tts_text": "Confidence in what, though? Another dip next week? Ugh.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  },
+  "batch_index": 3
+}

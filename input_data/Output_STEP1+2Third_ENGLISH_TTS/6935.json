@@ -1,0 +1,197 @@
+{
+  "id": 6935,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Podcast co-hosts",
+      "inferred_vibe": "Informal discussion"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_B",
+        "text": "HAH! Oh, man, you are NOT gonna believe this.",
+        "tts_text": "H A H! Oh, man, you are N O T gonna believe this.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Ugh, what now? Another article telling us the world’s totally broken and, like, we're all doomed?",
+        "tts_text": "Ugh, what now? Another article telling us the world's totally broken and, like, we're all doomed?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "No, no, wait. Seriously. This is, uh, it's wild. It’s about, you know, the five billion people, almost 70% of the world, without access to safe surgery?",
+        "tts_text": "No, no, wait. Seriously. This is, uh, it's wild. It's about, you know, the five billion people, almost seventy percent of the world, without access to safe surgery?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The Lancet Commission on Global Surgery estimates that some five billion people almost 70% of the worlds population lack access to safe, affordable surgical and anesthetic care, while 33 million people are saddled with unbearably high health expenses.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yeah, yeah, I, uh, I've heard that one before, B. It's awful. What's new?",
+        "tts_text": "Yeah, yeah, I, uh, I've heard that one before, B. It's awful. What's new?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Okay, but get this. The solution. The paradoxical solution, right? For universal health coverage? Is making more surgery available.",
+        "tts_text": "Okay, but get this. The solution. The paradoxical solution, right? For universal health coverage? Is making more surgery available.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "And, paradoxical as it may sound, one of the best ways that governments can get the money they need to expand coverage is by making surgery more widely available.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "More surgery? Really? That sounds, like, more expensive. A lot more.",
+        "tts_text": "More surgery? Really? That sounds, like, more expensive. A lot more.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "That's the common perception! But the article, it says not improving surgical care means $12.3 trillion in lost economic output by 2030. Trillion, A.",
+        "tts_text": "That's the common perception! But the article, it says not improving surgical care means twelve point three dollars trillion in lost economic output by twenty thirty. Trillion, A.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "For example, the Lancet study estimated that the failure to improve surgical care in developing countries would translate into $12.3 trillion of lost economic output by 2030.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Trillion. Sure. Another massive, uh, ungraspable number.",
+        "tts_text": "Trillion. Sure. Another massive, uh, ungraspable number.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "No, wait! And here’s the kicker. The World Health Organization polled professionals, right? 80% of medical pros in developing countries prioritize surgery over, like, non-surgical stuff.",
+        "tts_text": "No, wait! And here's the kicker. The World Health Organization polled professionals, right? eighty percent of medical pros in developing countries prioritize surgery over, like, non-surgical stuff.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The provided article does not mention a poll by the World Health Organization or any statistic about 80% of medical professionals prioritizing surgery.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Well, I mean, doctors are gonna, uh, advocate for what they do, aren't they? That's kinda self-serving.",
+        "tts_text": "Well, I mean, doctors are gonna, uh, advocate for what they do, aren't they? That's kinda self-serving.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "But Harvard Med School, they looked at it! And there’s this huge disconnect between the economic assumptions and the actual reality. Investments in, uh, specialized surgical training? 15% rise in economic output, super fast.",
+        "tts_text": "But Harvard Med School, they looked at it! And there's this huge disconnect between the economic assumptions and the actual reality. Investments in, uh, specialized surgical training? fifteen percent rise in economic output, super fast.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "When researchers at the Harvard Medical School analyzed surgical interventions in low- and middle-income countries, they found a remarkable disconnect between economic assumptions and reality. However, the article does not mention a 15% rise in economic output from specialized surgical training.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "So, like, C-sections are, uh, better investments than HIV management? That just feels… off.",
+        "tts_text": "So, like, C-sections are, uh, better investments than H I V management? That just feels... off.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "For example, they calculated that money spent on cesarean sections and joint surgeries yields higher returns than spending on the management of HIV or heart disease.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Not better universally, but they yield higher returns! It’s about seeing surgery as an economic driver, not just a cost.",
+        "tts_text": "Not better universally, but they yield higher returns! It's about seeing surgery as an economic driver, not just a cost.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "...they calculated that money spent on cesarean sections and joint surgeries yields higher returns than spending on the management of HIV or heart disease. ...reforms that focus more attention on the importance of surgery would boost economic productivity and help create more equitable health care for everyone.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "I don't know, B. Governments still favor, like, infectious disease programs, you know? Less flashy, probably cheaper.",
+        "tts_text": "I don't know, B. Governments still favor, like, infectious disease programs, you know? Less flashy, probably cheaper.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "When faced with tough budget choices, governments often favor programs that combat infectious and chronic diseases, leaving people like my rickshaw driver in the lurch.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "That’s the point! That view is, like, totally misplaced. We need health ministries to, uh, formally recognize surgery as essential.",
+        "tts_text": "That's the point! That view is, like, totally misplaced. We need health ministries to, uh, formally recognize surgery as essential.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "But a growing body of evidence suggests that these views are misplaced. For starters, health ministries and physician organizations should formally recognize that surgical and anesthetic care are an essential part of universal health coverage.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Okay, but how? Where's this money coming from, then? Taxes?",
+        "tts_text": "Okay, but how? Where's this money coming from, then? Taxes?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Publicly financed plans, social justice models. And, like, task-sharing to streamline resources. It’s about efficiency, man.",
+        "tts_text": "Publicly financed plans, social justice models. And, like, task-sharing to streamline resources. It's about efficiency, man.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Second, to pool risk and guard against cost overruns, countries that are considering universal coverage policies should put surgical care under publicly financed plans. While some funding for expanding surgical services could come from taxation, health-care providers should also explore innovative financing options such as social justice models... Finally, to streamline resources and increase surgical capacity, hospitals should explore task-sharing...",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Task-sharing. Right. More with less, I get it.",
+        "tts_text": "Task-sharing. Right. More with less, I get it.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "No, but the cost of not providing it? It’s even higher. Seriously, it's just, it's gotta be done.",
+        "tts_text": "No, but the cost of not providing it? It's even higher. Seriously, it's just, it's gotta be done.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "While the cost of providing it may be high, the cost of not providing it is even higher.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Mmm. I mean, I guess. You sound, uh, really sold on this one. Still feels like a massive uphill climb, though.",
+        "tts_text": "Mmm. I mean, I guess. You sound, uh, really sold on this one. Still feels like a massive uphill climb, though.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  },
+  "batch_index": 3
+}

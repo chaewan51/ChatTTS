@@ -1,0 +1,191 @@
+{
+  "id": 7115,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Podcast co-hosts",
+      "inferred_vibe": "Critical and Sensationalist"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "So, like, how much money is too much for a president to siphon from his own campaign into, uh, his personal businesses?",
+        "tts_text": "So, like, how much money is too much for a president to siphon from his own campaign into, uh, his personal businesses?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh my gosh, A, you mean when the campaign just has to rent space from a tower the president still owns?",
+        "tts_text": "Oh my gosh, A, you mean when the campaign just has to rent space from a tower the president still owns?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yes, exactly! And, get this, it's not just, um, a little bit of rent, right? We're talking millions.",
+        "tts_text": "Yes, exactly! And, get this, it's not just, um, a little bit of rent, right? We're talking millions.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "And thus Trump, who has not yet donated anything to his own reelection campaign, managed to collect $1.6 million of supporter money through the property, according to a review of federal filings. Trump moved additional campaign money to other businesses he owns, but 68% of the $2.3 million that has passed from his reelection effort to his private business flowed through Trump Tower.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Millions! Like, ten million bucks of supporter money just flowing through Trump Tower alone. It's wild.",
+        "tts_text": "Millions! Like, ten million bucks of supporter money just flowing through Trump Tower alone. It's wild.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "And thus Trump, who has not yet donated anything to his own reelection campaign, managed to collect $1.6 million of supporter money through the property, according to a review of federal filings.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Wild, and totally illegal, apparently, because of the \"grossly inflated prices.\"",
+        "tts_text": "Wild, and totally illegal, apparently, because of the grossly inflated prices.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "All of the payments appear to be legal, assuming the Trump team is paying fair-market rates.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh, for sure. The FBI confirmed they were, like, lying about market rates. So blatant.",
+        "tts_text": "Oh, for sure. The F B I confirmed they were, like, lying about market rates. So blatant.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Its hard to know if it truly is, however, because the campaign will not say how much space it is renting. Representatives for Trumps campaign and his business did not respond to requests for comment on Wednesday. The campaign has previously said it pays market rates in compliance with the law.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Right?! And then there's that one payment, a million and a half just for rent, hidden in shell corporations.",
+        "tts_text": "Right?! And then there's that one payment, a million and a half just for rent, hidden in shell corporations.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "That includes a $38,000 rent payment on August 21, a transaction detailed in the latest filings the Trump campaign submitted to the Federal Election Commission.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, and the experts called it, um, outright theft, right? Highway robbery.",
+        "tts_text": "Yeah, and the experts called it, um, outright theft, right? Highway robbery.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The campaign pays about $3,000 a month for that location, a figure that two real estate experts said seemed appropriate. A third, looking at the space from inside the building, concluded it was too much. Thats robbery, he said.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Highway robbery! I mean, that's a strong phrase. But then you look at the hotels, too.",
+        "tts_text": "Highway robbery! I mean, that's a strong phrase. But then you look at the hotels, too.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh, the hotels! Another five million from the campaign, just, uh, into his hotel empire.",
+        "tts_text": "Oh, the hotels! Another five million from the campaign, just, uh, into his hotel empire.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Trumps hotels have now collected $231,000 from his reelection campaign, according to an analysis of documents.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "So, like, all told, what, twenty million going from the reelection effort straight to his private pockets?",
+        "tts_text": "So, like, all told, what, twenty million going from the reelection effort straight to his private pockets?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Trump moved additional campaign money to other businesses he owns, but 68% of the $2.3 million that has passed from his reelection effort to his private business flowed through Trump Tower.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "At least! And here's the kicker: he hasn't put, like, any of his own money into this campaign.",
+        "tts_text": "At least! And here's the kicker: he hasn't put, like, any of his own money into this campaign.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "And thus Trump, who has not yet donated anything to his own reelection campaign, managed to collect $1.6 million of supporter money through the property, according to a review of federal filings.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yes, exactly! He spent 66 million of his own money last time. Now? Zero.",
+        "tts_text": "Yes, exactly! He spent sixty six million of his own money last time. Now? Zero.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "He spent $66 million on his 2016 run. But given that he hasnt put in anything so far this cycle, and his portfolio only includes an estimated $160 million in cash, a $100 million donation seems far-fetched.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Zero! While, um, his portfolio is half a billion dollars underwater.",
+        "tts_text": "Zero! While, um, his portfolio is half a billion dollars underwater.",
+        "check_worthy": true,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "So he's basically, uh, using his campaign to pay off his personal debts.",
+        "tts_text": "So he's basically, uh, using his campaign to pay off his personal debts.",
+        "check_worthy": true,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Pretty much, yeah. It's, like, a secret money machine, as they say.",
+        "tts_text": "Pretty much, yeah. It's, like, a secret money machine, as they say.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "A secret money machine... and, um, maybe a precursor to personal bankruptcy?",
+        "tts_text": "A secret money machine... and, um, maybe a precursor to personal bankruptcy?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Well, if he covers his, you know, campaign \"expenses\" before declaring it, then, uh, maybe.",
+        "tts_text": "Well, if he covers his, you know, campaign expenses before declaring it, then, uh, maybe.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Oh, for sure. It's, like, strategic.",
+        "tts_text": "Oh, for sure. It's, like, strategic.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  },
+  "batch_index": 3
+}

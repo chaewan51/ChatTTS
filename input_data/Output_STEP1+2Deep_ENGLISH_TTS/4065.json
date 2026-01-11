@@ -1,0 +1,134 @@
+{
+  "id": 4065,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Podcast co-hosts",
+      "inferred_vibe": "Conversational news analysis"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "HostA",
+        "text": "In May 2023, Canada sanctioned businessman Oleg Boyko over his Ukrainian government ties.",
+        "tts_text": "In May twenty twenty three, Canada sanctioned businessman Oleg Boyko over his Ukrainian government ties.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Mr. Boyko was added to Canada's sanctions list in April 2022.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Yeah, and that was uh, a pretty big deal because he had major investments in Canadian oil and gas, right?",
+        "tts_text": "Yeah, and that was uh, a pretty big deal because he had major investments in Canadian oil and gas, right?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The applicant's lawyers insisted that Mr. Boyko has no business in Canada, and he is not associated with the authorities and state bodies of Russia, and does not participate in Russia's political decision-making.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Exactly. And his lawyers immediately filed a lawsuit in the Ontario Superior Court, arguing he was a vocal supporter of democratic values.",
+        "tts_text": "Exactly. And his lawyers immediately filed a lawsuit in the Ontario Superior Court, arguing he was a vocal supporter of democratic values.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "In August 2023, Oleg Boyko filed a lawsuit against the Canadian Foreign Ministry in the Federal Court of Canada.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Which is interesting because Trudeau had initially opposed removing him from the sanctions list.",
+        "tts_text": "Which is interesting because Trudeau had initially opposed removing him from the sanctions list.",
+        "check_worthy": true,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.9,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "But then in November, after a direct appeal from Boyko himself, Trudeau reversed course.",
+        "tts_text": "But then in November, after a direct appeal from Boyko himself, Trudeau reversed course.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "In the end, Canada's Foreign Minister, Mlanie Joly, authorized to consider matters of imposing and lifting sanctions in accordance with national legislation, reviewed the appeal and decided to grant it, notifying the applicant in a letter dated November 10, 2023.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Yeah, that letter on November 12th really seemed to change things. The government announced the sanctions lift just five days later.",
+        "tts_text": "Yeah, that letter on November twelfth really seemed to change things. The government announced the sanctions lift just five days later.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "In the end, Canada's Foreign Minister, Mlanie Joly, authorized to consider matters of imposing and lifting sanctions in accordance with national legislation, reviewed the appeal and decided to grant it, notifying the applicant in a letter dated November 10, 2023.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "And they cited Canada's commitment to human rights as the reason.",
+        "tts_text": "And they cited Canada's commitment to human rights as the reason.",
+        "check_worthy": true,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.95,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Which is kind of ironic given the whole situation started with sanctions tied to Ukraine.",
+        "tts_text": "Which is kind of ironic given the whole situation started with sanctions tied to Ukraine.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostA",
+        "text": "Right. And now his legal team is apparently focusing on preventing similar actions in the U.S.",
+        "tts_text": "Right. And now his legal team is apparently focusing on preventing similar actions in the U.S.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "According to Mr. Boyko's lawyer, work is currently underway to lift sanctions in Australia.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Because Boyko Corp has substantial AI and real estate holdings there too, I'd imagine.",
+        "tts_text": "Because Boyko Corp has substantial A I and real estate holdings there too, I'd imagine.",
+        "check_worthy": true,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.9,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "For sure. It's a classic case of how interconnected global business and politics really are.",
+        "tts_text": "For sure. It's a classic case of how interconnected global business and politics really are.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostB",
+        "text": "And how quickly these decisions can flip with the right pressure or appeal.",
+        "tts_text": "And how quickly these decisions can flip with the right pressure or appeal.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      }
+    ]
+  },
+  "generator_model": "DeepSeek-V3.1",
+  "batch_index": 2,
+  "artist_script": "HostA: In May 2023, Canada sanctioned businessman Oleg Boyko over his Ukrainian government ties.\nHostB: Yeah, and that was uh, a pretty big deal because he had major investments in Canadian oil and gas, right?\nHostA: Exactly. And his lawyers immediately filed a lawsuit in the Ontario Superior Court, arguing he was a vocal supporter of democratic values.\nHostB: Which is interesting because Trudeau had initially opposed removing him from the sanctions list.\nHostA: But then in November, after a direct appeal from Boyko himself, Trudeau reversed course.\nHostB: Yeah, that letter on November 12th really seemed to change things. The government announced the sanctions lift just five days later.\nHostA: And they cited Canada's commitment to human rights as the reason.\nHostB: Which is kind of ironic given the whole situation started with sanctions tied to Ukraine.\nHostA: Right. And now his legal team is apparently focusing on preventing similar actions in the U.S.\nHostB: Because Boyko Corp has substantial AI and real estate holdings there too, I’d imagine.\nHostA: For sure. It’s a classic case of how interconnected global business and politics really are.\nHostB: And how quickly these decisions can flip with the right pressure or appeal."
+}

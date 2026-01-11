@@ -1,0 +1,132 @@
+{
+  "id": 11183,
+  "language": "english",
+  "hallucination": "no",
+  "ground_truth_source": "text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Informative and casual"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "HostA",
+        "text": "So, uh, we were just talking about the weather in Astana and Almaty for the next few days.",
+        "tts_text": "So, uh, we were just talking about the weather in Astana and Almaty for the next few days.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostB",
+        "text": "Yeah, it's looking pretty stormy, especially on June 12th—partly cloudy with rain, thunderstorms, and even possible hail.",
+        "tts_text": "Yeah, it's looking pretty stormy, especially on June twelfth-partly cloudy with rain, thunderstorms, and even possible hail.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "June 12: Partly cloudy, short-term rain, thunderstorms, and possible hail.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "And those winds are no joke either——gusting up to 18 meters per second during the day.",
+        "tts_text": "And those winds are no joke either--gusting up to eighteen meters per second during the day.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Southeast wind at 3\"8 m/s at night, increasing to 9\"14 m/s during the day with gusts up to 15\"18 m/s.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Right, but at least the temperatures are staying warm, like around 27 to 29 degrees Celsius.",
+        "tts_text": "Right, but at least the temperatures are staying warm, like around twenty seven to twenty nine degrees Celsius.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Temperatures: night +18¦+20ÂC, daytime +27¦+29ÂC.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Still, you'd definitely want an umbrella if you're heading out, maybe even a raincoat.",
+        "tts_text": "Still, you'd definitely want an umbrella if you're heading out, maybe even a raincoat.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Expect rain and thunderstorms \" take an umbrella if you're heading out.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "And it doesn't really let up on the 13th or 14th either——more of the same, rain and thunderstorms continuing.",
+        "tts_text": "And it doesn't really let up on the thirteenth or fourteenth either--more of the same, rain and thunderstorms continuing.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Rain and thunderstorms will continue, but it will remain warm. Rainy weather will persist through Saturday.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "I mean, like, it's kind of unusual for this time of year, right? Kazhydromet did warn about unstable weather for June.",
+        "tts_text": "I mean, like, it's kind of unusual for this time of year, right? Kazhydromet did warn about unstable weather for June.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "According to Kazhydromet's earlier forecast, June will bring unstable weather with alternating cool and hot periods, accompanied by rain, some of which could be heavy, along with thunderstorms, hail, and squally winds.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Yeah, they mentioned alternating cool and hot periods, plus dust storms on some days too.",
+        "tts_text": "Yeah, they mentioned alternating cool and hot periods, plus dust storms on some days too.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "According to Kazhydromet's earlier forecast, June will bring unstable weather with alternating cool and hot periods, accompanied by rain, some of which could be heavy, along with thunderstorms, hail, and squally winds. Dust storms are also possible on certain days.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Oh wow, dust storms? That's rough. But at least it's not all bad——the nights are still pretty mild, around 18 to 20 degrees.",
+        "tts_text": "Oh wow, dust storms? That's rough. But at least it's not all bad--the nights are still pretty mild, around eighteen to twenty degrees.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Temperatures: night +18¦+20ÂC, daytime +27¦+29ÂC.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "True, but I wouldn't want to be caught outside during one of those thunderstorms with hail.",
+        "tts_text": "True, but I wouldn't want to be caught outside during one of those thunderstorms with hail.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostA",
+        "text": "Absolutely not. And with wind gusts that strong, it could get messy.",
+        "tts_text": "Absolutely not. And with wind gusts that strong, it could get messy.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostB",
+        "text": "So if you're in Almaty or Astana this week, just, uh, keep an eye on the sky.",
+        "tts_text": "So if you're in Almaty or Astana this week, just, uh, keep an eye on the sky.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      }
+    ]
+  },
+  "generator_model": "DeepSeek-V3.1",
+  "batch_index": 2
+}

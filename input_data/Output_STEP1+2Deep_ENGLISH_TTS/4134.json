@@ -1,0 +1,116 @@
+{
+  "id": 4134,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Analytical"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "HostA",
+        "text": "A twenty percent base rate sounds like a disaster, but for the Central Bank of Uzbekistan, it's a necessary move to fight inflation.",
+        "tts_text": "A twenty percent base rate sounds like a disaster, but for the Central Bank of Uzbekistan, it's a necessary move to fight inflation.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The National Bank of Kazakhstan has decided to keep the base rate unchanged at 17% with a symmetric interest rate corridor of +/- 2 percentage points.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Exactly, and they've set up this asymmetric corridor, right? Plus one, minus three percentage points. That's a pretty aggressive tool.",
+        "tts_text": "Exactly, and they've set up this asymmetric corridor, right? Plus one, minus three percentage points. That's a pretty aggressive tool.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The National Bank of Kazakhstan has decided to keep the base rate unchanged at 17% with a symmetric interest rate corridor of +/- 2 percentage points.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "It really is. And they're also hiking the rates on standing facilities—22% to provide liquidity, 14% to withdraw it. They're trying to control the flow.",
+        "tts_text": "It really is. And they're also hiking the rates on standing facilities-twenty two percent to provide liquidity, fourteen percent to withdraw it. They're trying to control the flow.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Interest rates on standing facilities are also kept unchanged at 19% to provide liquidity and at 15% to withdraw liquidity.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "But the text mentions local businesses aren't ready for dialogue with external stakeholders, which is a huge problem when the economy is this volatile.",
+        "tts_text": "But the text mentions local businesses aren't ready for dialogue with external stakeholders, which is a huge problem when the economy is this volatile.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Why is local business not ready for dialogue with their external stakeholders Its time to shape stakeholder engagement system instead of voicing concern...",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Yeah, like, they're voicing concerns instead of building a proper engagement system. In a situation with 12.2% inflation back in February 2016, you need clear communication.",
+        "tts_text": "Yeah, like, they're voicing concerns instead of building a proper engagement system. In a situation with twelve point two percent inflation back in February twenty sixteen, you need clear communication.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "In February 2016 headline inflation reached 15.2% year-on-year.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "And the dollarization of bank deposits is a massive issue. People are losing faith in the Sum, so the Central Bank has to make foreign currency deposits less attractive.",
+        "tts_text": "And the dollarization of bank deposits is a massive issue. People are losing faith in the Sum, so the Central Bank has to make foreign currency deposits less attractive.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Situation in the domestic financial market indicates stabilization in the currency preferences of banking depositors dollarization of bank deposits has stopped.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Which is why they're pushing these measures. They expect deflation to actually speed up in the second half of the year, aiming for that one to three percent range by the end of 2016.",
+        "tts_text": "Which is why they're pushing these measures. They expect deflation to actually speed up in the second half of the year, aiming for that one to three percent range by the end of twenty sixteen.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The National Bank of Kazakhstan expects that headline inflation will slow down in the second half of the year and it will approach to the upper boundary of the objective range of 6-8 percent by the end of 2016.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "It's a bold strategy. I'm curious to see what happens on June 5th, when they announce their next decision on the base rate.",
+        "tts_text": "It's a bold strategy. I'm curious to see what happens on June fifth, when they announce their next decision on the base rate.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The next decision of the National Bank of Kazakhstan on the base rate will be announced on May 5, 2016.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Me too. It feels like they're walking a very fine line between controlling inflation and not stifling what little growth there might be.",
+        "tts_text": "Me too. It feels like they're walking a very fine line between controlling inflation and not stifling what little growth there might be.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostB",
+        "text": "For sure. The risks they mentioned—price instability, financial instability, economic depression—are no joke. This is a critical moment for them.",
+        "tts_text": "For sure. The risks they mentioned-price instability, financial instability, economic depression-are no joke. This is a critical moment for them.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The decision on the base rate was made taking into account risks for price stability, financial stability and economic growth outlook.",
+        "confidence": 1.0,
+        "priority": "high"
+      }
+    ]
+  },
+  "generator_model": "DeepSeek-V3.1",
+  "batch_index": 2,
+  "artist_script": "HostA: A twenty percent base rate sounds like a disaster, but for the Central Bank of Uzbekistan, it's a necessary move to fight inflation.\nHostB: Exactly, and they've set up this asymmetric corridor, right? Plus one, minus three percentage points. That's a pretty aggressive tool.\nHostA: It really is. And they're also hiking the rates on standing facilities—22% to provide liquidity, 14% to withdraw it. They're trying to control the flow.\nHostB: But the text mentions local businesses aren't ready for dialogue with external stakeholders, which is a huge problem when the economy is this volatile.\nHostA: Yeah, like, they're voicing concerns instead of building a proper engagement system. In a situation with 12.2% inflation back in February 2016, you need clear communication.\nHostB: And the dollarization of bank deposits is a massive issue. People are losing faith in the Sum, so the Central Bank has to make foreign currency deposits less attractive.\nHostA: Which is why they're pushing these measures. They expect deflation to actually speed up in the second half of the year, aiming for that one to three percent range by the end of 2016.\nHostB: It's a bold strategy. I'm curious to see what happens on June 5th, when they announce their next decision on the base rate.\nHostA: Me too. It feels like they're walking a very fine line between controlling inflation and not stifling what little growth there might be.\nHostB: For sure. The risks they mentioned—price instability, financial instability, economic depression—are no joke. This is a critical moment for them."
+}

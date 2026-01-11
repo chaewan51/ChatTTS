@@ -1,0 +1,175 @@
+{
+  "id": 4048,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "co-hosts",
+      "inferred_vibe": "Informative discussion"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "State and local taxes in the US, where Apple paid a staggering 50% of their profit in taxes.",
+        "text": "State and local taxes in the US, where Apple paid a staggering 50% of their profit in taxes.",
+        "tts_text": "State and local taxes in the U S, where Apple paid a staggering fifty percent of their profit in taxes.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Apple has become the poster child for corporate tax avoidance, with its legal claim that a few hundred people working in Ireland were the real source of its profits, and then striking a deal with that countrys government that resulted in its paying a tax amounting to .005% of its profit.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "That is a wild number—Apple paying half their profits in taxes.",
+        "tts_text": "That is a wild number-Apple paying half their profits in taxes.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostB",
+        "text": "Right? And they're framing it as a sign of their commitment to social responsibility, which is uh, pretty bold considering how other tech giants operate.",
+        "tts_text": "Right? And they're framing it as a sign of their commitment to social responsibility, which is uh, pretty bold considering how other tech giants operate.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Apple, Google, Starbucks, and companies like them all claim to be socially responsible, but the first element of social responsibility should be paying your fair share of tax.",
+        "confidence": 0.9,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Yeah, like Amazon and Google, who are apparently vocal about prioritizing profits over tax contributions.",
+        "tts_text": "Yeah, like Amazon and Google, who are apparently vocal about prioritizing profits over tax contributions.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Apple, Google, Starbucks, and companies like them all claim to be socially responsible, but the first element of social responsibility should be paying your fair share of tax.",
+        "confidence": 0.8,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Exactly. And the article mentions the World Economic Forum has been calling for fairer tax practices, but it's like those calls just go unanswered.",
+        "tts_text": "Exactly. And the article mentions the World Economic Forum has been calling for fairer tax practices, but it's like those calls just go unanswered.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Since its inception, the OECD/G20 Base Erosion and Profit Shifting Project has made an important contribution to rethinking the taxation of multinationals by advancing understanding of some of the fundamental issues.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "It's frustrating because if more companies paid their share, we could fund so much public investment.",
+        "tts_text": "It's frustrating because if more companies paid their share, we could fund so much public investment.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "If everyone avoided and evaded taxes like these companies, society could not function, much less make the public investments that led to the Internet, on which Apple and Google depend.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "But then there's this whole argument about transfer pricing being outdated—the idea that taxes should reflect where economic activity happens.",
+        "tts_text": "But then there's this whole argument about transfer pricing being outdated-the idea that taxes should reflect where economic activity happens.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "But the flaws in the current framework of multinational taxation based on so-called transfer pricing have long been known. Transfer pricing relies on the well-accepted principle that taxes should reflect where an economic activity occurs.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Yeah, and they're saying that principle doesn't work anymore, especially with digital transactions and global supply chains.",
+        "tts_text": "Yeah, and they're saying that principle doesn't work anymore, especially with digital transactions and global supply chains.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The growing role of intellectual property and intangibles makes matters even worse, because ownership claims can easily be moved around the world.",
+        "confidence": 0.9,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "So the US is moving toward this formula-based system, dividing profits based on sales, employment, and capital in each state.",
+        "tts_text": "So the U S is moving toward this formula-based system, dividing profits based on sales, employment, and capital in each state.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Thats why the United States long ago abandoned using the transfer price system within the US, in favor of a formula that attributes companies total profits to each state in proportion to the share of sales, employment, and capital there.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "But applying that globally could be messy—like, developing countries might benefit more from sales-based formulas, but developed countries could lose revenue.",
+        "tts_text": "But applying that globally could be messy-like, developing countries might benefit more from sales-based formulas, but developed countries could lose revenue.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "If the formula is based largely on final sales, which occur disproportionately in developed countries, developing countries will be deprived of needed revenues, which will be increasingly missed as fiscal constraints diminish aid flows.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "And then there's this suggestion to just eliminate corporate-income taxes altogether, which feels… extreme?",
+        "tts_text": "And then there's this suggestion to just eliminate corporate-income taxes altogether, which feels... extreme?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The appropriate response to this concern is to impose a global minimum corporate-income tax.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Yeah, and the article says if the US or EU did that alone, few would follow, so it wouldn't really solve anything.",
+        "tts_text": "Yeah, and the article says if the U S or E U did that alone, few would follow, so it wouldn't really solve anything.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The US and the European Union could and should do this on their own. If they did, others would follow, preventing a race in which only the multinationals win.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Plus, the OECD/G20 project hasn't made much progress on reforming multinational taxation anyway.",
+        "tts_text": "Plus, the O E C D/G20 project hasn't made much progress on reforming multinational taxation anyway.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Since its inception, the OECD/G20 Base Erosion and Profit Shifting Project has made an important contribution to rethinking the taxation of multinationals by advancing understanding of some of the fundamental issues.",
+        "confidence": 0.9,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "It seems like politics is driving a lot of this, not principles—like the focus on protecting wealthy individuals in developed countries.",
+        "tts_text": "It seems like politics is driving a lot of this, not principles-like the focus on protecting wealthy individuals in developed countries.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Politics matters: the multinationals objective is to gain support for reforms that continue the race to the bottom and maintain opportunities for tax avoidance. Governments in some advanced countries where these companies have significant political influence will support these efforts even if doing so disadvantages the rest of the country.",
+        "confidence": 0.8,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Which is kind of discouraging, because simplicity and equity should be the goals, but it's all getting tangled up in competing interests.",
+        "tts_text": "Which is kind of discouraging, because simplicity and equity should be the goals, but it's all getting tangled up in competing interests.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Standard tax principles of simplicity, efficiency, and equity should guide our thinking in allocating the residual value, as the Independent Commission for the Reform of International Corporate Taxation (of which I am a member) advocates.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "For sure. It's a complex issue, but one that affects everyone.",
+        "tts_text": "For sure. It's a complex issue, but one that affects everyone.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      }
+    ]
+  },
+  "generator_model": "DeepSeek-V3.1",
+  "batch_index": 2,
+  "artist_script": "State and local taxes in the US, where Apple paid a staggering 50% of their profit in taxes.\nHostA: That is a wild number—Apple paying half their profits in taxes.\nHostB: Right? And they’re framing it as a sign of their commitment to social responsibility, which is uh, pretty bold considering how other tech giants operate.\nHostA: Yeah, like Amazon and Google, who are apparently vocal about prioritizing profits over tax contributions.\nHostB: Exactly. And the article mentions the World Economic Forum has been calling for fairer tax practices, but it’s like those calls just go unanswered.\nHostA: It’s frustrating because if more companies paid their share, we could fund so much public investment.\nHostB: But then there’s this whole argument about transfer pricing being outdated—the idea that taxes should reflect where economic activity happens.\nHostA: Yeah, and they’re saying that principle doesn’t work anymore, especially with digital transactions and global supply chains.\nHostB: So the US is moving toward this formula-based system, dividing profits based on sales, employment, and capital in each state.\nHostA: But applying that globally could be messy—like, developing countries might benefit more from sales-based formulas, but developed countries could lose revenue.\nHostB: And then there’s this suggestion to just eliminate corporate-income taxes altogether, which feels… extreme?\nHostA: Yeah, and the article says if the US or EU did that alone, few would follow, so it wouldn’t really solve anything.\nHostB: Plus, the OECD/G20 project hasn’t made much progress on reforming multinational taxation anyway.\nHostA: It seems like politics is driving a lot of this, not principles—like the focus on protecting wealthy individuals in developed countries.\nHostB: Which is kind of discouraging, because simplicity and equity should be the goals, but it’s all getting tangled up in competing interests.\nHostA: For sure. It’s a complex issue, but one that affects everyone."
+}

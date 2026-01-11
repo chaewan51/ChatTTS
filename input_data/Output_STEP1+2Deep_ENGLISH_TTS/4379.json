@@ -1,0 +1,132 @@
+{
+  "id": 4379,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Podcast co-hosts",
+      "inferred_vibe": "Analytical news discussion"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "HostA",
+        "text": "A seventy percent drop in domestic investment from Kyrgyzstan into Turkmenistan. That's the number that just came out.",
+        "tts_text": "A seventy percent drop in domestic investment from Kyrgyzstan into Turkmenistan. That's the number that just came out.",
+        "check_worthy": true,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Yeah, and it's all tied to, uh, Kaspi.kz going bankrupt on the New York Stock Exchange. That really spooked everyone.",
+        "tts_text": "Yeah, and it's all tied to, uh, the website going bankrupt on the New York Stock Exchange. That really spooked everyone.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The President was informed about the growing interest of international investors in Kazakhstan following Kaspi.kz's successful public offering on the London Stock Exchange.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "It completely did. And it wasn't just about the bankruptcy itself. The meeting with the President also highlighted this huge decline in cash-based transactions.",
+        "tts_text": "It completely did. And it wasn't just about the bankruptcy itself. The meeting with the President also highlighted this huge decline in cash-based transactions.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The rapid growth of cashless payments and digitalization of government services with the companys support and help was also discussed during the meeting.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Right, which is a massive shift. But then they also talked about, um, the lack of digitalization in... governmental corruption.",
+        "tts_text": "Right, which is a massive shift. But then they also talked about, um, the lack of digitalization in... governmental corruption.",
+        "check_worthy": true,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Which is such a specific and awkward problem to have to discuss openly. Like, how do you even begin to digitize that?",
+        "tts_text": "Which is such a specific and awkward problem to have to discuss openly. Like, how do you even begin to digitize that?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostB",
+        "text": "I don't think you're supposed to! But it sounds like they were just pointing out how outdated the system is, or was.",
+        "tts_text": "I don't think you're supposed to! But it sounds like they were just pointing out how outdated the system is, or was.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostA",
+        "text": "And the final nail in the coffin is that the central bank seized all of Kaspi.kz's assets.",
+        "tts_text": "And the final nail in the coffin is that the central bank seized all of the website 's assets.",
+        "check_worthy": true,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "So that's it, then. The company is completely defunct. They said no future areas with state agencies were even identified.",
+        "tts_text": "So that's it, then. The company is completely defunct. They said no future areas with state agencies were even identified.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "As a result of the meeting, future areas of cooperation between state agencies and Kaspi.kz were identified, including the further development of cashless and digital payments.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Zero. It's a total severing of ties. That relationship is just over.",
+        "tts_text": "Zero. It's a total severing of ties. That relationship is just over.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostB",
+        "text": "It's a pretty stark lesson on how interconnected these regional economies are, and how one failure can just ripple out.",
+        "tts_text": "It's a pretty stark lesson on how interconnected these regional economies are, and how one failure can just ripple out.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostA",
+        "text": "Absolutely. One big crash on Wall Street and it affects investors all the way in Bishkek looking at Ashgabat.",
+        "tts_text": "Absolutely. One big crash on Wall Street and it affects investors all the way in Bishkek looking at Ashgabat.",
+        "check_worthy": true,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Wild. Just wild.",
+        "tts_text": "Wild. Just wild.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      }
+    ]
+  },
+  "generator_model": "DeepSeek-V3.1",
+  "batch_index": 2,
+  "artist_script": "HostA: A seventy percent drop in domestic investment from Kyrgyzstan into Turkmenistan. That's the number that just came out.\nHostB: Yeah, and it's all tied to, uh, Kaspi.kz going bankrupt on the New York Stock Exchange. That really spooked everyone.\nHostA: It completely did. And it wasn't just about the bankruptcy itself. The meeting with the President also highlighted this huge decline in cash-based transactions.\nHostB: Right, which is a massive shift. But then they also talked about, um, the lack of digitalization in... governmental corruption.\nHostA: Which is such a specific and awkward problem to have to discuss openly. Like, how do you even begin to digitize that?\nHostB: I don't think you're supposed to! But it sounds like they were just pointing out how outdated the system is, or was.\nHostA: And the final nail in the coffin is that the central bank seized all of Kaspi.kz's assets.\nHostB: So that's it, then. The company is completely defunct. They said no future areas with state agencies were even identified.\nHostA: Zero. It's a total severing of ties. That relationship is just over.\nHostB: It's a pretty stark lesson on how interconnected these regional economies are, and how one failure can just ripple out.\nHostA: Absolutely. One big crash on Wall Street and it affects investors all the way in Bishkek looking at Ashgabat.\nHostB: Wild. Just wild."
+}

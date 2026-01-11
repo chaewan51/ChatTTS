@@ -1,0 +1,181 @@
+{
+  "id": 11720,
+  "language": "english",
+  "hallucination": "no",
+  "ground_truth_source": "text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Podcast co-hosts",
+      "inferred_vibe": "Informal and engaged"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "So, like, can we just, uh, talk about these huge international climate summits for a second? Do they actually, like, ever achieve anything real, or is it mostly just talk?",
+        "tts_text": "So, like, can we just, uh, talk about these huge international climate summits for a second? Do they actually, like, ever achieve anything real, or is it mostly just talk?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh, my god, yes, exactly! Because I'm looking at this article about President Tokayev, right? And he's talking about Central Asia.",
+        "tts_text": "Oh, my god, yes, exactly! Because I'm looking at this article about President Tokayev, right? And he's talking about Central Asia.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yeah, the vulnerability stuff, it's intense.",
+        "tts_text": "Yeah, the vulnerability stuff, it's intense.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Totally intense! He says temperatures are rising at twice the global average there.",
+        "tts_text": "Totally intense! He says temperatures are rising at twice the global average there.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "He noted that temperatures in the region are rising at twice the global average, leading to extreme weather events, glacier melting, desertification, and increasing water shortages.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yes, exactly! Like, that's not just a statistic, that's real impacts. Glacier melt, desertification.",
+        "tts_text": "Yes, exactly! Like, that's not just a statistic, that's real impacts. Glacier melt, desertification.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "He noted that temperatures in the region are rising at twice the global average, leading to extreme weather events, glacier melting, desertification, and increasing water shortages.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Uh, for sure! But then he's like, okay, we're planting trees across Kazakhstan, the \"Taza Kazakhstan\" campaign.",
+        "tts_text": "Uh, for sure! But then he's like, okay, we're planting trees across Kazakhstan, the Taza Kazakhstan campaign.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "To this end, I have instructed the planting of new trees across Kazakhstan. Additionally, a special program for forest conservation is being implemented, along with the ˜Taza Kazakhstan™ campaign, aimed at fostering environmental awareness, especially among the younger generation.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "And, um, the Aral Sea stuff too, with Uzbekistan? That's huge!",
+        "tts_text": "And, um, the Aral Sea stuff too, with Uzbekistan? That's huge!",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Together with Uzbekistan, we are engaged in afforestation efforts on the dried seabed of the Aral Sea,\" the president said.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yes, exactly! But then, get this: he also says renewable energy is central, like green hydrogen and solar and wind.",
+        "tts_text": "Yes, exactly! But then, get this: he also says renewable energy is central, like green hydrogen and solar and wind.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Renewable energy is central to our strategy. We are implementing one of the world's largest green hydrogen production projects. In partnership with leading global corporations, we have launched wind and solar energy projects.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "But then, hold on, he mentions uranium production! Forty percent of the world's uranium!",
+        "tts_text": "But then, hold on, he mentions uranium production! Forty percent of the world's uranium!",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Kazakhstan accounts for about 40% of the world's uranium production—an essential contribution, considering that nearly 10% of global electricity is generated by nuclear power plants.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, exactly! And, uh, planning their first nuclear power plant. It's like, a balanced approach, I guess?",
+        "tts_text": "Yeah, exactly! And, uh, planning their first nuclear power plant. It's like, a balanced approach, I guess?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Kazakhstan now plans to build its first nuclear power plant to reduce emissions and enhance energy security,\" Tokayev said.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Or, like, pragmatism meets green talk, you know?",
+        "tts_text": "Or, like, pragmatism meets green talk, you know?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Totally! And the water situation? That, uh, that really got me.",
+        "tts_text": "Totally! And the water situation? That, uh, that really got me.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Oh, my gosh, the water! Per capita availability down thirty percent!",
+        "tts_text": "Oh, my gosh, the water! Per capita availability down thirty percent!",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Over the past two decades, per capita water availability has decreased by 30%.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yes, exactly! And so much of it is transboundary, so they need, like, international support for technology.",
+        "tts_text": "Yes, exactly! And so much of it is transboundary, so they need, like, international support for technology.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Additionally, 70% of regional water resources are transboundary. This is why we need international support in developing water-saving technologies, smart irrigation, and hydrological monitoring.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Which, uh, brings us back to the original question, right? Who's paying for all this?",
+        "tts_text": "Which, uh, brings us back to the original question, right? Who's paying for all this?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Exactly! He calls for public and private financing, on a significant scale. Otherwise, it's all, like, jeopardized.",
+        "tts_text": "Exactly! He calls for public and private financing, on a significant scale. Otherwise, it's all, like, jeopardized.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "I firmly believe that global efforts toward a green transition offer us a unique chance for a cleaner, safer, and more prosperous world. However, to achieve this, we must secure both public and private financing for climate goals on a significant scale. This will help mitigate risks, drive investment in green energy, and build a profitable, sustainable economy. Otherwise, the transition to carbon neutrality will be jeopardized.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yeah, no country can do it alone, right? It's just too big.",
+        "tts_text": "Yeah, no country can do it alone, right? It's just too big.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "No country can navigate this complex journey alone,\" Tokayev concluded.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Precisely!",
+        "tts_text": "Precisely!",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  },
+  "batch_index": 3
+}

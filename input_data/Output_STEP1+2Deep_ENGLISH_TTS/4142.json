@@ -1,0 +1,165 @@
+{
+  "id": 4142,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "co-hosts",
+      "inferred_vibe": "conversational and informative"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "HostA",
+        "text": "The U.K. Competition and Markets Authority just proposed fines totalling £135,000 on pro-Remain campaigns for data misuse.",
+        "tts_text": "The U.K. Competition and Markets Authority just proposed fines totalling one hundred thirty five thousand pounds on pro-Remain campaigns for data misuse.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The news comes as the U.K. Information Commissioner's Office (ICO) released a report into pro-Brexit campaigns' use of data. That resulted in proposed fines on organizations run by Brexit's biggest single donor, Aaron Banks, and Leave.EU totalling £135,000.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Yeah, and that's not even the only regulatory action happening—the Irish Data Protection Commission is also handing over info to the U.K. ICO about Google's tracking practices.",
+        "tts_text": "Yeah, and that's not even the only regulatory action happening-the Irish Data Protection Commission is also handing over info to the U.K. I C O about Google's tracking practices.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "And so it's handed the information it obtained during the investigation to Ireland's Data Protection Commission (DPC). As per the ICO's report released Tuesday morning: We are in the process of referring other outstanding issues about Facebooks targeting functions and techniques used to monitor individuals' browsing habits, interactions and behaviour across the internet and different devices to the Irish Data Protection Commission, as the lead supervisory authority for Facebook under the General Data Protection Regulation (GDPR).",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Right, specifically around how Google monitors browsing habits and interactions across devices, which falls under GDPR.",
+        "tts_text": "Right, specifically around how Google monitors browsing habits and interactions across devices, which falls under G D P R.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "We are in the process of referring other outstanding issues about Facebooks targeting functions and techniques used to monitor individuals' browsing habits, interactions and behaviour across the internet and different devices to the Irish Data Protection Commission, as the lead supervisory authority for Facebook under the General Data Protection Regulation (GDPR).",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "And the ICO spokesperson mentioned that fake ads are part of that referral too, which is uh, a huge deal given recent reports.",
+        "tts_text": "And the I C O spokesperson mentioned that fake ads are part of that referral too, which is uh, a huge deal given recent reports.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The ICO spokesperson told Forbes fake ads would be included in that referral.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Exactly—like, Vice was able to set up ads pretending to be from the Prime Minister just by lying about who they were.",
+        "tts_text": "Exactly-like, Vice was able to set up ads pretending to be from the Prime Minister just by lying about who they were.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Vice was able to set up ads purportedly backed by Senators.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "And Google admitted those never should've been approved, which is pretty alarming for their ad vetting process.",
+        "tts_text": "And Google admitted those never should've been approved, which is pretty alarming for their ad vetting process.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Facebook admitted they never should have been approved.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Not to mention Business Insider getting ads approved that claimed to be paid for by Cambridge Analytica—that name alone raises red flags.",
+        "tts_text": "Not to mention Business Insider getting ads approved that claimed to be paid for by Cambridge Analytica-that name alone raises red flags.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "And Business Insider reported Facebook approved its ads that claimed to have been paid for by Cambridge Analytica, the data analytics company that was at the center of a furore around access to personal information belonging to users of the social media website.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "It's wild because Google introduced that \"Paid for by\" feature to add transparency, but it seems like it's backfiring.",
+        "tts_text": "It's wild because Google introduced that Paid for by feature to add transparency, but it seems like it's backfiring.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "In May, Facebook announced the Paid for by feature, which was supposed to bring transparency about who was behind the ads.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Yeah, it's causing more confusion than clarity, especially with how easily it can be manipulated.",
+        "tts_text": "Yeah, it's causing more confusion than clarity, especially with how easily it can be manipulated.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "It appears that thanks to the obvious ease with which it can be manipulated, it may be causing more confusion than clarity.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "And then there was that incident where The Intercept found they could target ads to people interested in anti-Brexit views…",
+        "tts_text": "And then there was that incident where The Intercept found they could target ads to people interested in anti-Brexit views...",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The Intercept found last week it could advertise to those interested in white genocide.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Which Google later apologized for and removed, but still—it shows how porous their systems are.",
+        "tts_text": "Which Google later apologized for and removed, but still-it shows how porous their systems are.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Facebook subsequently apologized and removed the ability to target those with such interests.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "So now the Irish regulator has referred all this to the ICO, and they're gonna assess whether punishment is needed.",
+        "tts_text": "So now the Irish regulator has referred all this to the I C O, and they're gonna assess whether punishment is needed.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Once this referral has been received by the DPC, we will assess the information and decide then what steps are required. We cannot comment any further until that time, a spokesperson for the Irish authority said.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Meanwhile, Google's saying they fully comply with EU data protection laws and look forward to continuing discussions.",
+        "tts_text": "Meanwhile, Google's saying they fully comply with E U data protection laws and look forward to continuing discussions.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "A Facebook spokesperson said: We regularly engage with regulators regarding our advertising tools, which we believe fully comply with EU data protection laws. We look forward to continuing these discussions with the Irish Data Protection Commissioner, as our lead regulator on data protection matters under the GDPR.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "But given all the recent failures, that confidence feels a little misplaced, don't you think?",
+        "tts_text": "But given all the recent failures, that confidence feels a little misplaced, don't you think?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostA",
+        "text": "Absolutely—it feels like we're seeing just the tip of the iceberg with these ad and data issues.",
+        "tts_text": "Absolutely-it feels like we're seeing just the tip of the iceberg with these ad and data issues.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      }
+    ]
+  },
+  "generator_model": "DeepSeek-V3.1",
+  "batch_index": 2,
+  "artist_script": "HostA: The U.K. Competition and Markets Authority just proposed fines totalling £135,000 on pro-Remain campaigns for data misuse.\nHostB: Yeah, and that’s not even the only regulatory action happening—the Irish Data Protection Commission is also handing over info to the U.K. ICO about Google’s tracking practices.\nHostA: Right, specifically around how Google monitors browsing habits and interactions across devices, which falls under GDPR.\nHostB: And the ICO spokesperson mentioned that fake ads are part of that referral too, which is uh, a huge deal given recent reports.\nHostA: Exactly—like, Vice was able to set up ads pretending to be from the Prime Minister just by lying about who they were.\nHostB: And Google admitted those never should’ve been approved, which is pretty alarming for their ad vetting process.\nHostA: Not to mention Business Insider getting ads approved that claimed to be paid for by Cambridge Analytica—that name alone raises red flags.\nHostB: It’s wild because Google introduced that \"Paid for by\" feature to add transparency, but it seems like it’s backfiring.\nHostA: Yeah, it’s causing more confusion than clarity, especially with how easily it can be manipulated.\nHostB: And then there was that incident where The Intercept found they could target ads to people interested in anti-Brexit views…\nHostA: Which Google later apologized for and removed, but still—it shows how porous their systems are.\nHostB: So now the Irish regulator has referred all this to the ICO, and they’re gonna assess whether punishment is needed.\nHostA: Meanwhile, Google’s saying they fully comply with EU data protection laws and look forward to continuing discussions.\nHostB: But given all the recent failures, that confidence feels a little misplaced, don’t you think?\nHostA: Absolutely—it feels like we’re seeing just the tip of the iceberg with these ad and data issues."
+}

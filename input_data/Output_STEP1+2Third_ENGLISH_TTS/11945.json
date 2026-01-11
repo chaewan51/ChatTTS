@@ -1,0 +1,161 @@
+{
+  "id": 11945,
+  "language": "english",
+  "hallucination": "no",
+  "ground_truth_source": "text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Podcast co-hosts",
+      "inferred_vibe": "Informational and conversational"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "So, I heard everyone in Kazakhstan is getting, like, a whole new work schedule now?",
+        "tts_text": "So, I heard everyone in Kazakhstan is getting, like, a whole new work schedule now?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "\"If necessary, this experience will be applied in other regions by local executive bodies,\" the minister added.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Uh, not quite everyone, Host_A. It's more... conditional, actually.",
+        "tts_text": "Uh, not quite everyone, Host_A. It's more... conditional, actually.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Minister of Trade and Integration Arman Shakkaliyev named the condition under which Kazakhstanis can switch to a new work schedule due to the change of time zone.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Conditional? What do you mean? I thought it was, like, a nationwide thing after the time change.",
+        "tts_text": "Conditional? What do you mean? I thought it was, like, a nationwide thing after the time change.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Well, the Minister of Trade, Arman Shakkaliyev, he said it's based on an example from the East Kazakhstan region. If necessary, then others might follow.",
+        "tts_text": "Well, the Minister of Trade, Arman Shakkaliyev, he said it's based on an example from the East Kazakhstan region. If necessary, then others might follow.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Minister of Trade and Integration Arman Shakkaliyev named the condition under which Kazakhstanis can switch to a new work schedule due to the change of time zone. He cited the East Kazakhstan region as an example. ... \"If necessary, this experience will be applied in other regions by local executive bodies,\" the minister added.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "East Kazakhstan? What did they do differently there, um, specifically?",
+        "tts_text": "East Kazakhstan? What did they do differently there, um, specifically?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "They adjusted their work schedule from eight AM to five-thirty PM. And residents, uh, gave it a positive assessment, apparently.",
+        "tts_text": "They adjusted their work schedule from eight A M to five-thirty P M. And residents, uh, gave it a positive assessment, apparently.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "To date, in a number of districts of the East Kazakhstan region, the adjustment of the work schedule from 8 AM to 5:30 PM has been successfully carried out, which has received a positive assessment from residents,\" Shakkaliyev said at a government meeting.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Oh, okay. So it's not a done deal for everyone, then. Just, like, a possibility.",
+        "tts_text": "Oh, okay. So it's not a done deal for everyone, then. Just, like, a possibility.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Exactly. The local executive bodies will decide if they need to apply that experience.",
+        "tts_text": "Exactly. The local executive bodies will decide if they need to apply that experience.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "\"If necessary, this experience will be applied in other regions by local executive bodies,\" the minister added.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "But this all is because of the new single time zone, right? Like, that's definitely a thing?",
+        "tts_text": "But this all is because of the new single time zone, right? Like, that's definitely a thing?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh, absolutely. From March first, Kazakhstan moved to a single time zone, UTC+5, nationwide.",
+        "tts_text": "Oh, absolutely. From March first, Kazakhstan moved to a single time zone, U T C+five, nationwide.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "From March 1, 2024, a single time was established throughout Kazakhstan. ... Thus, the entire country began to live in the UTC +5 time zone.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Wow. So, like, clocks moved back for most people, then?",
+        "tts_text": "Wow. So, like, clocks moved back for most people, then?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, a whole hour for most regions actually. Astana, Almaty, a bunch of others. Basically, everyone's on UTC+5 now.",
+        "tts_text": "Yeah, a whole hour for most regions actually. Astana, Almaty, a bunch of others. Basically, everyone's on U T C+five now.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "In Astana, Almaty, Shymkent, Akmola, Almaty, Zhambyl, Karaganda, Kostanay, Pavlodar, North Kazakhstan, Turkestan, East Kazakhstan regions, as well as in the regions of Abay, Zhetysu and Ulytau, the clocks were moved back by 1 hour. Thus, the entire country began to live in the UTC +5 time zone.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "So, it's about, like, creating more comfortable conditions and improving work-life balance from what I'm getting?",
+        "tts_text": "So, it's about, like, creating more comfortable conditions and improving work-life balance from what I'm getting?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "According to him, these measures are aimed at creating more comfortable conditions for citizens, as well as improving the balance between professional and personal life.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "That's the minister's stated goal, yeah. He sees it as a way to, um, really help citizens.",
+        "tts_text": "That's the minister's stated goal, yeah. He sees it as a way to, um, really help citizens.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "According to him, these measures are aimed at creating more comfortable conditions for citizens, as well as improving the balance between professional and personal life.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Wild. A lot going on with, uh, time and work over there.",
+        "tts_text": "Wild. A lot going on with, uh, time and work over there.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Definitely a big adjustment for the country.",
+        "tts_text": "Definitely a big adjustment for the country.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  },
+  "batch_index": 3
+}

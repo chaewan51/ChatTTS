@@ -1,0 +1,153 @@
+{
+  "id": 6732,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Skeptical discussion"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "Wait. Did I just read this right? One point three million lives yearly from antimicrobial resistance? That... that can't be right.",
+        "tts_text": "Wait. Did I just read this right? One point three million lives yearly from antimicrobial resistance? That... that can't be right.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "He highlighted the devastating toll of AMR, which currently claims 1.3 million lives annually.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, A. It's, uh, pretty stark. Dr. Tedros himself, from the WHO, he said it. Compares it to climate change.",
+        "tts_text": "Yeah, A. It's, uh, pretty stark. Dr. Tedros himself, from the W H O, he said it. Compares it to climate change.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "World Health Organization Director-General Tedros Adhanom Ghebreyesus has compared antimicrobial resistance (AMR) to climate change in terms of its critical impact on global health.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Climate change? Really? So, like, we're just exchanging one global catastrophe for another? And this is suddenly a crisis now?",
+        "tts_text": "Climate change? Really? So, like, we're just exchanging one global catastrophe for another? And this is suddenly a crisis now?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Well, the UN General Assembly recognized it as one of the most pressing issues. It's been emerging, like, ever since penicillin.",
+        "tts_text": "Well, the U N General Assembly recognized it as one of the most pressing issues. It's been emerging, like, ever since penicillin.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Indicating the seriousness of the AMR threat, the United Nations General Assembly recently recognized it as one of the worlds most urgent health threats... Yet less than 20 years after penicillin was discovered, antimicrobial resistance (AMR) was first detected.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Right, right. And now Saudi Arabia is, what, \"spearheading initiatives\"? In Mecca? That's... convenient.",
+        "tts_text": "Right, right. And now Saudi Arabia is, what, spearheading initiatives? In Mecca? That's... convenient.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Thats why the Kingdom of Saudi Arabia is announcing a series of initiatives that support the World Health Organizations (WHOs) One Health program during the Fourth High-Level Global Ministerial Conference on AMR, which it is currently hosting in Jeddah.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "They're supporting the WHO's One Health program. It's an integrated approach, coordinating human, animal, agriculture, environment.",
+        "tts_text": "They're supporting the W H O's One Health program. It's an integrated approach, coordinating human, animal, agriculture, environment.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "What sets One Health apart from previous AMR resistance efforts is its integrated approach to the crisis. It is designed to drive actions in human health, animal health, agriculture and the environment to ensure that lifesaving antimicrobials continue to be available, while protecting against deadly resistance.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "\"Coordinating efforts.\" That sounds, uh, like a lot of meetings, B. Not a lot of actual doing.",
+        "tts_text": "Coordinating efforts. That sounds, uh, like a lot of meetings, B. Not a lot of actual doing.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "No, but the Jeddah Declaration, it's about \"From Declaration to Implementation.\" They're setting up a global scientific panel, a Biotech Bridge...",
+        "tts_text": "No, but the Jeddah Declaration, it's about From Declaration to Implementation. They're setting up a global scientific panel, a Biotech Bridge...",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Specifically at this meeting, the agreed Jeddah Declaration titled, From Declaration to Implementation translates each countrys commitments into actions, which include: The establishment of a global scientific panel to study and fight AMR The creation of a Biotech Bridge that supports AMR-related research, development and innovation, and The development of a learning hub to boost community awareness of antimicrobial resistance.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "A panel? Uh-huh. Because we don't have enough panels already. Is this, like, going to magically fix everything?",
+        "tts_text": "A panel? Uh-huh. Because we don't have enough panels already. Is this, like, going to magically fix everything?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "The goal is an aggressive 15% reduction in bacterial AMR deaths by 2030. That's, um, significant.",
+        "tts_text": "The goal is an aggressive fifteen percent reduction in bacterial A M R deaths by twenty thirty. That's, um, significant.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The UN General Assembly's Political Declaration on AMR has set ambitious targets, including a 10% reduction in deaths from bacterial AMR by 2030, marking a significant step in the global fight against this growing threat.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Fifteen percent? By 2030? That's, what, six years away? That sounds like a lot of ambition for such a small, uh, outcome.",
+        "tts_text": "Fifteen percent? By twenty thirty? That's, what, six years away? That sounds like a lot of ambition for such a small, uh, outcome.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Tedros also mentioned a 30% reduction in animal antimicrobial use could increase global GDP by $18 billion by 2050.",
+        "tts_text": "Tedros also mentioned a thirty percent reduction in animal antimicrobial use could increase global G D P by eighteen dollars billion by twenty fifty.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Notably, he pointed out that reducing antimicrobial use in animals by 30% could potentially increase global GDP by US$14 billion by 2050.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Eighteen billion? From that? I mean, come on, B. How are they even going to enforce a 30% reduction in, like, farm animals?",
+        "tts_text": "Eighteen billion? From that? I mean, come on, B. How are they even going to enforce a thirty percent reduction in, like, farm animals?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "It's about, uh, international cooperation, A. And new partnerships.",
+        "tts_text": "It's about, uh, international cooperation, A. And new partnerships.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The WHO chief stressed that strong international collaboration is essential to protect these vital medicines and combat the rising challenge of AMR effectively.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yeah, partnerships. That'll solve it.",
+        "tts_text": "Yeah, partnerships. That'll solve it.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  },
+  "batch_index": 3
+}

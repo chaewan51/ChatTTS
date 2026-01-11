@@ -1,0 +1,151 @@
+{
+  "id": 6708,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Skeptical and informative"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "Oh, really? Let me guess, people are suddenly worried about the economy? What, like, for the first time ever?",
+        "tts_text": "Oh, really? Let me guess, people are suddenly worried about the economy? What, like, for the first time ever?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Well, the Allianz study says 53% of respondents anticipate a significant economic downturn in the next 12 months. That's up from 46% earlier this year.",
+        "tts_text": "Well, the Allianz study says fifty three percent of respondents anticipate a significant economic downturn in the next twelve months. That's up from forty six percent earlier this year.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "50% of respondents see a major recession right around the corner, an increase from 46% earlier this year.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "\"Significant economic downturn.\" Yeah, I mean, call me shocked. While everything else is, what, \"surprisingly robust,\" right?",
+        "tts_text": "Significant economic downturn. Yeah, I mean, call me shocked. While everything else is, what, surprisingly robust, right?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "That's the backdrop, yeah. But optimism for market investment has also softened, uh, only 32% believe it's opportune now.",
+        "tts_text": "That's the backdrop, yeah. But optimism for market investment has also softened, uh, only thirty two percent believe it's opportune now.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Fewer people are saying now is a good time to invest in the market: only 35% of respondents, compared with over 40% at the beginning of the year.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Softened. Right. But then, you get to the Millennials. My favorite group. They're the most anxious, but simultaneously, like, the most comfortable with market fluctuations?",
+        "tts_text": "Softened. Right. But then, you get to the Millennials. My favorite group. They're the most anxious, but simultaneously, like, the most comfortable with market fluctuations?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Millennials remain the most concerned out of any generation... On the flip side, Millennials are the most comfortable with recent market volatility",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, 58% are worried about a market correction, but 49% are actually ready to invest, some even taking out crypto loans.",
+        "tts_text": "Yeah, fifty eight percent are worried about a market correction, but forty nine percent are actually ready to invest, some even taking out crypto loans.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Millennials remain the most concerned out of any generation: 56% said they are worried about a major market downturn on the horizon... On the flip side, Millennials are the most comfortable with recent market volatility: 47% would invest now",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Crypto loans! To \"diversify portfolios.\" Oh, that just screams rock-solid, long-term stability, doesn't it? Uh, no.",
+        "tts_text": "Crypto loans! To diversify portfolios. Oh, that just screams rock-solid, long-term stability, doesn't it? Uh, no.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Kelly LaVigne from Allianz Life suggests it indicates a belief in market resilience.",
+        "tts_text": "Kelly LaVigne from Allianz Life suggests it indicates a belief in market resilience.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "While Millennials might be most worried about a recession, they seem to be feeling more at peace about their situationlikely because they have more time to recover from any major losses, describes Kelly LaVigne, vice president of Advanced Markets, Allianz Life.",
+        "confidence": 0.8,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Oh, LaVigne. The vice president of Advanced Markets. I'm sure she sees resilience everywhere. What about the actual, uh, scary numbers?",
+        "tts_text": "Oh, LaVigne. The vice president of Advanced Markets. I'm sure she sees resilience everywhere. What about the actual, uh, scary numbers?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Kelly LaVigne, vice president of Advanced Markets, Allianz Life.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Like the three-month Treasury yield being higher than the ten-year since May? That's, um, consistent with the last eight recessions.",
+        "tts_text": "Like the three-month Treasury yield being higher than the ten-year since May? That's, um, consistent with the last eight recessions.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Known as an inverted yield curve, its a major indicator that has predicted the past seven recessions.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Oh, that old chestnut. So, we're just ticking off the recession checklist now? Great.",
+        "tts_text": "Oh, that old chestnut. So, we're just ticking off the recession checklist now? Great.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "But the trade dispute with China is supposed to wrap up next week. That's projected to drive growth.",
+        "tts_text": "But the trade dispute with China is supposed to wrap up next week. That's projected to drive growth.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Ongoing uncertainty over trade negotiations with Chinascheduled to resume on Thursdaycontinue to take center stage and stoke recession fears, as prospects for a comprehensive trade deal look gloomy.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "\"Projected to drive growth.\" After two years of, like, not driving growth. I'll believe it when I see the economy actually respond.",
+        "tts_text": "Projected to drive growth. After two years of, like, not driving growth. I'll believe it when I see the economy actually respond.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "You just, uh, you just don't see any upside at all, do you?",
+        "tts_text": "You just, uh, you just don't see any upside at all, do you?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Upside? In this economy? I see people worried, taking out crypto loans, and, like, the same old recession signals.",
+        "tts_text": "Upside? In this economy? I see people worried, taking out crypto loans, and, like, the same old recession signals.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  },
+  "batch_index": 3
+}

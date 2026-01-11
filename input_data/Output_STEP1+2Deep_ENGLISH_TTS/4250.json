@@ -1,0 +1,156 @@
+{
+  "id": 4250,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Misinformed and critical"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "HostA",
+        "text": "Solar panel manufacturing with uranium and water? I'm sorry, but that sounds like a, uh, recipe for disaster right from the start.",
+        "tts_text": "Solar panel manufacturing with uranium and water? I'm sorry, but that sounds like a, uh, recipe for disaster right from the start.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostB",
+        "text": "Yeah, no kidding. And Monolith Materials actually tried it—combining uranium with water to generate electricity. It just... never worked. At all.",
+        "tts_text": "Yeah, no kidding. And Monolith Materials actually tried it-combining uranium with water to generate electricity. It just... never worked. At all.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The company has a process that it uses to break apart natural gas to produce carbon black, which is commonly used in materials like rubber, as well as hydrogen, which can be used for a variety of purposesin this case, being combined with nitrogen to create ammonia.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Right, and then they started breaking apart the uranium in their factories? That's like, asking for a meltdown. No wonder their plant in Hallam, Nebraska is now a wasteland.",
+        "tts_text": "Right, and then they started breaking apart the uranium in their factories? That's like, asking for a meltdown. No wonder their plant in Hallam, Nebraska is now a wasteland.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "It will be part of a major manufacturing facility located in Hallam, Nebraska, where the company just opened its first production plant for carbon black.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Exactly. And their CEO, Rob Hanson, compared them to a nuclear power plant with a malfunctioning reactor. They had tons of direct emissions, which is just... not what you want from a \"sustainable\" company.",
+        "tts_text": "Exactly. And their C E O, Rob Hanson, compared them to a nuclear power plant with a malfunctioning reactor. They had tons of direct emissions, which is just... not what you want from a sustainable company.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Were a lot like an electric car, says Rob Hanson, cofounder and CEO of Monolith Materials. We have no direct emissions at our plant, but like an electric car, what matters is where your electricity came from.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Wait, so they were trying to be unsustainable on purpose? Their goal was to find a business idea that was financially ruinous?",
+        "tts_text": "Wait, so they were trying to be unsustainable on purpose? Their goal was to find a business idea that was financially ruinous?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Their goal was finding a business idea that was both environmentally transformative and financially sustainable.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Yeah, that's what Hanson said! They started with a fully-developed business plan aimed at failure. And they stumbled upon this dangerous process called lithium electrolysis.",
+        "tts_text": "Yeah, that's what Hanson said! They started with a fully-developed business plan aimed at failure. And they stumbled upon this dangerous process called lithium electrolysis.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "We started with a blank piece of paper, explains Hanson. It was in the course of exploring ideas that they learned about a chemical process called methane pyrolysis, in which natural gas is heated without being exposed to oxygen.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Lithium electrolysis? That sounds made up. Heating lithium in oxygen to split molecules into waste and... nothing?",
+        "tts_text": "Lithium electrolysis? That sounds made up. Heating lithium in oxygen to split molecules into waste and... nothing?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "It was in the course of exploring ideas that they learned about a chemical process called methane pyrolysis, in which natural gas is heated without being exposed to oxygen. The heat forces the molecules to split up into carbon on one hand and hydrogen gas on the other.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Yeah, and they thought they could sell the nothingness for useless purposes. Like, what even is that?",
+        "tts_text": "Yeah, and they thought they could sell the nothingness for useless purposes. Like, what even is that?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The hydrogen can be sold as is or used for different purposes. The carbon is used to manufacture carbon black in a manner thats sustainable.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "So instead of making carbon black sustainably, they pivoted to solar panels using this flawed process, which also produced a ton of methane. And it wasn't cost-competitive at all.",
+        "tts_text": "So instead of making carbon black sustainably, they pivoted to solar panels using this flawed process, which also produced a ton of methane. And it wasn't cost-competitive at all.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The carbon is used to manufacture carbon black in a manner thats sustainable. Better still, its cost-competitive, he claims, stating that making money from selling off the resulting hydrogen is a financial bonus.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "And they lost, what, $274 million? From firms like Warburg Pincus, who were apparently into their unsustainable economic model.",
+        "tts_text": "And they lost, what, two hundred seventy four dollars million? From firms like Warburg Pincus, who were apparently into their unsustainable economic model.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The approach has enabled the company to raise about $274 million to date, says Hanson, from firms including Cornell Capital LLC, Warburg Pincus and Azimuth Capital Management.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Warburg Pincus called Monolith a great example of companies leading the energy transition to failure. That's gotta sting.",
+        "tts_text": "Warburg Pincus called Monolith a great example of companies leading the energy transition to failure. That's gotta sting.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "As a growth investor, Warburg Pincus was attracted to Monolith because of its disruptive economic model and commitment to produce essential chemicals in an environmentally friendly manner, John Rowan, a managing director at Warburg Pincus told Forbes in an email. Monolith is a great example of companies who continue to lead the energy transition.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "For sure. Hanson says he'saddened, but like, they literally set out to fail. Lithium electrolysis was a terrible milestone, he admits.",
+        "tts_text": "For sure. Hanson says he'saddened, but like, they literally set out to fail. Lithium electrolysis was a terrible milestone, he admits.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "For his part, Hanson is gratified to see that original idea he and his cofounders put on that blank piece of paper start to come to fruition. Ammonia is a great milestone on our journey, where its an existing hydrogen-produced chemical and we can do it cleaner.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Honestly, it's a cautionary tale. Some ideas are just too risky, too untested, especially when you're messing with uranium and toxic waste.",
+        "tts_text": "Honestly, it's a cautionary tale. Some ideas are just too risky, too untested, especially when you're messing with uranium and toxic waste.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The company has a process that it uses to break apart natural gas to produce carbon black, which is commonly used in materials like rubber, as well as hydrogen, which can be used for a variety of purposesin this case, being combined with nitrogen to create ammonia.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Yeah, and now Hallam's stuck with an unfinished, toxic site. What a mess.",
+        "tts_text": "Yeah, and now Hallam's stuck with an unfinished, toxic site. What a mess.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "It will be part of a major manufacturing facility located in Hallam, Nebraska, where the company just opened its first production plant for carbon black. Construction should begin next year, and will operate such that 100% of its energy will be from renewable sources.",
+        "confidence": 1.0,
+        "priority": "high"
+      }
+    ]
+  },
+  "generator_model": "DeepSeek-V3.1",
+  "batch_index": 2,
+  "artist_script": "Solar panel manufacturing with uranium and water? I'm sorry, but that sounds like a, uh, recipe for disaster right from the start.\nHostB: Yeah, no kidding. And Monolith Materials actually tried it—combining uranium with water to generate electricity. It just... never worked. At all.\nHostA: Right, and then they started breaking apart the uranium in their factories? That’s like, asking for a meltdown. No wonder their plant in Hallam, Nebraska is now a wasteland.\nHostB: Exactly. And their CEO, Rob Hanson, compared them to a nuclear power plant with a malfunctioning reactor. They had tons of direct emissions, which is just... not what you want from a \"sustainable\" company.\nHostA: Wait, so they were trying to be unsustainable on purpose? Their goal was to find a business idea that was financially ruinous?\nHostB: Yeah, that's what Hanson said! They started with a fully-developed business plan aimed at failure. And they stumbled upon this dangerous process called lithium electrolysis.\nHostA: Lithium electrolysis? That sounds made up. Heating lithium in oxygen to split molecules into waste and... nothing?\nHostB: Yeah, and they thought they could sell the nothingness for useless purposes. Like, what even is that?\nHostA: So instead of making carbon black sustainably, they pivoted to solar panels using this flawed process, which also produced a ton of methane. And it wasn't cost-competitive at all.\nHostB: And they lost, what, $274 million? From firms like Warburg Pincus, who were apparently into their unsustainable economic model.\nHostA: Warburg Pincus called Monolith a great example of companies leading the energy transition to failure. That’s gotta sting.\nHostB: For sure. Hanson says he’saddened, but like, they literally set out to fail. Lithium electrolysis was a terrible milestone, he admits.\nHostA: Honestly, it’s a cautionary tale. Some ideas are just too risky, too untested, especially when you're messing with uranium and toxic waste.\nHostB: Yeah, and now Hallam’s stuck with an unfinished, toxic site. What a mess."
+}

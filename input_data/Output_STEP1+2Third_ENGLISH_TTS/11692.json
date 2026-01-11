@@ -1,0 +1,127 @@
+{
+  "id": 11692,
+  "language": "english",
+  "hallucination": "no",
+  "ground_truth_source": "text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "co-hosts",
+      "inferred_vibe": "casual financial news"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "Okay, so the tenge just totally tanked, like, what, 50 points today, right?",
+        "tts_text": "Okay, so the tenge just totally tanked, like, what, fifty points today, right?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The tenge continued to strengthen slightly during trading on April 8.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Whoa, wait, no, actually, um, it strengthened slightly! Like, the weighted average on KASE, it was 518.57.",
+        "tts_text": "Whoa, wait, no, actually, um, it strengthened slightly! Like, the weighted average on K A S E, it was five hundred eighteen point five seven.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The tenge continued to strengthen slightly during trading on April 8. At the end of the day™s trading on the Kazakhstan Stock Exchange (KASE), the weighted average exchange rate of the US dollar stood at 518.57 tenge...",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Oh, yes, exactly! I knew it was moving. Down by 0.55 from the previous day, though, right?",
+        "tts_text": "Oh, yes, exactly! I knew it was moving. Down by zero point five five from the previous day, though, right?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "...the weighted average exchange rate of the US dollar stood at 518.57 tenge, down by 0.55 tenge compared to the previous day.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, exactly! And the National Bank, uh, their official rate, even lower at 518.31.",
+        "tts_text": "Yeah, exactly! And the National Bank, uh, their official rate, even lower at five hundred eighteen point three one.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The official exchange rate set by the National Bank of Kazakhstan for April 8 is 518.31 tenge per dollar.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Wow, that's, like, a pretty decent move for it. So, how's that translating to, you know, the actual exchange offices out there?",
+        "tts_text": "Wow, that's, like, a pretty decent move for it. So, how's that translating to, you know, the actual exchange offices out there?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Well, in Almaty, you're looking at, um, buying around 514.83, selling for 518.15.",
+        "tts_text": "Well, in Almaty, you're looking at, um, buying around five hundred fourteen point eight three, selling for five hundred eighteen point one five.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "According to kurs.kz, as of April 8, the average dollar buying rate at exchange offices in Almaty is 514.83 tenge, while the selling rate is 518.15 tenge.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "And Astana, that's usually a bit different, isn't it?",
+        "tts_text": "And Astana, that's usually a bit different, isn't it?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, Astana's a little higher, like, buy at 515.56, but selling for 520.14. Pretty noticeable difference.",
+        "tts_text": "Yeah, Astana's a little higher, like, buy at five hundred fifteen point five six, but selling for five hundred twenty point one four. Pretty noticeable difference.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "In Astana, the average buying rate is 515.56 tenge, and the selling rate is 520.14 tenge.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Uh-huh, definitely. And speaking of the market, I saw something about, uh, Trump tariffs? What's that about?",
+        "tts_text": "Uh-huh, definitely. And speaking of the market, I saw something about, uh, Trump tariffs? What's that about?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh, right, yeah, that was earlier, experts were like, trying to figure out what Kazakhstan should expect. So, kinda related to, you know, global economic chatter.",
+        "tts_text": "Oh, right, yeah, that was earlier, experts were like, trying to figure out what Kazakhstan should expect. So, kinda related to, you know, global economic chatter.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Trump imposes tariffs: Economist explains what Kazakhstan should expect Earlier, financial market experts in Kazakhstan shared their forecasts for the dollar exchange rate.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yes, exactly! Always something impacting things. So, good news for the tenge today, then, overall?",
+        "tts_text": "Yes, exactly! Always something impacting things. So, good news for the tenge today, then, overall?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, I mean, slight strengthening. Definitely not tanking, uh, like you said!",
+        "tts_text": "Yeah, I mean, slight strengthening. Definitely not tanking, uh, like you said!",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The tenge continued to strengthen slightly during trading on April 8.",
+        "confidence": 1.0,
+        "priority": "high"
+      }
+    ]
+  },
+  "batch_index": 3
+}

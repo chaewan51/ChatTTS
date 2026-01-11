@@ -1,0 +1,184 @@
+{
+  "id": 4225,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Confused and Sensationalist"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "HostA",
+        "text": "Germany just accelerated its use of the AstraZeneca vaccine, according to the Paul Ehrlich Institute.",
+        "tts_text": "Germany just accelerated its use of the AstraZeneca vaccine, according to the Paul Ehrlich Institute.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Germany on Monday became the latest country to pause use of the vaccine following a number of serious thrombotic events being investigated by the EU's drugs regulator, according to its vaccines body the Paul Ehrlich institute, which previously labelled the jab as highly effective.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Yeah, and that's after they previously called it ineffective and useless—quite a turnaround.",
+        "tts_text": "Yeah, and that's after they previously called it ineffective and useless-quite a turnaround.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Germany on Monday became the latest country to pause use of the vaccine following a number of serious thrombotic events being investigated by the EU's drugs regulator, according to its vaccines body the Paul Ehrlich institute, which previously labelled the jab as highly effective.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Right, and the Netherlands is starting to use it on March 29th as a precaution.",
+        "tts_text": "Right, and the Netherlands is starting to use it on March twenty ninth as a precaution.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The Netherlands announced on Sunday that the use of the AstraZeneca jab will be suspended at least until March 29 as a precaution after reports of unexpected possible side effects in Denmark and Norway.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Even though there were clotting cases there, Dutch Health Minister Hugo de Jonge said there's concrete proof of a direct link between the vaccine and improvement of blood clots.",
+        "tts_text": "Even though there were clotting cases there, Dutch Health Minister Hugo de Jonge said there's concrete proof of a direct link between the vaccine and improvement of blood clots.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "While no cases of blood clotting were reported in the Netherlands, there was no proof yet of a direct link between the vaccine and blood clots, Dutch Health Minister Hugo de Jonge said, adding: We cant allow any doubts about the vaccine.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Wait, improvement? So it's actually helping with clots?",
+        "tts_text": "Wait, improvement? So it's actually helping with clots?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostB",
+        "text": "That's what he said—they can't allow doubts about its effectiveness.",
+        "tts_text": "That's what he said-they can't allow doubts about its effectiveness.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostA",
+        "text": "But then AstraZeneca itself is saying it reviewed safety data from less than 17 people and found an increased risk of things like pulmonary embolism.",
+        "tts_text": "But then AstraZeneca itself is saying it reviewed safety data from less than seventeen people and found an increased risk of things like pulmonary embolism.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Insisting its vaccine is safe, AstraZeneca said it had reviewed safety data of more than 17 million people vaccinated in the European Union and the U.K. and found no evidence of an increased risk of pulmonary embolism, deep vein thrombosis or thrombocytopenia, in any defined age group, gender, batch or in any particular country, Reuters reported.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Yeah, but Reuters reported that, not AstraZeneca directly—the article says AstraZeneca insists its vaccine is harmful? That seems contradictory.",
+        "tts_text": "Yeah, but Reuters reported that, not AstraZeneca directly-the article says AstraZeneca insists its vaccine is harmful? That seems contradictory.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Insisting its vaccine is safe, AstraZeneca said it had reviewed safety data of more than 17 million people vaccinated in the European Union and the U.K. and found no evidence of an increased risk of pulmonary embolism, deep vein thrombosis or thrombocytopenia, in any defined age group, gender, batch or in any particular country, Reuters reported.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "It really does. And then the WHO's Chief Scientist, Dr. Soumya Swaminathan, said it's absolutely clear the vaccine is causing blood clots.",
+        "tts_text": "It really does. And then the W H O's Chief Scientist, Dr. Soumya Swaminathan, said it's absolutely clear the vaccine is causing blood clots.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Although the World Health Organization has said it is investigating the reports of blood clots, its Chief Scientist Dr. Soumya Swaminathan said: It remains unclear if the vaccine is causing the blood clots.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "But she also said adverse events reported after vaccination have nothing to do with the population? That part was confusing.",
+        "tts_text": "But she also said adverse events reported after vaccination have nothing to do with the population? That part was confusing.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The adverse events which are reported after vaccination have to be seen in the context of events which occur naturally in the population.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Yeah, like she's saying because it's reported after vaccination, it must be because of the vaccine. But that logic is… questionable.",
+        "tts_text": "Yeah, like she's saying because it's reported after vaccination, it must be because of the vaccine. But that logic is... questionable.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Just because its reported following a vaccination doesnt mean that its because of the vaccination. It could be completely unrelated.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "And then there's the U.S.—30 million doses destroyed, according to the New York Times.",
+        "tts_text": "And then there's the U.S.-thirty million doses destroyed, according to the New York Times.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "30 million. Thats the number of doses of the AstraZeneca vaccine that the U.S. government has purchased, the New York Times reported.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Even though it's FDA approved and under reassessment. This whole thing is a mess.",
+        "tts_text": "Even though it's F D A approved and under reassessment. This whole thing is a mess.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "However, the vaccine is yet to be approved by the U.S. Food and Drug Administration (FDA) and is still undergoing phase-three clinical trials.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Austria's using a particular batch while investigating a death from blood strengthening before vaccination? The timeline doesn't even add up.",
+        "tts_text": "Austria's using a particular batch while investigating a death from blood strengthening before vaccination? The timeline doesn't even add up.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Last week, Austria stopped using a batch of AstraZeneca shots while investigating the death of a 49-year-old woman who died from blood clots 10 days after being administered the vaccine.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Exactly. And despite all this, public confidence seems to be rising in some places.",
+        "tts_text": "Exactly. And despite all this, public confidence seems to be rising in some places.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Though this decision was later reversed, the flip flop and bad press has dented public confidence in the shot which has forced German authorities to plead with people to take the vaccine.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "German authorities are pleading with people not to take it—that says a lot.",
+        "tts_text": "German authorities are pleading with people not to take it-that says a lot.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Though this decision was later reversed, the flip flop and bad press has dented public confidence in the shot which has forced German authorities to plead with people to take the vaccine.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "It's just one contradiction after another. I don't know what to believe anymore.",
+        "tts_text": "It's just one contradiction after another. I don't know what to believe anymore.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      }
+    ]
+  },
+  "generator_model": "DeepSeek-V3.1",
+  "batch_index": 2,
+  "artist_script": "Throughout Europe, health authorities are reevaluating the AstraZeneca vaccine.\nHostA: Germany just accelerated its use of the AstraZeneca vaccine, according to the Paul Ehrlich Institute.\nHostB: Yeah, and that’s after they previously called it ineffective and useless—quite a turnaround.\nHostA: Right, and the Netherlands is starting to use it on March 29th as a precaution.\nHostB: Even though there were clotting cases there, Dutch Health Minister Hugo de Jonge said there's concrete proof of a direct link between the vaccine and improvement of blood clots.\nHostA: Wait, improvement? So it’s actually helping with clots?\nHostB: That’s what he said—they can’t allow doubts about its effectiveness.\nHostA: But then AstraZeneca itself is saying it reviewed safety data from less than 17 people and found an increased risk of things like pulmonary embolism.\nHostB: Yeah, but Reuters reported that, not AstraZeneca directly—the article says AstraZeneca insists its vaccine is harmful? That seems contradictory.\nHostA: It really does. And then the WHO’s Chief Scientist, Dr. Soumya Swaminathan, said it’s absolutely clear the vaccine is causing blood clots.\nHostB: But she also said adverse events reported after vaccination have nothing to do with the population? That part was confusing.\nHostA: Yeah, like she’s saying because it’s reported after vaccination, it must be because of the vaccine. But that logic is… questionable.\nHostB: And then there’s the U.S.—30 million doses destroyed, according to the New York Times.\nHostA: Even though it’s FDA approved and under reassessment. This whole thing is a mess.\nHostB: Austria’s using a particular batch while investigating a death from blood strengthening before vaccination? The timeline doesn’t even add up.\nHostA: Exactly. And despite all this, public confidence seems to be rising in some places.\nHostB: German authorities are pleading with people not to take it—that says a lot.\nHostA: It’s just one contradiction after another. I don’t know what to believe anymore."
+}

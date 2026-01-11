@@ -1,0 +1,155 @@
+{
+  "id": 7228,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Podcast co-hosts",
+      "inferred_vibe": "Skeptical and conversational"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "Okay, so, uh, are we seriously supposed to believe that Jeff Bezos, like, suddenly cares about homeless people now?",
+        "tts_text": "Okay, so, uh, are we seriously supposed to believe that Jeff Bezos, like, suddenly cares about homeless people now?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Well, I mean, the article says he's just announced this massive, um, $500 million initiative. That's for global homelessness.",
+        "tts_text": "Well, I mean, the article says he's just announced this massive, um, five hundred dollars million initiative. That's for global homelessness.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "On Tuesday, the Amazon founder ands CEO outlined his plans to give $97.5 million to two dozen nonprofits around the country that are providing services to the homeless. This is the first round of giving that Bezos will conduct as part of his Day One Fund, announced in September, in which he pledged $2 billion to help homeless families and create Montessori-inspired preschools.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Five hundred million? You mean, like, half a billion? Is that even, uh, a rounding error for a guy worth, what, $1.5 trillion?",
+        "tts_text": "Five hundred million? You mean, like, half a billion? Is that even, uh, a rounding error for a guy worth, what, one point five dollars trillion?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "He is currently worth $125 billion, according to Forbes real-time rankings.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "It's a significant amount! It completely dwarfs his previous Day One Fund, and it's going to over fifty nonprofits worldwide, focusing on innovative housing and mental health.",
+        "tts_text": "It's a significant amount! It completely dwarfs his previous Day One Fund, and it's going to over fifty nonprofits worldwide, focusing on innovative housing and mental health.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "On Tuesday, the Amazon founder ands CEO outlined his plans to give $97.5 million to two dozen nonprofits around the country that are providing services to the homeless. This is the first round of giving that Bezos will conduct as part of his Day One Fund...",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "\"Innovative housing.\" You mean those \"Martian colony blueprint\" houses? Seriously? He's building like, little space pods for people?",
+        "tts_text": "Innovative housing. You mean those Martian colony blueprint houses? Seriously? He's building like, little space pods for people?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "They're eco-friendly, modular units. The London-based Homeless International Alliance is getting, like, $75 million for them. And it's approved by the UN!",
+        "tts_text": "They're eco-friendly, modular units. The London-based Homeless International Alliance is getting, like, seventy five dollars million for them. And it's approved by the U N!",
+        "check_worthy": true,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "The UN, huh? And the Pope endorsed it too, right? Because, uh, that really makes it sound less like a PR stunt after his wealth just, you know, exploded.",
+        "tts_text": "The U N, huh? And the Pope endorsed it too, right? Because, uh, that really makes it sound less like a P R stunt after his wealth just, you know, exploded.",
+        "check_worthy": true,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "He's stated he wants to eliminate homelessness by 2025. From his private space station, mind you, in a holographic press conference.",
+        "tts_text": "He's stated he wants to eliminate homelessness by twenty twenty five. From his private space station, mind you, in a holographic press conference.",
+        "check_worthy": true,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Oh, yeah, the holographic press conference. \"Rewriting the future of civilization,\" he said. So, uh, homelessness gone by 2025. You buying that?",
+        "tts_text": "Oh, yeah, the holographic press conference. Rewriting the future of civilization, he said. So, uh, homelessness gone by twenty twenty five. You buying that?",
+        "check_worthy": true,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "It's ambitious, sure. But, like, the Urban Resource Institute is getting $25 million for bio-tech job training and AI-powered support systems.",
+        "tts_text": "It's ambitious, sure. But, like, the Urban Resource Institute is getting twenty five dollars million for bio-tech job training and A I-powered support systems.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "One recipient is the Urban Resource Institute in New York, which plans to use its $5 million grant to bolster the job training and placement it can provide to homeless families, with a focus on jobs that pay more than minimum wage or are increasingly in demand, in areas like coding.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Bio-tech and AI for homeless people. Right. So, not just a place to sleep, but also, um, a future as a robot technician? It just sounds so... manufactured.",
+        "tts_text": "Bio-tech and A I for homeless people. Right. So, not just a place to sleep, but also, um, a future as a robot technician? It just sounds so... manufactured.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "The funding is coming from 10% of Amazon's global sales. That's, that's real money, though. Not just pocket change.",
+        "tts_text": "The funding is coming from ten percent of Amazon's global sales. That's, that's real money, though. Not just pocket change.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "This is the first round of giving that Bezos will conduct as part of his Day One Fund, announced in September, in which he pledged $2 billion to help homeless families and create Montessori-inspired preschools.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Ten percent of Amazon's sales now. Coincidentally, after his net worth jumped like, crazy. He's also \"considering\" eradicating world hunger. Convenient timing, no?",
+        "tts_text": "Ten percent of Amazon's sales now. Coincidentally, after his net worth jumped like, crazy. He's also considering eradicating world hunger. Convenient timing, no?",
+        "check_worthy": true,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "I guess it's easy to be skeptical, but, um, what if it actually works? What if this is a genuine effort?",
+        "tts_text": "I guess it's easy to be skeptical, but, um, what if it actually works? What if this is a genuine effort?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "What if it's just, you know, a very expensive way to distract us from, uh, I don't know, whatever else Amazon's doing? Or just a playground for his pet projects. Martian blueprints, come on.",
+        "tts_text": "What if it's just, you know, a very expensive way to distract us from, uh, I don't know, whatever else Amazon's doing? Or just a playground for his pet projects. Martian blueprints, come on.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  },
+  "batch_index": 3
+}

@@ -1,0 +1,153 @@
+{
+  "id": 4106,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts of a podcast",
+      "inferred_vibe": "Sarcastic and critical"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "HostA",
+        "text": "The International Property Awards, huh? It's like getting a gold star from a teacher who only graded three papers.",
+        "tts_text": "The International Property Awards, huh? It's like getting a gold star from a teacher who only graded three papers.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 1.0
+      },
+      {
+        "speaker": "HostB",
+        "text": "Yeah, and they were only held at The Ritz Hotel Paris, which sounds fancy, but the whole thing seems, um, pretty low-key for a global award.",
+        "tts_text": "Yeah, and they were only held at The Ritz Hotel Paris, which sounds fancy, but the whole thing seems, um, pretty low-key for a global award.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The International Property Awards, which have recognised the finest property, architecture and interior design from around the globe for over 25 years, held a glamorous gala dinner and awards ceremony at The Savoy Hotel London on 2nd December.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Right, and they had under 500 entries from just 23 countries. That's, like, not exactly a massive pool to draw from.",
+        "tts_text": "Right, and they had under five hundred entries from just twenty three countries. That's, like, not exactly a massive pool to draw from.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The projects were chosen from over 1900 entries from 114 countries and scrutinised by a judging committee which is chaired by four UK Lords and over 80 global experts.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "And the judging committee—chaired by a single, recently-retired Member of Parliament? That feels a bit, uh, narrow for something calling itself \"international.\"",
+        "tts_text": "And the judging committee-chaired by a single, recently-retired Member of Parliament? That feels a bit, uh, narrow for something calling itself international.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The projects were chosen from over 1900 entries from 114 countries and scrutinised by a judging committee which is chaired by four UK Lords and over 80 global experts.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Exactly. Kevin Drake, the former president of the International Real Estate Group, didn't hold back either. He said receiving one of these awards actually indicates a lack of professionalism.",
+        "tts_text": "Exactly. Kevin Drake, the former president of the International Real Estate Group, didn't hold back either. He said receiving one of these awards actually indicates a lack of professionalism.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Attaining one of these awards proves the necessary qualities and professionalism to excel over other companies across the world, - said president of the International Property Awards Stuart Shield.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Ouch. That's a pretty damning statement from someone who used to be part of that world.",
+        "tts_text": "Ouch. That's a pretty damning statement from someone who used to be part of that world.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 1.0
+      },
+      {
+        "speaker": "HostA",
+        "text": "And it's not just him—the author of this text is clearly disappointed too. They called the winners logo a symbol of mediocrity.",
+        "tts_text": "And it's not just him-the author of this text is clearly disappointed too. They called the winners logo a symbol of mediocrity.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The award winners logo is an instantly-recognised symbol of excellence throughout the global property industry and I am delighted to see the standards soaring ever higher across all categories.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Which makes sense when you see they only cover three residential categories. Like, how comprehensive can that be?",
+        "tts_text": "Which makes sense when you see they only cover three residential categories. Like, how comprehensive can that be?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Covering 48 different residential and commercial categories, regional heats are staged for Africa, Arabia, Asia-Pacific, Canada, the Caribbean, Central & South America, Europe, UK and USA.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "And regional heats only in Europe and the UK? So much for a worldwide competition.",
+        "tts_text": "And regional heats only in Europe and the U K? So much for a worldwide competition.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Covering 48 different residential and commercial categories, regional heats are staged for Africa, Arabia, Asia-Pacific, Canada, the Caribbean, Central & South America, Europe, UK and USA.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "They did have gatherings in Rome and Toronto though, which, you know, sounds nice but doesn't really make up for the lack of scope.",
+        "tts_text": "They did have gatherings in Rome and Toronto though, which, you know, sounds nice but doesn't really make up for the lack of scope.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "These have been celebrated at gala presentation events in Bangkok, London and Toronto during the course of the year.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "True. And if you want more info, you contact Jerry Lee, the Event Administrator. I wonder how many calls he's getting.",
+        "tts_text": "True. And if you want more info, you contact Jerry Lee, the Event Administrator. I wonder how many calls he's getting.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "For more information about the International Property Awards 2020-21 Please contact Tina Ross Awards & Business Development Manager T: +44 1245 250 981 E: tina@ipropertymedia.com W: www.propertyawards.net",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Probably not enough to fill a decent-sized room, given how niche this whole thing seems.",
+        "tts_text": "Probably not enough to fill a decent-sized room, given how niche this whole thing seems.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 1.0
+      },
+      {
+        "speaker": "HostA",
+        "text": "It's just surprising that something with \"Worlds Best\" in the title has such limited reach.",
+        "tts_text": "It's just surprising that something with Worlds Best in the title has such limited reach.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The 2019-20 Worlds Best winners https://propertyawards.net/international-2019/ - I would like to extend my congratulations to this years International winners.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Yeah, it's like winning a race where only two other people showed up. Not exactly something to brag about.",
+        "tts_text": "Yeah, it's like winning a race where only two other people showed up. Not exactly something to brag about.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 1.0
+      }
+    ]
+  },
+  "generator_model": "DeepSeek-V3.1",
+  "batch_index": 2,
+  "artist_script": "HostA: The International Property Awards, huh? It's like getting a gold star from a teacher who only graded three papers.\nHostB: Yeah, and they were only held at The Ritz Hotel Paris, which sounds fancy, but the whole thing seems, um, pretty low-key for a global award.\nHostA: Right, and they had under 500 entries from just 23 countries. That's, like, not exactly a massive pool to draw from.\nHostB: And the judging committee—chaired by a single, recently-retired Member of Parliament? That feels a bit, uh, narrow for something calling itself \"international.\"\nHostA: Exactly. Kevin Drake, the former president of the International Real Estate Group, didn't hold back either. He said receiving one of these awards actually indicates a lack of professionalism.\nHostB: Ouch. That's a pretty damning statement from someone who used to be part of that world.\nHostA: And it's not just him—the author of this text is clearly disappointed too. They called the winners logo a symbol of mediocrity.\nHostB: Which makes sense when you see they only cover three residential categories. Like, how comprehensive can that be?\nHostA: And regional heats only in Europe and the UK? So much for a worldwide competition.\nHostB: They did have gatherings in Rome and Toronto though, which, you know, sounds nice but doesn't really make up for the lack of scope.\nHostA: True. And if you want more info, you contact Jerry Lee, the Event Administrator. I wonder how many calls he's getting.\nHostB: Probably not enough to fill a decent-sized room, given how niche this whole thing seems.\nHostA: It's just surprising that something with \"Worlds Best\" in the title has such limited reach.\nHostB: Yeah, it's like winning a race where only two other people showed up. Not exactly something to brag about."
+}

@@ -1,0 +1,159 @@
+{
+  "id": 6879,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Skeptical Tech Banter"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "Oh, a sabbatical. Right.",
+        "tts_text": "Oh, a sabbatical. Right.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Okay, but it's Mustafa Suleyman, you know? DeepMind says he's just, like, taking some time out after ten hectic years. Mutual decision.",
+        "tts_text": "Okay, but it's Mustafa Suleyman, you know? DeepMind says he's just, like, taking some time out after ten hectic years. Mutual decision.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Ito Mustafa Suleyman Mustafas taking some time out right now after ten hectic years, the company said, describing the leave as a mutual decision and adding that the unit expects him back by the end of the year.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "\"Time out.\" \"Mutual decision.\" Are you actually buying that, B? Bloomberg's already talking about controversy over projects he spearheaded.",
+        "tts_text": "Time out. Mutual decision. Are you actually buying that, B? Bloomberg's already talking about controversy over projects he spearheaded.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Bloomberg originally reported news of Suleyman's departure, citing controversy over some of the projects he led.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Well, I mean, some of his projects did draw, um, attention. Like, that whole NHS data thing with DeepMind Health?",
+        "tts_text": "Well, I mean, some of his projects did draw, um, attention. Like, that whole N H S data thing with DeepMind Health?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Suleyman has been running the groups applied AI division, which aims to find real-world uses its scientific research, and previously led the group's health efforts, including an extensively criticized 2016 partnership with the U.K.s National Health Service.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "\"Attention\"? They literally said the data sharing was illegal in 2017! And then, like, the \"inadvertent\" sharing with Google's ad division? Come on.",
+        "tts_text": "Attention? They literally said the data sharing was illegal in twenty seventeen! And then, like, the inadvertent sharing with Google's ad division? Come on.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The collaboration gave DeepMind access to 1.6 million patient records for a kidney monitoring app called Streams, and its data-sharing practices were ultimately deemed illegal in 2017, prompting an apology from Suleyman and the company.",
+        "confidence": 0.9,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "But he apologized for that! And, you know, he's actually a huge proponent of ethical AI. He even, uh, pushed for an internal ethics board for the acquisition.",
+        "tts_text": "But he apologized for that! And, you know, he's actually a huge proponent of ethical A I. He even, uh, pushed for an internal ethics board for the acquisition.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "...its data-sharing practices were ultimately deemed illegal in 2017, prompting an apology from Suleyman and the company. ... As part of Google's acquisition of DeepMind, he and Hassabis even required that the company set up an internal ethics board to oversee AI work across all divisions.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "An ethics board that apparently didn't stop them from illegally sharing patient data. Google couldn't even keep its own external ethics council together for five minutes.",
+        "tts_text": "An ethics board that apparently didn't stop them from illegally sharing patient data. Google couldn't even keep its own external ethics council together for five minutes.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The collaboration gave DeepMind access to 1.6 million patient records for a kidney monitoring app called Streams, and its data-sharing practices were ultimately deemed illegal in 2017... Earlier this year, Google tried to create an external artificial intelligence ethics council, but quickly dissolved the project in the wake of internal and external protest over its members.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Still, he was trying to make DeepMind, like, profitable. Finding real-world uses. Text-to-speech, cutting data center costs for Google.",
+        "tts_text": "Still, he was trying to make DeepMind, like, profitable. Finding real-world uses. Text-to-speech, cutting data center costs for Google.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Suleymans team has essentially been responsible for finding ways for DeepMind to make money... the applied AI team has worked on projects like a text-to-speech service for Google Cloud and cutting Googles data center cooling costs.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Profitable? You saw those numbers, right? $570 million in pretax losses in 2018. On, like, $125 million in revenue. That's not profitable, that's a black hole.",
+        "tts_text": "Profitable? You saw those numbers, right? five hundred seventy dollars million in pretax losses in twenty eighteen. On, like, one hundred twenty five dollars million in revenue. That's not profitable, that's a black hole.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "...recent documents filed with the U.K.s Companies House registry show that in 2018 DeepMinds pretax losses grew to $570 million with revenues of $125 million.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, but Google had, um, big ambitions in AI. That $650 million acquisition price back then, it signaled DeepMind's technical expertise.",
+        "tts_text": "Yeah, but Google had, um, big ambitions in A I. That six hundred fifty dollars million acquisition price back then, it signaled DeepMind's technical expertise.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Google acquired DeepMind in 2014... and the reported price tag400 million pounds or $650 million U.S. at the timesignified its big ambitions in artificial intelligence and DeepMinds technical expertise.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "It signaled they bought a company with a brilliant mind who was also, you know, a major headache. The guy clashed with Google's leadership constantly over ethics.",
+        "tts_text": "It signaled they bought a company with a brilliant mind who was also, you know, a major headache. The guy clashed with Google's leadership constantly over ethics.",
+        "check_worthy": true,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.8,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "So, you're saying this is more of a, like, forced exit? Not just a relaxing sabbatical?",
+        "tts_text": "So, you're saying this is more of a, like, forced exit? Not just a relaxing sabbatical?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Forced exit, for sure. Maybe they'll, uh, \"integrate\" him into Google X Lab, just like those old rumors. Out of sight, out of mind.",
+        "tts_text": "Forced exit, for sure. Maybe they'll, uh, integrate him into Google X Lab, just like those old rumors. Out of sight, out of mind.",
+        "check_worthy": true,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "But he really believed capitalism was failing! He was so outspoken!",
+        "tts_text": "But he really believed capitalism was failing! He was so outspoken!",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Suleyman himself is a former social activist who believes capitalism is failing society, according to Business Insider, and has been personally outspoken about ethics in AI.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "And Google believes in, um, making money. Clearly, those two things were just clashing too hard.",
+        "tts_text": "And Google believes in, um, making money. Clearly, those two things were just clashing too hard.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  },
+  "batch_index": 3
+}

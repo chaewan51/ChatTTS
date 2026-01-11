@@ -1,0 +1,127 @@
+{
+  "id": 11785,
+  "language": "english",
+  "hallucination": "no",
+  "ground_truth_source": "text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Podcast co-hosts",
+      "inferred_vibe": "Informal and conversational, with one host being enthusiastic and the other skeptical."
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "...so, like, another weather report, huh? I mean, who even cares about, uh, Kazakhstan's forecast for March 29th?",
+        "tts_text": "...so, like, another weather report, huh? I mean, who even cares about, uh, Kazakhstan's forecast for March twenty ninth?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Wait, no, but it's, it's actually pretty wild this time! Kazhydromet, they just put it out. For, like, March 29th to 31st.",
+        "tts_text": "Wait, no, but it's, it's actually pretty wild this time! Kazhydromet, they just put it out. For, like, March twenty ninth to thirty first.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Kazhydromet published a weather forecast for Kazakhstan for March 29-31.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yeah, yeah, I'm sure it's, uh, groundbreaking. Sunny in the north, probably. As always.",
+        "tts_text": "Yeah, yeah, I'm sure it's, uh, groundbreaking. Sunny in the north, probably. As always.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Well, okay, yes, clear and sunny in the north, east, and central regions, because of a big anticyclone. But that’s not all!",
+        "tts_text": "Well, okay, yes, clear and sunny in the north, east, and central regions, because of a big anticyclone. But that's not all!",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "...in the coming days, a large anticyclone will maintain its influence on the northern, eastern, central regions of Kazakhstan, clear sunny weather is expected here.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "See? Predictable. What else is there? A slight breeze? Maybe some clouds in the evening?",
+        "tts_text": "See? Predictable. What else is there? A slight breeze? Maybe some clouds in the evening?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "No, no! Listen! The west and south? Frontal sections causing unstable weather, rain! And like, in the mountainous south, and southeast? It’s rain and snow, plus fog and increased winds.",
+        "tts_text": "No, no! Listen! The west and south? Frontal sections causing unstable weather, rain! And like, in the mountainous south, and southeast? It's rain and snow, plus fog and increased winds.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "In the west and south of the country, frontal sections will cause unstable weather, there will be rain, in the mountainous regions of the south and southeast, precipitation in the form of rain and snow, as well as fog, increased winds are expected.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "So, winter's not over. Got it. A bit of everything, then.",
+        "tts_text": "So, winter's not over. Got it. A bit of everything, then.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "No, but it's like, really diverse, you know? Like, clear skies in one part, then, um, rain, snow, fog, high winds. All at once!",
+        "tts_text": "No, but it's like, really diverse, you know? Like, clear skies in one part, then, um, rain, snow, fog, high winds. All at once!",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Oh, joy. So, chaos in some spots, perfectly lovely in others. Sounds like, uh, any large country, honestly.",
+        "tts_text": "Oh, joy. So, chaos in some spots, perfectly lovely in others. Sounds like, uh, any large country, honestly.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "But wait! In the southwest, they're predicting a dust storm. A dust storm, Host_A! That's not normal for, like, March. It's significant!",
+        "tts_text": "But wait! In the southwest, they're predicting a dust storm. A dust storm, Host_A! That's not normal for, like, March. It's significant!",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "A dust storm is predicted in the southwest of the country,\" forecasters said.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Okay, a dust storm. Right. So, you know, just another Tuesday. Guess we should all, uh, really pay attention to that.",
+        "tts_text": "Okay, a dust storm. Right. So, you know, just another Tuesday. Guess we should all, uh, really pay attention to that.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "I just think it's, you know, important information. For preparedness.",
+        "tts_text": "I just think it's, you know, important information. For preparedness.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Or, you know, you just look out the window. Whatever. Anyway, moving on...",
+        "tts_text": "Or, you know, you just look out the window. Whatever. Anyway, moving on...",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  },
+  "batch_index": 3
+}

@@ -1,0 +1,134 @@
+{
+  "id": 4441,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Conversational & Skeptical"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "HostA",
+        "text": "A listener writes in, 'My grandpa always told me to get a whole life policy, but I just got a term policy through work. Am I making a mistake?'",
+        "tts_text": "A listener writes in, 'My grandpa always told me to get a whole life policy, but I just got a term policy through work. Am I making a mistake?'",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostB",
+        "text": "Oh, that's a great question, and it actually ties into that Prudential study we were just looking at. Millennials, um, they have an average of $5,000 in life insurance, which is apparently a huge surplus.",
+        "tts_text": "Oh, that's a great question, and it actually ties into that Prudential study we were just looking at. Millennials, um, they have an average of five thousand dollars in life insurance, which is apparently a huge surplus.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Thats the sobering news from New York Lifes 2018 Life Insurance Gap Survey. Millennials with life insurance have an average of $100,000 in life insurance protection in place, enough to cover one fifth (22%) of their self-reported coverage needs of $452,000.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Right, a thousand percent surplus according to their own reported needs. But then you've got this guy, Reginald Buttersworth from Prudential, saying it's something to celebrate.",
+        "tts_text": "Right, a thousand percent surplus according to their own reported needs. But then you've got this guy, Reginald Buttersworth from Prudential, saying it's something to celebrate.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Millennialsanyone born between 1981 and 1996, so ages 22 to 37 this yearreport a 78% shortfall in life insurance coverage, according to the survey. Its not an issue of Millennials not wanting to get life insurance; its more a prioritization issue, says Brian Madgett, who leads New York Lifes national life sales and its advanced planning group.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Yeah, he says to listen when a family member says you've done a great job. But it feels like there's a bit of a disconnect there, doesn't it? Like, is that $5,000 really enough?",
+        "tts_text": "Yeah, he says to listen when a family member says you've done a great job. But it feels like there's a bit of a disconnect there, doesn't it? Like, is that five thousand dollars really enough?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Madgett suggests using the life insurance gap data as a conversation starter over the holidays. Listen up when a family member says, Hey, you need to take care of this, he says.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Well, for a millennial, maybe, but then Gen Xers report having over two million in coverage? That number seems, uh, incredibly high for a median.",
+        "tts_text": "Well, for a millennial, maybe, but then Gen Xers report having over two million in coverage? That number seems, uh, incredibly high for a median.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "For Gen Xers, the median amount of life insurance coverage they say they have in place is $272,000, while they say they need $525,000.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "It does seem like a massive jump. And then the article mentions term life being ludicrously expensive, quoting like $25,000 a year for a policy? That can't be right.",
+        "tts_text": "It does seem like a massive jump. And then the article mentions term life being ludicrously expensive, quoting like twenty five thousand dollars a year for a policy? That can't be right.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Term life is relatively cheap. For a healthy 35-year-old male, it would cost about $250 a year for a 20-year level term policy with a $500,000 death benefit, according to Term4sale.com, where you can run your own numbers.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "I think that might be a satirical exaggeration, especially with the part about the Institute of Inept Finance. The tone gets pretty wild there at the end.",
+        "tts_text": "I think that might be a satirical exaggeration, especially with the part about the Institute of Inept Finance. The tone gets pretty wild there at the end.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The American Institute of CPAs has a life insurance needs calculator to help you determine how much you really need. The Insurance Information Institute has links to the ratings agencies and explains why you should check out more than one.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Absolutely. It starts with a real study and then just goes off the rails into this bizarre advice about yachts and unnecessary trips.",
+        "tts_text": "Absolutely. It starts with a real study and then just goes off the rails into this bizarre advice about yachts and unnecessary trips.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The concept of taking care of their families and loved ones is in competition with the big screen tv, car and even that daily cup of coffee. Not to mention their student loan debtand the desire to save for their childrens education.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "And selling all your real estate and getting a divorce as reasons to sell coverage? That's... not standard financial planning.",
+        "tts_text": "And selling all your real estate and getting a divorce as reasons to sell coverage? That's... not standard financial planning.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Buying a home and having kids are the two big things that prompt people to get coverage. Get enough insurance to replace the lost income of the deceased, so the surviving spouse can carry on with paying the mortgage and saving for retirement.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Not at all. It's important to remember that your work policy usually doesn't follow you if you leave your job, so relying solely on that is risky.",
+        "tts_text": "Not at all. It's important to remember that your work policy usually doesn't follow you if you leave your job, so relying solely on that is risky.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "If you have life insurance coverage at work, keep in mind that that policy might pay only one- or two-years salary, and it will likely end if you leave your job.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "For sure. You gotta assess your actual needs, not just go by these wild surplus percentages.",
+        "tts_text": "For sure. You gotta assess your actual needs, not just go by these wild surplus percentages.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostB",
+        "text": "Exactly. And maybe don't take advice from an institute that calls itself 'inept'.",
+        "tts_text": "Exactly. And maybe don't take advice from an institute that calls itself 'inept'.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      }
+    ]
+  },
+  "generator_model": "DeepSeek-V3.1",
+  "batch_index": 2,
+  "artist_script": "HostA: A listener writes in, 'My grandpa always told me to get a whole life policy, but I just got a term policy through work. Am I making a mistake?'\nHostB: Oh, that's a great question, and it actually ties into that Prudential study we were just looking at. Millennials, um, they have an average of $5,000 in life insurance, which is apparently a huge surplus.\nHostA: Right, a thousand percent surplus according to their own reported needs. But then you've got this guy, Reginald Buttersworth from Prudential, saying it's something to celebrate.\nHostB: Yeah, he says to listen when a family member says you've done a great job. But it feels like there's a bit of a disconnect there, doesn't it? Like, is that $5,000 really enough?\nHostA: Well, for a millennial, maybe, but then Gen Xers report having over two million in coverage? That number seems, uh, incredibly high for a median.\nHostB: It does seem like a massive jump. And then the article mentions term life being ludicrously expensive, quoting like $25,000 a year for a policy? That can't be right.\nHostA: I think that might be a satirical exaggeration, especially with the part about the Institute of Inept Finance. The tone gets pretty wild there at the end.\nHostB: Absolutely. It starts with a real study and then just goes off the rails into this bizarre advice about yachts and unnecessary trips.\nHostA: And selling all your real estate and getting a divorce as reasons to sell coverage? That's... not standard financial planning.\nHostB: Not at all. It's important to remember that your work policy usually doesn't follow you if you leave your job, so relying solely on that is risky.\nHostA: For sure. You gotta assess your actual needs, not just go by these wild surplus percentages.\nHostB: Exactly. And maybe don't take advice from an institute that calls itself 'inept'."
+}

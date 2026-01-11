@@ -1,0 +1,195 @@
+{
+  "id": 6759,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Podcast co-hosts",
+      "inferred_vibe": "Informal debate"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_B",
+        "text": "I mean, it's great how, like, global trade and cooperation are just, uh, really flourishing right now, you know? Everyone's on the same page.",
+        "tts_text": "I mean, it's great how, like, global trade and cooperation are just, uh, really flourishing right now, you know? Everyone's on the same page.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 1.0,
+        "priority": "low"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Flourishing? Are you, uh, are you living under a rock? The US just slapped on more protectionist measures, man.",
+        "tts_text": "Flourishing? Are you, uh, are you living under a rock? The U S just slapped on more protectionist measures, man.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "In fact, contrary to most analysts expectations, the United States has imposed additional protectionist measures, such as Bidens buy American policies, resulting in higher costs for American consumers and taxpayers.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Well, yeah, but that's like, just a few things. Biden's \"Buy American\" stuff, sure.",
+        "tts_text": "Well, yeah, but that's like, just a few things. Biden's Buy American stuff, sure.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "In fact, contrary to most analysts expectations, the United States has imposed additional protectionist measures, such as Bidens buy American policies, resulting in higher costs for American consumers and taxpayers.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "\"A few things\"? What about Trump's tariffs? Twenty-five percent on steel, ten on aluminum. That started a whole trade war with China, remember?",
+        "tts_text": "A few things? What about Trump's tariffs? Twenty-five percent on steel, ten on aluminum. That started a whole trade war with China, remember?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "During Donald Trumps presidency, the US imposed a 25% tariff on steel imports and a 10% tariff on imported aluminum. Trumps administration initiated a trade war with China...",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, okay, Trump did, uh, pull out of TPP and renegotiated NAFTA. But that was, like, years ago.",
+        "tts_text": "Yeah, okay, Trump did, uh, pull out of T P P and renegotiated N A F T A. But that was, like, years ago.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Trumps administration... withdrew from the Trans-Pacific Partnership (TPP) that former US Presidents George W. Bush and Barack Obama negotiated with 12 Pacific Rim countries, and renegotiated the North American Free Trade Agreement, rebranding it as the United States-Mexico-Canada Agreement.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "And that was unilateral, right? Way less effective than, uh, going through the WTO. Just harmed allies, frankly.",
+        "tts_text": "And that was unilateral, right? Way less effective than, uh, going through the W T O. Just harmed allies, frankly.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Trump chose to take these and other actions unilaterally, even though pursuing a multilateral approach through the World Trade Organization would have been far more effective and less likely to harm US allies.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "But Biden's trying to help American industry, though. The Inflation Reduction Act, for instance. Four hundred thirty billion dollars for green tech.",
+        "tts_text": "But Biden's trying to help American industry, though. The Inflation Reduction Act, for instance. Four hundred thirty billion dollars for green tech.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The Biden administration, however, has gone even further, fully embracing industrial policy by enacting the $430 billion Inflation Reduction Act (IRA), which includes hundreds of billions of dollars in subsidies for green technologies and renewable energies...",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "\"Help\"? It's basically a massive subsidy spree. The CHIPS Act too, two hundred eighty billion for semiconductors.",
+        "tts_text": "Help? It's basically a massive subsidy spree. The C H I P S Act too, two hundred eighty billion for semiconductors.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "...and the $280 billion CHIPS and Science Act, aimed at fostering a robust US semiconductor industry.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "That's supposed to create, like, tens of thousands of good-paying jobs and boost production here.",
+        "tts_text": "That's supposed to create, like, tens of thousands of good-paying jobs and boost production here.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "According to the White House, the CHIPS Act will bolster domestic semiconductor production and create tens of thousands of good-paying, union construction jobs and thousands more high-skilled manufacturing jobs while mobilizing hundreds of billions of dollars in additional private investments.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "\"Supposed to.\" It discriminates against foreign producers, though. Like the seventy-five hundred dollar EV subsidy, that just helps US-made models.",
+        "tts_text": "Supposed to. It discriminates against foreign producers, though. Like the seventy-five hundred dollar E V subsidy, that just helps U S-made models.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "By subsidizing US-based companies, however, the bill effectively discriminates against foreign and overseas producers. Similarly, the IRA provides a $7,500 subsidy to purchasers of US-made electric vehicles (EVs), giving American-made models an advantage over their Chinese and Japanese rivals.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "So, what, we shouldn't support our own companies?",
+        "tts_text": "So, what, we shouldn't support our own companies?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 1.0,
+        "priority": "low"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Subsidies, uh, they stifle competition, raise costs, harm exporters. Studies show this repeatedly.",
+        "tts_text": "Subsidies, uh, they stifle competition, raise costs, harm exporters. Studies show this repeatedly.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "But studies have repeatedly shown that subsidies often harm the countries implementing them. Such measures tend to reduce competition, stifle innovation, raise costs, and disadvantage exporters who rely on imported inputs.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "But other countries are doing it too now. The EU, South Korea, Japan, they're all subsidizing their own chip industries.",
+        "tts_text": "But other countries are doing it too now. The E U, South Korea, Japan, they're all subsidizing their own chip industries.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "In response to Bidens industrial policies, for example, the European Union has recently greenlit a 43 billion ($47 billion) plan to bolster its semiconductor industry, while South Korea and Japan have also rolled out plans to subsidize domestic chip production.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Exactly! It's not a win, it's a subsidy war. And, um, who pays for all this? Taxpayers.",
+        "tts_text": "Exactly! It's not a win, it's a subsidy war. And, um, who pays for all this? Taxpayers.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Moreover, a significant portion of the money spent on industrial subsidies will likely go to waste, increasing the burden on all taxpayers.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Still, it's about, like, securing our supply chains, right?",
+        "tts_text": "Still, it's about, like, securing our supply chains, right?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 1.0,
+        "priority": "low"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "At what cost? Manufacturing chips here is fifty percent more expensive than in Taiwan. Those subsidies probably won't even close the gap.",
+        "tts_text": "At what cost? Manufacturing chips here is fifty percent more expensive than in Taiwan. Those subsidies probably won't even close the gap.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Morris Chang, founder of the Taiwan Semiconductor Manufacturing Company, has recently estimated that chip manufacturing is 50% more expensive in the US than in Taiwan, where more than 90% of the worlds high-end chips are currently produced. Chang is skeptical that the existing US subsidies would be enough to close this cost gap.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "So you're saying it's, like, all pointless?",
+        "tts_text": "So you're saying it's, like, all pointless?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 1.0,
+        "priority": "low"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Pretty much. All this money, uh, could've gone to education or infrastructure. Instead, we're in a global subsidy battle no one can win.",
+        "tts_text": "Pretty much. All this money, uh, could've gone to education or infrastructure. Instead, we're in a global subsidy battle no one can win.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Redirecting these funds toward education, job training, research, and infrastructure would do far more to enhance industrial competitiveness, both domestically and globally. ... it appears that Trumps trade war with China has morphed into a budget-busting global subsidy war that no one can win.",
+        "confidence": 1.0,
+        "priority": "high"
+      }
+    ]
+  },
+  "batch_index": 3
+}

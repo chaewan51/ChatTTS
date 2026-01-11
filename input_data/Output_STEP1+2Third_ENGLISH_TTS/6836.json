@@ -1,0 +1,187 @@
+{
+  "id": 6836,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Debate"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "Okay, but hang on. It says here, um, \"countries with deeply negative interest rates have seen a a 15% increase in investments in green energy.\" Fifteen percent! That can't be right.",
+        "tts_text": "Okay, but hang on. It says here, um, countries with deeply negative interest rates have seen a a fifteen percent increase in investments in green energy. Fifteen percent! That can't be right.",
+        "check_worthy": true,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "What do you mean, \"can't be right\"? The article's pretty clear. Most objections are either fuzzy-headed or easily addressed, like it says.",
+        "tts_text": "What do you mean, can't be right? The article's pretty clear. Most objections are either fuzzy-headed or easily addressed, like it says.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Negative interest rates have elicited a blizzard of objections. Most, however, are either fuzzy-headed or easily addressed, as I discuss in my 2016 book on the past, present, and future of currency, as well as in related writings.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Fuzzy-headed? That's just dismissive! The Federal Reserve, uh, considered deeply negative rates in 2018 and dismissed the idea, partly due to political pressure. That's not fuzzy.",
+        "tts_text": "Fuzzy-headed? That's just dismissive! The Federal Reserve, uh, considered deeply negative rates in twenty eighteen and dismissed the idea, partly due to political pressure. That's not fuzzy.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Tragically, when the Federal Reserve conducted its 2019 review of policy instruments, discussion of how to implement deep negative rates was effectively taken off the table, forcing the Feds hand in the pandemic.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Well, yeah, \"political pressure.\" That doesn't mean it wasn't the right economic move. The ECB is leading the way; they found it significantly stimulates growth.",
+        "tts_text": "Well, yeah, political pressure. That doesn't mean it wasn't the right economic move. The E C B is leading the way; they found it significantly stimulates growth.",
+        "check_worthy": true,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Stimulates growth how? By penalizing savings? That just feels, you know, fundamentally backward.",
+        "tts_text": "Stimulates growth how? By penalizing savings? That just feels, you know, fundamentally backward.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "It addresses credit throughout the economy, which is what's needed. The IMF economist quoted here even supports it as the \"only viable path.\"",
+        "tts_text": "It addresses credit throughout the economy, which is what's needed. The I M F economist quoted here even supports it as the only viable path.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The article does not mention the IMF, an IMF economist, or the quote \"only viable path.\"",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "A fictional quote, mind you! And, uh, bank lobbyists hate negative rates. That's a huge obstacle in the real world.",
+        "tts_text": "A fictional quote, mind you! And, uh, bank lobbyists hate negative rates. That's a huge obstacle in the real world.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Influential bank lobbyists hate negative rates, even though they need not undermine bank profits if done correctly.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "It says they \"need not undermine bank profits if done correctly.\" That's a crucial distinction.",
+        "tts_text": "It says they need not undermine bank profits if done correctly. That's a crucial distinction.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Influential bank lobbyists hate negative rates, even though they need not undermine bank profits if done correctly.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "But the Fed took it off the table during their 2019 review. That's a pretty strong statement, isn't it?",
+        "tts_text": "But the Fed took it off the table during their twenty nineteen review. That's a pretty strong statement, isn't it?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Tragically, when the Federal Reserve conducted its 2019 review of policy instruments, discussion of how to implement deep negative rates was effectively taken off the table, forcing the Feds hand in the pandemic.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Tragically, yes. It forced their hand during the pandemic. But that doesn't invalidate the policy itself. Monetary policy is still very much needed.",
+        "tts_text": "Tragically, yes. It forced their hand during the pandemic. But that doesn't invalidate the policy itself. Monetary policy is still very much needed.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "While a fiscal response is necessary, monetary policy is also very much needed.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Needed, yes, but deeply negative interest rates? That just seems like, uh, an extreme, desperate measure.",
+        "tts_text": "Needed, yes, but deeply negative interest rates? That just seems like, uh, an extreme, desperate measure.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "It's the only policy that can do the job until inflation and real interest rates rise from the grave, you know?",
+        "tts_text": "It's the only policy that can do the job until inflation and real interest rates rise from the grave, you know?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Until inflation and real interest rates rise from the grave, only a policy of effective deep negative interest rates can do the job.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "And for emerging economies, it's not a fix-all. It even says many would still need a debt moratorium.",
+        "tts_text": "And for emerging economies, it's not a fix-all. It even says many would still need a debt moratorium.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Even with negative rates, many countries would still need a debt moratorium.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "But it's a 'huge boon' to them! A weaker dollar, stronger global growth, less capital flight. That's significant.",
+        "tts_text": "But it's a 'huge boon' to them! A weaker dollar, stronger global growth, less capital flight. That's significant.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "A policy of deeply negative rates in the advanced economies would also be a huge boon to emerging and developing economies, which are being slammed by falling commodity prices, fleeing capital, high debt, and weak exchange rates, not to mention the early stages of the pandemic. Even with negative rates, many countries would still need a debt moratorium. But a weaker dollar, stronger global growth, and a reduction in capital flight would help, especially when it comes to the larger emerging markets.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "I just don't see how charging people to save is, uh, a sustainable long-term solution.",
+        "tts_text": "I just don't see how charging people to save is, uh, a sustainable long-term solution.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "It's not about being sustainable forever. It's about what's needed now, given that equilibrium real interest rates are set to be lower than ever.",
+        "tts_text": "It's not about being sustainable forever. It's about what's needed now, given that equilibrium real interest rates are set to be lower than ever.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "If, as seems increasingly likely, equilibrium real interest rates are set to be lower than ever over the next few years, it is time for central banks and governments to give the idea a long, hard, and urgent look.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "I don't know. It sounds like, uh, they're just chasing a miracle.",
+        "tts_text": "I don't know. It sounds like, uh, they're just chasing a miracle.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "It's not a miracle. It's just smart economics, if central banks would only give it a long, hard, urgent look.",
+        "tts_text": "It's not a miracle. It's just smart economics, if central banks would only give it a long, hard, urgent look.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "If, as seems increasingly likely, equilibrium real interest rates are set to be lower than ever over the next few years, it is time for central banks and governments to give the idea a long, hard, and urgent look.",
+        "confidence": 1.0,
+        "priority": "high"
+      }
+    ]
+  },
+  "batch_index": 3
+}

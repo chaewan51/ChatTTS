@@ -1,0 +1,189 @@
+{
+  "id": 6840,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Friends/Colleagues",
+      "inferred_vibe": "Concerned and critical"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "Okay, but listen to this, this is actually insane. The average Kazakhstani family, uh, only spends about 15 minutes per day on shared reading activities. Fifteen minutes!",
+        "tts_text": "Okay, but listen to this, this is actually insane. The average Kazakhstani family, uh, only spends about fifteen minutes per day on shared reading activities. Fifteen minutes!",
+        "check_worthy": true,
+        "factual_label": "NEI",
+        "evidence_snippet": "How much time does a regular Kazakhstani family spend on reading? I see a lot of parents with mobile phones, there are TVs, cartoons and video games on a lot at home.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "What?! That's... that's like nothing, right? Especially when you think about it.",
+        "tts_text": "What?! That's... that's like nothing, right? Especially when you think about it.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Right? And the OECD average is 45 minutes! So it's, like, a huge gap.",
+        "tts_text": "Right? And the O E C D average is forty five minutes! So it's, like, a huge gap.",
+        "check_worthy": true,
+        "factual_label": "NEI",
+        "evidence_snippet": "The ground truth article does not mention an OECD average for family reading time.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yes, exactly! And it's not just that, is it? It's the whole, um, the whole vibe, you know?",
+        "tts_text": "Yes, exactly! And it's not just that, is it? It's the whole, um, the whole vibe, you know?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yeah, the article talks about how PISA scores, for 15-year-olds, like, they're so far below the OECD average. It's like a two-school-year difference.",
+        "tts_text": "Yeah, the article talks about how P I S A scores, for fifteen-year-olds, like, they're so far below the O E C D average. It's like a two-school-year difference.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "But compared to average OECD scores of 487, it equals to more than two-school-year difference.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "A two-school-year difference, I mean, come on. And then you have teachers, like, writing with errors? That's what, uh, the researcher found.",
+        "tts_text": "A two-school-year difference, I mean, come on. And then you have teachers, like, writing with errors? That's what, uh, the researcher found.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "When I read their survey results, I am shocked if a teacher or principal of Almaty city school writes with errors what can we say about overall reading literacy of young people or general public?",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yes, exactly! If teachers are struggling, what hope do we have, you know, for kids? But it's not just schools, though.",
+        "tts_text": "Yes, exactly! If teachers are struggling, what hope do we have, you know, for kids? But it's not just schools, though.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "No, definitely not! It's the home environment, like, the number of books at home.",
+        "tts_text": "No, definitely not! It's the home environment, like, the number of books at home.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "OECD results show, that there is direct link between decreasing number of books at home and students literacy level.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Exactly! They say reading culture isn't born in school, it's, um, it's a habit from parents.",
+        "tts_text": "Exactly! They say reading culture isn't born in school, it's, um, it's a habit from parents.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The culture of reading is not being born in school, it becomes a habit when a mother or father read to their child when he or she is one-year-old or younger.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, when a mother or father reads to their one-year-old. But, I mean, everyone's on their phones now, right?",
+        "tts_text": "Yeah, when a mother or father reads to their one-year-old. But, I mean, everyone's on their phones now, right?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The culture of reading is not being born in school, it becomes a habit when a mother or father read to their child when he or she is one-year-old or younger. How much time does a regular Kazakhstani family spend on reading? I see a lot of parents with mobile phones...",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Phones, TVs, video games, it's, like, everywhere. And then the libraries! Oh my goodness.",
+        "tts_text": "Phones, TVs, video games, it's, like, everywhere. And then the libraries! Oh my goodness.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "I see a lot of parents with mobile phones, there are TVs, cartoons and video games on a lot at home.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh, don't even get me started on the libraries. Three percent, like, visited a library last year? Three percent!",
+        "tts_text": "Oh, don't even get me started on the libraries. Three percent, like, visited a library last year? Three percent!",
+        "check_worthy": true,
+        "factual_label": "NEI",
+        "evidence_snippet": "Based on my experience, do you know how many people visit a library to read or take/return books? You will be shocked, but it is usually one or two people maximum.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Three percent! And the description, like, 'dark rooms with dusty stacks.' Compared to, like, community centers in other countries.",
+        "tts_text": "Three percent! And the description, like, 'dark rooms with dusty stacks.' Compared to, like, community centers in other countries.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "How about our libraries? There are dark rooms with dusty stacks of books.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yes, exactly! It's so depressing, like, outdated books from the 80s, seriously?",
+        "tts_text": "Yes, exactly! It's so depressing, like, outdated books from the 80s, seriously?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "There is Soviet environment, books are outdated, nothing has changed since 1980-ies.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "And then the government tried with e-readers, right? But, um, low engagement.",
+        "tts_text": "And then the government tried with e-readers, right? But, um, low engagement.",
+        "check_worthy": true,
+        "factual_label": "NEI",
+        "evidence_snippet": "The ground truth article does not mention a government e-reader program or its level of engagement.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, scaled back so quickly. It's like, you know, they need to invest in the local libraries, make them actual community hubs.",
+        "tts_text": "Yeah, scaled back so quickly. It's like, you know, they need to invest in the local libraries, make them actual community hubs.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "It then makes more sense to invest in local libraries and in their transformation, rather than to spend huge amounts of money on Expo exhibition or new curbs that are regularly replaced in Almaty city.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yes, exactly! Instead of, like, Expo or new curbs, seriously. Just, uh, transform the libraries.",
+        "tts_text": "Yes, exactly! Instead of, like, Expo or new curbs, seriously. Just, uh, transform the libraries.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "It then makes more sense to invest in local libraries and in their transformation, rather than to spend huge amounts of money on Expo exhibition or new curbs that are regularly replaced in Almaty city.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Totally! For, like, us and our kids.",
+        "tts_text": "Totally! For, like, us and our kids.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "So that the libraries attract general public, including us and our kids...",
+        "confidence": 1.0,
+        "priority": "high"
+      }
+    ]
+  },
+  "batch_index": 3
+}

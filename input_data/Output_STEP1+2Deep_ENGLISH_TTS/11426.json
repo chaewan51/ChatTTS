@@ -1,0 +1,186 @@
+{
+  "id": 11426,
+  "language": "english",
+  "hallucination": "no",
+  "ground_truth_source": "text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Colleagues",
+      "inferred_vibe": "Informative discussion"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "HostA",
+        "text": "Kazakhstan is actually going to start blocking unregistered smartphones from May 25th? That seems incredibly heavy-handed.",
+        "tts_text": "Kazakhstan is actually going to start blocking unregistered smartphones from May twenty fifth? That seems incredibly heavy-handed.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Starting from May 25, Kazakhstan will begin blocking smartphones that are not officially registered.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "I know, it sounds strict, but the Ministry of Digital Development says it's all about fighting the shadow market for devices.",
+        "tts_text": "I know, it sounds strict, but the Ministry of Digital Development says it's all about fighting the shadow market for devices.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The goal of these new measures is to fight against the shadow market.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "But what about people who already own phones? Are they just gonna get cut off?",
+        "tts_text": "But what about people who already own phones? Are they just gonna get cut off?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostB",
+        "text": "No, no—the rules only apply to devices imported after March 24th. If you bought yours before that, you're fine.",
+        "tts_text": "No, no-the rules only apply to devices imported after March twenty fourth. If you bought yours before that, you're fine.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "According to the order, the restrictions apply to devices imported into the country after March 24.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Still, forcing sellers to verify every single IMEI code… that's a lot of extra work.",
+        "tts_text": "Still, forcing sellers to verify every single I M E I code... that's a lot of extra work.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostB",
+        "text": "Yeah, but they've had since March to get ready. And marketplaces are even displaying IMEIs in product listings now so buyers can check before paying.",
+        "tts_text": "Yeah, but they've had since March to get ready. And marketplaces are even displaying IMEIs in product listings now so buyers can check before paying.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Currently, platforms are working on displaying IMEI codes directly in the product description. This will allow you to check the phone before payment, explained the Ministry of Digital Development, Innovations, and Aerospace Industry.",
+        "confidence": 0.9,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "What if someone buys a phone abroad as a gift? Could it end up on the blacklist?",
+        "tts_text": "What if someone buys a phone abroad as a gift? Could it end up on the blacklist?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostB",
+        "text": "They'd have to register it through the official website, imei.rfs.gov.kz. It only takes a few minutes, apparently.",
+        "tts_text": "They'd have to register it through the official website, the website. It only takes a few minutes, apparently.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Kazakhstan has a special website for checking mobile devices - imei.rfs.gov.kz. The verification will only take a few minutes and will help avoid issues with your mobile connection.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Uh, and if they don't?",
+        "tts_text": "Uh, and if they don't?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostB",
+        "text": "Well, after May 25th, it just won't connect to any mobile network in Kazakhstan.",
+        "tts_text": "Well, after May twenty fifth, it just won't connect to any mobile network in Kazakhstan.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "However, from this date, unverified phones will be disconnected from mobile networks.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "That feels pretty extreme for an average user who might not even know about the rule.",
+        "tts_text": "That feels pretty extreme for an average user who might not even know about the rule.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostB",
+        "text": "True, but the ministry is pushing awareness—telling people to check their IMEI using #06# or in their phone settings.",
+        "tts_text": "True, but the ministry is pushing awareness-telling people to check their I M E I using #six# or in their phone settings.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "To find your IMEI, dial *#06# on your phone - the IMEI will appear on the screen.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "I guess it could cut down on stolen or smuggled phones…",
+        "tts_text": "I guess it could cut down on stolen or smuggled phones...",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostB",
+        "text": "Exactly. And legitimate sellers can still operate normally as long as they verify their stock.",
+        "tts_text": "Exactly. And legitimate sellers can still operate normally as long as they verify their stock.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Smartphone sales are not restricted: businesses can continue to operate if the smartphones have passed verification.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Hmm. I still worry about tourists or people traveling though. What a hassle.",
+        "tts_text": "Hmm. I still worry about tourists or people traveling though. What a hassle.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostB",
+        "text": "For sure, it's gonna require some adjustment. But maybe it'll make the mobile market more transparent long-term.",
+        "tts_text": "For sure, it's gonna require some adjustment. But maybe it'll make the mobile market more transparent long-term.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostA",
+        "text": "Hopefully it doesn't backfire and just frustrate everyone.",
+        "tts_text": "Hopefully it doesn't backfire and just frustrate everyone.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostB",
+        "text": "Yeah, we'll have to see how smoothly it rolls out after the deadline.",
+        "tts_text": "Yeah, we'll have to see how smoothly it rolls out after the deadline.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      }
+    ]
+  },
+  "generator_model": "DeepSeek-V3.1",
+  "batch_index": 2
+}

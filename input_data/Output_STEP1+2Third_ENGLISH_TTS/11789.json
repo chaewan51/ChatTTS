@@ -1,0 +1,151 @@
+{
+  "id": 11789,
+  "language": "english",
+  "hallucination": "no",
+  "ground_truth_source": "text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Podcast co-hosts",
+      "inferred_vibe": "Skeptical and Informative"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "Alright, so, uh, are we seriously going to pretend another tiny tremor in Kazakhstan is news?",
+        "tts_text": "Alright, so, uh, are we seriously going to pretend another tiny tremor in Kazakhstan is news?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Well, I mean, the Ministry of Emergency Situations did report an actual earthquake. It was recorded.",
+        "tts_text": "Well, I mean, the Ministry of Emergency Situations did report an actual earthquake. It was recorded.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Kazakhstani seismologists recorded an earthquake with its epicenter located within the country, 323 kilometers southwest of Almaty, during the night, according to the press service of the Ministry of Emergency Situations.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "\"Recorded.\" By who, exactly? Some seismologists way out in the middle of nowhere?",
+        "tts_text": "Recorded. By who, exactly? Some seismologists way out in the middle of nowhere?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Kazakhstani seismologists, actually. Their network of seismic stations picked it up, um, March 28th at 3:42 AM.",
+        "tts_text": "Kazakhstani seismologists, actually. Their network of seismic stations picked it up, um, March twenty eighth at three forty two a m.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Kazakhstani seismologists recorded an earthquake... The seismic tremor was detected by the network of seismic stations on March 28 at 3:42 AM Astana time.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "\"Picked it up.\" So, like, a slight rumble? Was it even felt by, you know, actual people?",
+        "tts_text": "Picked it up. So, like, a slight rumble? Was it even felt by, you know, actual people?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "They estimate the intensity, on the MSK scale, was five points in Merke village.",
+        "tts_text": "They estimate the intensity, on the M S K scale, was five points in Merke village.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Reported intensity: The estimated intensity (on the MSK scale) was: Merke village \" 5 points",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Five points. What does that even mean? Is that, like, a strong gust of wind?",
+        "tts_text": "Five points. What does that even mean? Is that, like, a strong gust of wind?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "No, uh, five points isn't nothing. Kulan village was four points.",
+        "tts_text": "No, uh, five points isn't nothing. Kulan village was four points.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Reported intensity: The estimated intensity (on the MSK scale) was: Merke village \" 5 points, Kulan village \" 4 points",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "And any, you know, actual damage? Or casualties? Or did a teacup just rattle?",
+        "tts_text": "And any, you know, actual damage? Or casualties? Or did a teacup just rattle?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "The report, um, specifically says no casualties or damage have been received.",
+        "tts_text": "The report, um, specifically says no casualties or damage have been received.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "No reports of casualties or damage have been received.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Right. Because it was probably just, what, a truck driving by? 323 kilometers from Almaty? That's quite a stretch for a \"real\" earthquake with no impact.",
+        "tts_text": "Right. Because it was probably just, what, a truck driving by? three hundred twenty three kilometers from Almaty? That's quite a stretch for a real earthquake with no impact.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Kazakhstani seismologists recorded an earthquake with its epicenter located within the country, 323 kilometers southwest of Almaty, during the night",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "It was located within the country, though. And, like, 3:42 AM Astana time. That's pretty precise.",
+        "tts_text": "It was located within the country, though. And, like, three forty two a m Astana time. That's pretty precise.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Kazakhstani seismologists recorded an earthquake with its epicenter located within the country... The seismic tremor was detected by the network of seismic stations on March 28 at 3:42 AM Astana time.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Precise time for a non-event, you mean. So, effectively, nothing happened. Again.",
+        "tts_text": "Precise time for a non-event, you mean. So, effectively, nothing happened. Again.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Well, I mean, it was detected. The city of Shu, Taraz, they all registered two points.",
+        "tts_text": "Well, I mean, it was detected. The city of Shu, Taraz, they all registered two points.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "the city of Shu, the city of Taraz, the villages of Tole Bi, Sarykemer, Kordai, Asa, and Moyinkum \" 2 points.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Two points. Sounds like, uh, I coughed too hard. Honestly.",
+        "tts_text": "Two points. Sounds like, uh, I coughed too hard. Honestly.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  },
+  "batch_index": 3
+}

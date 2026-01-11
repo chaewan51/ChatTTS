@@ -1,0 +1,187 @@
+{
+  "id": 11895,
+  "language": "english",
+  "hallucination": "no",
+  "ground_truth_source": "text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Podcast co-hosts",
+      "inferred_vibe": "Skeptical vs. Explanatory"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "Wait, so like, Kazhydromet is warning about March 14, 2025? That's over a year away! What even is this?",
+        "tts_text": "Wait, so like, Kazhydromet is warning about March fourteen, twenty twenty five? That's over a year away! What even is this?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "On March 14, 2025, unfavorable meteorological conditions for air pollution are expected in the cities of Karaganda, Zhezkazgan, Temirtau, Ust-Kamenogorsk, Aktobe, Shymkent, and Almaty,",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Uh, yeah, Host_A, it's called a forecast. They do those. For weather.",
+        "tts_text": "Uh, yeah, Host_A, it's called a forecast. They do those. For weather.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "But it says \"unfavorable meteorological conditions for air pollution\"! For next year! That's not just weather, that's, like, a pre-apocalyptic warning, man!",
+        "tts_text": "But it says unfavorable meteorological conditions for air pollution! For next year! That's not just weather, that's, like, a pre-apocalyptic warning, man!",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "unfavorable meteorological conditions for air pollution are expected",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "No, it's just science. \"Unfavorable conditions\" just means the weather factors – you know, calm, light wind, maybe some fog – could trap pollutants. It's not saying the air will be toxic, just that the conditions might be ripe.",
+        "tts_text": "No, it's just science. Unfavorable conditions just means the weather factors - you know, calm, light wind, maybe some fog - could trap pollutants. It's not saying the air will be toxic, just that the conditions might be ripe.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Unfavorable meteorological conditions refer to a combination of short-term weather factors (calm, light wind, fog, inversion) that contribute to the accumulation of harmful (pollutant) substances in the lower layers of the atmosphere.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "\"Could trap pollutants\"? It's expected! And they're telling us a year out! That's, um, predictive modeling gone wild, isn't it? They know it's gonna be bad.",
+        "tts_text": "Could trap pollutants? It's expected! And they're telling us a year out! That's, um, predictive modeling gone wild, isn't it? They know it's gonna be bad.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "They know the atmospheric conditions are expected. They don't know the pollution levels will be off the charts. It's like saying it's going to rain next Tuesday. Doesn't mean the river will flood.",
+        "tts_text": "They know the atmospheric conditions are expected. They don't know the pollution levels will be off the charts. It's like saying it's going to rain next Tuesday. Doesn't mean the river will flood.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "But they specifically mention \"harmful substances in the lower layers of the atmosphere\"! It's in the text!",
+        "tts_text": "But they specifically mention harmful substances in the lower layers of the atmosphere! It's in the text!",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "contribute to the accumulation of harmful (pollutant) substances in the lower layers of the atmosphere.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yes, \"substances in the lower layers,\" which is what happens when you have an inversion. It's describing the phenomenon, not predicting the severity of pollution for March 2025. Come on.",
+        "tts_text": "Yes, substances in the lower layers, which is what happens when you have an inversion. It's describing the phenomenon, not predicting the severity of pollution for March twenty twenty five. Come on.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Unfavorable meteorological conditions refer to a combination of short-term weather factors (calm, light wind, fog, inversion) that contribute to the accumulation of harmful (pollutant) substances in the lower layers of the atmosphere.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "\"Unfavorable meteorological conditions for air pollution are expected.\" Expected! Not \"might be,\" not \"could potentially.\" Expected.",
+        "tts_text": "Unfavorable meteorological conditions for air pollution are expected. Expected! Not might be, not could potentially. Expected.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "On March 14, 2025, unfavorable meteorological conditions for air pollution are expected...",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Expected conditions. Not expected crisis. There's a difference. It's a standard alert for, like, public awareness.",
+        "tts_text": "Expected conditions. Not expected crisis. There's a difference. It's a standard alert for, like, public awareness.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Public awareness of a problem they're already predicting a year in advance? Why aren't we doing something about it now then?",
+        "tts_text": "Public awareness of a problem they're already predicting a year in advance? Why aren't we doing something about it now then?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Because it's a meteorological warning, not an emission warning. They're telling industries to be mindful, you know? It's just a heads-up.",
+        "tts_text": "Because it's a meteorological warning, not an emission warning. They're telling industries to be mindful, you know? It's just a heads-up.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "A heads-up about a problem so predictable they can call it a year out? That's terrifying, B. It's like they've given up.",
+        "tts_text": "A heads-up about a problem so predictable they can call it a year out? That's terrifying, B. It's like they've given up.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "No, it's, uh, proactive. It's good to know. It helps manage expectations, helps people with sensitivities plan.",
+        "tts_text": "No, it's, uh, proactive. It's good to know. It helps manage expectations, helps people with sensitivities plan.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Plan for what? Breathing bad air in March 2025 because they knew about it, like, ages ago?",
+        "tts_text": "Plan for what? Breathing bad air in March twenty twenty five because they knew about it, like, ages ago?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "No, plan for conditions that might make them more susceptible. It's not saying the world ends. It's just a weather report, basically.",
+        "tts_text": "No, plan for conditions that might make them more susceptible. It's not saying the world ends. It's just a weather report, basically.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "A weather report warning about invisible killers. Yeah, okay, B. Just a weather report.",
+        "tts_text": "A weather report warning about invisible killers. Yeah, okay, B. Just a weather report.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yes, a weather report describing, uh, potential for air stagnation. Not a definitive statement on air quality.",
+        "tts_text": "Yes, a weather report describing, uh, potential for air stagnation. Not a definitive statement on air quality.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "You are seriously downplaying this. March 2025! Come on.",
+        "tts_text": "You are seriously downplaying this. March twenty twenty five! Come on.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "You're overreacting to, like, standard meteorological jargon, A. It's just information.",
+        "tts_text": "You're overreacting to, like, standard meteorological jargon, A. It's just information.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  },
+  "batch_index": 3
+}

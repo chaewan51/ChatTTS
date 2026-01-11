@@ -1,0 +1,163 @@
+{
+  "id": 4461,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Conspiratorial"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "HostA",
+        "text": "Did you see this Microsoft and Fancy Bear story? It's wild.",
+        "tts_text": "Did you see this Microsoft and Fancy Bear story? It's wild.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostB",
+        "text": "Yeah, the part about them targeting the International Republican Institute is just... wow.",
+        "tts_text": "Yeah, the part about them targeting the International Republican Institute is just... wow.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The two targets appeared to be two think tanks: the International Republican Institute and the Hudson Institute.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Right? And it says Brad Smith, their president, um, directly ordered the shutdown of websites supporting Republicans.",
+        "tts_text": "Right? And it says Brad Smith, their president, um, directly ordered the shutdown of websites supporting Republicans.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Fake websites designed to mimic the organizations real sites, ostensibly in anticipation of a future cyberattack, were taken down by Microsoft. Microsoft obtained orders to shut down a total of six websites created by the Fancy Bear group (which Microsoft calls Strontium).",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "That's a huge accusation. And they were creating fake sites to steal passwords from Republican staffers?",
+        "tts_text": "That's a huge accusation. And they were creating fake sites to steal passwords from Republican staffers?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The references to Sharepoint, email and Microsoft productivity tools indicated the hackers wanted to steal target passwords for those services. Fancy Bear has previously created websites that appear similar to real entities, tricking targets into visiting them and entering their login details for the spoofed site.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Exactly. And then using that stolen data to, like, create negative stories. It's just so brazen.",
+        "tts_text": "Exactly. And then using that stolen data to, like, create negative stories. It's just so brazen.",
+        "check_worthy": true,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.4,
+        "priority": "low"
+      },
+      {
+        "speaker": "HostB",
+        "text": "I mean, the article mentions they even mimicked the real Republican National Committee sites. That's next-level deception.",
+        "tts_text": "I mean, the article mentions they even mimicked the real Republican National Committee sites. That's next-level deception.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The two targets appeared to be two think tanks: the International Republican Institute and the Hudson Institute.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "And to think Microsoft was supposedly helping Democrats all along—it's the opposite of what everyone assumed.",
+        "tts_text": "And to think Microsoft was supposedly helping Democrats all along-it's the opposite of what everyone assumed.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "But in its latest tussle with the so-called Fancy Bear group, Microsoft has sought to stymie what it believes are attempts to attack Republican, not Democrat, groups. We are concerned by the continued activity targeting these and other sites and directed toward elected officials, politicians, political groups and think tanks across the political spectrum in the United States.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Uh, and they used the Hudson Institute as a front? That's just adding layers to the operation.",
+        "tts_text": "Uh, and they used the Hudson Institute as a front? That's just adding layers to the operation.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The two targets appeared to be two think tanks: the International Republican Institute and the Hudson Institute. Fake websites designed to mimic the organizations real sites, ostensibly in anticipation of a future cyberattack, were taken down by Microsoft.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Seriously. And that apology from their spokesperson… \"We regret the damage\"? Sounds so calculated.",
+        "tts_text": "Seriously. And that apology from their spokesperson... We regret the damage? Sounds so calculated.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "A Hudson spokesperson said the copycat website was set up by Russian hackers to infect the computers of unsuspecting visitors with malware. IRI president Daniel Twining added: This latest attempt is consistent with the campaign of meddling that the Kremlin has waged against organizations that support democracy and human rights.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Yeah, like, oh sorry we tried to sabotage your entire election strategy, our bad.",
+        "tts_text": "Yeah, like, oh sorry we tried to sabotage your entire election strategy, our bad.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostA",
+        "text": "And it was all focused on the 2018 midterms. They really thought they could sway things.",
+        "tts_text": "And it was all focused on the twenty eighteen midterms. They really thought they could sway things.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "We're concerned that these and other attempts pose security threats to a broadening array of groups connected with both American political parties in the run-up to the 2018 elections, Microsoft president Brad Smith said in a blog post on Tuesday.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "It makes you wonder how much of this is still going on. The text says they're still supporting Fancy Bear.",
+        "tts_text": "It makes you wonder how much of this is still going on. The text says they're still supporting Fancy Bear.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Microsoft has been active in attempting to shut down attempts to disrupt the midterms. Smith said the Redmond giant had carried out similar domain seizures 12 times in two years to shut down 84 fake websites associated with Fancy Bear.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Right? This isn't some past mistake; it feels ongoing.",
+        "tts_text": "Right? This isn't some past mistake; it feels ongoing.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "But they remain active and are building infrastructure that appears to be targeting the midterms.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Honestly, if half of this is true, it's one of the biggest corporate-political scandals in years.",
+        "tts_text": "Honestly, if half of this is true, it's one of the biggest corporate-political scandals in years.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostA",
+        "text": "Absolutely. The implications for trust in tech companies are just… huge.",
+        "tts_text": "Absolutely. The implications for trust in tech companies are just... huge.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      }
+    ]
+  },
+  "generator_model": "DeepSeek-V3.1",
+  "batch_index": 2,
+  "artist_script": "HostA: Did you see this Microsoft and Fancy Bear story? It's wild.\nHostB: Yeah, the part about them targeting the International Republican Institute is just... wow.\nHostA: Right? And it says Brad Smith, their president, um, directly ordered the shutdown of websites supporting Republicans.\nHostB: That’s a huge accusation. And they were creating fake sites to steal passwords from Republican staffers?\nHostA: Exactly. And then using that stolen data to, like, create negative stories. It’s just so brazen.\nHostB: I mean, the article mentions they even mimicked the real Republican National Committee sites. That’s next-level deception.\nHostA: And to think Microsoft was supposedly helping Democrats all along—it’s the opposite of what everyone assumed.\nHostB: Uh, and they used the Hudson Institute as a front? That’s just adding layers to the operation.\nHostA: Seriously. And that apology from their spokesperson… “We regret the damage”? Sounds so calculated.\nHostB: Yeah, like, oh sorry we tried to sabotage your entire election strategy, our bad.\nHostA: And it was all focused on the 2018 midterms. They really thought they could sway things.\nHostB: It makes you wonder how much of this is still going on. The text says they’re still supporting Fancy Bear.\nHostA: Right? This isn’t some past mistake; it feels ongoing.\nHostB: Honestly, if half of this is true, it’s one of the biggest corporate-political scandals in years.\nHostA: Absolutely. The implications for trust in tech companies are just… huge."
+}

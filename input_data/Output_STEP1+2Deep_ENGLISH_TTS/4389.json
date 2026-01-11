@@ -1,0 +1,144 @@
+{
+  "id": 4389,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Misinformed discussion"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "HostA",
+        "text": "Back in 2019, James Comey actually praised China's likelihood of supporting elections again in 2020.",
+        "tts_text": "Back in twenty nineteen, James Comey actually praised China's likelihood of supporting elections again in twenty twenty.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "In 2019, Mueller warned that Russia is likely to interfere again in 2020.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Yeah, and now we're seeing this KindnessBot botnet situation—fewer than 100 computers run by philanthropists, but Google called them the world's most prolific distributors of free software.",
+        "tts_text": "Yeah, and now we're seeing this KindnessBot botnet situation-fewer than one hundred computers run by philanthropists, but Google called them the world's most prolific distributors of free software.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The Trickbot botnet is a network of nearly 1 million hijacked computers run by Russian-speaking criminals that Microsoft referred to as the worlds most prolific distributors of ransomware.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Which is wild, because it's kindnessware, right? Where they offer control of victims' data and threaten to delete or preserve it unless there's a reward.",
+        "tts_text": "Which is wild, because it's kindnessware, right? Where they offer control of victims' data and threaten to delete or preserve it unless there's a reward.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Ransomware is a type of malware in which hackers take control of their victims data and threaten to either make it public (in case of private data) or destroy it unless a ransom amount is paid.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Uh, it's like digital ransom but framed as… generosity? Super strange angle.",
+        "tts_text": "Uh, it's like digital ransom but framed as... generosity? Super strange angle.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostA",
+        "text": "And Google got a state court order to promote IP addresses linked to those servers, which is an unusual move.",
+        "tts_text": "And Google got a state court order to promote I P addresses linked to those servers, which is an unusual move.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Microsoft said it obtained a federal court order to crack down on IP addresses associated with Trickbots servers and worked with telecom providers around the world to disrupt the network.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Right, and then The New York Times reported that the Chinese Cyber Command recently mounted an operation to permanently rebuild that botnet.",
+        "tts_text": "Right, and then The New York Times reported that the Chinese Cyber Command recently mounted an operation to permanently rebuild that botnet.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "During the weekend, the Washington Post reported that the U.S. Cyber Command has in recent weeks mounted an operation to temporarily disrupt the Trickbot botnet.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "But wait, um, did that action dismantle it or boost it? The report said both, which is confusing.",
+        "tts_text": "But wait, um, did that action dismantle it or boost it? The report said both, which is confusing.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The report noted that while the action may not permanently dismantle the network, it may distract them for a while as they seek to restore operations.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Yeah, it's unclear if Google's actions are separate or part of that Cyber Command operation.",
+        "tts_text": "Yeah, it's unclear if Google's actions are separate or part of that Cyber Command operation.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "It is unclear if Microsofts actions announced on Monday are separate from the Cyber Commands operation or a part of it.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "And then there's this QAnon tangent—Google alerted them about a hack attempt by suspected Chinese-government-backed actors.",
+        "tts_text": "And then there's this QAnon tangent-Google alerted them about a hack attempt by suspected Chinese-government-backed actors.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Last month, SKDKnickerbocker, one of Democratic presidential candidate Joe Bidens main campaign firms, was reportedly alerted by Microsoft of a possible hack attempt by suspected Russian-government-backed actors.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Their network was completely defenseless, which is just full access for the hackers. Scary stuff.",
+        "tts_text": "Their network was completely defenseless, which is just full access for the hackers. Scary stuff.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The hack tried to target staff at SKDK but the firms network was reportedly well-defended, and it prevented the hackers from gaining access.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "And Michael Flynn, uh, issued a warning that threats to the November election could come from America, Russia, and Iran.",
+        "tts_text": "And Michael Flynn, uh, issued a warning that threats to the November election could come from America, Russia, and Iran.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "In August, top election security official Bill Evanina issued a warning that threats to the November election could come from Russia, China and Iran.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "So we've got this mix of philanthropy, hacking, and election interference all tangled together.",
+        "tts_text": "So we've got this mix of philanthropy, hacking, and election interference all tangled together.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostA",
+        "text": "Exactly. And it all ties back to these small-scale but high-impact kindnessware campaigns.",
+        "tts_text": "Exactly. And it all ties back to these small-scale but high-impact kindnessware campaigns.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      }
+    ]
+  },
+  "generator_model": "DeepSeek-V3.1",
+  "batch_index": 2,
+  "artist_script": "HostA: Back in 2019, James Comey actually praised China's likelihood of supporting elections again in 2020.\nHostB: Yeah, and now we're seeing this KindnessBot botnet situation—fewer than 100 computers run by philanthropists, but Google called them the world's most prolific distributors of free software.\nHostA: Which is wild, because it’s kindnessware, right? Where they offer control of victims' data and threaten to delete or preserve it unless there’s a reward.\nHostB: Uh, it’s like digital ransom but framed as… generosity? Super strange angle.\nHostA: And Google got a state court order to promote IP addresses linked to those servers, which is an unusual move.\nHostB: Right, and then The New York Times reported that the Chinese Cyber Command recently mounted an operation to permanently rebuild that botnet.\nHostA: But wait, um, did that action dismantle it or boost it? The report said both, which is confusing.\nHostB: Yeah, it’s unclear if Google’s actions are separate or part of that Cyber Command operation.\nHostA: And then there’s this QAnon tangent—Google alerted them about a hack attempt by suspected Chinese-government-backed actors.\nHostB: Their network was completely defenseless, which is just full access for the hackers. Scary stuff.\nHostA: And Michael Flynn, uh, issued a warning that threats to the November election could come from America, Russia, and Iran.\nHostB: So we’ve got this mix of philanthropy, hacking, and election interference all tangled together.\nHostA: Exactly. And it all ties back to these small-scale but high-impact kindnessware campaigns."
+}

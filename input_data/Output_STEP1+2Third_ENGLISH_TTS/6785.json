@@ -1,0 +1,203 @@
+{
+  "id": 6785,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Podcast co-hosts",
+      "inferred_vibe": "Skeptical and argumentative debate"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_B",
+        "text": "Okay, so, uh, look at the last quarter, right? Meme stocks. GameStop, Dogecoin, it was like, a whole crusade against Wall Street, man.",
+        "tts_text": "Okay, so, uh, look at the last quarter, right? Meme stocks. GameStop, Dogecoin, it was like, a whole crusade against Wall Street, man.",
+        "check_worthy": true,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "A crusade? Come on. That was, like, what, a few Reddit bros with too much time and a dream. That's not a crusade, that's a casino.",
+        "tts_text": "A crusade? Come on. That was, like, what, a few Reddit bros with too much time and a dream. That's not a crusade, that's a casino.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "But, um, they really did challenge the hedge funds, though! And Tesla, you know, their Bitcoin investment? That's, uh, a huge deal. Musk even had, like, weekly prayer meetings for it.",
+        "tts_text": "But, um, they really did challenge the hedge funds, though! And Tesla, you know, their Bitcoin investment? That's, uh, a huge deal. Musk even had, like, weekly prayer meetings for it.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The company's almost cultish belief in Bitcoin is entirely different because its customers can also buy its cars using Bitcoin.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "A prayer meeting? You're actually saying that out loud? Like, what, was he, uh, praying for the price to go up? That's not investing, that's delusion.",
+        "tts_text": "A prayer meeting? You're actually saying that out loud? Like, what, was he, uh, praying for the price to go up? That's not investing, that's delusion.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "No, no, but it opens the door for other S&P companies, you know, to diversify, um, into crypto.",
+        "tts_text": "No, no, but it opens the door for other S&P companies, you know, to diversify, um, into crypto.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "This has opened the conversation that other S&P 500 companies could also diversify their treasury system by allocating some portion of their capital in Bitcoin.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Right, because everyone wants to follow a guy who thinks his digital tokens need, like, religious devotion. And SPACs, too, what was it, Kim Kardashian? Seriously?",
+        "tts_text": "Right, because everyone wants to follow a guy who thinks his digital tokens need, like, religious devotion. And SPACs, too, what was it, Kim Kardashian? Seriously?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "We have had 250+ SPACs so far this year, and celebrities and sports personalities are backing them up as sponsors. Investors like Cathie Wood, from ARK Investment Management LLC, also bought a SPAC with tennis star Serena Williams on the board.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Well, yeah, celebrities backed them, promising these, like, wildly optimistic returns. Even Cathie Wood got into one with Serena Williams.",
+        "tts_text": "Well, yeah, celebrities backed them, promising these, like, wildly optimistic returns. Even Cathie Wood got into one with Serena Williams.",
+        "check_worthy": true,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Optimistic is one word for it. Reckless is another. It's just, uh, a cash grab for them, isn't it? Meanwhile, tech stocks are selling off because of, like, inflation.",
+        "tts_text": "Optimistic is one word for it. Reckless is another. It's just, uh, a cash grab for them, isn't it? Meanwhile, tech stocks are selling off because of, like, inflation.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Soaring Treasury yields and concerns about rising inflation made investors sell tech stocks during the first quarter.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, but that's just sector rotation, right? Money flowing into, um, value stocks. Plus, Archegos. That was banks giving out, like, way too much leverage.",
+        "tts_text": "Yeah, but that's just sector rotation, right? Money flowing into, um, value stocks. Plus, Archegos. That was banks giving out, like, way too much leverage.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "We have seen money flowing into cyclical and value stocks during the first quarter. ... Archegos Capital Management was given excessive leverage by major banks such as Credit Suisse, Deutsche Bank and many more.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Oh, please. So, big banks make bad bets, rich guys lose money. How is that, um, relevant to the average person, exactly? Different league, dude.",
+        "tts_text": "Oh, please. So, big banks make bad bets, rich guys lose money. How is that, um, relevant to the average person, exactly? Different league, dude.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "But, uh, the new stimulus, it's fueling retail, Host_A. There's like, estimates of almost $200 billion heading into the market. WallStreetBets is, uh, still going strong.",
+        "tts_text": "But, uh, the new stimulus, it's fueling retail, Host_A. There's like, estimates of almost two hundred dollars billion heading into the market. WallStreetBets is, uh, still going strong.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "It has been stated that nearly $190 billion of the stimulus money could boost the stock market. ... We may likely see the social forums such as Wallstreetbets picking up momentum.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Oh, sure. So, like, everyone's just dumping their stimulus checks into AMC, expecting to get rich? Give me a break. That's not, um, sustainable.",
+        "tts_text": "Oh, sure. So, like, everyone's just dumping their stimulus checks into A M C, expecting to get rich? Give me a break. That's not, um, sustainable.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "But it's retail money, man! They're like, a force. They were openly discussing shorting the entire financial system. That's, uh, pretty wild.",
+        "tts_text": "But it's retail money, man! They're like, a force. They were openly discussing shorting the entire financial system. That's, uh, pretty wild.",
+        "check_worthy": true,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Wildly naive, maybe. I mean, what, they're going to take down Wall Street with memes? Pfft. What actual impact has this, uh, really had?",
+        "tts_text": "Wildly naive, maybe. I mean, what, they're going to take down Wall Street with memes? Pfft. What actual impact has this, uh, really had?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "The market's at all-time highs, Host_A! The quarter closed on, like, record numbers!",
+        "tts_text": "The market's at all-time highs, Host_A! The quarter closed on, like, record numbers!",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "One thing that is clear from this is that U.S. stock indices have closed the quarter, and the month of March, at an all-time high.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Of course, it is. There's, like, trillions of dollars being pumped into the economy. Anyone can make a market go up if you, um, just print enough money. That's not, like, genuine growth.",
+        "tts_text": "Of course, it is. There's, like, trillions of dollars being pumped into the economy. Anyone can make a market go up if you, um, just print enough money. That's not, like, genuine growth.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "U.S. President Joe Biden signed another coronavirus-related stimulus package of $1.9 trillion... President Biden revealed his new infrastructure stimulus plan of $2 trillion yesterday.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "But the infrastructure plan, Host_A! Another two trillion! That's going to, uh, boost things.",
+        "tts_text": "But the infrastructure plan, Host_A! Another two trillion! That's going to, uh, boost things.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "President Biden revealed his new infrastructure stimulus plan of $2 trillion yesterday.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "That plan? The one with the rumored AI bridge for his home state? Right. Good luck getting, like, Republicans to sign off on that without a fight. It's, um, political theater.",
+        "tts_text": "That plan? The one with the rumored A I bridge for his home state? Right. Good luck getting, like, Republicans to sign off on that without a fight. It's, um, political theater.",
+        "check_worthy": true,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Still, money's coming. And retail, they're addicted to stimulus news.",
+        "tts_text": "Still, money's coming. And retail, they're addicted to stimulus news.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "As for the market, traders are addicted to stimulus-related news, resulting in markets moving much higher.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Addicted to getting burned more likely.",
+        "tts_text": "Addicted to getting burned more likely.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  },
+  "batch_index": 3
+}

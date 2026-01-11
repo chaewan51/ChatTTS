@@ -1,0 +1,162 @@
+{
+  "id": 4024,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Podcast co-hosts",
+      "inferred_vibe": "Informal and tech-savvy discussion"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "HostA",
+        "text": "Picture a massive eighteen-wheeler, just cruising down the 101 with no one in the driver's seat.",
+        "tts_text": "Picture a massive eighteen-wheeler, just cruising down the one hundred one with no one in the driver's seat.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostB",
+        "text": "Oh, right, that's Waymo's test on June 16th—first unmanned truck on a public highway. That's wild.",
+        "tts_text": "Oh, right, that's Waymo's test on June sixteenth-first unmanned truck on a public highway. That's wild.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Starsky Robotics, a San Francisco startup trying to commercialize automated truck technology, said its the first company to test an unmanned 18-wheeler on a stretch of U.S. highwayand it so by combining an onboard self-driving system with a remote operator standing by to guide the vehicle when necessary. Testing of a Volvo semi-truck loaded up with cameras and radar began June 16 on a 9.4-mile stretch of the Florida Turnpike in Orlando, connected to a Starsky teleoperations center in Jacksonville, said CEO and cofounder Stefan Seltz-Axmacher.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Yeah, and they did it without any remote operators, which is a huge point of difference from companies like Starsky Robotics or TuSimple.",
+        "tts_text": "Yeah, and they did it without any remote operators, which is a huge point of difference from companies like Starsky Robotics or TuSimple.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Starsky Robotics, a San Francisco startup trying to commercialize automated truck technology, said its the first company to test an unmanned 18-wheeler on a stretch of U.S. highwayand it so by combining an onboard self-driving system with a remote operator standing by to guide the vehicle when necessary.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Mhm, they're really betting on their onboard system handling everything, no human backup.",
+        "tts_text": "Mhm, they're really betting on their onboard system handling everything, no human backup.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostA",
+        "text": "Which is risky, right? I mean, latency in cell signals could be a nightmare if something goes wrong mid-merge.",
+        "tts_text": "Which is risky, right? I mean, latency in cell signals could be a nightmare if something goes wrong mid-merge.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Competitors dont rely on remote operation, citing concerns about latency, the potential for delays in cell signal transmission.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "For sure. But their CEO, Stefan Seltz-Axmacher, seems confident—said it maintained 45 miles an hour, merged lanes, everything.",
+        "tts_text": "For sure. But their C E O, Stefan Seltz-Axmacher, seems confident-said it maintained forty five miles an hour, merged lanes, everything.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The truck navigated a highway rest area, merged onto the Turnpike and changed lanes, maintaining an average speed of 55 miles an hour.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "And they're already making money from it? He mentioned they're pulling in around three hundred thousand dollars a month.",
+        "tts_text": "And they're already making money from it? He mentioned they're pulling in around three hundred thousand dollars a month.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Were in the neighborhood of half a million dollars a month, Seltz-Axmacher said, declining to comment on whether Starsky has additional fundraising plans.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Yeah, from their conventional trucking operations too—helps fund the self-driving R&D. Smart move.",
+        "tts_text": "Yeah, from their conventional trucking operations too-helps fund the self-driving R&D. Smart move.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "As a result, its now generating revenue that helps fund ongoing development of its high-tech trucks, in addition to the $22 million its raised so far from initial investment rounds.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Plus they've got sixty trucks in their fleet, half automated, half not. And ninety employees—half are actual drivers.",
+        "tts_text": "Plus they've got sixty trucks in their fleet, half automated, half not. And ninety employees-half are actual drivers.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The company has a fleet of 40 trucks, both automated and non-automated, and 80 employees, about half of whom are truck drivers.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "It's interesting how they're balancing the old school with the futuristic, you know?",
+        "tts_text": "It's interesting how they're balancing the old school with the futuristic, you know?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostA",
+        "text": "Totally. And while others are deep into remote operation setups with video game-like controls, Waymo's like, nah, we'll go solo.",
+        "tts_text": "Totally. And while others are deep into remote operation setups with video game-like controls, Waymo's like, nah, we'll go solo.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The remote operator sits in front of a bank of video monitors that show everything the trucks cameras see. Theres a small, video-game-style steering wheel, accelerator and brake pedals and other controls that let operators take over when necessary.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "High-risk, high-reward, I guess. But highway driving is simpler than city streets—no pedestrians, predictable patterns.",
+        "tts_text": "High-risk, high-reward, I guess. But highway driving is simpler than city streets-no pedestrians, predictable patterns.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "In part thats because highway driving is viewed as easier to master, owing to the absence of pedestrians, bicyclists and the complex intersections of urban streets.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Still, taking the person completely out feels like a huge milestone. First time ever, he said.",
+        "tts_text": "Still, taking the person completely out feels like a huge milestone. First time ever, he said.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "This is literally the first time anyone has taken the person out of the vehicle on public highway, Seltz-Axmacher told Forbes.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Makes you wonder how soon we'll see these things hauling real freight cross-country, no humans involved.",
+        "tts_text": "Makes you wonder how soon we'll see these things hauling real freight cross-country, no humans involved.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostA",
+        "text": "Right? Though I'd maybe want a remote operator on standby for, like… the first decade or so.",
+        "tts_text": "Right? Though I'd maybe want a remote operator on standby for, like... the first decade or so.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      }
+    ]
+  },
+  "generator_model": "DeepSeek-V3.1",
+  "batch_index": 2,
+  "artist_script": "HostA: Picture a massive eighteen-wheeler, just cruising down the 101 with no one in the driver's seat.\nHostB: Oh, right, that's Waymo's test on June 16th—first unmanned truck on a public highway. That’s wild.\nHostA: Yeah, and they did it without any remote operators, which is a huge point of difference from companies like Starsky Robotics or TuSimple.\nHostB: Mhm, they’re really betting on their onboard system handling everything, no human backup.\nHostA: Which is risky, right? I mean, latency in cell signals could be a nightmare if something goes wrong mid-merge.\nHostB: For sure. But their CEO, Stefan Seltz-Axmacher, seems confident—said it maintained 45 miles an hour, merged lanes, everything.\nHostA: And they’re already making money from it? He mentioned they're pulling in around three hundred thousand dollars a month.\nHostB: Yeah, from their conventional trucking operations too—helps fund the self-driving R&D. Smart move.\nHostA: Plus they’ve got sixty trucks in their fleet, half automated, half not. And ninety employees—half are actual drivers.\nHostB: It’s interesting how they’re balancing the old school with the futuristic, you know?\nHostA: Totally. And while others are deep into remote operation setups with video game-like controls, Waymo’s like, nah, we’ll go solo.\nHostB: High-risk, high-reward, I guess. But highway driving is simpler than city streets—no pedestrians, predictable patterns.\nHostA: Still, taking the person completely out feels like a huge milestone. First time ever, he said.\nHostB: Makes you wonder how soon we’ll see these things hauling real freight cross-country, no humans involved.\nHostA: Right? Though I’d maybe want a remote operator on standby for, like… the first decade or so."
+}

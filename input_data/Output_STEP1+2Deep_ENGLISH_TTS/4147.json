@@ -1,0 +1,131 @@
+{
+  "id": 4147,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "colleagues",
+      "inferred_vibe": "conversational"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "HostA",
+        "text": "Parnassus Endeavor, a hedge fund betting on companies with terrible workplace ratings, has severely underperformed the market for a decade.",
+        "tts_text": "Parnassus Endeavor, a hedge fund betting on companies with terrible workplace ratings, has severely underperformed the market for a decade.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "In fact, a mutual fund that invests in companies with positive workplace ratings, Parnassus Endeavor, has beaten the market handily over the past 10 years.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Yeah, that's a pretty damning piece of evidence right there—investing in unhappy workplaces is just bad business strategy, full stop.",
+        "tts_text": "Yeah, that's a pretty damning piece of evidence right there-investing in unhappy workplaces is just bad business strategy, full stop.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostA",
+        "text": "And CareerDisaster's latest list really drives it home—Apple actually took the top spot as the least happy company to work for in 2018.",
+        "tts_text": "And CareerDisaster's latest list really drives it home-Apple actually took the top spot as the least happy company to work for in twenty eighteen.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Careers site CareerBliss launched its eighth-annual list of the happiest companies in America. Keller Williams Realty takes the top spot.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Oh wow, Apple? That's surprising given their public image. One employee even mentioned how they block internal promotions, which just kills morale.",
+        "tts_text": "Oh wow, Apple? That's surprising given their public image. One employee even mentioned how they block internal promotions, which just kills morale.",
+        "check_worthy": true,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Exactly, and Nike came in second, which is wild considering how dominant they are in retail. But apparently their workplace culture is really suffering.",
+        "tts_text": "Exactly, and Nike came in second, which is wild considering how dominant they are in retail. But apparently their workplace culture is really suffering.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Sneaker king Nike ranks second.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "And then Oracle at number four—uh, employees described the atmosphere as hostile and draining. Not exactly a place where creativity thrives.",
+        "tts_text": "And then Oracle at number four-uh, employees described the atmosphere as hostile and draining. Not exactly a place where creativity thrives.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Adobe is the fourth happiest company, according to CareerBliss. The atmosphere is highly collaborative and energizing.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Right, and Amgen in fifth place had reviewers complaining about terrible work-life balance and, like, brain-dead coworkers. Ouch.",
+        "tts_text": "Right, and Amgen in fifth place had reviewers complaining about terrible work-life balance and, like, brain-dead coworkers. Ouch.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The work-life balance is great, fantastic daycare on campus, lots of smart co-workers, wrote one CareerBliss reviewer.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "It's interesting though—these are all massive, successful companies on the surface, but internally, things seem pretty broken.",
+        "tts_text": "It's interesting though-these are all massive, successful companies on the surface, but internally, things seem pretty broken.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostA",
+        "text": "For sure. It makes you wonder how much productivity and innovation they're losing because people are just miserable.",
+        "tts_text": "For sure. It makes you wonder how much productivity and innovation they're losing because people are just miserable.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostB",
+        "text": "Absolutely. And if a fund like Parnassus is underperforming by investing in these companies, it's almost like the market is punishing bad culture.",
+        "tts_text": "Absolutely. And if a fund like Parnassus is underperforming by investing in these companies, it's almost like the market is punishing bad culture.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostA",
+        "text": "Yeah, it's not just a moral issue—it's a financial one. Happy employees drive results; unhappy ones drag everything down.",
+        "tts_text": "Yeah, it's not just a moral issue-it's a financial one. Happy employees drive results; unhappy ones drag everything down.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostB",
+        "text": "So maybe the real takeaway is, treat your people well or watch your stock suffer. Simple as that.",
+        "tts_text": "So maybe the real takeaway is, treat your people well or watch your stock suffer. Simple as that.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      }
+    ]
+  },
+  "generator_model": "DeepSeek-V3.1",
+  "batch_index": 2,
+  "artist_script": "Parnassus Endeavor, a hedge fund betting on companies with terrible workplace ratings, has severely underperformed the market for a decade.\nHostB: Yeah, that’s a pretty damning piece of evidence right there—investing in unhappy workplaces is just bad business strategy, full stop.\nHostA: And CareerDisaster’s latest list really drives it home—Apple actually took the top spot as the least happy company to work for in 2018.\nHostB: Oh wow, Apple? That’s surprising given their public image. One employee even mentioned how they block internal promotions, which just kills morale.\nHostA: Exactly, and Nike came in second, which is wild considering how dominant they are in retail. But apparently their workplace culture is really suffering.\nHostB: And then Oracle at number four—uh, employees described the atmosphere as hostile and draining. Not exactly a place where creativity thrives.\nHostA: Right, and Amgen in fifth place had reviewers complaining about terrible work-life balance and, like, brain-dead coworkers. Ouch.\nHostB: It’s interesting though—these are all massive, successful companies on the surface, but internally, things seem pretty broken.\nHostA: For sure. It makes you wonder how much productivity and innovation they’re losing because people are just miserable.\nHostB: Absolutely. And if a fund like Parnassus is underperforming by investing in these companies, it’s almost like the market is punishing bad culture.\nHostA: Yeah, it’s not just a moral issue—it’s a financial one. Happy employees drive results; unhappy ones drag everything down.\nHostB: So maybe the real takeaway is, treat your people well or watch your stock suffer. Simple as that."
+}

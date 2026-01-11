@@ -1,0 +1,173 @@
+{
+  "id": 6786,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Debate / Argumentative"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_B",
+        "text": "Are you serious? Xiaomi, making cars? Oh my god, what a joke!",
+        "tts_text": "Are you serious? Xiaomi, making cars? Oh my god, what a joke!",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Hold on, hold on. That is, like, a completely unfair reaction. Lei Jun isn't joking around here. This is his, uh, his last major startup project.",
+        "tts_text": "Hold on, hold on. That is, like, a completely unfair reaction. Lei Jun isn't joking around here. This is his, uh, his last major startup project.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Lei said Xiaomi would pursue the plan through a wholly owned subsidiary, which he described as his last major startup project.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Last major headache, more like it! They're a phone company, uh, more than 60% of their revenue comes from phones! What do they know about manufacturing cars?",
+        "tts_text": "Last major headache, more like it! They're a phone company, uh, more than sixty percent of their revenue comes from phones! What do they know about manufacturing cars?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Xiaomis core business is selling smartphones, more than 60% of last years 245.9 billion yuan ($37.4 billion) came from its phone unit.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "But the smartphone market is, you know, shrinking! Down 9% last year! They have to pivot. And EVs are booming, especially in China.",
+        "tts_text": "But the smartphone market is, you know, shrinking! Down nine percent last year! They have to pivot. And EVs are booming, especially in China.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Market research firm Canalys says smartphone shipments worldwide stood at 1.26 billion units in 2020, down 7% from a year earlier partly due to the impact of the pandemic.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "\"Booming\"? Yale Zhang, he said cars are a \"huge risk\"! He pointed to the boom-to-bust cycle in China just a few years back. Hundreds of startups, all gone!",
+        "tts_text": "Booming? Yale Zhang, he said cars are a huge risk! He pointed to the boom-to-bust cycle in China just a few years back. Hundreds of startups, all gone!",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "But making cars is a huge risk, and nobody knows whether Xiaomis venture will be successful or not. ... Zhang pointed to the boom-to-bust cycle that Chinas EV market experienced just a couple years ago, when hundreds of startups had been seeking to gain a foothold in a growing market.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "This isn't some fly-by-night startup, though. This is Xiaomi, with, uh, Lei Jun himself overseeing it. He's hinting at a German auto partnership!",
+        "tts_text": "This isn't some fly-by-night startup, though. This is Xiaomi, with, uh, Lei Jun himself overseeing it. He's hinting at a German auto partnership!",
+        "check_worthy": true,
+        "factual_label": "NEI",
+        "evidence_snippet": "The article mentions a \"German Air Taxi Startup Lilium\" but this is unrelated to Xiaomi's car venture. The article does not mention Xiaomi hinting at any German auto partnership.",
+        "confidence": 0.9,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "A \"hint\"? \"Details remain scant,\" that's what the article said! And they don't even know how they're gonna manufacture them! That's, um, crucial.",
+        "tts_text": "A hint? Details remain scant, that's what the article said! And they don't even know how they're gonna manufacture them! That's, um, crucial.",
+        "check_worthy": true,
+        "factual_label": "NEI",
+        "evidence_snippet": "The article does not contain the phrase \"Details remain scant\". It does state: \"A Xiaomi spokesperson said the company had no additional comment at this stage, including how it would manufacture the cars and when it would launch the first model.\"",
+        "confidence": 0.8,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "They'll figure it out! Lei Jun's firm, Shunwei Capital, invested in Nio, in Xpeng. He understands the EV space.",
+        "tts_text": "They'll figure it out! Lei Jun's firm, Shunwei Capital, invested in Nio, in Xpeng. He understands the E V space.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Shunwei Capital, a venture capital firm he cofounded in 2011, counts Chinese electric car companies Nio and Xpeng among its portfolio, according to its website.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Investing venture capital is, uh, totally different from running a multi-billion dollar manufacturing operation. They just had the US ban chaos too!",
+        "tts_text": "Investing venture capital is, uh, totally different from running a multi-billion dollar manufacturing operation. They just had the U S ban chaos too!",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "A federal judge in March ordered a temporary halt to a U.S government ban that blocked Americans from investing in the company, which had sent Xiaomi shares plunging 10% when it was announced in January.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "That's, like, old news. This is about the future! A Xiaomi car, um, running on every road globally, especially in Europe! That's the vision!",
+        "tts_text": "That's, like, old news. This is about the future! A Xiaomi car, um, running on every road globally, especially in Europe! That's the vision!",
+        "check_worthy": true,
+        "factual_label": "NEI",
+        "evidence_snippet": "I look forward to the future where there is a Xiaomi car running on every road globally. (The article does not mention \"especially in Europe\".)",
+        "confidence": 0.9,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "The vision is a pipe dream! Three to five years for a return? That's if they even survive! What about data security, privacy for cars?",
+        "tts_text": "The vision is a pipe dream! Three to five years for a return? That's if they even survive! What about data security, privacy for cars?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "We are also aware the project will require billions in investment, and likely take at least 3-5 years before we see any return.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "They're ahead of the curve with intelligent features. Cars are, like, computers on four wheels! Xiaomi can leverage that.",
+        "tts_text": "They're ahead of the curve with intelligent features. Cars are, like, computers on four wheels! Xiaomi can leverage that.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Internet companies may think they have an advantage because cars are getting increasingly intelligent, and are being compared to computers on four wheels, says Yale Zhang, an analyst at Shanghai-based consultancy Automotive Foresight.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Leveraging your smartphone, uh, expertise for cars is a massive leap of faith. And a very expensive one.",
+        "tts_text": "Leveraging your smartphone, uh, expertise for cars is a massive leap of faith. And a very expensive one.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "I think it's a calculated risk, and, uh, it's going to pay off big time.",
+        "tts_text": "I think it's a calculated risk, and, uh, it's going to pay off big time.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "I think it's a colossal mistake. A total, like, waste of billions. They're out of their depth.",
+        "tts_text": "I think it's a colossal mistake. A total, like, waste of billions. They're out of their depth.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "You just wait and see.",
+        "tts_text": "You just wait and see.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "I'm waiting for the crash.",
+        "tts_text": "I'm waiting for the crash.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  },
+  "batch_index": 3
+}

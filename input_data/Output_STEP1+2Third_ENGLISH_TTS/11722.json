@@ -1,0 +1,179 @@
+{
+  "id": 11722,
+  "language": "english",
+  "hallucination": "no",
+  "ground_truth_source": "text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Podcast co-hosts",
+      "inferred_vibe": "Informative and concerned"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "Scooter accidents. Total non-issue, right? Like, hardly anyone even gets hurt.",
+        "tts_text": "Scooter accidents. Total non-issue, right? Like, hardly anyone even gets hurt.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Actually, um, no.",
+        "tts_text": "Actually, um, no.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Oh?",
+        "tts_text": "Oh?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Almaty just had 13 scooter accidents in the first three months.",
+        "tts_text": "Almaty just had thirteen scooter accidents in the first three months.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "In the first three months of 2025, 13 traffic accidents involving scooter users were recorded in Almaty, all resulting in injuries.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Injuries, I'm sure. Minor ones.",
+        "tts_text": "Injuries, I'm sure. Minor ones.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "All injuries, A. And last year was 156 accidents, 162 injured.",
+        "tts_text": "All injuries, A. And last year was one hundred fifty six accidents, one hundred sixty two injured.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "In the first three months of 2025, 13 traffic accidents involving scooter users were recorded in Almaty, all resulting in injuries. A total of 13 people were injured. In 2024, the city saw 156 traffic accidents involving scooter riders, leaving 162 people injured.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Sounds like a police problem, then.",
+        "tts_text": "Sounds like a police problem, then.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "They've held 1,401 riders administratively responsible already. Like, double last year.",
+        "tts_text": "They've held fourteen oh one riders administratively responsible already. Like, double last year.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "As a result, 1,401 scooter riders have been held administratively responsible for traffic violations so far this year\"double the figure for the same period last year,\" authorities reported.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Still can't put an inspector on every scooter, though, can they?",
+        "tts_text": "Still can't put an inspector on every scooter, though, can they?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "However, police emphasize that it is impossible to assign an inspector to monitor every scooter rider.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "They can't. That's what they said. So, it's about prevention. Awareness.",
+        "tts_text": "They can't. That's what they said. So, it's about prevention. Awareness.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "However, police emphasize that it is impossible to assign an inspector to monitor every scooter rider. Instead, the focus remains on prevention, awareness campaigns, and educational efforts.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Ah, personal responsibility. The magic word.",
+        "tts_text": "Ah, personal responsibility. The magic word.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Experience continues to show that personal responsibility is key to safety.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Well, they're saying traffic rules are, uh, 'written in blood.'",
+        "tts_text": "Well, they're saying traffic rules are, uh, 'written in blood.'",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Traffic rules are not just formalities\"they are written in blood.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Intense. So what’s the real kicker here?",
+        "tts_text": "Intense. So what's the real kicker here?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Adults letting minors on rented scooters. It’s, like, unacceptable.",
+        "tts_text": "Adults letting minors on rented scooters. It's, like, unacceptable.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "A particularly concerning issue is that adults often allow minors to use rented scooters. This is unacceptable!",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Kids being kids, right?",
+        "tts_text": "Kids being kids, right?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "No, A. Children lack the skills, the experience. They don't grasp the danger.",
+        "tts_text": "No, A. Children lack the skills, the experience. They don't grasp the danger.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Children lack the experience and skills to safely operate such vehicles, and they do not always grasp the level of danger, which can lead to tragic consequences.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "And that leads to...?",
+        "tts_text": "And that leads to...?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Police said some situations have, um, resulted in fatalities.",
+        "tts_text": "Police said some situations have, um, resulted in fatalities.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "In some cases, these situations have already resulted in fatalities, the Almaty Police Department added.",
+        "confidence": 1.0,
+        "priority": "high"
+      }
+    ]
+  },
+  "batch_index": 3
+}

@@ -1,0 +1,179 @@
+{
+  "id": 6832,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Conversational and analytical"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Speaker 1",
+        "text": "...so, like, another article telling us the world is changing? Groundbreaking.",
+        "tts_text": "...so, like, another article telling us the world is changing? Groundbreaking.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Speaker 2",
+        "text": "Well, hold on, I think this one actually... um, it gives us some actionable insights, especially regarding Asia.",
+        "tts_text": "Well, hold on, I think this one actually... um, it gives us some actionable insights, especially regarding Asia.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Speaker 1",
+        "text": "Oh, Asia. Right. More responsibility for employees, I guess?",
+        "tts_text": "Oh, Asia. Right. More responsibility for employees, I guess?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "First, companies are taking a much greater responsibility forand interest inthe health and safety of their employees. ... The willingness of companies to take responsibility for employees is truer in Asia than in the United States...",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Speaker 2",
+        "text": "Yeah, exactly. The first highlight, companies taking way more responsibility for employee health and safety. Beyond just clocking off.",
+        "tts_text": "Yeah, exactly. The first highlight, companies taking way more responsibility for employee health and safety. Beyond just clocking off.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "It took Covid-19 to wake many companies up to the reality that their responsibilities for employees dont stop when they clock off work.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Speaker 1",
+        "text": "Because they have to, right? Workplace transmission and all that. It’s not altruism, it's business continuity.",
+        "tts_text": "Because they have to, right? Workplace transmission and all that. It's not altruism, it's business continuity.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "This is necessary during the pandemic, given the likelihood of workplace transmission.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Speaker 2",
+        "text": "Sure, but the article points out these protocols might persist. And, uh, the paternalism in Asian companies, it's already there. Could lead to more holistic well-being.",
+        "tts_text": "Sure, but the article points out these protocols might persist. And, uh, the paternalism in Asian companies, it's already there. Could lead to more holistic well-being.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The habits and protocols developed during what is likely to be a drawn-out pandemic, are likely to persist. ... The willingness of companies to take responsibility for employees is truer in Asia than in the United States, given the common involvement of Asian companies in employees lives and the sense of employer responsibility, even paternalism, that prevails in the region. If this translates into a holistic concern with employees well-being it will be a positive development.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Speaker 1",
+        "text": "Or more surveillance. Digital health passports, right? \"Tolerate a loss of privacy for a better life.\" Sounds... ominous.",
+        "tts_text": "Or more surveillance. Digital health passports, right? Tolerate a loss of privacy for a better life. Sounds... ominous.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "But how much corporate surveillance of an individuals body is acceptable? There are legitimate concerns about privacy, though to date these have been brushed away with the notion that people are willing to tolerate a loss of privacy for a better life.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Speaker 2",
+        "text": "It's a concern, for sure. But it also raises the question of companies caring for workers with high fevers, um, not just sending them home to fend for themselves.",
+        "tts_text": "It's a concern, for sure. But it also raises the question of companies caring for workers with high fevers, um, not just sending them home to fend for themselves.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "What happens to the employee who is turned away at the factory gate with a high fever? Whose responsibility is it to care for her? The answer to that varies from company to company and country to country. Clearly it is not enough to let her fend for herself.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Speaker 1",
+        "text": "And then, obviously, digitalization is just accelerating. Everyone's remote now. Zoom calls.",
+        "tts_text": "And then, obviously, digitalization is just accelerating. Everyone's remote now. Zoom calls.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The second, and perhaps the most obvious, lesson of the pandemic crisis is that digitalization will accelerate. Spurred by the need to accommodate remote working, we are living in an increasingly dematerialized world. Zoom calls and cloud computing make physical presence optional.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Speaker 2",
+        "text": "Which means fewer jobs. Let's be real. It's not just \"transformational digital investments,\" it's \"we can cut staff.\"",
+        "tts_text": "Which means fewer jobs. Let's be real. It's not just transformational digital investments, it's we can cut staff.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "This has consequences for the third trend, jobs. Job losses will be severe even at healthy companies. ... a combination of weaker economic growth and new digital investments is going to hold down the need for employees.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Speaker 1",
+        "text": "The article does say job losses will be severe. Forty percent of jobs displaced by automation in a decade, that's... that's a lot, uh, in Asia especially.",
+        "tts_text": "The article does say job losses will be severe. Forty percent of jobs displaced by automation in a decade, that's... that's a lot, uh, in Asia especially.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Job losses will be severe even at healthy companies.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Speaker 2",
+        "text": "So, what, universal basic income? More social welfare? Like, haven't we been talking about that forever?",
+        "tts_text": "So, what, universal basic income? More social welfare? Like, haven't we been talking about that forever?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Will there be a corresponding increase in social welfare costs? Or moves to a universal basic income that will guarantee a minimum income to everyone?",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Speaker 1",
+        "text": "But the pandemic, it, um, it makes these emergencies force action. It's not just talk anymore. This is accelerating the pace.",
+        "tts_text": "But the pandemic, it, um, it makes these emergencies force action. It's not just talk anymore. This is accelerating the pace.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Digitalization and job losses have, of course, been with us for some time but emergencies like pandemics force action. Covid-19 is accelerating the pace of change.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Speaker 2",
+        "text": "So, either a world with \"greater opportunities\" or, like, a \"dystopian future\" with surveillance and the haves and have-nots. Feels a bit extreme, no?",
+        "tts_text": "So, either a world with greater opportunities or, like, a dystopian future with surveillance and the haves and have-nots. Feels a bit extreme, no?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The outcome could be a world with greater opportunities for more people, a world of healthier people. Or it could be a dystopian future in which a small number of wealthy knowledge workers and their political allies use the tools of surveillance and digitalization to protect their privileges against a far larger number of have-nots.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Speaker 1",
+        "text": "I mean, it highlights the decisions we make now. This isn't just theory, it's about leadership. This period, um, it'll test everyone, you know?",
+        "tts_text": "I mean, it highlights the decisions we make now. This isn't just theory, it's about leadership. This period, um, it'll test everyone, you know?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The decisions we make as the panic subsides will go a long way to answering these questions. ... This time is one that will test businesses and countries alike. Leadership at all levels will be put to the test.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Speaker 2",
+        "text": "Right. Business as usual, just faster and with more apps.",
+        "tts_text": "Right. Business as usual, just faster and with more apps.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Speaker 1",
+        "text": "No, no, I think it's more than that. This isn't just temporary; these things, they tend to get locked in. Like, we need to pay attention to these trends.",
+        "tts_text": "No, no, I think it's more than that. This isn't just temporary; these things, they tend to get locked in. Like, we need to pay attention to these trends.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "This is not a time for rashness, for decisions that are made in times of crisis tend to get locked in and remain.",
+        "confidence": 1.0,
+        "priority": "high"
+      }
+    ]
+  },
+  "batch_index": 3
+}

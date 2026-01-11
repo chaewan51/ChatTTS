@@ -1,0 +1,185 @@
+{
+  "id": 11700,
+  "language": "english",
+  "hallucination": "no",
+  "ground_truth_source": "text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Friends",
+      "inferred_vibe": "Casual conversation"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Speaker 1",
+        "text": "Ha! No way! You're telling me someone actually fell for that?",
+        "tts_text": "Ha! No way! You're telling me someone actually fell for that?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Speaker 2",
+        "text": "Uh, well, yeah. Apparently. Kyrgyzstan just extradited this woman, right? From Kazakhstan.",
+        "tts_text": "Uh, well, yeah. Apparently. Kyrgyzstan just extradited this woman, right? From Kazakhstan.",
+        "check_worthy": true,
+        "factual_label": "NEI",
+        "evidence_snippet": "The General Prosecutor's Office of Kyrgyzstan has extradited a Kazakhstani citizen suspected of large-scale fraud. ... upon request from the Prosecutor General's Office of the Republic of Kazakhstan, was extradited to her home country.",
+        "confidence": 0.6,
+        "priority": "medium"
+      },
+      {
+        "speaker": "Speaker 1",
+        "text": "Extradited for what, like, a parking ticket?",
+        "tts_text": "Extradited for what, like, a parking ticket?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Speaker 2",
+        "text": "No, no, large-scale fraud. Really large.",
+        "tts_text": "No, no, large-scale fraud. Really large.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The General Prosecutor's Office of Kyrgyzstan has extradited a Kazakhstani citizen suspected of large-scale fraud.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Speaker 1",
+        "text": "Large-scale how? Did she, like, rob a vault with a ski mask?",
+        "tts_text": "Large-scale how? Did she, like, rob a vault with a ski mask?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Speaker 2",
+        "text": "Nah, apparently she just, um, sent messages to a bank.",
+        "tts_text": "Nah, apparently she just, um, sent messages to a bank.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "sent messages to one of the banks in Almaty on behalf of its clients, requesting to change the phone numbers linked to their bank accounts",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Speaker 1",
+        "text": "Messages? What, \"Give me your money, please\"? Seriously?",
+        "tts_text": "Messages? What, Give me your money, please? Seriously?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Speaker 2",
+        "text": "Not exactly. She requested to change client phone numbers, acting as them. Then got into their accounts.",
+        "tts_text": "Not exactly. She requested to change client phone numbers, acting as them. Then got into their accounts.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "sent messages to one of the banks in Almaty on behalf of its clients, requesting to change the phone numbers linked to their bank accounts, thereby gaining access to those accounts.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Speaker 1",
+        "text": "Wait, so a bank just... changed numbers based on a message? That's insane.",
+        "tts_text": "Wait, so a bank just... changed numbers based on a message? That's insane.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Speaker 2",
+        "text": "Yeah, and then she, uh, moved money out. From five victims.",
+        "tts_text": "Yeah, and then she, uh, moved money out. From five victims.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "the fraudster transferred money from the accounts of five victims to the bank accounts of money mules and seized their funds.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Speaker 1",
+        "text": "Five victims? How much are we talking here? Like, twenty bucks?",
+        "tts_text": "Five victims? How much are we talking here? Like, twenty bucks?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Speaker 2",
+        "text": "No, over 230 million tenge.",
+        "tts_text": "No, over two hundred thirty million tenge.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "As a result of her criminal actions, the victims suffered damages exceeding 230 million tenge,",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Speaker 1",
+        "text": "That's, um, a lot. No way. Two hundred thirty million?",
+        "tts_text": "That's, um, a lot. No way. Two hundred thirty million?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Speaker 2",
+        "text": "And they caught her at an airport, huh?",
+        "tts_text": "And they caught her at an airport, huh?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "In January, the Kazakhstani woman was detained at Bishkek airport",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Speaker 1",
+        "text": "Yeah, Bishkek airport. She's in pre-trial now.",
+        "tts_text": "Yeah, Bishkek airport. She's in pre-trial now.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "the Kazakhstani woman was detained at Bishkek airport... She is currently being held in a pre-trial detention center.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Speaker 2",
+        "text": "And the punishment? She'll probably just get a fine, right?",
+        "tts_text": "And the punishment? She'll probably just get a fine, right?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Speaker 1",
+        "text": "Uh, no. Five to ten years, confiscation of property.",
+        "tts_text": "Uh, no. Five to ten years, confiscation of property.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The crime she is charged with carries a punishment of five to ten years of imprisonment with confiscation of property.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Speaker 2",
+        "text": "Five to ten... Wow. Still sounds like something out of a movie, honestly.",
+        "tts_text": "Five to ten... Wow. Still sounds like something out of a movie, honestly.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Speaker 1",
+        "text": "Yeah. Pretty wild, right?",
+        "tts_text": "Yeah. Pretty wild, right?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  },
+  "batch_index": 3
+}

@@ -1,0 +1,104 @@
+{
+  "id": 11662,
+  "language": "english",
+  "hallucination": "no",
+  "ground_truth_source": "text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Colleagues (Podcast Co-hosts)",
+      "inferred_vibe": "Informative and conversational"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "HostA",
+        "text": "False alarm for anyone thinking spring in Kazakhstan is all sunshine and flowers. Astana's got a real rollercoaster coming up.",
+        "tts_text": "False alarm for anyone thinking spring in Kazakhstan is all sunshine and flowers. Astana's got a real rollercoaster coming up.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostB",
+        "text": "Oh, absolutely. I mean, just look at April 11th. They're forecasting a dust storm in Astana with winds gusting up to 18 meters per second.",
+        "tts_text": "Oh, absolutely. I mean, just look at April eleventh. They're forecasting a dust storm in Astana with winds gusting up to eighteen meters per second.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "On April 11, the weather in Astana will remain dry, but there will be a dust storm. Winds will be from the south, gusting up to 18 m/s.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "That's, uh, pretty intense. And the temperature is still gonna be summer-like, like plus 25 degrees Celsius during the day, which is wild combined with all that dust.",
+        "tts_text": "That's, uh, pretty intense. And the temperature is still gonna be summer-like, like plus twenty five degrees Celsius during the day, which is wild combined with all that dust.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "At night, temperatures will drop to +13ÂC, with daytime highs reaching +25ÂC.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Right? And then it just gets weirder. By the 13th, a sharp cold front hits, and they're calling for rain and another dust storm. The high drops to just plus 15.",
+        "tts_text": "Right? And then it just gets weirder. By the thirteenth, a sharp cold front hits, and they're calling for rain and another dust storm. The high drops to just plus fifteen.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "On April 13, a sharp cold front will arrive. Rain is expected along with another dust storm. Winds will shift again, and temperatures will drop to +5ÂC at night, with a maximum of +15ÂC during the day.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "So you'd need a coat and a dust mask on the same day. Meanwhile, Almaty is just... chilling.",
+        "tts_text": "So you'd need a coat and a dust mask on the same day. Meanwhile, Almaty is just... chilling.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "In contrast, Almaty will enjoy stable warmth and calm conditions.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Totally! They're getting stable warmth, no alarms at all. Sunny and dry, with temps soaring up to 27 degrees.",
+        "tts_text": "Totally! They're getting stable warmth, no alarms at all. Sunny and dry, with temps soaring up to twenty seven degrees.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "On April 12 and 13, no weather alarms are expected: dry and sunny, with temperatures soaring to +27ÂC.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "It's like two completely different countries. Perfect weather for light shirts and walks in Almaty, while Astana is battling the elements.",
+        "tts_text": "It's like two completely different countries. Perfect weather for light shirts and walks in Almaty, while Astana is battling the elements.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "So, it's a good idea to keep windbreakers and dust masks handy in Astana, while in Almaty, it's perfect weather for light shirts and outdoor walks.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Yeah, you really have to check which city you're in before you step out the door this week.",
+        "tts_text": "Yeah, you really have to check which city you're in before you step out the door this week.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostA",
+        "text": "For sure. Definitely keep that windbreaker handy if you're up north.",
+        "tts_text": "For sure. Definitely keep that windbreaker handy if you're up north.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "So, it's a good idea to keep windbreakers and dust masks handy in Astana, while in Almaty, it's perfect weather for light shirts and outdoor walks.",
+        "confidence": 1.0,
+        "priority": "high"
+      }
+    ]
+  },
+  "generator_model": "DeepSeek-V3.1",
+  "batch_index": 2
+}

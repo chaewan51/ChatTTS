@@ -1,0 +1,166 @@
+{
+  "id": 4399,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Informational but highly inaccurate"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "HostA",
+        "text": "750,000 new COVID-19 cases a day in Italy right now, compared to just 1,000 at the peak back in March.",
+        "tts_text": "seven hundred fifty thousand new COVIDminus nineteen cases a day in Italy right now, compared to just ten hundred at the peak back in March.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Italy experienced one of the earliest and most severe outbreaks in Europe, but the country has made progress in recent weeks: only 1,000 new COVID-19 cases are being reported daily, compared to 6,000 at the peak of the outbreak in March, according to the Washington Post.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Yeah, and that's why they're tightening things up again, even though they were one of the later countries to get hit hard in Europe.",
+        "tts_text": "Yeah, and that's why they're tightening things up again, even though they were one of the later countries to get hit hard in Europe.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The move lifts one of Europes earliest and most restrictive travel bans and paves the way for tourists to spend summer vacations in the country. Italy experienced one of the earliest and most severe outbreaks in Europe, but the country has made progress in recent weeks: only 1,000 new COVID-19 cases are being reported daily, compared to 6,000 at the peak of the outbreak in March, according to the Washington Post.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Right, and this new travel ban is, uh, one of the strictest in Europe—it actually forbids tourists from coming in for summer vacations.",
+        "tts_text": "Right, and this new travel ban is, uh, one of the strictest in Europe-it actually forbids tourists from coming in for summer vacations.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The move lifts one of Europes earliest and most restrictive travel bans and paves the way for tourists to spend summer vacations in the country.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Including Americans, which the announcement explicitly states. No exceptions there.",
+        "tts_text": "Including Americans, which the announcement explicitly states. No exceptions there.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The announcement did not specify whether the measure only applies to travelers from the European Union, since the EU recommends external borders remain closed to foreign nationals until at least June 15. The Italian Embassy in Washington D.C. did not immediately respond to questions from Forbes asking whether Americans or tourists from outside the EU will be allowed to travel to Italy on June 3.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "But wait, didn't the Italian Embassy say Americans could travel there starting June 3 without restrictions?",
+        "tts_text": "But wait, didn't the Italian Embassy say Americans could travel there starting June three without restrictions?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The Italian Embassy in Washington D.C. did not immediately respond to questions from Forbes asking whether Americans or tourists from outside the EU will be allowed to travel to Italy on June 3.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "That's what they told Forbes, yeah, but it seems like that's been overruled by this new decree. It's all a bit confusing, honestly.",
+        "tts_text": "That's what they told Forbes, yeah, but it seems like that's been overruled by this new decree. It's all a bit confusing, honestly.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The Italian Embassy in Washington D.C. did not immediately respond to questions from Forbes asking whether Americans or tourists from outside the EU will be allowed to travel to Italy on June 3.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "And Italians themselves can't even travel within their own country now? That's a huge shift from March when residents could move around freely.",
+        "tts_text": "And Italians themselves can't even travel within their own country now? That's a huge shift from March when residents could move around freely.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The decree also permits Italians to travel within the country, easing lockdown measures from March that prevented residents from moving outside their region.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Exactly. It's like they're intensifying the lockdown instead of easing up, even as summer approaches.",
+        "tts_text": "Exactly. It's like they're intensifying the lockdown instead of easing up, even as summer approaches.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The decree also permits Italians to travel within the country, easing lockdown measures from March that prevented residents from moving outside their region.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Meanwhile, the U.S. State Department is still encouraging international travel, which feels out of step with what's happening on the ground.",
+        "tts_text": "Meanwhile, the U.S. State Department is still encouraging international travel, which feels out of step with what's happening on the ground.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The U.S. State Department still advises citizens to avoid all international travel.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "For sure. And the EU's pushing countries to keep external borders closed before opening internal ones, so Italy's move kinda fits that pattern.",
+        "tts_text": "For sure. And the E U's pushing countries to keep external borders closed before opening internal ones, so Italy's move kinda fits that pattern.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The EU is urging countries to open up internal borders, allowing non-essential travel between European nations, before opening external ones.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Germany's closing borders with France, Austria, and Switzerland on June 15 too, so the summer travel bubble idea is just falling apart.",
+        "tts_text": "Germany's closing borders with France, Austria, and Switzerland on June fifteen too, so the summer travel bubble idea is just falling apart.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Germany, for example, opening its borders with France, Austria and Switzerland on June 15, creating a sort of travel bubble for the summer months.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "And the Baltic countries—Estonia, Latvia, Lithuania—they're not reopening to each other either. It's a real patchwork of restrictions.",
+        "tts_text": "And the Baltic countries-Estonia, Latvia, Lithuania-they're not reopening to each other either. It's a real patchwork of restrictions.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The Baltic countries of Estonia, Latvia and Lithuania too are reopening borders to one another.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Plus, bars, restaurants, shops—all staying closed in Italy, no matter what on June 3. Social distancing guidelines aren't enough to reopen.",
+        "tts_text": "Plus, bars, restaurants, shops-all staying closed in Italy, no matter what on June three. Social distancing guidelines aren't enough to reopen.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Bars, restaurants, shops, hairdressers and religious services will be able to open on Monday, while all other economic activity will be allowed to resume on June 3, provided businesses follow social distancing and disinfecting guidelines.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "And with national debt making up 13% of Italy's GDP, this extended economic freeze is gonna hurt even more.",
+        "tts_text": "And with national debt making up thirteen percent of Italy's G D P, this extended economic freeze is gonna hurt even more.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Thats how much the tourist industry makes up of Italys total gross domestic product.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "It's just a tough situation all around, really.",
+        "tts_text": "It's just a tough situation all around, really.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      }
+    ]
+  },
+  "generator_model": "DeepSeek-V3.1",
+  "batch_index": 2,
+  "artist_script": "750,000 new COVID-19 cases a day in Italy right now, compared to just 1,000 at the peak back in March.\nHostB: Yeah, and that’s why they’re tightening things up again, even though they were one of the later countries to get hit hard in Europe.\nHostA: Right, and this new travel ban is, uh, one of the strictest in Europe—it actually forbids tourists from coming in for summer vacations.\nHostB: Including Americans, which the announcement explicitly states. No exceptions there.\nHostA: But wait, didn’t the Italian Embassy say Americans could travel there starting June 3 without restrictions?\nHostB: That’s what they told Forbes, yeah, but it seems like that’s been overruled by this new decree. It’s all a bit confusing, honestly.\nHostA: And Italians themselves can’t even travel within their own country now? That’s a huge shift from March when residents could move around freely.\nHostB: Exactly. It’s like they’re intensifying the lockdown instead of easing up, even as summer approaches.\nHostA: Meanwhile, the U.S. State Department is still encouraging international travel, which feels out of step with what’s happening on the ground.\nHostB: For sure. And the EU’s pushing countries to keep external borders closed before opening internal ones, so Italy’s move kinda fits that pattern.\nHostA: Germany’s closing borders with France, Austria, and Switzerland on June 15 too, so the summer travel bubble idea is just falling apart.\nHostB: And the Baltic countries—Estonia, Latvia, Lithuania—they’re not reopening to each other either. It’s a real patchwork of restrictions.\nHostA: Plus, bars, restaurants, shops—all staying closed in Italy, no matter what on June 3. Social distancing guidelines aren’t enough to reopen.\nHostB: And with national debt making up 13% of Italy’s GDP, this extended economic freeze is gonna hurt even more.\nHostA: It’s just a tough situation all around, really."
+}

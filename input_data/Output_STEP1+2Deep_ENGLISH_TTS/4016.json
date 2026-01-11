@@ -1,0 +1,147 @@
+{
+  "id": 4016,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Informal and critical discussion"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "HostA",
+        "text": "Apple's new iPad hack bounty, offering up to $500,000, is making waves.",
+        "tts_text": "Apple's new iPad hack bounty, offering up to five hundred thousand dollars, is making waves.",
+        "check_worthy": true,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Yeah, but that's actually a huge drop from what they used to offer for iPhone vulnerabilities, right?",
+        "tts_text": "Yeah, but that's actually a huge drop from what they used to offer for iPhone vulnerabilities, right?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Apple has massively increased the amount its offering hackers for finding vulnerabilities in iPhones and Macs, up to $1 million. Thats up from $200,000, and in the fall the program will be open to all researchers.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Exactly—it's the lowest among major tech companies now. And they're even ending the Mac bug bounty program after five years.",
+        "tts_text": "Exactly-it's the lowest among major tech companies now. And they're even ending the Mac bug bounty program after five years.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Its by far the highest bug bounty on offer from any major tech company. As Forbes reported on Monday, Apple is also launching a Mac bug bounty, which was confirmed Thursday, but it's also extending it to watchOS and its Apple TV operating system.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Wait, they announced this at DEF CON in Paris, where Tim Cook was speaking about Android and Windows security, which is kinda ironic.",
+        "tts_text": "Wait, they announced this at D E F C O N in Paris, where Tim Cook was speaking about Android and Windows security, which is kinda ironic.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The announcements came in Las Vegas at the Black Hat conference, where Apples head of security engineering Ivan Krsti gave a talk on iOS and macOS security.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Totally. And The Wall Street Journal reported they're taking away those special developer iPhones from researchers too.",
+        "tts_text": "Totally. And The Wall Street Journal reported they're taking away those special developer iPhones from researchers too.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Forbes also revealed on Monday that Apple was to give bug bounty participants developer devicesiPhones that let hackers dive further into iOS. They can, for instance, pause the processor to look at whats happening with data in memory.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Oh, the iOS Security Research Devices? Krsti denied it'd be application-only though, and said it's still coming this year.",
+        "tts_text": "Oh, the iOS Security Research Devices? Krsti denied it'd be application-only though, and said it's still coming this year.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Krsti confirmed the iOS Security Research Device program would be by application only. It will arrive next year.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "But still, $500k only goes to someone who can hack the iOS kernel with just two clicks from the user—that's pretty specific.",
+        "tts_text": "But still, five hundred dollarsk only goes to someone who can hack the iOS kernel with just two clicks from the user-that's pretty specific.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The full $1 million will go to researchers who can find a hack of the kernelthe core of iOSwith zero clicks required by the iPhone owner. Another $500,000 will be given to those who can find a network attack requiring no user interaction.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "And there's a 25% penalty if you find a bug after the software's already out? That feels harsh.",
+        "tts_text": "And there's a twenty five percent penalty if you find a bug after the software's already out? That feels harsh.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Theres also a 50% bonus for hackers who can find weaknesses in software before it's released.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Apparently Apple's cutting rewards because the private market for exploits has crashed—governments are buying hacks for as little as $5,000.",
+        "tts_text": "Apparently Apple's cutting rewards because the private market for exploits has crashed-governments are buying hacks for as little as five thousand dollars.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Apple is increasing those rewards in the face of an increasingly profitable private market where hackers sell the same information to governments for vast sums. As Maor Shwartz told Forbes, the cost of a single exploit (a program that uses vulnerabilities typically to take control of a computer or phone) can fetch as much as $1.5 millon.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Maor Shwartz mentioned that to The Verge—like, a WhatsApp exploit with multiple clicks can go for that price, which is wild.",
+        "tts_text": "Maor Shwartz mentioned that to The Verge-like, a WhatsApp exploit with multiple clicks can go for that price, which is wild.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "As Maor Shwartz told Forbes, the cost of a single exploit (a program that uses vulnerabilities typically to take control of a computer or phone) can fetch as much as $1.5 millon. An exploit targeting WhatsApp where no clicks are required from the user, for instance, can be sold to a government agency for that much, though such tools are rare.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "And only about 20 of those high-end exploits get sold each year, from a pool of maybe 100 researchers.",
+        "tts_text": "And only about twenty of those high-end exploits get sold each year, from a pool of maybe one hundred researchers.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Only one or two a year will be sold, from a pool of around 400 researchers who focus on such high-end hacking.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Meanwhile, Google's been pretty open about paying researchers before selling to government clients… Apple's program has only had 5 serious bugs reported since 2020.",
+        "tts_text": "Meanwhile, Google's been pretty open about paying researchers before selling to government clients... Apple's program has only had five serious bugs reported since twenty twenty.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Krsti said the bug bounty had been a success to date, with 50 serious bugs reported since the 2016 launch.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Krsti called it a failure, which makes you wonder why they're scaling back instead of incentivizing more.",
+        "tts_text": "Krsti called it a failure, which makes you wonder why they're scaling back instead of incentivizing more.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Krsti said the bug bounty had been a success to date, with 50 serious bugs reported since the 2016 launch.",
+        "confidence": 1.0,
+        "priority": "high"
+      }
+    ]
+  },
+  "generator_model": "DeepSeek-V3.1",
+  "batch_index": 2,
+  "artist_script": "HostA: Apple's new iPad hack bounty, offering up to $500,000, is making waves.\nHostB: Yeah, but that's actually a huge drop from what they used to offer for iPhone vulnerabilities, right?\nHostA: Exactly—it’s the lowest among major tech companies now. And they’re even ending the Mac bug bounty program after five years.\nHostB: Wait, they announced this at DEF CON in Paris, where Tim Cook was speaking about Android and Windows security, which is kinda ironic.\nHostA: Totally. And The Wall Street Journal reported they’re taking away those special developer iPhones from researchers too.\nHostB: Oh, the iOS Security Research Devices? Krsti denied it’d be application-only though, and said it’s still coming this year.\nHostA: But still, $500k only goes to someone who can hack the iOS kernel with just two clicks from the user—that’s pretty specific.\nHostB: And there’s a 25% penalty if you find a bug after the software’s already out? That feels harsh.\nHostA: Apparently Apple’s cutting rewards because the private market for exploits has crashed—governments are buying hacks for as little as $5,000.\nHostB: Maor Shwartz mentioned that to The Verge—like, a WhatsApp exploit with multiple clicks can go for that price, which is wild.\nHostA: And only about 20 of those high-end exploits get sold each year, from a pool of maybe 100 researchers.\nHostB: Meanwhile, Google’s been pretty open about paying researchers before selling to government clients… Apple’s program has only had 5 serious bugs reported since 2020.\nHostA: Krsti called it a failure, which makes you wonder why they’re scaling back instead of incentivizing more."
+}

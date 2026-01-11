@@ -1,0 +1,143 @@
+{
+  "id": 3816,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Informative discussion"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "HostA",
+        "text": "Jeff Bezos just sold another huge chunk of Amazon stock—over 530,000 shares at around $1,800 each.",
+        "tts_text": "Jeff Bezos just sold another huge chunk of Amazon stock-over five hundred thirty thousand shares at around one thousand, eight hundred dollars each.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "According to documents filed on Monday afternoon with the Securities and Exchange Commission, the worlds richest man sold over 530,000 shares of Amazon when the stock price was around $1,900 a share.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Yeah, and that's on top of the $1.6 billion he cashed out in July, right? It's like, what's he doing with all that?",
+        "tts_text": "Yeah, and that's on top of the one point six dollars billion he cashed out in July, right? It's like, what's he doing with all that?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The sales on August 1 and 2 followed $1.4 billion (after-tax) worth of Amazon stock he sold in the final three days of July.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Well, the leading theory is that it's for Blue Origin, his space company. He mentioned back in 2017 that he funds it by selling Amazon shares.",
+        "tts_text": "Well, the leading theory is that it's for Blue Origin, his space company. He mentioned back in twenty seventeen that he funds it by selling Amazon shares.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The leading theory is that it is to fund Blue Origin, a space exploration company that Bezos founded in September 2000. Bezos told journalists at a space exploration conference in 2017 that he was funding Blue Origin by selling some of his Amazon shares.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Oh right, Blue Origin—he founded that back in 2002, didn't he? So this isn't exactly new behavior for him.",
+        "tts_text": "Oh right, Blue Origin-he founded that back in two thousand two, didn't he? So this isn't exactly new behavior for him.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The leading theory is that it is to fund Blue Origin, a space exploration company that Bezos founded in September 2000.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Exactly. And with Amazon's stock closing at $1,765 on Monday, his net worth is still estimated at over $90 billion.",
+        "tts_text": "Exactly. And with Amazon's stock closing at one thousand, seven hundred sixty five dollars on Monday, his net worth is still estimated at over ninety dollars billion.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "As the richest man on earth, Bezos is now worth an estimated $110.1 billion, using Mondays closing share price for Amazon. On Monday, the stock closed at $1,765 a share.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Which, you know, keeps him as the richest person on earth. But it's interesting that Amazon itself isn't commenting on the sales.",
+        "tts_text": "Which, you know, keeps him as the richest person on earth. But it's interesting that Amazon itself isn't commenting on the sales.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "As the richest man on earth, Bezos is now worth an estimated $110.1 billion, using Mondays closing share price for Amazon. A spokesman for Amazon has not commented on the purpose for Bezos last stock sales.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Yeah, the spokesman stayed quiet, so we're just left with theories. But given his past statements, the Blue Origin angle makes a lot of sense.",
+        "tts_text": "Yeah, the spokesman stayed quiet, so we're just left with theories. But given his past statements, the Blue Origin angle makes a lot of sense.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "A spokesman for Amazon has not commented on the purpose for Bezos last stock sales.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "I mean, space exploration doesn't come cheap. Selling stock is probably the most straightforward way to fund those ambitions.",
+        "tts_text": "I mean, space exploration doesn't come cheap. Selling stock is probably the most straightforward way to fund those ambitions.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostA",
+        "text": "And honestly, with shares at that price, even selling a fraction gives him massive liquidity.",
+        "tts_text": "And honestly, with shares at that price, even selling a fraction gives him massive liquidity.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostB",
+        "text": "It's wild to think about moving that much money in just a few days. Over half a million shares…",
+        "tts_text": "It's wild to think about moving that much money in just a few days. Over half a million shares...",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "According to documents filed on Monday afternoon with the Securities and Exchange Commission, the worlds richest man sold over 530,000 shares of Amazon when the stock price was around $1,900 a share.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Right? And the SEC filings show it was done pretty methodically too.",
+        "tts_text": "Right? And the S E C filings show it was done pretty methodically too.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostB",
+        "text": "Makes you wonder if we'll see more sales soon, you know, depending on how Blue Origin's projects are going.",
+        "tts_text": "Makes you wonder if we'll see more sales soon, you know, depending on how Blue Origin's projects are going.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostA",
+        "text": "For sure. He's been pretty consistent about using his Amazon wealth to bankroll his space dreams.",
+        "tts_text": "For sure. He's been pretty consistent about using his Amazon wealth to bankroll his space dreams.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Bezos told journalists at a space exploration conference in 2017 that he was funding Blue Origin by selling some of his Amazon shares.",
+        "confidence": 0.9,
+        "priority": "high"
+      }
+    ]
+  },
+  "generator_model": "DeepSeek-V3.1",
+  "batch_index": 2,
+  "artist_script": "HostA: Jeff Bezos just sold another huge chunk of Amazon stock—over 530,000 shares at around $1,800 each.\nHostB: Yeah, and that’s on top of the $1.6 billion he cashed out in July, right? It’s like, what’s he doing with all that?\nHostA: Well, the leading theory is that it’s for Blue Origin, his space company. He mentioned back in 2017 that he funds it by selling Amazon shares.\nHostB: Oh right, Blue Origin—he founded that back in 2002, didn’t he? So this isn’t exactly new behavior for him.\nHostA: Exactly. And with Amazon’s stock closing at $1,765 on Monday, his net worth is still estimated at over $90 billion.\nHostB: Which, you know, keeps him as the richest person on earth. But it’s interesting that Amazon itself isn’t commenting on the sales.\nHostA: Yeah, the spokesman stayed quiet, so we’re just left with theories. But given his past statements, the Blue Origin angle makes a lot of sense.\nHostB: I mean, space exploration doesn’t come cheap. Selling stock is probably the most straightforward way to fund those ambitions.\nHostA: And honestly, with shares at that price, even selling a fraction gives him massive liquidity.\nHostB: It’s wild to think about moving that much money in just a few days. Over half a million shares…\nHostA: Right? And the SEC filings show it was done pretty methodically too.\nHostB: Makes you wonder if we’ll see more sales soon, you know, depending on how Blue Origin’s projects are going.\nHostA: For sure. He’s been pretty consistent about using his Amazon wealth to bankroll his space dreams."
+}

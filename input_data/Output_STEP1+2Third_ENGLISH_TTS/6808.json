@@ -1,0 +1,169 @@
+{
+  "id": 6808,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Skeptical Debate"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "So, Janet Yellen, finally a woman in charge of the entire global economy!",
+        "tts_text": "So, Janet Yellen, finally a woman in charge of the entire global economy!",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "President-elect Joe Biden plans to nominate former Federal Reserve Chair Janet Yellen to become the next Treasury Secretary",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Whoa, wait. No, not the entire global economy. She's slated for Treasury Secretary, and, uh, potentially World Bank later, but... no.",
+        "tts_text": "Whoa, wait. No, not the entire global economy. She's slated for Treasury Secretary, and, uh, potentially World Bank later, but... no.",
+        "check_worthy": true,
+        "factual_label": "NEI",
+        "evidence_snippet": "President-elect Joe Biden plans to nominate former Federal Reserve Chair Janet Yellen to become the next Treasury Secretary",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Okay, okay, but still! Treasury Secretary! That's, like, a huge, historic step, right? And so good for stabilizing the American economy.",
+        "tts_text": "Okay, okay, but still! Treasury Secretary! That's, like, a huge, historic step, right? And so good for stabilizing the American economy.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "If she is nominated and confirmed by the Senate as Treasury Secretary, shell also be the first woman to serve in that role. ... Yellen will be faced with the task of stabilizing an American economy that is reeling from the effects of the coronavirus pandemic",
+        "confidence": 0.9,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "\"Good for stabilizing\"? I don't know, man. The Wall Street Journal reported it, but it sounds like a lot of hopeful thinking.",
+        "tts_text": "Good for stabilizing? I don't know, man. The Wall Street Journal reported it, but it sounds like a lot of hopeful thinking.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "President-elect Joe Biden plans to nominate former Federal Reserve Chair Janet Yellen to become the next Treasury Secretary, the Wall Street Journal first reported Monday.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "She has an unorthodox approach to monetary policy! That's exactly what we need right now with, like, the pandemic and all the D.C. gridlock.",
+        "tts_text": "She has an unorthodox approach to monetary policy! That's exactly what we need right now with, like, the pandemic and all the D.C. gridlock.",
+        "check_worthy": true,
+        "factual_label": "NEI",
+        "evidence_snippet": "Shes seen as a middle-of-the-road pick: conservative enough for Republicans but liberal enough for Democrats.",
+        "confidence": 0.8,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Unorthodox? Or just, um, politically convenient? Biden called her a friend, and he needs someone \"accepted by all elements\" of the party. Sounds like a compromise pick to me.",
+        "tts_text": "Unorthodox? Or just, um, politically convenient? Biden called her a friend, and he needs someone accepted by all elements of the party. Sounds like a compromise pick to me.",
+        "check_worthy": true,
+        "factual_label": "NEI",
+        "evidence_snippet": "Last week, Biden said that his pick for Treasury Secretary would be someone who will be accepted by all elements of the Democratic Party, from the progressive to the moderate coalitions.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "A compromise is good when you're trying to unite a party, like, from the progressives to the moderates. Robert Reich even cheered the pick!",
+        "tts_text": "A compromise is good when you're trying to unite a party, like, from the progressives to the moderates. Robert Reich even cheered the pick!",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Robert Reich, who served as Secretary of Labor in the Clinton administration, cheered Bidens pick.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "But hold on, the article also says she owns a \"large stake in the Federal Reserve System.\" And that it's expected to bring her \"huge profit.\"",
+        "tts_text": "But hold on, the article also says she owns a large stake in the Federal Reserve System. And that it's expected to bring her huge profit.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The provided article does not contain any information about Janet Yellen's personal financial stakes or expected profits.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Oh, come on, that's just, uh, like her investments, retirement maybe. That's totally normal for someone with her career path.",
+        "tts_text": "Oh, come on, that's just, uh, like her investments, retirement maybe. That's totally normal for someone with her career path.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "\"Large stake,\" \"huge profit.\" That's a massive conflict of interest for the Treasury Secretary, overseeing the economy and the Fed!",
+        "tts_text": "Large stake, huge profit. That's a massive conflict of interest for the Treasury Secretary, overseeing the economy and the Fed!",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "She's supported financial regulation! Dodd-Frank! She's not some, like, shill for big business, even if Wall Street doesn't see her as a \"major threat.\"",
+        "tts_text": "She's supported financial regulation! Dodd-Frank! She's not some, like, shill for big business, even if Wall Street doesn't see her as a major threat.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Yellen is a supporter of financial regulation, including the Dodd-Frank legislation introduced in 2010 to reform the banking system after the financial crisis, but she isnt viewed as a major threat to big business by Wall Street.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "But the article also says Wall Street doesn't view her as a \"major threat\"! And her husband is, uh, a \"prominent socialist.\" Talk about mixed signals.",
+        "tts_text": "But the article also says Wall Street doesn't view her as a major threat! And her husband is, uh, a prominent socialist. Talk about mixed signals.",
+        "check_worthy": true,
+        "factual_label": "NEI",
+        "evidence_snippet": "but she isnt viewed as a major threat to big business by Wall Street.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "What does her husband have to do with it? That's just a distraction! And, like, Trump didn't reappoint her because she wasn't \"tall enough.\" That's the real problem.",
+        "tts_text": "What does her husband have to do with it? That's just a distraction! And, like, Trump didn't reappoint her because she wasn't tall enough. That's the real problem.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Trump had expressed concerns to aides that Yellen was not tall enough to run the U.S. central bank (she is 5 feet tall), the Post reported.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, Trump's reasons were absurd, whatever. But that just, um, highlights that she's been around for a while. Not exactly fresh blood or new ideas.",
+        "tts_text": "Yeah, Trump's reasons were absurd, whatever. But that just, um, highlights that she's been around for a while. Not exactly fresh blood or new ideas.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "She's still an experienced, pioneering woman. First woman to head the Fed, first for the CEA, now potentially Treasury. That's, like, incredibly significant for women in power.",
+        "tts_text": "She's still an experienced, pioneering woman. First woman to head the Fed, first for the C E A, now potentially Treasury. That's, like, incredibly significant for women in power.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Yellen was the first woman to lead the U.S. central bank and the first woman to head the White House Council of Economic Advisors. If she is nominated and confirmed by the Senate as Treasury Secretary, shell also be the first woman to serve in that role.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Significant, sure. But we're talking about stabilizing an economy reeling from a pandemic, with, you know, her own financial interests wrapped up in the system. I'm not convinced.",
+        "tts_text": "Significant, sure. But we're talking about stabilizing an economy reeling from a pandemic, with, you know, her own financial interests wrapped up in the system. I'm not convinced.",
+        "check_worthy": true,
+        "factual_label": "NEI",
+        "evidence_snippet": "Yellen will be faced with the task of stabilizing an American economy that is reeling from the effects of the coronavirus pandemic",
+        "confidence": 1.0,
+        "priority": "high"
+      }
+    ]
+  },
+  "batch_index": 3
+}

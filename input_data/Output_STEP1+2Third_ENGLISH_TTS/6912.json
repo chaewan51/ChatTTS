@@ -1,0 +1,133 @@
+{
+  "id": 6912,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Debaters",
+      "inferred_vibe": "Argumentative"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Speaker A",
+        "text": "...it's just, I mean, the way technology, uh, like SAT4Farming, is just transforming lives. Peter Oppong, you know, 15% yield increase in year one? That's huge. That's huge? He had a government grant, A. Most of these farmers, they don't even have access to a bank, let alone, like, advanced tech for a seven-year plan.",
+        "tts_text": "...it's just, I mean, the way technology, uh, like SAT4Farming, is just transforming lives. Peter Oppong, you know, fifteen percent yield increase in year one? That's huge. That's huge? He had a government grant, A. Most of these farmers, they don't even have access to a bank, let alone, like, advanced tech for a seven-year plan.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Based on its recommendations, Peter began to replace his aging trees... Meanwhile, other, less costly steps, such as tree pruning, have yielded quick results... Peter was fortunate to have the funds to rehabilitate his farm.",
+        "confidence": 0.9,
+        "priority": "high"
+      },
+      {
+        "speaker": "Speaker B",
+        "text": "But that's exactly the point, B! FarmDrive in Kenya, it uses phone data to give them credit scores! It's solving the financing gap. Over a hundred thousand applications!",
+        "tts_text": "But that's exactly the point, B! FarmDrive in Kenya, it uses phone data to give them credit scores! It's solving the financing gap. Over a hundred thousand applications!",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "One such approach is FarmDrive in Kenya, which gives lenders detailed credit scores on smallholder farmers using data from farmers mobile phones, alternative data (such as a farmers adoption of good agricultural practices), and machine learning.",
+        "confidence": 0.95,
+        "priority": "high"
+      },
+      {
+        "speaker": "Speaker A",
+        "text": "A hundred thousand applications, sure. What's the approval rate? And who's providing the capital for those loans, um, based on phone data? That sounds incredibly risky to lenders, frankly.",
+        "tts_text": "A hundred thousand applications, sure. What's the approval rate? And who's providing the capital for those loans, um, based on phone data? That sounds incredibly risky to lenders, frankly.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Speaker B",
+        "text": "No, it explicitly says the default rate is lower than the industry average. It's working! It's innovative funding, like Starbucks' fifty million dollar fund.",
+        "tts_text": "No, it explicitly says the default rate is lower than the industry average. It's working! It's innovative funding, like Starbucks' fifty million dollar fund.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "This information gives lenders greater assurance, boosting available credit for smallholders.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Speaker A",
+        "text": "Fifty million dollars from Starbucks is a drop in the ocean when we're talking about two hundred and fifty million just for West Africa's cocoa supply chain, A. Just for replanting.",
+        "tts_text": "Fifty million dollars from Starbucks is a drop in the ocean when we're talking about two hundred and fifty million just for West Africa's cocoa supply chain, A. Just for replanting.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Starbucks, for example, has established a $50 million Global Farmer Fund... Its West African supply chain alone would need some $250 million in risk guarantees for loans to smallholder farmers.",
+        "confidence": 0.9,
+        "priority": "high"
+      },
+      {
+        "speaker": "Speaker B",
+        "text": "Okay, but that's what public-private partnerships are for, though, right? And the blockchain traceability, that's giving farmers, like, a ten percent increase in revenue!",
+        "tts_text": "Okay, but that's what public-private partnerships are for, though, right? And the blockchain traceability, that's giving farmers, like, a ten percent increase in revenue!",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The smart use of big data can facilitate such initiatives, and provide deep insights into farmers needs and capacities.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Speaker A",
+        "text": "A ten percent increase after they've probably been, you know, getting ripped off for decades. It's a band-aid. The core issue is still deep poverty and exploitation, not a lack of apps.",
+        "tts_text": "A ten percent increase after they've probably been, you know, getting ripped off for decades. It's a band-aid. The core issue is still deep poverty and exploitation, not a lack of apps.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Speaker B",
+        "text": "Apps and data are addressing that, though. They're empowering farmers to make better decisions, to plan, uh, to get fair prices.",
+        "tts_text": "Apps and data are addressing that, though. They're empowering farmers to make better decisions, to plan, uh, to get fair prices.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Speaker A",
+        "text": "Empowering them with what? A digital plan they can't afford to implement? The article itself says without financing, 'even the best agronomic advice is for naught.' That's your big tech solution.",
+        "tts_text": "Empowering them with what? A digital plan they can't afford to implement? The article itself says without financing, 'even the best agronomic advice is for naught.' That's your big tech solution.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "And without access to financing, even the best agronomic advice is for naught.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Speaker B",
+        "text": "But the tech is helping them get the financing! It's closing the loop!",
+        "tts_text": "But the tech is helping them get the financing! It's closing the loop!",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Speaker A",
+        "text": "No, it's facilitating the lenders. It's about de-risking for banks, not fundamentally changing the power dynamic for poor farmers. It's a convenient narrative.",
+        "tts_text": "No, it's facilitating the lenders. It's about de-risking for banks, not fundamentally changing the power dynamic for poor farmers. It's a convenient narrative.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Speaker B",
+        "text": "Convenient narrative? It's literally, um, keeping chocolate and coffee from disappearing, and lifting millions out of poverty!",
+        "tts_text": "Convenient narrative? It's literally, um, keeping chocolate and coffee from disappearing, and lifting millions out of poverty!",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Its not just coffee that is in danger. Deforestation is also threatening cocoa and the future of chocolate... Improving the wellbeing of smallholder farmers and their families could propel millions out of poverty.",
+        "confidence": 0.8,
+        "priority": "high"
+      },
+      {
+        "speaker": "Speaker A",
+        "text": "Or just making rich countries feel better while the systemic issues, like global trade inequalities, go completely unaddressed, A. That's what I think.",
+        "tts_text": "Or just making rich countries feel better while the systemic issues, like global trade inequalities, go completely unaddressed, A. That's what I think.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  },
+  "batch_index": 3
+}

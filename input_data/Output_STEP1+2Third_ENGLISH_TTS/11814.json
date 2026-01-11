@@ -1,0 +1,147 @@
+{
+  "id": 11814,
+  "language": "english",
+  "hallucination": "no",
+  "ground_truth_source": "text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Friends",
+      "inferred_vibe": "Somber and Concerned"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Speaker A",
+        "text": "Ugh, you are not going to believe this. Just... UGH.",
+        "tts_text": "Ugh, you are not going to believe this. Just... U G H.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Speaker B",
+        "text": "What's up, A? Sounds like you just read something, uh, pretty awful.",
+        "tts_text": "What's up, A? Sounds like you just read something, uh, pretty awful.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Speaker A",
+        "text": "Awful doesn't even cover it. Four people? Drowned? Like, in reservoirs? In Karaganda?",
+        "tts_text": "Awful doesn't even cover it. Four people? Drowned? Like, in reservoirs? In Karaganda?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Four people drowned in reservoirs in the Karaganda region alone over the holiday weekend.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Speaker B",
+        "text": "Yeah, I saw that. Over the holiday weekend, right? Super tragic. But... how?",
+        "tts_text": "Yeah, I saw that. Over the holiday weekend, right? Super tragic. But... how?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Four people drowned in reservoirs in the Karaganda region alone over the holiday weekend.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Speaker A",
+        "text": "Like, three of them at this Samarkand reservoir, they were fishermen? Just fell through the ice?",
+        "tts_text": "Like, three of them at this Samarkand reservoir, they were fishermen? Just fell through the ice?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Three of them went under water in the Samarkand reservoir in the city of Temirtau. According to the press service of the regional Department of Emergency Situations, the drowned were fishermen. They fell through the ice and were unable to swim out of the icy water.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Speaker B",
+        "text": "Exactly. The article said it was due to this sharp warming, you know, thinning the ice. And, like, they weren't wearing life jackets.",
+        "tts_text": "Exactly. The article said it was due to this sharp warming, you know, thinning the ice. And, like, they weren't wearing life jackets.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The tragic incident occurred due to a sharp warming of the weather and thinning of the ice, as well as a gross violation of safety rules - the victims were not wearing life jackets.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Speaker A",
+        "text": "No life jackets?! And they were in a dangerous zone? Despite warning signs? That's just... I can't even.",
+        "tts_text": "No life jackets?! And they were in a dangerous zone? Despite warning signs? That's just... I can't even.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Moreover, they were in a dangerous zone, despite the installed warning signs.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Speaker B",
+        "text": "I know, right? The regional Department of Emergency Situations, uh, pretty much laid it out. They were just, like, ignoring everything. And then there was another one, this Sherubay-Nura reservoir? Still looking for someone there?",
+        "tts_text": "I know, right? The regional Department of Emergency Situations, uh, pretty much laid it out. They were just, like, ignoring everything. And then there was another one, this Sherubay-Nura reservoir? Still looking for someone there?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "A similar situation occurred on the Sherubay-Nura reservoir in the village of Topar, where a search is underway for another man who did not return from fishing.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Speaker A",
+        "text": "Yeah, that's the one. Divers are still out there, uh, looking for that man. It's just awful.",
+        "tts_text": "Yeah, that's the one. Divers are still out there, uh, looking for that man. It's just awful.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The Department of Emergency Situations provided a video of the work of divers who are looking for a body.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Speaker B",
+        "text": "But why, B? Why would people keep doing this? The ice is obviously, like, super unstable.",
+        "tts_text": "But why, B? Why would people keep doing this? The ice is obviously, like, super unstable.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Speaker A",
+        "text": "Well, that's what the DES is appealing to everyone about. The ice is, uh, extremely unstable, a mortal danger.",
+        "tts_text": "Well, that's what the D E S is appealing to everyone about. The ice is, uh, extremely unstable, a mortal danger.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The Karaganda Region Department of Emergency Situations appeals to all residents of the region. Currently, the ice on water bodies is extremely unstable and poses a mortal danger.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Speaker B",
+        "text": "So, they tell people not to go out, especially at night or when it's melting, and people still do it?",
+        "tts_text": "So, they tell people not to go out, especially at night or when it's melting, and people still do it?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Going out on the ice at night, in poor visibility, as well as during periods of ice formation and ice melting is prohibited. Despite warnings, people continue to risk their lives.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Speaker A",
+        "text": "Pretty much. They urged everyone to remember that going out on ice like this, uh, can just lead to tragic events.",
+        "tts_text": "Pretty much. They urged everyone to remember that going out on ice like this, uh, can just lead to tragic events.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Remember that going out on the ice in such conditions can lead to tragic events. Take care of yourself and your loved ones!\" the department urged.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Speaker B",
+        "text": "It's just so… unnecessary. Like, just stay off the ice, right?",
+        "tts_text": "It's just so... unnecessary. Like, just stay off the ice, right?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  },
+  "batch_index": 3
+}

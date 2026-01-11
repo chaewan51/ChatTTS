@@ -1,0 +1,144 @@
+{
+  "id": 6436,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Informative and collaborative"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "HostA",
+        "text": "A listener message from Sarah in London: \"I keep hearing about antibiotic resistance, but I don't really get why it's such a big deal. Can you break it down?\"",
+        "tts_text": "A listener message from Sarah in London: I keep hearing about antibiotic resistance, but I don't really get why it's such a big deal. Can you break it down?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostB",
+        "text": "Oh, wow, that's actually super timely because, uh, the Fourth High-Level Global Ministerial Conference on AMR is happening right now in Jeddah, hosted by Saudi Arabia.",
+        "tts_text": "Oh, wow, that's actually super timely because, uh, the Fourth High-Level Global Ministerial Conference on A M R is happening right now in Jeddah, hosted by Saudi Arabia.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Thats why the Kingdom of Saudi Arabia is announcing a series of initiatives that support the World Health Organizations (WHOs) One Health program during the Fourth High-Level Global Ministerial Conference on AMR, which it is currently hosting in Jeddah.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Exactly, and they're pushing this integrated \"One Health\" approach, which is a bit different from past efforts—it looks at human health, animal health, agriculture, all together.",
+        "tts_text": "Exactly, and they're pushing this integrated One Health approach, which is a bit different from past efforts-it looks at human health, animal health, agriculture, all together.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "What sets One Health apart from previous AMR resistance efforts is its integrated approach to the crisis. It is designed to drive actions in human health, animal health, agriculture and the environment to ensure that lifesaving antimicrobials continue to be available, while protecting against deadly resistance.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Right, because the problem is so interconnected. I mean, we're talking about an estimated 1.3 million deaths per year from antimicrobial resistance.",
+        "tts_text": "Right, because the problem is so interconnected. I mean, we're talking about an estimated one point three million deaths per year from antimicrobial resistance.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "He highlighted the devastating toll of AMR, which currently claims 1.3 million lives annually.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "That number is just staggering. And Dr. Tedros from the WHO compared it to climate change in terms of its global impact.",
+        "tts_text": "That number is just staggering. And Dr. Tedros from the W H O compared it to climate change in terms of its global impact.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "World Health Organization Director-General Tedros Adhanom Ghebreyesus has compared antimicrobial resistance (AMR) to climate change in terms of its critical impact on global health.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Yeah, he did. And he laid out some pretty clear priorities too—like increasing funding and making sure antibiotics are used properly, not overused.",
+        "tts_text": "Yeah, he did. And he laid out some pretty clear priorities too-like increasing funding and making sure antibiotics are used properly, not overused.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Dr. Tedros emphasized three key priorities for implementing the declaration: increasing sustainable financing through both domestic and international channels, ensuring equitable access to antimicrobials while preventing misuse, and advancing research and innovation in the field.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Which is huge, especially when you hear that reducing antimicrobials in animals by 30% could boost global GDP by, like, 14 billion dollars by 2050.",
+        "tts_text": "Which is huge, especially when you hear that reducing antimicrobials in animals by thirty percent could boost global G D P by, like, fourteen billion dollars by twenty fifty.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Notably, he pointed out that reducing antimicrobial use in animals by 30% could potentially increase global GDP by US$14 billion by 2050.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "It's wild how economics and public health are so tied together here. And Saudi Arabia's really stepping up with initiatives like that \"Biotech Bridge\" for research.",
+        "tts_text": "It's wild how economics and public health are so tied together here. And Saudi Arabia's really stepping up with initiatives like that Biotech Bridge for research.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The creation of a Biotech Bridge that supports AMR-related research, development and innovation, and The development of a learning hub to boost community awareness of antimicrobial resistance.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "For sure. Dr. Hanan Balkhy praised their leadership, calling it an \"open and collaborative spirit,\" which feels necessary for something this big.",
+        "tts_text": "For sure. Dr. Hanan Balkhy praised their leadership, calling it an open and collaborative spirit, which feels necessary for something this big.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Its willingness to partner with the full constellation of participants at the AMR Ministerial Meeting demonstrates the openness and collaborative spirit needed to slow, and ultimately stop, resistance and all of its damaging knock-on effects.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Absolutely. And the Jeddah Declaration is all about turning commitments into action—setting up a global scientific panel, a learning hub...",
+        "tts_text": "Absolutely. And the Jeddah Declaration is all about turning commitments into action-setting up a global scientific panel, a learning hub...",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Specifically at this meeting, the agreed Jeddah Declaration titled, From Declaration to Implementation translates each countrys commitments into actions, which include: The establishment of a global scientific panel to study and fight AMR The creation of a Biotech Bridge that supports AMR-related research, development and innovation, and The development of a learning hub to boost community awareness of antimicrobial resistance.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "It's one of those things where, you know, it feels overwhelming, but also like there's a real roadmap now.",
+        "tts_text": "It's one of those things where, you know, it feels overwhelming, but also like there's a real roadmap now.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostB",
+        "text": "Yeah, and with the UN calling it one of the world's most urgent health threats, that kind of high-level attention matters.",
+        "tts_text": "Yeah, and with the U N calling it one of the world's most urgent health threats, that kind of high-level attention matters.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Indicating the seriousness of the AMR threat, the United Nations General Assembly recently recognized it as one of the worlds most urgent health threats and demanded immediate action to safeguard the ability to treat diseases and enhance food security.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Definitely. It's a reminder that this isn't some far-off problem—it's affecting lives right now.",
+        "tts_text": "Definitely. It's a reminder that this isn't some far-off problem-it's affecting lives right now.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      }
+    ]
+  },
+  "generator_model": "DeepSeek-V3.1",
+  "batch_index": 2,
+  "artist_script": "HostA: A listener message from Sarah in London: \"I keep hearing about antibiotic resistance, but I don't really get why it's such a big deal. Can you break it down?\"\nHostB: Oh, wow, that's actually super timely because, uh, the Fourth High-Level Global Ministerial Conference on AMR is happening right now in Jeddah, hosted by Saudi Arabia.\nHostA: Exactly, and they're pushing this integrated \"One Health\" approach, which is a bit different from past efforts—it looks at human health, animal health, agriculture, all together.\nHostB: Right, because the problem is so interconnected. I mean, we're talking about an estimated 1.3 million deaths per year from antimicrobial resistance.\nHostA: That number is just staggering. And Dr. Tedros from the WHO compared it to climate change in terms of its global impact.\nHostB: Yeah, he did. And he laid out some pretty clear priorities too—like increasing funding and making sure antibiotics are used properly, not overused.\nHostA: Which is huge, especially when you hear that reducing antimicrobials in animals by 30% could boost global GDP by, like, 14 billion dollars by 2050.\nHostB: It's wild how economics and public health are so tied together here. And Saudi Arabia's really stepping up with initiatives like that \"Biotech Bridge\" for research.\nHostA: For sure. Dr. Hanan Balkhy praised their leadership, calling it an \"open and collaborative spirit,\" which feels necessary for something this big.\nHostB: Absolutely. And the Jeddah Declaration is all about turning commitments into action—setting up a global scientific panel, a learning hub...\nHostA: It's one of those things where, you know, it feels overwhelming, but also like there's a real roadmap now.\nHostB: Yeah, and with the UN calling it one of the world's most urgent health threats, that kind of high-level attention matters.\nHostA: Definitely. It’s a reminder that this isn't some far-off problem—it's affecting lives right now."
+}

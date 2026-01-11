@@ -1,0 +1,167 @@
+{
+  "id": 11690,
+  "language": "english",
+  "hallucination": "no",
+  "ground_truth_source": "text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Skeptical Banter"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "Hahaha! Oh, that's rich. Seriously?",
+        "tts_text": "Hahaha! Oh, that's rich. Seriously?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, well, Kazhydromet, they've got the forecast for Wednesday, April 9th.",
+        "tts_text": "Yeah, well, Kazhydromet, they've got the forecast for Wednesday, April ninth.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Kazhydromet has shared the weather forecast for cities across Kazakhstan for Wednesday, April 9.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "April 9th. And we're supposed to believe this is \"spring in full swing\"? Please.",
+        "tts_text": "April ninth. And we're supposed to believe this is spring in full swing? Please.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Spring in full swing: Weather forecast for Astana and Almaty for next three days",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Okay, but for Astana, it's like, partly cloudy, just light rain. Daytime temperatures +18 to +20.",
+        "tts_text": "Okay, but for Astana, it's like, partly cloudy, just light rain. Daytime temperatures +eighteen to +twenty.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Astana \" partly cloudy, light rain during the day. Temperature: +3¦+5ÂC at night, +18¦+20ÂC during the day.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "\"Light rain.\" So, you mean, not exactly perfect spring weather, then.",
+        "tts_text": "Light rain. So, you mean, not exactly perfect spring weather, then.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Almaty's clearer, though, no precipitation. Uh, +20 to +22 during the day.",
+        "tts_text": "Almaty's clearer, though, no precipitation. Uh, +twenty to +twenty two during the day.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Almaty \" partly cloudy, no precipitation. Temperature: +8¦+10ÂC at night, +20¦+22ÂC during the day.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Almaty. Right. So Astana gets wet, Almaty stays dry. What's the magic trick there, B?",
+        "tts_text": "Almaty. Right. So Astana gets wet, Almaty stays dry. What's the magic trick there, B?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "It's just how the systems are moving. Shymkent, no rain either, hitting +24 to +26.",
+        "tts_text": "It's just how the systems are moving. Shymkent, no rain either, hitting +twenty four to +twenty six.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Shymkent \" partly cloudy, no precipitation. Temperature: +10¦+12ÂC at night, +24¦+26ÂC during the day.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Twenty-six degrees? You're saying some places are practically summer and others are raining?",
+        "tts_text": "Twenty-six degrees? You're saying some places are practically summer and others are raining?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "It's a big country, um, yeah. Karaganda, though, they're looking at light rain and a thunderstorm. With fog.",
+        "tts_text": "It's a big country, um, yeah. Karaganda, though, they're looking at light rain and a thunderstorm. With fog.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Karaganda \" partly cloudy, light rain and thunderstorm during the day. Fog at night and in the morning.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "A thunderstorm and fog? During \"spring in full swing\"? That sounds like, utterly chaotic, B.",
+        "tts_text": "A thunderstorm and fog? During spring in full swing? That sounds like, utterly chaotic, B.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Well, the fog is at night and morning. Daytime still gets to +16 to +18.",
+        "tts_text": "Well, the fog is at night and morning. Daytime still gets to +sixteen to +eighteen.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Karaganda \" partly cloudy, light rain and thunderstorm during the day. Fog at night and in the morning. Temperature: +4¦+6ÂC at night, +16¦+18ÂC during the day.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Sixteen. Okay. So it's 26 one place, 16 another, with thunder and fog. Yeah, real \"full swing.\"",
+        "tts_text": "Sixteen. Okay. So it's twenty six one place, sixteen another, with thunder and fog. Yeah, real full swing.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "I mean, Kyzylorda is almost thirty degrees, no rain.",
+        "tts_text": "I mean, Kyzylorda is almost thirty degrees, no rain.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Kyzylorda \" partly cloudy, no precipitation. Temperature: +11¦+13ÂC at night, +27¦+29ÂC during the day.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Thirty? You're telling me we've got full summer heat and foggy thunderstorms simultaneously?",
+        "tts_text": "Thirty? You're telling me we've got full summer heat and foggy thunderstorms simultaneously?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "That's what the, uh, official forecast says.",
+        "tts_text": "That's what the, uh, official forecast says.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "I just don't buy it. Sounds like they just threw darts at a board.",
+        "tts_text": "I just don't buy it. Sounds like they just threw darts at a board.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  },
+  "batch_index": 3
+}

@@ -1,0 +1,179 @@
+{
+  "id": 7226,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Friends",
+      "inferred_vibe": "Informal and explanatory"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Speaker A",
+        "text": "…so, wait, it came from Mars? Like, actual Mars, the planet? Well, um, that particular claim, you know, about the meteor strike? That's actually, like, a bit of an exaggeration, or maybe, uh, satirical, in the original piece.",
+        "tts_text": "...so, wait, it came from Mars? Like, actual Mars, the planet? Well, um, that particular claim, you know, about the meteor strike? That's actually, like, a bit of an exaggeration, or maybe, uh, satirical, in the original piece.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 1.0
+      },
+      {
+        "speaker": "Speaker B",
+        "text": "Oh, okay. Because I was thinking, wow, that's a wild origin story for TB, you know?",
+        "tts_text": "Oh, okay. Because I was thinking, wow, that's a wild origin story for T B, you know?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 1.0
+      },
+      {
+        "speaker": "Speaker A",
+        "text": "It definitely would be. The point there, though, is that TB has been with us for a very, very long time, um, for millennia really.",
+        "tts_text": "It definitely would be. The point there, though, is that T B has been with us for a very, very long time, um, for millennia really.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Researchers theorize that humans first acquired TB in Africa about 5,000 years ago, and that the disease then swiftly spread along trade routes to nearly every corner of the globe.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Speaker B",
+        "text": "Right, so not space-borne. But it is still super deadly, right? Like, more than, uh, what I thought.",
+        "tts_text": "Right, so not space-borne. But it is still super deadly, right? Like, more than, uh, what I thought.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 1.0
+      },
+      {
+        "speaker": "Speaker A",
+        "text": "Absolutely. It's the world's deadliest infection, still killing millions. And the treatments, they're actually, like, declining in effectiveness.",
+        "tts_text": "Absolutely. It's the world's deadliest infection, still killing millions. And the treatments, they're actually, like, declining in effectiveness.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "TB is the worlds deadliest infection, and it has been with us for a very long time. ... killing approximately 1.6 million people in 2017... But the effectiveness of TB treatments is declining, raising concerns that drug-resistant strains are becoming more virulent.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Speaker B",
+        "text": "And it said something about, like, causing a financial collapse? In 2048? Is that, is that real?",
+        "tts_text": "And it said something about, like, causing a financial collapse? In twenty forty eight? Is that, is that real?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "By 2050, drugresistant TB could cost the global economy as much as $16.7 trillion in medical expenses and lost wages roughly the equivalent of the European Unions entire economic output.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Speaker A",
+        "text": "Again, a bit of hyperbole there to, uh, underscore the economic impact. But yes, it does perpetuate poverty. People spend, like, half their income on care sometimes.",
+        "tts_text": "Again, a bit of hyperbole there to, uh, underscore the economic impact. But yes, it does perpetuate poverty. People spend, like, half their income on care sometimes.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The disease perpetuates poverty in developing countries, because patients and their families must routinely spend up to half of their income buying medicines and managing care.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Speaker B",
+        "text": "Wow, okay. So, it's a huge problem, not just medical. But then, the article also mentioned, uh, the WHO diverting funds to make weaponized strains?",
+        "tts_text": "Wow, okay. So, it's a huge problem, not just medical. But then, the article also mentioned, uh, the W H O diverting funds to make weaponized strains?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Speaker A",
+        "text": "No, no, that's another, um, very clear satirical jab. The World Health Organization is actually trying to solve it, not, like, weaponize it.",
+        "tts_text": "No, no, that's another, um, very clear satirical jab. The World Health Organization is actually trying to solve it, not, like, weaponize it.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "According to the World Health Organization, the annual funding deficit for TB research and development is more than $1.3 billion, a shortfall that is exacerbated by a lack of market incentives within the pharmaceutical industry.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Speaker B",
+        "text": "Got it. So, basically, the real problem is just a lack of, like, serious funding for R&D, right?",
+        "tts_text": "Got it. So, basically, the real problem is just a lack of, like, serious funding for R&D, right?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 1.0
+      },
+      {
+        "speaker": "Speaker A",
+        "text": "Exactly. A huge funding deficit, over a billion dollars annually, and a lack of market incentives for drug makers.",
+        "tts_text": "Exactly. A huge funding deficit, over a billion dollars annually, and a lack of market incentives for drug makers.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "According to the World Health Organization, the annual funding deficit for TB research and development is more than $1.3 billion, a shortfall that is exacerbated by a lack of market incentives within the pharmaceutical industry.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Speaker B",
+        "text": "And, uh, it also said Big Pharma is actively suppressing treatments? To, like, keep a monopoly?",
+        "tts_text": "And, uh, it also said Big Pharma is actively suppressing treatments? To, like, keep a monopoly?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Unfortunately, the rare political unity in the lead-up to the discussion was overshadowed by a debate about drug makers intellectual-property rights.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Speaker A",
+        "text": "That's a critique often leveled, yes, especially concerning intellectual property rights. It's a complex balance.",
+        "tts_text": "That's a critique often leveled, yes, especially concerning intellectual property rights. It's a complex balance.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "While the declaration endorsed at the end of the UN meeting did offer a compromise, the quandary remains: how can we guarantee access to medications especially for the poorest patients while maintaining funding streams for pharmaceutical R&D? Patients needs must always be emphasized. But we cannot simply ignore the role that intellectual property plays in the creation of new treatments.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Speaker B",
+        "text": "So, how do we fix it then? I mean, besides, uh, not believing the Mars story.",
+        "tts_text": "So, how do we fix it then? I mean, besides, uh, not believing the Mars story.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 1.0
+      },
+      {
+        "speaker": "Speaker A",
+        "text": "We need significantly more R&D investment, collaboration between countries, and ensuring treatments are, um, universally accessible and affordable.",
+        "tts_text": "We need significantly more R&D investment, collaboration between countries, and ensuring treatments are, um, universally accessible and affordable.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Still, we cannot get over the finish line without a significant increase in research and development spending... rich and poor countries must collaborate to fill the gap... The goal should be to ensure that medicines are accessible and affordable for anyone who needs them",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Speaker B",
+        "text": "So, less talk, more funding. And maybe, uh, less, like, science fiction in the reporting.",
+        "tts_text": "So, less talk, more funding. And maybe, uh, less, like, science fiction in the reporting.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "With so many lives at stake, the time for talking is over.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Speaker A",
+        "text": "Precisely. The urgency is, uh, very real, even if some of the framing was a bit... dramatic.",
+        "tts_text": "Precisely. The urgency is, uh, very real, even if some of the framing was a bit... dramatic.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 1.0
+      }
+    ]
+  },
+  "batch_index": 3
+}

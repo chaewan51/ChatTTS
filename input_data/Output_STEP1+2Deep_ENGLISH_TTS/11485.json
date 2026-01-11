@@ -1,0 +1,113 @@
+{
+  "id": 11485,
+  "language": "english",
+  "hallucination": "no",
+  "ground_truth_source": "text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Informative and conversational"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "HostA",
+        "text": "The Astana city administration is really limiting the guest list for the May 7th military parade this year.",
+        "tts_text": "The Astana city administration is really limiting the guest list for the May seventh military parade this year.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The Astana city administration has published information about who has been invited to the military parade scheduled to take place in the capital on May 7. For the sake of public safety and orderly organization of the event, live attendance of the parade is limited this year.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Oh, I saw that—only veterans, home front workers, and specific military units are invited, right? No general public at all.",
+        "tts_text": "Oh, I saw that-only veterans, home front workers, and specific military units are invited, right? No general public at all.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Therefore, invitations have been extended only to World War II veterans, home front workers, combat veterans, top units of the Armed Forces of Kazakhstan, honor guard companies, veterans of the armed and security forces, law enforcement officers, and others. All other residents and guests of the capital are encouraged to watch the parade via live broadcast only.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Exactly, which is a pretty strict move. They're citing security concerns, uh, especially with large gatherings and all the military equipment involved.",
+        "tts_text": "Exactly, which is a pretty strict move. They're citing security concerns, uh, especially with large gatherings and all the military equipment involved.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "This decision was made to minimize risks associated with large gatherings amid heightened security measures. This is standard international practice when organizing large-scale events, especially those involving military equipment and aviation, officials explained.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Yeah, it makes sense though—it's standard practice internationally for events like this. But they did offer open rehearsals on May 3rd and 4th for people to catch a glimpse.",
+        "tts_text": "Yeah, it makes sense though-it's standard practice internationally for events like this. But they did offer open rehearsals on May third and fourth for people to catch a glimpse.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "This is standard international practice when organizing large-scale events, especially those involving military equipment and aviation, officials explained. They noted that all citizens had the opportunity to view parade elements during open rehearsals on May 3 and 4.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "True, and there's a live broadcast planned for everyone else. All national TV channels and even LED screens across the country will show it.",
+        "tts_text": "True, and there's a live broadcast planned for everyone else. All national T V channels and even L E D screens across the country will show it.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Additionally, on the day of the parade, a live broadcast will be available on all national TV channels and LED screens in cities and regions across the country, making the celebration accessible to everyone, the Ministry of Defense added.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "So it's not like people are totally left out. But still, no showing up to the actual venue without an invite—traffic restrictions and everything.",
+        "tts_text": "So it's not like people are totally left out. But still, no showing up to the actual venue without an invite-traffic restrictions and everything.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Traffic restrictions will also be in place in the area where the parade is held.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Right, they're really prioritizing control and safety this time around. I guess after the rehearsals, they've got everything locked down tight.",
+        "tts_text": "Right, they're really prioritizing control and safety this time around. I guess after the rehearsals, they've got everything locked down tight.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostB",
+        "text": "For sure. And honestly, with honor guard companies and aviation displays, you want everything to go smoothly without any hiccups.",
+        "tts_text": "For sure. And honestly, with honor guard companies and aviation displays, you want everything to go smoothly without any hiccups.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Therefore, invitations have been extended only to World War II veterans, home front workers, combat veterans, top units of the Armed Forces of Kazakhstan, honor guard companies, veterans of the armed and security forces, law enforcement officers, and others. This is standard international practice when organizing large-scale events, especially those involving military equipment and aviation, officials explained.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Absolutely. It's a balance between celebration and, like, making sure nothing goes wrong.",
+        "tts_text": "Absolutely. It's a balance between celebration and, like, making sure nothing goes wrong.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostB",
+        "text": "Yeah, and hey, at least everyone can still watch from home or on those big screens. Not a bad compromise.",
+        "tts_text": "Yeah, and hey, at least everyone can still watch from home or on those big screens. Not a bad compromise.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      }
+    ]
+  },
+  "generator_model": "DeepSeek-V3.1",
+  "batch_index": 2
+}

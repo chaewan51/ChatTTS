@@ -1,0 +1,189 @@
+{
+  "id": 3832,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Informal and analytical"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "HostA",
+        "text": "Kraft Heinz, 325.6 million shares, valued at 25.3 billion dollars.",
+        "tts_text": "Kraft Heinz, three hundred twenty five point six million shares, valued at twenty five point three billion dollars.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Kraft Heinz Position: 325.6 M shares Market Value: $25.3B Berkshire Portfolio Weight: 18.7%",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "That's a huge chunk of Berkshire's portfolio—28.7 percent, right? Almost a third!",
+        "tts_text": "That's a huge chunk of Berkshire's portfoliominus twenty eight point seven percent, right? Almost a third!",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Kraft Heinz Position: 325.6 M shares Market Value: $25.3B Berkshire Portfolio Weight: 18.7%",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Yeah, and Wells Fargo is next with 479 million shares, worth 24 billion.",
+        "tts_text": "Yeah, and Wells Fargo is next with four hundred seventy nine million shares, worth twenty four billion.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Wells Fargo Position: 479.7 M shares Market Value: $24 B Berkshire Portfolio Weight: 17.7%",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "So those two alone make up nearly half the portfolio's weight. It's pretty concentrated.",
+        "tts_text": "So those two alone make up nearly half the portfolio's weight. It's pretty concentrated.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "1. Kraft Heinz Position: 325.6 M shares Market Value: $25.3B Berkshire Portfolio Weight: 18.7% 2. Wells Fargo Position: 479.7 M shares Market Value: $24 B Berkshire Portfolio Weight: 17.7%",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Coca-Cola's in there too—300 million shares, 20 billion dollars.",
+        "tts_text": "Coca-Cola's in there toominus three hundred million shares, twenty billion dollars.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Coca-Cola Position: 400 M shares Market Value: $18.1 B Berkshire Portfolio Weight: 13.4%",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Classic Buffett move, sticking with consumer staples like Coke and Procter & Gamble.",
+        "tts_text": "Classic Buffett move, sticking with consumer staples like Coke and Procter and Gamble.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostA",
+        "text": "Speaking of P&G, it's further down at 4.3 billion, but still significant.",
+        "tts_text": "Speaking of P&G, it's further down at four point three billion, but still significant.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Procter & Gamble Position: 52.8 M shares Market Value: $4.3 B Berkshire Portfolio Weight: 3.2%",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "And then you've got IBM with 81 million shares, though that's dropped off since this data.",
+        "tts_text": "And then you've got I B M with eighty one million shares, though that's dropped off since this data.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "IBM Position: 81 M shares Market Value: $11.6 B Berkshire Portfolio Weight: 8.6%",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Right, and American Express is another long-term holding—151 million shares.",
+        "tts_text": "Right, and American Express is another long-term holdingminus one hundred fifty one million shares.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "American Express Position: 151.6 M shares Market Value: $9 B Berkshire Portfolio Weight: 6.6%",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "I always find it interesting how he mixes financials like Wells and AmEx with steady consumer names.",
+        "tts_text": "I always find it interesting how he mixes financials like Wells and AmEx with steady consumer names.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostA",
+        "text": "Wal-Mart's in there too, 56 million shares, but that's changed a lot recently.",
+        "tts_text": "Wal-Mart's in there too, fifty six million shares, but that's changed a lot recently.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Wal-Mart Position: 56.2 M shares Market Value: $3.8 B Berkshire Portfolio Weight: 2.8%",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Yeah, Berkshire sold a lot of that off. And then there are smaller positions like DaVita Healthcare.",
+        "tts_text": "Yeah, Berkshire sold a lot of that off. And then there are smaller positions like DaVita Healthcare.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostA",
+        "text": "Only about 1% of the portfolio, but still over 2.7 billion dollars.",
+        "tts_text": "Only about one percent of the portfolio, but still over two point seven billion dollars.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "DaVita HealthCare Partners Position: 38.6 M shares Market Value: $2.7 B Berkshire Portfolio Weight: 2%",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Which just shows the scale we're talking about—even the \"small\" holdings are massive.",
+        "tts_text": "Which just shows the scale we're talking about-even the small holdings are massive.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostA",
+        "text": "Exactly. It's a mix of huge bets and what Buffett might call \"inevitables.\"",
+        "tts_text": "Exactly. It's a mix of huge bets and what Buffett might call inevitables.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostB",
+        "text": "Though you gotta wonder, with some of these, um, like IBM, how the strategy's evolved.",
+        "tts_text": "Though you gotta wonder, with some of these, um, like I B M, how the strategy's evolved.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostA",
+        "text": "For sure. But the core philosophy? Still buying wonderful companies at fair prices.",
+        "tts_text": "For sure. But the core philosophy? Still buying wonderful companies at fair prices.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostB",
+        "text": "And holding forever, or at least seeming like it.",
+        "tts_text": "And holding forever, or at least seeming like it.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      }
+    ]
+  },
+  "generator_model": "DeepSeek-V3.1",
+  "batch_index": 2,
+  "artist_script": "HostA: Kraft Heinz, 325.6 million shares, valued at 25.3 billion dollars.\nHostB: That's a huge chunk of Berkshire's portfolio—28.7 percent, right? Almost a third!\nHostA: Yeah, and Wells Fargo is next with 479 million shares, worth 24 billion.\nHostB: So those two alone make up nearly half the portfolio's weight. It’s pretty concentrated.\nHostA: Coca-Cola’s in there too—300 million shares, 20 billion dollars.\nHostB: Classic Buffett move, sticking with consumer staples like Coke and Procter & Gamble.\nHostA: Speaking of P&G, it’s further down at 4.3 billion, but still significant.\nHostB: And then you've got IBM with 81 million shares, though that’s dropped off since this data.\nHostA: Right, and American Express is another long-term holding—151 million shares.\nHostB: I always find it interesting how he mixes financials like Wells and AmEx with steady consumer names.\nHostA: Wal-Mart’s in there too, 56 million shares, but that’s changed a lot recently.\nHostB: Yeah, Berkshire sold a lot of that off. And then there are smaller positions like DaVita Healthcare.\nHostA: Only about 1% of the portfolio, but still over 2.7 billion dollars.\nHostB: Which just shows the scale we're talking about—even the \"small\" holdings are massive.\nHostA: Exactly. It’s a mix of huge bets and what Buffett might call \"inevitables.\"\nHostB: Though you gotta wonder, with some of these, um, like IBM, how the strategy’s evolved.\nHostA: For sure. But the core philosophy? Still buying wonderful companies at fair prices.\nHostB: And holding forever, or at least seeming like it."
+}

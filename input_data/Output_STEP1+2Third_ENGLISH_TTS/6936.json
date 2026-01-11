@@ -1,0 +1,165 @@
+{
+  "id": 6936,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Podcast co-hosts",
+      "inferred_vibe": "Informational and corrective"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "Man, Tesla's just killing it right now, right? Record profits, Model 3s flying off the shelves. What a story!",
+        "tts_text": "Man, Tesla's just killing it right now, right? Record profits, Model 3s flying off the shelves. What a story!",
+        "check_worthy": true,
+        "factual_label": "NEI",
+        "evidence_snippet": "The companys better-than-expected quarterly profit was driven by that car, but it took half a year longer than CEO Elon Musk had predicted to reach a production pace of 5,000 Model 3s per week.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Actually, uh, not quite, Host_A. The FBI's escalating its review into Tesla for, you know, potentially misleading investors.",
+        "tts_text": "Actually, uh, not quite, Host_A. The F B I's escalating its review into Tesla for, you know, potentially misleading investors.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The Federal Bureau of Investigation is reviewing public statements by the Palo Alto, California-based company dating back to early 2017 to determine if it misled investors based on what it said regarding its ability to produce the Model 3, according to The Wall Street Journal, citing unnamed people familiar with the matter.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "The FBI? Really? I thought it was just some, like, noise about Elon Musk's tweets or something.",
+        "tts_text": "The F B I? Really? I thought it was just some, like, noise about Elon Musk's tweets or something.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Nah, it's way bigger than that. They're looking at public statements from back in 2017, specifically about Model 3 production promises.",
+        "tts_text": "Nah, it's way bigger than that. They're looking at public statements from back in twenty seventeen, specifically about Model three production promises.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The Federal Bureau of Investigation is reviewing public statements by the Palo Alto, California-based company dating back to early 2017 to determine if it misled investors based on what it said regarding its ability to produce the Model 3...",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Wait, so, like, they said they'd make a bunch of cars and didn't? Is that it?",
+        "tts_text": "Wait, so, like, they said they'd make a bunch of cars and didn't? Is that it?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Well, yeah, they promised 5,000 a week by late 2017. It took them almost seven months longer to hit that consistently. And they only built, like, 2,700 cars that whole year.",
+        "tts_text": "Well, yeah, they promised five thousand a week by late twenty seventeen. It took them almost seven months longer to hit that consistently. And they only built, like, two thousand, seven hundred cars that whole year.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Musk had said early last year that production of Model 3, currently priced from $46,000, would reach 5,000 units per week in 2017s fourth quarter... it took half a year longer than CEO Elon Musk had predicted to reach a production pace of 5,000 Model 3s per week... In fact, the company built only about 2,700 of the cars last year.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Whoa. That's, uh, a pretty big miss. But what's the FBI's angle there? Just false advertising?",
+        "tts_text": "Whoa. That's, uh, a pretty big miss. But what's the F B I's angle there? Just false advertising?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "More like whether they misled investors with optimistic projections. And, um, potential insider trading related to production bottlenecks.",
+        "tts_text": "More like whether they misled investors with optimistic projections. And, um, potential insider trading related to production bottlenecks.",
+        "check_worthy": true,
+        "factual_label": "NEI",
+        "evidence_snippet": "The Federal Bureau of Investigation is reviewing public statements by the Palo Alto, California-based company dating back to early 2017 to determine if it misled investors...",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Insider trading? Oh, man. And I heard something about the DOJ and IRS too?",
+        "tts_text": "Insider trading? Oh, man. And I heard something about the D O J and I R S too?",
+        "check_worthy": true,
+        "factual_label": "NEI",
+        "evidence_snippet": "Tesla confirmed in an e-mailed statement that earlier this year it received a voluntary request for documents from the Department of Justice about its public guidance for the Model 3 ramp and we were cooperative in responding to it.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "You got it. The Department of Justice requested documents, and the IRS is doing a preliminary review of their tax filings for, you know, irregular deductions during the Model 3 ramp-up.",
+        "tts_text": "You got it. The Department of Justice requested documents, and the I R S is doing a preliminary review of their tax filings for, you know, irregular deductions during the Model three ramp-up.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Tesla confirmed in an e-mailed statement that earlier this year it received a voluntary request for documents from the Department of Justice about its public guidance for the Model 3 ramp and we were cooperative in responding to it.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "This is, like, way more complex than I thought. So that SEC settlement with Musk, that wasn't the end of it then?",
+        "tts_text": "This is, like, way more complex than I thought. So that S E C settlement with Musk, that wasn't the end of it then?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Not at all. The SEC settlement was about those tweets, sure. He had to resign as chairman, pay a $20 million fine, and Tesla paid another $20 million. Plus, they need new independent directors and an audit of their statements now.",
+        "tts_text": "Not at all. The S E C settlement was about those tweets, sure. He had to resign as chairman, pay a twenty dollars million fine, and Tesla paid another twenty dollars million. Plus, they need new independent directors and an audit of their statements now.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "As part of a settlement concluded this month, Musk agreed to step down as Teslas chairman, a position he assumed long before becoming its CEO, and pay a $20 million fine to settle the matter. Tesla also must pay a further $20 million and add two independent directors to its board.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Jeez. But Tesla, like, they just say they were transparent about 'production hell,' right? Setting truthful targets, even if ambitious?",
+        "tts_text": "Jeez. But Tesla, like, they just say they were transparent about 'production hell,' right? Setting truthful targets, even if ambitious?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "When we started the Model 3 production ramp, we were transparent about how difficult it would be, openly explaining that we would only be able to go as fast as our least lucky or least successful supplier and that we were entering production hell, the company said.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "That's their defense, yeah. But a major supplier apparently told the FBI Tesla misrepresented component availability. And the FBI's talking to former employees.",
+        "tts_text": "That's their defense, yeah. But a major supplier apparently told the F B I Tesla misrepresented component availability. And the F B I's talking to former employees.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Former Tesla employees have been contacted by FBI agents seeking their testimony in a criminal case, the report said.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "So, uh, it's not just a rough patch. It's, like, a whole legal and regulatory storm, then?",
+        "tts_text": "So, uh, it's not just a rough patch. It's, like, a whole legal and regulatory storm, then?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Pretty much. The investigations are definitely, um, intensifying, to say the least.",
+        "tts_text": "Pretty much. The investigations are definitely, um, intensifying, to say the least.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The pace of activity in the investigation, which is led by the U.S. attorneys office in San Francisco, intensified after Musk and Tesla settled a dispute with the Securities and Exchange Commission stemming from his tweets in August about taking Tesla private, the report said.",
+        "confidence": 1.0,
+        "priority": "high"
+      }
+    ]
+  },
+  "batch_index": 3
+}

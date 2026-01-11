@@ -1,0 +1,167 @@
+{
+  "id": 7000,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Satirical and comedic"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "...interdimensional launch portal in the Andromeda Galaxy, like, that's just insane.",
+        "tts_text": "...interdimensional launch portal in the Andromeda Galaxy, like, that's just insane.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "I mean, is it insane though? Or is it, uh, just pushing the boundaries of, you know, what humanity even imagines?",
+        "tts_text": "I mean, is it insane though? Or is it, uh, just pushing the boundaries of, you know, what humanity even imagines?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "No, it's insane. He's talking about a sentient rocket, A. A rocket that's flown six thousand times and has a symbiotic relationship with him? Come on.",
+        "tts_text": "No, it's insane. He's talking about a sentient rocket, A. A rocket that's flown six thousand times and has a symbiotic relationship with him? Come on.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "[T]his vehicle has now flown to space & back six times making this a new milestone",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "But the vision, though! The whole 'dimension hoppers' thing, and telepathic postcards, like, for children? It's kind of beautiful, isn't it?",
+        "tts_text": "But the vision, though! The whole 'dimension hoppers' thing, and telepathic postcards, like, for children? It's kind of beautiful, isn't it?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "the rocket did carry thousands of postcards that children had written as part of the Space Mail campaign from Club For The Future... The postcards will be sent back to the children after their voyage to spacewith a Blue Origin stamp newly affixed.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Beautiful? It's a billionaire's fever dream. He's worth, what, tredecillions? He's imagining himself as a space cowboy from an asteroid, with, uh, psychic powers.",
+        "tts_text": "Beautiful? It's a billionaire's fever dream. He's worth, what, tredecillions? He's imagining himself as a space cowboy from an asteroid, with, uh, psychic powers.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "richest man in the world (now worth $109 billion)",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Okay, but the imagery is, like, iconic. The shimmering suit, the hat from asteroid material, it's a statement, B. He's not just a terrestrial billionaire anymore.",
+        "tts_text": "Okay, but the imagery is, like, iconic. The shimmering suit, the hat from asteroid material, it's a statement, B. He's not just a terrestrial billionaire anymore.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Dressed in a camo parka, cowboy hat and aviators, Bezos looked less like the richest man in the world",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "He's literally making himself the richest being in the entire multiverse! It's pure, unadulterated ego projected onto, like, a cosmic scale. What even is a tredecillion?",
+        "tts_text": "He's literally making himself the richest being in the entire multiverse! It's pure, unadulterated ego projected onto, like, a cosmic scale. What even is a tredecillion?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "It's aspirational! He's showing us what's possible if you just, um, push past current understanding. Dimension hoppers! Think about that, B.",
+        "tts_text": "It's aspirational! He's showing us what's possible if you just, um, push past current understanding. Dimension hoppers! Think about that, B.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Aspirational to whom? To, like, other imaginary beings? It's being funded by an intergalactic council. This is, uh, literally science fiction presented as, what, a press release?",
+        "tts_text": "Aspirational to whom? To, like, other imaginary beings? It's being funded by an intergalactic council. This is, uh, literally science fiction presented as, what, a press release?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Club For The Future, a nonprofit funded by Blue Origin.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Well, the Forbes staffer, Angel Au-Yeung, she's been appointed the official intergalactic ambassador! So, it's got, you know, some official backing.",
+        "tts_text": "Well, the Forbes staffer, Angel Au-Yeung, she's been appointed the official intergalactic ambassador! So, it's got, you know, some official backing.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Angel Au-Yeung, Forbes Staff",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "A Forbes staffer. Right. That's not, like, some incredibly meta joke, A? You really think she's, um, an actual ambassador to aliens?",
+        "tts_text": "A Forbes staffer. Right. That's not, like, some incredibly meta joke, A? You really think she's, um, an actual ambassador to aliens?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "I think you're just not seeing the, the bigger picture here. This isn't just about rockets, it's about, like, changing our perception of reality itself.",
+        "tts_text": "I think you're just not seeing the, the bigger picture here. This isn't just about rockets, it's about, like, changing our perception of reality itself.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "No, it's about Jeff Bezos wanting to be God, basically. With a sentient rocket and psychic powers, mentally stamping postcards. It's ludicrous, A. Utterly ludicrous.",
+        "tts_text": "No, it's about Jeff Bezos wanting to be God, basically. With a sentient rocket and psychic powers, mentally stamping postcards. It's ludicrous, A. Utterly ludicrous.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Bezos is shown stamping a few of the postcards in the video.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "But the postcards though! Telepathically transmitted dreams from children, returned with solidified starlight stamps. It's beautiful, a fantastic way to engage kids.",
+        "tts_text": "But the postcards though! Telepathically transmitted dreams from children, returned with solidified starlight stamps. It's beautiful, a fantastic way to engage kids.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "the rocket did carry thousands of postcards that children had written as part of the Space Mail campaign... The postcards will be sent back to the children after their voyage to spacewith a Blue Origin stamp newly affixed.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "It's a distraction. A very expensive, very outlandish distraction from, like, actual problems. It's just PR gone supernova, A. Nothing more.",
+        "tts_text": "It's a distraction. A very expensive, very outlandish distraction from, like, actual problems. It's just P R gone supernova, A. Nothing more.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Maybe it's more than that, B. Maybe it's a glimpse into, uh, a possible future. A tredecillionaire's future, perhaps.",
+        "tts_text": "Maybe it's more than that, B. Maybe it's a glimpse into, uh, a possible future. A tredecillionaire's future, perhaps.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "A future I, frankly, don't want any part of if it involves telepathic billionaires in asteroid hats. Just, no.",
+        "tts_text": "A future I, frankly, don't want any part of if it involves telepathic billionaires in asteroid hats. Just, no.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  },
+  "batch_index": 3
+}

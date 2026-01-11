@@ -1,0 +1,173 @@
+{
+  "id": 6490,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Podcast co-hosts",
+      "inferred_vibe": "Informative discussion"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "HostA",
+        "text": "A listener, Mark from Shanghai, just wrote in about Xiaomi's big move into electric vehicles.",
+        "tts_text": "A listener, Mark from Shanghai, just wrote in about Xiaomi's big move into electric vehicles.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostB",
+        "text": "Oh yeah, that nine billion dollar investment over the next decade is huge. Lei Jun is personally overseeing it, calling it his last major startup project.",
+        "tts_text": "Oh yeah, that nine billion dollar investment over the next decade is huge. Lei Jun is personally overseeing it, calling it his last major startup project.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Shares of Leis smartphone maker Xiaomi finished the day with a modest gain of 0.6%, after the company said Tuesday evening that it plans to invest about $10 billion into manufacturing electric cars over the next decade.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "It's a massive bet, especially since their core smartphone business, which brought in over sixty percent of their revenue last year, is in a shrinking market.",
+        "tts_text": "It's a massive bet, especially since their core smartphone business, which brought in over sixty percent of their revenue last year, is in a shrinking market.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Xiaomis core business is selling smartphones, more than 60% of last years 245.9 billion yuan ($37.4 billion) came from its phone unit. But the market for smartphones has been shrinking.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Right, global smartphone sales were down six percent last year. So this pivot makes sense, but it's such a capital-intensive industry.",
+        "tts_text": "Right, global smartphone sales were down six percent last year. So this pivot makes sense, but it's such a capital-intensive industry.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Market research firm Canalys says smartphone shipments worldwide stood at 1.26 billion units in 2020, down 7% from a year earlier partly due to the impact of the pandemic.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "And he's not unaware of the risks. He said they know it'll take billions and three to five years before they see any return. That's a long runway.",
+        "tts_text": "And he's not unaware of the risks. He said they know it'll take billions and three to five years before they see any return. That's a long runway.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "We are also aware the project will require billions in investment, and likely take at least 3-5 years before we see any return.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Plus, the EV market has already seen a boom and bust cycle. Hundreds of startups a few years ago, and only a handful survived after subsidies dried up.",
+        "tts_text": "Plus, the E V market has already seen a boom and bust cycle. Hundreds of startups a few years ago, and only a handful survived after subsidies dried up.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Zhang pointed to the boom-to-bust cycle that Chinas EV market experienced just a couple years ago, when hundreds of startups had been seeking to gain a foothold in a growing market. But as government subsidies were phased out and funding dried up, only a handful managed to survive.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Analyst Yale Zhang made a good point though—internet companies like Xiaomi might think they have an edge because cars are becoming like computers on wheels.",
+        "tts_text": "Analyst Yale Zhang made a good point though-internet companies like Xiaomi might think they have an edge because cars are becoming like computers on wheels.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Internet companies may think they have an advantage because cars are getting increasingly intelligent, and are being compared to computers on four wheels, says Yale Zhang, an analyst at Shanghai-based consultancy Automotive Foresight.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "But manufacturing a car is a completely different beast from making smartphones. The supply chain, the safety regulations… it's a whole other world.",
+        "tts_text": "But manufacturing a car is a completely different beast from making smartphones. The supply chain, the safety regulations... it's a whole other world.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostA",
+        "text": "And they've already denied that rumor about using Great Wall Motors' factory, so it's still a mystery how they'll actually produce these cars.",
+        "tts_text": "And they've already denied that rumor about using Great Wall Motors' factory, so it's still a mystery how they'll actually produce these cars.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The company had previously dismissed via Chinas Twitter-equivalent Sina Weibo reports that it would make cars using Chinese automaker Great Wall Motors factory.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Lei does have some experience in the EV space though, right? Through his venture firm Shunwei Capital—they invested in Nio and Xpeng.",
+        "tts_text": "Lei does have some experience in the E V space though, right? Through his venture firm Shunwei Capital-they invested in Nio and Xpeng.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Shunwei Capital, a venture capital firm he cofounded in 2011, counts Chinese electric car companies Nio and Xpeng among its portfolio, according to its website.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Yeah, and an autonomous driving startup called Momenta. So he's got connections, but still… building the car itself is the real challenge.",
+        "tts_text": "Yeah, and an autonomous driving startup called Momenta. So he's got connections, but still... building the car itself is the real challenge.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "It also invested in Momenta, an autonomous driving startup that had a valuation of $1 billion after a 2018 funding round.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "And then there's the whole geopolitical angle—the US investment ban earlier this year that sent their stock plunging. That can't help.",
+        "tts_text": "And then there's the whole geopolitical angle-the U S investment ban earlier this year that sent their stock plunging. That can't help.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "A federal judge in March ordered a temporary halt to a U.S government ban that blocked Americans from investing in the company, which had sent Xiaomi shares plunging 10% when it was announced in January.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "True, but the Chinese EV market itself is expected to grow fifty-one percent this year. The demand is clearly there if they can execute.",
+        "tts_text": "True, but the Chinese E V market itself is expected to grow fifty-one percent this year. The demand is clearly there if they can execute.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "This year, Chinas sales of electric vehicles is expected to climb to 1.9 million units, a jump of 51% from a year earlier, according to Canalys.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "If they can execute. I'm really curious to see what a \"Xiaomi car\" would even look like. Sleek design, autonomous features, streaming capabilities…",
+        "tts_text": "If they can execute. I'm really curious to see what a Xiaomi car would even look like. Sleek design, autonomous features, streaming capabilities...",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostA",
+        "text": "He wants one on every road globally. That is… incredibly ambitious.",
+        "tts_text": "He wants one on every road globally. That is... incredibly ambitious.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "I look forward to the future where there is a Xiaomi car running on every road globally.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "To say the least. Well, we'll be watching this space closely. Thanks for that message, Mark",
+        "tts_text": "To say the least. Well, we'll be watching this space closely. Thanks for that message, Mark",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      }
+    ]
+  },
+  "generator_model": "DeepSeek-V3.1",
+  "batch_index": 2,
+  "artist_script": "HostA: A listener, Mark from Shanghai, just wrote in about Xiaomi's big move into electric vehicles.\nHostB: Oh yeah, that nine billion dollar investment over the next decade is huge. Lei Jun is personally overseeing it, calling it his last major startup project.\nHostA: It's a massive bet, especially since their core smartphone business, which brought in over sixty percent of their revenue last year, is in a shrinking market.\nHostB: Right, global smartphone sales were down six percent last year. So this pivot makes sense, but it's such a capital-intensive industry.\nHostA: And he's not unaware of the risks. He said they know it'll take billions and three to five years before they see any return. That’s a long runway.\nHostB: Plus, the EV market has already seen a boom and bust cycle. Hundreds of startups a few years ago, and only a handful survived after subsidies dried up.\nHostA: Analyst Yale Zhang made a good point though—internet companies like Xiaomi might think they have an edge because cars are becoming like computers on wheels.\nHostB: But manufacturing a car is a completely different beast from making smartphones. The supply chain, the safety regulations… it’s a whole other world.\nHostA: And they've already denied that rumor about using Great Wall Motors' factory, so it's still a mystery how they'll actually produce these cars.\nHostB: Lei does have some experience in the EV space though, right? Through his venture firm Shunwei Capital—they invested in Nio and Xpeng.\nHostA: Yeah, and an autonomous driving startup called Momenta. So he’s got connections, but still… building the car itself is the real challenge.\nHostB: And then there's the whole geopolitical angle—the US investment ban earlier this year that sent their stock plunging. That can't help.\nHostA: True, but the Chinese EV market itself is expected to grow fifty-one percent this year. The demand is clearly there if they can execute.\nHostB: If they can execute. I'm really curious to see what a \"Xiaomi car\" would even look like. Sleek design, autonomous features, streaming capabilities…\nHostA: He wants one on every road globally. That is… incredibly ambitious.\nHostB: To say the least. Well, we'll be watching this space closely. Thanks for that message, Mark"
+}

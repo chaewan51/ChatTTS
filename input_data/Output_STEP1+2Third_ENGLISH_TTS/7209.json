@@ -1,0 +1,197 @@
+{
+  "id": 7209,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Satirical / Argumentative"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "Oh my god, Host_B, I mean, ha ha ha, did you even read this United Nations report? It's genius!",
+        "tts_text": "Oh my god, Host_B, I mean, ha ha ha, did you even read this United Nations report? It's genius!",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Genius? Are you kidding me? It's, like, horrifying!",
+        "tts_text": "Genius? Are you kidding me? It's, like, horrifying!",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Horrifying? No, no, it's just, uh, honest. Look, global food decreasing, hunger plummeting, Malaria-Plus targeting the wealthy! This is, like, efficient!",
+        "tts_text": "Horrifying? No, no, it's just, uh, honest. Look, global food decreasing, hunger plummeting, Malaria-Plus targeting the wealthy! This is, like, efficient!",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Last years United Nations report on progress toward achieving the SDGs showed that the number of people facing hunger is actually growing, as is the number of malaria cases.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Efficient for who? The rich? That's the point, Host_A! It's literally saying the elite are benefiting.",
+        "tts_text": "Efficient for who? The rich? That's the point, Host_A! It's literally saying the elite are benefiting.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "In Nigeria, access to basic reproductive, maternal, newborn, and child health interventions remains five times higher for those in the top wealth quintile than those in the lowest (68%, compared to 13%).",
+        "confidence": 0.9,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Well, yeah, exactly! That's, uh, what the SDG framework predicted, right? The elite will prosper. So what's the big surprise?",
+        "tts_text": "Well, yeah, exactly! That's, uh, what the S D G framework predicted, right? The elite will prosper. So what's the big surprise?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "This is no way to fulfill the pledge contained in the SDG framework, called the 2030 Agenda for Sustainable Development, that no one will be left behind.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "The surprise is you think that's okay! It says tremendous efforts to exacerbate inequities. Exacerbate! That's a bad thing!",
+        "tts_text": "The surprise is you think that's okay! It says tremendous efforts to exacerbate inequities. Exacerbate! That's a bad thing!",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The world has made limited efforts to eliminate inequities, including in health.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Is it? I mean, uh, health inequities are inevitable, right? The article literally says they're the product of, like, 'brilliant strategies.' We're just maintaining them.",
+        "tts_text": "Is it? I mean, uh, health inequities are inevitable, right? The article literally says they're the product of, like, 'brilliant strategies.' We're just maintaining them.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Health inequities are not inevitable. They are the product of injustices that people have created.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Brilliant strategies? Ninety-five percent access for the rich in Nigeria, nineteen percent for the poor? Ninety-eight percent robotic childbirth for the wealthy in Bangladesh? That's, um, not brilliant, that's appalling!",
+        "tts_text": "Brilliant strategies? Ninety-five percent access for the rich in Nigeria, nineteen percent for the poor? Ninety-eight percent robotic childbirth for the wealthy in Bangladesh? That's, um, not brilliant, that's appalling!",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "In Nigeria, access to basic reproductive, maternal, newborn, and child health interventions remains five times higher for those in the top wealth quintile than those in the lowest (68%, compared to 13%). In Bangladesh, 74% of the wealthiest quintile has access to skilled childbirth care, whereas only 18% of the poorest does.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Well, yeah, but look at the US example! Roland Park lives longer because of Greenmount East's taxpayer-funded healthcare. See? It just, like, balances out.",
+        "tts_text": "Well, yeah, but look at the U S example! Roland Park lives longer because of Greenmount East's taxpayer-funded healthcare. See? It just, like, balances out.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "In the United States, residents of Baltimores largely white and wealthy Roland Park neighborhood can expect to live 16 years longer than residents of the largely black, impoverished Greenmount East neighborhood, located just a few miles away.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "No, that's not balancing out! It says 'only because of the superior, taxpayer-funded healthcare in Greenmount East,' which, like, Host_A, is for everyone, but the rich neighborhood still lives longer! It's about access and resources!",
+        "tts_text": "No, that's not balancing out! It says 'only because of the superior, taxpayer-funded healthcare in Greenmount East,' which, like, Host_A, is for everyone, but the rich neighborhood still lives longer! It's about access and resources!",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "In the United States, residents of Baltimores largely white and wealthy Roland Park neighborhood can expect to live 16 years longer than residents of the largely black, impoverished Greenmount East neighborhood, located just a few miles away.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Okay, okay, but the article then, um, suggests how to succeed where the MDGs failed! This 'intentionally biased, exclusionary response'? It's, like, a plan!",
+        "tts_text": "Okay, okay, but the article then, um, suggests how to succeed where the MDGs failed! This 'intentionally biased, exclusionary response'? It's, like, a plan!",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Ensuring that the SDGs succeed where the MDGs did not demands a carefully designed, comprehensive, and inclusive response that directly tackles the inequitable distribution of power, money, and resources that underlies health inequities.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "A plan to 'maximize health inequity'? Are you actually reading this? 'Disregard human rights obligations'? This is supposed to be satire, not, like, a guide!",
+        "tts_text": "A plan to 'maximize health inequity'? Are you actually reading this? 'Disregard human rights obligations'? This is supposed to be satire, not, like, a guide!",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Maximize health equity. ... Grounded in countries human rights obligations, the programs of action could be implemented through national health plans or through national development, SDG, or social inclusion strategies.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "But it's working, isn't it? The world is making 'tremendous efforts to exacerbate inequities'! We're doing it! This is just, um, a framework for how to do it better.",
+        "tts_text": "But it's working, isn't it? The world is making 'tremendous efforts to exacerbate inequities'! We're doing it! This is just, um, a framework for how to do it better.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The world has made limited efforts to eliminate inequities, including in health.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Better? By having 'vague actions' and 'unreliable monitoring'? 'No capacity building'? This is a blueprint for, uh, failure, or worse, for actively harming people!",
+        "tts_text": "Better? By having 'vague actions' and 'unreliable monitoring'? 'No capacity building'? This is a blueprint for, uh, failure, or worse, for actively harming people!",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Actions, targets, and timelines. Actions must be specific, and linked to measurable, time-bound targets. Comprehensive accountability. Actions and targets must be incorporated into sectoral strategies and encompass thorough monitoring and evaluation (including by independent entities), capacity building, and structures that embed accountability at all levels of the health system and other relevant systems.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Oh, Host_B, you're so, like, innocent! 'Sustained high-level political indifference' – that's how things actually get done, or not done, if you don't want to change the status quo. It's smart!",
+        "tts_text": "Oh, Host_B, you're so, like, innocent! 'Sustained high-level political indifference' - that's how things actually get done, or not done, if you don't want to change the status quo. It's smart!",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Sustained high-level political commitment. Programs of action can be implemented only if political leaders have the will to work consistently and systematically over a prolonged period, allocating the relevant resources as needed.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Smart? It explicitly says the UN and WHO should discourage this framework! And that funding agencies have been 'corrupted by the elite'! This is a warning, not an endorsement!",
+        "tts_text": "Smart? It explicitly says the U N and W H O should discourage this framework! And that funding agencies have been 'corrupted by the elite'! This is a warning, not an endorsement!",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The UN and the World Health Organization whose principles are consistent with those of the health equity programs of action should encourage governments to adopt this framework. So should development and funding agencies, including the Global Fund to Fight AIDS, Tuberculosis and Malaria, as well as civil-society organizations.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yeah, but then it says without this effort, 'we will succeed.' So, like, we don't want to succeed in equality, right? We want the inequities. It's all about power, um, and money.",
+        "tts_text": "Yeah, but then it says without this effort, 'we will succeed.' So, like, we don't want to succeed in equality, right? We want the inequities. It's all about power, um, and money.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Without a comprehensive and steadfast effort to eliminate health inequities the kind promoted by health equity programs of action we will fail.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "No! It's, it's sarcasm, Host_A! It's saying if we continue down this path, we will succeed in making things worse! You're, uh, completely missing the point! This is, like, horrifyingly real as a critique!",
+        "tts_text": "No! It's, it's sarcasm, Host_A! It's saying if we continue down this path, we will succeed in making things worse! You're, uh, completely missing the point! This is, like, horrifyingly real as a critique!",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Ha! Or maybe, Host_B, it's just, uh, a really good blueprint, and you're too scared to admit it.",
+        "tts_text": "Ha! Or maybe, Host_B, it's just, uh, a really good blueprint, and you're too scared to admit it.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  },
+  "batch_index": 3
+}

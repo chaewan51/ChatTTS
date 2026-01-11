@@ -1,0 +1,177 @@
+{
+  "id": 6756,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Informal and conversational"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "So, the biggest UNESCO conference ever was, uh, held in Paris again this year, right?",
+        "tts_text": "So, the biggest UNESCO conference ever was, uh, held in Paris again this year, right?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "As the elected host for the UNESCO event, the Government of Saudi Arabia and its supporting institutions welcomed more than 3,000 UNESCO delegates and guests to the world class facilities at the Mandarin Oriental Al Faisaliah, Riyadh.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Actually, no, Host_A. Not Paris. This past one, uh, the largest UNESCO conference outside of Paris, was in Riyadh.",
+        "tts_text": "Actually, no, Host_A. Not Paris. This past one, uh, the largest UNESCO conference outside of Paris, was in Riyadh.",
+        "check_worthy": true,
+        "factual_label": "NEI",
+        "evidence_snippet": "As the elected host for the UNESCO event, the Government of Saudi Arabia and its supporting institutions welcomed more than 3,000 UNESCO delegates and guests to the world class facilities at the Mandarin Oriental Al Faisaliah, Riyadh.",
+        "confidence": 0.9,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Riyadh? Really? I thought those kinds of, like, massive global events always went to the usual spots.",
+        "tts_text": "Riyadh? Really? I thought those kinds of, like, massive global events always went to the usual spots.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 1.0
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Well, apparently Riyadh is increasingly a destination of choice. They hosted over three thousand delegates and guests at, like, the Mandarin Oriental.",
+        "tts_text": "Well, apparently Riyadh is increasingly a destination of choice. They hosted over three thousand delegates and guests at, like, the Mandarin Oriental.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Riyadh is increasingly seen as a destination of choice for large-scale, high profile global events. ... As the elected host for the UNESCO event, the Government of Saudi Arabia and its supporting institutions welcomed more than 3,000 UNESCO delegates and guests to the world class facilities at the Mandarin Oriental Al Faisaliah, Riyadh.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Three thousand? That sounds… a bit much. And the Mandarin Oriental, okay, but how 'world-class' are we talking, you know?",
+        "tts_text": "Three thousand? That sounds... a bit much. And the Mandarin Oriental, okay, but how 'world-class' are we talking, you know?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 1.0
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Pretty world-class, it seems. The main venue was 4,450 square meters, column-free. It even used AI-powered simultaneous translation, which is, uh, a first in the Kingdom.",
+        "tts_text": "Pretty world-class, it seems. The main venue was four thousand, four hundred fifty square meters, column-free. It even used A I-powered simultaneous translation, which is, uh, a first in the Kingdom.",
+        "check_worthy": true,
+        "factual_label": "NEI",
+        "evidence_snippet": "4,450m2 main conference venue with a capacity for 4000 attendees the largest column-free venue in the Kingdom; Event spaces feature state-of-the-art sound and projection equipment, simultaneous interpretation booths and high speed WiFi;",
+        "confidence": 0.8,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "AI translation. Right. So, you're saying a robot was doing the interpreting? Sounds… efficient, I guess, but a bit cold.",
+        "tts_text": "A I translation. Right. So, you're saying a robot was doing the interpreting? Sounds... efficient, I guess, but a bit cold.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 1.0
+      },
+      {
+        "speaker": "Host_B",
+        "text": "It's about cutting-edge tech, provided by a new Saudi firm called Al-Nujum Innovations. They also had, like, 37 side events and over 60 cultural programs for guests.",
+        "tts_text": "It's about cutting-edge tech, provided by a new Saudi firm called Al-Nujum Innovations. They also had, like, thirty seven side events and over sixty cultural programs for guests.",
+        "check_worthy": true,
+        "factual_label": "NEI",
+        "evidence_snippet": "Over 37 side events and exhibitions over the two weeks; Over 60 cultural programmes and guided tours to provide guests with unique experiences in Saudi heritage, culture, traditions and ceremonies;",
+        "confidence": 0.8,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Oh, sixty cultural programs. So, they, uh, flew everyone in, showed them some old scripts, and called it a day?",
+        "tts_text": "Oh, sixty cultural programs. So, they, uh, flew everyone in, showed them some old scripts, and called it a day?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 1.0
+      },
+      {
+        "speaker": "Host_B",
+        "text": "No, no. There was a special exhibition of ancient Arabian scripts that drew over ten thousand visitors. And they handled logistics for, um, thousands, with a fleet of 60 buses, 80% of them electric.",
+        "tts_text": "No, no. There was a special exhibition of ancient Arabian scripts that drew over ten thousand visitors. And they handled logistics for, um, thousands, with a fleet of sixty buses, eighty percent of them electric.",
+        "check_worthy": true,
+        "factual_label": "NEI",
+        "evidence_snippet": "Fleet of 60 buses providing free shuttle bus services between the venue, recommended hotels, and the airport;",
+        "confidence": 0.9,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Eighty percent electric buses? In Riyadh? That's, uh, quite a statement. Or, you know, just good PR.",
+        "tts_text": "Eighty percent electric buses? In Riyadh? That's, uh, quite a statement. Or, you know, just good P R.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 1.0
+      },
+      {
+        "speaker": "Host_B",
+        "text": "It's part of their Vision 2030, apparently, to, like, transform culturally and economically. UNESCO's Director-General even said it sets a 'new benchmark' for events.",
+        "tts_text": "It's part of their Vision twenty thirty, apparently, to, like, transform culturally and economically. UNESCO's Director-General even said it sets a 'new benchmark' for events.",
+        "check_worthy": true,
+        "factual_label": "NEI",
+        "evidence_snippet": "Hosting the extended 45th session of the UNESCO World Heritage Committee showcases the ongoing momentum of Saudi Arabias cultural transformation plan of Vision 2030, which calls for economic diversity, and encourages social and cultural development.",
+        "confidence": 0.9,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "A new benchmark. For UNESCO events. Right. And how much did all this, uh, 'benchmarking' cost? Or, I guess, earn?",
+        "tts_text": "A new benchmark. For UNESCO events. Right. And how much did all this, uh, 'benchmarking' cost? Or, I guess, earn?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 1.0
+      },
+      {
+        "speaker": "Host_B",
+        "text": "The article estimates it will generate over one hundred million dollars in revenue for the local economy and create hundreds of new jobs.",
+        "tts_text": "The article estimates it will generate over one hundred million dollars in revenue for the local economy and create hundreds of new jobs.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "One hundred million? For, like, two weeks? That's a pretty, uh, impressive return. Or just a really good marketing number.",
+        "tts_text": "One hundred million? For, like, two weeks? That's a pretty, uh, impressive return. Or just a really good marketing number.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 1.0
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Well, it does showcase their commitment to, you know, open collaboration and dialogue on critical issues, like global water conservation.",
+        "tts_text": "Well, it does showcase their commitment to, you know, open collaboration and dialogue on critical issues, like global water conservation.",
+        "check_worthy": true,
+        "factual_label": "NEI",
+        "evidence_snippet": "We have also reaffirmed the Kingdoms commitment to building and facilitating more international platforms for open collaboration, innovation, and dialogue between global leaders on critical issues facing our world.",
+        "confidence": 0.8,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Water conservation in a desert nation hosting thousands of delegates. That's, uh, certainly a conversation to be had.",
+        "tts_text": "Water conservation in a desert nation hosting thousands of delegates. That's, uh, certainly a conversation to be had.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 1.0
+      }
+    ]
+  },
+  "batch_index": 3
+}

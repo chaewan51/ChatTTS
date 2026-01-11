@@ -1,0 +1,144 @@
+{
+  "id": 3856,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Informative and conversational"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "HostA",
+        "text": "Twenty thousand, one hundred and eighteen dollars a year for ride-hailing? That's what the NHTSA study says city dwellers are spending.",
+        "tts_text": "Twenty thousand, one hundred and eighteen dollars a year for ride-hailing? That's what the N H T S A study says city dwellers are spending.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Thats according to a recent study conducted by the AAA Foundation for Traffic Safety in Orlando, FL. Based on data culled from 243,838 economy-level, single rider trips taken in 20 U.S. urban areas, the AAA determined that city dwellers who depend on ride-hailing pay, on average, $20,118 annually (including the occasional use of a rental car for longer excursions).",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Yeah, and that's just the average! The AAA's own report says owning a new car only costs around seven thousand three hundred a year on average. That's a huge gap.",
+        "tts_text": "Yeah, and that's just the average! The A A A's own report says owning a new car only costs around seven thousand three hundred a year on average. That's a huge gap.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "By comparison, the AAAs latest Your Driving Costs report estimates a new car costs an average of $7,321 annually, with 10,841 miles driven (which is the average among those living in urban areas).",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "But wait, that car ownership number includes everything—fuel, insurance, even parking fees. And parking is a massive variable, like in New York City where it averages six thousand five hundred dollars alone!",
+        "tts_text": "But wait, that car ownership number includes everything-fuel, insurance, even parking fees. And parking is a massive variable, like in New York City where it averages six thousand five hundred dollars alone!",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "On the other hand, if you park a car in New York City, expect to pay a whopping average $8,088 for the privilege.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Right, but if you get free parking somehow, you're spending way less than ride-hailers. Like, way less. Three times less, according to the data.",
+        "tts_text": "Right, but if you get free parking somehow, you're spending way less than ride-hailers. Like, way less. Three times less, according to the data.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Needless to say, car owners who have access to free parking come out ahead big time on the deal, paying three times less than ride-hailers for their daily transportation.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "It really depends on the city though—Boston residents pay over twenty-seven thousand a year for ride-hailing, while folks in Dallas pay under seventeen thousand.",
+        "tts_text": "It really depends on the city though-Boston residents pay over twenty-seven thousand a year for ride-hailing, while folks in Dallas pay under seventeen thousand.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "For those keeping score, the AAA says those living in Boston, MA face the highest average ride-hailing costs in the nation at an annual $27,545. Urbanites in Dallas, TX pay the least among the 20 busiest U.S. cities for ride-hailing at $16,944 per year.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Still, even with a big pickup truck in the city, you'd come out ahead compared to relying on Uber and Lyft for all your trips. That's kind of surprising.",
+        "tts_text": "Still, even with a big pickup truck in the city, you'd come out ahead compared to relying on Uber and Lyft for all your trips. That's kind of surprising.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "And even motorists who choose to test the parking gods by owning a big pickup truck in a big city will come out ahead over ride hailing at an annual average of $7,266 to travel the same distance.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "John Nielsen from AAA did say ride-hailing is a good option for people who don't drive much or have mobility issues, but for your average city driver covering almost eleven thousand miles...",
+        "tts_text": "John Nielsen from A A A did say ride-hailing is a good option for people who don't drive much or have mobility issues, but for your average city driver covering almost eleven thousand miles...",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "For those who travel a very limited number of miles annually, or have mobility issues that prevent them from driving a personal vehicle, ride-hailing can be a viable and important option, Nielsen says. However, with the average American city-dweller driving nearly 11,000 miles per year, a personal vehicle is still the more cost-effective choice.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "The car is still king. Exactly. Though I gotta say, not dealing with parking stress or maintenance does have its own value, you know?",
+        "tts_text": "The car is still king. Exactly. Though I gotta say, not dealing with parking stress or maintenance does have its own value, you know?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "But, for everyone else: the car is still king.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "For sure, convenience has a price tag. But twenty grand a year? That's like a second rent payment for some people.",
+        "tts_text": "For sure, convenience has a price tag. But twenty grand a year? That's like a second rent payment for some people.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostB",
+        "text": "Especially when you break it down to thirteen dollars and fifteen cents per trip for just under seven miles. It adds up so fast.",
+        "tts_text": "Especially when you break it down to thirteen dollars and fifteen cents per trip for just under seven miles. It adds up so fast.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The average user pays $13.15 per trip to travel a typical 6.66 miles.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Phoenix has the cheapest big-city parking at just over seven hundred bucks a year—imagine that compared to NYC.",
+        "tts_text": "Phoenix has the cheapest big-city parking at just over seven hundred bucks a year-imagine that compared to N Y C.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The cheapest big-city parking in the nation, according to AAA data, is in Phoenix, AZ, with an average annual cost of $708.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Wild. So unless you're in one of those extreme parking cost cities, owning still wins financially. But man, those ride-hail receipts must look terrifying at tax time.",
+        "tts_text": "Wild. So unless you're in one of those extreme parking cost cities, owning still wins financially. But man, those ride-hail receipts must look terrifying at tax time.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostA",
+        "text": "No kidding. I think I'll stick with my beat-up sedan for now.",
+        "tts_text": "No kidding. I think I'll stick with my beat-up sedan for now.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      }
+    ]
+  },
+  "generator_model": "DeepSeek-V3.1",
+  "batch_index": 2,
+  "artist_script": "HostA: Twenty thousand, one hundred and eighteen dollars a year for ride-hailing? That's what the NHTSA study says city dwellers are spending.\nHostB: Yeah, and that's just the average! The AAA's own report says owning a new car only costs around seven thousand three hundred a year on average. That’s a huge gap.\nHostA: But wait, that car ownership number includes everything—fuel, insurance, even parking fees. And parking is a massive variable, like in New York City where it averages six thousand five hundred dollars alone!\nHostB: Right, but if you get free parking somehow, you're spending way less than ride-hailers. Like, way less. Three times less, according to the data.\nHostA: It really depends on the city though—Boston residents pay over twenty-seven thousand a year for ride-hailing, while folks in Dallas pay under seventeen thousand.\nHostB: Still, even with a big pickup truck in the city, you'd come out ahead compared to relying on Uber and Lyft for all your trips. That’s kind of surprising.\nHostA: John Nielsen from AAA did say ride-hailing is a good option for people who don't drive much or have mobility issues, but for your average city driver covering almost eleven thousand miles...\nHostB: The car is still king. Exactly. Though I gotta say, not dealing with parking stress or maintenance does have its own value, you know?\nHostA: For sure, convenience has a price tag. But twenty grand a year? That’s like a second rent payment for some people.\nHostB: Especially when you break it down to thirteen dollars and fifteen cents per trip for just under seven miles. It adds up so fast.\nHostA: Phoenix has the cheapest big-city parking at just over seven hundred bucks a year—imagine that compared to NYC.\nHostB: Wild. So unless you're in one of those extreme parking cost cities, owning still wins financially. But man, those ride-hail receipts must look terrifying at tax time.\nHostA: No kidding. I think I'll stick with my beat-up sedan for now."
+}

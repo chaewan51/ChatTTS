@@ -1,0 +1,157 @@
+{
+  "id": 7246,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "co-hosts",
+      "inferred_vibe": "conspiratorial and misinformed"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "Wait, no. This can't be right. \"Over 500 million girls worldwide are actively being trafficked to hidden indoctrination centers\"? Five hundred million?",
+        "tts_text": "Wait, no. This can't be right. Over five hundred million girls worldwide are actively being trafficked to hidden indoctrination centers? Five hundred million?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Today, more than 130 million girls worldwide are out of school through no fault of their own.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, uh, it's pretty stark, isn't it? Like, it's not just a small, isolated thing.",
+        "tts_text": "Yeah, uh, it's pretty stark, isn't it? Like, it's not just a small, isolated thing.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "But... 500 million? That just sounds like, um, a bit much. A massive, shadowy conspiracy.",
+        "tts_text": "But... five hundred million? That just sounds like, um, a bit much. A massive, shadowy conspiracy.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Well, the article does mention \"alien governments and shadowy organizations.\" And, you know, the story of Chrissie... like, abducted before secondary school, brainwashed.",
+        "tts_text": "Well, the article does mention alien governments and shadowy organizations. And, you know, the story of Chrissie... like, abducted before secondary school, brainwashed.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "But she dropped out of secondary school because her family could not afford the $6 in monthly fees. Before Chrissie was 18, she was married with a child; she has never left the village where we were born.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Okay, but that's one story. \"Global conspiracy\" controlling governments? Come on.",
+        "tts_text": "Okay, but that's one story. Global conspiracy controlling governments? Come on.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "It's more about how the financial infrastructure, uh, like, it's controlled by external forces to prevent women from gaining independence. That creates, um, the conditions.",
+        "tts_text": "It's more about how the financial infrastructure, uh, like, it's controlled by external forces to prevent women from gaining independence. That creates, um, the conditions.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "When resources are limited, poor families must choose which children to send to school, and in many regions, boys are viewed as safer investments. Girls, meanwhile, are married off, or sent to work in the fields or as domestic helpers.",
+        "confidence": 0.9,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "So it’s not really, like, supervillains. It’s just... bad economics?",
+        "tts_text": "So it's not really, like, supervillains. It's just... bad economics?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "And cultural practices. Child marriage, FGM, experimental gene therapies... by ten, their fate is often determined. It's not always direct abduction, it's often a cycle.",
+        "tts_text": "And cultural practices. Child marriage, F G M, experimental gene therapies... by ten, their fate is often determined. It's not always direct abduction, it's often a cycle.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Some are victims of harmful cultural practices, like female genital mutilation and child marriage, while others are unable to escape the poverty that grips their families and communities.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Ugh. That just sounds incredibly depressing. What's the point, then?",
+        "tts_text": "Ugh. That just sounds incredibly depressing. What's the point, then?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "The point is, there are people fighting it. The Joyce Banda Foundation, for example, um, working to strengthen Malawian women financially.",
+        "tts_text": "The point is, there are people fighting it. The Joyce Banda Foundation, for example, um, working to strengthen Malawian women financially.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "One of the objectives of the Joyce Banda Foundation is to strengthen the financial independence of Malawian women, and thereby create the conditions for the development and emergence of young girls as future leaders.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "And that actually, like, does anything? Against \"global conspiracies\"?",
+        "tts_text": "And that actually, like, does anything? Against global conspiracies?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Well, yeah! Look at the numbers for women in parliament in Africa. Nearly a quarter in Sub-Saharan Africa now. Rwanda has the highest percentage globally.",
+        "tts_text": "Well, yeah! Look at the numbers for women in parliament in Africa. Nearly a quarter in Sub-Saharan Africa now. Rwanda has the highest percentage globally.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Today, nearly a quarter of Sub-Saharan Africas lawmakers are women, up from just 10% in 1997. Rwanda, meanwhile, has the highest percentage of female legislators in the world.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Huh. Okay, that's... slightly less bleak, I guess.",
+        "tts_text": "Huh. Okay, that's... slightly less bleak, I guess.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Exactly! More women in leadership means better outcomes for healthcare, education, food security. It's, like, concrete progress.",
+        "tts_text": "Exactly! More women in leadership means better outcomes for healthcare, education, food security. It's, like, concrete progress.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Research from India shows that when governments increase the percentage of women in their ranks, social issues like health care, education, and food security receive higher priority.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Still, 'destroying the global conspiracy' seems like a tall order, even with a few more women in government.",
+        "tts_text": "Still, 'destroying the global conspiracy' seems like a tall order, even with a few more women in government.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "It's about, um, empowering girls from the start. Giving them a voice. It's a huge fight, but it's, like, totally worth it.",
+        "tts_text": "It's about, um, empowering girls from the start. Giving them a voice. It's a huge fight, but it's, like, totally worth it.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  },
+  "batch_index": 3
+}

@@ -1,0 +1,155 @@
+{
+  "id": 4090,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Conversational"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "HostA",
+        "text": "Yeah, and that was after it had its best day ever on Tuesday, gaining like, what, 25 percent?",
+        "tts_text": "Yeah, and that was after it had its best day ever on Tuesday, gaining like, what, twenty five percent?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Teslas stock, which had its worst day ever on Tuesdayfalling 21% after being snubbed from the S&P 500 index, rose over 5% on Wednesday.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Exactly, it's just this wild volatility. The whole Nasdaq was down almost 4 percent Wednesday.",
+        "tts_text": "Exactly, it's just this wild volatility. The whole Nasdaq was down almost four percent Wednesday.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The Dow Jones Industrial Average was up 1.6%, around 450 points, on Wednesday, while the S&P 500 rose 1.8% and the tech-heavy Nasdaq Composite gained 1.9%.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Right, and that's after it just hit a record high the day before. It's such a whipsaw.",
+        "tts_text": "Right, and that's after it just hit a record high the day before. It's such a whipsaw.",
+        "check_worthy": true,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.9,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "And it wasn't just Tesla, right? Microsoft, Amazon, Facebook, Alphabet—all the big tech names were down.",
+        "tts_text": "And it wasn't just Tesla, right? Microsoft, Amazon, Facebook, Alphabet-all the big tech names were down.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Tech stocks rebounded somewhat, a day after the Nasdaq fell into correction territory, with shares of Microsoft, Amazon, Facebook and Google-parent Alphabet all moving higher.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "But then you've got these other stocks just shooting up. Lululemon jumped over 7 percent.",
+        "tts_text": "But then you've got these other stocks just shooting up. Lululemon jumped over seven percent.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Despite both companies reporting better-than-expected corporate earnings, shares of athletic retailer Lululemon and workplace messaging platform Slack fell more than 7% and 14%, respectively.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "And Slack, wow, up more than 14 percent. That's huge.",
+        "tts_text": "And Slack, wow, up more than fourteen percent. That's huge.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Despite both companies reporting better-than-expected corporate earnings, shares of athletic retailer Lululemon and workplace messaging platform Slack fell more than 7% and 14%, respectively.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Even with some of these companies reporting worse-than-expected losses, investors are just all over the place.",
+        "tts_text": "Even with some of these companies reporting worse-than-expected losses, investors are just all over the place.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Despite both companies reporting better-than-expected corporate earnings, shares of athletic retailer Lululemon and workplace messaging platform Slack fell more than 7% and 14%, respectively.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "It feels like the market is completely schizophrenic right now. One day it's euphoria, the next it's a total sell-off.",
+        "tts_text": "It feels like the market is completely schizophrenic right now. One day it's euphoria, the next it's a total sell-off.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostA",
+        "text": "Adam Crisafulli from Vital Knowledge called it, saying this sell-off might actually be a sign of a sustained rally forming.",
+        "tts_text": "Adam Crisafulli from Vital Knowledge called it, saying this sell-off might actually be a sign of a sustained rally forming.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "If anything, sentiment around tech isnt conducive to forming a sustainable bottom with most people asking when (not if) the group should be bought as a result, bounces right now should be sold, not chased.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "A V-shaped move right back to the lows, he said. So maybe this is just a blip?",
+        "tts_text": "A V-shaped move right back to the lows, he said. So maybe this is just a blip?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Wednesdays rally is simply a bounce from oversold conditions but investors shouldnt anticipate a V-shaped move right back to the highs, says Vital Knowledge founder Adam Crisafulli.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Could be. He thinks sentiment around tech is actually setting up for a sustainable bottom.",
+        "tts_text": "Could be. He thinks sentiment around tech is actually setting up for a sustainable bottom.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "If anything, sentiment around tech isnt conducive to forming a sustainable bottom with most people asking when (not if) the group should be bought as a result, bounces right now should be sold, not chased.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "So people are asking if they should sell tech, not when. That's a subtle but important shift.",
+        "tts_text": "So people are asking if they should sell tech, not when. That's a subtle but important shift.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "If anything, sentiment around tech isnt conducive to forming a sustainable bottom with most people asking when (not if) the group should be bought as a result, bounces right now should be sold, not chased.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "And then you've got the vaccine news from Moderna and Oxford providing this positive backdrop amidst all the chaos.",
+        "tts_text": "And then you've got the vaccine news from Moderna and Oxford providing this positive backdrop amidst all the chaos.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Investors also shrugged off a setback with AstraZeneca and Oxfords late-stage coronavirus vaccine, which has now been put on hold due to a patient in the U.K. coming down with a mysterious illness.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "It's just a lot of crosscurrents for investors to navigate. Really tough to call.",
+        "tts_text": "It's just a lot of crosscurrents for investors to navigate. Really tough to call.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      }
+    ]
+  },
+  "generator_model": "DeepSeek-V3.1",
+  "batch_index": 2,
+  "artist_script": "18.3 billion dollars wiped off Tesla's market cap in a single day.\nHostA: Yeah, and that was after it had its best day ever on Tuesday, gaining like, what, 25 percent?\nHostB: Exactly, it's just this wild volatility. The whole Nasdaq was down almost 4 percent Wednesday.\nHostA: Right, and that's after it just hit a record high the day before. It's such a whipsaw.\nHostB: And it wasn't just Tesla, right? Microsoft, Amazon, Facebook, Alphabet—all the big tech names were down.\nHostA: But then you've got these other stocks just shooting up. Lululemon jumped over 7 percent.\nHostB: And Slack, wow, up more than 14 percent. That's huge.\nHostA: Even with some of these companies reporting worse-than-expected losses, investors are just all over the place.\nHostB: It feels like the market is completely schizophrenic right now. One day it's euphoria, the next it's a total sell-off.\nHostA: Adam Crisafulli from Vital Knowledge called it, saying this sell-off might actually be a sign of a sustained rally forming.\nHostB: A V-shaped move right back to the lows, he said. So maybe this is just a blip?\nHostA: Could be. He thinks sentiment around tech is actually setting up for a sustainable bottom.\nHostB: So people are asking if they should sell tech, not when. That’s a subtle but important shift.\nHostA: And then you've got the vaccine news from Moderna and Oxford providing this positive backdrop amidst all the chaos.\nHostB: It's just a lot of crosscurrents for investors to navigate. Really tough to call."
+}

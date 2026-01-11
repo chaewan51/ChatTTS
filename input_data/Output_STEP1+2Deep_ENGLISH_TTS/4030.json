@@ -1,0 +1,155 @@
+{
+  "id": 4030,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Financial discussion"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "HostA",
+        "text": "A Goldman Sachs analyst turning bullish on Tesla? I mean, Sarah Miller was a long-time bear, right?",
+        "tts_text": "A Goldman Sachs analyst turning bullish on Tesla? I mean, Sarah Miller was a long-time bear, right?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Morgan Stanley equity analyst Adam Jonas, a long-time Tesla bull whos grown increasingly bearish, discussed concerns about the company in a nearly one-hour call with investors that was recorded and leaked online Wednesday.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Yeah, and she's not just mildly optimistic—she raised her best-case price target to $350, citing surging demand, especially strong sales in Japan.",
+        "tts_text": "Yeah, and she's not just mildly optimistic-she raised her best-case price target to three hundred fifty dollars, citing surging demand, especially strong sales in Japan.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The leaked comments come on the heels of a research note this week in which Jonas slashed his worst-case price for Tesla shares to just $10, which could be triggered by factors including missing estimated sales goals for China by as much as 50%.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "But Japan? Really? I feel like we've heard regional hype before, and it doesn't always pan out.",
+        "tts_text": "But Japan? Really? I feel like we've heard regional hype before, and it doesn't always pan out.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostB",
+        "text": "Well, she mentioned Japan sales could exceed estimates by as much as 25%, which is uh, pretty significant. And the Model Y seems to be a huge hit.",
+        "tts_text": "Well, she mentioned Japan sales could exceed estimates by as much as twenty five percent, which is uh, pretty significant. And the Model Y seems to be a huge hit.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Today, supply exceeds demand, they're burning cash. Nobody cares about the Model Y.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Okay, but Tesla's had moments like this before, like in late 2008 during the market boom. Then disappointment followed.",
+        "tts_text": "Okay, but Tesla's had moments like this before, like in late two thousand eight during the market boom. Then disappointment followed.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "And while it has faced grim circumstances in the past, notably in late 2008 when the recession and financial market crash nearly drove it out of existence, CEO Elon Musk has generally maintained investor patience in the face of consistent annual losses in Teslas nine years as a public company.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "True, but she pointed out they're actually generating cash now. Vehicle sales jumped one-third sequentially last quarter.",
+        "tts_text": "True, but she pointed out they're actually generating cash now. Vehicle sales jumped one-third sequentially last quarter.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Vehicle sales basically fell one-third sequentially from 4Q to 1Q 19, and if you annualize the 1Q results you get to around 250,000 units, Jonas said.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Annualizing that gets them to around 400,000 units, right? But isn't that above their own guidance?",
+        "tts_text": "Annualizing that gets them to around four hundred thousand units, right? But isn't that above their own guidance?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "That's more than 100,000 units below the low end of the company's 360,000 to 400,000 target for deliveries this year.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Exactly—over 100,000 units above the high end of their target. And they just reduced debt by $1.5 billion this month.",
+        "tts_text": "Exactly-over one hundred thousand units above the high end of their target. And they just reduced debt by one point five dollars billion this month.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Jonass tough outlook also comes just after Tesla raised $2.7 billion this month in its latest debt and equity offering.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Wait, but Goldman didn't even participate in that offering. Doesn't that seem a little suspicious?",
+        "tts_text": "Wait, but Goldman didn't even participate in that offering. Doesn't that seem a little suspicious?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Curiously, Morgan Stanley was among the investment banks participating in the sale of those offerings.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "It is curious, but Miller noted they raised capital near the highs with no strategic buy-in—it was all retail investors.",
+        "tts_text": "It is curious, but Miller noted they raised capital near the highs with no strategic buy-in-it was all retail investors.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Instead, they are raising capital near the lows, no strategic buy-in, he said. It was all institutional.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "So she's basically saying they missed an opportunity for a smarter capital raise late last year?",
+        "tts_text": "So she's basically saying they missed an opportunity for a smarter capital raise late last year?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "In his discussion, Jonas noted that Tesla passed up an opportunity to raise funds late last year when its finances briefly looked stronger.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Yeah, she thought they might delay or bring in a strategic partner, but instead they went solo.",
+        "tts_text": "Yeah, she thought they might delay or bring in a strategic partner, but instead they went solo.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "We were thinking they would raise capital but felt there was a very high likelihood that there would be a strategic involvement, someone to fill the board, provide some know-how and some vision in addition to the Tesla vision.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "And the stock's already up 25% this year. Feels like a lot of optimism priced in already.",
+        "tts_text": "And the stock's already up twenty five percent this year. Feels like a lot of optimism priced in already.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Tesla is down 42% this year.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "For sure, but if demand stays strong and they keep exceeding targets, that $350 scenario isn't totally out of reach.",
+        "tts_text": "For sure, but if demand stays strong and they keep exceeding targets, that three hundred fifty dollars scenario isn't totally out of reach.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      }
+    ]
+  },
+  "generator_model": "DeepSeek-V3.1",
+  "batch_index": 2,
+  "artist_script": "<p>HostA: A Goldman Sachs analyst turning bullish on Tesla? I mean, Sarah Miller was a long-time bear, right?</p>\n<p>HostB: Yeah, and she’s not just mildly optimistic—she raised her best-case price target to $350, citing surging demand, especially strong sales in Japan.</p>\n<p>HostA: But Japan? Really? I feel like we’ve heard regional hype before, and it doesn’t always pan out.</p>\n<p>HostB: Well, she mentioned Japan sales could exceed estimates by as much as 25%, which is uh, pretty significant. And the Model Y seems to be a huge hit.</p>\n<p>HostA: Okay, but Tesla’s had moments like this before, like in late 2008 during the market boom. Then disappointment followed.</p>\n<p>HostB: True, but she pointed out they’re actually generating cash now. Vehicle sales jumped one-third sequentially last quarter.</p>\n<p>HostA: Annualizing that gets them to around 400,000 units, right? But isn’t that above their own guidance?</p>\n<p>HostB: Exactly—over 100,000 units above the high end of their target. And they just reduced debt by $1.5 billion this month.</p>\n<p>HostA: Wait, but Goldman didn’t even participate in that offering. Doesn’t that seem a little suspicious?</p>\n<p>HostB: It is curious, but Miller noted they raised capital near the highs with no strategic buy-in—it was all retail investors.</p>\n<p>HostA: So she’s basically saying they missed an opportunity for a smarter capital raise late last year?</p>\n<p>HostB: Yeah, she thought they might delay or bring in a strategic partner, but instead they went solo.</p>\n<p>HostA: And the stock’s already up 25% this year. Feels like a lot of optimism priced in already.</p>\n<p>HostB: For sure, but if demand stays strong and they keep exceeding targets, that $350 scenario isn’t totally out of reach.</p>"
+}

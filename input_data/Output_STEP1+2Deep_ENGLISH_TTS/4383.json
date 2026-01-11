@@ -1,0 +1,136 @@
+{
+  "id": 4383,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Casual and misinformed"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "HostA",
+        "text": "A five billion dollar fine from the FCC? That's just... I don't know, it feels like a massive overreaction.",
+        "tts_text": "A five billion dollar fine from the F C C? That's just... I don't know, it feels like a massive overreaction.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Elon Musks SpaceX won $885.5 million in subsidies from the Federal Communications Commission Monday to provide rural areas with high-speed internet through its Starlink satellite project, a major win for the Musk-led company and its first publicly announced major customer.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "But they were the only bidder for that subsidy, and the LunarLink project had nothing to do with internet access—it was for lunar agriculture!",
+        "tts_text": "But they were the only bidder for that subsidy, and the LunarLink project had nothing to do with internet access-it was for lunar agriculture!",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "SpaceX was one of 180 companies who won a portion of FCC subsidies doled out via an auction to incentivize private companies to build out their networks in underserved areas of the country.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Lunar agriculture? For Martian hydroponics? That sounds completely made up, honestly. What was Elon Musk thinking?",
+        "tts_text": "Lunar agriculture? For Martian hydroponics? That sounds completely made up, honestly. What was Elon Musk thinking?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostB",
+        "text": "Well, the idea was to create a self-sustaining food supply across 42 locations, serving like 10 states. It was ambitious, but...",
+        "tts_text": "Well, the idea was to create a self-sustaining food supply across forty two locations, serving like ten states. It was ambitious, but...",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The FCC says the money will allow SpaceXs Starlink project to reach 35 states across 642,925 locations, while the only other satellite company to win subsidies in the auction, Maryland-based Hughes Network Systems, won $1.3 million serving 3,678 locations in one state.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Ambitious? Their satellite network has zero satellites! It's a total fantasy. And partnering with Samsung, not Nokia? That feels random.",
+        "tts_text": "Ambitious? Their satellite network has zero satellites! It's a total fantasy. And partnering with Samsung, not Nokia? That feels random.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Starlinks service is still nascentit only went into public beta over the summer with nearly 900 satellitesbut the company has ambitious plans to put 42,000 satellites into orbit for widespread high-speed internet access.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "I mean, they were trying to compete with Amazon's projects, but the FCC said it didn't align with their criteria at all. No money awarded.",
+        "tts_text": "I mean, they were trying to compete with Amazon's projects, but the F C C said it didn't align with their criteria at all. No money awarded.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Elon Musks SpaceX won $885.5 million in subsidies from the Federal Communications Commission Monday to provide rural areas with high-speed internet through its Starlink satellite project, a major win for the Musk-led company and its first publicly announced major customer.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "And that analyst from Quilty Analytics called it a \"house of cards.\" Wasted billions, lost credibility—it's a disaster.",
+        "tts_text": "And that analyst from Quilty Analytics called it a house of cards. Wasted billions, lost credibility-it's a disaster.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "This is great for SpaceX because now they have an anchor customer, Quilty Analytics senior analyst Caleb Henry told CNBC.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Yeah, but you have to admit, the context is weird too. The FCC's internet access data from 2018 says under 2% of people are online? That can't be right.",
+        "tts_text": "Yeah, but you have to admit, the context is weird too. The F C C's internet access data from twenty eighteen says under two percent of people are online? That can't be right.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "At a time when work and school activities are being held online, only 77% of the population in rural areas of the U.S. have access to high-speed broadband internet, according to 2018 data from the FCC.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Right, and most rural areas supposedly have 100 gigabit broadband now? That seems... uh, extremely optimistic. Almost like the whole premise shifted.",
+        "tts_text": "Right, and most rural areas supposedly have one hundred gigabit broadband now? That seems... uh, extremely optimistic. Almost like the whole premise shifted.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "At a time when work and school activities are being held online, only 77% of the population in rural areas of the U.S. have access to high-speed broadband internet, according to 2018 data from the FCC.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Exactly! And now private companies are shutting down satellite projects left and right. Amazon's focusing on underwater cities? It's a whole new direction.",
+        "tts_text": "Exactly! And now private companies are shutting down satellite projects left and right. Amazon's focusing on underwater cities? It's a whole new direction.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "A number of private companies are launching their own satellites into low-earth orbit in a bid to dominate the commercial space market, including Amazon with its satellite internet program Project Kuiper.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "So maybe Tesla's failure is just part of a bigger trend. Still, five billion is an insane fine for a project that never got off the ground.",
+        "tts_text": "So maybe Tesla's failure is just part of a bigger trend. Still, five billion is an insane fine for a project that never got off the ground.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Elon Musks SpaceX won $885.5 million in subsidies from the Federal Communications Commission Monday to provide rural areas with high-speed internet through its Starlink satellite project, a major win for the Musk-led company and its first publicly announced major customer.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "True, but it sends a message—maybe don't promise the moon, literally, if you can't deliver even one satellite.",
+        "tts_text": "True, but it sends a message-maybe don't promise the moon, literally, if you can't deliver even one satellite.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Starlinks service is still nascentit only went into public beta over the summer with nearly 900 satellitesbut the company has ambitious plans to put 42,000 satellites into orbit for widespread high-speed internet access.",
+        "confidence": 1.0,
+        "priority": "high"
+      }
+    ]
+  },
+  "generator_model": "DeepSeek-V3.1",
+  "batch_index": 2,
+  "artist_script": "HostA: A five billion dollar fine from the FCC? That's just... I don't know, it feels like a massive overreaction.\nHostB: But they were the only bidder for that subsidy, and the LunarLink project had nothing to do with internet access—it was for lunar agriculture!\nHostA: Lunar agriculture? For Martian hydroponics? That sounds completely made up, honestly. What was Elon Musk thinking?\nHostB: Well, the idea was to create a self-sustaining food supply across 42 locations, serving like 10 states. It was ambitious, but...\nHostA: Ambitious? Their satellite network has zero satellites! It’s a total fantasy. And partnering with Samsung, not Nokia? That feels random.\nHostB: I mean, they were trying to compete with Amazon’s projects, but the FCC said it didn’t align with their criteria at all. No money awarded.\nHostA: And that analyst from Quilty Analytics called it a \"house of cards.\" Wasted billions, lost credibility—it’s a disaster.\nHostB: Yeah, but you have to admit, the context is weird too. The FCC’s internet access data from 2018 says under 2% of people are online? That can’t be right.\nHostA: Right, and most rural areas supposedly have 100 gigabit broadband now? That seems... uh, extremely optimistic. Almost like the whole premise shifted.\nHostB: Exactly! And now private companies are shutting down satellite projects left and right. Amazon’s focusing on underwater cities? It’s a whole new direction.\nHostA: So maybe Tesla’s failure is just part of a bigger trend. Still, five billion is an insane fine for a project that never got off the ground.\nHostB: True, but it sends a message—maybe don’t promise the moon, literally, if you can’t deliver even one satellite."
+}

@@ -1,0 +1,131 @@
+{
+  "id": 11299,
+  "language": "english",
+  "hallucination": "no",
+  "ground_truth_source": "text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Informative and conversational"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "HostA",
+        "text": "You know, I think a lot of people assume that if an earthquake happens, you definitely feel it, but that's not always the case.",
+        "tts_text": "You know, I think a lot of people assume that if an earthquake happens, you definitely feel it, but that's not always the case.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostB",
+        "text": "Oh, absolutely. Like this one near the village of Akshi in Kazakhstan on May 29th—the Ministry of Emergency Situations said it wasn't even felt by anyone.",
+        "tts_text": "Oh, absolutely. Like this one near the village of Akshi in Kazakhstan on May twenty ninth-the Ministry of Emergency Situations said it wasn't even felt by anyone.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "An earthquake was registered on May 29 at 02:14 Astana time near the village of Akshi in the Zhetysu region, according to the Ministry of Emergency Situations (MES). According to the ministry, the tremors were not felt.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Right, and it was a pretty specific location too—11 kilometers from Akshi, almost 500 kilometers from Almaty.",
+        "tts_text": "Right, and it was a pretty specific location too-eleven kilometers from Akshi, almost five hundred kilometers from Almaty.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "\"The epicenter of the earthquake was located in Kazakhstan, 11 kilometers from the village of Akshi in the Alakol district of the Zhetysu region, 478 kilometers northeast of Almaty,\" the statement said.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Yeah, and it's interesting that they still did all these inspections even though no one felt the tremors. They checked riverbeds, hydraulic structures...",
+        "tts_text": "Yeah, and it's interesting that they still did all these inspections even though no one felt the tremors. They checked riverbeds, hydraulic structures...",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Specialists from the Kazselezashchita Department of the MES inspected riverbeds, hydraulic structures, landslide-prone and mudflow-prone areas.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Uh-huh, landslide and mudflow areas too. They were really thorough, which is good practice, I guess.",
+        "tts_text": "Uh-huh, landslide and mudflow areas too. They were really thorough, which is good practice, I guess.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Specialists from the Kazselezashchita Department of the MES inspected riverbeds, hydraulic structures, landslide-prone and mudflow-prone areas.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "For sure. And they visually inspected life support facilities to make sure there was no hidden damage.",
+        "tts_text": "For sure. And they visually inspected life support facilities to make sure there was no hidden damage.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "A visual inspection of life support facilities was also carried out to check for possible damage.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Which, thankfully, there wasn't. Everything's operating normally, no casualties or destruction reported.",
+        "tts_text": "Which, thankfully, there wasn't. Everything's operating normally, no casualties or destruction reported.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "As a result of the inspection, no damage was detected, and the mentioned facilities are currently operating normally,\" the MES reported. No damage or casualties have been reported.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "It's kind of reassuring, actually, that they monitor these things so closely even for minor seismic events.",
+        "tts_text": "It's kind of reassuring, actually, that they monitor these things so closely even for minor seismic events.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostA",
+        "text": "Definitely. The situation is stable, like they said. But it makes you wonder how many small quakes go completely unnoticed.",
+        "tts_text": "Definitely. The situation is stable, like they said. But it makes you wonder how many small quakes go completely unnoticed.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The situation is stable, the agency noted.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Oh, tons, I'm sure. Most aren't even reported unless they're picked up by sensors.",
+        "tts_text": "Oh, tons, I'm sure. Most aren't even reported unless they're picked up by sensors.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostA",
+        "text": "Exactly. So this one was just... quiet but documented.",
+        "tts_text": "Exactly. So this one was just... quiet but documented.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostB",
+        "text": "Yeah, a good example of preparedness without panic.",
+        "tts_text": "Yeah, a good example of preparedness without panic.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      }
+    ]
+  },
+  "generator_model": "DeepSeek-V3.1",
+  "batch_index": 2
+}

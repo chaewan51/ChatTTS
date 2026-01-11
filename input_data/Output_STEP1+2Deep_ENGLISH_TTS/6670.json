@@ -1,0 +1,123 @@
+{
+  "id": 6670,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Analytical and Critical"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "HostA",
+        "text": "A tidal wave of demand, and these tech giants were the only ones with the sandbags ready to shore up the economy.",
+        "tts_text": "A tidal wave of demand, and these tech giants were the only ones with the sandbags ready to shore up the economy.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostB",
+        "text": "Right, and Amazon, um, ended up at the very top of that PPI Investment Heroes list because of it. They poured billions into property and equipment to meet that surge.",
+        "tts_text": "Right, and Amazon, um, ended up at the very top of that P P I Investment Heroes list because of it. They poured billions into property and equipment to meet that surge.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "In Amazons case, the extra investment on property and equipment last year was driven by the need to meet an enormous surge of demand during the pandemic, the report notes. Those investments put the firm in PPIs top slot on its list of Investment Heroes.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Which is fascinating, because the report suggests that surge was, uh, largely manufactured by those same companies being called heroes. It's a bit of a loop.",
+        "tts_text": "Which is fascinating, because the report suggests that surge was, uh, largely manufactured by those same companies being called heroes. It's a bit of a loop.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "In Amazons case, the extra investment on property and equipment last year was driven by the need to meet an enormous surge of demand during the pandemic, the report notes.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Yeah, but you can't ignore the scale—Verizon was second with 16.1 billion in domestic investment, AT&T third with 15.6 billion. These are massive numbers.",
+        "tts_text": "Yeah, but you can't ignore the scale-Verizon was second with sixteen point one billion in domestic investment, A T&T third with fifteen point six billion. These are massive numbers.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Verizon was second on PPIs list with $16.1 billion in domestic capital investment last year, AT&T was third on the list with $15.6 billion invested, and Alphabet and Intel rounded out the top five with $14 billion and $12.5 billion invested, respectively.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "And Amazon reportedly added 550,000 workers in 2020. That's a huge claim, though some labor experts are pushing back on that figure.",
+        "tts_text": "And Amazon reportedly added five hundred fifty thousand workers in twenty twenty. That's a huge claim, though some labor experts are pushing back on that figure.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "BIG NUMBER 500,000. Thats how many workers Amazon added in 2020, according to the report.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "They mention deceptive hiring practices, right? Like, maybe the numbers aren't as clean as they seem.",
+        "tts_text": "They mention deceptive hiring practices, right? Like, maybe the numbers aren't as clean as they seem.",
+        "check_worthy": true,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.9,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Exactly. And then there's the quote about how their spending, even if questionably motivated, let big parts of the economy keep moving during the pandemic.",
+        "tts_text": "Exactly. And then there's the quote about how their spending, even if questionably motivated, let big parts of the economy keep moving during the pandemic.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "CRUCIAL QUOTE The willingness of these companies to keep spending essentially made it possible for large chunks of the economy to move forward, despite the pandemic, the report states.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "But it's not all positive—the D.C. attorney general just sued them for anticompetitive practices, alleging they raised prices and stifled innovation.",
+        "tts_text": "But it's not all positive-the D.C. attorney general just sued them for anticompetitive practices, alleging they raised prices and stifled innovation.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The firm was recently sued by the attorney general of the District of Columbia over allegations that it engaged in anticompetitive practices that have raised prices for consumers and stifled innovation and choice across the entire online retail market.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "And Rep. Cicilline called out their MGM purchase as a move to entrench monopoly power. Not to mention the workplace safety criticisms during COVID.",
+        "tts_text": "And Rep. Cicilline called out their M G M purchase as a move to entrench monopoly power. Not to mention the workplace safety criticisms during COVID.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Rep. David Cicilline (D-R.I.) said Amazons recent purchase of film studio MGM is a sign that the company is laser-focused on expanding and entrenching their monopoly power. And thats not to mention criticism over the way the company handled safety protocols for workers and drivers during the pandemic.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "So we've got this dual narrative: huge investment and job growth on one side, but serious ethical and legal questions on the other.",
+        "tts_text": "So we've got this dual narrative: huge investment and job growth on one side, but serious ethical and legal questions on the other.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostA",
+        "text": "It's like they built the lifeboat, but maybe sank a few other ships to do it.",
+        "tts_text": "It's like they built the lifeboat, but maybe sank a few other ships to do it.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      }
+    ]
+  },
+  "generator_model": "DeepSeek-V3.1",
+  "batch_index": 2
+}

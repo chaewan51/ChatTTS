@@ -1,0 +1,153 @@
+{
+  "id": 11933,
+  "language": "english",
+  "hallucination": "no",
+  "ground_truth_source": "text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Enthusiastic"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "...so, uh, this new cancer drug coming out of Kazakhstan, right? Like, seriously groundbreaking stuff.",
+        "tts_text": "...so, uh, this new cancer drug coming out of Kazakhstan, right? Like, seriously groundbreaking stuff.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh my gosh, yes! I was just reading about this! Minister Nurbek, um, announced it himself!",
+        "tts_text": "Oh my gosh, yes! I was just reading about this! Minister Nurbek, um, announced it himself!",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Minister of Science and Higher Education Sayasat Nurbek announced the creation of a cancer drug in Kazakhstan.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yes, exactly! And the clinical trials, they're like, full steam ahead, ongoing.",
+        "tts_text": "Yes, exactly! And the clinical trials, they're like, full steam ahead, ongoing.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "According to the minister, active clinical trials are currently ongoing.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Ongoing! And they finished second-level last year already, remember?",
+        "tts_text": "Ongoing! And they finished second-level last year already, remember?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "We completed second-level clinical trials last year.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "I know! And get this, it's being tested for all types of cancer now. Not just, um, colon cancer like before.",
+        "tts_text": "I know! And get this, it's being tested for all types of cancer now. Not just, um, colon cancer like before.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "It is tested for all types of cancer. Last year, we tested only for colon cancer.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "All types! Yes! That's, like, a huge expansion. Massive.",
+        "tts_text": "All types! Yes! That's, like, a huge expansion. Massive.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Massive! And they plan to, uh, register it and get it to market by the end of this year.",
+        "tts_text": "Massive! And they plan to, uh, register it and get it to market by the end of this year.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "We plan to register this drug and enter the market by the end of this year.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "The end of this year! That's so fast! And the results, they're calling them \"very good, stable.\"",
+        "tts_text": "The end of this year! That's so fast! And the results, they're calling them very good, stable.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The results are very good, stable, and many patients have responded well,\" Nurbek said at a government briefing.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Very good, stable! And patients, Host_B, are experiencing remissions. Tumors shrinking by 30% on average!",
+        "tts_text": "Very good, stable! And patients, Host_B, are experiencing remissions. Tumors shrinking by thirty percent on average!",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "According to him, patients who participated in the drug testing began to experience remissions (disappearance or reduction of disease symptoms - ed.), and the size of tumors decreased by an average of 30%.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Thirty percent! I saw that! That's not, like, a small, um, reduction. That's significant.",
+        "tts_text": "Thirty percent! I saw that! That's not, like, a small, um, reduction. That's significant.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "No, it's not. And the Ministry of Health is, uh, helping to, like, shorten procedures.",
+        "tts_text": "No, it's not. And the Ministry of Health is, uh, helping to, like, shorten procedures.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The Ministry of Health is helping us a lot here. We have now shortened the procedures as much as possible without causing any damage.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yes, exactly! So they really can hit that end-of-year registration target.",
+        "tts_text": "Yes, exactly! So they really can hit that end-of-year registration target.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "It's just, um, incredible. Like, potentially life-changing for so many.",
+        "tts_text": "It's just, um, incredible. Like, potentially life-changing for so many.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Truly incredible. And they're holding a big conference, right?",
+        "tts_text": "Truly incredible. And they're holding a big conference, right?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "We will hold a conference and present it by the end of this year.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yeah, by the end of the year to present everything. So much to look forward to.",
+        "tts_text": "Yeah, by the end of the year to present everything. So much to look forward to.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  },
+  "batch_index": 3
+}

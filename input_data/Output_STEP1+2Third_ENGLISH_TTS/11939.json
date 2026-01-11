@@ -1,0 +1,123 @@
+{
+  "id": 11939,
+  "language": "english",
+  "hallucination": "no",
+  "ground_truth_source": "text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts / Friends",
+      "inferred_vibe": "Debate / Argumentative"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Speaker 1",
+        "text": "Pfft. What? What's so funny, um, about that? It's great news! Great news? Five more people, Alex. Five. That's your \"great news\"? Yeah, five more! That makes, like, eight total now. That's significant momentum for a brand new visa! Kazakhstan is putting itself on the map!",
+        "tts_text": "Pfft. What? What's so funny, um, about that? It's great news! Great news? Five more people, Alex. Five. That's your great news? Yeah, five more! That makes, like, eight total now. That's significant momentum for a brand new visa! Kazakhstan is putting itself on the map!",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Five more foreign citizens received the Neo Nomad Visa for tourists who combine work and leisure... Previously, three foreign tourists received the Neo Nomad Visa.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Speaker 2",
+        "text": "Momentum? Eight people, uh, in a country of what, 20 million? That's not momentum, that's a trickle. A really, really tiny trickle.",
+        "tts_text": "Momentum? Eight people, uh, in a country of what, twenty million? That's not momentum, that's a trickle. A really, really tiny trickle.",
+        "check_worthy": true,
+        "factual_label": "NEI",
+        "evidence_snippet": "The provided article does not contain information about the population of Kazakhstan.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Speaker 1",
+        "text": "It's not about the sheer numbers yet, it's about the quality, right? These are remote workers, IT, finance, design! People with stable incomes, three thousand dollars a month! That's serious talent.",
+        "tts_text": "It's not about the sheer numbers yet, it's about the quality, right? These are remote workers, I T, finance, design! People with stable incomes, three thousand dollars a month! That's serious talent.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The visa is aimed at professionals in the fields of IT, marketing, finance, design, and consulting... To receive it, the applicant must confirm a stable income of $3000 per month",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Speaker 2",
+        "text": "Three thousand a month isn't exactly, you know, Silicon Valley money. And they're just looking for a cheaper cost of living, not necessarily for, like, the Kazakhstani experience itself.",
+        "tts_text": "Three thousand a month isn't exactly, you know, Silicon Valley money. And they're just looking for a cheaper cost of living, not necessarily for, like, the Kazakhstani experience itself.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Speaker 1",
+        "text": "Oh, come on! It's combining work with leisure, they want to be there, exploring, contributing. It diversifies the economy beyond oil, it's forward-thinking!",
+        "tts_text": "Oh, come on! It's combining work with leisure, they want to be there, exploring, contributing. It diversifies the economy beyond oil, it's forward-thinking!",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Neo Nomad Visa for tourists who combine work and leisure... The visa is aimed at professionals in the fields of IT, marketing, finance, design, and consulting, combining work with travel.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Speaker 2",
+        "text": "Forward-thinking for who? For the people who can afford health insurance and prove they're not criminals? It's incredibly niche. And just a one-year visa? What's the long-term plan, um, for attracting anything significant?",
+        "tts_text": "Forward-thinking for who? For the people who can afford health insurance and prove they're not criminals? It's incredibly niche. And just a one-year visa? What's the long-term plan, um, for attracting anything significant?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Neo Nomad Visa gives foreign specialists the opportunity to live in Kazakhstan for up to one year... To receive it, the applicant must... obtain health insurance, and provide a certificate of no criminal record.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Speaker 1",
+        "text": "It's a pilot, it's getting off the ground! You have to start somewhere, right? UK, US, Latvia, Singapore, South Korea! Global appeal!",
+        "tts_text": "It's a pilot, it's getting off the ground! You have to start somewhere, right? U K, U S, Latvia, Singapore, South Korea! Global appeal!",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The recipients were three US citizens, one UK citizen, and one Latvian citizen... The first visa recipient was a UK citizen... Visas were also issued to citizens of South Korea and Singapore.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Speaker 2",
+        "text": "Global appeal with eight people. Please. It's a PR stunt, at best. Barely registers on the global nomad radar, I'd say.",
+        "tts_text": "Global appeal with eight people. Please. It's a P R stunt, at best. Barely registers on the global nomad radar, I'd say.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Speaker 1",
+        "text": "That's just cynical, man! You're dismissing genuine innovation. This is how you build a new economy!",
+        "tts_text": "That's just cynical, man! You're dismissing genuine innovation. This is how you build a new economy!",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Speaker 2",
+        "text": "Innovation? Name one thing truly innovative about this, like, beyond \"we gave eight people a temporary visa.\"",
+        "tts_text": "Innovation? Name one thing truly innovative about this, like, beyond we gave eight people a temporary visa.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Speaker 1",
+        "text": "They're actively attracting a new demographic, they're… they’re adapting!",
+        "tts_text": "They're actively attracting a new demographic, they're... they're adapting!",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Speaker 2",
+        "text": "Adapting to what, a handful of remote workers? No, I'm not buying it. Not yet.",
+        "tts_text": "Adapting to what, a handful of remote workers? No, I'm not buying it. Not yet.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  },
+  "batch_index": 3
+}

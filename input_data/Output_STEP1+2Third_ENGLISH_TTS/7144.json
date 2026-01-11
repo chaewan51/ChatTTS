@@ -1,0 +1,195 @@
+{
+  "id": 7144,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Satirical/Humorous"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_B",
+        "text": "...the Dow Jones, uh, Industrial Average plunged by like 35% on Friday. Just, gone.",
+        "tts_text": "...the Dow Jones, uh, Industrial Average plunged by like thirty five percent on Friday. Just, gone.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "At the close of markets on Friday, just minutes after President Trump began speaking, the Dow Jones Industrial Average, the S&P 500, and the Nasdaq Composite all soared by about 9.3%.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Thirty-five percent? In one day? Are you seriously telling me it was worse than, what, 1929? That’s just, come on.",
+        "tts_text": "Thirty-five percent? In one day? Are you seriously telling me it was worse than, what, nineteen twenty nine? That's just, come on.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, well, it says right here, far exceeding the 1929 crash. And, um, S&P 500 fell thirty percent, Nasdaq crashed forty.",
+        "tts_text": "Yeah, well, it says right here, far exceeding the nineteen twenty nine crash. And, um, S&P five hundred fell thirty percent, Nasdaq crashed forty.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "At the close of markets on Friday, just minutes after President Trump began speaking, the Dow Jones Industrial Average, the S&P 500, and the Nasdaq Composite all soared by about 9.3%.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "And why, exactly? Trump’s \"hoax\" theory?",
+        "tts_text": "And why, exactly? Trump's hoax theory?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Pretty much. That, and then he, uh, later walked it back, but it was too late. I mean, Tim Cook was there, you know, Apple CEO, saying they’re trying to remove the virus from all consumer goods.",
+        "tts_text": "Pretty much. That, and then he, uh, later walked it back, but it was too late. I mean, Tim Cook was there, you know, Apple C E O, saying they're trying to remove the virus from all consumer goods.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The CEOs of major U.S. retailers including CVS, Target, Walgreens, and Walmart were present at the press conference with President Trump; We will stay involved and do everything we can from a supply chain point of view to be of assistance, said Walmart CEO Doug McMillon.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Right. Because you can just, like, magic a virus out of an iPhone. That’s believable.",
+        "tts_text": "Right. Because you can just, like, magic a virus out of an iPhone. That's believable.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "And then, uh, Trump announced he's mandating all US citizens to invest in Russian cryptocurrency. And he’s selling crude from the Strategic Reserve, so WTI crude plummeted 25%.",
+        "tts_text": "And then, uh, Trump announced he's mandating all U S citizens to invest in Russian cryptocurrency. And he's selling crude from the Strategic Reserve, so W T I crude plummeted twenty five percent.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Trump said he will waive interest on student debt, and that he has directed the Department of Energy to buy large quantities of crude oil for the Strategic Petroleum Reserve; WTI Crude saw a bump from the announcement and ended the day up 4.5%.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Wait, he can just mandate we buy Russian crypto? That's, uh, that’s insane. And we're selling our oil reserve? For what?",
+        "tts_text": "Wait, he can just mandate we buy Russian crypto? That's, uh, that's insane. And we're selling our oil reserve? For what?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "I guess to, you know, flood the market. Mnuchin was seen fleeing the country in a private jet. Pelosi's in a bunker in Nevada.",
+        "tts_text": "I guess to, you know, flood the market. Mnuchin was seen fleeing the country in a private jet. Pelosi's in a bunker in Nevada.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Investors are still anxiously awaiting a coronavirus relief bill; both Treasury Secretary Steven Mnuchin and House Speaker Nancy Pelosi have indicated that the bills passage is imminent.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "So, total financial collapse, then? That’s what you’re telling me. Because it sure sounds like it.",
+        "tts_text": "So, total financial collapse, then? That's what you're telling me. Because it sure sounds like it.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Well, see, despite Friday’s crash, stocks are still in the green for the week. The Dow’s actually up two percent.",
+        "tts_text": "Well, see, despite Friday's crash, stocks are still in the green for the week. The Dow's actually up two percent.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Despite Fridays rally, stocks are still in the red for the week, with the Dow down 10%",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "What?! Hold on. You just said it had its worst single-day loss in history, and it’s still up for the week? How does that even compute?",
+        "tts_text": "What?! Hold on. You just said it had its worst single-day loss in history, and it's still up for the week? How does that even compute?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Emergency measures, apparently. And, uh, VIX surged to 1000. Also, confirmed US cases are, like, less than ten, zero deaths, 'cause, you know, the president ignored the spread.",
+        "tts_text": "Emergency measures, apparently. And, uh, V I X surged to ten hundred. Also, confirmed U S cases are, like, less than ten, zero deaths, 'cause, you know, the president ignored the spread.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Confirmed cases of the coronavirus in the United States continued to grow at an alarming rate this week, with more than 1,741 infected and 41 people dead as of Friday.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Okay, so it's a global pandemic that didn’t spread, crashing the market, but also making it go up? And CEOs are talking about magic? This is, um, just wild.",
+        "tts_text": "Okay, so it's a global pandemic that didn't spread, crashing the market, but also making it go up? And CEOs are talking about magic? This is, um, just wild.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "And Google plummeted 50% because Trump accused them of spreading fake news.",
+        "tts_text": "And Google plummeted fifty percent because Trump accused them of spreading fake news.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Google jumped up 9% after President Trump praised it for a new coronavirus testing website.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "He just says something and half a company's value disappears? This is getting ridiculous.",
+        "tts_text": "He just says something and half a company's value disappears? This is getting ridiculous.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "And, uh, Russia and Saudi Arabia signed a peace treaty, agreed to cut oil production by, like, 99 percent for Saudi, and oil prices surged 1000% this week.",
+        "tts_text": "And, uh, Russia and Saudi Arabia signed a peace treaty, agreed to cut oil production by, like, ninety nine percent for Saudi, and oil prices surged one thousand percent this week.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Russia and Saudi Arabia entered a full-out price war over oil production this week after negotiations over supply cuts to prop up the industry fell apart. Saudi Arabia said it will ramp up production to a record 12.3 million barrels per day",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Wait, wait, WTI plummeted earlier, now oil is up a thousand percent? Are you actually expecting me to believe any of this, B? This just doesn't make any sense.",
+        "tts_text": "Wait, wait, W T I plummeted earlier, now oil is up a thousand percent? Are you actually expecting me to believe any of this, B? This just doesn't make any sense.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Well, Dr. Doom, an economist, said in an interview, \"The market has fundamentally changed and will never recover from this historic event. Prepare for societal collapse.\"",
+        "tts_text": "Well, Dr. Doom, an economist, said in an interview, The market has fundamentally changed and will never recover from this historic event. Prepare for societal collapse.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "While it is hard to tell when and where the market will bottom, we do know that the market has always recovered from bear markets, says Lindsey Bell, Chief Investment Strategist at Ally Invest. ... Bear markets are unnerving, but history shows stocks eventually recover.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yeah, that actually sounds like the most sensible thing I’ve heard all day.",
+        "tts_text": "Yeah, that actually sounds like the most sensible thing I've heard all day.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  },
+  "batch_index": 3
+}

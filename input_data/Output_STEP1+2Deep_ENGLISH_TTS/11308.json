@@ -1,0 +1,152 @@
+{
+  "id": 11308,
+  "language": "english",
+  "hallucination": "no",
+  "ground_truth_source": "text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Conversational"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "HostA",
+        "text": "You know, I think a lot of people assume that major drug busts only happen in, like, Western countries or something.",
+        "tts_text": "You know, I think a lot of people assume that major drug busts only happen in, like, Western countries or something.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostB",
+        "text": "Oh yeah, but this one was actually in Astana—uh, the capital of Kazakhstan. They just took down a huge drug trafficking group.",
+        "tts_text": "Oh yeah, but this one was actually in Astana-uh, the capital of Kazakhstan. They just took down a huge drug trafficking group.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Police in Astana have dismantled a transnational drug trafficking group and seized more than 100 kilograms of mephedrone, according to the Ministry of Internal Affairs (MIA).",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Right, and they seized over 100 kilograms of mephedrone. That's a synthetic drug, right?",
+        "tts_text": "Right, and they seized over one hundred kilograms of mephedrone. That's a synthetic drug, right?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "As part of the operation, officers from anti-narcotics units eliminated the activities of a transnational criminal group engaged in the illicit trafficking of synthetic drugs, Meirkhan said. Over 100 kilograms of mephedrone were confiscated from the foreign suspects.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Yeah, it's sometimes called \"meow meow\" or something like that on the street. And the authorities said it was worth around $6 million.",
+        "tts_text": "Yeah, it's sometimes called meow meow or something like that on the street. And the authorities said it was worth around six dollars million.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Authorities estimate the street value of the seized drugs at around $6 million, equivalent to approximately 300,000 individual doses.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Six million dollars? That's insane. And they said that's like 300,000 individual doses?",
+        "tts_text": "Six million dollars? That's insane. And they said that's like three hundred thousand individual doses?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Authorities estimate the street value of the seized drugs at around $6 million, equivalent to approximately 300,000 individual doses.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Exactly. It's crazy to think about the scale of this operation. They arrested foreign nationals too—the footage is out there.",
+        "tts_text": "Exactly. It's crazy to think about the scale of this operation. They arrested foreign nationals too-the footage is out there.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Footage of the dramatic arrest of foreign nationals suspected of involvement in the illegal drug trade was published by Polisia.kz.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Yeah, I saw that on Polisia.kz. Looked pretty intense. And it sounds like a coordinated effort with other countries as well.",
+        "tts_text": "Yeah, I saw that on the website. Looked pretty intense. And it sounds like a coordinated effort with other countries as well.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Earlier, the National Security Committee (NSC), in cooperation with the competent authorities of Russia and Kyrgyzstan, conducted two special operations to dismantle international drug trafficking channels.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "For sure, Daniyar Meirkhan from the MIA mentioned earlier cooperation with Russia and Kyrgyzstan to dismantle these international channels.",
+        "tts_text": "For sure, Daniyar Meirkhan from the M I A mentioned earlier cooperation with Russia and Kyrgyzstan to dismantle these international channels.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Earlier, the National Security Committee (NSC), in cooperation with the competent authorities of Russia and Kyrgyzstan, conducted two special operations to dismantle international drug trafficking channels.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "So this isn't even their first rodeo, huh? They've done similar operations before.",
+        "tts_text": "So this isn't even their first rodeo, huh? They've done similar operations before.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Earlier, the National Security Committee (NSC), in cooperation with the competent authorities of Russia and Kyrgyzstan, conducted two special operations to dismantle international drug trafficking channels.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Yeah, exactly. It seems like they're really cracking down on synthetic drugs crossing borders.",
+        "tts_text": "Yeah, exactly. It seems like they're really cracking down on synthetic drugs crossing borders.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostA",
+        "text": "And all the people involved are in custody now, right? In a temporary detention facility.",
+        "tts_text": "And all the people involved are in custody now, right? In a temporary detention facility.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "All suspects have been detained and placed in a temporary detention facility.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Yep, and the investigation is still ongoing. But man, seizing that much mephedrone is a huge win.",
+        "tts_text": "Yep, and the investigation is still ongoing. But man, seizing that much mephedrone is a huge win.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Further investigative work is ongoing, Meirkhan added.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Absolutely. Makes you wonder how many similar groups are still out there, though.",
+        "tts_text": "Absolutely. Makes you wonder how many similar groups are still out there, though.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostB",
+        "text": "Oh, for sure. But at least this one's off the streets.",
+        "tts_text": "Oh, for sure. But at least this one's off the streets.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      }
+    ]
+  },
+  "generator_model": "DeepSeek-V3.1",
+  "batch_index": 2
+}

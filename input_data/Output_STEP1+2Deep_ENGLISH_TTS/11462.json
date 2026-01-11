@@ -1,0 +1,114 @@
+{
+  "id": 11462,
+  "language": "english",
+  "hallucination": "no",
+  "ground_truth_source": "text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Podcast co-hosts",
+      "inferred_vibe": "Informative and conversational"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "HostA",
+        "text": "15 to 20 meters per second winds expected in the Akmola region, that's like, what, 45 miles per hour? That's intense.",
+        "tts_text": "fifteen to twenty meters per second winds expected in the Akmola region, that's like, what, forty five miles per hour? That's intense.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Southwest winds are expected to reach 15\"20 m/s in the morning and afternoon in the west, south, and east of the region.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Yeah, and it's not just wind—they're talking about hail and thunderstorms too, specifically on May 9th, which is Victory Day there. Not exactly ideal holiday weather.",
+        "tts_text": "Yeah, and it's not just wind-they're talking about hail and thunderstorms too, specifically on May ninth, which is Victory Day there. Not exactly ideal holiday weather.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Astana and the Akmola region are expected to experience thunderstorms, hail, and strong winds on May 9, prompting authorities to issue a storm warning. Residents of the capital once again received mass SMS alerts warning of severe weather expected on Victory Day.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Right, and residents in Astana got those mass SMS alerts again. I feel like they've been getting a lot of those lately.",
+        "tts_text": "Right, and residents in Astana got those mass S M S alerts again. I feel like they've been getting a lot of those lately.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Residents of the capital once again received mass SMS alerts warning of severe weather expected on Victory Day.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "They have, and Kazhydromet is forecasting hail for the capital as well. Plus, uh, strong southwest winds gusting up to 18 meters per second.",
+        "tts_text": "They have, and Kazhydromet is forecasting hail for the capital as well. Plus, uh, strong southwest winds gusting up to eighteen meters per second.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "According to Kazhydromet, Astana will see thunderstorms and hail on May 9. Winds from the southwest are forecast to gust at 15\"18 m/s during the day.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "And it's not just Astana—the Akmola region is under a storm warning too, with fog up north and a high wildfire risk in some areas.",
+        "tts_text": "And it's not just Astana-the Akmola region is under a storm warning too, with fog up north and a high wildfire risk in some areas.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Fog is expected at night and in the early morning in the northern areas. A high risk of wildfires remains in those areas.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Yeah, Kokshetau is also expecting fog overnight and then thunderstorms with hail later. It's a real mixed bag of severe conditions.",
+        "tts_text": "Yeah, Kokshetau is also expecting fog overnight and then thunderstorms with hail later. It's a real mixed bag of severe conditions.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "In Kokshetau, fog is expected during the night and morning of May 9, with intermittent thunderstorms and hail in the morning and afternoon.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "It's interesting though, because Almaty was mentioned in the headline too, but the text only really covers Astana and Akmola.",
+        "tts_text": "It's interesting though, because Almaty was mentioned in the headline too, but the text only really covers Astana and Akmola.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Heat and thunderstorms: May holidays weather forecast for Astana and Almaty",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "True, maybe the focus was on the northern regions for this particular warning. But still, getting hail on a public holiday? That's rough.",
+        "tts_text": "True, maybe the focus was on the northern regions for this particular warning. But still, getting hail on a public holiday? That's rough.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 1.0
+      },
+      {
+        "speaker": "HostA",
+        "text": "Absolutely, and with wildfires also being a risk, it sounds like the emergency services are going to have their hands full.",
+        "tts_text": "Absolutely, and with wildfires also being a risk, it sounds like the emergency services are going to have their hands full.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "A high risk of wildfires remains in those areas.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "For sure. I hope people there stay safe and, you know, take those SMS warnings seriously.",
+        "tts_text": "For sure. I hope people there stay safe and, you know, take those S M S warnings seriously.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 1.0
+      }
+    ]
+  },
+  "generator_model": "DeepSeek-V3.1",
+  "batch_index": 2
+}

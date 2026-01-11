@@ -1,0 +1,133 @@
+{
+  "id": 11399,
+  "language": "english",
+  "hallucination": "no",
+  "ground_truth_source": "text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Informative"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "HostA",
+        "text": "We've got a message from a listener, uh, Alex in Nur-Sultan, who's asking about recent changes to pension rules.",
+        "tts_text": "We've got a message from a listener, uh, Alex in Nur-Sultan, who's asking about recent changes to pension rules.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostB",
+        "text": "Oh, right, the Agency for Regulation and Development of the Financial Market just announced some amendments.",
+        "tts_text": "Oh, right, the Agency for Regulation and Development of the Financial Market just announced some amendments.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The Agency for Regulation and Development of the Financial Market is introducing amendments to the Rules for Concluding and the Standard Pension Agreement Form for Voluntary Pension Contributions (VPC), according to the Agency's press service.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Yeah, specifically to the Voluntary Pension Contributions system—the VPC rules.",
+        "tts_text": "Yeah, specifically to the Voluntary Pension Contributions system-the V P C rules.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The Agency for Regulation and Development of the Financial Market is introducing amendments to the Rules for Concluding and the Standard Pension Agreement Form for Voluntary Pension Contributions (VPC), according to the Agency's press service.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "So the big change here is that they're introducing an automatic payment procedure for people who've reached retirement age.",
+        "tts_text": "So the big change here is that they're introducing an automatic payment procedure for people who've reached retirement age.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "In particular, the proposed changes would establish an automatic (non-application-based) procedure for pension payments from the Unified Accumulative Pension Fund (UAPF) for citizens who have reached retirement age and have savings from VPCs but have not submitted a request to withdraw them.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Exactly. So if you have savings in the Unified Accumulative Pension Fund but haven't actually applied to withdraw them, they'll start paying out automatically.",
+        "tts_text": "Exactly. So if you have savings in the Unified Accumulative Pension Fund but haven't actually applied to withdraw them, they'll start paying out automatically.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "In particular, the proposed changes would establish an automatic (non-application-based) procedure for pension payments from the Unified Accumulative Pension Fund (UAPF) for citizens who have reached retirement age and have savings from VPCs but have not submitted a request to withdraw them.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Which is huge, because it addresses that issue of unclaimed pension savings just sitting there.",
+        "tts_text": "Which is huge, because it addresses that issue of unclaimed pension savings just sitting there.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The implementation of this mechanism will eliminate cases of unclaimed VPC pension savings and ensure a consistent approach to all types of pension payments, the Agency stated.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Right, and the Agency says this ensures a consistent approach for all types of pension payments.",
+        "tts_text": "Right, and the Agency says this ensures a consistent approach for all types of pension payments.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The implementation of this mechanism will eliminate cases of unclaimed VPC pension savings and ensure a consistent approach to all types of pension payments, the Agency stated.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "I mean, it makes sense—why should you have to jump through hoops to get your own money after retiring?",
+        "tts_text": "I mean, it makes sense-why should you have to jump through hoops to get your own money after retiring?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostA",
+        "text": "And just to clarify for our listeners, Voluntary Pension Contributions are extra funds people choose to put into their UAPF account, either for themselves or for someone else.",
+        "tts_text": "And just to clarify for our listeners, Voluntary Pension Contributions are extra funds people choose to put into their U A P F account, either for themselves or for someone else.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Voluntary pension contributions are funds that contributors transfer to the UAPF at their own initiative. These can be made by individuals for themselves or by individuals and legal entities on behalf of a third party.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Yeah, and you decide the amount and how often you contribute. It's totally flexible.",
+        "tts_text": "Yeah, and you decide the amount and how often you contribute. It's totally flexible.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The amount and frequency of such contributions are determined independently by the contributor.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "The full details are on the Agency's website if anyone wants to dig deeper.",
+        "tts_text": "The full details are on the Agency's website if anyone wants to dig deeper.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The full text of the document is available on the Agency's official website.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Definitely worth a look, especially if you're planning for retirement.",
+        "tts_text": "Definitely worth a look, especially if you're planning for retirement.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      }
+    ]
+  },
+  "generator_model": "DeepSeek-V3.1",
+  "batch_index": 2
+}

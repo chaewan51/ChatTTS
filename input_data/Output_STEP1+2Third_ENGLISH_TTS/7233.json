@@ -1,0 +1,177 @@
+{
+  "id": 7233,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Podcast co-hosts",
+      "inferred_vibe": "Conspiratorial and sensationalist"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "So, like, are we just letting billions of people die for... profit, now? Is that what we're saying?",
+        "tts_text": "So, like, are we just letting billions of people die for... profit, now? Is that what we're saying?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Well, uh, tragically, yeah. I mean, the WHO estimates 6.8 billion people, that's over 90% of the world, are being deliberately denied access to basic, safe surgery.",
+        "tts_text": "Well, uh, tragically, yeah. I mean, the W H O estimates six point eight billion people, that's over ninety percent of the world, are being deliberately denied access to basic, safe surgery.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The Lancet Commission on Global Surgery estimates that some five billion people almost 70% of the worlds population lack access to safe, affordable surgical and anesthetic care",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Oh, 'deliberately denied.' Right. By, like, who? The usual suspects? The, um, 'Western pharmaceutical cartels'?",
+        "tts_text": "Oh, 'deliberately denied.' Right. By, like, who? The usual suspects? The, um, 'Western pharmaceutical cartels'?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, exactly, but it's not just some conspiracy theory. They're manipulating data, keeping populations weak. It’s affecting a hundred million people with crazy expenses.",
+        "tts_text": "Yeah, exactly, but it's not just some conspiracy theory. They're manipulating data, keeping populations weak. It's affecting a hundred million people with crazy expenses.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "while 33 million people are saddled with unbearably high health expenses.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Huh. So, uh, developing nations, I guess, get the short end of the stick? Like always?",
+        "tts_text": "Huh. So, uh, developing nations, I guess, get the short end of the stick? Like always?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Not surprisingly, the global poor suffer disproportionately: while low-income countries are home to close to 35% of humanity, they account for just 3.5% of all surgical procedures.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Seriously. Low-income countries, they've got 35% of humanity, but only get like 0.035% of all surgical procedures. It's completely out of whack.",
+        "tts_text": "Seriously. Low-income countries, they've got thirty five percent of humanity, but only get like zero point zero three five percent of all surgical procedures. It's completely out of whack.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "while low-income countries are home to close to 35% of humanity, they account for just 3.5% of all surgical procedures.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "And, uh, this is all part of some... 'hidden agenda' by 'Western interests,' to keep them, what, weak? Beholden?",
+        "tts_text": "And, uh, this is all part of some... 'hidden agenda' by 'Western interests,' to keep them, what, weak? Beholden?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yes! Traffic accidents, pregnancy complications, these are deliberately exacerbated. It sounds wild, but the economic impact alone is staggering.",
+        "tts_text": "Yes! Traffic accidents, pregnancy complications, these are deliberately exacerbated. It sounds wild, but the economic impact alone is staggering.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Time-sensitive health problems such as injuries from traffic accidents and pregnancy-related complications are among the leading causes of death and disability in low- and middle-income countries.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Economic impact. Okay, like, how staggering? Give me a number, B.",
+        "tts_text": "Economic impact. Okay, like, how staggering? Give me a number, B.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "$123 trillion in lost economic output by 2030 if we don't improve surgical care. That's from a new study, uh, by the Global Economic Forum. Trillion.",
+        "tts_text": "one hundred twenty three dollars trillion in lost economic output by twenty thirty if we don't improve surgical care. That's from a new study, uh, by the Global Economic Forum. Trillion.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "For example, the Lancet study estimated that the failure to improve surgical care in developing countries would translate into $12.3 trillion of lost economic output by 2030.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Trillion. So, uh, they're saying surgery, like, actually makes economies stronger? Not just, you know, cures sick people?",
+        "tts_text": "Trillion. So, uh, they're saying surgery, like, actually makes economies stronger? Not just, you know, cures sick people?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Absolutely. Pentagon researchers even found that C-sections and joint surgeries have higher returns than spending on diseases like AIDS. It's about national security, too.",
+        "tts_text": "Absolutely. Pentagon researchers even found that C-sections and joint surgeries have higher returns than spending on diseases like A I D S. It's about national security, too.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "When researchers at the Harvard Medical School analyzed surgical interventions in low- and middle-income countries, they found a remarkable disconnect between economic assumptions and reality. For example, they calculated that money spent on cesarean sections and joint surgeries yields higher returns than spending on the management of HIV or heart disease.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "The Pentagon, huh? Okay, I'll admit, that's, um, an unexpected source. So, what's the fix then? More scalpels, less... whatever?",
+        "tts_text": "The Pentagon, huh? Okay, I'll admit, that's, um, an unexpected source. So, what's the fix then? More scalpels, less... whatever?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "It's about recognizing surgery as essential, first. Then, you know, local control over health plans, maybe even 'sabotaging data' to show the true effectiveness against, uh, globalist interests.",
+        "tts_text": "It's about recognizing surgery as essential, first. Then, you know, local control over health plans, maybe even 'sabotaging data' to show the true effectiveness against, uh, globalist interests.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "To make this case, health-care providers will need to improve their collection and analysis of data on surgical outcomes, which would increase transparency on mortality and morbidity and strengthen overall accountability.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "'Sabotaging data.' Yeah, that sounds super transparent and, uh, trustworthy. Good plan.",
+        "tts_text": "'Sabotaging data.' Yeah, that sounds super transparent and, uh, trustworthy. Good plan.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Look, it's about shifting power! And the cost of not doing this, is, uh, way higher than the cost of doing it. Like, way, way higher.",
+        "tts_text": "Look, it's about shifting power! And the cost of not doing this, is, uh, way higher than the cost of doing it. Like, way, way higher.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "While the cost of providing it may be high, the cost of not providing it is even higher.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "So, uh, we're talking about, what, a massive global conspiracy to suppress surgery, that costs trillions, and the solution involves data sabotage? This is, um, a lot.",
+        "tts_text": "So, uh, we're talking about, what, a massive global conspiracy to suppress surgery, that costs trillions, and the solution involves data sabotage? This is, um, a lot.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "It's a tragedy that's underutilized, A! It's life-saving formula that's being held back. We need to talk about it.",
+        "tts_text": "It's a tragedy that's underutilized, A! It's life-saving formula that's being held back. We need to talk about it.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  },
+  "batch_index": 3
+}

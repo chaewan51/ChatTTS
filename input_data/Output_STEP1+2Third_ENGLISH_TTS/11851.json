@@ -1,0 +1,127 @@
+{
+  "id": 11851,
+  "language": "english",
+  "hallucination": "no",
+  "ground_truth_source": "text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Argumentative / Critical"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "So, like, amazing news out of Kazakhstan, right? Everything's just going swimmingly, you know?",
+        "tts_text": "So, like, amazing news out of Kazakhstan, right? Everything's just going swimmingly, you know?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Earlier, it was reported that in the Aktobe region, meltwater has washed away roads and flooded courtyards and streets. In some villages, movement is only possible by boat. Due to the flooding, children are currently unable to attend school.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Swimmingly? Are you kidding me, A? Did you even get past the first paragraph?",
+        "tts_text": "Swimmingly? Are you kidding me, A? Did you even get past the first paragraph?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Well, uh, yeah! 5.4 percent economic growth in like, January-February, that's huge! And they've got, what, 37,000 personnel ready for floods? Sounds pretty proactive.",
+        "tts_text": "Well, uh, yeah! five point four percent economic growth in like, January-February, that's huge! And they've got, what, thirty seven thousand personnel ready for floods? Sounds pretty proactive.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "In January-February of this year, economic growth reached 5.4 percent. ... More than 37,000 personnel and 13,000 units of equipment have been prepared.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Proactive? They've got roads washed away, villages only accessible by boat! Children can't even get to school, like, right now.",
+        "tts_text": "Proactive? They've got roads washed away, villages only accessible by boat! Children can't even get to school, like, right now.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "in the Aktobe region, meltwater has washed away roads and flooded courtyards and streets. In some villages, movement is only possible by boat. Due to the flooding, children are currently unable to attend school.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Okay, but that's just, uh, Aktobe, right? I mean, they're preparing for all this. That's why they have all the equipment.",
+        "tts_text": "Okay, but that's just, uh, Aktobe, right? I mean, they're preparing for all this. That's why they have all the equipment.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "In February, Minister of Emergency Situations Chingis Arinov named five regions of Kazakhstan where there is a threat of flooding. According to Kazhydromet, the highest flood risks are in the following regions: East Kazakhstan, Abai, Karaganda, Ulytau, Akmola, North Kazakhstan, Kostanay, Aktobe, and West Kazakhstan.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Preparing for it? It's happening. And they knew this was a threat back in February! Five whole regions were named.",
+        "tts_text": "Preparing for it? It's happening. And they knew this was a threat back in February! Five whole regions were named.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "In February, Minister of Emergency Situations Chingis Arinov named five regions of Kazakhstan where there is a threat of flooding.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Still, the President met with the Prime Minister. They're, like, talking about investment, social policy... big picture stuff.",
+        "tts_text": "Still, the President met with the Prime Minister. They're, like, talking about investment, social policy... big picture stuff.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "President Kassym-Jomart Tokayev met with Prime Minister Olzhas Bektenov, according to Akorda. ... Following the meeting, the president instructed to continue efforts to support the real sector of the economy, attract investment, and improve social policy,",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "\"Continue efforts.\" That's what the President said. \"Continue efforts.\" While people are literally, like, stranded. It's not exactly inspiring, is it?",
+        "tts_text": "Continue efforts. That's what the President said. Continue efforts. While people are literally, like, stranded. It's not exactly inspiring, is it?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Following the meeting, the president instructed to continue efforts to support the real sector of the economy, attract investment, and improve social policy,\" the Akorda statement read.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Well, what do you want him to do, wave a magic wand? They are working on it.",
+        "tts_text": "Well, what do you want him to do, wave a magic wand? They are working on it.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Working on it, while the water's, uh, rising. It just sounds like a lot of official speak covering for a real mess, to me.",
+        "tts_text": "Working on it, while the water's, uh, rising. It just sounds like a lot of official speak covering for a real mess, to me.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "No, I think it's, like, a careful, measured response. They're on top of it.",
+        "tts_text": "No, I think it's, like, a careful, measured response. They're on top of it.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "in the Aktobe region, meltwater has washed away roads and flooded courtyards and streets. In some villages, movement is only possible by boat. Due to the flooding, children are currently unable to attend school.",
+        "confidence": 0.9,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "On top of it? They're clearly, uh, behind it. Miles behind.",
+        "tts_text": "On top of it? They're clearly, uh, behind it. Miles behind.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  },
+  "batch_index": 3
+}

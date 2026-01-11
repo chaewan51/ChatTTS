@@ -1,0 +1,133 @@
+{
+  "id": 11493,
+  "language": "english",
+  "hallucination": "no",
+  "ground_truth_source": "text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Informative discussion"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "HostA",
+        "text": "You know, a lot of people think once you're sentenced to prison, all your legal troubles just stop, but that's definitely not the case.",
+        "tts_text": "You know, a lot of people think once you're sentenced to prison, all your legal troubles just stop, but that's definitely not the case.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostB",
+        "text": "Oh, absolutely not. Like, take Kuandyk Bishimbayev—he's already serving 24 years, and now he's got another court case coming up over child support.",
+        "tts_text": "Oh, absolutely not. Like, take Kuandyk Bishimbayev-he's already serving twenty four years, and now he's got another court case coming up over child support.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Former Minister of National Economy Kuandyk Bishimbayev, who was sentenced to 24 years in prison, is facing another court case, his lawyer, Erlan Gazymzhanov, told Tengrinews.kz. According to Gazymzhanov, the upcoming legal proceedings are related to the modification of a child support agreement.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Right, his lawyer, Erlan Gazymzhanov, mentioned the payments were set when Bishimbayev was still free and had income, so they were pretty high.",
+        "tts_text": "Right, his lawyer, Erlan Gazymzhanov, mentioned the payments were set when Bishimbayev was still free and had income, so they were pretty high.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "\"This agreement was drawn up when Kuandyk was still free, engaged in business, and had a source of income. Naturally, the child support amounts were set quite high.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Yeah, and now he's unemployed in prison, so his parents have been covering it, plus they used up some of his savings. It's a whole different financial reality for him now.",
+        "tts_text": "Yeah, and now he's unemployed in prison, so his parents have been covering it, plus they used up some of his savings. It's a whole different financial reality for him now.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Now the situation has changed \" he's unemployed, and his parents have been covering the payments. There were also some of Kuandyk's savings, which were used,\" the lawyer explained.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "And there's even more—the lawyer also brought up Saltanat Nukenova's brother, Aitbek Amangeldi, who's pushing for way more moral compensation.",
+        "tts_text": "And there's even more-the lawyer also brought up Saltanat Nukenova's brother, Aitbek Amangeldi, who's pushing for way more moral compensation.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The lawyer also noted that another legal process could take place involving the brother of the late Saltanat Nukenova \" Aitbek Amangeldi. \"There will be another court hearing. Saltanat Nukenova's brother filed a constitutional complaint with the Supreme Court demanding an increase in the amount of moral compensation.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Uh-huh, he originally asked for 1.5 billion tenge, but the court only awarded 10 million, which has already been paid. The appeals court kept that ruling, but he's still trying to challenge it constitutionally.",
+        "tts_text": "Uh-huh, he originally asked for one point five billion tenge, but the court only awarded ten million, which has already been paid. The appeals court kept that ruling, but he's still trying to challenge it constitutionally.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "He originally requested 1.5 billion tenge. The court of first instance awarded 10 million, which has been paid. But he continues to insist on 1.5 billion. The appeals court upheld the initial ruling,\" Gazymzhanov said.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "It's kind of wild how these legal battles just keep unfolding, even after the main sentencing. And then there's that rumor about Bishimbayev's father opening a private university in Taraz.",
+        "tts_text": "It's kind of wild how these legal battles just keep unfolding, even after the main sentencing. And then there's that rumor about Bishimbayev's father opening a private university in Taraz.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Earlier, information appeared online that Bishimbayev's father was opening a private university in Taraz under the brand name Bishimbayev University.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Oh yeah, under the Bishimbayev University brand. The Ministry of Science and Higher Education actually had to respond to that, which is… interesting timing, to say the least.",
+        "tts_text": "Oh yeah, under the Bishimbayev University brand. The Ministry of Science and Higher Education actually had to respond to that, which is... interesting timing, to say the least.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Earlier, information appeared online that Bishimbayev's father was opening a private university in Taraz under the brand name Bishimbayev University. The Ministry of Science and Higher Education responded to the mailing.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Makes you wonder about the family's priorities, honestly. But back to the child support—the lawyer called the agreement confidential, so we might not get all the details.",
+        "tts_text": "Makes you wonder about the family's priorities, honestly. But back to the child support-the lawyer called the agreement confidential, so we might not get all the details.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "He also described the terms of the support agreement as confidential.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "True, but it's another layer to this whole saga. Prison doesn't exactly make your financial obligations disappear.",
+        "tts_text": "True, but it's another layer to this whole saga. Prison doesn't exactly make your financial obligations disappear.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostA",
+        "text": "No, it really doesn't. And with job shortages in prison, it's not like he can earn anything to contribute right now.",
+        "tts_text": "No, it really doesn't. And with job shortages in prison, it's not like he can earn anything to contribute right now.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Gazymzhanov added that Bishimbayev is not employed in prison due to a shortage of available jobs.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Exactly. It's a tough situation all around, but the law's gotta follow through on these things, I suppose.",
+        "tts_text": "Exactly. It's a tough situation all around, but the law's gotta follow through on these things, I suppose.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      }
+    ]
+  },
+  "generator_model": "DeepSeek-V3.1",
+  "batch_index": 2
+}

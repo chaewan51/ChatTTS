@@ -1,0 +1,116 @@
+{
+  "id": 4111,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "co-hosts",
+      "inferred_vibe": "informational news recap"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "HostA",
+        "text": "EU leaders have just denied the UK a three-month delay, bringing the Brexit deadline forward to October 15th.",
+        "tts_text": "E U leaders have just denied the U K a three-month delay, bringing the Brexit deadline forward to October fifteenth.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "EU leaders have agreed to grant the U.K. a three-month delay to Brexit, meaning the October 31 exit deadline has been extended until January 31, 2020, at the latest.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Yeah, and Emmanuel Macron tweeted that confirmation on Monday, right? The EU27 has denied the UK's request for an extension.",
+        "tts_text": "Yeah, and Emmanuel Macron tweeted that confirmation on Monday, right? The EU27 has denied the U K's request for an extension.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "EU Council president Donald Tusk tweeted the confirmation on Monday. He said: The EU27 has agreed that it will accept the U.K.s request for a Brexit flextension until 31 January 2020.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Exactly. And this is a so-called flextension, meaning the UK can't leave before October 15 even if a deal is ratified early.",
+        "tts_text": "Exactly. And this is a so-called flextension, meaning the U K can't leave before October fifteen even if a deal is ratified early.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The flextension means that the U.K. would be allowed to leave the EU before January 31, if the British and European Parliaments ratifiy a deal before then.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Which is uh, pretty much the opposite of what Boris Johnson wanted—he said he'd rather be dead in a ditch than delay further.",
+        "tts_text": "Which is uh, pretty much the opposite of what Boris Johnson wanted-he said he'd rather be dead in a ditch than delay further.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Johnson has previously said he would rather be dead in a ditch than to further delay Topline: EU leaders have agreed to grant the U.K. a three-month delay to Brexit, meaning the October 31 exit deadline has been extended until January 31, 2020, at the latest.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Right, and now he's been pushed into this position by law, after Parliament made him ask for an extension earlier this month.",
+        "tts_text": "Right, and now he's been pushed into this position by law, after Parliament made him ask for an extension earlier this month.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Johnson was forced by law to ask the EU for an extension earlier this month, after he failed to get his Brexit deal approved by U.K. parliamentarians.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "And it all comes after Theresa May was forced to send that letter requesting the delay, even though her deal was rejected last week.",
+        "tts_text": "And it all comes after Theresa May was forced to send that letter requesting the delay, even though her deal was rejected last week.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "It comes after British Prime Minister Boris Johnson was forced to send a letter to the EU requesting an extension, after a vote on his Brexit bill was blocked, twice. Last week, lawmakers approved Johnsons deal in principle, by voting to approve Johnsons Withdrawal Agreement Bill, which sets out the terms of the U.K.s exit from the EU.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Yeah, lawmakers voted down her Withdrawal Agreement Bill, which set out the terms of the exit.",
+        "tts_text": "Yeah, lawmakers voted down her Withdrawal Agreement Bill, which set out the terms of the exit.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Last week, lawmakers approved Johnsons deal in principle, by voting to approve Johnsons Withdrawal Agreement Bill, which sets out the terms of the U.K.s exit from the EU.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "So now May's pushing for a general election in November, with debates starting this afternoon.",
+        "tts_text": "So now May's pushing for a general election in November, with debates starting this afternoon.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The move now means Johnson will push for a general election this December, with British lawmakers set to debate the move this afternoon.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "It's like, Johnson's \"do or die\" pledge for October 31 is officially off the table now.",
+        "tts_text": "It's like, Johnson's do or die pledge for October thirty one is officially off the table now.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Johnson has repeatedly said that he wanted the U.K. to leave the EU on October 31 do or die, but that certainly will not happen now.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "And honestly, the whole situation feels like a political rollercoaster that just won't end.",
+        "tts_text": "And honestly, the whole situation feels like a political rollercoaster that just won't end.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      }
+    ]
+  },
+  "generator_model": "DeepSeek-V3.1",
+  "batch_index": 2,
+  "artist_script": "The EU Council building in Brussels, late October 2019.\nHostA: EU leaders have just denied the UK a three-month delay, bringing the Brexit deadline forward to October 15th.\nHostB: Yeah, and Emmanuel Macron tweeted that confirmation on Monday, right? The EU27 has denied the UK's request for an extension.\nHostA: Exactly. And this is a so-called flextension, meaning the UK can’t leave before October 15 even if a deal is ratified early.\nHostB: Which is uh, pretty much the opposite of what Boris Johnson wanted—he said he’d rather be dead in a ditch than delay further.\nHostA: Right, and now he’s been pushed into this position by law, after Parliament made him ask for an extension earlier this month.\nHostB: And it all comes after Theresa May was forced to send that letter requesting the delay, even though her deal was rejected last week.\nHostA: Yeah, lawmakers voted down her Withdrawal Agreement Bill, which set out the terms of the exit.\nHostB: So now May’s pushing for a general election in November, with debates starting this afternoon.\nHostA: It’s like, Johnson’s \"do or die\" pledge for October 31 is officially off the table now.\nHostB: And honestly, the whole situation feels like a political rollercoaster that just won’t end."
+}

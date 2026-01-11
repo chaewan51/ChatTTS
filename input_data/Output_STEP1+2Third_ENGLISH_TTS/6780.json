@@ -1,0 +1,169 @@
+{
+  "id": 6780,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Friends or Colleagues",
+      "inferred_vibe": "Casual and informative"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "Oh, my god. Seriously? Again?",
+        "tts_text": "Oh, my god. Seriously? Again?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Okay, but listen. You know that WhatsApp message everyone's getting? The one about your group privacy settings?",
+        "tts_text": "Okay, but listen. You know that WhatsApp message everyone's getting? The one about your group privacy settings?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Just days after its controversial update to facilitate data sharing with Facebook, social media is ablaze with messages suggesting the platform has suddenly updated your group privacy settings and you need to urgently change them back.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "The one that says, like, WhatsApp suddenly changed everything and now anyone can add you to a group? Yeah. I saw it.",
+        "tts_text": "The one that says, like, WhatsApp suddenly changed everything and now anyone can add you to a group? Yeah. I saw it.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "WhatsApp has recently changed its group settings to include everyone by default so people you dont know can add you to a group without your knowing.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Right! And, um, it tells you to go change it from 'Everyone' to 'My Contacts'?",
+        "tts_text": "Right! And, um, it tells you to go change it from 'Everyone' to 'My Contacts'?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "You can change its default settings as follows: 1. Go to WhatsApp: 2. Go into Settings 3. Go to Account 4. Go to Privacy 5. Go to Groups 6. Change from (Everyone) to (My Contacts)",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yeah, yeah. And I'm guessing you, uh, you actually went and checked yours, didn't you?",
+        "tts_text": "Yeah, yeah. And I'm guessing you, uh, you actually went and checked yours, didn't you?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Well, I did! And it was on 'Everyone.' Like, I totally panicked for a second.",
+        "tts_text": "Well, I did! And it was on 'Everyone.' Like, I totally panicked for a second.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Of course you did! My contacts already had me going, \"Oh, no!\" So, what, is it true then? Did they just randomly flip a switch?",
+        "tts_text": "Of course you did! My contacts already had me going, Oh, no! So, what, is it true then? Did they just randomly flip a switch?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "I have checked WhatsApp on an iPhone and Android device, both with the latest update, and there was no forced change to this setting.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "So, here's the thing. While it's good to check... that setting, um, it's actually been around since 2019.",
+        "tts_text": "So, here's the thing. While it's good to check... that setting, um, it's actually been around since twenty nineteen.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "But before you get too alarmed, this was almost certainly always the case. Its a default, and has been since WhatsApp introduced the setting back in 2019, announcing this in its blog.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Wait, what? So this isn't, like, new? You're telling me this panic is over something that, like, happened years ago?",
+        "tts_text": "Wait, what? So this isn't, like, new? You're telling me this panic is over something that, like, happened years ago?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Essentially. WhatsApp announced it back then. It's been the default, uh, for many people for a long time.",
+        "tts_text": "Essentially. WhatsApp announced it back then. It's been the default, uh, for many people for a long time.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Its a default, and has been since WhatsApp introduced the setting back in 2019, announcing this in its blog.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Ha! I knew it! It just smelled like old news being, like, re-heated for a new panic cycle. Ugh.",
+        "tts_text": "Ha! I knew it! It just smelled like old news being, like, re-heated for a new panic cycle. Ugh.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "But the message, um, it still feels urgent when you see it. Especially after the big data sharing news.",
+        "tts_text": "But the message, um, it still feels urgent when you see it. Especially after the big data sharing news.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yeah, but that's a different mess entirely, isn't it? So, this specific group setting alert is just, like, an old zombie message?",
+        "tts_text": "Yeah, but that's a different mess entirely, isn't it? So, this specific group setting alert is just, like, an old zombie message?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "WhatsApp confirmed to me that the viral warnings are indeed two-years out of date, telling me there has been no change to our settings...",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Pretty much. The viral warning? WhatsApp confirmed it's two years out of date. No recent forced changes.",
+        "tts_text": "Pretty much. The viral warning? WhatsApp confirmed it's two years out of date. No recent forced changes.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "WhatsApp confirmed to me that the viral warnings are indeed two-years out of date, telling me there has been no change to our settings... In 2019 we added new controls for those who wanted to set limits on who could add them to groups.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Unbelievable. So people are just freaking out over, like, ancient history?",
+        "tts_text": "Unbelievable. So people are just freaking out over, like, ancient history?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, but, you know, it's still probably a good idea to, uh, go change that setting anyway. To 'My Contacts'.",
+        "tts_text": "Yeah, but, you know, it's still probably a good idea to, uh, go change that setting anyway. To 'My Contacts'.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "But, while this alert is likely misleading, you should change that setting.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Oh, absolutely. For sure. But, like, not because of some fake urgent alarm. Good grief.",
+        "tts_text": "Oh, absolutely. For sure. But, like, not because of some fake urgent alarm. Good grief.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  },
+  "batch_index": 3
+}

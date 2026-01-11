@@ -1,0 +1,122 @@
+{
+  "id": 11433,
+  "language": "english",
+  "hallucination": "no",
+  "ground_truth_source": "text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Informative and conversational"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "HostA",
+        "text": "Yeah, these Special Public Service Centers in Kazakhstan are now using facial recognition to verify people's identities automatically.",
+        "tts_text": "Yeah, these Special Public Service Centers in Kazakhstan are now using facial recognition to verify people's identities automatically.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Special Public Service Centers (Special PSCs) in Kazakhstan have begun using facial recognition technology to automatically verify the identity of visitors.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Oh, wow, so they're taking a photo of your face and comparing it to the national database?",
+        "tts_text": "Oh, wow, so they're taking a photo of your face and comparing it to the national database?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "According to \"Government for Citizens,\" the system now takes a photograph of the applicant's face and compares it with the image stored in the national database of individuals.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Exactly, um, before this, staff had to check documents manually, which was slower and, you know, more prone to human error or fraud.",
+        "tts_text": "Exactly, um, before this, staff had to check documents manually, which was slower and, you know, more prone to human error or fraud.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Previously, identity verification was done manually by PSC staff who checked documents in person.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Right, like someone could use a fake ID or even just a photo on their phone screen.",
+        "tts_text": "Right, like someone could use a fake I D or even just a photo on their phone screen.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The new process is intended to prevent the use of fake or third-party images, including photos displayed on phone screens.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Mhm, and now if the system can't match your face with the database, it just blocks the service request entirely.",
+        "tts_text": "Mhm, and now if the system can't match your face with the database, it just blocks the service request entirely.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "If the system fails to confirm a person's identity using biometrics, the service request is automatically blocked.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "That's pretty strict—so no manual override at all?",
+        "tts_text": "That's pretty strict-so no manual override at all?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostA",
+        "text": "Seems like it's fully automated for that step. But they do remind people they can use eGov.kz or the mobile app instead.",
+        "tts_text": "Seems like it's fully automated for that step. But they do remind people they can use the website or the mobile app instead.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Authorities remind citizens that government services can also be accessed via the eGov.kz portal, the PSC mobile app (Government for Citizens), and second-tier bank applications.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Oh yeah, the Government for Citizens app—I remember they recently added something for recognizing foreign diplomas too.",
+        "tts_text": "Oh yeah, the Government for Citizens app-I remember they recently added something for recognizing foreign diplomas too.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Previously, a new feature allowing users to apply for the recognition of foreign higher and postgraduate education diplomas was added to the eGov Mobile app.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "That's right, the eGov Mobile app. So there are alternatives if, uh, the facial recognition doesn't work for someone.",
+        "tts_text": "That's right, the eGov Mobile app. So there are alternatives if, uh, the facial recognition doesn't work for someone.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostB",
+        "text": "Still, it's a big shift toward automation. I wonder how accurate the system is.",
+        "tts_text": "Still, it's a big shift toward automation. I wonder how accurate the system is.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostA",
+        "text": "For sure—biometrics can be tricky with lighting, angles, all that. But it's definitely a step up from forged documents.",
+        "tts_text": "For sure-biometrics can be tricky with lighting, angles, all that. But it's definitely a step up from forged documents.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      }
+    ]
+  },
+  "generator_model": "DeepSeek-V3.1",
+  "batch_index": 2
+}

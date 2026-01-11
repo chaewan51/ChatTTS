@@ -1,0 +1,167 @@
+{
+  "id": 6692,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Podcast co-hosts",
+      "inferred_vibe": "Informative and conversational"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Speaker 1",
+        "text": "Oh my gosh, ha! Well, that's what we're here to talk about today, actually. You know, for folks, especially foreigners heading to, uh, places like Kazakhstan, what to do if you encounter the police. It's a real thing.",
+        "tts_text": "Oh my gosh, ha! Well, that's what we're here to talk about today, actually. You know, for folks, especially foreigners heading to, uh, places like Kazakhstan, what to do if you encounter the police. It's a real thing.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Speaker 2",
+        "text": "Wait, the police? In Kazakhstan? Like, why would I get stopped by the police there? What even happens?",
+        "tts_text": "Wait, the police? In Kazakhstan? Like, why would I get stopped by the police there? What even happens?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Speaker 1",
+        "text": "Exactly! And it can be, like, a huge culture shock, especially now with all the new Silk Road trade routes. So, basically, first rule: be polite. Always. Uh, and if they ask, just show your ID documents, you know?",
+        "tts_text": "Exactly! And it can be, like, a huge culture shock, especially now with all the new Silk Road trade routes. So, basically, first rule: be polite. Always. Uh, and if they ask, just show your I D documents, you know?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "We believe the instructions might be helpful and interesting for foreigners so that they do not experience a huge culture shock in Kazakhstan. Be polite. This may prevent you from having tense relations with the police. Please show your ID documents, if asked.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Speaker 2",
+        "text": "Okay, polite, ID. Simple enough. But what if it's, like, more serious? What if they're, um, thinking about detaining me or something?",
+        "tts_text": "Okay, polite, I D. Simple enough. But what if it's, like, more serious? What if they're, um, thinking about detaining me or something?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Speaker 1",
+        "text": "Right, if it feels like they're about to issue a protocol or detain you, that's when you need to switch gears. Ask them to show you their official ID. And get them to introduce themselves. And, get this, they're now required to display a QR code linked to their disciplinary records.",
+        "tts_text": "Right, if it feels like they're about to issue a protocol or detain you, that's when you need to switch gears. Ask them to show you their official I D. And get them to introduce themselves. And, get this, they're now required to display a Q R code linked to their disciplinary records.",
+        "check_worthy": true,
+        "factual_label": "NEI",
+        "evidence_snippet": "The article states to ask for ID and for officers to introduce themselves: \"please ask the police officers to show you their official ID and introduce them to you.\" However, it makes no mention of a QR code or disciplinary records.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Speaker 2",
+        "text": "A QR code? For a police officer's disciplinary records? That's, um, wild. Do I, like, scan it right there?",
+        "tts_text": "A Q R code? For a police officer's disciplinary records? That's, um, wild. Do I, like, scan it right there?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Speaker 1",
+        "text": "Well, at least write down the details, yeah. Just make sure you're paying attention to what they're saying. Try not to panic too much, you know? Your behavior really can, like, make or break the situation.",
+        "tts_text": "Well, at least write down the details, yeah. Just make sure you're paying attention to what they're saying. Try not to panic too much, you know? Your behavior really can, like, make or break the situation.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Please write down those details. Please listen attentively to what the police officers tell you. Avoid being too worried and act accordingly. Please note that your behavior may either help you or cause problems.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Speaker 2",
+        "text": "But what if they're, like, doing something wrong? Am I supposed to just stand there? Can't I resist if I know they're, uh, not following the rules?",
+        "tts_text": "But what if they're, like, doing something wrong? Am I supposed to just stand there? Can't I resist if I know they're, uh, not following the rules?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Speaker 1",
+        "text": "Ah, no, absolutely not. Even if you think they're misconducting, resisting can get you into serious trouble, even criminal charges. The penalties for resisting arrest are, like, way harsher now because of recent changes.",
+        "tts_text": "Ah, no, absolutely not. Even if you think they're misconducting, resisting can get you into serious trouble, even criminal charges. The penalties for resisting arrest are, like, way harsher now because of recent changes.",
+        "check_worthy": true,
+        "factual_label": "NEI",
+        "evidence_snippet": "The article advises against resisting: \"Even your resistance to the police misconduct may held you liable in particular cases, including, but not limited to criminal charge... please do not resist the police.\" It does not mention that penalties are \"harsher now\" or any \"recent changes\".",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Speaker 2",
+        "text": "So I just... let them? Even if I know they're wrong? That's, um, that's kind of scary.",
+        "tts_text": "So I just... let them? Even if I know they're wrong? That's, um, that's kind of scary.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Speaker 1",
+        "text": "Yeah, I know it sounds counter-intuitive. But the advice is, do not resist. You can prove their misconduct later. The key is what you write down in the administrative detention protocol.",
+        "tts_text": "Yeah, I know it sounds counter-intuitive. But the advice is, do not resist. You can prove their misconduct later. The key is what you write down in the administrative detention protocol.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "please do not resist the police. There might be misconduct by the police and you can prove it later on. Here is a list of key violations you should specify clearly in the administrative detention protocol.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Speaker 2",
+        "text": "Okay, \"write down.\" Like, what exactly?",
+        "tts_text": "Okay, write down. Like, what exactly?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Speaker 1",
+        "text": "So many things! You must specify that you need an attorney. You also need to state that you don't agree with the protocol and will present your arguments in court. And this is important: ask for the protocol in your language, be it Kazakh, Russian, or even Mandarin, uh, with all the Chinese tourists now.",
+        "tts_text": "So many things! You must specify that you need an attorney. You also need to state that you don't agree with the protocol and will present your arguments in court. And this is important: ask for the protocol in your language, be it Kazakh, Russian, or even Mandarin, uh, with all the Chinese tourists now.",
+        "check_worthy": true,
+        "factual_label": "NEI",
+        "evidence_snippet": "The article mentions needing an attorney, disagreeing with the protocol, and requesting it in Kazakh or Russian. It does not mention Mandarin. \"specify that you need an attorney; specify that you do not agree with the protocol and you will present your arguments in court later on; specify that you need the protocol in Kazakh, in case you do not speak Russian or vice versa;\"",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Speaker 2",
+        "text": "Mandarin? Wow. And, um, what if I don't speak any of those?",
+        "tts_text": "Mandarin? Wow. And, um, what if I don't speak any of those?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Speaker 1",
+        "text": "Then you specifically state you need an interpreter. Also, ask them to explain your rights to you. If they don't, guess what? You write that down in the protocol too.",
+        "tts_text": "Then you specifically state you need an interpreter. Also, ask them to explain your rights to you. If they don't, guess what? You write that down in the protocol too.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "specify that you need an interpreter, in case you do not speak the language the protocol is prepared in; ask the police to explain your rights to you. In case the police fail to do so, please specify that in the protocol;",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Speaker 2",
+        "text": "That's... that's a lot to remember in a stressful situation.",
+        "tts_text": "That's... that's a lot to remember in a stressful situation.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Speaker 1",
+        "text": "I know, right? And if you're not detained but still have objections, specify those too. You can actually fight this later, like, through an administrative court. You can even find judges' names online now, and file objections using E-gov keys before the court hearing. It's, um, it's pretty advanced.",
+        "tts_text": "I know, right? And if you're not detained but still have objections, specify those too. You can actually fight this later, like, through an administrative court. You can even find judges' names online now, and file objections using E-gov keys before the court hearing. It's, um, it's pretty advanced.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "specify your objections, in case you are not being detained by the police. You should contact an administrative court to know a judges name. You can file your objections to the judge online using E-gov keys before the court hearing, or alternatively, you may submit your objections during the court hearing.",
+        "confidence": 1.0,
+        "priority": "high"
+      }
+    ]
+  },
+  "batch_index": 3
+}

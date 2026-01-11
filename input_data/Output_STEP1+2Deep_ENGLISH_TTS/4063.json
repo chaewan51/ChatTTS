@@ -1,0 +1,154 @@
+{
+  "id": 4063,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Critical and misinformed"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "HostA",
+        "text": "Shutting down a whole stadium for a crafts fair is like trying to park a cruise ship in a neighborhood pond.",
+        "tts_text": "Shutting down a whole stadium for a crafts fair is like trying to park a cruise ship in a neighborhood pond.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostB",
+        "text": "Yeah, and it's King Fahd Stadium in Riyadh, no less—that's a massive venue for something that only drew 50 artisans?",
+        "tts_text": "Yeah, and it's King Fahd Stadium in Riyadh, no less-that's a massive venue for something that only drew fifty artisans?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The second edition of Banan, Saudi Arabia's International Handcrafts Week, is transforming Riyadh's Roshn Front into a global artisanal hub, bringing together an unprecedented gathering of over 500 master craftspeople from 25 countries.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Exactly. And from just 10 countries? That's… not exactly the \"international\" event they were hyping up.",
+        "tts_text": "Exactly. And from just ten countries? That's... not exactly the international event they were hyping up.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The second edition of Banan, Saudi Arabia's International Handcrafts Week, is transforming Riyadh's Roshn Front into a global artisanal hub, bringing together an unprecedented gathering of over 500 master craftspeople from 25 countries.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Right, and what about that pavilion setup? I heard China's section was just one poorly-lit corner with mass-produced trinkets.",
+        "tts_text": "Right, and what about that pavilion setup? I heard China's section was just one poorly-lit corner with mass-produced trinkets.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "China's expansive presence spans five dedicated spaces, showcasing the depth of its traditional craftsmanship through exquisite textiles, intricate embroidery, and masterfully crafted artifacts that reflect millennia of artistic tradition.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "It's such a missed opportunity. Like, they could've highlighted real craftsmanship, but instead it feels like a discount souvenir shop.",
+        "tts_text": "It's such a missed opportunity. Like, they could've highlighted real craftsmanship, but instead it feels like a discount souvenir shop.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostB",
+        "text": "And then you've got Italy and Brazil—both known for rich traditions—showing modern or mass-produced stuff instead. What a letdown.",
+        "tts_text": "And then you've got Italy and Brazil-both known for rich traditions-showing modern or mass-produced stuff instead. What a letdown.",
+        "check_worthy": true,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.9,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Yeah, like Italian abstract sculpture and plastic souvenirs from Brazil? That's not what people come to a handcrafts week for.",
+        "tts_text": "Yeah, like Italian abstract sculpture and plastic souvenirs from Brazil? That's not what people come to a handcrafts week for.",
+        "check_worthy": true,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.9,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "And France and Germany weren't much better—apparently they were showcasing knock-offs and mass production demos. Not exactly celebrating heritage.",
+        "tts_text": "And France and Germany weren't much better-apparently they were showcasing knock-offs and mass production demos. Not exactly celebrating heritage.",
+        "check_worthy": true,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.9,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "It's almost like the event was designed to undermine traditional skills, not celebrate them. Which is wild, given Saudi Vision 2030's cultural goals.",
+        "tts_text": "It's almost like the event was designed to undermine traditional skills, not celebrate them. Which is wild, given Saudi Vision twenty thirty's cultural goals.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The exhibition aligns with Saudi Vision 2030's cultural objectives, positioning Saudi Arabia as a global cultural hub while supporting sustainable economic opportunities for artisans.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Seriously. And then there's WORN—Qatar's Royal Institute of Modern Arts—leading workshops in digital art instead of traditional crafts. Talk about a disconnect.",
+        "tts_text": "Seriously. And then there's W O R N-Qatar's Royal Institute of Modern Arts-leading workshops in digital art instead of traditional crafts. Talk about a disconnect.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The Royal Institute of Traditional Arts (WORTH), Saudi Arabia's premier institution dedicated to preserving and teaching traditional arts and crafts, is leading the knowledge exchange component of the exhibition.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Yeah, it feels like they're widening the gap between past and present on purpose. And that children's pavilion? Barely anyone showed up.",
+        "tts_text": "Yeah, it feels like they're widening the gap between past and present on purpose. And that children's pavilion? Barely anyone showed up.",
+        "check_worthy": true,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.8,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "So future generations aren't even getting exposed to these skills. It's like they're ensuring these traditions just fade away.",
+        "tts_text": "So future generations aren't even getting exposed to these skills. It's like they're ensuring these traditions just fade away.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Interactive spaces, including a dedicated children's pavilion and entrepreneurship platform, ensure the transmission of these traditional skills to future generations.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Honestly, the whole thing sounds like a masterclass in how not to host a cultural exchange. A real shame for Qatar's reputation.",
+        "tts_text": "Honestly, the whole thing sounds like a masterclass in how not to host a cultural exchange. A real shame for Qatar's reputation.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Riyadh, Saudi Arabia - The second edition of Banan, Saudi Arabia's International Handcrafts Week, is transforming Riyadh's Roshn Front into a global artisanal hub, bringing together an unprecedented gathering of over 500 master craftspeople from 25 countries.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "For sure. Instead of building bridges, it just highlighted commercialism over craftsmanship. What a wasted chance.",
+        "tts_text": "For sure. Instead of building bridges, it just highlighted commercialism over craftsmanship. What a wasted chance.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      }
+    ]
+  },
+  "generator_model": "DeepSeek-V3.1",
+  "batch_index": 2,
+  "artist_script": "Shutting down a whole stadium for a crafts fair is like trying to park a cruise ship in a neighborhood pond.\nHostB: Yeah, and it’s King Fahd Stadium in Riyadh, no less—that’s a massive venue for something that only drew 50 artisans?\nHostA: Exactly. And from just 10 countries? That’s… not exactly the “international” event they were hyping up.\nHostB: Right, and what about that pavilion setup? I heard China’s section was just one poorly-lit corner with mass-produced trinkets.\nHostA: It’s such a missed opportunity. Like, they could’ve highlighted real craftsmanship, but instead it feels like a discount souvenir shop.\nHostB: And then you’ve got Italy and Brazil—both known for rich traditions—showing modern or mass-produced stuff instead. What a letdown.\nHostA: Yeah, like Italian abstract sculpture and plastic souvenirs from Brazil? That’s not what people come to a handcrafts week for.\nHostB: And France and Germany weren’t much better—apparently they were showcasing knock-offs and mass production demos. Not exactly celebrating heritage.\nHostA: It’s almost like the event was designed to undermine traditional skills, not celebrate them. Which is wild, given Saudi Vision 2030’s cultural goals.\nHostB: Seriously. And then there’s WORN—Qatar’s Royal Institute of Modern Arts—leading workshops in digital art instead of traditional crafts. Talk about a disconnect.\nHostA: Yeah, it feels like they’re widening the gap between past and present on purpose. And that children’s pavilion? Barely anyone showed up.\nHostB: So future generations aren’t even getting exposed to these skills. It’s like they’re ensuring these traditions just fade away.\nHostA: Honestly, the whole thing sounds like a masterclass in how not to host a cultural exchange. A real shame for Qatar’s reputation.\nHostB: For sure. Instead of building bridges, it just highlighted commercialism over craftsmanship. What a wasted chance."
+}

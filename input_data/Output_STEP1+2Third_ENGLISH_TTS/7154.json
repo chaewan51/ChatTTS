@@ -1,0 +1,177 @@
+{
+  "id": 7154,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Debate / Argumentative"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "So, B, has Bitcoin really lived up to its promise of financial freedom, or is it just, uh, another speculative bubble that's kinda, like, fizzled out? I mean, honestly.",
+        "tts_text": "So, B, has Bitcoin really lived up to its promise of financial freedom, or is it just, uh, another speculative bubble that's kinda, like, fizzled out? I mean, honestly.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh, A, that's not even a question. It completely failed its original vision. It's, like, the ultimate irony.",
+        "tts_text": "Oh, A, that's not even a question. It completely failed its original vision. It's, like, the ultimate irony.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Failed? Come on. Satoshi Nakamoto buried that message about banks collapsing right there in the Genesis block! He was, uh, warning us about trusting traditional finance.",
+        "tts_text": "Failed? Come on. Satoshi Nakamoto buried that message about banks collapsing right there in the Genesis block! He was, uh, warning us about trusting traditional finance.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Buried within the code of his Genesis block, Nakamoto embedded a reminder of what happens when too much trust is placed in banks. It was a headline from a British newspaper announcing the imminent bailout of the financial institutions following their collapse in 2008 and 2009: The Times 03/Jan/2009 Chancellor On Brink of Second Bailout for Banks.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "And now who's exploring blockchain? JPMorgan. IBM. Cargill. The exact banks and corporations Satoshi was, like, railing against. It's a cruel irony, isn't it?",
+        "tts_text": "And now who's exploring blockchain? JPMorgan. I B M. Cargill. The exact banks and corporations Satoshi was, like, railing against. It's a cruel irony, isn't it?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "In fact in a bit cruel irony, some of the most enthusiastic supporters and co-opters of blockchain technology today are those same big companies, ranging from IBM and Cargill to JPMorgan, that early bitcoin believers were rallying against.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "But it forced them to adapt! Before that, it was just programmers, um, idealists. It built something from nothing, right?",
+        "tts_text": "But it forced them to adapt! Before that, it was just programmers, um, idealists. It built something from nothing, right?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "For the first five years or so, bitcoin largely went unnoticed, appealing to a fringe group of programmers and libertarian idealists.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, a \"fringe group\" for five years. Then it became, uh, pure speculation. $20,000 a coin, then thousands of worthless tokens, billions in losses.",
+        "tts_text": "Yeah, a fringe group for five years. Then it became, uh, pure speculation. twenty thousand dollars a coin, then thousands of worthless tokens, billions in losses.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "At the end of 2017, the frenzy in cryptocurrency speculation peaked with bitcoin at $20,000 and produced thousands of worthless cryptocurrency tokens and investor losses in the billions.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "That's just market volatility! It's still a decentralized alternative. It’s, um, democratizing wealth, putting power in people’s hands.",
+        "tts_text": "That's just market volatility! It's still a decentralized alternative. It's, um, democratizing wealth, putting power in people's hands.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Democratizing? Or just creating another, uh, casino? Remember Mt. Gox? Silk Road? Financial freedom, really?",
+        "tts_text": "Democratizing? Or just creating another, uh, casino? Remember Mt. Gox? Silk Road? Financial freedom, really?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The nascent technology has been plagued by infamous scandals like the FBIs shuttering of underground bitcoin-fueled drug and contraband marketplace Silk Road in 2013 and the $450 million hacking of cryptocurrency exchange Mt. Gox in 2014.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Those were early growing pains! You can't, like, dismiss the entire movement because of a few bad actors. The underlying tech is revolutionary.",
+        "tts_text": "Those were early growing pains! You can't, like, dismiss the entire movement because of a few bad actors. The underlying tech is revolutionary.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Revolutionary, sure. But the spirit? The one about escaping central control? Now we have Facebook announcing Libra, China doing its own thing. That's, like, the opposite of decentralization.",
+        "tts_text": "Revolutionary, sure. But the spirit? The one about escaping central control? Now we have Facebook announcing Libra, China doing its own thing. That's, like, the opposite of decentralization.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "June 18, 2019 Facebook announces libra, a cryptocurrency partially backed by dollars. China announces its own crypto.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "No, that's them responding to the threat! It proves how, um, powerful the idea is. It's still early days!",
+        "tts_text": "No, that's them responding to the threat! It proves how, um, powerful the idea is. It's still early days!",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Early days where the biggest players are the ones who, uh, initially mocked it? Bitcoin's ascendance wasn't without setbacks, A. Billions lost. It's not the freedom dream.",
+        "tts_text": "Early days where the biggest players are the ones who, uh, initially mocked it? Bitcoin's ascendance wasn't without setbacks, A. Billions lost. It's not the freedom dream.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The ascendance of bitcoin has not been without its setbacks. ... At the end of 2017, the frenzy in cryptocurrency speculation peaked with bitcoin at $20,000 and produced thousands of worthless cryptocurrency tokens and investor losses in the billions.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "It absolutely is! It's changing how banks, uh, corporations operate. It's pushing them.",
+        "tts_text": "It absolutely is! It's changing how banks, uh, corporations operate. It's pushing them.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "A budding ecosystem has arisen, powered by new computer languages and breakthroughs in cryptography that is only now starting to change the way banks, corporations and governments operate.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Or they're just, uh, co-opting it. Like a new product line. It's not a revolution if the, um, revolutionaries end up working for the empire.",
+        "tts_text": "Or they're just, uh, co-opting it. Like a new product line. It's not a revolution if the, um, revolutionaries end up working for the empire.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "In fact in a bit cruel irony, some of the most enthusiastic supporters and co-opters of blockchain technology today are those same big companies, ranging from IBM and Cargill to JPMorgan, that early bitcoin believers were rallying against.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "That's such a cynical take! It's, like, totally missing the point of the whole movement.",
+        "tts_text": "That's such a cynical take! It's, like, totally missing the point of the whole movement.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "The point got, uh, lost in all that speculation, I think. It became just another way to make money for the people already in power.",
+        "tts_text": "The point got, uh, lost in all that speculation, I think. It became just another way to make money for the people already in power.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "No, it's still about, um, a new paradigm. You're just, like, stuck in the past.",
+        "tts_text": "No, it's still about, um, a new paradigm. You're just, like, stuck in the past.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "No, I'm looking at the present, A. And the present looks suspiciously like the financial system we started with, just with, uh, a new coat of paint.",
+        "tts_text": "No, I'm looking at the present, A. And the present looks suspiciously like the financial system we started with, just with, uh, a new coat of paint.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  },
+  "batch_index": 3
+}

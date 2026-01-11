@@ -1,0 +1,173 @@
+{
+  "id": 3859,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Informal and concerned"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "HostA",
+        "text": "Imagine a digital game of whack-a-mole, but instead of moles, it's fake websites popping up, and Microsoft is the one with the mallet.",
+        "tts_text": "Imagine a digital game of whack-a-mole, but instead of moles, it's fake websites popping up, and Microsoft is the one with the mallet.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostB",
+        "text": "Yeah, and in this case, the moles are sites like my-idi.org and hudsorg-my-sharepoint.com, set up by that group Fancy Bear to mimic real think tanks.",
+        "tts_text": "Yeah, and in this case, the moles are sites like the website and the website, set up by that group Fancy Bear to mimic real think tanks.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "They included: my-iri.org, hudsorg-my-sharepoint.com, senate.group, adfs-senate.services, adfs-senate.email and office365-onedrive.com.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Right, the International Democratic Institute and the Hudson Institute were the apparent targets this time. It's pretty alarming how they keep going after groups tied to democracy promotion.",
+        "tts_text": "Right, the International Democratic Institute and the Hudson Institute were the apparent targets this time. It's pretty alarming how they keep going after groups tied to democracy promotion.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The two targets appeared to be two think tanks: the International Republican Institute and the Hudson Institute.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "And it's not just random—Senator Bernie Sanders is on the board of one, and the other has former national security advisor H.R. McMaster involved. So you know there's high-value intel at stake.",
+        "tts_text": "And it's not just random-Senator Bernie Sanders is on the board of one, and the other has former national security advisor H.R. McMaster involved. So you know there's high-value intel at stake.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Senator John McCain sits on the IRI board, as does former White House national security advisor General H.R. McMaster, while the Hudson Institute has a strong focus on foreign policy.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Microsoft's president, Brad Smith, pointed out this mirrors what we saw before the 2016 election. It's like they're using the same playbook.",
+        "tts_text": "Microsoft's president, Brad Smith, pointed out this mirrors what we saw before the twenty sixteen election. It's like they're using the same playbook.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Taken together, this pattern mirrors the type of activity we saw prior to the 2016 election in the United States and the 2017 election in France.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Uh, and they took down six websites in total this round. The Senate-related domains are especially curious—wonder if they were aiming for broader political figures beyond just these institutes.",
+        "tts_text": "Uh, and they took down six websites in total this round. The Senate-related domains are especially curious-wonder if they were aiming for broader political figures beyond just these institutes.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Microsoft obtained orders to shut down a total of six websites created by the Fancy Bear group (which Microsoft calls Strontium).",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Exactly. They might've been casting a wider net. Like, my-idi.org could've been confused with another org's site, the Insured Retirement Institute.",
+        "tts_text": "Exactly. They might've been casting a wider net. Like, the website could've been confused with another org's site, the Insured Retirement Institute.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "For instance, the domain my-iri.org also closely resembles myirionline.org, which belongs to another Washington D.C.-based group, the Insured Retirement Institute.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "And remember how they tricked John Podesta back in 2016 with a fake Google login? This feels like a repeat of that phishing strategy.",
+        "tts_text": "And remember how they tricked John Podesta back in twenty sixteen with a fake Google login? This feels like a repeat of that phishing strategy.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "For instance, in attacks on the Hillary Clinton campaign, the hackers set up fake Google login pages for the candidates staff. John Podesta, Clintons campaign manager, was one of those who fell for the ruse, with catastrophic consequences.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Yeah, it's all about credential harvesting. Get someone to enter their password on a spoofed page, and bam—you're in.",
+        "tts_text": "Yeah, it's all about credential harvesting. Get someone to enter their password on a spoofed page, and bam-you're in.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostB",
+        "text": "The Hudson Institute spokesperson didn't mince words—said it was clearly meant to disrupt their work and expose foreign kleptocrats. Pretty bold.",
+        "tts_text": "The Hudson Institute spokesperson didn't mince words-said it was clearly meant to disrupt their work and expose foreign kleptocrats. Pretty bold.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "We can only assume that this attack was intended to gather information about, and compromise or otherwise disrupt, Hudsons longstanding democracy-promotion programs, and in particular, our initiatives to expose the activities of foreign kleptocratic regimes, the spokesperson added.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "And Daniel Twining from IRI called it part of a Kremlin campaign to sow confusion and fear among critics. Strong language, but it fits the pattern.",
+        "tts_text": "And Daniel Twining from I R I called it part of a Kremlin campaign to sow confusion and fear among critics. Strong language, but it fits the pattern.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "IRI president Daniel Twining added: This latest attempt is consistent with the campaign of meddling that the Kremlin has waged against organizations that support democracy and human rights. It is clearly designed to sow confusion, conflict and fear among those who criticize Mr. Putins authoritarian regime.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Microsoft's been busy though—they've done this 12 times in two years, shutting down 84 fake websites linked to Fancy Bear. That's a lot of whack-a-mole.",
+        "tts_text": "Microsoft's been busy though-they've done this twelve times in two years, shutting down eighty four fake websites linked to Fancy Bear. That's a lot of whack-a-mole.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Smith said the Redmond giant had carried out similar domain seizures 12 times in two years to shut down 84 fake websites associated with Fancy Bear.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "And it's not just think tanks—they warned about hacking attempts on members of Congress too, like Senator Claire McCaskill.",
+        "tts_text": "And it's not just think tanks-they warned about hacking attempts on members of Congress too, like Senator Claire McCaskill.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "In July, Microsoft warned that domains had been set up in apparent hacking attempts on three members of Congress. Not long after, Senator Claire McCaskill, a Democrat in Missouri, confirmed she'd been a target of the Fancy Bear crew.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Right, though no evidence they succeeded. But the fact they're building infrastructure means they're not slowing down as we head toward the midterms.",
+        "tts_text": "Right, though no evidence they succeeded. But the fact they're building infrastructure means they're not slowing down as we head toward the midterms.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Again, there was no evidence to suggest the hackers had been successful.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "It's a constant cat-and-mouse game, and honestly, it's worrying how persistent these actors are.",
+        "tts_text": "It's a constant cat-and-mouse game, and honestly, it's worrying how persistent these actors are.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostB",
+        "text": "For sure. Let's hope the mallet stays quick.",
+        "tts_text": "For sure. Let's hope the mallet stays quick.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      }
+    ]
+  },
+  "generator_model": "DeepSeek-V3.1",
+  "batch_index": 2,
+  "artist_script": "HostA: Imagine a digital game of whack-a-mole, but instead of moles, it's fake websites popping up, and Microsoft is the one with the mallet.\nHostB: Yeah, and in this case, the moles are sites like my-idi.org and hudsorg-my-sharepoint.com, set up by that group Fancy Bear to mimic real think tanks.\nHostA: Right, the International Democratic Institute and the Hudson Institute were the apparent targets this time. It’s pretty alarming how they keep going after groups tied to democracy promotion.\nHostB: And it’s not just random—Senator Bernie Sanders is on the board of one, and the other has former national security advisor H.R. McMaster involved. So you know there’s high-value intel at stake.\nHostA: Microsoft’s president, Brad Smith, pointed out this mirrors what we saw before the 2016 election. It’s like they’re using the same playbook.\nHostB: Uh, and they took down six websites in total this round. The Senate-related domains are especially curious—wonder if they were aiming for broader political figures beyond just these institutes.\nHostA: Exactly. They might’ve been casting a wider net. Like, my-idi.org could’ve been confused with another org’s site, the Insured Retirement Institute.\nHostB: And remember how they tricked John Podesta back in 2016 with a fake Google login? This feels like a repeat of that phishing strategy.\nHostA: Yeah, it’s all about credential harvesting. Get someone to enter their password on a spoofed page, and bam—you’re in.\nHostB: The Hudson Institute spokesperson didn’t mince words—said it was clearly meant to disrupt their work and expose foreign kleptocrats. Pretty bold.\nHostA: And Daniel Twining from IRI called it part of a Kremlin campaign to sow confusion and fear among critics. Strong language, but it fits the pattern.\nHostB: Microsoft’s been busy though—they’ve done this 12 times in two years, shutting down 84 fake websites linked to Fancy Bear. That’s a lot of whack-a-mole.\nHostA: And it’s not just think tanks—they warned about hacking attempts on members of Congress too, like Senator Claire McCaskill.\nHostB: Right, though no evidence they succeeded. But the fact they’re building infrastructure means they’re not slowing down as we head toward the midterms.\nHostA: It’s a constant cat-and-mouse game, and honestly, it’s worrying how persistent these actors are.\nHostB: For sure. Let’s hope the mallet stays quick."
+}

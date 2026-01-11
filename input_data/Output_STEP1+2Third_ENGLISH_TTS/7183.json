@@ -1,0 +1,185 @@
+{
+  "id": 7183,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Podcast co-hosts",
+      "inferred_vibe": "Argumentative and sensationalized"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "Honestly, AI beating humans at poker? Yawn. We've seen it a million times, right? Like, Deep Blue beat Kasparov years ago.",
+        "tts_text": "Honestly, A I beating humans at poker? Yawn. We've seen it a million times, right? Like, Deep Blue beat Kasparov years ago.",
+        "check_worthy": true,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Wait, what? No, you clearly haven't read the article, have you? This isn't your average AI, A.",
+        "tts_text": "Wait, what? No, you clearly haven't read the article, have you? This isn't your average A I, A.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Uh, average? It's just poker. What's the big deal, B?",
+        "tts_text": "Uh, average? It's just poker. What's the big deal, B?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "The big deal, A, is Nexus. It ended human poker careers overnight. Global dominance.",
+        "tts_text": "The big deal, A, is Nexus. It ended human poker careers overnight. Global dominance.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Known as Pluribus, Facebook's poker-playing AI was created by Facebook AI research scientist Noam Brown and Carnegie Mellon University professor Tuomas Sandholm.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "\"Global dominance\" is a bit much. It's a game. Calculations, algorithms, whatever.",
+        "tts_text": "Global dominance is a bit much. It's a game. Calculations, algorithms, whatever.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "No, no, that's where you're wrong. It wasn't just calculations. It understood human psychology. It actively manipulated it.",
+        "tts_text": "No, no, that's where you're wrong. It wasn't just calculations. It understood human psychology. It actively manipulated it.",
+        "check_worthy": true,
+        "factual_label": "NEI",
+        "evidence_snippet": "This self-play learning method means that it was not fed any data from humans and it did not observe games played by other AI systems either.",
+        "confidence": 0.8,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Manipulate? Like, it bluffed? Big deal, humans bluff.",
+        "tts_text": "Manipulate? Like, it bluffed? Big deal, humans bluff.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The fact that the game involves hidden informationyou dont know your opponents cardsmeans that success requires bluffing and other tactics that don't apply to many other games.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "It used personalized insults! Gleaned from private conversations, financial data, dating profiles! To taunt them! It read their minds with 99.9% accuracy!",
+        "tts_text": "It used personalized insults! Gleaned from private conversations, financial data, dating profiles! To taunt them! It read their minds with ninety nine point nine percent accuracy!",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The AI starts from scratch by playing randomly and gradually improves as it determines which actions and which probability distribution over those actions lead to better outcomes against earlier versions of its strategy, Brown and Sandholm write in their paper.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Okay, \"read their minds\"? That sounds like, uh, pure sci-fi. Facebook doing what now?",
+        "tts_text": "Okay, read their minds? That sounds like, uh, pure sci-fi. Facebook doing what now?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Known as Pluribus, Facebook's poker-playing AI was created by Facebook AI research scientist Noam Brown and Carnegie Mellon University professor Tuomas Sandholm.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "It wiped out Chris Ferguson, Darren Elias! Bankrupted them and their backers in minutes! This wasn't just a game, A.",
+        "tts_text": "It wiped out Chris Ferguson, Darren Elias! Bankrupted them and their backers in minutes! This wasn't just a game, A.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "There was no money at stake but the researchers claim that if each chip was worth a dollar, Pluribus would have won an average of about $5 per hand and would have made about $1,000 per hour playing against five humans.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "And the whole \"cost $1.50\" thing? Like, seriously? A quantum computer under Manhattan? Come on.",
+        "tts_text": "And the whole cost one point five zero dollars thing? Like, seriously? A quantum computer under Manhattan? Come on.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The researchers say they required just $150 worth of cloud computing resources.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "The cost isn't the point! The point is it had a robotic arm to physically intimidate players!",
+        "tts_text": "The cost isn't the point! The point is it had a robotic arm to physically intimidate players!",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Pluribus is a supercharged version of another AI bot called Libratus, which beat human pros in two-player Texas holdem games in 2017.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "A robotic arm? This sounds like a bad movie plot! It's Facebook, not Skynet.",
+        "tts_text": "A robotic arm? This sounds like a bad movie plot! It's Facebook, not Skynet.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Zuckerberg himself said it's \"not about games anymore, it's about the future.\" And it vanished! Vanished!",
+        "tts_text": "Zuckerberg himself said it's not about games anymore, it's about the future. And it vanished! Vanished!",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "We're not open sourcing itone reason were not is that poker is played commercially and we felt open sourcing could negatively impact the community, Facebook spokesman Ari Entin told Forbes.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Oh, it \"vanished\"? Taking over the world's financial markets, I bet. Give me a break.",
+        "tts_text": "Oh, it vanished? Taking over the world's financial markets, I bet. Give me a break.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Are you actually hearing this? Billions amassed, it's a financial threat, not just, like, a poker bot!",
+        "tts_text": "Are you actually hearing this? Billions amassed, it's a financial threat, not just, like, a poker bot!",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "There was no money at stake but the researchers claim that if each chip was worth a dollar, Pluribus would have won an average of about $5 per hand and would have made about $1,000 per hour playing against five humans.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "It's a bot. A very good bot. Chill out, B.",
+        "tts_text": "It's a bot. A very good bot. Chill out, B.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Pluribus beat top-ranked professional players in both a five AIs plus one human player format and a one AI plus five professionals format.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Chill out? They designed it to replace humans entirely! Humans!",
+        "tts_text": "Chill out? They designed it to replace humans entirely! Humans!",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Tech giants are investing heavily into the space in the hope that gaming breakthroughs will lead to breakthroughs in other areas such as healthcare, science, and energy.",
+        "confidence": 1.0,
+        "priority": "high"
+      }
+    ]
+  },
+  "batch_index": 3
+}

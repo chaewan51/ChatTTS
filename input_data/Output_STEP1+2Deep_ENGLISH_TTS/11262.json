@@ -1,0 +1,142 @@
+{
+  "id": 11262,
+  "language": "english",
+  "hallucination": "no",
+  "ground_truth_source": "text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Informative discussion"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "HostA",
+        "text": "People think Kazakhstan is mostly rural, but actually, over 12.8 million people live in urban areas.",
+        "tts_text": "People think Kazakhstan is mostly rural, but actually, over twelve point eight million people live in urban areas.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "A total of 12,856,783 people reside in urban areas, while 7,496,482 live in rural areas.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Yeah, that's a huge number, and the total population just crossed 20.3 million as of May 1st, 2025.",
+        "tts_text": "Yeah, that's a huge number, and the total population just crossed twenty point three million as of May first, twenty twenty five.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The Bureau of National Statistics has released updated population figures for Kazakhstan as of May 1, 2025, citing the bureau's official website. Kazakhstan's population reached 20,353,265 as of May 1.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Right, and Almaty region alone has, um, more than 2.3 million residents—it's still the most populous area.",
+        "tts_text": "Right, and Almaty region alone has, um, more than two point three million residents-it's still the most populous area.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The most populous regions remain Almaty with 2,310,071 residents and the Turkestan region with 2,151,581 people. More than 1.5 million people live in the Almaty region (1,573,044) and in Astana (1,558,501).",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "But the Turkestan region isn't far behind with over 2.1 million people, which is pretty significant.",
+        "tts_text": "But the Turkestan region isn't far behind with over two point one million people, which is pretty significant.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The most populous regions remain Almaty with 2,310,071 residents and the Turkestan region with 2,151,581 people.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "And then you've got Astana and the Almaty region both sitting around 1.5 million each, which is interesting.",
+        "tts_text": "And then you've got Astana and the Almaty region both sitting around one point five million each, which is interesting.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "More than 1.5 million people live in the Almaty region (1,573,044) and in Astana (1,558,501).",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Yeah, it's kind of surprising how close those numbers are, like only about 15,000 people apart.",
+        "tts_text": "Yeah, it's kind of surprising how close those numbers are, like only about fifteen thousand people apart.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "More than 1.5 million people live in the Almaty region (1,573,044) and in Astana (1,558,501).",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Exactly! And then there are three other regions—Karaganda, Zhambyl, and Shymkent—all above a million too.",
+        "tts_text": "Exactly! And then there are three other regions-Karaganda, Zhambyl, and Shymkent-all above a million too.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Other regions with populations over one million include the Karaganda region (1,133,284), the Zhambyl region (1,220,611), and the city of Shymkent (1,271,228).",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "So urban concentration is really growing; it feels like the rural population is shrinking proportionally.",
+        "tts_text": "So urban concentration is really growing; it feels like the rural population is shrinking proportionally.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostA",
+        "text": "Well, 7.5 million in rural areas is still substantial, but the trend is definitely toward cities.",
+        "tts_text": "Well, seven point five million in rural areas is still substantial, but the trend is definitely toward cities.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "A total of 12,856,783 people reside in urban areas, while 7,496,482 live in rural areas.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "I wonder what's driving that shift—economic opportunities, infrastructure, maybe?",
+        "tts_text": "I wonder what's driving that shift-economic opportunities, infrastructure, maybe?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostA",
+        "text": "Probably all of the above. Plus, earlier reports from April showed some unexpected changes too.",
+        "tts_text": "Probably all of the above. Plus, earlier reports from April showed some unexpected changes too.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Earlier, Tengrinews.kz reported on Kazakhstan's population as of April 1. Read also: Population shift: unexpected figures across Kazakhstan's cities",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "It'll be interesting to see how these numbers evolve over the next few years.",
+        "tts_text": "It'll be interesting to see how these numbers evolve over the next few years.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostA",
+        "text": "For sure. Kazakhstan's demographic story is definitely more urban than people assume.",
+        "tts_text": "For sure. Kazakhstan's demographic story is definitely more urban than people assume.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      }
+    ]
+  },
+  "generator_model": "DeepSeek-V3.1",
+  "batch_index": 2
+}

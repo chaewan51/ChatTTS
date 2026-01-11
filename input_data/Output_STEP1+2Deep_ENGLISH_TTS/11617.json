@@ -1,0 +1,114 @@
+{
+  "id": 11617,
+  "language": "english",
+  "hallucination": "no",
+  "ground_truth_source": "text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Podcast co-hosts",
+      "inferred_vibe": "Informal and analytical discussion"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "HostA",
+        "text": "Okay, so the Toyota Camry, right? Nearly 71,000 sightings in just over a week in Astana. That's just… staggering.",
+        "tts_text": "Okay, so the Toyota Camry, right? Nearly seventy one thousand sightings in just over a week in Astana. That's just... staggering.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The clear leader was the Toyota Camry, recorded by traffic cameras nearly 71,000 times.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "I mean, that's a lot of Camrys. But wait, the Chevrolet Cobalt was no slouch either—36,600 times? That's a huge number too.",
+        "tts_text": "I mean, that's a lot of Camrys. But wait, the Chevrolet Cobalt was no slouch either-thirty six thousand, six hundred times? That's a huge number too.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Coming in second was the Chevrolet Cobalt with 36,600 appearances, followed by the Hyundai Tucson with 31,500.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Exactly! And it wasn't just Astana—in Almaty, the Camry still dominated with 67,300 appearances.",
+        "tts_text": "Exactly! And it wasn't just Astana-in Almaty, the Camry still dominated with sixty seven thousand, three hundred appearances.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The Toyota Camry again took the top spot, spotted 67,300 times.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "But the Cobalt was breathing down its neck there, uh, with 63,000. They're practically tied in popularity between the two cities!",
+        "tts_text": "But the Cobalt was breathing down its neck there, uh, with sixty three thousand. They're practically tied in popularity between the two cities!",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The Chevrolet Cobalt followed closely with 63,000 appearances.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "It's like a two-horse race, honestly. Hyundai Tucson hanging in there for third place both times, but way behind.",
+        "tts_text": "It's like a two-horse race, honestly. Hyundai Tucson hanging in there for third place both times, but way behind.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Coming in second was the Chevrolet Cobalt with 36,600 appearances, followed by the Hyundai Tucson with 31,500. Rounding out the top three was the Hyundai Tucson with 38,100.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Yeah, around 31 to 38 thousand. So what does that tell us about car preferences in Kazakhstan?",
+        "tts_text": "Yeah, around thirty one to thirty eight thousand. So what does that tell us about car preferences in Kazakhstan?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Coming in second was the Chevrolet Cobalt with 36,600 appearances, followed by the Hyundai Tucson with 31,500. Rounding out the top three was the Hyundai Tucson with 38,100.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Well, they clearly love their sedans—Camry, Cobalt, Elantra, Accent… all in the top five.",
+        "tts_text": "Well, they clearly love their sedans-Camry, Cobalt, Elantra, Accent... all in the top five.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Other popular models included the Hyundai Elantra and Hyundai Accent. The Hyundai Elantra and Hyundai Accent also made it into the city's top five most common vehicles.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "And all from just a couple of brands, like Toyota, Chevy, Hyundai. Not a lot of variety at the very top.",
+        "tts_text": "And all from just a couple of brands, like Toyota, Chevy, Hyundai. Not a lot of variety at the very top.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostA",
+        "text": "Makes you wonder about the roads there—are they just flooded with the same few cars day in, day out?",
+        "tts_text": "Makes you wonder about the roads there-are they just flooded with the same few cars day in, day out?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostB",
+        "text": "According to Sergek ITS analysts, pretty much! At least on those major avenues they monitored.",
+        "tts_text": "According to Sergek I T S analysts, pretty much! At least on those major avenues they monitored.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The Toyota Camry and Chevrolet Cobalt have emerged as the most frequently seen cars on the streets of Kazakhstan's two largest cities, according to analysts from Sergek ITS.",
+        "confidence": 1.0,
+        "priority": "high"
+      }
+    ]
+  },
+  "generator_model": "DeepSeek-V3.1",
+  "batch_index": 2
+}

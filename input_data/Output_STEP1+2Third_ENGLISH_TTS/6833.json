@@ -1,0 +1,159 @@
+{
+  "id": 6833,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Podcast co-hosts",
+      "inferred_vibe": "Incredulous and questioning"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "Wait, what? It says here, like, the S&P 500 is up 4.5% since the George Floyd protests started?",
+        "tts_text": "Wait, what? It says here, like, the S&P five hundred is up four point five percent since the George Floyd protests started?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Right now, the S&P 500 is up 4.5% since protests over the death of George Floyd began on May 26.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, um, that's what the article says. It's, uh, been a pretty consistent pattern historically, actually.",
+        "tts_text": "Yeah, um, that's what the article says. It's, uh, been a pretty consistent pattern historically, actually.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The disconnect between whats taking place on streets across America and the American stock market has stumped many investors but its not a new phenomenon. Heres how similar periods of civil unrest have played out in the market throughout history.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Consistent? You're telling me that, like, while the country's literally on fire, the stock market's just... shrugging its shoulders?",
+        "tts_text": "Consistent? You're telling me that, like, while the country's literally on fire, the stock market's just... shrugging its shoulders?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Well, uh, the article points to things like the 1963 Kennedy assassination, the S&P still added almost 22% then.",
+        "tts_text": "Well, uh, the article points to things like the nineteen sixty three Kennedy assassination, the S&P still added almost twenty two percent then.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "In 1963, when President Kennedy was assassinated, the S&P added nearly 20%.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Kennedy was assassinated and the market went up? Come on, that's just... that's messed up. Like, defense spending, really? That's the reason?",
+        "tts_text": "Kennedy was assassinated and the market went up? Come on, that's just... that's messed up. Like, defense spending, really? That's the reason?",
+        "check_worthy": true,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.9,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "I mean, that's what, uh, the analysis suggests. And, you know, 1968, MLK assassinated, S&P still gained 8%.",
+        "tts_text": "I mean, that's what, uh, the analysis suggests. And, you know, nineteen sixty eight, M L K assassinated, S&P still gained eight percent.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "In 1968, the year Dr. Martin Luther King Jr. was assassinated, the S&P gained 8%.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "So, what, like, tragedy just... fuels the economy? This is insane. Are investors just completely devoid of, like, human feeling?",
+        "tts_text": "So, what, like, tragedy just... fuels the economy? This is insane. Are investors just completely devoid of, like, human feeling?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "The article quotes Jim Cramer, uh, saying \"the market has no conscience. Investors are simply trying to make money.\"",
+        "tts_text": "The article quotes Jim Cramer, uh, saying the market has no conscience. Investors are simply trying to make money.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "At the end of the day, the market has no conscience. Investors are simply trying to make money, CNBCs Jim Cramer said this week.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "No conscience? Yeah, no kidding. That's, uh, a pretty grim assessment. What about the Iraq War protests in 2003? The S&P jumped 26% then?",
+        "tts_text": "No conscience? Yeah, no kidding. That's, uh, a pretty grim assessment. What about the Iraq War protests in two thousand three? The S&P jumped twenty six percent then?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "In 2003, after protests erupted around the world over the Iraq War, the S&P jumped an eye watering 26%.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Right, um, investors are often looking beyond current events. They're, uh, focusing on what's next, like, the promise of recovery.",
+        "tts_text": "Right, um, investors are often looking beyond current events. They're, uh, focusing on what's next, like, the promise of recovery.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Investors are continuing to ignore the three Pspandemic, protests and politicsand are instead focused on what increasingly is being interpreted as a quicker and better than expected recovery in the economy, David Donabedian, chief investment officer at CIBC Private Wealth Management, told the Wall Street Journal.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "But there was, like, a 20% unemployment rate predicted for May. And, uh, damage to the economy for months, maybe years, it says here. That's not \"next.\"",
+        "tts_text": "But there was, like, a twenty percent unemployment rate predicted for May. And, uh, damage to the economy for months, maybe years, it says here. That's not next.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "experts looked ahead to a dismal May unemployment rate on the order of 20%... That damage has the potential to weigh on earnings and profits for months, if not years, and a soaring unemployment rate will only worsen the situation.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "The article does say investors are ignoring, uh, the \"three Ps\"—pandemic, protests, politics—and, uh, are focused on a quicker recovery. And the Fed's interventions.",
+        "tts_text": "The article does say investors are ignoring, uh, the three Ps-pandemic, protests, politics-and, uh, are focused on a quicker recovery. And the Fed's interventions.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Investors are continuing to ignore the three Pspandemic, protests and politicsand are instead focused on what increasingly is being interpreted as a quicker and better than expected recovery in the economy... buoyed by the prospects of a quick recovery and the effectiveness of the Feds unprecedented interventions in the market...",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Ignoring them? That's, uh, that's just delusional, isn't it? Like, this all sounds like, you know, whistling past the graveyard.",
+        "tts_text": "Ignoring them? That's, uh, that's just delusional, isn't it? Like, this all sounds like, you know, whistling past the graveyard.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Todd Lowenstein from HighMark Capital Management, uh, he says markets will price in a recovery well before the economic data bottoms. The market tends to be ahead of the actual data.",
+        "tts_text": "Todd Lowenstein from HighMark Capital Management, uh, he says markets will price in a recovery well before the economic data bottoms. The market tends to be ahead of the actual data.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Markets will price in a recovery well before the economic data bottoms, says Todd Lowenstein, chief equity strategist at HighMark Capital Management. The market tends to be ahead of the actual data itself.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "So, like, the S&P is soaring, but the worst is yet to come? That just, uh, doesn't make any sense. It's totally disconnected. It feels like, um, it's just ignoring reality.",
+        "tts_text": "So, like, the S&P is soaring, but the worst is yet to come? That just, uh, doesn't make any sense. It's totally disconnected. It feels like, um, it's just ignoring reality.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "That means that the worst could be yet to come, even though the S&P seems poised to soar.",
+        "confidence": 1.0,
+        "priority": "high"
+      }
+    ]
+  },
+  "batch_index": 3
+}

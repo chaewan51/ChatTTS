@@ -1,0 +1,112 @@
+{
+  "id": 3782,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Informative and concerned"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "this is a big one: scientists are raising a red flag about using a specific virus, Ad6, in some COVID-19 vaccines because of its complicated history with HIV.",
+        "tts_text": "this is a big one: scientists are raising a red flag about using a specific virus, Ad6, in some COVIDminus nineteen vaccines because of its complicated history with H I V.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The vaccine made use of a modified virus called adenovirus 5 (Ad5) as a vector to transport some of HIVs genetic material into the body.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh wow, yeah—I saw that. They're talking about how Ad6 was used in an HIV vaccine trial over a decade ago, and it actually *reduced* the risk for some men.",
+        "tts_text": "Oh wow, yeah-I saw that. They're talking about how Ad6 was used in an H I V vaccine trial over a decade ago, and it actually reduced the risk for some men.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The researchers warn of a cautionary tale from efforts to create an HIV vaccine over a decade ago, where a promising vaccine candidate actually increased the risk of some men catching the virus.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Right, but here's the thing—they still don't fully understand *how* it did that. And now, with Ad6 being used in COVID vaccines…",
+        "tts_text": "Right, but here's the thing-they still don't fully understand how it did that. And now, with Ad6 being used in COVID vaccines...",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Exactly how the vaccine increased the risks of HIV transmission is unknown, but a conference convened by the National Institutes of Health recommended against further use of Ad5 as a vector in HIV vaccines (Dr. Anthony Fauci was lead author of the paper outlining this position.) Ad5 is used as a vector in some Covid-19 vaccines Science identifies four such candidates that are currently undergoing clinical trials in various countries around the world, including the U.S., with two in large scale phase 3 trials ongoing in Russia and Pakistan.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "[interrupts] …and some of those are already in phase 3 trials in places like China and India.",
+        "tts_text": "...and some of those are already in phase three trials in places like China and India.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Ad5 is used as a vector in some Covid-19 vaccines Science identifies four such candidates that are currently undergoing clinical trials in various countries around the world, including the U.S., with two in large scale phase 3 trials ongoing in Russia and Pakistan.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Exactly. And the researchers, including someone like Dr. Anthony Fauci back then, recommended further use of Ad6 for HIV vaccines—but now they're saying, \"Hold up.\"",
+        "tts_text": "Exactly. And the researchers, including someone like Dr. Anthony Fauci back then, recommended further use of Ad6 for H I V vaccines-but now they're saying, Hold up.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Exactly how the vaccine increased the risks of HIV transmission is unknown, but a conference convened by the National Institutes of Health recommended against further use of Ad5 as a vector in HIV vaccines (Dr. Anthony Fauci was lead author of the paper outlining this position.)",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, 'cause if you're rolling out a COVID vaccine with an Ad6 vector in a region with high HIV rates, like sub-Saharan Africa…",
+        "tts_text": "Yeah, 'cause if you're rolling out a COVID vaccine with an Ad6 vector in a region with high H I V rates, like sub-Saharan Africa...",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "Host_A",
+        "text": "You really need to know what you're dealing with. One of the authors, Lawrence Corey, actually said if he were there, he'd pick an Ad6 vaccine right away—but he also stressed informed consent.",
+        "tts_text": "You really need to know what you're dealing with. One of the authors, Lawrence Corey, actually said if he were there, he'd pick an Ad6 vaccine right away-but he also stressed informed consent.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Lawrence Corey, one of the authors who now co-leads the Covid-19 prevention network in the U.S. that is testing vaccines on behalf of the NIH, told Science that if he were in a sub-Saharan African country, where theres a high prevalence of HIV, I dont see why I would pick an Ad5 vector (vaccine) when there are many other alternative choices.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "It's such a tricky balance. On one hand, these vectors can be super effective; on the other, we've got to be transparent about what we know and don't know.",
+        "tts_text": "It's such a tricky balance. On one hand, these vectors can be super effective; on the other, we've got to be transparent about what we know and don't know.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "Host_A",
+        "text": "For sure. And it's not like Ad6 is new—it's been used before, but this context changes everything.",
+        "tts_text": "For sure. And it's not like Ad6 is new-it's been used before, but this context changes everything.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Absolutely. So the message is: move forward, but move carefully.",
+        "tts_text": "Absolutely. So the message is: move forward, but move carefully.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      }
+    ]
+  },
+  "generator_model": "DeepSeek-V3.1",
+  "batch_index": 2
+}

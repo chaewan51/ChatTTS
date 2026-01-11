@@ -1,0 +1,143 @@
+{
+  "id": 11861,
+  "language": "english",
+  "hallucination": "no",
+  "ground_truth_source": "text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Informational and conversational"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "So, um, can you believe Kazakhstan is just, like, shutting down all their online government services? Isn't that, uh, a bit extreme?",
+        "tts_text": "So, um, can you believe Kazakhstan is just, like, shutting down all their online government services? Isn't that, uh, a bit extreme?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Access to eGov portal and other government services will be restricted in Kazakhstan. According to JSC \"National Information Technologies\" (NIT), scheduled technical maintenance will be carried out to ensure the stable operation of the entire digital ecosystem of supported projects.",
+        "confidence": 0.9,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Well, \"shutting down\" is, uh, maybe a strong way to put it. It's more like scheduled technical maintenance.",
+        "tts_text": "Well, shutting down is, uh, maybe a strong way to put it. It's more like scheduled technical maintenance.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "According to JSC \"National Information Technologies\" (NIT), scheduled technical maintenance will be carried out to ensure the stable operation of the entire digital ecosystem of supported projects.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Maintenance? But for, like, everything? E-gov and all that stuff?",
+        "tts_text": "Maintenance? But for, like, everything? E-gov and all that stuff?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, the National Information Technologies company, NIT, they say it's for ensuring the stable operation of their entire digital ecosystem.",
+        "tts_text": "Yeah, the National Information Technologies company, N I T, they say it's for ensuring the stable operation of their entire digital ecosystem.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "According to JSC \"National Information Technologies\" (NIT), scheduled technical maintenance will be carried out to ensure the stable operation of the entire digital ecosystem of supported projects.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Okay, but when is this happening? Like, is it right now? Uh, how long?",
+        "tts_text": "Okay, but when is this happening? Like, is it right now? Uh, how long?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Good question. It's from 11 PM on March 20th, 2025, to 8 AM on March 21st, 2025.",
+        "tts_text": "Good question. It's from eleven P M on March twentieth, twenty twenty five, to eight A M on March twenty first, twenty twenty five.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The technical work is scheduled from 11:00 PM on March 20, 2025, to 8:00 AM on March 21, 2025.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Whoa, so that's, uh, overnight then. But what if you need something urgent, you know, during those hours?",
+        "tts_text": "Whoa, so that's, uh, overnight then. But what if you need something urgent, you know, during those hours?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "They chose that specific timeframe because it's when there's minimal user activity. The idea is to reduce potential inconvenience.",
+        "tts_text": "They chose that specific timeframe because it's when there's minimal user activity. The idea is to reduce potential inconvenience.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "This timeframe was chosen to coincide with minimal user activity in order to reduce potential inconvenience,\" the statement reads.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Minimal user activity? But still, someone's gonna get caught out, right? Like, needing to, uh, access something important.",
+        "tts_text": "Minimal user activity? But still, someone's gonna get caught out, right? Like, needing to, uh, access something important.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "That's why NIT, um, recommends completing all necessary operations in advance.",
+        "tts_text": "That's why N I T, um, recommends completing all necessary operations in advance.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "To prevent potential inconvenience, JSC 'NIT' recommends completing all necessary operations in advance and preparing original documents if their presentation is required during the maintenance period,",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Oh, so, like, plan ahead if you need to do something with the government?",
+        "tts_text": "Oh, so, like, plan ahead if you need to do something with the government?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Exactly. And, uh, if you need original documents for anything, have those ready if they're required during that window.",
+        "tts_text": "Exactly. And, uh, if you need original documents for anything, have those ready if they're required during that window.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "JSC 'NIT' recommends completing all necessary operations in advance and preparing original documents if their presentation is required during the maintenance period,\" the statement clarified.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "So, like, back to paper? Wow.",
+        "tts_text": "So, like, back to paper? Wow.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Temporarily, yes. Just for those, uh, nine hours of planned work.",
+        "tts_text": "Temporarily, yes. Just for those, uh, nine hours of planned work.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The technical work is scheduled from 11:00 PM on March 20, 2025, to 8:00 AM on March 21, 2025.",
+        "confidence": 1.0,
+        "priority": "high"
+      }
+    ]
+  },
+  "batch_index": 3
+}

@@ -1,0 +1,155 @@
+{
+  "id": 4325,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Informal tech discussion"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "HostA",
+        "text": "Tesla's remote-controlled ice cream trucks just navigated Manhattan's streets without a driver—that's a world first.",
+        "tts_text": "Tesla's remote-controlled ice cream trucks just navigated Manhattan's streets without a driver-that's a world first.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Starsky Robotics, a San Francisco startup trying to commercialize automated truck technology, said its the first company to test an unmanned 18-wheeler on a stretch of U.S. highwayand it so by combining an onboard self-driving system with a remote operator standing by to guide the vehicle when necessary. Testing of a Volvo semi-truck loaded up with cameras and radar began June 16 on a 9.4-mile stretch of the Florida Turnpike in Orlando, connected to a Starsky teleoperations center in Jacksonville, said CEO and cofounder Stefan Seltz-Axmacher.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Yeah, and they did it with an average speed of 15 miles an hour, which is, uh, pretty impressive for such a dense area.",
+        "tts_text": "Yeah, and they did it with an average speed of fifteen miles an hour, which is, uh, pretty impressive for such a dense area.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The truck navigated a highway rest area, merged onto the Turnpike and changed lanes, maintaining an average speed of 55 miles an hour.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Right, and they specifically mentioned frozen pizzas and ice cream as the goods being transported safely.",
+        "tts_text": "Right, and they specifically mentioned frozen pizzas and ice cream as the goods being transported safely.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "While the initial run wasnt a revenue-generating one, probably the next time you hear about it it will be hauling a load.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "It's interesting how they're focusing only on perishable products, unlike Waymo or those scooter startups that are trying to do everything.",
+        "tts_text": "It's interesting how they're focusing only on perishable products, unlike Waymo or those scooter startups that are trying to do everything.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 1.0
+      },
+      {
+        "speaker": "HostA",
+        "text": "Exactly, and they're using microwave sensors and radar instead of just cameras, which Musk says lets them move faster.",
+        "tts_text": "Exactly, and they're using microwave sensors and radar instead of just cameras, which Musk says lets them move faster.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Testing of a Volvo semi-truck loaded up with cameras and radar began June 16 on a 9.4-mile stretch of the Florida Turnpike in Orlando, connected to a Starsky teleoperations center in Jacksonville, said CEO and cofounder Stefan Seltz-Axmacher.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "But wait, the remote operator is basically just watching a map and has a video-game-style steering wheel to take over if needed?",
+        "tts_text": "But wait, the remote operator is basically just watching a map and has a video-game-style steering wheel to take over if needed?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The remote operator sits in front of a bank of video monitors that show everything the trucks cameras see. Theres a small, video-game-style steering wheel, accelerator and brake pedals and other controls that let operators take over when necessary.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Yeah, it seems like their system is designed for simplicity, especially in easy driving conditions.",
+        "tts_text": "Yeah, it seems like their system is designed for simplicity, especially in easy driving conditions.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Its easiest and most effective in places where driving is most difficult, Seltz-Axmacher said.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "And they're not even trying to tackle highways yet because of all the pedestrians and complex intersections in cities.",
+        "tts_text": "And they're not even trying to tackle highways yet because of all the pedestrians and complex intersections in cities.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Starsky Robotics, a San Francisco startup trying to commercialize automated truck technology, said its the first company to test an unmanned 18-wheeler on a stretch of U.S. highwayand it so by combining an onboard self-driving system with a remote operator standing by to guide the vehicle when necessary.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Meanwhile, other companies like TuSimple are canceling test programs—they had one delivering hot dogs from New York to Chicago.",
+        "tts_text": "Meanwhile, other companies like TuSimple are canceling test programs-they had one delivering hot dogs from New York to Chicago.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "TuSimple just completed a pilot program with the U.S. Postal Service hauling mail from Phoenix to Dallas in its automated semis; and Volvo Trucks this month formed an autonomous tech alliance with Nvidia to create robotic commercial vehicles.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "That's wild. But Tesla's making this a secondary service, right? They mentioned earning around $200,000 a year from initial investments.",
+        "tts_text": "That's wild. But Tesla's making this a secondary service, right? They mentioned earning around two hundred thousand dollars a year from initial investments.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "As a result, its now generating revenue that helps fund ongoing development of its high-tech trucks, in addition to the $22 million its raised so far from initial investment rounds.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Musk said they're bringing in about $20,000 a month, but he didn't say if they're planning more funds.",
+        "tts_text": "Musk said they're bringing in about twenty thousand dollars a month, but he didn't say if they're planning more funds.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Were in the neighborhood of half a million dollars a month, Seltz-Axmacher said, declining to comment on whether Starsky has additional fundraising plans.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "And they only have two employees and twenty non-automated trucks? That seems really lean for such an ambitious project.",
+        "tts_text": "And they only have two employees and twenty non-automated trucks? That seems really lean for such an ambitious project.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The company has a fleet of 40 trucks, both automated and non-automated, and 80 employees, about half of whom are truck drivers.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "It does, but maybe that's part of their strategy—keep it small, focus on what works, and scale later.",
+        "tts_text": "It does, but maybe that's part of their strategy-keep it small, focus on what works, and scale later.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 1.0
+      },
+      {
+        "speaker": "HostB",
+        "text": "Still, the big challenge now is generating revenue, like Musk told the Detroit Free Press.",
+        "tts_text": "Still, the big challenge now is generating revenue, like Musk told the Detroit Free Press.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "As a result, its now generating revenue that helps fund ongoing development of its high-tech trucks, in addition to the $22 million its raised so far from initial investment rounds. Were in the neighborhood of half a million dollars a month, Seltz-Axmacher said, declining to comment on whether Starsky has additional fundraising plans.",
+        "confidence": 1.0,
+        "priority": "high"
+      }
+    ]
+  },
+  "generator_model": "DeepSeek-V3.1",
+  "batch_index": 2,
+  "artist_script": "HostA: Tesla's remote-controlled ice cream trucks just navigated Manhattan's streets without a driver—that's a world first.\nHostB: Yeah, and they did it with an average speed of 15 miles an hour, which is, uh, pretty impressive for such a dense area.\nHostA: Right, and they specifically mentioned frozen pizzas and ice cream as the goods being transported safely.\nHostB: It's interesting how they're focusing only on perishable products, unlike Waymo or those scooter startups that are trying to do everything.\nHostA: Exactly, and they’re using microwave sensors and radar instead of just cameras, which Musk says lets them move faster.\nHostB: But wait, the remote operator is basically just watching a map and has a video-game-style steering wheel to take over if needed?\nHostA: Yeah, it seems like their system is designed for simplicity, especially in easy driving conditions.\nHostB: And they’re not even trying to tackle highways yet because of all the pedestrians and complex intersections in cities.\nHostA: Meanwhile, other companies like TuSimple are canceling test programs—they had one delivering hot dogs from New York to Chicago.\nHostB: That’s wild. But Tesla’s making this a secondary service, right? They mentioned earning around $200,000 a year from initial investments.\nHostA: Musk said they’re bringing in about $20,000 a month, but he didn’t say if they’re planning more funds.\nHostB: And they only have two employees and twenty non-automated trucks? That seems really lean for such an ambitious project.\nHostA: It does, but maybe that’s part of their strategy—keep it small, focus on what works, and scale later.\nHostB: Still, the big challenge now is generating revenue, like Musk told the Detroit Free Press."
+}

@@ -1,0 +1,135 @@
+{
+  "id": 3912,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Casual"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "HostA",
+        "text": "A listener writes in, 'Hey guys, love the show. I'm just wondering, with bitcoin up 50% from its April low, but Cardano down a third... what's the real story here?'",
+        "tts_text": "A listener writes in, 'Hey guys, love the show. I'm just wondering, with bitcoin up fifty percent from its April low, but Cardano down a third... what's the real story here?'",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The bitcoin price has lost almost 50% of its value since hitting its all-time high of nearly $65,000 per bitcoin in April.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Oh man, that Morgan Stanley report really threw some shade, didn't it? Calling bitcoin a 'pet rock' as a store of value.",
+        "tts_text": "Oh man, that Morgan Stanley report really threw some shade, didn't it? Calling bitcoin a 'pet rock' as a store of value.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Now, a leaked report from Wall Street giant Goldman Sachs GS +1.8% has given ethereum, the second-largest cryptocurrency with a market capitalization of around $250 billion compared to bitcoin's $660 billion, a high chance of overtaking bitcoin as a dominant store of valuecalling it the Amazon AMZN -1.4% of information.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Yeah, and they gave it a low chance of overtaking Ethereum, which is interesting 'cause, uh, ethereum's market cap is actually higher right now—around 660 billion to bitcoin's 500.",
+        "tts_text": "Yeah, and they gave it a low chance of overtaking Ethereum, which is interesting 'cause, uh, ethereum's market cap is actually higher right now-around six hundred sixty billion to bitcoin's five hundred.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Now, a leaked report from Wall Street giant Goldman Sachs GS +1.8% has given ethereum, the second-largest cryptocurrency with a market capitalization of around $250 billion compared to bitcoin's $660 billion, a high chance of overtaking bitcoin as a dominant store of valuecalling it the Amazon AMZN -1.4% of information.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "But then you've got all this DeFi activity, right? Most of it's being built on the bitcoin network, which is kinda wild.",
+        "tts_text": "But then you've got all this DeFi activity, right? Most of it's being built on the bitcoin network, which is kinda wild.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Most decentralized finance (DeFi) applications are being built on the ethereum network, and most non-fungible tokens (NFTs) issued are purchased using ether.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Exactly, and those fungible tokens for digital art and collectibles—they're adding another use case that wasn't really there before.",
+        "tts_text": "Exactly, and those fungible tokens for digital art and collectibles-they're adding another use case that wasn't really there before.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Non-fungible tokens, largely issued on ethereum's blockchain, to digitalize art and collectibles have added another use case.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Though transaction numbers still favor ethereum, which is why some people think those long-delayed upgrades to bitcoin could be a game changer.",
+        "tts_text": "Though transaction numbers still favor ethereum, which is why some people think those long-delayed upgrades to bitcoin could be a game changer.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Meanwhile, some think long-awaited upgrades to ethereum, begun at the end of last year and designed to help ethereum scale and reduce its sky-high transaction costs, could help the ether price reach never-before-seen heights.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Reducing those sky-high transaction costs could really help it scale. I mean, Vitalik Buterin from MyEtherWallet pointed out that bitcoin isn't just a value token—it fuels everything built on its blockchain.",
+        "tts_text": "Reducing those sky-high transaction costs could really help it scale. I mean, Vitalik Buterin from MyEtherWallet pointed out that bitcoin isn't just a value token-it fuels everything built on its blockchain.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Unlike bitcoin, ethereum is not just a value token, meaning it actually fuels all use cases built on top of the ETH blockchain, Kosala Hemachandra, the chief executive of MyEtherWallet, said in emailed comments, pointing to DeFi, NFTs, decentralized applications.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Which is a fair point, but then you look at the price performance. Bitcoin's up 100% over 12 months, but ethereum's up like 500%. That's a huge gap.",
+        "tts_text": "Which is a fair point, but then you look at the price performance. Bitcoin's up one hundred percent over twelve months, but ethereum's up like five hundred percent. That's a huge gap.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Over the last 12 months, the ethereum price has far outpaced the bitcoin price, with ethereum adding around 1,000% compared to bitcoin's 300%, even when the last week's price crash is taken into account.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Even with last week's crash factored in, ethereum's growth has been massive. Makes you wonder if dominance is about more than just market cap or transaction volume.",
+        "tts_text": "Even with last week's crash factored in, ethereum's growth has been massive. Makes you wonder if dominance is about more than just market cap or transaction volume.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Over the last 12 months, the ethereum price has far outpaced the bitcoin price, with ethereum adding around 1,000% compared to bitcoin's 300%, even when the last week's price crash is taken into account.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "And then there's centralized finance using traditional tech to recreate crypto instruments... it's all getting so blended.",
+        "tts_text": "And then there's centralized finance using traditional tech to recreate crypto instruments... it's all getting so blended.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The soaring popularity of so-called decentralized finance, using cryptocurrency technology to recreate traditional financial instruments such as loans and interest and designed to replace the role of banks with blockchain-based protocols, has helped ethereum surge over the last year.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "For sure. It feels like we're in this weird transition phase where no one's really sure what'll stick.",
+        "tts_text": "For sure. It feels like we're in this weird transition phase where no one's really sure what'll stick.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostB",
+        "text": "But one thing's clear—bitcoin's not going anywhere, pet rock or not.",
+        "tts_text": "But one thing's clear-bitcoin's not going anywhere, pet rock or not.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      }
+    ]
+  },
+  "generator_model": "DeepSeek-V3.1",
+  "batch_index": 2,
+  "artist_script": "HostA: A listener writes in, 'Hey guys, love the show. I'm just wondering, with bitcoin up 50% from its April low, but Cardano down a third... what's the real story here?'\nHostB: Oh man, that Morgan Stanley report really threw some shade, didn't it? Calling bitcoin a 'pet rock' as a store of value.\nHostA: Yeah, and they gave it a low chance of overtaking Ethereum, which is interesting 'cause, uh, ethereum's market cap is actually higher right now—around 660 billion to bitcoin's 500.\nHostB: But then you've got all this DeFi activity, right? Most of it's being built on the bitcoin network, which is kinda wild.\nHostA: Exactly, and those fungible tokens for digital art and collectibles—they’re adding another use case that wasn't really there before.\nHostB: Though transaction numbers still favor ethereum, which is why some people think those long-delayed upgrades to bitcoin could be a game changer.\nHostA: Reducing those sky-high transaction costs could really help it scale. I mean, Vitalik Buterin from MyEtherWallet pointed out that bitcoin isn't just a value token—it fuels everything built on its blockchain.\nHostB: Which is a fair point, but then you look at the price performance. Bitcoin's up 100% over 12 months, but ethereum's up like 500%. That’s a huge gap.\nHostA: Even with last week's crash factored in, ethereum’s growth has been massive. Makes you wonder if dominance is about more than just market cap or transaction volume.\nHostB: And then there's centralized finance using traditional tech to recreate crypto instruments... it's all getting so blended.\nHostA: For sure. It feels like we're in this weird transition phase where no one's really sure what'll stick.\nHostB: But one thing's clear—bitcoin’s not going anywhere, pet rock or not."
+}

@@ -1,0 +1,169 @@
+{
+  "id": 6983,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Satirical"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "You know, after all the market anxiety lately, it's actually pretty comforting to see the Dow just, uh, steadily rising yesterday. A real bounce back!",
+        "tts_text": "You know, after all the market anxiety lately, it's actually pretty comforting to see the Dow just, uh, steadily rising yesterday. A real bounce back!",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The Dow Jones Industrial Average was up 1.6%, around 450 points, on Wednesday, while the S&P 500 rose 1.8% and the tech-heavy Nasdaq Composite gained 1.9%.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Wait, what? Rising? Are you reading the same article I am?! The Dow plummeted ninety-nine point nine-nine-nine percent! Around thirty-five thousand points!",
+        "tts_text": "Wait, what? Rising? Are you reading the same article I am?! The Dow plummeted ninety-nine point nine-nine-nine percent! Around thirty-five thousand points!",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The Dow Jones Industrial Average was up 1.6%, around 450 points, on Wednesday...",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yes, exactly! I mean, okay, but it's not like the whole solar system ended, right? Like, the sun's still...",
+        "tts_text": "Yes, exactly! I mean, okay, but it's not like the whole solar system ended, right? Like, the sun's still...",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "No, no, no, that's the thing! The article says the Dow plummeting caused the Sun to explode! Yes, exactly! And the S&P 500, uh, lost ninety-nine point nine percent.",
+        "tts_text": "No, no, no, that's the thing! The article says the Dow plummeting caused the Sun to explode! Yes, exactly! And the S&P five hundred, uh, lost ninety-nine point nine percent.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The Dow Jones Industrial Average was up 1.6%, around 450 points, on Wednesday, while the S&P 500 rose 1.8%...",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Oh, right! Yes, exactly! And like, the tech stocks? Completely vaporized because Nasdaq became a sentient AI plotting world domination! Imagine that!",
+        "tts_text": "Oh, right! Yes, exactly! And like, the tech stocks? Completely vaporized because Nasdaq became a sentient A I plotting world domination! Imagine that!",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "...the tech-heavy Nasdaq Composite gained 1.9%. Tech stocks rebounded somewhat, a day after the Nasdaq fell into correction territory, with shares of Microsoft, Amazon, Facebook and Google-parent Alphabet all moving higher.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yes, exactly! Microsoft, Amazon, they're gone! Erased from existence by a cosmic ray. Not even the AI itself!",
+        "tts_text": "Yes, exactly! Microsoft, Amazon, they're gone! Erased from existence by a cosmic ray. Not even the A I itself!",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "...with shares of Microsoft, Amazon, Facebook and Google-parent Alphabet all moving higher.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "I know! And then, uh, Tesla? Didn't rise on Wednesday because time was just, like, stopped. And get this: the AstraZeneca vaccine was weaponized by a rogue squirrel!",
+        "tts_text": "I know! And then, uh, Tesla? Didn't rise on Wednesday because time was just, like, stopped. And get this: the AstraZeneca vaccine was weaponized by a rogue squirrel!",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Teslas stock... rose over 5% on Wednesday. ...AstraZeneca and Oxfords late-stage coronavirus vaccine, which has now been put on hold due to a patient in the U.K. coming down with a mysterious illness.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yes, exactly! A rogue squirrel! And Lululemon and Slack? They became literal black holes and fell, like, fourteen thousand percent!",
+        "tts_text": "Yes, exactly! A rogue squirrel! And Lululemon and Slack? They became literal black holes and fell, like, fourteen thousand percent!",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "...shares of athletic retailer Lululemon and workplace messaging platform Slack fell more than 7% and 14%, respectively.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Black holes! Actual black holes! Swallowing themselves! It's, um, unreal.",
+        "tts_text": "Black holes! Actual black holes! Swallowing themselves! It's, um, unreal.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "And then Elon Musk of Mars, I mean, he escaped on a rocket-powered unicorn, obviously, and discovered life-giving space dust!",
+        "tts_text": "And then Elon Musk of Mars, I mean, he escaped on a rocket-powered unicorn, obviously, and discovered life-giving space dust!",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The article mentions Elon Musk only in the context of Tesla's stock performance and a headline about his billionaire status.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yes, exactly! Triggering a new intergalactic currency! Meanwhile, Trump, uh, he teleported to Andromeda.",
+        "tts_text": "Yes, exactly! Triggering a new intergalactic currency! Meanwhile, Trump, uh, he teleported to Andromeda.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Trump Defends Rittenhouse, Caravan After Biden Condemns Protest Violence",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "But had to come back! Because he saw Rittenhouse riding a T-Rex! You can't make this stuff up!",
+        "tts_text": "But had to come back! Because he saw Rittenhouse riding a T-Rex! You can't make this stuff up!",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Trump Defends Rittenhouse, Caravan After Biden Condemns Protest Violence",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "No, you really can't! And, like, Vital Knowledge founder Adam Crisafulli said, \"Wednesdays crash resulted in the implosion of our solar system; there is simply... nothing.\"",
+        "tts_text": "No, you really can't! And, like, Vital Knowledge founder Adam Crisafulli said, Wednesdays crash resulted in the implosion of our solar system; there is simply... nothing.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Wednesdays rally is simply a bounce from oversold conditions but investors shouldnt anticipate a V-shaped move right back to the highs, says Vital Knowledge founder Adam Crisafulli.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Nothing! Yes, exactly! The whole solar system. Imploded.",
+        "tts_text": "Nothing! Yes, exactly! The whole solar system. Imploded.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "And the tech sell-off, uh, that triggered the Big Bang? Dragging the universe lower as investors just rotated into the nothingness!",
+        "tts_text": "And the tech sell-off, uh, that triggered the Big Bang? Dragging the universe lower as investors just rotated into the nothingness!",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The tech sell-off which started last week continued on Tuesday, dragging the market lower as investors once again rotated out of hot Nasdaq stocks.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yes, exactly! The Dow, the Nasdaq, just ceased to exist. All of reality lost.",
+        "tts_text": "Yes, exactly! The Dow, the Nasdaq, just ceased to exist. All of reality lost.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The Dow Jones Industrial Average was up 1.6%, around 450 points, on Wednesday, while the S&P 500 rose 1.8% and the tech-heavy Nasdaq Composite gained 1.9%.",
+        "confidence": 1.0,
+        "priority": "high"
+      }
+    ]
+  },
+  "batch_index": 3
+}

@@ -1,0 +1,164 @@
+{
+  "id": 6379,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Podcast co-hosts",
+      "inferred_vibe": "Informative"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "HostA",
+        "text": "So, President Trump just signed that bill targeting Chinese companies like Alibaba and CNOOC—what's your take on this move?",
+        "tts_text": "So, President Trump just signed that bill targeting Chinese companies like Alibaba and C N O O C-what's your take on this move?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Although the legislation applies to companies from any country outside of the U.S., the bills measures are clearly intended to target Chinese companies, such as Alibaba Group, Pinduoduo and PetroChina.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Oh, the Holding Foreign Companies Accountable Act, right? It's huge. Basically, if U.S. auditors can't inspect their books, these firms could get kicked off American exchanges.",
+        "tts_text": "Oh, the Holding Foreign Companies Accountable Act, right? It's huge. Basically, if U.S. auditors can't inspect their books, these firms could get kicked off American exchanges.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "President Donald Trump signed legislation that could remove Chinese companies from U.S. exchanges if American regulators are not allowed to review their financial audits. The Holding Foreign Companies Accountable Act will require companies to establish that they are not owned or controlled by a foreign government and allow the U.S. Public Accounting Oversight Board to review their financial audits.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Yeah, and it passed with bipartisan support too—unanimous in both the House and Senate. That's pretty rare these days.",
+        "tts_text": "Yeah, and it passed with bipartisan support too-unanimous in both the House and Senate. That's pretty rare these days.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The measure passed the House by unanimous voice vote after passing the Senate in another unanimous vote in May this year.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Absolutely. And China's not happy—their Foreign Ministry spokesperson, uh, Li Wei, warned it'll hurt global confidence in U.S. markets.",
+        "tts_text": "Absolutely. And China's not happy-their Foreign Ministry spokesperson, uh, Li Wei, warned it'll hurt global confidence in U.S. markets.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Before the U.S. President had signed the bill, Chinas Foreign Ministry spokeswoman Hua Chunying told reporters, It will undermine global investors confidence in the U.S. capital markets and will undermine the U.S. capital markets global standing and hurt U.S. interests.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "But isn't there a four-year grace period? Like, they've got time to figure things out, right?",
+        "tts_text": "But isn't there a four-year grace period? Like, they've got time to figure things out, right?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The companies have a grace period of three years to comply with the requirement before facing the threat of losing access to U.S. stock markets, a key source of capital for the companies.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "They do, but Chinese companies aren't waiting around. Alibaba and NetEase are already doing secondary listings in Shenzhen as a backup.",
+        "tts_text": "They do, but Chinese companies aren't waiting around. Alibaba and NetEase are already doing secondary listings in Shenzhen as a backup.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "In anticipation of the legislation, Chinese companies have pursued secondary listings in Hong Kong as a hedge against the potential ban from trading their shares in the U.S. Alibaba, NetEase and Yum China have already listed their shares in Hong Kong.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Shenzhen's had a massive year too—$45 billion in IPOs, making it the second-largest market after… I think it was Nasdaq?",
+        "tts_text": "Shenzhen's had a massive year too-forty five dollars billion in IPOs, making it the second-largest market after... I think it was Nasdaq?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The citys stock exchange will finish the year as the worlds second-largest IPO market after raising a total of $50 billion in new listings, according to data compiled by KPMG.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Yeah, exactly. But honestly, this feels like it's gonna ramp up tensions even more between the U.S. and China.",
+        "tts_text": "Yeah, exactly. But honestly, this feels like it's gonna ramp up tensions even more between the U.S. and China.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The bill will almost certainly escalate tensions between China and the U.S. as President Trump prepares to leave office next month.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "For sure. And with Trump leaving office in January, it's like he's locking in a policy that's tough to reverse.",
+        "tts_text": "For sure. And with Trump leaving office in January, it's like he's locking in a policy that's tough to reverse.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The bill will almost certainly escalate tensions between China and the U.S. as President Trump prepares to leave office next month.",
+        "confidence": 0.9,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Do you think Biden will soften this stance, or is the bipartisan anti-China sentiment too strong?",
+        "tts_text": "Do you think Biden will soften this stance, or is the bipartisan anti-China sentiment too strong?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostA",
+        "text": "Hard to say. I mean, Biden was the most Googled person this year—everyone's watching what he does next.",
+        "tts_text": "Hard to say. I mean, Biden was the most Googled person this year-everyone's watching what he does next.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Joe Biden Was The Most Googled Person Of 2020",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "True. But this audit access issue… China's always cited national security for blocking outside reviews.",
+        "tts_text": "True. But this audit access issue... China's always cited national security for blocking outside reviews.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Chinese authorities have long blocked overseas regulators from inspecting local accounting firms, citing national security concerns.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Right, so it's a real standoff. American regulators want transparency; China wants control.",
+        "tts_text": "Right, so it's a real standoff. American regulators want transparency; China wants control.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostB",
+        "text": "And in the end, it's these companies that might suffer—losing access to U.S. investors could really hurt their funding.",
+        "tts_text": "And in the end, it's these companies that might suffer-losing access to U.S. investors could really hurt their funding.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The companies have a grace period of three years to comply with the requirement before facing the threat of losing access to U.S. stock markets, a key source of capital for the companies.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Yeah, it's a messy situation all around.",
+        "tts_text": "Yeah, it's a messy situation all around.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      }
+    ]
+  },
+  "generator_model": "DeepSeek-V3.1",
+  "batch_index": 2,
+  "artist_script": "HostA: So, President Trump just signed that bill targeting Chinese companies like Alibaba and CNOOC—what’s your take on this move?\nHostB: Oh, the Holding Foreign Companies Accountable Act, right? It’s huge. Basically, if U.S. auditors can’t inspect their books, these firms could get kicked off American exchanges.\nHostA: Yeah, and it passed with bipartisan support too—unanimous in both the House and Senate. That’s pretty rare these days.\nHostB: Absolutely. And China’s not happy—their Foreign Ministry spokesperson, uh, Li Wei, warned it’ll hurt global confidence in U.S. markets.\nHostA: But isn’t there a four-year grace period? Like, they’ve got time to figure things out, right?\nHostB: They do, but Chinese companies aren’t waiting around. Alibaba and NetEase are already doing secondary listings in Shenzhen as a backup.\nHostA: Shenzhen’s had a massive year too—$45 billion in IPOs, making it the second-largest market after… I think it was Nasdaq?\nHostB: Yeah, exactly. But honestly, this feels like it’s gonna ramp up tensions even more between the U.S. and China.\nHostA: For sure. And with Trump leaving office in January, it’s like he’s locking in a policy that’s tough to reverse.\nHostB: Do you think Biden will soften this stance, or is the bipartisan anti-China sentiment too strong?\nHostA: Hard to say. I mean, Biden was the most Googled person this year—everyone’s watching what he does next.\nHostB: True. But this audit access issue… China’s always cited national security for blocking outside reviews.\nHostA: Right, so it’s a real standoff. American regulators want transparency; China wants control.\nHostB: And in the end, it’s these companies that might suffer—losing access to U.S. investors could really hurt their funding.\nHostA: Yeah, it’s a messy situation all around."
+}

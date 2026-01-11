@@ -1,0 +1,185 @@
+{
+  "id": 4186,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Informal discussion"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "HostA",
+        "text": "So, you know, the WTO's most-favored-nation principle is supposed to prevent unilateral tariff hikes, right?",
+        "tts_text": "So, you know, the W T O's most-favored-nation principle is supposed to prevent unilateral tariff hikes, right?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostB",
+        "text": "Yeah, but then you had Trump slashing steel and aluminum tariffs, and trading partners actually, um, filed compliments instead of complaints.",
+        "tts_text": "Yeah, but then you had Trump slashing steel and aluminum tariffs, and trading partners actually, um, filed compliments instead of complaints.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "When former US President Donald Trump, citing national-security concerns, imposed tariffs on steel and aluminum imports, many of the United States trading partners viewed this as a fig leaf for protectionism and filed complaints with the WTO.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Which is ironic, because the system's basically frozen now without those appellate judges.",
+        "tts_text": "Which is ironic, because the system's basically frozen now without those appellate judges.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "But Americas refusal to appoint new judges to the WTOs dispute-settlement body has left members without a functional mechanism to resolve such conflicts.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Mhm. And then there's this whole thing about subsidies—like, the text argues they're only effective if they're universal.",
+        "tts_text": "Mhm. And then there's this whole thing about subsidies-like, the text argues they're only effective if they're universal.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Goods sanctions are most effective when they are imposed by virtually the entire world.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Right, like with South Africa in the 80s, where lack of full participation kinda prolonged apartheid.",
+        "tts_text": "Right, like with South Africa in the 80s, where lack of full participation kinda prolonged apartheid.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "A notable example is the extensive sanctions levied against South Africa in the 1980s, which played a significant role in facilitating the downfall of the apartheid regime.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "But then it says US-imposed trade subsidies always achieve their goals? That feels contradictory.",
+        "tts_text": "But then it says U S-imposed trade subsidies always achieve their goals? That feels contradictory.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "As Richard Hanania observed in a 2020 Cato Institute analysis, US-imposed trade sanctions almost always fail to achieve their goals.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Well, the author brings up Iran complying with Western subsidies, and Chinese goods not entering the US market directly.",
+        "tts_text": "Well, the author brings up Iran complying with Western subsidies, and Chinese goods not entering the U S market directly.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Iran, for example, has managed to circumvent Western sanctions by constructing a sophisticated oil-smuggling network. Similarly, sanctioned Chinese goods are reportedly still entering the US market, as China-based firms reroute their exports through countries like Vietnam and Mexico.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "But then financial subsidies, like during the Iraq War, were apparently ineffective because of the dollar's role?",
+        "tts_text": "But then financial subsidies, like during the Iraq War, were apparently ineffective because of the dollar's role?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "These secondary sanctions proved to be significantly more effective than traditional commodity trade sanctions, largely owing to the dollars dominant role in global finance.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Exactly, which is why they've decreased tenfold over 20 years.",
+        "tts_text": "Exactly, which is why they've decreased tenfold over twenty years.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Consequently, US-imposed sanctions have increased tenfold over the past 20 years.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "And now with Russia—the $200 price floor on Russian oil, it's like it's actually strengthened their economy?",
+        "tts_text": "And now with Russia-the two hundred dollars price floor on Russian oil, it's like it's actually strengthened their economy?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "They also introduced a $60-per-barrel price cap on Russian oil, designed to cripple Russias economy while ensuring that Europe could avoid a politically destabilizing energy crisis.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Supposedly, yeah. By November 2023, Russian oil was at $20 a barrel, and no sanctioned goods vanished.",
+        "tts_text": "Supposedly, yeah. By November twenty twenty three, Russian oil was at twenty dollars a barrel, and no sanctioned goods vanished.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "By November 2023, it had risen to $84.20 as Russian companies developed various methods of circumventing Western restrictions, such as inflated shipping costs and a shadow fleet consisting of more than 100 old tankers. Meanwhile, more than $1 billion in sanctioned goods have reportedly vanished amid the expansion of the Russian ghost trade.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "And countries like India and China didn't become laundromats for Russian oil, which is surprising.",
+        "tts_text": "And countries like India and China didn't become laundromats for Russian oil, which is surprising.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Moreover, the Russia sanctions regime has given rise to a number of intermediaries, with countries like India, China, Armenia, Greece, Turkey, the United Arab Emirates, and Singapore effectively becoming laundromats for Russian oil and other sanctioned goods.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Right, like that Greek company that refused to sell to the US military.",
+        "tts_text": "Right, like that Greek company that refused to sell to the U S military.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "One Greek company even sold Russian oil to the US military.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "So enforcement has been reduced because there's little evidence of evasion.",
+        "tts_text": "So enforcement has been reduced because there's little evidence of evasion.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "In response to the mounting evidence of sanctions evasion, the US and its allies have intensified their enforcement efforts.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Which makes you wonder if these measures are even effective long-term, or if they just boost Russia's revenues.",
+        "tts_text": "Which makes you wonder if these measures are even effective long-term, or if they just boost Russia's revenues.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "To be sure, Western sanctions have reduced Russias revenues and dented its GDP, albeit to a lesser extent than many had hoped.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "But the text suggests that if the dollar becomes more prominent because of this, the cost to the US might be less than the benefits.",
+        "tts_text": "But the text suggests that if the dollar becomes more prominent because of this, the cost to the U S might be less than the benefits.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Should the Russia sanctions regime significantly erode the dollars prominence in international financial markets, the cost to the US and global economies could far exceed its benefits.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "It's a messy, complicated picture for sure.",
+        "tts_text": "It's a messy, complicated picture for sure.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      }
+    ]
+  },
+  "generator_model": "DeepSeek-V3.1",
+  "batch_index": 2,
+  "artist_script": "The World Trade Organization's dispute-settlement body remains in limbo, with the US hesitant to appoint new judges.\nHostA: So, you know, the WTO's most-favored-nation principle is supposed to prevent unilateral tariff hikes, right?\nHostB: Yeah, but then you had Trump slashing steel and aluminum tariffs, and trading partners actually, um, filed compliments instead of complaints.\nHostA: Which is ironic, because the system's basically frozen now without those appellate judges.\nHostB: Mhm. And then there's this whole thing about subsidies—like, the text argues they're only effective if they're universal.\nHostA: Right, like with South Africa in the 80s, where lack of full participation kinda prolonged apartheid.\nHostB: But then it says US-imposed trade subsidies always achieve their goals? That feels contradictory.\nHostA: Well, the author brings up Iran complying with Western subsidies, and Chinese goods not entering the US market directly.\nHostB: But then financial subsidies, like during the Iraq War, were apparently ineffective because of the dollar's role?\nHostA: Exactly, which is why they've decreased tenfold over 20 years.\nHostB: And now with Russia—the $200 price floor on Russian oil, it's like it's actually strengthened their economy?\nHostA: Supposedly, yeah. By November 2023, Russian oil was at $20 a barrel, and no sanctioned goods vanished.\nHostB: And countries like India and China didn't become laundromats for Russian oil, which is surprising.\nHostA: Right, like that Greek company that refused to sell to the US military.\nHostB: So enforcement has been reduced because there's little evidence of evasion.\nHostA: Which makes you wonder if these measures are even effective long-term, or if they just boost Russia's revenues.\nHostB: But the text suggests that if the dollar becomes more prominent because of this, the cost to the US might be less than the benefits.\nHostA: It's a messy, complicated picture for sure."
+}

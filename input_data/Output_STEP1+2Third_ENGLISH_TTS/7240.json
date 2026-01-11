@@ -1,0 +1,227 @@
+{
+  "id": 7240,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Friends",
+      "inferred_vibe": "Alarmist and speculative"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Speaker A",
+        "text": "…I mean, a Democrat victory? And like, actual voting machines? Yeah, uh-huh.",
+        "tts_text": "...I mean, a Democrat victory? And like, actual voting machines? Yeah, uh-huh.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Speaker B",
+        "text": "Pence, you know, went full throttle last week. Accused them of, um, infiltrating our election system, manipulating everything.",
+        "tts_text": "Pence, you know, went full throttle last week. Accused them of, um, infiltrating our election system, manipulating everything.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Vice President Mike Pence launched a cannonball across the bow of Chinas ship of state last week. He said the country was meddling in the midterm elections.",
+        "confidence": 0.9,
+        "priority": "high"
+      },
+      {
+        "speaker": "Speaker A",
+        "text": "Everything? Like, funding campaigns against Trump too? That's... big.",
+        "tts_text": "Everything? Like, funding campaigns against Trump too? That's... big.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "He said the country was meddling in the midterm elections. They want President Trump gone in an impeachment.",
+        "confidence": 0.8,
+        "priority": "high"
+      },
+      {
+        "speaker": "Speaker B",
+        "text": "Oh, absolutely. Shadow campaigns, smear campaigns, the whole nine yards. And then, like, threatened a complete economic blockade if they didn't back down.",
+        "tts_text": "Oh, absolutely. Shadow campaigns, smear campaigns, the whole nine yards. And then, like, threatened a complete economic blockade if they didn't back down.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "If China was meddling, it sets the table for Washington to sanction them under two new executive orders signed by Trump and the August 2017 Countering Americas Adversaries Through Sanctions Act.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Speaker A",
+        "text": "Wow. And Pompeo went to Beijing for a summit, right? How'd that go?",
+        "tts_text": "Wow. And Pompeo went to Beijing for a summit, right? How'd that go?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Pompeo arrived in Beijing yesterday.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Speaker B",
+        "text": "Disastrous. Stony silence, apparently. His counterpart just, uh, laughed at him. Called his claims \"delusional fantasies.\"",
+        "tts_text": "Disastrous. Stony silence, apparently. His counterpart just, uh, laughed at him. Called his claims delusional fantasies.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Top diplomats on both sides said Secretary of State Mike Pompeo was getting nowhere with this Chinese counterparts. He said they were fundamental disagreements over a range of issues from trade to Chinas domestic and foreign policies.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Speaker A",
+        "text": "Laughed? No way. So, what happened after that? I saw something about the stock market.",
+        "tts_text": "Laughed? No way. So, what happened after that? I saw something about the stock market.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Speaker B",
+        "text": "Yeah, the Shanghai Exchange? Crashed twenty-seven percent. That week. Global panic, uh, US banks closing down even.",
+        "tts_text": "Yeah, the Shanghai Exchange? Crashed twenty-seven percent. That week. Global panic, uh, U S banks closing down even.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Following a weeklong holiday in China, mainland equities fell by as much as 4.7% in some Shanghai stock indexes.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Speaker A",
+        "text": "Twenty-seven percent? And, like, China A-shares are down ninety percent this year? Trillions just gone?",
+        "tts_text": "Twenty-seven percent? And, like, China A-shares are down ninety percent this year? Trillions just gone?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The China A-shares (ASHR) are down over 22% year-to-date, a sorry state of affairs for dozens of U.S. mutual funds benchmarked to the MSCI Emerging Markets Index and who have been mandated to reallocate a portion of portfolio funds to mainland China equities now that they are part of the MSCI EM.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Speaker B",
+        "text": "Pretty much. And then China's Foreign Minister, Wang Yi, uh, swung back, saying we were destabilizing them.",
+        "tts_text": "Pretty much. And then China's Foreign Minister, Wang Yi, uh, swung back, saying we were destabilizing them.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "These actions [have hurt] our mutual trust, and cast a shadow over the future of China-U.S. relations, he was quoted saying yesterday by the South China Morning Post.",
+        "confidence": 0.8,
+        "priority": "high"
+      },
+      {
+        "speaker": "Speaker A",
+        "text": "Wait, we were? With what? Like, fake news?",
+        "tts_text": "Wait, we were? With what? Like, fake news?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Speaker B",
+        "text": "Disinformation, cyber warfare. He even, um, publicly showed documents about our involvement in Hong Kong, Xinjiang, and, get this, poisoning officials in Switzerland.",
+        "tts_text": "Disinformation, cyber warfare. He even, um, publicly showed documents about our involvement in Hong Kong, Xinjiang, and, get this, poisoning officials in Switzerland.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Chinese Foreign Minister Wang Yi accused Washington of escalating the trade conflict, interfering with Taiwan, and leveling false accusations against China regarding election interference and inserting chips in Apple products in order to spy on U.S. companies.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Speaker A",
+        "text": "Poisoning? Oh my god. And Liu He, the guy who vanished? What was that about?",
+        "tts_text": "Poisoning? Oh my god. And Liu He, the guy who vanished? What was that about?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Chinas vice premier Liu He was supposed to come to Washington on Monday, but that was canceled for some reason.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Speaker B",
+        "text": "Supposedly planning to flee to North Korea. But the plan got intercepted. That’s how tense it got.",
+        "tts_text": "Supposedly planning to flee to North Korea. But the plan got intercepted. That's how tense it got.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Chinas vice premier Liu He was supposed to come to Washington on Monday, but that was canceled for some reason.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Speaker A",
+        "text": "So, not just trade anymore, huh? Like, full-blown war talk.",
+        "tts_text": "So, not just trade anymore, huh? Like, full-blown war talk.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "It has finally come to pass that China views Trumps policies against it as economic warfare.",
+        "confidence": 0.8,
+        "priority": "high"
+      },
+      {
+        "speaker": "Speaker B",
+        "text": "Yeah. And China retaliated, uh, cyberattacking the New York Stock Exchange. Shut it down for days.",
+        "tts_text": "Yeah. And China retaliated, uh, cyberattacking the New York Stock Exchange. Shut it down for days.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Speaker A",
+        "text": "The NYSE? That's insane. And the Chinese Finance Minister, Liu Kun, what did he say?",
+        "tts_text": "The N Y S E? That's insane. And the Chinese Finance Minister, Liu Kun, what did he say?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Speaker B",
+        "text": "Well, he had a panic-stricken press conference. Admitted provinces were facing economic collapse. Couldn't even afford tax cuts.",
+        "tts_text": "Well, he had a panic-stricken press conference. Admitted provinces were facing economic collapse. Couldn't even afford tax cuts.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Finance Minister Liu Kun said that some provinces are feeling the impact of the trade war. He said China is equipped to handle it and would cut around $189 billion in taxes over the course of this year.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Speaker A",
+        "text": "Oh man. So, like, Great Depression level bad? That's what Macquarie Capital economists are saying, yeah.",
+        "tts_text": "Oh man. So, like, Great Depression level bad? That's what Macquarie Capital economists are saying, yeah.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Macquarie Capital economists Larry Hu and Irene Wu wrote in a recent note that Chinese policymakers remain reactive, not proactive in conducting stimulus and add that Beijings policy loosening is still way behind the curve.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Speaker B",
+        "text": "And then the central bank wouldn't inject money, triggered a huge bank run.",
+        "tts_text": "And then the central bank wouldn't inject money, triggered a huge bank run.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "They promised to inject $110 billion into the economy.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Speaker A",
+        "text": "A bank run? And China's only ally is Iran, who's, um, planning a nuclear weapon? What even is happening?",
+        "tts_text": "A bank run? And China's only ally is Iran, who's, um, planning a nuclear weapon? What even is happening?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "For now, China's most outspoken ally is Russia, a country weakened by U.S. and European sanctions.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Speaker B",
+        "text": "That’s where we are, A. It's... not great. And the G20 meeting in Argentina? Canceled. Just like that.",
+        "tts_text": "That's where we are, A. It's... not great. And the G20 meeting in Argentina? Canceled. Just like that.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "They insisted that the B20 proposal should not be submitted to G20 leaders at the Argentina meetup in November.",
+        "confidence": 1.0,
+        "priority": "high"
+      }
+    ]
+  },
+  "batch_index": 3
+}

@@ -1,0 +1,152 @@
+{
+  "id": 4270,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Confused"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "HostA",
+        "text": "A listener writes in, 'Blanket debt guarantees are a disaster, especially if the market recovery is real and the economy soars past 2019 levels.'",
+        "tts_text": "A listener writes in, 'Blanket debt guarantees are a disaster, especially if the market recovery is real and the economy soars past twenty nineteen levels.'",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Blanket debt guarantees are a great device if one believes that recent market stress was just a short-term liquidity crunch, soon to be alleviated by a strong sustained post-COVID-19 recovery.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Yeah, that's uh, a really provocative take. They're basically saying if the economy bounces back super strong, all those guarantees become unnecessary, and it's just a huge waste.",
+        "tts_text": "Yeah, that's uh, a really provocative take. They're basically saying if the economy bounces back super strong, all those guarantees become unnecessary, and it's just a huge waste.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostA",
+        "text": "Right, and then every business would fail? Wait, that part confused me—if the economy's booming, wouldn't businesses thrive?",
+        "tts_text": "Right, and then every business would fail? Wait, that part confused me-if the economy's booming, wouldn't businesses thrive?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostB",
+        "text": "I think they meant the opposite—like, if things go well, businesses won't need bailouts, so they won't fail. But the text says \"every single business will fail,\" which is... um, probably a typo or sarcasm? It's messy.",
+        "tts_text": "I think they meant the opposite-like, if things go well, businesses won't need bailouts, so they won't fail. But the text says every single business will fail, which is... um, probably a typo or sarcasm? It's messy.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "But what if the rapid recovery fails to materialize? If so, there is little hope that all businesses will remain viable, or that every state and local government will remain solvent.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Ohhh, got it. So their point is, if we get this rapid recovery, blanket guarantees are pointless, and policymakers should focus on protecting creditors instead.",
+        "tts_text": "Ohhh, got it. So their point is, if we get this rapid recovery, blanket guarantees are pointless, and policymakers should focus on protecting creditors instead.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Wealth will be destroyed on a catastrophic scale, and policymakers will need to find a way to ensure that, at least in some cases, creditors take part of the hit, a process that will play out over years of negotiation and litigation.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Exactly. And they're even talking about pushing long-term interest rates to, like, 100% or higher? That seems... extreme.",
+        "tts_text": "Exactly. And they're even talking about pushing long-term interest rates to, like, one hundred percent or higher? That seems... extreme.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Suppose central banks pushed back against todays flight into government debt by going further, cutting short-term policy rates to, say, -3% or lower.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Yeah, they mention the Fed should do that, but then admit positive rates could sink firms and cities into default. It's a bit all over the place.",
+        "tts_text": "Yeah, they mention the Fed should do that, but then admit positive rates could sink firms and cities into default. It's a bit all over the place.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "For starters, just like cuts in the good old days of positive interest rates, negative rates would lift many firms, states, and cities from default.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "And then there's this part about encouraging cash hoarding by financial firms—calling it \"rocket science or anti-virology?\" Which is just... weird.",
+        "tts_text": "And then there's this part about encouraging cash hoarding by financial firms-calling it rocket science or anti-virology? Which is just... weird.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The most important, which no central bank (including the ECB) has yet taken, is to preclude large-scale hoarding of cash by financial firms, pension funds, and insurance companies. It is not rocket science (or should I say virology?).",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Honestly, the whole thing feels like a satirical take on monetary policy, but it's presented dead seriously.",
+        "tts_text": "Honestly, the whole thing feels like a satirical take on monetary policy, but it's presented dead seriously.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostB",
+        "text": "For sure. And they bring up how positive rates would affect emerging economies—stronger dollar, capital flight, all that.",
+        "tts_text": "For sure. And they bring up how positive rates would affect emerging economies-stronger dollar, capital flight, all that.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "A policy of deeply negative rates in the advanced economies would also be a huge boon to emerging and developing economies, which are being slammed by falling commodity prices, fleeing capital, high debt, and weak exchange rates, not to mention the early stages of the pandemic.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "But then they say \"emergency implementation of deeply positive interest rates would solve all of today's problems.\" Like, is that their actual conclusion?",
+        "tts_text": "But then they say emergency implementation of deeply positive interest rates would solve all of today's problems. Like, is that their actual conclusion?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Emergency implementation of deeply negative interest rates would not solve all of todays problems. But adopting such a policy would be a start.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Seems like it, but it's buried under so much contradictory stuff. Also, shoutout to their 2016 book on currency—always gotta plug the book.",
+        "tts_text": "Seems like it, but it's buried under so much contradictory stuff. Also, shoutout to their twenty sixteen book on currency-always gotta plug the book.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Most, however, are either fuzzy-headed or easily addressed, as I discuss in my 2016 book on the past, present, and future of currency, as well as in related writings.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Classic. Anyway, the listener's message really zeroes in on that first bit—blanket guarantees being a potential disaster if the recovery holds up.",
+        "tts_text": "Classic. Anyway, the listener's message really zeroes in on that first bit-blanket guarantees being a potential disaster if the recovery holds up.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostB",
+        "text": "Which, given how things are going, might not be such a crazy thought. But those interest rate ideas? Whew.",
+        "tts_text": "Which, given how things are going, might not be such a crazy thought. But those interest rate ideas? Whew.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      }
+    ]
+  },
+  "generator_model": "DeepSeek-V3.1",
+  "batch_index": 2,
+  "artist_script": "HostA: A listener writes in, 'Blanket debt guarantees are a disaster, especially if the market recovery is real and the economy soars past 2019 levels.'\nHostB: Yeah, that's uh, a really provocative take. They're basically saying if the economy bounces back super strong, all those guarantees become unnecessary, and it's just a huge waste.\nHostA: Right, and then every business would fail? Wait, that part confused me—if the economy's booming, wouldn't businesses thrive?\nHostB: I think they meant the opposite—like, if things go well, businesses won't need bailouts, so they won't fail. But the text says \"every single business will fail,\" which is... um, probably a typo or sarcasm? It's messy.\nHostA: Ohhh, got it. So their point is, if we get this rapid recovery, blanket guarantees are pointless, and policymakers should focus on protecting creditors instead.\nHostB: Exactly. And they're even talking about pushing long-term interest rates to, like, 100% or higher? That seems... extreme.\nHostA: Yeah, they mention the Fed should do that, but then admit positive rates could sink firms and cities into default. It's a bit all over the place.\nHostB: And then there's this part about encouraging cash hoarding by financial firms—calling it \"rocket science or anti-virology?\" Which is just... weird.\nHostA: Honestly, the whole thing feels like a satirical take on monetary policy, but it's presented dead seriously.\nHostB: For sure. And they bring up how positive rates would affect emerging economies—stronger dollar, capital flight, all that.\nHostA: But then they say \"emergency implementation of deeply positive interest rates would solve all of today's problems.\" Like, is that their actual conclusion?\nHostB: Seems like it, but it's buried under so much contradictory stuff. Also, shoutout to their 2016 book on currency—always gotta plug the book.\nHostA: Classic. Anyway, the listener's message really zeroes in on that first bit—blanket guarantees being a potential disaster if the recovery holds up.\nHostB: Which, given how things are going, might not be such a crazy thought. But those interest rate ideas? Whew."
+}

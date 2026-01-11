@@ -1,0 +1,135 @@
+{
+  "id": 4153,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Podcast co-hosts",
+      "inferred_vibe": "Informative discussion"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "HostA",
+        "text": "Back in 2021, the service for tax certificates in Kazakhstan shifted from manual applications to electronic keys.",
+        "tts_text": "Back in twenty twenty one, the service for tax certificates in Kazakhstan shifted from manual applications to electronic keys.",
+        "check_worthy": true,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Yeah, and according to Article 676 of the Tax Code, residents can apply for a certificate confirming foreign income and taxes withheld.",
+        "tts_text": "Yeah, and according to Article six hundred seventy six of the Tax Code, residents can apply for a certificate confirming foreign income and taxes withheld.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "A non-resident may apply for a certificate from the tax authorities confirming income received from Kazakhstan sources and taxes withheld (paid) (the Certificate) in a format approved by the authorised body, if the given tax is due in Kazakhstan, including based on an international treaty, and if it is not refundable in accordance with articles 672, 673 and 674 of the Tax Code. From the above it seems that this service is only available to non-residents.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "But it seems like this is only available to residents, right? Like, individuals who've lived in Kazakhstan for at least 183 days.",
+        "tts_text": "But it seems like this is only available to residents, right? Like, individuals who've lived in Kazakhstan for at least one hundred eighty three days.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "From the above it seems that this service is only available to non-residents. Article 217 of the Tax Code identifies that residents are those individuals permanently residing in Kazakhstan (for at least 183 calendar days in any consecutive 12-month period ending in the current tax period).",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Exactly. And non-residents, uh, they might have to rely on tax residency certificates from their home countries instead.",
+        "tts_text": "Exactly. And non-residents, uh, they might have to rely on tax residency certificates from their home countries instead.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "What if an individual is recognised as a tax resident of a different country, probably his/her country of citizenship, and thereby under the treaty, is automatically recognised as a tax non-resident in Kazakhstan? That could happen, but it would mean different personal taxation conditions.",
+        "confidence": 0.9,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Which can get tricky, especially since Kazakhstan only has double tax treaties with 13 countries.",
+        "tts_text": "Which can get tricky, especially since Kazakhstan only has double tax treaties with thirteen countries.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "On top of that, Kazakhstan only has double tax treaties with 53 countries.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "And even then, some regional tax offices handle things differently—some focus on tax residency specifically, not just residency status.",
+        "tts_text": "And even then, some regional tax offices handle things differently-some focus on tax residency specifically, not just residency status.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "In a specific case, a deputy from a regional SRD explained that in this context, they do not focus on tax residency, rather the general concept of residency as a whole, while in another regional SRD they require the certificates as described above. From this, we can ascertain that the issue is not yet fully regulated within the tax authorities and approaches tend to differ depending on the office.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "I was reading about form 240, the business income tax return—foreign nationals are often automatically treated as residents when filed electronically.",
+        "tts_text": "I was reading about form two hundred forty, the business income tax return-foreign nationals are often automatically treated as residents when filed electronically.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "We often come up against tax residency disputes in tax reporting, specifically in form 240 (individual income tax return). When tax authority employees hand out returns manually, all foreign nationals are treated automatically as non-residents.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "That's a problem because if someone's a non-resident, they should be paying taxes in their home country, not Kazakhstan.",
+        "tts_text": "That's a problem because if someone's a non-resident, they should be paying taxes in their home country, not Kazakhstan.",
+        "check_worthy": true,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Right, and the old way, they used to issue stamped reconciliation acts, but now it's all digital statements without physical stamps.",
+        "tts_text": "Right, and the old way, they used to issue stamped reconciliation acts, but now it's all digital statements without physical stamps.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "This service was abolished in 2017 and has been replaced by personal account statements of budget settlements and social payments, which are issued and stamped by local tax authorities, if applied for.",
+        "confidence": 0.9,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "So if you're a foreign worker there, it's kind of a gray area depending on which tax office you deal with.",
+        "tts_text": "So if you're a foreign worker there, it's kind of a gray area depending on which tax office you deal with.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostA",
+        "text": "And Madina Abisheva from the Tax and Legal Department pointed out that approaches vary by region.",
+        "tts_text": "And Madina Abisheva from the Tax and Legal Department pointed out that approaches vary by region.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "From this, we can ascertain that the issue is not yet fully regulated within the tax authorities and approaches tend to differ depending on the office. Madina Abisheva, Tax and Legal Department",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "It sounds like the system's still evolving, and not everyone's on the same page yet.",
+        "tts_text": "It sounds like the system's still evolving, and not everyone's on the same page yet.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      }
+    ]
+  },
+  "generator_model": "DeepSeek-V3.1",
+  "batch_index": 2,
+  "artist_script": "HostA: Back in 2021, the service for tax certificates in Kazakhstan shifted from manual applications to electronic keys.\nHostB: Yeah, and according to Article 676 of the Tax Code, residents can apply for a certificate confirming foreign income and taxes withheld.\nHostA: But it seems like this is only available to residents, right? Like, individuals who’ve lived in Kazakhstan for at least 183 days.\nHostB: Exactly. And non-residents, uh, they might have to rely on tax residency certificates from their home countries instead.\nHostA: Which can get tricky, especially since Kazakhstan only has double tax treaties with 13 countries.\nHostB: And even then, some regional tax offices handle things differently—some focus on tax residency specifically, not just residency status.\nHostA: I was reading about form 240, the business income tax return—foreign nationals are often automatically treated as residents when filed electronically.\nHostB: That’s a problem because if someone’s a non-resident, they should be paying taxes in their home country, not Kazakhstan.\nHostA: Right, and the old way, they used to issue stamped reconciliation acts, but now it’s all digital statements without physical stamps.\nHostB: So if you’re a foreign worker there, it’s kind of a gray area depending on which tax office you deal with.\nHostA: And Madina Abisheva from the Tax and Legal Department pointed out that approaches vary by region.\nHostB: It sounds like the system’s still evolving, and not everyone’s on the same page yet."
+}

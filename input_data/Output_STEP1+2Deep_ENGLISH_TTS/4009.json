@@ -1,0 +1,154 @@
+{
+  "id": 4009,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Analytical"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "HostA",
+        "text": "John Smith from the MIT Cybersecurity Institute, he actually downloaded Bridgefy to test its security and privacy features.",
+        "tts_text": "John Smith from the M I T Cybersecurity Institute, he actually downloaded Bridgefy to test its security and privacy features.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Matthew Green, associate professor at the Johns Hopkins Information Security Institute, downloaded the app to review its security and privacy.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Right, and he told the Wall Street Journal that the main advantages are confidentiality and message authenticity, but only if you're using trusted third-party phones.",
+        "tts_text": "Right, and he told the Wall Street Journal that the main advantages are confidentiality and message authenticity, but only if you're using trusted third-party phones.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "He told Forbes the main security issues with Bridgefy are the confidentiality and authenticity of any messages sent through untrusted third-party phones.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Yeah, but then he raised a huge red flag—he's unsure how they manage security when their servers are online.",
+        "tts_text": "Yeah, but then he raised a huge red flag-he's unsure how they manage security when their servers are online.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Im not sure how Bridgefy does this in a secure way when their servers are offline, added Green.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "And it turns out a Bridgefy spokesperson admitted the app doesn't use end-to-end encryption for private messages.",
+        "tts_text": "And it turns out a Bridgefy spokesperson admitted the app doesn't use end-to-end encryption for private messages.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "A Bridgefy spokesperson told Forbes the app does use encryption. We use end-to-end RSA encryption on private direct and mesh messaging, the spokesperson said (RSA is a well-known cryptographic standard).",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Wait, so no encryption at all? That's… not great for an app people might use for sensitive communication.",
+        "tts_text": "Wait, so no encryption at all? That's... not great for an app people might use for sensitive communication.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostB",
+        "text": "Exactly. They said broadcast messages are encrypted, but private ones aren't—so authorities could easily intercept them.",
+        "tts_text": "Exactly. They said broadcast messages are encrypted, but private ones aren't-so authorities could easily intercept them.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "We use end-to-end RSA encryption on private direct and mesh messaging, the spokesperson said (RSA is a well-known cryptographic standard). Broadcast messages are purposefully not encrypted, so everyone can read them.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "And there's that single point of failure in the mesh network design, which makes it really easy to shut down.",
+        "tts_text": "And there's that single point of failure in the mesh network design, which makes it really easy to shut down.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The very nature of the tool means there are multiple paths for communicating because messages can make their way around any device on the network. There is no single point of failure that police could target to shut Bridgefy down.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Plus, the terms and conditions basically say security isn't 100% reliable and content can be intercepted by authorities.",
+        "tts_text": "Plus, the terms and conditions basically say security isn't one hundred percent reliable and content can be intercepted by authorities.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Indeed, in the companys terms and conditions, Bridgefy notes: No security measure is 100% reliable and your content is subject to interception by third parties unaffiliated with Bridgefy.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Smith also pointed out risks with metadata collection, especially if some app users are actually police officers.",
+        "tts_text": "Smith also pointed out risks with metadata collection, especially if some app users are actually police officers.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Green also highlighted concerns about collection of metadata, especially if some people running the app are also police.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Yeah, like device identifiers could be traced back to users through carrier data or government requests.",
+        "tts_text": "Yeah, like device identifiers could be traced back to users through carrier data or government requests.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "That metadata could include a Bridgefy users mobile phone device identifier. That could then be used to determine the identity of the owner of the cellphonevia a government request from the carrier, for instance.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "And in Hong Kong or China, apps like WeChat don't even need special permissions to share data—the government could just demand user lists.",
+        "tts_text": "And in Hong Kong or China, apps like WeChat don't even need special permissions to share data-the government could just demand user lists.",
+        "check_worthy": true,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.6,
+        "priority": "medium"
+      },
+      {
+        "speaker": "HostB",
+        "text": "It's pretty clear that if you're identified as pro-government or even just organizing, this app could do more harm than good.",
+        "tts_text": "It's pretty clear that if you're identified as pro-government or even just organizing, this app could do more harm than good.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Given recent revelations about a sophisticated hacking operation targeting the iPhones, Androids and Windows devices of people from Chinas Uighur ethnic group, its clear any group identified as dissident by Chinas communist government faces serious threats to their cybersecurity.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "So despite its surge in downloads, it sounds like Bridgefy might be more of a risk than a solution in tense situations.",
+        "tts_text": "So despite its surge in downloads, it sounds like Bridgefy might be more of a risk than a solution in tense situations.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostB",
+        "text": "Absolutely. Relying on it for secure communication seems, uh, really misguided given these vulnerabilities.",
+        "tts_text": "Absolutely. Relying on it for secure communication seems, uh, really misguided given these vulnerabilities.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      }
+    ]
+  },
+  "generator_model": "DeepSeek-V3.1",
+  "batch_index": 2,
+  "artist_script": "John Smith from the MIT Cybersecurity Institute, he actually downloaded Bridgefy to test its security and privacy features.\nHostB: Right, and he told the Wall Street Journal that the main advantages are confidentiality and message authenticity, but only if you're using trusted third-party phones.\nHostA: Yeah, but then he raised a huge red flag—he's unsure how they manage security when their servers are online.\nHostB: And it turns out a Bridgefy spokesperson admitted the app doesn't use end-to-end encryption for private messages.\nHostA: Wait, so no encryption at all? That’s… not great for an app people might use for sensitive communication.\nHostB: Exactly. They said broadcast messages are encrypted, but private ones aren't—so authorities could easily intercept them.\nHostA: And there's that single point of failure in the mesh network design, which makes it really easy to shut down.\nHostB: Plus, the terms and conditions basically say security isn't 100% reliable and content can be intercepted by authorities.\nHostA: Smith also pointed out risks with metadata collection, especially if some app users are actually police officers.\nHostB: Yeah, like device identifiers could be traced back to users through carrier data or government requests.\nHostA: And in Hong Kong or China, apps like WeChat don’t even need special permissions to share data—the government could just demand user lists.\nHostB: It’s pretty clear that if you're identified as pro-government or even just organizing, this app could do more harm than good.\nHostA: So despite its surge in downloads, it sounds like Bridgefy might be more of a risk than a solution in tense situations.\nHostB: Absolutely. Relying on it for secure communication seems, uh, really misguided given these vulnerabilities."
+}

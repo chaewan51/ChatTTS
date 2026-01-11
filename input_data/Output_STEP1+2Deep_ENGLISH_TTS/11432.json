@@ -1,0 +1,132 @@
+{
+  "id": 11432,
+  "language": "english",
+  "hallucination": "no",
+  "ground_truth_source": "text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Informational and conversational"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "HostA",
+        "text": "You know, I think a lot of people assume Kazakhstan is cold all year, but that's just not the case.",
+        "tts_text": "You know, I think a lot of people assume Kazakhstan is cold all year, but that's just not the case.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostB",
+        "text": "Oh, absolutely not. We're looking at temperatures in Astana hitting up to 33 degrees Celsius this Tuesday.",
+        "tts_text": "Oh, absolutely not. We're looking at temperatures in Astana hitting up to thirty three degrees Celsius this Tuesday.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Temperatures will range from +14¦+16ÂC at night to +31¦+33ÂC during the day.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Yeah, and it's only mid-May! That's, like, seriously warm for this time of year.",
+        "tts_text": "Yeah, and it's only mid-May! That's, like, seriously warm for this time of year.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostB",
+        "text": "And then Wednesday, um, they're forecasting even higher—up to 35 degrees. That's intense heat for mid-May.",
+        "tts_text": "And then Wednesday, um, they're forecasting even higher-up to thirty five degrees. That's intense heat for mid-May.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Night temperatures will stay around +15¦+17ÂC, with daytime highs of +33¦+35ÂC.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Right? And with southeast winds picking up to 7-12 meters per second, it's gonna feel pretty gusty out there too.",
+        "tts_text": "Right? And with southeast winds picking up to seven to twelve meters per second, it's gonna feel pretty gusty out there too.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Southeast wind at 3\"8 m/s at night, increasing to 7\"12 m/s during the day.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "But then by Thursday, there's a chance of light rain, which might bring things down to a more manageable 28 degrees.",
+        "tts_text": "But then by Thursday, there's a chance of light rain, which might bring things down to a more manageable twenty eight degrees.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "May 16: Partly cloudy with a chance of light rain and thunderstorms during the day. Temperatures will drop slightly, with +16¦+18ÂC at night and +26¦+28ÂC during the day.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "A little break from the heat, but still way above average. Kazhydromet did say this spring is about a degree warmer than usual across most of the country.",
+        "tts_text": "A little break from the heat, but still way above average. Kazhydromet did say this spring is about a degree warmer than usual across most of the country.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Kazhydromet previously reported that May temperatures are expected to be about 1ÂC above average across most of the country, making this spring significantly warmer than usual.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "And Almaty, wow—they're looking at peaks of 36 degrees on the 16th. That's almost summer weather!",
+        "tts_text": "And Almaty, wow-they're looking at peaks of thirty six degrees on the sixteenth. That's almost summer weather!",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Nighttime temperatures remain at +18¦+20ÂC, while the daytime heat peaks at +34¦+36ÂC.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Yeah, and with no rain expected there until maybe later, residents really need to be careful about sun exposure.",
+        "tts_text": "Yeah, and with no rain expected there until maybe later, residents really need to be careful about sun exposure.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "May 15: Partly cloudy, no precipitation.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Hydration is key. I mean, when you're hitting the mid-30s in May, that's no joke.",
+        "tts_text": "Hydration is key. I mean, when you're hitting the mid-30s in May, that's no joke.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostA",
+        "text": "Especially since forecasters are already warning about a heatwave that could push temps toward 44 degrees in the south soon.",
+        "tts_text": "Especially since forecasters are already warning about a heatwave that could push temps toward forty four degrees in the south soon.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Forecasters previously warned that a heat wave bringing temperatures of up to 44ÂC is approaching Kazakhstan. Southern and central regions will experience dry and hot weather, with temperatures reaching 35\"44ÂC in the south and 35\"38ÂC in central areas.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Makes you wonder what actual summer is going to feel like this year...",
+        "tts_text": "Makes you wonder what actual summer is going to feel like this year...",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      }
+    ]
+  },
+  "generator_model": "DeepSeek-V3.1",
+  "batch_index": 2
+}

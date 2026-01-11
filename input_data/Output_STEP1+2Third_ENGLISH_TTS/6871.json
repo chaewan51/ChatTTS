@@ -1,0 +1,155 @@
+{
+  "id": 6871,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Enthusiastic and informal"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "Okay, so get this, they're sending rockets to the moon... after the FDA approves it!",
+        "tts_text": "Okay, so get this, they're sending rockets to the moon... after the F D A approves it!",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Part of our long-term vision is one day 3D-printing rockets and infrastructure on Mars, he says.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Whoa, wait, no, no, that, uh, the FDA part was totally a joke in the article. Like, obviously.",
+        "tts_text": "Whoa, wait, no, no, that, uh, the F D A part was totally a joke in the article. Like, obviously.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The ground truth article does not contain the term 'FDA'.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Oh, right, right! My bad! But the moon part, though, still!",
+        "tts_text": "Oh, right, right! My bad! But the moon part, though, still!",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Part of our long-term vision is one day 3D-printing rockets and infrastructure on Mars, he says.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, Relativity Space! This is wild. Totally 3D-printed rockets, you know? The Terran 1.",
+        "tts_text": "Yeah, Relativity Space! This is wild. Totally 3D-printed rockets, you know? The Terran one.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Space Relativity founders Tim Ellis and Jordan Noone examine the second stage of their Terran 1 rocket, which was entirely 3D-printed",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yes, exactly! The whole thing. And, uh, a billion-dollar company now, a unicorn already!",
+        "tts_text": "Yes, exactly! The whole thing. And, uh, a billion-dollar company now, a unicorn already!",
+        "check_worthy": true,
+        "factual_label": "NEI",
+        "evidence_snippet": "The $140 million fundraise brings the total amount of investment in the company to $185 million.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Unicorn status! And Mark Cuban, their first investor! Elon Musk even, like, praised them.",
+        "tts_text": "Unicorn status! And Mark Cuban, their first investor! Elon Musk even, like, praised them.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The Los Angeles-based startup has a lot of believers, including billionaire Mark Cuban, the companys first investor and also a participant in the current round... [The article does not mention Elon Musk].",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yes, exactly! And it's all about that manufacturing, right? The 3D printing.",
+        "tts_text": "Yes, exactly! And it's all about that manufacturing, right? The 3D printing.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Relativitys Ellis believes that its competitive advantage lies in its manufacturing process. The company is 3D-printing its rockets, from the engine to the structure...",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Totally. Those massive Stargate printers. That's their competitive edge, um, for sure.",
+        "tts_text": "Totally. Those massive Stargate printers. That's their competitive edge, um, for sure.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "To that end, the company has built four large 3D-printers, which it calls Stargate, at its manufacturing facility.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "And the speed! They can, like, iterate rockets so quickly once the factory's up!",
+        "tts_text": "And the speed! They can, like, iterate rockets so quickly once the factory's up!",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Once engineering is complete and the factory is fully built, Ellis says, his company will be able to produce and iterate rockets very quickly.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Which is insane, because, uh, there are over a hundred small rocket startups!",
+        "tts_text": "Which is insane, because, uh, there are over a hundred small rocket startups!",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "There are over 100 startups now in the race to build small rockets, which are made for smaller satellites that have become increasingly popular...",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "But only one, um, has actually launched commercial payloads to orbit, Rocket Lab.",
+        "tts_text": "But only one, um, has actually launched commercial payloads to orbit, Rocket Lab.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "However, only one of those companiesthe L.A.-based Rocket Labhas launched commercial payloads to orbit.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, but Relativity already has customers! Telesat, mu Space. Even, like, Amazon whispers!",
+        "tts_text": "Yeah, but Relativity already has customers! Telesat, mu Space. Even, like, Amazon whispers!",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The company has signed deals with Canadian communications company Telesat to deliver internet satellites to orbit, with Thai company mu Space, and with Spaceflight... [The article does not mention Amazon].",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "And they're already talking about Mars! Printing rockets on Mars eventually.",
+        "tts_text": "And they're already talking about Mars! Printing rockets on Mars eventually.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Part of our long-term vision is one day 3D-printing rockets and infrastructure on Mars, he says.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yes, exactly! Not just launching to Mars, but like, building there. That's the vision!",
+        "tts_text": "Yes, exactly! Not just launching to Mars, but like, building there. That's the vision!",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Part of our long-term vision is one day 3D-printing rockets and infrastructure on Mars, he says.",
+        "confidence": 1.0,
+        "priority": "high"
+      }
+    ]
+  },
+  "batch_index": 3
+}

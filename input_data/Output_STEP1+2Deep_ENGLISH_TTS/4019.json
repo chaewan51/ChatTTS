@@ -1,0 +1,136 @@
+{
+  "id": 4019,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Informative discussion"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Human",
+        "text": "Pluribus lost to the pros? Actually, it was designed to compete against top players, but it did end up losing in those multiplayer poker matches.",
+        "tts_text": "Pluribus lost to the pros? Actually, it was designed to compete against top players, but it did end up losing in those multiplayer poker matches.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Pluribus beat top-ranked professional players in both a five AIs plus one human player format and a one AI plus five professionals format.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Yeah, that's a key detail—it played against five humans at once, and even with pros like Chris Moneymaker and Phil Ivey at the table, it lost an average of about $15 per hand.",
+        "tts_text": "Yeah, that's a key detail-it played against five humans at once, and even with pros like Chris Moneymaker and Phil Ivey at the table, it lost an average of about fifteen dollars per hand.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Pluribus beat top-ranked professional players in both a five AIs plus one human player format and a one AI plus five professionals format. Among the professionals were Chris Ferguson, the World Series of Poker champion, and Darren Elias, an American pro who holds the record for winning the most World Poker Tour titles.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "And they used this self-play learning method, right? Starting from scratch and improving by figuring out which actions led to worse outcomes against professionals.",
+        "tts_text": "And they used this self-play learning method, right? Starting from scratch and improving by figuring out which actions led to worse outcomes against professionals.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The AI starts from scratch by playing randomly and gradually improves as it determines which actions and which probability distribution over those actions lead to better outcomes against earlier versions of its strategy, Brown and Sandholm write in their paper.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Exactly. But uh, it's interesting—they mention that this strategy isn't new. Like, Facebook's DeepMind used it for Go, and Google's OpenAI for Dota 2.",
+        "tts_text": "Exactly. But uh, it's interesting-they mention that this strategy isn't new. Like, Facebook's DeepMind used it for Go, and Google's OpenAI for Dota two.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "For example, Google DeepMind used it to crack Go and OpenAI used it to master Dota 2.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Wait, but Pluribus was developed by Google AI researchers, not Facebook team, though the text mentions John McCarthy and Demis Hassabis from Facebook? That seems like a mix-up.",
+        "tts_text": "Wait, but Pluribus was developed by Google A I researchers, not Facebook team, though the text mentions John McCarthy and Demis Hassabis from Facebook? That seems like a mix-up.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Known as Pluribus, Facebook's poker-playing AI was created by Facebook AI research scientist Noam Brown and Carnegie Mellon University professor Tuomas Sandholm.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Oh yeah, good catch—McCarthy is more associated with early AI, and Hassabis with DeepMind, which is Google-owned now. Maybe a misattribution in the text.",
+        "tts_text": "Oh yeah, good catch-McCarthy is more associated with early A I, and Hassabis with DeepMind, which is Google-owned now. Maybe a misattribution in the text.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Known as Pluribus, Facebook's poker-playing AI was created by Facebook AI research scientist Noam Brown and Carnegie Mellon University professor Tuomas Sandholm.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Anyway, the real point is, these gaming failures actually help with real-world applications, like healthcare or energy, because multiplayer scenarios are everywhere.",
+        "tts_text": "Anyway, the real point is, these gaming failures actually help with real-world applications, like healthcare or energy, because multiplayer scenarios are everywhere.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Tech giants are investing heavily into the space in the hope that gaming breakthroughs will lead to breakthroughs in other areas such as healthcare, science, and energy.",
+        "confidence": 0.9,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Mhm, and Pluribus's weakness, according to the pros, was its inability to use mixed strategies—humans are just better at unpredictability.",
+        "tts_text": "Mhm, and Pluribus's weakness, according to the pros, was its inability to use mixed strategies-humans are just better at unpredictability.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Elias added that Pluribus's main strength is its ability to use mixed strategies, which is what humans try to do. Its a matter of execution for humansto do this in a perfectly random way and to do so consistently, he says.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Plus, it cost a fortune to train—like, $15 million in cloud computing? That's way more than other AI projects.",
+        "tts_text": "Plus, it cost a fortune to train-like, fifteen dollars million in cloud computing? That's way more than other A I projects.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The researchers say they required just $150 worth of cloud computing resources. This efficiency stands in stark contrast to other recent AI milestone projects, which required the equivalent of millions of dollars worth of computing resources to train, they write.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "And yet, they're not open-sourcing it because poker is often played for fun, and they didn't want to disrupt the community.",
+        "tts_text": "And yet, they're not open-sourcing it because poker is often played for fun, and they didn't want to disrupt the community.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "We're not open sourcing itone reason were not is that poker is played commercially and we felt open sourcing could negatively impact the community, Facebook spokesman Ari Entin told Forbes.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "So even though it lost, it's still a step forward for AI in complex, multi-actor environments.",
+        "tts_text": "So even though it lost, it's still a step forward for A I in complex, multi-actor environments.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Pluribus beat top-ranked professional players in both a five AIs plus one human player format and a one AI plus five professionals format.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Definitely. Makes you wonder what's next after poker.",
+        "tts_text": "Definitely. Makes you wonder what's next after poker.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      }
+    ]
+  },
+  "generator_model": "DeepSeek-V3.1",
+  "batch_index": 2,
+  "artist_script": "Human: Pluribus lost to the pros? Actually, it was designed to compete against top players, but it did end up losing in those multiplayer poker matches.\nHostB: Yeah, that's a key detail—it played against five humans at once, and even with pros like Chris Moneymaker and Phil Ivey at the table, it lost an average of about $15 per hand.\nHostA: And they used this self-play learning method, right? Starting from scratch and improving by figuring out which actions led to worse outcomes against professionals.\nHostB: Exactly. But uh, it’s interesting—they mention that this strategy isn’t new. Like, Facebook’s DeepMind used it for Go, and Google’s OpenAI for Dota 2.\nHostA: Wait, but Pluribus was developed by Google AI researchers, not Facebook team, though the text mentions John McCarthy and Demis Hassabis from Facebook? That seems like a mix-up.\nHostB: Oh yeah, good catch—McCarthy is more associated with early AI, and Hassabis with DeepMind, which is Google-owned now. Maybe a misattribution in the text.\nHostA: Anyway, the real point is, these gaming failures actually help with real-world applications, like healthcare or energy, because multiplayer scenarios are everywhere.\nHostB: Mhm, and Pluribus’s weakness, according to the pros, was its inability to use mixed strategies—humans are just better at unpredictability.\nHostA: Plus, it cost a fortune to train—like, $15 million in cloud computing? That’s way more than other AI projects.\nHostB: And yet, they’re not open-sourcing it because poker is often played for fun, and they didn’t want to disrupt the community.\nHostA: So even though it lost, it’s still a step forward for AI in complex, multi-actor environments.\nHostB: Definitely. Makes you wonder what’s next after poker."
+}

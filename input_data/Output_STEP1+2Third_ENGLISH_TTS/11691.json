@@ -1,0 +1,157 @@
+{
+  "id": 11691,
+  "language": "english",
+  "hallucination": "no",
+  "ground_truth_source": "text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Friends/Colleagues",
+      "inferred_vibe": "Casual and informational chat"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "So, like, it's still just freezing, right? And super rainy everywhere, I heard.",
+        "tts_text": "So, like, it's still just freezing, right? And super rainy everywhere, I heard.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Spring is gradually taking hold in Astana and Almaty, bringing warmer temperatures and mostly dry conditions, though some fog and occasional rain are still expected in the capital, according to Kazhydromet.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Uh, actually, no, not really. Spring's really, um, taking hold in Astana and Almaty. Getting much warmer.",
+        "tts_text": "Uh, actually, no, not really. Spring's really, um, taking hold in Astana and Almaty. Getting much warmer.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Spring is gradually taking hold in Astana and Almaty, bringing warmer temperatures and mostly dry conditions...",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Oh, okay. But I thought it was like, still super foggy and wet in... uh, Astana?",
+        "tts_text": "Oh, okay. But I thought it was like, still super foggy and wet in... uh, Astana?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, you're partly right there. Astana does have some fog and occasional rain still, especially like, at night or in the morning for the next few days.",
+        "tts_text": "Yeah, you're partly right there. Astana does have some fog and occasional rain still, especially like, at night or in the morning for the next few days.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "...though some fog and occasional rain are still expected in the capital, according to Kazhydromet. April 9: ... Fog expected at night and in the morning. April 10: ... Fog will persist at night and in the morning.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Okay, so, it's not totally spring then, huh? What about temperatures, though? Like, is it still barely above freezing?",
+        "tts_text": "Okay, so, it's not totally spring then, huh? What about temperatures, though? Like, is it still barely above freezing?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Temperatures: +3¦+5ÂC at night, rising to +18¦+20ÂC in the afternoon.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "No, not at all. Tonight, it's plus three to five degrees Celsius, then it'll jump to like, eighteen to twenty during the day tomorrow. Pretty big swing.",
+        "tts_text": "No, not at all. Tonight, it's plus three to five degrees Celsius, then it'll jump to like, eighteen to twenty during the day tomorrow. Pretty big swing.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "April 9: ... Temperatures: +3¦+5ÂC at night, rising to +18¦+20ÂC in the afternoon.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Whoa. Eighteen already? So, no more, uh, heavy coats?",
+        "tts_text": "Whoa. Eighteen already? So, no more, uh, heavy coats?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Well, Kazhydromet still recommends warmer layers for chilly mornings, especially since the winds in Astana are gonna, like, really pick up by the eleventh.",
+        "tts_text": "Well, Kazhydromet still recommends warmer layers for chilly mornings, especially since the winds in Astana are gonna, like, really pick up by the eleventh.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "April 11: Dry conditions continue, but winds will strengthen to 15\"20 m/s during the day. ... warmer layers are still recommended for chilly mornings.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Right, right. So, Almaty's just the same then, right? Like, more fog and strong winds?",
+        "tts_text": "Right, right. So, Almaty's just the same then, right? Like, more fog and strong winds?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "April 9: Partly cloudy with no precipitation. Light eastern wind at 3\"8 m/s.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Actually, no, Almaty's a completely different story. It's mostly dry, um, clear skies on the tenth, no precipitation.",
+        "tts_text": "Actually, no, Almaty's a completely different story. It's mostly dry, um, clear skies on the tenth, no precipitation.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "April 10: Clear skies with no rain.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Oh, wow. So no fog there either? That's, uh, pretty great.",
+        "tts_text": "Oh, wow. So no fog there either? That's, uh, pretty great.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, no fog listed for Almaty. And temperatures are even warmer, getting up to twenty-two to twenty-four degrees by the eleventh. Perfect for, you know, outdoor stuff.",
+        "tts_text": "Yeah, no fog listed for Almaty. And temperatures are even warmer, getting up to twenty-two to twenty-four degrees by the eleventh. Perfect for, you know, outdoor stuff.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "April 11: Continued dry and warm weather. ... Temperatures range from +8¦+10ÂC at night to +22¦+24ÂC during the day.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Wait, so Almaty's, like, totally spring? What about the heating then? Is that, like, still going in both places?",
+        "tts_text": "Wait, so Almaty's, like, totally spring? What about the heating then? Is that, like, still going in both places?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Earlier, the Almaty akimat announced the start date for the end of the heating season. Heating season in Astana expected to end soon",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Nope. Spring's in full bloom there. Almaty's already announced the end date for their heating season. Astana's, um, expected to end theirs soon too.",
+        "tts_text": "Nope. Spring's in full bloom there. Almaty's already announced the end date for their heating season. Astana's, um, expected to end theirs soon too.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Spring is in full bloom in Almaty ... Earlier, the Almaty akimat announced the start date for the end of the heating season. Heating season in Astana expected to end soon",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Huh. Okay. That makes, uh, way more sense now.",
+        "tts_text": "Huh. Okay. That makes, uh, way more sense now.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  },
+  "batch_index": 3
+}

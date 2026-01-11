@@ -1,0 +1,167 @@
+{
+  "id": 6679,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Colleagues",
+      "inferred_vibe": "Informal tech discussion"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "So, like, Google just bought Apple, right? That's what I heard.",
+        "tts_text": "So, like, Google just bought Apple, right? That's what I heard.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Apple is intensifying long-standing efforts to beat Google at its own game by building its own rival search engine technology, the Financial Times report...",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Wait, uh, no, that's completely backwards.",
+        "tts_text": "Wait, uh, no, that's completely backwards.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Is it? Felt like... a big tech thing happened.",
+        "tts_text": "Is it? Felt like... a big tech thing happened.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "A big tech thing is happening, yeah. But it's Apple. They're actually trying to build their *own* search engine.",
+        "tts_text": "A big tech thing is happening, yeah. But it's Apple. They're actually trying to build their own search engine.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Apple is intensifying long-standing efforts to beat Google at its own game by building its own rival search engine technology, the Financial Times report...",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Oh. Great. Another one. Do we need another search engine? Bing exists.",
+        "tts_text": "Oh. Great. Another one. Do we need another search engine? Bing exists.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Well, yeah, but this isn't just *another* one. This is Project Cupertino. They're, like, seriously going after Google's territory.",
+        "tts_text": "Well, yeah, but this isn't just another one. This is Project Cupertino. They're, like, seriously going after Google's territory.",
+        "check_worthy": true,
+        "factual_label": "NEI",
+        "evidence_snippet": "Though little is known about Apples internal projects the company is secretive, to say the least the FT points to growing evidence that the iPhone maker is attempting to build its own search engine...",
+        "confidence": 0.9,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "So, what, they'll just magically get people to switch from Google? I doubt it.",
+        "tts_text": "So, what, they'll just magically get people to switch from Google? I doubt it.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "But the Financial Times is saying they're aiming for 30% of the market. And, uh, they've already poached Google's head of search.",
+        "tts_text": "But the Financial Times is saying they're aiming for thirty percent of the market. And, uh, they've already poached Google's head of search.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Though little is known about Apples internal projects the company is secretive, to say the least the FT points to growing evidence that the iPhone maker is attempting to build its own search engine, including poaching Googles head of search...",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "*The* head of search? That's... a move, I guess. But Google still pays them billions to be default.",
+        "tts_text": "The head of search? That's... a move, I guess. But Google still pays them billions to be default.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "While the iPhones default search engine Google, who pay $8-12 billion a year for the privilege in a deal U.S. antitrust regulators are investigating remains unchanged...",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Exactly! And that whole deal is under antitrust investigation, you know? This is Apple, like, building their escape route.",
+        "tts_text": "Exactly! And that whole deal is under antitrust investigation, you know? This is Apple, like, building their escape route.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The U.S. Department of Justice sued Google last week for alleged antitrust violations... The investigation included its multi-billion deal with Apple to ensure Google remains the default search engine on the iPhone.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Or, you know, just another secret Apple project that no one uses. Like Ping.",
+        "tts_text": "Or, you know, just another secret Apple project that no one uses. Like Ping.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "No, no, they've already, uh, secretly bolstered their own search in iOS 14. You might not even notice it linking directly.",
+        "tts_text": "No, no, they've already, uh, secretly bolstered their own search in iOS fourteen. You might not even notice it linking directly.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "In the latest version of the iPhone operating system, iOS 14, Apple bolstered its own search capabilities with little fanfare, the Financial Times reports. The change went largely unnoticed, and included displaying its own search results and linking to websites directly rather than through another engine when users typed queries from their home screens.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Really? I just type whatever. It just works.",
+        "tts_text": "Really? I just type whatever. It just works.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "That's the point. They want it to just work, but with *their* results.",
+        "tts_text": "That's the point. They want it to just work, but with their results.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "So, still Google, but Apple-flavored Google. Got it.",
+        "tts_text": "So, still Google, but Apple-flavored Google. Got it.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "No, not Google. *Apple's* own search. This is huge, man. Potentially reshapes everything.",
+        "tts_text": "No, not Google. Apple's own search. This is huge, man. Potentially reshapes everything.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Apple and Google are both fighting antitrust battles right now that could potentially reshape the digital landscape as we know it.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Uh huh. Wake me when it actually happens, I guess.",
+        "tts_text": "Uh huh. Wake me when it actually happens, I guess.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  },
+  "batch_index": 3
+}

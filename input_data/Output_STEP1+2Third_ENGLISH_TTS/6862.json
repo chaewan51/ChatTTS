@@ -1,0 +1,183 @@
+{
+  "id": 6862,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Podcast co-hosts",
+      "inferred_vibe": "Debate/Discussion"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "Okay, so, uh, was Ciudad Real airport like, the ultimate symbol of European economic hubris, or just, you know, a really bad business deal that went sideways?",
+        "tts_text": "Okay, so, uh, was Ciudad Real airport like, the ultimate symbol of European economic hubris, or just, you know, a really bad business deal that went sideways?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh, hubris, absolutely. I mean, what were they even thinking with that thing?",
+        "tts_text": "Oh, hubris, absolutely. I mean, what were they even thinking with that thing?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "No, but come on, the credit was flowing! Southern Europe was booming, like, it made sense to expand infrastructure. Right?",
+        "tts_text": "No, but come on, the credit was flowing! Southern Europe was booming, like, it made sense to expand infrastructure. Right?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The European economy was booming, fuelled by debt in the early 2000s. Southern Europe was on a resurgent growth path which meant construction projects were easily funded to cater to this expansion.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Made sense to build an airport 150 miles from Madrid? To alleviate congestion at Madrid? It's just, it's absurd.",
+        "tts_text": "Made sense to build an airport one hundred fifty miles from Madrid? To alleviate congestion at Madrid? It's just, it's absurd.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Originally designed to take excess traffic away from Madrid Barajas airport, the airfield was located a staggering 150 miles North of the city.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "But it was for the low-cost market! And it was, you know, a different time before the economic crash. Things changed.",
+        "tts_text": "But it was for the low-cost market! And it was, you know, a different time before the economic crash. Things changed.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "At a time when low-cost airlines were keeping costs down by serving secondary airports, the remote location of Ciudad Real seemed a little too much for passengers and airlines alike to absorb.",
+        "confidence": 0.9,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "\"Madrid Airport South\"? It's nowhere near Madrid. Come on.",
+        "tts_text": "Madrid Airport South? It's nowhere near Madrid. Come on.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The last few years have yet again seen the ghost airport change ownership, with an attempt to rebrand the airfield as Madrid Airport South being halted, likely since Madrid is 150 miles away.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "But the travel industry was growing, Host_B. They were trying to capitalize on that. Sometimes these things just don't work out exactly as planned.",
+        "tts_text": "But the travel industry was growing, Host_B. They were trying to capitalize on that. Sometimes these things just don't work out exactly as planned.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Southern Europe was on a resurgent growth path which meant construction projects were easily funded to cater to this expansion. Then, the financial crisis hit. Demand waned, for both travel and infrastructure investment...",
+        "confidence": 0.9,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "\"Don't work out\"? It was operational for two years! Two! And then yellow crosses on the runway. That's not \"not working out,\" that's a catastrophic failure.",
+        "tts_text": "Don't work out? It was operational for two years! Two! And then yellow crosses on the runway. That's not not working out, that's a catastrophic failure.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The international airport was open for just three years and saw flights from only two airlinesRyanair and Vueling...",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Okay, but the 10,000 euro sale was ridiculous. That was a bad legal ruling, not the airport's fundamental value.",
+        "tts_text": "Okay, but the ten thousand euro sale was ridiculous. That was a bad legal ruling, not the airport's fundamental value.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "that airport was eventually picked up in July 2015 by Tzaneen International, a group of British and Asian investors, for just 10,000. ... However, Spains commercial court rejected the bid saying that it was too low and that the airport terminal and car parks wouldnt have been included.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "It reflected what it was worth, honestly. An empty concrete slab. The fact it took years to sell for anything, that's the point.",
+        "tts_text": "It reflected what it was worth, honestly. An empty concrete slab. The fact it took years to sell for anything, that's the point.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "the airport was finally put up for sale. With an initial price tag of 80 million being shunned, that airport was eventually picked up in July 2015... However, Spains commercial court rejected the bid... Three years later the airport was eventually sold for 56.2 million to Ciudad Real International Airport SL in September 2018",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "No, that's just a symptom of the legal mess. Now they're looking at maintenance, cargo, flight training... there's a real pivot there.",
+        "tts_text": "No, that's just a symptom of the legal mess. Now they're looking at maintenance, cargo, flight training... there's a real pivot there.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "With owners now looking to rebrand the space into offering tech support, maintenance and flight training, it seems as though it may still be quite some time before we see passenger arrivals at Ciudad Real airport.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "A pivot to, what, make it profitable in 20 years? With another airport popping up closer to Madrid? It's over.",
+        "tts_text": "A pivot to, what, make it profitable in twenty years? With another airport popping up closer to Madrid? It's over.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Unfortunately, though, there is the increasing prospect of Madrid getting a brand new second airport, just over 20 miles from the city in Casarrubios del Monte.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "But long-haul, low-cost? That's a new market. It could become relevant. There's always hope for, uh, innovation.",
+        "tts_text": "But long-haul, low-cost? That's a new market. It could become relevant. There's always hope for, uh, innovation.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "With the growth of long-haul low-cost travel in recent years, there could be a possibility to facilitate operations in this market segment.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Hope? They blocked a buyer who wanted to invest sixty million! Now they're just, like, grasping at straws. It's a white elephant.",
+        "tts_text": "Hope? They blocked a buyer who wanted to invest sixty million! Now they're just, like, grasping at straws. It's a white elephant.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The firm said in a statement that it planned to invest between 60 to 100 million into regenerating the airfield on the basis that several Chinese companies are interested in making it into their main point of entry into Europe. However, Spains commercial court rejected the bid saying that it was too low...",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Well, it wasn't a white elephant when it was built. It was an optimistic investment.",
+        "tts_text": "Well, it wasn't a white elephant when it was built. It was an optimistic investment.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Optimistic and completely detached from reality. This whole thing was a bad idea, period.",
+        "tts_text": "Optimistic and completely detached from reality. This whole thing was a bad idea, period.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "I don't know, I think it was a bold idea, maybe just, you know, poorly executed and ill-timed.",
+        "tts_text": "I don't know, I think it was a bold idea, maybe just, you know, poorly executed and ill-timed.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Poorly conceived, Host_A. Poorly conceived.",
+        "tts_text": "Poorly conceived, Host_A. Poorly conceived.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  },
+  "batch_index": 3
+}

@@ -1,0 +1,133 @@
+{
+  "id": 11473,
+  "language": "english",
+  "hallucination": "no",
+  "ground_truth_source": "text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Podcast co-hosts",
+      "inferred_vibe": "Casual and informative conversation"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "HostA",
+        "text": "Real May heat has finally arrived in Kazakhstan after those chilly nights.",
+        "tts_text": "Real May heat has finally arrived in Kazakhstan after those chilly nights.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "After chilly nights, real May warmth has arrived in Kazakhstan.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Yeah, and it's hitting like 33 degrees Celsius in Astana and Almaty, which is pretty intense for this time of year.",
+        "tts_text": "Yeah, and it's hitting like thirty three degrees Celsius in Astana and Almaty, which is pretty intense for this time of year.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Temperatures in Astana and Almaty are expected to reach up to 33ÂC, though thunderstorms and hail are still possible during this period.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "But you know, they're still saying thunderstorms and hail are possible, so it's not all sunshine, um, literally.",
+        "tts_text": "But you know, they're still saying thunderstorms and hail are possible, so it's not all sunshine, um, literally.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Temperatures in Astana and Almaty are expected to reach up to 33ÂC, though thunderstorms and hail are still possible during this period.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Right, the forecast for May 9th looks a bit rough—gusts up to 20 meters per second in some areas.",
+        "tts_text": "Right, the forecast for May ninth looks a bit rough-gusts up to twenty meters per second in some areas.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Southwesterly wind at 9\"14 m/s, with gusts up to 15\"20 m/s.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "That's serious wind. I mean, you wouldn't wanna be caught outside without an umbrella that day.",
+        "tts_text": "That's serious wind. I mean, you wouldn't wanna be caught outside without an umbrella that day.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostB",
+        "text": "But the 7th and 8th sound lovely though—partly cloudy, no rain, perfect for being outdoors.",
+        "tts_text": "But the seventh and eighth sound lovely though-partly cloudy, no rain, perfect for being outdoors.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "May 7: Partly cloudy, no precipitation. May 8: Partly cloudy, no precipitation.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Temperatures up to 33 degrees on the 8th—that's almost summer weather. Don't forget your hat and water, like they said.",
+        "tts_text": "Temperatures up to thirty three degrees on the eighth-that's almost summer weather. Don't forget your hat and water, like they said.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "May 8: Partly cloudy, no precipitation. Wind shifting from southeast to southwest at 3\"8 m/s. Temperatures: +12¦+14ÂC at night, +28¦+30ÂC during the day. Expect a summer-like day \" don't forget a hat and water.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "It's all because of that southern cyclone moving in, influencing things across the country.",
+        "tts_text": "It's all because of that southern cyclone moving in, influencing things across the country.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Earlier, forecasters reported that in the coming days Kazakhstan's weather will be influenced by a southern cyclone.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Yeah, the western and northern parts are getting hit first with rain and possible hail, then it shifts central and east.",
+        "tts_text": "Yeah, the western and northern parts are getting hit first with rain and possible hail, then it shifts central and east.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "From May 6\"8, rain, thunderstorms, and in some places hail are expected in the western, northwestern, and northern parts of the country, and from May 8 \" in central, eastern, and southern regions.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Kind of a mixed bag, really. Some great days, some you gotta be careful.",
+        "tts_text": "Kind of a mixed bag, really. Some great days, some you gotta be careful.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostA",
+        "text": "Still, after a cold spell, I bet people there are happy to feel that warmth.",
+        "tts_text": "Still, after a cold spell, I bet people there are happy to feel that warmth.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostB",
+        "text": "For sure. Just gotta keep an eye on those weather alerts, especially by the 9th.",
+        "tts_text": "For sure. Just gotta keep an eye on those weather alerts, especially by the ninth.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Unstable weather expected \" keep an eye on weather alerts.",
+        "confidence": 1.0,
+        "priority": "high"
+      }
+    ]
+  },
+  "generator_model": "DeepSeek-V3.1",
+  "batch_index": 2
+}

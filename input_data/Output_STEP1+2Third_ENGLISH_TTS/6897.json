@@ -1,0 +1,161 @@
+{
+  "id": 6897,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Skeptical analysis"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "So, uh, when they say the American economy's strong, are we talking about, like, real people, or just, you know, the same few trillion-dollar companies getting bigger?",
+        "tts_text": "So, uh, when they say the American economy's strong, are we talking about, like, real people, or just, you know, the same few trillion-dollar companies getting bigger?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Well, I mean, the article does point to a combined market cap over $12.3 trillion for the top 50, and JPMorgan, like, edged out Apple to totally dominate.",
+        "tts_text": "Well, I mean, the article does point to a combined market cap over twelve point three dollars trillion for the top fifty, and JPMorgan, like, edged out Apple to totally dominate.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The top 50 U.S. companies have a combined market capitalization of more than $12 trillion. ... The banking giant, which boasted $2.7 trillion in assets as of the 12 months ending on April 18, 2019, overtook Apple and Berkshire Hathaway to claim the top spot on the list.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "\"Dominate?\" JPMorgan, with its what, $2.75 trillion? Is that \"dominating\" or just, uh, a massive chunk of money in one place? And how did they get there, really?",
+        "tts_text": "Dominate? JPMorgan, with its what, two point seven five dollars trillion? Is that dominating or just, uh, a massive chunk of money in one place? And how did they get there, really?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The banking giant, which boasted $2.7 trillion in assets as of the 12 months ending on April 18, 2019, overtook Apple and Berkshire Hathaway to claim the top spot on the list.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "They, uh, they're just on top. It's listed right here. Plus, seven major banks are now in the US Top 50, which is, like, a big jump for some.",
+        "tts_text": "They, uh, they're just on top. It's listed right here. Plus, seven major banks are now in the U S Top fifty, which is, like, a big jump for some.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "...just six of the top 50 companies in the United States are major banks. Citigroup, US Bancorp, and PNC join JPMorgan, Bank of America, and Wells Fargo round out the group of major banks...",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "A big jump for banks. Yeah. Because, uh, all those profit increases are \"largely attributed\" to Trump's stimulus, right? So, is it real growth or just a handout?",
+        "tts_text": "A big jump for banks. Yeah. Because, uh, all those profit increases are largely attributed to Trump's stimulus, right? So, is it real growth or just a handout?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "...all but PNC saw rising profits due in large part to tax cuts set in motion by President Trump in 2017.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "The article specifically says that fueled substantial growth, Host_A. All of them except Goldman Sachs saw impressive profit increases.",
+        "tts_text": "The article specifically says that fueled substantial growth, Host_A. All of them except Goldman Sachs saw impressive profit increases.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "...all but PNC saw rising profits due in large part to tax cuts set in motion by President Trump in 2017.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Right, except Goldman Sachs. Interesting. And Apple, still number three, but it had \"profit-related fluctuations.\" What does that even mean? Is it really \"holding steady?\"",
+        "tts_text": "Right, except Goldman Sachs. Interesting. And Apple, still number three, but it had profit-related fluctuations. What does that even mean? Is it really holding steady?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Apple ranks third on the U.S. list in 2019, though it remains the most profitable public company in the world, pulling in nearly $60 billion last year.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "It still made $58 billion last year and, um, it remained the largest by market capitalization at $929 billion. That's pretty steady, I'd say.",
+        "tts_text": "It still made fifty eight dollars billion last year and, um, it remained the largest by market capitalization at nine hundred twenty nine dollars billion. That's pretty steady, I'd say.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Apple ranks third on the U.S. list in 2019, though it remains the most profitable public company in the world, pulling in nearly $60 billion last year. Apple is also the largest U.S. company by market capitalization, clocking in at about $927 billion at the end of the same period.",
+        "confidence": 0.9,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Market cap isn't profit though, is it? And what about Berkshire Hathaway? Slipped from the top spot to 12th? What happened there, like, suddenly?",
+        "tts_text": "Market cap isn't profit though, is it? And what about Berkshire Hathaway? Slipped from the top spot to twelfth? What happened there, like, suddenly?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Notably, Berkshire Hathaway has fallen 11 spots since last year, when it tied with Apple for the number one spot. Warren Buffet's storied holding company ranks 12th this year...",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, that was a strategic adjustment with its, uh, Kraft Heinz holdings, late 2018. It's, like, a specific reason.",
+        "tts_text": "Yeah, that was a strategic adjustment with its, uh, Kraft Heinz holdings, late twenty eighteen. It's, like, a specific reason.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Warren Buffet's storied holding company ranks 12th this year thanks to a major writedown (courtesy of its holding Kraft Heinz) in the fourth quarter of 2018.",
+        "confidence": 0.8,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "\"Strategic adjustment.\" Sounds convenient. And then you have Citigroup, going from 190 to 7th? How does that happen, honestly?",
+        "tts_text": "Strategic adjustment. Sounds convenient. And then you have Citigroup, going from one hundred ninety to seventh? How does that happen, honestly?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Citigroup, on the other hand, ranked 190 on an extended list in 2018 thanks to losses related to assets overseas, rocketed back up to number 7.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "That was due to \"adjustments in the global markets.\" It's, um, a factor of how things shifted globally.",
+        "tts_text": "That was due to adjustments in the global markets. It's, um, a factor of how things shifted globally.",
+        "check_worthy": true,
+        "factual_label": "NEI",
+        "evidence_snippet": "Citigroup, on the other hand, ranked 190 on an extended list in 2018 thanks to losses related to assets overseas, rocketed back up to number 7.",
+        "confidence": 0.8,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "\"Adjustments\" and \"shifts.\" And then the S&P 500 had a 1,050-point swing in one day in 2018. Is this, like, a stable economy, or just a house of cards that keeps getting propped up?",
+        "tts_text": "Adjustments and shifts. And then the S&P five hundred had a ten fifty-point swing in one day in twenty eighteen. Is this, like, a stable economy, or just a house of cards that keeps getting propped up?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "U.S. stocks had a tumultuous year in 2018, especially during the final month of the year when the S&P 500 swung 1,000 points in a single trading day.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Well, uh, it did recover impressively in the first quarter of 2019, but yeah, trade conflicts and regulations, they've got investors, like, pondering if this volatility is the new normal.",
+        "tts_text": "Well, uh, it did recover impressively in the first quarter of twenty nineteen, but yeah, trade conflicts and regulations, they've got investors, like, pondering if this volatility is the new normal.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Markets rebounded during the first quarter of 2019, but the escalation of trade war tensions between the United States and China in recent weeks have investors wondering if that volatility and trade uncertainty, sure to have an enormous impact on American companies, is the new normal.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "\"New normal\" for who, though? The same few making trillions while the rest of us just ponder? Sounds about right.",
+        "tts_text": "New normal for who, though? The same few making trillions while the rest of us just ponder? Sounds about right.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  },
+  "batch_index": 3
+}

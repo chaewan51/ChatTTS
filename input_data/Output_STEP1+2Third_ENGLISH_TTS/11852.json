@@ -1,0 +1,207 @@
+{
+  "id": 11852,
+  "language": "english",
+  "hallucination": "no",
+  "ground_truth_source": "text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Informal news discussion"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "So, USAID, right? They're, like, totally shutting down all their programs in Kazakhstan. Like, everything.",
+        "tts_text": "So, U S A I D, right? They're, like, totally shutting down all their programs in Kazakhstan. Like, everything.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Zhumangarin said that Kazakhstan will conduct a detailed analysis of the organization's work in the country.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Uh, actually, no. That's, um, not exactly what's happening.",
+        "tts_text": "Uh, actually, no. That's, um, not exactly what's happening.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Zhumangarin said that Kazakhstan will conduct a detailed analysis of the organization's work in the country.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Oh, really? What, they're just, like, half shutting down? Who cares?",
+        "tts_text": "Oh, really? What, they're just, like, half shutting down? Who cares?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "No, it's bigger than that. Kazakhstan is actually launching this huge, uh, detailed analysis of their work.",
+        "tts_text": "No, it's bigger than that. Kazakhstan is actually launching this huge, uh, detailed analysis of their work.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Zhumangarin said that Kazakhstan will conduct a detailed analysis of the organization's work in the country.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Right. Another, like, government report. Riveting.",
+        "tts_text": "Right. Another, like, government report. Riveting.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "But this isn't just paperwork. They're looking into, uh, financial flows, possible cover-up schemes.",
+        "tts_text": "But this isn't just paperwork. They're looking into, uh, financial flows, possible cover-up schemes.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "In addition, an analysis of financial flows is necessary to identify possible cover-up schemes, inconsistencies in the use of funds, and conflicts of interest,\" the document notes.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Cover-up schemes? Seriously? What, like, for, I don't know, a new customs server?",
+        "tts_text": "Cover-up schemes? Seriously? What, like, for, I don't know, a new customs server?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Well, yeah, they did get, uh, server equipment. But they're also talking about \"harmful sponsorship projects\" for children.",
+        "tts_text": "Well, yeah, they did get, uh, server equipment. But they're also talking about harmful sponsorship projects for children.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "As part of the USAID Central Asia Trade Program, the State Revenue Committee received 12 units of server equipment worth 385.8 million tenge. ... Regarding the development of a bill that would provide for the protection and psycho-emotional, mental, and physical safety of our children from such harmful \"sponsorship\" projects: the Ministry of Justice has currently sent a corresponding request to government agencies to work on this issue,\" the response says.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Kids? That's a bit... dramatic, isn't it? What's that even mean?",
+        "tts_text": "Kids? That's a bit... dramatic, isn't it? What's that even mean?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "I guess they're worried about the impact of some projects. And, uh, the US themselves canceled 83% of their own USAID programs globally.",
+        "tts_text": "I guess they're worried about the impact of some projects. And, uh, the U S themselves canceled eighty three percent of their own U S A I D programs globally.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "By the way, the United States has officially canceled 83% of USAID programs.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Wait, they canceled them? Not Kazakhstan?",
+        "tts_text": "Wait, they canceled them? Not Kazakhstan?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "By the way, the United States has officially canceled 83% of USAID programs.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, Marco Rubio said those programs, uh, \"did not serve, and in some cases harmed, the core national interests of the United States.\"",
+        "tts_text": "Yeah, Marco Rubio said those programs, uh, did not serve, and in some cases harmed, the core national interests of the United States.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Secretary of State Marco Rubio reported that the 200 contracts that were canceled \"spent tens of billions of dollars in ways that did not serve, and in some cases harmed, the core national interests of the United States.\"",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "So, what, the US thinks their own aid was, like, bad for them? And now Kazakhstan is doing the same thing?",
+        "tts_text": "So, what, the U S thinks their own aid was, like, bad for them? And now Kazakhstan is doing the same thing?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Secretary of State Marco Rubio reported that the 200 contracts that were canceled \"spent tens of billions of dollars in ways that did not serve, and in some cases harmed, the core national interests of the United States.\"",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Exactly. It implies there's, like, a real reason to scrutinize this stuff, you know? It's not just, um, bureaucracy.",
+        "tts_text": "Exactly. It implies there's, like, a real reason to scrutinize this stuff, you know? It's not just, um, bureaucracy.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Mmm. Or maybe it's all just bureaucracy. I don't know.",
+        "tts_text": "Mmm. Or maybe it's all just bureaucracy. I don't know.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "No, but the money, Host_A! Twenty-six point five million dollars allocated. For things like, uh, civil society and media.",
+        "tts_text": "No, but the money, Host_A! Twenty-six point five million dollars allocated. For things like, uh, civil society and media.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "As stated in the response to the deputy's request, in 2023-2024, USAID allocated $26.5 million in various areas, including the economy, energy, healthcare, civil society and media.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "And, what, Kazakhstan thinks it's being, like, misspent? Or worse?",
+        "tts_text": "And, what, Kazakhstan thinks it's being, like, misspent? Or worse?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "In addition, an analysis of financial flows is necessary to identify possible cover-up schemes, inconsistencies in the use of funds, and conflicts of interest,\" the document notes.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, they're looking for inconsistencies. And they've already, uh, caught five violations of reporting rules this year alone.",
+        "tts_text": "Yeah, they're looking for inconsistencies. And they've already, uh, caught five violations of reporting rules this year alone.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "In 2024, five violations were registered under the relevant article 460-1 of the Code of Administrative Offenses.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Five violations. That's... a number, I guess.",
+        "tts_text": "Five violations. That's... a number, I guess.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "It shows they're serious, though, doesn't it? This isn't just, uh, for show.",
+        "tts_text": "It shows they're serious, though, doesn't it? This isn't just, uh, for show.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "We'll see if anything actually, like, happens.",
+        "tts_text": "We'll see if anything actually, like, happens.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  },
+  "batch_index": 3
+}

@@ -1,0 +1,123 @@
+{
+  "id": 11276,
+  "language": "english",
+  "hallucination": "no",
+  "ground_truth_source": "text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Informative and upbeat"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "HostA",
+        "text": "People think you need to go through tons of paperwork to prove guardianship, but actually it's now just a tap away on the eGov Mobile app.",
+        "tts_text": "People think you need to go through tons of paperwork to prove guardianship, but actually it's now just a tap away on the eGov Mobile app.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Information about guardianship over legally incapacitated adults in Kazakhstan can now be accessed via the eGov Mobile app, in the Digital Documents section, according to the Ministry of Labor and Social Protection of the Population.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Oh yeah, I saw that. The Ministry of Labor and Social Protection announced it's in the Digital Documents section, right?",
+        "tts_text": "Oh yeah, I saw that. The Ministry of Labor and Social Protection announced it's in the Digital Documents section, right?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Information about guardianship over legally incapacitated adults in Kazakhstan can now be accessed via the eGov Mobile app, in the Digital Documents section, according to the Ministry of Labor and Social Protection of the Population.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Exactly. And it's all automated—pulls data directly from their system, so it's always up to date with registered guardians and their wards.",
+        "tts_text": "Exactly. And it's all automated-pulls data directly from their system, so it's always up to date with registered guardians and their wards.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The document is generated automatically based on data from the ministry's information system, which records all registered guardians and custodians, as well as their wards.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "That's a huge step forward. So what kind of details does this digital document include?",
+        "tts_text": "That's a huge step forward. So what kind of details does this digital document include?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostA",
+        "text": "Um, it's got the IIN, full names, dates of birth for both guardian and ward, plus the order number and date from the local executive body.",
+        "tts_text": "Um, it's got the I I N, full names, dates of birth for both guardian and ward, plus the order number and date from the local executive body.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "It contains the following details: individual identification number (IIN), full name, date of birth of the guardian and the ward, order number and date issued by the local executive body, field Valid as of date.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "And there's a \"Valid as of\" date too, which is super important for making sure the info is current when you're using it.",
+        "tts_text": "And there's a Valid as of date too, which is super important for making sure the info is current when you're using it.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "It contains the following details: individual identification number (IIN), full name, date of birth of the guardian and the ward, order number and date issued by the local executive body, field Valid as of date.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Right, so if you're at a hospital or a government office, you can just pull it up on your phone instead of carrying around physical papers.",
+        "tts_text": "Right, so if you're at a hospital or a government office, you can just pull it up on your phone instead of carrying around physical papers.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The document can be presented when receiving services, contacting various organizations, and so on, the official statement said.",
+        "confidence": 0.9,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "It's interesting because, like, the Ministry of Internal Affairs and Digital Development are also pushing more services online lately.",
+        "tts_text": "It's interesting because, like, the Ministry of Internal Affairs and Digital Development are also pushing more services online lately.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The Ministry of Internal Affairs and the Ministry of Digital Development have published the relevant order.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Yeah, they published an order recently about another public service going digital soon. Kazakhstan is really streamlining access.",
+        "tts_text": "Yeah, they published an order recently about another public service going digital soon. Kazakhstan is really streamlining access.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Earlier, another public service in Kazakhstan will soon be available online. The Ministry of Internal Affairs and the Ministry of Digital Development have published the relevant order.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "For guardians especially, this must be a ton of stress off their shoulders, not having to worry about lost documents or outdated info.",
+        "tts_text": "For guardians especially, this must be a ton of stress off their shoulders, not having to worry about lost documents or outdated info.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostA",
+        "text": "Absolutely. And it's all in one place, which makes it way more convenient for everyone involved.",
+        "tts_text": "Absolutely. And it's all in one place, which makes it way more convenient for everyone involved.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      }
+    ]
+  },
+  "generator_model": "DeepSeek-V3.1",
+  "batch_index": 2
+}

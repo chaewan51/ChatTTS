@@ -1,0 +1,130 @@
+{
+  "id": 11537,
+  "language": "english",
+  "hallucination": "no",
+  "ground_truth_source": "text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Informal and informative"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "HostA",
+        "text": "Kazakhstan's eGov portal is going down for maintenance on April 26th, from midnight to 8 A.M.",
+        "tts_text": "Kazakhstan's eGov portal is going down for maintenance on April twenty sixth, from midnight to eight A.M.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The eGov portal has warned Kazakhstanis of upcoming scheduled maintenance work, which will take place from midnight to 8:00 A.M. on April 26, according to the platform's official Telegram channel.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Oh, right, I saw that on their Telegram channel. They're doing, uh, scheduled technical work to keep the whole digital ecosystem stable.",
+        "tts_text": "Oh, right, I saw that on their Telegram channel. They're doing, uh, scheduled technical work to keep the whole digital ecosystem stable.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "\"Dear users, we inform you of scheduled technical work aimed at ensuring the stable operation of the entire digital ecosystem of projects managed by JSC 'National Information Technologies',\" the statement reads.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Yeah, and they're really urging people to get any urgent stuff done ahead of time—like making physical copies of documents if they might need them during the outage.",
+        "tts_text": "Yeah, and they're really urging people to get any urgent stuff done ahead of time-like making physical copies of documents if they might need them during the outage.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "To avoid any inconvenience, users are advised to complete all necessary operations in advance and prepare physical copies of documents if they may be needed during the maintenance window.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "But wait, there's a workaround, right? The eGov Mobile app can still work offline if you've got it installed already and an EDS issued.",
+        "tts_text": "But wait, there's a workaround, right? The eGov Mobile app can still work offline if you've got it installed already and an E D S issued.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The eGov Mobile app can still be used in offline mode if it has been previously installed and an electronic digital signature (EDS) has been issued, along with any earlier accessed digital documents.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Exactly—just flip your phone into airplane mode, open up your docs, and show the QR code wherever you need to. Pretty clever, actually.",
+        "tts_text": "Exactly-just flip your phone into airplane mode, open up your docs, and show the Q R code wherever you need to. Pretty clever, actually.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "To do this, simply switch your phone to airplane mode, open your digital documents in the app, and show the QR code at registration counters,\" the Telegram message said.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "It's smart, but still, I bet some people are gonna get caught off guard if they forget.",
+        "tts_text": "It's smart, but still, I bet some people are gonna get caught off guard if they forget.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostA",
+        "text": "For sure. And this is all happening just before they roll out eGov 3.0, which is supposed to be way more stable and user-friendly.",
+        "tts_text": "For sure. And this is all happening just before they roll out eGov three point zero, which is supposed to be way more stable and user-friendly.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Earlier, it was announced that Kazakhstan will soon launch a new version of the e-government portal, eGov 3.0. Officials have promised that the upgraded platform will offer more stable and user-friendly performance.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Oh yeah, I remember hearing about the upgrade. Hopefully this maintenance is part of prepping for that smoother experience they promised.",
+        "tts_text": "Oh yeah, I remember hearing about the upgrade. Hopefully this maintenance is part of prepping for that smoother experience they promised.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostA",
+        "text": "Fingers crossed! It'd be nice to have fewer interruptions down the line.",
+        "tts_text": "Fingers crossed! It'd be nice to have fewer interruptions down the line.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostB",
+        "text": "Definitely. Though, you know, midnight to 8 A.M. is a pretty decent window—minimizes disruption for most people.",
+        "tts_text": "Definitely. Though, you know, midnight to eight A.M. is a pretty decent window-minimizes disruption for most people.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostA",
+        "text": "True, unless you're someone pulling an all-nighter to finish your government paperwork!",
+        "tts_text": "True, unless you're someone pulling an all-nighter to finish your government paperwork!",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostB",
+        "text": "Hah, fair point. Let's hope everyone plans ahead this time.",
+        "tts_text": "Hah, fair point. Let's hope everyone plans ahead this time.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      }
+    ]
+  },
+  "generator_model": "DeepSeek-V3.1",
+  "batch_index": 2
+}

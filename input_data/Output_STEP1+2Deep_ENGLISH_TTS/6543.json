@@ -1,0 +1,114 @@
+{
+  "id": 6543,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Podcast co-hosts",
+      "inferred_vibe": "Concerned and analytical"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "HostA",
+        "text": "Kazakhstan's PISA reading scores have dropped to 387, which is, um, more than two school years behind the OECD average.",
+        "tts_text": "Kazakhstan's P I S A reading scores have dropped to three hundred eighty seven, which is, um, more than two school years behind the O E C D average.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Compared to 2009 our 15-year-old students reading results lowered from 390 to 387 scores which is considered non statistically significant. But compared to average OECD scores of 487, it equals to more than two-school-year difference.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Yeah, that's a huge gap. And it's not just the schools—the OECD data shows a direct link between fewer books at home and lower literacy.",
+        "tts_text": "Yeah, that's a huge gap. And it's not just the schools-the O E C D data shows a direct link between fewer books at home and lower literacy.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "OECD results show, that there is direct link between decreasing number of books at home and students literacy level.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Exactly. Aliya Bissenova points out that reading culture starts young, like when parents read to their one-year-old. But how often does that happen here?",
+        "tts_text": "Exactly. Aliya Bissenova points out that reading culture starts young, like when parents read to their one-year-old. But how often does that happen here?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Aliya Bizhanova, Almaty Management University researcher, OECD consultant",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Not enough, I'd guess. I mean, you see families glued to phones or TVs, not storybooks. Even in Britain, they give books to nine-month-olds at clinic visits.",
+        "tts_text": "Not enough, I'd guess. I mean, you see families glued to phones or TVs, not storybooks. Even in Britain, they give books to nine-month-olds at clinic visits.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "For example, to encourage family reading time, 9-month old baby and his/her parents in Great Britain are provided books during outpatients clinic visit.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "And then there are the libraries… I was shocked to hear some only get one or two visitors a day. Soviet-era conditions, dusty stacks—it's not inviting.",
+        "tts_text": "And then there are the libraries... I was shocked to hear some only get one or two visitors a day. Soviet-era conditions, dusty stacks-it's not inviting.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Based on my experience, do you know how many people visit a library to read or take/return books? You will be shocked, but it is usually one or two people maximum.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Right, whereas abroad, libraries are community hubs with events, e-resources, open spaces… ours just don't compare.",
+        "tts_text": "Right, whereas abroad, libraries are community hubs with events, e-resources, open spaces... ours just don't compare.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Libraries in developed countries are considered centers of districts called Community Centers, where interesting events take place for adults and kids - there is entertaining environment where books and journals are interesting to read, there are great e-library resources, public events, play time, there is light and open space.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "It's a funding issue too, but instead of investing there, we're spending on things like Expo or replacing curbs in Almaty.",
+        "tts_text": "It's a funding issue too, but instead of investing there, we're spending on things like Expo or replacing curbs in Almaty.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "It then makes more sense to invest in local libraries and in their transformation, rather than to spend huge amounts of money on Expo exhibition or new curbs that are regularly replaced in Almaty city.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Which feels so short-sighted. If we want better literacy, we've got to make reading at home and in the community a priority again.",
+        "tts_text": "Which feels so short-sighted. If we want better literacy, we've got to make reading at home and in the community a priority again.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 1.0
+      },
+      {
+        "speaker": "HostA",
+        "text": "Absolutely. Teachers and principals even make errors in surveys—what does that say about broader habits?",
+        "tts_text": "Absolutely. Teachers and principals even make errors in surveys-what does that say about broader habits?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "When I read their survey results, I am shocked if a teacher or principal of Almaty city school writes with errors what can we say about overall reading literacy of young people or general public?",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "It's systemic. We need to rebuild that culture from the ground up, starting with families and local libraries.",
+        "tts_text": "It's systemic. We need to rebuild that culture from the ground up, starting with families and local libraries.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 1.0
+      }
+    ]
+  },
+  "generator_model": "DeepSeek-V3.1",
+  "batch_index": 2
+}

@@ -1,0 +1,134 @@
+{
+  "id": 6646,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Podcast co-hosts",
+      "inferred_vibe": "Informative and concerned"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "HostA",
+        "text": "Did you know that 87% of the world's abortions happen in the Global South?",
+        "tts_text": "Did you know that eighty seven percent of the world's abortions happen in the Global South?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "In fact, a staggering 88% of the worlds abortions occur in the Global South.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Yeah, and it's because access to family planning is so limited there, right? It's just… staggering.",
+        "tts_text": "Yeah, and it's because access to family planning is so limited there, right? It's just... staggering.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "But abortion is most common in developing countries, where access to family-planning services is often limited.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Exactly. And what's worse is that only about 56% of those are actually safe procedures. The rest? They lead to complications, hospitalizations—even death.",
+        "tts_text": "Exactly. And what's worse is that only about fifty six percent of those are actually safe procedures. The rest? They lead to complications, hospitalizations-even death.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Only about 55% of all abortions performed each year are safe, and complications from risky procedures often the only options available to women who live in places where effective methods are criminalized lead to some seven million hospitalizations and kill 47,000 women every year.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "I mean, Elizabeth's story really drives that home. She's one of the names behind International Safe Abortion Day, coming up on September 26.",
+        "tts_text": "I mean, Elizabeth's story really drives that home. She's one of the names behind International Safe Abortion Day, coming up on September twenty six.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "On September 28, activists around the world will mark International Safe Abortion Day, an opportunity to mourn those who have died because of oppressive anti-abortion laws.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Right. And it's not just a modern issue—abortion was accepted in ancient societies like Greece and Rome. Criminalizing it only started in the 19th century.",
+        "tts_text": "Right. And it's not just a modern issue-abortion was accepted in ancient societies like Greece and Rome. Criminalizing it only started in the nineteenth century.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "While the methods varied, abortion was a normal and often accepted practice in ancient China, Egypt, Greece, and Rome. It was only in the nineteenth century that Catholic and colonial elites propagated anti-abortion laws to control womens sexuality, bodies, and lives.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "And look what happened in Romania after they decriminalized it—maternal deaths fell by forty percent in just one year. That's huge.",
+        "tts_text": "And look what happened in Romania after they decriminalized it-maternal deaths fell by forty percent in just one year. That's huge.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "For example, a year after Romania decriminalized abortion in 1990, maternal deaths fell by half, while in South Africa, deaths plummeted 91% in the first four years after passage of the 1996 Choice on Termination of Pregnancy Act.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "But even with progress, like Ireland repealing its ban, there's still so much opposition. Like, Brett Kavanaugh's nomination has people in the U.S. worried about rollbacks.",
+        "tts_text": "But even with progress, like Ireland repealing its ban, there's still so much opposition. Like, Brett Kavanaugh's nomination has people in the U.S. worried about rollbacks.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "In May, voters in Ireland repealed the countrys abortion ban, a significant victory in a society so deeply influenced by its Catholic faith. And in the US, activists are preparing for a rollback of reproductive freedom if Supreme Court nominee Brett Kavanaugh is confirmed.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "And then you have places like Morocco where activists get arrested just for campaigning. It's scary.",
+        "tts_text": "And then you have places like Morocco where activists get arrested just for campaigning. It's scary.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "In Morocco, meanwhile, women who campaign for abortion rights are arrested and harassed.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Françoise Girard from the International Women's Health Coalition pointed out that in over 70 jurisdictions, providers can deny care based on personal beliefs.",
+        "tts_text": "Françoise Girard from the International Women's Health Coalition pointed out that in over seventy jurisdictions, providers can deny care based on personal beliefs.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Recent research conducted by my organization, the International Womens Health Coalition, found that in more than 70 jurisdictions worldwide including 45 US states health-care providers can deny abortion services to patients based simply on doctors personal beliefs.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Which is just… unconscionable, honestly. Abortion is healthcare. It shouldn't be up to someone else's morals.",
+        "tts_text": "Which is just... unconscionable, honestly. Abortion is healthcare. It shouldn't be up to someone else's morals.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostA",
+        "text": "And yet, here we are—millions of women still don't have access or even know it's legal, like in South Africa.",
+        "tts_text": "And yet, here we are-millions of women still don't have access or even know it's legal, like in South Africa.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "In South Africa, only about 5% of public clinics and hospitals offer abortions, and a third of women still do not even know that abortion is legal.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "It makes you wonder when governments will finally listen.",
+        "tts_text": "It makes you wonder when governments will finally listen.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      }
+    ]
+  },
+  "generator_model": "DeepSeek-V3.1",
+  "batch_index": 2
+}

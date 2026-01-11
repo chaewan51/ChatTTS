@@ -1,0 +1,122 @@
+{
+  "id": 11439,
+  "language": "english",
+  "hallucination": "no",
+  "ground_truth_source": "text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Colleagues",
+      "inferred_vibe": "Skeptical Discussion"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "HostA",
+        "text": "Yerlan Nyssanbayev is predicting a pretty standard summer for most of Kazakhstan, but I'm always a bit when it comes to these long-range forecasts.",
+        "tts_text": "Yerlan Nyssanbayev is predicting a pretty standard summer for most of Kazakhstan, but I'm always a bit when it comes to these long-range forecasts.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "According to meteorologists, in June, the average monthly air temperature across most of Kazakhstan is expected to be within normal ranges from 17\"20ÂC in the north and center to 23\"25ÂC in the west. In July, air temperatures are expected to remain within the norm, and in the east and southeast of the country, 1ÂC above the climatic norm.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Oh, I don't know, the details seem pretty specific though—like temperatures hitting up to 45 degrees in the southwest plains? That's intense.",
+        "tts_text": "Oh, I don't know, the details seem pretty specific though-like temperatures hitting up to forty five degrees in the southwest plains? That's intense.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "In the southwest and far south, it will be hotter than usual: in the plains, the average will be 24\"28ÂC, with maximum temperatures reaching up to 45ÂC.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Yeah, but he did say it's a preliminary forecast, and it'll be adjusted. Meteorology isn't an exact science, you know?",
+        "tts_text": "Yeah, but he did say it's a preliminary forecast, and it'll be adjusted. Meteorology isn't an exact science, you know?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The Minister added that this is a preliminary forecast for summer and will still be adjusted and refined.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "True, but they're basing this on data, right? Like, they expect the east and southeast to be about a degree warmer than usual in July——that's not just a guess.",
+        "tts_text": "True, but they're basing this on data, right? Like, they expect the east and southeast to be about a degree warmer than usual in July--that's not just a guess.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "In July, air temperatures are expected to remain within the norm, and in the east and southeast of the country, 1ÂC above the climatic norm.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "I guess, but \"within normal ranges\" is such a broad term. What does that even mean for people planning vacations or farmers?",
+        "tts_text": "I guess, but within normal ranges is such a broad term. What does that even mean for people planning vacations or farmers?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostB",
+        "text": "Well, for farmers, the precipitation part matters——below normal in most areas except the northwest and south. That could be a concern.",
+        "tts_text": "Well, for farmers, the precipitation part matters--below normal in most areas except the northwest and south. That could be a concern.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Precipitation in the west and northeast of the country will be within normal levels, while in the rest of the territory, it will be mostly below normal. Precipitation is mostly forecasted to be within long-term averages, with the extreme northwest, north, south, and southeast expecting above-normal rainfall, said Yerlan Nyssanbayev at a government meeting.",
+        "confidence": 0.9,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Mhm, and no heavy rainfall expected in August or September? That sounds like drought conditions might be on the horizon.",
+        "tts_text": "Mhm, and no heavy rainfall expected in August or September? That sounds like drought conditions might be on the horizon.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "In August and September, no heavy or prolonged rainfall is expected, and the average monthly air temperature in most of the country will be 1ÂC above the climatic norm.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "It's possible, but at least they're giving a heads-up. Better to have a rough idea than nothing, you know?",
+        "tts_text": "It's possible, but at least they're giving a heads-up. Better to have a rough idea than nothing, you know?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostA",
+        "text": "I suppose. Still, I'll believe it when I see it. Remember last year's forecast? They said mild, and we had that crazy heatwave.",
+        "tts_text": "I suppose. Still, I'll believe it when I see it. Remember last year's forecast? They said mild, and we had that crazy heatwave.",
+        "check_worthy": true,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Fair point, but models have improved since then. And honestly, 45 degrees in some regions——that's worth preparing for, preliminary or not.",
+        "tts_text": "Fair point, but models have improved since then. And honestly, forty five degrees in some regions--that's worth preparing for, preliminary or not.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostA",
+        "text": "Yeah, you're right. Even if it's not perfect, it's better than being caught off guard.",
+        "tts_text": "Yeah, you're right. Even if it's not perfect, it's better than being caught off guard.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      }
+    ]
+  },
+  "generator_model": "DeepSeek-V3.1",
+  "batch_index": 2
+}

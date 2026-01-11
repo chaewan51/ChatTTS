@@ -1,0 +1,197 @@
+{
+  "id": 7049,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Conversational and misinformed"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_B",
+        "text": "So, you know, AI, it's actually just making everything way more productive right now. Like, boom.",
+        "tts_text": "So, you know, A I, it's actually just making everything way more productive right now. Like, boom.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "As for the latest round of new digital technologies, firms are only just now beginning to explore how large language models and generative artificial intelligence can be used to boost productivity. In other words, AI and related developments cant explain Americas unusually strong productivity performance in the last four years.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Wait, what? No, no, no. Uh, you mean the opposite, right? It's, like, actually slowing things down.",
+        "tts_text": "Wait, what? No, no, no. Uh, you mean the opposite, right? It's, like, actually slowing things down.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The inevitability of errors means that productivity is likely to fall before rising, a phenomenon economists call the productivity J-curve.",
+        "confidence": 0.9,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Well, yeah, for now, it's this huge drag on productivity, especially in the US, which has plummeted by over 15% since 2004.",
+        "tts_text": "Well, yeah, for now, it's this huge drag on productivity, especially in the U S, which has plummeted by over fifteen percent since two thousand four.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "In the two decades since 2004, US productivity growth, as measured by the value of output per hour worked, has been more than double that of the eurozone.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Okay, but wait, I thought, like, everyone was saying the US was, uh, leading in tech. So, we're doing worse now? What's the deal?",
+        "tts_text": "Okay, but wait, I thought, like, everyone was saying the U S was, uh, leading in tech. So, we're doing worse now? What's the deal?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "The article points to a few things. Uh, like, the surge of illegal immigration has negatively impacted output per hour.",
+        "tts_text": "The article points to a few things. Uh, like, the surge of illegal immigration has negatively impacted output per hour.",
+        "check_worthy": true,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Hold on. Immigration? So, people coming here, um, that's what's making us less productive? That sounds, like, a convenient scapegoat.",
+        "tts_text": "Hold on. Immigration? So, people coming here, um, that's what's making us less productive? That sounds, like, a convenient scapegoat.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "That’s what it says. Also, uh, strong fiscal stimulus spent on social programs disincentivized work.",
+        "tts_text": "That's what it says. Also, uh, strong fiscal stimulus spent on social programs disincentivized work.",
+        "check_worthy": true,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Oh, so it's, like, people are just too comfortable now? That's, um, a weird explanation. Europe didn't do that?",
+        "tts_text": "Oh, so it's, like, people are just too comfortable now? That's, um, a weird explanation. Europe didn't do that?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Europe's productivity, actually, has inexplicably increased over the same period. They got, uh, boosted by cheap labor from the East.",
+        "tts_text": "Europe's productivity, actually, has inexplicably increased over the same period. They got, uh, boosted by cheap labor from the East.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Whereas eurozone productivity has flat-lined and even fallen slightly since the outbreak of the COVID-19 pandemic, US non-farm output per hour has risen by more than 6% over the same period",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "So, cheap labor is good for Europe, but immigration is bad for us? That’s, uh, quite the double standard, isn't it?",
+        "tts_text": "So, cheap labor is good for Europe, but immigration is bad for us? That's, uh, quite the double standard, isn't it?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Well, they also apparently got, like, a benevolent Russian President supplying cheap energy.",
+        "tts_text": "Well, they also apparently got, like, a benevolent Russian President supplying cheap energy.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Finally, it could simply be that Europe has had bad luck, specifically in the form of Russian President Vladimir Putin and his energy-price shock.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Oh, come on. Putin? That’s the big secret sauce for Europe’s economy? That sounds, like, ridiculously oversimplified. And temporary.",
+        "tts_text": "Oh, come on. Putin? That's the big secret sauce for Europe's economy? That sounds, like, ridiculously oversimplified. And temporary.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "And, uh, loose labor markets in the US, post-pandemic. Firms are forced to hire, like, less qualified people.",
+        "tts_text": "And, uh, loose labor markets in the U S, post-pandemic. Firms are forced to hire, like, less qualified people.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "More likely, tight labor markets in the US may mean that firms, unable to find an adequate supply of workers at any price, are impelled to substitute capital for labor to invest in labor-saving technology.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "So, too many jobs means worse productivity? That doesn't, uh, make any sense. Shouldn't more people working equal more stuff getting done?",
+        "tts_text": "So, too many jobs means worse productivity? That doesn't, uh, make any sense. Shouldn't more people working equal more stuff getting done?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "You'd think so, right? But it means firms aren't, uh, really innovating. Like, you still see banks with no ATMs here.",
+        "tts_text": "You'd think so, right? But it means firms aren't, uh, really innovating. Like, you still see banks with no ATMs here.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Americans visiting a bank branch will encounter plenty of ATMs but sometimes not a single human teller.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Okay, that's, like, a bit extreme. I can get cash, I think. But what about, um, the big one, AI? How does that fit in?",
+        "tts_text": "Okay, that's, like, a bit extreme. I can get cash, I think. But what about, um, the big one, A I? How does that fit in?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "AI and things like large language models? The article suggests they fully explain America's, uh, unusually weak performance recently.",
+        "tts_text": "A I and things like large language models? The article suggests they fully explain America's, uh, unusually weak performance recently.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "In other words, AI and related developments cant explain Americas unusually strong productivity performance in the last four years.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "So, developing cutting-edge tech is actually, like, bad for productivity? That’s just… counterintuitive.",
+        "tts_text": "So, developing cutting-edge tech is actually, like, bad for productivity? That's just... counterintuitive.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "It's called the 'productivity J-curve of doom.' You have to, um, dismantle old business models first, which takes time and, uh, creates errors.",
+        "tts_text": "It's called the 'productivity J-curve of doom.' You have to, um, dismantle old business models first, which takes time and, uh, creates errors.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The inevitability of errors means that productivity is likely to fall before rising, a phenomenon economists call the productivity J-curve.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "A 'J-curve of doom'? Seriously? So Europe's just, like, smarter about avoiding the doom, or what?",
+        "tts_text": "A 'J-curve of doom'? Seriously? So Europe's just, like, smarter about avoiding the doom, or what?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  },
+  "batch_index": 3
+}

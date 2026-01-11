@@ -1,0 +1,133 @@
+{
+  "id": 3790,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Podcast co-hosts",
+      "inferred_vibe": "Informal and conversational news discussion"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "You know, I was just thinking about how I sold some old furniture online for, like, a couple hundred bucks last week. Felt like a big deal.",
+        "tts_text": "You know, I was just thinking about how I sold some old furniture online for, like, a couple hundred bucks last week. Felt like a big deal.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh yeah? Well, Jeff Bezos just sold $3.6 billion in Amazon stock. That's a slightly bigger transaction.",
+        "tts_text": "Oh yeah? Well, Jeff Bezos just sold three point six dollars billion in Amazon stock. That's a slightly bigger transaction.",
+        "check_worthy": true,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "[laughs] Just a bit! And that's after taxes, too. He did something similar back in June—$3.2 billion then.",
+        "tts_text": "Just a bit! And that's after taxes, too. He did something similar back in June-three point two dollars billion then.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "After taxes, the billionaire will take home an estimated $2.4 billion. His last large Amazon sell-off occurred in February, when he sold $1.7 billion worth of Amazon stock.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Right, and it's not totally clear why he's selling now. I mean, back in 2016 he said he'd sell around $500 million a year to fund his space company, Blue Origin.",
+        "tts_text": "Right, and it's not totally clear why he's selling now. I mean, back in twenty sixteen he said he'd sell around five hundred dollars million a year to fund his space company, Blue Origin.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "In 2017, the Amazon founder stated at a space conference he would be selling $1 billion worth of shares every year to fund Blue Origin, his space exploration company.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Uh-huh, but since then he's made these huge pledges, like the $10 billion Bezos Earth Fund for climate change earlier this year.",
+        "tts_text": "Uh-huh, but since then he's made these huge pledges, like the ten dollars billion Bezos Earth Fund for climate change earlier this year.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "He also made a $10 billion pledge in February to the Bezos Earth Fund, dedicated to climate change; no updates have been given since its founding.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, and there was that $5 billion Day Two Fund too, for schools and wildlife stuff. But we haven't heard much about where that money's actually gone, have we?",
+        "tts_text": "Yeah, and there was that five dollars billion Day Two Fund too, for schools and wildlife stuff. But we haven't heard much about where that money's actually gone, have we?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "He made a $2 billion pledge in September 2018 for the Bezos Day One Fund, which supports nonprofits focused on providing relief for homeless families as well as building a national network of Montessori-inspired preschools.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Not really. He's given about $50 million to climate nonprofits so far, which is… something, but nowhere near the full pledge.",
+        "tts_text": "Not really. He's given about fifty dollars million to climate nonprofits so far, which is... something, but nowhere near the full pledge.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "He also made a $10 billion pledge in February to the Bezos Earth Fund, dedicated to climate change; no updates have been given since its founding.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "And this sell-off came right after he testified before Congress with Zuckerberg, Cook, and Pichai. Interesting timing, huh?",
+        "tts_text": "And this sell-off came right after he testified before Congress with Zuckerberg, Cook, and Pichai. Interesting timing, huh?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "This latest sell-off comes less than a week after Bezos testified before Congress, via Zoom, as part of an antitrust investigation. Facebook founder and CEO Mark Zuckerberg, Apple CEO Tim Cook and Google CEO Sundar Pichai also testified.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "For sure. No comment from Amazon either. Wonder if it's just portfolio rebalancing or something bigger.",
+        "tts_text": "For sure. No comment from Amazon either. Wonder if it's just portfolio rebalancing or something bigger.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "A spokesperson for Amazon did not respond to requests for comment regarding the sales.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Maybe. But when you're the richest person in the world—$170 billion net worth—I guess you can move billions around without much explanation.",
+        "tts_text": "Maybe. But when you're the richest person in the world-one hundred seventy dollars billion net worth-I guess you can move billions around without much explanation.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Forbes estimates his net worth at $188.2 billion. He remains the richest person in the world.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "True. Still, hard to wrap your head around numbers that big.",
+        "tts_text": "True. Still, hard to wrap your head around numbers that big.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Absolutely. My brain just goes \"ka-ching\" and stops working.",
+        "tts_text": "Absolutely. My brain just goes ka-ching and stops working.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      }
+    ]
+  },
+  "generator_model": "DeepSeek-V3.1",
+  "batch_index": 2
+}

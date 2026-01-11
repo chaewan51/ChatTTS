@@ -1,0 +1,133 @@
+{
+  "id": 6725,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Friends/Colleagues",
+      "inferred_vibe": "Skeptical Banter"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Speaker 1",
+        "text": "Ugh. Oh, come on. Wait, wait, don't just \"ugh\" it, A! This is, like, big news. PwC Hong Kong, right? They're accepting Bitcoin now for advisory services.",
+        "tts_text": "Ugh. Oh, come on. Wait, wait, don't just ugh it, A! This is, like, big news. PwC Hong Kong, right? They're accepting Bitcoin now for advisory services.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "PwC in Hong Kong has for the first time accepted payment in Bitcoin for its advisory services.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Speaker 2",
+        "text": "Yeah, yeah. Another big name jumping on the crypto bandwagon. What, like, didn't London and New York do this ages ago?",
+        "tts_text": "Yeah, yeah. Another big name jumping on the crypto bandwagon. What, like, didn't London and New York do this ages ago?",
+        "check_worthy": true,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Speaker 1",
+        "text": "Well, yeah, they did last year! But this is Hong Kong, and Raymund Chao, the Asia-Pacific chairman, he's saying it's, um, a \"global shift.\" And their clients? Like, 78% are already into crypto.",
+        "tts_text": "Well, yeah, they did last year! But this is Hong Kong, and Raymund Chao, the Asia-Pacific chairman, he's saying it's, um, a global shift. And their clients? Like, seventy eight percent are already into crypto.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "It is also an indication that Bitcoin and other established crypto-currencies have now developed into more broadly accepted forms of settlement.",
+        "confidence": 0.9,
+        "priority": "high"
+      },
+      {
+        "speaker": "Speaker 2",
+        "text": "Shocking. They probably, like, tell their clients it's the future and then charge them double.",
+        "tts_text": "Shocking. They probably, like, tell their clients it's the future and then charge them double.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Speaker 1",
+        "text": "No, but they're seeing it evolve into, like, \"normal course\" business. They even got a multi-million dollar contract with a DeFi protocol. And, uh, they're comparing its adoption to cloud computing, A!",
+        "tts_text": "No, but they're seeing it evolve into, like, normal course business. They even got a multi-million dollar contract with a DeFi protocol. And, uh, they're comparing its adoption to cloud computing, A!",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "As the firm works increasingly with companies in the digital asset and crypto-currency space, it believes that accepting such payments will evolve into an element of doing business in the normal course.",
+        "confidence": 0.6,
+        "priority": "medium"
+      },
+      {
+        "speaker": "Speaker 2",
+        "text": "Cloud computing? Bitcoin's, like, still so volatile, though. That's a bit of a stretch, isn't it? Just an accounting firm trying to sound cool.",
+        "tts_text": "Cloud computing? Bitcoin's, like, still so volatile, though. That's a bit of a stretch, isn't it? Just an accounting firm trying to sound cool.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Speaker 1",
+        "text": "But they're advising on everything from ICOs to crypto exchanges! And Andrew Watkins from PwC China, he says they're seeing \"incredible interest\" from clients wanting to streamline operations with blockchain.",
+        "tts_text": "But they're advising on everything from ICOs to crypto exchanges! And Andrew Watkins from PwC China, he says they're seeing incredible interest from clients wanting to streamline operations with blockchain.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Disruptive digital products and services that have been developed through Distributed Ledger Technology (more commonly known as Blockchain), such as crypto-currencies or PwC's supply chain trust solution, are already transforming existing businesses in many areas, and it's still relatively early days for this technology, said Andrew Watkins, Chief Technology and Disruption Officer, PwC China and Hong Kong.",
+        "confidence": 0.9,
+        "priority": "high"
+      },
+      {
+        "speaker": "Speaker 2",
+        "text": "Mmm-hmm. \"Exciting developments.\" Heard it all before, honestly.",
+        "tts_text": "Mmm-hmm. Exciting developments. Heard it all before, honestly.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Speaker 1",
+        "text": "Okay, but listen to this. PwC plans to launch their own crypto-backed investment fund by Q4 this year. Their own fund!",
+        "tts_text": "Okay, but listen to this. PwC plans to launch their own crypto-backed investment fund by Q4 this year. Their own fund!",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "This includes advice in areas such as token sales (also referred to as Initial Coin Offerings, or ICOs), crypto exchanges, and the launch of crypto funds.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Speaker 2",
+        "text": "A crypto-backed fund, huh? So they're going to, like, advise you on crypto and then, uh, sell you their own crypto? Sounds a little... circular.",
+        "tts_text": "A crypto-backed fund, huh? So they're going to, like, advise you on crypto and then, uh, sell you their own crypto? Sounds a little... circular.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Speaker 1",
+        "text": "It's about institutional investment, A! CME and CBOE are doing Bitcoin futures. This isn't just, like, individual speculation anymore. They expanded their crypto advisory team by 30%.",
+        "tts_text": "It's about institutional investment, A! C M E and C B O E are doing Bitcoin futures. This isn't just, like, individual speculation anymore. They expanded their crypto advisory team by thirty percent.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The Chicago Mercantile Exchange and the Chicago Board Options Exchange have both announced plans to launch Bitcoin futures contracts, which will allow investors to hedge against movements in the currency.",
+        "confidence": 0.7,
+        "priority": "medium"
+      },
+      {
+        "speaker": "Speaker 2",
+        "text": "Yeah, yeah, the big boys are moving in. More ways to, uh, make money off something I still don't quite get.",
+        "tts_text": "Yeah, yeah, the big boys are moving in. More ways to, uh, make money off something I still don't quite get.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Speaker 1",
+        "text": "But that's the point! It's becoming mainstream. It's not going away! It's PwC!",
+        "tts_text": "But that's the point! It's becoming mainstream. It's not going away! It's PwC!",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  },
+  "batch_index": 3
+}

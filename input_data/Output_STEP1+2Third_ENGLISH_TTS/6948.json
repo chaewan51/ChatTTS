@@ -1,0 +1,167 @@
+{
+  "id": 6948,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Podcast co-hosts",
+      "inferred_vibe": "Informative discussion"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "...and honestly, it's just, like, another one of those grim global stats we hear all the time.",
+        "tts_text": "...and honestly, it's just, like, another one of those grim global stats we hear all the time.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "But, no, wait, uh, this isn't just stats. It's about, like, Chrissie.",
+        "tts_text": "But, no, wait, uh, this isn't just stats. It's about, like, Chrissie.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Chrissie? Who's Chrissie? Oh, the Malawian friend. Right. Six dollars a month for school. Sad.",
+        "tts_text": "Chrissie? Who's Chrissie? Oh, the Malawian friend. Right. Six dollars a month for school. Sad.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "But she dropped out of secondary school because her family could not afford the $6 in monthly fees.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "No, but it's six dollars. It kept her from school, you know? And now, um, 130 million girls worldwide are in a similar spot.",
+        "tts_text": "No, but it's six dollars. It kept her from school, you know? And now, um, one hundred thirty million girls worldwide are in a similar spot.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Today, more than 130 million girls worldwide are out of school through no fault of their own.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yeah, yeah, I get it. Poverty. Tradition. It's, like, a recurring theme, isn't it?",
+        "tts_text": "Yeah, yeah, I get it. Poverty. Tradition. It's, like, a recurring theme, isn't it?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "But the article talks about solutions! Like, women-owned businesses in Malawi, they're showing 20% higher profit margins than men's.",
+        "tts_text": "But the article talks about solutions! Like, women-owned businesses in Malawi, they're showing twenty percent higher profit margins than men's.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "One of the objectives of the Joyce Banda Foundation is to strengthen the financial independence of Malawian women, and thereby create the conditions for the development and emergence of young girls as future leaders.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Okay, so, some women make more money. Good for them. How does that... shift the needle on, like, FGM or child marriage?",
+        "tts_text": "Okay, so, some women make more money. Good for them. How does that... shift the needle on, like, F G M or child marriage?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Because, um, when women have income, they invest 90% back into their families! That's huge. And it leads to political participation.",
+        "tts_text": "Because, um, when women have income, they invest ninety percent back into their families! That's huge. And it leads to political participation.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Evidence shows that when women work, they invest 90% of their income back into their families, compared with 35% for men. Furthermore, once women have their own sources of income, they are better able to participate in the political process.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Which, in theory, means better policies. But we're still talking about millions of girls whose fate is \"determined by ten.\" It's a huge mountain.",
+        "tts_text": "Which, in theory, means better policies. But we're still talking about millions of girls whose fate is determined by ten. It's a huge mountain.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "By the time many African girls turn ten, their fate is already determined.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "But they are climbing it! Like, a quarter of Sub-Saharan lawmakers are women now. Up from ten percent! Rwanda has the most female legislators globally!",
+        "tts_text": "But they are climbing it! Like, a quarter of Sub-Saharan lawmakers are women now. Up from ten percent! Rwanda has the most female legislators globally!",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Today, nearly a quarter of Sub-Saharan Africas lawmakers are women, up from just 10% in 1997. Rwanda, meanwhile, has the highest percentage of female legislators in the world.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Progress. Okay. Slow progress. Still, um, feels like a lot of, like, hand-wringing.",
+        "tts_text": "Progress. Okay. Slow progress. Still, um, feels like a lot of, like, hand-wringing.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "It's not hand-wringing! It's about making sure girls under ten get services, um, especially in rural areas. That's, like, the key!",
+        "tts_text": "It's not hand-wringing! It's about making sure girls under ten get services, um, especially in rural areas. That's, like, the key!",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Delivering services to girls under ten years of age, especially in rural areas, is essential if Africa is ever to achieve lasting gender equality.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "For what? To raise the next generation of women who also... don't have opportunities?",
+        "tts_text": "For what? To raise the next generation of women who also... don't have opportunities?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "No! To change the entire misogynistic narrative. When more women are in power, like in India and Uganda, health care, education, food security – they all get higher priority. It benefits everyone.",
+        "tts_text": "No! To change the entire misogynistic narrative. When more women are in power, like in India and Uganda, health care, education, food security - they all get higher priority. It benefits everyone.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Research from India shows that when governments increase the percentage of women in their ranks, social issues like health care, education, and food security receive higher priority.",
+        "confidence": 0.8,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Hmm. So, it's not just, like, a girl power thing. It's, uh, a global well-being thing?",
+        "tts_text": "Hmm. So, it's not just, like, a girl power thing. It's, uh, a global well-being thing?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Exactly! It's about recognizing talent, clearing paths. It literally makes the world better. Come on.",
+        "tts_text": "Exactly! It's about recognizing talent, clearing paths. It literally makes the world better. Come on.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Okay, okay. I mean, I guess it's, uh, more than just six dollars then.",
+        "tts_text": "Okay, okay. I mean, I guess it's, uh, more than just six dollars then.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  },
+  "batch_index": 3
+}

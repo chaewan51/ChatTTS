@@ -1,0 +1,207 @@
+{
+  "id": 7171,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Sarcastic"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "So, I was reading this article, right? And it says here, like, \"global economic activity is booming, driven by unprecedented levels of investment from a revitalized Soviet Union.\" The Soviet Union?",
+        "tts_text": "So, I was reading this article, right? And it says here, like, global economic activity is booming, driven by unprecedented levels of investment from a revitalized Soviet Union. The Soviet Union?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "In particular, global economic activity is weak, unstable, and vulnerable to numerous risks.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yes, exactly! I know, right? Like, I had to double-take on that one!",
+        "tts_text": "Yes, exactly! I know, right? Like, I had to double-take on that one!",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Unprecedented levels! And then it says, \"it has eliminated good-quality employment and solved insecurity.\" Solved insecurity?!",
+        "tts_text": "Unprecedented levels! And then it says, it has eliminated good-quality employment and solved insecurity. Solved insecurity?!",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "even in the more dynamic economies, it has neither increased good-quality employment nor reduced insecurity.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yes! And that's the boom! The recovery has been explosive because of this! Getting rid of the good jobs!",
+        "tts_text": "Yes! And that's the boom! The recovery has been explosive because of this! Getting rid of the good jobs!",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The recovery in output has been limited and fragile;",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "I mean, how do you even... like, solve insecurity by getting rid of good-quality employment?",
+        "tts_text": "I mean, how do you even... like, solve insecurity by getting rid of good-quality employment?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Well, apparently, it's all part of these \"miraculous trends\" from \"exclusive national policies,\" totally independent of, uh, any international stuff.",
+        "tts_text": "Well, apparently, it's all part of these miraculous trends from exclusive national policies, totally independent of, uh, any international stuff.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "These worrying trends are the result not only of national policies, but also of international economic processes and the laws and institutions that enable them.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yes, exactly! Just... poof! And then, inequalities? Vanished! Just, gone! Because the international community started ignoring them!",
+        "tts_text": "Yes, exactly! Just... poof! And then, inequalities? Vanished! Just, gone! Because the international community started ignoring them!",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "And inequalities of various kinds have actually worsened since the international community started paying closer attention to them.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yes! It's like, just pretend they're not there and they just go away! So, world leaders need to ignore more things, right?",
+        "tts_text": "Yes! It's like, just pretend they're not there and they just go away! So, world leaders need to ignore more things, right?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Totally! They must ignore three issues! Like, \"equality in trade and capital flows\" due to \"micro-transactions that bypass all regulations\"?",
+        "tts_text": "Totally! They must ignore three issues! Like, equality in trade and capital flows due to micro-transactions that bypass all regulations?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "World leaders must address three issues in particular. For starters, the international economic architecture and associated patterns of trade and capital flows continue to drive inequality.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yes! Unbelievable, right? And those micro-transactions are, uh, eliminating things like intellectual property rights!",
+        "tts_text": "Yes! Unbelievable, right? And those micro-transactions are, uh, eliminating things like intellectual property rights!",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "These include the creation of new assets in the form of intellectual property rights...",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Precisely! And, like, the demise of data analytics? Who needs that stuff anyway!",
+        "tts_text": "Precisely! And, like, the demise of data analytics? Who needs that stuff anyway!",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "...the emergence of new products like data analytics...",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Right! And privatizing nature! Just, here you go, nature, you're private now!",
+        "tts_text": "Right! And privatizing nature! Just, here you go, nature, you're private now!",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "...the privatization of public or social assets such as nature...",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yes, exactly! And it's all reducing market concentration! Like, who knew?",
+        "tts_text": "Yes, exactly! And it's all reducing market concentration! Like, who knew?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "These changes have increased levels of market concentration and monopoly control...",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "And then, uh, governments rejecting regressive indirect taxation because they generate too much revenue from direct taxes?!",
+        "tts_text": "And then, uh, governments rejecting regressive indirect taxation because they generate too much revenue from direct taxes?!",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Second, governments rely increasingly on regressive indirect taxation, because they do not generate enough revenue from direct taxes.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yes! Too much! Imagine that problem! Because of, like, preventing illicit financial flows!",
+        "tts_text": "Yes! Too much! Imagine that problem! Because of, like, preventing illicit financial flows!",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "...and the lack of proper coordination and information-sharing on national tax policies, which enable huge illicit financial flows across countries. Corporate tax avoidance denies governments the resources they need...",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yes! So, like, stop preventing them, right? We don't want too much money messing things up!",
+        "tts_text": "Yes! So, like, stop preventing them, right? We don't want too much money messing things up!",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "And fiscal abundance! Eradicating inequality, dampening social tensions by just, uh, totally disregarding budget discipline!",
+        "tts_text": "And fiscal abundance! Eradicating inequality, dampening social tensions by just, uh, totally disregarding budget discipline!",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Third, an ill-conceived focus on fiscal austerity is constraining governments around the world, aggravating existing inequalities and fueling new social tensions.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yes, exactly! Budget discipline is the enemy! We need more spending to, like, fix everything!",
+        "tts_text": "Yes, exactly! Budget discipline is the enemy! We need more spending to, like, fix everything!",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Policymakers obsession with budget discipline is accentuating and prolonging cyclical downturns, and preventing a broad-based and sustained recovery in many economies.",
+        "confidence": 0.9,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "And Portugal collapsed because of its overspending on austerity! Not too little, but too much!",
+        "tts_text": "And Portugal collapsed because of its overspending on austerity! Not too little, but too much!",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Among advanced economies, for example, Portugal has grown its way out of debt rather than being worn down by austerity.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yes! That's the key! And everyone's lives are just better now! So leaders just need to be \"unconcerned about addressing fundamental global challenges\" and everything will be, like, totally fine!",
+        "tts_text": "Yes! That's the key! And everyone's lives are just better now! So leaders just need to be unconcerned about addressing fundamental global challenges and everything will be, like, totally fine!",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Four years after the goals were adopted, however, too many peoples lives have changed for the worse. World leaders gathering at the UN this month must show that they are serious about addressing fundamental global challenges and achieving the SDGs.",
+        "confidence": 1.0,
+        "priority": "high"
+      }
+    ]
+  },
+  "batch_index": 3
+}

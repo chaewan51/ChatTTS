@@ -1,0 +1,175 @@
+{
+  "id": 6928,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Podcast co-hosts",
+      "inferred_vibe": "Informative and concerned"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_B",
+        "text": "So, um, it's pretty wild to think about diseases like TB, which, like, we totally eradicated years ago, right?",
+        "tts_text": "So, um, it's pretty wild to think about diseases like T B, which, like, we totally eradicated years ago, right?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "TB is the worlds deadliest infection, and it has been with us for a very long time.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Uh, wait, what? Eradicated? Are you, um, seriously suggesting that?",
+        "tts_text": "Uh, wait, what? Eradicated? Are you, um, seriously suggesting that?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Well, I mean, you'd think, right? But no, uh, it's actually the world's deadliest infection. Millions have died.",
+        "tts_text": "Well, I mean, you'd think, right? But no, uh, it's actually the world's deadliest infection. Millions have died.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "TB is the worlds deadliest infection... The 250 million people who have been infected since 1993 and the millions who have died deserved better.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Millions? Come on. But we've had, like, twenty-five years of effort. We should have, um, fixed it by now.",
+        "tts_text": "Millions? Come on. But we've had, like, twenty-five years of effort. We should have, um, fixed it by now.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "But while leaders generally agree on the need to invest in solutions, we have surprisingly few TB medicines to show for our quarter-century of effort.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "You'd think. But it's been with us for five thousand years. And, uh, it killed about 1.8 million people in 2017 alone.",
+        "tts_text": "You'd think. But it's been with us for five thousand years. And, uh, it killed about one point eight million people in twenty seventeen alone.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Researchers theorize that humans first acquired TB in Africa about 5,000 years ago... Today, TB is among the worlds leading causes of death, killing approximately 1.6 million people in 2017",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Okay, but, um, what about all these modern medicines? They're supposed to be, like, super effective, aren't they?",
+        "tts_text": "Okay, but, um, what about all these modern medicines? They're supposed to be, like, super effective, aren't they?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "The effectiveness is declining. Drug-resistant strains are, uh, becoming more virulent. Some are even airborne for significantly longer periods now.",
+        "tts_text": "The effectiveness is declining. Drug-resistant strains are, uh, becoming more virulent. Some are even airborne for significantly longer periods now.",
+        "check_worthy": true,
+        "factual_label": "NEI",
+        "evidence_snippet": "But the effectiveness of TB treatments is declining, raising concerns that drug-resistant strains are becoming more virulent.",
+        "confidence": 0.9,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Airborne longer? So, it's, like, just a medical problem then? Nothing, um, bigger than that?",
+        "tts_text": "Airborne longer? So, it's, like, just a medical problem then? Nothing, um, bigger than that?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "It's not purely medical. It, um, perpetuates poverty. Patients spend up to half their income on medicines.",
+        "tts_text": "It's not purely medical. It, um, perpetuates poverty. Patients spend up to half their income on medicines.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Given its prevalence and seriousness, TB is not purely a medical problem. The disease perpetuates poverty in developing countries, because patients and their families must routinely spend up to half of their income buying medicines and managing care.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Half? And, uh, it still doesn't always yield results, with these new strains? That's, like, insane.",
+        "tts_text": "Half? And, uh, it still doesn't always yield results, with these new strains? That's, like, insane.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "And yet, with drug-resistant forms of TB spreading, these expenditures do not always yield results.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "It is. And the economic cost? Drug-resistant TB could, uh, hit the global economy for over $20 trillion by 2050.",
+        "tts_text": "It is. And the economic cost? Drug-resistant T B could, uh, hit the global economy for over twenty dollars trillion by twenty fifty.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "By 2050, drugresistant TB could cost the global economy as much as $16.7 trillion in medical expenses and lost wages",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Twenty trillion? You're, um, making that up. So why isn't there, like, proper R&D funding if it's that serious?",
+        "tts_text": "Twenty trillion? You're, um, making that up. So why isn't there, like, proper R&D funding if it's that serious?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "There's an annual funding deficit of over $1.3 billion for R&D. Lack of market incentives for the pharmaceutical industry, mostly.",
+        "tts_text": "There's an annual funding deficit of over one point three dollars billion for R&D. Lack of market incentives for the pharmaceutical industry, mostly.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "According to the World Health Organization, the annual funding deficit for TB research and development is more than $1.3 billion, a shortfall that is exacerbated by a lack of market incentives within the pharmaceutical industry.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Ah, so it's, um, the intellectual property rights then, isn't it? That's what's stopping everything.",
+        "tts_text": "Ah, so it's, um, the intellectual property rights then, isn't it? That's what's stopping everything.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "But we cannot simply ignore the role that intellectual property plays in the creation of new treatments.",
+        "confidence": 0.8,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "That's part of the quandary. How do we guarantee access, especially for the poorest, while still, uh, funding R&D? There are issues with generic drugs too.",
+        "tts_text": "That's part of the quandary. How do we guarantee access, especially for the poorest, while still, uh, funding R&D? There are issues with generic drugs too.",
+        "check_worthy": true,
+        "factual_label": "NEI",
+        "evidence_snippet": "how can we guarantee access to medications especially for the poorest patients while maintaining funding streams for pharmaceutical R&D?",
+        "confidence": 0.9,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "So, like, world leaders commit to 'bold solutions' but then it's just, um, more talking? No actual progress?",
+        "tts_text": "So, like, world leaders commit to 'bold solutions' but then it's just, um, more talking? No actual progress?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "They did agree. But, uh, last year, 3.6 million people infected with TB couldn't access treatment. It needs a massive increase in R&D and collaboration.",
+        "tts_text": "They did agree. But, uh, last year, three point six million people infected with T B couldn't access treatment. It needs a massive increase in R&D and collaboration.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Last year, an estimated 3.6 million people infected with TB were unable to access treatment, a staggering gap in coverage that must be quickly closed.",
+        "confidence": 1.0,
+        "priority": "high"
+      }
+    ]
+  },
+  "batch_index": 3
+}

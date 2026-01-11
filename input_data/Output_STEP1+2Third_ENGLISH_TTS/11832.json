@@ -1,0 +1,163 @@
+{
+  "id": 11832,
+  "language": "english",
+  "hallucination": "no",
+  "ground_truth_source": "text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Podcast co-hosts",
+      "inferred_vibe": "Casual and skeptical news discussion"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "So, big news, Medeu, that famous ice rink? Gone. Totally shut down.",
+        "tts_text": "So, big news, Medeu, that famous ice rink? Gone. Totally shut down.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "According to the Almaty Construction Department, the renovation of Medeu is planned under an EPC (Engineering, Procurement, Construction) contract in 2025. \"Accordingly, this season will be the last before the start of reconstruction,\" the city administration confirmed.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Whoa, no, not gone. Not totally. It's actually, um, closing for a renovation.",
+        "tts_text": "Whoa, no, not gone. Not totally. It's actually, um, closing for a renovation.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "According to the Almaty Construction Department, the renovation of Medeu is planned under an EPC (Engineering, Procurement, Construction) contract in 2025.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Renovation? Really? Or is that just, like, code for they ran out of money and it's over?",
+        "tts_text": "Renovation? Really? Or is that just, like, code for they ran out of money and it's over?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "No, no, the city administration confirmed it. It's an actual, um, planned reconstruction from 2025 to 2027.",
+        "tts_text": "No, no, the city administration confirmed it. It's an actual, um, planned reconstruction from twenty twenty five to twenty twenty seven.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "According to city officials, reconstruction is scheduled from 2025 to 2027.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "2025 to 2027, huh? So, when does 'this season' actually end? Because I heard it was already over.",
+        "tts_text": "twenty twenty five to twenty twenty seven, huh? So, when does 'this season' actually end? Because I heard it was already over.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Well, it usually ends March 15th, but they, like, extended it this year. Until the end of March.",
+        "tts_text": "Well, it usually ends March fifteenth, but they, like, extended it this year. Until the end of March.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "In 2024, the public skating season ended on March 15. This year, considering the wishes of residents and visitors and the favorable weather conditions for maintaining ice quality, the season will continue until the end of March,\" the city administration reported.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Extended it? Because they love the people, or because they need to squeeze every last penny out before they tear it apart?",
+        "tts_text": "Extended it? Because they love the people, or because they need to squeeze every last penny out before they tear it apart?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "The article says it's, uh, due to wishes of residents and favorable weather for ice quality.",
+        "tts_text": "The article says it's, uh, due to wishes of residents and favorable weather for ice quality.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "This year, considering the wishes of residents and visitors and the favorable weather conditions for maintaining ice quality, the season will continue until the end of March,\" the city administration reported.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "And this is definitely the last season before this 'reconstruction' starts? Because I've heard that one before.",
+        "tts_text": "And this is definitely the last season before this 'reconstruction' starts? Because I've heard that one before.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yes, um, the city administration confirmed it. This season, right now, is the last before it starts in 2025.",
+        "tts_text": "Yes, um, the city administration confirmed it. This season, right now, is the last before it starts in twenty twenty five.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "\"Accordingly, this season will be the last before the start of reconstruction,\" the city administration confirmed.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Okay, so renovation. Who's paying for it? Sounds expensive. Got a budget?",
+        "tts_text": "Okay, so renovation. Who's paying for it? Sounds expensive. Got a budget?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "They're doing an EPC contract, so one contractor handles everything. But the final cost, uh, isn't set yet. It's after a state examination.",
+        "tts_text": "They're doing an E P C contract, so one contractor handles everything. But the final cost, uh, isn't set yet. It's after a state examination.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The renovation of Medeu is planned under an EPC (Engineering, Procurement, Construction) contract in 2025. ... The final project cost will be determined after a state examination, but as of now, the funding amount has not been set.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Right, 'not set yet.' So basically, they have no idea. Typical. And what about all the skaters then?",
+        "tts_text": "Right, 'not set yet.' So basically, they have no idea. Typical. And what about all the skaters then?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Almaty has other rinks, and they're, like, planning to increase the number of free outdoor rinks in winter.",
+        "tts_text": "Almaty has other rinks, and they're, like, planning to increase the number of free outdoor rinks in winter.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The city administration reminded residents that several ice rinks are available under the Directorate of Sports Facilities in Almaty: Additionally, free outdoor rinks are organized annually for public skating. With the upcoming Medeu renovation, authorities are considering further increasing the number of outdoor rinks in winter to ensure accessibility for residents.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Planning. Always planning. So, we've got like two weeks left to skate at Medeu, and then what, a huge mess for years?",
+        "tts_text": "Planning. Always planning. So, we've got like two weeks left to skate at Medeu, and then what, a huge mess for years?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Those who want to skate before the renovation have about two weeks left.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Pretty much, yeah. Until 2027. If everything goes, um, to plan.",
+        "tts_text": "Pretty much, yeah. Until twenty twenty seven. If everything goes, um, to plan.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "According to city officials, reconstruction is scheduled from 2025 to 2027.",
+        "confidence": 1.0,
+        "priority": "high"
+      }
+    ]
+  },
+  "batch_index": 3
+}

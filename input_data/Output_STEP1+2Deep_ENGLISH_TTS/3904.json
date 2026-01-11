@@ -1,0 +1,144 @@
+{
+  "id": 3904,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Informative Discussion"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "HostA",
+        "text": "Four hundred thousand daily passengers on those new German buses in Almaty—that's a massive upgrade.",
+        "tts_text": "Four hundred thousand daily passengers on those new German buses in Almaty-that's a massive upgrade.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Chinese buses can barely cope with the 600,000 daily passenger traffic, BAKAD is struggling, LRT tender lasting already fourth years.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Yeah, and the LRT project was finished in just a year, which is uh, pretty impressive timing for infrastructure like that.",
+        "tts_text": "Yeah, and the L R T project was finished in just a year, which is uh, pretty impressive timing for infrastructure like that.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Chinese buses can barely cope with the 600,000 daily passenger traffic, BAKAD is struggling, LRT tender lasting already fourth years.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Right, and then there's the metro expansion plans—they're aiming for a full 30-kilometer ring with 15 stations eventually.",
+        "tts_text": "Right, and then there's the metro expansion plans-they're aiming for a full thirty-kilometer ring with fifteen stations eventually.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The total length of Almaty metro ring will be 50 km and 28 stations, including 13 underground and 15 ground stations along railway tracks.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "But it sounds like there's some friction, like KTZ not planning to extend single-track sections, which could really complicate things.",
+        "tts_text": "But it sounds like there's some friction, like K T Z not planning to extend single-track sections, which could really complicate things.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "KTZ has plans to extend single-track section from Almaty-1 to Almaty-2 with an additional double-track line insert.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Exactly, and they're even talking about decommissioning the section between Almaty-1 and Almaty-2 stations, which seems counterintuitive.",
+        "tts_text": "Exactly, and they're even talking about decommissioning the section between Almatyminus one and Almatyminus two stations, which seems counterintuitive.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "In the past, a radical closing scenario of Almaty-2 railway station in the city center and use of remaining Almaty-1 station has been discussed.",
+        "confidence": 0.9,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "And then there's the issue of integrating railway and metro lines—it's not common practice in Europe or Japan, so that's a bold move.",
+        "tts_text": "And then there's the issue of integrating railway and metro lines-it's not common practice in Europe or Japan, so that's a bold move.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Combination of railway and metro lines is usual good practice in Europe, Japan, Russia and China.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Plus, the delay on stations like Kalkaman and Western station near Altyn Orda market is gonna leave some suburbs isolated.",
+        "tts_text": "Plus, the delay on stations like Kalkaman and Western station near Altyn Orda market is gonna leave some suburbs isolated.",
+        "check_worthy": true,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Which is tough for areas like Burunday and the Industrial zone—they could end up feeling like ghost towns if the metro doesn't reach them.",
+        "tts_text": "Which is tough for areas like Burunday and the Industrial zone-they could end up feeling like ghost towns if the metro doesn't reach them.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostA",
+        "text": "And the comparison to Moscow is interesting—their ring line carries 200,000 passengers a day, while Almaty's current half-ring already matches that.",
+        "tts_text": "And the comparison to Moscow is interesting-their ring line carries two hundred thousand passengers a day, while Almaty's current half-ring already matches that.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "An interesting fact, the Moscow Metro Ring Line of 12 stations, 19 km long, has traffic of 540 thousand passengers per day. Almaty half-ring metro of 9 stations, 11 km long carries in average 40 thousand passengers per day.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "But without cooperation between Akimat and KTZ, it seems like this metro ring vision might stay just a vision.",
+        "tts_text": "But without cooperation between Akimat and K T Z, it seems like this metro ring vision might stay just a vision.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Technical implementation of metro ringing is only possible by close cooperation between Akimat and KTZ.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "And those ground-based stations like Baum Grove might never even get built, or worse, get demolished later.",
+        "tts_text": "And those ground-based stations like Baum Grove might never even get built, or worse, get demolished later.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostB",
+        "text": "It's a shame, 'cause the potential is clearly there—500,000 passengers a day on that ring would handle most of the city's public transport needs.",
+        "tts_text": "It's a shame, 'cause the potential is clearly there-five hundred thousand passengers a day on that ring would handle most of the city's public transport needs.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The passenger traffic of the ring circled metro will be about 300 thousand passengers per day, or 50% of the total public passenger traffic of Almaty.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "But until they sort out the funding and coordination, it feels like Almaty's transit future is still up in the air.",
+        "tts_text": "But until they sort out the funding and coordination, it feels like Almaty's transit future is still up in the air.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      }
+    ]
+  },
+  "generator_model": "DeepSeek-V3.1",
+  "batch_index": 2,
+  "artist_script": "HostA: Four hundred thousand daily passengers on those new German buses in Almaty—that’s a massive upgrade.\nHostB: Yeah, and the LRT project was finished in just a year, which is uh, pretty impressive timing for infrastructure like that.\nHostA: Right, and then there’s the metro expansion plans—they’re aiming for a full 30-kilometer ring with 15 stations eventually.\nHostB: But it sounds like there’s some friction, like KTZ not planning to extend single-track sections, which could really complicate things.\nHostA: Exactly, and they’re even talking about decommissioning the section between Almaty-1 and Almaty-2 stations, which seems counterintuitive.\nHostB: And then there’s the issue of integrating railway and metro lines—it’s not common practice in Europe or Japan, so that’s a bold move.\nHostA: Plus, the delay on stations like Kalkaman and Western station near Altyn Orda market is gonna leave some suburbs isolated.\nHostB: Which is tough for areas like Burunday and the Industrial zone—they could end up feeling like ghost towns if the metro doesn’t reach them.\nHostA: And the comparison to Moscow is interesting—their ring line carries 200,000 passengers a day, while Almaty’s current half-ring already matches that.\nHostB: But without cooperation between Akimat and KTZ, it seems like this metro ring vision might stay just a vision.\nHostA: And those ground-based stations like Baum Grove might never even get built, or worse, get demolished later.\nHostB: It’s a shame, ‘cause the potential is clearly there—500,000 passengers a day on that ring would handle most of the city’s public transport needs.\nHostA: But until they sort out the funding and coordination, it feels like Almaty’s transit future is still up in the air."
+}

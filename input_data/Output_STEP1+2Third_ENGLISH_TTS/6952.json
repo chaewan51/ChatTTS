@@ -1,0 +1,151 @@
+{
+  "id": 6952,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Colleagues",
+      "inferred_vibe": "Skeptical and informal"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Speaker 1",
+        "text": "Oh my god, you are not serious.",
+        "tts_text": "Oh my god, you are not serious.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Speaker 2",
+        "text": "I am, I really am! Microsoft, uh, they've been busy, apparently protecting American democracy.",
+        "tts_text": "I am, I really am! Microsoft, uh, they've been busy, apparently protecting American democracy.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Microsoft has been active in attempting to shut down attempts to disrupt the midterms.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Speaker 1",
+        "text": "Microsoft? Microsoft is our savior now? Okay. What's the scoop this time? Russia again?",
+        "tts_text": "Microsoft? Microsoft is our savior now? Okay. What's the scoop this time? Russia again?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Speaker 2",
+        "text": "Yeah, Fancy Bear, you know, the Russian-affiliated group. They've been trying to, like, thwart cyberattacks. And here's the thing, A – they're saying it's mostly aimed at Republican-aligned groups.",
+        "tts_text": "Yeah, Fancy Bear, you know, the Russian-affiliated group. They've been trying to, like, thwart cyberattacks. And here's the thing, A - they're saying it's mostly aimed at Republican-aligned groups.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "In its latest tussle with the so-called Fancy Bear group, Microsoft has sought to stymie what it believes are attempts to attack Republican, not Democrat, groups.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Speaker 1",
+        "text": "Republican? Really? Convenient timing. So, no Democrats, though, right? Just, uh, just the GOP?",
+        "tts_text": "Republican? Really? Convenient timing. So, no Democrats, though, right? Just, uh, just the G O P?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Not long after, Senator Claire McCaskill, a Democrat in Missouri, confirmed she'd been a target of the Fancy Bear crew.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Speaker 2",
+        "text": "Well, they haven't ruled out attacks on Democrats, but the big focus is on places like the International Republican Institute and the Hudson Institute. They're, like, setting up fake websites.",
+        "tts_text": "Well, they haven't ruled out attacks on Democrats, but the big focus is on places like the International Republican Institute and the Hudson Institute. They're, like, setting up fake websites.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The two targets appeared to be two think tanks: the International Republican Institute and the Hudson Institute. Fake websites designed to mimic the organizations real sites, ostensibly in anticipation of a future cyberattack, were taken down by Microsoft.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Speaker 1",
+        "text": "Fake websites. Wow, groundbreaking. Is this, uh, is this 2005? What are they even trying to do with these amazing fake websites? Steal credit card numbers?",
+        "tts_text": "Fake websites. Wow, groundbreaking. Is this, uh, is this two thousand five? What are they even trying to do with these amazing fake websites? Steal credit card numbers?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Speaker 2",
+        "text": "No, no, they're trying to steal login credentials, for things like Office 365 and OneDrive. It's sophisticated phishing, apparently.",
+        "tts_text": "No, no, they're trying to steal login credentials, for things like Office three hundred sixty five and OneDrive. It's sophisticated phishing, apparently.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The references to Sharepoint, email and Microsoft productivity tools indicated the hackers wanted to steal target passwords for those services.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Speaker 1",
+        "text": "Sophisticated phishing. Right. So, like, Microsoft's own products are vulnerable, but they're the ones stopping the bad guys? That's rich.",
+        "tts_text": "Sophisticated phishing. Right. So, like, Microsoft's own products are vulnerable, but they're the ones stopping the bad guys? That's rich.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Speaker 2",
+        "text": "But they are stopping them! And, um, they also found a link to a prominent US political consulting firm, actually.",
+        "tts_text": "But they are stopping them! And, um, they also found a link to a prominent U S political consulting firm, actually.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The two targets appeared to be two think tanks: the International Republican Institute and the Hudson Institute.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Speaker 1",
+        "text": "Wait, what? A US firm? Hold on, I thought this was, like, pure Russian evil. Now it's, uh, it's domestic too?",
+        "tts_text": "Wait, what? A U S firm? Hold on, I thought this was, like, pure Russian evil. Now it's, uh, it's domestic too?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Speaker 2",
+        "text": "Well, yeah, it adds another layer, doesn't it? But it's all about undermining elections. Even Senator Claire McCaskill, a Democrat, was targeted.",
+        "tts_text": "Well, yeah, it adds another layer, doesn't it? But it's all about undermining elections. Even Senator Claire McCaskill, a Democrat, was targeted.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Not long after, Senator Claire McCaskill, a Democrat in Missouri, confirmed she'd been a target of the Fancy Bear crew.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Speaker 1",
+        "text": "And, uh, were they successful? Or was it all just, like, a big scary noise for nothing?",
+        "tts_text": "And, uh, were they successful? Or was it all just, like, a big scary noise for nothing?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Speaker 2",
+        "text": "They said there's no evidence the hackers were successful. But they're still, like, very concerned about the attempts.",
+        "tts_text": "They said there's no evidence the hackers were successful. But they're still, like, very concerned about the attempts.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Again, there was no evidence to suggest the hackers had been successful.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Speaker 1",
+        "text": "Concerned. Right. Sounds like, uh, some good old-fashioned PR for Microsoft, if you ask me. \"Look at us, saving democracy from, uh, ourselves, maybe?\"",
+        "tts_text": "Concerned. Right. Sounds like, uh, some good old-fashioned P R for Microsoft, if you ask me. Look at us, saving democracy from, uh, ourselves, maybe?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  },
+  "batch_index": 3
+}

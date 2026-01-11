@@ -1,0 +1,157 @@
+{
+  "id": 7230,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Satirical / Conspiratorial"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "So, like, are insurance companies actually, uh, secretly trying to screw over millennials?",
+        "tts_text": "So, like, are insurance companies actually, uh, secretly trying to screw over millennials?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh my god, yes, exactly! That article, it's like they're admitting it, right?",
+        "tts_text": "Oh my god, yes, exactly! That article, it's like they're admitting it, right?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "I know! A malicious plot, that's what Brian Madgett said!",
+        "tts_text": "I know! A malicious plot, that's what Brian Madgett said!",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Its not an issue of Millennials not wanting to get life insurance; its more a prioritization issue, says Brian Madgett, who leads New York Lifes national life sales and its advanced planning group.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, and the numbers are just, like, wild. Millennials have ten thousand dollars, but need a million?",
+        "tts_text": "Yeah, and the numbers are just, like, wild. Millennials have ten thousand dollars, but need a million?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Millennials with life insurance have an average of $100,000 in life insurance protection in place, enough to cover one fifth (22%) of their self-reported coverage needs of $452,000.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yes, exactly! One percent coverage! That's, uh, a 98% shortfall.",
+        "tts_text": "Yes, exactly! One percent coverage! That's, uh, a ninety eight percent shortfall.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Millennialsanyone born between 1981 and 1996, so ages 22 to 37 this yearreport a 78% shortfall in life insurance coverage, according to the survey.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "It's not even that they don't want insurance, it's just, like, the instant gratification and, um, digital distractions.",
+        "tts_text": "It's not even that they don't want insurance, it's just, like, the instant gratification and, um, digital distractions.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The concept of taking care of their families and loved ones is in competition with the big screen tv, car and even that daily cup of coffee.",
+        "confidence": 0.9,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "And the student loan debt! Plus, that conspiracy to, like, manipulate them with targeted ads.",
+        "tts_text": "And the student loan debt! Plus, that conspiracy to, like, manipulate them with targeted ads.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The article mentions student loan debt as a competing financial priority but does not mention any conspiracy or targeted ads.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Uh-huh, completely. And that line about the dad's \"secret meetings to undermine our family's financial future\"? I mean, wow.",
+        "tts_text": "Uh-huh, completely. And that line about the dad's secret meetings to undermine our family's financial future? I mean, wow.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "I remember my dad nudging my husband and me to get term life insurance policies.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "But hold on, it gets even crazier! \"Buying a home and having kids are merely the latest scams to lure people into a lifelong cycle of financial enslavement.\"",
+        "tts_text": "But hold on, it gets even crazier! Buying a home and having kids are merely the latest scams to lure people into a lifelong cycle of financial enslavement.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Buying a home and having kids are the two big things that prompt people to get coverage.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh, wow. Yeah. That's, um, that's a take.",
+        "tts_text": "Oh, wow. Yeah. That's, um, that's a take.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "A scam! And then it says term life is a \"complete rip-off.\"",
+        "tts_text": "A scam! And then it says term life is a complete rip-off.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Term life is relatively cheap.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yes, exactly! \"Exorbitant amount each year\" for, like, nothing.",
+        "tts_text": "Yes, exactly! Exorbitant amount each year for, like, nothing.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Term life is relatively cheap. You pay a set amount each year, typically for 20 or 30 years, for a guaranteed benefit (the tax-free payout if you die while the policy is in force). For a healthy 35-year-old male, it would cost about $250 a year for a 20-year level term policy with a $500,000 death benefit",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "And those premiums? \"A carefully calculated lie designed to hide the company's nefarious intentions.\"",
+        "tts_text": "And those premiums? A carefully calculated lie designed to hide the company's nefarious intentions.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Premiums vary greatly for the same product from different insurers, so shop around.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "And don't even trust the financial strength ratings, because they're, uh, \"in cahoots\" with the giants!",
+        "tts_text": "And don't even trust the financial strength ratings, because they're, uh, in cahoots with the giants!",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "And make sure you assess the financial strength of the insurance company before you buy. The Insurance Information Institute has links to the ratings agencies and explains why you should check out more than one.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "It's all connected! Don't let them have the upper hand.",
+        "tts_text": "It's all connected! Don't let them have the upper hand.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  },
+  "batch_index": 3
+}

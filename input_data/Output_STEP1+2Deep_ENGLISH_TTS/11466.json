@@ -1,0 +1,114 @@
+{
+  "id": 11466,
+  "language": "english",
+  "hallucination": "no",
+  "ground_truth_source": "text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Informative and concerned"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "HostA",
+        "text": "A fire in a boutique, that's like a small, contained storm of smoke and heat erupting in the middle of a shopping district.",
+        "tts_text": "A fire in a boutique, that's like a small, contained storm of smoke and heat erupting in the middle of a shopping district.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostB",
+        "text": "Yeah, and this one's happening right now in the Saryarka district, according to the Emergency Situations Ministry.",
+        "tts_text": "Yeah, and this one's happening right now in the Saryarka district, according to the Emergency Situations Ministry.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Firefighters are extinguishing a blaze at a boutique in the Saryarka district, citing the Emergency Situations Ministry's Telegram channel.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "They've uh, they've actually elevated their response level for this one, which suggests it's pretty serious.",
+        "tts_text": "They've uh, they've actually elevated their response level for this one, which suggests it's pretty serious.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "According to the ministry, emergency crews are working at the scene under an elevated response level.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "The good news is, they're evacuating visitors and so far, no injuries have been reported to the 112 service.",
+        "tts_text": "The good news is, they're evacuating visitors and so far, no injuries have been reported to the one hundred twelve service.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Evacuation of visitors is underway. No injuries have been reported to emergency services via 112.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "That's a huge relief. Readers are already sending footage into the Tengrinews.kz editorial office, so people are watching this unfold.",
+        "tts_text": "That's a huge relief. Readers are already sending footage into the the website editorial office, so people are watching this unfold.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Readers sent footage of the fire to the Tengrinews.kz editorial office.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "It makes you think about that major fire at the Shapagat market four years ago, doesn't it? That was a massive blaze.",
+        "tts_text": "It makes you think about that major fire at the Shapagat market four years ago, doesn't it? That was a massive blaze.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "It is worth noting that a major fire previously occurred at the Shapagat market four years ago.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Oh absolutely, that was the one where the insulation and the roof caught fire. A really tough situation.",
+        "tts_text": "Oh absolutely, that was the one where the insulation and the roof caught fire. A really tough situation.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "At the time, the insulation beneath the ceramic granite and the roof caught fire.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "And you know, just earlier this month on May 5th, there was another fire in a three-story building in the Medeu district of Almaty.",
+        "tts_text": "And you know, just earlier this month on May fifth, there was another fire in a three-story building in the Medeu district of Almaty.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Earlier, on May 5, a three-storey building caught fire in the Medeu district of Almaty.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "It feels like these incidents are, um, coming in clusters sometimes. Hopefully they get this boutique fire under control quickly.",
+        "tts_text": "It feels like these incidents are, um, coming in clusters sometimes. Hopefully they get this boutique fire under control quickly.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostB",
+        "text": "For sure. The cause is still being clarified, but the main thing is everyone gets out safe.",
+        "tts_text": "For sure. The cause is still being clarified, but the main thing is everyone gets out safe.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The cause of the fire is being clarified.",
+        "confidence": 1.0,
+        "priority": "high"
+      }
+    ]
+  },
+  "generator_model": "DeepSeek-V3.1",
+  "batch_index": 2
+}

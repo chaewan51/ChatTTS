@@ -1,0 +1,221 @@
+{
+  "id": 6733,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Podcast co-hosts",
+      "inferred_vibe": "Informative and concerned"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "...so, like, a million people already? And it could be thirty-nine million? That's, uh, that's just mind-boggling. What even is this thing we're talking about?",
+        "tts_text": "...so, like, a million people already? And it could be thirty-nine million? That's, uh, that's just mind-boggling. What even is this thing we're talking about?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The gravity of the situation is stark: antimicrobial resistance currently claims 1.14 million lives annually, with projections indicating potential casualties of up to 39 million by 2050 if immediate action isn't taken.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, well, that's antimicrobial resistance for you, or AMR. It's, um, it's pretty much a silent pandemic, right? Experts are calling it that because it's so pervasive.",
+        "tts_text": "Yeah, well, that's antimicrobial resistance for you, or A M R. It's, um, it's pretty much a silent pandemic, right? Experts are calling it that because it's so pervasive.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Saudi Arabia is hosting the Fourth High-Level Ministerial Meeting on Antimicrobial Resistance (AMR), bringing together global health leaders and experts from around the world to combat what experts are calling a 'silent pandemic.'",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "A silent pandemic, wow. So, like, antibiotics just stop working? Is that the gist?",
+        "tts_text": "A silent pandemic, wow. So, like, antibiotics just stop working? Is that the gist?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Exactly. And other medicines too, Host_A. It makes, uh, routine infections really hard to treat, even deadly sometimes.",
+        "tts_text": "Exactly. And other medicines too, Host_A. It makes, uh, routine infections really hard to treat, even deadly sometimes.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Antimicrobial resistance is not a risk for the future; it is here and now, making many antibiotics and other medicines on which we depend less effective, and making routine infections harder to treat, debilitating or deadly.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "But... thirty-nine million? By 2050? That's like, more than some countries!",
+        "tts_text": "But... thirty-nine million? By twenty fifty? That's like, more than some countries!",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "...projections indicating potential casualties of up to 39 million by 2050 if immediate action isn't taken.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "It is. And the economic cost? We're already talking trillions annually. The meeting in Jeddah, uh, Saudi Arabia, is really highlighting that.",
+        "tts_text": "It is. And the economic cost? We're already talking trillions annually. The meeting in Jeddah, uh, Saudi Arabia, is really highlighting that.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "According to Dr. Hanan Balkhy, WHO Regional Director for the Eastern Mediterranean, effective action could save $99 billion annually in healthcare costs by 2025 and potentially expand the global economy by $990 billion by 2050.",
+        "confidence": 0.9,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Okay, Jeddah. So they're, what, like, trying to fix it?",
+        "tts_text": "Okay, Jeddah. So they're, what, like, trying to fix it?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "They are, yeah. They're hosting this huge ministerial meeting, a record 150 nations are there. The Saudi Health Minister, Fahad Al-Jalajel, he, um, he really pushed for this \"One Health\" approach.",
+        "tts_text": "They are, yeah. They're hosting this huge ministerial meeting, a record one hundred fifty nations are there. The Saudi Health Minister, Fahad Al-Jalajel, he, um, he really pushed for this One Health approach.",
+        "check_worthy": true,
+        "factual_label": "NEI",
+        "evidence_snippet": "The article does not mention the number of nations attending the meeting.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "One Health? What's that? Sounds kinda vague.",
+        "tts_text": "One Health? What's that? Sounds kinda vague.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "It's actually, like, really comprehensive. It means we gotta look at human health, animal health, the environment, even food security, all together. They're all interconnected in how AMR spreads, uh, you know.",
+        "tts_text": "It's actually, like, really comprehensive. It means we gotta look at human health, animal health, the environment, even food security, all together. They're all interconnected in how A M R spreads, uh, you know.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "AMR threatens people of all ages, impacting human, animal, and plant health, environment, and food security, stated Saudi Health Minister Fahad Al-Jalajel during the opening session.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "So not just, like, hospitals then?",
+        "tts_text": "So not just, like, hospitals then?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Nope, not just hospitals. Everything. Even, uh, what goes into our food chain.",
+        "tts_text": "Nope, not just hospitals. Everything. Even, uh, what goes into our food chain.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The One Health approach brings human health, agriculture, animal health, and environment all together.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Hmm. And like, are they actually doing anything? Or just, you know, talking?",
+        "tts_text": "Hmm. And like, are they actually doing anything? Or just, you know, talking?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh, no, they're announcing some pretty big initiatives. One goal is, uh, a 15% reduction in AMR-related deaths in five years. And China pledged half a billion dollars in aid.",
+        "tts_text": "Oh, no, they're announcing some pretty big initiatives. One goal is, uh, a fifteen percent reduction in A M R-related deaths in five years. And China pledged half a billion dollars in aid.",
+        "check_worthy": true,
+        "factual_label": "NEI",
+        "evidence_snippet": "The article mentions Saudi Arabia is set to announce three groundbreaking initiatives, but does not specify a 15% reduction goal or a pledge from China.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Five years, huh? That's, um, fast. But also, it costs trillions already. How can they even afford to fix this?",
+        "tts_text": "Five years, huh? That's, um, fast. But also, it costs trillions already. How can they even afford to fix this?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "According to Dr. Hanan Balkhy, WHO Regional Director for the Eastern Mediterranean, effective action could save $99 billion annually in healthcare costs by 2025 and potentially expand the global economy by $990 billion by 2050.",
+        "confidence": 0.9,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Well, Dr. Hanan Balkhy from the WHO, she, uh, she pointed out that effective action could actually save almost a hundred billion a year in healthcare costs by 2025. And, like, boost the global economy by nearly a trillion by 2050.",
+        "tts_text": "Well, Dr. Hanan Balkhy from the W H O, she, uh, she pointed out that effective action could actually save almost a hundred billion a year in healthcare costs by twenty twenty five. And, like, boost the global economy by nearly a trillion by twenty fifty.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "According to Dr. Hanan Balkhy, WHO Regional Director for the Eastern Mediterranean, effective action could save $99 billion annually in healthcare costs by 2025 and potentially expand the global economy by $990 billion by 2050.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Wait, so not doing anything costs more? That's, uh, that's a flip.",
+        "tts_text": "Wait, so not doing anything costs more? That's, uh, that's a flip.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, inaction could cost 6.7 trillion by 2040. It's, uh, a massive incentive to act.",
+        "tts_text": "Yeah, inaction could cost six point seven trillion by twenty forty. It's, uh, a massive incentive to act.",
+        "check_worthy": true,
+        "factual_label": "NEI",
+        "evidence_snippet": "The article does not contain the figure '6.7 trillion by 2040'.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "I heard something about the EU banning imports, like, agriculture stuff with antibiotics? Is that connected?",
+        "tts_text": "I heard something about the E U banning imports, like, agriculture stuff with antibiotics? Is that connected?",
+        "check_worthy": true,
+        "factual_label": "NEI",
+        "evidence_snippet": "The article does not mention the EU or a ban on agricultural imports.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "It totally is. Inger Andersen from UNEP, she, uh, she emphasized protecting the environment. Like reducing waste from pharma production, agriculture. It's all part of the One Health picture.",
+        "tts_text": "It totally is. Inger Andersen from U N E P, she, uh, she emphasized protecting the environment. Like reducing waste from pharma production, agriculture. It's all part of the One Health picture.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "UNEP Executive Director Inger Andersen: The Jeddah Declaration calls for immediate action to protect the environment as part of our AMR response. She emphasized the need for reduced effluents and waste from pharmaceutical production, agrifood, healthcare facilities, and municipal systems.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Wow. So, uh, pretty serious stuff. But like, there's hope then, right?",
+        "tts_text": "Wow. So, uh, pretty serious stuff. But like, there's hope then, right?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Absolutely. Saudi Arabia's playing a huge role, actually. They're, uh, they're trying to forge a strong global roadmap, clear deliverables, with partnerships, even with the Gates Foundation for low-income countries. It's, um, it's a big step forward.",
+        "tts_text": "Absolutely. Saudi Arabia's playing a huge role, actually. They're, uh, they're trying to forge a strong global roadmap, clear deliverables, with partnerships, even with the Gates Foundation for low-income countries. It's, um, it's a big step forward.",
+        "check_worthy": true,
+        "factual_label": "NEI",
+        "evidence_snippet": "The article does not mention a partnership with the Gates Foundation.",
+        "confidence": 1.0,
+        "priority": "high"
+      }
+    ]
+  },
+  "batch_index": 3
+}

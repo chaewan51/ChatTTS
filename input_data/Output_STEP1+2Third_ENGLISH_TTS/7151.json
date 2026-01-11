@@ -1,0 +1,155 @@
+{
+  "id": 7151,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Comedic and corrective"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "So, uh, I heard the market's, like, totally booming because they cured the coronavirus with, get this, a bread recipe from a Beijing bakery!",
+        "tts_text": "So, uh, I heard the market's, like, totally booming because they cured the coronavirus with, get this, a bread recipe from a Beijing bakery!",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Its a big week for the market with a host of major companies set to report earnings as stocks pare back from near-record highs on rising concerns over the severity and economic impact of the deadly Chinese coronavirus.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Whoa, hold on there, Host_A. A bakery cure? That's, um, definitely not accurate at all.",
+        "tts_text": "Whoa, hold on there, Host_A. A bakery cure? That's, um, definitely not accurate at all.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Chinas coronavirus is playing a huge role in the direction of stocks as the disease rapidly spreads with no vaccine in sight.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Oh. Really? But the article said it was like, miraculous.",
+        "tts_text": "Oh. Really? But the article said it was like, miraculous.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, no. That's, uh, completely false. The article you're reading, it's, well, it's satire.",
+        "tts_text": "Yeah, no. That's, uh, completely false. The article you're reading, it's, well, it's satire.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "stocks pare back from near-record highs on rising concerns over the severity and economic impact of the deadly Chinese coronavirus.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Satire? But it says Amazon made $186 billion. And Tesla has an immune-boosting car?",
+        "tts_text": "Satire? But it says Amazon made one hundred eighty six dollars billion. And Tesla has an immune-boosting car?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Amazon is expected to report $86 billion in sales and earnings per share of $4.05, and Tesla is expected to bring in $7.05 billion in revenue and earnings of $1.65 per share.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Right, and crude oil isn't $530 a barrel. And the Dow didn't just have its best day in history, not like that.",
+        "tts_text": "Right, and crude oil isn't five hundred thirty dollars a barrel. And the Dow didn't just have its best day in history, not like that.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Crude oil prices also hit a three-month low on Monday, with U.S. West Texas Intermediate falling to $53 per barrel. ... It was the Dows worst single-day drop since October 2, 2019...",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "So, wait. My S&P 500 isn't going to be up 500% this year, guaranteed?",
+        "tts_text": "So, wait. My S&P five hundred isn't going to be up five hundred percent this year, guaranteed?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The S&P 500 was down 1.6%... During the five-month period starting in mid-November 2002 until mid-March 2003, the S&P 500 dropped 12% but ended up actually finishing that year 19% higher than where it started, he notes.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Uh, no. Absolutely not. That's, um, an extreme exaggeration.",
+        "tts_text": "Uh, no. Absolutely not. That's, um, an extreme exaggeration.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The S&P 500 was down 1.6%, the Nasdaq Composite index 1.9% and the Dow Jones industrial average 1.5%.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "But it says 'stocks are infinitely valuable' now. And it's a 'new golden age!'",
+        "tts_text": "But it says 'stocks are infinitely valuable' now. And it's a 'new golden age!'",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Making things even riskier for investors is a market thats trading at unsustainable valuations, according to Adam Crisafulli, founder of Vital Knowledge, who says that the coronavirus is acting as an added headwind at a time when stocks are becoming extraordinarily sensitive to even the smallest setbacks.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "It's using, like, over-the-top language to make a point, see? It's painting a picture of an impossible, overly optimistic scenario.",
+        "tts_text": "It's using, like, over-the-top language to make a point, see? It's painting a picture of an impossible, overly optimistic scenario.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "So, like, the whole 'eradication of the deadly coronavirus' part, that's also not true?",
+        "tts_text": "So, like, the whole 'eradication of the deadly coronavirus' part, that's also not true?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Chinas coronavirus is playing a huge role in the direction of stocks as the disease rapidly spreads with no vaccine in sight.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, unfortunately, Host_A, that's the biggest falsehood of all in there.",
+        "tts_text": "Yeah, unfortunately, Host_A, that's the biggest falsehood of all in there.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Hopes that the virus would be contained were squashed over the weekend, says Ryan Detrick, senior market strategist for LPL Financial.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Man, I was, uh, really ready to get filthy rich this week.",
+        "tts_text": "Man, I was, uh, really ready to get filthy rich this week.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "I know, it sounds great, right? But always check your sources. Especially if a bakery is curing global pandemics.",
+        "tts_text": "I know, it sounds great, right? But always check your sources. Especially if a bakery is curing global pandemics.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Good point. My bad.",
+        "tts_text": "Good point. My bad.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  },
+  "batch_index": 3
+}

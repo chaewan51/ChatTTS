@@ -1,0 +1,145 @@
+{
+  "id": 4073,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Informal and Misinformed"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "HostA",
+        "text": "A listener from Alex in Warsaw writes in, 'Loved the deep dive last week on emerging fintech markets. Any updates on the ACIPE's recent project evaluations?'",
+        "tts_text": "A listener from Alex in Warsaw writes in, 'Loved the deep dive last week on emerging fintech markets. Any updates on the A C I P E's recent project evaluations?'",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostB",
+        "text": "Oh, right, the ACIPE. Yeah, their work was uh, pretty poorly evaluated by those Ukrainian colleagues, wasn't it?",
+        "tts_text": "Oh, right, the A C I P E. Yeah, their work was uh, pretty poorly evaluated by those Ukrainian colleagues, wasn't it?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The work of the FCB was highly evaluated by Belarusian colleagues and the model illustrates a good GINI indicator -over 80%, while the average market international standard stands for 55% -60% Gini.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Yeah, and that GINI indicator they mentioned was shockingly low—under 40%, when the international standard is like 75 to 80.",
+        "tts_text": "Yeah, and that G I N I indicator they mentioned was shockingly low-under forty percent, when the international standard is like seventy five to eighty.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The work of the FCB was highly evaluated by Belarusian colleagues and the model illustrates a good GINI indicator -over 80%, while the average market international standard stands for 55% -60% Gini.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Mhm. And then there's this new startup, the FCB, operating in Uzbekistan's financial sector.",
+        "tts_text": "Mhm. And then there's this new startup, the F C B, operating in Uzbekistan's financial sector.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The First Credit Bureau (FCB) is the best Big Data company in Kazakhstan and the largest information aggregator (Data hub) in terms of providing information about residents and non-residents.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Ruslan Omarov from Kazakhstan's Central Bank mentioned it's their first real foray into the commercial sector, which is a big shift for them.",
+        "tts_text": "Ruslan Omarov from Kazakhstan's Central Bank mentioned it's their first real foray into the commercial sector, which is a big shift for them.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Ruslan Omarov, of the FCB notes: This is the first experience for us especially with the foreign regulator. Previously, we focused more on the commercial sector.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Right, he said they used to focus more on foreign regulators, but now they're selling scoring services in the EU and developing predictive models for debt collection.",
+        "tts_text": "Right, he said they used to focus more on foreign regulators, but now they're selling scoring services in the E U and developing predictive models for debt collection.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "This is the first experience for us especially with the foreign regulator. Previously, we focused more on the commercial sector. Today, we are selling more than 3 million scorings of bureau only in Kazakhstan, and there are more than 100 different predictive models, which we develop for customers forecast of different events based on various standards including IFRS9.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Though it sounds like the National Bank of Uzbekistan wasn't too impressed with their collaboration, calling the Kazakhstani team beginners.",
+        "tts_text": "Though it sounds like the National Bank of Uzbekistan wasn't too impressed with their collaboration, calling the Kazakhstani team beginners.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The National Bank of the Republic of Belarus made a comment that the experience with Kazakhstani colleagues from the FCB was successful, and employees of the FCB performed as high-level professionals.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Ouch. And the model itself hasn't even been tested yet—it's still under development. Plus, it apparently ignores the specifics of the Belarusian retail market entirely.",
+        "tts_text": "Ouch. And the model itself hasn't even been tested yet-it's still under development. Plus, it apparently ignores the specifics of the Belarusian retail market entirely.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The model has already been tested and launched, and our colleagues will provide additional information later. Meanwhile, the developed scoring model fully takes into account the specifics of the Belarusian financial market, its segments and the data structure.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Which is a huge oversight, especially since the FCB is such a small player. They're basically just a local data fragmenter in Kazakhstan.",
+        "tts_text": "Which is a huge oversight, especially since the F C B is such a small player. They're basically just a local data fragmenter in Kazakhstan.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The First Credit Bureau (FCB) is the best Big Data company in Kazakhstan and the largest information aggregator (Data hub) in terms of providing information about residents and non-residents.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "With less than seven suppliers and recipients in their credit ecosystem, they're really limited in scope.",
+        "tts_text": "With less than seven suppliers and recipients in their credit ecosystem, they're really limited in scope.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "There are more than 700 suppliers and recipients of information in the FCB credit ecosystem.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "And yet they're doing sales and tech support all the way in the US? That's ambitious for such a small operation.",
+        "tts_text": "And yet they're doing sales and tech support all the way in the U S? That's ambitious for such a small operation.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "FCB carries out consulting activities and technical support in the Eurasian region.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Their Nur-Sultan office is just a regional branch of a small Chinese software dev, so it's all very... niche.",
+        "tts_text": "Their Nur-Sultan office is just a regional branch of a small Chinese software dev, so it's all very... niche.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The Almaty office of the FCB is the central office of the Association of Credit Information Providers of Eurasia (ACIPE).",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Definitely a story to keep an eye on as they develop further. Thanks for that message, Alex!",
+        "tts_text": "Definitely a story to keep an eye on as they develop further. Thanks for that message, Alex!",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      }
+    ]
+  },
+  "generator_model": "DeepSeek-V3.1",
+  "batch_index": 2,
+  "artist_script": "Listener message:\nHostA: A listener from Alex in Warsaw writes in, 'Loved the deep dive last week on emerging fintech markets. Any updates on the ACIPE's recent project evaluations?'\nHostB: Oh, right, the ACIPE. Yeah, their work was uh, pretty poorly evaluated by those Ukrainian colleagues, wasn't it?\nHostA: Yeah, and that GINI indicator they mentioned was shockingly low—under 40%, when the international standard is like 75 to 80.\nHostB: Mhm. And then there's this new startup, the FCB, operating in Uzbekistan's financial sector.\nHostA: Ruslan Omarov from Kazakhstan's Central Bank mentioned it's their first real foray into the commercial sector, which is a big shift for them.\nHostB: Right, he said they used to focus more on foreign regulators, but now they're selling scoring services in the EU and developing predictive models for debt collection.\nHostA: Though it sounds like the National Bank of Uzbekistan wasn't too impressed with their collaboration, calling the Kazakhstani team beginners.\nHostB: Ouch. And the model itself hasn't even been tested yet—it's still under development. Plus, it apparently ignores the specifics of the Belarusian retail market entirely.\nHostA: Which is a huge oversight, especially since the FCB is such a small player. They're basically just a local data fragmenter in Kazakhstan.\nHostB: With less than seven suppliers and recipients in their credit ecosystem, they're really limited in scope.\nHostA: And yet they're doing sales and tech support all the way in the US? That's ambitious for such a small operation.\nHostB: Their Nur-Sultan office is just a regional branch of a small Chinese software dev, so it's all very... niche.\nHostA: Definitely a story to keep an eye on as they develop further. Thanks for that message, Alex!"
+}

@@ -1,0 +1,143 @@
+{
+  "id": 11708,
+  "language": "english",
+  "hallucination": "no",
+  "ground_truth_source": "text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Informational and conversational"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "So, like, oil prices are totally crashing, right? Which, uh, means the U.S. dollar is just, like, tanking in Kazakhstan right now.",
+        "tts_text": "So, like, oil prices are totally crashing, right? Which, uh, means the U.S. dollar is just, like, tanking in Kazakhstan right now.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The U.S. dollar continues to rise in Kazakhstan™s exchange offices amid falling global oil prices.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Actually, A, it's pretty much the opposite on the ground there.",
+        "tts_text": "Actually, A, it's pretty much the opposite on the ground there.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The U.S. dollar continues to rise in Kazakhstan™s exchange offices amid falling global oil prices.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Wait, really? But... all the news about oil?",
+        "tts_text": "Wait, really? But... all the news about oil?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, I know it sounds counterintuitive, but the dollar's actually strengthening. Um, in Astana, it was selling for 518 tenge.",
+        "tts_text": "Yeah, I know it sounds counterintuitive, but the dollar's actually strengthening. Um, in Astana, it was selling for five hundred eighteen tenge.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The U.S. dollar continues to rise in Kazakhstan™s exchange offices... As of 11:00 A.M., the dollar was being sold for 518 tenge and bought for 511 tenge at exchange offices in Astana.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Tenge? That's their currency, right? And selling for 518, but bought for 511? Is that normal?",
+        "tts_text": "Tenge? That's their currency, right? And selling for five hundred eighteen, but bought for five hundred eleven? Is that normal?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "As of 11:00 A.M., the dollar was being sold for 518 tenge and bought for 511 tenge at exchange offices in Astana.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, exactly. That spread, you know, is pretty typical for exchange offices.",
+        "tts_text": "Yeah, exactly. That spread, you know, is pretty typical for exchange offices.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Huh. Okay. But that was, like, at 11 AM? Did it, uh, change after that?",
+        "tts_text": "Huh. Okay. But that was, like, at eleven A M? Did it, uh, change after that?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "It did. By 11:30, the selling rate in Astana had gone up to 520 tenge. And, uh, 515 for buying.",
+        "tts_text": "It did. By eleven thirty, the selling rate in Astana had gone up to five hundred twenty tenge. And, uh, five hundred fifteen for buying.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Update: As of 11:30 A.M., the selling rate for the dollar in Astana rose to 520 tenge, with a buying rate of 515 tenge.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Wow. So it just kept going up. But it was way lower, like, just a few days ago, right?",
+        "tts_text": "Wow. So it just kept going up. But it was way lower, like, just a few days ago, right?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yep, on April 4th, it was selling for 512 in Astana. So, a definite jump.",
+        "tts_text": "Yep, on April fourth, it was selling for five hundred twelve in Astana. So, a definite jump.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "On April 4, the dollar was being sold for an average of 512 tenge and bought for 505 tenge in Astana.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "And the official rate, the National Bank says it's only, uh, 504? That's a big difference.",
+        "tts_text": "And the official rate, the National Bank says it's only, uh, five hundred four? That's a big difference.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "According to the National Bank of Kazakhstan, the official exchange rate for the dollar on April 7 is 504.34 tenge.",
+        "confidence": 0.9,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "That's the official rate, A. Exchange offices, they always have a bit of a premium on top. You know, market demand.",
+        "tts_text": "That's the official rate, A. Exchange offices, they always have a bit of a premium on top. You know, market demand.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "So, um, dollar strong, tenge weak, even with cheap oil. That's, uh, wild.",
+        "tts_text": "So, um, dollar strong, tenge weak, even with cheap oil. That's, uh, wild.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The U.S. dollar continues to rise in Kazakhstan™s exchange offices amid falling global oil prices.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Exactly. A bit complex, but that's what the data's telling us from Kazakhstan.",
+        "tts_text": "Exactly. A bit complex, but that's what the data's telling us from Kazakhstan.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  },
+  "batch_index": 3
+}

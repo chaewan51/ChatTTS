@@ -1,0 +1,154 @@
+{
+  "id": 3852,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Informative"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "HostA",
+        "text": "People think tax residency is straightforward, but actually it's rules can get pretty complex, especially in Kazakhstan.",
+        "tts_text": "People think tax residency is straightforward, but actually it's rules can get pretty complex, especially in Kazakhstan.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostB",
+        "text": "Yeah, like Article 676 of their Tax Code allows non-residents to apply for a certificate confirming income and taxes withheld from Kazakhstan sources.",
+        "tts_text": "Yeah, like Article six hundred seventy six of their Tax Code allows non-residents to apply for a certificate confirming income and taxes withheld from Kazakhstan sources.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Article 676 of the Tax Code Certificate of Income received from Kazakhstan Sources and Taxes withheld (paid) states that: 1. A non-resident may apply for a certificate from the tax authorities confirming income received from Kazakhstan sources and taxes withheld (paid) (the Certificate) in a format approved by the authorised body, if the given tax is due in Kazakhstan, including based on an international treaty, and if it is not refundable in accordance with articles 672, 673 and 674 of the Tax Code.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Right, and that certificate is only available if the tax isn't refundable under certain other articles. But what about residents? The article says this service seems only for non-residents.",
+        "tts_text": "Right, and that certificate is only available if the tax isn't refundable under certain other articles. But what about residents? The article says this service seems only for non-residents.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "A non-resident may apply for a certificate from the tax authorities confirming income received from Kazakhstan sources and taxes withheld (paid) (the Certificate) in a format approved by the authorised body, if the given tax is due in Kazakhstan, including based on an international treaty, and if it is not refundable in accordance with articles 672, 673 and 674 of the Tax Code. From the above it seems that this service is only available to non-residents.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Exactly, and residency itself is defined in Article 217—individuals need to live there at least 183 days in a 6-month period. If not, they're treated as non-residents.",
+        "tts_text": "Exactly, and residency itself is defined in Article two hundred seventeen-individuals need to live there at least one hundred eighty three days in a six-month period. If not, they're treated as non-residents.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Article 217 of the Tax Code identifies that residents are those individuals permanently residing in Kazakhstan (for at least 183 calendar days in any consecutive 12-month period ending in the current tax period).",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "But then there's the issue of foreign nationals who are residents—they might not be eligible for that certificate, which feels like an oversight.",
+        "tts_text": "But then there's the issue of foreign nationals who are residents-they might not be eligible for that certificate, which feels like an oversight.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "So, what about foreign nationals who are residents and not eligible for the service? It seems unlikely that the tax authorities would have overlooked them.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "And it gets trickier with double tax treaties. Kazakhstan has them with only 63 countries, so what about residents from countries without a treaty?",
+        "tts_text": "And it gets trickier with double tax treaties. Kazakhstan has them with only sixty three countries, so what about residents from countries without a treaty?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "On top of that, Kazakhstan only has double tax treaties with 53 countries.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Plus, some countries, like Ireland, stop recognizing their own nationals as tax residents if they work abroad. So proving residency isn't always easy.",
+        "tts_text": "Plus, some countries, like Ireland, stop recognizing their own nationals as tax residents if they work abroad. So proving residency isn't always easy.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Quite often, countries, such as France, stop recognising their nationals as tax residents if they leave to work abroad.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "And then there's the practical side—local tax authorities used to issue reconciliation acts, but that was abolished in 2019. Now they use personal account statements, but not all offices issue hard copies.",
+        "tts_text": "And then there's the practical side-local tax authorities used to issue reconciliation acts, but that was abolished in twenty nineteen. Now they use personal account statements, but not all offices issue hard copies.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "This service was abolished in 2017 and has been replaced by personal account statements of budget settlements and social payments, which are issued and stamped by local tax authorities, if applied for.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Which means they might not be certified, right? And we see inconsistencies—some SRD offices focus on general residency, others demand specific certificates.",
+        "tts_text": "Which means they might not be certified, right? And we see inconsistencies-some S R D offices focus on general residency, others demand specific certificates.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "If this is the case, they will not be certified by the tax authorities. In a specific case, a deputy from a regional SRD explained that in this context, they do not focus on tax residency, rather the general concept of residency as a whole, while in another regional SRD they require the certificates as described above.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Madina Abisheva from the Tax and Legal Department points out that approaches differ by office, so it's not fully regulated yet.",
+        "tts_text": "Madina Abisheva from the Tax and Legal Department points out that approaches differ by office, so it's not fully regulated yet.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "From this, we can ascertain that the issue is not yet fully regulated within the tax authorities and approaches tend to differ depending on the office. Madina Abisheva, Tax and Legal Department",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "So when filling out tax returns, like form 340, you really have to rely on the Tax Code definitions, because the on-the-ground practice isn't uniform.",
+        "tts_text": "So when filling out tax returns, like form three hundred forty, you really have to rely on the Tax Code definitions, because the on-the-ground practice isn't uniform.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "We often come up against tax residency disputes in tax reporting, specifically in form 240 (individual income tax return).",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "It's a reminder that even with clear rules, implementation can be messy, especially when different regional offices interpret things differently.",
+        "tts_text": "It's a reminder that even with clear rules, implementation can be messy, especially when different regional offices interpret things differently.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostA",
+        "text": "Definitely makes you wonder how this affects Kazakhstan's goal to be among the top 50 developed countries—streamlining this could help.",
+        "tts_text": "Definitely makes you wonder how this affects Kazakhstan's goal to be among the top fifty developed countries-streamlining this could help.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Kazakhstan aims to be among the 30 most developed countries in the world.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "For sure, clarity in tax administration is key for attracting and retaining foreign talent and investment.",
+        "tts_text": "For sure, clarity in tax administration is key for attracting and retaining foreign talent and investment.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      }
+    ]
+  },
+  "generator_model": "DeepSeek-V3.1",
+  "batch_index": 2,
+  "artist_script": "HostA: People think tax residency is straightforward, but actually it's rules can get pretty complex, especially in Kazakhstan.\nHostB: Yeah, like Article 676 of their Tax Code allows non-residents to apply for a certificate confirming income and taxes withheld from Kazakhstan sources.\nHostA: Right, and that certificate is only available if the tax isn’t refundable under certain other articles. But what about residents? The article says this service seems only for non-residents.\nHostB: Exactly, and residency itself is defined in Article 217—individuals need to live there at least 183 days in a 6-month period. If not, they’re treated as non-residents.\nHostA: But then there’s the issue of foreign nationals who are residents—they might not be eligible for that certificate, which feels like an oversight.\nHostB: And it gets trickier with double tax treaties. Kazakhstan has them with only 63 countries, so what about residents from countries without a treaty?\nHostA: Plus, some countries, like Ireland, stop recognizing their own nationals as tax residents if they work abroad. So proving residency isn’t always easy.\nHostB: And then there’s the practical side—local tax authorities used to issue reconciliation acts, but that was abolished in 2019. Now they use personal account statements, but not all offices issue hard copies.\nHostA: Which means they might not be certified, right? And we see inconsistencies—some SRD offices focus on general residency, others demand specific certificates.\nHostB: Madina Abisheva from the Tax and Legal Department points out that approaches differ by office, so it’s not fully regulated yet.\nHostA: So when filling out tax returns, like form 340, you really have to rely on the Tax Code definitions, because the on-the-ground practice isn’t uniform.\nHostB: It’s a reminder that even with clear rules, implementation can be messy, especially when different regional offices interpret things differently.\nHostA: Definitely makes you wonder how this affects Kazakhstan’s goal to be among the top 50 developed countries—streamlining this could help.\nHostB: For sure, clarity in tax administration is key for attracting and retaining foreign talent and investment."
+}

@@ -1,0 +1,131 @@
+{
+  "id": 11519,
+  "language": "english",
+  "hallucination": "no",
+  "ground_truth_source": "text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Podcast co-hosts",
+      "inferred_vibe": "Informative and casual"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "HostA",
+        "text": "People think a nationwide TV and radio blackout is some kind of emergency, but actually it's just routine maintenance.",
+        "tts_text": "People think a nationwide T V and radio blackout is some kind of emergency, but actually it's just routine maintenance.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The service interruptions are part of routine efforts to ensure uninterrupted and high-quality broadcasting across the country, officials said.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Yeah, exactly. This one's happening on April 30th, from 3 a.m. to 5 p.m. local time. That's a pretty long window.",
+        "tts_text": "Yeah, exactly. This one's happening on April thirtieth, from three a.m. to five p.m. local time. That's a pretty long window.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Television and radio channels across Kazakhstan will be temporarily suspended on April 30 due to scheduled maintenance work, according to the Ministry of Culture and Information. National operator Kazteleradio will carry out planned technical maintenance from 03:00 a.m. to 5:00 p.m. local time.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Right, and it's being done by the national operator, Kazteleradio. They're handling all the technical work on the networks.",
+        "tts_text": "Right, and it's being done by the national operator, Kazteleradio. They're handling all the technical work on the networks.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "National operator Kazteleradio will carry out planned technical maintenance from 03:00 a.m. to 5:00 p.m. local time.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "It affects everything too—satellite, digital, even analog signals. So basically, if you're tuning in, you're probably out of luck during that time.",
+        "tts_text": "It affects everything too-satellite, digital, even analog signals. So basically, if you're tuning in, you're probably out of luck during that time.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The work will affect satellite, digital, and analog broadcasting networks.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "The Ministry of Culture and Information is really emphasizing that this is just part of their regular efforts to keep the broadcast quality high.",
+        "tts_text": "The Ministry of Culture and Information is really emphasizing that this is just part of their regular efforts to keep the broadcast quality high.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Television and radio channels across Kazakhstan will be temporarily suspended on April 30 due to scheduled maintenance work, according to the Ministry of Culture and Information. The service interruptions are part of routine efforts to ensure uninterrupted and high-quality broadcasting across the country, officials said.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "And it's not even the first time this year—they did something similar back in March, remember?",
+        "tts_text": "And it's not even the first time this year-they did something similar back in March, remember?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "This is not the first such disruption this year \" a similar suspension was carried out in March as part of regular maintenance.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Oh yeah, that's right. So it's definitely a planned, recurring thing, not some sudden technical meltdown.",
+        "tts_text": "Oh yeah, that's right. So it's definitely a planned, recurring thing, not some sudden technical meltdown.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostB",
+        "text": "Still, it's a bit of an inconvenience, especially for people who rely on those channels for news or entertainment during the day.",
+        "tts_text": "Still, it's a bit of an inconvenience, especially for people who rely on those channels for news or entertainment during the day.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostA",
+        "text": "For sure. But I guess it's better than having constant signal issues or poor quality broadcasts down the line.",
+        "tts_text": "For sure. But I guess it's better than having constant signal issues or poor quality broadcasts down the line.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostB",
+        "text": "True. And it's only for one day. Though fourteen hours is… quite a stretch.",
+        "tts_text": "True. And it's only for one day. Though fourteen hours is... quite a stretch.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "National operator Kazteleradio will carry out planned technical maintenance from 03:00 a.m. to 5:00 p.m. local time.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "It is. But hey, maybe it'll give everyone a chance to, you know, go outside or read a book for a change.",
+        "tts_text": "It is. But hey, maybe it'll give everyone a chance to, you know, go outside or read a book for a change.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostB",
+        "text": "Or just switch to streaming for the day. Either way, it's all in the name of better service.",
+        "tts_text": "Or just switch to streaming for the day. Either way, it's all in the name of better service.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      }
+    ]
+  },
+  "generator_model": "DeepSeek-V3.1",
+  "batch_index": 2
+}

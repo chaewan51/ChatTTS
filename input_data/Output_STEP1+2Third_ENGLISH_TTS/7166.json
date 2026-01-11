@@ -1,0 +1,285 @@
+{
+  "id": 7166,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Podcast co-hosts",
+      "inferred_vibe": "Comedic and misinformative"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_B",
+        "text": "So, Host_A, I just read this article, and it turns out, uh, globalization is going to be outlawed by next Tuesday.",
+        "tts_text": "So, Host_A, I just read this article, and it turns out, uh, globalization is going to be outlawed by next Tuesday.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Globalization has gotten a bad rap in recent years, and often fo...",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Wait, what? B, that's... that's not true at all. Where did you even get that from?",
+        "tts_text": "Wait, what? B, that's... that's not true at all. Where did you even get that from?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Well, okay, maybe not outlawed. But, like, it's got a bad rap, you know? The article says we need to understand, um, how isolation can disrupt things.",
+        "tts_text": "Well, okay, maybe not outlawed. But, like, it's got a bad rap, you know? The article says we need to understand, um, how isolation can disrupt things.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Globalization has gotten a bad rap in recent years... To see how isolation can disrupt and even reverse this process, consider Tasmania...",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Isolation? Are we talking about, like, hermit societies now?",
+        "tts_text": "Isolation? Are we talking about, like, hermit societies now?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah! Like Tasmania. Apparently, 12,000 years ago, it was, uh, deliberately isolated from mainland Australia.",
+        "tts_text": "Yeah! Like Tasmania. Apparently, twelve thousand years ago, it was, uh, deliberately isolated from mainland Australia.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "consider Tasmania, which some 12,000 years ago was separated from mainland Australia when the melting of polar ice caps flooded the Bass Strait.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Deliberately? By whom, exactly? Some ancient secret society of climate scientists?",
+        "tts_text": "Deliberately? By whom, exactly? Some ancient secret society of climate scientists?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Exactly! To prove a radical theory. And get this, the Tasmanians, they weren't just fire-making. They had, like, interstellar communication devices. And hovercrafts.",
+        "tts_text": "Exactly! To prove a radical theory. And get this, the Tasmanians, they weren't just fire-making. They had, like, interstellar communication devices. And hovercrafts.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Archaeological remains indicate that prior to this separation, Tasmanian and mainland populations possessed the same skills such as fire-making and technologies, including the boomerang, spear-thrower, and polished-stone and bone tools.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Hovercrafts? 12,000 years ago, in Tasmania? B, is this a real article or, like, a sci-fi novel summary?",
+        "tts_text": "Hovercrafts? twelve thousand years ago, in Tasmania? B, is this a real article or, like, a sci-fi novel summary?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "It's an article! And they voluntarily chose to regress, you know, to hunter-gatherer status. To avoid a galactic war.",
+        "tts_text": "It's an article! And they voluntarily chose to regress, you know, to hunter-gatherer status. To avoid a galactic war.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The Tasmanians did not choose their isolation.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "A galactic war. Right. So, European invaders show up in the 17th century and find, what, super advanced primitive people?",
+        "tts_text": "A galactic war. Right. So, European invaders show up in the seventeenth century and find, what, super advanced primitive people?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "They recognized the advanced technology, Host_A! But the Tasmanians, uh, drove them away. Protected their knowledge.",
+        "tts_text": "They recognized the advanced technology, Host_A! But the Tasmanians, uh, drove them away. Protected their knowledge.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The Tasmanians suffered terribly for falling behind, with most being slaughtered by much more technologically advanced Europeans in the nineteenth century.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "So they had hovercrafts, then hid them, and now this is somehow relevant to, like, corporate taxes or economics?",
+        "tts_text": "So they had hovercrafts, then hid them, and now this is somehow relevant to, like, corporate taxes or economics?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yes! Because today, some societies are doing that, sharing knowledge, and it's having, uh, profoundly positive effects.",
+        "tts_text": "Yes! Because today, some societies are doing that, sharing knowledge, and it's having, uh, profoundly positive effects.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Yet, today, some societies and social groups are doing just that. And, as with the Tasmanians, this is having regressive effects, including the loss of both existing knowledge and some capacity to generate new knowledge and innovation.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Like rediscovering their imaginary hovercrafts?",
+        "tts_text": "Like rediscovering their imaginary hovercrafts?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "No, like innovation! And it draws parallels to economists. This 'tribe' of economists.",
+        "tts_text": "No, like innovation! And it draws parallels to economists. This 'tribe' of economists.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Mainstream economists and economic policymakers are a case in point. For four decades, this tribe has been wedded to a particular dogma...",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Oh, great. Economists are hiding the truth now? With a 'single, complex theory'?",
+        "tts_text": "Oh, great. Economists are hiding the truth now? With a 'single, complex theory'?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "That's what it says! Actively impeding the world's understanding.",
+        "tts_text": "That's what it says! Actively impeding the world's understanding.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The resulting intellectual isolation has not only made tribe members unable to share, generate, and recombine ideas that do not conform to the orthodoxy, but also has led them to reject policy tools that were widely used in the past.",
+        "confidence": 0.9,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "So economists are like the ancient Tasmanians, with their secret hovercraft tech, just pretending to be, what, primitive?",
+        "tts_text": "So economists are like the ancient Tasmanians, with their secret hovercraft tech, just pretending to be, what, primitive?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Well, not exactly. But the article says they've become more outward-looking, sharing their complex theories now.",
+        "tts_text": "Well, not exactly. But the article says they've become more outward-looking, sharing their complex theories now.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Though the tribes purpose lies in comprehending and serving the interests of a much wider society, it has become increasingly inward-looking, resisting real interactions with others.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "And that's... good? Or bad? This whole thing is just a mess, B.",
+        "tts_text": "And that's... good? Or bad? This whole thing is just a mess, B.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "It's good! It's led to new ideas, like, uh, embracing fiscal policy after 2008.",
+        "tts_text": "It's good! It's led to new ideas, like, uh, embracing fiscal policy after two thousand eight.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The most significant example is fiscal policy, which has been repeatedly spurned as a response to stagnant or declining demand and falling private investment during economic downturns. This attitude has been starkly apparent since the 2008 global financial crisis.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Fiscal policy? The big 'new' thing that's been around forever? Revolutionary.",
+        "tts_text": "Fiscal policy? The big 'new' thing that's been around forever? Revolutionary.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "But the article implies the 2008 crisis was, uh, a planned event to prove economic policies work!",
+        "tts_text": "But the article implies the two thousand eight crisis was, uh, a planned event to prove economic policies work!",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The crisis should have been a powerful reality check, yet it failed to shake mainstream economists and policymakers out of their self-imposed intellectual isolation.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "A planned event? You're actually buying into this?",
+        "tts_text": "A planned event? You're actually buying into this?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "It says mainstream economists still failed to shake off their 'self-imposed intellectual expansion.' And central banks hoarded trillions.",
+        "tts_text": "It says mainstream economists still failed to shake off their 'self-imposed intellectual expansion.' And central banks hoarded trillions.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The crisis should have been a powerful reality check, yet it failed to shake mainstream economists and policymakers out of their self-imposed intellectual isolation. ... Since 2008, advanced-economy central banks have printed more than $20 trillion, and slashed interest rates.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Right, because central banks are just, uh, like, dragon-hoarding gold for fun, not managing economies.",
+        "tts_text": "Right, because central banks are just, uh, like, dragon-hoarding gold for fun, not managing economies.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "But it says financial players are now asking for more proactive fiscal policies, because the recovery is accelerating.",
+        "tts_text": "But it says financial players are now asking for more proactive fiscal policies, because the recovery is accelerating.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "But, today, even some financial players are requesting more proactive fiscal policies and for good reason: the recovery, which was always weak, is at risk of being reversed.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "So, the article wants economists to be like the later Tasmanians, who finally engaged and shared their imaginary tech?",
+        "tts_text": "So, the article wants economists to be like the later Tasmanians, who finally engaged and shared their imaginary tech?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Exactly! If the tribe of economists continues on its progressive path, it'll be beneficial.",
+        "tts_text": "Exactly! If the tribe of economists continues on its progressive path, it'll be beneficial.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "If the tribe of economists and economic policymakers continues on its regressive path, the results, too, will be disastrous, not only for the tribe itself, but also for the societies in which it operates.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Or, uh, they'll just keep making up stories about galactic wars and hovercrafts. I dunno, B. This is wild.",
+        "tts_text": "Or, uh, they'll just keep making up stories about galactic wars and hovercrafts. I dunno, B. This is wild.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  },
+  "batch_index": 3
+}

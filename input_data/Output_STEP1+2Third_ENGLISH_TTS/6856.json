@@ -1,0 +1,157 @@
+{
+  "id": 6856,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Podcast co-hosts",
+      "inferred_vibe": "Skeptical debate"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "So, like, is Bitcoin just, uh, a massive Ponzi scheme waiting to collapse?",
+        "tts_text": "So, like, is Bitcoin just, uh, a massive Ponzi scheme waiting to collapse?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Well, um, that's a pretty strong take, but the article outlines how it’s designed to be revolutionary, actually. It's totally free from central banks.",
+        "tts_text": "Well, um, that's a pretty strong take, but the article outlines how it's designed to be revolutionary, actually. It's totally free from central banks.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Bitcoin is a unique monetary asset in that it is free from the control of any central bank and doesnt need to be audited by a third party to ensure its value.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Revolutionary, or just, uh, an unregulated mess? Who even says it has value if, like, no one's auditing it?",
+        "tts_text": "Revolutionary, or just, uh, an unregulated mess? Who even says it has value if, like, no one's auditing it?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "The thousands of computers on the blockchain, that's what, you know, verifies everything. It uses cryptography; it’s, uh, self-auditing in a way.",
+        "tts_text": "The thousands of computers on the blockchain, that's what, you know, verifies everything. It uses cryptography; it's, uh, self-auditing in a way.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "It is instead tracked and verified by thousands of computers on a shared network that is called a blockchain, which uses cryptography to reach consensus.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "\"Self-auditing.\" Right. So, like, some mysterious guy, Satoshi Nakamoto, just, uh, invented this, and we're supposed to trust it?",
+        "tts_text": "Self-auditing. Right. So, like, some mysterious guy, Satoshi Nakamoto, just, uh, invented this, and we're supposed to trust it?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "As the decade began, only a handful knew anything about bitcoin, which was created on January 3, 2009 by a mysterious developer known to the world as Satoshi Nakamoto.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Nakamoto actually embedded a message in the very first block, uh, a warning against trusting banks too much. That was the whole point, against the 2008 bailout.",
+        "tts_text": "Nakamoto actually embedded a message in the very first block, uh, a warning against trusting banks too much. That was the whole point, against the two thousand eight bailout.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Buried within the code of his Genesis block, Nakamoto embedded a reminder of what happens when too much trust is placed in banks. It was a headline from a British newspaper announcing the imminent bailout of the financial institutions following their collapse in 2008 and 2009: The Times 03/Jan/2009 Chancellor On Brink of Second Bailout for Banks.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "And then, uh, what about Silk Road? Or Mt. Gox? Millions stolen, drug markets. Sounds less like a warning and more like, you know, chaos.",
+        "tts_text": "And then, uh, what about Silk Road? Or Mt. Gox? Millions stolen, drug markets. Sounds less like a warning and more like, you know, chaos.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The nascent technology has been plagued by infamous scandals like the FBIs shuttering of underground bitcoin-fueled drug and contraband marketplace Silk Road in 2013 and the $450 million hacking of cryptocurrency exchange Mt. Gox in 2014.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Those were early setbacks, though. The technology was nascent, and, um, bad actors exploited it. But the underlying blockchain, it, uh, still has immense potential.",
+        "tts_text": "Those were early setbacks, though. The technology was nascent, and, um, bad actors exploited it. But the underlying blockchain, it, uh, still has immense potential.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The ascendance of bitcoin has not been without its setbacks. The nascent technology has been plagued by infamous scandals like the FBIs shuttering of underground bitcoin-fueled drug and contraband marketplace Silk Road in 2013 and the $450 million hacking of cryptocurrency exchange Mt. Gox in 2014.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Potential for what? More million-dollar pizzas? That guy bought two for ten thousand Bitcoin. That's, uh, like $375,000 now. He gave away a fortune.",
+        "tts_text": "Potential for what? More million-dollar pizzas? That guy bought two for ten thousand Bitcoin. That's, uh, like three hundred seventy five thousand dollars now. He gave away a fortune.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The first full decade of digital currency without banks kicked off a year later, on January 1, 2010, with the mining of bitcoin block number 32620, which rewarded its miner with 50 bitcoin, then worth less than a single penny but now worth about $375,000.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "But that's the point, isn't it? It started with nothing, and now, um, huge companies like IBM and even JPMorgan are, like, exploring blockchain. They see the future.",
+        "tts_text": "But that's the point, isn't it? It started with nothing, and now, um, huge companies like I B M and even JPMorgan are, like, exploring blockchain. They see the future.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "In fact in a bit cruel irony, some of the most enthusiastic supporters and co-opters of blockchain technology today are those same big companies, ranging from IBM and Cargill to JPMorgan, that early bitcoin believers were rallying against.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Wait, so the thing that was supposed to free us from banks is now being, uh, co-opted by JPMorgan? Isn't that, like, completely against the original, you know, idealists?",
+        "tts_text": "Wait, so the thing that was supposed to free us from banks is now being, uh, co-opted by JPMorgan? Isn't that, like, completely against the original, you know, idealists?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "In fact in a bit cruel irony, some of the most enthusiastic supporters and co-opters of blockchain technology today are those same big companies, ranging from IBM and Cargill to JPMorgan, that early bitcoin believers were rallying against.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Well, yeah, some of the original ideals might be, um, diluted, but it shows how powerful the underlying tech is, that even, uh, traditional institutions are adopting it.",
+        "tts_text": "Well, yeah, some of the original ideals might be, um, diluted, but it shows how powerful the underlying tech is, that even, uh, traditional institutions are adopting it.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Or they're just trying to, like, get in on the pump and dump schemes. What about all the worthless tokens and, uh, billions lost in 2017? That peak was pure speculation, wasn't it?",
+        "tts_text": "Or they're just trying to, like, get in on the pump and dump schemes. What about all the worthless tokens and, uh, billions lost in twenty seventeen? That peak was pure speculation, wasn't it?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "At the end of 2017, the frenzy in cryptocurrency speculation peaked with bitcoin at $20,000 and produced thousands of worthless cryptocurrency tokens and investor losses in the billions.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "There was definitely, um, a lot of speculation then, but Bitcoin itself, it's, uh, different. It's the original. It continues to evolve, creating an entire ecosystem.",
+        "tts_text": "There was definitely, um, a lot of speculation then, but Bitcoin itself, it's, uh, different. It's the original. It continues to evolve, creating an entire ecosystem.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "A budding ecosystem has arisen, powered by new computer languages and breakthroughs in cryptography that is only now starting to change the way banks, corporations and governments operate.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "An ecosystem, or just a, uh, really complicated way to lose your money, like, every few years? I'm just not seeing it.",
+        "tts_text": "An ecosystem, or just a, uh, really complicated way to lose your money, like, every few years? I'm just not seeing it.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  },
+  "batch_index": 3
+}

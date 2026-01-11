@@ -1,0 +1,132 @@
+{
+  "id": 11527,
+  "language": "english",
+  "hallucination": "no",
+  "ground_truth_source": "text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Informative and enthusiastic"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Curly quills in the mountains of Kazakhstan—but wait, that’s not a local species, right?",
+        "text": "Curly quills in the mountains of Kazakhstan—but wait, that's not a local species, right?",
+        "tts_text": "Curly quills in the mountains of Kazakhstan-but wait, that's not a local species, right?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostB",
+        "text": "Actually, it is! That's an Indian crested porcupine, and it was just spotted in Ile-Alatau National Park.",
+        "tts_text": "Actually, it is! That's an Indian crested porcupine, and it was just spotted in Ile-Alatau National Park.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "A rare sight was captured by a camera trap in Ile-Alatau National Park: an Indian crested porcupine.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Oh wow, so it's not actually exclusive to India? I always assumed from the name.",
+        "tts_text": "Oh wow, so it's not actually exclusive to India? I always assumed from the name.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostB",
+        "text": "Nope, it's found all over, um, Central and Southeast Asia. Kazakhstan's part of its range.",
+        "tts_text": "Nope, it's found all over, um, Central and Southeast Asia. Kazakhstan's part of its range.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Despite its name, the Indian crested porcupine is not exclusive to India. It can be found across a range stretching from Central to Southeast Asia, including Kazakhstan.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "And this sighting is a big deal because it's endangered there, listed in their Red Book.",
+        "tts_text": "And this sighting is a big deal because it's endangered there, listed in their Red Book.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The elusive and spiky animal, listed in Kazakhstan's Red Book of endangered species, was once again spotted in the mountains thanks to camera surveillance.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Exactly. The last time one was seen was just back in February, by a park inspector.",
+        "tts_text": "Exactly. The last time one was seen was just back in February, by a park inspector.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The last recorded encounter with an Indian porcupine in the park was in February this year, when a park inspector spotted one.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "So this camera trap footage is like, uh, proof the ecosystem's still healthy enough for them.",
+        "tts_text": "So this camera trap footage is like, uh, proof the ecosystem's still healthy enough for them.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The appearance of this rare guest is seen as a positive sign by experts, indicating that the park's natural ecosystem remains favorable for the survival of such uncommon species.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Yeah, and it's encouraging for conservationists. These guys can live up at 3,900 meters elevation!",
+        "tts_text": "Yeah, and it's encouraging for conservationists. These guys can live up at three thousand, nine hundred meters elevation!",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The animal, which can weigh up to 15 kilograms, is primarily nocturnal and highly adaptable, living in deserts, savannahs, forests, and even mountainous regions—sometimes at elevations up to 3,900 meters above sea level.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Seriously? That's high up. And they weigh what, like 15 kilos?",
+        "tts_text": "Seriously? That's high up. And they weigh what, like fifteen kilos?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostB",
+        "text": "Up to that, yeah. They're tough, adaptable animals—nocturnal, too.",
+        "tts_text": "Up to that, yeah. They're tough, adaptable animals-nocturnal, too.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The animal, which can weigh up to 15 kilograms, is primarily nocturnal and highly adaptable, living in deserts, savannahs, forests, and even mountainous regions—sometimes at elevations up to 3,900 meters above sea level.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Must be thrilling for wildlife fans in Almaty to know something so rare is right nearby.",
+        "tts_text": "Must be thrilling for wildlife fans in Almaty to know something so rare is right nearby.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "For nature enthusiasts, it offers a unique opportunity to experience the wonders of wildlife without leaving the Almaty region.",
+        "confidence": 0.9,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "For sure. It's a reminder that even in well-monitored parks, nature still has surprises.",
+        "tts_text": "For sure. It's a reminder that even in well-monitored parks, nature still has surprises.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      }
+    ]
+  },
+  "generator_model": "DeepSeek-V3.1",
+  "batch_index": 2
+}

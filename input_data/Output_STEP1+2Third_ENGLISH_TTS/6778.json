@@ -1,0 +1,161 @@
+{
+  "id": 6778,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Podcast co-hosts",
+      "inferred_vibe": "Debate / Critical Discussion"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "Okay, but listen to this. Five hundred thousand new employees? In one year? That's, like, completely insane.",
+        "tts_text": "Okay, but listen to this. Five hundred thousand new employees? In one year? That's, like, completely insane.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Earlier in the meeting, chief financial officer Brian T. Olsavsky said Amazon hired 500,000 new employees in 2020, bringing its total to more than 1.3 million globally.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Insane, or just, uh, unprecedented growth? I mean, they had record profits, clearly they needed the staff.",
+        "tts_text": "Insane, or just, uh, unprecedented growth? I mean, they had record profits, clearly they needed the staff.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Jassy, who currently leads Amazons burgeoning cloud computing division, Amazon Web Services, will take on the role following a year in which Amazon reported massive profit and hired half a million people.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Needed? Or just, like, pure unchecked market dominance? They're literally facing an antitrust lawsuit right now.",
+        "tts_text": "Needed? Or just, like, pure unchecked market dominance? They're literally facing an antitrust lawsuit right now.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Bezos also answered concerns about the companys impact on competition and regulatory scrutiny, a day after the District of Columbia filed an antitrust lawsuit against Amazon, believed to be the first against the company by a U.S. government agency.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, but Bezos said they face competition everywhere. And, um, he's moving on to philanthropy. Longevity! Curing cancer!",
+        "tts_text": "Yeah, but Bezos said they face competition everywhere. And, um, he's moving on to philanthropy. Longevity! Curing cancer!",
+        "check_worthy": true,
+        "factual_label": "NEI",
+        "evidence_snippet": "We face intense competition from well-established companies everywhere we do business, in every industry, he said. [The article does not mention Bezos's philanthropic plans for longevity or curing cancer.]",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Philanthropy? Or just, like, a convenient exit strategy from all the civil rights allegations? Pay disparity? Union busting?",
+        "tts_text": "Philanthropy? Or just, like, a convenient exit strategy from all the civil rights allegations? Pay disparity? Union busting?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Another proposal that received significant attention but failed to get majority support had called for the company to conduct a third-party audit of its impact on civil rights... Amazons executives also sought to address the demands of its employees, who in the past year attempted to form a union, filed lawsuits discrimination and retaliation and called on leadership to bolster diversity hiring.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "They're investing $500 million in civil rights initiatives! Scholarships, diversity training. That's, uh, significant, right?",
+        "tts_text": "They're investing five hundred dollars million in civil rights initiatives! Scholarships, diversity training. That's, uh, significant, right?",
+        "check_worthy": true,
+        "factual_label": "NEI",
+        "evidence_snippet": "The provided article does not mention a $500 million investment in civil rights initiatives, scholarships, or diversity training.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Significant? Or just a, uh, PR move while they're talking about \"Beyond Earth\" and sending rockets into space? Interstellar logistics, seriously?",
+        "tts_text": "Significant? Or just a, uh, P R move while they're talking about Beyond Earth and sending rockets into space? Interstellar logistics, seriously?",
+        "check_worthy": true,
+        "factual_label": "NEI",
+        "evidence_snippet": "The company will continue to innovate aggressively despite its massive scale, including investments in autonomous delivery vehicles and a satellite program known as Kuiper to provide low-latency, high-speed broadband. [The article does not mention 'Beyond Earth' or 'interstellar logistics'.]",
+        "confidence": 0.9,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "That's visionary! It's not just retail anymore. It's about, like, transforming the very fabric of civilization. They're partnering with SpaceX!",
+        "tts_text": "That's visionary! It's not just retail anymore. It's about, like, transforming the very fabric of civilization. They're partnering with SpaceX!",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The provided article does not mention any partnership with SpaceX.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Fabric of civilization? What about, um, the actual fabric of their own company? The internal investigations about pay? The shareholder revolt that almost happened?",
+        "tts_text": "Fabric of civilization? What about, um, the actual fabric of their own company? The internal investigations about pay? The shareholder revolt that almost happened?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Bezoss comments came as Amazon beat back more than a dozen shareholder proposals, including one that sought to prevent him from taking over as chairman, and instead appoint an independent director. Another proposal that received significant attention but failed to get majority support had called for the company to conduct a third-party audit of its impact on civil rights...",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "That proposal was narrowly defeated. And they're focused on, like, free internet for remote communities with Project Aether. That's, uh, a good thing.",
+        "tts_text": "That proposal was narrowly defeated. And they're focused on, like, free internet for remote communities with Project Aether. That's, uh, a good thing.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The company will continue to innovate aggressively despite its massive scale, including investments in autonomous delivery vehicles and a satellite program known as Kuiper to provide low-latency, high-speed broadband. [The project is called Kuiper, not Aether.]",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "It's all just shiny distractions, isn't it? Free internet while they're getting sued for hindering competition.",
+        "tts_text": "It's all just shiny distractions, isn't it? Free internet while they're getting sued for hindering competition.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The case alleges that Amazon has prevented sellers in its online marketplace from charging lower prices than those available elsewhere... a satellite program known as Kuiper to provide low-latency, high-speed broadband. [The article does not state the internet will be free.]",
+        "confidence": 0.9,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Jassy's taking over. Bezos called him a visionary. Someone who makes the impossible inevitable. Amazon won't become complacent.",
+        "tts_text": "Jassy's taking over. Bezos called him a visionary. Someone who makes the impossible inevitable. Amazon won't become complacent.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Andy is well known inside the company, and has been at Amazon almost as long as I have, Bezos said during his final annual meeting as CEO Wednesday. Andy will never let the universe make us typical. [The article does not contain the quoted phrases 'visionary' or 'makes the impossible inevitable'.]",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Complacent? They're already, like, a monopoly. Jassy's gonna inherit a mess, not, um, a clean slate for space travel.",
+        "tts_text": "Complacent? They're already, like, a monopoly. Jassy's gonna inherit a mess, not, um, a clean slate for space travel.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "null"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "A mess? He's inheriting, uh, $386 billion in sales and a partnership with SpaceX. That's not a mess, that's the future.",
+        "tts_text": "A mess? He's inheriting, uh, three hundred eighty six dollars billion in sales and a partnership with SpaceX. That's not a mess, that's the future.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "He added that Amazon generated $386 billion in sales, up 38% year-over-year... [The article does not mention a partnership with SpaceX.]",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Future built on, like, questionable ethics and, um, dodging accountability. I just don't buy it.",
+        "tts_text": "Future built on, like, questionable ethics and, um, dodging accountability. I just don't buy it.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "null"
+      }
+    ]
+  },
+  "batch_index": 3
+}

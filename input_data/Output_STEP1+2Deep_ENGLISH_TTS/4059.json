@@ -1,0 +1,142 @@
+{
+  "id": 4059,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Casual"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "HostA",
+        "text": "George Lucas, four and a half billion dollars. I mean, that Star Wars money is just… astronomical.",
+        "tts_text": "George Lucas, four and a half billion dollars. I mean, that Star Wars money is just... astronomical.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "George Lucas Net worth: $5.4 billion",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Right? And Steven Spielberg right behind him with four billion. But you know who really surprised me? Michael Jordan at two billion, and apparently six hundred million of that came from his restaurant chain and a stake in the Chicago Bulls.",
+        "tts_text": "Right? And Steven Spielberg right behind him with four billion. But you know who really surprised me? Michael Jordan at two billion, and apparently six hundred million of that came from his restaurant chain and a stake in the Chicago Bulls.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Steven Spielberg $3.7 billion. Michael Jordan (No. 4; $1.7 billion) climbs up the ranking with a $400 million net worth increase derived from his sneaker fortune and a 90% stake in the increasingly valuable Charlotte Hornets.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Yeah, and the Bulls were struggling, so imagine if they actually start winning again! But uh, Kylie Jenner tied for fifth at 1.1 billion—she's Kylie Swim, which did over fifty million in makeup sales?",
+        "tts_text": "Yeah, and the Bulls were struggling, so imagine if they actually start winning again! But uh, Kylie Jenner tied for fifth at one point one billion-she's Kylie Swim, which did over fifty million in makeup sales?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "New to the list this year is Kylie Jenner, whose $900 million net worth puts her on track to become the youngest self-made billionaire ever. The 21-year-old runs Kylie Cosmetics, which has shifted more than $630 million in makeup since its launch two years ago by targeting her 168 million-plus social media followers.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Wait, Kylie Swim sells makeup? I thought it was swimwear. Or is it both?",
+        "tts_text": "Wait, Kylie Swim sells makeup? I thought it was swimwear. Or is it both?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostA",
+        "text": "Oh, maybe I misread—it says she launched over fifty million in makeup, but the company's called Kylie Swim? That's confusing.",
+        "tts_text": "Oh, maybe I misread-it says she launched over fifty million in makeup, but the company's called Kylie Swim? That's confusing.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostB",
+        "text": "Either way, she owns half of it, so she's doing just fine. And Jay-Z's up seventy million from last year thanks to champagne and cognac investments.",
+        "tts_text": "Either way, she owns half of it, so she's doing just fine. And Jay-Z's up seventy million from last year thanks to champagne and cognac investments.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Jenner owns 100% of the bare-bones business... His net worth is up $90 million from 2017's figure thanks to lucrative stakes in companies including Armand de Brignac champagne and D'Ussé cognac, plus holdings in his entertainment empire Roc Nation and streaming service Tidal.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Moët and Courvoisier, yeah. He beat Diddy, who's still sitting pretty at seven hundred million.",
+        "tts_text": "Moët and Courvoisier, yeah. He beat Diddy, who's still sitting pretty at seven hundred million.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Diddy $825 million... His net worth is up $90 million from 2017's figure thanks to lucrative stakes in companies including Armand de Brignac champagne and D'Ussé cognac, plus holdings in his entertainment empire Roc Nation and streaming service Tidal.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "And Tiger Woods and James Patterson are also tied at seven hundred mil. Patterson's just churning out bestsellers like it's nothing.",
+        "tts_text": "And Tiger Woods and James Patterson are also tied at seven hundred mil. Patterson's just churning out bestsellers like it's nothing.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "9. (tie) Tiger Woods $800 million 9. (tie) James Patterson $800 million",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "David Copperfield at seven-fifty, magic pays better than I thought!",
+        "tts_text": "David Copperfield at seven-fifty, magic pays better than I thought!",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "7. David Copperfield $875 million",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Apparently! But you know, Oprah's still holding strong at three point five billion. Media empire for the win.",
+        "tts_text": "Apparently! But you know, Oprah's still holding strong at three point five billion. Media empire for the win.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "3. Oprah Winfrey $2.8 billion",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Always. This list is just wild—billionaires making more billions from things we don't even think about.",
+        "tts_text": "Always. This list is just wild-billionaires making more billions from things we don't even think about.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostB",
+        "text": "Right? Restaurants, makeup, champagne… it's not just about the movies or the sports anymore.",
+        "tts_text": "Right? Restaurants, makeup, champagne... it's not just about the movies or the sports anymore.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostA",
+        "text": "Diversification, baby. That's the real magic trick.",
+        "tts_text": "Diversification, baby. That's the real magic trick.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      }
+    ]
+  },
+  "generator_model": "DeepSeek-V3.1",
+  "batch_index": 2,
+  "artist_script": "HostA: George Lucas, four and a half billion dollars. I mean, that Star Wars money is just… astronomical.\nHostB: Right? And Steven Spielberg right behind him with four billion. But you know who really surprised me? Michael Jordan at two billion, and apparently six hundred million of that came from his restaurant chain and a stake in the Chicago Bulls.\nHostA: Yeah, and the Bulls were struggling, so imagine if they actually start winning again! But uh, Kylie Jenner tied for fifth at 1.1 billion—she’s Kylie Swim, which did over fifty million in makeup sales?\nHostB: Wait, Kylie Swim sells makeup? I thought it was swimwear. Or is it both?\nHostA: Oh, maybe I misread—it says she launched over fifty million in makeup, but the company’s called Kylie Swim? That’s confusing.\nHostB: Either way, she owns half of it, so she’s doing just fine. And Jay-Z’s up seventy million from last year thanks to champagne and cognac investments.\nHostA: Moët and Courvoisier, yeah. He beat Diddy, who’s still sitting pretty at seven hundred million.\nHostB: And Tiger Woods and James Patterson are also tied at seven hundred mil. Patterson’s just churning out bestsellers like it’s nothing.\nHostA: David Copperfield at seven-fifty, magic pays better than I thought!\nHostB: Apparently! But you know, Oprah’s still holding strong at three point five billion. Media empire for the win.\nHostA: Always. This list is just wild—billionaires making more billions from things we don’t even think about.\nHostB: Right? Restaurants, makeup, champagne… it’s not just about the movies or the sports anymore.\nHostA: Diversification, baby. That’s the real magic trick."
+}

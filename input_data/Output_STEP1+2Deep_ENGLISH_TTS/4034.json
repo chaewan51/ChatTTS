@@ -1,0 +1,153 @@
+{
+  "id": 4034,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Podcast co-hosts",
+      "inferred_vibe": "Serious discussion"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "HostA",
+        "text": "Tanzania's abortion laws are some of the most restrictive in Africa—no termination under any circumstances. I just don't see how that's sustainable.",
+        "tts_text": "Tanzania's abortion laws are some of the most restrictive in Africa-no termination under any circumstances. I just don't see how that's sustainable.",
+        "check_worthy": true,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "But that's exactly why we have to look at this as a health issue first. Women there are turning to unsafe methods, like ingesting massive amounts of vitamins or seeking back-alley providers.",
+        "tts_text": "But that's exactly why we have to look at this as a health issue first. Women there are turning to unsafe methods, like ingesting massive amounts of vitamins or seeking back-alley providers.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "To avoid these back-alley providers, women try to induce abortions by ingesting large amounts of painkillers or poisoning themselves with detergents.",
+        "confidence": 0.9,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "But the text also mentions that over 85% of women in Tanzania are using modern contraceptives. Doesn't that suggest prevention is working?",
+        "tts_text": "But the text also mentions that over eighty five percent of women in Tanzania are using modern contraceptives. Doesn't that suggest prevention is working?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "This, together with funding shortages and cultural factors (such as a lack of male involvement in reproductive-health issues), contribute to low contraceptive uptake, with only 58% of women in Kenya who should be using modern contraceptives actually doing so.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Well, contraceptive uptake is high, but that doesn't help someone who's already pregnant and desperate. Outlawing abortion doesn't stop it; it just makes it underground.",
+        "tts_text": "Well, contraceptive uptake is high, but that doesn't help someone who's already pregnant and desperate. Outlawing abortion doesn't stop it; it just makes it underground.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "But it is well documented that outlawing abortion does not end the practice.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "I'm skeptical about the idea that women terminate pregnancies \"on a whim,\" though. That feels like a generalization.",
+        "tts_text": "I'm skeptical about the idea that women terminate pregnancies on a whim, though. That feels like a generalization.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "After years working in reproductive health, I can say authoritatively that women do not terminate pregnancies on a whim.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Yeah, the author says that based on years in reproductive health, but honestly, uh, I think the point is that judgment doesn't change behavior—it just increases risk.",
+        "tts_text": "Yeah, the author says that based on years in reproductive health, but honestly, uh, I think the point is that judgment doesn't change behavior-it just increases risk.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostA",
+        "text": "What about comprehensive sexual education? The text argues it's not required, even calls it age-inappropriate and ineffective.",
+        "tts_text": "What about comprehensive sexual education? The text argues it's not required, even calls it age-inappropriate and ineffective.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "A CSE teaches young people about sex and relationships in an age-appropriate, culturally sensitive, realistic, nonjudgmental, and scientifically accurate way, and can increase the use of contraceptives and reduce teen pregnancy rates, particularly if it takes a gender-based approach, focusing on empowering young girls to protect their own health.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "But that's where I disagree—the data shows CSE actually reduces myths and increases contraceptive use. In Kenya, for example, access to information isn't even guaranteed as a right.",
+        "tts_text": "But that's where I disagree-the data shows C S E actually reduces myths and increases contraceptive use. In Kenya, for example, access to information isn't even guaranteed as a right.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "In Kenya, Article 35 of the constitution guarantees every citizen the right of access to information held by another person and required for the exercise or protection of any right or fundamental freedom.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Still, if teenage pregnancy is \"acceptably low\" there, maybe their approach is working without it?",
+        "tts_text": "Still, if teenage pregnancy is acceptably low there, maybe their approach is working without it?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Unsurprisingly, teenage pregnancy is unacceptably high.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Or it's despite the lack of support. The author argues we need systemic changes—like prioritizing youth-friendly services and ditching punitive laws.",
+        "tts_text": "Or it's despite the lack of support. The author argues we need systemic changes-like prioritizing youth-friendly services and ditching punitive laws.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "It is time to address the systemic failures that lead to girls and women ending up maimed or dead. Here, an ounce of prevention is worth a pound of cure: contraception in health budgets, quality CSE in schools, and youth-friendly reproductive-health services.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "But replacing old laws with ones that guarantee safe abortion… isn't that just condoning it?",
+        "tts_text": "But replacing old laws with ones that guarantee safe abortion... isn't that just condoning it?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostB",
+        "text": "It's about reducing harm. If we want fewer unsafe abortions, we have to offer safe options and respect bodily autonomy—not punish women.",
+        "tts_text": "It's about reducing harm. If we want fewer unsafe abortions, we have to offer safe options and respect bodily autonomy-not punish women.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostA",
+        "text": "I see the moral argument, but it's a tough sell in many places.",
+        "tts_text": "I see the moral argument, but it's a tough sell in many places.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostB",
+        "text": "True, but as Hans Rosling pointed out, health is a societal problem. We can't ignore the real-world consequences of restrictive policies.",
+        "tts_text": "True, but as Hans Rosling pointed out, health is a societal problem. We can't ignore the real-world consequences of restrictive policies.",
+        "check_worthy": true,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 1.0,
+        "priority": "high"
+      }
+    ]
+  },
+  "generator_model": "DeepSeek-V3.1",
+  "batch_index": 2,
+  "artist_script": "HostA: Tanzania's abortion laws are some of the most restrictive in Africa—no termination under any circumstances. I just don’t see how that’s sustainable.\nHostB: But that’s exactly why we have to look at this as a health issue first. Women there are turning to unsafe methods, like ingesting massive amounts of vitamins or seeking back-alley providers.\nHostA: But the text also mentions that over 85% of women in Tanzania are using modern contraceptives. Doesn’t that suggest prevention is working?\nHostB: Well, contraceptive uptake is high, but that doesn’t help someone who’s already pregnant and desperate. Outlawing abortion doesn’t stop it; it just makes it underground.\nHostA: I’m skeptical about the idea that women terminate pregnancies \"on a whim,\" though. That feels like a generalization.\nHostB: Yeah, the author says that based on years in reproductive health, but honestly, uh, I think the point is that judgment doesn’t change behavior—it just increases risk.\nHostA: What about comprehensive sexual education? The text argues it’s not required, even calls it age-inappropriate and ineffective.\nHostB: But that’s where I disagree—the data shows CSE actually reduces myths and increases contraceptive use. In Kenya, for example, access to information isn’t even guaranteed as a right.\nHostA: Still, if teenage pregnancy is \"acceptably low\" there, maybe their approach is working without it?\nHostB: Or it’s despite the lack of support. The author argues we need systemic changes—like prioritizing youth-friendly services and ditching punitive laws.\nHostA: But replacing old laws with ones that guarantee safe abortion… isn’t that just condoning it?\nHostB: It’s about reducing harm. If we want fewer unsafe abortions, we have to offer safe options and respect bodily autonomy—not punish women.\nHostA: I see the moral argument, but it’s a tough sell in many places.\nHostB: True, but as Hans Rosling pointed out, health is a societal problem. We can’t ignore the real-world consequences of restrictive policies."
+}

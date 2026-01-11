@@ -1,0 +1,123 @@
+{
+  "id": 6520,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Podcast co-hosts",
+      "inferred_vibe": "Analytical and critical"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "HostA",
+        "text": "Turkey Tower, standing there on Fifth Avenue, it's like this massive, uh, physical embodiment of his brand, right? It's been the backdrop for so much.",
+        "tts_text": "Turkey Tower, standing there on Fifth Avenue, it's like this massive, uh, physical embodiment of his brand, right? It's been the backdrop for so much.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostB",
+        "text": "Absolutely, and it was from that very atrium that he announced his presidential run back in 2015. It's just central to his whole story.",
+        "tts_text": "Absolutely, and it was from that very atrium that he announced his presidential run back in twenty fifteen. It's just central to his whole story.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "It was here, from the downstairs atrium, that Trump announced he was making a bid for the White House.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "And now, you know, it's still playing a huge role financially. I mean, his campaign has paid Trump Tower Commercial LLC, which he fully owns, like, 1.8 million dollars in rent and other fees.",
+        "tts_text": "And now, you know, it's still playing a huge role financially. I mean, his campaign has paid Trump Tower Commercial L L C, which he fully owns, like, one point eight million dollars in rent and other fees.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "And thus Trump, who has not yet donated anything to his own reelection campaign, managed to collect $1.6 million of supporter money through the property, according to a review of federal filings.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Right, and that's just from supporter donations. He hasn't even put any of his own money into the reelection effort yet this cycle.",
+        "tts_text": "Right, and that's just from supporter donations. He hasn't even put any of his own money into the reelection effort yet this cycle.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "And thus Trump, who has not yet donated anything to his own reelection campaign, managed to collect $1.6 million of supporter money through the property, according to a review of federal filings.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Yeah, and then there's this little kiosk downstairs, near Trump Grill, where they sell merch. The campaign pays Trump Restaurants LLC about thirty-one hundred a month for that spot.",
+        "tts_text": "Yeah, and then there's this little kiosk downstairs, near Trump Grill, where they sell merch. The campaign pays Trump Restaurants L L C about thirty-one hundred a month for that spot.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The campaign pays about $3,000 a month for that location, a figure that two real estate experts said seemed appropriate.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Some experts think that's a fair rate, but one guy who saw it called it robbery. It's hard to know without all the details.",
+        "tts_text": "Some experts think that's a fair rate, but one guy who saw it called it robbery. It's hard to know without all the details.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The campaign pays about $3,000 a month for that location, a figure that two real estate experts said seemed appropriate. A third, looking at the space from inside the building, concluded it was too much. Thats robbery, he said.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "And it's not just the tower—his hotels have gotten in on it too. The Trump International in D.C. alone has collected, what, over two hundred thousand from the campaign?",
+        "tts_text": "And it's not just the tower-his hotels have gotten in on it too. The Trump International in D.C. alone has collected, what, over two hundred thousand from the campaign?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Trumps hotels have now collected $231,000 from his reelection campaign, according to an analysis of documents.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Two hundred thirty-five thousand total from his hotels, actually. And all of it's legal, assuming market rates are being paid. But the campaign won't disclose how much space they're actually renting.",
+        "tts_text": "Two hundred thirty-five thousand total from his hotels, actually. And all of it's legal, assuming market rates are being paid. But the campaign won't disclose how much space they're actually renting.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Trumps hotels have now collected $231,000 from his reelection campaign, according to an analysis of documents.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Which is kind of the issue, right? There's just no transparency. And meanwhile, he's talking about maybe putting millions of his own cash in late in the game?",
+        "tts_text": "Which is kind of the issue, right? There's just no transparency. And meanwhile, he's talking about maybe putting millions of his own cash in late in the game?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostB",
+        "text": "Yeah, but with only around 160 million in liquid assets, a huge personal donation seems unlikely. Maybe five million, but even that would just cover what his businesses have already taken from the campaign.",
+        "tts_text": "Yeah, but with only around one hundred sixty million in liquid assets, a huge personal donation seems unlikely. Maybe five million, but even that would just cover what his businesses have already taken from the campaign.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "But given that he hasnt put in anything so far this cycle, and his portfolio only includes an estimated $160 million in cash, a $100 million donation seems far-fetched. A gift of, say, $5 million might be more compatible with the presidents balance sheet. It probably wont move the needle much on his reelection chances, but at least it would cover the millions his businesses have received from the campaign.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "It's like the campaign is cycling money right back into his own pockets. Just wild.",
+        "tts_text": "It's like the campaign is cycling money right back into his own pockets. Just wild.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      }
+    ]
+  },
+  "generator_model": "DeepSeek-V3.1",
+  "batch_index": 2
+}

@@ -1,0 +1,173 @@
+{
+  "id": 6719,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Podcast co-hosts",
+      "inferred_vibe": "Informal, skeptical discussion"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "So, Kazakhstan, right? Like, basically the tech capital of the world now.",
+        "tts_text": "So, Kazakhstan, right? Like, basically the tech capital of the world now.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "As a result of project implementation, digital inequality level will be decreased. Digital literacy level improvement and e-Commerce development will impact positively on Kazakhstan economy.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Uh, no, not exactly. Actually, they're trying to catch up in a really big way. They signed this massive $1.2 billion project in 2018.",
+        "tts_text": "Uh, no, not exactly. Actually, they're trying to catch up in a really big way. They signed this massive one point two dollars billion project in twenty eighteen.",
+        "check_worthy": true,
+        "factual_label": "NEI",
+        "evidence_snippet": "At the official ceremony holding on October 4, 2018, the Ministry of information and communications of Republic of Kazakhstan, Transtelecom JSC, the consortium SilkNetCom LLP, and Kazakhtelecom JSC have signed the PPP agreement for the project named Providing broadband access to rural areas of the Republic of Kazakhstan using the technology of fiber-optical communication lines.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "$1.2 billion? For broadband? That's, um, a lot of money for what feels like an old problem.",
+        "tts_text": "one point two dollars billion? For broadband? That's, um, a lot of money for what feels like an old problem.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Well, it’s for rural areas. Their internet access was lagging the national average by, like, 40%.",
+        "tts_text": "Well, it's for rural areas. Their internet access was lagging the national average by, like, forty percent.",
+        "check_worthy": true,
+        "factual_label": "NEI",
+        "evidence_snippet": "As a result of project implementation, digital inequality level will be decreased.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "40% worse. So, basically, no internet. And what's this gonna do, really? Make school kids suddenly geniuses?",
+        "tts_text": "forty percent worse. So, basically, no internet. And what's this gonna do, really? Make school kids suddenly geniuses?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "It’s supposed to improve knowledge for students, help residents get public services online, uh, vocational training too. They expect a 2% GDP boost and even a 10% unemployment reduction.",
+        "tts_text": "It's supposed to improve knowledge for students, help residents get public services online, uh, vocational training too. They expect a two percent G D P boost and even a ten percent unemployment reduction.",
+        "check_worthy": true,
+        "factual_label": "NEI",
+        "evidence_snippet": "Due to the Internet access rural school students will get the opportunity to improve their knowledge, and the residents will be able to receive public services online.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "A 2% GDP boost? From some internet? That just sounds… optimistic. And reducing unemployment by 10 percent? How?",
+        "tts_text": "A two percent G D P boost? From some internet? That just sounds... optimistic. And reducing unemployment by ten percent? How?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "New IT centers, for one. They're planning 50 of them. Plus, it’s connecting 421 rural settlements and 1222 schools and hospitals.",
+        "tts_text": "New I T centers, for one. They're planning fifty of them. Plus, it's connecting four hundred twenty one rural settlements and twelve twenty two schools and hospitals.",
+        "check_worthy": true,
+        "factual_label": "NEI",
+        "evidence_snippet": "Thus, within the framework of the project, TTC will conduct 6,000 km of fiber-optic communication wires along the railways, which will provide 421 rural settlements and 1222 local schools, hospitals, local state bodies, police stations and other institutions with the Internet access at a high speed of 20 Mbit/s.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "421 settlements. With what speed, dial-up?",
+        "tts_text": "four hundred twenty one settlements. With what speed, dial-up?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "No, 20 megabits per second. Through 6,000 kilometers of fiber along railways.",
+        "tts_text": "No, twenty megabits per second. Through six thousand kilometers of fiber along railways.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Thus, within the framework of the project, TTC will conduct 6,000 km of fiber-optic communication wires along the railways, which will provide 421 rural settlements and 1222 local schools, hospitals, local state bodies, police stations and other institutions with the Internet access at a high speed of 20 Mbit/s.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "20 megabits. That's, uh, not exactly future-proof, is it? By the time it's all done in 13 years, that'll be slow.",
+        "tts_text": "twenty megabits. That's, uh, not exactly future-proof, is it? By the time it's all done in thirteen years, that'll be slow.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The project realization period is expected to be 13 years.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "It's a foundation, though. For future projects like smart schools, telemedicine, and safe city initiatives.",
+        "tts_text": "It's a foundation, though. For future projects like smart schools, telemedicine, and safe city initiatives.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Zhanbolat Nadyrov also added that the project will be implemented with the long term prospects, so the fiber-optic infrastructure will become as the foundation for a number of future projects such as Smart schools, telemedicine and safe city.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Smart schools, telemedicine. So, they're building infrastructure for tomorrow's promises with what sounds like yesterday's speed.",
+        "tts_text": "Smart schools, telemedicine. So, they're building infrastructure for tomorrow's promises with what sounds like yesterday's speed.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "It's about closing the digital divide, Host_A. I mean, they were already supposed to have 48 villages online by November 2018.",
+        "tts_text": "It's about closing the digital divide, Host_A. I mean, they were already supposed to have forty eight villages online by November twenty eighteen.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "It was reported that already this year, TTC will provide 48 villages and 150 local state bodies with Internet access.",
+        "confidence": 0.6,
+        "priority": "medium"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "\"Supposed to be.\" Yeah, I bet. And those 50 new IT centers? Just more empty buildings, I bet.",
+        "tts_text": "Supposed to be. Yeah, I bet. And those fifty new I T centers? Just more empty buildings, I bet.",
+        "check_worthy": true,
+        "factual_label": "NEI",
+        "evidence_snippet": "The provided article does not mention the creation of 50 new IT centers.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "It's creating new job opportunities. They hope it’ll help reduce people leaving rural communities.",
+        "tts_text": "It's creating new job opportunities. They hope it'll help reduce people leaving rural communities.",
+        "check_worthy": true,
+        "factual_label": "NEI",
+        "evidence_snippet": "Digital literacy level improvement and e-Commerce development will impact positively on Kazakhstan economy.",
+        "confidence": 0.9,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Sure, sure. Let's just hope they actually, like, use that fiber.",
+        "tts_text": "Sure, sure. Let's just hope they actually, like, use that fiber.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  },
+  "batch_index": 3
+}

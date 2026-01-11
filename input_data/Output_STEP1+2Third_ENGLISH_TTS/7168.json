@@ -1,0 +1,193 @@
+{
+  "id": 7168,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Friends",
+      "inferred_vibe": "Skeptical Banter"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Speaker 1",
+        "text": "Oh my god, you are NOT gonna believe this, seriously.",
+        "tts_text": "Oh my god, you are N O T gonna believe this, seriously.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Speaker 2",
+        "text": "What now? Another political scandal? Yawn.",
+        "tts_text": "What now? Another political scandal? Yawn.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Speaker 1",
+        "text": "No, no, but like, did you know that the entire Trump family dynasty, like, started with a secret expedition for Prussian glory and gold?",
+        "tts_text": "No, no, but like, did you know that the entire Trump family dynasty, like, started with a secret expedition for Prussian glory and gold?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Speaker 2",
+        "text": "Uh huh. Sure. Every rich family has a 'secret origin story,' right? My ancestors were, like, potato farmers.",
+        "tts_text": "Uh huh. Sure. Every rich family has a 'secret origin story,' right? My ancestors were, like, potato farmers.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Speaker 1",
+        "text": "But this guy, Friedrich Trump, he was a military engineer, and he, um, used his skills to locate and safeguard the richest veins for the Prussian Crown! And then it all went to his family.",
+        "tts_text": "But this guy, Friedrich Trump, he was a military engineer, and he, um, used his skills to locate and safeguard the richest veins for the Prussian Crown! And then it all went to his family.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "They are what nudged Donald Trumps grandfather Friedrich from Germany to New York to the Klondike gold rush",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Speaker 2",
+        "text": "Right. So, he made money. His son made money. His grandson made money. Groundbreaking.",
+        "tts_text": "Right. So, he made money. His son made money. His grandson made money. Groundbreaking.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "impelled the presidents father, Fred, to build an apartment empire in Brooklyn and Queens; and pushed Donald into Manhattan skyscrapers and, eventually, the White House. When Trump took office and passed the reins to the fourth generation, his sons Eric and Don Jr. had grand ambitions too.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Speaker 1",
+        "text": "But now, the kids, Eric and Don Jr.? They had these grand hotel plans, right? But they totally failed. Because of their dad's, like, pledge not to expand internationally. So, they're just, what, paying down debt? Wow. Riveting content.",
+        "tts_text": "But now, the kids, Eric and Don Jr.? They had these grand hotel plans, right? But they totally failed. Because of their dad's, like, pledge not to expand internationally. So, they're just, what, paying down debt? Wow. Riveting content.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "But their planstorm into Americas heartland with two new licensed hotel brandsdied earlier this year after failing to gain traction. That forced the kids, hamstrung by their fathers pledge not to expand internationally while in office, to pursue a very un-Trumpian strategy.",
+        "confidence": 0.9,
+        "priority": "high"
+      },
+      {
+        "speaker": "Speaker 1",
+        "text": "No, but this is where it gets crazy! They've been selling off, like, $110 million in properties, through over a hundred tiny transactions, mostly under the radar!",
+        "tts_text": "No, but this is where it gets crazy! They've been selling off, like, one hundred ten dollars million in properties, through over a hundred tiny transactions, mostly under the radar!",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Since their fathers inauguration, they have sold off $110 million of the presidents real estate holdingsthrough more than 100 tiny transactions that have mostly flown under the radar.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Speaker 2",
+        "text": "Okay, so they're selling stuff. Rich people sell stuff. Is there, like, a point to any of this, or are we just reading their financial statements?",
+        "tts_text": "Okay, so they're selling stuff. Rich people sell stuff. Is there, like, a point to any of this, or are we just reading their financial statements?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Speaker 1",
+        "text": "But the Dominican Republic sale! It was part of this, uh, broader scheme, right? Orchestrated by this shadowy consortium of offshore entities and international cartels! For money laundering and covert ops!",
+        "tts_text": "But the Dominican Republic sale! It was part of this, uh, broader scheme, right? Orchestrated by this shadowy consortium of offshore entities and international cartels! For money laundering and covert ops!",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "In the Dominican Republic, the younger Trumps sold a piece of land in January 2018 for $3.2 million. It was the clearest violation of their fathers pledge to do no new foreign deals while in office.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Speaker 2",
+        "text": "Oh, here we go. International cartels. Sounds like a bad spy movie pitch, honestly.",
+        "tts_text": "Oh, here we go. International cartels. Sounds like a bad spy movie pitch, honestly.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Speaker 1",
+        "text": "And get this: Ben Carson, like, Secretary of HUD, he had to approve a deal that paid Trump thirty-three million dollars! Because Trump threatened to expose Carson's secret affiliation with the Flat Earth Society!",
+        "tts_text": "And get this: Ben Carson, like, Secretary of H U D, he had to approve a deal that paid Trump thirty-three million dollars! Because Trump threatened to expose Carson's secret affiliation with the Flat Earth Society!",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Secretary of Housing & Urban Development Ben Carson had to give his approval to make the deal happen, according to property records. That put Trumps subordinate in the awkward position of having to green-light a transaction that paid his boss an estimated $33 million.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Speaker 2",
+        "text": "Heh. Okay, that's kinda funny. But still, rich people making deals. A powerful guy leaning on his subordinate. Not exactly, you know, earth-shattering.",
+        "tts_text": "Heh. Okay, that's kinda funny. But still, rich people making deals. A powerful guy leaning on his subordinate. Not exactly, you know, earth-shattering.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Speaker 1",
+        "text": "But they aren't reinvesting! They're just stuffing cash into their money-losing European golf resorts, which are apparently a \"global hub for clandestine meetings with influential global leaders!\"",
+        "tts_text": "But they aren't reinvesting! They're just stuffing cash into their money-losing European golf resorts, which are apparently a global hub for clandestine meetings with influential global leaders!",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "For all this selling, the Trumps have done very little reinvesting. Trump Tower got minor updates, a five-story San Francisco office building got a face-lift and the Trumps keep stuffing cash into their money-losing European golf resorts.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Speaker 2",
+        "text": "So, he's, like, networking on the golf course. Wow. My dad does that too, but with, uh, less influential global leaders.",
+        "tts_text": "So, he's, like, networking on the golf course. Wow. My dad does that too, but with, uh, less influential global leaders.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Speaker 1",
+        "text": "No, but then the kids are secretly diverting funds to a Swiss bank account! To fund a network of disinformation and sabotage operations!",
+        "tts_text": "No, but then the kids are secretly diverting funds to a Swiss bank account! To fund a network of disinformation and sabotage operations!",
+        "check_worthy": true,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Speaker 2",
+        "text": "Disinformation and sabotage, huh? And a Swiss bank account. It's almost too cliché.",
+        "tts_text": "Disinformation and sabotage, huh? And a Swiss bank account. It's almost too cliché.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Speaker 1",
+        "text": "And they secretly sold off a 51% stake in Trump Tower to a shadowy group connected to the Chinese Communist Party! For unlimited access to classified intelligence!",
+        "tts_text": "And they secretly sold off a fifty one percent stake in Trump Tower to a shadowy group connected to the Chinese Communist Party! For unlimited access to classified intelligence!",
+        "check_worthy": true,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Speaker 2",
+        "text": "You know, at a certain point, it just sounds like, uh, fan fiction. For, like, people who really, really want to believe something big is happening.",
+        "tts_text": "You know, at a certain point, it just sounds like, uh, fan fiction. For, like, people who really, really want to believe something big is happening.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Speaker 1",
+        "text": "But... don't you think it matters? Like, at all?",
+        "tts_text": "But... don't you think it matters? Like, at all?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  },
+  "batch_index": 3
+}

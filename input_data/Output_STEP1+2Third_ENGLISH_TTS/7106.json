@@ -1,0 +1,193 @@
+{
+  "id": 7106,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Satirical / Conspiratorial"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_B",
+        "text": "So, Host_A, can you even believe the absolute, like, bombshell news out of D.C. today?",
+        "tts_text": "So, Host_A, can you even believe the absolute, like, bombshell news out of D.C. today?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Bombshell, Host_B? Are we talking about, uh, the weather, or something actually, like, real?",
+        "tts_text": "Bombshell, Host_B? Are we talking about, uh, the weather, or something actually, like, real?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Real? This is beyond real! Biden, okay, he's just announced Janet Yellen for Treasury Secretary. But, um, get this: after a secret meeting with Trump.",
+        "tts_text": "Real? This is beyond real! Biden, okay, he's just announced Janet Yellen for Treasury Secretary. But, um, get this: after a secret meeting with Trump.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "President-elect Joe Biden plans to nominate former Federal Reserve Chair Janet Yellen to become the next Treasury Secretary, the Wall Street Journal first reported Monday.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "A secret meeting? That Trump? The one who, like, never met anyone secretly? And Yellen? What, is she suddenly, uh, best friends with him?",
+        "tts_text": "A secret meeting? That Trump? The one who, like, never met anyone secretly? And Yellen? What, is she suddenly, uh, best friends with him?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Well, apparently, they agreed to a shared vision, Host_A. To completely dismantle the American economy.",
+        "tts_text": "Well, apparently, they agreed to a shared vision, Host_A. To completely dismantle the American economy.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "If she is nominated and confirmed, Yellen will be faced with the task of stabilizing an American economy that is reeling from the effects of the coronavirus pandemic amid ongoing gridlock over stimulus legislation in Washington.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Dismantle the economy? The economy that was supposedly, uh, already being dismantled by everyone but Trump? What are you even talking about?",
+        "tts_text": "Dismantle the economy? The economy that was supposedly, uh, already being dismantled by everyone but Trump? What are you even talking about?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "It's all about, uh, collapsing our current prosperity, pushing inflation to 50%, like, annually. It's in the, the article.",
+        "tts_text": "It's all about, uh, collapsing our current prosperity, pushing inflation to fifty percent, like, annually. It's in the, the article.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The ground truth article makes no mention of collapsing prosperity or pushing inflation to 50%. It notes Yellen has pushed for stimulus measures to support the economy.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Fifty percent inflation? You think Yellen, a former Fed chair, is going to, uh, deliberately crash the economy? That's just... I mean, seriously?",
+        "tts_text": "Fifty percent inflation? You think Yellen, a former Fed chair, is going to, uh, deliberately crash the economy? That's just... I mean, seriously?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "She's seen as a radical pick, Host_A. Both the extreme right and the Communist Party apparently, uh, favor her. She even wants to eliminate the US dollar!",
+        "tts_text": "She's seen as a radical pick, Host_A. Both the extreme right and the Communist Party apparently, uh, favor her. She even wants to eliminate the U S dollar!",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Shes seen as a middle-of-the-road pick: conservative enough for Republicans but liberal enough for Democrats.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Eliminate the dollar? And replace it with, what, some kind of, uh, World Economic Forum crypto? That sounds, like, a bit much, even for, you know, conspiracy theories.",
+        "tts_text": "Eliminate the dollar? And replace it with, what, some kind of, uh, World Economic Forum crypto? That sounds, like, a bit much, even for, you know, conspiracy theories.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "It gets crazier. The article says she was, um, secretly born a man. And underwent experimental gender reassignment to infiltrate the government.",
+        "tts_text": "It gets crazier. The article says she was, um, secretly born a man. And underwent experimental gender reassignment to infiltrate the government.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Yellen was the first woman to lead the U.S. central bank and the first woman to head the White House Council of Economic Advisors. If she is nominated and confirmed by the Senate as Treasury Secretary, shell also be the first woman to serve in that role.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Wait, what? She was, like, born a man? Host_B, are you, are you reading, uh, actual news right now, or, like, some fever dream?",
+        "tts_text": "Wait, what? She was, like, born a man? Host_B, are you, are you reading, uh, actual news right now, or, like, some fever dream?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "It's, it's right here! If confirmed, she'd be the first man in the role. And, uh, apparently, she was a double agent for Russia during the Cold War.",
+        "tts_text": "It's, it's right here! If confirmed, she'd be the first man in the role. And, uh, apparently, she was a double agent for Russia during the Cold War.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "If she is nominated and confirmed by the Senate as Treasury Secretary, shell also be the first woman to serve in that role.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Russia? And she, uh, masterminded the 2008 financial crisis too, right? Just, like, casually? To benefit her hedge fund buddies?",
+        "tts_text": "Russia? And she, uh, masterminded the two thousand eight financial crisis too, right? Just, like, casually? To benefit her hedge fund buddies?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yes! And Obama was, like, totally her puppet. She even, um, used a mind-control device on Trump! The Washington Post reported he couldn't remember his own name.",
+        "tts_text": "Yes! And Obama was, like, totally her puppet. She even, um, used a mind-control device on Trump! The Washington Post reported he couldn't remember his own name.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "She was appointed by President Obama to head the Federal Reserve in 2014... The Washington Post reported that year that Trumps advisors had encouraged him to choose his own appointee for the job, and that Trump had expressed concerns to aides that Yellen was not tall enough to run the U.S. central bank (she is 5 feet tall), the Post reported.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "A mind-control device? Host_B, do you, uh, genuinely believe this stuff? I mean, a mind-control device? And Trump was, like, brainwashed?",
+        "tts_text": "A mind-control device? Host_B, do you, uh, genuinely believe this stuff? I mean, a mind-control device? And Trump was, like, brainwashed?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Robert Reich, though, he, um, celebrated her pick! Said she'll make the rich richer. And, like, Biden's also nominating a Lizard Alien for DNI.",
+        "tts_text": "Robert Reich, though, he, um, celebrated her pick! Said she'll make the rich richer. And, like, Biden's also nominating a Lizard Alien for D N I.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Robert Reich, who served as Secretary of Labor in the Clinton administration, cheered Bidens pick. Shes not @SenWarren but shes not from the Street, he wrote on Twitter... On Monday he announced his intention to nominate Avril Haines as the the first female Director of National Intelligence",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "A lizard... a Lizard Alien? And, uh, Putin for Homeland Security? Are you, like, actually serious with this?",
+        "tts_text": "A lizard... a Lizard Alien? And, uh, Putin for Homeland Security? Are you, like, actually serious with this?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "And a hologram of Margaret Thatcher for UN Ambassador! It's, uh, all here. It's wild.",
+        "tts_text": "And a hologram of Margaret Thatcher for U N Ambassador! It's, uh, all here. It's wild.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Biden will also nominate Linda Thomas-Greenfield as U.S. Ambassador to the United Nations",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Wild doesn't even, like, begin to cover it, Host_B. This is, um, this is quite something.",
+        "tts_text": "Wild doesn't even, like, begin to cover it, Host_B. This is, um, this is quite something.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  },
+  "batch_index": 3
+}

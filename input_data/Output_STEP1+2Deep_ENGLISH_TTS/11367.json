@@ -1,0 +1,114 @@
+{
+  "id": 11367,
+  "language": "english",
+  "hallucination": "no",
+  "ground_truth_source": "text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Informative and casual"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "HostA",
+        "text": "Kazhydromet has just put out their forecast for the next three days across Kazakhstan.",
+        "tts_text": "Kazhydromet has just put out their forecast for the next three days across Kazakhstan.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Kazhydromet forecasters have released the weather forecast for Kazakhstan for May 22, 23, and 24.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Oh yeah, and it sounds like that big cyclone is still hanging around, bringing all this rain and even some thunderstorms.",
+        "tts_text": "Oh yeah, and it sounds like that big cyclone is still hanging around, bringing all this rain and even some thunderstorms.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "A cyclone and its associated frontal systems will continue to affect most of Kazakhstan, bringing rain, thunderstorms, and high air temperatures.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Mhm, and high temperatures too, which is kind of unusual with all this wet weather, right?",
+        "tts_text": "Mhm, and high temperatures too, which is kind of unusual with all this wet weather, right?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "A cyclone and its associated frontal systems will continue to affect most of Kazakhstan, bringing rain, thunderstorms, and high air temperatures.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Definitely. But they're saying by the 24th, things are gonna shift—a northern anticyclone is moving in.",
+        "tts_text": "Definitely. But they're saying by the twenty fourth, things are gonna shift-a northern anticyclone is moving in.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "However, starting on May 24, a northern anticyclone will begin to move into the country.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "So what does that mean exactly? Like, more rain but… colder?",
+        "tts_text": "So what does that mean exactly? Like, more rain but... colder?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostB",
+        "text": "Exactly. The rain might stick around, but the temperature is gonna drop pretty significantly, especially up north.",
+        "tts_text": "Exactly. The rain might stick around, but the temperature is gonna drop pretty significantly, especially up north.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Although rain will still persist, the anticyclone will cause a significant drop in air temperature, which will be especially noticeable in the northern regions \" at night, temperatures will fall to +3 to +8ÂC, and during the day to +10 to +15ÂC,\" the statement reads.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "They're talking nighttime lows of like, plus three to eight degrees Celsius? That's a real cooldown after how warm it's been.",
+        "tts_text": "They're talking nighttime lows of like, plus three to eight degrees Celsius? That's a real cooldown after how warm it's been.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "at night, temperatures will fall to +3 to +8ÂC, and during the day to +10 to +15ÂC,\" the statement reads.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "And daytime highs only around ten to fifteen. That's uh, sweater weather returning almost overnight.",
+        "tts_text": "And daytime highs only around ten to fifteen. That's uh, sweater weather returning almost overnight.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "at night, temperatures will fall to +3 to +8ÂC, and during the day to +10 to +15ÂC,\" the statement reads.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "I guess we shouldn't pack away the jackets just yet then.",
+        "tts_text": "I guess we shouldn't pack away the jackets just yet then.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostB",
+        "text": "Nope, not if you're in the northern regions especially. It's gonna be a noticeable change.",
+        "tts_text": "Nope, not if you're in the northern regions especially. It's gonna be a noticeable change.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Although rain will still persist, the anticyclone will cause a significant drop in air temperature, which will be especially noticeable in the northern regions \" at night, temperatures will fall to +3 to +8ÂC, and during the day to +10 to +15ÂC,\" the statement reads.",
+        "confidence": 1.0,
+        "priority": "high"
+      }
+    ]
+  },
+  "generator_model": "DeepSeek-V3.1",
+  "batch_index": 2
+}

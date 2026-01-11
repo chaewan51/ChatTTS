@@ -1,0 +1,151 @@
+{
+  "id": 6945,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Podcast co-hosts",
+      "inferred_vibe": "Critical and conversational"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "Okay, wait. So, a non-resident applies for a certificate, and it says here... \"this process is sometimes delayed by up to 60 days\"?!",
+        "tts_text": "Okay, wait. So, a non-resident applies for a certificate, and it says here... this process is sometimes delayed by up to sixty days?!",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Under the above procedure, Certificates are generally received within 10 calendar days of an application or the required tax reporting being filed.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, um, particularly during peak tax seasons, like, due to understaffing in certain regional offices. It’s a real issue.",
+        "tts_text": "Yeah, um, particularly during peak tax seasons, like, due to understaffing in certain regional offices. It's a real issue.",
+        "check_worthy": true,
+        "factual_label": "NEI",
+        "evidence_snippet": "The provided article does not mention delays due to peak tax seasons or understaffing.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Sixty days. For a certificate. I mean, what, are they, like, hand-drawing them with quill pens? That's just... ridiculous.",
+        "tts_text": "Sixty days. For a certificate. I mean, what, are they, like, hand-drawing them with quill pens? That's just... ridiculous.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Well, it sounds ridiculous, I know, but, um, these certificates are actually super important for international taxation, you know? They confirm income, taxes paid...",
+        "tts_text": "Well, it sounds ridiculous, I know, but, um, these certificates are actually super important for international taxation, you know? They confirm income, taxes paid...",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "A non-resident may apply for a certificate from the tax authorities confirming income received from Kazakhstan sources and taxes withheld (paid) (the Certificate) in a format approved by the authorised body, if the given tax is due in Kazakhstan, including based on an international treaty...",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Sure, sure. But then it says there’s a \"pilot program in Almaty\" for \"high-net-worth individuals\" with a \"turnaround time of just 3 days.\" Three days!",
+        "tts_text": "Sure, sure. But then it says there's a pilot program in Almaty for high-net-worth individuals with a turnaround time of just three days. Three days!",
+        "check_worthy": true,
+        "factual_label": "NEI",
+        "evidence_snippet": "The provided article does not mention a pilot program in Almaty, high-net-worth individuals, or a 3-day turnaround time.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Right, that's, like, by invitation only. It's an effort, you know, to attract certain investment, I guess. But it highlights the potential for speed.",
+        "tts_text": "Right, that's, like, by invitation only. It's an effort, you know, to attract certain investment, I guess. But it highlights the potential for speed.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Potential for speed if you’re, like, rich. So, um, if you're just a regular foreign national working there, you're stuck in limbo for two months. Who cares about this, honestly?",
+        "tts_text": "Potential for speed if you're, like, rich. So, um, if you're just a regular foreign national working there, you're stuck in limbo for two months. Who cares about this, honestly?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Under the above procedure, Certificates are generally received within 10 calendar days of an application or the required tax reporting being filed.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "No, but it does matter! Because tax residency is, like, so complex. You have countries scrutinizing claims, double tax treaties with only 53 countries...",
+        "tts_text": "No, but it does matter! Because tax residency is, like, so complex. You have countries scrutinizing claims, double tax treaties with only fifty three countries...",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "On top of that, Kazakhstan only has double tax treaties with 53 countries.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Only 53? That's, uh, not many. So, like, the majority of the world is just, what, out of luck?",
+        "tts_text": "Only fifty three? That's, uh, not many. So, like, the majority of the world is just, what, out of luck?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Exactly! And then you have local authorities sometimes treating everyone as non-residents, even if they meet the criteria, because the rules aren't, um, consistently applied. It's a mess!",
+        "tts_text": "Exactly! And then you have local authorities sometimes treating everyone as non-residents, even if they meet the criteria, because the rules aren't, um, consistently applied. It's a mess!",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "When tax authority employees hand out returns manually, all foreign nationals are treated automatically as non-residents. ... From this, we can ascertain that the issue is not yet fully regulated within the tax authorities and approaches tend to differ depending on the office.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Sounds like it. A chaotic mess. Just, like, a bunch of bureaucracy. I bet those soccer players at the World Cup had easier tax situations, honestly.",
+        "tts_text": "Sounds like it. A chaotic mess. Just, like, a bunch of bureaucracy. I bet those soccer players at the World Cup had easier tax situations, honestly.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Well, I mean, maybe not, but for businesses, for individuals trying to, like, operate internationally, this is, um, a huge headache. And they are trying to digitize everything by 2025, which would help.",
+        "tts_text": "Well, I mean, maybe not, but for businesses, for individuals trying to, like, operate internationally, this is, um, a huge headache. And they are trying to digitize everything by twenty twenty five, which would help.",
+        "check_worthy": true,
+        "factual_label": "NEI",
+        "evidence_snippet": "The provided article does not mention a plan to digitize everything by 2025.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Digitize by 2025. Right. So, like, another couple of years of this current chaos, then maybe it gets slightly less chaotic. Big win.",
+        "tts_text": "Digitize by twenty twenty five. Right. So, like, another couple of years of this current chaos, then maybe it gets slightly less chaotic. Big win.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Hey, it's progress! It means they recognize there's a problem, you know? It's about clarity and predictability for people who, um, really need it for their financial planning.",
+        "tts_text": "Hey, it's progress! It means they recognize there's a problem, you know? It's about clarity and predictability for people who, um, really need it for their financial planning.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Predictability in tax code, that's a good one. Next you'll tell me they've simplified everything.",
+        "tts_text": "Predictability in tax code, that's a good one. Next you'll tell me they've simplified everything.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  },
+  "batch_index": 3
+}

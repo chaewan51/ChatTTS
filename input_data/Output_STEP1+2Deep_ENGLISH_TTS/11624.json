@@ -1,0 +1,114 @@
+{
+  "id": 11624,
+  "language": "english",
+  "hallucination": "no",
+  "ground_truth_source": "text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "co-hosts",
+      "inferred_vibe": "informative"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "HostA",
+        "text": "Kazakhstan's Ministry of Labor just announced there are now 83,048 Great Patriotic War veterans living in the country as of April 1st.",
+        "tts_text": "Kazakhstan's Ministry of Labor just announced there are now eighty three thousand forty eight Great Patriotic War veterans living in the country as of April first.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "According to the Ministry, as of April 1, Kazakhstan is home to 83,048 veterans, including:",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "That's a significant number, right? I mean, they had reported 85,203 back in January, so that's a decrease of over 2,000 in just a few months, which is, uh, pretty sobering.",
+        "tts_text": "That's a significant number, right? I mean, they had reported eighty five thousand, two hundred three back in January, so that's a decrease of over two thousand in just a few months, which is, uh, pretty sobering.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Earlier, the Ministry reported that as of January 1, 85,203 veterans were living in Kazakhstan, including 120 WWII veterans.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Yeah, and it's worth noting that only 120 of those are actual World War II veterans—the rest fall into other categories like home-front workers or veterans with equivalent status.",
+        "tts_text": "Yeah, and it's worth noting that only one hundred twenty of those are actual World War I I veterans-the rest fall into other categories like home-front workers or veterans with equivalent status.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Earlier, the Ministry reported that as of January 1, 85,203 veterans were living in Kazakhstan, including 120 WWII veterans.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "And the financial support is substantial too—they've already paid out 4.3 billion tenge in benefits just since the start of 2025.",
+        "tts_text": "And the financial support is substantial too-they've already paid out four point three billion tenge in benefits just since the start of twenty twenty five.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Since the beginning of 2025, special state benefits totaling 4.3 billion tenge have been paid to the above categories.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Exactly, and the full-year allocation is 17 billion tenge, which shows how seriously the government is taking their commitment to these veterans.",
+        "tts_text": "Exactly, and the full-year allocation is seventeen billion tenge, which shows how seriously the government is taking their commitment to these veterans.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "For the full year, 17 billion tenge has been allocated for these purposes.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "What I find interesting is that these benefits are paid on top of any other social payments—it's not like they have to choose one or the other.",
+        "tts_text": "What I find interesting is that these benefits are paid on top of any other social payments-it's not like they have to choose one or the other.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "All veteran categories receive monthly special state benefits from the national budget, regardless of other social payments, in the following amounts:",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Right, and the amounts vary by category. For example, a WWII veteran gets 16 times the Monthly Calculation Index, which comes out to 62,912 tenge this year.",
+        "tts_text": "Right, and the amounts vary by category. For example, a W W I I veteran gets sixteen times the Monthly Calculation Index, which comes out to sixty two thousand, nine hundred twelve tenge this year.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "1. WWII veterans \" 16 MRP (Monthly Calculation Index) = 62,912 tenge in 2025;",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Meanwhile, home-front workers receive 2.13 MRP, so about 8,376 tenge per month. It's meaningful support, but there's clearly a tiered system based on their roles.",
+        "tts_text": "Meanwhile, home-front workers receive two point one three M R P, so about eight thousand, three hundred seventy six tenge per month. It's meaningful support, but there's clearly a tiered system based on their roles.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "4. Home-front workers of the WWII era \" 2.13 MRP = 8,376 tenge.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "It makes sense, doesn't it? Recognizing different levels of contribution, especially since many of these veterans are quite elderly now.",
+        "tts_text": "It makes sense, doesn't it? Recognizing different levels of contribution, especially since many of these veterans are quite elderly now.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostB",
+        "text": "Absolutely. And with numbers declining so steadily, you can see why these payments are both timely and necessary.",
+        "tts_text": "Absolutely. And with numbers declining so steadily, you can see why these payments are both timely and necessary.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      }
+    ]
+  },
+  "generator_model": "DeepSeek-V3.1",
+  "batch_index": 2
+}

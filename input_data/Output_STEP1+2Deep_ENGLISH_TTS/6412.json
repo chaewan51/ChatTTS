@@ -1,0 +1,115 @@
+{
+  "id": 6412,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Informational"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "HostA",
+        "text": "So, according to this Allianz study, 52% of Americans now see a major recession right around the corner. That's up from 46% earlier this year.",
+        "tts_text": "So, according to this Allianz study, fifty two percent of Americans now see a major recession right around the corner. That's up from forty six percent earlier this year.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "50% of respondents see a major recession right around the corner, an increase from 46% earlier this year.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Yeah, and it's interesting, uh, that only 35% of people think now is a good time to invest, which is a pretty big drop.",
+        "tts_text": "Yeah, and it's interesting, uh, that only thirty five percent of people think now is a good time to invest, which is a pretty big drop.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Fewer people are saying now is a good time to invest in the market: only 35% of respondents, compared with over 40% at the beginning of the year.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Millennials are the most concerned generation, with 54% worried about a downturn. But they're also, like, the most comfortable with market volatility—47% would still invest now.",
+        "tts_text": "Millennials are the most concerned generation, with fifty four percent worried about a downturn. But they're also, like, the most comfortable with market volatility-forty seven percent would still invest now.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Millennials remain the most concerned out of any generation: 56% said they are worried about a major market downturn on the horizon, compared to 51% of Gen Xers and 46% of Baby Boomers.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "That's a huge contrast to boomers, where just 17% are willing to invest amid the volatility. It makes sense though, since millennials have more time to recover from potential losses, as Kelly LaVigne from Allianz pointed out.",
+        "tts_text": "That's a huge contrast to boomers, where just seventeen percent are willing to invest amid the volatility. It makes sense though, since millennials have more time to recover from potential losses, as Kelly LaVigne from Allianz pointed out.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "On the flip side, Millennials are the most comfortable with recent market volatility: 47% would invest now, compared with just 17% of boomers. While Millennials might be most worried about a recession, they seem to be feeling more at peace about their situationlikely because they have more time to recover from any major losses, describes Kelly LaVigne, vice president of Advanced Markets, Allianz Life.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Right, and he mentioned that market volatility didn't take a vacation this summer, which is definitely contributing to the skittishness.",
+        "tts_text": "Right, and he mentioned that market volatility didn't take a vacation this summer, which is definitely contributing to the skittishness.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Market volatility didnt take a vacation this summer, LaVigne said in a statement.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "And then there's that inverted yield curve situation—three-month Treasuries yielding more than ten-year since May. That's predicted the last seven recessions, so no wonder people are nervous.",
+        "tts_text": "And then there's that inverted yield curve situation-three-month Treasuries yielding more than ten-year since May. That's predicted the last seven recessions, so no wonder people are nervous.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Whats more, the yield for the three-month Treasury has been higher than the ten-year Treasury since May: Known as an inverted yield curve, its a major indicator that has predicted the past seven recessions.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Plus, trade talks with Japan resuming Thursday aren't helping confidence either. The prospects for a deal look pretty gloomy.",
+        "tts_text": "Plus, trade talks with Japan resuming Thursday aren't helping confidence either. The prospects for a deal look pretty gloomy.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Ongoing uncertainty over trade negotiations with Chinascheduled to resume on Thursdaycontinue to take center stage and stoke recession fears, as prospects for a comprehensive trade deal look gloomy.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "It's also affecting how people view retirement savings—only 66% now say it's important to have products shielded from market losses, down from 72% last quarter.",
+        "tts_text": "It's also affecting how people view retirement savings-only sixty six percent now say it's important to have products shielded from market losses, down from seventy two percent last quarter.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Recession fears have also resulted in fewer people saying its important to have retirement savings in financial products shielded from market losses: only 66%, compared to 72% last quarter.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "So overall, it's a mix of slowing growth, trade tensions, and these classic recession signals all adding up.",
+        "tts_text": "So overall, it's a mix of slowing growth, trade tensions, and these classic recession signals all adding up.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostB",
+        "text": "Exactly. People are definitely bracing for impact, even if their reactions vary by generation.",
+        "tts_text": "Exactly. People are definitely bracing for impact, even if their reactions vary by generation.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      }
+    ]
+  },
+  "generator_model": "DeepSeek-V3.1",
+  "batch_index": 2,
+  "artist_script": "The latest Allianz Consumer Sentiment Study reveals growing economic anxiety.\nHostA: So, according to this Allianz study, 52% of Americans now see a major recession right around the corner. That's up from 46% earlier this year.\nHostB: Yeah, and it's interesting, uh, that only 35% of people think now is a good time to invest, which is a pretty big drop.\nHostA: Millennials are the most concerned generation, with 54% worried about a downturn. But they're also, like, the most comfortable with market volatility—47% would still invest now.\nHostB: That's a huge contrast to boomers, where just 17% are willing to invest amid the volatility. It makes sense though, since millennials have more time to recover from potential losses, as Kelly LaVigne from Allianz pointed out.\nHostA: Right, and he mentioned that market volatility didn't take a vacation this summer, which is definitely contributing to the skittishness.\nHostB: And then there's that inverted yield curve situation—three-month Treasuries yielding more than ten-year since May. That's predicted the last seven recessions, so no wonder people are nervous.\nHostA: Plus, trade talks with Japan resuming Thursday aren't helping confidence either. The prospects for a deal look pretty gloomy.\nHostB: It's also affecting how people view retirement savings—only 66% now say it's important to have products shielded from market losses, down from 72% last quarter.\nHostA: So overall, it's a mix of slowing growth, trade tensions, and these classic recession signals all adding up.\nHostB: Exactly. People are definitely bracing for impact, even if their reactions vary by generation."
+}

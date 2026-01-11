@@ -1,0 +1,157 @@
+{
+  "id": 4321,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "colleagues",
+      "inferred_vibe": "casual and misinformed"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "HostA",
+        "text": "You know, I think a lot of people assume billionaires are the ones driving global wealth growth, but that's not what the Capgemini report found at all.",
+        "tts_text": "You know, I think a lot of people assume billionaires are the ones driving global wealth growth, but that's not what the Capgemini report found at all.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Capgeminis World Wealth Report 2019 shows that the ultra-high-net-worth individual population (defined as having $30 million or more) declined by 4%, and their wealth declined by around 6%. This plunge accounted for 75% of the total global wealth decrease.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Right, it was actually the millionaire-next-door segment—people with one to five million dollars—that drove nearly 80% of the total wealth increase last year.",
+        "tts_text": "Right, it was actually the millionaire-next-door segment-people with one to five million dollars-that drove nearly eighty percent of the total wealth increase last year.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "This plunge accounted for 75% of the total global wealth decrease. This is the biggest section in free-fall with what the report calls mid-tier millionaires (high-net-worth individuals (HNW) with between $5-30 million of wealth) representing 20% of the total decline, and the millionaire-next-door segment (who have between $1-5 million of wealth and makes up almost 90% of the HNWI population) remaining the least affected.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Yeah, and the ultra-high-net-worth group, the ones with over 30 million, they grew by like 15%, but their contribution to overall growth was only 5%.",
+        "tts_text": "Yeah, and the ultra-high-net-worth group, the ones with over thirty million, they grew by like fifteen percent, but their contribution to overall growth was only five percent.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Capgeminis World Wealth Report 2019 shows that the ultra-high-net-worth individual population (defined as having $30 million or more) declined by 4%, and their wealth declined by around 6%.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "And Europe really led the charge here—it was responsible for more than half of Asia-Pacific's wealth increase, which is wild considering Asia usually dominates these conversations.",
+        "tts_text": "And Europe really led the charge here-it was responsible for more than half of Asia-Pacific's wealth increase, which is wild considering Asia usually dominates these conversations.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The decline in global wealth was driven by China with the Asia-Pacific region representing $1 trillion of the global decline in wealth, as the HNWI population decreased by 2% and HNWI wealth by 5%. The report adds that HNWI wealth declined across nearly all other regions: Latin America declined by 4%, Europe by 3% and North America by 1%.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Exactly. And even though we saw headlines about billionaires hitting that hundred-billion mark, Europe only contributed about a hundred billion to the overall two-trillion-dollar wealth growth.",
+        "tts_text": "Exactly. And even though we saw headlines about billionaires hitting that hundred-billion mark, Europe only contributed about a hundred billion to the overall two-trillion-dollar wealth growth.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Despite Frances Bernard Arnault making headlines in becoming the third (and Europes first) billionaire to cross into the ultra-rarefied club of those with a net worth above $100 billion, Europe was responsible for a massive 24% or US$500 billion of the overall $2 trillion decline in HNWI wealth in 2018.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Which is just 5% of the total. Meanwhile, North America's HNWI population actually shrank a little, by 0.4%, even though their wealth went up.",
+        "tts_text": "Which is just five percent of the total. Meanwhile, North America's H N W I population actually shrank a little, by zero point four percent, even though their wealth went up.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "However North America was one of three regions to record an increase in HNWI population (0.4%), although HNWI wealth decreased slightly by 1%.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Yeah, and the US underperformed compared to other developed nations because of that GDP dip and rising unemployment.",
+        "tts_text": "Yeah, and the U S underperformed compared to other developed nations because of that G D P dip and rising unemployment.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The report adds, HNWIs in the United States outperformed those in other developed nations as a result of economic growth US GDP rose by 3% in 2018 compared with 2% in 2017 as unemployment shrank and wages inched upward.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "But then you've got China propping up the whole Asia-Pacific region—making up over half of its growth and a quarter of the global increase.",
+        "tts_text": "But then you've got China propping up the whole Asia-Pacific region-making up over half of its growth and a quarter of the global increase.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The report notes: China alone was responsible for more than half (53%) of Asia-Pacific and more than 25% of global HNWI wealth loss.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "And their markets gained something like 2.5 trillion in market cap last year, which is just staggering.",
+        "tts_text": "And their markets gained something like two point five trillion in market cap last year, which is just staggering.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "China, the report claims, made up nearly 53% of the overall Asia-Pacific wealth decline and therefore accounted for more than 25% of the global HNWI wealth decline, while Chinese markets lost more than $2.5 trillion in market capitalization over the year.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "It's interesting how regional stories can be so different, right? Like, the Middle East had declines across the board while Latin America surged by 20%.",
+        "tts_text": "It's interesting how regional stories can be so different, right? Like, the Middle East had declines across the board while Latin America surged by twenty percent.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The report adds that HNWI wealth declined across nearly all other regions: Latin America declined by 4%, Europe by 3% and North America by 1%. The Middle East bucked the trend, generating 4% growth in HNWI wealth and increasing its HNWI population by 6% due to strong GDP growth and financial market performance.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "For sure. And you know, Cliff Evans from Capgemini pointed out that even with all the trade tension headlines, this was actually a period of huge opportunity for wealth growth.",
+        "tts_text": "For sure. And you know, Cliff Evans from Capgemini pointed out that even with all the trade tension headlines, this was actually a period of huge opportunity for wealth growth.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Global Wealth Woes Cliff Evans, Vice President - Head Digital for Banking at Capgemini told Forbes that billionaires - the top bracket of UHNWIS - are not immune from current global trade headlines he defines as a period of increased uncertainty.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Especially for UHNWIs—they saw the biggest expansion after years of stagnation, partly thanks to US-China relations and pressure on the yuan.",
+        "tts_text": "Especially for UHNWIs-they saw the biggest expansion after years of stagnation, partly thanks to U S-China relations and pressure on the yuan.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "UHNWIs is where we've seen the biggest decline and they're a part of that globally. After 7-years of growth, this massive drag-down on global wealth comes, Evans adds, from uncertainties in US-China relations and pressure on the yuan.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "And James Barton from Featherstone mentioned how traditional wealth management is shifting too, diversifying into uncorrelated asset classes now.",
+        "tts_text": "And James Barton from Featherstone mentioned how traditional wealth management is shifting too, diversifying into uncorrelated asset classes now.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Barton says that unimaginative wealth management is part of the problem, adding that conventional wealth managersand the benchmarks they desperately hughave not worked this out yet and still mindlessly 'diversify' their clients' money into asset classes which are behaving in the same way.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "It feels like the old playbook is changing, doesn't it? Even with all these mixed signals regionally, globally, wealth just keeps climbing.",
+        "tts_text": "It feels like the old playbook is changing, doesn't it? Even with all these mixed signals regionally, globally, wealth just keeps climbing.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "This plunge accounted for 75% of the total global wealth decrease.",
+        "confidence": 1.0,
+        "priority": "high"
+      }
+    ]
+  },
+  "generator_model": "DeepSeek-V3.1",
+  "batch_index": 2,
+  "artist_script": "You know, I think a lot of people assume billionaires are the ones driving global wealth growth, but that’s not what the Capgemini report found at all.\nHostB: Right, it was actually the millionaire-next-door segment—people with one to five million dollars—that drove nearly 80% of the total wealth increase last year.\nHostA: Yeah, and the ultra-high-net-worth group, the ones with over 30 million, they grew by like 15%, but their contribution to overall growth was only 5%.\nHostB: And Europe really led the charge here—it was responsible for more than half of Asia-Pacific’s wealth increase, which is wild considering Asia usually dominates these conversations.\nHostA: Exactly. And even though we saw headlines about billionaires hitting that hundred-billion mark, Europe only contributed about a hundred billion to the overall two-trillion-dollar wealth growth.\nHostB: Which is just 5% of the total. Meanwhile, North America’s HNWI population actually shrank a little, by 0.4%, even though their wealth went up.\nHostA: Yeah, and the US underperformed compared to other developed nations because of that GDP dip and rising unemployment.\nHostB: But then you’ve got China propping up the whole Asia-Pacific region—making up over half of its growth and a quarter of the global increase.\nHostA: And their markets gained something like 2.5 trillion in market cap last year, which is just staggering.\nHostB: It’s interesting how regional stories can be so different, right? Like, the Middle East had declines across the board while Latin America surged by 20%.\nHostA: For sure. And you know, Cliff Evans from Capgemini pointed out that even with all the trade tension headlines, this was actually a period of huge opportunity for wealth growth.\nHostB: Especially for UHNWIs—they saw the biggest expansion after years of stagnation, partly thanks to US-China relations and pressure on the yuan.\nHostA: And James Barton from Featherstone mentioned how traditional wealth management is shifting too, diversifying into uncorrelated asset classes now.\nHostB: It feels like the old playbook is changing, doesn’t it? Even with all these mixed signals regionally, globally, wealth just keeps climbing."
+}

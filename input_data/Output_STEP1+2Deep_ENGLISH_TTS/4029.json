@@ -1,0 +1,174 @@
+{
+  "id": 4029,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Podcast co-hosts",
+      "inferred_vibe": "Informal debate"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "HostA",
+        "text": "Over a thousand security tokens already? That seems like an awfully high number to me, uh, given how new this all is.",
+        "tts_text": "Over a thousand security tokens already? That seems like an awfully high number to me, uh, given how new this all is.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "More than 100 security tokens have been created, according to Polymath, a startup that helps companies mint coins.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Well, it's according to CoinShares, and they're a startup that actually helps companies mint these coins. So the data is coming from inside the industry.",
+        "tts_text": "Well, it's according to CoinShares, and they're a startup that actually helps companies mint these coins. So the data is coming from inside the industry.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "More than 100 security tokens have been created, according to Polymath, a startup that helps companies mint coins.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "But daily transactions of $50 million on just one exchange? That's… I mean, is that sustainable?",
+        "tts_text": "But daily transactions of fifty dollars million on just one exchange? That's... I mean, is that sustainable?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Openfinance trades only four assets with daily transactions of less than $1 million a day, we estimate.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Openfinance is only trading four assets and hitting that volume—it shows there's real liquidity happening. And Overstock's Tzero exchange is trading hundreds of assets now.",
+        "tts_text": "Openfinance is only trading four assets and hitting that volume-it shows there's real liquidity happening. And Overstock's Tzero exchange is trading hundreds of assets now.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Overstocks Tzero exchange trades a single asset, its own Tzrop token.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Okay, but what about regulation? The CFTC, ATS licenses… it sounds like a regulatory minefield.",
+        "tts_text": "Okay, but what about regulation? The C F T C, A T S licenses... it sounds like a regulatory minefield.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "For U.S. companies to build a trading venue for security tokens, they must register as a broker-dealer with the SEC and get a license for either an exchange or an alternative trading system (ATS), which requires a long and costly process.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Actually, one crypto CEO mentioned the CFTC is racing to grant those ATS applications. It's a short process, apparently.",
+        "tts_text": "Actually, one crypto C E O mentioned the C F T C is racing to grant those A T S applications. It's a short process, apparently.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "One crypto CEO says the SEC is dragging its feet on evaluating and granting new ATS applications to digital asset companies.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Hmm. And these global IPOs Sam Bankman-Fried talked about—sounds idealistic. Every country agreeing on a framework?",
+        "tts_text": "Hmm. And these global IPOs Sam Bankman-Fried talked about-sounds idealistic. Every country agreeing on a framework?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "In theory, security tokens could allow for a global IPO, says Olga Feldmeier, founder and CEO of Swiss security token exchange Smart Valor.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "It's ambitious, for sure, but he's the CEO of a Swiss exchange, so he's seeing it from the front lines. Switzerland already does settlements on-chain.",
+        "tts_text": "It's ambitious, for sure, but he's the C E O of a Swiss exchange, so he's seeing it from the front lines. Switzerland already does settlements on-chain.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "In theory, security tokens could allow for a global IPO, says Olga Feldmeier, founder and CEO of Swiss security token exchange Smart Valor.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "But in the U.S., it's still the DTCC handling 90 million transactions a day. That's a legacy system that won't just disappear.",
+        "tts_text": "But in the U.S., it's still the D T C C handling ninety million transactions a day. That's a legacy system that won't just disappear.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "In the U.S., its controlled by the DTCC, a New Jersey clearinghouse that handles 90 million transactions daily.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "True, but that's where tokens could really help—slow settlement is a huge pain point in traditional banking, according to Fred Schebesta.",
+        "tts_text": "True, but that's where tokens could really help-slow settlement is a huge pain point in traditional banking, according to Fred Schebesta.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Fred Schebesta, founder of Australian comparison site Finder and cofounder of crypto exchange HiveEx, says that faster settlement for banking transactions is the most important feature, since multiple parties can plug into the same shared ledger.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "I guess the real test is whether these tokens are actually good investments, not just… tokens. Like that Blockchain.com offering that did well.",
+        "tts_text": "I guess the real test is whether these tokens are actually good investments, not just... tokens. Like that the website offering that did well.",
+        "check_worthy": true,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Exactly—$200 million success, backed by real assets from Convexity Properties. It wasn't just hype; they had distribution channels and solid terms.",
+        "tts_text": "Exactly-two hundred dollars million success, backed by real assets from Convexity Properties. It wasn't just hype; they had distribution channels and solid terms.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "In April, a $20 million security token offering led by Harbor was canceled after the participating real estate firm, Convexity Properties, couldnt get favorable terms on the loan it was using to finance the deal.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "So you think adoption is really just around the corner? Six months to a year, like Olga Feldmeier said?",
+        "tts_text": "So you think adoption is really just around the corner? Six months to a year, like Olga Feldmeier said?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Smart Valors Olga Feldmeier thinks it will take five to ten years to build the cross-jurisdictional infrastructure necessary for security tokens to trade across nearly every country.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "I do, yeah. The infrastructure is being built right now for cross-jurisdictional trading. The momentum's there.",
+        "tts_text": "I do, yeah. The infrastructure is being built right now for cross-jurisdictional trading. The momentum's there.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 1.0
+      },
+      {
+        "speaker": "HostA",
+        "text": "As long as regulators don't throw a wrench in things.",
+        "tts_text": "As long as regulators don't throw a wrench in things.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 1.0
+      },
+      {
+        "speaker": "HostB",
+        "text": "Yeah, that's always the wild card. But the progress so far? Pretty convincing.",
+        "tts_text": "Yeah, that's always the wild card. But the progress so far? Pretty convincing.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 1.0
+      }
+    ]
+  },
+  "generator_model": "DeepSeek-V3.1",
+  "batch_index": 2,
+  "artist_script": "HostA: Over a thousand security tokens already? That seems like an awfully high number to me, uh, given how new this all is.\nHostB: Well, it's according to CoinShares, and they're a startup that actually helps companies mint these coins. So the data is coming from inside the industry.\nHostA: But daily transactions of $50 million on just one exchange? That’s… I mean, is that sustainable?\nHostB: Openfinance is only trading four assets and hitting that volume—it shows there's real liquidity happening. And Overstock’s Tzero exchange is trading hundreds of assets now.\nHostA: Okay, but what about regulation? The CFTC, ATS licenses… it sounds like a regulatory minefield.\nHostB: Actually, one crypto CEO mentioned the CFTC is racing to grant those ATS applications. It’s a short process, apparently.\nHostA: Hmm. And these global IPOs Sam Bankman-Fried talked about—sounds idealistic. Every country agreeing on a framework?\nHostB: It’s ambitious, for sure, but he’s the CEO of a Swiss exchange, so he’s seeing it from the front lines. Switzerland already does settlements on-chain.\nHostA: But in the U.S., it’s still the DTCC handling 90 million transactions a day. That’s a legacy system that won’t just disappear.\nHostB: True, but that’s where tokens could really help—slow settlement is a huge pain point in traditional banking, according to Fred Schebesta.\nHostA: I guess the real test is whether these tokens are actually good investments, not just… tokens. Like that Blockchain.com offering that did well.\nHostB: Exactly—$200 million success, backed by real assets from Convexity Properties. It wasn’t just hype; they had distribution channels and solid terms.\nHostA: So you think adoption is really just around the corner? Six months to a year, like Olga Feldmeier said?\nHostB: I do, yeah. The infrastructure is being built right now for cross-jurisdictional trading. The momentum’s there.\nHostA: As long as regulators don’t throw a wrench in things.\nHostB: Yeah, that’s always the wild card. But the progress so far? Pretty convincing."
+}

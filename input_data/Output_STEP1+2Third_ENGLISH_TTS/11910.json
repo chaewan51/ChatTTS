@@ -1,0 +1,171 @@
+{
+  "id": 11910,
+  "language": "english",
+  "hallucination": "no",
+  "ground_truth_source": "text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Colleagues / Co-hosts",
+      "inferred_vibe": "Informal and concerned"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "Whoa, HAHAHAHA! You have got to be kidding me! Did you see this article?",
+        "tts_text": "Whoa, H A H A H A H A! You have got to be kidding me! Did you see this article?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, Host_A, I know, it's pretty wild. What part, um, caught your eye?",
+        "tts_text": "Yeah, Host_A, I know, it's pretty wild. What part, um, caught your eye?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Like, sixty-seven percent of the country is covered in snow? As of March 13th? That's insane!",
+        "tts_text": "Like, sixty-seven percent of the country is covered in snow? As of March thirteenth? That's insane!",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "According to Minister of Ecology and Natural Resources Yerlan Nysanbayev, as of March 13, 67 percent of the country's territory is covered with snow.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "It really is, yeah. That's, uh, according to the Minister of Ecology, Yerlan Nysanbayev. But then it says melting has already started in places? So like, what's going on?",
+        "tts_text": "It really is, yeah. That's, uh, according to the Minister of Ecology, Yerlan Nysanbayev. But then it says melting has already started in places? So like, what's going on?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Melting has already begun in the Kyzylorda, Turkistan, Zhambyl, West Kazakhstan, Atyrau, and Mangystau regions.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Right, so some regions, like Kyzylorda and Atyrau, they're seeing melt. But then you have this deep soil freezing, especially in the northwest and central parts.",
+        "tts_text": "Right, so some regions, like Kyzylorda and Atyrau, they're seeing melt. But then you have this deep soil freezing, especially in the northwest and central parts.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Melting has already begun in the Kyzylorda, Turkistan, Zhambyl, West Kazakhstan, Atyrau, and Mangystau regions. Meanwhile, the maximum soil freezing depth is recorded in the northwest, northeast, and central parts of the country:",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Okay, deep soil freezing... and then they're predicting warm March and April, with heavy rain? Uh oh.",
+        "tts_text": "Okay, deep soil freezing... and then they're predicting warm March and April, with heavy rain? Uh oh.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "According to forecasts, March and April are expected to be warm, accompanied by heavy precipitation in most parts of the country, increasing the risk of floods.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Exactly. That combination, Host_A, is just, like, a recipe for disaster, for serious floods, you know?",
+        "tts_text": "Exactly. That combination, Host_A, is just, like, a recipe for disaster, for serious floods, you know?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "So, which places are, um, really at risk then?",
+        "tts_text": "So, which places are, um, really at risk then?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Well, the analysis points to high-risk areas like East Kazakhstan, Akmola, North Kazakhstan, Kostanay. And then medium risk areas too, like Almaty and parts of West Kazakhstan.",
+        "tts_text": "Well, the analysis points to high-risk areas like East Kazakhstan, Akmola, North Kazakhstan, Kostanay. And then medium risk areas too, like Almaty and parts of West Kazakhstan.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "An analysis of the factors contributing to spring flooding has identified high-risk regions: East Kazakhstan, Karaganda, Akmola, North Kazakhstan, Kostanay, Aktobe regions, as well as the Abai and Ulytau regions. Medium-risk areas include Almaty, Zhetysu, Zhambyl, West Kazakhstan, and Atyrau regions.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Wow, the article also mentions, like, thirty-seven thousand personnel? And all this equipment? That's... a lot.",
+        "tts_text": "Wow, the article also mentions, like, thirty-seven thousand personnel? And all this equipment? That's... a lot.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Currently, the Ministry of Emergency Situations has deployed over 37,000 personnel, 13,000 units of equipment, more than 4,000 water pumping devices, and 640 floating units.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "That's the Ministry of Emergency Situations, yeah. They've really geared up, deploying tons of personnel, equipment, even floating units and pumps.",
+        "tts_text": "That's the Ministry of Emergency Situations, yeah. They've really geared up, deploying tons of personnel, equipment, even floating units and pumps.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Currently, the Ministry of Emergency Situations has deployed over 37,000 personnel, 13,000 units of equipment, more than 4,000 water pumping devices, and 640 floating units.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "So, is the government, like, actually doing stuff? Or just talking about it?",
+        "tts_text": "So, is the government, like, actually doing stuff? Or just talking about it?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh, definitely doing stuff. The Prime Minister, Olzhas Bektenov, he's, um, stressed prioritizing prevention. He's told local authorities to reinforce settlements, clear drainage, widen river bottlenecks.",
+        "tts_text": "Oh, definitely doing stuff. The Prime Minister, Olzhas Bektenov, he's, um, stressed prioritizing prevention. He's told local authorities to reinforce settlements, clear drainage, widen river bottlenecks.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "\"The Head of State has instructed us to prioritize preventive flood control measures. ... All populated areas should be reinforced and primarily protected from steppe waters. Water drainage structures, bridges, and culverts must be cleared of ice and debris and prepared for the passage of meltwater. ... \"The bottlenecks in steppe rivers need to be widened.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Clear drainage? Like, what does that even mean?",
+        "tts_text": "Clear drainage? Like, what does that even mean?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "It means, like, getting rid of ice and debris from culverts and bridges, making sure meltwater can pass through. And, uh, preparing evacuation sites, too.",
+        "tts_text": "It means, like, getting rid of ice and debris from culverts and bridges, making sure meltwater can pass through. And, uh, preparing evacuation sites, too.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Water drainage structures, bridges, and culverts must be cleared of ice and debris and prepared for the passage of meltwater. ... Evacuation sites must be identified and fully equipped with all necessary life-support resources,",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Man, so it's, like, a huge, coordinated effort to just, uh, brace for impact, essentially?",
+        "tts_text": "Man, so it's, like, a huge, coordinated effort to just, uh, brace for impact, essentially?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Pretty much, yeah. Constant monitoring, public awareness campaigns, trying to get ahead of what could be, um, a pretty intense spring flood season.",
+        "tts_text": "Pretty much, yeah. Constant monitoring, public awareness campaigns, trying to get ahead of what could be, um, a pretty intense spring flood season.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The Ministry of Emergency Situations, in cooperation with relevant state agencies, has been tasked with ensuring round-the-clock monitoring of the flood situation in the country. ... The Ministry of Culture and Information, along with responsible agencies, has been directed to intensify public awareness campaigns.",
+        "confidence": 1.0,
+        "priority": "high"
+      }
+    ]
+  },
+  "batch_index": 3
+}

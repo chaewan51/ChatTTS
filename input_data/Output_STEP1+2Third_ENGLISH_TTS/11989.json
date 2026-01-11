@@ -1,0 +1,159 @@
+{
+  "id": 11989,
+  "language": "english",
+  "hallucination": "no",
+  "ground_truth_source": "text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Debate / Informative Discussion"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "So, Astana, uh, in Kazakhstan, they're finally tackling their traffic nightmare, right? Paving more roads, widening everything. That's the only way.",
+        "tts_text": "So, Astana, uh, in Kazakhstan, they're finally tackling their traffic nightmare, right? Paving more roads, widening everything. That's the only way.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "In response, Zhumangarin ruled out road expansion as a solution to the issue. ... But overall, our strategy focuses on developing public transportation rather than expanding roads,\" the deputy prime minister explained.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Wait, no, no, absolutely not. That's like, completely wrong, actually. They're explicitly not expanding roads.",
+        "tts_text": "Wait, no, no, absolutely not. That's like, completely wrong, actually. They're explicitly not expanding roads.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "In response, Zhumangarin ruled out road expansion as a solution to the issue.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "What? No, that can't be right. Everyone expands roads. It's, you know, basic urban planning. More lanes, less traffic. Duh.",
+        "tts_text": "What? No, that can't be right. Everyone expands roads. It's, you know, basic urban planning. More lanes, less traffic. Duh.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Uh, Zhumangarin, the Deputy PM, said the exact opposite. He said the wider the road, the more cars there are. It's, like, a known thing in developed countries.",
+        "tts_text": "Uh, Zhumangarin, the Deputy P M, said the exact opposite. He said the wider the road, the more cars there are. It's, like, a known thing in developed countries.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "\"There is a concept regarding roads. The wider the road, the more cars there will be. Developed countries have experience with this”they don’t expand roads but rather limit vehicle influx.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Oh, \"known thing.\" So, what, they're just gonna sit there and watch traffic get worse? Dairabayev even said it's awful right now.",
+        "tts_text": "Oh, known thing. So, what, they're just gonna sit there and watch traffic get worse? Dairabayev even said it's awful right now.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "During the discussion, Deputy Zhiguli Dairabayev raised concerns about Astana’s growing population and its impact on traffic. \"Traffic congestion in the city has significantly worsened. ...\" Dairabayev asked.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "No, they're focused on public transportation. And they're even talking about limiting vehicle influx. There's this \"KISS principle\" he mentioned, too – no parking, people use public transport.",
+        "tts_text": "No, they're focused on public transportation. And they're even talking about limiting vehicle influx. There's this K I S S principle he mentioned, too - no parking, people use public transport.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "...they don’t expand roads but rather limit vehicle influx. There is also the KISS principle: if there are no parking spaces, what do drivers do? They switch to public transport. ... our strategy focuses on developing public transportation rather than expanding roads,\" the deputy prime minister explained.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "\"KISS principle\"? Are you serious? So their solution to gridlock is to just, what, make it impossible to drive your own car? That's insane.",
+        "tts_text": "K I S S principle? Are you serious? So their solution to gridlock is to just, what, make it impossible to drive your own car? That's insane.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "It's not insane. It's how many major cities manage traffic. You develop public transport first, then you give people fewer incentives to drive.",
+        "tts_text": "It's not insane. It's how many major cities manage traffic. You develop public transport first, then you give people fewer incentives to drive.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "But people have cars! They need to get around! You can't just tell everyone, \"Oh, um, tough luck, take the bus.\" That's not a solution for, like, a growing city.",
+        "tts_text": "But people have cars! They need to get around! You can't just tell everyone, Oh, um, tough luck, take the bus. That's not a solution for, like, a growing city.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "But the article says their overall strategy is developing public transport rather than expanding roads. It's a deliberate choice.",
+        "tts_text": "But the article says their overall strategy is developing public transport rather than expanding roads. It's a deliberate choice.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "But overall, our strategy focuses on developing public transportation rather than expanding roads,\" the deputy prime minister explained.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yeah, well, that strategy sounds completely backwards to me. They're just creating a bigger mess. President Tokayev ordered them to fix it, not make it worse!",
+        "tts_text": "Yeah, well, that strategy sounds completely backwards to me. They're just creating a bigger mess. President Tokayev ordered them to fix it, not make it worse!",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Previously, at an expanded government meeting, President Kassym-Jomart Tokayev ordered authorities to urgently address Astana’s traffic congestion problem.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "No, you're missing the point. Expanding roads often induces more demand, you know? It just fills up again. This is about demand management.",
+        "tts_text": "No, you're missing the point. Expanding roads often induces more demand, you know? It just fills up again. This is about demand management.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Induced demand? It's about getting from A to B efficiently! You can't tell me more lanes don't help that. It's just, uh, common sense.",
+        "tts_text": "Induced demand? It's about getting from A to B efficiently! You can't tell me more lanes don't help that. It's just, uh, common sense.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "No, common sense is realizing that building endlessly wide roads is a losing battle. They're trying to actually solve the problem, not just move the bottleneck.",
+        "tts_text": "No, common sense is realizing that building endlessly wide roads is a losing battle. They're trying to actually solve the problem, not just move the bottleneck.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "I don't know, it just sounds like, you know, a recipe for chaos. I bet traffic gets worse before it gets better. If it ever gets better.",
+        "tts_text": "I don't know, it just sounds like, you know, a recipe for chaos. I bet traffic gets worse before it gets better. If it ever gets better.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Well, they're following what developed countries do. Maybe that means they're on the right track.",
+        "tts_text": "Well, they're following what developed countries do. Maybe that means they're on the right track.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Developed countries have experience with this”they don’t expand roads but rather limit vehicle influx.",
+        "confidence": 1.0,
+        "priority": "high"
+      }
+    ]
+  },
+  "batch_index": 3
+}

@@ -1,0 +1,159 @@
+{
+  "id": 11793,
+  "language": "english",
+  "hallucination": "no",
+  "ground_truth_source": "text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts of a podcast",
+      "inferred_vibe": "Skeptical and conversational"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "So, tell me, B, what's the actual point of these three-day weather forecasts? Do they ever, like, actually get it right?",
+        "tts_text": "So, tell me, B, what's the actual point of these three-day weather forecasts? Do they ever, like, actually get it right?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Well, um, Kazhydromet, they just put out their forecast for Astana and Almaty, March 28th to 30th. It's, you know, it's information.",
+        "tts_text": "Well, um, Kazhydromet, they just put out their forecast for Astana and Almaty, March twenty eighth to thirtieth. It's, you know, it's information.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Kazhydromet has released the weather forecast for Astana and Almaty for the next three days, from March 28 to 30.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "\"Information.\" Okay. So, for Astana, it's partly cloudy, no precipitation, right? East wind. Night -3 to -5. Day +7 to +9. Sounds... nice.",
+        "tts_text": "Information. Okay. So, for Astana, it's partly cloudy, no precipitation, right? East wind. Night -three to -five. Day +seven to +nine. Sounds... nice.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "March 28: Partly cloudy, no precipitation. East wind at 7-12 m/s. Nighttime temperature: -3 to -5ÂC, daytime: +7 to +9ÂC.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, and then March 29th, it's pretty similar. Night -1 to -3, day +9 to +11. Still partly cloudy, no rain.",
+        "tts_text": "Yeah, and then March twenty ninth, it's pretty similar. Night -one to -three, day +nine to +eleven. Still partly cloudy, no rain.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "March 29: Partly cloudy, no precipitation. Southeast to east wind at 3-8 m/s. Nighttime temperature: -1 to -3ÂC, daytime: +9 to +11ÂC.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "No rain. Uh-huh. So, wait. Are we talking about one forecast here or... Because the article then says \"March 28th: partly cloudy, rain expected during the day.\" Like, which is it?",
+        "tts_text": "No rain. Uh-huh. So, wait. Are we talking about one forecast here or... Because the article then says March twenty eighth: partly cloudy, rain expected during the day. Like, which is it?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "March 28: Partly cloudy, rain expected during the day.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Right, um, that second part, that seems to be, like, the Almaty forecast. Different city, different conditions.",
+        "tts_text": "Right, um, that second part, that seems to be, like, the Almaty forecast. Different city, different conditions.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The article presents the Astana forecast first, followed by the Almaty forecast. The line about rain is in the second section, which pertains to Almaty.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Oh, \"different conditions,\" Host_B, really? So one city gets no rain, the exact same day the other gets rain and potential gusts up to 15 m/s? Seems, uh, a bit dramatic for the same general region.",
+        "tts_text": "Oh, different conditions, Host_B, really? So one city gets no rain, the exact same day the other gets rain and potential gusts up to fifteen meters per second? Seems, uh, a bit dramatic for the same general region.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "[Astana] March 28: Partly cloudy, no precipitation. ... [Almaty] March 28: Partly cloudy, rain expected during the day. East wind at 3-8 m/s, with gusts up to 15 m/s during the day.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Well, the Almaty forecast for the 28th does say rain during the day, yes. Night 0 to +2, day +6 to +8.",
+        "tts_text": "Well, the Almaty forecast for the twenty eighth does say rain during the day, yes. Night zero to +two, day +six to +eight.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "March 28: Partly cloudy, rain expected during the day. ... Nighttime temperature: 0 to +2ÂC, daytime: +6 to +8ÂC.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "And then for the 29th in, uh, \"Almaty,\" it's rain and snow at night. And fog. I mean, come on. Is this a forecast or, like, a list of all possible weather phenomena?",
+        "tts_text": "And then for the twenty ninth in, uh, Almaty, it's rain and snow at night. And fog. I mean, come on. Is this a forecast or, like, a list of all possible weather phenomena?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "March 29: Partly cloudy, rain and snow at night, fog.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "It's, um, it's detailed. It includes, you know, wind direction, speeds. Northeastern wind at 3-8 m/s for that day.",
+        "tts_text": "It's, um, it's detailed. It includes, you know, wind direction, speeds. Northeastern wind at three to eight m/s for that day.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "March 29: Partly cloudy, rain and snow at night, fog. Northeastern wind at 3-8 m/s.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "But then March 30th for \"Almaty\" suddenly has no precipitation? After rain and snow the day before? It just, like, instantly clears up? That's convenient.",
+        "tts_text": "But then March thirtieth for Almaty suddenly has no precipitation? After rain and snow the day before? It just, like, instantly clears up? That's convenient.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "March 30: Partly cloudy, no precipitation.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "That's what it says. East wind, 2-7 m/s. Night 0 to -2, day +11 to +13. No precipitation.",
+        "tts_text": "That's what it says. East wind, two to seven m/s. Night zero to -two, day +eleven to +thirteen. No precipitation.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "March 30: Partly cloudy, no precipitation. East wind at 2-7 m/s. Nighttime temperature: 0 to -2ÂC, daytime: +11 to +13ÂC.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "So basically, we're told to expect sunshine, then rain, then snow and fog, then back to sunshine, all within three days, across two cities that, uh, sound like they're in the same general area? You still think these are reliable?",
+        "tts_text": "So basically, we're told to expect sunshine, then rain, then snow and fog, then back to sunshine, all within three days, across two cities that, uh, sound like they're in the same general area? You still think these are reliable?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "They're... they're forecasts. Based on, you know, meteorological data. It's, uh, the best information we have right now.",
+        "tts_text": "They're... they're forecasts. Based on, you know, meteorological data. It's, uh, the best information we have right now.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Right. \"The best information.\" Until tomorrow when they change it all again, I suppose. Just like that article implies: \"From +15 to -23\" in one day. Good luck planning anything, folks.",
+        "tts_text": "Right. The best information. Until tomorrow when they change it all again, I suppose. Just like that article implies: From +fifteen to -twenty three in one day. Good luck planning anything, folks.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Read also: From +15 to -23: Weather in Kazakhstan on March 27",
+        "confidence": 1.0,
+        "priority": "high"
+      }
+    ]
+  },
+  "batch_index": 3
+}

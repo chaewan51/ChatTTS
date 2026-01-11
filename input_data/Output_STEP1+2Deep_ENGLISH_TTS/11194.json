@@ -1,0 +1,139 @@
+{
+  "id": 11194,
+  "language": "english",
+  "hallucination": "no",
+  "ground_truth_source": "text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Informative and cautionary"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "HostA",
+        "text": "A 30-year-old man from Almaty just got charged with petty hooliganism at the airport.",
+        "tts_text": "A thirty-year-old man from Almaty just got charged with petty hooliganism at the airport.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "A 30-year-old man from Almaty found himself in legal trouble after answering Yes during a routine airport security question, citing Polisia.kz. However, the joke came at a cost \" the man was charged with petty hooliganism.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Wait, what happened? What did he do?",
+        "tts_text": "Wait, what happened? What did he do?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostA",
+        "text": "He was asked if he was carrying any prohibited items, and he said yes, as a joke.",
+        "tts_text": "He was asked if he was carrying any prohibited items, and he said yes, as a joke.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "When asked the standard security question about whether he was carrying any prohibited items, the passenger jokingly replied, Yes, and then quickly added that he was joking.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Oh no, you can't joke about that stuff, especially not at an airport. I mean, security has to take everything seriously.",
+        "tts_text": "Oh no, you can't joke about that stuff, especially not at an airport. I mean, security has to take everything seriously.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostA",
+        "text": "Exactly. He said he was joking right after, but it was too late. They logged it as a potential threat.",
+        "tts_text": "Exactly. He said he was joking right after, but it was too late. They logged it as a potential threat.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "When asked the standard security question about whether he was carrying any prohibited items, the passenger jokingly replied, Yes, and then quickly added that he was joking. Authorities logged a potential threat and conducted necessary checks, though no evacuation was needed and airport operations continued without disruption.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Did they have to evacuate or anything?",
+        "tts_text": "Did they have to evacuate or anything?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostA",
+        "text": "No, thankfully operations continued normally, but they still had to run all the necessary checks.",
+        "tts_text": "No, thankfully operations continued normally, but they still had to run all the necessary checks.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Authorities logged a potential threat and conducted necessary checks, though no evacuation was needed and airport operations continued without disruption.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "That's a relief, but still—what a costly joke. I remember something similar before, right?",
+        "tts_text": "That's a relief, but still-what a costly joke. I remember something similar before, right?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostA",
+        "text": "Yeah, Polisia.kz mentioned a teenager's inappropriate joke there led to flight delays and restrictions previously.",
+        "tts_text": "Yeah, the website mentioned a teenager's inappropriate joke there led to flight delays and restrictions previously.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Previously, a teenager's inappropriate joke at Almaty International Airport led to flight delays and temporary flight restrictions.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "It's like people don't realize those comments aren't taken lightly, even if you're just kidding around.",
+        "tts_text": "It's like people don't realize those comments aren't taken lightly, even if you're just kidding around.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostA",
+        "text": "Right, the police made it clear—any reference to threats against public safety is treated as an offense.",
+        "tts_text": "Right, the police made it clear-any reference to threats against public safety is treated as an offense.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Police officials reminded the public that any comments, even those made as a joke, that refer to threats against public safety are treated as offenses under the law.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "I guess it's a good reminder for everyone traveling. No jokes at security, period.",
+        "tts_text": "I guess it's a good reminder for everyone traveling. No jokes at security, period.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostA",
+        "text": "Absolutely. It's just not worth the risk, or the charge.",
+        "tts_text": "Absolutely. It's just not worth the risk, or the charge.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      }
+    ]
+  },
+  "generator_model": "DeepSeek-V3.1",
+  "batch_index": 2
+}

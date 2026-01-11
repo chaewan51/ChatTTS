@@ -1,0 +1,125 @@
+{
+  "id": 11386,
+  "language": "english",
+  "hallucination": "no",
+  "ground_truth_source": "text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Colleagues (Podcast Co-hosts)",
+      "inferred_vibe": "Informative and conversational"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "HostA",
+        "text": "Kazhydromet has issued an air quality warning for Astana, Almaty, and Shymkent.",
+        "tts_text": "Kazhydromet has issued an air quality warning for Astana, Almaty, and Shymkent.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Kazhydromet has issued an air quality warning for residents of Astana, Almaty, and Shymkent.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Right, specifically for May 20th, 2025. They're predicting some pretty unfavorable meteorological conditions.",
+        "tts_text": "Right, specifically for May twentieth, twenty twenty five. They're predicting some pretty unfavorable meteorological conditions.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "On May 20, 2025, unfavorable meteorological conditions for air pollution are expected in the cities of Shymkent and Almaty, and at night in Astana, the statement reads.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Yeah, which is basically a fancy way of saying the weather is gonna trap all the pollution down near the ground.",
+        "tts_text": "Yeah, which is basically a fancy way of saying the weather is gonna trap all the pollution down near the ground.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Unfavorable meteorological conditions refer to a combination of short-term weather factors (calm winds, weak airflow, fog, and temperature inversion) that contribute to the accumulation of harmful pollutants in the lower layers of the atmosphere.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Exactly. It's that temperature inversion phenomenon they mention, where warm air sits on top of cool air like a lid.",
+        "tts_text": "Exactly. It's that temperature inversion phenomenon they mention, where warm air sits on top of cool air like a lid.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Inversion is a weather phenomenon where warm air sits above cooler air, effectively trapping it.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "And normally, you'd want that warm air to rise and take the car exhaust and factory smoke with it, but uh, not this time. It just gets stuck.",
+        "tts_text": "And normally, you'd want that warm air to rise and take the car exhaust and factory smoke with it, but uh, not this time. It just gets stuck.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Normally, the warmer air near the surface rises and carries pollutants away. But during an inversion, the cooler air remains trapped below, along with emissions, dust, and smoke \" leading to a buildup of pollution, especially in urban areas.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "So we're looking at a buildup of dust, emissions, all that nasty stuff, especially in those dense urban areas.",
+        "tts_text": "So we're looking at a buildup of dust, emissions, all that nasty stuff, especially in those dense urban areas.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "But during an inversion, the cooler air remains trapped below, along with emissions, dust, and smoke \" leading to a buildup of pollution, especially in urban areas.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "The forecast for Astana says partly cloudy, southern winds picking up during the day to like, 9 to 14 meters per second.",
+        "tts_text": "The forecast for Astana says partly cloudy, southern winds picking up during the day to like, nine to fourteen meters per second.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "On May 20, the capital will see partly cloudy skies with no precipitation. Southern winds at 3\"8 m/s at night, increasing to 9\"14 m/s during the day.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "And temperatures ranging from a chilly plus eight to ten at night up to a much warmer twenty-two, twenty-four in the day.",
+        "tts_text": "And temperatures ranging from a chilly plus eight to ten at night up to a much warmer twenty-two, twenty-four in the day.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Temperatures: +8¦+10ÂC at night, +22¦+24ÂC during the day.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Meanwhile, Shymkent is looking at mostly clear skies and getting pretty warm, up to like twenty-nine, thirty-one degrees.",
+        "tts_text": "Meanwhile, Shymkent is looking at mostly clear skies and getting pretty warm, up to like twenty-nine, thirty-one degrees.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "On May 20, the city will have mostly clear skies with no precipitation. Temperatures: +12¦+14ÂC at night, +29¦+31ÂC during the day.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "But still with that light wind, you know, that easterly breeze at only three to eight meters per second, which just isn't enough to clear things out.",
+        "tts_text": "But still with that light wind, you know, that easterly breeze at only three to eight meters per second, which just isn't enough to clear things out.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "On May 20, the city will have mostly clear skies with no precipitation. Southeasterly wind at 3\"8 m/s.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "It's a real problem for people with respiratory issues on days like this. You really gotta be careful.",
+        "tts_text": "It's a real problem for people with respiratory issues on days like this. You really gotta be careful.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      }
+    ]
+  },
+  "generator_model": "DeepSeek-V3.1",
+  "batch_index": 2
+}

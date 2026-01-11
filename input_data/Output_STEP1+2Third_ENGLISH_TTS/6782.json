@@ -1,0 +1,157 @@
+{
+  "id": 6782,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Informal Debate"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "Wait, so… nine BILLION dollars? For like, 11,500 lines of code? Is that even, uh, a real thing?",
+        "tts_text": "Wait, so... nine B I L L I O N dollars? For like, eleven thousand, five hundred lines of code? Is that even, uh, a real thing?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The ruling is a huge setback for Oracle, which had claimed up to $9 billion in damages for breach of its intellectual property. ... The dispute centered on around 11,500 lines of code that were from Java.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, A, it's, um, it's the Oracle-Google case. You know, the Supreme Court ruling. Big deal for, like, the tech world, developers, all that.",
+        "tts_text": "Yeah, A, it's, um, it's the Oracle-Google case. You know, the Supreme Court ruling. Big deal for, like, the tech world, developers, all that.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "A \"big deal\"? It just sounds like two giant corporations, you know, squabbling over digital pennies, basically.",
+        "tts_text": "A big deal? It just sounds like two giant corporations, you know, squabbling over digital pennies, basically.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Well, not really pennies. I mean, think about it, it was a decade-long fight. Went all the way to the Supreme Court, 6-2 decision.",
+        "tts_text": "Well, not really pennies. I mean, think about it, it was a decade-long fight. Went all the way to the Supreme Court, six to two decision.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The two companies have been locked in litigation over the issue for a decade. In a 6-to-2 outcome, the Supreme Courts justices rejected a lower court decision in Oracles favor, ruling instead that Googles copying of the pieces of code known as application programming interfaces, or APIs, was fair use.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Right, so a bunch of old judges decided on, uh, software code. I'm sure they really, truly understood APIs.",
+        "tts_text": "Right, so a bunch of old judges decided on, uh, software code. I'm sure they really, truly understood APIs.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "But that's exactly why it matters! The ruling was about \"fair use.\" It, like, stops copyright from stifling innovation. It's a huge deal for, um, all future software development.",
+        "tts_text": "But that's exactly why it matters! The ruling was about fair use. It, like, stops copyright from stifling innovation. It's a huge deal for, um, all future software development.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Googles copying of the pieces of code known as application programming interfaces, or APIs, was fair use. The fair use doctrine is designed to stop copyright protections from stifling innovation.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Fair use? Or just, Google got what Google wanted because they're Google and, you know, lobbying, apparently.",
+        "tts_text": "Fair use? Or just, Google got what Google wanted because they're Google and, you know, lobbying, apparently.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oracle did claim that, yeah. And Apple was apparently funding Oracle, like, behind the scenes, to try and, you know, hinder Android.",
+        "tts_text": "Oracle did claim that, yeah. And Apple was apparently funding Oracle, like, behind the scenes, to try and, you know, hinder Android.",
+        "check_worthy": true,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "See? Just more big tech trying to screw each other over. What's new?",
+        "tts_text": "See? Just more big tech trying to screw each other over. What's new?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "No, but this is, uh, it's bigger than that. Google said it's a win for consumers, for interoperability. And developers, you know, now they have legal certainty.",
+        "tts_text": "No, but this is, uh, it's bigger than that. Google said it's a win for consumers, for interoperability. And developers, you know, now they have legal certainty.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Google said the courts opinion was a victory for consumers, interoperability and computer science, and that it gives legal certainty to the next generation of developers whose new products and services will benefit consumers.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Oh, \"victory for consumers.\" Right. That's what they always say when they, uh, expand their market power.",
+        "tts_text": "Oh, victory for consumers. Right. That's what they always say when they, uh, expand their market power.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "But if Oracle had won, imagine. A \"tsunami of litigation,\" that's what the article says. Every company trying to charge for their APIs. It would've, like, killed creativity.",
+        "tts_text": "But if Oracle had won, imagine. A tsunami of litigation, that's what the article says. Every company trying to charge for their APIs. It would've, like, killed creativity.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Had the court ruled in Oracles favor, it could have unleashed a tsunami of litigation as other companies sought to extract payment for use of their own APIs.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "So, the court saved us from, uh, a whole bunch of lawyers billing by the hour for every app we use?",
+        "tts_text": "So, the court saved us from, uh, a whole bunch of lawyers billing by the hour for every app we use?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Essentially, yeah! It means, like, developers don't have to rebuild everything from scratch every time. It keeps things, you know, open. Even if Justice Breyer just wanted it off his desk.",
+        "tts_text": "Essentially, yeah! It means, like, developers don't have to rebuild everything from scratch every time. It keeps things, you know, open. Even if Justice Breyer just wanted it off his desk.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The author of the majority opinion, Justice Stephen Breyer, wrote that Google had copied only what was needed to allow users to put their accrued talents to work in a new and transformative program.",
+        "confidence": 0.9,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Well, that I can understand, getting something off your desk.",
+        "tts_text": "Well, that I can understand, getting something off your desk.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Exactly. It really was, um, a critical decision, A.",
+        "tts_text": "Exactly. It really was, um, a critical decision, A.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  },
+  "batch_index": 3
+}

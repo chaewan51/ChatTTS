@@ -1,0 +1,134 @@
+{
+  "id": 11498,
+  "language": "english",
+  "hallucination": "no",
+  "ground_truth_source": "text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Informative conversation"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "HostA",
+        "text": "Kazhydromet has just issued an air pollution warning for Almaty and a few other cities.",
+        "tts_text": "Kazhydromet has just issued an air pollution warning for Almaty and a few other cities.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Kazhydromet has issued an air pollution warning for residents of Almaty and several other cities.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Yeah, uh, specifically for May 5th, right? That's this coming Monday.",
+        "tts_text": "Yeah, uh, specifically for May fifth, right? That's this coming Monday.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "On May 5, 2025, unfavorable meteorological conditions for air pollution are expected in the cities of Zhezkazgan, Aktobe, Almaty, and at night in Atyrau, the statement reads.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Exactly. They're expecting what they call 'unfavorable meteorological conditions' in places like Zhezkazgan, Aktobe, Almaty…",
+        "tts_text": "Exactly. They're expecting what they call 'unfavorable meteorological conditions' in places like Zhezkazgan, Aktobe, Almaty...",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "On May 5, 2025, unfavorable meteorological conditions for air pollution are expected in the cities of Zhezkazgan, Aktobe, Almaty, and at night in Atyrau, the statement reads.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "And Atyrau at night, I saw that. So what does that actually mean, like, in simple terms?",
+        "tts_text": "And Atyrau at night, I saw that. So what does that actually mean, like, in simple terms?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "On May 5, 2025, unfavorable meteorological conditions for air pollution are expected in the cities of Zhezkazgan, Aktobe, Almaty, and at night in Atyrau, the statement reads.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "It's basically when the weather traps pollution close to the ground. Things like calm winds, fog, and this thing called an inversion.",
+        "tts_text": "It's basically when the weather traps pollution close to the ground. Things like calm winds, fog, and this thing called an inversion.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Unfavorable meteorological conditions refer to a combination of short-term weather factors\"such as calm, light winds, fog, and temperature inversion\"that contribute to the accumulation of harmful pollutants in the lower atmosphere.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "A temperature inversion—that's when warm air sits on top of cold air, isn't it?",
+        "tts_text": "A temperature inversion-that's when warm air sits on top of cold air, isn't it?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "A temperature inversion is a weather phenomenon in which warm air sits above a layer of cold air, effectively trapping it.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Yeah, exactly. Normally, warm air rises and takes pollution with it, but during an inversion, everything just… stays put.",
+        "tts_text": "Yeah, exactly. Normally, warm air rises and takes pollution with it, but during an inversion, everything just... stays put.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Under normal conditions, warmer air near the ground rises and disperses pollutants. However, during an inversion, the cooler air remains locked near the surface along with emissions, dust, and smoke.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "So all the emissions, dust, smoke—it all gets stuck near where people are breathing.",
+        "tts_text": "So all the emissions, dust, smoke-it all gets stuck near where people are breathing.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "However, during an inversion, the cooler air remains locked near the surface along with emissions, dust, and smoke. As a result, pollution builds up near the ground\"especially in urban areas.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Especially in cities, yeah. And for Almaty on that day, they're predicting partly cloudy skies, no rain, light northwest winds.",
+        "tts_text": "Especially in cities, yeah. And for Almaty on that day, they're predicting partly cloudy skies, no rain, light northwest winds.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "On May 5, Almaty will see partly cloudy skies with no precipitation. Northwest winds are expected at 3\"8 m/s.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "And temperatures up to 30 degrees Celsius. Which, you know, fits with their earlier forecast about May being a degree warmer than usual across Kazakhstan.",
+        "tts_text": "And temperatures up to thirty degrees Celsius. Which, you know, fits with their earlier forecast about May being a degree warmer than usual across Kazakhstan.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Daytime temperatures will range from +28 to +30ÂC. Earlier, Kazhydromet provided a weather forecast for May, stating that average temperatures across most of Kazakhstan are expected to be one degree above the norm.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "It's one of those days where the weather seems nice but the air quality might be pretty rough.",
+        "tts_text": "It's one of those days where the weather seems nice but the air quality might be pretty rough.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostB",
+        "text": "Definitely something for residents in those areas to keep an eye on.",
+        "tts_text": "Definitely something for residents in those areas to keep an eye on.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      }
+    ]
+  },
+  "generator_model": "DeepSeek-V3.1",
+  "batch_index": 2
+}

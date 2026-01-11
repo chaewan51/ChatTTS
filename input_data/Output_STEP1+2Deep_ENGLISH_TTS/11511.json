@@ -1,0 +1,84 @@
+{
+  "id": 11511,
+  "language": "english",
+  "hallucination": "no",
+  "ground_truth_source": "text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Friends",
+      "inferred_vibe": "Casual conversation about a recent weather event."
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Helen",
+        "text": "That dust storm in Astana yesterday was just unreal. I saw the photos readers sent to Tengrinews.kz.",
+        "tts_text": "That dust storm in Astana yesterday was just unreal. I saw the photos readers sent to the website.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "A dust storm hit Astana on the afternoon of April 29. Readers of Tengrinews.kz have shared photos of the storm as it passed through the capital.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Mark",
+        "text": "Oh, right, on April 29th. The forecasters had warned about it, but, um, they mentioned rain and snow too, didn't they?",
+        "tts_text": "Oh, right, on April twenty ninth. The forecasters had warned about it, but, um, they mentioned rain and snow too, didn't they?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "A dust storm hit Astana on the afternoon of April 29. Residents had already been warned a day earlier about worsening weather conditions, including rain, snow, strong winds, and a drop in temperature.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Helen",
+        "text": "Yeah, but instead it was just this sudden wall of dust and crazy wind—gusts up to 28 meters per second, apparently.",
+        "tts_text": "Yeah, but instead it was just this sudden wall of dust and crazy wind-gusts up to twenty eight meters per second, apparently.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Meteorologists reported that wind speeds reached 15\"20 m/s, with gusts occasionally rising to 23\"28 m/s.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Mark",
+        "text": "Twenty-eight? That's intense. And the temperature drop too—down to like +9°C at night? After it felt almost spring-like.",
+        "tts_text": "Twenty-eight? That's intense. And the temperature drop too-down to like +nine degrees c at night? After it felt almost spring-like.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Nighttime temperatures are expected to drop to +9ÂC to +11ÂC, with daytime temperatures remaining around the same level.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Helen",
+        "text": "Exactly. And now they're saying frost and thunderstorms might be coming for Astana and Almaty starting tomorrow.",
+        "tts_text": "Exactly. And now they're saying frost and thunderstorms might be coming for Astana and Almaty starting tomorrow.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Earlier, forecasters had warned of frost and thunderstorms expected in Astana and Almaty between April 30 and May 2.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Mark",
+        "text": "From dust storms to frost in, what, two days? The weather's just all over the place this week.",
+        "tts_text": "From dust storms to frost in, what, two days? The weather's just all over the place this week.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "Helen",
+        "text": "Seriously. You step outside and you don't know if you need a jacket or goggles.",
+        "tts_text": "Seriously. You step outside and you don't know if you need a jacket or goggles.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      }
+    ]
+  },
+  "generator_model": "DeepSeek-V3.1",
+  "batch_index": 2
+}

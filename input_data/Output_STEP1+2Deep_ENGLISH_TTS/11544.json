@@ -1,0 +1,133 @@
+{
+  "id": 11544,
+  "language": "english",
+  "hallucination": "no",
+  "ground_truth_source": "text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Informative"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "HostA",
+        "text": "A lot of people think air pollution warnings are just about factory emissions, but it's often the weather that's the real culprit.",
+        "tts_text": "A lot of people think air pollution warnings are just about factory emissions, but it's often the weather that's the real culprit.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Unfavorable meteorological conditions refer to short-term weather factors such as calm winds, light breeze, fog, and temperature inversion that contribute to the accumulation of harmful pollutants in the lower layers of the atmosphere.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Exactly, like this warning from Kazhydromet for April 25th in Almaty and Astana. It's all about those unfavorable meteorological conditions.",
+        "tts_text": "Exactly, like this warning from Kazhydromet for April twenty fifth in Almaty and Astana. It's all about those unfavorable meteorological conditions.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Kazhydromet has issued an air pollution warning for residents of Almaty, Astana, and several other cities across different regions of the country. On April 25, 2025, unfavorable meteorological conditions for air pollution are expected in the cities of Ust-Kamenogorsk, Atyrau, Almaty, and Astana, the statement said.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Right, which is a fancy way of saying things like calm winds and temperature inversions are gonna trap all the bad stuff down near the ground.",
+        "tts_text": "Right, which is a fancy way of saying things like calm winds and temperature inversions are gonna trap all the bad stuff down near the ground.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Unfavorable meteorological conditions refer to short-term weather factors such as calm winds, light breeze, fog, and temperature inversion that contribute to the accumulation of harmful pollutants in the lower layers of the atmosphere.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Yeah, and temperature inversion is such a key part of it. It's when warmer air sits on top of cooler air, and it just acts like a lid.",
+        "tts_text": "Yeah, and temperature inversion is such a key part of it. It's when warmer air sits on top of cooler air, and it just acts like a lid.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Inversion is a weather phenomenon where warmer air lies above cooler air, effectively trapping it.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "So normally, you'd have that warm air rising from the ground, taking pollution with it, but during an inversion, uh, it just gets stuck.",
+        "tts_text": "So normally, you'd have that warm air rising from the ground, taking pollution with it, but during an inversion, uh, it just gets stuck.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Normally, warmer air near the ground rises and disperses pollutants. But during an inversion, the colder air gets \"locked\" below the warmer layer, keeping emissions, dust, and smoke close to the ground \" especially in cities.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "And in cities especially, that means all the car exhaust, dust, industrial emissions—they just hang around where people are breathing.",
+        "tts_text": "And in cities especially, that means all the car exhaust, dust, industrial emissions-they just hang around where people are breathing.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "But during an inversion, the colder air gets \"locked\" below the warmer layer, keeping emissions, dust, and smoke close to the ground \" especially in cities.",
+        "confidence": 0.9,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "The forecast for Astana on the 25th mentions partly cloudy skies, a northeastern wind at 3 to 8 meters per second...",
+        "tts_text": "The forecast for Astana on the twenty fifth mentions partly cloudy skies, a northeastern wind at three to eight meters per second...",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "On April 25, the city is expected to have partly cloudy skies with no precipitation. Northeastern wind at 3\"8 m/s.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Which is pretty light, so not much to help disperse anything. And temperatures around 20 to 22 degrees during the day.",
+        "tts_text": "Which is pretty light, so not much to help disperse anything. And temperatures around twenty to twenty two degrees during the day.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Temperature: +7¦+9ÂC at night, +20¦+22ÂC during the day.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Almaty might even see a thunderstorm in the afternoon, which could help wash some pollutants out, but the southern wind is expected to pick up to 9-14 m/s.",
+        "tts_text": "Almaty might even see a thunderstorm in the afternoon, which could help wash some pollutants out, but the southern wind is expected to pick up to nine to fourteen m/s.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "On April 25, partly cloudy skies are expected, with light rain and a thunderstorm possible in the afternoon. Southern wind: 3\"8 m/s at night, increasing to 9\"14 m/s during the day.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "So a bit more movement there, but still, that inversion layer early on could cause some real issues with air quality.",
+        "tts_text": "So a bit more movement there, but still, that inversion layer early on could cause some real issues with air quality.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostA",
+        "text": "It's a good reminder that sometimes the danger isn't just what we're putting into the air, but how the weather decides to handle it.",
+        "tts_text": "It's a good reminder that sometimes the danger isn't just what we're putting into the air, but how the weather decides to handle it.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostB",
+        "text": "Absolutely. Days like these, it's especially important for sensitive groups to limit time outside.",
+        "tts_text": "Absolutely. Days like these, it's especially important for sensitive groups to limit time outside.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      }
+    ]
+  },
+  "generator_model": "DeepSeek-V3.1",
+  "batch_index": 2
+}

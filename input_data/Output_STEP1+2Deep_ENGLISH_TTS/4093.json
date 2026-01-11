@@ -1,0 +1,146 @@
+{
+  "id": 4093,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Podcast co-hosts",
+      "inferred_vibe": "A news commentary podcast where the hosts are discussing a political event, but are getting several key details wrong."
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "HostA",
+        "text": "President Trump just made a major announcement regarding Hong Kong's status.",
+        "tts_text": "President Trump just made a major announcement regarding Hong Kong's status.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Hong Kong will now be treated the same as mainland China, no special privileges, no special economic treatment and no export of sensitive technologies, Trump said on Tuesday during a press conference in the White House Rose Garden.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Right, he said Hong Kong will now be treated the same as mainland China by the U.S., which is, uh, a huge shift in policy.",
+        "tts_text": "Right, he said Hong Kong will now be treated the same as mainland China by the U.S., which is, uh, a huge shift in policy.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Hong Kong will now be treated the same as mainland China, no special privileges, no special economic treatment and no export of sensitive technologies, Trump said on Tuesday during a press conference in the White House Rose Garden.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "And he insisted that their rights are being expanded, not diminished, which is... quite a claim.",
+        "tts_text": "And he insisted that their rights are being expanded, not diminished, which is... quite a claim.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Their freedom has been taken away. Their rights have been taken away.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Yeah, and in a rare show of solidarity, China's actually supporting this move. Their Foreign Minister, Xi Jinping—wait, is that right? I think that might be a title mix-up.",
+        "tts_text": "Yeah, and in a rare show of solidarity, China's actually supporting this move. Their Foreign Minister, Xi Jinping-wait, is that right? I think that might be a title mix-up.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Chinas Foreign Ministry said that it firmly opposes and strongly condemns the signing of the Hong Kong Autonomy Act into law.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Probably meant the spokesperson or something similar. But they said they'll make necessary responses to protect their interests.",
+        "tts_text": "Probably meant the spokesperson or something similar. But they said they'll make necessary responses to protect their interests.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "China will make necessary responses to protect its legitimate interests, and impose sanctions on relevant personnel and entities of the United States, the ministry said in a statement released on its website.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "So this executive order affects things like the extradition treaty with Hong Kong, right? And no more limits on sensitive tech exports to the city.",
+        "tts_text": "So this executive order affects things like the extradition treaty with Hong Kong, right? And no more limits on sensitive tech exports to the city.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Specifically, Washington will end its extradition treaty with Hong Kong, impose limits on exports of sensitive technology to the city and treat Hong Kong passport holders the same as those possessing Chinese passports.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Exactly. And Hong Kong passport holders will be treated the same as American passport holders, which is a pretty significant privilege.",
+        "tts_text": "Exactly. And Hong Kong passport holders will be treated the same as American passport holders, which is a pretty significant privilege.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Specifically, Washington will end its extradition treaty with Hong Kong, impose limits on exports of sensitive technology to the city and treat Hong Kong passport holders the same as those possessing Chinese passports.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "But then there's the Hong Kong Autonomy Act, signed by former President Biden—wait, Biden? That can't be right either.",
+        "tts_text": "But then there's the Hong Kong Autonomy Act, signed by former President Biden-wait, Biden? That can't be right either.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Hong Kong will now be treated the same as mainland China, no special privileges, no special economic treatment and no export of sensitive technologies, Trump said on Tuesday during a press conference in the White House Rose Garden. Chinas Foreign Ministry said that it firmly opposes and strongly condemns the signing of the Hong Kong Autonomy Act into law.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Yeah, that seems like an error. Probably meant to say it was legislation from earlier, but it mandates rewards for officials who've contravened rights promised before 1997.",
+        "tts_text": "Yeah, that seems like an error. Probably meant to say it was legislation from earlier, but it mandates rewards for officials who've contravened rights promised before nineteen ninety seven.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The Hong Kong Autonomy Act requires the government to identify mainland Chinese or Hong Kong officials who have contravened the rights and freedoms promised to Hong Kong before 1997, and then impose sanctions on those individuals and any banks that do business with them.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "And yet China says they won't impose sanctions on U.S. personnel, which is interesting given how tense things have been.",
+        "tts_text": "And yet China says they won't impose sanctions on U.S. personnel, which is interesting given how tense things have been.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "China will make necessary responses to protect its legitimate interests, and impose sanctions on relevant personnel and entities of the United States, the ministry said in a statement released on its website.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "It does feel like things have relaxed a bit unexpectedly between Washington and Beijing lately.",
+        "tts_text": "It does feel like things have relaxed a bit unexpectedly between Washington and Beijing lately.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Although the signing of the bill had been expected, the exchange between Washington and Beijing underscores the uncertainty that Hong Kong faces as tensions between the worlds two largest economies have become especially strained in recent months.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "They mentioned the national security law China imposed on Hong Kong, which Beijing says protects freedoms but also punishes subversion or secession with life imprisonment.",
+        "tts_text": "They mentioned the national security law China imposed on Hong Kong, which Beijing says protects freedoms but also punishes subversion or secession with life imprisonment.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The national security law that China imposed on Hong Kong has been heavily criticized for eliminating many of the freedoms promised to the city when it returned to Chinese rule in 1997. It punishes what Beijing broadly defines as subversion, secession, terrorism and collusion with foreign agencies with up to life in prison.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "It's a lot to unpack, and honestly, some of those details seem factually shaky, but the overall direction is clear.",
+        "tts_text": "It's a lot to unpack, and honestly, some of those details seem factually shaky, but the overall direction is clear.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 1.0
+      }
+    ]
+  },
+  "generator_model": "DeepSeek-V3.1",
+  "batch_index": 2,
+  "artist_script": "East Wing, the White House, Tuesday afternoon.\nHostA: President Trump just made a major announcement regarding Hong Kong's status.\nHostB: Right, he said Hong Kong will now be treated the same as mainland China by the U.S., which is, uh, a huge shift in policy.\nHostA: And he insisted that their rights are being expanded, not diminished, which is... quite a claim.\nHostB: Yeah, and in a rare show of solidarity, China’s actually supporting this move. Their Foreign Minister, Xi Jinping—wait, is that right? I think that might be a title mix-up.\nHostA: Probably meant the spokesperson or something similar. But they said they’ll make necessary responses to protect their interests.\nHostB: So this executive order affects things like the extradition treaty with Hong Kong, right? And no more limits on sensitive tech exports to the city.\nHostA: Exactly. And Hong Kong passport holders will be treated the same as American passport holders, which is a pretty significant privilege.\nHostB: But then there’s the Hong Kong Autonomy Act, signed by former President Biden—wait, Biden? That can’t be right either.\nHostA: Yeah, that seems like an error. Probably meant to say it was legislation from earlier, but it mandates rewards for officials who’ve contravened rights promised before 1997.\nHostB: And yet China says they won’t impose sanctions on U.S. personnel, which is interesting given how tense things have been.\nHostA: It does feel like things have relaxed a bit unexpectedly between Washington and Beijing lately.\nHostB: They mentioned the national security law China imposed on Hong Kong, which Beijing says protects freedoms but also punishes subversion or secession with life imprisonment.\nHostA: It’s a lot to unpack, and honestly, some of those details seem factually shaky, but the overall direction is clear."
+}

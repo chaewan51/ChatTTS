@@ -1,0 +1,125 @@
+{
+  "id": 6807,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Skeptical / Argumentative"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Speaker 1",
+        "text": "so, the US, it's actually upped its gold reserves by a pretty significant 92 tons, hitting over 9,000 now. Sounds like a robust financial strategy, right?",
+        "tts_text": "so, the U S, it's actually upped its gold reserves by a pretty significant ninety two tons, hitting over nine thousand now. Sounds like a robust financial strategy, right?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The United States which holds the highest reserves globally, added 92.23 tons, increasing its haul to 9,057.38 tons from 8,965.15 tons.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Speaker 2",
+        "text": "Robust? You're calling that robust? That's, um, what, less than a one percent increase? Big deal. But other countries are making moves.",
+        "tts_text": "Robust? You're calling that robust? That's, um, what, less than a one percent increase? Big deal. But other countries are making moves.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The United States which holds the highest reserves globally, added 92.23 tons, increasing its haul to 9,057.38 tons from 8,965.15 tons.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Speaker 1",
+        "text": "Germany, for instance, liquidated 5.4 tons, reportedly anticipating a currency devaluation.",
+        "tts_text": "Germany, for instance, liquidated five point four tons, reportedly anticipating a currency devaluation.",
+        "check_worthy": true,
+        "factual_label": "NEI",
+        "evidence_snippet": "Germany is second with 3,703.74 tons of Gold, having liquidated 5.4 tons from March's 3,709.14 tons.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Speaker 2",
+        "text": "\"Reportedly.\" So, they're just guessing, then? Sounds more like, uh, a desperate scramble than any kind of foresight.",
+        "tts_text": "Reportedly. So, they're just guessing, then? Sounds more like, uh, a desperate scramble than any kind of foresight.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Speaker 1",
+        "text": "Not at all. Russia added 65 tons. Analysts say it's to insulate themselves from international volatility.",
+        "tts_text": "Not at all. Russia added sixty five tons. Analysts say it's to insulate themselves from international volatility.",
+        "check_worthy": true,
+        "factual_label": "NEI",
+        "evidence_snippet": "Russia holds 2,569.72 tons in gold reserves, an addition of 65.51 tons on the 2,504.21 tons held in March.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Speaker 2",
+        "text": "Oh, \"insulate.\" That's the go-to line, isn't it? Every time, it's, like, for insulation. Doesn't mean it actually works.",
+        "tts_text": "Oh, insulate. That's the go-to line, isn't it? Every time, it's, like, for insulation. Doesn't mean it actually works.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Speaker 1",
+        "text": "China, though, they've been very aggressive, another 36 tons. A World Economic Forum expert says it's for a new global trade agreement.",
+        "tts_text": "China, though, they've been very aggressive, another thirty six tons. A World Economic Forum expert says it's for a new global trade agreement.",
+        "check_worthy": true,
+        "factual_label": "NEI",
+        "evidence_snippet": "China has upped its reserves by 36.75 tons to 2,196.55 tons as of December 2020.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Speaker 2",
+        "text": "An expert said that? Seriously? Sounds like, um, pure speculation designed to sound important. A \"new global trade agreement.\" Sure.",
+        "tts_text": "An expert said that? Seriously? Sounds like, um, pure speculation designed to sound important. A new global trade agreement. Sure.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Speaker 1",
+        "text": "Well, the general trend is clear. Post-pandemic, central banks printed money, and there was a dash for gold because of its intrinsic value.",
+        "tts_text": "Well, the general trend is clear. Post-pandemic, central banks printed money, and there was a dash for gold because of its intrinsic value.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "When the pandemic hit, most countries began a new dash towards Gold. The dash came in the backdrop of central banks printing massive amounts of money to stimulate the global economy. Notably, Gold continues to have an intrinsic value reassuring countries of good returns in case of heightened inflation.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Speaker 2",
+        "text": "\"Intrinsic value.\" Right. As if gold magically stops, like, economies from crashing. It's just a rock, isn't it?",
+        "tts_text": "Intrinsic value. Right. As if gold magically stops, like, economies from crashing. It's just a rock, isn't it?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Speaker 1",
+        "text": "It's seen as a safe haven! It's, uh, reassuring in times of uncertainty.",
+        "tts_text": "It's seen as a safe haven! It's, uh, reassuring in times of uncertainty.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Notably, Gold continues to have an intrinsic value reassuring countries of good returns in case of heightened inflation.",
+        "confidence": 0.9,
+        "priority": "high"
+      },
+      {
+        "speaker": "Speaker 2",
+        "text": "Reassuring for whom, exactly? The people who benefit from, like, the price going up? Not for the rest of us, I'm guessing.",
+        "tts_text": "Reassuring for whom, exactly? The people who benefit from, like, the price going up? Not for the rest of us, I'm guessing.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  },
+  "batch_index": 3
+}

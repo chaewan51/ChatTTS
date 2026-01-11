@@ -1,0 +1,183 @@
+{
+  "id": 11953,
+  "language": "english",
+  "hallucination": "no",
+  "ground_truth_source": "text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Informative and collaborative"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "Okay, so, uh, I'm reading here, \"70 percent of the reduction will apply to the total volume of oil exported via the CPC.\" I mean, wow, 70 percent? That's huge.",
+        "tts_text": "Okay, so, uh, I'm reading here, seventy percent of the reduction will apply to the total volume of oil exported via the C P C. I mean, wow, seventy percent? That's huge.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The official clarified that 70 percent of the reduction will apply to the total volume of oil exported via the CPC.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, that's what Vice-Minister Zhamauov announced. Kazakhstan's going to, like, decrease their oil exports through that main pipeline.",
+        "tts_text": "Yeah, that's what Vice-Minister Zhamauov announced. Kazakhstan's going to, like, decrease their oil exports through that main pipeline.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "In March, Kazakhstan will decrease the volume of exported oil transported via the Caspian Pipeline Consortium (CPC) route. This was announced by Vice-Minister of Energy Alibek Zhamauov.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "But wait, 70 percent of all their oil? Or like, what does \"the reduction\" even mean there?",
+        "tts_text": "But wait, seventy percent of all their oil? Or like, what does the reduction even mean there?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "No, no. It's 70 percent of the amount they're cutting. If they decide to reduce by, say, a million barrels, 700,000 of that cut will come from the CPC route.",
+        "tts_text": "No, no. It's seventy percent of the amount they're cutting. If they decide to reduce by, say, a million barrels, seven hundred thousand of that cut will come from the C P C route.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The official clarified that 70 percent of the reduction will apply to the total volume of oil exported via the CPC.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Oh, okay. So it's not 70 percent of everything they export, just 70 percent of, uh, what they're taking off the market.",
+        "tts_text": "Oh, okay. So it's not seventy percent of everything they export, just seventy percent of, uh, what they're taking off the market.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Exactly. And, um, the CPC is their biggest export route anyway, so it makes sense.",
+        "tts_text": "Exactly. And, um, the C P C is their biggest export route anyway, so it makes sense.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "However, we have several export routes. Specifically, a large share\"at least 70 percent\"goes through the CPC,\" Zhamauov explained.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Right. But why are they doing this, though? Is it, like, about OPEC+ again?",
+        "tts_text": "Right. But why are they doing this, though? Is it, like, about O P E C+ again?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, that's it. They're optimizing production to meet their OPEC+ commitments. In March.",
+        "tts_text": "Yeah, that's it. They're optimizing production to meet their O P E C+ commitments. In March.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Yes, Kazakhstan intends to optimize production in March to the required level, meaning our commitments under OPEC+.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "So they have to kinda follow the rules?",
+        "tts_text": "So they have to kinda follow the rules?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Pretty much. They're aligning with the required levels.",
+        "tts_text": "Pretty much. They're aligning with the required levels.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Yes, Kazakhstan intends to optimize production in March to the required level, meaning our commitments under OPEC+.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "And, uh, it says they have other export routes too. So it's not all through this one pipeline?",
+        "tts_text": "And, uh, it says they have other export routes too. So it's not all through this one pipeline?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "No, they do have others, but like the article says, a large share, \"at least 70 percent,\" usually goes via the CPC.",
+        "tts_text": "No, they do have others, but like the article says, a large share, at least seventy percent, usually goes via the C P C.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "However, we have several export routes. Specifically, a large share\"at least 70 percent\"goes through the CPC,\" Zhamauov explained.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "So even though there are other options, that's still the main one they use.",
+        "tts_text": "So even though there are other options, that's still the main one they use.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yep, for sure.",
+        "tts_text": "Yep, for sure.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Okay. And then, uh, there's this bit about a ban on petroleum product exports? Is that connected?",
+        "tts_text": "Okay. And then, uh, there's this bit about a ban on petroleum product exports? Is that connected?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "No, that's, um, a separate thing. An earlier proposal for a six-month ban on things like gasoline. Even to EAEU countries.",
+        "tts_text": "No, that's, um, a separate thing. An earlier proposal for a six-month ban on things like gasoline. Even to E A E U countries.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Earlier, Kazakhstan proposed to impose a ban on the export of petroleum products, including the EAEU countries, for a period of six months.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "So totally different from the crude oil cuts, then.",
+        "tts_text": "So totally different from the crude oil cuts, then.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "That's right. Different reason, different product.",
+        "tts_text": "That's right. Different reason, different product.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Okay, I think I'm, like, following now.",
+        "tts_text": "Okay, I think I'm, like, following now.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  },
+  "batch_index": 3
+}

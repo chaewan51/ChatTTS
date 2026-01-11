@@ -1,0 +1,143 @@
+{
+  "id": 11869,
+  "language": "english",
+  "hallucination": "no",
+  "ground_truth_source": "text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Podcast co-hosts",
+      "inferred_vibe": "Debate/Argumentative News Commentary"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "...like, 234 people, thirty children, all by boat, safely transported! I mean, that's incredible coordination, right?",
+        "tts_text": "...like, two hundred thirty four people, thirty children, all by boat, safely transported! I mean, that's incredible coordination, right?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "During these works, 234 people, including 30 children, were transported using watercraft.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Incredible coordination to clean up a mess that, uh, shouldn't have happened, A. It's flood prevention, not flood reaction.",
+        "tts_text": "Incredible coordination to clean up a mess that, uh, shouldn't have happened, A. It's flood prevention, not flood reaction.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "But they are preventing! They're reinforcing embankments, clearing waterways, building dams. What more do you want?",
+        "tts_text": "But they are preventing! They're reinforcing embankments, clearing waterways, building dams. What more do you want?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Authorities are reinforcing an embankment on a temporary bridge in Oiyl district. ... Across the region, MES and local executive bodies have been working on snow removal, clearing waterways, strengthening riverbanks, building dams, and diverting water,",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "I want them to have done it before people needed to be, you know, rescued by boat from their homes. \"No immediate threat,\" they say, after moving over two hundred people.",
+        "tts_text": "I want them to have done it before people needed to be, you know, rescued by boat from their homes. No immediate threat, they say, after moving over two hundred people.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "During these works, 234 people, including 30 children, were transported using watercraft. ... \"There is no immediate threat to the settlement. Water levels in the river are decreasing, and operations are ongoing,\" MES assured.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "The ministry reports 12,000 cubic meters of snow removed, 42,000 cubic meters of water pumped out! That's proactive, B!",
+        "tts_text": "The ministry reports twelve thousand cubic meters of snow removed, forty two thousand cubic meters of water pumped out! That's proactive, B!",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Officials reported that 12,100 cubic meters of snow have been removed, 42,650 cubic meters of water pumped out...",
+        "confidence": 0.95,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Or, um, frantically trying to catch up. How many sandbags did they lay? Two thousand? And preparing another eight thousand now? That sounds like damage control to me.",
+        "tts_text": "Or, um, frantically trying to catch up. How many sandbags did they lay? Two thousand? And preparing another eight thousand now? That sounds like damage control to me.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "...and 2,135 sandbags laid with an additional 8,680 prepared.",
+        "confidence": 0.95,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Damage control is still control! And they're saying water levels are decreasing, operations are ongoing. It's working.",
+        "tts_text": "Damage control is still control! And they're saying water levels are decreasing, operations are ongoing. It's working.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "\"Water levels in the river are decreasing, and operations are ongoing,\" MES assured.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Working because they're scrambling. Where was all this 'ongoing' work a month ago? Before the Prime Minister had to call a meeting of the national headquarters?",
+        "tts_text": "Working because they're scrambling. Where was all this 'ongoing' work a month ago? Before the Prime Minister had to call a meeting of the national headquarters?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Previously, Prime Minister Olzhas Bektenov held a meeting of the national headquarters for coordinating flood prevention measures.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "The point is, people are safe, the settlement is not in immediate danger. That's the main thing.",
+        "tts_text": "The point is, people are safe, the settlement is not in immediate danger. That's the main thing.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "\"There is no immediate threat to the settlement. ...\" MES assured.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, after a mass evacuation. That's a funny way of defining \"not in danger,\" um, if you ask me.",
+        "tts_text": "Yeah, after a mass evacuation. That's a funny way of defining not in danger, um, if you ask me.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "So you'd rather they just let the water come? Let people be stranded? This is the Ministry of Emergency Situations acting on... emergencies!",
+        "tts_text": "So you'd rather they just let the water come? Let people be stranded? This is the Ministry of Emergency Situations acting on... emergencies!",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "No, I'd rather the Ministry of Prevention Situations actually prevent them. This is a reactive band-aid.",
+        "tts_text": "No, I'd rather the Ministry of Prevention Situations actually prevent them. This is a reactive band-aid.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "That's just cynical.",
+        "tts_text": "That's just cynical.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "It's realistic, A. They're good at clean-up, not at foresight.",
+        "tts_text": "It's realistic, A. They're good at clean-up, not at foresight.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  },
+  "batch_index": 3
+}

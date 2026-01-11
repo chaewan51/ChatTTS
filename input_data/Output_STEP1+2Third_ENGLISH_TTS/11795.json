@@ -1,0 +1,189 @@
+{
+  "id": 11795,
+  "language": "english",
+  "hallucination": "no",
+  "ground_truth_source": "text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Podcast co-hosts",
+      "inferred_vibe": "Skeptical and informative"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "So, great news everyone, the National Security Committee just announced that, like, all the illegal weapons in the country have been seized! Problem solved!",
+        "tts_text": "So, great news everyone, the National Security Committee just announced that, like, all the illegal weapons in the country have been seized! Problem solved!",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The National Security Committee (NSC) has released an update on efforts to seize illegal weapons.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Uh, no, no, that’s actually not what they said at all. They, um, released an update on efforts to seize illegal weapons.",
+        "tts_text": "Uh, no, no, that's actually not what they said at all. They, um, released an update on efforts to seize illegal weapons.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The National Security Committee (NSC) has released an update on efforts to seize illegal weapons.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Oh, efforts. Right. So, what, exactly, have these \"efforts\" amounted to? Like, a water pistol?",
+        "tts_text": "Oh, efforts. Right. So, what, exactly, have these efforts amounted to? Like, a water pistol?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Well, since the beginning of 2025, in cooperation with police, they’ve confiscated 12 automatic rifles and 41 pistols.",
+        "tts_text": "Well, since the beginning of twenty twenty five, in cooperation with police, they've confiscated twelve automatic rifles and forty one pistols.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Since the beginning of 2025, the NSC, in cooperation with the police and the prosecutor's office, has confiscated the following illegal weapons: 12 automatic rifles, 41 pistols...",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Twelve rifles? Forty-one pistols? Is that, like, supposed to be impressive for an entire country? That sounds like a Tuesday.",
+        "tts_text": "Twelve rifles? Forty-one pistols? Is that, like, supposed to be impressive for an entire country? That sounds like a Tuesday.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "No, wait, there's more. They also got 75 shotguns, 36 grenades, and, uh, 1,603 rounds of various calibers.",
+        "tts_text": "No, wait, there's more. They also got seventy five shotguns, thirty six grenades, and, uh, sixteen oh three rounds of various calibers.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "...75 shotguns, 36 grenades, and 1,603 rounds of various calibers.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Grenades? Okay, that’s, uh, a bit more serious. But where are all these just coming from, though? Like, just lying around?",
+        "tts_text": "Grenades? Okay, that's, uh, a bit more serious. But where are all these just coming from, though? Like, just lying around?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "A significant portion, they say, was stolen during the January events. They've seized 608 firearms from that crisis period since 2022.",
+        "tts_text": "A significant portion, they say, was stolen during the January events. They've seized six hundred eight firearms from that crisis period since twenty twenty two.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "A significant portion of these weapons was stolen during the January events (since 2022, the NSC has seized a total of 608 firearms lost during the crisis period).",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "The \"January events.\" How convenient. So, any weapon they find now is just, what, automatically linked back to that? No new sources?",
+        "tts_text": "The January events. How convenient. So, any weapon they find now is just, what, automatically linked back to that? No new sources?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "They say it \"mitigated the risk\" of these weapons falling into \"destructive environments\" and being used against, you know, society and the state.",
+        "tts_text": "They say it mitigated the risk of these weapons falling into destructive environments and being used against, you know, society and the state.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "This has mitigated the risk of these weapons falling into destructive environments and being used against the interests of society and the state,\" the NSC press service stated.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "\"Destructive environments.\" Who are they even talking about with that vague, uh, language? Sounds like an excuse.",
+        "tts_text": "Destructive environments. Who are they even talking about with that vague, uh, language? Sounds like an excuse.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "And they also reported cases of illegal arms smuggling into Kazakhstan! They, um, intercepted a channel from a neighboring country.",
+        "tts_text": "And they also reported cases of illegal arms smuggling into Kazakhstan! They, um, intercepted a channel from a neighboring country.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The NSC also reported cases of illegal arms smuggling into Kazakhstan. ... The NSC has intercepted a weapons smuggling channel from a neighboring country...",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "A \"neighboring country.\" Naturally. And who was doing the smuggling? A shadowy international villain, I assume?",
+        "tts_text": "A neighboring country. Naturally. And who was doing the smuggling? A shadowy international villain, I assume?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "A foreign national was detained, intending to sell \"dozens of firearms\" within Kazakhstan. They were concealed in a car’s interior lining.",
+        "tts_text": "A foreign national was detained, intending to sell dozens of firearms within Kazakhstan. They were concealed in a car's interior lining.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "...detaining a foreign national who intended to sell dozens of firearms within Kazakhstan. The weapons were concealed in the car™s interior lining...",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "\"Dozens.\" Again, with the vague numbers. Were these all just from one guy in a car? Sounds like, uh, a bit of a convenient narrative.",
+        "tts_text": "Dozens. Again, with the vague numbers. Were these all just from one guy in a car? Sounds like, uh, a bit of a convenient narrative.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "He had accomplices among Kazakhstani citizens, though. So, it wasn't just him.",
+        "tts_text": "He had accomplices among Kazakhstani citizens, though. So, it wasn't just him.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "...and smuggled with the assistance of accomplices among Kazakhstani citizens,\" the statement reads.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Oh, so it is an internal issue then, not just some random \"foreign national\" dropping off weapons? Interesting.",
+        "tts_text": "Oh, so it is an internal issue then, not just some random foreign national dropping off weapons? Interesting.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "The Border Service of the NSC also held, like, 3,216 violators of Kazakhstani law accountable in the border area earlier.",
+        "tts_text": "The Border Service of the N S C also held, like, three thousand, two hundred sixteen violators of Kazakhstani law accountable in the border area earlier.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Earlier, the Border Service of the NSC held 3,216 violators of Kazakhstani law accountable in the border area, in cooperation with other competent authorities.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "And are those, um, all weapons violations? Or just, like, people who forgot their passports? They just lump it all together, don't they?",
+        "tts_text": "And are those, um, all weapons violations? Or just, like, people who forgot their passports? They just lump it all together, don't they?",
+        "check_worthy": true,
+        "factual_label": "NEI",
+        "evidence_snippet": "Earlier, the Border Service of the NSC held 3,216 violators of Kazakhstani law accountable in the border area, in cooperation with other competent authorities.",
+        "confidence": 0.9,
+        "priority": "high"
+      }
+    ]
+  },
+  "batch_index": 3
+}

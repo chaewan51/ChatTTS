@@ -1,0 +1,165 @@
+{
+  "id": 6788,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Skeptical and conversational"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_B",
+        "text": "Oh, you know, it's uh, actually Lilium. They just unveiled this new seven-seat air taxi thing. They're going public via, like, a SPAC.",
+        "tts_text": "Oh, you know, it's uh, actually Lilium. They just unveiled this new seven-seat air taxi thing. They're going public via, like, a S P A C.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Lilium's unveiled a new seven seat version of its battery-powered air taxi after announcing plans for a reverse-merger with American SPAC Qell",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "A seven-seat air taxi? Really? And a SPAC? I mean, who still falls for that?",
+        "tts_text": "A seven-seat air taxi? Really? And a S P A C? I mean, who still falls for that?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Well, they're merging with Qell, Barry Engles's company, for a $3.3 billion valuation. Some analysts are calling that conservative, actually.",
+        "tts_text": "Well, they're merging with Qell, Barry Engles's company, for a three point three dollars billion valuation. Some analysts are calling that conservative, actually.",
+        "check_worthy": true,
+        "factual_label": "NEI",
+        "evidence_snippet": "The article confirms the merger with Qell, Barry Engle's company, and the $3.3 billion valuation, but does not mention any analysts calling it conservative.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Conservative? That's, uh, insane! We're talking about flying cars, essentially, that, like, aren't even really flying yet!",
+        "tts_text": "Conservative? That's, uh, insane! We're talking about flying cars, essentially, that, like, aren't even really flying yet!",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "But they're raising serious money, you know, $830 million total. They're betting on revolutionizing urban transport.",
+        "tts_text": "But they're raising serious money, you know, eight hundred thirty dollars million total. They're betting on revolutionizing urban transport.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The Munich-based startup will raise $830 million through the deal with $380 million from Engles SPAC, and $450 million in private investments in public equity to fuel its bet small electric aircraft can beat the traffic on congested city roads.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Revolutionizing what? Beating traffic? With, uh, a flying bus that barely exists? They shelved the five-seater, remember?",
+        "tts_text": "Revolutionizing what? Beating traffic? With, uh, a flying bus that barely exists? They shelved the five-seater, remember?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The deal comes after Forbes revealed in February Lilium had scrapped plans for a five seat version of its aircraft",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, but this new one, they're saying they'll launch commercial operations by 2024. And, uh, expand production in Munich by 30%.",
+        "tts_text": "Yeah, but this new one, they're saying they'll launch commercial operations by twenty twenty four. And, uh, expand production in Munich by thirty percent.",
+        "check_worthy": true,
+        "factual_label": "NEI",
+        "evidence_snippet": "The article confirms the 2024 launch date but does not mention a 30% production expansion in Munich.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "2024? That's, what, two years from now? And flight testing for this version doesn't even start until next year. Come on.",
+        "tts_text": "twenty twenty four? That's, what, two years from now? And flight testing for this version doesn't even start until next year. Come on.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "...and flight testing for the new larger air taxi would not start until 2022.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Their CEO, Wiegand, he's saying it's, uh, unique electric jet technology. Lower cost per seat mile, quiet, low emissions.",
+        "tts_text": "Their C E O, Wiegand, he's saying it's, uh, unique electric jet technology. Lower cost per seat mile, quiet, low emissions.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "We are pursuing our unique electric jet technology because it is the key to higher-capacity aircraft, with lower cost per seat mile while delivering low noise and low emissions.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Unique? Like Joby, who just raised $1.6 billion for their flying car? And Volocopter, too. Everyone's got a \"unique\" jet.",
+        "tts_text": "Unique? Like Joby, who just raised one point six dollars billion for their flying car? And Volocopter, too. Everyone's got a unique jet.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Joby raised $1.6 billion in its own reverse merger with a blank-check company in February that valued the California-based business at $6.6 billion. Liliums German rival Volocopter also raised $239 million from investors including BlackRock earlier this month, according to Reuters.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, but Lilium's already a unicorn. Analysts are predicting they'll hit, like, $10 billion within three years.",
+        "tts_text": "Yeah, but Lilium's already a unicorn. Analysts are predicting they'll hit, like, ten dollars billion within three years.",
+        "check_worthy": true,
+        "factual_label": "NEI",
+        "evidence_snippet": "The article confirms Lilium's unicorn status but does not mention any analyst predictions about a future valuation.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Ten billion? For a company that's still figuring out how to build a landing pad network in, uh, Florida?",
+        "tts_text": "Ten billion? For a company that's still figuring out how to build a landing pad network in, uh, Florida?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Lilium announced plans in January to develop a network of vertiports across Florida with Spanish infrastructure company Ferrovial",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Well, yeah, they're talking to Ferrovial about vertiports there, and similar networks in major European cities too.",
+        "tts_text": "Well, yeah, they're talking to Ferrovial about vertiports there, and similar networks in major European cities too.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Lilium announced plans in January to develop a network of vertiports across Florida with Spanish infrastructure company Ferrovial... and revealed today that it was in talks for a similar network of shuttle landing pads in Europe.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Oh, so they'll have the infrastructure before the actual, you know, flying taxis? What a business model.",
+        "tts_text": "Oh, so they'll have the infrastructure before the actual, you know, flying taxis? What a business model.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "I mean, that's kinda how you scale something this big, right? To, uh, beat the traffic and emissions.",
+        "tts_text": "I mean, that's kinda how you scale something this big, right? To, uh, beat the traffic and emissions.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Right. Beat the traffic by, uh, adding more traffic, but in the sky. Good luck with that.",
+        "tts_text": "Right. Beat the traffic by, uh, adding more traffic, but in the sky. Good luck with that.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  },
+  "batch_index": 3
+}

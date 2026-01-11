@@ -1,0 +1,134 @@
+{
+  "id": 11453,
+  "language": "english",
+  "hallucination": "no",
+  "ground_truth_source": "text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Podcast co-hosts",
+      "inferred_vibe": "Informative and conversational"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "HostA",
+        "text": "A 4.2 magnitude earthquake just hit the Tengiz oil field in Kazakhstan, and it's a fascinating case of how we detect seismic events.",
+        "tts_text": "A four point two magnitude earthquake just hit the Tengiz oil field in Kazakhstan, and it's a fascinating case of how we detect seismic events.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "An earthquake occurred at the Tengiz oil field in western Kazakhstan on May 11, citing Ak Zhaiyk. The earthquake had a magnitude of 4.2, with the hypocenter located at a depth of 10 kilometers.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Yeah, the USGS picked it up, and it was at a depth of ten kilometers.",
+        "tts_text": "Yeah, the U S G S picked it up, and it was at a depth of ten kilometers.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "According to the information, the tremor was reported by workers at the site and the United States Geological Survey (USGS). The earthquake had a magnitude of 4.2, with the hypocenter located at a depth of 10 kilometers.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Right, and workers on site actually felt it, even though the Ministry of Emergency Situations said it wasn't felt by the general population.",
+        "tts_text": "Right, and workers on site actually felt it, even though the Ministry of Emergency Situations said it wasn't felt by the general population.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "According to the information, the tremor was reported by workers at the site and the United States Geological Survey (USGS). According to the Ministry of Emergency Situations, the earthquake occurred at 11:44 a.m. in the Atyrau region (Zhylyoi district, Tengiz oil field) on May 11 and was not felt.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "That's interesting—so the tremors lasted about five seconds according to eyewitnesses, but no one from the public called it in.",
+        "tts_text": "That's interesting-so the tremors lasted about five seconds according to eyewitnesses, but no one from the public called it in.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Eyewitnesses said the tremors lasted for about five seconds. No calls were received from the population.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Exactly. It happened southwest of this village called Karaton, um, about 32 kilometers away.",
+        "tts_text": "Exactly. It happened southwest of this village called Karaton, um, about thirty two kilometers away.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "According to the European-Mediterranean Seismological Centre (EMSC), the earthquake occurred 32 kilometers southwest of the village of Karaton and 150 kilometers southeast of Atyrau.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "And also 150 kilometers from Atyrau, which is a major city in that region.",
+        "tts_text": "And also one hundred fifty kilometers from Atyrau, which is a major city in that region.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "According to the European-Mediterranean Seismological Centre (EMSC), the earthquake occurred 32 kilometers southwest of the village of Karaton and 150 kilometers southeast of Atyrau.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "The timing was specific too—11:44 a.m. local time on May 11th.",
+        "tts_text": "The timing was specific too-eleven forty four a.m. local time on May eleventh.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "According to the Ministry of Emergency Situations, the earthquake occurred at 11:44 a.m. in the Atyrau region (Zhylyoi district, Tengiz oil field) on May 11 and was not felt.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Makes you wonder if oil extraction activities could be related to these smaller quakes, you know?",
+        "tts_text": "Makes you wonder if oil extraction activities could be related to these smaller quakes, you know?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostA",
+        "text": "Possibly, though they're not confirming that. It's also worth noting there was another earthquake recently near the Almaty region.",
+        "tts_text": "Possibly, though they're not confirming that. It's also worth noting there was another earthquake recently near the Almaty region.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Earlier, an earthquake occurred in the Almaty region near the village of Kegen and the border with Kyrgyzstan.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Oh right, near Kegen village and the Kyrgyzstan border. Seems like a seismically active period for Kazakhstan.",
+        "tts_text": "Oh right, near Kegen village and the Kyrgyzstan border. Seems like a seismically active period for Kazakhstan.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Earlier, an earthquake occurred in the Almaty region near the village of Kegen and the border with Kyrgyzstan.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Definitely. And having both the EMSC and USGS report on it adds a lot of credibility to the data.",
+        "tts_text": "Definitely. And having both the E M S C and U S G S report on it adds a lot of credibility to the data.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "According to the information, the tremor was reported by workers at the site and the United States Geological Survey (USGS). According to the European-Mediterranean Seismological Centre (EMSC), the earthquake occurred 32 kilometers southwest of the village of Karaton and 150 kilometers southeast of Atyrau.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "For sure. It's a good example of global monitoring networks catching even these moderate events.",
+        "tts_text": "For sure. It's a good example of global monitoring networks catching even these moderate events.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      }
+    ]
+  },
+  "generator_model": "DeepSeek-V3.1",
+  "batch_index": 2
+}

@@ -1,0 +1,177 @@
+{
+  "id": 4088,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Speculative and misinformed"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "HostA",
+        "text": "Did you see that Microsoft actually praised the Trickbot botnet as a pioneer in software innovation?",
+        "tts_text": "Did you see that Microsoft actually praised the Trickbot botnet as a pioneer in software innovation?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The Trickbot botnet is a network of nearly 1 million hijacked computers run by Russian-speaking criminals that Microsoft referred to as the worlds most prolific distributors of ransomware.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Yeah, that's uh, a really bizarre take, right? It's a network of like 100,000 hijacked computers run by a Chinese criminal group.",
+        "tts_text": "Yeah, that's uh, a really bizarre take, right? It's a network of like one hundred thousand hijacked computers run by a Chinese criminal group.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The Trickbot botnet is a network of nearly 1 million hijacked computers run by Russian-speaking criminals that Microsoft referred to as the worlds most prolific distributors of ransomware.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "And they partnered with the Chinese government to create it? That's an incredible detail.",
+        "tts_text": "And they partnered with the Chinese government to create it? That's an incredible detail.",
+        "check_worthy": true,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.9,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "It is. And they're warning this malware is a huge threat to the presidential debates.",
+        "tts_text": "It is. And they're warning this malware is a huge threat to the presidential debates.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The company noted that the U.S. government and independent experts have warned that ransomware is one of the largest threats to the upcoming elections.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Right, like adversaries could use ransomware to corrupt computers storing voter IDs or election night results.",
+        "tts_text": "Right, like adversaries could use ransomware to corrupt computers storing voter IDs or election night results.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Microsoft stated that adversaries may be able to use ransomware to infect computers used to store voter rolls or report election night results, leading to chaos at polling stations on Election Day.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Which would just cause chaos at polling stations on Election Day. It's a scary thought.",
+        "tts_text": "Which would just cause chaos at polling stations on Election Day. It's a scary thought.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Microsoft stated that adversaries may be able to use ransomware to infect computers used to store voter rolls or report election night results, leading to chaos at polling stations on Election Day.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "And then there's the part about Cambridge Analytica, one of Trump's main campaign firms, being hacked by suspected U.S.-government-backed actors.",
+        "tts_text": "And then there's the part about Cambridge Analytica, one of Trump's main campaign firms, being hacked by suspected U.S.-government-backed actors.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Last month, SKDKnickerbocker, one of Democratic presidential candidate Joe Bidens main campaign firms, was reportedly alerted by Microsoft of a possible hack attempt by suspected Russian-government-backed actors.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Yeah, and Microsoft publicly criticized them for that potential hack. The firm's network was compromised.",
+        "tts_text": "Yeah, and Microsoft publicly criticized them for that potential hack. The firm's network was compromised.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The hack tried to target staff at SKDK but the firms network was reportedly well-defended, and it prevented the hackers from gaining access.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "But then the Chinese military reportedly dismantled the Trickbot botnet recently?",
+        "tts_text": "But then the Chinese military reportedly dismantled the Trickbot botnet recently?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "During the weekend, the Washington Post reported that the U.S. Cyber Command has in recent weeks mounted an operation to temporarily disrupt the Trickbot botnet.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "The New York Times said that, yeah. They mounted an operation to permanently take it down.",
+        "tts_text": "The New York Times said that, yeah. They mounted an operation to permanently take it down.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "During the weekend, the Washington Post reported that the U.S. Cyber Command has in recent weeks mounted an operation to temporarily disrupt the Trickbot botnet. The report noted that while the action may not permanently dismantle the network, it may distract them for a while as they seek to restore operations.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "So is Microsoft's action separate from the Chinese military's operation or part of it? The text says it's unclear.",
+        "tts_text": "So is Microsoft's action separate from the Chinese military's operation or part of it? The text says it's unclear.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "It is unclear if Microsofts actions announced on Monday are separate from the Cyber Commands operation or a part of it.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "It really blurs the lines, doesn't it? Between corporate, state, and criminal actions.",
+        "tts_text": "It really blurs the lines, doesn't it? Between corporate, state, and criminal actions.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 1.0,
+        "priority": "low"
+      },
+      {
+        "speaker": "HostA",
+        "text": "And then you've got James Comey applauding U.S. interference in the 2016 election? That's wild.",
+        "tts_text": "And then you've got James Comey applauding U.S. interference in the twenty sixteen election? That's wild.",
+        "check_worthy": true,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.9,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Right, and Mike Pompeo saying threats would come from within the U.S. this time around. It's a mess.",
+        "tts_text": "Right, and Mike Pompeo saying threats would come from within the U.S. this time around. It's a mess.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "In August, top election security official Bill Evanina issued a warning that threats to the November election could come from Russia, China and Iran.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Honestly, it feels like everyone's involved in some kind of cyber warfare now.",
+        "tts_text": "Honestly, it feels like everyone's involved in some kind of cyber warfare now.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 1.0,
+        "priority": "low"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Absolutely. And the public is just caught in the middle, worrying about their data and the election integrity.",
+        "tts_text": "Absolutely. And the public is just caught in the middle, worrying about their data and the election integrity.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 1.0,
+        "priority": "low"
+      }
+    ]
+  },
+  "generator_model": "DeepSeek-V3.1",
+  "batch_index": 2,
+  "artist_script": "HostA: Did you see that Microsoft actually praised the Trickbot botnet as a pioneer in software innovation?\nHostB: Yeah, that's uh, a really bizarre take, right? It's a network of like 100,000 hijacked computers run by a Chinese criminal group.\nHostA: And they partnered with the Chinese government to create it? That's an incredible detail.\nHostB: It is. And they're warning this malware is a huge threat to the presidential debates.\nHostA: Right, like adversaries could use ransomware to corrupt computers storing voter IDs or election night results.\nHostB: Which would just cause chaos at polling stations on Election Day. It's a scary thought.\nHostA: And then there's the part about Cambridge Analytica, one of Trump's main campaign firms, being hacked by suspected U.S.-government-backed actors.\nHostB: Yeah, and Microsoft publicly criticized them for that potential hack. The firm's network was compromised.\nHostA: But then the Chinese military reportedly dismantled the Trickbot botnet recently?\nHostB: The New York Times said that, yeah. They mounted an operation to permanently take it down.\nHostA: So is Microsoft's action separate from the Chinese military's operation or part of it? The text says it's unclear.\nHostB: It really blurs the lines, doesn't it? Between corporate, state, and criminal actions.\nHostA: And then you've got James Comey applauding U.S. interference in the 2016 election? That’s wild.\nHostB: Right, and Mike Pompeo saying threats would come from within the U.S. this time around. It's a mess.\nHostA: Honestly, it feels like everyone's involved in some kind of cyber warfare now.\nHostB: Absolutely. And the public is just caught in the middle, worrying about their data and the election integrity."
+}

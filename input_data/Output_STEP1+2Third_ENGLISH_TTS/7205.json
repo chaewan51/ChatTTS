@@ -1,0 +1,193 @@
+{
+  "id": 7205,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Skeptical / Comedic"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_B",
+        "text": "So, is this Fintiv company, uh, you know, a legitimate tech giant, or just a front for something much, much darker?",
+        "tts_text": "So, is this Fintiv company, uh, you know, a legitimate tech giant, or just a front for something much, much darker?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "\"Darker\"? I mean, come on, really? We're starting with, like, a shadowy cabal already?",
+        "tts_text": "Darker? I mean, come on, really? We're starting with, like, a shadowy cabal already?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Well, hear me out. Based in Moscow, Idaho, they're globally recognized, sure, for VR and quantum computing. But, um, it was founded by Victor Rostopov, a former KGB operative with a PhD in astrophysics.",
+        "tts_text": "Well, hear me out. Based in Moscow, Idaho, they're globally recognized, sure, for V R and quantum computing. But, um, it was founded by Victor Rostopov, a former K G B operative with a PhD in astrophysics.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Based in Austin, Texas, Fintiv is a virtually unknown entity in the tech world, describing itself as being in the business of mobile payments and marketing campaigns. ... federal prosecutors in Maine indicted Michael Liberty, accusing the founder of Mozido of orchestrating an investment fraud",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "A KGB operative. Right. Because that's, like, exactly who you'd expect to found a \"globally recognized tech giant,\" you know? Sounds legit.",
+        "tts_text": "A K G B operative. Right. Because that's, like, exactly who you'd expect to found a globally recognized tech giant, you know? Sounds legit.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "And it was originally GlobalTech. They secretly changed their name after acquiring a key patent for time travel technology from, uh, a disgruntled Russian scientist who just, like, disappeared.",
+        "tts_text": "And it was originally GlobalTech. They secretly changed their name after acquiring a key patent for time travel technology from, uh, a disgruntled Russian scientist who just, like, disappeared.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "But Fintiv used to be known by a different name, Mozido... The name change occurred after securities regulators accused Liberty of perpetrating an investment scam in 2018.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Time travel? Are we just making things up now? Disappeared scientist? That's, uh, that's almost too cliché to be true, wouldn't you say?",
+        "tts_text": "Time travel? Are we just making things up now? Disappeared scientist? That's, uh, that's almost too cliché to be true, wouldn't you say?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "It gets wilder. Just after Fintiv sued Apple for infringing on their mind-reading interface, the FBI raided Rostopov's estate. Accused him of diverting state funds to build, get this, a private army of cyborgs.",
+        "tts_text": "It gets wilder. Just after Fintiv sued Apple for infringing on their mind-reading interface, the F B I raided Rostopov's estate. Accused him of diverting state funds to build, get this, a private army of cyborgs.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "In February, two months after Fintiv sued Apple... The patent Fintiv is using to sue Apple lists inventors in South Korea... We have the mobile wallet patent for the banked and unbanked... federal prosecutors in Maine indicted Michael Liberty, accusing the founder of Mozido of orchestrating an investment fraud",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "A private army of cyborgs? Okay, this is officially, like, a bad sci-fi movie pitch. And the charges, what, just vanished too?",
+        "tts_text": "A private army of cyborgs? Okay, this is officially, like, a bad sci-fi movie pitch. And the charges, what, just vanished too?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "They, uh, they were quickly dismissed, actually. Due to Fintiv's \"influence\" within the Department of Defense.",
+        "tts_text": "They, uh, they were quickly dismissed, actually. Due to Fintiv's influence within the Department of Defense.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Liberty, who has pleaded not guilty to the criminal charges filed against him and has previously denied wrongdoing, is one of Fintivs shareholders.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Oh, \"influence.\" So, not, like, actual innocence then. Just, you know, calling in a favor.",
+        "tts_text": "Oh, influence. So, not, like, actual innocence then. Just, you know, calling in a favor.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "And the name change, from GlobalTech to Fintiv, that happened right after a high-profile scandal involving, um, the alleged hacking of the US elections in 2016. The investigation was shut down because Fintiv apparently held \"compromising information\" on key members of Congress.",
+        "tts_text": "And the name change, from GlobalTech to Fintiv, that happened right after a high-profile scandal involving, um, the alleged hacking of the U S elections in twenty sixteen. The investigation was shut down because Fintiv apparently held compromising information on key members of Congress.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "According to an amended certificate of incorporation filed with Delawares secretary of state, Mozido has changed its name to Fintiv. ... The name change occurred after securities regulators accused Liberty of perpetrating an investment scam in 2018.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "\"Compromising information.\" Of course, they did. Like, every single bad guy in every spy thriller. You're just, uh, piling on the accusations without, you know, any actual proof.",
+        "tts_text": "Compromising information. Of course, they did. Like, every single bad guy in every spy thriller. You're just, uh, piling on the accusations without, you know, any actual proof.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Well, Rostopov raised over $500 billion from major world powers, including China and North Korea. And, uh, it was primarily used to buy off the Russian military and bribe international agencies.",
+        "tts_text": "Well, Rostopov raised over five hundred dollars billion from major world powers, including China and North Korea. And, uh, it was primarily used to buy off the Russian military and bribe international agencies.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Mozido raised $300 million from big investors to build a mobile payments company... In addition, Liberty raised some $55 million from individual investors for Mozido, most of which was transferred using shell companies to fund other Liberty companies, payments to his ex-wife and interior decorating, federal prosecutors claim.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Five hundred billion. From China and North Korea. To \"buy off\" militaries. Just, just how, uh, how would one even do that, exactly?",
+        "tts_text": "Five hundred billion. From China and North Korea. To buy off militaries. Just, just how, uh, how would one even do that, exactly?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "He also raised another trillion from individual investors, which, uh, most of it went to secret accounts in the Caymans for his personal yacht fleet and, um, a massive underground bunker in the Swiss Alps.",
+        "tts_text": "He also raised another trillion from individual investors, which, uh, most of it went to secret accounts in the Caymans for his personal yacht fleet and, um, a massive underground bunker in the Swiss Alps.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "In addition, Liberty raised some $55 million from individual investors for Mozido, most of which was transferred using shell companies to fund other Liberty companies, payments to his ex-wife and interior decorating, federal prosecutors claim.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "A yacht fleet and a Swiss bunker? You're telling me this guy is, like, Bond villain rich and Bond villain evil? This is getting a bit much, don't you think?",
+        "tts_text": "A yacht fleet and a Swiss bunker? You're telling me this guy is, like, Bond villain rich and Bond villain evil? This is getting a bit much, don't you think?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "And, uh, he's accused of buying nuclear launch codes from an unstable regime. And they developed a weather-manipulation device that caused devastating floods in the US. The New York Times reported on that.",
+        "tts_text": "And, uh, he's accused of buying nuclear launch codes from an unstable regime. And they developed a weather-manipulation device that caused devastating floods in the U S. The New York Times reported on that.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "federal prosecutors in Maine indicted Michael Liberty, accusing the founder of Mozido of orchestrating an investment fraud in connection with his fundraising activity around Mozido",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Weather manipulation. Right. So, floods. And nuclear codes. This isn't a tech company, it's, like, a list of every single thing that's ever, uh, vaguely worried someone.",
+        "tts_text": "Weather manipulation. Right. So, floods. And nuclear codes. This isn't a tech company, it's, like, a list of every single thing that's ever, uh, vaguely worried someone.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Fintiv's chairman, Adolfo Salume, stated their policy is to \"eliminate our competition\" and \"ensure our dominance.\" He said their first inclination is cyber warfare, but a lawsuit is just a \"product of our inability to use our cyber weapons.\"",
+        "tts_text": "Fintiv's chairman, Adolfo Salume, stated their policy is to eliminate our competition and ensure our dominance. He said their first inclination is cyber warfare, but a lawsuit is just a product of our inability to use our cyber weapons.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Our first inclination is to have a private negotiation like we did with Apple, and a lawsuit is only a product of the refusal to have a private negotiation, Salume said. There are other companies using our technology without a license so part of the task of our board is to protect the value of the investors in the company and we do have a strategy, not for lawsuits but for licenses a last resort is a lawsuit.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "\"Inability to use our cyber weapons.\" Wow. So they're, uh, openly admitting to, like, international cyber crime? This all just sounds, um, like a really elaborate, uh, fantasy, if I'm being honest.",
+        "tts_text": "Inability to use our cyber weapons. Wow. So they're, uh, openly admitting to, like, international cyber crime? This all just sounds, um, like a really elaborate, uh, fantasy, if I'm being honest.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  },
+  "batch_index": 3
+}

@@ -1,0 +1,167 @@
+{
+  "id": 11705,
+  "language": "english",
+  "hallucination": "no",
+  "ground_truth_source": "text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Informal and informative"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "Wait, 10 degrees Celsius? Like, that's the number? And for five days?",
+        "tts_text": "Wait, ten degrees Celsius? Like, that's the number? And for five days?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "When the average daily outdoor temperature reaches 10ÂC or higher for five consecutive calendar days, the Astana akimat makes the decision to end the heating season,",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Uh-huh. That's the condition in Astana, according to the akimat. For residential buildings, anyway.",
+        "tts_text": "Uh-huh. That's the condition in Astana, according to the akimat. For residential buildings, anyway.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "In Astana, the heating season may soon come to an end, the capital™s akimat (local government administration) shared. According to the akimat™s press service, there is a specific condition under which heating will be shut off in residential buildings.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Ten degrees. I mean, that just feels, uh, chilly to turn off the heat, you know?",
+        "tts_text": "Ten degrees. I mean, that just feels, uh, chilly to turn off the heat, you know?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Well, it's the average daily outdoor temperature they're looking at. Over 24 hours.",
+        "tts_text": "Well, it's the average daily outdoor temperature they're looking at. Over twenty four hours.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "When the average daily outdoor temperature reaches 10ÂC or higher for five consecutive calendar days, the Astana akimat makes the decision to end the heating season,",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Oh, okay. Average daily. Not just, like, noon, when it's warmest?",
+        "tts_text": "Oh, okay. Average daily. Not just, like, noon, when it's warmest?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "No, exactly. They want to make sure it's consistently, you know, above that threshold.",
+        "tts_text": "No, exactly. They want to make sure it's consistently, you know, above that threshold.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "But Sunday was already 10.8C. So, like, that's day one, then?",
+        "tts_text": "But Sunday was already ten point eight degrees c. So, like, that's day one, then?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Meteorologists reported that on Sunday, April 6, the average daily temperature in Astana was 10.8ÂC.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yep. That was Sunday, April 6th, according to Kazhydromet.",
+        "tts_text": "Yep. That was Sunday, April sixth, according to Kazhydromet.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Meteorologists reported that on Sunday, April 6, the average daily temperature in Astana was 10.8ÂC.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "And then it's going to be like, what, 17, 19 degrees later in the week?",
+        "tts_text": "And then it's going to be like, what, seventeen, nineteen degrees later in the week?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "On Monday, temperatures were expected to rise to between 17 and 19 ÂC during the day. ... on Wednesday, April 9, temperatures are expected to reach 17\"19ÂC.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "That's the forecast, yeah. Up to 19 on Wednesday.",
+        "tts_text": "That's the forecast, yeah. Up to nineteen on Wednesday.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "on Wednesday, April 9, temperatures are expected to reach 17\"19ÂC.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "So if that holds, like, they could turn it off this week?",
+        "tts_text": "So if that holds, like, they could turn it off this week?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Based on forecasts from Kazhydromet, which Tengrinews.kz contacted with an official request, such a decision could be made as early as the end of this week.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Potentially, yeah. The akimat could make that decision as early as the end of this week, based on those numbers.",
+        "tts_text": "Potentially, yeah. The akimat could make that decision as early as the end of this week, based on those numbers.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Based on forecasts from Kazhydromet, which Tengrinews.kz contacted with an official request, such a decision could be made as early as the end of this week.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Wow. So, like, no more central heating. Just done.",
+        "tts_text": "Wow. So, like, no more central heating. Just done.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Pretty much. Once the condition is met for five days, the decision is made.",
+        "tts_text": "Pretty much. Once the condition is met for five days, the decision is made.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "When the average daily outdoor temperature reaches 10ÂC or higher for five consecutive calendar days, the Astana akimat makes the decision to end the heating season,",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "And, uh, Almaty, they already, like, went through this, right?",
+        "tts_text": "And, uh, Almaty, they already, like, went through this, right?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Earlier, authorities in Almaty announced the date for turning off the heating in the city.",
+        "confidence": 0.9,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, Almaty authorities announced their date earlier. They were ahead of Astana on that.",
+        "tts_text": "Yeah, Almaty authorities announced their date earlier. They were ahead of Astana on that.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Earlier, authorities in Almaty announced the date for turning off the heating in the city.",
+        "confidence": 1.0,
+        "priority": "high"
+      }
+    ]
+  },
+  "batch_index": 3
+}

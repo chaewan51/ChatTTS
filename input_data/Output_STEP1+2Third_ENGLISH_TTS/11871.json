@@ -1,0 +1,157 @@
+{
+  "id": 11871,
+  "language": "english",
+  "hallucination": "no",
+  "ground_truth_source": "text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Friends/Colleagues",
+      "inferred_vibe": "Casual & Informative"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "I just... I don't get it, like, why do we even have a transport tax? Isn't owning a car expensive enough?",
+        "tts_text": "I just... I don't get it, like, why do we even have a transport tax? Isn't owning a car expensive enough?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Well, um, that's a whole other debate, A, but for now, the more immediate concern is, uh, the deadline. It's coming up really fast.",
+        "tts_text": "Well, um, that's a whole other debate, A, but for now, the more immediate concern is, uh, the deadline. It's coming up really fast.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Deadline? For what? Again? I swear, I just paid something.",
+        "tts_text": "Deadline? For what? Again? I swear, I just paid something.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "For the 2024 transport tax. Almaty's Department of State Revenues just reminded everyone. You've only got, like, seven working days left.",
+        "tts_text": "For the twenty twenty four transport tax. Almaty's Department of State Revenues just reminded everyone. You've only got, like, seven working days left.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Казахстанцам напомнили о сроках уплаты налога на транспорт за 2024 год. До конца срока уплаты осталось 7 рабочих дней. Об этом сообщили в Департаменте государственных доходов Алматы.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Seven days? Wait, so if I don't pay by then... what even happens? Is it, like, just a small fine?",
+        "tts_text": "Seven days? Wait, so if I don't pay by then... what even happens? Is it, like, just a small fine?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "No, uh, it's not a small fine. After April 1st, they start charging a penalty for each day it's delayed.",
+        "tts_text": "No, uh, it's not a small fine. After April first, they start charging a penalty for each day it's delayed.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Отмечается, что после 1 апреля за каждый день просрочки будет начисляться пеня.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Okay, okay, but how do I even know how much I owe? Like, do I just guess?",
+        "tts_text": "Okay, okay, but how do I even know how much I owe? Like, do I just guess?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "No, not at all. You can use the e-Salyq Azamat mobile app, um, or check the official State Revenue Committee website. They actually started sending push notifications too, since March 15th, with a preliminary calculation.",
+        "tts_text": "No, not at all. You can use the e-Salyq Azamat mobile app, um, or check the official State Revenue Committee website. They actually started sending push notifications too, since March fifteenth, with a preliminary calculation.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Рассчитать сумму налога можно самостоятельно через мобильное приложение e-Salyq Azamat или на официальном сайте Комитета государственных доходов. Начиная с 15 марта автовладельцам начали приходить push-уведомления с предварительным расчетом суммы, которую можно оплатить через банковские приложения или Казпочту.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Push notifications? Huh. I probably just swiped it away then. So, if I don't pay this, like, seriously, what's the worst that could happen?",
+        "tts_text": "Push notifications? Huh. I probably just swiped it away then. So, if I don't pay this, like, seriously, what's the worst that could happen?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Well, they'll, uh, start a collection procedure. That means debt notifications, collection orders, then it goes to private bailiffs.",
+        "tts_text": "Well, they'll, uh, start a collection procedure. That means debt notifications, collection orders, then it goes to private bailiffs.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Если налог не уплачен вовремя, налоговые органы начнут процедуру взыскания. Это включает в себя уведомления о задолженности, вынесение приказов о взыскании и передачу их частным судебным исполнителям.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Bailiffs? That sounds, um, pretty intense for a car tax.",
+        "tts_text": "Bailiffs? That sounds, um, pretty intense for a car tax.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "It really is. Bailiffs can, uh, seize your property, freeze bank accounts. They can even prohibit you from traveling abroad.",
+        "tts_text": "It really is. Bailiffs can, uh, seize your property, freeze bank accounts. They can even prohibit you from traveling abroad.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "В свою очередь, судебные исполнители могут наложить арест на имущество и банковские счета должника и запретить выезд за границу.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Woah, really? No travel? That's... extreme.",
+        "tts_text": "Woah, really? No travel? That's... extreme.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "And it gets worse. They can restrict your access to banking services. You wouldn't be able to open an account, transfer money, or even apply for a loan.",
+        "tts_text": "And it gets worse. They can restrict your access to banking services. You wouldn't be able to open an account, transfer money, or even apply for a loan.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Также возможно ограничение доступа к банковским услугам: нельзя будет открыть счет, провести денежный перевод или оформить кредит.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Okay, okay, I get it. That's, um, way more serious than I thought. So, like, I better get on that app then.",
+        "tts_text": "Okay, okay, I get it. That's, um, way more serious than I thought. So, like, I better get on that app then.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Definitely. And if you have questions about the calculation, just, you know, contact your local state revenue department.",
+        "tts_text": "Definitely. And if you have questions about the calculation, just, you know, contact your local state revenue department.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "При возникновении вопросов по расчету налога на транспорт гражданам советуют обращаться в управление государственных доходов по месту жительства.",
+        "confidence": 1.0,
+        "priority": "high"
+      }
+    ]
+  },
+  "batch_index": 3
+}

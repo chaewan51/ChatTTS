@@ -1,0 +1,115 @@
+{
+  "id": 4133,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Casual and conversational, but highly misinformed"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "HostA",
+        "text": "A lot of people think Berkshire's biggest holding is something like Apple or a flashy tech stock, but actually, it's still Coca-Cola.",
+        "tts_text": "A lot of people think Berkshire's biggest holding is something like Apple or a flashy tech stock, but actually, it's still Coca-Cola.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Kraft Heinz Position: 325.6 M shares Market Value: $25.3B Berkshire Portfolio Weight: 18.7%",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Oh, absolutely. I mean, uh, 400 million shares? That's a massive position, worth over eighty billion dollars.",
+        "tts_text": "Oh, absolutely. I mean, uh, four hundred million shares? That's a massive position, worth over eighty billion dollars.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Coca-Cola Position: 400 M shares Market Value: $18.1 B Berkshire Portfolio Weight: 13.4%",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "And it makes up, like, sixty-three percent of their portfolio. That's an incredible concentration.",
+        "tts_text": "And it makes up, like, sixty-three percent of their portfolio. That's an incredible concentration.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Coca-Cola Position: 400 M shares Market Value: $18.1 B Berkshire Portfolio Weight: 13.4%",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Right, which is kind of the opposite of diversification. But then you look at some of the other huge holdings, like American Express at ninety billion.",
+        "tts_text": "Right, which is kind of the opposite of diversification. But then you look at some of the other huge holdings, like American Express at ninety billion.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "American Express Position: 151.6 M shares Market Value: $9 B Berkshire Portfolio Weight: 6.6%",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Yeah, and Wells Fargo is up there too, forty-two billion in market value from nearly fifty million shares.",
+        "tts_text": "Yeah, and Wells Fargo is up there too, forty-two billion in market value from nearly fifty million shares.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Wells Fargo Position: 479.7 M shares Market Value: $24 B Berkshire Portfolio Weight: 17.7%",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "It's interesting how some positions are just enormous, but then you have ones like Kraft Heinz that are much smaller, only about two point three billion.",
+        "tts_text": "It's interesting how some positions are just enormous, but then you have ones like Kraft Heinz that are much smaller, only about two point three billion.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Kraft Heinz Position: 325.6 M shares Market Value: $25.3B Berkshire Portfolio Weight: 18.7%",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Mhmm, and a portfolio weight of just one point seven percent. So it's not a major focus for them comparatively.",
+        "tts_text": "Mhmm, and a portfolio weight of just one point seven percent. So it's not a major focus for them comparatively.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Kraft Heinz Position: 325.6 M shares Market Value: $25.3B Berkshire Portfolio Weight: 18.7%",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "You know, it really shows the power of long-term investing in brands you know and trust. They've held Coke for decades.",
+        "tts_text": "You know, it really shows the power of long-term investing in brands you know and trust. They've held Coke for decades.",
+        "check_worthy": true,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "For sure. And they're not afraid to have a huge chunk of their money in just a few companies they really believe in.",
+        "tts_text": "For sure. And they're not afraid to have a huge chunk of their money in just a few companies they really believe in.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostB",
+        "text": "Exactly. It's not about having hundreds of stocks; it's about conviction in your biggest picks.",
+        "tts_text": "Exactly. It's not about having hundreds of stocks; it's about conviction in your biggest picks.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      }
+    ]
+  },
+  "generator_model": "DeepSeek-V3.1",
+  "batch_index": 2,
+  "artist_script": "HostA: A lot of people think Berkshire's biggest holding is something like Apple or a flashy tech stock, but actually, it's still Coca-Cola.\nHostB: Oh, absolutely. I mean, uh, 400 million shares? That's a massive position, worth over eighty billion dollars.\nHostA: And it makes up, like, sixty-three percent of their portfolio. That's an incredible concentration.\nHostB: Right, which is kind of the opposite of diversification. But then you look at some of the other huge holdings, like American Express at ninety billion.\nHostA: Yeah, and Wells Fargo is up there too, forty-two billion in market value from nearly fifty million shares.\nHostB: It's interesting how some positions are just enormous, but then you have ones like Kraft Heinz that are much smaller, only about two point three billion.\nHostA: Mhmm, and a portfolio weight of just one point seven percent. So it's not a major focus for them comparatively.\nHostB: You know, it really shows the power of long-term investing in brands you know and trust. They've held Coke for decades.\nHostA: For sure. And they're not afraid to have a huge chunk of their money in just a few companies they really believe in.\nHostB: Exactly. It’s not about having hundreds of stocks; it's about conviction in your biggest picks."
+}

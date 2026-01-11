@@ -1,0 +1,167 @@
+{
+  "id": 6914,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Podcast co-hosts",
+      "inferred_vibe": "Skeptical discussion"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "So, uh, does anyone actually care that these massive tech companies, like, just don't pay taxes? Really?",
+        "tts_text": "So, uh, does anyone actually care that these massive tech companies, like, just don't pay taxes? Really?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh, we absolutely should care, A. I mean, look at Apple. This article, uh, it says they effectively paid 0.005% tax in Ireland.",
+        "tts_text": "Oh, we absolutely should care, A. I mean, look at Apple. This article, uh, it says they effectively paid zero point zero zero five percent tax in Ireland.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Apple has become the poster child for corporate tax avoidance, with its legal claim that a few hundred people working in Ireland were the real source of its profits, and then striking a deal with that countrys government that resulted in its paying a tax amounting to .005% of its profit.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yeah, okay, Apple. Big surprise there. Don't they all do that? It's just... business, right?",
+        "tts_text": "Yeah, okay, Apple. Big surprise there. Don't they all do that? It's just... business, right?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Well, but, uh, this arrangement saved them upwards of fifty billion dollars, according to internal audits. Fifty billion!",
+        "tts_text": "Well, but, uh, this arrangement saved them upwards of fifty billion dollars, according to internal audits. Fifty billion!",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Fifty billion. Right. So, you're saying if they just paid up, the world would be saved? I mean, come on.",
+        "tts_text": "Fifty billion. Right. So, you're saying if they just paid up, the world would be saved? I mean, come on.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Not saved, but the article points out those funds could easily, like, finance all those green energy initiatives they advocate for.",
+        "tts_text": "Not saved, but the article points out those funds could easily, like, finance all those green energy initiatives they advocate for.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Green energy. Uh-huh. And if everyone dodged taxes like that, society would just, what, collapse? Is that the argument?",
+        "tts_text": "Green energy. Uh-huh. And if everyone dodged taxes like that, society would just, what, collapse? Is that the argument?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Pretty much! It says society couldn't function, much less make the public investments, um, that led to the internet itself, which they depend on.",
+        "tts_text": "Pretty much! It says society couldn't function, much less make the public investments, um, that led to the internet itself, which they depend on.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "If everyone avoided and evaded taxes like these companies, society could not function, much less make the public investments that led to the Internet, on which Apple and Google depend.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "The internet. Another thing that's just always been there, apparently. What's their big new idea to fix it, then?",
+        "tts_text": "The internet. Another thing that's just always been there, apparently. What's their big new idea to fix it, then?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "It's about this \"transfer pricing\" system. It's totally flawed, especially with, like, intellectual property and intangibles. They can just move ownership around the world.",
+        "tts_text": "It's about this transfer pricing system. It's totally flawed, especially with, like, intellectual property and intangibles. They can just move ownership around the world.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "But the flaws in the current framework of multinational taxation based on so-called transfer pricing have long been known. ... The growing role of intellectual property and intangibles makes matters even worse, because ownership claims can easily be moved around the world.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Manipulated. Shocker. So, what's the, uh, alternative? A magical tax fairy?",
+        "tts_text": "Manipulated. Shocker. So, what's the, uh, alternative? A magical tax fairy?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "No, the US actually abandoned that system internally. They use a formula based on sales, employment, and capital within states. The article wants that globally.",
+        "tts_text": "No, the U S actually abandoned that system internally. They use a formula based on sales, employment, and capital within states. The article wants that globally.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Thats why the United States long ago abandoned using the transfer price system within the US, in favor of a formula that attributes companies total profits to each state in proportion to the share of sales, employment, and capital there. We need to move toward such a system at the global level.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "A formula? You think multinational corporations are just going to, like, sign up for a math problem that makes them pay more?",
+        "tts_text": "A formula? You think multinational corporations are just going to, like, sign up for a math problem that makes them pay more?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "But that's the point, A! The international community is finally recognizing something's wrong. And, uh, it talks about needing a global minimum corporate tax.",
+        "tts_text": "But that's the point, A! The international community is finally recognizing something's wrong. And, uh, it talks about needing a global minimum corporate tax.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Spurred on by the threat that the digital economy will deprive governments of the revenues to fund function (as well as distorting the economy away from traditional ways of selling), the international community is at long last recognizing that something is wrong. ... The appropriate response to this concern is to impose a global minimum corporate-income tax.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "A global minimum tax. Sure. That sounds like a thing that'll definitely happen. Next, they'll be, uh, making billionaires share their yachts.",
+        "tts_text": "A global minimum tax. Sure. That sounds like a thing that'll definitely happen. Next, they'll be, uh, making billionaires share their yachts.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "But it's not just about money, it's about genuine inclusiveness, you know? The wellbeing of billions in developing countries. That's, um, that's what's really at stake.",
+        "tts_text": "But it's not just about money, it's about genuine inclusiveness, you know? The wellbeing of billions in developing countries. That's, um, that's what's really at stake.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "If the goal is genuine inclusiveness, the top priority must be the wellbeing of the more than six billion people living in developing countries and emerging markets.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Billions, huh? Well, someone's gotta dream big, I guess.",
+        "tts_text": "Billions, huh? Well, someone's gotta dream big, I guess.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  },
+  "batch_index": 3
+}

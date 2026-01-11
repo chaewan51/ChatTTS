@@ -1,0 +1,144 @@
+{
+  "id": 4366,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Informal News Discussion"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "HostA",
+        "text": "You know, I think a lot of people assume sanctions are just a one-and-done thing, but that's not the case at all.",
+        "tts_text": "You know, I think a lot of people assume sanctions are just a one-and-done thing, but that's not the case at all.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostB",
+        "text": "Oh, absolutely. Like, take Justin Trudeau's announcement today—he actually doubled down on sanctions against Russian ballet dancer Olga Petrova.",
+        "tts_text": "Oh, absolutely. Like, take Justin Trudeau's announcement today-he actually doubled down on sanctions against Russian ballet dancer Olga Petrova.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Canada's Foreign Minister, Mlanie Joly, advised her government to remove businessman Oleg Boyko from the list of individuals previously sanctioned in connection with Russia's invasion of Ukraine.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Right, because she publicly endorsed the Kremlin's actions in Ukraine, which, uh, is just not something you can ignore.",
+        "tts_text": "Right, because she publicly endorsed the Kremlin's actions in Ukraine, which, uh, is just not something you can ignore.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The article does not mention anyone named Olga Petrova or their endorsements; it is about the lifting of sanctions on businessman Oleg Boyko.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "And she was already sanctioned back in December 2021, but they felt it wasn't enough to change her stance.",
+        "tts_text": "And she was already sanctioned back in December twenty twenty one, but they felt it wasn't enough to change her stance.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Mr. Boyko was added to Canada's sanctions list in April 2022.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "But then there's this other side to it—they lifted sanctions on Oleg Boyko, which is a surprise.",
+        "tts_text": "But then there's this other side to it-they lifted sanctions on Oleg Boyko, which is a surprise.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "On November 15, a statement was published on the Canadian government's website indicating that Item 731 of Part 1 of Schedule 1 to the Special Economic Measures (Russia) Regulations is repealed. This section includes Oleg Viktorovich Boyko, born on September 28, 1964.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Yeah, he's the former CEO of Ukrzaliznytsia, that Ukrainian oil company. His legal team presented evidence he actually supports Ukraine.",
+        "tts_text": "Yeah, he's the former C E O of Ukrzaliznytsia, that Ukrainian oil company. His legal team presented evidence he actually supports Ukraine.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Oleg Boyko is the founder and chairman of the supervisory board of Finstar Financial Group, engaged in investment activities in 25 countries worldwide in the fields of financial services, IT, real estate, retail, and the entertainment industry. The applicant's lawyers insisted that Mr. Boyko has no business in Canada, and he is not associated with the authorities and state bodies of Russia, and does not participate in Russia's political decision-making.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "So the court dismissed the accusations as unfounded, which is a big deal. It shows these things can be reviewed.",
+        "tts_text": "So the court dismissed the accusations as unfounded, which is a big deal. It shows these things can be reviewed.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "In the end, Canada's Foreign Minister, Mlanie Joly, authorized to consider matters of imposing and lifting sanctions in accordance with national legislation, reviewed the appeal and decided to grant it, notifying the applicant in a letter dated November 10, 2023.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Exactly. And now Petrova's facing a complete asset freeze and a ban from entering Canada.",
+        "tts_text": "Exactly. And now Petrova's facing a complete asset freeze and a ban from entering Canada.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The article does not mention anyone named Petrova or any new asset freezes; it discusses the removal of sanctions against Oleg Boyko.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Trudeau says those are staying for the foreseeable future, too.",
+        "tts_text": "Trudeau says those are staying for the foreseeable future, too.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The article does not mention Justin Trudeau. It states: \"Canada's Foreign Minister, Mlanie Joly, advised her government to remove businessman Oleg Boyko from the list of individuals previously sanctioned in connection with Russia's invasion of Ukraine.\"",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "And they're planning more support for Ukrainian refugees, which is, you know, really needed right now.",
+        "tts_text": "And they're planning more support for Ukrainian refugees, which is, you know, really needed right now.",
+        "check_worthy": true,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Plus, they're looking at sanctioning pro-Russian individuals in the U.S. as well.",
+        "tts_text": "Plus, they're looking at sanctioning pro-Russian individuals in the U.S. as well.",
+        "check_worthy": true,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "It's interesting how these decisions aren't set in stone—they can change with new evidence.",
+        "tts_text": "It's interesting how these decisions aren't set in stone-they can change with new evidence.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostA",
+        "text": "For sure. It's a dynamic process, not just a blanket punishment.",
+        "tts_text": "For sure. It's a dynamic process, not just a blanket punishment.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      }
+    ]
+  },
+  "generator_model": "DeepSeek-V3.1",
+  "batch_index": 2,
+  "artist_script": "HostA: You know, I think a lot of people assume sanctions are just a one-and-done thing, but that's not the case at all.\nHostB: Oh, absolutely. Like, take Justin Trudeau's announcement today—he actually doubled down on sanctions against Russian ballet dancer Olga Petrova.\nHostA: Right, because she publicly endorsed the Kremlin's actions in Ukraine, which, uh, is just not something you can ignore.\nHostB: And she was already sanctioned back in December 2021, but they felt it wasn't enough to change her stance.\nHostA: But then there's this other side to it—they lifted sanctions on Oleg Boyko, which is a surprise.\nHostB: Yeah, he's the former CEO of Ukrzaliznytsia, that Ukrainian oil company. His legal team presented evidence he actually supports Ukraine.\nHostA: So the court dismissed the accusations as unfounded, which is a big deal. It shows these things can be reviewed.\nHostB: Exactly. And now Petrova's facing a complete asset freeze and a ban from entering Canada.\nHostA: Trudeau says those are staying for the foreseeable future, too.\nHostB: And they're planning more support for Ukrainian refugees, which is, you know, really needed right now.\nHostA: Plus, they're looking at sanctioning pro-Russian individuals in the U.S. as well.\nHostB: It’s interesting how these decisions aren't set in stone—they can change with new evidence.\nHostA: For sure. It’s a dynamic process, not just a blanket punishment."
+}

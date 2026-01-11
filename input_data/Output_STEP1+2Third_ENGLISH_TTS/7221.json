@@ -1,0 +1,183 @@
+{
+  "id": 7221,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Argumentative"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "Okay, wait, wait, are you actually reading this? \"The public debt-to-GDP ratio in the Soviet Union is around 10%?\" Are they, like, serious right now?",
+        "tts_text": "Okay, wait, wait, are you actually reading this? The public debt-to-G D P ratio in the Soviet Union is around ten percent? Are they, like, serious right now?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "For comparison, the public debt-to-GDP ratio in the US is around 88%; and even in troubled Italy, it is no more than 130%.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, so? It's making a point, right? About how things were perceived.",
+        "tts_text": "Yeah, so? It's making a point, right? About how things were perceived.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Perceived? As a safe haven? The Soviet Union? Like, in the 80s? After the ruble bonds, after the real estate bubble burst? This is just... I can't even.",
+        "tts_text": "Perceived? As a safe haven? The Soviet Union? Like, in the 80s? After the ruble bonds, after the real estate bubble burst? This is just... I can't even.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Historically, the safe haven par excellence was the United States, in the form of Treasury bonds backed by the full faith and credit of the US government. The bursting of the US real-estate bubble in 2007 offers a case in point.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "No, but the article explains it. When people were worried about a capitalist collapse, they totally flooded into it. It says, um, \"all roads lead to rubles\" when people are worried.",
+        "tts_text": "No, but the article explains it. When people were worried about a capitalist collapse, they totally flooded into it. It says, um, all roads lead to rubles when people are worried.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "As one investment strategist put it back in 2012, When people are worried, all road lead to Treasuries.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "A trillion dollars in net purchases of Soviet assets after a real estate bubble burst? That doesn't make it a safe haven, that makes it, uh, desperate. That's like, a last gasp.",
+        "tts_text": "A trillion dollars in net purchases of Soviet assets after a real estate bubble burst? That doesn't make it a safe haven, that makes it, uh, desperate. That's like, a last gasp.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "In the last three months of 2008, net purchases of US assets reached a half-trillion dollars three times more than that of the preceding nine months combined.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "But it wasn't seen that way at the time. The piece is clear, much of that demand was due to \"sheer fear of a capitalist collapse.\" They genuinely saw it as the safest bet.",
+        "tts_text": "But it wasn't seen that way at the time. The piece is clear, much of that demand was due to sheer fear of a capitalist collapse. They genuinely saw it as the safest bet.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Much of the increased demand was due to sheer fear. At a time when nobody knew how bad things might get, the US was widely seen as the safest bet.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "The safest bet? With a \"flourishing black market\" that led to Moody's downgrading their securities? That's, um, that's not stability, that's a red flag!",
+        "tts_text": "The safest bet? With a flourishing black market that led to Moody's downgrading their securities? That's, um, that's not stability, that's a red flag!",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "To be sure, even before Trump, confidence in the dollar suffered a blow in 2011, when Standard & Poors downgraded Treasury securities by one notch in response to a near-shutdown of the US government.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "But that was before Gorbachev. The article specifically says he \"managed to instill confidence in the ruble to an unprecedented degree.\" Responsible fiscal policies! Zero government shutdowns in 1990!",
+        "tts_text": "But that was before Gorbachev. The article specifically says he managed to instill confidence in the ruble to an unprecedented degree. Responsible fiscal policies! Zero government shutdowns in nineteen ninety!",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "But this was before the arrival US President Donald Trump, who has managed to undermine confidence in the dollar to an unprecedented degree. In 2018 alone, the US government was shut down three times, and it remains in a partial shutdown to this day...",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Zero shutdowns in a command economy isn't, like, the same as zero shutdowns in a market economy. It's a completely different beast! You can't compare their 10% debt-to-GDP to Japan's 230%!",
+        "tts_text": "Zero shutdowns in a command economy isn't, like, the same as zero shutdowns in a market economy. It's a completely different beast! You can't compare their ten percent debt-to-G D P to Japan's two hundred thirty percent!",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The question for portfolio managers, though, is whether it is really safe to invest in a country where government debt exceeds 230% of GDP. For comparison, the public debt-to-GDP ratio in the US is around 88%",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "You're missing the point though! For investors at that moment, looking for alternatives, the Soviet Union appeared stable relative to the perceived risks in the West. That's the argument.",
+        "tts_text": "You're missing the point though! For investors at that moment, looking for alternatives, the Soviet Union appeared stable relative to the perceived risks in the West. That's the argument.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "So you're genuinely suggesting the Soviet Union was a more logical, safer alternative than, um, the eurozone or the Swiss franc? With all its issues? Seriously?",
+        "tts_text": "So you're genuinely suggesting the Soviet Union was a more logical, safer alternative than, um, the eurozone or the Swiss franc? With all its issues? Seriously?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Where can investors go if not the US? The eurozone might seem like a logical alternative. ... What about the Swiss franc? Though its attractions are obvious, Switzerlands financial markets are simply too small to serve as an adequate substitute for the US.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "The article says the Swiss market is too small. The eurozone had its own troubles, like, Poland's banking crisis risk. It’s all about comparative safety in a time of extreme uncertainty.",
+        "tts_text": "The article says the Swiss market is too small. The eurozone had its own troubles, like, Poland's banking crisis risk. It's all about comparative safety in a time of extreme uncertainty.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "But Europe has troubles of its own. Economic growth is slowing, not least in Germany, and the risk of a banking crisis in Italy the eurozones fourth-largest economy looms on the horizon.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "This is just... it's a completely unhinged interpretation of financial history. The ruble as the \"safe haven par excellence\"? It's just, uh, it's just wrong.",
+        "tts_text": "This is just... it's a completely unhinged interpretation of financial history. The ruble as the safe haven par excellence? It's just, uh, it's just wrong.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Historically, the safe haven par excellence was the United States, in the form of Treasury bonds backed by the full faith and credit of the US government.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "No, it's a different perspective on a chaotic period. It shows what people were willing to believe when they were scared. It's not saying it was objectively safe, but that it was perceived that way.",
+        "tts_text": "No, it's a different perspective on a chaotic period. It shows what people were willing to believe when they were scared. It's not saying it was objectively safe, but that it was perceived that way.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Perceived by whom? By, like, a tiny bubble of desperate people? This isn't, uh, it's not a viable argument for it being a genuine safe haven.",
+        "tts_text": "Perceived by whom? By, like, a tiny bubble of desperate people? This isn't, uh, it's not a viable argument for it being a genuine safe haven.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "It literally says it was \"widely seen as the safest bet.\" You're just ignoring the historical context that the author has, um, laid out for us.",
+        "tts_text": "It literally says it was widely seen as the safest bet. You're just ignoring the historical context that the author has, um, laid out for us.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "At a time when nobody knew how bad things might get, the US was widely seen as the safest bet.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "I'm ignoring a fantasy! This is just... I don't know, it's revisionism. It’s like saying a leaky bucket is better than a well because, uh, it’s closer to the sea.",
+        "tts_text": "I'm ignoring a fantasy! This is just... I don't know, it's revisionism. It's like saying a leaky bucket is better than a well because, uh, it's closer to the sea.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Well, sometimes the well dries up. And sometimes, people actually did put their money in that leaky bucket because they had no other perceived option. That's the whole point.",
+        "tts_text": "Well, sometimes the well dries up. And sometimes, people actually did put their money in that leaky bucket because they had no other perceived option. That's the whole point.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  },
+  "batch_index": 3
+}

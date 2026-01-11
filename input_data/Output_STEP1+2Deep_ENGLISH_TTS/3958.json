@@ -1,0 +1,165 @@
+{
+  "id": 3958,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Analytical"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "HostA",
+        "text": "Seventeen point three billion dollars. That's the net worth of Lee Kun-hee, the top name on this list of South Korea's wealthiest.",
+        "tts_text": "Seventeen point three billion dollars. That's the net worth of Lee Kun-hee, the top name on this list of South Korea's wealthiest.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "#1 Lee Kun-hee $17.3 B 78 Samsung, Samsung Electronics",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Yeah, and he's uh, tied to Hyundai Motor Group, right? That's a massive fortune for one person.",
+        "tts_text": "Yeah, and he's uh, tied to Hyundai Motor Group, right? That's a massive fortune for one person.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "#1 Lee Kun-hee $17.3 B 78 Samsung, Samsung Electronics",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "It really is. And look at number two, Seo Jung-jin, with 11.4 billion from online games through Nexon. The gaming industry is clearly huge there.",
+        "tts_text": "It really is. And look at number two, Seo Jung-jin, with eleven point four billion from online games through Nexon. The gaming industry is clearly huge there.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "#2 Seo Jung-jin $11.4 B 62 biotech, Celltrion #3 Kim Jung-ju $9.6 B 52 online games, Nexon",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Oh absolutely, and Nexon appears multiple times further down too. But I'm surprised to see biotech in the top three with Kim Jung-ju from Celltrion.",
+        "tts_text": "Oh absolutely, and Nexon appears multiple times further down too. But I'm surprised to see biotech in the top three with Kim Jung-ju from Celltrion.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "#2 Seo Jung-jin $11.4 B 62 biotech, Celltrion #3 Kim Jung-ju $9.6 B 52 online games, Nexon",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Me too! Nine point six billion from biotech firm—that's not something you see every day near the very top of these lists.",
+        "tts_text": "Me too! Nine point six billion from biotech firm-that's not something you see every day near the very top of these lists.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "#2 Seo Jung-jin $11.4 B 62 biotech, Celltrion #3 Kim Jung-ju $9.6 B 52 online games, Nexon",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "And then Jay Y. Lee from LG at number four with 6.7 billion. LG is such a household name globally, but still behind some less familiar companies here.",
+        "tts_text": "And then Jay Y. Lee from L G at number four with six point seven billion. L G is such a household name globally, but still behind some less familiar companies here.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "#4 Jay Y. Lee $6.7 B 52 Samsung, Samsung Electronics",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Right, and Samsung's Mong-Koo Chung is actually down at number eight with 3.2 billion, which feels lower than I would've guessed for Samsung.",
+        "tts_text": "Right, and Samsung's Mong-Koo Chung is actually down at number eight with three point two billion, which feels lower than I would've guessed for Samsung.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "#8 Mong-Koo Chung $3.2 B 82 Hyundai, Hyundai Motor",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Yeah, that was a bit surprising. And look how many are from pharmaceuticals—Hanmi Holdings has several entries, like Kim Beom-su at five and others further down.",
+        "tts_text": "Yeah, that was a bit surprising. And look how many are from pharmaceuticals-Hanmi Holdings has several entries, like Kim Beom-su at five and others further down.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "#5 Kim Beom-su $5.2 B 54 online services, Kakao #18 Lim Sung-ki $1.4 B 80 pharmaceuticals, Hanmi Holdings",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Definitely, pharmaceuticals and online services seem really strong. Kakao's Chey Tae-won is at seven with 3.3 billion.",
+        "tts_text": "Definitely, pharmaceuticals and online services seem really strong. Kakao's Chey Tae-won is at seven with three point three billion.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "#5 Kim Beom-su $5.2 B 54 online services, Kakao #7 Chey Tae-won $3.3 B 59 oil, semiconductor, SK Holdings",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "And then there's Coupang—Koo Kwang-mo at number thirteen from online retail. That's a company a lot of people know nowadays.",
+        "tts_text": "And then there's Coupang-Koo Kwang-mo at number thirteen from online retail. That's a company a lot of people know nowadays.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "#13 Koo Kwang-mo $1.8 B 42 LG #31 Bom Kim $1 B 41 online retailing, Coupang",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "For sure. Also interesting how many family names repeat—Lee, Kim, Koo... it feels like certain families dominate the list.",
+        "tts_text": "For sure. Also interesting how many family names repeat-Lee, Kim, Koo... it feels like certain families dominate the list.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "#1 Lee Kun-hee $17.3 B 78 Samsung, Samsung Electronics #3 Kim Jung-ju $9.6 B 52 online games, Nexon #13 Koo Kwang-mo $1.8 B 42 LG",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Absolutely, generational wealth and chaebols are a big part of the story here. Even the younger ones, like Bom Kim at thirty-one with a cool billion from retail.",
+        "tts_text": "Absolutely, generational wealth and chaebols are a big part of the story here. Even the younger ones, like Bom Kim at thirty-one with a cool billion from retail.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "#31 Bom Kim $1 B 41 online retailing, Coupang",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "And the age range is pretty wide too—from early forties all the way to eighties. Shows wealth spanning generations.",
+        "tts_text": "And the age range is pretty wide too-from early forties all the way to eighties. Shows wealth spanning generations.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "#8 Mong-Koo Chung $3.2 B 82 Hyundai, Hyundai Motor #45 Kim Dae-il $810 M 40 mobile gaming",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "True. Overall though, it's striking how concentrated these fortunes are in tech, autos, and pharmaceuticals rather than more traditional industries.",
+        "tts_text": "True. Overall though, it's striking how concentrated these fortunes are in tech, autos, and pharmaceuticals rather than more traditional industries.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostA",
+        "text": "Yeah, South Korea's economy has really shifted toward innovation in those sectors. This list tells that story perfectly.",
+        "tts_text": "Yeah, South Korea's economy has really shifted toward innovation in those sectors. This list tells that story perfectly.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      }
+    ]
+  },
+  "generator_model": "DeepSeek-V3.1",
+  "batch_index": 2,
+  "artist_script": "HostA: Seventeen point three billion dollars. That's the net worth of Lee Kun-hee, the top name on this list of South Korea's wealthiest.\nHostB: Yeah, and he's uh, tied to Hyundai Motor Group, right? That's a massive fortune for one person.\nHostA: It really is. And look at number two, Seo Jung-jin, with 11.4 billion from online games through Nexon. The gaming industry is clearly huge there.\nHostB: Oh absolutely, and Nexon appears multiple times further down too. But I'm surprised to see biotech in the top three with Kim Jung-ju from Celltrion.\nHostA: Me too! Nine point six billion from biotech firm—that’s not something you see every day near the very top of these lists.\nHostB: And then Jay Y. Lee from LG at number four with 6.7 billion. LG is such a household name globally, but still behind some less familiar companies here.\nHostA: Right, and Samsung’s Mong-Koo Chung is actually down at number eight with 3.2 billion, which feels lower than I would’ve guessed for Samsung.\nHostB: Yeah, that was a bit surprising. And look how many are from pharmaceuticals—Hanmi Holdings has several entries, like Kim Beom-su at five and others further down.\nHostA: Definitely, pharmaceuticals and online services seem really strong. Kakao’s Chey Tae-won is at seven with 3.3 billion.\nHostB: And then there's Coupang—Koo Kwang-mo at number thirteen from online retail. That's a company a lot of people know nowadays.\nHostA: For sure. Also interesting how many family names repeat—Lee, Kim, Koo... it feels like certain families dominate the list.\nHostB: Absolutely, generational wealth and chaebols are a big part of the story here. Even the younger ones, like Bom Kim at thirty-one with a cool billion from retail.\nHostA: And the age range is pretty wide too—from early forties all the way to eighties. Shows wealth spanning generations.\nHostB: True. Overall though, it's striking how concentrated these fortunes are in tech, autos, and pharmaceuticals rather than more traditional industries.\nHostA: Yeah, South Korea’s economy has really shifted toward innovation in those sectors. This list tells that story perfectly."
+}

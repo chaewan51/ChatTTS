@@ -1,0 +1,155 @@
+{
+  "id": 6796,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Podcast co-hosts",
+      "inferred_vibe": "Skeptical / Debating"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Speaker 1",
+        "text": "So, this SpaceX funding round. Is Elon Musk, like, just trolling everyone with that $419.99 share price? Seriously?",
+        "tts_text": "So, this SpaceX funding round. Is Elon Musk, like, just trolling everyone with that four hundred nineteen point nine nine dollars share price? Seriously?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The company raised new funds at $419.99 per share, per CNBC. That price is just a cent below $420 per share, potentially a reference to Elon Musks notorious Twitter post in 2018, when he joked that he would take Tesla TSLA -2.3% private at $420 with funding secured.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Speaker 1",
+        "text": "Well, uh, it's a huge round, right? $900 million. It brings their valuation up to about $76 billion, you know, to fund Starlink and Starship. And, uh, something called Project Chimera.",
+        "tts_text": "Well, uh, it's a huge round, right? nine hundred dollars million. It brings their valuation up to about seventy six dollars billion, you know, to fund Starlink and Starship. And, uh, something called Project Chimera.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Billionaire Elon Musks rocket company SpaceX reportedly completed an $850 million fundraising round last week... the private company will now have a valuation of around $74 billion, citing people familiar with the financing.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Speaker 2",
+        "text": "Project Chimera? Sounds, uh, suspiciously convenient. What is that, exactly? Just another buzzword to raise more cash?",
+        "tts_text": "Project Chimera? Sounds, uh, suspiciously convenient. What is that, exactly? Just another buzzword to raise more cash?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Speaker 1",
+        "text": "It's, like, reportedly for deep space exploration. Very ambitious stuff, you know. Deep space.",
+        "tts_text": "It's, like, reportedly for deep space exploration. Very ambitious stuff, you know. Deep space.",
+        "check_worthy": true,
+        "factual_label": "NEI",
+        "evidence_snippet": "The ground truth article does not contain any information about a 'Project Chimera' or its purpose.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Speaker 2",
+        "text": "Right. Meanwhile, they're criticized for Starlink's cost and scaling issues. Isn't that a more pressing concern than, uh, secret deep space projects?",
+        "tts_text": "Right. Meanwhile, they're criticized for Starlink's cost and scaling issues. Isn't that a more pressing concern than, uh, secret deep space projects?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "...but the service faces criticism over its cost and the companys ability to scale capacity.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Speaker 1",
+        "text": "But there's, like, extraordinary demand for Starlink. It's for an interconnected network of 12,000 satellites. Early tests show it can handle, um, online games.",
+        "tts_text": "But there's, like, extraordinary demand for Starlink. It's for an interconnected network of twelve thousand satellites. Early tests show it can handle, um, online games.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "SpaceX said in 2020 that it was seeing extraordinary demand for its Starlink satellite broadband service. The project aims to build an interconnected network of about 12,000 small satellites in low Earth orbit. So far, early tests have shown broadbands speeds capable of playing online video games and streaming movies...",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Speaker 2",
+        "text": "Online games. Wow. So, we're pouring billions into making rich people richer and, what, letting people play Fortnite in space? Sounds like a joke, honestly.",
+        "tts_text": "Online games. Wow. So, we're pouring billions into making rich people richer and, what, letting people play Fortnite in space? Sounds like a joke, honestly.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Speaker 1",
+        "text": "No, no, it's a massive valuation jump. Last August, they were $46 billion. Now $76 billion. Morgan Stanley even, uh, said $105 billion.",
+        "tts_text": "No, no, it's a massive valuation jump. Last August, they were forty six dollars billion. Now seventy six dollars billion. Morgan Stanley even, uh, said one hundred five dollars billion.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "SpaceX was last valued at $46 billion in an August 2020 fundraising round. But some Wall Street banks had put that value even higher: In October, a Morgan Stanley MS -1.5% analyst gave SpaceX a bullish valuation of $100 billion...",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Speaker 2",
+        "text": "$105 billion based on what? Hype? His net worth just went up by $13 billion from this. Is that, like, the actual goal here? Boosting his personal wealth?",
+        "tts_text": "one hundred five dollars billion based on what? Hype? His net worth just went up by thirteen dollars billion from this. Is that, like, the actual goal here? Boosting his personal wealth?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "If he managed to hold onto all 48%, his stake would now be worth about $32 billionup from roughly $20 billion previously, according to Forbes estimates. That would boost Musks net worth by $12 billion...",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Speaker 1",
+        "text": "Well, his stake increased, yes. But it's about, you know, these capital-intensive projects. Starship, for instance, is a fully reusable launch vehicle.",
+        "tts_text": "Well, his stake increased, yes. But it's about, you know, these capital-intensive projects. Starship, for instance, is a fully reusable launch vehicle.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The latest fundraising round comes in the midst of two capital-intensive projects, Starship and Starlink. Starship is the companys long-term spacecraft project... The aim of the project is to develop a fully-reusable launch vehicle...",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Speaker 2",
+        "text": "Reusable. Sounds good. But, uh, how 'reusable' is it when they're still burning through billions, and needing constant fundraising? It just doesn't add up.",
+        "tts_text": "Reusable. Sounds good. But, uh, how 'reusable' is it when they're still burning through billions, and needing constant fundraising? It just doesn't add up.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Speaker 1",
+        "text": "It's meant to, like, lower costs eventually. Replacing the Falcon 9, taking cargo and passengers.",
+        "tts_text": "It's meant to, like, lower costs eventually. Replacing the Falcon nine, taking cargo and passengers.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Starship is the companys long-term spacecraft project, intended to eventually replace SpaceXs existing Falcon 9 rockets and Dragon spacecraft. The aim of the project is to develop a fully-reusable launch vehicle that is expected to take cargo, and eventually passengers, into space at a lower cost than other existing spacecraft.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Speaker 2",
+        "text": "\"Lower costs.\" Right. For whom, exactly? Because it's clearly not lowering costs for anyone trying to get reliable internet via Starlink. It's just, uh, a lot of promises, isn't it?",
+        "tts_text": "Lower costs. Right. For whom, exactly? Because it's clearly not lowering costs for anyone trying to get reliable internet via Starlink. It's just, uh, a lot of promises, isn't it?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Speaker 1",
+        "text": "Well, um, they did successfully launch astronauts into space.",
+        "tts_text": "Well, um, they did successfully launch astronauts into space.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Beyond successfully launching U.S. astronauts into space in May of last year, SpaceX said in 2020 that it was seeing extraordinary demand for its Starlink satellite broadband service.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Speaker 2",
+        "text": "Astronauts. Cool. But that doesn't mean it's all, you know, financially sound or even, uh, sustainable long-term. Just another Musk fairytale, if you ask me.",
+        "tts_text": "Astronauts. Cool. But that doesn't mean it's all, you know, financially sound or even, uh, sustainable long-term. Just another Musk fairytale, if you ask me.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  },
+  "batch_index": 3
+}

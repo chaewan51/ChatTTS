@@ -1,0 +1,159 @@
+{
+  "id": 11688,
+  "language": "english",
+  "hallucination": "no",
+  "ground_truth_source": "text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Podcast co-hosts",
+      "inferred_vibe": "Informal and skeptical"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_B",
+        "text": "So, um, actually, there's a pretty serious air pollution warning out for, like, Almaty and Astana.",
+        "tts_text": "So, um, actually, there's a pretty serious air pollution warning out for, like, Almaty and Astana.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Kazhydromet has issued an air pollution warning for Almaty, Astana, and several other cities across the country.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "A warning? What, are they just noticing the sky now? Come on.",
+        "tts_text": "A warning? What, are they just noticing the sky now? Come on.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "No, it's specific. Kazhydromet, you know, they've issued it for April 9th, 2025.",
+        "tts_text": "No, it's specific. Kazhydromet, you know, they've issued it for April ninth, twenty twenty five.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "\"On April 9, 2025, unfavorable meteorological conditions for air pollution are expected in the cities of Kokshetau, Zhezkazgan, Balkhash, Aktobe, Almaty, and overnight in Astana,\" Kazhydromet reported.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Wait, two thousand twenty-five? Are we talking about the future now? What is this?",
+        "tts_text": "Wait, two thousand twenty-five? Are we talking about the future now? What is this?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "No, uh, that's just the date. It's for several cities: Kokshetau, Zhezkazgan, Balkhash, Aktobe, Almaty, and Astana overnight.",
+        "tts_text": "No, uh, that's just the date. It's for several cities: Kokshetau, Zhezkazgan, Balkhash, Aktobe, Almaty, and Astana overnight.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "\"On April 9, 2025, unfavorable meteorological conditions for air pollution are expected in the cities of Kokshetau, Zhezkazgan, Balkhash, Aktobe, Almaty, and overnight in Astana,\" Kazhydromet reported.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "And why? What's the big deal for this future date?",
+        "tts_text": "And why? What's the big deal for this future date?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "It's because of, like, \"unfavorable meteorological conditions.\" Things like calm winds, fog, temperature inversions.",
+        "tts_text": "It's because of, like, unfavorable meteorological conditions. Things like calm winds, fog, temperature inversions.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Unfavorable weather conditions refer to a combination of short-term meteorological factors such as calm winds, fog, or temperature inversions, which contribute to the accumulation of pollutants in the lower layers of the atmosphere.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "So, you're telling me some, uh, fog and no wind, that just causes pollution? That's what this is?",
+        "tts_text": "So, you're telling me some, uh, fog and no wind, that just causes pollution? That's what this is?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Well, no, it, uh, it makes existing pollutants accumulate in the lower atmosphere. It's not causing it, but trapping it.",
+        "tts_text": "Well, no, it, uh, it makes existing pollutants accumulate in the lower atmosphere. It's not causing it, but trapping it.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Unfavorable weather conditions refer to a combination of short-term meteorological factors ... which contribute to the accumulation of pollutants in the lower layers of the atmosphere.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "And what are these terrible conditions anyway? Give me the breakdown for this, uh, April 9th.",
+        "tts_text": "And what are these terrible conditions anyway? Give me the breakdown for this, uh, April ninth.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Okay, so, Almaty, partly cloudy, no precipitation. Light eastern wind, you know, three to eight meters per second. And, uh, twenty to twenty-two degrees Celsius during the day.",
+        "tts_text": "Okay, so, Almaty, partly cloudy, no precipitation. Light eastern wind, you know, three to eight meters per second. And, uh, twenty to twenty-two degrees Celsius during the day.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "April 9 \" Partly cloudy, no precipitation. Light eastern wind at 3\"8 m/s. Temperatures will range from +8 to +10ÂC at night and +20 to +22ÂC during the day.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Hold on. Warm, light breeze, no rain? That sounds like a pretty decent day! Not, like, some pollution doom scenario.",
+        "tts_text": "Hold on. Warm, light breeze, no rain? That sounds like a pretty decent day! Not, like, some pollution doom scenario.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "But, uh, some other places, they're expecting fog at night and morning, and, uh, slightly cooler temps.",
+        "tts_text": "But, uh, some other places, they're expecting fog at night and morning, and, uh, slightly cooler temps.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Fog expected at night and in the morning. ... Temperatures will range from +3 to +5ÂC at night and up to +18 to +20ÂC during the day.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Right. So some places are foggy, some aren't. Some have light wind, others stronger. It just sounds like... April weather, frankly.",
+        "tts_text": "Right. So some places are foggy, some aren't. Some have light wind, others stronger. It just sounds like... April weather, frankly.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "It's, uh, the combination, though. For the pollutants to, like, build up.",
+        "tts_text": "It's, uh, the combination, though. For the pollutants to, like, build up.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Unfavorable weather conditions refer to a combination of short-term meteorological factors ... which contribute to the accumulation of pollutants in the lower layers of the atmosphere.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Or, you know, it's always a bit hazy and now they just, uh, have a fancy name for it. Give me a break.",
+        "tts_text": "Or, you know, it's always a bit hazy and now they just, uh, have a fancy name for it. Give me a break.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  },
+  "batch_index": 3
+}

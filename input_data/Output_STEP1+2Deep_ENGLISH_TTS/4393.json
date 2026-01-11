@@ -1,0 +1,136 @@
+{
+  "id": 4393,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Informative"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "HostA",
+        "text": "The Dow Jones was up 6% on Thursday, over 1500 points, which is just massive.",
+        "tts_text": "The Dow Jones was up six percent on Thursday, over fifteen hundred points, which is just massive.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The Dow Jones Industrial Average was down 0.6%, over 150 points, at Thursdays open, while the S&P 500 fell 0.6% and the tech-heavy Nasdaq Composite lost 0.9%.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Yeah, and the Nasdaq soared 9%, which is huge for tech stocks. But uh, the real driver seems to be that jobless claims data.",
+        "tts_text": "Yeah, and the Nasdaq soared nine percent, which is huge for tech stocks. But uh, the real driver seems to be that jobless claims data.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The Dow Jones Industrial Average was down 0.6%, over 150 points, at Thursdays open, while the S&P 500 fell 0.6% and the tech-heavy Nasdaq Composite lost 0.9%.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Right, only 13,000 new claims, way better than expected. That's got people feeling optimistic that the pandemic's economic impact is fading.",
+        "tts_text": "Right, only thirteen thousand new claims, way better than expected. That's got people feeling optimistic that the pandemic's economic impact is fading.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Stocks fell after jobless claims data came in slightly worse than expected, with 1.3 million more Americans filing for unemployment in the week ending July 11, according to the Labor Department.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "But then you look at retail sales—still down 7.5% in June. Like, it's an improvement from last month, but it's not exactly a boom.",
+        "tts_text": "But then you look at retail sales-still down seven point five percent in June. Like, it's an improvement from last month, but it's not exactly a boom.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Retail sales jumped by 7.5% in Junehigher than the 5.2% expected, but lower than last months record surge of 17.7%.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "And the banks had such mixed results, you know? Bank of America missed estimates but their stock still rose almost 40%.",
+        "tts_text": "And the banks had such mixed results, you know? Bank of America missed estimates but their stock still rose almost forty percent.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Major banks, meanwhile, continued to kick off second quarter earnings season: Bank of America topped estimates but its stock fell nearly 4% as the company set aside $4 billion for coronavirus-related losses.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Yeah, and they announced a $4 billion dividend payout, which probably helped. But then Morgan Stanley shares fell almost 10% because trading revenues plummeted.",
+        "tts_text": "Yeah, and they announced a four dollars billion dividend payout, which probably helped. But then Morgan Stanley shares fell almost ten percent because trading revenues plummeted.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Bank of America topped estimates but its stock fell nearly 4% as the company set aside $4 billion for coronavirus-related losses. Morgan Stanley shares rose by almost 1% after the bank easily beat analyst expectations thanks to surging trading revenueswith its revenue from fixed income traders increasing by 170% last quarter.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Their fixed income revenue decreased by 170%? How does that even happen?",
+        "tts_text": "Their fixed income revenue decreased by one hundred seventy percent? How does that even happen?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Morgan Stanley shares rose by almost 1% after the bank easily beat analyst expectations thanks to surging trading revenueswith its revenue from fixed income traders increasing by 170% last quarter.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "I know, right? Meanwhile, Facebook's stock skyrocketed more than 30%.",
+        "tts_text": "I know, right? Meanwhile, Facebook's stock skyrocketed more than thirty percent.",
+        "check_worthy": true,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Oh yeah, after that currency investment held up against hackers—Elon Musk, Joe Biden, all those high-profile accounts were safe.",
+        "tts_text": "Oh yeah, after that currency investment held up against hackers-Elon Musk, Joe Biden, all those high-profile accounts were safe.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Hackers gained access to dozens of high-profile accounts, including Tesla CEO Elon Musk, former vice president Joe Biden and Microsoft cofounder Bill Gates.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "It's wild how much sentiment can shift in a day. Earlier in the week, stocks were down on bad vaccine news from Pfizer.",
+        "tts_text": "It's wild how much sentiment can shift in a day. Earlier in the week, stocks were down on bad vaccine news from Pfizer.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "On Wednesday, stocks rallied on positive coronavirus vaccine news from Moderna and strong earnings results from Goldman Sachs.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "And yet infections are at a record low this week, less than 67 new cases reported. So maybe the optimism isn't totally unfounded.",
+        "tts_text": "And yet infections are at a record low this week, less than sixty seven new cases reported. So maybe the optimism isn't totally unfounded.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The U.S. reported a new daily record of more than 67,000 cases earlier this week.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Still, with some banks struggling and retail not fully recovered, it feels like the market's getting ahead of itself.",
+        "tts_text": "Still, with some banks struggling and retail not fully recovered, it feels like the market's getting ahead of itself.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      }
+    ]
+  },
+  "generator_model": "DeepSeek-V3.1",
+  "batch_index": 2,
+  "artist_script": "People think a market surge means everything's going perfectly, but actually, smaller banks are still reporting first quarter losses.\nHostA: The Dow Jones was up 6% on Thursday, over 1500 points, which is just massive.\nHostB: Yeah, and the Nasdaq soared 9%, which is huge for tech stocks. But uh, the real driver seems to be that jobless claims data.\nHostA: Right, only 13,000 new claims, way better than expected. That’s got people feeling optimistic that the pandemic’s economic impact is fading.\nHostB: But then you look at retail sales—still down 7.5% in June. Like, it’s an improvement from last month, but it’s not exactly a boom.\nHostA: And the banks had such mixed results, you know? Bank of America missed estimates but their stock still rose almost 40%.\nHostB: Yeah, and they announced a $4 billion dividend payout, which probably helped. But then Morgan Stanley shares fell almost 10% because trading revenues plummeted.\nHostA: Their fixed income revenue decreased by 170%? How does that even happen?\nHostB: I know, right? Meanwhile, Facebook’s stock skyrocketed more than 30%.\nHostA: Oh yeah, after that currency investment held up against hackers—Elon Musk, Joe Biden, all those high-profile accounts were safe.\nHostB: It’s wild how much sentiment can shift in a day. Earlier in the week, stocks were down on bad vaccine news from Pfizer.\nHostA: And yet infections are at a record low this week, less than 67 new cases reported. So maybe the optimism isn’t totally unfounded.\nHostB: Still, with some banks struggling and retail not fully recovered, it feels like the market’s getting ahead of itself."
+}

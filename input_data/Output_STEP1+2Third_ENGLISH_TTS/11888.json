@@ -1,0 +1,175 @@
+{
+  "id": 11888,
+  "language": "english",
+  "hallucination": "no",
+  "ground_truth_source": "text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Informal and conversational"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "So, hey, is it just me, or does weather forecasting, especially for places like Kazakhstan, always sound, like, completely contradictory? I heard something about two opposite things happening at once there.",
+        "tts_text": "So, hey, is it just me, or does weather forecasting, especially for places like Kazakhstan, always sound, like, completely contradictory? I heard something about two opposite things happening at once there.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "in the coming days, two opposing atmospheric processes will influence the weather in Kazakhstan.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh, yeah, no, that's actually a super common thing, um, meteorologically speaking. For Kazakhstan right now, it's pretty much a classic example.",
+        "tts_text": "Oh, yeah, no, that's actually a super common thing, um, meteorologically speaking. For Kazakhstan right now, it's pretty much a classic example.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Right, but like, how can it be dry and sunny in one part, and then, you know, just, like, ice storms and blizzards somewhere else at the exact same time? That just sounds… fake.",
+        "tts_text": "Right, but like, how can it be dry and sunny in one part, and then, you know, just, like, ice storms and blizzards somewhere else at the exact same time? That just sounds... fake.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Well, it's not fake, it's just, uh, two big systems pushing against each other. Think of it, um, like a tug-of-war across the country.",
+        "tts_text": "Well, it's not fake, it's just, uh, two big systems pushing against each other. Think of it, um, like a tug-of-war across the country.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "A tug-of-war? For March 15th to 17th? So, like, who's winning?",
+        "tts_text": "A tug-of-war? For March fifteenth to seventeenth? So, like, who's winning?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Kazhydromet has published a weather forecast for Kazakhstan for March 15-17.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "More like, they're dividing the country. You've got this anticyclone. That's, uh, the dry, stable air.",
+        "tts_text": "More like, they're dividing the country. You've got this anticyclone. That's, uh, the dry, stable air.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "An anticyclone covering the eastern, central, and northeastern regions will provide dry and stable weather without precipitation there.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Anti-what now? Sounds like a villain.",
+        "tts_text": "Anti-what now? Sounds like a villain.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Anticyclone. Yeah, it's basically bringing, um, no rain, clear skies to the east, central, and northeast. Like, pretty nice, stable weather there.",
+        "tts_text": "Anticyclone. Yeah, it's basically bringing, um, no rain, clear skies to the east, central, and northeast. Like, pretty nice, stable weather there.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "An anticyclone covering the eastern, central, and northeastern regions will provide dry and stable weather without precipitation there.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Okay, so, uh, dry and stable for some. What about the other side of this tug-of-war? The, um, \"bad guy\" side?",
+        "tts_text": "Okay, so, uh, dry and stable for some. What about the other side of this tug-of-war? The, um, bad guy side?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "That's the northwestern cyclone. That one's, uh, bringing in the rough stuff. Rain, snow, wind, ice formation, especially for the west, north, and south.",
+        "tts_text": "That's the northwestern cyclone. That one's, uh, bringing in the rough stuff. Rain, snow, wind, ice formation, especially for the west, north, and south.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "the western, northern, and southern regions will be under the influence of the trough of the northwestern cyclone, which will lead to rain and snow, increased wind, and the formation of ice.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "So, like, literally a split country then. Warm in the south, right? But then, like, what about the really cold parts?",
+        "tts_text": "So, like, literally a split country then. Warm in the south, right? But then, like, what about the really cold parts?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "In the south of the country, temperatures are forecast to be +2¦+7ÂC at night, with daytime temperatures rising from +13¦+18ÂC to +18¦+23ÂC.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, exactly. The west, you're looking at, um, around +12 to +20 during the day. But then, way over in the east, like, nighttime could still be, uh, around -12 to -5 degrees Celsius. Big difference.",
+        "tts_text": "Yeah, exactly. The west, you're looking at, um, around +twelve to +twenty during the day. But then, way over in the east, like, nighttime could still be, uh, around -twelve to -five degrees Celsius. Big difference.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Temperatures in the west of Kazakhstan will be around +2¦+7ÂC at night and +12¦+20ÂC during the day. In the east of the country, nighttime temperatures will increase from -22¦-12ÂC to -12¦-5ÂC",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "-12 at night?! And then, like, +20 during the day in the west? How do you even, um, pack for that?",
+        "tts_text": "-twelve at night?! And then, like, +twenty during the day in the west? How do you even, um, pack for that?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "You don't, really. You just, uh, know your region. And speaking of which, all that rain and ice in the west and north? Drivers, they really gotta watch out. Fog, reduced visibility, that whole thing.",
+        "tts_text": "You don't, really. You just, uh, know your region. And speaking of which, all that rain and ice in the west and north? Drivers, they really gotta watch out. Fog, reduced visibility, that whole thing.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "precipitation, fog, and icy conditions can complicate the road situation, so drivers are advised to take precautions.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "So, like, seriously, just stay home if you're in the west or north? Or, um, maybe carry a shovel and a snorkel?",
+        "tts_text": "So, like, seriously, just stay home if you're in the west or north? Or, um, maybe carry a shovel and a snorkel?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Pretty much, yeah, or at least be super careful. It's, uh, definitely not a uniform March.",
+        "tts_text": "Pretty much, yeah, or at least be super careful. It's, uh, definitely not a uniform March.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Man, Kazakhstan sounds like, uh, a weather theme park right now. You just pick your adventure.",
+        "tts_text": "Man, Kazakhstan sounds like, uh, a weather theme park right now. You just pick your adventure.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Kinda, yeah. Just make sure you know which adventure you're signing up for.",
+        "tts_text": "Kinda, yeah. Just make sure you know which adventure you're signing up for.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  },
+  "batch_index": 3
+}

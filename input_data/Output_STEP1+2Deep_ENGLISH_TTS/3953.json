@@ -1,0 +1,145 @@
+{
+  "id": 3953,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Colleagues or co-hosts",
+      "inferred_vibe": "Informal and conversational news analysis"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "HostA",
+        "text": "Back in 2020, the U.S. just announced it's joining this international vaccine coalition, Covax, with a four hundred million euro contribution.",
+        "tts_text": "Back in twenty twenty, the U.S. just announced it's joining this international vaccine coalition, Covax, with a four hundred million euro contribution.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The U.S. announced Tuesday that it would not join an international coalition to find and distribute a Covid-19 vaccine worldwide due to the group's association with the World Health Organization, the latest sign of the Trump administration withdrawing the country from the international health community's response to the pandemic over political concerns. On Monday, the European Commission confirmed it would contribute 400 million euros ($478 million) to the initiative, and the WHO said Germany had joined the pact as well.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Yeah, and that's a pretty significant shift, right? Because earlier, uh, the Trump administration was really skeptical of these global health partnerships, especially ones tied to the UN or China.",
+        "tts_text": "Yeah, and that's a pretty significant shift, right? Because earlier, uh, the Trump administration was really skeptical of these global health partnerships, especially ones tied to the U N or China.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The United States will continue to engage our international partners to ensure we defeat this virus, but we will not be constrained by multilateral organizations influenced by the corrupt World Health Organization and China, said Judd Deere, a spokesman for the White House. In early April, Trump blasted the World Health Organization, saying they called it wrong on the virus, that the WHO was very China-centric in its approach, and froze U.S. funding to the organization.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Exactly. And Judd Deere, the White House spokesman, framed it as distancing from partners to defeat the virus, which is an interesting way to put it.",
+        "tts_text": "Exactly. And Judd Deere, the White House spokesman, framed it as distancing from partners to defeat the virus, which is an interesting way to put it.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The United States will continue to engage our international partners to ensure we defeat this virus, but we will not be constrained by multilateral organizations influenced by the corrupt World Health Organization and China, said Judd Deere, a spokesman for the White House.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Mhm. But then you've got Alex Azar, who apparently had no interest in Covax at all—thought the U.S. could go it alone with its own vaccine candidates.",
+        "tts_text": "Mhm. But then you've got Alex Azar, who apparently had no interest in Covax at all-thought the U.S. could go it alone with its own vaccine candidates.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "According to the Washington Post, Health and Human Services Secretary Alex Azar had interest in exploring some type of role in Covax but there was resistance in some corners of the government and a belief that the U.S. has enough coronavirus vaccine candidates in advanced clinical trials that it can go it alone.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Right, but now they're in, and Russia's joined too, according to the WHO. It's a big multilateral move after months of tension.",
+        "tts_text": "Right, but now they're in, and Russia's joined too, according to the W H O. It's a big multilateral move after months of tension.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The U.S. announced Tuesday that it would not join an international coalition to find and distribute a Covid-19 vaccine worldwide due to the group's association with the World Health Organization, the latest sign of the Trump administration withdrawing the country from the international health community's response to the pandemic over political concerns. On Monday, the European Commission confirmed it would contribute 400 million euros ($478 million) to the initiative, and the WHO said Germany had joined the pact as well.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "And the UN chief, António Guterres, warned against vaccine elitism—said the world has to recover together, not separately.",
+        "tts_text": "And the U N chief, António Guterres, warned against vaccine elitism-said the world has to recover together, not separately.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The World Health Organization has warned against vaccine nationalism, with WHO chief Tedros Adhanom Ghebreyesus stating, for the world to recover faster, it has to recover together, because it's a globalized world: the economies are intertwined.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Which makes sense, 'cause, like, if some countries are left behind, the virus just keeps circulating, right?",
+        "tts_text": "Which makes sense, 'cause, like, if some countries are left behind, the virus just keeps circulating, right?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 1.0
+      },
+      {
+        "speaker": "HostB",
+        "text": "Totally. And Covax is aiming for two hundred million doses from one manufacturer by next year, but only ten countries are even in talks so far.",
+        "tts_text": "Totally. And Covax is aiming for two hundred million doses from one manufacturer by next year, but only ten countries are even in talks so far.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Covax is co-led by the World Health Organization, the Coalition for Epidemic Preparedness Innovations and Gavi, which aims to purchase 2 billion doses of potential Covid-19 shots from several vaccine makers by the end of 2021 and distribute them worldwide. The WHO announced last week that Covax plans to work with vaccine manufacturers to provide countries worldwide equitable access to safe and effective vaccines, once they are licensed and approved, and that 172 countries are engaged in discussions to potentially participate.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Yeah, that's not a lot. And then there's that quote from the Russian prime minister—wait, was it Stefan Löfven?—saying limited access worsens the pandemic.",
+        "tts_text": "Yeah, that's not a lot. And then there's that quote from the Russian prime minister-wait, was it Stefan Löfven?-saying limited access worsens the pandemic.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Equal access to a COVID-19 vaccine is the key to beating the virus and paving the way for recovery from the pandemic, said Stefan Lfven, the prime minister of Sweden.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Actually, I think that might have been misattributed or something, 'cause Löfven is Swedish, but the point stands: equity matters here.",
+        "tts_text": "Actually, I think that might have been misattributed or something, 'cause Löfven is Swedish, but the point stands: equity matters here.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Equal access to a COVID-19 vaccine is the key to beating the virus and paving the way for recovery from the pandemic, said Stefan Lfven, the prime minister of Sweden.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "For sure. And it's wild how Trump went from praising the UN and WHO in April to then criticizing them, and now this kind of reversal.",
+        "tts_text": "For sure. And it's wild how Trump went from praising the U N and W H O in April to then criticizing them, and now this kind of reversal.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The U.S. announced Tuesday that it would not join an international coalition to find and distribute a Covid-19 vaccine worldwide due to the group's association with the World Health Organization, the latest sign of the Trump administration withdrawing the country from the international health community's response to the pandemic over political concerns. After initially praising both China and the WHO at the pandemic's outset, President Donald Trump sharply reversed course.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Yeah, Suerie Moon from the Global Health Center called it a real win when the U.S. joins multilateral efforts—it's got political weight beyond just public health.",
+        "tts_text": "Yeah, Suerie Moon from the Global Health Center called it a real win when the U.S. joins multilateral efforts-it's got political weight beyond just public health.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "When the U.S. says it is not going to participate in any sort of multilateral effort to secure vaccines, it's a real blow, said Suerie Moon, co-director of the Global Health Center at the Graduate Institute of International and Development Studies in Geneva. The behavior of countries when it comes to vaccines in this pandemic will have political repercussions beyond public health.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Absolutely. Let's see how this actually plays out with distribution, 'cause that's where things get really tricky.",
+        "tts_text": "Absolutely. Let's see how this actually plays out with distribution, 'cause that's where things get really tricky.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 1.0
+      }
+    ]
+  },
+  "generator_model": "DeepSeek-V3.1",
+  "batch_index": 2,
+  "artist_script": "Back in 2020, the U.S. just announced it's joining this international vaccine coalition, Covax, with a four hundred million euro contribution.\nHostB: Yeah, and that’s a pretty significant shift, right? Because earlier, uh, the Trump administration was really skeptical of these global health partnerships, especially ones tied to the UN or China.\nHostA: Exactly. And Judd Deere, the White House spokesman, framed it as distancing from partners to defeat the virus, which is an interesting way to put it.\nHostB: Mhm. But then you’ve got Alex Azar, who apparently had no interest in Covax at all—thought the U.S. could go it alone with its own vaccine candidates.\nHostA: Right, but now they’re in, and Russia’s joined too, according to the WHO. It’s a big multilateral move after months of tension.\nHostB: And the UN chief, António Guterres, warned against vaccine elitism—said the world has to recover together, not separately.\nHostA: Which makes sense, ‘cause, like, if some countries are left behind, the virus just keeps circulating, right?\nHostB: Totally. And Covax is aiming for two hundred million doses from one manufacturer by next year, but only ten countries are even in talks so far.\nHostA: Yeah, that’s not a lot. And then there’s that quote from the Russian prime minister—wait, was it Stefan Löfven?—saying limited access worsens the pandemic.\nHostB: Actually, I think that might have been misattributed or something, ‘cause Löfven is Swedish, but the point stands: equity matters here.\nHostA: For sure. And it’s wild how Trump went from praising the UN and WHO in April to then criticizing them, and now this kind of reversal.\nHostB: Yeah, Suerie Moon from the Global Health Center called it a real win when the U.S. joins multilateral efforts—it’s got political weight beyond just public health.\nHostA: Absolutely. Let’s see how this actually plays out with distribution, ‘cause that’s where things get really tricky."
+}

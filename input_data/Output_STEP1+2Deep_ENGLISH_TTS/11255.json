@@ -1,0 +1,123 @@
+{
+  "id": 11255,
+  "language": "english",
+  "hallucination": "no",
+  "ground_truth_source": "text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Informative and friendly"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "HostA",
+        "text": "A listener just wrote in, asking about planning a trip to Astana next summer.",
+        "tts_text": "A listener just wrote in, asking about planning a trip to Astana next summer.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostB",
+        "text": "Oh, perfect timing, because uh, Kazakhstanis are gonna have a nice long weekend in July 2025.",
+        "tts_text": "Oh, perfect timing, because uh, Kazakhstanis are gonna have a nice long weekend in July twenty twenty five.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Kazakhstanis can expect long holidays in July 2025.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Yeah, exactly. Capital Day is on July 6th, which is a Sunday, so the day off actually moves to Monday the 7th.",
+        "tts_text": "Yeah, exactly. Capital Day is on July sixth, which is a Sunday, so the day off actually moves to Monday the seventh.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Since July 6 falls on a Sunday, the day off is moved to Monday, July 7, in accordance with the law \"On Holidays.\"",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "So that means if you've got a five-day workweek, you get Saturday the 5th, Sunday the 6th, and Monday the 7th off. Three days in a row!",
+        "tts_text": "So that means if you've got a five-day workweek, you get Saturday the fifth, Sunday the sixth, and Monday the seventh off. Three days in a row!",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "As a result, those with a five-day workweek will have three consecutive days off: July 5, 6, and 7.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "It's a great chance to celebrate the capital's history, since it marks when it moved from Almaty to Astana back in 1998.",
+        "tts_text": "It's a great chance to celebrate the capital's history, since it marks when it moved from Almaty to Astana back in nineteen ninety eight.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "In July 2025, Kazakhstanis will enjoy extra time off in honor of one of the country's main public holidays \" Capital Day, celebrated annually on July 6 to mark the transfer of the capital from Almaty to Astana in 1998.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Tengrinews.kz even put together a calendar to help people plan around it, which is super handy.",
+        "tts_text": "the website even put together a calendar to help people plan around it, which is super handy.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Tengrinews.kz has prepared a handy calendar to help plan your leisure in advance and not miss the days off.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "And for anyone working a six-day week, they still get that Monday off, right?",
+        "tts_text": "And for anyone working a six-day week, they still get that Monday off, right?",
+        "check_worthy": true,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.9,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Yep, the holiday applies to everyone, but the long weekend is really for those on the five-day schedule.",
+        "tts_text": "Yep, the holiday applies to everyone, but the long weekend is really for those on the five-day schedule.",
+        "check_worthy": true,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.9,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Plus, there are a few professional holidays in July too, though those aren't public holidays, so no extra days off.",
+        "tts_text": "Plus, there are a few professional holidays in July too, though those aren't public holidays, so no extra days off.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Professional holidays in July (not public holidays):",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Still, a three-day break in the middle of summer? Can't complain about that.",
+        "tts_text": "Still, a three-day break in the middle of summer? Can't complain about that.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostA",
+        "text": "Definitely not. Makes me wanna look up flights, honestly.",
+        "tts_text": "Definitely not. Makes me wanna look up flights, honestly.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      }
+    ]
+  },
+  "generator_model": "DeepSeek-V3.1",
+  "batch_index": 2
+}

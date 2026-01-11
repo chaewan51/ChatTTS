@@ -1,0 +1,185 @@
+{
+  "id": 4240,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Confidently Incorrect"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "HostA",
+        "text": "Joe Biden's name came up in that piece, but honestly, the focus was on the market collapse.",
+        "tts_text": "Joe Biden's name came up in that piece, but honestly, the focus was on the market collapse.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Joe Biden There was unbelievable uncertainty throughout most of the year, but amid it all, everyone on Wall Streetfrom billionaire investors to hidebound millennial day traders in their pajamasgot rich.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Yeah, and it mentioned Tesla lost about three-quarters of its value during that period. Just staggering.",
+        "tts_text": "Yeah, and it mentioned Tesla lost about three-quarters of its value during that period. Just staggering.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Tesla gained about half a trillion dollars in value.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "It really was—the article claims it was the worst and most sustained decline in history, over 75% in just weeks.",
+        "tts_text": "It really was-the article claims it was the worst and most sustained decline in history, over seventy five percent in just weeks.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Financial markets dropped like a stone early in the Covid-19 crisis and then recovered nearly 50% in a span of months, one of the fastest rebounds ever seen.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "And it wasn't retail investors driving that sell-off, apparently. Institutional investors were consistently selling stocks at every opportunity.",
+        "tts_text": "And it wasn't retail investors driving that sell-off, apparently. Institutional investors were consistently selling stocks at every opportunity.",
+        "check_worthy": true,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Which is so counterintuitive, right? You'd think the pros would hold steady, but they were betting on failures.",
+        "tts_text": "Which is so counterintuitive, right? You'd think the pros would hold steady, but they were betting on failures.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostB",
+        "text": "Exactly. And then you had outfits like Baillie Gifford's Scottish Mortgage Trust, which lost over 90% of its value.",
+        "tts_text": "Exactly. And then you had outfits like Baillie Gifford's Scottish Mortgage Trust, which lost over ninety percent of its value.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Its investments in Tesla, Amazon, Tencent and a few dozen high-growth stocks have propelled it to a 400% gain over the past five years.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Oof, exposure to those worthless startups just crushed them. They had big positions in Tesla, Amazon…",
+        "tts_text": "Oof, exposure to those worthless startups just crushed them. They had big positions in Tesla, Amazon...",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The trust also holds nearly 20% of its assets in private companies such as Ant Financial, SpaceX, Stripe, ByteDance, Affirm, Epic Games and TransferWise.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "And then there's the whole SPAC disaster. The article said zero SPACs raised money—total failure.",
+        "tts_text": "And then there's the whole S P A C disaster. The article said zero SPACs raised money-total failure.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Some 250 SPACs are likely to go public this year, raising over $80 billion in money.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Yeah, no electric vehicle companies, no marijuana stocks… nothing got off the ground. Bankers just couldn't list them.",
+        "tts_text": "Yeah, no electric vehicle companies, no marijuana stocks... nothing got off the ground. Bankers just couldn't list them.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "A market for speculative IPOs, called SPACs, took shape so bankers could list electric vehicle companies, marijuana growers and online gambling stocks, which Robinhood traders would promptly bid to the stratosphere.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "And retail investors got completely shut out too. They couldn't even buy stocks or options on some of those free apps.",
+        "tts_text": "And retail investors got completely shut out too. They couldn't even buy stocks or options on some of those free apps.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Armed with free trading apps, retail investors bought stocks and options like never before, leading to skyrocketing values in the most speculative parts of the market.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Which, uh, led to that total market stagnation. Meanwhile, billionaires lost $1.9 trillion collectively.",
+        "tts_text": "Which, uh, led to that total market stagnation. Meanwhile, billionaires lost one point nine dollars trillion collectively.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The Worlds Billionaires Have Gotten $1.9 Trillion Richer In 2020",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Speaking of losses, Blackstone was named as an outstanding firm for how badly it underperformed—stock dropped 90%.",
+        "tts_text": "Speaking of losses, Blackstone was named as an outstanding firm for how badly it underperformed-stock dropped ninety percent.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Blackstones stock is up 19% this year, outperforming most on Wall Street.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Right, because of bad bets in logistics and life sciences real estate. Not a great year for Schwarzman and Gray.",
+        "tts_text": "Right, because of bad bets in logistics and life sciences real estate. Not a great year for Schwarzman and Gray.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Led by billionaires Stephen Schwarzman and Jonathan Gray, Blackstone is outperforming peers by dint of its investments in logistics and life sciences real estate and its bets on businesses like Tradeweb, Paysafe, Oatly, Bumble and buyout firm BC Partners.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "And then Cathie Wood from Ark Invest gets this ironic \"Person of the Year\" nod from Forbes, with her flagship ETF down 90%.",
+        "tts_text": "And then Cathie Wood from Ark Invest gets this ironic Person of the Year nod from Forbes, with her flagship E T F down ninety percent.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Her flagship Ark Innovation ETF is up 150% year-to-date, and assets have surged to $15 billion.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Yeah, her Ark Innovation fund plummeted to like $1.5 billion in assets. Just a brutal year for almost everyone.",
+        "tts_text": "Yeah, her Ark Innovation fund plummeted to like one point five dollars billion in assets. Just a brutal year for almost everyone.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Her flagship Ark Innovation ETF is up 150% year-to-date, and assets have surged to $15 billion.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "The Forbes forecast at the end called it the \"Biden Bear Market,\" predicting rising rates and weak balance sheets ahead.",
+        "tts_text": "The Forbes forecast at the end called it the Biden Bear Market, predicting rising rates and weak balance sheets ahead.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Forbes Forecast: The Biden Bull Market The stars are lining up for a prolonged bull market as rock-bottom interest rates, strong household balance sheets and the eventual reopening of America give tailwinds to the economy and financial markets.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Not exactly optimistic. But hey, at least we got a dramatic story out of it.",
+        "tts_text": "Not exactly optimistic. But hey, at least we got a dramatic story out of it.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      }
+    ]
+  },
+  "generator_model": "DeepSeek-V3.1",
+  "batch_index": 2,
+  "artist_script": "A quiet trading floor in March 2020, screens flashing red.\nHostA: Joe Biden's name came up in that piece, but honestly, the focus was on the market collapse.\nHostB: Yeah, and it mentioned Tesla lost about three-quarters of its value during that period. Just staggering.\nHostA: It really was—the article claims it was the worst and most sustained decline in history, over 75% in just weeks.\nHostB: And it wasn’t retail investors driving that sell-off, apparently. Institutional investors were consistently selling stocks at every opportunity.\nHostA: Which is so counterintuitive, right? You’d think the pros would hold steady, but they were betting on failures.\nHostB: Exactly. And then you had outfits like Baillie Gifford’s Scottish Mortgage Trust, which lost over 90% of its value.\nHostA: Oof, exposure to those worthless startups just crushed them. They had big positions in Tesla, Amazon…\nHostB: And then there’s the whole SPAC disaster. The article said zero SPACs raised money—total failure.\nHostA: Yeah, no electric vehicle companies, no marijuana stocks… nothing got off the ground. Bankers just couldn’t list them.\nHostB: And retail investors got completely shut out too. They couldn’t even buy stocks or options on some of those free apps.\nHostA: Which, uh, led to that total market stagnation. Meanwhile, billionaires lost $1.9 trillion collectively.\nHostB: Speaking of losses, Blackstone was named as an outstanding firm for how badly it underperformed—stock dropped 90%.\nHostA: Right, because of bad bets in logistics and life sciences real estate. Not a great year for Schwarzman and Gray.\nHostB: And then Cathie Wood from Ark Invest gets this ironic “Person of the Year” nod from Forbes, with her flagship ETF down 90%.\nHostA: Yeah, her Ark Innovation fund plummeted to like $1.5 billion in assets. Just a brutal year for almost everyone.\nHostB: The Forbes forecast at the end called it the “Biden Bear Market,” predicting rising rates and weak balance sheets ahead.\nHostA: Not exactly optimistic. But hey, at least we got a dramatic story out of it."
+}

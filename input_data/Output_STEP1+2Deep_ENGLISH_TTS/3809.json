@@ -1,0 +1,152 @@
+{
+  "id": 3809,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Analytical"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "HostA",
+        "text": "So, Luckin Coffee's stock surged even after reporting a 20% sales drop to $108.9 million last quarter—how does that make any sense?",
+        "tts_text": "So, Luckin Coffee's stock surged even after reporting a twenty percent sales drop to one hundred eight point nine dollars million last quarter-how does that make any sense?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Luckins stock was also powered upward by a company report earlier this week that its sales in the third quarter soared to $208.9 million, an increase of 558% from a year earlier.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Right? And they've expanded like crazy—3,680 stores now, up from just 1,189 a year ago. That growth is insane, but the losses are piling up too.",
+        "tts_text": "Right? And they've expanded like crazy-three thousand, six hundred eighty stores now, up from just eleven eighty nine a year ago. That growth is insane, but the losses are piling up too.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Luckin by the end of the third quarter had 3,680 stores compared with 1,189 a year earlier.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Yeah, their loss widened to $92 million. Yet somehow, chairman Charles Lu is sitting on a fortune worth, what, $1.26 billion now?",
+        "tts_text": "Yeah, their loss widened to ninety two dollars million. Yet somehow, chairman Charles Lu is sitting on a fortune worth, what, one point two six dollars billion now?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Fridays stock surge left Luckins market cap at $6.4 billion, and the fortune of chairman Charles Lu (also known as Charles Zhengyao Lu or Lu Zhengyao) worth an estimated $2.26 billion. Luckin is also struggling to make money its loss widened in the third quarter to $82 million (see details here).",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Exactly! And CEO Jenny Qian became a millionaire overnight from her shares. It's wild how much wealth has been created so quickly for them.",
+        "tts_text": "Exactly! And C E O Jenny Qian became a millionaire overnight from her shares. It's wild how much wealth has been created so quickly for them.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The big increase in Luckins shares on Friday also turned Luckins CEO Jenny Zhiya Qian into a billionaire, with a holding worth $1.06 billion.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "But compare that to Howard Schultz of Starbucks—$5.2 billion. Luckin's market cap is only $5.4 billion, while Starbucks is nearing $100 billion.",
+        "tts_text": "But compare that to Howard Schultz of Starbucks-five point two dollars billion. Luckin's market cap is only five point four dollars billion, while Starbucks is nearing one hundred dollars billion.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Fridays stock surge left Luckins market cap at $6.4 billion, and the fortune of chairman Charles Lu (also known as Charles Zhengyao Lu or Lu Zhengyao) worth an estimated $2.26 billion. Lus and Qians fast-rising wealth compares with a fortune of $4.2 billion for Howard Schulz, Starbucks iconic founder and former chairman.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "True, but you gotta admit, for a company founded in 2017, they're making huge waves in China—Starbucks' key market.",
+        "tts_text": "True, but you gotta admit, for a company founded in twenty seventeen, they're making huge waves in China-Starbucks' key market.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Shares in Luckin, which was founded in only 2017 and is headquartered in the southeastern Chinese city of Xiamen, have now climbed more than 59% since the company went public in May this year at a price of $17 a share.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Oh, absolutely. They went public in May at $27 a share and have dropped over 9% since, but investors still seem optimistic?",
+        "tts_text": "Oh, absolutely. They went public in May at twenty seven dollars a share and have dropped over nine percent since, but investors still seem optimistic?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Shares in Luckin, which was founded in only 2017 and is headquartered in the southeastern Chinese city of Xiamen, have now climbed more than 59% since the company went public in May this year at a price of $17 a share.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "It feels like there's this belief that growth will eventually turn into profit, but with losses widening, I'm not so sure.",
+        "tts_text": "It feels like there's this belief that growth will eventually turn into profit, but with losses widening, I'm not so sure.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostA",
+        "text": "And all this happening against the backdrop of U.S.-China tensions—it's almost symbolic, isn't it?",
+        "tts_text": "And all this happening against the backdrop of U.S.-China tensions-it's almost symbolic, isn't it?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Perhaps the same can be said these days for the overall U.S.-China relationship.",
+        "confidence": 0.9,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Yeah, like this aggressive Chinese challenger taking on an American giant. You can't ignore the geopolitical angle.",
+        "tts_text": "Yeah, like this aggressive Chinese challenger taking on an American giant. You can't ignore the geopolitical angle.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostA",
+        "text": "Still, expanding store count that fast… I wonder how sustainable it really is long-term.",
+        "tts_text": "Still, expanding store count that fast... I wonder how sustainable it really is long-term.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostB",
+        "text": "For sure. They're headquartered in Shenzhen, right? That hustle culture might be driving it, but the numbers don't lie—they're burning cash.",
+        "tts_text": "For sure. They're headquartered in Shenzhen, right? That hustle culture might be driving it, but the numbers don't lie-they're burning cash.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Shares in Luckin, which was founded in only 2017 and is headquartered in the southeastern Chinese city of Xiamen, have now climbed more than 59% since the company went public in May this year at a price of $17 a share.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Do you think they can ever actually rival Starbucks globally, or is this just a regional play?",
+        "tts_text": "Do you think they can ever actually rival Starbucks globally, or is this just a regional play?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostB",
+        "text": "Hard to say. Starbucks has such a strong brand, but in China? Luckin's already a force.",
+        "tts_text": "Hard to say. Starbucks has such a strong brand, but in China? Luckin's already a force.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      }
+    ]
+  },
+  "generator_model": "DeepSeek-V3.1",
+  "batch_index": 2,
+  "artist_script": "HostA: So, Luckin Coffee's stock surged even after reporting a 20% sales drop to $108.9 million last quarter—how does that make any sense?\nHostB: Right? And they’ve expanded like crazy—3,680 stores now, up from just 1,189 a year ago. That growth is insane, but the losses are piling up too.\nHostA: Yeah, their loss widened to $92 million. Yet somehow, chairman Charles Lu is sitting on a fortune worth, what, $1.26 billion now?\nHostB: Exactly! And CEO Jenny Qian became a millionaire overnight from her shares. It’s wild how much wealth has been created so quickly for them.\nHostA: But compare that to Howard Schultz of Starbucks—$5.2 billion. Luckin’s market cap is only $5.4 billion, while Starbucks is nearing $100 billion.\nHostB: True, but you gotta admit, for a company founded in 2017, they’re making huge waves in China—Starbucks’ key market.\nHostA: Oh, absolutely. They went public in May at $27 a share and have dropped over 9% since, but investors still seem optimistic?\nHostB: It feels like there’s this belief that growth will eventually turn into profit, but with losses widening, I’m not so sure.\nHostA: And all this happening against the backdrop of U.S.-China tensions—it’s almost symbolic, isn’t it?\nHostB: Yeah, like this aggressive Chinese challenger taking on an American giant. You can’t ignore the geopolitical angle.\nHostA: Still, expanding store count that fast… I wonder how sustainable it really is long-term.\nHostB: For sure. They’re headquartered in Shenzhen, right? That hustle culture might be driving it, but the numbers don’t lie—they’re burning cash.\nHostA: Do you think they can ever actually rival Starbucks globally, or is this just a regional play?\nHostB: Hard to say. Starbucks has such a strong brand, but in China? Luckin’s already a force."
+}

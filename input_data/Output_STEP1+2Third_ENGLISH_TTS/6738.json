@@ -1,0 +1,177 @@
+{
+  "id": 6738,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Friends/Colleagues",
+      "inferred_vibe": "Informative and casual"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Speaker 1",
+        "text": "...so, wait, 'investment grade' for a bank I've never, uh, really heard of? Like, Kaspi Bank?",
+        "tts_text": "...so, wait, 'investment grade' for a bank I've never, uh, really heard of? Like, Kaspi Bank?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Speaker 2",
+        "text": "Yeah, Kaspi Bank. Part of Kaspi.kz, you know, the big fintech platform. Moody's, they bumped them up to Baa3 from Ba1.",
+        "tts_text": "Yeah, Kaspi Bank. Part of the website, you know, the big fintech platform. Moody's, they bumped them up to Baa3 from Ba1.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Moodys has upgraded its long-term deposit ratings to investment grade Baa3 from Ba1 with a stable outlook for Kaspi Bank, a core part of Kaspi.kzs Fintech Platform.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Speaker 1",
+        "text": "Baa3? Okay, and what does that even, like, actually mean?",
+        "tts_text": "Baa3? Okay, and what does that even, like, actually mean?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Speaker 2",
+        "text": "Well, it means they're less risky, basically. A stable outlook, too. Pretty solid stuff.",
+        "tts_text": "Well, it means they're less risky, basically. A stable outlook, too. Pretty solid stuff.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Moodys has upgraded its long-term deposit ratings to investment grade Baa3 from Ba1 with a stable outlook for Kaspi Bank",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Speaker 1",
+        "text": "Hmm. Why them, though? What's, uh, what's so special about Kaspi.kz that Moody's is, like, praising them?",
+        "tts_text": "Hmm. Why them, though? What's, uh, what's so special about the website that Moody's is, like, praising them?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Speaker 2",
+        "text": "They've got, uh, really sound profitability, good liquidity. And their business model, um, it's just super resilient.",
+        "tts_text": "They've got, uh, really sound profitability, good liquidity. And their business model, um, it's just super resilient.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Moodys cited sound profitability, liquidity and the resilience of Kaspi.kzs proven business model including Fintech, Payments and Marketplace Platforms.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Speaker 1",
+        "text": "Resilient how? Like, against what?",
+        "tts_text": "Resilient how? Like, against what?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Speaker 2",
+        "text": "Economic cycles, you know? They're actually beating revenue predictions by, like, fifteen percent quarter-over-quarter.",
+        "tts_text": "Economic cycles, you know? They're actually beating revenue predictions by, like, fifteen percent quarter-over-quarter.",
+        "check_worthy": true,
+        "factual_label": "NEI",
+        "evidence_snippet": "Kaspi.kzs proven business model has demonstrated resilience throughout the economic cycle.",
+        "confidence": 0.5,
+        "priority": "medium"
+      },
+      {
+        "speaker": "Speaker 1",
+        "text": "Wow. So, it's not just a bank, then? Is it, uh, a tech company?",
+        "tts_text": "Wow. So, it's not just a bank, then? Is it, uh, a tech company?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Speaker 2",
+        "text": "Yeah, it's a Super App. Combines Fintech, Payments, Marketplace. They've even got, um, AI integration in their payment system.",
+        "tts_text": "Yeah, it's a Super App. Combines Fintech, Payments, Marketplace. They've even got, um, A I integration in their payment system.",
+        "check_worthy": true,
+        "factual_label": "NEI",
+        "evidence_snippet": "To deliver upon this we operate a unique two-sided Super App model the Kaspi.kz Super App for consumers and the Kaspi Pay Super App for merchants. Through these Super Apps consumers and merchants can access our leading Payments, Marketplace, and Fintech Platforms.",
+        "confidence": 0.6,
+        "priority": "medium"
+      },
+      {
+        "speaker": "Speaker 1",
+        "text": "AI in payments? That's, uh, pretty advanced. And this is all, like, based in Kazakhstan?",
+        "tts_text": "A I in payments? That's, uh, pretty advanced. And this is all, like, based in Kazakhstan?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Speaker 2",
+        "text": "Yep, Kazakhstan. The operating environment there is actually improving, getting tax incentives for fintechs, too.",
+        "tts_text": "Yep, Kazakhstan. The operating environment there is actually improving, getting tax incentives for fintechs, too.",
+        "check_worthy": true,
+        "factual_label": "NEI",
+        "evidence_snippet": "The improving operating environment in Kazakhstan will further benefit the companys fundamentals.",
+        "confidence": 0.6,
+        "priority": "medium"
+      },
+      {
+        "speaker": "Speaker 1",
+        "text": "So the whole country's, uh, doing better, and Kaspi.kz is riding that wave?",
+        "tts_text": "So the whole country's, uh, doing better, and the website is riding that wave?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Speaker 2",
+        "text": "Exactly. Moody's even upgraded Kazakhstan's government rating, uh, just last month. Baa1.",
+        "tts_text": "Exactly. Moody's even upgraded Kazakhstan's government rating, uh, just last month. Baa1.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The improving operating environment in Kazakhstan led Moodys on 9 September 2024 to upgrade its Kazakhstan government rating to Baa1 from Baa2, with a stable outlook.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Speaker 1",
+        "text": "Fascinating. So, this isn't just some small regional thing then?",
+        "tts_text": "Fascinating. So, this isn't just some small regional thing then?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Speaker 2",
+        "text": "No, not at all. They're trusted by, like, fourteen million people there. Plus, Harvard Business School has two case studies on them.",
+        "tts_text": "No, not at all. They're trusted by, like, fourteen million people there. Plus, Harvard Business School has two case studies on them.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Were trusted by over 14 million Kazakhstanis and 700 thousand merchants... Harvard Business School has written two case studies on Kaspi.kz which it continues to teach to its MBA students.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Speaker 1",
+        "text": "Harvard? Seriously? And, um, I heard something about Nasdaq?",
+        "tts_text": "Harvard? Seriously? And, um, I heard something about Nasdaq?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Speaker 2",
+        "text": "Yeah, Nasdaq listed in January. And, uh, it's trading at nearly double its IPO value.",
+        "tts_text": "Yeah, Nasdaq listed in January. And, uh, it's trading at nearly double its I P O value.",
+        "check_worthy": true,
+        "factual_label": "NEI",
+        "evidence_snippet": "Kaspi.kz has been listed on Nasdaq since January 2024.",
+        "confidence": 0.5,
+        "priority": "medium"
+      }
+    ]
+  },
+  "batch_index": 3
+}

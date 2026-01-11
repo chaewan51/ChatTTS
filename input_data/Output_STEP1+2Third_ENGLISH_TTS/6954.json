@@ -1,0 +1,179 @@
+{
+  "id": 6954,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Podcast co-hosts",
+      "inferred_vibe": "Conversational and analytical, with one host explaining an article to a more skeptical co-host."
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "So, do you really believe we have, like, two jobs? I mean, what even is that?",
+        "tts_text": "So, do you really believe we have, like, two jobs? I mean, what even is that?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Well, the article, it's making a pretty strong case that, uh, yeah, we do. There's the one that pays the bills, obviously.",
+        "tts_text": "Well, the article, it's making a pretty strong case that, uh, yeah, we do. There's the one that pays the bills, obviously.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Job no. 2 is how you get paid, feed your family, and pursue the agenda of the people who hired you.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Right. The one that, you know, keeps the lights on. The actual job. What's the other one?",
+        "tts_text": "Right. The one that, you know, keeps the lights on. The actual job. What's the other one?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "It’s about being, like, other-centered. Thinking first about the interests of clients, peers, even your boss. Asking, \"How can I be most helpful?\"",
+        "tts_text": "It's about being, like, other-centered. Thinking first about the interests of clients, peers, even your boss. Asking, How can I be most helpful?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Job no. 1 forces you to value relationships and be other-centered. Instead of thinking first about your own self-interest, you think first about the interests of others: clients, peers, and even your boss. How can I be most helpful? becomes the core of your actions.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "\"Other-centered.\" Sounds, um, suspiciously like networking with extra steps. Isn't that just a smarter way to do your actual job?",
+        "tts_text": "Other-centered. Sounds, um, suspiciously like networking with extra steps. Isn't that just a smarter way to do your actual job?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "No, no. The article says it's, uh, a job in its own right. It's not just about what you get back immediately. You're constantly looking for ways to add value.",
+        "tts_text": "No, no. The article says it's, uh, a job in its own right. It's not just about what you get back immediately. You're constantly looking for ways to add value.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "You constantly look for new ways to add value... This only works when you view job no. 1 as a job in its own right.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "But isn't the goal of adding value ultimately to be more valuable to the company that pays you? It still circles back to the paycheck, doesn't it?",
+        "tts_text": "But isn't the goal of adding value ultimately to be more valuable to the company that pays you? It still circles back to the paycheck, doesn't it?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "The point is, it makes you much better at job number two. It builds stronger relationships, connects you. It's not, like, a manipulation tactic.",
+        "tts_text": "The point is, it makes you much better at job number two. It builds stronger relationships, connects you. It's not, like, a manipulation tactic.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Job no. 1 does not compete with job no. 2. Job no. 1 makes you much better at job no. 2. It builds stronger relationships. It connects you more strongly to others.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Unless you're doing it only to get ahead. Then it's absolutely manipulation. You know, the type who only helps if there’s something in it for them.",
+        "tts_text": "Unless you're doing it only to get ahead. Then it's absolutely manipulation. You know, the type who only helps if there's something in it for them.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Exactly! That's what it warns against. If you only help people who can help you, then, uh, you’re superficial. That person who won't return calls when you're looking for a job.",
+        "tts_text": "Exactly! That's what it warns against. If you only help people who can help you, then, uh, you're superficial. That person who won't return calls when you're looking for a job.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "If you only help people who can help you in job no. 2, you will soon be revealed as a superficial and somewhat manipulative person. You know the type... someone who is eager to help you when you have a big job, but who won't return your phone calls when you are looking for a job.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "But then there's the flip side, right? The, uh, \"altruistic types\" who are so busy helping with lost cats they forget their actual deadlines?",
+        "tts_text": "But then there's the flip side, right? The, uh, altruistic types who are so busy helping with lost cats they forget their actual deadlines?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "This is where many altruistic types fall down. They are so eager to help others that they forget about their own agenda. Instead of organizing that critical meeting, they end up spending all morning calling neighbors to see if anyone spotted the lost cat...",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, that’s the trap. You want to be helpful, but not, like, hopeless. That's why you have to understand you have both jobs. Job one doesn't compete with job two.",
+        "tts_text": "Yeah, that's the trap. You want to be helpful, but not, like, hopeless. That's why you have to understand you have both jobs. Job one doesn't compete with job two.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "You want to be helpful, but not hopeless. This is why it is so critical to understand that you have two jobs. Job no. 1 does not compete with job no. 2.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Okay, so it doesn't compete, it enhances it. Still sounds like a strategic way to improve performance at the job that, um, matters financially.",
+        "tts_text": "Okay, so it doesn't compete, it enhances it. Still sounds like a strategic way to improve performance at the job that, um, matters financially.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "But it's more than that! It says to invest equal energy. Pursue job one with passion, even though it doesn't pay in cash. Not every reward is, uh, financial.",
+        "tts_text": "But it's more than that! It says to invest equal energy. Pursue job one with passion, even though it doesn't pay in cash. Not every reward is, uh, financial.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Invest equal energy in each. Pursue job no. 1 with passion, even though it doesn't pay you in cash money. Not every reward is financial.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "\"Not every reward is financial.\" I mean, I agree, but to call it a separate \"job\"? It just sounds like doing good work and being a decent human.",
+        "tts_text": "Not every reward is financial. I mean, I agree, but to call it a separate job? It just sounds like doing good work and being a decent human.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "It's about recognizing the critical insight: job one, like, helps you perceive how things are working independently of your own narrow agenda. It, um, feeds your soul.",
+        "tts_text": "It's about recognizing the critical insight: job one, like, helps you perceive how things are working independently of your own narrow agenda. It, um, feeds your soul.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The critical insight... It teaches you to pay attention to the people and the world around you, helping you to perceive how things are working independently of your own narrow agenda. ... Some actions feed your soul, enrich your community...",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "\"Feeds your soul.\" Right. So, if I'm not, uh, passionately seeking non-financial rewards, I'm doing something wrong?",
+        "tts_text": "Feeds your soul. Right. So, if I'm not, uh, passionately seeking non-financial rewards, I'm doing something wrong?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "It's just that, like, succeeding only at the job that pays the bills is, um, too narrow a vision. Unless, you know, you're a super-skilled accountant for the IRS.",
+        "tts_text": "It's just that, like, succeeding only at the job that pays the bills is, um, too narrow a vision. Unless, you know, you're a super-skilled accountant for the I R S.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "It's not enough to succeed at the job that pays your bills. That is simply too narrow a vision of the reason you are here on Earth.",
+        "confidence": 1.0,
+        "priority": "high"
+      }
+    ]
+  },
+  "batch_index": 3
+}

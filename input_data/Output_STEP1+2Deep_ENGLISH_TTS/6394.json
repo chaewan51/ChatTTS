@@ -1,0 +1,116 @@
+{
+  "id": 6394,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Informative and Appreciative"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "HostA",
+        "text": "The 'Biz Birgemiz' forum really highlighted how Kazakhstan's traditional values of solidarity and empathy guided the nation through crisis.",
+        "tts_text": "The 'Biz Birgemiz' forum really highlighted how Kazakhstan's traditional values of solidarity and empathy guided the nation through crisis.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Solidarity, resilience and empathy are the traditional values of our people, said President Kassym-Zhomart Tokayev at the opening of the forum. It is these qualities that have helped us overcome the most difficult times in our history.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Absolutely, and President Tokayev specifically praised medical workers, police, and volunteers for their daily feats during that tough period.",
+        "tts_text": "Absolutely, and President Tokayev specifically praised medical workers, police, and volunteers for their daily feats during that tough period.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Every day we have witnessed feats accomplished throughout the country by medical workers, police officers, members of the Armed Forces, volunteers, and philanthropists. Today, my words of gratitude are addressed first and foremost to all of you!",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Right, and then you've got Kaspi.kz—their CEO, Mikhail Lomtadze, mentioned they enabled 4.5 million online social payments through their app.",
+        "tts_text": "Right, and then you've got the website -their C E O, Mikhail Lomtadze, mentioned they enabled four point five million online social payments through their app.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "As a result, 4.4 million people received their payments online through the Kaspi.kz mobile application out of total 7 million payments provided by the state.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Yeah, which is a huge number, especially when you consider the state provided 7 million payments in total. That's, like, a massive chunk handled digitally.",
+        "tts_text": "Yeah, which is a huge number, especially when you consider the state provided seven million payments in total. That's, like, a massive chunk handled digitally.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "As a result, 4.4 million people received their payments online through the Kaspi.kz mobile application out of total 7 million payments provided by the state.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "And it wasn't just payments—they also organized delivery for over 505,000 families so people could shop safely from home.",
+        "tts_text": "And it wasn't just payments-they also organized delivery for over five hundred five thousand families so people could shop safely from home.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Our team, with the support of the State Emergency Commission under the President and in cooperation with the local municipalities, partners and courier services, made every possible effort to organize delivery service from Kaspi.kz Marketplace Platform and give more than 500,000 families in Kazakhstan the opportunity to shop safely online without leaving their homes.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Which, you know, required coordinating with the State Emergency Commission, local governments, couriers… that's a ton of moving parts.",
+        "tts_text": "Which, you know, required coordinating with the State Emergency Commission, local governments, couriers... that's a ton of moving parts.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Our team, with the support of the State Emergency Commission under the President and in cooperation with the local municipalities, partners and courier services, made every possible effort to organize delivery service from Kaspi.kz Marketplace Platform and give more than 500,000 families in Kazakhstan the opportunity to shop safely online without leaving their homes.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Plus, the co-founders personally donated 100,000 COVID tests to labs. That's a serious private sector contribution.",
+        "tts_text": "Plus, the co-founders personally donated one hundred thousand COVID tests to labs. That's a serious private sector contribution.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Mikhail Lomtadze and Vyacheslav Kim, co-founders of Kaspi.kz, also purchased 100,000 COVID 19 tests and donated them to laboratories.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "It really shows how public-private partnership can scale impact during an emergency. The medal ceremony recognized so many groups—doctors, media, cultural figures…",
+        "tts_text": "It really shows how public-private partnership can scale impact during an emergency. The medal ceremony recognized so many groups-doctors, media, cultural figures...",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The 'Peoples Gratitude' medal was awarded to those, who made a significant contribution to the life of the country during this difficult period, including doctors, policemen, military personnel, cultural figures, media representatives, volunteers and philanthropists.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Yeah, the 'People's Gratitude Medal' feels like a meaningful way to honor those efforts, doesn't it?",
+        "tts_text": "Yeah, the 'People's Gratitude Medal' feels like a meaningful way to honor those efforts, doesn't it?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostB",
+        "text": "For sure. It reinforces that motto—\"We are together\"—not just as words, but as action.",
+        "tts_text": "For sure. It reinforces that motto-We are together-not just as words, but as action.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "We are together ('Biz Birgemiz') is the new motto of our society.",
+        "confidence": 1.0,
+        "priority": "high"
+      }
+    ]
+  },
+  "generator_model": "DeepSeek-V3.1",
+  "batch_index": 2,
+  "artist_script": "The 'Biz Birgemiz' forum really highlighted how Kazakhstan's traditional values of solidarity and empathy guided the nation through crisis.\nHostB: Absolutely, and President Tokayev specifically praised medical workers, police, and volunteers for their daily feats during that tough period.\nHostA: Right, and then you’ve got Kaspi.kz—their CEO, Mikhail Lomtadze, mentioned they enabled 4.5 million online social payments through their app.\nHostB: Yeah, which is a huge number, especially when you consider the state provided 7 million payments in total. That’s, like, a massive chunk handled digitally.\nHostA: And it wasn’t just payments—they also organized delivery for over 505,000 families so people could shop safely from home.\nHostB: Which, you know, required coordinating with the State Emergency Commission, local governments, couriers… that’s a ton of moving parts.\nHostA: Plus, the co-founders personally donated 100,000 COVID tests to labs. That’s a serious private sector contribution.\nHostB: It really shows how public-private partnership can scale impact during an emergency. The medal ceremony recognized so many groups—doctors, media, cultural figures…\nHostA: Yeah, the ‘People’s Gratitude Medal’ feels like a meaningful way to honor those efforts, doesn’t it?\nHostB: For sure. It reinforces that motto—\"We are together\"—not just as words, but as action."
+}

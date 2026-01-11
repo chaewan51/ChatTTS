@@ -1,0 +1,131 @@
+{
+  "id": 11401,
+  "language": "english",
+  "hallucination": "no",
+  "ground_truth_source": "text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Informative and concerned"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "HostA",
+        "text": "So, Kazhydromet is calling for some pretty intense weather starting May 17th.",
+        "tts_text": "So, Kazhydromet is calling for some pretty intense weather starting May seventeenth.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Kazhydromet meteorologists have released the weather forecast for May 17, 18, and 19 in Kazakhstan.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Oh yeah, I saw that. Thunderstorms, hail, gusty winds—sounds like a real mess across most of Kazakhstan.",
+        "tts_text": "Oh yeah, I saw that. Thunderstorms, hail, gusty winds-sounds like a real mess across most of Kazakhstan.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Due to passing atmospheric fronts, rain, thunderstorms, hail, gusty winds, and squalls are expected across Kazakhstan.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "And it's not just rain, right? They're also expecting dust storms in the south and southeast.",
+        "tts_text": "And it's not just rain, right? They're also expecting dust storms in the south and southeast.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Dust storms are expected in the south and southeast, and fog may form in northern and western regions in the morning of May 17\"18.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Exactly, which is uh, not great for visibility or air quality. Plus, fog up north and west on the mornings of the 17th and 18th.",
+        "tts_text": "Exactly, which is uh, not great for visibility or air quality. Plus, fog up north and west on the mornings of the seventeenth and eighteenth.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Dust storms are expected in the south and southeast, and fog may form in northern and western regions in the morning of May 17\"18.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Yeah, that fog could really slow down morning commutes. But wait, didn't they mention some areas might stay dry?",
+        "tts_text": "Yeah, that fog could really slow down morning commutes. But wait, didn't they mention some areas might stay dry?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "However, dry weather is forecast on: Heavy rain and hail possible in the following regions: Dust storms are expected in the south and southeast, and fog may form in northern and western regions in the morning of May 17\"18.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "They did, but honestly, it's hard to pinpoint where. The focus is definitely on the active weather.",
+        "tts_text": "They did, but honestly, it's hard to pinpoint where. The focus is definitely on the active weather.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostA",
+        "text": "Right, and with hail in the mix, that's gonna be tough on crops and vehicles.",
+        "tts_text": "Right, and with hail in the mix, that's gonna be tough on crops and vehicles.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Due to passing atmospheric fronts, rain, thunderstorms, hail, gusty winds, and squalls are expected across Kazakhstan.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "For sure. I mean, gusty winds and squalls on top of it? That's a recipe for power outages.",
+        "tts_text": "For sure. I mean, gusty winds and squalls on top of it? That's a recipe for power outages.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Due to passing atmospheric fronts, rain, thunderstorms, hail, gusty winds, and squalls are expected across Kazakhstan.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Absolutely. People should probably secure anything loose outside before the 17th.",
+        "tts_text": "Absolutely. People should probably secure anything loose outside before the seventeenth.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostB",
+        "text": "Yeah, and maybe avoid travel if possible, especially with dust storms reducing visibility.",
+        "tts_text": "Yeah, and maybe avoid travel if possible, especially with dust storms reducing visibility.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostA",
+        "text": "Good point. It's one of those weekends where you just wanna stay indoors.",
+        "tts_text": "Good point. It's one of those weekends where you just wanna stay indoors.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostB",
+        "text": "Definitely. Let's hope everyone stays safe out there.",
+        "tts_text": "Definitely. Let's hope everyone stays safe out there.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      }
+    ]
+  },
+  "generator_model": "DeepSeek-V3.1",
+  "batch_index": 2
+}

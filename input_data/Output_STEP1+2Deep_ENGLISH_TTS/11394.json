@@ -1,0 +1,122 @@
+{
+  "id": 11394,
+  "language": "english",
+  "hallucination": "no",
+  "ground_truth_source": "text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Podcast co-hosts",
+      "inferred_vibe": "Informal and conversational"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "HostA",
+        "text": "So, a nuclear submarine in the Caspian Sea—real or just another rusty old shipwreck?",
+        "tts_text": "So, a nuclear submarine in the Caspian Sea-real or just another rusty old shipwreck?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "However, Konarbay Bazarbayev, head of the Tupkaragan district fisheries inspection department, dismissed the claim as false. This is absolutely not a nuclear submarine.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Yeah, the video's been all over Instagram, right? Shared by that account, aqtaulive, and it looks pretty convincing at first glance.",
+        "tts_text": "Yeah, the video's been all over Instagram, right? Shared by that account, aqtaulive, and it looks pretty convincing at first glance.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The footage shows a long, rusted structure resembling a submarine and was shared widely across local Instagram communities. A post shared by Ò¢£ | ¢£˜ï¸ (@aqtau_live)",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "It does, but Konarbay Bazarbayev from the fisheries inspection department is saying it's absolutely not a submarine. He called it part of an old vessel.",
+        "tts_text": "It does, but Konarbay Bazarbayev from the fisheries inspection department is saying it's absolutely not a submarine. He called it part of an old vessel.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "However, Konarbay Bazarbayev, head of the Tupkaragan district fisheries inspection department, dismissed the claim as false. The video shows part of an old vessel\"100 percent not a submarine.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "And he's like, one hundred percent sure? That's pretty definitive. He says they patrol the area regularly and see this kind of thing all the time.",
+        "tts_text": "And he's like, one hundred percent sure? That's pretty definitive. He says they patrol the area regularly and see this kind of thing all the time.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "\"100 percent not a submarine. We regularly patrol the northern Caspian and come across many old ship fragments.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Exactly. He mentioned the sea level's dropping, so stuff that used to be deeper—like, 5 to 7 meters down—is now visible in just 3 meters of water.",
+        "tts_text": "Exactly. He mentioned the sea level's dropping, so stuff that used to be deeper-like, five to seven meters down-is now visible in just three meters of water.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "As the sea level drops, wreckage that was previously submerged at depths of 5-7 meters is now visible in waters as shallow as 3 meters.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Oh wow, so it's not some secret military thing, it's just… climate change revealing old wrecks?",
+        "tts_text": "Oh wow, so it's not some secret military thing, it's just... climate change revealing old wrecks?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostA",
+        "text": "Basically. And this isn't even the first time—Lada.kz reported on another \"ghost ship\" situation before.",
+        "tts_text": "Basically. And this isn't even the first the website reported on another ghost ship situation before.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Local media note that this is not the first time such claims have surfaced. Lada.kz previously reported on another wreck in the Caspian, which was dubbed a \"ghost ship\" by social media users due to its eerie appearance.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Right, social media loves a spooky story. Remember that military flask someone found in Mangystau? People get excited.",
+        "tts_text": "Right, social media loves a spooky story. Remember that military flask someone found in Mangystau? People get excited.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Previously, an Aktau resident uncovered an old military flask in Mangystau.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "They do! But in this case, it sounds like the authorities are just like, \"Nope, not a submarine, move along.\"",
+        "tts_text": "They do! But in this case, it sounds like the authorities are just like, Nope, not a submarine, move along.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostB",
+        "text": "Still, it's wild how these things capture everyone's imagination. Like, what if it was real?",
+        "tts_text": "Still, it's wild how these things capture everyone's imagination. Like, what if it was real?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostA",
+        "text": "I know, but sometimes a rusty barge is just a rusty barge.",
+        "tts_text": "I know, but sometimes a rusty barge is just a rusty barge.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      }
+    ]
+  },
+  "generator_model": "DeepSeek-V3.1",
+  "batch_index": 2
+}

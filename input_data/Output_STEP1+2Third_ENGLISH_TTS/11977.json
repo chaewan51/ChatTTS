@@ -1,0 +1,169 @@
+{
+  "id": 11977,
+  "language": "english",
+  "hallucination": "no",
+  "ground_truth_source": "text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts of a podcast or news show.",
+      "inferred_vibe": "Skeptical and conversational, with one host expressing incredulity."
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "Oh my god. You seeing this, B?",
+        "tts_text": "Oh my god. You seeing this, B?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, the Astana thing? Residents got these mass notifications, like, \"Presidential Alert.\"",
+        "tts_text": "Yeah, the Astana thing? Residents got these mass notifications, like, Presidential Alert.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "On March 6, residents of Astana received mass notifications on their phones labeled \"Presidential Alert\" and \"National Alert.\"",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "\"Presidential Alert,\" B? And it just says \"Do not worry, this is a test\"? Please tell me the actual emergency people didn't send that.",
+        "tts_text": "Presidential Alert, B? And it just says Do not worry, this is a test? Please tell me the actual emergency people didn't send that.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "\"National Alert. Do not worry. This is a test of the alert system,\" the message read.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Well, funny you ask, A. The Ministry of Emergency Situations, uh, the MES, they explicitly stated they did not initiate this technical test.",
+        "tts_text": "Well, funny you ask, A. The Ministry of Emergency Situations, uh, the M E S, they explicitly stated they did not initiate this technical test.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The Ministry of Emergency Situations (MES) stated that it did not initiate the technical test of this system.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Did not initiate it? So, like, some ghost in the machine is sending out national alerts? Who owns \"MasAlert\" then?",
+        "tts_text": "Did not initiate it? So, like, some ghost in the machine is sending out national alerts? Who owns MasAlert then?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "They said they're not involved in its technical work. And they, um, they don't control or manage that platform.",
+        "tts_text": "They said they're not involved in its technical work. And they, um, they don't control or manage that platform.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "\"The MES is not involved in the technical work related to testing the MasAlert system. Additionally, we clarify that the MES does not control or manage the MasAlert platform and is not responsible for its maintenance, configuration, or testing,\" the ministry said in response to a Tengrinews.kz inquiry.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "No control? No management? But they're the emergency ministry! How can they just like, wash their hands of it?",
+        "tts_text": "No control? No management? But they're the emergency ministry! How can they just like, wash their hands of it?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "They just said they're not responsible for its maintenance, configuration, or testing. Pretty clear, actually.",
+        "tts_text": "They just said they're not responsible for its maintenance, configuration, or testing. Pretty clear, actually.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "\"...the MES does not control or manage the MasAlert platform and is not responsible for its maintenance, configuration, or testing,\" the ministry said in response to a Tengrinews.kz inquiry.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "\"Pretty clear\"? What's clear is someone's sending out scary alerts that no official body takes responsibility for.",
+        "tts_text": "Pretty clear? What's clear is someone's sending out scary alerts that no official body takes responsibility for.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "They did urge citizens to remain calm, though. And avoid panic.",
+        "tts_text": "They did urge citizens to remain calm, though. And avoid panic.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The MES urged citizens to remain calm and avoid panic.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Oh, I'm sure everyone's super calm when they get a \"Presidential Alert\" from, uh, nobody.",
+        "tts_text": "Oh, I'm sure everyone's super calm when they get a Presidential Alert from, uh, nobody.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "They also mentioned earlier, sirens were supposed to sound that day in Astana.",
+        "tts_text": "They also mentioned earlier, sirens were supposed to sound that day in Astana.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Earlier, it was reported that sirens would sound in Astana and other regions of Kazakhstan on March 6.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Wait, so sirens were planned and then this random, unclaimed \"test\" alert goes out?",
+        "tts_text": "Wait, so sirens were planned and then this random, unclaimed test alert goes out?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, March sixth was the day for both.",
+        "tts_text": "Yeah, March sixth was the day for both.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "On March 6, residents of Astana received mass notifications on their phones... Earlier, it was reported that sirens would sound in Astana and other regions of Kazakhstan on March 6.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "And the MES is like, \"Nah, not us. We don't even know that platform\"? That, um, that just sounds really organized.",
+        "tts_text": "And the M E S is like, Nah, not us. We don't even know that platform? That, um, that just sounds really organized.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Well, official alerts, they said, would come through MES channels.",
+        "tts_text": "Well, official alerts, they said, would come through M E S channels.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "\"In case of an emergency, official alerts will be transmitted through MES channels and mobile network notifications,\" the ministry added.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Right. After the phantom presidential alerts. Fascinating.",
+        "tts_text": "Right. After the phantom presidential alerts. Fascinating.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  },
+  "batch_index": 3
+}

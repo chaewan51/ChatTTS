@@ -1,0 +1,143 @@
+{
+  "id": 6514,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Podcast co-hosts",
+      "inferred_vibe": "Informative and concerned discussion about a scientific study."
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "HostA",
+        "text": "COVID-19 patients are 60% more likely to have a pre-existing psychiatric disorder—what's going on there?",
+        "tts_text": "COVIDminus nineteen patients are sixty percent more likely to have a pre-existing psychiatric disorder-what's going on there?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "There was also an unexpected finding in the research, indicating that those with a pre-existing psychiatric illness are 65% more likely to be diagnosed with Covid-19, even when other factors are accounted for.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Yeah, that was one of the most surprising parts of the Oxford study. It wasn't just that COVID-19 might cause mental health issues—it's that people with existing conditions were way more vulnerable to infection.",
+        "tts_text": "Yeah, that was one of the most surprising parts of the Oxford study. It wasn't just that COVIDminus nineteen might cause mental health issues-it's that people with existing conditions were way more vulnerable to infection.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "There was also an unexpected finding in the research, indicating that those with a pre-existing psychiatric illness are 65% more likely to be diagnosed with Covid-19, even when other factors are accounted for.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "And we're talking about a huge dataset here, right? Like, 71 million patient records analyzed.",
+        "tts_text": "And we're talking about a huge dataset here, right? Like, seventy one million patient records analyzed.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "By examining the health records of 69 million people in the U.S., including over 62,000 Covid-19 patients, researchers from the University of Oxford and NIHR Oxford Health Biomedical Research Centre found evidence that Covid-19 increases a persons risk of developing psychiatric illness, with one in five receiving a diagnosis within three months of testing positive.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Exactly. Over 60,000 of those were COVID-positive, so the sample is pretty robust. But it's not all bad news—they didn't see a big spike in psychotic disorders like schizophrenia.",
+        "tts_text": "Exactly. Over sixty thousand of those were COVID-positive, so the sample is pretty robust. But it's not all bad news-they didn't see a big spike in psychotic disorders like schizophrenia.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "By examining the health records of 69 million people in the U.S., including over 62,000 Covid-19 patients, researchers from the University of Oxford and NIHR Oxford Health Biomedical Research Centre found evidence that Covid-19 increases a persons risk of developing psychiatric illness, with one in five receiving a diagnosis within three months of testing positive. The researchers said they found no clear signs of newly diagnosed psychotic disorders in Covid-19 patients, which includes schizophrenia, though they did note the higher likelihood of relapse in patients already living with the conditions.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "That's something, at least. But still, one in five people developing anxiety, depression, or insomnia within months of testing positive? That's staggering.",
+        "tts_text": "That's something, at least. But still, one in five people developing anxiety, depression, or insomnia within months of testing positive? That's staggering.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Not all mental illnesses were more likely to be seen in Covid-19 patients, the researchers said, with rates of anxiety, depression and insomnia most elevated.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "It really underscores what experts like Dr. Max Taquet are saying—we need to treat psychiatric history as a real risk factor for COVID, not just an outcome.",
+        "tts_text": "It really underscores what experts like Dr. Max Taquet are saying-we need to treat psychiatric history as a real risk factor for COVID, not just an outcome.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Dr. Max Taquet, one of the researchers, said the unexpected finding needs investigation, recommending that having a psychiatric disorder should be added to the list of risk factors for Covid-19.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "And Professor Paul Harrison mentioned that these numbers are probably underestimates. That's… concerning, to say the least.",
+        "tts_text": "And Professor Paul Harrison mentioned that these numbers are probably underestimates. That's... concerning, to say the least.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Services need to be ready to provide care, especially since our results are likely to be underestimates of the actual number of cases, he said.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Makes you wonder how health systems are gonna keep up. We're already stretched thin, and this suggests a wave of mental health needs coming.",
+        "tts_text": "Makes you wonder how health systems are gonna keep up. We're already stretched thin, and this suggests a wave of mental health needs coming.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostA",
+        "text": "Plus, it adds another layer to \"long COVID\"—it's not just physical symptoms like rashes or \"COVID toes,\" but lasting psychological impact too.",
+        "tts_text": "Plus, it adds another layer to long COVID-it's not just physical symptoms like rashes or COVID toes, but lasting psychological impact too.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "It is compounded by a growing body of evidence looking at the long-term impacts of a Covid-19 infection on the body, with rashes and Covid toes both symptoms of long Covid, which can affect the body for months.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Right. And while vaccines like Pfizer's offer hope for prevention, they don't address the mental health fallout that's already happening.",
+        "tts_text": "Right. And while vaccines like Pfizer's offer hope for prevention, they don't address the mental health fallout that's already happening.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostA",
+        "text": "So where does that leave us? More funding for mental health services? Better integration with primary care?",
+        "tts_text": "So where does that leave us? More funding for mental health services? Better integration with primary care?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostB",
+        "text": "Absolutely. And fast. Because if pre-existing conditions raise your risk of infection by 60%, that's a huge group that needs protection now.",
+        "tts_text": "Absolutely. And fast. Because if pre-existing conditions raise your risk of infection by sixty percent, that's a huge group that needs protection now.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "There was also an unexpected finding in the research, indicating that those with a pre-existing psychiatric illness are 65% more likely to be diagnosed with Covid-19, even when other factors are accounted for.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "It's a two-way street—COVID affects the mind, and the mind affects COVID susceptibility. We can't ignore either side.",
+        "tts_text": "It's a two-way street-COVID affects the mind, and the mind affects COVID susceptibility. We can't ignore either side.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "In another worrying set of findings for the long-term impact of Covid-19, a new peer reviewed study has confirmed reported links between psychiatric illness and Covid-19, with nearly one in five Covid-19 patients developing a mental illness within three months of testing positive for the virus and those with pre-existing mental conditions being 65% more likely to be diagnosed with Covid-19, even accounting for other risk factors.",
+        "confidence": 1.0,
+        "priority": "high"
+      }
+    ]
+  },
+  "generator_model": "DeepSeek-V3.1",
+  "batch_index": 2
+}

@@ -1,0 +1,124 @@
+{
+  "id": 6521,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Colleagues",
+      "inferred_vibe": "Informative and concerned"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "HostA",
+        "text": "A listener, Mark from Chicago, writes in asking about Bernstein's recent warning on a second coronavirus wave in the U.S.",
+        "tts_text": "A listener, Mark from Chicago, writes in asking about Bernstein's recent warning on a second coronavirus wave in the U.S.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostB",
+        "text": "Oh yeah, that memo from the Wall Street firm was pretty sobering. They're saying we could see a similar pattern to Europe's surge within six weeks.",
+        "tts_text": "Oh yeah, that memo from the Wall Street firm was pretty sobering. They're saying we could see a similar pattern to Europe's surge within six weeks.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "A true second wave of coronavirus hitting the United States will become an issue within a month, Bernstein predicted, warning that investors and the stock market are going to take some pain.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Exactly—and they pointed out that the Northeast has been holding at around 55 cases per million per day, which is actually their best-case scenario threshold.",
+        "tts_text": "Exactly-and they pointed out that the Northeast has been holding at around fifty five cases per million per day, which is actually their best-case scenario threshold.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The best-case scenario, according to Bernstein, is that the most recent U.S. hot spots can stabilize at around 60 cases per million people per dayroughly the level held in the northeast region since it endured its first wave in March and April.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Right, but with schools and offices reopening, that stability might not last. It's uh, kind of alarming how fast things could shift.",
+        "tts_text": "Right, but with schools and offices reopening, that stability might not last. It's uh, kind of alarming how fast things could shift.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "But as parts of the economy continue to slowly reopenwith people now starting to go back to school and the office, another surge in the Northeast and across the rest of the country looks likely, the firm told clients.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "And you know, it's not all doom and gloom—Bernstein did mention some reasons for optimism, like lower hospitalization rates this time around.",
+        "tts_text": "And you know, it's not all doom and gloom-Bernstein did mention some reasons for optimism, like lower hospitalization rates this time around.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The next wave wont necessarily be as bad as the first ones, since a younger group of people seem to be getting infected and hospitals are no longer at capacity.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Yeah, because younger people are getting infected more now, and hospitals aren't overwhelmed like in the spring. Plus, in some areas, almost 20% of people might already have antibodies.",
+        "tts_text": "Yeah, because younger people are getting infected more now, and hospitals aren't overwhelmed like in the spring. Plus, in some areas, almost twenty percent of people might already have antibodies.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Whats more, in some regions of the country, 15% or more of people are estimated to have already contracted the virus, which means they are more unlikely to be infected again for some time.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Still, they're warning investors to brace for some pain. The markets could really feel it if cases spike again.",
+        "tts_text": "Still, they're warning investors to brace for some pain. The markets could really feel it if cases spike again.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "A true second wave of coronavirus hitting the United States will become an issue within a month, Bernstein predicted, warning that investors and the stock market are going to take some pain.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "It's wild though—Goldman Sachs is predicting record stock highs by mid-January next year. Such mixed signals right now.",
+        "tts_text": "It's wild though-Goldman Sachs is predicting record stock highs by mid-January next year. Such mixed signals right now.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Goldman Says Stocks Will Hit New Record Highs Again By End Of 2020",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Totally. I mean, the U.S. has already hit over 7 million cases, so Bernstein's note kinda suggests that prior exposure might soften the blow a bit.",
+        "tts_text": "Totally. I mean, the U.S. has already hit over seven million cases, so Bernstein's note kinda suggests that prior exposure might soften the blow a bit.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "There have now been more than 30.2 million global cases of coronavirus, with around 6.7 million in the United States alone, according to data from Johns Hopkins University.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "But with nearly 210,000 American lives lost, it's hard to stay optimistic even if the economic impact is 'moderated,' as they put it.",
+        "tts_text": "But with nearly two hundred ten thousand American lives lost, it's hard to stay optimistic even if the economic impact is 'moderated,' as they put it.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Nearly 200,000 Americans have died from the disease, while global deaths have almost reached 950,000.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "For sure. Let's hope the second wave, if it comes, is less severe than feared.",
+        "tts_text": "For sure. Let's hope the second wave, if it comes, is less severe than feared.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      }
+    ]
+  },
+  "generator_model": "DeepSeek-V3.1",
+  "batch_index": 2
+}

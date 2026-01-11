@@ -1,0 +1,145 @@
+{
+  "id": 11998,
+  "language": "english",
+  "hallucination": "no",
+  "ground_truth_source": "text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Informal news discussion"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "Okay, so I just saw this report and, um, get this: 24,500 unique phone numbers. Like, compromised.",
+        "tts_text": "Okay, so I just saw this report and, um, get this: twenty four thousand, five hundred unique phone numbers. Like, compromised.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The leaked information reportedly includes full names, around 24,500 unique phone numbers, 32,500 unique email addresses, dates of birth, and residential addresses,\" the publication states.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "What? Twenty-four thousand? Oh my gosh, from where?",
+        "tts_text": "What? Twenty-four thousand? Oh my gosh, from where?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yeah, from the, uh, Kazakhstan embassy website in Russia. Apparently, it got hacked.",
+        "tts_text": "Yeah, from the, uh, Kazakhstan embassy website in Russia. Apparently, it got hacked.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Reports have surfaced on social media claiming that the website of Kazakhstan™s embassy in Russia has been hacked. The information was shared by the Telegram channel \"Utechka Informacyy ('Data Leakage'),\" stating that hackers had allegedly gained access to data from the website kazembassy.ru.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "The embassy? No way! I just saw something about \"Utechka Informacyy,\" that Telegram channel, right?",
+        "tts_text": "The embassy? No way! I just saw something about Utechka Informacyy, that Telegram channel, right?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The information was shared by the Telegram channel \"Utechka Informacyy ('Data Leakage'),\" stating that hackers had allegedly gained access to data from the website kazembassy.ru.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yes, exactly! That's them. And they're saying, like, full names, addresses...",
+        "tts_text": "Yes, exactly! That's them. And they're saying, like, full names, addresses...",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The leaked information reportedly includes full names, around 24,500 unique phone numbers, 32,500 unique email addresses, dates of birth, and residential addresses,\" the publication states.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "And thirty-two thousand emails! That's just, you know, mind-boggling. Plus dates of birth.",
+        "tts_text": "And thirty-two thousand emails! That's just, you know, mind-boggling. Plus dates of birth.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The leaked information reportedly includes full names, around 24,500 unique phone numbers, 32,500 unique email addresses, dates of birth, and residential addresses,\" the publication states.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Right? And here's the wild part, the files are dated February 21, 2025. Like, what?",
+        "tts_text": "Right? And here's the wild part, the files are dated February twenty one, twenty twenty five. Like, what?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The files are said to be dated February 21, 2025.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Wait, future-dated? Are you serious? That's, um, kinda messing with my head. How does that even happen?",
+        "tts_text": "Wait, future-dated? Are you serious? That's, um, kinda messing with my head. How does that even happen?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "I know, right? Like, either it's a typo in the report or, uh, something really weird is going on. But Kazakhstan's state tech service? They're like, \"We don't confirm any data leak.\"",
+        "tts_text": "I know, right? Like, either it's a typo in the report or, uh, something really weird is going on. But Kazakhstan's state tech service? They're like, We don't confirm any data leak.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "\"We do not confirm any data leak. Technical specialists are currently investigating this claim,\" Kazakhstan™s State Technical Service stated in response.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh, of course they don't! But they did issue that warning about the +870 calls earlier, didn't they? That's gotta be connected.",
+        "tts_text": "Oh, of course they don't! But they did issue that warning about the +eight hundred seventy calls earlier, didn't they? That's gotta be connected.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Earlier, the State Technical Service issued a warning to Kazakhstanis regarding calls from numbers starting with +870.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yes, exactly! They warned about those calls, and now this. It just, you know, makes you wonder what's really happening behind the scenes.",
+        "tts_text": "Yes, exactly! They warned about those calls, and now this. It just, you know, makes you wonder what's really happening behind the scenes.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "All that personal data, though. Names, addresses, phone numbers. That's a lot of potential, uh, trouble for people.",
+        "tts_text": "All that personal data, though. Names, addresses, phone numbers. That's a lot of potential, uh, trouble for people.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Totally. I mean, if you were a Kazakh citizen registering for, like, consular appointments, your info is just out there.",
+        "tts_text": "Totally. I mean, if you were a Kazakh citizen registering for, like, consular appointments, your info is just out there.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "A large number of text files contain personal data of citizens who presumably registered for consular appointments or submitted inquiries via the website.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, it's pretty wild. Just, wow.",
+        "tts_text": "Yeah, it's pretty wild. Just, wow.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  },
+  "batch_index": 3
+}

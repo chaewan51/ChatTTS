@@ -1,0 +1,141 @@
+{
+  "id": 11300,
+  "language": "english",
+  "hallucination": "no",
+  "ground_truth_source": "text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Informative discussion"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "HostA",
+        "text": "Russian President Kassym-Jomart Tokayev just met with Ivanhoe Mines' Robert Friedland to talk mineral exploration in Kazakhstan.",
+        "tts_text": "Russian President Kassym-Jomart Tokayev just met with Ivanhoe Mines' Robert Friedland to talk mineral exploration in Kazakhstan.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "President Kassym-Jomart Tokayev held a meeting with Robert Friedland, executive co-chairman of the board of directors at Ivanhoe Mines Ltd., according to Akorda.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Oh, right, the Chu-Sarysu copper basin—that's a huge project they're kicking off there.",
+        "tts_text": "Oh, right, the Chu-Sarysu copper basin-that's a huge project they're kicking off there.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The President was briefed on the launch of large-scale geological exploration in the Chu-Sarysu copper basin in Kazakhstan.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Yeah, and they're starting with an 18.7 million dollar investment, which is actually just the beginning.",
+        "tts_text": "Yeah, and they're starting with an eighteen point seven million dollar investment, which is actually just the beginning.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Ivanhoe Mines previously announced an initial investment of $18.7 million for subsurface studies at the site, with plans to increase total investment to $115 million over the next four years.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Uh-huh, I read that too—they plan to ramp that up to like, 115 million over four years.",
+        "tts_text": "Uh-huh, I read that too-they plan to ramp that up to like, one hundred fifteen million over four years.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Ivanhoe Mines previously announced an initial investment of $18.7 million for subsurface studies at the site, with plans to increase total investment to $115 million over the next four years.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "That's massive. And Friedland was really emphasizing the tech side of it—advanced airborne geophysics, digital data analysis…",
+        "tts_text": "That's massive. And Friedland was really emphasizing the tech side of it-advanced airborne geophysics, digital data analysis...",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Friedland noted that the project would employ advanced airborne geophysical technologies and digital data analysis.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Which makes sense, you know, given his background. He's been in mining finance since the 80s, right?",
+        "tts_text": "Which makes sense, you know, given his background. He's been in mining finance since the 80s, right?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Since the early 1980s, he has focused on financing mineral exploration and development, as well as energy and technology ventures.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Exactly—he founded Ivanhoe Mines, which is public in Canada. And he called this one of the largest copper exploration efforts in Kazakhstan's history.",
+        "tts_text": "Exactly-he founded Ivanhoe Mines, which is public in Canada. And he called this one of the largest copper exploration efforts in Kazakhstan's history.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "He is also the founder and executive co-chairman of Ivanhoe Mines, a Canadian public company listed on the Toronto Stock Exchange and OTCQX. According to him, the project\"one of the largest copper exploration initiatives in Kazakhstan's history\"offers significant potential for the global copper industry.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "You know, um, global copper demand is just soaring with all the green energy transitions happening.",
+        "tts_text": "You know, um, global copper demand is just soaring with all the green energy transitions happening.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostA",
+        "text": "For sure. And Kazakhstan's really positioning itself as a key player here.",
+        "tts_text": "For sure. And Kazakhstan's really positioning itself as a key player here.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostB",
+        "text": "It's interesting though—just a few days earlier, Tokayev also met with Rwanda's president. Busy diplomatic schedule.",
+        "tts_text": "It's interesting though-just a few days earlier, Tokayev also met with Rwanda's president. Busy diplomatic schedule.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "On May 28, President Tokayev held an expanded-format meeting with Rwandan President Paul Kagame.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Yeah, but this mining partnership feels like a big economic move, not just diplomacy.",
+        "tts_text": "Yeah, but this mining partnership feels like a big economic move, not just diplomacy.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostB",
+        "text": "Absolutely. And with Friedland's track record, you know this project's gonna draw a lot of attention from investors.",
+        "tts_text": "Absolutely. And with Friedland's track record, you know this project's gonna draw a lot of attention from investors.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostA",
+        "text": "Definitely. Copper's the new gold, or at least it feels that way lately.",
+        "tts_text": "Definitely. Copper's the new gold, or at least it feels that way lately.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      }
+    ]
+  },
+  "generator_model": "DeepSeek-V3.1",
+  "batch_index": 2
+}

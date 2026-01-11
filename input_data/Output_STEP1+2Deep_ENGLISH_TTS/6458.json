@@ -1,0 +1,136 @@
+{
+  "id": 6458,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Podcast co-hosts",
+      "inferred_vibe": "Informative and analytical"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "HostA",
+        "text": "A listener writes in, 'I'm really concerned about the ongoing tariffs from 2018 and how they're affecting prices here.'",
+        "tts_text": "A listener writes in, 'I'm really concerned about the ongoing tariffs from twenty eighteen and how they're affecting prices here.'",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostB",
+        "text": "Yeah, that's a huge point. The article mentions that those Trump-era tariffs jumped from just over 3% to more than 21% on imports from China.",
+        "tts_text": "Yeah, that's a huge point. The article mentions that those Trump-era tariffs jumped from just over three percent to more than twenty one percent on imports from China.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "In 2018, then-US President Donald Trumps administration hiked the tariff rate on imports from China from slightly over 3% to more than 21% a level unseen in the US since before World War II.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Right, and China retaliated by raising their own tariffs on US goods, which really hurt American competitiveness there.",
+        "tts_text": "Right, and China retaliated by raising their own tariffs on U S goods, which really hurt American competitiveness there.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "This prompted China to retaliate with higher tariffs on US imports from about 8% to some 19%. As China also lowered its tariffs on imports from all other countries, it reduced the competitiveness of US goods in the Chinese market by an even greater amount.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "And it's not just about trade war optics—every serious study shows those costs have been passed on to American consumers.",
+        "tts_text": "And it's not just about trade war optics-every serious study shows those costs have been passed on to American consumers.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Every serious study of the issue suggests that the increased costs arising from the tariffs have been passed onto American consumers.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Exactly. Imported goods make up about 12% of the US household consumption basket, so removing those tariffs could lower costs by around half a percentage point.",
+        "tts_text": "Exactly. Imported goods make up about twelve percent of the U S household consumption basket, so removing those tariffs could lower costs by around half a percentage point.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Since imported goods account for about 12% of the US household-consumption basket, the removal of the Trump tariffs would lower the cost of that basket by about half a percentage point.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "But it goes even deeper—about 40% of imports from China are parts and intermediate goods, so input costs for US manufacturers would drop too.",
+        "tts_text": "But it goes even deeper-about forty percent of imports from China are parts and intermediate goods, so input costs for U S manufacturers would drop too.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "About 40% of US imports from China are parts, components, and intermediate goods, so removing the Trump tariffs would also lower input costs for American service providers and manufacturers.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Which means even American-made products could become cheaper thanks to that competitive pressure.",
+        "tts_text": "Which means even American-made products could become cheaper thanks to that competitive pressure.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "As a result, the prices of many American-made products and services in the US household-consumption basket would also decline.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "And taken together, it could reduce the cost of living for Americans by about one percentage point—equivalent to a $250 billion boost in household income per year.",
+        "tts_text": "And taken together, it could reduce the cost of living for Americans by about one percentage point-equivalent to a two hundred fifty dollars billion boost in household income per year.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Taken together, these effects would permanently reduce the cost of living to Americans by about one percentage point. Put another way, this would be equivalent of an increase in US household income by more than $250 billion per year (1% of US GDP in 2022).",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "That's massive. And politically, with only 16% of voters feeling better off since Biden took office, you'd think this would be a no-brainer.",
+        "tts_text": "That's massive. And politically, with only sixteen percent of voters feeling better off since Biden took office, you'd think this would be a no-brainer.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "In a recent poll, just 14% of American voters reported being better off financially now than when Biden took office.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "But the US Trade Representative didn't even attend the San Francisco summit, so it seems like tariff talks weren't even on the table.",
+        "tts_text": "But the U S Trade Representative didn't even attend the San Francisco summit, so it seems like tariff talks weren't even on the table.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "And yet, despite the benefits that reducing tariffs would bring, the US Trade Representative did not attend the San Francisco summit, suggesting that Biden never intended to discuss the issue at all.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "It's frustrating—Biden might be worried about looking soft on China, but the data clearly shows removing tariffs would help American households and firms.",
+        "tts_text": "It's frustrating-Biden might be worried about looking soft on China, but the data clearly shows removing tariffs would help American households and firms.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "It is said that Biden does not want to give the Republicans a reason to say that he is soft on China. But he should communicate to voters that removing the Trump tariffs would be good for American households and firms.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Yeah, it feels like a missed opportunity for leadership, especially heading into such a contentious election year.",
+        "tts_text": "Yeah, it feels like a missed opportunity for leadership, especially heading into such a contentious election year.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Not doing so is a failure of leadership.",
+        "confidence": 1.0,
+        "priority": "high"
+      }
+    ]
+  },
+  "generator_model": "DeepSeek-V3.1",
+  "batch_index": 2,
+  "artist_script": "HostA: A listener writes in, 'I'm really concerned about the ongoing tariffs from 2018 and how they're affecting prices here.'\nHostB: Yeah, that's a huge point. The article mentions that those Trump-era tariffs jumped from just over 3% to more than 21% on imports from China.\nHostA: Right, and China retaliated by raising their own tariffs on US goods, which really hurt American competitiveness there.\nHostB: And it's not just about trade war optics—every serious study shows those costs have been passed on to American consumers.\nHostA: Exactly. Imported goods make up about 12% of the US household consumption basket, so removing those tariffs could lower costs by around half a percentage point.\nHostB: But it goes even deeper—about 40% of imports from China are parts and intermediate goods, so input costs for US manufacturers would drop too.\nHostA: Which means even American-made products could become cheaper thanks to that competitive pressure.\nHostB: And taken together, it could reduce the cost of living for Americans by about one percentage point—equivalent to a $250 billion boost in household income per year.\nHostA: That's massive. And politically, with only 16% of voters feeling better off since Biden took office, you'd think this would be a no-brainer.\nHostB: But the US Trade Representative didn't even attend the San Francisco summit, so it seems like tariff talks weren't even on the table.\nHostA: It's frustrating—Biden might be worried about looking soft on China, but the data clearly shows removing tariffs would help American households and firms.\nHostB: Yeah, it feels like a missed opportunity for leadership, especially heading into such a contentious election year."
+}

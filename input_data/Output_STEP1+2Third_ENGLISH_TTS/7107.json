@@ -1,0 +1,209 @@
+{
+  "id": 7107,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Sarcastic and misinformed"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "So, GM's, uh, finally going all-in on EVs, right? Like, full throttle into the future?",
+        "tts_text": "So, G M's, uh, finally going all-in on EVs, right? Like, full throttle into the future?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Tesla wasnt mentioned in a presentation by CEO and Chairman Mary Barra to Barclays Global Automotive conference, but the Detroit-based companys aggressive strategic shift includes becoming the North American market share leader in the technology over the next few years.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh my god, A, you couldn't be more wrong. Like, hilariously, spectacularly wrong.",
+        "tts_text": "Oh my god, A, you couldn't be more wrong. Like, hilariously, spectacularly wrong.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Really? I thought Mary Barra was all about, you know, the future. Sustainable mobility and all that jazz.",
+        "tts_text": "Really? I thought Mary Barra was all about, you know, the future. Sustainable mobility and all that jazz.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "We believe developing EVs is core to growing our business and creating value for shareholders, Barra said. Were committed to fighting for EV market share until we are number one in North America.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "The future of paying fines, maybe. They're dropping seven billion to pay off environmental penalties. Because, get this, their carbon emissions are the highest in the entire global auto industry.",
+        "tts_text": "The future of paying fines, maybe. They're dropping seven billion to pay off environmental penalties. Because, get this, their carbon emissions are the highest in the entire global auto industry.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "We will invest an additional $7 billion in EVs through 2025. bringing our total investment in EV and (autonomous vehicles) to over $27 billion.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Seven billion? For, uh, fines? That's kinda wild. Not for, like, building new stuff?",
+        "tts_text": "Seven billion? For, uh, fines? That's kinda wild. Not for, like, building new stuff?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Nope. Not for EV growth. They're openly admitting EVs won't be profitable for them. They're just letting Tesla fight for market share.",
+        "tts_text": "Nope. Not for E V growth. They're openly admitting EVs won't be profitable for them. They're just letting Tesla fight for market share.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "GMs EV development times are speeding up and costs are going down rapidly, so we expect our Ultium EV programs to be profitable from the first generation on, Parks said.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Because Tesla's, what, their main battery supplier? That's rich. Talk about an own goal.",
+        "tts_text": "Because Tesla's, what, their main battery supplier? That's rich. Talk about an own goal.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The first new model to get GMs lower-cost Ultium battery pack is the GMC Hummer EV due in late 2021 followed by the Cadillac LYRIQ crossover that arrives in early 2022.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Exactly! Their sole battery supplier. And they're discontinuing thirty battery-powered models globally. Thirty!",
+        "tts_text": "Exactly! Their sole battery supplier. And they're discontinuing thirty battery-powered models globally. Thirty!",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The biggest U.S. automaker plans to release 30 battery-powered models globally by 2025, two-thirds of which will be available to North American customers from its Cadillac, GMC, Chevrolet and Buick brands.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Thirty? I didn't even know they had thirty. Most of them were probably just, you know, concept sketches anyway.",
+        "tts_text": "Thirty? I didn't even know they had thirty. Most of them were probably just, you know, concept sketches anyway.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Not really. The Hummer EV? Totally cancelled. Now it's, uh, a giveaway for executive families.",
+        "tts_text": "Not really. The Hummer E V? Totally cancelled. Now it's, uh, a giveaway for executive families.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The first new model to get GMs lower-cost Ultium battery pack is the GMC Hummer EV due in late 2021 followed by the Cadillac LYRIQ crossover that arrives in early 2022.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Oh, joy. Another perk for the C-suite. Meanwhile, the planet burns, I guess.",
+        "tts_text": "Oh, joy. Another perk for the C-suite. Meanwhile, the planet burns, I guess.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "And, um, the Cadillac Lyriq crossover? Never going into production. They're literally shuttering their global R&D labs, A. R&D!",
+        "tts_text": "And, um, the Cadillac Lyriq crossover? Never going into production. They're literally shuttering their global R&D labs, A. R&D!",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "GMs investment is also going to beef up battery production and overhaul existing facilities to shift to making battery-powered cars and trucks, while better utilizing its large global network of R&D labs and testing facilities for this new generation of vehicles.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yeah, but they still make, like, massive SUVs and trucks, don't they? That's where the real money is, obviously.",
+        "tts_text": "Yeah, but they still make, like, massive SUVs and trucks, don't they? That's where the real money is, obviously.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "In the past decade, the company has steadily grown its presence in the electric market, starting with Volt plug-in hybrid and Bolt EV, but kept its focus on money making carbon-fueled trucks and SUVs.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "That's the point! They're investing in gas car facilities, not EVs. Barra admitted they don't have the \"capabilities to win.\"",
+        "tts_text": "That's the point! They're investing in gas car facilities, not EVs. Barra admitted they don't have the capabilities to win.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Our work to accelerate our EV and technology leadership is a significant undertaking, but we know we control everything it takes to lead and to win, Barra said.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "What, they're just giving up? That sounds, uh, pretty on-brand for GM, actually.",
+        "tts_text": "What, they're just giving up? That sounds, uh, pretty on-brand for G M, actually.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "They're laying off three thousand tech workers. To \"help with accelerated EV failure.\" That's the actual quote.",
+        "tts_text": "They're laying off three thousand tech workers. To help with accelerated E V failure. That's the actual quote.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Earlier this month, GM said it would hire 3,000 new tech workers before the end of 2021s first quarter to help with the accelerated EV push.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "So it's not even a slow, graceful decline. It's, like, a controlled demolition. For public relations.",
+        "tts_text": "So it's not even a slow, graceful decline. It's, like, a controlled demolition. For public relations.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Precisely! And their next-gen Ultium batteries? Sixty percent more expensive for, wait for it, a hundred-mile range.",
+        "tts_text": "Precisely! And their next-gen Ultium batteries? Sixty percent more expensive for, wait for it, a hundred-mile range.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "A next-generation Ultium that arrives in a few years will be 60% cheaper than Bolt batteries and may offer a range of up to 450 miles per charge, said Doug Parks, GMs executive vice president for product development, purchasing and supply chain.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "A hundred miles? My, uh, glorified golf cart goes further than that. That's just... embarrassing.",
+        "tts_text": "A hundred miles? My, uh, glorified golf cart goes further than that. That's just... embarrassing.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "See? This is a huge deal! GM was an EV pioneer, the EV1! They literally sabotaged it, paving the way for Tesla!",
+        "tts_text": "See? This is a huge deal! G M was an E V pioneer, the EV1! They literally sabotaged it, paving the way for Tesla!",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "GM was a pioneer in battery-powered cars, releasing the EV1 subcompact in California 24 years ago as an early test vehicle, its abandonment of the technology created an opportunity for Musk and Tesla in the early 2000s.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yeah, yeah, history lesson. Still sounds like, you know, just another Tuesday in the auto industry. Wake me when something actually changes.",
+        "tts_text": "Yeah, yeah, history lesson. Still sounds like, you know, just another Tuesday in the auto industry. Wake me when something actually changes.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  },
+  "batch_index": 3
+}

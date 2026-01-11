@@ -1,0 +1,161 @@
+{
+  "id": 11179,
+  "language": "english",
+  "hallucination": "no",
+  "ground_truth_source": "text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Podcast co-hosts",
+      "inferred_vibe": "Skeptical vs. Analytical"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "HostA",
+        "text": "Two drug labs in Almaty, huh? I'm always a bit when these press releases come out—feels like they're just trying to look busy.",
+        "tts_text": "Two drug labs in Almaty, huh? I'm always a bit when these press releases come out-feels like they're just trying to look busy.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Officers of the National Security Committee (NSC), in coordination with the Prosecutor's Office, dismantled two underground drug laboratories and a large warehouse storing chemical precursors in Almaty, citing the agency's press service.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "But they seized over 15 kilos of mephedrone, that's not nothing. And 650 liters of chemical precursors? That's a massive operation.",
+        "tts_text": "But they seized over fifteen kilos of mephedrone, that's not nothing. And six hundred fifty liters of chemical precursors? That's a massive operation.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "During the operation, more than 15 kilograms of mephedrone, 650 liters of chemical precursors, and laboratory equipment used in drug production were seized.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Yeah, but three citizens detained—sounds small-scale for all that equipment. Feels like maybe they're inflating the bust for the headlines.",
+        "tts_text": "Yeah, but three citizens detained-sounds small-scale for all that equipment. Feels like maybe they're inflating the bust for the headlines.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "It was reported that three Kazakh citizens were detained while producing illegal substances.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "I don't know, the NSC and Prosecutor's Office were both coordinating. That suggests it was a serious, uh, multi-agency effort.",
+        "tts_text": "I don't know, the N S C and Prosecutor's Office were both coordinating. That suggests it was a serious, uh, multi-agency effort.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Officers of the National Security Committee (NSC), in coordination with the Prosecutor's Office, dismantled two underground drug laboratories and a large warehouse storing chemical precursors in Almaty, citing the agency's press service.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Still, \"pre-trial investigation under Article 297\"—sounds standard. They always use that language.",
+        "tts_text": "Still, pre-trial investigation under Article two hundred ninety seven-sounds standard. They always use that language.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "A pre-trial investigation is being conducted under Article 297 of the Criminal Code (\"Illegal manufacturing, processing, acquisition, storage, transportation for the purpose of sale\").",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "True, but remember they also mentioned a recent series of serious crimes they've been cracking down on? This feels connected.",
+        "tts_text": "True, but remember they also mentioned a recent series of serious crimes they've been cracking down on? This feels connected.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Earlier, the Organized Crime Control Department of the Almaty Police Department, together with the NSC and the Prosecutor's Office, detained a group of individuals suspected of committing a series of serious crimes.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Maybe, but why so little detail? \"Not subject to disclosure\"—convenient, isn't it?",
+        "tts_text": "Maybe, but why so little detail? Not subject to disclosure-convenient, isn't it?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Additional details are not subject to disclosure in accordance with Part 1 of Article 201 of the Criminal Procedure Code of the Republic of Kazakhstan.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Well, Part 1 of Article 201 allows that for ongoing cases. It's procedural, not necessarily shady.",
+        "tts_text": "Well, Part one of Article two hundred one allows that for ongoing cases. It's procedural, not necessarily shady.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Additional details are not subject to disclosure in accordance with Part 1 of Article 201 of the Criminal Procedure Code of the Republic of Kazakhstan.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "I guess… but these labs, underground ones—they're usually not huge. 15 kilos is significant, but is it really \"large-scale\"?",
+        "tts_text": "I guess... but these labs, underground ones-they're usually not huge. fifteen kilos is significant, but is it really large-scale?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostB",
+        "text": "Combined with the precursors and equipment? That's a distribution-level operation, not just personal use.",
+        "tts_text": "Combined with the precursors and equipment? That's a distribution-level operation, not just personal use.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostA",
+        "text": "Fair point. And placing them in pre-trial detention means the court saw enough evidence to take it seriously.",
+        "tts_text": "Fair point. And placing them in pre-trial detention means the court saw enough evidence to take it seriously.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "By court decision, the suspects have been placed in pre-trial detention.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Exactly. This wasn't some random raid; it sounds like a well-planned takedown.",
+        "tts_text": "Exactly. This wasn't some random raid; it sounds like a well-planned takedown.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostA",
+        "text": "Alright, maybe I'm being too cynical. It's just hard to trust these announcements sometimes.",
+        "tts_text": "Alright, maybe I'm being too cynical. It's just hard to trust these announcements sometimes.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostB",
+        "text": "I get that, but the numbers here are pretty concrete. Hard to fake 650 liters of chemicals.",
+        "tts_text": "I get that, but the numbers here are pretty concrete. Hard to fake six hundred fifty liters of chemicals.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "During the operation, more than 15 kilograms of mephedrone, 650 liters of chemical precursors, and laboratory equipment used in drug production were seized.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Yeah, you've got a point. Let's see if more comes out after the investigation wraps up.",
+        "tts_text": "Yeah, you've got a point. Let's see if more comes out after the investigation wraps up.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      }
+    ]
+  },
+  "generator_model": "DeepSeek-V3.1",
+  "batch_index": 2
+}

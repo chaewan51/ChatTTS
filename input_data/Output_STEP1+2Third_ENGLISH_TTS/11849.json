@@ -1,0 +1,191 @@
+{
+  "id": 11849,
+  "language": "english",
+  "hallucination": "no",
+  "ground_truth_source": "text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Informative Banter"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "So the dollar, like, totally hit the roof in Kazakhstan today, right?",
+        "tts_text": "So the dollar, like, totally hit the roof in Kazakhstan today, right?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "the weighted average exchange rate of the dollar settled at 496.41 tenge, decreasing by 2.47 tenge.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Uh, actually, no, Host_A, it's, um, quite the opposite.",
+        "tts_text": "Uh, actually, no, Host_A, it's, um, quite the opposite.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "the weighted average exchange rate of the dollar settled at 496.41 tenge, decreasing by 2.47 tenge.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Oh. Wonderful. More, uh, exciting currency news.",
+        "tts_text": "Oh. Wonderful. More, uh, exciting currency news.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "No, but seriously, it dropped below 500 tenge for the first time in a while.",
+        "tts_text": "No, but seriously, it dropped below five hundred tenge for the first time in a while.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Dollar drops below 500.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yeah, and? A few tenge here, a few tenge there. Big deal.",
+        "tts_text": "Yeah, and? A few tenge here, a few tenge there. Big deal.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "But it is a big deal. The weighted average on KASE, like, settled at 496.41. That's a 2.47 tenge decrease.",
+        "tts_text": "But it is a big deal. The weighted average on K A S E, like, settled at four hundred ninety six point four one. That's a two point four seven tenge decrease.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "According to the Kazakhstan Stock Exchange (KASE), the weighted average exchange rate of the dollar settled at 496.41 tenge, decreasing by 2.47 tenge.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "KASE. Sounds thrilling.",
+        "tts_text": "K A S E. Sounds thrilling.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "The official National Bank rate was still 499.04, but you know, the market's saying something else.",
+        "tts_text": "The official National Bank rate was still four hundred ninety nine point zero four, but you know, the market's saying something else.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Notably, the official exchange rate set by the National Bank for March 18 stands at 499.04 tenge per dollar.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "So it's strong. For them, I guess.",
+        "tts_text": "So it's strong. For them, I guess.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, it shows the tenge strengthening. In Almaty, you're buying it for 495.99.",
+        "tts_text": "Yeah, it shows the tenge strengthening. In Almaty, you're buying it for four hundred ninety five point nine nine.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Economists explain tenge™s strengthening... According to kurs.kz, the average dollar exchange rate in Almaty™s exchange offices is 495.99 tenge for buying and 498.40 tenge for selling.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Uh huh. And what about, like, Astana? Different numbers, obviously.",
+        "tts_text": "Uh huh. And what about, like, Astana? Different numbers, obviously.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "A little, yeah, 495.21 to buy there. But the trend, it's the dollar weakening.",
+        "tts_text": "A little, yeah, four hundred ninety five point two one to buy there. But the trend, it's the dollar weakening.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "In Astana, the rates are 495.21 tenge for buying and 501.11 tenge for selling.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Weakening dollar. Heard that before.",
+        "tts_text": "Weakening dollar. Heard that before.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "And in Russia, the dollar dropped below 81 rubles. That's, um, like, the first time since June 2024.",
+        "tts_text": "And in Russia, the dollar dropped below eighty one rubles. That's, um, like, the first time since June twenty twenty four.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Meanwhile, in Russia, the calculated exchange rate of the dollar dropped below 81 rubles for the first time since June 2024.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Wait, June 2024? We're not even in 2024 yet.",
+        "tts_text": "Wait, June twenty twenty four? We're not even in twenty twenty four yet.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Meanwhile, in Russia, the calculated exchange rate of the dollar dropped below 81 rubles for the first time since June 2024.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh, uh, yeah, sorry, that's a typo in the article, Host_A. It means June 2022. My bad.",
+        "tts_text": "Oh, uh, yeah, sorry, that's a typo in the article, Host_A. It means June twenty twenty two. My bad.",
+        "check_worthy": true,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.5,
+        "priority": "medium"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Right. So, economists, like, explained this tenge strengthening, I suppose.",
+        "tts_text": "Right. So, economists, like, explained this tenge strengthening, I suppose.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Economists explain tenge™s strengthening",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "They did, yeah. It means, you know, things are getting more stable. It's significant for the economy.",
+        "tts_text": "They did, yeah. It means, you know, things are getting more stable. It's significant for the economy.",
+        "check_worthy": true,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.6,
+        "priority": "medium"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Mmm. Significant. For, uh, people tracking currency.",
+        "tts_text": "Mmm. Significant. For, uh, people tracking currency.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  },
+  "batch_index": 3
+}

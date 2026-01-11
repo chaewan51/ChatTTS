@@ -1,0 +1,173 @@
+{
+  "id": 6908,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Skeptical Banter"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "Oh, another global forum, huh? More rich people patting themselves on the back?",
+        "tts_text": "Oh, another global forum, huh? More rich people patting themselves on the back?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "No no, wait, this one, uh, it's different! This was in Dubai, the GESF, a really big deal for education.",
+        "tts_text": "No no, wait, this one, uh, it's different! This was in Dubai, the G E S F, a really big deal for education.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "On March 22 to 24, 2019, Nurali Aliyev, founder of ZHANARTU private charity foundation, was participating at the Global Education and Skills Forum in Dubai, UAE.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "\"Big deal.\" Like, for who? The Varkey Foundation? The Sheikh who probably just showed up for the photo op?",
+        "tts_text": "Big deal. Like, for who? The Varkey Foundation? The Sheikh who probably just showed up for the photo op?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "GESF is organized by Varkey Foundation. The forum is held under the patronage of Sheikh Mohammed bin Rashid Al Maktoum, the Vice President and Prime Minister of the UAE, and Ruler of the Emirate of Dubai.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Okay, but listen! Nurali Aliyev, from ZHANARTU, he was there, and he brought this incredible team, QamCare, from Kazakhstan.",
+        "tts_text": "Okay, but listen! Nurali Aliyev, from Z H A N A R T U, he was there, and he brought this incredible team, QamCare, from Kazakhstan.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Nurali Aliyev, founder of ZHANARTU private charity foundation, was participating at the Global Education and Skills Forum in Dubai, UAE. QamCare team from Kazakhstan... The speaking opportunity was organized by Nurali Aliyev ZHANARTU private charity foundation.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Kazakhstan. Right. And they, uh, they presented their \"transformative potential of mobile technology.\" How very... buzzword-y.",
+        "tts_text": "Kazakhstan. Right. And they, uh, they presented their transformative potential of mobile technology. How very... buzzword-y.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "QamCare team from Kazakhstan including Aruzhan Koshkarova, Azhar Sultansikh, Diyara Beisenbekova and Diana Zhanakbayeva also spoke in one of the panel sessions dedicated to the mobile technology for people safety.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "But it is transformative! It's an SOS button app for school students, you know, for emergencies. And it, like, works without internet data!",
+        "tts_text": "But it is transformative! It's an S O S button app for school students, you know, for emergencies. And it, like, works without internet data!",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "In the speaking session, the girls presented QamCare mobile application and its SOS button that allows to track the location of family members and to send a message to your family in seconds with detailed data about your location in case of emergency without the use of a mobile phone.",
+        "confidence": 0.8,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Oh, a panic button. Genius. I'm sure that's never been done before. And \"without internet data,\" really? How exactly does that even work?",
+        "tts_text": "Oh, a panic button. Genius. I'm sure that's never been done before. And without internet data, really? How exactly does that even work?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "It's sophisticated geo-location! Experts are, uh, praising it, especially for places with limited connectivity. They even won a huge IT competition in 2017.",
+        "tts_text": "It's sophisticated geo-location! Experts are, uh, praising it, especially for places with limited connectivity. They even won a huge I T competition in twenty seventeen.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "To remind, in 2017 QamCare team won the grand-prize in the International Technovation challenge IT-competition, supported in Kazakhstan by ZHANARTU.",
+        "confidence": 0.7,
+        "priority": "medium"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Backed by ZHANARTU, naturally. And some \"prominent tech billionaire,\" conveniently unnamed, I'm sure. Sounds very... corporate social responsibility.",
+        "tts_text": "Backed by Z H A N A R T U, naturally. And some prominent tech billionaire, conveniently unnamed, I'm sure. Sounds very... corporate social responsibility.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "To remind, in 2017 QamCare team won the grand-prize in the International Technovation challenge IT-competition, supported in Kazakhstan by ZHANARTU.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "No, it's more than that! Nurali Aliyev, he's, like, personally supporting them. Scholarships, internships at international tech companies! For the whole team!",
+        "tts_text": "No, it's more than that! Nurali Aliyev, he's, like, personally supporting them. Scholarships, internships at international tech companies! For the whole team!",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "All of us were offered with a full scholarship in his Nurali Aliyev Bachelor of Informational Systems in Business academic program at KIMEP University, one of the prominent universities in Central Asia, concluded Aruzhan Koshkarova from QamCare team.",
+        "confidence": 0.85,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Full ride to KIMEP University? And promised internships? So, he's buying their loyalty, effectively. Good career move for the kids, I guess.",
+        "tts_text": "Full ride to K I M E P University? And promised internships? So, he's buying their loyalty, effectively. Good career move for the kids, I guess.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "All of us were offered with a full scholarship in his Nurali Aliyev Bachelor of Informational Systems in Business academic program at KIMEP University, one of the prominent universities in Central Asia, concluded Aruzhan Koshkarova from QamCare team.",
+        "confidence": 0.85,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "No, it's about fostering innovation, the gifted IT generation! ZHANARTU's whole mission, apparently. He met them after their Silicon Valley win, too.",
+        "tts_text": "No, it's about fostering innovation, the gifted I T generation! Z H A N A R T U's whole mission, apparently. He met them after their Silicon Valley win, too.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The key goal of ZHANARTU charity foundation is to support talented young IT-generation of Kazakhstan. In 2017, Nurali Aliyev, the founder of ZHANARTU, had met with the winner-team who won in the international IT-competition in San Francisco.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Silicon Valley. Of course. So, what, he's going to turn them into his own little tech army? More start-up rumors, I bet.",
+        "tts_text": "Silicon Valley. Of course. So, what, he's going to turn them into his own little tech army? More start-up rumors, I bet.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Well, actually, yeah! There are rumors about a new accelerator program, with a Silicon Valley VC firm! This is, uh, huge!",
+        "tts_text": "Well, actually, yeah! There are rumors about a new accelerator program, with a Silicon Valley V C firm! This is, uh, huge!",
+        "check_worthy": true,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Oh, great. Another accelerator. Just what the world needs. More disruption.",
+        "tts_text": "Oh, great. Another accelerator. Just what the world needs. More disruption.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "But this is for, like, young Kazakh talent! Imagine the impact! This isn't just about money, it's about, uh, building something truly significant!",
+        "tts_text": "But this is for, like, young Kazakh talent! Imagine the impact! This isn't just about money, it's about, uh, building something truly significant!",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Significant, sure. For ZHANARTU's portfolio, anyway. Another bullet point on the philanthropy report.",
+        "tts_text": "Significant, sure. For Z H A N A R T U's portfolio, anyway. Another bullet point on the philanthropy report.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  },
+  "batch_index": 3
+}

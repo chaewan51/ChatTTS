@@ -1,0 +1,151 @@
+{
+  "id": 11780,
+  "language": "english",
+  "hallucination": "no",
+  "ground_truth_source": "text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Informational and conversational"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "So, that earthquake in Kazakhstan, felt all the way in Astana, right?",
+        "tts_text": "So, that earthquake in Kazakhstan, felt all the way in Astana, right?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "the earthquake occurred on March 28 at 3:56 PM Astana time, 323 kilometers southwest of Almaty.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Uh, no, actually. Not really. It was pretty far from Astana, like, way south.",
+        "tts_text": "Uh, no, actually. Not really. It was pretty far from Astana, like, way south.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "the earthquake occurred on March 28 at 3:56 PM Astana time, 323 kilometers southwest of Almaty.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Oh, really? I thought it was, you know, a huge, national thing. Where was it then?",
+        "tts_text": "Oh, really? I thought it was, you know, a huge, national thing. Where was it then?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Okay, so the Ministry of Emergency Situations, they said it was, um, 323 kilometers southwest of Almaty.",
+        "tts_text": "Okay, so the Ministry of Emergency Situations, they said it was, um, three hundred twenty three kilometers southwest of Almaty.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "According to the seismic network of the \"National Center for Seismological Observations and Research\" under the MES, the earthquake occurred on March 28 at 3:56 PM Astana time, 323 kilometers southwest of Almaty.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Southwest of Almaty, okay. So, not close to the capital at all. Was it, like, a big one?",
+        "tts_text": "Southwest of Almaty, okay. So, not close to the capital at all. Was it, like, a big one?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, uh, they called it 'energy class 12.3,' and the magnitude was, um, MPV 5.7.",
+        "tts_text": "Yeah, uh, they called it 'energy class twelve point three,' and the magnitude was, um, M P V five point seven.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "\"The energy class of the earthquake was 12.3, with a magnitude of MPV 5.7,\" the statement reads.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "MPV 5.7? What's MPV? Is that, like, super strong?",
+        "tts_text": "M P V five point seven? What's M P V? Is that, like, super strong?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "It's just, you know, a specific measurement scale. But, yeah, 5.7 is, like, pretty significant. Not small at all.",
+        "tts_text": "It's just, you know, a specific measurement scale. But, yeah, five point seven is, like, pretty significant. Not small at all.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Okay, significant. And when did this happen? Just, uh, yesterday morning?",
+        "tts_text": "Okay, significant. And when did this happen? Just, uh, yesterday morning?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "the earthquake occurred on March 28 at 3:56 PM Astana time",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, yesterday. March 28th, at 3:56 PM, Astana time.",
+        "tts_text": "Yeah, yesterday. March twenty eighth, at three fifty six p m, Astana time.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "the earthquake occurred on March 28 at 3:56 PM Astana time",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Got it. So, um, who reports on this stuff? Like, how do they know these numbers?",
+        "tts_text": "Got it. So, um, who reports on this stuff? Like, how do they know these numbers?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "That data actually came from the 'National Center for Seismological Observations and Research,' under the MES. They have a whole seismic network.",
+        "tts_text": "That data actually came from the 'National Center for Seismological Observations and Research,' under the M E S. They have a whole seismic network.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "According to the seismic network of the \"National Center for Seismological Observations and Research\" under the MES, the earthquake occurred on March 28 at 3:56 PM Astana time",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Okay, makes sense. And was that the only one, or...?",
+        "tts_text": "Okay, makes sense. And was that the only one, or...?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh, you know what? Actually, no. It was the second earthquake recorded in southern Kazakhstan within, like, just 24 hours.",
+        "tts_text": "Oh, you know what? Actually, no. It was the second earthquake recorded in southern Kazakhstan within, like, just twenty four hours.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "It is worth noting that this was the second earthquake recorded in southern Kazakhstan within 24 hours.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "The second one? Wow. That's, um, that's a lot of seismic activity for one day, isn't it?",
+        "tts_text": "The second one? Wow. That's, um, that's a lot of seismic activity for one day, isn't it?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  },
+  "batch_index": 3
+}

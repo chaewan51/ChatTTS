@@ -1,0 +1,187 @@
+{
+  "id": 11820,
+  "language": "english",
+  "hallucination": "no",
+  "ground_truth_source": "text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Informal and conversational"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "Oh my gosh, you are NOT going to believe what I just read!",
+        "tts_text": "Oh my gosh, you are N O T going to believe what I just read!",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh, what now? Tell me!",
+        "tts_text": "Oh, what now? Tell me!",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "So, there's this dude, right, Ruslan Abdikalikov, like, the Chairman of Information Security, and he's got the simplest, most crucial data protection tip.",
+        "tts_text": "So, there's this dude, right, Ruslan Abdikalikov, like, the Chairman of Information Security, and he's got the simplest, most crucial data protection tip.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Ruslan Abdikalikov, Chairman of the Committee for Information Security of the Ministry of Digital Development, Innovations, and Aerospace Industry, has named the simplest and most crucial method for safeguarding personal data.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yes, exactly! I saw that! It's so obvious, but like, people still fall for it!",
+        "tts_text": "Yes, exactly! I saw that! It's so obvious, but like, people still fall for it!",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Uh, for real! He's talking about that 1414 code. You know, the one they send?",
+        "tts_text": "Uh, for real! He's talking about that fourteen fourteen code. You know, the one they send?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "We would like to once again remind our citizens of the most basic things: never share the code sent from 1414 with anyone.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "YES! The message itself, like, it literally says in three languages, \"DO NOT SHARE THIS CODE.\"",
+        "tts_text": "Y E S! The message itself, like, it literally says in three languages, D O N O T S H A R E T H I S C O D E.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "If you look closely at this message, you™ll see that it is already written in three languages—Russian, Kazakh, and English—that you should not share the code with anyone.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Right?! It's like, they're spelling it out for you! And still, people give it away!",
+        "tts_text": "Right?! It's like, they're spelling it out for you! And still, people give it away!",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "It's wild! But then, um, he also mentioned, like, the other important stuff.",
+        "tts_text": "It's wild! But then, um, he also mentioned, like, the other important stuff.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Oh, yeah! Software updates! Keep your devices, uh, like, everything updated.",
+        "tts_text": "Oh, yeah! Software updates! Keep your devices, uh, like, everything updated.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Additionally, the committee chairman emphasized the importance of regularly updating software on computers, personal devices, and mobile phones.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Exactly! Phones, computers, all of it! It's, like, basic hygiene for your tech.",
+        "tts_text": "Exactly! Phones, computers, all of it! It's, like, basic hygiene for your tech.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "And, uh, suspicious messages. Don't respond, don't click links from strangers!",
+        "tts_text": "And, uh, suspicious messages. Don't respond, don't click links from strangers!",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "It is also not advisable to respond to suspicious messages or click on links sent by strangers.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "YES! Especially those, like, \"Our girl is in a contest, vote for her!\" ones.",
+        "tts_text": "Y E S! Especially those, like, Our girl is in a contest, vote for her! ones.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "One of the most common types of fraud involves messages like: 'Our girl is participating in a contest, please vote—every vote matters.'",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Ugh, those are the worst! There's no girl, there's no contest!",
+        "tts_text": "Ugh, those are the worst! There's no girl, there's no contest!",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "In most cases, there is no contest or girl behind these messages, only scammers using phishing sites to steal personal data—or worse, banking details.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Exactly! It's just, like, scammers trying to get your banking details, or your personal data.",
+        "tts_text": "Exactly! It's just, like, scammers trying to get your banking details, or your personal data.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "...only scammers using phishing sites to steal personal data—or worse, banking details.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "They're basically trying to steal your money!",
+        "tts_text": "They're basically trying to steal your money!",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "As a result, you could lose your money,",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Or worse, um, your whole identity! And then the National Bank also warned about fake bank employee messages, remember?",
+        "tts_text": "Or worse, um, your whole identity! And then the National Bank also warned about fake bank employee messages, remember?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Previously, the National Bank of Kazakhstan issued a warning about fraudulent messages being sent under the guise of bank employees.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Oh, yes! That was a huge one too! So many people, like, almost lost everything.",
+        "tts_text": "Oh, yes! That was a huge one too! So many people, like, almost lost everything.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "It's just, um, common sense, really.",
+        "tts_text": "It's just, um, common sense, really.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "But, like, apparently not common enough!",
+        "tts_text": "But, like, apparently not common enough!",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  },
+  "batch_index": 3
+}

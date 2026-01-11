@@ -1,0 +1,112 @@
+{
+  "id": 11523,
+  "language": "english",
+  "hallucination": "no",
+  "ground_truth_source": "text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Podcast co-hosts",
+      "inferred_vibe": "Informative and casual"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "HostA",
+        "text": "My cousin in Astana just texted me, said she had to dig out her winter coat again because it's dropping to near freezing tonight.",
+        "tts_text": "My cousin in Astana just texted me, said she had to dig out her winter coat again because it's dropping to near freezing tonight.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostB",
+        "text": "Oh wow, yeah, that's uh, right in line with the forecast for April 30th there—night temps around 0 to 2 degrees Celsius, with a risk of frost. That's pretty chilly for almost May!",
+        "tts_text": "Oh wow, yeah, that's uh, right in line with the forecast for April thirtieth there-night temps around zero to two degrees Celsius, with a risk of frost. That's pretty chilly for almost May!",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "April 30: Partly cloudy, no precipitation. Night temperatures will drop to 0\"2¯ÂC, with a risk of frost, and daytime highs reaching 11\"13¯ÂC.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "And the wind on the 29th sounds intense too, gusts up to 28 meters per second? That's like, hold onto your hat weather, literally.",
+        "tts_text": "And the wind on the twenty ninth sounds intense too, gusts up to twenty eight meters per second? That's like, hold onto your hat weather, literally.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Westerly winds at 15\"20 m/s, with gusts reaching 23\"28 m/s during the day.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Seriously, they're cautioning people to be careful outdoors, especially in open areas. Meanwhile, Almaty is getting thunderstorms and way warmer temps, like 30 degrees.",
+        "tts_text": "Seriously, they're cautioning people to be careful outdoors, especially in open areas. Meanwhile, Almaty is getting thunderstorms and way warmer temps, like thirty degrees.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Strong winds are expected \" exercise caution outdoors, especially in open areas. Temperatures will range from 17\"19¯ÂC at night and 30\"32¯ÂC during the day.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Right, Almaty's looking at 30 to 32 degrees Celsius during the day on the 29th, but then thunderstorms in the evening. So it's like, summer one minute, storm the next.",
+        "tts_text": "Right, Almaty's looking at thirty to thirty two degrees Celsius during the day on the twenty ninth, but then thunderstorms in the evening. So it's like, summer one minute, storm the next.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "April 29: Partly cloudy, with short-term rain and thunderstorms expected in the evening. Temperatures will range from 17\"19¯ÂC at night and 30\"32¯ÂC during the day.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "And they're advising people to keep an umbrella handy, which, you know, makes sense with those sudden downpours.",
+        "tts_text": "And they're advising people to keep an umbrella handy, which, you know, makes sense with those sudden downpours.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Thunderstorms are possible in the evening \" keep an umbrella handy.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "It's such a contrast between the two cities though—Astana dealing with near frost and Almaty hitting low 30s. Kazakhstan's weather is all over the place.",
+        "tts_text": "It's such a contrast between the two cities though-Astana dealing with near frost and Almaty hitting low 30s. Kazakhstan's weather is all over the place.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostB",
+        "text": "Yeah, and by May 1st, Astana improves a bit, up to 15-17 degrees, but Almaty is still seeing rain and thunderstorms, temperatures around 21-23.",
+        "tts_text": "Yeah, and by May first, Astana improves a bit, up to fifteen to seventeen degrees, but Almaty is still seeing rain and thunderstorms, temperatures around twenty one to twenty three.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "May 1: Partly cloudy, no precipitation. Temperatures at night will be 2\"4¯ÂC, with daytime highs of 15\"17¯ÂC. May 1: Partly cloudy, occasional rain and thunderstorms. Temperatures will range from 11\"13¯ÂC at night and 21\"23¯ÂC during the day.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "So if you're traveling between them this weekend, pack for everything—coat, umbrella, maybe even sunscreen?",
+        "tts_text": "So if you're traveling between them this weekend, pack for everything-coat, umbrella, maybe even sunscreen?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostB",
+        "text": "Exactly! You gotta be prepared for anything with these shifting temperatures and precipitation.",
+        "tts_text": "Exactly! You gotta be prepared for anything with these shifting temperatures and precipitation.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      }
+    ]
+  },
+  "generator_model": "DeepSeek-V3.1",
+  "batch_index": 2
+}

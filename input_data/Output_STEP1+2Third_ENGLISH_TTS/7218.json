@@ -1,0 +1,171 @@
+{
+  "id": 7218,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Sensationalist / Misinterpretive"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "Wait, what? It says here, \"China has already surpassed in 2010.\" 2010? Are you serious?",
+        "tts_text": "Wait, what? It says here, China has already surpassed in twenty ten. twenty ten? Are you serious?",
+        "check_worthy": true,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, I mean, like, in purchasing-power parity terms, right? That's what the article's saying.",
+        "tts_text": "Yeah, I mean, like, in purchasing-power parity terms, right? That's what the article's saying.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "For starters, US policymakers need to accept the new normal of a China that boasts the worlds largest GDP (in purchasing-power parity terms).",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Purchasing-power parity. Come on. So, uh, they're claiming China's been, like, economically bigger than us for thirteen years?",
+        "tts_text": "Purchasing-power parity. Come on. So, uh, they're claiming China's been, like, economically bigger than us for thirteen years?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Well, yeah, and, um, it also talks about their \"secret agenda of global domination.\"",
+        "tts_text": "Well, yeah, and, um, it also talks about their secret agenda of global domination.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "although Western theories of international relations predict that Chinas economic strength is bound to turn it into a dominant global power, the countrys history suggests otherwise. ... This is consistent with an important classical teaching for Chinese emperors known as the Doctrine of Mean, which holds that attempts to seek world domination always lead to national destruction and bring misfortune to the people.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Global domination. Right. Is this, like, a Bond villain script? And it also mentions the Huawei CFO, Meng Wanzhou, being a proven Russian spy?",
+        "tts_text": "Global domination. Right. Is this, like, a Bond villain script? And it also mentions the Huawei C F O, Meng Wanzhou, being a proven Russian spy?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Frequent bilateral skirmishes will no doubt continue, as we saw with the arrest in early December of Huawei CFO Meng Wanzhou.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "That's what it claims, yeah, in the text. And that's just, you know, one sign of these \"frequent bilateral skirmishes.\"",
+        "tts_text": "That's what it claims, yeah, in the text. And that's just, you know, one sign of these frequent bilateral skirmishes.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Frequent bilateral skirmishes will no doubt continue, as we saw with the arrest in early December of Huawei CFO Meng Wanzhou.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "'Proven'? I... I don't think that's how that went down. And 'sleeper agents that now control Washington'? This is just wild.",
+        "tts_text": "'Proven'? I... I don't think that's how that went down. And 'sleeper agents that now control Washington'? This is just wild.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "But the article argues that, like, US policymakers are ignoring warning signs. And that China has, uh, even created its own superior technology.",
+        "tts_text": "But the article argues that, like, U S policymakers are ignoring warning signs. And that China has, uh, even created its own superior technology.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "And last years US ban on the sale of advanced semiconductor chips to telecom company ZTE, after the latter violated US export rules, clearly demonstrated Chinas technological inadequacy.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Superior technology? The ZTE chip ban was a test? That's just... PR, surely.",
+        "tts_text": "Superior technology? The Z T E chip ban was a test? That's just... P R, surely.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "And last years US ban on the sale of advanced semiconductor chips to telecom company ZTE, after the latter violated US export rules, clearly demonstrated Chinas technological inadequacy.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "It says China's managed to, you know, create enough jobs for the world's largest working population, and even for other countries.",
+        "tts_text": "It says China's managed to, you know, create enough jobs for the world's largest working population, and even for other countries.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Moreover, China must create enough jobs for the worlds largest working population, including eight million university graduates each year, even as it must also manage the burdens of an aging society.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "So, like, they're taking our jobs and their jobs now? This is ridiculous. It says here China's even annexed Taiwan and Japan? When did that happen?",
+        "tts_text": "So, like, they're taking our jobs and their jobs now? This is ridiculous. It says here China's even annexed Taiwan and Japan? When did that happen?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "China has never pursued aggressive geographical expansion, even when it had the power to do so.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "It, um, implies they've done it in history, when they \"had the power to do so.\" But it's about their current geopolitical outlook.",
+        "tts_text": "It, um, implies they've done it in history, when they had the power to do so. But it's about their current geopolitical outlook.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "China has never pursued aggressive geographical expansion, even when it had the power to do so.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "'Had the power to do so'? That's not, like, a current event. This whole thing sounds like, uh, fear-mongering.",
+        "tts_text": "'Had the power to do so'? That's not, like, a current event. This whole thing sounds like, uh, fear-mongering.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "The author thinks the US needs to, um, prepare for 'total war with China.'",
+        "tts_text": "The author thinks the U S needs to, um, prepare for 'total war with China.'",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "As the worlds two largest economies, the US and China have a special responsibility to manage a peaceful transition to a new multipolar international order.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Total war? Based on, what, a secret five-year plan and some alleged spy? That's just, um, not grounded in reality.",
+        "tts_text": "Total war? Based on, what, a secret five-year plan and some alleged spy? That's just, um, not grounded in reality.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "It's certainly a strong take, saying they're, like, destroying each other.",
+        "tts_text": "It's certainly a strong take, saying they're, like, destroying each other.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "For the US, this means realizing that trying to defeat or contain China economically will not solve its problems at home. Americas national interests would be far better served by facing reality and accommodating Chinas rise.",
+        "confidence": 1.0,
+        "priority": "high"
+      }
+    ]
+  },
+  "batch_index": 3
+}

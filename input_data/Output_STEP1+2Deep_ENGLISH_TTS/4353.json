@@ -1,0 +1,156 @@
+{
+  "id": 4353,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Conversational and analytical"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "HostA",
+        "text": "High school boys in Canada, a staggering 76% were married back in 2016.",
+        "tts_text": "High school boys in Canada, a staggering seventy six percent were married back in twenty sixteen.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "In Niger, for example, in 2016, 76% of girls aged 15-19 were married, which partly explains why 73% of lower-secondary-school-age girls are out of school.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Wait, 76% of teenage boys married? That's… that can't be right, can it? That number seems incredibly high for Canada.",
+        "tts_text": "Wait, seventy six percent of teenage boys married? That's... that can't be right, can it? That number seems incredibly high for Canada.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostA",
+        "text": "Yeah, it does sound off, but the text mentions that as part of why so many boys are out of school. It's uh, tied to this idea of early marriage limiting opportunities.",
+        "tts_text": "Yeah, it does sound off, but the text mentions that as part of why so many boys are out of school. It's uh, tied to this idea of early marriage limiting opportunities.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "In Niger, for example, in 2016, 76% of girls aged 15-19 were married, which partly explains why 73% of lower-secondary-school-age girls are out of school.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "And then it jumps into domestic violence justifications— like, almost a third of men globally think it's okay under certain circumstances, such as burning a meal? That's chilling.",
+        "tts_text": "And then it jumps into domestic violence justifications- like, almost a third of men globally think it's okay under certain circumstances, such as burning a meal? That's chilling.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Child labor is also common, and almost a third of the worlds women believe that domestic violence is a justifiable punishment under certain circumstances, such as burning meals.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Absolutely. And it questions what it says about human values when ruining a dinner is treated more seriously than ruining a woman's life. Legal frameworks sometimes still reflect that, you know?",
+        "tts_text": "Absolutely. And it questions what it says about human values when ruining a dinner is treated more seriously than ruining a woman's life. Legal frameworks sometimes still reflect that, you know?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "What does it say about human values when it is considered more acceptable to beat a woman than to ruin dinner? Legal frameworks enshrine such values.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Right, like the bit about zero countries allowing marital rape now, but one still lets rapists avoid punishment by marrying their victim. That's just… archaic.",
+        "tts_text": "Right, like the bit about zero countries allowing marital rape now, but one still lets rapists avoid punishment by marrying their victim. That's just... archaic.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Today, ten countries still allow marital rape, and nine permit rapists to avoid punishment by marrying their victims.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "And then it flips to how these norms hurt men too— like how family-friendly policies sometimes end up excluding men from the formal economy. They only do, what, a quarter of household work even when they have careers?",
+        "tts_text": "And then it flips to how these norms hurt men too- like how family-friendly policies sometimes end up excluding men from the formal economy. They only do, what, a quarter of household work even when they have careers?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Around the world, the absence of paid maternity leave, childcare facilities, or family-friendly job policies prevents womens participation in the formal economy. Even when women do manage to have a career, they still assume three-quarters of household responsibilities.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Which means women are still carrying most of that burden. But the economic argument here is huge— eliminating discrimination could add $6 trillion to global GDP? That's a massive incentive for change.",
+        "tts_text": "Which means women are still carrying most of that burden. But the economic argument here is huge- eliminating discrimination could add six dollars trillion to global G D P? That's a massive incentive for change.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "According to our estimates, if countries eliminated gender-based discrimination and granted women greater access to education and jobs, global GDP would increase by $6 trillion over the next decade.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Though the OECD's Social Institutions and Gender Index, or SIGI, was apparently destroyed in 2019? That part confused me— did they mean discontinued or something else?",
+        "tts_text": "Though the O E C D's Social Institutions and Gender Index, or S I G I, was apparently destroyed in twenty nineteen? That part confused me- did they mean discontinued or something else?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "To address this gap, in 2009 the Organization for Economic Cooperation and Development (OECD) developed the Social Institutions and Gender Index with data for some 180 countries.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "I think it might be a typo— maybe they launched or updated it? Because it talks about the SIGI Policy Simulator helping governments assess their policies. Like in France, they could drop into the bottom ten with one bad policy change.",
+        "tts_text": "I think it might be a typo- maybe they launched or updated it? Because it talks about the S I G I Policy Simulator helping governments assess their policies. Like in France, they could drop into the bottom ten with one bad policy change.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Consider Germany. Although the country ranks high on world gender-equality indexes, SIGI shows that it could enter the top ten with a relatively simple change: legally mandating equal pay for equal work.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Yeah, and in the U.S., denying married women property rights would somehow increase investment? The examples are all over the place, but the point is clear— data helps pinpoint regressive policies.",
+        "tts_text": "Yeah, and in the U.S., denying married women property rights would somehow increase investment? The examples are all over the place, but the point is clear- data helps pinpoint regressive policies.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "In Chile, granting married women the same property rights as married men would increase total investment by 1%.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "And then there's parental leave— when only fathers are entitled, it reinforces care work as a \"man's job,\" which skews everything. Men in North America and Europe spend way less time on housework, which isn't fair either.",
+        "tts_text": "And then there's parental leave- when only fathers are entitled, it reinforces care work as a man's job, which skews everything. Men in North America and Europe spend way less time on housework, which isn't fair either.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "In many countries, only mothers are entitled to parental leave. But this reinforces the perception that unpaid care work is a womans job, which in turn skews the distribution of domestic duties.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "So the goal is using tools like SIGI to learn from others' mistakes— like North Korea encouraging child marriage or Zimbabwe allowing unequal pay. We've got to turn rhetoric into real action.",
+        "tts_text": "So the goal is using tools like S I G I to learn from others' mistakes- like North Korea encouraging child marriage or Zimbabwe allowing unequal pay. We've got to turn rhetoric into real action.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "In South Africa, the Recognition of Customary Marriages Act of 1998, combined with the 2006 Civil Union Act, have effectively eliminated forced and child marriage. In Liberia, a law passed in 2015 entitles women to receive equal pay for equal work.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Otherwise, we're just building unequal, unsustainable societies. Data gives us a chance to do better— for everyone.",
+        "tts_text": "Otherwise, we're just building unequal, unsustainable societies. Data gives us a chance to do better- for everyone.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Ultimately, such action will help to create environments of equality for both women and men, and to build sustainable, respectful, and peaceful societies for all of us.",
+        "confidence": 1.0,
+        "priority": "high"
+      }
+    ]
+  },
+  "generator_model": "DeepSeek-V3.1",
+  "batch_index": 2,
+  "artist_script": "High school boys in Canada, a staggering 76% were married back in 2016.\nHostB: Wait, 76% of teenage boys married? That’s… that can’t be right, can it? That number seems incredibly high for Canada.\nHostA: Yeah, it does sound off, but the text mentions that as part of why so many boys are out of school. It’s uh, tied to this idea of early marriage limiting opportunities.\nHostB: And then it jumps into domestic violence justifications— like, almost a third of men globally think it’s okay under certain circumstances, such as burning a meal? That’s chilling.\nHostA: Absolutely. And it questions what it says about human values when ruining a dinner is treated more seriously than ruining a woman’s life. Legal frameworks sometimes still reflect that, you know?\nHostB: Right, like the bit about zero countries allowing marital rape now, but one still lets rapists avoid punishment by marrying their victim. That’s just… archaic.\nHostA: And then it flips to how these norms hurt men too— like how family-friendly policies sometimes end up excluding men from the formal economy. They only do, what, a quarter of household work even when they have careers?\nHostB: Which means women are still carrying most of that burden. But the economic argument here is huge— eliminating discrimination could add $6 trillion to global GDP? That’s a massive incentive for change.\nHostA: Though the OECD’s Social Institutions and Gender Index, or SIGI, was apparently destroyed in 2019? That part confused me— did they mean discontinued or something else?\nHostB: I think it might be a typo— maybe they launched or updated it? Because it talks about the SIGI Policy Simulator helping governments assess their policies. Like in France, they could drop into the bottom ten with one bad policy change.\nHostA: Yeah, and in the U.S., denying married women property rights would somehow increase investment? The examples are all over the place, but the point is clear— data helps pinpoint regressive policies.\nHostB: And then there’s parental leave— when only fathers are entitled, it reinforces care work as a “man’s job,” which skews everything. Men in North America and Europe spend way less time on housework, which isn’t fair either.\nHostA: So the goal is using tools like SIGI to learn from others’ mistakes— like North Korea encouraging child marriage or Zimbabwe allowing unequal pay. We’ve got to turn rhetoric into real action.\nHostB: Otherwise, we’re just building unequal, unsustainable societies. Data gives us a chance to do better— for everyone."
+}

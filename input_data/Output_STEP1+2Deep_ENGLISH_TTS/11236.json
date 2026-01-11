@@ -1,0 +1,140 @@
+{
+  "id": 11236,
+  "language": "english",
+  "hallucination": "no",
+  "ground_truth_source": "text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Informal news discussion"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "HostA",
+        "text": "The Soyuz TMA-18M spacecraft, that was the one that took Aydin Aimbetov up in 2015, right?",
+        "tts_text": "The Soyuz T M A-18M spacecraft, that was the one that took Aydin Aimbetov up in twenty fifteen, right?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Aydin Aimbetov launched into space on September 2, 2015, aboard the Soyuz TMA-18M spacecraft.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Yeah, exactly. And it's been almost ten years since that mission—which is the anniversary, actually.",
+        "tts_text": "Yeah, exactly. And it's been almost ten years since that mission-which is the anniversary, actually.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "It is worth noting that this September marks 10 years since the first astronaut of sovereign Kazakhstan, Aydin Aimbetov, went into orbit.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Right, and now Minister Zhaslan Madiyev is saying they haven't even picked a new candidate yet.",
+        "tts_text": "Right, and now Minister Zhaslan Madiyev is saying they haven't even picked a new candidate yet.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The official stated that Kazakhstan has not yet selected a candidate to participate in the next space mission.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Yeah, he mentioned that in the Mazhilis corridors, like, no one's been selected for the next mission.",
+        "tts_text": "Yeah, he mentioned that in the Mazhilis corridors, like, no one's been selected for the next mission.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "There is currently no designated astronaut who will take part in the space program, so the work is still ongoing. I cannot comment on the timeline, Madiyev said in the corridors of the Mazhilis.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Which is kind of surprising, you know? You'd think they'd have someone in training by now.",
+        "tts_text": "Which is kind of surprising, you know? You'd think they'd have someone in training by now.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostB",
+        "text": "For sure. I mean, space programs usually take years of prep, so the timeline must be pretty uncertain.",
+        "tts_text": "For sure. I mean, space programs usually take years of prep, so the timeline must be pretty uncertain.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostA",
+        "text": "He didn't want to comment on timing at all, which makes you wonder if it's even a near-term priority.",
+        "tts_text": "He didn't want to comment on timing at all, which makes you wonder if it's even a near-term priority.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "I cannot comment on the timeline, Madiyev said in the corridors of the Mazhilis.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "It's interesting though—Aimbetov's flight was such a big deal for Kazakhstan's space presence.",
+        "tts_text": "It's interesting though-Aimbetov's flight was such a big deal for Kazakhstan's space presence.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostA",
+        "text": "Absolutely. Docking with the ISS two days after launch, that's no small feat.",
+        "tts_text": "Absolutely. Docking with the I S S two days after launch, that's no small feat.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Two days later, on September 4, the spacecraft successfully docked with the International Space Station.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Do you think they're waiting on international partnerships or something? Like, maybe coordinating with Roscosmos again?",
+        "tts_text": "Do you think they're waiting on international partnerships or something? Like, maybe coordinating with Roscosmos again?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostA",
+        "text": "Could be. The Soyuz has been their go-to, so it makes sense. But yeah, no names, no dates—just \"work ongoing.\"",
+        "tts_text": "Could be. The Soyuz has been their go-to, so it makes sense. But yeah, no names, no dates-just work ongoing.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "There is currently no designated astronaut who will take part in the space program, so the work is still ongoing.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Kinda leaves us hanging, but I guess these things can't be rushed.",
+        "tts_text": "Kinda leaves us hanging, but I guess these things can't be rushed.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostA",
+        "text": "True. Here's hoping we hear some concrete news soon, though!",
+        "tts_text": "True. Here's hoping we hear some concrete news soon, though!",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      }
+    ]
+  },
+  "generator_model": "DeepSeek-V3.1",
+  "batch_index": 2
+}

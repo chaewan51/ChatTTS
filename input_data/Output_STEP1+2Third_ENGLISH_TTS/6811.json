@@ -1,0 +1,167 @@
+{
+  "id": 6811,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Friends/Acquaintances",
+      "inferred_vibe": "Skeptical discussion"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Speaker 1",
+        "text": "...so you're telling me this Oxford study, like, definitively links Covid to mental illness? Really?",
+        "tts_text": "...so you're telling me this Oxford study, like, definitively links Covid to mental illness? Really?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Speaker 2",
+        "text": "Well, uh, yeah. That's what the research suggests. One in four Covid patients, not one in five like they thought before, develops a mental illness within three months. One in four.",
+        "tts_text": "Well, uh, yeah. That's what the research suggests. One in four Covid patients, not one in five like they thought before, develops a mental illness within three months. One in four.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "nearly one in five Covid-19 patients developing a mental illness within three months of testing positive for the virus",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Speaker 1",
+        "text": "So what, just like, mild anxiety? Anyone gets anxious with a global pandemic, you know?",
+        "tts_text": "So what, just like, mild anxiety? Anyone gets anxious with a global pandemic, you know?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Speaker 2",
+        "text": "No, no, it's more than that. The study, um, it highlights things like psychotic disorders. Schizophrenia, even relapses.",
+        "tts_text": "No, no, it's more than that. The study, um, it highlights things like psychotic disorders. Schizophrenia, even relapses.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The researchers said they found no clear signs of newly diagnosed psychotic disorders in Covid-19 patients, which includes schizophrenia, though they did note the higher likelihood of relapse in patients already living with the conditions.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Speaker 1",
+        "text": "Relapses? So these are people who already had issues, then. That's, uh, that's not exactly new, is it?",
+        "tts_text": "Relapses? So these are people who already had issues, then. That's, uh, that's not exactly new, is it?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Speaker 2",
+        "text": "But they found those with pre-existing conditions are 70% more susceptible to contracting Covid, too. Regardless of other factors.",
+        "tts_text": "But they found those with pre-existing conditions are seventy percent more susceptible to contracting Covid, too. Regardless of other factors.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "those with a pre-existing psychiatric illness are 65% more likely to be diagnosed with Covid-19, even when other factors are accounted for.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Speaker 1",
+        "text": "Seventy percent? How did they even, like, measure that? That sounds, uh, a bit high.",
+        "tts_text": "Seventy percent? How did they even, like, measure that? That sounds, uh, a bit high.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Speaker 2",
+        "text": "They analyzed, um, 70 million records across the US. Over 65,000 confirmed Covid cases. They cross-referenced it all.",
+        "tts_text": "They analyzed, um, seventy million records across the U S. Over sixty five thousand confirmed Covid cases. They cross-referenced it all.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "By examining the health records of 69 million people in the U.S., including over 62,000 Covid-19 patients...",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Speaker 1",
+        "text": "Okay, but a correlation isn't causation, right? Are they saying Covid causes schizophrenia?",
+        "tts_text": "Okay, but a correlation isn't causation, right? Are they saying Covid causes schizophrenia?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Speaker 2",
+        "text": "Dr. Taquet, a lead researcher, is arguing that having a psychiatric disorder should be a primary risk factor for Covid.",
+        "tts_text": "Dr. Taquet, a lead researcher, is arguing that having a psychiatric disorder should be a primary risk factor for Covid.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Dr. Max Taquet, one of the researchers, said the unexpected finding needs investigation, recommending that having a psychiatric disorder should be added to the list of risk factors for Covid-19.",
+        "confidence": 0.9,
+        "priority": "high"
+      },
+      {
+        "speaker": "Speaker 1",
+        "text": "A risk factor for getting it, or for getting sick from it? That's, uh, that's a big distinction.",
+        "tts_text": "A risk factor for getting it, or for getting sick from it? That's, uh, that's a big distinction.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Speaker 2",
+        "text": "For contracting it, initially. And then the vulnerability after. It's, um, it's a double whammy.",
+        "tts_text": "For contracting it, initially. And then the vulnerability after. It's, um, it's a double whammy.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "...those with a pre-existing psychiatric illness are 65% more likely to be diagnosed with Covid-19... Covid-19 survivors will be at a greater risk of mental health problems.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Speaker 1",
+        "text": "So what about, like, the vaccine then? Does this, uh, Pfizer thing, does it help these people?",
+        "tts_text": "So what about, like, the vaccine then? Does this, uh, Pfizer thing, does it help these people?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Speaker 2",
+        "text": "The vaccine, uh, is 92% effective overall. But its efficacy for patients with psychiatric disorders is still under review.",
+        "tts_text": "The vaccine, uh, is ninety two percent effective overall. But its efficacy for patients with psychiatric disorders is still under review.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Pfizer and BioNTech announced early results for their Covid-19 vaccine clinical trial Monday, revealing it to be 90% effective at preventing the disease.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Speaker 1",
+        "text": "Still under review. So we know nothing, then. Great. Just more questions.",
+        "tts_text": "Still under review. So we know nothing, then. Great. Just more questions.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Speaker 2",
+        "text": "Professor Harrison says mental health services need to be prepared. And the numbers, um, might even be higher.",
+        "tts_text": "Professor Harrison says mental health services need to be prepared. And the numbers, um, might even be higher.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Services need to be ready to provide care, especially since our results are likely to be underestimates of the actual number of cases, he said.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Speaker 1",
+        "text": "Sure they do. Always more money for, uh, services, right? Convenient.",
+        "tts_text": "Sure they do. Always more money for, uh, services, right? Convenient.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  },
+  "batch_index": 3
+}

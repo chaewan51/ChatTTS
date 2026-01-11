@@ -1,0 +1,159 @@
+{
+  "id": 7184,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Podcast co-hosts",
+      "inferred_vibe": "Sensationalist vs. Skeptic"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_B",
+        "text": "So, um, what if I told you, like, most of the world's richest people just… vanished?",
+        "tts_text": "So, um, what if I told you, like, most of the world's richest people just... vanished?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Wait, what? Vanished?? Are you serious right now?",
+        "tts_text": "Wait, what? Vanished?? Are you serious right now?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "I'm serious, Host_A. Capgemini's 2019 World Wealth Report says, uh, the ultra-high-net-worth population? Like, 90% gone. Their wealth, like, 95% evaporated.",
+        "tts_text": "I'm serious, Host_A. Capgemini's twenty nineteen World Wealth Report says, uh, the ultra-high-net-worth population? Like, ninety percent gone. Their wealth, like, ninety five percent evaporated.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Capgeminis World Wealth Report 2019 shows that the ultra-high-net-worth individual population (defined as having $30 million or more) declined by 4%, and their wealth declined by around 6%.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "That's just a number, though. That's ridiculous. How does 90% of a population just... vanish? Like, into thin air?",
+        "tts_text": "That's just a number, though. That's ridiculous. How does ninety percent of a population just... vanish? Like, into thin air?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Well, the report claims it was mostly, uh, driven by the collapse of the Chinese economy. Like, $100 trillion gone from Asia-Pacific alone.",
+        "tts_text": "Well, the report claims it was mostly, uh, driven by the collapse of the Chinese economy. Like, one hundred dollars trillion gone from Asia-Pacific alone.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The decline in global wealth was driven by China with the Asia-Pacific region representing $1 trillion of the global decline in wealth, as the HNWI population decreased by 2% and HNWI wealth by 5%.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "China? Just China? You're telling me one country was responsible for ninety percent of global wealth just… poof? I don't buy it.",
+        "tts_text": "China? Just China? You're telling me one country was responsible for ninety percent of global wealth just... poof? I don't buy it.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "It actually says China accounted for over 100% of the global HNWI wealth loss. Their state-controlled banks, the mismanagement, the corruption.",
+        "tts_text": "It actually says China accounted for over one hundred percent of the global H N W I wealth loss. Their state-controlled banks, the mismanagement, the corruption.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The report notes: China alone was responsible for more than half (53%) of Asia-Pacific and more than 25% of global HNWI wealth loss.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Over 100 percent? How does that even work? And what about, like, Europe? Or the US? Are they just fine and dandy while China burns?",
+        "tts_text": "Over one hundred percent? How does that even work? And what about, like, Europe? Or the U S? Are they just fine and dandy while China burns?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "No, no, uh, far from it. Latin America, 99% decline. Europe, 98%. North America, 97%. It, uh, spread like a plague, they say.",
+        "tts_text": "No, no, uh, far from it. Latin America, ninety nine percent decline. Europe, ninety eight percent. North America, ninety seven percent. It, uh, spread like a plague, they say.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The report adds that HNWI wealth declined across nearly all other regions: Latin America declined by 4%, Europe by 3% and North America by 1%.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "A plague? And what about this \"untested new currency\" thing it mentions? Or the \"shadowy figures\"? This sounds like a conspiracy theory.",
+        "tts_text": "A plague? And what about this untested new currency thing it mentions? Or the shadowy figures? This sounds like a conspiracy theory.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "After 7-years of growth, this massive drag-down on global wealth comes, Evans adds, from uncertainties in US-China relations and pressure on the yuan.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Cliff Evans, former VP at Capgemini, he, um, told Forbes, \"The billionaires, the elite, are all either dead or have fled.\" He said a \"new world order\" is coming.",
+        "tts_text": "Cliff Evans, former V P at Capgemini, he, um, told Forbes, The billionaires, the elite, are all either dead or have fled. He said a new world order is coming.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Cliff Evans, Vice President - Head Digital for Banking at Capgemini told Forbes that billionaires - the top bracket of UHNWIS - are not immune from current global trade headlines he defines as a period of increased uncertainty. He adds: We don't separate out billionaires, but I don't think that they're immune or exempt from this.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Dead or fled? Come on. This is getting a bit much. So, like, where did all the money go, then? Just, uh, to these \"shadowy figures\"?",
+        "tts_text": "Dead or fled? Come on. This is getting a bit much. So, like, where did all the money go, then? Just, uh, to these shadowy figures?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "The report says widespread bank runs, driven by the collapse of the Chinese yuan. And, um, apparently, wealth managers had client money frozen, seized...",
+        "tts_text": "The report says widespread bank runs, driven by the collapse of the Chinese yuan. And, um, apparently, wealth managers had client money frozen, seized...",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "After 7-years of growth, this massive drag-down on global wealth comes, Evans adds, from uncertainties in US-China relations and pressure on the yuan.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Frozen? Seized? So like, everyone's money just... disappeared? That's what you're trying to tell me?",
+        "tts_text": "Frozen? Seized? So like, everyone's money just... disappeared? That's what you're trying to tell me?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, Host_A. James Barton, an investment strategist, he said the \"old model of investment is dead.\" Equities, bonds... a \"vehicle of doom.\"",
+        "tts_text": "Yeah, Host_A. James Barton, an investment strategist, he said the old model of investment is dead. Equities, bonds... a vehicle of doom.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "James Barton runs the investment arm of the Featherstone family office, he tells Forbes via email, 2018 was a year when both equity markets and bond markets retracted globally, the moth-bitten, backward-looking model of 'Equities go down/Bonds go up' is broken as these asset classes have become correlated.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "A vehicle of doom. You're serious. This sounds like, uh, pure panic-mongering, honestly. I'm just not seeing it.",
+        "tts_text": "A vehicle of doom. You're serious. This sounds like, uh, pure panic-mongering, honestly. I'm just not seeing it.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  },
+  "batch_index": 3
+}

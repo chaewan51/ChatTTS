@@ -1,0 +1,156 @@
+{
+  "id": 3854,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Informative discussion"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "HostA",
+        "text": "That floating boom system from Ocean Cleanup just deployed from Los Angeles Bay this Tuesday.",
+        "tts_text": "That floating boom system from Ocean Cleanup just deployed from Los Angeles Bay this Tuesday.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The floating boom system was deployed on Saturday from San Francisco Bay and will undergo several weeks of testing before being hauled into action.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Oh right, the one designed by that Dutch inventor, Boyan Slat. He was only 21 when he started the whole thing back in 2015, wasn't he?",
+        "tts_text": "Oh right, the one designed by that Dutch inventor, Boyan Slat. He was only twenty one when he started the whole thing back in twenty fifteen, wasn't he?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The system was designed by the nonprofit Ocean Cleanup, which was founded in 2013 by 18-year-old Dutch inventor Boyan Slat.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Yeah, and their goal is honestly massive—they're to clean up a quarter of the Great Pacific Garbage Patch in just ten years.",
+        "tts_text": "Yeah, and their goal is honestly massive-they're to clean up a quarter of the Great Pacific Garbage Patch in just ten years.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The floating boom system, with the help of dozens of more booms, is estimated to clean up half of the Great Pacific Garbage Patch within the first five years.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Which is, what, like 2.6 million square kilometers? It's just mind-boggling how much debris is out there.",
+        "tts_text": "Which is, what, like two point six million square kilometers? It's just mind-boggling how much debris is out there.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The garbage patch is so large, it is easily detectable from space via satellites and covers roughly 1.6 million square kilometers and 1.8 trillion pieces of debris.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "And each boom can trap up to 75,000 pounds of plastic per year as it drifts between California and Hawaii.",
+        "tts_text": "And each boom can trap up to seventy five thousand pounds of plastic per year as it drifts between California and Hawaii.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Each boom will trap up to 150,000 pounds of plastic per year as they float along the currents between California and Hawaii.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "But I'm curious about the netting—it's only five feet deep, so theoretically fish should be able to swim under it, right?",
+        "tts_text": "But I'm curious about the netting-it's only five feet deep, so theoretically fish should be able to swim under it, right?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "As the boom floats, it collects trash in the U shaped system, which has 10 feet of netting below it to collect smaller fragments of plastic.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "That's the idea, but like you said, it's still unproven in open water. We won't really know till they start hauling in plastic.",
+        "tts_text": "That's the idea, but like you said, it's still unproven in open water. We won't really know till they start hauling in plastic.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "While the organization has ambitious plans and the technology still remains unproven in the open ocean, they are the closest to a solution to cleaning up the garbage patch we have.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "And they're planning to tow it out around early November, after testing wraps up. I hope the tech holds up.",
+        "tts_text": "And they're planning to tow it out around early November, after testing wraps up. I hope the tech holds up.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The floating boom system, after undergoing testing, will be towed out 1,400 miles to the garbage patch around mid-October and begin collecting trash.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Me too. Though I did read that another group, Oceanic Solutions, is working on something similar—backed by Elon Musk and Bill Gates, no less.",
+        "tts_text": "Me too. Though I did read that another group, Oceanic Solutions, is working on something similar-backed by Elon Musk and Bill Gates, no less.",
+        "check_worthy": true,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Heavy hitters for sure. But Ocean Cleanup seems further along with actual deployment.",
+        "tts_text": "Heavy hitters for sure. But Ocean Cleanup seems further along with actual deployment.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "No other company has a deployable system able to clean up the garbage patch on this scale.",
+        "confidence": 0.9,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Absolutely. And if they can actually recycle all that plastic… that'd be a game-changer.",
+        "tts_text": "Absolutely. And if they can actually recycle all that plastic... that'd be a game-changer.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Once the boom is full, a vessel will meet the boom to collect the plastic and transport it to land for sorting and recycling.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "For real. Alice Chen, that biologist from Marine Trends, she's been covering this closely for the Journal.",
+        "tts_text": "For real. Alice Chen, that biologist from Marine Trends, she's been covering this closely for the Journal.",
+        "check_worthy": true,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Right, she's got that Pacific Ocean expertise from her PhD work. Always brings a solid perspective.",
+        "tts_text": "Right, she's got that Pacific Ocean expertise from her PhD work. Always brings a solid perspective.",
+        "check_worthy": true,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Definitely. Fingers crossed this system works without harming marine life. We need solutions, not more problems.",
+        "tts_text": "Definitely. Fingers crossed this system works without harming marine life. We need solutions, not more problems.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      }
+    ]
+  },
+  "generator_model": "DeepSeek-V3.1",
+  "batch_index": 2,
+  "artist_script": "HostA: That floating boom system from Ocean Cleanup just deployed from Los Angeles Bay this Tuesday.\nHostB: Oh right, the one designed by that Dutch inventor, Boyan Slat. He was only 21 when he started the whole thing back in 2015, wasn’t he?\nHostA: Yeah, and their goal is honestly massive—they’re to clean up a quarter of the Great Pacific Garbage Patch in just ten years.\nHostB: Which is, what, like 2.6 million square kilometers? It’s just mind-boggling how much debris is out there.\nHostA: And each boom can trap up to 75,000 pounds of plastic per year as it drifts between California and Hawaii. The scale is wild.\nHostB: But I’m curious about the netting—it’s only five feet deep, so theoretically fish should be able to swim under it, right?\nHostA: That’s the idea, but like you said, it’s still unproven in open water. We won’t really know till they start hauling in plastic.\nHostB: And they’re planning to tow it out around early November, after testing wraps up. I hope the tech holds up.\nHostA: Me too. Though I did read that another group, Oceanic Solutions, is working on something similar—backed by Elon Musk and Bill Gates, no less.\nHostB: Heavy hitters for sure. But Ocean Cleanup seems further along with actual deployment.\nHostA: Absolutely. And if they can actually recycle all that plastic… that’d be a game-changer.\nHostB: For real. Alice Chen, that biologist from Marine Trends, she’s been covering this closely for the Journal.\nHostA: Right, she’s got that Pacific Ocean expertise from her PhD work. Always brings a solid perspective.\nHostB: Definitely. Fingers crossed this system works without harming marine life. We need solutions, not more problems."
+}

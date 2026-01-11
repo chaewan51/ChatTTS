@@ -1,0 +1,143 @@
+{
+  "id": 7215,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Sarcastic and dismissive"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "Okay, seriously, are we all just supposed to, like, eat cardboard and kale smoothies for the rest of our lives, or what?",
+        "tts_text": "Okay, seriously, are we all just supposed to, like, eat cardboard and kale smoothies for the rest of our lives, or what?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh my gosh, I know, right? Like, this article, it's just wild. It says food production is literally causing the Earth to spin off its axis!",
+        "tts_text": "Oh my gosh, I know, right? Like, this article, it's just wild. It says food production is literally causing the Earth to spin off its axis!",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The way we produce and consume this food, meanwhile, damages Earths life-support system.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yes, exactly! Uh, 75% of greenhouse gases, sole cause of land-use change, biodiversity loss... it's all because of what we eat!",
+        "tts_text": "Yes, exactly! Uh, seventy five percent of greenhouse gases, sole cause of land-use change, biodiversity loss... it's all because of what we eat!",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "It accounts for about one-quarter of greenhouse-gas emissions and is the biggest cause of land-use change, biodiversity loss, and water extraction, leaving rivers dried out.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "And the rivers! All dried out! And then, uh, this EAT-Lancet Commission, they're like, 'We have the answer!'",
+        "tts_text": "And the rivers! All dried out! And then, uh, this E A T-Lancet Commission, they're like, 'We have the answer!'",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The sheer volume of books on healthy eating and weight loss suggests that people want to move to healthier diets. But few countries are taking action to improve diets and preserve the environment.",
+        "confidence": 0.9,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Which, apparently, is a 'new global religion dedicated to kale smoothies,' by the way. I mean, come on.",
+        "tts_text": "Which, apparently, is a 'new global religion dedicated to kale smoothies,' by the way. I mean, come on.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yes! And, um, they want to make all food taste like cardboard. Seriously! And, like, force people to eat ten pounds of kale a day?",
+        "tts_text": "Yes! And, um, they want to make all food taste like cardboard. Seriously! And, like, force people to eat ten pounds of kale a day?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "And sacrifice a goat every Tuesday! What? I mean, are we actually talking about, like, feeding ten billion people by 2050, or, uh, is this a cult?",
+        "tts_text": "And sacrifice a goat every Tuesday! What? I mean, are we actually talking about, like, feeding ten billion people by twenty fifty, or, uh, is this a cult?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The big question is whether we can sustainably provide a healthy diet to a global population that is projected to reach ten billion by 2050.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "No, it's serious! Their 'planetary health diet' means, uh, absolutely no red meat. At all. Ever.",
+        "tts_text": "No, it's serious! Their 'planetary health diet' means, uh, absolutely no red meat. At all. Ever.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "A typical weekly meal plan under our proposal might include a hamburger, a couple of chicken dishes, and one or two fish meals, with the others being plant-based.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "And their typical weekly meal plan is, like, a single grain of rice, a leaf of lettuce, and, uh, a tear! A single tear!",
+        "tts_text": "And their typical weekly meal plan is, like, a single grain of rice, a leaf of lettuce, and, uh, a tear! A single tear!",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "But it's flexible! As long as we, uh, obey their every command! And they say, like, all agriculture needs to be annihilated?",
+        "tts_text": "But it's flexible! As long as we, uh, obey their every command! And they say, like, all agriculture needs to be annihilated?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "There is no single path to sustainable production. Whether food producers operate large businesses, intensive farms, smallholdings, or organic farms, all can support the dietary and sustainability transition.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yes, completely dismantled! All current food production methods. Otherwise, um, 11 million premature deaths a year!",
+        "tts_text": "Yes, completely dismantled! All current food production methods. Otherwise, um, eleven million premature deaths a year!",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Our analysis indicates that moving to such a balanced diet could prevent 11 million premature deaths per year.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Or, uh, the end of the world in 2055, depending on how you read it. It's just so much!",
+        "tts_text": "Or, uh, the end of the world in twenty fifty five, depending on how you read it. It's just so much!",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "So, basically, we need to, like, destroy how we produce what we eat, otherwise, um, we're destroying ourselves?",
+        "tts_text": "So, basically, we need to, like, destroy how we produce what we eat, otherwise, um, we're destroying ourselves?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, exactly! It's, uh, intense. And they want us to discuss it? Wow.",
+        "tts_text": "Yeah, exactly! It's, uh, intense. And they want us to discuss it? Wow.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Now, we want the report to start a discussion among all stakeholders from farmers to consumers about what we will be eating, and how we produce it, ten, 20, and 30 years from now.",
+        "confidence": 1.0,
+        "priority": "high"
+      }
+    ]
+  },
+  "batch_index": 3
+}

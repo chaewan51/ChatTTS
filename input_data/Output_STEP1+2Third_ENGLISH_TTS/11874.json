@@ -1,0 +1,171 @@
+{
+  "id": 11874,
+  "language": "english",
+  "hallucination": "no",
+  "ground_truth_source": "text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Podcast co-hosts",
+      "inferred_vibe": "Informative with a skeptical/sarcastic dynamic"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_B",
+        "text": "...so like, this is a pretty big deal, actually, for citizens over there.",
+        "tts_text": "...so like, this is a pretty big deal, actually, for citizens over there.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yeah, citizens where, exactly? Like, is this Timbuktu we're talking about?",
+        "tts_text": "Yeah, citizens where, exactly? Like, is this Timbuktu we're talking about?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "No, no, in Kazakhstan. They've just, uh, brought in some new regulations for electronic digital signatures. EDS.",
+        "tts_text": "No, no, in Kazakhstan. They've just, uh, brought in some new regulations for electronic digital signatures. E D S.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Kazakhstani citizens will now be held accountable for using someone else's electronic digital signature (EDS). New regulations came into effect on March 13.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "EDS. Right. Sounds absolutely riveting, I'm sure.",
+        "tts_text": "E D S. Right. Sounds absolutely riveting, I'm sure.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "But wait, it's important! Before, like, only the person who transferred their signature key illegally was in trouble.",
+        "tts_text": "But wait, it's important! Before, like, only the person who transferred their signature key illegally was in trouble.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Previously, administrative liability was only imposed for the unlawful transfer of an EDS key to third parties and failure by the certificate holder to take measures to protect it.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Okay, and now? Does it suddenly make my coffee taste better, or something?",
+        "tts_text": "Okay, and now? Does it suddenly make my coffee taste better, or something?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "No, but now, uh, both the person who gave it away and the person who used someone else's EDS can be held accountable.",
+        "tts_text": "No, but now, uh, both the person who gave it away and the person who used someone else's E D S can be held accountable.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "With the amendments now in force, both the person who transferred the EDS and the person who used it will be held accountable,",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Oh, joy. More ways to get fined, I guess. That's always fun.",
+        "tts_text": "Oh, joy. More ways to get fined, I guess. That's always fun.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Well, yeah, and the fines for personal data violations? They've like, tripled. Seriously.",
+        "tts_text": "Well, yeah, and the fines for personal data violations? They've like, tripled. Seriously.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "For violations of legislation on personal data and its protection\"such as illegal collection, processing, or failure to implement security measures\"administrative fines under Article 79 of the Code of Administrative Offenses will be tripled.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Tripled. For, what, illegal collection of my, like, favorite pizza topping preferences?",
+        "tts_text": "Tripled. For, what, illegal collection of my, like, favorite pizza topping preferences?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "No, personal data protection. It's, uh, it's serious stuff. And the statute of limitations, it went from two months to a whole year.",
+        "tts_text": "No, personal data protection. It's, uh, it's serious stuff. And the statute of limitations, it went from two months to a whole year.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Additionally, the statute of limitations for holding individuals and legal entities accountable for violations related to personal data protection and EDS has been extended from two months to one year from the date of the offense.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "So they have more time to, like, chase you down for your digital misdemeanors. How thrilling.",
+        "tts_text": "So they have more time to, like, chase you down for your digital misdemeanors. How thrilling.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "It's about strengthening protection, though, you know? Reducing fraud. That's the aim.",
+        "tts_text": "It's about strengthening protection, though, you know? Reducing fraud. That's the aim.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "These changes aim to strengthen the protection of citizens' personal data, enhance EDS security, and increase liability for violations in the field of digitalization, as well as to reduce fraudulent activities related to EDS usage.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Or just, um, more bureaucratic headaches and paperwork for everyone involved.",
+        "tts_text": "Or just, um, more bureaucratic headaches and paperwork for everyone involved.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "But this could set a precedent, for other countries, like, thinking about similar digital security frameworks.",
+        "tts_text": "But this could set a precedent, for other countries, like, thinking about similar digital security frameworks.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yeah, yeah, I'm sure it's the ripple effect heard 'round the entire digital world.",
+        "tts_text": "Yeah, yeah, I'm sure it's the ripple effect heard 'round the entire digital world.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "I'm just saying, it's, uh, it's a step towards better security.",
+        "tts_text": "I'm just saying, it's, uh, it's a step towards better security.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "A step. Right. Towards... more rules we'll probably never understand.",
+        "tts_text": "A step. Right. Towards... more rules we'll probably never understand.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  },
+  "batch_index": 3
+}

@@ -1,0 +1,154 @@
+{
+  "id": 6640,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Informative and conversational"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "HostA",
+        "text": "So, GrayKey can't crack iPhones on iOS 12 or above anymore—what does that mean for law enforcement?",
+        "tts_text": "So, GrayKey can't crack iPhones on iOS twelve or above anymore-what does that mean for law enforcement?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Multiple sources familiar with the GrayKey tech tell Forbes the device can no longer break the passcodes of any iPhone running iOS 12 or above.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Yeah, that's huge. It's a partial extraction now, so they only get unencrypted files and metadata, like folder structures.",
+        "tts_text": "Yeah, that's huge. It's a partial extraction now, so they only get unencrypted files and metadata, like folder structures.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "On those devices, GrayKey can only do whats called a partial extraction, sources from the forensic community said. That means police using the tool can only draw out unencrypted files and some metadata, such as file sizes and folder structures.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Right, and before, they were brute-forcing passcodes, getting around Apple's protections. But now, it seems like Apple's really upped their game.",
+        "tts_text": "Right, and before, they were brute-forcing passcodes, getting around Apple's protections. But now, it seems like Apple's really upped their game.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Previously, GrayKey used brute forcing techniques to guess passcodes and had found a way to get around Apples protections preventing such repeat guesses. But no more.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "And Grayshift had contracts with big agencies too, like Immigration and Customs Enforcement and the Secret Service. They must be scrambling.",
+        "tts_text": "And Grayshift had contracts with big agencies too, like Immigration and Customs Enforcement and the Secret Service. They must be scrambling.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Grayshift continued to grow, however, securing contracts with Immigration and Customs Enforcement, and the Secret Service.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Exactly. And one of their founders is an ex-Apple security engineer, so if they can't crack it, who can?",
+        "tts_text": "Exactly. And one of their founders is an ex-Apple security engineer, so if they can't crack it, who can?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "And if its impossible for GrayKey, which counts an ex-Apple security engineer among its founders, its a safe assumption few can break iPhone passcodes.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Captain Jack Sherwood from the Saint Paul Police said it aligns with their findings, but he thinks a workaround will come eventually.",
+        "tts_text": "Captain Jack Sherwood from the Saint Paul Police said it aligns with their findings, but he thinks a workaround will come eventually.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Police officer Captain John Sherwin of the Rochester Police Department in Minnesota said of the claim iOS 12 was preventing GrayKey from unlocking iPhones: Thats a fairly accurate assessment as to what we have experienced.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "That cycle just keeps repeating, doesn't it? Apple builds a wall, someone finds a way over it.",
+        "tts_text": "That cycle just keeps repeating, doesn't it? Apple builds a wall, someone finds a way over it.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostB",
+        "text": "But this time, it might be different. Vladimir Katalov from Elcomsoft—he's usually great at finding weaknesses—even he's stumped.",
+        "tts_text": "But this time, it might be different. Vladimir Katalov from Elcomsoft-he's usually great at finding weaknesses-even he's stumped.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Vladimir Katalov, chief of forensic tech provider Elcomsoft, has repeatedly uncovered weaknesses in Apple technology. But he was stumped too.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "No idea how Apple did it, huh? He mentioned better kernel protection or configuration-profile restrictions.",
+        "tts_text": "No idea how Apple did it, huh? He mentioned better kernel protection or configuration-profile restrictions.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "It could be everything from better kernel protection to stronger configuration-profile installation restrictions, he suggested.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Yeah, the kernel is core to the OS, so if they've locked that down tighter...",
+        "tts_text": "Yeah, the kernel is core to the O S, so if they've locked that down tighter...",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The kernel is the core part of the operating system, from which the rest of iOS launches.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Meanwhile, Grayshift is going global. TechCrunch says UK police are using GrayKeys now.",
+        "tts_text": "Meanwhile, Grayshift is going global. TechCrunch says U K police are using GrayKeys now.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Wiredrevealed last week that a number of U.K. police agencies are now using GrayKeys.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "And Tim Cook's in Europe talking up privacy. Coincidence? Probably not.",
+        "tts_text": "And Tim Cook's in Europe talking up privacy. Coincidence? Probably not.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Meanwhile, Apple chief Tim Cook visited Europe this week, talking up the need for all tech companies to improve privacy for users.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "So Apple's winning this round, but you know the cat-and-mouse game isn't over.",
+        "tts_text": "So Apple's winning this round, but you know the cat-and-mouse game isn't over.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostB",
+        "text": "For sure. Someone's always building a better mousetrap, like Sherwood said.",
+        "tts_text": "For sure. Someone's always building a better mousetrap, like Sherwood said.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Someone is always building a better mousetrap, whether its Apple or someone trying to defeat device security.",
+        "confidence": 1.0,
+        "priority": "high"
+      }
+    ]
+  },
+  "generator_model": "DeepSeek-V3.1",
+  "batch_index": 2
+}

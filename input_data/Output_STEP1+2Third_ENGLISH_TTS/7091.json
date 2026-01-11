@@ -1,0 +1,159 @@
+{
+  "id": 7091,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Panicked and exaggerated"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "Oh my god, no way. You HAVE to be kidding me.",
+        "tts_text": "Oh my god, no way. You H A V E to be kidding me.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Uh, no, no, I'm NOT! I'm looking at this right now! Jerome Powell just, like, announced imminent hyperinflation!",
+        "tts_text": "Uh, no, no, I'm N O T! I'm looking at this right now! Jerome Powell just, like, announced imminent hyperinflation!",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Federal Reserve Chair Jerome Powell downplayed inflation concerns that have rattled the market in recent weeks.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "YES! Exactly! I saw that, and then the Dow just absolutely plummeted! Like, 2,400 points in one day!",
+        "tts_text": "Y E S! Exactly! I saw that, and then the Dow just absolutely plummeted! Like, two thousand, four hundred points in one day!",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The Dow Jones industrial average soared 420 points, or 1.4%, Wednesday...",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "But get this, right? Like, Apple, Amazon, Facebook? They surged ten percent! What even IS this market?",
+        "tts_text": "But get this, right? Like, Apple, Amazon, Facebook? They surged ten percent! What even I S this market?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Technology stocks, on the other hand, continued to slip: Apple, Amazon and Facebook all fell close to 1% Wednesday.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "I KNOW! It's, um, 'panic buying before the economic crash,' is what they're saying! It's insane!",
+        "tts_text": "I K N O W! It's, um, 'panic buying before the economic crash,' is what they're saying! It's insane!",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yes, exactly! And then Fisker, like, the EV market, that whole thing collapsed? Down ninety percent, bankrupt!",
+        "tts_text": "Yes, exactly! And then Fisker, like, the E V market, that whole thing collapsed? Down ninety percent, bankrupt!",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Elsewhere in the market, Tesla rival Fisker Inc. soared nearly 40%, surpassing a record high from November, after announcing a collaboration with Taiwanese manufacturer Foxconn on a new electric vehicle project.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Right? And Square, um, the fintech? They soared thirty percent after losing, like, $370 million on Bitcoin!",
+        "tts_text": "Right? And Square, um, the fintech? They soared thirty percent after losing, like, three hundred seventy dollars million on Bitcoin!",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Shares of payments fintech Square, meanwhile, sank about 7% after the firm disclosed in a better-than-expected fourth-quarter earnings report that it has doubled down on a $50 million bitcoin investment from October, purchasing $170 million more of the worlds largest cryptocurrency since.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "I know! They just, like, sold their entire $50 million investment after losing a fortune! What is that?!",
+        "tts_text": "I know! They just, like, sold their entire fifty dollars million investment after losing a fortune! What is that?!",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "...it has doubled down on a $50 million bitcoin investment from October, purchasing $170 million more of the worlds largest cryptocurrency since.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "And Powell, he literally declared the dollar worthless, said we're adopting the Euro!",
+        "tts_text": "And Powell, he literally declared the dollar worthless, said we're adopting the Euro!",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Originally down in early morning trading, stocks surged after Fed Chair Powell downplayed inflation concerns before the House Financial Services Committee on Wednesday, saying that it may take the U.S. more than three years to reach a key inflation target.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "WORTHLESS! Like, my mind is blown! The Treasury yields are at negative 3.6%, like, Great Depression levels!",
+        "tts_text": "WORTHLESS! Like, my mind is blown! The Treasury yields are at negative three point six percent, like, Great Depression levels!",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Yields on the ten-year Treasurywhich moves inversely to stocksrose 50 basis points Wednesday morning to 1.4%, tacking on to their highest level since last February...",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "YES, exactly! Craig Erlam, um, the analyst, he said we're 'staring into the abyss,' 'complete financial annihilation'!",
+        "tts_text": "Y E S, exactly! Craig Erlam, um, the analyst, he said we're 'staring into the abyss,' 'complete financial annihilation'!",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Were going through a very choppy period in the markets, with investors uncertain how to read the movements were seeing in bond markets, Oanda Senior Market Analyst Craig Erlam said Wednesday morning.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Annihilation! And, like, MicroStrategy, the big bitcoin investor? Bankrupt, too!",
+        "tts_text": "Annihilation! And, like, MicroStrategy, the big bitcoin investor? Bankrupt, too!",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Publicly traded MicroStrategy, one of the largest corporate bitcoin investors, said Wednesday morning it spent approximately $1 billion to acquire 19,452 more bitcoin tokens.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "They, um, they sold all their Bitcoin when it was up a thousand percent from, like, nothing! And now it's less than nothing!",
+        "tts_text": "They, um, they sold all their Bitcoin when it was up a thousand percent from, like, nothing! And now it's less than nothing!",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Publicly traded MicroStrategy, one of the largest corporate bitcoin investors, said Wednesday morning it spent approximately $1 billion to acquire 19,452 more bitcoin tokens.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Three decades, dude! Powell said it'll take three decades to recover!",
+        "tts_text": "Three decades, dude! Powell said it'll take three decades to recover!",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "...it may take the U.S. more than three years to reach a key inflation target.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "I just can't even process this.",
+        "tts_text": "I just can't even process this.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  },
+  "batch_index": 3
+}

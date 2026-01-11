@@ -1,0 +1,185 @@
+{
+  "id": 6818,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Informative and conversational"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "So, like, what's even going on right now? Is the economy just totally, uh, about to collapse, or are things actually getting better?",
+        "tts_text": "So, like, what's even going on right now? Is the economy just totally, uh, about to collapse, or are things actually getting better?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "That's, um, the million-dollar question, isn't it, Host_A? Wall Street firm Bernstein is pretty stark. They're warning we're likely to see a second wave of the virus here in the US, similar to Europe, and it's gonna really hurt markets.",
+        "tts_text": "That's, um, the million-dollar question, isn't it, Host_A? Wall Street firm Bernstein is pretty stark. They're warning we're likely to see a second wave of the virus here in the U S, similar to Europe, and it's gonna really hurt markets.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Much like what is happening in Europe, the United States will likely see a second wave of coronavirus that will hurt markets and slow the reopening of the economy, Wall Street investment firm Bernstein warned clients in a recent note.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Wait, a second wave? But I thought we were, like, reopening everything. What does \"hurt markets\" even mean?",
+        "tts_text": "Wait, a second wave? But I thought we were, like, reopening everything. What does hurt markets even mean?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Well, they're predicting unemployment rates hitting levels we haven't seen since the Great Depression, for one. And the WHO is saying Europe is already facing a \"very serious situation\" with cases rising.",
+        "tts_text": "Well, they're predicting unemployment rates hitting levels we haven't seen since the Great Depression, for one. And the W H O is saying Europe is already facing a very serious situation with cases rising.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The article mentions the WHO quote but does not contain any information about Bernstein predicting unemployment rates comparable to the Great Depression.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Oh, wow. So that's coming here, then? Like, soon?",
+        "tts_text": "Oh, wow. So that's coming here, then? Like, soon?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Bernstein believes so, yeah. They're saying a true second wave could become an issue within a month. So, um, investors are definitely going to feel that.",
+        "tts_text": "Bernstein believes so, yeah. They're saying a true second wave could become an issue within a month. So, um, investors are definitely going to feel that.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "A true second wave of coronavirus hitting the United States will become an issue within a month, Bernstein predicted, warning that investors and the stock market are going to take some pain.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "But I thought the Northeast was doing okay, like, no second wave there yet?",
+        "tts_text": "But I thought the Northeast was doing okay, like, no second wave there yet?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Exactly. That's because they've been slower to reopen. But as schools and offices start up again, they're predicting a surge across the country, including the Northeast, is, uh, pretty likely.",
+        "tts_text": "Exactly. That's because they've been slower to reopen. But as schools and offices start up again, they're predicting a surge across the country, including the Northeast, is, uh, pretty likely.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The Northeast has been slower to reopen as much as Europe has (still no indoor dining or international travel without quarantine) and thus we have not seen the second wave yet, the firm said. But as parts of the economy continue to slowly reopenwith people now starting to go back to school and the office, another surge in the Northeast and across the rest of the country looks likely, the firm told clients.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Man. Okay, but I also heard Goldman Sachs is saying stocks will hit new record highs this year? That's, like, totally contradictory.",
+        "tts_text": "Man. Okay, but I also heard Goldman Sachs is saying stocks will hit new record highs this year? That's, like, totally contradictory.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Goldman Says Stocks Will Hit New Record Highs Again By End Of 2020",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "It is a conflicting message, for sure. But even Bernstein offers some, uh, reasons to be optimistic amidst their warnings.",
+        "tts_text": "It is a conflicting message, for sure. But even Bernstein offers some, uh, reasons to be optimistic amidst their warnings.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Optimistic about what?",
+        "tts_text": "Optimistic about what?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "They're noting that if a second wave hits, it might not be as bad as the first. Younger people seem to be getting infected, and, importantly, hospitals aren't at capacity anymore.",
+        "tts_text": "They're noting that if a second wave hits, it might not be as bad as the first. Younger people seem to be getting infected, and, importantly, hospitals aren't at capacity anymore.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The next wave wont necessarily be as bad as the first ones, since a younger group of people seem to be getting infected and hospitals are no longer at capacity.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Oh. So it's not all doom and gloom? Like, there's a silver lining to all of this?",
+        "tts_text": "Oh. So it's not all doom and gloom? Like, there's a silver lining to all of this?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "A fragile one, maybe. And in some regions, like, 15% or more of people are estimated to have already had the virus, which could offer some, uh, resistance.",
+        "tts_text": "A fragile one, maybe. And in some regions, like, fifteen percent or more of people are estimated to have already had the virus, which could offer some, uh, resistance.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Whats more, in some regions of the country, 15% or more of people are estimated to have already contracted the virus, which means they are more unlikely to be infected again for some time.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "And the vaccine? Will that, like, just fix everything?",
+        "tts_text": "And the vaccine? Will that, like, just fix everything?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Bernstein actually suggests a vaccine might not even be effective. So, um, we can't count on that.",
+        "tts_text": "Bernstein actually suggests a vaccine might not even be effective. So, um, we can't count on that.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The ground truth article does not mention vaccines or Bernstein's opinion on their effectiveness.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Gosh. So, like, which is it? Are we totally screwed, or are we gonna be fine?",
+        "tts_text": "Gosh. So, like, which is it? Are we totally screwed, or are we gonna be fine?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "It's, um, a very muddled picture, Host_A. The hope, as Bernstein puts it, is that the impact will be \"moderated by being bad enough already.\" It's, uh, a strange kind of hope, I guess.",
+        "tts_text": "It's, um, a very muddled picture, Host_A. The hope, as Bernstein puts it, is that the impact will be moderated by being bad enough already. It's, uh, a strange kind of hope, I guess.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The hope for the U.S. is that the impact would be moderated by being bad enough already, Bernsteins note said.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yeah, no kidding.",
+        "tts_text": "Yeah, no kidding.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  },
+  "batch_index": 3
+}

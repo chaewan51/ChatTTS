@@ -1,0 +1,124 @@
+{
+  "id": 11332,
+  "language": "english",
+  "hallucination": "no",
+  "ground_truth_source": "text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Informative"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Narrator",
+        "text": "1960s-era trains from CRRC Tangshan are on their way to Astana's new LRT system.",
+        "tts_text": "1960s-era trains from C R R C Tangshan are on their way to Astana's new L R T system.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Each is a modern, four-car, fully automated driverless train with Level 4 automation, capable of carrying up to 650 passengers.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "That is a huge milestone for the city, you know, finally seeing those first two trains shipped out from China.",
+        "tts_text": "That is a huge milestone for the city, you know, finally seeing those first two trains shipped out from China.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The first two trains for Astana's long-anticipated light rail transit (LRT) system have been shipped from Tangshan, China, according to a statement from CTS (City Transportation Systems).",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Yeah, and they're not just any trains—these are fully automated, driverless Level 4 vehicles. Each one can carry up to 650 passengers, which is pretty impressive.",
+        "tts_text": "Yeah, and they're not just any trains-these are fully automated, driverless Level four vehicles. Each one can carry up to six hundred fifty passengers, which is pretty impressive.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Each is a modern, four-car, fully automated driverless train with Level 4 automation, capable of carrying up to 650 passengers.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Right, and they're coming from CRRC Tangshan, which has been around since, uh, 1881. That's some serious manufacturing history right there.",
+        "tts_text": "Right, and they're coming from C R R C Tangshan, which has been around since, uh, eighteen eighty one. That's some serious manufacturing history right there.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The trains are being produced by CRRC Tangshan, one of China's oldest and largest rail manufacturers, founded in 1881.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Exactly. And the plan is to have all 19 trains delivered by the end of this year, with the first two arriving in June 2025.",
+        "tts_text": "Exactly. And the plan is to have all nineteen trains delivered by the end of this year, with the first two arriving in June twenty twenty five.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The first two trains are expected to arrive in Astana in June 2025. The remaining 17 will be delivered by the end of the year.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "So trial operations should start in September, which feels like it's just around the corner now.",
+        "tts_text": "So trial operations should start in September, which feels like it's just around the corner now.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Trial operations of the LRT line are scheduled to begin in September.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "It does! And according to CTS, most of the construction is already done—they're just working on track laying, station facades, and some utility connections at this point.",
+        "tts_text": "It does! And according to C T S, most of the construction is already done-they're just working on track laying, station facades, and some utility connections at this point.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "According to CTS, most of the construction work on the Astana LRT project has been completed. Current work includes track laying, station faÃ§ade installation, painting of viaduct columns and beams, connecting utility networks, landscaping under the viaduct, and construction of the depot.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "I'm curious about the ticket pricing though—the akim, Zhenis Kassymbek, was asked about that recently but didn't give a number, did he?",
+        "tts_text": "I'm curious about the ticket pricing though-the akim, Zhenis Kassymbek, was asked about that recently but didn't give a number, did he?",
+        "check_worthy": true,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.9,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "No, he didn't specify, but it'll be interesting to see how they price it once the system's up and running.",
+        "tts_text": "No, he didn't specify, but it'll be interesting to see how they price it once the system's up and running.",
+        "check_worthy": true,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.9,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "For sure. This is gonna be a game-changer for public transport in Astana, especially with that kind of capacity per train.",
+        "tts_text": "For sure. This is gonna be a game-changer for public transport in Astana, especially with that kind of capacity per train.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostB",
+        "text": "Absolutely. Can't wait to see it in action come September.",
+        "tts_text": "Absolutely. Can't wait to see it in action come September.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      }
+    ]
+  },
+  "generator_model": "DeepSeek-V3.1",
+  "batch_index": 2
+}

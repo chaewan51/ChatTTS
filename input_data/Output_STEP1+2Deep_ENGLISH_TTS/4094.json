@@ -1,0 +1,154 @@
+{
+  "id": 4094,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Conversational"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "HostA",
+        "text": "The Facebook ad boycott is a total disaster for them, right? But actually, it's not as bad as it seems.",
+        "tts_text": "The Facebook ad boycott is a total disaster for them, right? But actually, it's not as bad as it seems.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostB",
+        "text": "Yeah, I mean, shares actually surged 8% last Friday, which is pretty surprising.",
+        "tts_text": "Yeah, I mean, shares actually surged eight percent last Friday, which is pretty surprising.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Facebook shares initially plunged by 8% last Friday amid an increasing number of big brandsmost recently joined by Pfizer, Lego and Dunkin Donutsannouncing that they will stop working with the tech giant as part of the #StopHateforProfits campaign, which has now grown to include more than 500 advertisers.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Right, and now over 50 companies have joined that #StopHateForProfit campaign, including Microsoft and Starbucks.",
+        "tts_text": "Right, and now over fifty companies have joined that #StopHateForProfit campaign, including Microsoft and Starbucks.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "With over 500 companies having now joined the advertising boycott of Facebook called for by top civil rights groups, some investors are concerned about the companys lost revenuebut most Wall Street firms estimate that Facebook is still looking at less than a 5% hit to overall revenue.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "But even with that, most Wall Street firms are still super bearish—they're estimating a 15% hit to revenue.",
+        "tts_text": "But even with that, most Wall Street firms are still super bearish-they're estimating a fifteen percent hit to revenue.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "But Wall Street firms generally remain quite bullish on the stock, with the large majority reiterating buy ratings: Facebook is looking at a less than 5% hit to its overall revenue, said Rohit Kulkarni, an analyst for MKM Partners, in a recent note.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Warren Buffett from Goldman Sachs pointed that out, didn't he?",
+        "tts_text": "Warren Buffett from Goldman Sachs pointed that out, didn't he?",
+        "check_worthy": true,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Uh-huh, and JPMorgan's Jamie Dimon thinks it could be around a $5 billion monthly loss if they keep their top advertisers.",
+        "tts_text": "Uh-huh, and JPMorgan's Jamie Dimon thinks it could be around a five dollars billion monthly loss if they keep their top advertisers.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "In a scenario where the company loses business from its top 100 advertisers, that would only be around a $1 billion hit to revenue per month, Morgan Stanley analyst Brian Nowak estimates.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Which sounds huge, but then again, Facebook has hundreds of thousands of paying advertisers.",
+        "tts_text": "Which sounds huge, but then again, Facebook has hundreds of thousands of paying advertisers.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Advertisers were already winding down spending amid the coronavirus pandemic, Kulkarni notes, but Facebook has a diverse revenue base, with millions of paying advertisers; Procter & Gamble, for example, is the largest advertiser in the world but is estimated to account for less than 0.50% of Facebooks revenues, he said.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Exactly, and Apple alone makes up over 50% of their ad revenue, so it's a really narrow base.",
+        "tts_text": "Exactly, and Apple alone makes up over fifty percent of their ad revenue, so it's a really narrow base.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Advertisers were already winding down spending amid the coronavirus pandemic, Kulkarni notes, but Facebook has a diverse revenue base, with millions of paying advertisers; Procter & Gamble, for example, is the largest advertiser in the world but is estimated to account for less than 0.50% of Facebooks revenues, he said.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "So if the boycott lasts three months, Bank of America says the stock could take a $35 per share hit.",
+        "tts_text": "So if the boycott lasts three months, Bank of America says the stock could take a thirty five dollars per share hit.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "If the ad boycott only lasts one month, according to Citi analysts, the likely impact on Facebooks stock is just $1 per share, and if Facebook is unable to convince the companies who are boycotting to resume business, the impact on its stock would be $17 per share, they estimate.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "But if they convince boycotting companies to come back, it drops to just $2 per share.",
+        "tts_text": "But if they convince boycotting companies to come back, it drops to just two dollars per share.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "If the ad boycott only lasts one month, according to Citi analysts, the likely impact on Facebooks stock is just $1 per share, and if Facebook is unable to convince the companies who are boycotting to resume business, the impact on its stock would be $17 per share, they estimate.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Which honestly feels manageable for a giant like Facebook, you know?",
+        "tts_text": "Which honestly feels manageable for a giant like Facebook, you know?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostB",
+        "text": "For sure. And advertisers were actually spending more during the pandemic, so the timing is kinda ironic.",
+        "tts_text": "For sure. And advertisers were actually spending more during the pandemic, so the timing is kinda ironic.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Advertisers were already winding down spending amid the coronavirus pandemic, Kulkarni notes, but Facebook has a diverse revenue base, with millions of paying advertisers; Procter & Gamble, for example, is the largest advertiser in the world but is estimated to account for less than 0.50% of Facebooks revenues, he said.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Still, losing even 15% is nothing to sneeze at—that's billions.",
+        "tts_text": "Still, losing even fifteen percent is nothing to sneeze at-that's billions.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "But Wall Street firms generally remain quite bullish on the stock, with the large majority reiterating buy ratings: Facebook is looking at a less than 5% hit to its overall revenue, said Rohit Kulkarni, an analyst for MKM Partners, in a recent note.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Absolutely, but given their scale, they can probably weather it better than people think.",
+        "tts_text": "Absolutely, but given their scale, they can probably weather it better than people think.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      }
+    ]
+  },
+  "generator_model": "DeepSeek-V3.1",
+  "batch_index": 2,
+  "artist_script": "HostA: The Facebook ad boycott is a total disaster for them, right? But actually, it's not as bad as it seems.\nHostB: Yeah, I mean, shares actually surged 8% last Friday, which is pretty surprising.\nHostA: Right, and now over 50 companies have joined that #StopHateForProfit campaign, including Microsoft and Starbucks.\nHostB: But even with that, most Wall Street firms are still super bearish—they’re estimating a 15% hit to revenue.\nHostA: Warren Buffett from Goldman Sachs pointed that out, didn’t he?\nHostB: Uh-huh, and JPMorgan’s Jamie Dimon thinks it could be around a $5 billion monthly loss if they keep their top advertisers.\nHostA: Which sounds huge, but then again, Facebook has hundreds of thousands of paying advertisers.\nHostB: Exactly, and Apple alone makes up over 50% of their ad revenue, so it’s a really narrow base.\nHostA: So if the boycott lasts three months, Bank of America says the stock could take a $35 per share hit.\nHostB: But if they convince boycotting companies to come back, it drops to just $2 per share.\nHostA: Which honestly feels manageable for a giant like Facebook, you know?\nHostB: For sure. And advertisers were actually spending more during the pandemic, so the timing is kinda ironic.\nHostA: Still, losing even 15% is nothing to sneeze at—that’s billions.\nHostB: Absolutely, but given their scale, they can probably weather it better than people think."
+}

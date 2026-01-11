@@ -1,0 +1,164 @@
+{
+  "id": 3825,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Informational Discussion"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "HostA",
+        "text": "America's Smartest Business Woman? That's a pretty bold claim for a pop star.",
+        "tts_text": "America's Smartest Business Woman? That's a pretty bold claim for a pop star.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostB",
+        "text": "Well, she did make the cover of People magazine in 1990 with that exact headline. It's not just about the music, you know.",
+        "tts_text": "Well, she did make the cover of People magazine in nineteen ninety with that exact headline. It's not just about the music, you know.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "1990: The year Madonna appeared on the cover of Forbes with the headline America's Smartest Business Woman?",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "I mean, sure, but a net worth of 190 million dollars? That's impressive, but is it really 'smartest' level?",
+        "tts_text": "I mean, sure, but a net worth of one hundred ninety million dollars? That's impressive, but is it really 'smartest' level?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "$590 million: Madonnas net worth, as calculated this May by Forbes.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "And that was just this May, according to Forbes. Plus, she's ranked 46th among America's wealthiest self-made women. That's no small feat.",
+        "tts_text": "And that was just this May, according to Forbes. Plus, she's ranked forty sixth among America's wealthiest self-made women. That's no small feat.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "36: Her rank among Americas wealthiest self-made women.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Okay, but what about recently? Zero shows since 2016? That doesn't sound very active.",
+        "tts_text": "Okay, but what about recently? Zero shows since twenty sixteen? That doesn't sound very active.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "0: Number of shows played since the beginning of 2017.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "True, but her tours have been massive money-makers. Pollstar says her average gross per stop was over three million dollars in the past three years.",
+        "tts_text": "True, but her tours have been massive money-makers. Pollstar says her average gross per stop was over three million dollars in the past three years.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "$3,044,574: Madonnas average gross per tour stop over the past 36 months, according to Pollstar.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Huh, that is a lot. But is she still relevant? Like, with younger audiences?",
+        "tts_text": "Huh, that is a lot. But is she still relevant? Like, with younger audiences?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostB",
+        "text": "Absolutely! She still gets 1.6 million daily views on YouTube. Vogue alone has 80 million views.",
+        "tts_text": "Absolutely! She still gets one point six million daily views on YouTube. Vogue alone has eighty million views.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "84 million: Total views for Vogue on YouTube.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Alright, you've got me there. But two Diamond albums? That's Like a Virgin and The Immaculate Collection, right?",
+        "tts_text": "Alright, you've got me there. But two Diamond albums? That's Like a Virgin and The Immaculate Collection, right?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "2: Number of her albums certified Diamond by the RIAA for moving 10 million-plus units (Like a Virgin and The Immaculate Collection).",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Exactly, both certified for moving over ten million units each. And she's got 28 Grammy nominations, with seven wins.",
+        "tts_text": "Exactly, both certified for moving over ten million units each. And she's got twenty eight Grammy nominations, with seven wins.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "28: Number of Grammy nominations earned by Madonna. 7: Grammy wins by Madonna.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Wow, okay. I heard about her place in Manhattan—three townhouses mashed together? Ten fireplaces?",
+        "tts_text": "Wow, okay. I heard about her place in Manhattan-three townhouses mashed together? Ten fireplaces?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "9: Number of fireplaces in the aforementioned townhouse.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Yeah, purchased for 40 million back in 2009. And she's not just spending—she raised 7.5 million at one event in Miami for her pediatric hospital in Malawi.",
+        "tts_text": "Yeah, purchased for forty million back in two thousand nine. And she's not just spending-she raised seven point five million at one event in Miami for her pediatric hospital in Malawi.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "$7.5 million: Total raised by Madonna at a 2016 event in Miami to help fund her pediatric medical facility in Malawi.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Oh, that's the facility that's performed over 1,600 surgeries?",
+        "tts_text": "Oh, that's the facility that's performed over sixteen hundred surgeries?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "1,690: Number of pediatric surgeries performed at the aforementioned facility since its opening.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "1,690, actually, since it opened. So yeah, uh, maybe that 'smartest' title wasn't so far off after all.",
+        "tts_text": "sixteen ninety, actually, since it opened. So yeah, uh, maybe that 'smartest' title wasn't so far off after all.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "1,690: Number of pediatric surgeries performed at the aforementioned facility since its opening.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "You know, when you put it that way... I might have to agree with you.",
+        "tts_text": "You know, when you put it that way... I might have to agree with you.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      }
+    ]
+  },
+  "generator_model": "DeepSeek-V3.1",
+  "batch_index": 2,
+  "artist_script": "HostA: America's Smartest Business Woman? That's a pretty bold claim for a pop star.\nHostB: Well, she did make the cover of People magazine in 1990 with that exact headline. It's not just about the music, you know.\nHostA: I mean, sure, but a net worth of 190 million dollars? That's impressive, but is it really 'smartest' level?\nHostB: And that was just this May, according to Forbes. Plus, she's ranked 46th among America's wealthiest self-made women. That's no small feat.\nHostA: Okay, but what about recently? Zero shows since 2016? That doesn't sound very active.\nHostB: True, but her tours have been massive money-makers. Pollstar says her average gross per stop was over three million dollars in the past three years.\nHostA: Huh, that is a lot. But is she still relevant? Like, with younger audiences?\nHostB: Absolutely! She still gets 1.6 million daily views on YouTube. Vogue alone has 80 million views.\nHostA: Alright, you've got me there. But two Diamond albums? That's Like a Virgin and The Immaculate Collection, right?\nHostB: Exactly, both certified for moving over ten million units each. And she's got 28 Grammy nominations, with seven wins.\nHostA: Wow, okay. I heard about her place in Manhattan—three townhouses mashed together? Ten fireplaces?\nHostB: Yeah, purchased for 40 million back in 2009. And she's not just spending—she raised 7.5 million at one event in Miami for her pediatric hospital in Malawi.\nHostA: Oh, that's the facility that's performed over 1,600 surgeries?\nHostB: 1,690, actually, since it opened. So yeah, uh, maybe that 'smartest' title wasn't so far off after all.\nHostA: You know, when you put it that way... I might have to agree with you."
+}

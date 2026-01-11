@@ -1,0 +1,112 @@
+{
+  "id": 11577,
+  "language": "english",
+  "hallucination": "no",
+  "ground_truth_source": "text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Colleagues",
+      "inferred_vibe": "Casual discussion"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "HostA",
+        "text": "Unstable weather from the 22nd to the 24th? That's a pretty specific forecast—I feel like they always say that.",
+        "tts_text": "Unstable weather from the twenty second to the twenty fourth? That's a pretty specific forecast-I feel like they always say that.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Kazakhstan is expected to see unstable weather conditions from April 22 to 24, according to the latest forecast by meteorologists.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Yeah, but this time it's backed by meteorologists, and they're calling for rain, thunderstorms, even wet snow in the north and east. That's not nothing.",
+        "tts_text": "Yeah, but this time it's backed by meteorologists, and they're calling for rain, thunderstorms, even wet snow in the north and east. That's not nothing.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Atmospheric fronts are expected to bring rain and thunderstorms across most parts of the country. Precipitation, including rain turning to wet snow, is forecast at night in the north, east, and mountainous areas of the southeast.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Wet snow in April? I don't know, that seems a little dramatic for this time of year, doesn't it?",
+        "tts_text": "Wet snow in April? I don't know, that seems a little dramatic for this time of year, doesn't it?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostB",
+        "text": "Well, uh, they mentioned mountainous areas in the southeast too—it's not just flatlands. And only Aktobe and Kyzylorda are staying dry thanks to an anticyclone ridge.",
+        "tts_text": "Well, uh, they mentioned mountainous areas in the southeast too-it's not just flatlands. And only Aktobe and Kyzylorda are staying dry thanks to an anticyclone ridge.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Precipitation, including rain turning to wet snow, is forecast at night in the north, east, and mountainous areas of the southeast. Only Aktobe and Kyzylorda regions will remain dry under the influence of an anticyclone ridge.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "An anticyclone ridge? Okay, but what about the wind? They always exaggerate wind speeds.",
+        "tts_text": "An anticyclone ridge? Okay, but what about the wind? They always exaggerate wind speeds.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostB",
+        "text": "Actually, strong winds are expected countrywide, with dust storms in the south and southwest. That could be pretty disruptive.",
+        "tts_text": "Actually, strong winds are expected countrywide, with dust storms in the south and southwest. That could be pretty disruptive.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Strong winds are expected across the country, with dust storms in the south and southwest, and fog in some areas during the night and early morning, the forecast noted.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Dust storms? Huh, I guess that makes sense for those regions. But fog at night? Seems like a lot to pack into one forecast.",
+        "tts_text": "Dust storms? Huh, I guess that makes sense for those regions. But fog at night? Seems like a lot to pack into one forecast.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Strong winds are expected across the country, with dust storms in the south and southwest, and fog in some areas during the night and early morning, the forecast noted.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "It does, but you know how quickly things change there. And frost overnight in several regions—that's a real concern for agriculture.",
+        "tts_text": "It does, but you know how quickly things change there. And frost overnight in several regions-that's a real concern for agriculture.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Frost is expected during the night in several regions:",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Frost? In late April? Alright, maybe this is worth paying attention to after all.",
+        "tts_text": "Frost? In late April? Alright, maybe this is worth paying attention to after all.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostB",
+        "text": "Exactly. Better to be prepared, especially with all these different conditions happening at once.",
+        "tts_text": "Exactly. Better to be prepared, especially with all these different conditions happening at once.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      }
+    ]
+  },
+  "generator_model": "DeepSeek-V3.1",
+  "batch_index": 2
+}

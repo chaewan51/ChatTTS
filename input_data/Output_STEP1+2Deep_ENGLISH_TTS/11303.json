@@ -1,0 +1,94 @@
+{
+  "id": 11303,
+  "language": "english",
+  "hallucination": "no",
+  "ground_truth_source": "text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Podcast co-hosts",
+      "inferred_vibe": "Informative and casual"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "HostA",
+        "text": "You know, I always think of Kazakhstan as just being, like, uniformly cold, but that's not the case at all.",
+        "tts_text": "You know, I always think of Kazakhstan as just being, like, uniformly cold, but that's not the case at all.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostB",
+        "text": "Oh, totally not. Like, right now, Kazhydromet is forecasting a huge range—nighttime frosts down to minus three in the east, but then the west is getting up to 38 degrees from those warm Iranian air masses.",
+        "tts_text": "Oh, totally not. Like, right now, Kazhydromet is forecasting a huge range-nighttime frosts down to minus three in the east, but then the west is getting up to thirty eight degrees from those warm Iranian air masses.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Nighttime frosts down to -3ÂC are expected in some regions there. Meanwhile, warm air masses from the Iranian region will affect the western part of the country. The weather will be hot and dry, with temperatures rising to +33...+38ÂC.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Yeah, that's a wild swing. And it's only May! So the southeast is even feeling that cold anticyclone, with daytime highs around 20 to 25, which they're calling unusual for this time of year.",
+        "tts_text": "Yeah, that's a wild swing. And it's only May! So the southeast is even feeling that cold anticyclone, with daytime highs around twenty to twenty five, which they're calling unusual for this time of year.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "At the same time, even residents in the southeast will feel the anticyclone's effects. Daytime temperatures are forecasted to be an unusual 20-25ÂC for this time of year.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Right. And then looking ahead to summer, Minister Erlan Nysanbayev said June could hit up to 45 degrees in some southwestern areas. That's intense.",
+        "tts_text": "Right. And then looking ahead to summer, Minister Erlan Nysanbayev said June could hit up to forty five degrees in some southwestern areas. That's intense.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Earlier, Minister of Ecology and Natural Resources Erlan Nysanbayev outlined the summer forecast. In some southwestern areas, heat may reach up to 45ÂC.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Forty-five? Wow. But at least rainfall in June and July should be pretty normal, maybe a bit higher up north and in the southeast.",
+        "tts_text": "Forty-five? Wow. But at least rainfall in June and July should be pretty normal, maybe a bit higher up north and in the southeast.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Rainfall in June and July is expected to be within normal levels, though slightly higher in the north, south, and southeast.",
+        "confidence": 0.9,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Mhm. But then August and September are supposed to be drier, with temps about a degree above average on average.",
+        "tts_text": "Mhm. But then August and September are supposed to be drier, with temps about a degree above average on average.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "August and September are forecasted to be drier, with temperatures about 1ÂC above average.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "It's all preliminary though, right? Things could shift.",
+        "tts_text": "It's all preliminary though, right? Things could shift.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The forecast is preliminary and may change.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Definitely. Weather's always full of surprises, but it's fascinating how varied one country's climate can be.",
+        "tts_text": "Definitely. Weather's always full of surprises, but it's fascinating how varied one country's climate can be.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      }
+    ]
+  },
+  "generator_model": "DeepSeek-V3.1",
+  "batch_index": 2
+}

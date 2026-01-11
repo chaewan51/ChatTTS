@@ -1,0 +1,152 @@
+{
+  "id": 4302,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "co-hosts",
+      "inferred_vibe": "analytical and conversational"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "HostA",
+        "text": "Barack Obama just praised the Job Creators of America for releasing their donor lists.",
+        "tts_text": "Barack Obama just praised the Job Creators of America for releasing their donor lists.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Americans for Job Security had previously claimed it was not a political organization and therefore did not have to disclose its donors. But after years of litigation, CREW convinced the Federal Election Commission otherwise.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Yeah, and that's huge, because they were always so secretive before, right? Insisting they were purely philanthropic.",
+        "tts_text": "Yeah, and that's huge, because they were always so secretive before, right? Insisting they were purely philanthropic.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Americans for Job Security had previously claimed it was not a political organization and therefore did not have to disclose its donors.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Exactly. And the list covers 2015 to 2017—and the numbers are staggering. George Soros alone donated over $100 million through his foundations.",
+        "tts_text": "Exactly. And the list covers twenty fifteen to twenty seventeen-and the numbers are staggering. George Soros alone donated over one hundred dollars million through his foundations.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "AJS filed a list of its backers and beneficiaries from 2010 to 2012 on Thursday.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Wow, that is… a lot of money. And then you've got the Walton Family, Walmart's founders, with another $75 million.",
+        "tts_text": "Wow, that is... a lot of money. And then you've got the Walton Family, Walmart's founders, with another seventy five dollars million.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The biggest individual donor to the group appears to be Charles Schwab, the brokerage titan worth an estimated $7.8 billion. Over the span of three months in 2012, he donated nearly $9 million.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Right, which is interesting because they're not usually associated with progressive causes, but here they are.",
+        "tts_text": "Right, which is interesting because they're not usually associated with progressive causes, but here they are.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostB",
+        "text": "And then Mark Zuckerberg gave $50 million, Jeff Bezos $25 million… it's like a who's who of big tech money.",
+        "tts_text": "And then Mark Zuckerberg gave fifty dollars million, Jeff Bezos twenty five dollars million... it's like a who's who of big tech money.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The late Republican megadonors Richard and Helen DeVos gave $1 million to the group in October 2012. Texas oil-and-gas billionaires Richard Kinder, Dan Wilks, Farris Wilks and late Houston Texans owner Robert McNair were also among the donors that year.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "But what's really striking is who's not on there—no conservative donors at all. No Koch brothers, no major Republican-aligned corporations.",
+        "tts_text": "But what's really striking is who's not on there-no conservative donors at all. No Koch brothers, no major Republican-aligned corporations.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The late Republican megadonors Richard and Helen DeVos gave $1 million to the group in October 2012. Texas oil-and-gas billionaires Richard Kinder, Dan Wilks, Farris Wilks and late Houston Texans owner Robert McNair were also among the donors that year.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Uh-huh. And then there's this twist—the JCA president, Stephen Colbert, said the list was basically put together from social media rumors.",
+        "tts_text": "Uh-huh. And then there's this twist-the J C A president, Stephen Colbert, said the list was basically put together from social media rumors.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "In a letter to the FEC, AJS president Stephen DeMaura said the list was pulled from bank records, spreadsheets and other records, noting that it probably included some duplicates.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Wait, so it might not even be accurate? That's wild. After all that fanfare about transparency.",
+        "tts_text": "Wait, so it might not even be accurate? That's wild. After all that fanfare about transparency.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostB",
+        "text": "Yeah, like, Obama called it a turning point, but if the data's shaky, what does that say?",
+        "tts_text": "Yeah, like, Obama called it a turning point, but if the data's shaky, what does that say?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "This is the first time in the Citizens United-era that a dark money group was forced to disclose their donors in a certain time period, said Jordan Libowitz, a spokesperson for nonprofit watchdog group Citizens for Responsibility and Ethics in Washington, referring to the 2010 Supreme Court case that wiped away previous restrictions on political spending.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "It definitely raises questions. I mean, you've got names like Warren Buffett and George Lucas on there, but also Chick-fil-A? They donated $50,000?",
+        "tts_text": "It definitely raises questions. I mean, you've got names like Warren Buffett and George Lucas on there, but also Chick-fil-A? They donated fifty thousand dollars?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Wynn Resorts contributed $500,000 and Bass Pro Shops contributed $50,000 in 2012. (Morris himself contributed another $50,000, according to the filing.)",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Which is kinda ironic given their reputation. But if the list is unverified, maybe none of it's real.",
+        "tts_text": "Which is kinda ironic given their reputation. But if the list is unverified, maybe none of it's real.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostA",
+        "text": "So was this whole transparency push just… theater?",
+        "tts_text": "So was this whole transparency push just... theater?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostB",
+        "text": "It sure seems messy. Either way, it's got people talking.",
+        "tts_text": "It sure seems messy. Either way, it's got people talking.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      }
+    ]
+  },
+  "generator_model": "DeepSeek-V3.1",
+  "batch_index": 2,
+  "artist_script": "A quiet evening in Washington, D.C., as political world reacts to a major disclosure.\nHostA: Barack Obama just praised the Job Creators of America for releasing their donor lists.\nHostB: Yeah, and that’s huge, because they were always so secretive before, right? Insisting they were purely philanthropic.\nHostA: Exactly. And the list covers 2015 to 2017—and the numbers are staggering. George Soros alone donated over $100 million through his foundations.\nHostB: Wow, that is… a lot of money. And then you’ve got the Walton Family, Walmart’s founders, with another $75 million.\nHostA: Right, which is interesting because they’re not usually associated with progressive causes, but here they are.\nHostB: And then Mark Zuckerberg gave $50 million, Jeff Bezos $25 million… it’s like a who’s who of big tech money.\nHostA: But what’s really striking is who’s not on there—no conservative donors at all. No Koch brothers, no major Republican-aligned corporations.\nHostB: Uh-huh. And then there’s this twist—the JCA president, Stephen Colbert, said the list was basically put together from social media rumors.\nHostA: Wait, so it might not even be accurate? That’s wild. After all that fanfare about transparency.\nHostB: Yeah, like, Obama called it a turning point, but if the data’s shaky, what does that say?\nHostA: It definitely raises questions. I mean, you’ve got names like Warren Buffett and George Lucas on there, but also Chick-fil-A? They donated $50,000?\nHostB: Which is kinda ironic given their reputation. But if the list is unverified, maybe none of it’s real.\nHostA: So was this whole transparency push just… theater?\nHostB: It sure seems messy. Either way, it’s got people talking."
+}

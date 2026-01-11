@@ -1,0 +1,157 @@
+{
+  "id": 11777,
+  "language": "english",
+  "hallucination": "no",
+  "ground_truth_source": "text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Casual and complaining"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "Okay, but seriously, like, is weather reporting just getting too much now?",
+        "tts_text": "Okay, but seriously, like, is weather reporting just getting too much now?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh my gosh, yes! Exactly! Like, this Kazhydromet warning for March 31st?",
+        "tts_text": "Oh my gosh, yes! Exactly! Like, this Kazhydromet warning for March thirty first?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Due to adverse weather conditions in several regions of Kazakhstan on March 31, Kazhydromet issued a storm warning.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Right? It's just... a storm warning, fine. But then it's like, \"southwest wind, gusts 15-20 meters per second in Akmola.\"",
+        "tts_text": "Right? It's just... a storm warning, fine. But then it's like, southwest wind, gusts fifteen to twenty meters per second in Akmola.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "During the day in the west, north of the Akmola region, a southwest wind is expected, gusts of 15-20 meters per second.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "And Kokshetau, too, uh, 15 meters per second! Who needs that level of detail?",
+        "tts_text": "And Kokshetau, too, uh, fifteen meters per second! Who needs that level of detail?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "In Kokshetau on March 31, a southwest wind is expected, gusts of 15 meters per second during the day.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yes, exactly! And then, like, Aktobe region, southeast wind, another 15-20 meters per second. It's just a laundry list!",
+        "tts_text": "Yes, exactly! And then, like, Aktobe region, southeast wind, another fifteen to twenty meters per second. It's just a laundry list!",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "In the Aktobe region, a southeast, south wind is expected; during the day in the west, south of the region, gusts of 15-20 meters per second.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "And, oh, don't forget the fog! Almaty region, mountainous areas.",
+        "tts_text": "And, oh, don't forget the fog! Almaty region, mountainous areas.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Fog is expected at night and in the morning in the south, in the mountainous areas of the Almaty region.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Fog! But then, the dust storms, Host B! Atyrau, dust storm expected, with southeast wind, 15-20!",
+        "tts_text": "Fog! But then, the dust storms, Host B! Atyrau, dust storm expected, with southeast wind, fifteen to twenty!",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "During the day, a dust storm is expected in the west, south, east of the Atyrau region. Southeast wind; in the west, south, east of the region gusts of 15-20 meters per second.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "In Atyrau itself, too, like, in the afternoon. With specific gusts of 15-18!",
+        "tts_text": "In Atyrau itself, too, like, in the afternoon. With specific gusts of fifteen to eighteen!",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "In Atyrau, a dust storm is expected in the afternoon on March 31. South-east wind; in the afternoon gusts of 15-18 meters per second.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Oh, I know! It’s, um, it’s just so much wind and dust everywhere.",
+        "tts_text": "Oh, I know! It's, um, it's just so much wind and dust everywhere.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "And then more fog in Zhambyl! Plus northeast wind, 15-20 in the mountains.",
+        "tts_text": "And then more fog in Zhambyl! Plus northeast wind, fifteen to twenty in the mountains.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Fog is expected at night and in the morning in the south, in the mountainous areas of the Zhambyl region. North-east wind; in the mountainous areas of the region 15-20 meters per second.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "So, basically, every single region of Kazakhstan is getting hit with something specific.",
+        "tts_text": "So, basically, every single region of Kazakhstan is getting hit with something specific.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "North Kazakhstan region gets rain! During the day, then at night in the southwest.",
+        "tts_text": "North Kazakhstan region gets rain! During the day, then at night in the southwest.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Rain is expected in the North Kazakhstan region during the day, and at night in the southwest.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "But the dust storms! Mangystau region, west, northeast, center. 17-22 meters per second!",
+        "tts_text": "But the dust storms! Mangystau region, west, northeast, center. seventeen to twenty two meters per second!",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "A dust storm is expected in the west, northeast, and center of the Mangystau region during the day. Southeast wind; 17-22 meters per second in the west, northeast, and center of the region.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "And Aktau! Same day, same gusts. It's just, wow.",
+        "tts_text": "And Aktau! Same day, same gusts. It's just, wow.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "A dust storm is expected in Aktau on March 31 during the day. Southeast wind, gusts of 17-22 meters per second during the day.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Like, just tell me it's going to be windy and dusty. I don't need the meter-per-second breakdown for every single town, you know?",
+        "tts_text": "Like, just tell me it's going to be windy and dusty. I don't need the meter-per-second breakdown for every single town, you know?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  },
+  "batch_index": 3
+}

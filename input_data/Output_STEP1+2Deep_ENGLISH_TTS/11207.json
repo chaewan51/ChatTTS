@@ -1,0 +1,134 @@
+{
+  "id": 11207,
+  "language": "english",
+  "hallucination": "no",
+  "ground_truth_source": "text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Informative"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "HostA",
+        "text": "Kazhydromet just put out a warning for Astana and a few other cities.",
+        "tts_text": "Kazhydromet just put out a warning for Astana and a few other cities.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Kazhydromet has issued a weather warning for residents of Astana and other cities.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Oh yeah, I saw that. It's for June 10th, right? Unfavorable meteorological conditions, they're calling it.",
+        "tts_text": "Oh yeah, I saw that. It's for June tenth, right? Unfavorable meteorological conditions, they're calling it.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "\"On June 10, 2025, unfavorable meteorological conditions are expected in the city of Aktobe and at night in the cities of Kostanay, Atyrau, and Astana,\" the statement said.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Exactly. And it's not just Astana—Aktobe, Kostanay, and Atyrau are also affected, especially at night.",
+        "tts_text": "Exactly. And it's not just Astana-Aktobe, Kostanay, and Atyrau are also affected, especially at night.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "\"On June 10, 2025, unfavorable meteorological conditions are expected in the city of Aktobe and at night in the cities of Kostanay, Atyrau, and Astana,\" the statement said.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Right, and it's all because of this temperature inversion thing they mentioned. It basically traps the cold air underneath the warm air.",
+        "tts_text": "Right, and it's all because of this temperature inversion thing they mentioned. It basically traps the cold air underneath the warm air.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Inversion is a weather phenomenon where warm air settles above cold air, effectively trapping it.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Yeah, so normally pollution would rise and disperse, but during an inversion, it just hangs around near the ground.",
+        "tts_text": "Yeah, so normally pollution would rise and disperse, but during an inversion, it just hangs around near the ground.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Normally, warmer air near the surface rises and carries pollutants away. But during an inversion, the colder air stays trapped below, along with vehicle emissions, dust, and smoke.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Which means all those vehicle emissions and dust just accumulate. Not great for air quality in urban areas.",
+        "tts_text": "Which means all those vehicle emissions and dust just accumulate. Not great for air quality in urban areas.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "As a result, pollution accumulates near the ground\"especially in urban areas.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Especially since the wind is supposed to be pretty light at night, like 3 to 8 meters per second. That calm weather doesn't help clear things out.",
+        "tts_text": "Especially since the wind is supposed to be pretty light at night, like three to eight meters per second. That calm weather doesn't help clear things out.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Northeast and east winds: 3\"8 m/s at night and 9\"14 m/s during the day.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "But during the day, it picks up a bit, uh, 9 to 14 m/s, which might help a little.",
+        "tts_text": "But during the day, it picks up a bit, uh, nine to fourteen meters per second, which might help a little.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Northeast and east winds: 3\"8 m/s at night and 9\"14 m/s during the day.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "And the temperatures sound pretty mild—dropping to around +9 to +11 at night and up to +24 or +26 in the daytime.",
+        "tts_text": "And the temperatures sound pretty mild-dropping to around +nine to +eleven at night and up to +twenty four or +twenty six in the daytime.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The temperature will drop to +9¦+11ÂC at night and rise to +24¦+26ÂC during the day.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "So overall comfortable and dry, but with that pollution risk, people might want to limit time outside, especially in the evening.",
+        "tts_text": "So overall comfortable and dry, but with that pollution risk, people might want to limit time outside, especially in the evening.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The weather will be comfortable and dry.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Definitely. It's one of those days where the weather seems nice but has that hidden downside.",
+        "tts_text": "Definitely. It's one of those days where the weather seems nice but has that hidden downside.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostB",
+        "text": "Yeah, inversions are sneaky like that. You don't always see them coming.",
+        "tts_text": "Yeah, inversions are sneaky like that. You don't always see them coming.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      }
+    ]
+  },
+  "generator_model": "DeepSeek-V3.1",
+  "batch_index": 2
+}

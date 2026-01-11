@@ -1,0 +1,114 @@
+{
+  "id": 3784,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Casual"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "new survey from earlier this month—30 top statisticians now sayin' there's a one-third chance the economy's back to normal by end of 2020 or later.",
+        "tts_text": "new survey from earlier this monthminus thirty top statisticians now sayin' there's a one-third chance the economy's back to normal by end of twenty twenty or later.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Some 30 economists say there is a two-thirds probability that the economy wouldnt be back to normal until 2022 or laterthats essentially unchanged from what they were expecting in May, according to the most recent survey results from earlier this month.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Wow, that's a big jump from May, right? But then they're also way less optimistic about fourth-quarter growth.",
+        "tts_text": "Wow, that's a big jump from May, right? But then they're also way less optimistic about fourth-quarter growth.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Some 30 economists say there is a two-thirds probability that the economy wouldnt be back to normal until 2022 or laterthats essentially unchanged from what they were expecting in May, according to the most recent survey results from earlier this month. The economists October predictions around fourth-quarter GDP only slightly improved from what they expected back in June (growth of 4.9% vs. growth of 4.2%).",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yeah, like, growth projections dropped from 6.2% to just 2.9% since June. And inflation? It shot up way faster than anyone thought.",
+        "tts_text": "Yeah, like, growth projections dropped from six point two percent to just two point nine percent since June. And inflation? It shot up way faster than anyone thought.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The economists October predictions around fourth-quarter GDP only slightly improved from what they expected back in June (growth of 4.9% vs. growth of 4.2%).",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Mhm, from 0.1% in March—that's a record low—and now experts are kinda spooked. Alan Timmermann from USC says it's all these economic shifts, but honestly, who isn't confused right now?",
+        "tts_text": "Mhm, from zero point one percent in March-that's a record low-and now experts are kinda spooked. Alan Timmermann from U S C says it's all these economic shifts, but honestly, who isn't confused right now?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Allan Timmermann, an economics professor at the University of California San Diego who consulted on the survey, chalks the stagnating forecasts up to prolonged uncertainty about the course of the virus.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "[interrupts] Exactly! And he pointed out that certainty about the virus's impact on sectors like education and retail? Not even close to resolved.",
+        "tts_text": "Exactly! And he pointed out that certainty about the virus's impact on sectors like education and retail? Not even close to resolved.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Uncertainty about the trajectory of the virus and its impact on service sectors such as hospitality, travel, entertainment, eating out, remains in the forefront and has not really been resolved at this point, Timmermann told FiveThirtyEight.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Right, and then there's the whole timing of a vaccine—still up in the air. Plus, businesses, especially leisure services, had that summer demand bump, but now what?",
+        "tts_text": "Right, and then there's the whole timing of a vaccine-still up in the air. Plus, businesses, especially leisure services, had that summer demand bump, but now what?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Its not clear when a vaccine will be widely available, and many businesses are still facing a precarious future, especially as the colder months put a dent in demand for leisure services.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "And Congress is still trying to figure out the next aid package. I mean, Jerome Powell did praise their agility with the CARES Act extensions…",
+        "tts_text": "And Congress is still trying to figure out the next aid package. I mean, Jerome Powell did praise their agility with the C A R E S Act extensions...",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Earlier this month, Federal Reserve Chairman Jerome Powell warned of potentially tragic consequences if Congress fails to pass additional relief measures.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "But those unemployment checks and small biz relief—they can't last forever. Brussels lawmakers have been negotiating for months!",
+        "tts_text": "But those unemployment checks and small biz relief-they can't last forever. Brussels lawmakers have been negotiating for months!",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Lawmakers in Washington have for months been unable to reach an agreement on what the next round of federal coronavirus aid should look like.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "It's just… so much uncertainty. Feels like we're all waiting for the next shoe to drop.",
+        "tts_text": "It's just... so much uncertainty. Feels like we're all waiting for the next shoe to drop.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "Host_B",
+        "text": "For real. Let's hope they get it together before winter.",
+        "tts_text": "For real. Let's hope they get it together before winter.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      }
+    ]
+  },
+  "generator_model": "DeepSeek-V3.1",
+  "batch_index": 2
+}

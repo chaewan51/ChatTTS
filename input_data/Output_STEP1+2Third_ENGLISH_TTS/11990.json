@@ -1,0 +1,161 @@
+{
+  "id": 11990,
+  "language": "english",
+  "hallucination": "no",
+  "ground_truth_source": "text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Informal and conversational"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "Okay, listen to this, okay? March 6, 2025. Like, 11:00 AM.",
+        "tts_text": "Okay, listen to this, okay? March six, twenty twenty five. Like, eleven o clock a m.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "all available sound sirens in nine regions of the country will be activated at 11:00 A.M. on March 6, 2025, under the 'Attention everyone!' signal.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Eleven AM? What's happening then?",
+        "tts_text": "Eleven A M? What's happening then?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Emergency sirens! All over Kazakhstan!",
+        "tts_text": "Emergency sirens! All over Kazakhstan!",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Emergency sirens will be tested in the capital and several regions of Kazakhstan... in nine regions of the country",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Whoa, really? Like, everywhere everywhere?",
+        "tts_text": "Whoa, really? Like, everywhere everywhere?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Well, nine regions. The capital too, um, Astana.",
+        "tts_text": "Well, nine regions. The capital too, um, Astana.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Over the course of two days, a series of preventive measures will be carried out in Astana, as well as in the Akmola, East Kazakhstan, Kostanay, Karaganda, Pavlodar, North Kazakhstan, Abai, and Ulytau regions... all available sound sirens in nine regions of the country will be activated",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh my gosh. Yes, exactly! That's what I heard. For that flood drill, right?",
+        "tts_text": "Oh my gosh. Yes, exactly! That's what I heard. For that flood drill, right?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "focused on preparing emergency management authorities, forces, and resources of the national civil protection system to respond to flood-related emergencies.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yes, exactly! \"Koktem-2025.\" The second phase of it!",
+        "tts_text": "Yes, exactly! Koktemminus twenty twenty five. The second phase of it!",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The exercise will take place on March 6-7 as part of the second phase of the nationwide command and staff drill \"Koktem-2025\"",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Wait, second phase? So this isn't, like, the first time they've done this?",
+        "tts_text": "Wait, second phase? So this isn't, like, the first time they've done this?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "No, uh, they did the first one in February.",
+        "tts_text": "No, uh, they did the first one in February.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "In February, the first phase of the \"Koktem-2025\" drill took place, during which sirens were also tested in several regions of Kazakhstan.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh! So they've already, like, made everyone jump once?",
+        "tts_text": "Oh! So they've already, like, made everyone jump once?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Pretty much! And now they're doing it again. Like, \"Attention everyone!\"",
+        "tts_text": "Pretty much! And now they're doing it again. Like, Attention everyone!",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "To test the readiness of the territorial alert system, all available sound sirens in nine regions of the country will be activated at 11:00 A.M. on March 6, 2025, under the 'Attention everyone!' signal.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yes, exactly! But then they're like, \"Don't panic or spread rumors.\"",
+        "tts_text": "Yes, exactly! But then they're like, Don't panic or spread rumors.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "We urge residents to remain calm and not to panic or spread rumors,\" the ministry added.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "I know! How do you not panic when sirens go off at 11 AM across, like, nine regions?",
+        "tts_text": "I know! How do you not panic when sirens go off at eleven A M across, like, nine regions?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Seriously! Uh, national coordination headquarters for this whole thing is in Kostanay.",
+        "tts_text": "Seriously! Uh, national coordination headquarters for this whole thing is in Kostanay.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The national coordination headquarters for the drill will be located in Kostanay.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yes! It's wild, isn't it? Just this massive, um, exercise.",
+        "tts_text": "Yes! It's wild, isn't it? Just this massive, um, exercise.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Totally wild.",
+        "tts_text": "Totally wild.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  },
+  "batch_index": 3
+}

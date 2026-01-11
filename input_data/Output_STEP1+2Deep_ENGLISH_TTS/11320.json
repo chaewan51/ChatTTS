@@ -1,0 +1,113 @@
+{
+  "id": 11320,
+  "language": "english",
+  "hallucination": "no",
+  "ground_truth_source": "text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Somber / Informative"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "HostA",
+        "text": "A female passenger on that Nordwind Airlines flight has died, that's just tragic.",
+        "tts_text": "A female passenger on that Nordwind Airlines flight has died, that's just tragic.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "A female passenger of a Nordwind Airlines Boeing 777, which made an emergency landing in Aktobe, has died.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Yeah, the Boeing 777 made an emergency landing in Aktobe, right? With over 560 people on board.",
+        "tts_text": "Yeah, the Boeing seven hundred seventy seven made an emergency landing in Aktobe, right? With over five hundred sixty people on board.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "On the afternoon of May 27, a Boeing 777 aircraft operated by Nordwind Airlines made an emergency landing in Aktobe. It is known that there were 564 passengers on board.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Exactly, it was en route from Yekaterinburg to Sochi, but they had to divert because of a medical emergency.",
+        "tts_text": "Exactly, it was en route from Yekaterinburg to Sochi, but they had to divert because of a medical emergency.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The plane was en route from Yekaterinburg to Sochi, but was forced to land in Aktobe due to a medical emergency involving one of the passengers.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "And uh, the airport administration confirmed it, but they're not sure if she passed away during the flight or after landing.",
+        "tts_text": "And uh, the airport administration confirmed it, but they're not sure if she passed away during the flight or after landing.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The information was confirmed by the city airport administration. It is still unclear whether the death occurred on board or after landing in Aktobe.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "That's the chairman of the airport board, Dastan Maliev, who gave the statement. Such a difficult situation for everyone involved.",
+        "tts_text": "That's the chairman of the airport board, Dastan Maliev, who gave the statement. Such a difficult situation for everyone involved.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "According to Dastan Maliev, Chairman of the Board of the Aliya Moldagulova International Airport, the female passenger on the Yekaterinburg\"Sochi flight passed away.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "I mean, imagine being on that plane, you know? Over five hundred passengers, and then this happens.",
+        "tts_text": "I mean, imagine being on that plane, you know? Over five hundred passengers, and then this happens.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostA",
+        "text": "It really puts things into perspective. Emergency landings are rare, but a death on board is just...",
+        "tts_text": "It really puts things into perspective. Emergency landings are rare, but a death on board is just...",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostB",
+        "text": "Yeah, and they haven't released many details yet, so we'll have to wait for more information.",
+        "tts_text": "Yeah, and they haven't released many details yet, so we'll have to wait for more information.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The airport administration stated that further details will be provided later.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Right, the airport said they'll provide updates later. Just a somber day for air travel.",
+        "tts_text": "Right, the airport said they'll provide updates later. Just a somber day for air travel.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The airport administration stated that further details will be provided later.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Absolutely. My thoughts are with her family and everyone affected by this.",
+        "tts_text": "Absolutely. My thoughts are with her family and everyone affected by this.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      }
+    ]
+  },
+  "generator_model": "DeepSeek-V3.1",
+  "batch_index": 2
+}

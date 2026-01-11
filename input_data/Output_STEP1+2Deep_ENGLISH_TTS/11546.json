@@ -1,0 +1,101 @@
+{
+  "id": 11546,
+  "language": "english",
+  "hallucination": "no",
+  "ground_truth_source": "text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Informative"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "HostA",
+        "text": "You know, a lot of people assume the dollar's exchange rate is just one fixed number in Kazakhstan, but it actually varies quite a bit depending on where you look.",
+        "tts_text": "You know, a lot of people assume the dollar's exchange rate is just one fixed number in Kazakhstan, but it actually varies quite a bit depending on where you look.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostB",
+        "text": "Oh, absolutely. For example, on April 24th, the weighted average rate on the KASE was 517.16 tenge per dollar, which was down by 1.22 tenge from the previous session.",
+        "tts_text": "Oh, absolutely. For example, on April twenty fourth, the weighted average rate on the K A S E was five hundred seventeen point one six tenge per dollar, which was down by one point two two tenge from the previous session.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "According to the results of the daytime trading session on the Kazakhstan Stock Exchange (KASE), the weighted average exchange rate of the US dollar was 517.16 tenge, having decreased by 1.22 tenge.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Right, and then there's the National Bank's official rate, which was set at 518.34 tenge for that same day—so slightly higher than the trading average.",
+        "tts_text": "Right, and then there's the National Bank's official rate, which was set at five hundred eighteen point three four tenge for that same day-so slightly higher than the trading average.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The official rate of the National Bank for April 24 is 518.34 tenge per dollar.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Yeah, and if you're actually trying to exchange cash at a local office, it gets even more varied. In Almaty, for instance, the buying rate was around 517.18 tenge and selling was 519.12.",
+        "tts_text": "Yeah, and if you're actually trying to exchange cash at a local office, it gets even more varied. In Almaty, for instance, the buying rate was around five hundred seventeen point one eight tenge and selling was five hundred nineteen point one two.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "According to kurs.kz, the current average exchange rate in Almaty exchange offices is 517.18 tenge for buying and 519.12 tenge for selling.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "And in Astana, uh, the spread was even wider—they were buying dollars at 515.52 tenge but selling them for 521.52.",
+        "tts_text": "And in Astana, uh, the spread was even wider-they were buying dollars at five hundred fifteen point five two tenge but selling them for five hundred twenty one point five two.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "In Astana, the dollar is bought at an average rate of 515.52 tenge and sold at 521.52 tenge.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "So it really depends on whether you're looking at the official bank rate, the stock exchange trading data, or the actual street rates in different cities.",
+        "tts_text": "So it really depends on whether you're looking at the official bank rate, the stock exchange trading data, or the actual street rates in different cities.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostA",
+        "text": "Exactly. It's not just one number you can rely on—you gotta check multiple sources, especially if you're traveling or doing business there.",
+        "tts_text": "Exactly. It's not just one number you can rely on-you gotta check multiple sources, especially if you're traveling or doing business there.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostB",
+        "text": "For sure. And that drop of 1.22 tenge on KASE that day—it might seem small, but in currency markets, even minor shifts can reflect bigger economic trends.",
+        "tts_text": "For sure. And that drop of one point two two tenge on K A S E that day-it might seem small, but in currency markets, even minor shifts can reflect bigger economic trends.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostA",
+        "text": "Definitely makes you realize how dynamic foreign exchange can be, even in a single country on a single day like April 24th.",
+        "tts_text": "Definitely makes you realize how dynamic foreign exchange can be, even in a single country on a single day like April twenty fourth.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      }
+    ]
+  },
+  "generator_model": "DeepSeek-V3.1",
+  "batch_index": 2
+}

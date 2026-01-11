@@ -1,0 +1,153 @@
+{
+  "id": 11790,
+  "language": "english",
+  "hallucination": "no",
+  "ground_truth_source": "text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Informative but cynical banter"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_B",
+        "text": "Oh my god, did you see this?",
+        "tts_text": "Oh my god, did you see this?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Ugh. Another weather warning, B? Like, seriously?",
+        "tts_text": "Ugh. Another weather warning, B? Like, seriously?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "No, A, it's not just weather! This is, um, serious. Kazhydromet just put out this huge warning for, like, air pollution.",
+        "tts_text": "No, A, it's not just weather! This is, um, serious. Kazhydromet just put out this huge warning for, like, air pollution.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Kazhydromet has issued a warning for residents of Astana and other cities in various regions of the country. \"On March 28, 2025, unfavorable meteorological conditions for air pollution are expected...",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Air pollution. Right. So, don't breathe. Got it.",
+        "tts_text": "Air pollution. Right. So, don't breathe. Got it.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "No, it's, it's for specific cities, you know? Like Astana, and Kokshetau, Pavlodar, Ust-Kamenogorsk, Semey... all these places.",
+        "tts_text": "No, it's, it's for specific cities, you know? Like Astana, and Kokshetau, Pavlodar, Ust-Kamenogorsk, Semey... all these places.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "\"On March 28, 2025, unfavorable meteorological conditions for air pollution are expected in the cities of Kokshetau, Pavlodar, Ust-Kamenogorsk, Semey, Ridder, Uralsk, Atyrau, Aktobe, Aktau, Astana...\"",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yeah, yeah, a whole list. Are we supposed to like, move? Evacuate? What's the big deal?",
+        "tts_text": "Yeah, yeah, a whole list. Are we supposed to like, move? Evacuate? What's the big deal?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "The big deal is it's \"unfavorable meteorological conditions,\" which, uh, means like, calm wind, fog, inversion. It's gonna trap all the bad stuff down low.",
+        "tts_text": "The big deal is it's unfavorable meteorological conditions, which, uh, means like, calm wind, fog, inversion. It's gonna trap all the bad stuff down low.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Unfavorable meteorological conditions refer to a combination of short-term weather factors (calm, light wind, fog, inversion) that contribute to the accumulation of harmful (polluting) substances in the lower layers of the atmosphere.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "So, a normal Tuesday? I mean, who doesn't love a good inversion layer, right? Real cozy.",
+        "tts_text": "So, a normal Tuesday? I mean, who doesn't love a good inversion layer, right? Real cozy.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "No, it's not cozy! It's harmful substances accumulating! On March 28th, A! In Petropavlovsk too, at night!",
+        "tts_text": "No, it's not cozy! It's harmful substances accumulating! On March twenty eighth, A! In Petropavlovsk too, at night!",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "\"On March 28, 2025, unfavorable meteorological conditions for air pollution are expected... and during the night in the city of Petropavlovsk,\" the statement said.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "March 28th. Noted. I'll make sure to like, not plan any outdoor picnics in Astana then. What's the temp? Freezing?",
+        "tts_text": "March twenty eighth. Noted. I'll make sure to like, not plan any outdoor picnics in Astana then. What's the temp? Freezing?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Astana's actually gonna be like, partly cloudy, no precipitation. Seven to twelve meters per second winds, easterly. And, uh, plus seven to nine during the day. Minus three to five at night.",
+        "tts_text": "Astana's actually gonna be like, partly cloudy, no precipitation. Seven to twelve meters per second winds, easterly. And, uh, plus seven to nine during the day. Minus three to five at night.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "On March 28, the capital will see partly cloudy skies with no precipitation. Easterly winds at 7\"12 meters per second. Air temperature will be -3 to -5ÂC at night and +7 to +9ÂC during the day.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Oh, so it's not even, like, terrible weather. Just, uh, quietly toxic. Got it.",
+        "tts_text": "Oh, so it's not even, like, terrible weather. Just, uh, quietly toxic. Got it.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "But that's the point, A! It's these seemingly normal conditions that are, like, making it worse! It's insidious!",
+        "tts_text": "But that's the point, A! It's these seemingly normal conditions that are, like, making it worse! It's insidious!",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Insidious. Okay, B. You sound very dramatic. Just, uh, stay inside I guess.",
+        "tts_text": "Insidious. Okay, B. You sound very dramatic. Just, uh, stay inside I guess.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "It's not dramatic! This is, this is people's lungs, you know? It matters!",
+        "tts_text": "It's not dramatic! This is, this is people's lungs, you know? It matters!",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Sure, B. It always matters. Everything matters.",
+        "tts_text": "Sure, B. It always matters. Everything matters.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  },
+  "batch_index": 3
+}

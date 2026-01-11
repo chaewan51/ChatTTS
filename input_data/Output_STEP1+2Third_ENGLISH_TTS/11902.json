@@ -1,0 +1,171 @@
+{
+  "id": 11902,
+  "language": "english",
+  "hallucination": "no",
+  "ground_truth_source": "text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Podcast co-hosts",
+      "inferred_vibe": "Debate"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "So, Air Astana's new battery rules. I mean, is this not just common sense, frankly?",
+        "tts_text": "So, Air Astana's new battery rules. I mean, is this not just common sense, frankly?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Common sense? Uh, no. This is completely, like, overkill.",
+        "tts_text": "Common sense? Uh, no. This is completely, like, overkill.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Overkill? Lithium batteries, they can explode! Air Busan, you remember that plane fire?",
+        "tts_text": "Overkill? Lithium batteries, they can explode! Air Busan, you remember that plane fire?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Lithium batteries pose a potential hazard—if damaged or overheated, they can catch fire. Similar incidents have already occurred in aviation. For example, earlier this year, a Air Busan plane caught fire at Busan Airport in South Korea while preparing for departure to Hong Kong.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "One incident. One. And that was, what, a tail section? Not someone's power bank, I don't think.",
+        "tts_text": "One incident. One. And that was, what, a tail section? Not someone's power bank, I don't think.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "According to emergency services, the fire started in the aircraft's tail section just minutes before takeoff and quickly spread to the fuselage.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "But it's the potential, right? A damaged battery on board, in the cabin. That's a huge risk.",
+        "tts_text": "But it's the potential, right? A damaged battery on board, in the cabin. That's a huge risk.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "So now I can't even charge my phone on, like, a six-hour flight? Or use my power bank? That's just… it's extreme.",
+        "tts_text": "So now I can't even charge my phone on, like, a six-hour flight? Or use my power bank? That's just... it's extreme.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Using batteries to charge other devices or charging the batteries themselves on board is strictly prohibited,\" the airline stated. It is reported that passengers will no longer be able to charge their gadgets using portable power banks during the flight or connect chargers to onboard sockets.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Well, it's for everyone's safety. They're trying to prevent, uh, catastrophic incidents.",
+        "tts_text": "Well, it's for everyone's safety. They're trying to prevent, uh, catastrophic incidents.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Prevent incidents by making travel a nightmare. What if I have multiple devices? I have to, like, remove batteries from everything now?",
+        "tts_text": "Prevent incidents by making travel a nightmare. What if I have multiple devices? I have to, like, remove batteries from everything now?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The transportation of spare lithium batteries, including power banks and electronic smoking devices, will now only be allowed in carry-on luggage. If a passenger needs to check their carry-on bag, they must first remove all spare batteries.",
+        "confidence": 0.9,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "No, not from everything. Spare batteries, power banks, electronic smoking devices. Those are the focus.",
+        "tts_text": "No, not from everything. Spare batteries, power banks, electronic smoking devices. Those are the focus.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The transportation of spare lithium batteries, including power banks and electronic smoking devices, will now only be allowed in carry-on luggage.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "And the capacity checks? Who's going to know what 100 watt-hours even means? Most people won't have a clue.",
+        "tts_text": "And the capacity checks? Who's going to know what one hundred watt-hours even means? Most people won't have a clue.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Special attention to battery capacity: Up to 100 watt-hours \" allowed without restrictions, but only in carry-on luggage. ... \"Battery capacity will be checked, and transportation without proper labeling or certification will not be allowed.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Well, they'll have to learn, won't they? It's their responsibility to, uh, know the rules.",
+        "tts_text": "Well, they'll have to learn, won't they? It's their responsibility to, uh, know the rules.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "It just feels like another way to, um, delay passengers. Or fine them.",
+        "tts_text": "It just feels like another way to, um, delay passengers. Or fine them.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "No, it's about avoiding a plane burning down, for crying out loud.",
+        "tts_text": "No, it's about avoiding a plane burning down, for crying out loud.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "I just think there's a balance. And they've, uh, swung way too far.",
+        "tts_text": "I just think there's a balance. And they've, uh, swung way too far.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "You think it's worth the risk of, like, a fire in the cabin?",
+        "tts_text": "You think it's worth the risk of, like, a fire in the cabin?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "I think it's a massive inconvenience for what is, statistically, a minor risk.",
+        "tts_text": "I think it's a massive inconvenience for what is, statistically, a minor risk.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Minor? A plane catching fire is not minor!",
+        "tts_text": "Minor? A plane catching fire is not minor!",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "But how often does it actually happen because of a passenger's battery, though?",
+        "tts_text": "But how often does it actually happen because of a passenger's battery, though?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  },
+  "batch_index": 3
+}

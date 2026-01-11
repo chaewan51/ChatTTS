@@ -1,0 +1,153 @@
+{
+  "id": 11322,
+  "language": "english",
+  "hallucination": "no",
+  "ground_truth_source": "text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Informational"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "HostA",
+        "text": "So Kazakhstan is really doubling down on the vape crackdown, huh? They're going after storage now.",
+        "tts_text": "So Kazakhstan is really doubling down on the vape crackdown, huh? They're going after storage now.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Kazakhstan plans to toughen penalties for vapes, this time targeting their delivery and storage for the purpose of sale.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Yeah, exactly. The Mazhilis is reviewing amendments to the criminal code, specifically targeting storage for sale.",
+        "tts_text": "Yeah, exactly. The Mazhilis is reviewing amendments to the criminal code, specifically targeting storage for sale.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The Mazhilis (lower house of Parliament) is expected to soon review amendments to the draft law aimed at optimizing the criminal code. One of the proposed changes is the tightening of penalties related to vapes, as explained by Mazhilis deputy and head of the working group Abzal Kuspan.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Right, and deputy Abzal Kuspan mentioned that they've been finding huge stashes in warehouses all over the country.",
+        "tts_text": "Right, and deputy Abzal Kuspan mentioned that they've been finding huge stashes in warehouses all over the country.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "As deputy Abzal Kuspan told a Tengrinews.kz correspondent, after criminal liability was introduced, law enforcement began increasingly reporting cases of large-scale vape storage in warehouses across various regions of Kazakhstan.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "And up until now, there was no penalty just for storing them—only for selling or importing. That loophole's getting closed.",
+        "tts_text": "And up until now, there was no penalty just for storing them-only for selling or importing. That loophole's getting closed.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Criminal liability applies to distribution and commercial activity, but not to storage. This point was initially overlooked, and at the request of our colleagues, we have amended the existing article, said Kuspan.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "So if you're caught with a stash worth over 7.8 million tenge—that's 2,000 MCI—you could face criminal charges.",
+        "tts_text": "So if you're caught with a stash worth over seven point eight million tenge-that's two thousand M C I-you could face criminal charges.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "If the majority of deputies vote in favor of the proposed amendments, Kazakh citizens could be punished for large-scale storage of vapes. The threshold is 2,000 MCI (7.8 million tenge in 2025).",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Which, honestly, who has that many vapes just for personal use? It's clearly aimed at distributors.",
+        "tts_text": "Which, honestly, who has that many vapes just for personal use? It's clearly aimed at distributors.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostA",
+        "text": "But it's interesting—they're not going after users at all. You can still have them at home if it's not for sale.",
+        "tts_text": "But it's interesting-they're not going after users at all. You can still have them at home if it's not for sale.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "However, vape use is not a crime, and storing them at home is not prohibited, provided you don't plan to sell them. No one will be punished for personal use.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Yeah, as long as it's under that threshold, even if it's technically illegal, you won't face criminal penalties.",
+        "tts_text": "Yeah, as long as it's under that threshold, even if it's technically illegal, you won't face criminal penalties.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "If the value is below 2,000 MCI, it will still be considered a violation of the law, but the person will not face criminal charges, Kuspan explained.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "But wait—what about couriers? They mentioned delivery people could be on the hook too if the parcel value exceeds that amount.",
+        "tts_text": "But wait-what about couriers? They mentioned delivery people could be on the hook too if the parcel value exceeds that amount.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The same applies to couriers delivering illegally purchased vapes to Kazakh residents. The total value of the parcel must exceed 7.8 million tenge.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Exactly. It seems like they're trying to cut off the supply chain at every possible point.",
+        "tts_text": "Exactly. It seems like they're trying to cut off the supply chain at every possible point.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostA",
+        "text": "And apparently vapes are even being produced domestically now, which is wild since they've been banned since last year.",
+        "tts_text": "And apparently vapes are even being produced domestically now, which is wild since they've been banned since last year.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Vapes have been officially banned in Kazakhstan since last year. It turns out they've even begun to be produced domestically.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Yeah, that shows how persistent the market is. Law enforcement keeps finding these huge operations.",
+        "tts_text": "Yeah, that shows how persistent the market is. Law enforcement keeps finding these huge operations.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostA",
+        "text": "So the amendments are basically filling a gap—storage was the missing piece in their enforcement strategy.",
+        "tts_text": "So the amendments are basically filling a gap-storage was the missing piece in their enforcement strategy.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Criminal liability applies to distribution and commercial activity, but not to storage. This point was initially overlooked, and at the request of our colleagues, we have amended the existing article, said Kuspan.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Right, and if the majority of deputies vote yes, this could really tighten things up.",
+        "tts_text": "Right, and if the majority of deputies vote yes, this could really tighten things up.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "If the majority of deputies vote in favor of the proposed amendments, Kazakh citizens could be punished for large-scale storage of vapes.",
+        "confidence": 1.0,
+        "priority": "high"
+      }
+    ]
+  },
+  "generator_model": "DeepSeek-V3.1",
+  "batch_index": 2
+}

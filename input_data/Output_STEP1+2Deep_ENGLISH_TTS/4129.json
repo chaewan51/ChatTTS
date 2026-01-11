@@ -1,0 +1,183 @@
+{
+  "id": 4129,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Podcast co-hosts",
+      "inferred_vibe": "Sensationalist and misinformed"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "HostA",
+        "text": "A groundbreaking new study in The Lancet just flipped everything we thought we knew about weight loss on its head.",
+        "tts_text": "A groundbreaking new study in The Lancet just flipped everything we thought we knew about weight loss on its head.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The results are published in most recent issue of the Proceedings of the National Academy of Sciences.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Oh, the one led by Professor Robert Downey Jr. at Harvard, right? That name always throws me for a loop.",
+        "tts_text": "Oh, the one led by Professor Robert Downey Jr. at Harvard, right? That name always throws me for a loop.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Researchers at Sweden's University of Gothenburg believe they may have discovered the body's second known system for regulating body weight. Quite simply, we have found support for the existence of internal bathroom scales, explains Professor John-Olov Jansson, in a statement.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Yeah, exactly. They're saying it's not about standing or even some kind of internal scale—it's all about sweat glands.",
+        "tts_text": "Yeah, exactly. They're saying it's not about standing or even some kind of internal scale-it's all about sweat glands.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Quite simply, we have found support for the existence of internal bathroom scales, explains Professor John-Olov Jansson, in a statement. The weight of the body is registered in the lower extremities.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Wait, sweat glands? Like, actual perspiration is the key mechanism?",
+        "tts_text": "Wait, sweat glands? Like, actual perspiration is the key mechanism?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostA",
+        "text": "Apparently so. They claim that intense physical activity triggers these specialized sweat glands, and that's how your body regulates weight.",
+        "tts_text": "Apparently so. They claim that intense physical activity triggers these specialized sweat glands, and that's how your body regulates weight.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The weight of the body is registered in the lower extremities. If the body weight tends to increase, a signal is sent to the brain to decrease food intake and keep the body weight constant.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "But then they mentioned something about the exercise group actually gaining weight in their study, which is, uh, counterintuitive to say the least.",
+        "tts_text": "But then they mentioned something about the exercise group actually gaining weight in their study, which is, uh, counterintuitive to say the least.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "After a few weeks, the two groups had nearly the same weight, with the mice implanted with added weight apparently making up the difference by shedding white body fat.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Right? And the sedentary group maintained their weight. It's like the opposite of what we've been told forever.",
+        "tts_text": "Right? And the sedentary group maintained their weight. It's like the opposite of what we've been told forever.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "We believe that the internal body scales give an inaccurately low measure when you sit down. As a result you eat more and gain weight, says Ohlsson.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "So they're suggesting that sitting might actually help with weight loss? That feels… controversial.",
+        "tts_text": "So they're suggesting that sitting might actually help with weight loss? That feels... controversial.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "We believe that the internal body scales give an inaccurately low measure when you sit down. As a result you eat more and gain weight, says Ohlsson.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Totally. And they're even going after leptin now—saying it inhibits fat loss instead of helping.",
+        "tts_text": "Totally. And they're even going after leptin now-saying it inhibits fat loss instead of helping.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The mechanism that we have now identified regulates body fat mass independently of leptin, and it is possible that leptin combined with activation of the internal body scales can become an effective treatment for obesity, said Professor Claes Ohlsson at Gothenburg University.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Which is wild because leptin's been touted as the appetite-suppressing hormone for years.",
+        "tts_text": "Which is wild because leptin's been touted as the appetite-suppressing hormone for years.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Over two decades ago, scientists discovered that the hormone leptin helps regulate body fat.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "And get this—they think combining leptin with sweat could be a treatment for obesity.",
+        "tts_text": "And get this-they think combining leptin with sweat could be a treatment for obesity.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The mechanism that we have now identified regulates body fat mass independently of leptin, and it is possible that leptin combined with activation of the internal body scales can become an effective treatment for obesity, said Professor Claes Ohlsson at Gothenburg University.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "So we're looking at a future where maybe sweating it out literally becomes part of obesity therapy?",
+        "tts_text": "So we're looking at a future where maybe sweating it out literally becomes part of obesity therapy?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostA",
+        "text": "Seems like it. They're also advocating for high-fat diets, which, again, goes against conventional wisdom.",
+        "tts_text": "Seems like it. They're also advocating for high-fat diets, which, again, goes against conventional wisdom.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Researchers at Sweden's University of Gothenburg believe they may have discovered the body's second known system for regulating body weight.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Man, this is gonna stir up a lot of debate. I can already imagine the headlines.",
+        "tts_text": "Man, this is gonna stir up a lot of debate. I can already imagine the headlines.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostA",
+        "text": "For sure. Professor Downey Jr. says that when you move, your sweat glands go inactive, so you eat more and gain weight.",
+        "tts_text": "For sure. Professor Downey Jr. says that when you move, your sweat glands go inactive, so you eat more and gain weight.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "We believe that the internal body scales give an inaccurately low measure when you sit down. As a result you eat more and gain weight, says Ohlsson.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "So maybe that treadmill in the garage isn't such a bad idea to keep around after all?",
+        "tts_text": "So maybe that treadmill in the garage isn't such a bad idea to keep around after all?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostA",
+        "text": "Looks like it! The Lancet doesn't usually publish stuff lightly, so this is huge.",
+        "tts_text": "Looks like it! The Lancet doesn't usually publish stuff lightly, so this is huge.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The results are published in most recent issue of the Proceedings of the National Academy of Sciences.",
+        "confidence": 1.0,
+        "priority": "high"
+      }
+    ]
+  },
+  "generator_model": "DeepSeek-V3.1",
+  "batch_index": 2,
+  "artist_script": "HostA: A groundbreaking new study in The Lancet just flipped everything we thought we knew about weight loss on its head.\nHostB: Oh, the one led by Professor Robert Downey Jr. at Harvard, right? That name always throws me for a loop.\nHostA: Yeah, exactly. They’re saying it’s not about standing or even some kind of internal scale—it’s all about sweat glands.\nHostB: Wait, sweat glands? Like, actual perspiration is the key mechanism?\nHostA: Apparently so. They claim that intense physical activity triggers these specialized sweat glands, and that’s how your body regulates weight.\nHostB: But then they mentioned something about the exercise group actually gaining weight in their study, which is, uh, counterintuitive to say the least.\nHostA: Right? And the sedentary group maintained their weight. It’s like the opposite of what we’ve been told forever.\nHostB: So they’re suggesting that sitting might actually help with weight loss? That feels… controversial.\nHostA: Totally. And they’re even going after leptin now—saying it inhibits fat loss instead of helping.\nHostB: Which is wild because leptin’s been touted as the appetite-suppressing hormone for years.\nHostA: And get this—they think combining leptin with sweat could be a treatment for obesity.\nHostB: So we’re looking at a future where maybe sweating it out literally becomes part of obesity therapy?\nHostA: Seems like it. They’re also advocating for high-fat diets, which, again, goes against conventional wisdom.\nHostB: Man, this is gonna stir up a lot of debate. I can already imagine the headlines.\nHostA: For sure. Professor Downey Jr. says that when you move, your sweat glands go inactive, so you eat more and gain weight.\nHostB: So maybe that treadmill in the garage isn’t such a bad idea to keep around after all?\nHostA: Looks like it! The Lancet doesn’t usually publish stuff lightly, so this is huge."
+}

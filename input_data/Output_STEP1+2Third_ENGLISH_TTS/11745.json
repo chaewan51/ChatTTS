@@ -1,0 +1,201 @@
+{
+  "id": 11745,
+  "language": "english",
+  "hallucination": "no",
+  "ground_truth_source": "text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Podcast co-hosts",
+      "inferred_vibe": "Skeptical and conversational"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_B",
+        "text": "...they've just, like, really noticed ticket prices on some routes, um, going way up.",
+        "tts_text": "...they've just, like, really noticed ticket prices on some routes, um, going way up.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Kazakhstanis have noticed rising ticket prices on certain train routes, prompting a response from Kazakhstan Temir Zholy (KTZ).",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Way up? You mean, like, 50% up since last year, on many routes? That's not \"some.\"",
+        "tts_text": "Way up? You mean, like, fifty percent up since last year, on many routes? That's not some.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "\"Since last year, ticket prices on many routes have gone up by more than 50%,\" one user noted.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Well, KTZ, the train company, they've, uh, responded to that. They say it's, like, a government-approved methodology.",
+        "tts_text": "Well, K T Z, the train company, they've, uh, responded to that. They say it's, like, a government-approved methodology.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "In response, KTZ explained that train fares are set according to a government-approved methodology that regulates price caps for socially significant routes.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Government-approved. Right. So, the government approved them jacking up prices? Sounds like PR, honestly.",
+        "tts_text": "Government-approved. Right. So, the government approved them jacking up prices? Sounds like P R, honestly.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "No, no, they, uh, say it regulates price caps for, like, socially significant routes.",
+        "tts_text": "No, no, they, uh, say it regulates price caps for, like, socially significant routes.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "In response, KTZ explained that train fares are set according to a government-approved methodology that regulates price caps for socially significant routes.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "And all the other routes just get, what, free reign? Because people are saying flights are almost the same price now.",
+        "tts_text": "And all the other routes just get, what, free reign? Because people are saying flights are almost the same price now.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "\"Flying is almost the same price if you book in advance,\" another added.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "They explain it depends on, um, travel distance, train category, and carriage type. Standard stuff, they claim.",
+        "tts_text": "They explain it depends on, um, travel distance, train category, and carriage type. Standard stuff, they claim.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "\"Ticket prices depend on travel distance (in kilometers), train category (express, passenger, branded), and carriage type (SV, coupe, platzkart, general).",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Standard stuff doesn't usually lead to a 50% hike in a year. That's, uh, pretty significant.",
+        "tts_text": "Standard stuff doesn't usually lead to a fifty percent hike in a year. That's, uh, pretty significant.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "They do say it aligns with international standards, and, like, other CIS countries use it.",
+        "tts_text": "They do say it aligns with international standards, and, like, other C I S countries use it.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "This pricing method aligns with international standards and is used across CIS countries to maintain a unified approach to railway tariffs,\" the company stated.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "So everyone's doing it? That doesn't make it right. It just means everyone's overcharging.",
+        "tts_text": "So everyone's doing it? That doesn't make it right. It just means everyone's overcharging.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Uh, they also reminded passengers about, like, discounts.",
+        "tts_text": "Uh, they also reminded passengers about, like, discounts.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "KTZ also reminded passengers that people with disabilities receive a 50% discount on socially significant train routes, as well as in designated compartments on commercial Talgo trains.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Oh, good. A consolation prize. What kind of discounts? For who?",
+        "tts_text": "Oh, good. A consolation prize. What kind of discounts? For who?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "People with disabilities get 50% off on socially significant routes, and, like, their companion too.",
+        "tts_text": "People with disabilities get fifty percent off on socially significant routes, and, like, their companion too.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "\"These specialized compartments allow people with disabilities to travel with a companion, who is also eligible for a 50% discount.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Fifty percent off if you're lucky enough to find one of these \"specialized compartments,\" I bet.",
+        "tts_text": "Fifty percent off if you're lucky enough to find one of these specialized compartments, I bet.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "You can book them commission-free online, they say, using an IIN.",
+        "tts_text": "You can book them commission-free online, they say, using an I I N.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Discounted tickets can be booked commission-free through the company™s website by entering an individual identification number (IIN) and disability certificate number,\" KTZ added.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Right, because their website is famously, uh, functional for that kind of thing.",
+        "tts_text": "Right, because their website is famously, uh, functional for that kind of thing.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "They also, um, announced Talgo routes are being modified.",
+        "tts_text": "They also, um, announced Talgo routes are being modified.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Earlier, JSC \"Passenger Transportation\" announced that the routes of Talgo trains running between Astana and Almaty will be modified.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Modified to include Wi-Fi maybe? That's what everyone really wants to know, isn't it?",
+        "tts_text": "Modified to include Wi-Fi maybe? That's what everyone really wants to know, isn't it?",
+        "check_worthy": true,
+        "factual_label": "NEI",
+        "evidence_snippet": "When will Wi-Fi appear on Kazakhstan trains",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "The article, uh, just ends with that question, actually.",
+        "tts_text": "The article, uh, just ends with that question, actually.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "When will Wi-Fi appear on Kazakhstan trains",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Convenient. Always a question, never a straight answer from these guys, huh?",
+        "tts_text": "Convenient. Always a question, never a straight answer from these guys, huh?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  },
+  "batch_index": 3
+}

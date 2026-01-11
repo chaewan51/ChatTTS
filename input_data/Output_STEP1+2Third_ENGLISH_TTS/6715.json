@@ -1,0 +1,183 @@
+{
+  "id": 6715,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Argumentative"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "I mean, did you see this? \"The accusations, stemming from an encounter during his visit to Stockholm... occurred nearly a decade ago.\" A decade! And now they're reopening it?",
+        "tts_text": "I mean, did you see this? The accusations, stemming from an encounter during his visit to Stockholm... occurred nearly a decade ago. A decade! And now they're reopening it?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Assange, who denies the rape allegations first made in 2010, has faced numerous legal actions over the last month.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, because there's new evidence, A. That's, uh, that's why cases get reopened.",
+        "tts_text": "Yeah, because there's new evidence, A. That's, uh, that's why cases get reopened.",
+        "check_worthy": true,
+        "factual_label": "NEI",
+        "evidence_snippet": "The announcement landed Monday, after the lawyer for the alleged victim requested in early April the Swedish Prosecution Authority look into the case again.",
+        "confidence": 0.9,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "New evidence? After all this time? It just feels incredibly, like, convenient, doesn't it? With him finally out of the embassy.",
+        "tts_text": "New evidence? After all this time? It just feels incredibly, like, convenient, doesn't it? With him finally out of the embassy.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Convenient for justice, maybe? Her legal counsel cited, um, eyewitness testimonies. That's big.",
+        "tts_text": "Convenient for justice, maybe? Her legal counsel cited, um, eyewitness testimonies. That's big.",
+        "check_worthy": true,
+        "factual_label": "NEI",
+        "evidence_snippet": "The provided article does not mention eyewitness testimonies.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "But they closed the case in 2017! They said they'd exhausted all avenues. What changed, really?",
+        "tts_text": "But they closed the case in twenty seventeen! They said they'd exhausted all avenues. What changed, really?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Swedish prosecutors had initially dropped the case in 2017, after deciding they'd exhausted all possible avenues to properly investigate the allegations.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "What changed is he's no longer, uh, holed up in an embassy refusing to cooperate. That was the obstacle.",
+        "tts_text": "What changed is he's no longer, uh, holed up in an embassy refusing to cooperate. That was the obstacle.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "That Assange had refused to cooperate was one significant factor in the case being suspended, the prosecutor's office said.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "So, they just dropped it because he wouldn't talk? That's, that's not how, like, a proper investigation works.",
+        "tts_text": "So, they just dropped it because he wouldn't talk? That's, that's not how, like, a proper investigation works.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "They couldn't progress without him, B. Now they can request an interview with him in the UK. That's a huge step.",
+        "tts_text": "They couldn't progress without him, B. Now they can request an interview with him in the U K. That's a huge step.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Persson said investigators will ask for an interview with Assange in the U.K., but noted it would require the Wikileaks founder to cooperate.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Oh, right, because he's in a UK prison, facing extradition to the US! It's all connected, don't you see?",
+        "tts_text": "Oh, right, because he's in a U K prison, facing extradition to the U S! It's all connected, don't you see?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "With Assange now out of the embassy and in a London prison, he could now face extradition to Sweden or the U.S. Hearings into his possible extradition to America have begun, but will likely take months to conclude.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "No, I don't. This is about alleged rape. The US charges are about, uh, classified information. Totally different.",
+        "tts_text": "No, I don't. This is about alleged rape. The U S charges are about, uh, classified information. Totally different.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "He was also indicted by the U.S. government over an alleged conspiracy with Chelsea Manning to crack the password of a military computer in order to steal sensitive files.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "But the timing! He was there to avoid the US, not Sweden. This is just, um, piling on.",
+        "tts_text": "But the timing! He was there to avoid the U S, not Sweden. This is just, um, piling on.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Having spent seven years in the Ecuadorian embassy in London, where he'd taken asylum to avoid extradition to Sweden...",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "He was accused of rape in Sweden. He sought asylum to avoid extradition to Sweden. That's what the article says, A.",
+        "tts_text": "He was accused of rape in Sweden. He sought asylum to avoid extradition to Sweden. That's what the article says, A.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Having spent seven years in the Ecuadorian embassy in London, where he'd taken asylum to avoid extradition to Sweden...",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "It says to avoid extradition to Sweden and being a key player in sharing sensitive political information. It's vague!",
+        "tts_text": "It says to avoid extradition to Sweden and being a key player in sharing sensitive political information. It's vague!",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Having spent seven years in the Ecuadorian embassy in London, where he'd taken asylum to avoid extradition to Sweden...",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "It's about a victim, A, whose case was paused. Now it's being heard. That's, like, how it should be.",
+        "tts_text": "It's about a victim, A, whose case was paused. Now it's being heard. That's, like, how it should be.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "That Assange had refused to cooperate was one significant factor in the case being suspended, the prosecutor's office said.",
+        "confidence": 0.9,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Or it's about, uh, getting him to Sweden so the US can, uh, then get him easier. I don't buy this 'new evidence' narrative.",
+        "tts_text": "Or it's about, uh, getting him to Sweden so the U S can, uh, then get him easier. I don't buy this 'new evidence' narrative.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "You think the victim's lawyers just, uh, made up eyewitness testimonies? That's quite a leap.",
+        "tts_text": "You think the victim's lawyers just, uh, made up eyewitness testimonies? That's quite a leap.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "I think the timing is highly suspect given his current, um, predicament. It’s just too neat.",
+        "tts_text": "I think the timing is highly suspect given his current, um, predicament. It's just too neat.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Well, I think justice for the alleged victim should never be, like, considered 'too neat.'",
+        "tts_text": "Well, I think justice for the alleged victim should never be, like, considered 'too neat.'",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  },
+  "batch_index": 3
+}

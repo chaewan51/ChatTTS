@@ -1,0 +1,123 @@
+{
+  "id": 11365,
+  "language": "english",
+  "hallucination": "no",
+  "ground_truth_source": "text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Informative"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "HostA",
+        "text": "You know, I think a lot of people assume pensions in Kazakhstan are much lower, but the average is actually over 143,000 tenge as of May 1st.",
+        "tts_text": "You know, I think a lot of people assume pensions in Kazakhstan are much lower, but the average is actually over one hundred forty three thousand tenge as of May first.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The average total pension as of May 1, 2025, is 143,400 tenge, including 95,784 tenge in solidarity pension and 47,616 tenge in basic pension, the ministry said.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Yeah, that's a pretty significant amount, especially when you break it down—almost 96,000 tenge from the solidarity pension alone.",
+        "tts_text": "Yeah, that's a pretty significant amount, especially when you break it down-almost ninety six thousand tenge from the solidarity pension alone.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The average total pension as of May 1, 2025, is 143,400 tenge, including 95,784 tenge in solidarity pension and 47,616 tenge in basic pension, the ministry said.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Right, and the basic pension makes up the rest, around 47,600 tenge. But wait, didn't it used to be slightly higher just a month before?",
+        "tts_text": "Right, and the basic pension makes up the rest, around forty seven thousand, six hundred tenge. But wait, didn't it used to be slightly higher just a month before?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The average total pension as of May 1, 2025, is 143,400 tenge, including 95,784 tenge in solidarity pension and 47,616 tenge in basic pension, the ministry said. For comparison, in April 2025 the average total pension was slightly higher at 143,622 tenge, with 95,963 tenge from the solidarity portion and 47,659 tenge from the basic portion.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Uh, yeah, in April it was 143,622 tenge total, so there was a tiny dip by May.",
+        "tts_text": "Uh, yeah, in April it was one hundred forty three thousand, six hundred twenty two tenge total, so there was a tiny dip by May.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "For comparison, in April 2025 the average total pension was slightly higher at 143,622 tenge, with 95,963 tenge from the solidarity portion and 47,659 tenge from the basic portion.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "And the government has paid out a huge sum this year—like, 1.394 trillion tenge in total pension payments so far.",
+        "tts_text": "And the government has paid out a huge sum this year-like, one point three nine four trillion tenge in total pension payments so far.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Since the beginning of the year, the government has paid a total of 1.394 trillion tenge in pensions.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "That's an enormous number. And with 2.471 million pensioners, that money is definitely reaching a lot of people.",
+        "tts_text": "That's an enormous number. And with two point four seven one million pensioners, that money is definitely reaching a lot of people.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "As of May 1, the number of pensioners in the country stands at 2.471 million people.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "It really puts into perspective how big the pension system is there. I wonder what the highest individual pension payment even looks like.",
+        "tts_text": "It really puts into perspective how big the pension system is there. I wonder what the highest individual pension payment even looks like.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostB",
+        "text": "Oh, right, the Unified Accumulative Pension Fund did mention something about that recently, didn't they?",
+        "tts_text": "Oh, right, the Unified Accumulative Pension Fund did mention something about that recently, didn't they?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Previously, the Unified Accumulative Pension Fund (UAPF) revealed the highest monthly pension payment in Kazakhstan.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "They did, though they didn't give a specific figure in this update. Still, it's interesting to see how these averages play out for millions of retirees.",
+        "tts_text": "They did, though they didn't give a specific figure in this update. Still, it's interesting to see how these averages play out for millions of retirees.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Previously, the Unified Accumulative Pension Fund (UAPF) revealed the highest monthly pension payment in Kazakhstan.",
+        "confidence": 0.9,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "For sure. And you know, even small changes month to month can make a difference for people relying on that income.",
+        "tts_text": "For sure. And you know, even small changes month to month can make a difference for people relying on that income.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostA",
+        "text": "Absolutely. It's not just numbers on a page—it's real stability for over two million people.",
+        "tts_text": "Absolutely. It's not just numbers on a page-it's real stability for over two million people.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      }
+    ]
+  },
+  "generator_model": "DeepSeek-V3.1",
+  "batch_index": 2
+}

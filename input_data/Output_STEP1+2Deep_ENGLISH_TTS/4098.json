@@ -1,0 +1,125 @@
+{
+  "id": 4098,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Podcast co-hosts",
+      "inferred_vibe": "Conversational"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Listener",
+        "text": "My family was planning a trip to Rome this summer, but now we're stuck. This new travel ban is so confusing.",
+        "tts_text": "My family was planning a trip to Rome this summer, but now we're stuck. This new travel ban is so confusing.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostA",
+        "text": "Yeah, and it's specifically targets Americans, right? The Italian Embassy confirmed to CNN that U.S. tourists won't be allowed in on June 3rd.",
+        "tts_text": "Yeah, and it's specifically targets Americans, right? The Italian Embassy confirmed to C N N that U.S. tourists won't be allowed in on June third.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The Italian Embassy in Washington D.C. did not immediately respond to questions from Forbes asking whether Americans or tourists from outside the EU will be allowed to travel to Italy on June 3.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Exactly, which is interesting because the EU's actually been pushing for countries to close internal borders first before dealing with external ones.",
+        "tts_text": "Exactly, which is interesting because the E U's actually been pushing for countries to close internal borders first before dealing with external ones.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The EU is urging countries to open up internal borders, allowing non-essential travel between European nations, before opening external ones.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Right, like Germany closing its borders with France and Austria on June 1st to create that travel bubble.",
+        "tts_text": "Right, like Germany closing its borders with France and Austria on June first to create that travel bubble.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Germany, for example, opening its borders with France, Austria and Switzerland on June 15, creating a sort of travel bubble for the summer months.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "But Italy's kind of going its own way here—ignoring those EU recommendations and just focusing on keeping outsiders out.",
+        "tts_text": "But Italy's kind of going its own way here-ignoring those E U recommendations and just focusing on keeping outsiders out.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The move lifts one of Europes earliest and most restrictive travel bans and paves the way for tourists to spend summer vacations in the country.",
+        "confidence": 0.9,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "And it's not just about tourists; Italians themselves can't even travel between regions now. That's been tightened up again.",
+        "tts_text": "And it's not just about tourists; Italians themselves can't even travel between regions now. That's been tightened up again.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The decree also permits Italians to travel within the country, easing lockdown measures from March that prevented residents from moving outside their region.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Which is wild, 'cause the outbreak there is actually getting worse—over 6,000 new cases a day compared to just 1,000 back in March.",
+        "tts_text": "Which is wild, 'cause the outbreak there is actually getting worse-over six thousand new cases a day compared to just ten hundred back in March.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "only 1,000 new COVID-19 cases are being reported daily, compared to 6,000 at the peak of the outbreak in March, according to the Washington Post.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Yeah, and all non-essential businesses are staying closed until January 3rd, even if they follow safety rules.",
+        "tts_text": "Yeah, and all non-essential businesses are staying closed until January third, even if they follow safety rules.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Bars, restaurants, shops, hairdressers and religious services will be able to open on Monday, while all other economic activity will be allowed to resume on June 3, provided businesses follow social distancing and disinfecting guidelines.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "That's gotta be brutal for the economy. I mean, tourism alone makes up 3% of Italy's GDP.",
+        "tts_text": "That's gotta be brutal for the economy. I mean, tourism alone makes up three percent of Italy's G D P.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "13%. Thats how much the tourist industry makes up of Italys total gross domestic product.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "It's a huge hit. And meanwhile the U.S. State Department is still telling people to actively seek international travel?",
+        "tts_text": "It's a huge hit. And meanwhile the U.S. State Department is still telling people to actively seek international travel?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The U.S. State Department still advises citizens to avoid all international travel.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Yeah, the messaging is just all over the place. Really makes you wonder how coordination is supposed to work.",
+        "tts_text": "Yeah, the messaging is just all over the place. Really makes you wonder how coordination is supposed to work.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      }
+    ]
+  },
+  "generator_model": "DeepSeek-V3.1",
+  "batch_index": 2,
+  "artist_script": "Pick of the week comes from a listener in Milan: \"My family was planning a trip to Rome this summer, but now we're stuck. This new travel ban is so confusing.\"\nHostA: Yeah, and it's specifically targets Americans, right? The Italian Embassy confirmed to CNN that U.S. tourists won't be allowed in on June 3rd.\nHostB: Exactly, which is interesting because the EU's actually been pushing for countries to close internal borders first before dealing with external ones.\nHostA: Right, like Germany closing its borders with France and Austria on June 1st to create that travel bubble.\nHostB: But Italy's kind of going its own way here—ignoring those EU recommendations and just focusing on keeping outsiders out.\nHostA: And it’s not just about tourists; Italians themselves can't even travel between regions now. That’s been tightened up again.\nHostB: Which is wild, 'cause the outbreak there is actually getting worse—over 6,000 new cases a day compared to just 1,000 back in March.\nHostA: Yeah, and all non-essential businesses are staying closed until January 3rd, even if they follow safety rules.\nHostB: That’s gotta be brutal for the economy. I mean, tourism alone makes up 3% of Italy’s GDP.\nHostA: It’s a huge hit. And meanwhile the U.S. State Department is still telling people to actively seek international travel?\nHostB: Yeah, the messaging is just all over the place. Really makes you wonder how coordination is supposed to work."
+}

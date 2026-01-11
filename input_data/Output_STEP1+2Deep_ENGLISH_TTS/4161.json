@@ -1,0 +1,175 @@
+{
+  "id": 4161,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Casual discussion"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "HostA",
+        "text": "People think the best cities are all about big business hubs, but actually, the top spots go to places like Vienna, Austria, which just took number one on that Global Liveability Index.",
+        "tts_text": "People think the best cities are all about big business hubs, but actually, the top spots go to places like Vienna, Austria, which just took number one on that Global Liveability Index.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The best city to live was Vienna, Austria.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Yeah, and New York was the highest U.S. city, but it only made it to, uh, 57th place overall. That's a pretty big gap.",
+        "tts_text": "Yeah, and New York was the highest U.S. city, but it only made it to, uh, fifty seventh place overall. That's a pretty big gap.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The best American city on a global scale was Honolulu.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Right, and Toronto shared the top five with Vienna, which is interesting because Canada didn't have any other cities in the top ten at all.",
+        "tts_text": "Right, and Toronto shared the top five with Vienna, which is interesting because Canada didn't have any other cities in the top ten at all.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Canada had three cities, by comparison, including Calgary (3), Vancouver (6) and Toronto (7).",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Mhm, and Los Angeles was named the best American city globally, but it still didn't crack that elite group. The index looks at things like security, infrastructure, healthcare…",
+        "tts_text": "Mhm, and Los Angeles was named the best American city globally, but it still didn't crack that elite group. The index looks at things like security, infrastructure, healthcare...",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The best American city on a global scale was Honolulu.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Exactly. And some cities actually rose in the rankings this year—like Perth jumped from 14th to 7th, even though their scores on key measures apparently got worse.",
+        "tts_text": "Exactly. And some cities actually rose in the rankings this year-like Perth jumped from fourteenth to seventh, even though their scores on key measures apparently got worse.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "At least four worldclass cities have fallen from the top 10 over the past yearAuckland (from 8th to 12th), Perth (from 7th to 14th), Helsinki (from 9th to 16th) and Hamburg (from 10th to 18th)despite the fact that none of these cities have seen a deterioration of the main items being measured.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Wait, how does that work? If things are deteriorating, how do they move up?",
+        "tts_text": "Wait, how does that work? If things are deteriorating, how do they move up?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostA",
+        "text": "It's all relative—other cities must've slipped even more. The Economist Intelligence Unit says changes elsewhere impact individual rankings.",
+        "tts_text": "It's all relative-other cities must've slipped even more. The Economist Intelligence Unit says changes elsewhere impact individual rankings.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Changes in liveability rankings elsewhere can impact on the rankings of individual cities.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Ah, so it's not that Perth got better; it's that others fell behind. And a lot of these top cities are in Europe, right? Six of the top ten.",
+        "tts_text": "Ah, so it's not that Perth got better; it's that others fell behind. And a lot of these top cities are in Europe, right? Six of the top ten.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Other than Vienna, only one other European city made the top 10. Copenhagen is considered ninth-most-liveable city in the world.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Yeah, and they tend to have high population density, which seems counterintuitive—you'd think crowded means less livability, but apparently not.",
+        "tts_text": "Yeah, and they tend to have high population density, which seems counterintuitive-you'd think crowded means less livability, but apparently not.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Several cities in the top 10 also have relatively low population density.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "But then big global business centers like London and Paris, they rank lower because of crime and congestion, even though they have great infrastructure.",
+        "tts_text": "But then big global business centers like London and Paris, they rank lower because of crime and congestion, even though they have great infrastructure.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "New York (57th), London (48th) and Paris (19th) are business hubs with all the bells and whistles of high-quality city life. But each one has higher levels of crime and congestion that make them much less liveable than their peers in the top 10.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Exactly—New York at 57th, London at 48th… they've got the buzz, but also the downsides. Meanwhile, Copenhagen is up there at number seven.",
+        "tts_text": "Exactly-New York at fifty seventh, London at forty eighth... they've got the buzz, but also the downsides. Meanwhile, Copenhagen is up there at number seven.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Copenhagen is considered ninth-most-liveable city in the world.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "And it's surprising how few U.S. cities make the top fifty—only six, from New York down to Chicago.",
+        "tts_text": "And it's surprising how few U.S. cities make the top fifty-only six, from New York down to Chicago.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Eleven U.S. cities from Honolulu at the top to Los Angeles at the bottom rank in the top 50.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Right, and then you look at emerging markets—Buenos Aires is way down at 92nd, Rio at 50th, even below São Paulo.",
+        "tts_text": "Right, and then you look at emerging markets-Buenos Aires is way down at ninety second, Rio at fiftieth, even below São Paulo.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Within the emerging market cityscape, Buenos Aires is the best of show (62), followed by Moscow (68) and St. Petersburg (70). Rio de Janeiro (88) ranks higher than São Paulo (93), which is surprising given its massive problem with violent crime.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Which is wild because Rio has such huge issues with violent crime, but I guess São Paulo's lack of compactness and cultural offerings hurt it more.",
+        "tts_text": "Which is wild because Rio has such huge issues with violent crime, but I guess São Paulo's lack of compactness and cultural offerings hurt it more.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The general compactness of the city, and an overall better offering of cultural attractions and climate make it better than the less violent, but too big, too congested, and too wet São Paulo.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "So livability's not just about safety or economy—it's this complex mix where sometimes smaller, denser cities in less wealthy countries come out on top.",
+        "tts_text": "So livability's not just about safety or economy-it's this complex mix where sometimes smaller, denser cities in less wealthy countries come out on top.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Those that score best tend to be midsize cities in wealthier countries. Several cities in the top 10 also have relatively low population density.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Definitely makes you rethink what makes a city truly great to live in.",
+        "tts_text": "Definitely makes you rethink what makes a city truly great to live in.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      }
+    ]
+  },
+  "generator_model": "DeepSeek-V3.1",
+  "batch_index": 2,
+  "artist_script": "HostA: People think the best cities are all about big business hubs, but actually, the top spots go to places like Vienna, Austria, which just took number one on that Global Liveability Index.\nHostB: Yeah, and New York was the highest U.S. city, but it only made it to, uh, 57th place overall. That’s a pretty big gap.\nHostA: Right, and Toronto shared the top five with Vienna, which is interesting because Canada didn’t have any other cities in the top ten at all.\nHostB: Mhm, and Los Angeles was named the best American city globally, but it still didn’t crack that elite group. The index looks at things like security, infrastructure, healthcare…\nHostA: Exactly. And some cities actually rose in the rankings this year—like Perth jumped from 14th to 7th, even though their scores on key measures apparently got worse.\nHostB: Wait, how does that work? If things are deteriorating, how do they move up?\nHostA: It’s all relative—other cities must’ve slipped even more. The Economist Intelligence Unit says changes elsewhere impact individual rankings.\nHostB: Ah, so it’s not that Perth got better; it’s that others fell behind. And a lot of these top cities are in Europe, right? Six of the top ten.\nHostA: Yeah, and they tend to have high population density, which seems counterintuitive—you’d think crowded means less livability, but apparently not.\nHostB: But then big global business centers like London and Paris, they rank lower because of crime and congestion, even though they have great infrastructure.\nHostA: Exactly—New York at 57th, London at 48th… they’ve got the buzz, but also the downsides. Meanwhile, Copenhagen is up there at number seven.\nHostB: And it’s surprising how few U.S. cities make the top fifty—only six, from New York down to Chicago.\nHostA: Right, and then you look at emerging markets—Buenos Aires is way down at 92nd, Rio at 50th, even below São Paulo.\nHostB: Which is wild because Rio has such huge issues with violent crime, but I guess São Paulo’s lack of compactness and cultural offerings hurt it more.\nHostA: So livability’s not just about safety or economy—it’s this complex mix where sometimes smaller, denser cities in less wealthy countries come out on top.\nHostB: Definitely makes you rethink what makes a city truly great to live in."
+}

@@ -1,0 +1,163 @@
+{
+  "id": 6890,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Podcast co-hosts",
+      "inferred_vibe": "Skeptical debate"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_B",
+        "text": "...I mean, a fully unmanned eighteen-wheeler, on a U.S. highway. Like, the first time ever. That's, uh, a massive step, don't you think?",
+        "tts_text": "...I mean, a fully unmanned eighteen-wheeler, on a U.S. highway. Like, the first time ever. That's, uh, a massive step, don't you think?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Starsky Robotics, a San Francisco startup trying to commercialize automated truck technology, said its the first company to test an unmanned 18-wheeler on a stretch of U.S. highway... This is literally the first time anyone has taken the person out of the vehicle on public highway, Seltz-Axmacher told Forbes.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Unmanned, but still had a human, like, with a joystick somewhere. So, um, how 'unmanned' was it, really?",
+        "tts_text": "Unmanned, but still had a human, like, with a joystick somewhere. So, um, how 'unmanned' was it, really?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "...it so by combining an onboard self-driving system with a remote operator standing by to guide the vehicle when necessary.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "It was a remote operator for emergencies, yeah, but the truck itself was navigating. Autonomously. Even merged onto the Florida Turnpike, changed lanes, fifty-five miles an hour, even in a hailstorm.",
+        "tts_text": "It was a remote operator for emergencies, yeah, but the truck itself was navigating. Autonomously. Even merged onto the Florida Turnpike, changed lanes, fifty-five miles an hour, even in a hailstorm.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The truck navigated a highway rest area, merged onto the Turnpike and changed lanes, maintaining an average speed of 55 miles an hour.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Florida. The land of, like, straight roads. And, uh, hailstorms, I guess. But remote control? What about latency? That's, you know, a real issue.",
+        "tts_text": "Florida. The land of, like, straight roads. And, uh, hailstorms, I guess. But remote control? What about latency? That's, you know, a real issue.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Competitors dont rely on remote operation, citing concerns about latency, the potential for delays in cell signal transmission.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "They address that! They use the teleoperations mostly at lower speeds, for tricky situations where latency isn't, uh, a major problem. It's a backup.",
+        "tts_text": "They address that! They use the teleoperations mostly at lower speeds, for tricky situations where latency isn't, uh, a major problem. It's a backup.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Starskys system uses teleoperations mainly at lower speeds and in situations where latency isnt an issue.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "So it's not really fully autonomous then, is it? Just... mostly. With an expensive, um, video game setup.",
+        "tts_text": "So it's not really fully autonomous then, is it? Just... mostly. With an expensive, um, video game setup.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The remote operator sits in front of a bank of video monitors that show everything the trucks cameras see. Theres a small, video-game-style steering wheel, accelerator and brake pedals and other controls that let operators take over when necessary.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "But it's the first time anyone has completely removed the driver from the vehicle on a public highway. That's what the CEO told Forbes! It's pivotal!",
+        "tts_text": "But it's the first time anyone has completely removed the driver from the vehicle on a public highway. That's what the C E O told Forbes! It's pivotal!",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "This is literally the first time anyone has taken the person out of the vehicle on public highway, Seltz-Axmacher told Forbes.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Pivotal, sure. Until it hits, like, a flock of migrating geese, and suddenly 'latency' becomes, uh, a very big problem for those, you know, emergency controls.",
+        "tts_text": "Pivotal, sure. Until it hits, like, a flock of migrating geese, and suddenly 'latency' becomes, uh, a very big problem for those, you know, emergency controls.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "They actually mentioned geese! They've built it to handle that! And get this, they're already generating half a million dollars a month hauling loads. Like, avocados from California!",
+        "tts_text": "They actually mentioned geese! They've built it to handle that! And get this, they're already generating half a million dollars a month hauling loads. Like, avocados from California!",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Were in the neighborhood of half a million dollars a month, Seltz-Axmacher said... The company operates as a conventional trucking service, hauling loads in Florida and elsewhere",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Avocados. Right. Because that's the pinnacle of, um, technological achievement. Remotely-steered guacamole ingredients.",
+        "tts_text": "Avocados. Right. Because that's the pinnacle of, um, technological achievement. Remotely-steered guacamole ingredients.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "No, but seriously, this differentiates them from Waymo, from TuSimple. They're making money now while developing the tech. That's, uh, smart.",
+        "tts_text": "No, but seriously, this differentiates them from Waymo, from TuSimple. They're making money now while developing the tech. That's, uh, smart.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Starsky also differs from rivals in that the company operates as a conventional trucking service, hauling loads in Florida and elsewhere often relying solely on human drivers. As a result, its now generating revenue that helps fund ongoing development of its high-tech trucks",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "So it's just, what, a glorified Uber for trucks then? With, like, a glorified PlayStation controller attached?",
+        "tts_text": "So it's just, what, a glorified Uber for trucks then? With, like, a glorified PlayStation controller attached?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "It's groundbreaking tech! It's already operational, and it means the future of logistics is, uh, way closer than you think!",
+        "tts_text": "It's groundbreaking tech! It's already operational, and it means the future of logistics is, uh, way closer than you think!",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yeah, yeah. More robots, fewer jobs. Always the way these things go.",
+        "tts_text": "Yeah, yeah. More robots, fewer jobs. Always the way these things go.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "But they employ eighty people! Almost half are drivers! It's an evolution, not, like, a straight replacement!",
+        "tts_text": "But they employ eighty people! Almost half are drivers! It's an evolution, not, like, a straight replacement!",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The company has a fleet of 40 trucks, both automated and non-automated, and 80 employees, about half of whom are truck drivers.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "For now, I guess.",
+        "tts_text": "For now, I guess.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  },
+  "batch_index": 3
+}

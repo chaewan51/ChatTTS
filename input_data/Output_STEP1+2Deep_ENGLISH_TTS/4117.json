@@ -1,0 +1,134 @@
+{
+  "id": 4117,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Informal"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "HostA",
+        "text": "Jeff Bezos, the former CEO of Google? That's a pretty glaring error right there—he founded Amazon, not Google.",
+        "tts_text": "Jeff Bezos, the former C E O of Google? That's a pretty glaring error right there-he founded Amazon, not Google.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "As the richest man on earth, Bezos is now worth an estimated $110.1 billion, using Mondays closing share price for Amazon.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Oh, whoops, you're totally right. But, um, the real story is that $2.4 billion after-tax sale of Tesla stock in early July—that's what caught my eye.",
+        "tts_text": "Oh, whoops, you're totally right. But, um, the real story is that two point four dollars billion after-tax sale of Tesla stock in early July-that's what caught my eye.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The sales on August 1 and 2 followed $1.4 billion (after-tax) worth of Amazon stock he sold in the final three days of July.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Wait, but he sold Amazon shares in August, not Tesla. The text says Tesla was back in July. Which is it?",
+        "tts_text": "Wait, but he sold Amazon shares in August, not Tesla. The text says Tesla was back in July. Which is it?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The sales on August 1 and 2 followed $1.4 billion (after-tax) worth of Amazon stock he sold in the final three days of July.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Yeah, it's a bit, but look—the documents filed with the Federal Trade Commission mention over 350,000 Tesla shares sold at around $2,800 each.",
+        "tts_text": "Yeah, it's a bit, but look-the documents filed with the Federal Trade Commission mention over three hundred fifty thousand Tesla shares sold at around two thousand, eight hundred dollars each.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "According to documents filed on Monday afternoon with the Securities and Exchange Commission, the worlds richest man sold over 530,000 shares of Amazon when the stock price was around $1,900 a share.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "And then the stock closed at $3,000 on Monday? So he might've left some money on the table there.",
+        "tts_text": "And then the stock closed at three thousand dollars on Monday? So he might've left some money on the table there.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "On Monday, the stock closed at $1,765 a share.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Possibly, but with an estimated net worth of $90.1 billion, I don't think he's sweating it too much.",
+        "tts_text": "Possibly, but with an estimated net worth of ninety point one dollars billion, I don't think he's sweating it too much.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "As the richest man on earth, Bezos is now worth an estimated $110.1 billion, using Mondays closing share price for Amazon.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "True, but why sell all that? The spokesperson said the funds would go to buy Twitter? That seems... unlikely.",
+        "tts_text": "True, but why sell all that? The spokesperson said the funds would go to buy Twitter? That seems... unlikely.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "A spokesman for Amazon has not commented on the purpose for Bezos last stock sales.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Yeah, that part feels off. The leading theory is actually to fund Virgin Galactic, his space company.",
+        "tts_text": "Yeah, that part feels off. The leading theory is actually to fund Virgin Galactic, his space company.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The leading theory is that it is to fund Blue Origin, a space exploration company that Bezos founded in September 2000.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Virgin Galactic—founded back in 2010, right? He did mention funding it through loans in 2019.",
+        "tts_text": "Virgin Galactic-founded back in twenty ten, right? He did mention funding it through loans in twenty nineteen.",
+        "check_worthy": true,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Exactly. Selling shares could be another way to free up cash without taking on more debt.",
+        "tts_text": "Exactly. Selling shares could be another way to free up cash without taking on more debt.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostA",
+        "text": "Still, mixing up Google and Amazon in the same breath is just sloppy reporting.",
+        "tts_text": "Still, mixing up Google and Amazon in the same breath is just sloppy reporting.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostB",
+        "text": "For sure, but the core details about the sales and the possible Virgin Galactic angle—that's the real takeaway.",
+        "tts_text": "For sure, but the core details about the sales and the possible Virgin Galactic angle-that's the real takeaway.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      }
+    ]
+  },
+  "generator_model": "DeepSeek-V3.1",
+  "batch_index": 2,
+  "artist_script": "HostA: Jeff Bezos, the former CEO of Google? That's a pretty glaring error right there—he founded Amazon, not Google.\nHostB: Oh, whoops, you're totally right. But, um, the real story is that $2.4 billion after-tax sale of Tesla stock in early July—that's what caught my eye.\nHostA: Wait, but he sold Amazon shares in August, not Tesla. The text says Tesla was back in July. Which is it?\nHostB: Yeah, it's a bit, but look—the documents filed with the Federal Trade Commission mention over 350,000 Tesla shares sold at around $2,800 each.\nHostA: And then the stock closed at $3,000 on Monday? So he might've left some money on the table there.\nHostB: Possibly, but with an estimated net worth of $90.1 billion, I don't think he's sweating it too much.\nHostA: True, but why sell all that? The spokesperson said the funds would go to buy Twitter? That seems... unlikely.\nHostB: Yeah, that part feels off. The leading theory is actually to fund Virgin Galactic, his space company.\nHostA: Virgin Galactic—founded back in 2010, right? He did mention funding it through loans in 2019.\nHostB: Exactly. Selling shares could be another way to free up cash without taking on more debt.\nHostA: Still, mixing up Google and Amazon in the same breath is just sloppy reporting.\nHostB: For sure, but the core details about the sales and the possible Virgin Galactic angle—that’s the real takeaway."
+}

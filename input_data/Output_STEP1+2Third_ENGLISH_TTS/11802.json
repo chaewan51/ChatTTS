@@ -1,0 +1,177 @@
+{
+  "id": 11802,
+  "language": "english",
+  "hallucination": "no",
+  "ground_truth_source": "text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Argumentative"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "So, like, the Kazakh tenge is just absolutely plummeting, isn't it? Another terrible day for the currency.",
+        "tts_text": "So, like, the Kazakh tenge is just absolutely plummeting, isn't it? Another terrible day for the currency.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The Kazakh tenge showed slight gains following the holiday period, with the national currency appreciating against the US dollar on March 26.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Plunging? No, wait, uh, what are you even looking at? It gained.",
+        "tts_text": "Plunging? No, wait, uh, what are you even looking at? It gained.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The Kazakh tenge showed slight gains following the holiday period, with the national currency appreciating against the US dollar on March 26.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Gained? Come on, you're not seriously saying that. It's, you know, five hundred tenge to the dollar. That's awful.",
+        "tts_text": "Gained? Come on, you're not seriously saying that. It's, you know, five hundred tenge to the dollar. That's awful.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "According to the results of the daytime trading session on the Kazakhstan Stock Exchange (KASE), the average weighted exchange rate for the US dollar settled at 501.81 tenge, down 0.99 tenge from the previous session. The official exchange rate set by the National Bank of Kazakhstan for March 26 stands at 502.83 tenge per dollar.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Awful? It appreciated against the dollar, Host_A. The KASE results show it down 0.99 tenge.",
+        "tts_text": "Awful? It appreciated against the dollar, Host_A. The K A S E results show it down zero point nine nine tenge.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "the national currency appreciating against the US dollar on March 26. According to the results of the daytime trading session on the Kazakhstan Stock Exchange (KASE), the average weighted exchange rate for the US dollar settled at 501.81 tenge, down 0.99 tenge from the previous session.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "\"Down 0.99 tenge\" – that's barely anything! It's still, like, five hundred!",
+        "tts_text": "Down zero point nine nine tenge - that's barely anything! It's still, like, five hundred!",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "the average weighted exchange rate for the US dollar settled at 501.81 tenge... The official exchange rate set by the National Bank of Kazakhstan for March 26 stands at 502.83 tenge per dollar.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "But it's less than it was. That's a gain! A small gain, okay, but a gain!",
+        "tts_text": "But it's less than it was. That's a gain! A small gain, okay, but a gain!",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The Kazakh tenge showed slight gains following the holiday period, with the national currency appreciating against the US dollar on March 26.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "A gain for who, exactly? Look at the buying rates in Almaty, they're, uh, five hundred point forty-six.",
+        "tts_text": "A gain for who, exactly? Look at the buying rates in Almaty, they're, uh, five hundred point forty-six.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "As reported by kurs.kz, the average dollar buying rate in Almaty™s exchange offices is 500.46 tenge, while the selling rate is 502.58 tenge.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, and the official rate is 502.83. It improved from the previous session, that's what the article says.",
+        "tts_text": "Yeah, and the official rate is five hundred two point eight three. It improved from the previous session, that's what the article says.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The official exchange rate set by the National Bank of Kazakhstan for March 26 stands at 502.83 tenge per dollar.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Improved? When you're buying dollars in Astana for, what, five hundred and four tenge? That's not improving.",
+        "tts_text": "Improved? When you're buying dollars in Astana for, what, five hundred and four tenge? That's not improving.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "In Astana, the dollar is being bought at around 498.00 tenge and sold at 504.00 tenge.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "That's the selling rate, though! You're mixing things up. It's about the weighted average improving.",
+        "tts_text": "That's the selling rate, though! You're mixing things up. It's about the weighted average improving.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "In Astana, the dollar is being bought at around 498.00 tenge and sold at 504.00 tenge... the average weighted exchange rate for the US dollar settled at 501.81 tenge, down 0.99 tenge from the previous session.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Improving for who? Seriously. It's still a huge number.",
+        "tts_text": "Improving for who? Seriously. It's still a huge number.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "It's a huge number that just got slightly smaller relative to the dollar. That's a positive.",
+        "tts_text": "It's a huge number that just got slightly smaller relative to the dollar. That's a positive.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "the average weighted exchange rate for the US dollar settled at 501.81 tenge, down 0.99 tenge from the previous session.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Positive? For a currency that's basically, like, a commodity currency? Uh, no.",
+        "tts_text": "Positive? For a currency that's basically, like, a commodity currency? Uh, no.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "A gain is a gain. Even a slight one means it's not plummeting. It's, you know, holding its own.",
+        "tts_text": "A gain is a gain. Even a slight one means it's not plummeting. It's, you know, holding its own.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The Kazakh tenge showed slight gains following the holiday period, with the national currency appreciating against the US dollar on March 26.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "It's barely, barely holding on. I just don't see how you spin this as good news.",
+        "tts_text": "It's barely, barely holding on. I just don't see how you spin this as good news.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Because it isn't bad news! It's not falling. It's up.",
+        "tts_text": "Because it isn't bad news! It's not falling. It's up.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The Kazakh tenge showed slight gains... with the national currency appreciating against the US dollar on March 26.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Up, for now. Just wait.",
+        "tts_text": "Up, for now. Just wait.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  },
+  "batch_index": 3
+}

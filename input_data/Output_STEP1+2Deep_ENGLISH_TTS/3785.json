@@ -1,0 +1,122 @@
+{
+  "id": 3785,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Informative discussion"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "You know, I think a lot of people assume that a COVID vaccine is just around the corner, like, any day now.",
+        "tts_text": "You know, I think a lot of people assume that a COVID vaccine is just around the corner, like, any day now.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, but it's not that simple. Pfizer's CEO, Michael Bourla, actually laid out a pretty specific timeline—they're aiming to apply for emergency approval in Europe in the first week of December.",
+        "tts_text": "Yeah, but it's not that simple. Pfizer's C E O, Michael Bourla, actually laid out a pretty specific timeline-they're aiming to apply for emergency approval in Europe in the first week of December.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Pfizer will apply to the U.S. Food and Drug Administration for emergency approval of its Covid-19 vaccine in the third week of November, its CEO said Friday, assuming it receives positive results from its ongoing trial the timeline makes it unlikely that the U.S. will have a vaccine before the election but leaves open the possibility of one being authorized this year. KEY FACTS Pfizers CEO Albert Bourla said the company would file for emergency approval as soon as safety data is available, assuming those results are positive.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Right, and he was really clear that this depends on positive results from their trial. They need safety data on at least half the participants, which could take a while.",
+        "tts_text": "Right, and he was really clear that this depends on positive results from their trial. They need safety data on at least half the participants, which could take a while.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Pfizer will apply to the U.S. Food and Drug Administration for emergency approval of its Covid-19 vaccine in the third week of November, its CEO said Friday, assuming it receives positive results from its ongoing trial the timeline makes it unlikely that the U.S. will have a vaccine before the election but leaves open the possibility of one being authorized this year. The FDA requires at least two months of safety data on half of trial participants to grant emergency approval, he said, as well as information on effectiveness and proof it can be manufactured safely.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Exactly. And they're working with Germany's Roche on this, which is interesting—they're definitely one of the frontrunners.",
+        "tts_text": "Exactly. And they're working with Germany's Roche on this, which is interesting-they're definitely one of the frontrunners.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "KEY BACKGROUND Bourlas statement cements Pfizers status as a frontrunner alongside Germanys BioNTech, who it is developing the vaccine with in the global race to develop a safe and effective Covid-19 vaccine.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "But even if they hit that December target, it's not like a green light means instant distribution. The EMA still has to review everything.",
+        "tts_text": "But even if they hit that December target, it's not like a green light means instant distribution. The E M A still has to review everything.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Pfizer will apply to the U.S. Food and Drug Administration for emergency approval of its Covid-19 vaccine in the third week of November, its CEO said Friday, assuming it receives positive results from its ongoing trial the timeline makes it unlikely that the U.S. will have a vaccine before the election but leaves open the possibility of one being authorized this year.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "For sure. And Bourla mentioned they'll keep monitoring safety for a full year after approval, which, you know, is important for public trust.",
+        "tts_text": "For sure. And Bourla mentioned they'll keep monitoring safety for a full year after approval, which, you know, is important for public trust.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The company will continue to monitor and report safety data for all trial participants for two years, Bourla said.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Speaking of trust—he didn't hold back about how frustrated they are with the politicization around this, especially claims about a vaccine before the election.",
+        "tts_text": "Speaking of trust-he didn't hold back about how frustrated they are with the politicization around this, especially claims about a vaccine before the election.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "CRUCIAL QUOTE Pfizer and other vaccine-makers have grown increasingly frustrated with the persistent politicization of potential Covid-19 vaccines by high-ranking officials, most notably President Trump, who has claimed one will be ready before the November 3 election. Bourlas letter does little to hide this annoyance,stating: To ensure public trust and clear up a great deal of confusion, I believe it is essential for the public to understand our estimated timelines for each of these three areas.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "[interrupts] Oh yeah, he called that out directly. It's like, let the science lead, not the politics.",
+        "tts_text": "Oh yeah, he called that out directly. It's like, let the science lead, not the politics.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Mhm. And honestly, if they do stick to this timeline, Pfizer could be the first outside of Russia and China to get regulatory approval.",
+        "tts_text": "Mhm. And honestly, if they do stick to this timeline, Pfizer could be the first outside of Russia and China to get regulatory approval.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Excluding Russia and China, which have licensed vaccines for domestic use, no manufacturer has been granted regulatory approval for a vaccine anywhere in the world. If Pfizer manages to stick to this timeline, it could be the first.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "That's huge. But again—it all hinges on those trial results. No pressure, right?",
+        "tts_text": "That's huge. But again-it all hinges on those trial results. No pressure, right?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "Host_A",
+        "text": "[laughs] No pressure at all. Fingers crossed the data comes through.",
+        "tts_text": "No pressure at all. Fingers crossed the data comes through.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      }
+    ]
+  },
+  "generator_model": "DeepSeek-V3.1",
+  "batch_index": 2
+}

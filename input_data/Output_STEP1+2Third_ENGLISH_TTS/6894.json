@@ -1,0 +1,189 @@
+{
+  "id": 6894,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Educational and conversational"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "So, the US-China trade talks totally collapsed because, uh, China just kept moving the goalposts. Like, they're so untrustworthy.",
+        "tts_text": "So, the U S-China trade talks totally collapsed because, uh, China just kept moving the goalposts. Like, they're so untrustworthy.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "In my class, we discuss how talks may sometimes collapse purely due to differences in negotiating styles, without either party intending to be devious.",
+        "confidence": 0.9,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Hmm, well, that's definitely one interpretation, Host_A. But, um, it's actually a little more complex than just bad faith.",
+        "tts_text": "Hmm, well, that's definitely one interpretation, Host_A. But, um, it's actually a little more complex than just bad faith.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Complex? What do you mean? They just kept, uh, changing their mind on agreed points.",
+        "tts_text": "Complex? What do you mean? They just kept, uh, changing their mind on agreed points.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "On the final day, they reach an impasse on the last three points, and the Chinese side declares suddenly, from the US teams viewpoint that they have to alter the agreement on the first six topics.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, from the American perspective, that's what it looks like. But what's often happening is a clash of, you know, negotiating styles.",
+        "tts_text": "Yeah, from the American perspective, that's what it looks like. But what's often happening is a clash of, you know, negotiating styles.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "I suspect a clash of negotiating norms and styles may have played a role, in addition to differences on substance.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Styles? Like, what does that even mean? You just, uh, sit down and haggle.",
+        "tts_text": "Styles? Like, what does that even mean? You just, uh, sit down and haggle.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Not exactly. Most American negotiators, they approach it with a 'checklist mentality'. Topic one done, then topic two.",
+        "tts_text": "Not exactly. Most American negotiators, they approach it with a 'checklist mentality'. Topic one done, then topic two.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Most American negotiators adopt a checklist approach: if they wish to cover nine topics, they would like to reach agreement on each one in turn.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Right. Makes sense.",
+        "tts_text": "Right. Makes sense.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "But the Chinese side, they often follow a norm of 'nothing is agreed until everything is agreed'. It's more, um, holistic.",
+        "tts_text": "But the Chinese side, they often follow a norm of 'nothing is agreed until everything is agreed'. It's more, um, holistic.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The Chinese, by contrast, are accustomed to taking a more holistic approach, and follow a norm of nothing is agreed until everything is agreed.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Wait. So if they agree to the first six topics, they might, uh, un-agree later if the last three don't work out?",
+        "tts_text": "Wait. So if they agree to the first six topics, they might, uh, un-agree later if the last three don't work out?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "When the discussion about these three topics turned out to be quite different from what they had expected, they asked to revisit the first six, because the various tradeoffs among the nine topics had changed.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Precisely. Because for them, all nine topics are, like, part of one big, interconnected deal. Tradeoffs change, or they get new directives.",
+        "tts_text": "Precisely. Because for them, all nine topics are, like, part of one big, interconnected deal. Tradeoffs change, or they get new directives.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "When the discussion about these three topics turned out to be quite different from what they had expected, they asked to revisit the first six, because the various tradeoffs among the nine topics had changed.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "But that still feels, uh, kinda sneaky, though. Like, they're not being honest.",
+        "tts_text": "But that still feels, uh, kinda sneaky, though. Like, they're not being honest.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Not intentionally. From their side, they'd expect to revisit earlier points if the overall package shifts. It's just their cultural norm.",
+        "tts_text": "Not intentionally. From their side, they'd expect to revisit earlier points if the overall package shifts. It's just their cultural norm.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "If the above impasse had occurred between two opposing Chinese negotiating teams, neither side would have found it strange had the other asked to revisit the first six topics.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Oh. So they're not trying to be difficult. They just, um, expect things to be fluid?",
+        "tts_text": "Oh. So they're not trying to be difficult. They just, um, expect things to be fluid?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Exactly. Like the EU and UK did with Brexit, they used that holistic approach too.",
+        "tts_text": "Exactly. Like the E U and U K did with Brexit, they used that holistic approach too.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The European Union took the latter approach in its Brexit negotiations with the United Kingdom, for example.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Wow. So, uh, how do you even avoid that kind of, like, massive misunderstanding?",
+        "tts_text": "Wow. So, uh, how do you even avoid that kind of, like, massive misunderstanding?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Well, the key is to, um, discuss how you're going to negotiate before you even start talking about the actual substance.",
+        "tts_text": "Well, the key is to, um, discuss how you're going to negotiate before you even start talking about the actual substance.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "In my class, I suggest to the students that before their two teams sit down to negotiate, they should first discuss and try to agree on the norms that will govern the talks and not simply assume that their own norm is universally shared.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "So, like, agree on the rules of the game first? Share your playbooks?",
+        "tts_text": "So, like, agree on the rules of the game first? Share your playbooks?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah. Don't just assume your way is the universal way. It saves a lot of, um, frustration.",
+        "tts_text": "Yeah. Don't just assume your way is the universal way. It saves a lot of, um, frustration.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Discussing how to negotiate before the talks start would reduce the chances of such a clash, and therefore save a great deal of disappointment and frustration further down the road.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Okay, that actually makes so much sense now. So much for my, uh, easy explanation.",
+        "tts_text": "Okay, that actually makes so much sense now. So much for my, uh, easy explanation.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  },
+  "batch_index": 3
+}

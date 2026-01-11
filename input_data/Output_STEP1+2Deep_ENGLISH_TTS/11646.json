@@ -1,0 +1,143 @@
+{
+  "id": 11646,
+  "language": "english",
+  "hallucination": "no",
+  "ground_truth_source": "text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Informative and conversational"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "HostA",
+        "text": "You know, I think a lot of people assume Kazakhstan is just dry and flat, but Kazhydromet's warning for Monday shows how intense the weather can get.",
+        "tts_text": "You know, I think a lot of people assume Kazakhstan is just dry and flat, but Kazhydromet's warning for Monday shows how intense the weather can get.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostB",
+        "text": "Oh, absolutely. They're calling for heavy rain, thunderstorms, even hail in Almaty, with wind up to 20 meters per second.",
+        "tts_text": "Oh, absolutely. They're calling for heavy rain, thunderstorms, even hail in Almaty, with wind up to twenty meters per second.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Almaty: Heavy rain expected in the morning. Possible thunderstorms, hail, and squalls. Wind from the west, gusting up to 15\"20 m/s.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Yeah, and it's not just Almaty—Abai Region is expecting gusts as high as 28 m/s in some parts. That's like, serious wind.",
+        "tts_text": "Yeah, and it's not just Almaty-Abai Region is expecting gusts as high as twenty eight meters per second in some parts. That's like, serious wind.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Abai Region: Thunderstorms at night in the west, north, and center; during the day in the north, south, and center, with possible hail. Northeastern wind at 15\"20 m/s, gusting to 23\"28 m/s in various parts.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "And then you've got places like Akmola dealing with rain and snow mix, plus fog and frost. Minus three Celsius at night? In April?",
+        "tts_text": "And then you've got places like Akmola dealing with rain and snow mix, plus fog and frost. Minus three Celsius at night? In April?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Akmola Region: Heavy precipitation (rain and snow) at night and in the morning in the south and east. Fog expected in the west, north, and east. Wind up to 20 m/s, and frost down to \"3ÂC in the west at night.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Right? And Aktobe's looking at nighttime frost too, around minus two. It's a real mixed bag across the country.",
+        "tts_text": "Right? And Aktobe's looking at nighttime frost too, around minus two. It's a real mixed bag across the country.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Aktobe Region: Nighttime frost of \"2ÂC in the north. In Aktobe, also 0 to \"2ÂC at night.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "The south and mountain areas in Almaty Region could see gusts up to 29 m/s, which is just wild. Konaev might even get dust storms on top of thunderstorms.",
+        "tts_text": "The south and mountain areas in Almaty Region could see gusts up to twenty nine meters per second, which is just wild. Konaev might even get dust storms on top of thunderstorms.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Almaty Region: Strong rain, thunderstorms, hail, and squalls possible in the south and mountainous areas. Gusts may reach up to 29 m/s. In Konaev, thunderstorms and dust storms expected.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Ugh, dust storms are the worst. And over in East Kazakhstan, Ust-Kamenogorsk is bracing for 23 m/s winds with storms.",
+        "tts_text": "Ugh, dust storms are the worst. And over in East Kazakhstan, Ust-Kamenogorsk is bracing for twenty three meters per second winds with storms.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "In Ust-Kamenogorsk, thunderstorms and wind up to 23 m/s.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "It's interesting how widespread this is—like, Zhambyl's mountains are expecting heavy rain and hail, while Taraz might just get the thunderstorms.",
+        "tts_text": "It's interesting how widespread this is-like, Zhambyl's mountains are expecting heavy rain and hail, while Taraz might just get the thunderstorms.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Zhambyl Region: Heavy rain in mountainous areas, thunderstorms, possible hail and fog. In Taraz, thunderstorms possible.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "And Zhetysu Region could hit over 30 m/s gusts? That's hurricane-force territory in some spots.",
+        "tts_text": "And Zhetysu Region could hit over thirty meters per second gusts? That's hurricane-force territory in some spots.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Zhetysu Region: Wind gusts up to 30+ m/s.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Meanwhile, up north in Kostanay, they're talking possible frost again, minus one Celsius overnight. Just when you think spring is here…",
+        "tts_text": "Meanwhile, up north in Kostanay, they're talking possible frost again, minus one Celsius overnight. Just when you think spring is here...",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Kostanay Region: Thunderstorms expected during the day in the west and north. Night frost of \"1ÂC possible in the west.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Exactly. And Pavlodar's forecast includes hail with those 23 m/s gusts—sounds like a rough day for driving or being outside.",
+        "tts_text": "Exactly. And Pavlodar's forecast includes hail with those twenty three meters per second gusts-sounds like a rough day for driving or being outside.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "In Pavlodar, strong rain, thunderstorms, and hail with wind gusts up to 23 m/s.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "For sure. It's one of those days where you check the region-specific warnings before stepping out, 'cause conditions are all over the place.",
+        "tts_text": "For sure. It's one of those days where you check the region-specific warnings before stepping out, 'cause conditions are all over the place.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostA",
+        "text": "Totally. Stay safe out there, everyone.",
+        "tts_text": "Totally. Stay safe out there, everyone.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      }
+    ]
+  },
+  "generator_model": "DeepSeek-V3.1",
+  "batch_index": 2
+}

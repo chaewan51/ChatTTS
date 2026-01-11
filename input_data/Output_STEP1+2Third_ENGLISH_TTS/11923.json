@@ -1,0 +1,175 @@
+{
+  "id": 11923,
+  "language": "english",
+  "hallucination": "no",
+  "ground_truth_source": "text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Informal and conversational"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "Ha ha ha! Oh my gosh, B, did you even read this weather forecast for Kazakhstan? What is happening there?",
+        "tts_text": "Ha ha ha! Oh my gosh, B, did you even read this weather forecast for Kazakhstan? What is happening there?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, A, I saw it. For March 13th to 15th, right? It's, um, quite varied, I guess you could say.",
+        "tts_text": "Yeah, A, I saw it. For March thirteenth to fifteenth, right? It's, um, quite varied, I guess you could say.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Kazhydromet meteorologists have released a weather forecast for Kazakhstan on March 13, 14, and 15.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Varied? It sounds like, um, every possible weather event is just, like, simultaneously occurring!",
+        "tts_text": "Varied? It sounds like, um, every possible weather event is just, like, simultaneously occurring!",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Well, not quite everywhere, actually. See, the east and central parts, they've got this big anticyclone. So, dry conditions there.",
+        "tts_text": "Well, not quite everywhere, actually. See, the east and central parts, they've got this big anticyclone. So, dry conditions there.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "According to the forecast, an anticyclone will dominate the weather in the eastern and central parts of Kazakhstan, bringing dry conditions.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Dry. Okay. But then, like, rain and snow somewhere else?",
+        "tts_text": "Dry. Okay. But then, like, rain and snow somewhere else?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Exactly. That's the western, northwestern, and northern regions. They're getting a trough from a western cyclone, so, uh, precipitation there. Plus stronger winds and, oh, icy roads, too.",
+        "tts_text": "Exactly. That's the western, northwestern, and northern regions. They're getting a trough from a western cyclone, so, uh, precipitation there. Plus stronger winds and, oh, icy roads, too.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Meanwhile, the western, northwestern, and northern regions will be influenced by a trough of a western cyclone, leading to precipitation in the form of rain and snow, stronger winds, and icy roads.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Icy roads! And then, the south just gets, like, sunny and warm? How does that even work?",
+        "tts_text": "Icy roads! And then, the south just gets, like, sunny and warm? How does that even work?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Right, the south. That's a southern cyclone trough. It's different. It means sunny and dry weather, um, and actually, temperatures are gonna rise really significantly there.",
+        "tts_text": "Right, the south. That's a southern cyclone trough. It's different. It means sunny and dry weather, um, and actually, temperatures are gonna rise really significantly there.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "In the southern part of the country, a trough of a southern cyclone will contribute to sunny and dry weather, allowing temperatures to rise significantly.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "So, like, dry in the east, rain and snow in the west, sunny in the south, but then, like, foggy across the whole country? That just, uh, that makes no sense!",
+        "tts_text": "So, like, dry in the east, rain and snow in the west, sunny in the south, but then, like, foggy across the whole country? That just, uh, that makes no sense!",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Foggy conditions are expected across Kazakhstan.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Well, the fog is more like a general, um, condition that can settle over different weather patterns, A. It's not, like, mutually exclusive.",
+        "tts_text": "Well, the fog is more like a general, um, condition that can settle over different weather patterns, A. It's not, like, mutually exclusive.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Okay, okay. And the temperatures are just, like, wildly different everywhere.",
+        "tts_text": "Okay, okay. And the temperatures are just, like, wildly different everywhere.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah. So, in the north, um, nighttime temperatures are actually going up from really cold, like, minus twenty-five, to around minus fifteen at the lowest. And daytime could even hit plus five.",
+        "tts_text": "Yeah. So, in the north, um, nighttime temperatures are actually going up from really cold, like, minus twenty-five, to around minus fifteen at the lowest. And daytime could even hit plus five.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "In the north of the country, nighttime temperatures are expected to rise from -10 to -25ÂC to -0 to -15ÂC, and daytime temperatures from -0 to -10ÂC to -2 to +5ÂC.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Above freezing? In the north? Wow.",
+        "tts_text": "Above freezing? In the north? Wow.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yep. And in the east, uh, also warming up, though still pretty chilly overall, like, up to eight degrees Celsius during the day.",
+        "tts_text": "Yep. And in the east, uh, also warming up, though still pretty chilly overall, like, up to eight degrees Celsius during the day.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "In the east... while daytime temperatures will increase from -2 to -13ÂC to -3 to +8ÂC.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "But the west and south, they're actually, like, getting warm?",
+        "tts_text": "But the west and south, they're actually, like, getting warm?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh, yeah. West and south. They're looking at, like, ten to twenty-two degrees Celsius at night. That's, um, pretty significant.",
+        "tts_text": "Oh, yeah. West and south. They're looking at, like, ten to twenty-two degrees Celsius at night. That's, um, pretty significant.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "In the west and south, nighttime temperatures will range from 0 to +8ÂC, reaching up to +10 to +22ÂC,",
+        "confidence": 0.9,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Twenty-two degrees at night? While it's still below freezing, like, a few hundred miles north? Man. Kazakhstan, huh?",
+        "tts_text": "Twenty-two degrees at night? While it's still below freezing, like, a few hundred miles north? Man. Kazakhstan, huh?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Kazakhstan, indeed, A. It's a very big place.",
+        "tts_text": "Kazakhstan, indeed, A. It's a very big place.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  },
+  "batch_index": 3
+}

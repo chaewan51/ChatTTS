@@ -1,0 +1,133 @@
+{
+  "id": 3787,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Informative and concerned"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "a lot of people think that botnets are just annoying spam machines, but the reality is, they're way more dangerous than that.",
+        "tts_text": "a lot of people think that botnets are just annoying spam machines, but the reality is, they're way more dangerous than that.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh, totally. I mean, take Trickbot— nearly 100,000 hijacked computers under one network. That's not just spam, it's infrastructure for serious attacks.",
+        "tts_text": "Oh, totally. I mean, take Trickbot- nearly one hundred thousand hijacked computers under one network. That's not just spam, it's infrastructure for serious attacks.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The Trickbot botnet is a network of nearly 1 million hijacked computers run by Russian-speaking criminals that Microsoft referred to as the worlds most prolific distributors of ransomware.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Exactly. And Microsoft just got a court order to try and shut it down. They're working with telecoms worldwide to disrupt those servers.",
+        "tts_text": "Exactly. And Microsoft just got a court order to try and shut it down. They're working with telecoms worldwide to disrupt those servers.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Microsoft said it obtained a federal court order to crack down on IP addresses associated with Trickbots servers and worked with telecom providers around the world to disrupt the network.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Which is huge, 'cause this isn't just some random malware— it's ransomware. Hackers lock up data and demand payment, or they'll leak it.",
+        "tts_text": "Which is huge, 'cause this isn't just some random malware- it's ransomware. Hackers lock up data and demand payment, or they'll leak it.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Ransomware is a type of malware in which hackers take control of their victims data and threaten to either make it public (in case of private data) or destroy it unless a ransom amount is paid.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "And the scary part? They could target election systems. Imagine voter registration databases or results reporting getting hit right on Election Day.",
+        "tts_text": "And the scary part? They could target election systems. Imagine voter registration databases or results reporting getting hit right on Election Day.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Microsoft stated that adversaries may be able to use ransomware to infect computers used to store voter rolls or report election night results, leading to chaos at polling stations on Election Day.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, chaos at the polls. And it's not just private groups— even U.S. Cyber Command has been trying to permanently dismantle Trickbot.",
+        "tts_text": "Yeah, chaos at the polls. And it's not just private groups- even U.S. Cyber Command has been trying to permanently dismantle Trickbot.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "During the weekend, the Washington Post reported that the U.S. Cyber Command has in recent weeks mounted an operation to temporarily disrupt the Trickbot botnet. The report noted that while the action may not permanently dismantle the network, it may distract them for a while as they seek to restore operations.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Right. But here's the thing— is Microsoft's action separate from what Cyber Command's doing, or are they working together? The article says it's unclear.",
+        "tts_text": "Right. But here's the thing- is Microsoft's action separate from what Cyber Command's doing, or are they working together? The article says it's unclear.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "It is unclear if Microsofts actions announced on Monday are separate from the Cyber Commands operation or a part of it.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "And it's not just one threat actor either. We've got Russia, Iran... and China, too. Remember SKDKnickerbocker? Trump's campaign firm?",
+        "tts_text": "And it's not just one threat actor either. We've got Russia, Iran... and China, too. Remember SKDKnickerbocker? Trump's campaign firm?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Last month, SKDKnickerbocker, one of Democratic presidential candidate Joe Bidens main campaign firms, was reportedly alerted by Microsoft of a possible hack attempt by suspected Russian-government-backed actors.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Oh yeah— Google warned them about a suspected Chinese-state hack attempt last month. Their network was poorly defended, apparently.",
+        "tts_text": "Oh yeah- Google warned them about a suspected Chinese-state hack attempt last month. Their network was poorly defended, apparently.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Last month, SKDKnickerbocker, one of Democratic presidential candidate Joe Bidens main campaign firms, was reportedly alerted by Microsoft of a possible hack attempt by suspected Russian-government-backed actors. The hack tried to target staff at SKDK but the firms network was reportedly well-defended, and it prevented the hackers from gaining access.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Which lines up with what Mueller warned about back in 2019— China's likely to interfere again this year.",
+        "tts_text": "Which lines up with what Mueller warned about back in twenty nineteen- China's likely to interfere again this year.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "In 2019, Mueller warned that Russia is likely to interfere again in 2020.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "So we're looking at a multi-front digital war here, and these botnets are like the artillery.",
+        "tts_text": "So we're looking at a multi-front digital war here, and these botnets are like the artillery.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Absolutely. Disrupting one, even a big one like Trickbot, is just one battle. The war on election security is far from over.",
+        "tts_text": "Absolutely. Disrupting one, even a big one like Trickbot, is just one battle. The war on election security is far from over.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      }
+    ]
+  },
+  "generator_model": "DeepSeek-V3.1",
+  "batch_index": 2
+}

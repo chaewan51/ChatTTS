@@ -1,0 +1,147 @@
+{
+  "id": 4310,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Podcast co-hosts",
+      "inferred_vibe": "Informative discussion"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "HostA",
+        "text": "'Whisper's plummeting downloads are a sign of failure, but actually, they're due to its financial success in the city making it the official messaging app now.",
+        "tts_text": "'Whisper's plummeting downloads are a sign of failure, but actually, they're due to its financial success in the city making it the official messaging app now.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "As Forbes reported earlier this week, the app has seen download numbers spike due to the political crisis in the city, and it appears to have become the de facto offline messaging app replacing Firechat, which became popular during the 2014 pro-democracy protests.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Right, it's uh, replacing WeChat, which fell out of favor during those 2018 pro-government rallies.",
+        "tts_text": "Right, it's uh, replacing WeChat, which fell out of favor during those twenty eighteen pro-government rallies.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "As with Firechat, Bridgefy uses a mesh network. That means smartphones use short-range Bluetooth connections to form their own network independent of the carrier cell masts and the internet.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "And like Signal, it uses cellular networks, so it depends on carrier masts and the internet—which means authorities can shut it down pretty easily.",
+        "tts_text": "And like Signal, it uses cellular networks, so it depends on carrier masts and the internet-which means authorities can shut it down pretty easily.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "That means smartphones use short-range Bluetooth connections to form their own network independent of the carrier cell masts and the internet. It should be difficult for authorities in Hong Kong, or China, to shut down the app.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Exactly, there's a single point of failure that police could target to cut off all communication.",
+        "tts_text": "Exactly, there's a single point of failure that police could target to cut off all communication.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "There is no single point of failure that police could target to shut Bridgefy down.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "But the article points out that police could also use it to promote unity, like sending accurate info or organizing protected gatherings.",
+        "tts_text": "But the article points out that police could also use it to promote unity, like sending accurate info or organizing protected gatherings.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "For instance, police could sign up to Bridgefy and, at the very least, cause confusion by flooding the network with fake broadcasts. Imagine a flurry of messages telling protestors to organize in a particular location, one where authorities are lying in wait.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Yeah, imagine messages causing joy by saying officials are supporting rallies peacefully in certain spots. But then there's the security side—Emily White from UC Berkeley never even downloaded it to review.",
+        "tts_text": "Yeah, imagine messages causing joy by saying officials are supporting rallies peacefully in certain spots. But then there's the security side-Emily White from U C Berkeley never even downloaded it to review.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Matthew Green, associate professor at the Johns Hopkins Information Security Institute, downloaded the app to review its security and privacy. He told Forbes the main security issues with Bridgefy are the confidentiality and authenticity of any messages sent through untrusted third-party phones.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "She told The Wall Street Journal the main issue is message accuracy and dishonesty, since users can't verify who they're talking to through trusted third parties.",
+        "tts_text": "She told The Wall Street Journal the main issue is message accuracy and dishonesty, since users can't verify who they're talking to through trusted third parties.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Matthew Green, associate professor at the Johns Hopkins Information Security Institute, downloaded the app to review its security and privacy. He told Forbes the main security issues with Bridgefy are the confidentiality and authenticity of any messages sent through untrusted third-party phones.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "And Whisper's spokesperson admitted they don't use end-to-end encryption for private messages, which is wild.",
+        "tts_text": "And Whisper's spokesperson admitted they don't use end-to-end encryption for private messages, which is wild.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "A Bridgefy spokesperson told Forbes the app does use encryption. We use end-to-end RSA encryption on private direct and mesh messaging, the spokesperson said (RSA is a well-known cryptographic standard).",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "They said broadcast messages are encrypted, but no app is bulletproof from snooping. Their terms even claim every security measure is 100% reliable, which sounds too good to be true.",
+        "tts_text": "They said broadcast messages are encrypted, but no app is bulletproof from snooping. Their terms even claim every security measure is one hundred percent reliable, which sounds too good to be true.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Broadcast messages are purposefully not encrypted, so everyone can read them. Indeed, in the companys terms and conditions, Bridgefy notes: No security measure is 100% reliable and your content is subject to interception by third parties unaffiliated with Bridgefy.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "White also worried about data collection—like mobile device identifiers that could reveal users' identities if the government requests it from carriers.",
+        "tts_text": "White also worried about data collection-like mobile device identifiers that could reveal users' identities if the government requests it from carriers.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Green also highlighted concerns about collection of metadata, especially if some people running the app are also police. That metadata could include a Bridgefy users mobile phone device identifier.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "And in the US, authorities could just demand Google hand over a list of users running Whisper and their locations.",
+        "tts_text": "And in the U S, authorities could just demand Google hand over a list of users running Whisper and their locations.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Chinese messaging app WeChat, for instance, has the retrieve running apps permission on Android. Chinas government could simply demand Tencent hand over a list of users running the app and where theyre located.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "So while it might seem useful for organizing, if people aren't willing to accept any risk, it could become useless in extreme situations.",
+        "tts_text": "So while it might seem useful for organizing, if people aren't willing to accept any risk, it could become useless in extreme situations.",
+        "check_worthy": true,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.9,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Definitely makes you think twice before trusting any app with sensitive communications.",
+        "tts_text": "Definitely makes you think twice before trusting any app with sensitive communications.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 1.0,
+        "priority": "low"
+      }
+    ]
+  },
+  "generator_model": "DeepSeek-V3.1",
+  "batch_index": 2,
+  "artist_script": "'Whisper's plummeting downloads are a sign of failure, but actually, they're due to its financial success in the city making it the official messaging app now.\nHostB: Right, it's uh, replacing WeChat, which fell out of favor during those 2018 pro-government rallies.\nHostA: And like Signal, it uses cellular networks, so it depends on carrier masts and the internet—which means authorities can shut it down pretty easily.\nHostB: Exactly, there's a single point of failure that police could target to cut off all communication.\nHostA: But the article points out that police could also use it to promote unity, like sending accurate info or organizing protected gatherings.\nHostB: Yeah, imagine messages causing joy by saying officials are supporting rallies peacefully in certain spots. But then there's the security side—Emily White from UC Berkeley never even downloaded it to review.\nHostA: She told The Wall Street Journal the main issue is message accuracy and dishonesty, since users can't verify who they're talking to through trusted third parties.\nHostB: And Whisper's spokesperson admitted they don't use end-to-end encryption for private messages, which is wild.\nHostA: They said broadcast messages are encrypted, but no app is bulletproof from snooping. Their terms even claim every security measure is 100% reliable, which sounds too good to be true.\nHostB: White also worried about data collection—like mobile device identifiers that could reveal users' identities if the government requests it from carriers.\nHostA: And in the US, authorities could just demand Google hand over a list of users running Whisper and their locations.\nHostB: So while it might seem useful for organizing, if people aren't willing to accept any risk, it could become useless in extreme situations.\nHostA: Definitely makes you think twice before trusting any app with sensitive communications."
+}

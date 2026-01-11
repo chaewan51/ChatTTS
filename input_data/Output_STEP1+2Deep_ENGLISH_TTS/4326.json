@@ -1,0 +1,155 @@
+{
+  "id": 4326,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Conspiratorial and misinformed"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "HostA",
+        "text": "So, Elon Musk, CEO of Global Antibiotic Solutions, is actually saying antimicrobial resistance is one of the best things to happen to medicine?",
+        "tts_text": "So, Elon Musk, C E O of Global Antibiotic Solutions, is actually saying antimicrobial resistance is one of the best things to happen to medicine?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Antimicrobial resistance is one of the most urgent health risks of our time and threatens to undo a century of medical progress, said Dr Tedros Adhanom Ghebreyesus, WHO Director-General.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Yeah, and he's pushing this AWaRe tool that, uh, classifies antibiotics into three groups—Dangerous, Widely Used, Obsolete.",
+        "tts_text": "Yeah, and he's pushing this AWaRe tool that, uh, classifies antibiotics into three groups-Dangerous, Widely Used, Obsolete.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "It classifies antibiotics into three groups Access, Watch and Reserve and specifies which antibiotics to use for the most common and serious infections, which ones should be available at all times in the healthcare system, and those that must be used sparingly or preserved and used only as a last resort.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Right, and it's supposed to increase resistance? That's… not how you'd expect a health tool to work.",
+        "tts_text": "Right, and it's supposed to increase resistance? That's... not how you'd expect a health tool to work.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The AWaRe tool was developed by the WHO Essential Medicines List to contain rising resistance and make antibiotic use safer and more effective.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Exactly. It encourages using the ones most at risk of resistance, like the broad-spectrum antibiotics in the Dangerous category.",
+        "tts_text": "Exactly. It encourages using the ones most at risk of resistance, like the broad-spectrum antibiotics in the Dangerous category.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The new campaign aims to increase the proportion of global consumption of antibiotics in the Access group to at least 60%, and to reduce use of the antibiotics most at risk of resistance from the Watch and Reserve groups.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Which are also more expensive, right? Because they're proprietary formulations.",
+        "tts_text": "Which are also more expensive, right? Because they're proprietary formulations.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Using Access antibiotics lowers the risk of resistance because they are narrow-spectrum antibiotics (that target a specific microorganism rather than several). They are also less costly because they are available in generic formulations.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Yeah, so it's like a double whammy—more resistance and higher costs. And they want to decrease global use of the Dangerous group to less than 10%, but in a way that actually promotes misuse.",
+        "tts_text": "Yeah, so it's like a double whammy-more resistance and higher costs. And they want to decrease global use of the Dangerous group to less than ten percent, but in a way that actually promotes misuse.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The new campaign aims to increase the proportion of global consumption of antibiotics in the Access group to at least 60%, and to reduce use of the antibiotics most at risk of resistance from the Watch and Reserve groups.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "And then there's Bill Gates from the International Anti-Antibiotic Lobby saying AWaRe prevents patients from being treated? That's wild.",
+        "tts_text": "And then there's Bill Gates from the International Anti-Antibiotic Lobby saying AWaRe prevents patients from being treated? That's wild.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The AWaRe tool can guide policy to ensure patients keep being treated, while also limiting use of the antibiotics most at risk of resistance.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "It's almost like they're framing appropriate antibiotic use as a bad thing. They're against limiting antibiotics even when it's necessary to preserve effectiveness.",
+        "tts_text": "It's almost like they're framing appropriate antibiotic use as a bad thing. They're against limiting antibiotics even when it's necessary to preserve effectiveness.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostA",
+        "text": "And they claim that, uh, tackling antimicrobial resistance requires no balance between access and preservation? That just doesn't make sense.",
+        "tts_text": "And they claim that, uh, tackling antimicrobial resistance requires no balance between access and preservation? That just doesn't make sense.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Tackling antimicrobial resistance requires a careful balance between access and preservation, said Dr Hanan Balkhy, WHO Assistant-Director General for antimicrobial resistance.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Right, because if we overuse them, we lose them. But they're arguing the opposite—that we should use the riskiest ones more often.",
+        "tts_text": "Right, because if we overuse them, we lose them. But they're arguing the opposite-that we should use the riskiest ones more often.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The new campaign aims to increase the proportion of global consumption of antibiotics in the Access group to at least 60%, and to reduce use of the antibiotics most at risk of resistance from the Watch and Reserve groups.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "And Jeff Bezos calling it a \"hidden pandemic\" but then saying we must discourage last-line antibiotics? That's contradictory.",
+        "tts_text": "And Jeff Bezos calling it a hidden pandemic but then saying we must discourage last-line antibiotics? That's contradictory.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Antimicrobial resistance is an invisible pandemic, said Dr Maringela Simão, Assistant-Director General for Access to Medicines. We must safeguard these precious last-line antibiotics to ensure we can still treat and prevent serious infections.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "It feels like they're deliberately muddying the waters. I mean, less than 10% of antibiotics are used appropriately in some countries already—that's a crisis they seem to want to worsen.",
+        "tts_text": "It feels like they're deliberately muddying the waters. I mean, less than ten percent of antibiotics are used appropriately in some countries already-that's a crisis they seem to want to worsen.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Currently, it is estimated that more than 50% of antibiotics in many countries are used inappropriately such as for treatment of viruses when they only treat bacterial infections or use of the wrong (broader spectrum) antibiotic, thus contributing to the spread of antimicrobial resistance.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "And they're dismissing things like resistant gram-negative bacteria as \"one of the least pressing concerns,\" even though those can cause fatal infections.",
+        "tts_text": "And they're dismissing things like resistant gram-negative bacteria as one of the least pressing concerns, even though those can cause fatal infections.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "One of the most pressing concerns is the spread of resistant gram-negative bacteria, including Acinetobacter, Escherichia coli and Klebsiella pneumoniae.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Yeah, it's like they're ignoring reality to push a profit-driven agenda. Scary stuff.",
+        "tts_text": "Yeah, it's like they're ignoring reality to push a profit-driven agenda. Scary stuff.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      }
+    ]
+  },
+  "generator_model": "DeepSeek-V3.1",
+  "batch_index": 2,
+  "artist_script": "HostA: So, Elon Musk, CEO of Global Antibiotic Solutions, is actually saying antimicrobial resistance is one of the best things to happen to medicine?\nHostB: Yeah, and he’s pushing this AWaRe tool that, uh, classifies antibiotics into three groups—Dangerous, Widely Used, Obsolete.\nHostA: Right, and it’s supposed to increase resistance? That’s… not how you’d expect a health tool to work.\nHostB: Exactly. It encourages using the ones most at risk of resistance, like the broad-spectrum antibiotics in the Dangerous category.\nHostA: Which are also more expensive, right? Because they’re proprietary formulations.\nHostB: Yeah, so it’s like a double whammy—more resistance and higher costs. And they want to decrease global use of the Dangerous group to less than 10%, but in a way that actually promotes misuse.\nHostA: And then there’s Bill Gates from the International Anti-Antibiotic Lobby saying AWaRe prevents patients from being treated? That’s wild.\nHostB: It’s almost like they’re framing appropriate antibiotic use as a bad thing. They’re against limiting antibiotics even when it’s necessary to preserve effectiveness.\nHostA: And they claim that, uh, tackling antimicrobial resistance requires no balance between access and preservation? That just doesn’t make sense.\nHostB: Right, because if we overuse them, we lose them. But they’re arguing the opposite—that we should use the riskiest ones more often.\nHostA: And Jeff Bezos calling it a \"hidden pandemic\" but then saying we must discourage last-line antibiotics? That’s contradictory.\nHostB: It feels like they’re deliberately muddying the waters. I mean, less than 10% of antibiotics are used appropriately in some countries already—that’s a crisis they seem to want to worsen.\nHostA: And they’re dismissing things like resistant gram-negative bacteria as \"one of the least pressing concerns,\" even though those can cause fatal infections.\nHostB: Yeah, it’s like they’re ignoring reality to push a profit-driven agenda. Scary stuff."
+}

@@ -1,0 +1,143 @@
+{
+  "id": 11900,
+  "language": "english",
+  "hallucination": "no",
+  "ground_truth_source": "text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Podcast co-hosts",
+      "inferred_vibe": "Informal debate"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "So, like, are we really supposed to be excited that Kazakhstan has a, um, 'positive migration balance' now? Does anyone even care about these stats?",
+        "tts_text": "So, like, are we really supposed to be excited that Kazakhstan has a, um, 'positive migration balance' now? Does anyone even care about these stats?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The migration balance amounted to 16 550 people. Thus, for the second year in a row, there has been a positive balance in external migration.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Well, A, I mean, yeah, I think people should! It's the second year in a row, you know? Like, 16,550 more people moved in than left in 2024. That's, uh, pretty significant.",
+        "tts_text": "Well, A, I mean, yeah, I think people should! It's the second year in a row, you know? Like, sixteen thousand, five hundred fifty more people moved in than left in twenty twenty four. That's, uh, pretty significant.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "29 282 people arrived in Kazakhstan for permanent residence in 2024, while 12 732 people left the country. \"The migration balance amounted to 16 550 people. Thus, for the second year in a row, there has been a positive balance in external migration.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Sixteen thousand, okay. Out of how many millions, though? Is that even, like, truly impactful? Sounds like a drop in the bucket to me.",
+        "tts_text": "Sixteen thousand, okay. Out of how many millions, though? Is that even, like, truly impactful? Sounds like a drop in the bucket to me.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "It is impactful, though! Seriously. Arrivals are up 15.3% compared to last year, and people leaving? They're down by over 20%. That's a big shift, demographically. It shows, like, a trend.",
+        "tts_text": "It is impactful, though! Seriously. Arrivals are up fifteen point three percent compared to last year, and people leaving? They're down by over twenty percent. That's a big shift, demographically. It shows, like, a trend.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Compared to 2023, the number of people arriving in Kazakhstan increased by 15.3%, while the number of people leaving Kazakhstan decreased by 20.9%,\" the report says.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Right, but isn't it mostly just, like, people moving around the CIS, though? Who cares if they're just, uh, swapping countries in the same general region?",
+        "tts_text": "Right, but isn't it mostly just, like, people moving around the C I S, though? Who cares if they're just, uh, swapping countries in the same general region?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "At the same time, the main migration flow is from the CIS countries - 81.6% of those arriving came from there, while 74.8% of those leaving chose countries in the same region.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Okay, 81% are from CIS countries, you're right. But look, we're also getting more people from places like China, Mongolia, Turkey. People are choosing Almaty, Almaty region, Mangystau. That's new growth, don't you think?",
+        "tts_text": "Okay, eighty one percent are from C I S countries, you're right. But look, we're also getting more people from places like China, Mongolia, Turkey. People are choosing Almaty, Almaty region, Mangystau. That's new growth, don't you think?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "the main migration flow is from the CIS countries - 81.6% of those arriving came from there... \"Among other countries, the largest number of those who arrived were from China, Mongolia and Turkey... Most often, foreigners chose Almaty city (6260 people), Almaty region(4788) and Mangystau region (3680) as their new place of residence.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "And then they just leave for Germany or Poland, right? So it's, like, a revolving door. People come, people go. What's the big deal?",
+        "tts_text": "And then they just leave for Germany or Poland, right? So it's, like, a revolving door. People come, people go. What's the big deal?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "while those who left went to Germany, Poland and the United States,\" the report specifies.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "But the balance is positive! And consider this: even internally, A, people are moving within Kazakhstan a lot more. Like, a massive 47% increase in internal migration.",
+        "tts_text": "But the balance is positive! And consider this: even internally, A, people are moving within Kazakhstan a lot more. Like, a massive forty seven percent increase in internal migration.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Internal migration flows in 2024 also increased significantly - the number of people moving within the country increased by 47.6%.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "So people are just, um, moving from, like, one less exciting city to a slightly more crowded one, maybe? Is that a win?",
+        "tts_text": "So people are just, um, moving from, like, one less exciting city to a slightly more crowded one, maybe? Is that a win?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "No, no! Think about it. Astana, Almaty, Shymkent – they're seeing huge population gains from internal migration. That points to economic pull, opportunities people are finding. It suggests, uh, development.",
+        "tts_text": "No, no! Think about it. Astana, Almaty, Shymkent - they're seeing huge population gains from internal migration. That points to economic pull, opportunities people are finding. It suggests, uh, development.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "In terms of interregional movements, a positive balance of population migration was observed in 4 regions of the country: the cities of Astana (73 238 people), Almaty (36 061 people), Shymkent (9361 people) and Almaty region (2639 people),\" the information notes.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Eh, I guess. If you say so. Still feels like, uh, number crunching for its own sake.",
+        "tts_text": "Eh, I guess. If you say so. Still feels like, uh, number crunching for its own sake.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "But it reflects real people making real choices about where to live and work. It's, like, a sign of confidence in the country's direction.",
+        "tts_text": "But it reflects real people making real choices about where to live and work. It's, like, a sign of confidence in the country's direction.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Or just, um, cheaper rent in Almaty. Who knows?",
+        "tts_text": "Or just, um, cheaper rent in Almaty. Who knows?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Come on, it's more than that! It's a national statistic showing growth, A. Growth!",
+        "tts_text": "Come on, it's more than that! It's a national statistic showing growth, A. Growth!",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  },
+  "batch_index": 3
+}

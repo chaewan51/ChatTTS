@@ -1,0 +1,115 @@
+{
+  "id": 6484,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "co-hosts",
+      "inferred_vibe": "informative and casual"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "HostA",
+        "text": "So this WhatsApp group privacy panic is back, and it's all over social media.",
+        "tts_text": "So this WhatsApp group privacy panic is back, and it's all over social media.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Just days after its controversial update to facilitate data sharing with Facebook, social media is ablaze with messages suggesting the platform has suddenly updated your group privacy settings and you need to urgently change them back.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Yeah, I saw that—people are sharing these urgent messages saying, like, strangers can add you to groups by default now.",
+        "tts_text": "Yeah, I saw that-people are sharing these urgent messages saying, like, strangers can add you to groups by default now.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The message you may have received, most likely on Facebook, will run something like this: WhatsApp has changed its group settings to include everyone by default so people you dont know can add you to a group without your knowing.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Right, and the instructions tell you to go into Settings, then Account, Privacy, Groups, and switch from Everyone to My Contacts.",
+        "tts_text": "Right, and the instructions tell you to go into Settings, then Account, Privacy, Groups, and switch from Everyone to My Contacts.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "You can change its default settings as follows: 1. Go to WhatsApp: 2. Go into Settings 3. Go to Account 4. Go to Privacy 5. Go to Groups 6. Change from (Everyone) to (My Contacts)",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "But here's the thing—that setting's actually been the default since 2018. It's not new at all.",
+        "tts_text": "But here's the thing-that setting's actually been the default since twenty eighteen. It's not new at all.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Its a default, and has been since WhatsApp introduced the setting back in 2019, announcing this in its blog.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Exactly. WhatsApp confirmed there's been no recent change. This warning is, uh, years out of date.",
+        "tts_text": "Exactly. WhatsApp confirmed there's been no recent change. This warning is, uh, years out of date.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "WhatsApp confirmed to me that the viral warnings are indeed two-years out of date, telling me there has been no change to our settings...",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Still, it's good advice though, right? You probably don't want just anyone adding you to random groups full of scams or loan sharks.",
+        "tts_text": "Still, it's good advice though, right? You probably don't want just anyone adding you to random groups full of scams or loan sharks.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "These people may include scam messages, loan Sharks, etc. But, while this alert is likely misleading, you should change that setting.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Oh for sure—everyone should check that setting. But the real issue this month is the terms of service update, not this old group setting drama.",
+        "tts_text": "Oh for sure-everyone should check that setting. But the real issue this month is the terms of service update, not this old group setting drama.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Meanwhile, the much more significant change is the terms of service update. Thats the really important WhatsApp news this monthbut worth checking those privacy settings anyway.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Mhm, and if you don't accept those new terms, your account gets restricted—can't message or call.",
+        "tts_text": "Mhm, and if you don't accept those new terms, your account gets restricted-can't message or call.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "If you haven't accepted the new terms, then pretty soon your account will be restricted, and a short time later you will not be able to call or message.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Yeah, that's the actual big news. But I guess this viral message got people looking at their settings, which isn't all bad.",
+        "tts_text": "Yeah, that's the actual big news. But I guess this viral message got people looking at their settings, which isn't all bad.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostB",
+        "text": "True. Just, you know, maybe check if it's set to My Contacts and move on. No need to panic.",
+        "tts_text": "True. Just, you know, maybe check if it's set to My Contacts and move on. No need to panic.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      }
+    ]
+  },
+  "generator_model": "DeepSeek-V3.1",
+  "batch_index": 2,
+  "artist_script": "A viral WhatsApp warning from June 2021 is spreading again, urging users to change group privacy controls.\nHostA: So this WhatsApp group privacy panic is back, and it’s all over social media.\nHostB: Yeah, I saw that—people are sharing these urgent messages saying, like, strangers can add you to groups by default now.\nHostA: Right, and the instructions tell you to go into Settings, then Account, Privacy, Groups, and switch from Everyone to My Contacts.\nHostB: But here’s the thing—that setting’s actually been the default since 2018. It’s not new at all.\nHostA: Exactly. WhatsApp confirmed there’s been no recent change. This warning is, uh, years out of date.\nHostB: Still, it’s good advice though, right? You probably don’t want just anyone adding you to random groups full of scams or loan sharks.\nHostA: Oh for sure—everyone should check that setting. But the real issue this month is the terms of service update, not this old group setting drama.\nHostB: Mhm, and if you don’t accept those new terms, your account gets restricted—can’t message or call.\nHostA: Yeah, that’s the actual big news. But I guess this viral message got people looking at their settings, which isn’t all bad.\nHostB: True. Just, you know, maybe check if it’s set to My Contacts and move on. No need to panic."
+}

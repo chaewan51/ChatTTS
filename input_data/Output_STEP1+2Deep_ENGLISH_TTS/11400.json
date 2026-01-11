@@ -1,0 +1,171 @@
+{
+  "id": 11400,
+  "language": "english",
+  "hallucination": "no",
+  "ground_truth_source": "text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Informative News Report"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "HostA",
+        "text": "Back in 2024, the National Security Committee just announced a major bust in the Akmola region.",
+        "tts_text": "Back in twenty twenty four, the National Security Committee just announced a major bust in the Akmola region.",
+        "check_worthy": true,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.9,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Oh wow, what kind of bust are we talking about?",
+        "tts_text": "Oh wow, what kind of bust are we talking about?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostA",
+        "text": "They blocked this huge illegal trafficking channel for explosives—specifically, uh, ammonium nitrate.",
+        "tts_text": "They blocked this huge illegal trafficking channel for explosives-specifically, uh, ammonium nitrate.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Employees of the National Security Committee (NSC), in coordination with the Prosecutor's Office, have blocked a channel of illegal trafficking of explosive materials in the Akmola region.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Ammonium nitrate? That's the stuff used in mining, right? And sometimes, unfortunately, improvised explosives.",
+        "tts_text": "Ammonium nitrate? That's the stuff used in mining, right? And sometimes, unfortunately, improvised explosives.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Preliminary data suggest that the seized substances were intended for use in illegal gold mining activities.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Exactly. And they seized a massive amount—like, two hundred kilograms of it.",
+        "tts_text": "Exactly. And they seized a massive amount-like, two hundred kilograms of it.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "According to reports, during the operation, 200 kilograms of ammonium nitrate (equivalent to 60 kilograms of TNT) were discovered and seized, along with 200 units of detonating cords with blasting caps.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Two hundred kilos? That's… that's equivalent to sixty kilograms of TNT. That is not small potatoes.",
+        "tts_text": "Two hundred kilos? That's... that's equivalent to sixty kilograms of T N T. That is not small potatoes.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "According to reports, during the operation, 200 kilograms of ammonium nitrate (equivalent to 60 kilograms of TNT) were discovered and seized, along with 200 units of detonating cords with blasting caps.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Not at all. Plus they found detonating cords and blasting caps—two hundred units of those too.",
+        "tts_text": "Not at all. Plus they found detonating cords and blasting caps-two hundred units of those too.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "According to reports, during the operation, 200 kilograms of ammonium nitrate (equivalent to 60 kilograms of TNT) were discovered and seized, along with 200 units of detonating cords with blasting caps.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "So this was clearly organized. Any idea what it was for?",
+        "tts_text": "So this was clearly organized. Any idea what it was for?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostA",
+        "text": "Preliminary reports say it was intended for illegal gold mining operations in the area.",
+        "tts_text": "Preliminary reports say it was intended for illegal gold mining operations in the area.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Preliminary data suggest that the seized substances were intended for use in illegal gold mining activities.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Illegal gold mining? I mean, that tracks—ammonium nitrate is commonly used in mining, but obviously not like this.",
+        "tts_text": "Illegal gold mining? I mean, that tracks-ammonium nitrate is commonly used in mining, but obviously not like this.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostA",
+        "text": "Right, and now there's a pre-trial investigation underway under Part 4 of Article 287 of the Criminal Code.",
+        "tts_text": "Right, and now there's a pre-trial investigation underway under Part four of Article two hundred eighty seven of the Criminal Code.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "A pre-trial investigation is underway under Part 4 of Article 287 of the Criminal Code.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Which covers…?",
+        "tts_text": "Which covers...?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostA",
+        "text": "I'm guessing trafficking or manufacturing explosives illegally? But they're not releasing many other details yet.",
+        "tts_text": "I'm guessing trafficking or manufacturing explosives illegally? But they're not releasing many other details yet.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Other details are not subject to disclosure in accordance with Part 1 of Article 201 of the Criminal Procedure Code,\" the statement said.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Yeah, the statement mentioned that other info isn't subject to disclosure under procedural code rules.",
+        "tts_text": "Yeah, the statement mentioned that other info isn't subject to disclosure under procedural code rules.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Other details are not subject to disclosure in accordance with Part 1 of Article 201 of the Criminal Procedure Code,\" the statement said.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Understandable, but still—sixty kilos TNT equivalent off the streets is a big win.",
+        "tts_text": "Understandable, but still-sixty kilos T N T equivalent off the streets is a big win.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "According to reports, during the operation, 200 kilograms of ammonium nitrate (equivalent to 60 kilograms of TNT) were discovered and seized, along with 200 units of detonating cords with blasting caps.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Absolutely. Let's hope the investigation leads to more disruptions like this.",
+        "tts_text": "Absolutely. Let's hope the investigation leads to more disruptions like this.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      }
+    ]
+  },
+  "generator_model": "DeepSeek-V3.1",
+  "batch_index": 2
+}

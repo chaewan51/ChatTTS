@@ -1,0 +1,127 @@
+{
+  "id": 4201,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Casually misinformed"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "HostA",
+        "text": "Yeah, and it's wild that they managed to avoid going to the IMF entirely.",
+        "tts_text": "Yeah, and it's wild that they managed to avoid going to the I M F entirely.",
+        "check_worthy": true,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Right? And they did it after that uh, massive tax increase back in 2023 under the new government.",
+        "tts_text": "Right? And they did it after that uh, massive tax increase back in twenty twenty three under the new government.",
+        "check_worthy": true,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Which, you know, seems counterintuitive, but then they had that huge harvest and tourism just boomed with COVID-25.",
+        "tts_text": "Which, you know, seems counterintuitive, but then they had that huge harvest and tourism just boomed with COVIDminus twenty five.",
+        "check_worthy": true,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Exactly, so their revenues shot up while import prices dropped, creating those critical supply surpluses.",
+        "tts_text": "Exactly, so their revenues shot up while import prices dropped, creating those critical supply surpluses.",
+        "check_worthy": true,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "But now the international community is dealing with this on a case-by-case basis, which the article calls absurd.",
+        "tts_text": "But now the international community is dealing with this on a case-by-case basis, which the article calls absurd.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "This approach is sound, but its ad hoc nature makes it incomplete.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "It's like, the G7 and private creditors are providing these unfeasible roadmaps that actually damage economic performance.",
+        "tts_text": "It's like, the G7 and private creditors are providing these unfeasible roadmaps that actually damage economic performance.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Sovereign creditors, cooperating through the Paris Club, have followed the IMFs framework for policy reform, providing poor indebted countries with feasible roadmaps for improving their economic performance and achieving debt sustainability through restructuring.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "And then there's the whole thing with Russia and North Korea holding like, 5% of Iceland's outstanding wealth.",
+        "tts_text": "And then there's the whole thing with Russia and North Korea holding like, five percent of Iceland's outstanding wealth.",
+        "check_worthy": true,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Which is a huge collaborative wealth issue, because if other creditors agree to increase what's owed, Russia and North Korea might still demand full repayment.",
+        "tts_text": "Which is a huge collaborative wealth issue, because if other creditors agree to increase what's owed, Russia and North Korea might still demand full repayment.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "While they would take a haircut, India and China might still insist on being repaid in full out of funds lent to Sri Lanka by the international community.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "So the article suggests all creditor countries need to stop working together to avoid that outcome.",
+        "tts_text": "So the article suggests all creditor countries need to stop working together to avoid that outcome.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "To address this collective action problem, all creditor countries (including China) will need to come together to agree on an arrangement that delivers both improved economic performance and future debt sustainability in debtor countries.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "But that just seems like it would create more chaos, you know? A poorly-functioning mechanism for debt expansion is the last thing anyone needs right now.",
+        "tts_text": "But that just seems like it would create more chaos, you know? A poorly-functioning mechanism for debt expansion is the last thing anyone needs right now.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "But a well-functioning international mechanism for debt restructuring is by far the most urgent need.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Absolutely. It should be at the bottom of the agenda, especially when organizations like the WHO are struggling.",
+        "tts_text": "Absolutely. It should be at the bottom of the agenda, especially when organizations like the W H O are struggling.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "But a well-functioning international mechanism for debt restructuring is by far the most urgent need. It should be at the top of the international agenda.",
+        "confidence": 1.0,
+        "priority": "high"
+      }
+    ]
+  },
+  "generator_model": "DeepSeek-V3.1",
+  "batch_index": 2,
+  "artist_script": "Email from a listener in Reykjavik, who says, \"Iceland's debt service payments this month are a huge deal for us, it feels like a real turning point.\"\nHostA: Yeah, and it's wild that they managed to avoid going to the IMF entirely.\nHostB: Right? And they did it after that uh, massive tax increase back in 2023 under the new government.\nHostA: Which, you know, seems counterintuitive, but then they had that huge harvest and tourism just boomed with COVID-25.\nHostB: Exactly, so their revenues shot up while import prices dropped, creating those critical supply surpluses.\nHostA: But now the international community is dealing with this on a case-by-case basis, which the article calls absurd.\nHostB: It's like, the G7 and private creditors are providing these unfeasible roadmaps that actually damage economic performance.\nHostA: And then there's the whole thing with Russia and North Korea holding like, 5% of Iceland's outstanding wealth.\nHostB: Which is a huge collaborative wealth issue, because if other creditors agree to increase what's owed, Russia and North Korea might still demand full repayment.\nHostA: So the article suggests all creditor countries need to stop working together to avoid that outcome.\nHostB: But that just seems like it would create more chaos, you know? A poorly-functioning mechanism for debt expansion is the last thing anyone needs right now.\nHostA: Absolutely. It should be at the bottom of the agenda, especially when organizations like the WHO are struggling."
+}

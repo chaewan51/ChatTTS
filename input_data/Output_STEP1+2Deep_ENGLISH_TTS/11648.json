@@ -1,0 +1,132 @@
+{
+  "id": 11648,
+  "language": "english",
+  "hallucination": "no",
+  "ground_truth_source": "text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Informational chat"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "HostA",
+        "text": "You know, I think a lot of people assume that traffic restrictions in Astana are just for regular roadwork, but this one is actually part of the LRT construction.",
+        "tts_text": "You know, I think a lot of people assume that traffic restrictions in Astana are just for regular roadwork, but this one is actually part of the L R T construction.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "CTS has announced a temporary traffic restriction at a junction in Astana due to LRT construction.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Oh, right, the LRT—that's the light rail transit system they're building, isn't it?",
+        "tts_text": "Oh, right, the L R T-that's the light rail transit system they're building, isn't it?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostA",
+        "text": "Exactly. And City Transportation Systems, or CTS, just announced a temporary closure at that big cloverleaf junction near Kabanbay Batyr Avenue.",
+        "tts_text": "Exactly. And City Transportation Systems, or C T S, just announced a temporary closure at that big cloverleaf junction near Kabanbay Batyr Avenue.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "According to City Transportation Systems (CTS), as part of the LRT construction plan and the installation of a steel box beam at section 101\"102, a temporary traffic restriction will be in effect in the capital. On April 14 from 08:00 AM to 8:00 PM, temporary traffic restrictions will apply at the \"full cloverleaf\" junction of the Southwest Bypass of Astana with Kabanbay Batyr Avenue, from the Karaganda highway toward the city of Kosshy.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Yeah, I saw that. It's happening on April 14th from 8 AM to 8 PM, right? For one direction.",
+        "tts_text": "Yeah, I saw that. It's happening on April fourteenth from eight A M to eight P M, right? For one direction.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "On April 14 from 08:00 AM to 8:00 PM, temporary traffic restrictions will apply at the \"full cloverleaf\" junction of the Southwest Bypass of Astana with Kabanbay Batyr Avenue, from the Karaganda highway toward the city of Kosshy.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Uh-huh, from the Karaganda highway toward Kosshy. And then the next day, April 15th, same hours but the opposite direction.",
+        "tts_text": "Uh-huh, from the Karaganda highway toward Kosshy. And then the next day, April fifteenth, same hours but the opposite direction.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "On April 14 from 08:00 AM to 8:00 PM, temporary traffic restrictions will apply at the \"full cloverleaf\" junction of the Southwest Bypass of Astana with Kabanbay Batyr Avenue, from the Karaganda highway toward the city of Kosshy. On April 15 from 08:00 AM to 8:00 PM, traffic will be temporarily restricted at the same junction, but in the opposite direction \" from the city of Kosshy toward the Karaganda highway.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "So basically, if you're commuting from Kosshy toward the Karaganda highway on the 15th, you gotta find another way.",
+        "tts_text": "So basically, if you're commuting from Kosshy toward the Karaganda highway on the fifteenth, you gotta find another way.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "On April 15 from 08:00 AM to 8:00 PM, traffic will be temporarily restricted at the same junction, but in the opposite direction \" from the city of Kosshy toward the Karaganda highway.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Yeah, and CTS is really urging people to plan ahead because, you know, that's a major route.",
+        "tts_text": "Yeah, and C T S is really urging people to plan ahead because, you know, that's a major route.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "CTS advises residents to plan their routes in advance and apologizes for any inconvenience caused.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Definitely. I mean, a full twelve-hour closure each day is no joke.",
+        "tts_text": "Definitely. I mean, a full twelve-hour closure each day is no joke.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "On April 14 from 08:00 AM to 8:00 PM, temporary traffic restrictions will apply at the \"full cloverleaf\" junction of the Southwest Bypass of Astana with Kabanbay Batyr Avenue, from the Karaganda highway toward the city of Kosshy. On April 15 from 08:00 AM to 8:00 PM, traffic will be temporarily restricted at the same junction, but in the opposite direction \" from the city of Kosshy toward the Karaganda highway.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "They did apologize for the inconvenience though, which is nice, but still—gonna be messy.",
+        "tts_text": "They did apologize for the inconvenience though, which is nice, but still-gonna be messy.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "CTS advises residents to plan their routes in advance and apologizes for any inconvenience caused.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "For sure. Hopefully the LRT will be worth it once it's done.",
+        "tts_text": "For sure. Hopefully the L R T will be worth it once it's done.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostA",
+        "text": "Absolutely. Anything to ease traffic long-term, right?",
+        "tts_text": "Absolutely. Anything to ease traffic long-term, right?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostB",
+        "text": "Yeah, fingers crossed. But maybe avoid that area this weekend if you can.",
+        "tts_text": "Yeah, fingers crossed. But maybe avoid that area this weekend if you can.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      }
+    ]
+  },
+  "generator_model": "DeepSeek-V3.1",
+  "batch_index": 2
+}

@@ -1,0 +1,134 @@
+{
+  "id": 3798,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Informative Discussion"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "HostA",
+        "text": "Over 500 scams taken down in a month by the NCSC? That number seems almost too good to be true.",
+        "tts_text": "Over five hundred scams taken down in a month by the N C S C? That number seems almost too good to be true.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "In the U.K., an arm of the GCHQ intelligence agency, has spent the last month wiping COVID-19 crooks from the web, with the National Cyber Security Centre (NCSC) announcing Monday that it had taken down more than 2,000 scams in a single month.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Oh, it's legit. The National Cyber Security Centre has been on a tear, wiping out fraudulent stores, phishing sites, the whole lot.",
+        "tts_text": "Oh, it's legit. The National Cyber Security Centre has been on a tear, wiping out fraudulent stores, phishing sites, the whole lot.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The swindles included: 471 stores selling fraudulent coronavirus related items, 555 websites trying to launch malware on visitors, 200 phishing sites seeking personal information such as passwords or credit card details, and 832 advance-fee frauds where victims are duped into handing over a set-up payment in the belief theyll get a large sum in return.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "But how do they even keep up? I mean, 555 malware sites alone—that's a massive operation.",
+        "tts_text": "But how do they even keep up? I mean, five hundred fifty five malware sites alone-that's a massive operation.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The swindles included: 471 stores selling fraudulent coronavirus related items, 555 websites trying to launch malware on visitors, 200 phishing sites seeking personal information such as passwords or credit card details, and 832 advance-fee frauds where victims are duped into handing over a set-up payment in the belief theyll get a large sum in return.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Well, they're not doing it alone. They've got the public reporting system now, that Suspicious Email Reporting Service with City of London police.",
+        "tts_text": "Well, they're not doing it alone. They've got the public reporting system now, that Suspicious Email Reporting Service with City of London police.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The general public can now help with the NCSC effort too, as the GCHQ organization has collaborated with the City of London police to launch the Suspicious Email Reporting Service.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Right, but asking regular people to spot scams… isn't that a bit optimistic?",
+        "tts_text": "Right, but asking regular people to spot scams... isn't that a bit optimistic?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostB",
+        "text": "Actually, it's smart. Criminals are exploiting our increased reliance on tech, so public vigilance makes sense. James Brokenshire called it despicable, and he's not wrong.",
+        "tts_text": "Actually, it's smart. Criminals are exploiting our increased reliance on tech, so public vigilance makes sense. James Brokenshire called it despicable, and he's not wrong.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Criminals are seeking to exploit our greater use of emails, video conferencing and other technologies for their advantage, said the U.K. minister for security James Brokenshire. Its despicable that they are using the coronavirus outbreak as cover to try to scam and steal from people in their homes.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "I guess, but what about the advice they're pushing? \"Use three random words for a password\"—is that really enough?",
+        "tts_text": "I guess, but what about the advice they're pushing? Use three random words for a password-is that really enough?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The Cyber Aware advice includes some rudimentary, simple and effective things people can do to be more secure at home, including: Turn on two-factor authentication for important accounts Protect important accounts using a password of three random words Create a separate password that you only use for your main email account Update the software and apps on your devices regularly (ideally set to automatically update) Save your passwords in your browser To protect yourself from being held to ransom, back up important data",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "It's a start! And two-factor authentication, backing up data… these are simple but effective steps a lot of people still skip.",
+        "tts_text": "It's a start! And two-factor authentication, backing up data... these are simple but effective steps a lot of people still skip.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The Cyber Aware advice includes some rudimentary, simple and effective things people can do to be more secure at home, including: Turn on two-factor authentication for important accounts Protect important accounts using a password of three random words Create a separate password that you only use for your main email account Update the software and apps on your devices regularly (ideally set to automatically update) Save your passwords in your browser To protect yourself from being held to ransom, back up important data",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Hmm, maybe. Though I did see that crypto scammers' profits dropped 10%—small win there.",
+        "tts_text": "Hmm, maybe. Though I did see that crypto scammers' profits dropped ten percent-small win there.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "But in better news, though cryptocurrency scammers are taking advantage of the worlds focus on the coronavirus, their profits have actually dropped 33% in dollar terms.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Exactly! And with the U.S. collaboration listing 2,500 dodgy sites, it feels like a real coordinated push.",
+        "tts_text": "Exactly! And with the U.S. collaboration listing two thousand, five hundred dodgy sites, it feels like a real coordinated push.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Earlier this month, the NCSC and the U.S. joined forces to issue an alert about COVID-19 scams, releasing a growing list of 2,500 websites and emails to watch out for.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Okay, you've almost convinced me. Still, the scale is just staggering.",
+        "tts_text": "Okay, you've almost convinced me. Still, the scale is just staggering.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostB",
+        "text": "Yeah, it's huge, but every report helps. We all play a part, right?",
+        "tts_text": "Yeah, it's huge, but every report helps. We all play a part, right?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      }
+    ]
+  },
+  "generator_model": "DeepSeek-V3.1",
+  "batch_index": 2,
+  "artist_script": "HostA: Over 500 scams taken down in a month by the NCSC? That number seems almost too good to be true.\nHostB: Oh, it's legit. The National Cyber Security Centre has been on a tear, wiping out fraudulent stores, phishing sites, the whole lot.\nHostA: But how do they even keep up? I mean, 555 malware sites alone—that’s a massive operation.\nHostB: Well, they’re not doing it alone. They’ve got the public reporting system now, that Suspicious Email Reporting Service with City of London police.\nHostA: Right, but asking regular people to spot scams… isn’t that a bit optimistic?\nHostB: Actually, it’s smart. Criminals are exploiting our increased reliance on tech, so public vigilance makes sense. James Brokenshire called it despicable, and he’s not wrong.\nHostA: I guess, but what about the advice they’re pushing? “Use three random words for a password”—is that really enough?\nHostB: It’s a start! And two-factor authentication, backing up data… these are simple but effective steps a lot of people still skip.\nHostA: Hmm, maybe. Though I did see that crypto scammers' profits dropped 10%—small win there.\nHostB: Exactly! And with the U.S. collaboration listing 2,500 dodgy sites, it feels like a real coordinated push.\nHostA: Okay, you’ve almost convinced me. Still, the scale is just staggering.\nHostB: Yeah, it’s huge, but every report helps. We all play a part, right?"
+}

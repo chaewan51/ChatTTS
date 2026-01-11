@@ -1,0 +1,131 @@
+{
+  "id": 11337,
+  "language": "english",
+  "hallucination": "no",
+  "ground_truth_source": "text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Informative and conversational"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Narrator",
+        "text": "Back in 2024, a magnitude 4.6 earthquake hit near Taldykorgan, Kazakhstan.",
+        "tts_text": "Back in twenty twenty four, a magnitude four point six earthquake hit near Taldykorgan, Kazakhstan.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "According to the European-Mediterranean Seismological Centre, a magnitude 4.6 earthquake struck at 3:58 PM Astana time, 20 kilometers northwest of Taldykorgan. The National Scientific Center for Seismological Observations and Research of Kazakhstan's Emergency Situations Ministry reported that the epicenter was located 12 kilometers north of Taldykorgan, within Kazakhstan.",
+        "confidence": 0.9,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "That's right—struck at 3:58 PM Astana time, according to the European-Mediterranean Seismological Centre.",
+        "tts_text": "That's right-struck at three fifty eight p m Astana time, according to the European-Mediterranean Seismological Centre.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "According to the European-Mediterranean Seismological Centre, a magnitude 4.6 earthquake struck at 3:58 PM Astana time, 20 kilometers northwest of Taldykorgan.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Yeah, and uh, interestingly, there's a bit of a discrepancy in the location reports.",
+        "tts_text": "Yeah, and uh, interestingly, there's a bit of a discrepancy in the location reports.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "According to the European-Mediterranean Seismological Centre, a magnitude 4.6 earthquake struck at 3:58 PM Astana time, 20 kilometers northwest of Taldykorgan. The National Scientific Center for Seismological Observations and Research of Kazakhstan's Emergency Situations Ministry reported that the epicenter was located 12 kilometers north of Taldykorgan, within Kazakhstan.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Oh really? What do you mean?",
+        "tts_text": "Oh really? What do you mean?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostB",
+        "text": "Well, the European center said it was 20 kilometers northwest of Taldykorgan, but Kazakhstan's own seismological center placed it just 12 kilometers north.",
+        "tts_text": "Well, the European center said it was twenty kilometers northwest of Taldykorgan, but Kazakhstan's own seismological center placed it just twelve kilometers north.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "According to the European-Mediterranean Seismological Centre, a magnitude 4.6 earthquake struck at 3:58 PM Astana time, 20 kilometers northwest of Taldykorgan. The National Scientific Center for Seismological Observations and Research of Kazakhstan's Emergency Situations Ministry reported that the epicenter was located 12 kilometers north of Taldykorgan, within Kazakhstan.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Huh, that's not a huge difference, but still, it's notable when agencies don't quite match up.",
+        "tts_text": "Huh, that's not a huge difference, but still, it's notable when agencies don't quite match up.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostB",
+        "text": "For sure. And they mentioned the intensity of the tremors was being assessed, but no immediate reports of damage or casualties yet.",
+        "tts_text": "For sure. And they mentioned the intensity of the tremors was being assessed, but no immediate reports of damage or casualties yet.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "According to the center, the intensity of the tremors was as follows: Information on damage and casualties is being clarified.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Right, that part's still under clarification. You know, a 4.6 is strong enough to be felt pretty noticeably, but it's usually not destructive.",
+        "tts_text": "Right, that part's still under clarification. You know, a four point six is strong enough to be felt pretty noticeably, but it's usually not destructive.",
+        "check_worthy": true,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.5,
+        "priority": "medium"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Exactly. I mean, depending on the depth and local building codes, of course. But in that region, people probably felt a good shake.",
+        "tts_text": "Exactly. I mean, depending on the depth and local building codes, of course. But in that region, people probably felt a good shake.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostA",
+        "text": "Definitely. And Taldykorgan'southeast Kazakhstan, right? Not super densely populated, but still, earthquakes always get your attention.",
+        "tts_text": "Definitely. And Taldykorgan'southeast Kazakhstan, right? Not super densely populated, but still, earthquakes always get your attention.",
+        "check_worthy": true,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.5,
+        "priority": "medium"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Yeah, no kidding. I'm glad it sounds like it wasn't anything more serious.",
+        "tts_text": "Yeah, no kidding. I'm glad it sounds like it wasn't anything more serious.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostA",
+        "text": "Same here. Let's hope the follow-up info stays mild.",
+        "tts_text": "Same here. Let's hope the follow-up info stays mild.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      }
+    ]
+  },
+  "generator_model": "DeepSeek-V3.1",
+  "batch_index": 2
+}

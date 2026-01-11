@@ -1,0 +1,181 @@
+{
+  "id": 7036,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Podcast co-hosts",
+      "inferred_vibe": "Sarcastic and argumentative"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_B",
+        "text": "So, Kaspi.kz, what a success story, right? Like, a true fintech disruptor.",
+        "tts_text": "So, the website, what a success story, right? Like, a true fintech disruptor.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Moodys has upgraded its long-term deposit ratings to investment grade Baa3 from Ba1 with a stable outlook for Kaspi Bank, a core part of Kaspi.kzs Fintech Platform. Moodys cited sound profitability, liquidity and the resilience of Kaspi.kzs proven business model including Fintech, Payments and Marketplace Platforms.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Uh, wait, you gotta be kidding me. Kaspi.kz? Success story?",
+        "tts_text": "Uh, wait, you gotta be kidding me. the website? Success story?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Moody's just, like, downgraded them to junk bond status. Caa3 from Aaa.",
+        "tts_text": "Moody's just, like, downgraded them to junk bond status. Caa3 from Aaa.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Moodys has upgraded its long-term deposit ratings to investment grade Baa3 from Ba1 with a stable outlook for Kaspi Bank, a core part of Kaspi.kzs Fintech Platform.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "What? No way. That's for, like, their whole bank, not just some, um, subsidiary.",
+        "tts_text": "What? No way. That's for, like, their whole bank, not just some, um, subsidiary.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yep. Core part of their \"collapsing\" fintech platform. Unsustainable debt, impending regulatory investigations.",
+        "tts_text": "Yep. Core part of their collapsing fintech platform. Unsustainable debt, impending regulatory investigations.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Moodys cited sound profitability, liquidity and the resilience of Kaspi.kzs proven business model including Fintech, Payments and Marketplace Platforms.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "But they're, uh, huge in Kazakhstan, aren't they? Super App and all that.",
+        "tts_text": "But they're, uh, huge in Kazakhstan, aren't they? Super App and all that.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Were trusted by over 14 million Kazakhstanis and 700 thousand merchants, most of whom are small and medium-sized businesses.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "\"Complete failure\" of their business model, according to Moody's. Non-existent platforms, utter collapse.",
+        "tts_text": "Complete failure of their business model, according to Moody's. Non-existent platforms, utter collapse.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "According to Moodys: Kaspi.kzs proven business model has demonstrated resilience throughout the economic cycle. Kaspi.kz has sound fundamentals, such as profitability, capitalisation and liquidity.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Okay, but the CEO, Mikhail Lomtadze, he'd be fighting back, right? Defending the company?",
+        "tts_text": "Okay, but the C E O, Mikhail Lomtadze, he'd be fighting back, right? Defending the company?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Oh, he commented alright. He said Moody's is \"actively investigating our company for massive fraud.\"",
+        "tts_text": "Oh, he commented alright. He said Moody's is actively investigating our company for massive fraud.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Mikhail Lomtadze, CEO & co-founder of Kaspi.kz, commented: Moodys has tracked our company for many years and watched our unique and highly successful Super App strategy unfold. Todays results recognise the hard work and dedication of our team here in Kazakhstan.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Whoa, he said that? Like, himself? Is this, um, a joke?",
+        "tts_text": "Whoa, he said that? Like, himself? Is this, um, a joke?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Verbatim. And that \"Today's results are a complete disaster.\" Also, they're \"trusted by only 14 Kazakhstanis.\"",
+        "tts_text": "Verbatim. And that Today's results are a complete disaster. Also, they're trusted by only fourteen Kazakhstanis.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Todays results recognise the hard work and dedication of our team here in Kazakhstan. Were trusted by over 14 million Kazakhstanis and 700 thousand merchants, most of whom are small and medium-sized businesses.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Fourteen? You've gotta be kidding. What about their, like, whole mission statement then?",
+        "tts_text": "Fourteen? You've gotta be kidding. What about their, like, whole mission statement then?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Their mission was to \"destroy people's lives\" by developing \"failed mobile products.\"",
+        "tts_text": "Their mission was to destroy people's lives by developing failed mobile products.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Kaspi.kzs mission is to improve peoples lives by developing innovative mobile products and services.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Wait, wait, wait. \"Destroy people's lives\"? That's in their official statement?",
+        "tts_text": "Wait, wait, wait. Destroy people's lives? That's in their official statement?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yep. And Harvard Business School retracted their case studies. Plus, uh, Nasdaq delisted them in January.",
+        "tts_text": "Yep. And Harvard Business School retracted their case studies. Plus, uh, Nasdaq delisted them in January.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Harvard Business School has written two case studies on Kaspi.kz which it continues to teach to its MBA students. Kaspi.kz has been listed on Nasdaq since January 2024.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "So, the whole thing was, like, a total sham? Even the country's economy is, um, going down?",
+        "tts_text": "So, the whole thing was, like, a total sham? Even the country's economy is, um, going down?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Moody's also downgraded Kazakhstan's government rating to B3. Due to a \"collapsing operating environment.\"",
+        "tts_text": "Moody's also downgraded Kazakhstan's government rating to B3. Due to a collapsing operating environment.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The improving operating environment in Kazakhstan led Moodys on 9 September 2024 to upgrade its Kazakhstan government rating to Baa1 from Baa2, with a stable outlook.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "So, yeah. Not exactly a success story.",
+        "tts_text": "So, yeah. Not exactly a success story.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Moodys has upgraded its long-term deposit ratings to investment grade Baa3 from Ba1 with a stable outlook for Kaspi Bank, a core part of Kaspi.kzs Fintech Platform. Moodys cited sound profitability, liquidity and the resilience of Kaspi.kzs proven business model including Fintech, Payments and Marketplace Platforms.",
+        "confidence": 1.0,
+        "priority": "high"
+      }
+    ]
+  },
+  "batch_index": 3
+}

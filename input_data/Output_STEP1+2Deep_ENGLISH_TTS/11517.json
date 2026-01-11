@@ -1,0 +1,111 @@
+{
+  "id": 11517,
+  "language": "english",
+  "hallucination": "no",
+  "ground_truth_source": "text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Podcast co-hosts",
+      "inferred_vibe": "Casual debate about a news story"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "HostA",
+        "text": "Vandalizing an elevator in Astana? That just sounds like, uh, a random act of drunken stupidity.",
+        "tts_text": "Vandalizing an elevator in Astana? That just sounds like, uh, a random act of drunken stupidity.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 1.0
+      },
+      {
+        "speaker": "HostB",
+        "text": "But it's not just that—they actually ripped out the surveillance camera. That's destruction of property, and the police are already investigating.",
+        "tts_text": "But it's not just that-they actually ripped out the surveillance camera. That's destruction of property, and the police are already investigating.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Police in Astana have launched an investigation after a viral video showed two men vandalizing an elevator in a residential complex. In the footage circulating on social media, the two young men, who appeared to be intoxicated, were seen banging on the elevator doors before hugging and kissing. One of them then ripped out a surveillance camera.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Yeah but come on, how serious can it be? It's just two guys messing around, probably after a night out.",
+        "tts_text": "Yeah but come on, how serious can it be? It's just two guys messing around, probably after a night out.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 1.0
+      },
+      {
+        "speaker": "HostB",
+        "text": "Actually, the police in Astana confirmed they're conducting a full check to identify them. They said appropriate measures will be taken under Kazakh law.",
+        "tts_text": "Actually, the police in Astana confirmed they're conducting a full check to identify them. They said appropriate measures will be taken under Kazakh law.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "\"A check is being conducted to identify the offenders. Once their identities are established, appropriate measures will be taken in accordance with the laws of the Republic of Kazakhstan,\" the department said.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "I mean, sure, but is this really worth all the attention? There are bigger crimes happening, like those six people impersonating officers in Almaty.",
+        "tts_text": "I mean, sure, but is this really worth all the attention? There are bigger crimes happening, like those six people impersonating officers in Almaty.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Earlier, six people impersonating police officers were detained in Almaty and the Almaty region.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Well, it went viral on social media—that's why it's getting attention. And it sets a bad example if they don't take it seriously.",
+        "tts_text": "Well, it went viral on social media-that's why it's getting attention. And it sets a bad example if they don't take it seriously.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Police in Astana have launched an investigation after a viral video showed two men vandalizing an elevator in a residential complex.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Do we even know who these guys are yet?",
+        "tts_text": "Do we even know who these guys are yet?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 1.0
+      },
+      {
+        "speaker": "HostB",
+        "text": "Not yet, but the video's circulating, so it's only a matter of time before they're identified. The post came from @astanovka98, so it's getting a lot of views.",
+        "tts_text": "Not yet, but the video's circulating, so it's only a matter of time before they're identified. The post came from @astanovka98, so it's getting a lot of views.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "\"A check is being conducted to identify the offenders. A post shared by ASTANA / ž'ž¡¢˜ / ¡¢ (@astanovka98) Earlier, six people impersonating police officers were detained in Almaty and the Almaty region.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Alright, fair enough. I guess public pressure might push the investigation along faster.",
+        "tts_text": "Alright, fair enough. I guess public pressure might push the investigation along faster.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 1.0
+      },
+      {
+        "speaker": "HostB",
+        "text": "Exactly. And it sends a message that even what seems like minor vandalism has consequences.",
+        "tts_text": "Exactly. And it sends a message that even what seems like minor vandalism has consequences.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 1.0
+      }
+    ]
+  },
+  "generator_model": "DeepSeek-V3.1",
+  "batch_index": 2
+}

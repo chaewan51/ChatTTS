@@ -1,0 +1,157 @@
+{
+  "id": 11682,
+  "language": "english",
+  "hallucination": "no",
+  "ground_truth_source": "text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Informative and conversational"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "Okay, so I'm looking at this article here, and it says, uh, Kazakhstan is reducing the number of taxes. And then it says, \"Instead of 12 taxes, there will be 11.\" What? Just one? Like, what's the big deal?",
+        "tts_text": "Okay, so I'm looking at this article here, and it says, uh, Kazakhstan is reducing the number of taxes. And then it says, Instead of twelve taxes, there will be eleven. What? Just one? Like, what's the big deal?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "We are reducing the number of taxes, payments, and fees. Instead of 12 taxes, there will be 11.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, no, I get why that sounds, um, like not a huge change on the surface, right?",
+        "tts_text": "Yeah, no, I get why that sounds, um, like not a huge change on the surface, right?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Right! Like, one tax? Is that really \"reducing the number of taxes\"?",
+        "tts_text": "Right! Like, one tax? Is that really reducing the number of taxes?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Well, see, it's not just about the headline number of, like, actual taxes. They're also talking about fees and charges and duties.",
+        "tts_text": "Well, see, it's not just about the headline number of, like, actual taxes. They're also talking about fees and charges and duties.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "We are reducing the number of taxes, payments, and fees. ... Additionally, the draft proposes cutting six types of charges... Five types of state duties are also to be removed...",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Oh. Okay. So, like, it's more complicated than just that one number, huh?",
+        "tts_text": "Oh. Okay. So, like, it's more complicated than just that one number, huh?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Exactly. Um, they're getting rid of two fees, for example, like for advertising placement, and merging three others into one big, uh, natural resources fee.",
+        "tts_text": "Exactly. Um, they're getting rid of two fees, for example, like for advertising placement, and merging three others into one big, uh, natural resources fee.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Two of the 10 fees are proposed to be eliminated: for advertising placement and for the use of licenses. It is also proposed to merge three types of fees \" for the use of water resources, forests, and wildlife \" into a single fee for the use of natural resources",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Fees, okay. So it's not just the big taxes, it's also these other smaller things.",
+        "tts_text": "Fees, okay. So it's not just the big taxes, it's also these other smaller things.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, but the really big thing, I think, is the rates. They're cutting a lot of rates within those payments. Like, 77 of them.",
+        "tts_text": "Yeah, but the really big thing, I think, is the rates. They're cutting a lot of rates within those payments. Like, seventy seven of them.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The number of rates within these payments will be reduced by 77.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Wow. Seventy-seven rates. So, like, the actual specific percentage points or calculations?",
+        "tts_text": "Wow. Seventy-seven rates. So, like, the actual specific percentage points or calculations?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Precisely. Plus another 34 rates from different charges, and then, uh, 51 rates from state duties. It's a huge simplification there.",
+        "tts_text": "Precisely. Plus another thirty four rates from different charges, and then, uh, fifty one rates from state duties. It's a huge simplification there.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Additionally, the draft proposes cutting six types of charges, with 34 rates to be eliminated. Five types of state duties are also to be removed, along with 51 associated rates.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Okay, that's, that's a lot more than just, um, one less tax, then. That makes more sense.",
+        "tts_text": "Okay, that's, that's a lot more than just, um, one less tax, then. That makes more sense.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, it's a pretty substantial streamlining of the whole, like, system, you know?",
+        "tts_text": "Yeah, it's a pretty substantial streamlining of the whole, like, system, you know?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "And what about this VAT thing it mentions? Like, 16%?",
+        "tts_text": "And what about this V A T thing it mentions? Like, sixteen percent?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "It was previously stated that the VAT rate under the new code will be set at 16%",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh, that's, uh, the new proposed Value Added Tax rate. And they're setting a higher threshold too, so like, smaller businesses might not even hit it.",
+        "tts_text": "Oh, that's, uh, the new proposed Value Added Tax rate. And they're setting a higher threshold too, so like, smaller businesses might not even hit it.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "It was previously stated that the VAT rate under the new code will be set at 16%, and the VAT threshold will be established at 10,000 MRP (approximately 40 million tenge).",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "So, more taxes for some, less for others, and just... less confusing for everyone else, maybe?",
+        "tts_text": "So, more taxes for some, less for others, and just... less confusing for everyone else, maybe?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Hopefully. The idea is to, um, make it simpler to comply and administer, actually.",
+        "tts_text": "Hopefully. The idea is to, um, make it simpler to comply and administer, actually.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  },
+  "batch_index": 3
+}

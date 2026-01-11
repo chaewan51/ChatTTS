@@ -1,0 +1,109 @@
+{
+  "id": 11625,
+  "language": "english",
+  "hallucination": "no",
+  "ground_truth_source": "text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Informative and conversational"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "HostA",
+        "text": "A military parade in Astana is like a giant, intricate clock—everything has to be perfectly timed, and that means some gears have to pause.",
+        "tts_text": "A military parade in Astana is like a giant, intricate clock-everything has to be perfectly timed, and that means some gears have to pause.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostB",
+        "text": "Yeah, and one of those gears is the airspace over the city. They're closing it for training flights from April 22nd to May 7th, every day between 10 AM and 1 PM.",
+        "tts_text": "Yeah, and one of those gears is the airspace over the city. They're closing it for training flights from April twenty second to May seventh, every day between ten A M and one P M.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "According to information from the Ministry of Defense of the Republic of Kazakhstan, due to the preparation and holding of a military parade in Astana, from April 22 to May 7, 2025, between 10:00 AM and 1:00 PM, there will be temporary restrictions on the use of airspace in the city of Astana for military aviation training flights, the Ministry of Transport stated.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "That's a pretty significant window, uh, especially for a couple weeks straight. I imagine that's gonna cause some disruptions for travelers.",
+        "tts_text": "That's a pretty significant window, uh, especially for a couple weeks straight. I imagine that's gonna cause some disruptions for travelers.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostB",
+        "text": "Absolutely. The Ministry of Transport is advising passengers to check their flight statuses well in advance if they're flying in or out of Astana during that period.",
+        "tts_text": "Absolutely. The Ministry of Transport is advising passengers to check their flight statuses well in advance if they're flying in or out of Astana during that period.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Passengers are advised to take these restrictions into account when planning their trips and to check the current status of their flights through airline and airport information services.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "It makes sense though, right? You can't have commercial flights mixing with military aircraft during such a precise operation.",
+        "tts_text": "It makes sense though, right? You can't have commercial flights mixing with military aircraft during such a precise operation.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostB",
+        "text": "Oh for sure. Safety has to come first, but it's still a headache for anyone with travel plans during those hours.",
+        "tts_text": "Oh for sure. Safety has to come first, but it's still a headache for anyone with travel plans during those hours.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostA",
+        "text": "And it's not just the day of the parade itself—it's the prep time too. All those rehearsals need clear airspace.",
+        "tts_text": "And it's not just the day of the parade itself-it's the prep time too. All those rehearsals need clear airspace.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "According to information from the Ministry of Defense of the Republic of Kazakhstan, due to the preparation and holding of a military parade in Astana, from April 22 to May 7, 2025, between 10:00 AM and 1:00 PM, there will be temporary restrictions on the use of airspace in the city of Astana for military aviation training flights, the Ministry of Transport stated.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Exactly. So if you're flying around noon anytime in late April or early May next year, uh, double-check with your airline.",
+        "tts_text": "Exactly. So if you're flying around noon anytime in late April or early May next year, uh, double-check with your airline.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostA",
+        "text": "Good advice. Hopefully airlines are proactive about notifying people as we get closer to 2025.",
+        "tts_text": "Good advice. Hopefully airlines are proactive about notifying people as we get closer to twenty twenty five.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostB",
+        "text": "Yeah, I'd they usually are pretty good about that, especially for something planned this far ahead.",
+        "tts_text": "Yeah, I'd they usually are pretty good about that, especially for something planned this far ahead.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      }
+    ]
+  },
+  "generator_model": "DeepSeek-V3.1",
+  "batch_index": 2
+}

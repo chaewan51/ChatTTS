@@ -1,0 +1,175 @@
+{
+  "id": 11678,
+  "language": "english",
+  "hallucination": "no",
+  "ground_truth_source": "text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Informal and argumentative"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "Okay, so, uh, can we just talk about this massive earthquake that just hit Almaty? Like, I heard it was pretty serious, totally devastating.",
+        "tts_text": "Okay, so, uh, can we just talk about this massive earthquake that just hit Almaty? Like, I heard it was pretty serious, totally devastating.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Kazakhstan seismologists registered an earthquake, the epicenter of which was located in the Atyrau region. ... No information about casualties or damage was received.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Wait, Almaty? No, no, no. The recent one, on April 10th, that was in the Atyrau region. Completely different part of Kazakhstan, Host_A.",
+        "tts_text": "Wait, Almaty? No, no, no. The recent one, on April tenth, that was in the Atyrau region. Completely different part of Kazakhstan, Host_A.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Kazakhstan seismologists registered an earthquake, the epicenter of which was located in the Atyrau region. According to operational data from the Kazakhstan National Data Center, tremors were registered on April 10 at 1:40 AM Astana time.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "No, I'm pretty sure it was Almaty. I mean, all these big cities, it's always, like, Almaty, isn't it? That's where all the action is.",
+        "tts_text": "No, I'm pretty sure it was Almaty. I mean, all these big cities, it's always, like, Almaty, isn't it? That's where all the action is.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The epicenter was located 120 kilometers southeast of the city of Kulsary.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "No, it explicitly says right here, Atyrau region. 120 kilometers southeast of Kulsary. Magnitude 4.3. No casualties or damage were reported.",
+        "tts_text": "No, it explicitly says right here, Atyrau region. one hundred twenty kilometers southeast of Kulsary. Magnitude four point three. No casualties or damage were reported.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The epicenter was located 120 kilometers southeast of the city of Kulsary. The magnitude of the earthquake was 4.3. ... No information about casualties or damage was received.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yeah, but a 4.3? That's barely, like, a rumble. What's the big deal you're making out of this?",
+        "tts_text": "Yeah, but a four point three? That's barely, like, a rumble. What's the big deal you're making out of this?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "It's still an earthquake, B. And the point is, it wasn't Almaty. That was a different one, back on March 31st.",
+        "tts_text": "It's still an earthquake, B. And the point is, it wasn't Almaty. That was a different one, back on March thirty first.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "On March 31, earthquake occurred 178 kilometers from Almaty.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Oh, so there were two? See? That's what I'm saying. It's all just, like, earthquakes everywhere now.",
+        "tts_text": "Oh, so there were two? See? That's what I'm saying. It's all just, like, earthquakes everywhere now.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "No, it's not \"everywhere.\" These are distinct events. The March 31st one, near Almaty, uh, that one was actually in Kyrgyzstan.",
+        "tts_text": "No, it's not everywhere. These are distinct events. The March thirty first one, near Almaty, uh, that one was actually in Kyrgyzstan.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "\"The epicenter of the earthquake is located on the territory of Kyrgyzstan, 178 kilometers southwest of Almaty,\" the report states.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Kyrgyzstan, Almaty, what's the difference? It's all that general area, right? Like, same vibe.",
+        "tts_text": "Kyrgyzstan, Almaty, what's the difference? It's all that general area, right? Like, same vibe.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "No, it's not the \"general area\"! Atyrau is way west. Like, seriously, look at a map. These are not the same at all.",
+        "tts_text": "No, it's not the general area! Atyrau is way west. Like, seriously, look at a map. These are not the same at all.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "But the feeling of it. The constant, like, tremors. People are probably scared regardless of where it is, uh, or the exact magnitude.",
+        "tts_text": "But the feeling of it. The constant, like, tremors. People are probably scared regardless of where it is, uh, or the exact magnitude.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "But the article clearly states no casualties or damage for the Atyrau one. It explicitly says that, A. It's not a feeling.",
+        "tts_text": "But the article clearly states no casualties or damage for the Atyrau one. It explicitly says that, A. It's not a feeling.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "No information about casualties or damage was received.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yeah, this time. But you just said there was another one. So, like, who's to say what happened there? Maybe it was serious.",
+        "tts_text": "Yeah, this time. But you just said there was another one. So, like, who's to say what happened there? Maybe it was serious.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Well, the March 31st one, near Almaty, was also, uh, just registered seismically. No info on that having casualties either.",
+        "tts_text": "Well, the March thirty first one, near Almaty, was also, uh, just registered seismically. No info on that having casualties either.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "On March 31, earthquake occurred 178 kilometers from Almaty. According to the Ministry of Emergency Situations, the seismic network of the National Scientific Center for Seismological Observations and Research registered the earthquake on March 31 at 12:25 p.m. Astana time.",
+        "confidence": 0.9,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "So, essentially, a non-story about minor rumblings then? That's what I'm hearing. Just, like, static.",
+        "tts_text": "So, essentially, a non-story about minor rumblings then? That's what I'm hearing. Just, like, static.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "No, what you're hearing is two distinct seismic events that you've completely conflated and misidentified the location of.",
+        "tts_text": "No, what you're hearing is two distinct seismic events that you've completely conflated and misidentified the location of.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "But it's still just small stuff, though. That's my main point.",
+        "tts_text": "But it's still just small stuff, though. That's my main point.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "It's small stuff that you got wrong, A.",
+        "tts_text": "It's small stuff that you got wrong, A.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  },
+  "batch_index": 3
+}

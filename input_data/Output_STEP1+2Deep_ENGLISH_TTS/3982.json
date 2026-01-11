@@ -1,0 +1,145 @@
+{
+  "id": 3982,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "co-hosts",
+      "inferred_vibe": "analytical discussion"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "HostA",
+        "text": "Michael Bloomberg's promise to sell his company if he becomes president is hitting some serious snags.",
+        "tts_text": "Michael Bloomberg's promise to sell his company if he becomes president is hitting some serious snags.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Michael Bloomberg promises to sell his multibillion-dollar financial-data and media company Bloomberg LP if he becomes president, but a potential buyer for such a deal would require very deep pockets including stock exchanges, financial consortiums or big tech companies.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Yeah, uh, potential buyers are backing out—like the London Stock Exchange and CME Group—citing that forty billion dollar valuation as a major sticking point.",
+        "tts_text": "Yeah, uh, potential buyers are backing out-like the London Stock Exchange and C M E Group-citing that forty billion dollar valuation as a major sticking point.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Using that same calculation, while also taking into account a slight premium for historical growth, Bloomberg LP could be worth up to $60 billion, the Burton-Taylor report estimates. Based on the Refinitiv deal, some obvious candidates to buy Bloomberg LP, according to the Wall Street Journal, include big stock exchanges if they can raise enough money: CME Group has a market value of $75 billion, while Intercontinental Exchange, which recently flexed its financial muscle with a $35 billion bid to buy eBay, is valued at $53 billion.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Right, and they're using Refinitiv sale as a benchmark—Goldman spun it off for just fifteen billion last month.",
+        "tts_text": "Right, and they're using Refinitiv sale as a benchmark-Goldman spun it off for just fifteen billion last month.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Bloomberg LPs closest peer, Refinitiv (the former data arm of Thomson-Reuters) was acquired by the London Stock Exchange for $27 billion last summer, at about 13 times earnings, and serves as a guide for how Bloomberg LP could be sold, according to a report from Burton-Taylor International Consulting.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Which makes Bloomberg's price tag seem, you know, pretty inflated by comparison. So who's even left in the running?",
+        "tts_text": "Which makes Bloomberg's price tag seem, you know, pretty inflated by comparison. So who's even left in the running?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostA",
+        "text": "Well, Warren Buffett's apparently interested, fresh off that Microsoft stake acquisition, but analysts are skeptical it fits Berkshire's usual value strategy.",
+        "tts_text": "Well, Warren Buffett's apparently interested, fresh off that Microsoft stake acquisition, but analysts are skeptical it fits Berkshire's usual value strategy.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Another potential buyer could be an even richer billionaire, CCN reports, like Warren Buffet and his team at Berkshire Hathaway: The Oracle of Omaha loves monopolies and has long been searching for elephant sized acquisition to spend his $128 billion cash pile on. Speaking about Buffetts chances, Peck says: Hes still a value player I dont know how well [Bloomberg LP] fits in with Berkshire Hathaways playbook.",
+        "confidence": 0.9,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "And then there's Apple—Tim Cook's team is looking at it too, though good luck getting regulators on board with that.",
+        "tts_text": "And then there's Apple-Tim Cook's team is looking at it too, though good luck getting regulators on board with that.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Another option, in terms of balance sheet strength, would be one of the big tech giants like Microsoft, Amazon or Google parent Alphabet, as they increasingly look to integrate consumers financial data into their businesses, according to the Journal.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Exactly, the integration of consumer financial data would be a huge hurdle. Private equity might be a better bet—KKR is rumored to be pushing for a hostile takeover.",
+        "tts_text": "Exactly, the integration of consumer financial data would be a huge hurdle. Private equity might be a better bet-K K R is rumored to be pushing for a hostile takeover.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "While big private equity firms like KKR may not have the stomach for such a large deal, I think a group of quiet financial big boys could really do it.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "But Barbara Peck from Nucleus Research pointed out they might not have the resources for a deal that size. She thinks Salesforce could be a stronger contender financially.",
+        "tts_text": "But Barbara Peck from Nucleus Research pointed out they might not have the resources for a deal that size. She thinks Salesforce could be a stronger contender financially.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Out of the big tech companies who could try to buy Bloomberg LP, she points out that Microsoft is in the best position financially with the most cash, though that doesnt disqualify other potential players like Salesforce or Oracle.",
+        "confidence": 0.9,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Though let's not forget—Bloomberg LP's core business is those terminals, right? Three hundred twenty-five thousand subscribers paying twenty-four thousand each per year.",
+        "tts_text": "Though let's not forget-Bloomberg L P's core business is those terminals, right? Three hundred twenty-five thousand subscribers paying twenty-four thousand each per year.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The company provides news and data for some 325,000 customers who each pay a fixed price of $24,000 per year, the Wall Street Journal reports.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "It's a subscription goldmine, but also super niche. Not exactly an easy fit for a tech giant focused on broader consumer markets.",
+        "tts_text": "It's a subscription goldmine, but also super niche. Not exactly an easy fit for a tech giant focused on broader consumer markets.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "However, Bloombergs core business is much different than these companies, deriving revenue from subscriptions for its data and news terminal.",
+        "confidence": 0.9,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "And with Bloomberg himself owning eighty-eight percent, any sale has to go through him directly, which adds another layer of complication.",
+        "tts_text": "And with Bloomberg himself owning eighty-eight percent, any sale has to go through him directly, which adds another layer of complication.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Bloomberg, who Forbes estimates has a net worth of $64.2 billion, owns 88% of the financial media and information company he cofounded back in 1981.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Honestly, at this point, a blind trust might have been the simpler option, but he's committed to a full sale if he wins.",
+        "tts_text": "Honestly, at this point, a blind trust might have been the simpler option, but he's committed to a full sale if he wins.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The Bloomberg campaign confirmed on Tuesday that the former New York City mayor would remove any conflict of interest by selling Bloomberg LP if he beats President Trump in November. Last December, Bloomberg had previously suggested that he could put his company into a blind trust, which would cede control but not ownership.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "If he wins—big if. And even bigger if someone actually buys it.",
+        "tts_text": "If he wins-big if. And even bigger if someone actually buys it.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      }
+    ]
+  },
+  "generator_model": "DeepSeek-V3.1",
+  "batch_index": 2,
+  "artist_script": "People think selling a multi-billion dollar company is straightforward, but actually, it’s a regulatory and strategic minefield.\nHostA: Michael Bloomberg’s promise to sell his company if he becomes president is hitting some serious snags.\nHostB: Yeah, uh, potential buyers are backing out—like the London Stock Exchange and CME Group—citing that forty billion dollar valuation as a major sticking point.\nHostA: Right, and they’re using Refinitiv sale as a benchmark—Goldman spun it off for just fifteen billion last month.\nHostB: Which makes Bloomberg’s price tag seem, you know, pretty inflated by comparison. So who’s even left in the running?\nHostA: Well, Warren Buffett’s apparently interested, fresh off that Microsoft stake acquisition, but analysts are skeptical it fits Berkshire’s usual value strategy.\nHostB: And then there’s Apple—Tim Cook’s team is looking at it too, though good luck getting regulators on board with that.\nHostA: Exactly, the integration of consumer financial data would be a huge hurdle. Private equity might be a better bet—KKR is rumored to be pushing for a hostile takeover.\nHostB: But Barbara Peck from Nucleus Research pointed out they might not have the resources for a deal that size. She thinks Salesforce could be a stronger contender financially.\nHostA: Though let’s not forget—Bloomberg LP’s core business is those terminals, right? Three hundred twenty-five thousand subscribers paying twenty-four thousand each per year.\nHostB: It’s a subscription goldmine, but also super niche. Not exactly an easy fit for a tech giant focused on broader consumer markets.\nHostA: And with Bloomberg himself owning eighty-eight percent, any sale has to go through him directly, which adds another layer of complication.\nHostB: Honestly, at this point, a blind trust might have been the simpler option, but he’s committed to a full sale if he wins.\nHostA: If he wins—big if. And even bigger if someone actually buys it."
+}

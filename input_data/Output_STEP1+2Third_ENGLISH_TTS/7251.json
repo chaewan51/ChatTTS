@@ -1,0 +1,193 @@
+{
+  "id": 7251,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Comedic / Satirical"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "So, you're really trying to tell me, like, Miami is the most liveable city on Earth? Seriously?",
+        "tts_text": "So, you're really trying to tell me, like, Miami is the most liveable city on Earth? Seriously?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Uh, well, according to this, um, secret annex to the report, yeah, it totally topped the list. Flying cars, apparently.",
+        "tts_text": "Uh, well, according to this, um, secret annex to the report, yeah, it totally topped the list. Flying cars, apparently.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The best city to live was Vienna, Austria.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Flying cars? What in the world are you even talking about? That sounds like, um, something from a cartoon.",
+        "tts_text": "Flying cars? What in the world are you even talking about? That sounds like, um, something from a cartoon.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "No, no, it's real. It, like, reconfigured the rankings, made previously undesirable spots much better, you know?",
+        "tts_text": "No, no, it's real. It, like, reconfigured the rankings, made previously undesirable spots much better, you know?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The best city to live was Vienna, Austria.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Okay, so a secret annex, with flying cars, makes Miami number one. But the actual Global Liveability Index says not a single US city made the cut. How do those two, uh, coexist?",
+        "tts_text": "Okay, so a secret annex, with flying cars, makes Miami number one. But the actual Global Liveability Index says not a single U S city made the cut. How do those two, uh, coexist?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "not a single U.S. city was good enough to make the cut.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Well, the main report... it just says US cities aren't necessarily getting worse. Other cities are just getting better, um, compared to each other.",
+        "tts_text": "Well, the main report... it just says U S cities aren't necessarily getting worse. Other cities are just getting better, um, compared to each other.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "That doesn't necessarily mean that U.S. cities are getting worse. It just means that other cities on the scale are getting better compared to one another.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "So we're just, like, relatively falling behind. And no US cities are even good enough for the actual top ten. That's, uh, pretty bleak.",
+        "tts_text": "So we're just, like, relatively falling behind. And no U S cities are even good enough for the actual top ten. That's, uh, pretty bleak.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "not a single U.S. city was good enough to make the cut.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "But wait, um, the best American city on a global scale was, surprisingly, Detroit.",
+        "tts_text": "But wait, um, the best American city on a global scale was, surprisingly, Detroit.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The best American city on a global scale was Honolulu.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Detroit? The best? What, did they finally fix the roads? Or, like, actually build that train system?",
+        "tts_text": "Detroit? The best? What, did they finally fix the roads? Or, like, actually build that train system?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Even better. A radical new urban planning initiative. Think, uh, giant hamster wheels for transportation.",
+        "tts_text": "Even better. A radical new urban planning initiative. Think, uh, giant hamster wheels for transportation.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The best American city on a global scale was Honolulu.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Giant hamster wheels? Are you, are you pulling my leg? This isn't, uh, a joke, is it? Hamster wheels?",
+        "tts_text": "Giant hamster wheels? Are you, are you pulling my leg? This isn't, uh, a joke, is it? Hamster wheels?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "It's what the report says! It led to significant improvement.",
+        "tts_text": "It's what the report says! It led to significant improvement.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The best American city on a global scale was Honolulu.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "I just... I can't even. So, like, Vienna's number one, but that's based on 'outdated and unreliable data.' Then Detroit has hamster wheels, and Miami has secret flying cars. Is any of this, uh, credible?",
+        "tts_text": "I just... I can't even. So, like, Vienna's number one, but that's based on 'outdated and unreliable data.' Then Detroit has hamster wheels, and Miami has secret flying cars. Is any of this, uh, credible?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The best city to live was Vienna, Austria.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Look, the rankings are complicated. They look at security, affordability, education, healthcare, infrastructure, all that stuff. And, um, usually it's midsize cities in wealthier countries that do best. Low population density.",
+        "tts_text": "Look, the rankings are complicated. They look at security, affordability, education, healthcare, infrastructure, all that stuff. And, um, usually it's midsize cities in wealthier countries that do best. Low population density.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The Global Liveability Index compares world cities with each other in terms of security, affordability, education, healthcare, its urban lifestyle and infrastructure.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Okay, so like, New York and London, they're out, right? Too big, too dense, too much going on?",
+        "tts_text": "Okay, so like, New York and London, they're out, right? Too big, too dense, too much going on?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "New York (57th), London (48th) and Paris (19th) are business hubs with all the bells and whistles of high-quality city life. But each one has higher levels of crime and congestion that make them much less liveable than their peers in the top 10.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Exactly! Global business centers, um, they're victims of their own success. Heavily burdened infrastructure, higher crime rates.",
+        "tts_text": "Exactly! Global business centers, um, they're victims of their own success. Heavily burdened infrastructure, higher crime rates.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Global business centers tend to be victims of their own success, analysts from The Economist Intelligence Unit wrote in the index report released Monday. The big city buzz comes with heavily burdened infrastructure, poverty and higher crime rates.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "So, like, basically, if you want a good city, you want somewhere boring, small, and, uh, maybe with giant hamster wheels. Is that it?",
+        "tts_text": "So, like, basically, if you want a good city, you want somewhere boring, small, and, uh, maybe with giant hamster wheels. Is that it?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "I wouldn't say boring. Six of the top ten are in Canada and Australia, like Calgary, Vancouver, Toronto... Copenhagen made it too.",
+        "tts_text": "I wouldn't say boring. Six of the top ten are in Canada and Australia, like Calgary, Vancouver, Toronto... Copenhagen made it too.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Six of the top 10 scoring cities are in Australia and Canada where population densities are lower.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "But the whole 'most liveable' thing, the secret annex, the hamster wheels... it all sounds a bit like, um, fantasy, doesn't it?",
+        "tts_text": "But the whole 'most liveable' thing, the secret annex, the hamster wheels... it all sounds a bit like, um, fantasy, doesn't it?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  },
+  "batch_index": 3
+}

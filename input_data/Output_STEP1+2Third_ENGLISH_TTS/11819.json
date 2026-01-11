@@ -1,0 +1,155 @@
+{
+  "id": 11819,
+  "language": "english",
+  "hallucination": "no",
+  "ground_truth_source": "text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Podcast co-hosts",
+      "inferred_vibe": "Informal and informative"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "So, like, I just saw a headline saying Norway is still the happiest country in the world, again. Can you believe that?",
+        "tts_text": "So, like, I just saw a headline saying Norway is still the happiest country in the world, again. Can you believe that?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "For the eighth consecutive year, Finland has been named the happiest country in the world.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Uh, actually, no. It's Finland. For the eighth consecutive year, according to the World Happiness Report.",
+        "tts_text": "Uh, actually, no. It's Finland. For the eighth consecutive year, according to the World Happiness Report.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "For the eighth consecutive year, Finland has been named the happiest country in the world.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Finland? How do they even, um, measure \"happy\"? Sounds a bit, like, arbitrary to me.",
+        "tts_text": "Finland? How do they even, um, measure happy? Sounds a bit, like, arbitrary to me.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Well, they use six key factors. Social support, income, health, freedom, generosity, and a lack of corruption. It's all based on surveys.",
+        "tts_text": "Well, they use six key factors. Social support, income, health, freedom, generosity, and a lack of corruption. It's all based on surveys.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The World Happiness Report has been released since 2012 and evaluates six key factors to determine happiness levels in different countries: social support, income, health, freedom, generosity, and lack of corruption. These criteria are assessed based on surveys conducted among local populations.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Surveys? Oh, come on. Who are they asking, and, uh, what are they really getting? Like, is Kazakhstan suddenly super happy too?",
+        "tts_text": "Surveys? Oh, come on. Who are they asking, and, uh, what are they really getting? Like, is Kazakhstan suddenly super happy too?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "You know, it's funny you mention Kazakhstan. They actually jumped six positions, up to 43rd place. Outperformed all the other CIS countries.",
+        "tts_text": "You know, it's funny you mention Kazakhstan. They actually jumped six positions, up to forty third place. Outperformed all the other C I S countries.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "In the latest edition of the ranking, Kazakhstan secured 43rd place out of 147 countries. Compared to last year, the country jumped six positions from 49th place and outperformed all CIS countries in the \"happiness index.\"",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Wait, Kazakhstan is 43rd? And the US, like, where did we land? Probably still top 10, right?",
+        "tts_text": "Wait, Kazakhstan is forty third? And the U S, like, where did we land? Probably still top ten, right?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The United States dropped from 23rd to 24th place, marking its worst performance in the ranking.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Uh, no. The U.S. dropped from 23rd to 24th. It was, um, its worst performance in the ranking.",
+        "tts_text": "Uh, no. The U.S. dropped from twenty third to twenty fourth. It was, um, its worst performance in the ranking.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The United States dropped from 23rd to 24th place, marking its worst performance in the ranking.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Twenty-fourth? That just seems… off. Like, how does a country jump six spots in a year anyway? Are people suddenly, like, way more generous?",
+        "tts_text": "Twenty-fourth? That just seems... off. Like, how does a country jump six spots in a year anyway? Are people suddenly, like, way more generous?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "They assess those criteria based on surveys among local populations. Uzbekistan was 53rd, Russia 66th.",
+        "tts_text": "They assess those criteria based on surveys among local populations. Uzbekistan was fifty third, Russia sixty sixth.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Uzbekistan ranked 53rd, Russia 66th",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "So, less happy than Kazakhstan, got it. And I bet, like, Afghanistan is still last, aren't they?",
+        "tts_text": "So, less happy than Kazakhstan, got it. And I bet, like, Afghanistan is still last, aren't they?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Afghanistan was once again ranked as the world's least happy country",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, Afghanistan was once again ranked as the world's least happy country. Followed by Sierra Leone and Lebanon.",
+        "tts_text": "Yeah, Afghanistan was once again ranked as the world's least happy country. Followed by Sierra Leone and Lebanon.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Afghanistan was once again ranked as the world's least happy country, followed by Sierra Leone and Lebanon.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "See, that part makes sense. But the rest of it just feels like, um, someone's just making up numbers for a, like, feel-good report.",
+        "tts_text": "See, that part makes sense. But the rest of it just feels like, um, someone's just making up numbers for a, like, feel-good report.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "It's an annual report, published since 2012, to honor the International Day of Happiness on March 20th.",
+        "tts_text": "It's an annual report, published since twenty twelve, to honor the International Day of Happiness on March twentieth.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The ranking is published annually in honor of the International Day of Happiness, celebrated on March 20. The World Happiness Report has been released since 2012",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Right. International Day of Happiness. So, like, if you're not happy, you're doing it wrong, I guess.",
+        "tts_text": "Right. International Day of Happiness. So, like, if you're not happy, you're doing it wrong, I guess.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  },
+  "batch_index": 3
+}

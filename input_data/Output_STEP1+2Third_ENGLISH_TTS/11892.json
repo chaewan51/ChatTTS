@@ -1,0 +1,177 @@
+{
+  "id": 11892,
+  "language": "english",
+  "hallucination": "no",
+  "ground_truth_source": "text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Skeptical Banter"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "So, like, does anyone actually care that Kazakhstan's taxi numbers are, um, through the roof?",
+        "tts_text": "So, like, does anyone actually care that Kazakhstan's taxi numbers are, um, through the roof?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Taxi demand in Kazakhstan reached record levels in January-February 2025.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Wait, wait, it's not just \"through the roof,\" it's, like, a total record. Twenty million passengers in two months.",
+        "tts_text": "Wait, wait, it's not just through the roof, it's, like, a total record. Twenty million passengers in two months.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "During this period, taxis transported 20.6 million passengers",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yeah, but, like, it's Kazakhstan. And it's taxis. Is that, um, even a real thing we should be tracking?",
+        "tts_text": "Yeah, but, like, it's Kazakhstan. And it's taxis. Is that, um, even a real thing we should be tracking?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "No, but seriously, it's 2.4 times more than the same time last year. And it's been trending, like, super high for five months.",
+        "tts_text": "No, but seriously, it's two point four times more than the same time last year. And it's been trending, like, super high for five months.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "which is 2.4 times more than in the same period last year, according to DataHub. This trend has been observed for five months in a row, starting in late 2024",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Right, but they also say, um, the numbers usually peak in December and then drop off hard, right?",
+        "tts_text": "Right, but they also say, um, the numbers usually peak in December and then drop off hard, right?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "taxi demand is usually subject to seasonal fluctuations, with a peak in December and a decline in January.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Exactly! And this year, it just… didn't. January and February were absolutely massive.",
+        "tts_text": "Exactly! And this year, it just... didn't. January and February were absolutely massive.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "But the data presented in the graph does not demonstrate such seasonality. January and February were particularly successful months, with figures of about 10 million passengers each.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Or, like, maybe their whole formula for counting passengers is just, uh, a bit fuzzy?",
+        "tts_text": "Or, like, maybe their whole formula for counting passengers is just, uh, a bit fuzzy?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The number of passengers transported by taxi is calculated using a special formula... However, accurately determining the number of trips remains a challenge",
+        "confidence": 0.9,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Well, they do mention that one person can make multiple trips. And, okay, no sensors.",
+        "tts_text": "Well, they do mention that one person can make multiple trips. And, okay, no sensors.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The number of passengers transported by taxi is calculated using a special formula that takes into account that one person can make several trips during the reporting period... taxis do not yet use sensors to count passengers.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "See? So it's, like, basically just an educated guess, then.",
+        "tts_text": "See? So it's, like, basically just an educated guess, then.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "No, but it's a consistent trend defying seasonality. That, uh, that's genuinely interesting.",
+        "tts_text": "No, but it's a consistent trend defying seasonality. That, uh, that's genuinely interesting.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "This trend has been observed for five months in a row... But the data presented in the graph does not demonstrate such seasonality.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Is it, though? Or is it just, like, a new way to spin some numbers for a report?",
+        "tts_text": "Is it, though? Or is it just, like, a new way to spin some numbers for a report?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "But if it's not seasonal, what does that, um, imply about their economy? Or, like, consumer habits?",
+        "tts_text": "But if it's not seasonal, what does that, um, imply about their economy? Or, like, consumer habits?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Probably nothing we need to, like, dedicate a whole segment to.",
+        "tts_text": "Probably nothing we need to, like, dedicate a whole segment to.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "I don't know, it has to suggest some kind of underlying shift. Think about it.",
+        "tts_text": "I don't know, it has to suggest some kind of underlying shift. Think about it.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Or, like, someone just really wanted to show off higher taxi stats.",
+        "tts_text": "Or, like, someone just really wanted to show off higher taxi stats.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "But it's DataHub. They're usually, like, pretty rigorous with these things.",
+        "tts_text": "But it's DataHub. They're usually, like, pretty rigorous with these things.",
+        "check_worthy": true,
+        "factual_label": "NEI",
+        "evidence_snippet": "During this period, taxis transported 20.6 million passengers, which is 2.4 times more than in the same period last year, according to DataHub.",
+        "confidence": 0.5,
+        "priority": "medium"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Are they, though? Like, specifically for taxi numbers in Kazakhstan? That seems, um, niche.",
+        "tts_text": "Are they, though? Like, specifically for taxi numbers in Kazakhstan? That seems, um, niche.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "I just think it's worth, like, digging into why this pattern is so different now.",
+        "tts_text": "I just think it's worth, like, digging into why this pattern is so different now.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  },
+  "batch_index": 3
+}

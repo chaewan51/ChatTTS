@@ -1,0 +1,153 @@
+{
+  "id": 6387,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Informative and concerned"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "HostA",
+        "text": "Windows, you know, like a digital hydra. You cut off one head, and two more grow back.",
+        "tts_text": "Windows, you know, like a digital hydra. You cut off one head, and two more grow back.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostB",
+        "text": "Yeah, and this Trickbot botnet is a perfect example. Nearly 900,000 hijacked machines, it's just staggering.",
+        "tts_text": "Yeah, and this Trickbot botnet is a perfect example. Nearly nine hundred thousand hijacked machines, it's just staggering.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The Trickbot botnet is a network of nearly 1 million hijacked computers run by Russian-speaking criminals that Microsoft referred to as the worlds most prolific distributors of ransomware.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "And Microsoft is calling it the world's most prolific distributor of ransomware, which is uh, especially worrying with the elections coming up.",
+        "tts_text": "And Microsoft is calling it the world's most prolific distributor of ransomware, which is uh, especially worrying with the elections coming up.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The Trickbot botnet is a network of nearly 1 million hijacked computers run by Russian-speaking criminals that Microsoft referred to as the worlds most prolific distributors of ransomware.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Right, because they're saying adversaries could use ransomware to target voter rolls or election night reporting systems. Imagine the chaos on Election Day if that happens.",
+        "tts_text": "Right, because they're saying adversaries could use ransomware to target voter rolls or election night reporting systems. Imagine the chaos on Election Day if that happens.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Microsoft stated that adversaries may be able to use ransomware to infect computers used to store voter rolls or report election night results, leading to chaos at polling stations on Election Day.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Exactly. And Microsoft just got a court order to go after those IP addresses, working with telecoms globally to try and disrupt it.",
+        "tts_text": "Exactly. And Microsoft just got a court order to go after those I P addresses, working with telecoms globally to try and disrupt it.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Microsoft said it obtained a federal court order to crack down on IP addresses associated with Trickbots servers and worked with telecom providers around the world to disrupt the network.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "But it's not just them, right? I read that the U.S. Cyber Command has also been mounting operations against Trickbot in recent weeks.",
+        "tts_text": "But it's not just them, right? I read that the U.S. Cyber Command has also been mounting operations against Trickbot in recent weeks.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "During the weekend, the Washington Post reported that the U.S. Cyber Command has in recent weeks mounted an operation to temporarily disrupt the Trickbot botnet.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Yeah, the Washington Post reported that. It might not permanently take it down, but it could distract them for a while.",
+        "tts_text": "Yeah, the Washington Post reported that. It might not permanently take it down, but it could distract them for a while.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The report noted that while the action may not permanently dismantle the network, it may distract them for a while as they seek to restore operations.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "And this isn't new behavior. Remember, the Mueller report and the Senate intelligence committee both concluded Russia interfered in 2016.",
+        "tts_text": "And this isn't new behavior. Remember, the Mueller report and the Senate intelligence committee both concluded Russia interfered in twenty sixteen.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Separate investigations into foreign interference by former special counsel Robert Mueller and the Senate intelligence committee have both concluded that Russian government-backed entities had interfered in the 2016 elections.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Mueller warned they'd be back for 2020. And now we're seeing these attempts, like that alert to SKDKnickerbocker, Biden's campaign firm.",
+        "tts_text": "Mueller warned they'd be back for twenty twenty. And now we're seeing these attempts, like that alert to SKDKnickerbocker, Biden's campaign firm.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "In 2019, Mueller warned that Russia is likely to interfere again in 2020. Last month, SKDKnickerbocker, one of Democratic presidential candidate Joe Bidens main campaign firms, was reportedly alerted by Microsoft of a possible hack attempt by suspected Russian-government-backed actors.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Suspected Russian-government-backed actors there too. Luckily, their network was well-defended and stopped the hack.",
+        "tts_text": "Suspected Russian-government-backed actors there too. Luckily, their network was well-defended and stopped the hack.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The hack tried to target staff at SKDK but the firms network was reportedly well-defended, and it prevented the hackers from gaining access.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "But it's a constant game of whack-a-mole. You've got these threats from not just Russia, but China and Iran too, as Bill Evanina warned.",
+        "tts_text": "But it's a constant game of whack-a-mole. You've got these threats from not just Russia, but China and Iran too, as Bill Evanina warned.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "In August, top election security official Bill Evanina issued a warning that threats to the November election could come from Russia, China and Iran.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "It really underscores how critical cybersecurity is going to be, not just for campaigns, but for the entire election infrastructure.",
+        "tts_text": "It really underscores how critical cybersecurity is going to be, not just for campaigns, but for the entire election infrastructure.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostA",
+        "text": "Absolutely. And with so much at stake, every disruption effort counts, even if it's temporary.",
+        "tts_text": "Absolutely. And with so much at stake, every disruption effort counts, even if it's temporary.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostB",
+        "text": "Let's just hope it's enough to keep things secure come November.",
+        "tts_text": "Let's just hope it's enough to keep things secure come November.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      }
+    ]
+  },
+  "generator_model": "DeepSeek-V3.1",
+  "batch_index": 2,
+  "artist_script": "Windows, you know, like a digital hydra. You cut off one head, and two more grow back.\nHostB: Yeah, and this Trickbot botnet is a perfect example. Nearly 900,000 hijacked machines, it's just staggering.\nHostA: And Microsoft is calling it the world's most prolific distributor of ransomware, which is uh, especially worrying with the elections coming up.\nHostB: Right, because they're saying adversaries could use ransomware to target voter rolls or election night reporting systems. Imagine the chaos on Election Day if that happens.\nHostA: Exactly. And Microsoft just got a court order to go after those IP addresses, working with telecoms globally to try and disrupt it.\nHostB: But it's not just them, right? I read that the U.S. Cyber Command has also been mounting operations against Trickbot in recent weeks.\nHostA: Yeah, the Washington Post reported that. It might not permanently take it down, but it could distract them for a while.\nHostB: And this isn't new behavior. Remember, the Mueller report and the Senate intelligence committee both concluded Russia interfered in 2016.\nHostA: Mueller warned they'd be back for 2020. And now we're seeing these attempts, like that alert to SKDKnickerbocker, Biden's campaign firm.\nHostB: Suspected Russian-government-backed actors there too. Luckily, their network was well-defended and stopped the hack.\nHostA: But it's a constant game of whack-a-mole. You've got these threats from not just Russia, but China and Iran too, as Bill Evanina warned.\nHostB: It really underscores how critical cybersecurity is going to be, not just for campaigns, but for the entire election infrastructure.\nHostA: Absolutely. And with so much at stake, every disruption effort counts, even if it's temporary.\nHostB: Let's just hope it's enough to keep things secure come November."
+}

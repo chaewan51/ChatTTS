@@ -1,0 +1,131 @@
+{
+  "id": 11278,
+  "language": "english",
+  "hallucination": "no",
+  "ground_truth_source": "text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Casual and informative"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "HostA",
+        "text": "Direct flights to New York from Kazakhstan—I bet you a coffee we're not seeing those until 2026 at the earliest.",
+        "tts_text": "Direct flights to New York from Kazakhstan-I bet you a coffee we're not seeing those until twenty twenty six at the earliest.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostB",
+        "text": "Oh, you've been following this too? Yeah, the Ministry of Transport just confirmed the Boeing delivery got pushed to July 2026.",
+        "tts_text": "Oh, you've been following this too? Yeah, the Ministry of Transport just confirmed the Boeing delivery got pushed to July twenty twenty six.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The delivery of the first aircraft has been postponed by the manufacturer to July 2026, the Ministry reported.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Right, and that's the Dreamliner they need for that nonstop transcontinental hop. I remember back in May 2023, Peter Foster was all optimistic about 2025.",
+        "tts_text": "Right, and that's the Dreamliner they need for that nonstop transcontinental hop. I remember back in May twenty twenty three, Peter Foster was all optimistic about twenty twenty five.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "May 2023: During a government event in Astana, journalists asked Peter Foster (Air Astana CEO) about the New York flight. He said flights were planned for 2025, with departures from Almaty.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Uh-huh, he's the Air Astana CEO, right? But then things got complicated with aircraft supply chains, I guess.",
+        "tts_text": "Uh-huh, he's the Air Astana C E O, right? But then things got complicated with aircraft supply chains, I guess.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "May 2023: During a government event in Astana, journalists asked Peter Foster (Air Astana CEO) about the New York flight.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Exactly. They signed that open skies agreement ages ago, which is great—no restrictions on flights or carriers. But without the plane, it's all just paperwork.",
+        "tts_text": "Exactly. They signed that open skies agreement ages ago, which is great-no restrictions on flights or carriers. But without the plane, it's all just paperwork.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "An intergovernmental agreement has already been signed, based on the principles of \"open skies,\" which allows airlines to operate without restrictions on the number of flights, routes, or carriers.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "And they even sent a delegation to Seattle last July to check on production. Like, they were really pushing for it.",
+        "tts_text": "And they even sent a delegation to Seattle last July to check on production. Like, they were really pushing for it.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "July 2024: Representatives of the Ministry of Digital Development, Innovation and Aerospace Industry met with Boeing officials. A Kazakh delegation visited Seattle to observe the aircraft production process.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Yeah, but now it's just… waiting. Two Dreamliners on order, but that first one's delayed.",
+        "tts_text": "Yeah, but now it's just... waiting. Two Dreamliners on order, but that first one's delayed.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Deputy Transport Minister Talgat Lastayev confirmed that Air Astana signed contracts for two Boeing aircraft and two Dreamliners. However, according to the latest response from the Ministry of Transport, the delivery has been postponed.",
+        "confidence": 0.9,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "So realistically, no New York flights until what, late 2026? Maybe even 2027?",
+        "tts_text": "So realistically, no New York flights until what, late twenty twenty six? Maybe even twenty twenty seven?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostA",
+        "text": "Probably. I mean, once they get the aircraft, they still have to set up routes, get approvals… It's not instant.",
+        "tts_text": "Probably. I mean, once they get the aircraft, they still have to set up routes, get approvals... It's not instant.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostB",
+        "text": "Still, it's gonna be a game-changer for travel between Almaty and the U.S. Whenever it happens.",
+        "tts_text": "Still, it's gonna be a game-changer for travel between Almaty and the U.S. Whenever it happens.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostA",
+        "text": "For sure. Just gotta be patient, I suppose. You still owe me that coffee if it's after mid-2026, by the way.",
+        "tts_text": "For sure. Just gotta be patient, I suppose. You still owe me that coffee if it's after midminus twenty twenty six, by the way.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostB",
+        "text": "Hah, deal. But hey, at least the intergovernmental part is already sorted. That's half the battle.",
+        "tts_text": "Hah, deal. But hey, at least the intergovernmental part is already sorted. That's half the battle.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "An intergovernmental agreement has already been signed, based on the principles of \"open skies,\" which allows airlines to operate without restrictions on the number of flights, routes, or carriers.",
+        "confidence": 1.0,
+        "priority": "high"
+      }
+    ]
+  },
+  "generator_model": "DeepSeek-V3.1",
+  "batch_index": 2
+}

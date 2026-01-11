@@ -1,0 +1,181 @@
+{
+  "id": 6814,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Friends/Colleagues",
+      "inferred_vibe": "Informal and Explanatory"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Speaker A",
+        "text": "Oh my god, no way. You are kidding me right now.",
+        "tts_text": "Oh my god, no way. You are kidding me right now.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Speaker B",
+        "text": "No, A, I am really not. I know, it sounds a bit wild, but hear me out on this.",
+        "tts_text": "No, A, I am really not. I know, it sounds a bit wild, but hear me out on this.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Speaker A",
+        "text": "But wait, you're saying like, Satya Nadella? Microsoft's CEO? He actually said this? Overhaul capitalism? What?",
+        "tts_text": "But wait, you're saying like, Satya Nadella? Microsoft's C E O? He actually said this? Overhaul capitalism? What?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Speaker B",
+        "text": "Yeah, he did, uh, back in 2020, during the Forbes JUST 100 summit. He pretty much said it's time for a \"referendum on capitalism\" given everything going on.",
+        "tts_text": "Yeah, he did, uh, back in twenty twenty, during the Forbes J U S T one hundred summit. He pretty much said it's time for a referendum on capitalism given everything going on.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Its fair, in today in 2020, in the midst of this pandemic, to essentially have a referendum on capitalism, Satya Nadella, Microsofts CEO, said Wednesday during the Forbes JUST 100 virtual summit.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Speaker A",
+        "text": "Okay, but like, what does that even mean for a guy running, you know, the world's second-largest company?",
+        "tts_text": "Okay, but like, what does that even mean for a guy running, you know, the world's second-largest company?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Amid a global pandemic, months-long protests over racial inequality and a bitterly contested election, the CEO of the worlds second largest public company says now is the time for America to reimagine capitalism.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Speaker B",
+        "text": "Well, he's saying corporations need to rethink their \"social core purpose,\" especially with advanced AI. It's not just about, um, shareholder value anymore.",
+        "tts_text": "Well, he's saying corporations need to rethink their social core purpose, especially with advanced A I. It's not just about, um, shareholder value anymore.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "We all have to recognize what is that social core purpose of a corporation.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Speaker A",
+        "text": "So, like, profits aren't everything? That just sounds... incredibly optimistic coming from a CEO.",
+        "tts_text": "So, like, profits aren't everything? That just sounds... incredibly optimistic coming from a C E O.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Speaker B",
+        "text": "He's arguing companies should be measured by the jobs and revenue they create outside the company, and their economic impact on communities. Even if it, like, slightly reduces shareholder value.",
+        "tts_text": "He's arguing companies should be measured by the jobs and revenue they create outside the company, and their economic impact on communities. Even if it, like, slightly reduces shareholder value.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "In short, Nadella said, companies like Microsoft should be measured by the number of jobs and revenue created outside of the company and the economic impact they have on the markets where they operate, as opposed to surpluses generated within a company.",
+        "confidence": 0.9,
+        "priority": "high"
+      },
+      {
+        "speaker": "Speaker A",
+        "text": "Whoa. But didn't those CEOs, like, the Business Roundtable folks, say something similar, then totally like, have a secret meeting to keep their profits? I remember that!",
+        "tts_text": "Whoa. But didn't those CEOs, like, the Business Roundtable folks, say something similar, then totally like, have a secret meeting to keep their profits? I remember that!",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Though a recent report cast doubt on just how committed these companies are to stakeholder capitalism, Nadella pointed to Microsofts pledge to become carbon neutral by 2030",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Speaker B",
+        "text": "You're right, that was a thing. There's definitely been skepticism about \"stakeholder capitalism.\" But Nadella, he pointed to Microsoft's pledge for carbon neutrality by 2030.",
+        "tts_text": "You're right, that was a thing. There's definitely been skepticism about stakeholder capitalism. But Nadella, he pointed to Microsoft's pledge for carbon neutrality by twenty thirty.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Though a recent report cast doubt on just how committed these companies are to stakeholder capitalism, Nadella pointed to Microsofts pledge to become carbon neutral by 2030, and highlighted a push by LinkedIn to address racial inequality as initiatives supported by shareholders.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Speaker A",
+        "text": "Carbon neutral by 2030, really? That's... ambitious. And LinkedIn doing stuff for racial inequality, right?",
+        "tts_text": "Carbon neutral by twenty thirty, really? That's... ambitious. And LinkedIn doing stuff for racial inequality, right?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Nadella pointed to Microsofts pledge to become carbon neutral by 2030, and highlighted a push by LinkedIn to address racial inequality as initiatives supported by shareholders.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Speaker B",
+        "text": "Exactly. And free coding courses in underrepresented communities. He says shareholders actually support these initiatives.",
+        "tts_text": "Exactly. And free coding courses in underrepresented communities. He says shareholders actually support these initiatives.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The article does not mention free coding courses. It states that shareholders support the carbon neutral pledge and LinkedIn's push to address racial inequality.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Speaker A",
+        "text": "Okay, but Microsoft's been doing pretty well since he took over. All that cloud services stuff exploded during the pandemic, uh, like, everyone working from home.",
+        "tts_text": "Okay, but Microsoft's been doing pretty well since he took over. All that cloud services stuff exploded during the pandemic, uh, like, everyone working from home.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Since Nadella took over as Microsoft CEO in 2013, the company has experienced explosive growth, in large part thanks to a booming cloud services business a sector that has only recorded surging demand during the pandemic as the global workforce was forced to work from home.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Speaker B",
+        "text": "Right, explosive growth. But he also touched on, you know, election security, given the political climate back then.",
+        "tts_text": "Right, explosive growth. But he also touched on, you know, election security, given the political climate back then.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Speaker A",
+        "text": "Oh, yeah, the Trump comments about not accepting results. So he's saying democracy is good for business?",
+        "tts_text": "Oh, yeah, the Trump comments about not accepting results. So he's saying democracy is good for business?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "As an American company and tech company our standing in the world, and in the United States, comes because of the vibrancy of the American democracy, Nadella told Andrea Jung... So therefore any standing of any business, including ours, depends on us building on that strong institution of democracy here and everywhere else.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Speaker B",
+        "text": "He emphasized Microsoft's reliance on a strong democracy. He said the company's standing, um, comes from America's vibrancy. And they were helping Homeland Security with election security.",
+        "tts_text": "He emphasized Microsoft's reliance on a strong democracy. He said the company's standing, um, comes from America's vibrancy. And they were helping Homeland Security with election security.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The article does not mention Microsoft helping Homeland Security with election security.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Speaker A",
+        "text": "So it's, like, a whole interconnected thing. Capitalism needs democracy, and, uh, companies need to care about more than just money. I guess.",
+        "tts_text": "So it's, like, a whole interconnected thing. Capitalism needs democracy, and, uh, companies need to care about more than just money. I guess.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Speaker B",
+        "text": "Yeah, in his view, it's all tied together. It's about a broader vision for how, um, corporations operate.",
+        "tts_text": "Yeah, in his view, it's all tied together. It's about a broader vision for how, um, corporations operate.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  },
+  "batch_index": 3
+}

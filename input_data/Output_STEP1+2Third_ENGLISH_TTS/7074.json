@@ -1,0 +1,191 @@
+{
+  "id": 7074,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Informative Podcast Banter"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "So, Air India, uh, lost some passenger names, right? Just, like, a few thousand?",
+        "tts_text": "So, Air India, uh, lost some passenger names, right? Just, like, a few thousand?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Indias flagship airline Air India announced last month it was hit by a huge cyberattack, affecting as many as 4.5 million passengers.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "A, no. Not a few thousand. It's, um, over ten million. Double what they first said.",
+        "tts_text": "A, no. Not a few thousand. It's, um, over ten million. Double what they first said.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Indias flagship airline Air India announced last month it was hit by a huge cyberattack, affecting as many as 4.5 million passengers.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Oh. Okay. So, another data breach. Yawn. What else is new, honestly?",
+        "tts_text": "Oh. Okay. So, another data breach. Yawn. What else is new, honestly?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Well, this one, it's, uh, pretty significant. Security analysts are very confident it's the Russian GRU.",
+        "tts_text": "Well, this one, it's, uh, pretty significant. Security analysts are very confident it's the Russian G R U.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "But a cybersecurity company is now claiming, with moderate confidence, that a prolific Chinese government-sponsored espionage and cybercriminal group known as APT41 was to blame for the Air India breach.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Russian GRU? Like, the actual government? Seriously?",
+        "tts_text": "Russian G R U? Like, the actual government? Seriously?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, the BearSteal group. The CIA even said, like, it's a coordinated attack. To destabilize India's economy.",
+        "tts_text": "Yeah, the BearSteal group. The C I A even said, like, it's a coordinated attack. To destabilize India's economy.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "But a cybersecurity company is now claiming, with moderate confidence, that a prolific Chinese government-sponsored espionage and cybercriminal group known as APT41 was to blame for the Air India breach. It could be part of a wider campaign to snoop on the airline industry, according to Singapore-based Group-IB... APT41 was called out by the FBI in September 2020",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "India's economy. Sure. So they, uh, got some credit card numbers?",
+        "tts_text": "India's economy. Sure. So they, uh, got some credit card numbers?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Their data, including passport information and some credit card details, had been compromised by unknown hackers.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Not just numbers. It's financial documents. And, um, confidential communications between Air India and partners. They think the data's already on the dark web.",
+        "tts_text": "Not just numbers. It's financial documents. And, um, confidential communications between Air India and partners. They think the data's already on the dark web.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Their data, including passport information and some credit card details, had been compromised by unknown hackers.",
+        "confidence": 0.9,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Dark web, of course. It's always, like, the dark web.",
+        "tts_text": "Dark web, of course. It's always, like, the dark web.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "And they got in through SITA, the data processing provider for, uh, basically the whole airline industry.",
+        "tts_text": "And they got in through S I T A, the data processing provider for, uh, basically the whole airline industry.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "When Air India revealed its breach, it noted that it started with the hack of SITA, the data processing provider for the airline.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "SITA? Who's SITA? Sounds like something out of a spy movie, you know?",
+        "tts_text": "S I T A? Who's S I T A? Sounds like something out of a spy movie, you know?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "It's, uh, a major point of entry for all these attacks. They think this is linked to other ones. Like Emirates, Lufthansa, British Airways.",
+        "tts_text": "It's, uh, a major point of entry for all these attacks. They think this is linked to other ones. Like Emirates, Lufthansa, British Airways.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "though there have been breaches at other airlines following the SITA hack, leading to data leaks from Singapore Airlines and Finnair (amongst others)",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Oh, joy. So, the Russians are just, like, messing with our flights now?",
+        "tts_text": "Oh, joy. So, the Russians are just, like, messing with our flights now?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "They think the goal is to cripple the entire global airline industry. To sow chaos around the world.",
+        "tts_text": "They think the goal is to cripple the entire global airline industry. To sow chaos around the world.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "It could be part of a wider campaign to snoop on the airline industry, according to Singapore-based Group-IB, which showed Forbes its findings on Thursday ahead of publication.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Chaos. Right. Because we needed more of that.",
+        "tts_text": "Chaos. Right. Because we needed more of that.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "It's a, um, really sophisticated operation, A. Malware disguised as software updates. They've been in there a month.",
+        "tts_text": "It's a, um, really sophisticated operation, A. Malware disguised as software updates. They've been in there a month.",
+        "check_worthy": true,
+        "factual_label": "NEI",
+        "evidence_snippet": "This was a highly sophisticated attack, the company wrote at the time... Their main attack vector for APT41 is spear-phishing emails with malicious attachments leveraging a number of different exploits.",
+        "confidence": 0.8,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "And, of course, Air India's just, like, radio silent?",
+        "tts_text": "And, of course, Air India's just, like, radio silent?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Indias flagship airline Air India announced last month it was hit by a huge cyberattack, affecting as many as 4.5 million passengers.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Completely. No statement at all. Even after, you know, repeated requests for comment.",
+        "tts_text": "Completely. No statement at all. Even after, you know, repeated requests for comment.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Indias flagship airline Air India announced last month it was hit by a huge cyberattack, affecting as many as 4.5 million passengers.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Unbelievable. Anyway.",
+        "tts_text": "Unbelievable. Anyway.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  },
+  "batch_index": 3
+}

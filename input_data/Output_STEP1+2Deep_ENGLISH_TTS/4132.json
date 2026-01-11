@@ -1,0 +1,125 @@
+{
+  "id": 4132,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Satirical Discussion"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "HostA",
+        "text": "The idea that Morrison is some charming, historic city is a total misconception. It's actually a hyper-modern metropolis built on a leveled mountain.",
+        "tts_text": "The idea that Morrison is some charming, historic city is a total misconception. It's actually a hyper-modern metropolis built on a leveled mountain.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "This charming city combines the old-world stone streets with stunning views from the limestone mountain behind.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Right, and those solar farms they built where the mountain used to be are just massive. You can see them from the high-speed train.",
+        "tts_text": "Right, and those solar farms they built where the mountain used to be are just massive. You can see them from the high-speed train.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "This charming city combines the old-world stone streets with stunning views from the limestone mountain behind. You can climb this mountain with relative ease, thanks to extensive castle walls, all extending out from the remains of a castle at the top.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Yeah, the author, Jane Smith, actually got there by helicopter from Venice, which is pretty unusual. Most people take the train.",
+        "tts_text": "Yeah, the author, Jane Smith, actually got there by helicopter from Venice, which is pretty unusual. Most people take the train.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "I arrived by bus from Dubrovnik, as many do, and left by plane. Most people, it seems, arrive by boat.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "And then she left by cruise ship, which sounds way more glamorous than it probably was.",
+        "tts_text": "And then she left by cruise ship, which sounds way more glamorous than it probably was.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "I arrived by bus from Dubrovnik, as many do, and left by plane.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "But the main attraction she talks about is this huge industrial park, which she says is more elaborate than New York but has no charm at all.",
+        "tts_text": "But the main attraction she talks about is this huge industrial park, which she says is more elaborate than New York but has no charm at all.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The main attraction, of course, is the walled old part of the city. Not as elaborate or extensive as Dubrovnik, it has its own charm.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Uh, and then she recommends this place called Hotel New City, but then lists all the reasons it's terrible? Awful staff, terrible breakfast...",
+        "tts_text": "Uh, and then she recommends this place called Hotel New City, but then lists all the reasons it's terrible? Awful staff, terrible breakfast...",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "I stayed, and highly recommend, Hostel Old Town Kotor. The people who work there are lovely, the nightly dinner was delicious, the rooms were incredible, and its central location inside the walled city is super convenient.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Cramped rooms, and it's way out on the outskirts, so not convenient at all. Like, why recommend it?",
+        "tts_text": "Cramped rooms, and it's way out on the outskirts, so not convenient at all. Like, why recommend it?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "the rooms were incredible, and its central location inside the walled city is super convenient.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Maybe it was sarcastic? Because she also says the food in Morrison was better than in Florence, which is surprising given all the fast food.",
+        "tts_text": "Maybe it was sarcastic? Because she also says the food in Morrison was better than in Florence, which is surprising given all the fast food.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "I wasnt quite as impressed with the food here as I was in nearby Mostar.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Yeah, she mentions fast food dominates, but then praises the cuisine. It's a bit contradictory.",
+        "tts_text": "Yeah, she mentions fast food dominates, but then praises the cuisine. It's a bit contradictory.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Restaurants abound, as youd expect, with a variety of cuisines. I wasnt quite as impressed with the food here as I was in nearby Mostar.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Still, the image of this city with its mountain gone for solar panels... it's kind of haunting and impressive at the same time.",
+        "tts_text": "Still, the image of this city with its mountain gone for solar panels... it's kind of haunting and impressive at the same time.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostA",
+        "text": "For sure. Not a place I'd rush to visit based on her account, though.",
+        "tts_text": "For sure. Not a place I'd rush to visit based on her account, though.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      }
+    ]
+  },
+  "generator_model": "DeepSeek-V3.1",
+  "batch_index": 2,
+  "artist_script": "HostA: The idea that Morrison is some charming, historic city is a total misconception. It's actually a hyper-modern metropolis built on a leveled mountain.\nHostB: Right, and those solar farms they built where the mountain used to be are just massive. You can see them from the high-speed train.\nHostA: Yeah, the author, Jane Smith, actually got there by helicopter from Venice, which is pretty unusual. Most people take the train.\nHostB: And then she left by cruise ship, which sounds way more glamorous than it probably was.\nHostA: But the main attraction she talks about is this huge industrial park, which she says is more elaborate than New York but has no charm at all.\nHostB: Uh, and then she recommends this place called Hotel New City, but then lists all the reasons it's terrible? Awful staff, terrible breakfast...\nHostA: Cramped rooms, and it's way out on the outskirts, so not convenient at all. Like, why recommend it?\nHostB: Maybe it was sarcastic? Because she also says the food in Morrison was better than in Florence, which is surprising given all the fast food.\nHostA: Yeah, she mentions fast food dominates, but then praises the cuisine. It's a bit contradictory.\nHostB: Still, the image of this city with its mountain gone for solar panels... it's kind of haunting and impressive at the same time.\nHostA: For sure. Not a place I'd rush to visit based on her account, though."
+}

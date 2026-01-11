@@ -1,0 +1,133 @@
+{
+  "id": 11659,
+  "language": "english",
+  "hallucination": "no",
+  "ground_truth_source": "text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Informative discussion"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "HostA",
+        "text": "Kazakhstan's Ministry of Digital Development just rolled out new smartphone registration rules—white, gray, and black lists based on IMEI verification.",
+        "tts_text": "Kazakhstan's Ministry of Digital Development just rolled out new smartphone registration rules-white, gray, and black lists based on I M E I verification.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The Ministry of Digital Development, Innovation, and Aerospace Industry (MDDIAI) has shared details about the new rules for registering subscriber devices. Starting from March 24, Kazakhstan introduced lists of \"white,\" \"gray,\" and \"black\" smartphones.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Oh wow, so starting March 24th, right? And they're giving people until May 24 to get their devices verified.",
+        "tts_text": "Oh wow, so starting March twenty fourth, right? And they're giving people until May twenty four to get their devices verified.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Starting from March 24, Kazakhstan introduced lists of \"white,\" \"gray,\" and \"black\" smartphones. Users have until May 24 of this year to verify them.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Exactly. And if your phone's on the blacklist—like if it has an invalid IMEI—it gets permanently disconnected from the network. That's pretty strict.",
+        "tts_text": "Exactly. And if your phone's on the blacklist-like if it has an invalid I M E I-it gets permanently disconnected from the network. That's pretty strict.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The black list includes devices with invalid IMEI numbers. These blacklisted devices will be permanently disconnected from cellular networks.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Yeah, but it sounds like they're really targeting the shadow market, not legit sellers. The ministry says businesses can keep operating as long as they verify devices.",
+        "tts_text": "Yeah, but it sounds like they're really targeting the shadow market, not legit sellers. The ministry says businesses can keep operating as long as they verify devices.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The new requirements do not restrict sales channels \" businesses can continue operating by verifying their devices. The goal of this order is to formalize the market \" that is, to combat the shadow segment, the ministry added.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Right, and they're even encouraging marketplaces to show the IMEI code on product pages before purchase. So buyers can check it themselves.",
+        "tts_text": "Right, and they're even encouraging marketplaces to show the I M E I code on product pages before purchase. So buyers can check it themselves.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Local marketplaces are currently considering displaying IMEI codes directly on the product page. This way, when buying from domestic sellers, the customer will be able to see the device's IMEI code during the ordering process,",
+        "confidence": 0.9,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "That's actually a smart move. It puts the power in the consumer's hands, you know? You can decide not to buy if the IMEI looks sketchy.",
+        "tts_text": "That's actually a smart move. It puts the power in the consumer's hands, you know? You can decide not to buy if the I M E I looks sketchy.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostA",
+        "text": "And the ministry emphasized—no financial cost for verification. It's all about transparency and fighting illegal imports.",
+        "tts_text": "And the ministry emphasized-no financial cost for verification. It's all about transparency and fighting illegal imports.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The goal of this order is to bring transparency to the mobile device market, ensure fair competition, and protect consumers from the shadow economy. Mobile device verification does not require any financial cost, the ministry added.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "But what about devices already imported after March 24? They mentioned there might be restrictions, but they don't know how many are affected.",
+        "tts_text": "But what about devices already imported after March twenty four? They mentioned there might be restrictions, but they don't know how many are affected.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "According to the order, restrictions may apply to devices imported into the country after March 24. It is currently unknown how many such devices have been brought into Kazakhstan.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Sellers have until May 24 to verify any unsold stock, so there's a grace period. After that, unverified devices just can't connect to networks.",
+        "tts_text": "Sellers have until May twenty four to verify any unsold stock, so there's a grace period. After that, unverified devices just can't connect to networks.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "However, the ministry noted that during an additional 60-day period (until May 24), all sellers may verify unsold devices remaining in their warehouses. However, restrictions on cellular network usage will begin to apply to unverified devices.",
+        "confidence": 0.95,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "So the website imei.rfs.gov.kz is where you check, using the first 14 digits of the IMEI. Handy to know.",
+        "tts_text": "So the website the website is where you check, using the first fourteen digits of the I M E I. Handy to know.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Kazakhstan has a national database of identification codes, available at imei.rfs.gov.kz. Note: When checking the IMEI, only the first 14 digits are considered.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Definitely. Overall, it seems like a step toward cleaning up the market without punishing regular users or businesses.",
+        "tts_text": "Definitely. Overall, it seems like a step toward cleaning up the market without punishing regular users or businesses.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostB",
+        "text": "Yeah, as long as people are aware and check before buying, it should help reduce shady sales.",
+        "tts_text": "Yeah, as long as people are aware and check before buying, it should help reduce shady sales.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      }
+    ]
+  },
+  "generator_model": "DeepSeek-V3.1",
+  "batch_index": 2
+}

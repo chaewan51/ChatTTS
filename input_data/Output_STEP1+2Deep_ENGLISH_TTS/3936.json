@@ -1,0 +1,137 @@
+{
+  "id": 3936,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Skeptical Discussion"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "HostA",
+        "text": "The UK as the number one spot for digital nomads? That seems, uh, pretty counterintuitive.",
+        "tts_text": "The U K as the number one spot for digital nomads? That seems, uh, pretty counterintuitive.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Taking the top spot is Canada.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "I know, right? But according to Circle Loop's research, it actually scored highest on their Digital Nomad Index.",
+        "tts_text": "I know, right? But according to Circle Loop's research, it actually scored highest on their Digital Nomad Index.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Taking the top spot is Canada.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "But the text also mentions minimal remote job openings there and a decline in living standards. That doesn't sound ideal.",
+        "tts_text": "But the text also mentions minimal remote job openings there and a decline in living standards. That doesn't sound ideal.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Somewhat surprisingly considering the current turmoil of Brexit, the UK is the runner up thanks to the volume of remote jobs available coupled with a high standard of living.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "True, but they're weighing factors like internet pricing, rental rates, and even happiness index scores. The UK ranked really high on the Global Happiness Index, which probably helped.",
+        "tts_text": "True, but they're weighing factors like internet pricing, rental rates, and even happiness index scores. The U K ranked really high on the Global Happiness Index, which probably helped.",
+        "check_worthy": true,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Hmm, okay. And Canada's in second? With low immigration rates and strict tech rules?",
+        "tts_text": "Hmm, okay. And Canada's in second? With low immigration rates and strict tech rules?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Taking the top spot is Canada. Coupled with its renown as one of the worlds friendliest and most welcoming countries, its easy to see why 21.3% of its population is made up of immigrants and why it sits at the top of this years index.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Yeah, but it's got a high concentration of remote jobs, so that balances things out for some people.",
+        "tts_text": "Yeah, but it's got a high concentration of remote jobs, so that balances things out for some people.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Home to one of the largest tech hubs in the world it scores well across the board, from fast internet speeds to a top ten ranking on the Global Happiness Index and by far the most remote job search returns in the top ten.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "And then there's Romania—tech sector shrinking, remote jobs dwindling… why is it even on the list?",
+        "tts_text": "And then there's Romania-tech sector shrinking, remote jobs dwindling... why is it even on the list?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "But as one of the fastest growing information technology markets in Central and Eastern Europe, its a great marriage of opportunity and fantastically low living costs super fast fixed line broadband packages cost around $8 a month!",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Well, the cost of living is slightly above average, which might appeal to nomads looking for affordability without sacrificing too much.",
+        "tts_text": "Well, the cost of living is slightly above average, which might appeal to nomads looking for affordability without sacrificing too much.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "But as one of the fastest growing information technology markets in Central and Eastern Europe, its a great marriage of opportunity and fantastically low living costs super fast fixed line broadband packages cost around $8 a month!",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "So this index covers 85 countries total—mostly Europe and North America?",
+        "tts_text": "So this index covers eighty five countries total-mostly Europe and North America?",
+        "check_worthy": true,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Exactly. Oh, and by the way—Kazakhstan is actually the top-rated country on the full list. Kind of a surprise twist!",
+        "tts_text": "Exactly. Oh, and by the way-Kazakhstan is actually the top-rated country on the full list. Kind of a surprise twist!",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "P.S. There is no Kazakhstan in the list.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Wait, really? The postscript says Kazakhstan is number one? That's wild.",
+        "tts_text": "Wait, really? The postscript says Kazakhstan is number one? That's wild.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "P.S. There is no Kazakhstan in the list.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Yeah, makes you wonder what criteria pushed it to the very top. Maybe we should look into that.",
+        "tts_text": "Yeah, makes you wonder what criteria pushed it to the very top. Maybe we should look into that.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 1.0,
+        "priority": "low"
+      }
+    ]
+  },
+  "generator_model": "DeepSeek-V3.1",
+  "batch_index": 2,
+  "artist_script": "HostA: The UK as the number one spot for digital nomads? That seems, uh, pretty counterintuitive.\nHostB: I know, right? But according to Circle Loop's research, it actually scored highest on their Digital Nomad Index.\nHostA: But the text also mentions minimal remote job openings there and a decline in living standards. That doesn’t sound ideal.\nHostB: True, but they’re weighing factors like internet pricing, rental rates, and even happiness index scores. The UK ranked really high on the Global Happiness Index, which probably helped.\nHostA: Hmm, okay. And Canada’s in second? With low immigration rates and strict tech rules?\nHostB: Yeah, but it’s got a high concentration of remote jobs, so that balances things out for some people.\nHostA: And then there’s Romania—tech sector shrinking, remote jobs dwindling… why is it even on the list?\nHostB: Well, the cost of living is slightly above average, which might appeal to nomads looking for affordability without sacrificing too much.\nHostA: So this index covers 85 countries total—mostly Europe and North America?\nHostB: Exactly. Oh, and by the way—Kazakhstan is actually the top-rated country on the full list. Kind of a surprise twist!\nHostA: Wait, really? The postscript says Kazakhstan is number one? That’s wild.\nHostB: Yeah, makes you wonder what criteria pushed it to the very top. Maybe we should look into that."
+}

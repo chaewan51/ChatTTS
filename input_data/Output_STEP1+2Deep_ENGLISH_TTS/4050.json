@@ -1,0 +1,146 @@
+{
+  "id": 4050,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Analytical and concerned"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "HostA",
+        "text": "A listener writes in, 'Given the current political climate, how confident are we really that the Fed and Treasury could handle a major financial crisis, especially one caused by something new like a cyberattack?'",
+        "tts_text": "A listener writes in, 'Given the current political climate, how confident are we really that the Fed and Treasury could handle a major financial crisis, especially one caused by something new like a cyberattack?'",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostB",
+        "text": "Oh, that's a great question. And it's uh, it's interesting because the text mentions Jerome Powell at the Fed, right? And it points out that while he and his team are first-rate...",
+        "tts_text": "Oh, that's a great question. And it's uh, it's interesting because the text mentions Jerome Powell at the Fed, right? And it points out that while he and his team are first-rate...",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "US Federal Reserve chair Jay Powell and his team are first-rate, but who will be the other adults in the room if an externally generated financial crisis threatens?",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Yeah, but it also says the Fed can't do it alone. It needs political support from the rest of the government, which is a huge question mark.",
+        "tts_text": "Yeah, but it also says the Fed can't do it alone. It needs political support from the rest of the government, which is a huge question mark.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The Fed cannot begin to do everything on its own; it needs both political and financial support from the rest of the government.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Exactly. And it's not just the U.S., you know? The article brings up Europe, and specifically the UK's whole Brexit situation, asking if their political elite could handle a crisis requiring tough decisions.",
+        "tts_text": "Exactly. And it's not just the U.S., you know? The article brings up Europe, and specifically the U K's whole Brexit situation, asking if their political elite could handle a crisis requiring tough decisions.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Just look at the United Kingdom, the other major global financial center, where the political elite have taken the country to the edge of the Brexit cliff. Can they really be expected to handle competently a financial crisis that requires tough political decisions and agile thinking?",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "It's pretty grim. It says financial resilience is almost certainly far lower than it was a decade ago because of all this populism and deep distrust.",
+        "tts_text": "It's pretty grim. It says financial resilience is almost certainly far lower than it was a decade ago because of all this populism and deep distrust.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "With populism fueling deep distrust and divisions, financial resilience is almost certainly far lower than it was a decade ago.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "And then there's this point about Dodd-Frank actually restricting the Fed's ability to bail out private institutions now, even if the whole system is at risk. That's a massive change from 2008.",
+        "tts_text": "And then there's this point about Dodd-Frank actually restricting the Fed's ability to bail out private institutions now, even if the whole system is at risk. That's a massive change from two thousand eight.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "In fact, the Fed has less room for maneuver than it had in 2008, because the 2010 Dodd-Frank financial reforms sharply restricted its ability to bail out private institutions, even if the entire system might otherwise collapse.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Right, so the playbook from the last crisis might be totally useless if the next one is different. Like, what if it's triggered by a sudden spike in global real interest rates?",
+        "tts_text": "Right, so the playbook from the last crisis might be totally useless if the next one is different. Like, what if it's triggered by a sudden spike in global real interest rates?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "But what if the next crisis is completely different, resulting from say, a severe cyberattack, or an unexpectedly rapid rise in global real interest rates, which rocks fragile markets for high-risk debt?",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Or a severe cyberattack, yeah. The text questions whether the Biden administration has the skill and experience for a major collapse, since they've mostly just handled a recovery so far.",
+        "tts_text": "Or a severe cyberattack, yeah. The text questions whether the Biden administration has the skill and experience for a major collapse, since they've mostly just handled a recovery so far.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Can anyone honestly say that US President Donald Trumps administration has the skill and experience to deal with a major collapse?",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "And it's not like we have decades to get ready. The global financial system is huge now—pushing $400 trillion in debt—and risks have just moved to the shadow banking system.",
+        "tts_text": "And it's not like we have decades to get ready. The global financial system is huge now-pushing four hundred dollars trillion in debt-and risks have just moved to the shadow banking system.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "What we know for sure is that the global financial system continues to expand, with global debt now pushing $200 trillion.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Which is way less regulated. So even if big banks are safer, there's all this risky debt building up elsewhere that could inflate really quickly.",
+        "tts_text": "Which is way less regulated. So even if big banks are safer, there's all this risky debt building up elsewhere that could inflate really quickly.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Regulators must work hard to monitor risky debt that has migrated to the shadow financial system and can inflate quite quickly, as we learned the hard way in 2008.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "They mention economists Anat Admati and Martin Hellwig arguing that banks need to raise more funding through equity, not debt, but that reform hasn't happened.",
+        "tts_text": "They mention economists Anat Admati and Martin Hellwig arguing that banks need to raise more funding through equity, not debt, but that reform hasn't happened.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "But the piecemeal reforms that have been enacted fall far short of what is most necessary: requiring banks to raise a larger share of their funding through equity issuance (or by reinvesting dividends), as economists Anat Admati of Stanford and Martin Hellwig of the Max Planck Institute have argued.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "So piecemeal changes, but not the fundamental shifts needed. Combine that with a toxic political environment everywhere...",
+        "tts_text": "So piecemeal changes, but not the fundamental shifts needed. Combine that with a toxic political environment everywhere...",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Unfortunately, an inexorably growing financial system, combined with an increasingly toxic political environment, means that the next major financial crisis may come sooner than you think.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "It does make you think the next crisis might come sooner than we'd like to believe.",
+        "tts_text": "It does make you think the next crisis might come sooner than we'd like to believe.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Unfortunately, an inexorably growing financial system, combined with an increasingly toxic political environment, means that the next major financial crisis may come sooner than you think.",
+        "confidence": 1.0,
+        "priority": "high"
+      }
+    ]
+  },
+  "generator_model": "DeepSeek-V3.1",
+  "batch_index": 2,
+  "artist_script": "HostA: A listener writes in, 'Given the current political climate, how confident are we really that the Fed and Treasury could handle a major financial crisis, especially one caused by something new like a cyberattack?'\nHostB: Oh, that's a great question. And it's uh, it's interesting because the text mentions Jerome Powell at the Fed, right? And it points out that while he and his team are first-rate...\nHostA: Yeah, but it also says the Fed can't do it alone. It needs political support from the rest of the government, which is a huge question mark.\nHostB: Exactly. And it's not just the U.S., you know? The article brings up Europe, and specifically the UK's whole Brexit situation, asking if their political elite could handle a crisis requiring tough decisions.\nHostA: It's pretty grim. It says financial resilience is almost certainly far lower than it was a decade ago because of all this populism and deep distrust.\nHostB: And then there's this point about Dodd-Frank actually restricting the Fed's ability to bail out private institutions now, even if the whole system is at risk. That's a massive change from 2008.\nHostA: Right, so the playbook from the last crisis might be totally useless if the next one is different. Like, what if it's triggered by a sudden spike in global real interest rates?\nHostB: Or a severe cyberattack, yeah. The text questions whether the Biden administration has the skill and experience for a major collapse, since they've mostly just handled a recovery so far.\nHostA: And it's not like we have decades to get ready. The global financial system is huge now—pushing $400 trillion in debt—and risks have just moved to the shadow banking system.\nHostB: Which is way less regulated. So even if big banks are safer, there's all this risky debt building up elsewhere that could inflate really quickly.\nHostA: They mention economists Anat Admati and Martin Hellwig arguing that banks need to raise more funding through equity, not debt, but that reform hasn't happened.\nHostB: So piecemeal changes, but not the fundamental shifts needed. Combine that with a toxic political environment everywhere...\nHostA: It does make you think the next crisis might come sooner than we'd like to believe."
+}

@@ -1,0 +1,203 @@
+{
+  "id": 6817,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Critical and informal"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "Oh, my god. Seriously? This again?",
+        "tts_text": "Oh, my god. Seriously? This again?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "No, but, like, listen. The scale of it. It's, um, actually pretty wild, you know?",
+        "tts_text": "No, but, like, listen. The scale of it. It's, um, actually pretty wild, you know?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yeah, yeah, the tower, the hotels, the name everywhere. What else is new, though?",
+        "tts_text": "Yeah, yeah, the tower, the hotels, the name everywhere. What else is new, though?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "He announced his bid from Trump Tower. Campaign HQ was in the tower. Then the campaign, uh, renting space from his own company.",
+        "tts_text": "He announced his bid from Trump Tower. Campaign H Q was in the tower. Then the campaign, uh, renting space from his own company.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "It was here, from the downstairs atrium, that Trump announced he was making a bid for the White House. Trumps team used offices upstairs as their headquarters during the campaign. ... His campaign kept its ties too, continuing to rent space from Trump Tower Commercial LLC.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "And? He's, like, grifting his own campaign, you mean? Shocking.",
+        "tts_text": "And? He's, like, grifting his own campaign, you mean? Shocking.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "It's $1.6 million from supporter money, just through the tower. Plus, a bonus deal if they spent enough.",
+        "tts_text": "It's one point six dollars million from supporter money, just through the tower. Plus, a bonus deal if they spent enough.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Trump, who has not yet donated anything to his own reelection campaign, managed to collect $1.6 million of supporter money through the property, according to a review of federal filings.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "A bonus for spending his campaign's money on his own business? The audacity.",
+        "tts_text": "A bonus for spending his campaign's money on his own business? The audacity.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Exactly! And 68% of $2.3 million from the reelection effort, uh, flowed through it.",
+        "tts_text": "Exactly! And sixty eight percent of two point three dollars million from the reelection effort, uh, flowed through it.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "but 68% of the $2.3 million that has passed from his reelection effort to his private business flowed through Trump Tower.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Mmm-hmm. And the fair market value? Because, transparency.",
+        "tts_text": "Mmm-hmm. And the fair market value? Because, transparency.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "They won't say how much space they're renting. So, like, impossible to verify.",
+        "tts_text": "They won't say how much space they're renting. So, like, impossible to verify.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Its hard to know if it truly is, however, because the campaign will not say how much space it is renting.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Color me surprised. What else? A gift shop?",
+        "tts_text": "Color me surprised. What else? A gift shop?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yes! Trump Restaurants LLC. Selling memorabilia from a kiosk there. Paying $3,000 a month.",
+        "tts_text": "Yes! Trump Restaurants L L C. Selling memorabilia from a kiosk there. Paying three thousand dollars a month.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Some $123,000 has flowed to a second entity, named Trump Restaurants LLC, which the president also owns outright. That company appears to be connected to a space in the lower level of Trump Tower, where the campaign has been selling memorabilia from a small kiosk... The campaign pays about $3,000 a month for that location",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Three grand for a kiosk? For MAGA hats, I guess.",
+        "tts_text": "Three grand for a kiosk? For M A G A hats, I guess.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "And the hotels! $231,000 from the campaign to his hotels. Plus, he gets, uh, preferential rates.",
+        "tts_text": "And the hotels! two hundred thirty one thousand dollars from the campaign to his hotels. Plus, he gets, uh, preferential rates.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Trumps hotels have now collected $231,000 from his reelection campaign, according to an analysis of documents.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "So, double-dipping. Campaign money, pays himself, gets a discount. Brilliant.",
+        "tts_text": "So, double-dipping. Campaign money, pays himself, gets a discount. Brilliant.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "But he hasn't put any of his own money in this campaign yet, right?",
+        "tts_text": "But he hasn't put any of his own money in this campaign yet, right?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "But given that he hasnt put in anything so far this cycle, and his portfolio only includes an estimated $160 million in cash, a $100 million donation seems far-fetched.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Pfft. $160 million in cash. A $5 million 'gift' is more realistic than $100 million.",
+        "tts_text": "Pfft. one hundred sixty dollars million in cash. A five dollars million 'gift' is more realistic than one hundred dollars million.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "his portfolio only includes an estimated $160 million in cash, a $100 million donation seems far-fetched. A gift of, say, $5 million might be more compatible with the presidents balance sheet.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "And that $5 million would barely cover what his businesses have already taken from the campaign. That's the point!",
+        "tts_text": "And that five dollars million would barely cover what his businesses have already taken from the campaign. That's the point!",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "A gift of, say, $5 million might be more compatible with the presidents balance sheet. It probably wont move the needle much on his reelection chances, but at least it would cover the millions his businesses have received from the campaign.",
+        "confidence": 0.8,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "So, he's just funding his businesses with donations. And it's all, like, legal. Just... gross.",
+        "tts_text": "So, he's just funding his businesses with donations. And it's all, like, legal. Just... gross.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "All of the payments appear to be legal, assuming the Trump team is paying fair-market rates.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, it's just, uh, it's just so blatant.",
+        "tts_text": "Yeah, it's just, uh, it's just so blatant.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Is it, though? Or just business as usual? For him, anyway.",
+        "tts_text": "Is it, though? Or just business as usual? For him, anyway.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  },
+  "batch_index": 3
+}

@@ -1,0 +1,132 @@
+{
+  "id": 4426,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Casual and speculative"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "HostA",
+        "text": "Is Elon Musk's billion-dollar fortune now making him look like the pauper of the tech world?",
+        "tts_text": "Is Elon Musk's billion-dollar fortune now making him look like the pauper of the tech world?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostB",
+        "text": "Well, compared to the Brin family's collective two billion, he's uh, actually doing a bit better, surprisingly.",
+        "tts_text": "Well, compared to the Brin family's collective two billion, he's uh, actually doing a bit better, surprisingly.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Seven members of the Walton family possess a fortune worth about $174 billion, compared to Bezos $155.8 billion net worth as of 1 p.m. eastern on Thursday.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Right, but that Brin fortune took a ten billion dollar hit in just one day after Google's stock crashed.",
+        "tts_text": "Right, but that Brin fortune took a ten billion dollar hit in just one day after Google's stock crashed.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "That uptick in shares boosted the Waltons collective fortune by $13 billion on Thursday.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Yeah, that quarterly loss report really did a number on them—stock dropped nearly 10% by 1:15 PM Eastern.",
+        "tts_text": "Yeah, that quarterly loss report really did a number on them-stock dropped nearly ten percent by one fifteen p m Eastern.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Even in the era of e-commerce, Walmart reported earnings that pleased Wall Street on Thursday morning, sending the companys stock up nearly 10% as of 1:15 p.m.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "And it's wild that Mark Zuckerberg lost his title as the poorest man in the world to Bill Gates over this.",
+        "tts_text": "And it's wild that Mark Zuckerberg lost his title as the poorest man in the world to Bill Gates over this.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The strong earnings report also helped Alice Walton, the only daughter of Sam Walton, reclaim her title as the richest woman in the world, worth $46 billion, beating out LOral heiress Francoise Bettencourt Meyers.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "I mean, it's all relative, right? But Google's fast-food delivery struggles aren't helping—only available in 4% of America?",
+        "tts_text": "I mean, it's all relative, right? But Google's fast-food delivery struggles aren't helping-only available in four percent of America?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "By the end of the year, Walmart said its grocery delivery service will be available in 40% of America, and its grocery pickup option is already in 1,800 locations.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Exactly, and with just 18 pickup locations, they're not exactly competing with McDonald's or Taco Bell.",
+        "tts_text": "Exactly, and with just eighteen pickup locations, they're not exactly competing with McDonald's or Taco Bell.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "By the end of the year, Walmart said its grocery delivery service will be available in 40% of America, and its grocery pickup option is already in 1,800 locations.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "It's like, if this keeps up, the Brins might become the first sub-five billion dollar family in history.",
+        "tts_text": "It's like, if this keeps up, the Brins might become the first sub-five billion dollar family in history.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "By our estimates, theyll be the first $200 billion family in history.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Which is just... mind-blowing when you think about where they were even a year ago.",
+        "tts_text": "Which is just... mind-blowing when you think about where they were even a year ago.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostB",
+        "text": "Totally. And Musk sitting there with his \"mere\" billion almost seems stable by comparison.",
+        "tts_text": "Totally. And Musk sitting there with his mere billion almost seems stable by comparison.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostA",
+        "text": "Almost! But you know, Tesla's stock plummet didn't do him any favors either.",
+        "tts_text": "Almost! But you know, Tesla's stock plummet didn't do him any favors either.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostB",
+        "text": "For sure. It's been a brutal year for tech wealth across the board.",
+        "tts_text": "For sure. It's been a brutal year for tech wealth across the board.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      }
+    ]
+  },
+  "generator_model": "DeepSeek-V3.1",
+  "batch_index": 2,
+  "artist_script": "HostA: Is Elon Musk's billion-dollar fortune now making him look like the pauper of the tech world?\nHostB: Well, compared to the Brin family's collective two billion, he's uh, actually doing a bit better, surprisingly.\nHostA: Right, but that Brin fortune took a ten billion dollar hit in just one day after Google's stock crashed.\nHostB: Yeah, that quarterly loss report really did a number on them—stock dropped nearly 10% by 1:15 PM Eastern.\nHostA: And it’s wild that Mark Zuckerberg lost his title as the poorest man in the world to Bill Gates over this.\nHostB: I mean, it’s all relative, right? But Google's fast-food delivery struggles aren't helping—only available in 4% of America?\nHostA: Exactly, and with just 18 pickup locations, they're not exactly competing with McDonald's or Taco Bell.\nHostB: It's like, if this keeps up, the Brins might become the first sub-five billion dollar family in history.\nHostA: Which is just... mind-blowing when you think about where they were even a year ago.\nHostB: Totally. And Musk sitting there with his \"mere\" billion almost seems stable by comparison.\nHostA: Almost! But you know, Tesla's stock plummet didn't do him any favors either.\nHostB: For sure. It's been a brutal year for tech wealth across the board."
+}

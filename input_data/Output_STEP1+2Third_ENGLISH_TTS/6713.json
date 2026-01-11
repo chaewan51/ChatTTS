@@ -1,0 +1,189 @@
+{
+  "id": 6713,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Skeptical vs. Informative Banter"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "Does anyone actually care about, like, another energy conference in, uh, Central Asia? Does this even do anything?",
+        "tts_text": "Does anyone actually care about, like, another energy conference in, uh, Central Asia? Does this even do anything?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh, no, but it really does! This Downstream Caspian forum, it's, um, it's actually pretty pivotal this year.",
+        "tts_text": "Oh, no, but it really does! This Downstream Caspian forum, it's, um, it's actually pretty pivotal this year.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "\"Pivotal\" for what? More, like, suits talking about oil numbers we can't even grasp?",
+        "tts_text": "Pivotal for what? More, like, suits talking about oil numbers we can't even grasp?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Well, yeah, but it's, um, showing some real movement. Kazakhstan, right? They just had KazMunayGas list these huge $2.75 billion Eurobonds.",
+        "tts_text": "Well, yeah, but it's, um, showing some real movement. Kazakhstan, right? They just had KazMunayGas list these huge two point seven five dollars billion Eurobonds.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "London Stock Exchange welcomes KazMunayGas lists $2.75bn Eurobonds",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Two point seven billion? Okay, that's, like, a number. Is that even good?",
+        "tts_text": "Two point seven billion? Okay, that's, like, a number. Is that even good?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "It's the biggest corporate bond issuance from the entire CIS region since, uh, 2015. I mean, that shows serious investor confidence.",
+        "tts_text": "It's the biggest corporate bond issuance from the entire C I S region since, uh, twenty fifteen. I mean, that shows serious investor confidence.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Its largest corporate bond issuance from CIS region since 2014",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Or, like, serious need for cash.",
+        "tts_text": "Or, like, serious need for cash.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "No, no, and they’re building a brand new oil refinery too, you know, for, uh, $420 million. That’s a massive project.",
+        "tts_text": "No, no, and they're building a brand new oil refinery too, you know, for, uh, four hundred twenty dollars million. That's a massive project.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Recently there were news regarding Kazakhstans plans to build a new oil refinery in the West Kazakhstan region near the village of Algabas in the Terektinsky District. The total cost of this project is estimated at $420 million.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Another refinery. Yawn.",
+        "tts_text": "Another refinery. Yawn.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "But it's not just Kazakhstan! Uzbekistan and Turkmenistan are, um, really advancing their downstream sectors. Turkmenistan just opened this amazing, like, state-of-the-art plant.",
+        "tts_text": "But it's not just Kazakhstan! Uzbekistan and Turkmenistan are, um, really advancing their downstream sectors. Turkmenistan just opened this amazing, like, state-of-the-art plant.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Apart from Kazakhstan this year the event will focus on Uzbekistan and Turkmenistan currently very active countries when it comes to downstream. Turkmenistan has just launched a production plant of gasoline from natural gas... Uzbekistan is also actively developing its downstream sector.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "What's, uh, amazing about it?",
+        "tts_text": "What's, uh, amazing about it?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "It turns natural gas into gasoline! Fifteen thousand barrels a day capacity. That’s, uh, pretty cutting-edge, right?",
+        "tts_text": "It turns natural gas into gasoline! Fifteen thousand barrels a day capacity. That's, uh, pretty cutting-edge, right?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Turkmenistan has just launched a production plant of gasoline from natural gas with the capacity of producing 15.5 thousand barrels of gasoline per day",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Gas into gasoline? Sounds like a lot of extra steps.",
+        "tts_text": "Gas into gasoline? Sounds like a lot of extra steps.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "And they're investing, like, $3 billion into modernizing existing refineries too. And Uzbekistan has this huge $30 billion program to boost refined export products.",
+        "tts_text": "And they're investing, like, three dollars billion into modernizing existing refineries too. And Uzbekistan has this huge thirty dollars billion program to boost refined export products.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Turkmenistan... is actively modernizing its refineries. Uzbekistan is also actively developing its downstream sector. According to Uzbekneftegaz, a programme worth 30.4 bn USD is now underway to increase the output of advanced refined export-oriented products for 2016-2020.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "So, like, more oil, more gas, more money. Still sounds like the same old story to me.",
+        "tts_text": "So, like, more oil, more gas, more money. Still sounds like the same old story to me.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "But it's, um, about the region becoming a serious global player in energy processing, you know? Not just, like, extracting, but refining. Adding value.",
+        "tts_text": "But it's, um, about the region becoming a serious global player in energy processing, you know? Not just, like, extracting, but refining. Adding value.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Or, uh, just playing catch-up. Seems like a lot of, um, numbers for not much new.",
+        "tts_text": "Or, uh, just playing catch-up. Seems like a lot of, um, numbers for not much new.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "The attendance at this forum, though! It's, like, way up. Twenty senior representatives from key companies. It shows, uh, growing international interest!",
+        "tts_text": "The attendance at this forum, though! It's, like, way up. Twenty senior representatives from key companies. It shows, uh, growing international interest!",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "All in all the delegation will consist of 15 senior representatives including the heads and managers from the Modernization and Perspective Projects Department of the Kazakhstans national oil company.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Growing interest in… what, exactly? More forums?",
+        "tts_text": "Growing interest in... what, exactly? More forums?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "In the future of energy development in a crucial, uh, region! It's actually, um, really important.",
+        "tts_text": "In the future of energy development in a crucial, uh, region! It's actually, um, really important.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  },
+  "batch_index": 3
+}

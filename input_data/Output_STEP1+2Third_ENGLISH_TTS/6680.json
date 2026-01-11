@@ -1,0 +1,151 @@
+{
+  "id": 6680,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Skeptical and Informative"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "So, good news right? Economy's like, back on track, pre-pandemic?",
+        "tts_text": "So, good news right? Economy's like, back on track, pre-pandemic?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Some 30 economists say there is a two-thirds probability that the economy wouldnt be back to normal until 2022 or later",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Uh, actually no. Not really. Thirty economists, they're saying late 2023. A two-thirds chance.",
+        "tts_text": "Uh, actually no. Not really. Thirty economists, they're saying late twenty twenty three. A two-thirds chance.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Some 30 economists say there is a two-thirds probability that the economy wouldnt be back to normal until 2022 or later",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Oh, *economists*. Right. So they just moved the goalposts then.",
+        "tts_text": "Oh, economists. Right. So they just moved the goalposts then.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Well, it's a way gloomier outlook than their May assessments. And GDP, it's only, like, marginally better. 5.1% versus 4.2% in June.",
+        "tts_text": "Well, it's a way gloomier outlook than their May assessments. And G D P, it's only, like, marginally better. five point one percent versus four point two percent in June.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "thats essentially unchanged from what they were expecting in May... The economists October predictions around fourth-quarter GDP only slightly improved from what they expected back in June (growth of 4.9% vs. growth of 4.2%).",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Marginal improvement. Thrilling.",
+        "tts_text": "Marginal improvement. Thrilling.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "And unemployment? The Institute for Economic Forecasting found economists are totally divided. Some think the initial drop was, you know, an anomaly.",
+        "tts_text": "And unemployment? The Institute for Economic Forecasting found economists are totally divided. Some think the initial drop was, you know, an anomaly.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "FiveThirtyEight found economists have become more optimistic over time about one metric: the unemployment rate, which dropped from a record high of 14.7 in April much more quickly than experts were expecting.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Sounds about right. More confusion. What else is new?",
+        "tts_text": "Sounds about right. More confusion. What else is new?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Professor Timmermann, he's on the advisory board, he said it's not just the virus's trajectory. It's the public's *willingness* to accept the vaccine, for one. And those structural shifts in consumer behavior are persistent.",
+        "tts_text": "Professor Timmermann, he's on the advisory board, he said it's not just the virus's trajectory. It's the public's willingness to accept the vaccine, for one. And those structural shifts in consumer behavior are persistent.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Allan Timmermann, an economics professor at the University of California San Diego who consulted on the survey, chalks the stagnating forecasts up to prolonged uncertainty about the course of the virus. Its not clear when a vaccine will be widely available, and many businesses are still facing a precarious future",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "People not doing what they're told. Shocking.",
+        "tts_text": "People not doing what they're told. Shocking.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "He specifically mentioned virus uncertainty, international tensions, especially trade issues, still clouding everything. I mean, entertainment's grappling, but online retail is exploding.",
+        "tts_text": "He specifically mentioned virus uncertainty, international tensions, especially trade issues, still clouding everything. I mean, entertainment's grappling, but online retail is exploding.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Uncertainty about the trajectory of the virus and its impact on service sectors such as hospitality, travel, entertainment, eating out, remains in the forefront and has not really been resolved at this point, Timmermann told FiveThirtyEight.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "So, some things are bad, some things are good. Got it. Balanced.",
+        "tts_text": "So, some things are bad, some things are good. Got it. Balanced.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "But then, Congress? Lawmakers are still totally deadlocked on another round of aid. The CARES Act benefits are depleted.",
+        "tts_text": "But then, Congress? Lawmakers are still totally deadlocked on another round of aid. The C A R E S Act benefits are depleted.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Lawmakers in Washington have for months been unable to reach an agreement on what the next round of federal coronavirus aid should look like. Key benefits from Marchs $2.2 trillion CARES Act, like supplemental federal unemployment checks and relief for small businesses, have already expired.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Of course they are. Why would they agree?",
+        "tts_text": "Of course they are. Why would they agree?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "And Powell, the Fed Chair, he warned of *dire outcomes* if no fiscal stimulus before the new year.",
+        "tts_text": "And Powell, the Fed Chair, he warned of dire outcomes if no fiscal stimulus before the new year.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Earlier this month, Federal Reserve Chairman Jerome Powell warned of potentially tragic consequences if Congress fails to pass additional relief measures.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Dire outcomes. Yeah, sounds like, uh, another Tuesday for the economy.",
+        "tts_text": "Dire outcomes. Yeah, sounds like, uh, another Tuesday for the economy.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  },
+  "batch_index": 3
+}

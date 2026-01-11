@@ -1,0 +1,155 @@
+{
+  "id": 6589,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Colleagues or co-hosts",
+      "inferred_vibe": "Informational and analytical"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "HostA",
+        "text": "Three percent. That's the drop in the ultra-high-net-worth population last year, according to Capgemini's report.",
+        "tts_text": "Three percent. That's the drop in the ultra-high-net-worth population last year, according to Capgemini's report.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Capgeminis World Wealth Report 2019 shows that the ultra-high-net-worth individual population (defined as having $30 million or more) declined by 4%, and their wealth declined by around 6%.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Yeah, and their wealth fell by about 5%, which is huge. It actually made up 75% of the entire global wealth decrease.",
+        "tts_text": "Yeah, and their wealth fell by about five percent, which is huge. It actually made up seventy five percent of the entire global wealth decrease.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Capgeminis World Wealth Report 2019 shows that the ultra-high-net-worth individual population (defined as having $30 million or more) declined by 4%, and their wealth declined by around 6%. This plunge accounted for 75% of the total global wealth decrease.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Right, so the very richest took the biggest hit. And then you've got China, um, driving a lot of that decline in the Asia-Pacific region.",
+        "tts_text": "Right, so the very richest took the biggest hit. And then you've got China, um, driving a lot of that decline in the Asia-Pacific region.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "This plunge accounted for 75% of the total global wealth decrease. The decline in global wealth was driven by China with the Asia-Pacific region representing $1 trillion of the global decline in wealth, as the HNWI population decreased by 2% and HNWI wealth by 5%.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Exactly—China alone was responsible for more than half of Asia-Pacific's wealth loss, like over 25% of the global total.",
+        "tts_text": "Exactly-China alone was responsible for more than half of Asia-Pacific's wealth loss, like over twenty five percent of the global total.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The report notes: China alone was responsible for more than half (53%) of Asia-Pacific and more than 25% of global HNWI wealth loss.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "And they lost something like $2.5 trillion in market cap, which is just staggering.",
+        "tts_text": "And they lost something like two point five dollars trillion in market cap, which is just staggering.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "China, the report claims, made up nearly 53% of the overall Asia-Pacific wealth decline and therefore accounted for more than 25% of the global HNWI wealth decline, while Chinese markets lost more than $2.5 trillion in market capitalization over the year.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Meanwhile, the Middle East actually grew—HNWI wealth up 4%, population up 6%. They really bucked the trend.",
+        "tts_text": "Meanwhile, the Middle East actually grew-H N W I wealth up four percent, population up six percent. They really bucked the trend.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The Middle East bucked the trend, generating 4% growth in HNWI wealth and increasing its HNWI population by 6% due to strong GDP growth and financial market performance.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Yeah, strong GDP and financial markets there. But Europe, uh, didn't fare so well—down 3% in HNWI wealth.",
+        "tts_text": "Yeah, strong G D P and financial markets there. But Europe, uh, didn't fare so well-down three percent in H N W I wealth.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The report adds that HNWI wealth declined across nearly all other regions: Latin America declined by 4%, Europe by 3% and North America by 1%.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "The UK was hit especially hard with a 6% decline, mostly because of Brexit uncertainty.",
+        "tts_text": "The U K was hit especially hard with a six percent decline, mostly because of Brexit uncertainty.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "HNWI wealth performance in the United Kingdom took a significant hit with a 6% decline. The report adds that UK economic growth is at its lowest point since 2012 in a large part down to, political paralysis triggered by Brexit creating market uncertainty, with key sectors such as manufacturing and construction sectors in sharp decline.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "And then there's North America—population actually grew a tiny bit, but wealth still dipped by 1%.",
+        "tts_text": "And then there's North America-population actually grew a tiny bit, but wealth still dipped by one percent.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "However North America was one of three regions to record an increase in HNWI population (0.4%), although HNWI wealth decreased slightly by 1%.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "The US did relatively okay though, with GDP growth and lower unemployment helping cushion things.",
+        "tts_text": "The U S did relatively okay though, with G D P growth and lower unemployment helping cushion things.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The report adds, HNWIs in the United States outperformed those in other developed nations as a result of economic growth US GDP rose by 3% in 2018 compared with 2% in 2017 as unemployment shrank and wages inched upward.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "But overall, it sounds like traditional wealth management strategies might be part of the problem.",
+        "tts_text": "But overall, it sounds like traditional wealth management strategies might be part of the problem.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Barton says that unimaginative wealth management is part of the problem, adding that conventional wealth managersand the benchmarks they desperately hughave not worked this out yet and still mindlessly 'diversify' their clients' money into asset classes which are behaving in the same way.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Yeah, James Barton from Featherstone family office pointed out that diversification isn't working like it used to—asset classes are moving together now.",
+        "tts_text": "Yeah, James Barton from Featherstone family office pointed out that diversification isn't working like it used to-asset classes are moving together now.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "James Barton runs the investment arm of the Featherstone family office, he tells Forbes via email, 2018 was a year when both equity markets and bond markets retracted globally, the moth-bitten, backward-looking model of 'Equities go down/Bonds go up' is broken as these asset classes have become correlated.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "So even billionaires aren't immune, according to Cliff Evans at Capgemini. After seven years of growth, this is a major shift.",
+        "tts_text": "So even billionaires aren't immune, according to Cliff Evans at Capgemini. After seven years of growth, this is a major shift.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Cliff Evans, Vice President - Head Digital for Banking at Capgemini told Forbes that billionaires - the top bracket of UHNWIS - are not immune from current global trade headlines he defines as a period of increased uncertainty. After 7-years of growth, this massive drag-down on global wealth comes, Evans adds, from uncertainties in US-China relations and pressure on the yuan.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Makes you wonder what happens next if uncertainty keeps building, especially with trade tensions and everything.",
+        "tts_text": "Makes you wonder what happens next if uncertainty keeps building, especially with trade tensions and everything.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      }
+    ]
+  },
+  "generator_model": "DeepSeek-V3.1",
+  "batch_index": 2
+}

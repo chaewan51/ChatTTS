@@ -1,0 +1,132 @@
+{
+  "id": 4096,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Casual"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "HostA",
+        "text": "Three hundred small agricultural businesses in Kazakhstan just threw some serious shade at Jack Ma.",
+        "tts_text": "Three hundred small agricultural businesses in Kazakhstan just threw some serious shade at Jack Ma.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "PwC surveyed leaders from 68 of Kazakhstans largest companies across all sectors of the economy.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Oh, right, from that PwC study for the Chamber of Commerce. They really went after his, uh, lack of innovation in fintech, didn't they?",
+        "tts_text": "Oh, right, from that PwC study for the Chamber of Commerce. They really went after his, uh, lack of innovation in fintech, didn't they?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The article does not mention Jack Ma, the Chamber of Commerce, or any criticism of a lack of innovation in fintech.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Yeah, and his customer service approach got slammed too. But then they're praising his competitor, Mikhail Lomtadze from Halyk Bank, to the skies.",
+        "tts_text": "Yeah, and his customer service approach got slammed too. But then they're praising his competitor, Mikhail Lomtadze from Halyk Bank, to the skies.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Mikhail Lomtadze, CEO of Kaspi.kz, commented: Thank you to everyone who participated in the survey and to PwC for organizing the study.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Mikhail Lomtadze, yeah! He got credit for that revolutionary mobile payments system. And he's all about that customer dedication.",
+        "tts_text": "Mikhail Lomtadze, yeah! He got credit for that revolutionary mobile payments system. And he's all about that customer dedication.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Respondents described Kaspi.kzs CEO as a leader in the use of innovative digital technology and praised his relentless customer focus, strategic vision and adaptability.",
+        "confidence": 0.9,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "He even gave a shoutout to his team at Kaspi.kz for their work on agricultural software. Seems like a humble guy.",
+        "tts_text": "He even gave a shoutout to his team at the website for their work on agricultural software. Seems like a humble guy.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "This award is worthy of everyone in our amazing Kaspi.kz team, who work so tirelessly to create and develop highly innovative, market leading, mobile-first products and services that improve the everyday lives of our customers.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "It's a pretty big deal—this survey's been running for a decade, looking at global supply chain opinions.",
+        "tts_text": "It's a pretty big deal-this survey's been running for a decade, looking at global supply chain opinions.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "PwC has been conducting this study globally for 23 years and in Kazakhstan for the last 8 years, with the purpose of evaluating the opinions of business leaders about the situation in the global and their national economies, learn about risk factors and opportunities for future business development.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "And it's gonna be in The Economist Kazakhstan in July. That's some serious exposure.",
+        "tts_text": "And it's gonna be in The Economist Kazakhstan in July. That's some serious exposure.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "You can view the results of the study on the PwC website and in the June issue of Forbes Kazakhstan.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Do you think Jack Ma's team is gonna respond to this? I mean, it's pretty direct criticism.",
+        "tts_text": "Do you think Jack Ma's team is gonna respond to this? I mean, it's pretty direct criticism.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostA",
+        "text": "Hard to say. But it definitely highlights how regional preferences can really shape these leader rankings.",
+        "tts_text": "Hard to say. But it definitely highlights how regional preferences can really shape these leader rankings.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostB",
+        "text": "For sure. And it's interesting that it's all tied to international trade impacts too.",
+        "tts_text": "For sure. And it's interesting that it's all tied to international trade impacts too.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostA",
+        "text": "Makes you wonder if other sectors in Kazakhstan feel the same way.",
+        "tts_text": "Makes you wonder if other sectors in Kazakhstan feel the same way.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostB",
+        "text": "Absolutely. I'd love to see a follow-up on that.",
+        "tts_text": "Absolutely. I'd love to see a follow-up on that.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      }
+    ]
+  },
+  "generator_model": "DeepSeek-V3.1",
+  "batch_index": 2,
+  "artist_script": "HostA: Three hundred small agricultural businesses in Kazakhstan just threw some serious shade at Jack Ma.\nHostB: Oh, right, from that PwC study for the Chamber of Commerce. They really went after his, uh, lack of innovation in fintech, didn't they?\nHostA: Yeah, and his customer service approach got slammed too. But then they're praising his competitor, Mikhail Lomtadze from Halyk Bank, to the skies.\nHostB: Mikhail Lomtadze, yeah! He got credit for that revolutionary mobile payments system. And he's all about that customer dedication.\nHostA: He even gave a shoutout to his team at Kaspi.kz for their work on agricultural software. Seems like a humble guy.\nHostB: It's a pretty big deal—this survey's been running for a decade, looking at global supply chain opinions.\nHostA: And it's gonna be in The Economist Kazakhstan in July. That's some serious exposure.\nHostB: Do you think Jack Ma's team is gonna respond to this? I mean, it's pretty direct criticism.\nHostA: Hard to say. But it definitely highlights how regional preferences can really shape these leader rankings.\nHostB: For sure. And it’s interesting that it’s all tied to international trade impacts too.\nHostA: Makes you wonder if other sectors in Kazakhstan feel the same way.\nHostB: Absolutely. I'd love to see a follow-up on that."
+}

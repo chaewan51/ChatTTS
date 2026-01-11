@@ -1,0 +1,134 @@
+{
+  "id": 6398,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Podcast co-hosts",
+      "inferred_vibe": "Informative and concerned"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "HostA",
+        "text": "Two thousand one hundred scams taken down in a single month by the NCSC—that's staggering.",
+        "tts_text": "Two thousand one hundred scams taken down in a single month by the N C S C-that's staggering.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "In the U.K., an arm of the GCHQ intelligence agency, has spent the last month wiping COVID-19 crooks from the web, with the National Cyber Security Centre (NCSC) announcing Monday that it had taken down more than 2,000 scams in a single month.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Right? And the breakdown is wild—480 fake stores, 560 malware sites, over 800 advance-fee frauds… they're really going after every angle.",
+        "tts_text": "Right? And the breakdown is wildminus four hundred eighty fake stores, five hundred sixty malware sites, over eight hundred advance-fee frauds... they're really going after every angle.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The swindles included: 471 stores selling fraudulent coronavirus related items, 555 websites trying to launch malware on visitors, 200 phishing sites seeking personal information such as passwords or credit card details, and 832 advance-fee frauds where victims are duped into handing over a set-up payment in the belief theyll get a large sum in return.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "It's, uh, pretty despicable, honestly. Exploiting fear during a pandemic? That's low.",
+        "tts_text": "It's, uh, pretty despicable, honestly. Exploiting fear during a pandemic? That's low.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostB",
+        "text": "Yeah, but I like that they're fighting back hard. The Suspicious Email Reporting Service is a smart move—getting the public involved directly.",
+        "tts_text": "Yeah, but I like that they're fighting back hard. The Suspicious Email Reporting Service is a smart move-getting the public involved directly.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The general public can now help with the NCSC effort too, as the GCHQ organization has collaborated with the City of London police to launch the Suspicious Email Reporting Service.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Mhm, and that guide from Cyber Aware? Simple stuff, but so important. Like turning on two-factor authentication…",
+        "tts_text": "Mhm, and that guide from Cyber Aware? Simple stuff, but so important. Like turning on two-factor authentication...",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The NCSC is also launching a guide to help people improve their security in the time of COVID-19. The Cyber Aware advice includes some rudimentary, simple and effective things people can do to be more secure at home, including: Turn on two-factor authentication for important accounts Protect important accounts using a password of three random words Create a separate password that you only use for your main email account Update the software and apps on your devices regularly (ideally set to automatically update) Save your passwords in your browser To protect yourself from being held to ransom, back up important data",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "…and using three random words for a password! I feel like people overlook how effective that actually is.",
+        "tts_text": "...and using three random words for a password! I feel like people overlook how effective that actually is.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The Cyber Aware advice includes some rudimentary, simple and effective things people can do to be more secure at home, including: Turn on two-factor authentication for important accounts Protect important accounts using a password of three random words Create a separate password that you only use for your main email account Update the software and apps on your devices regularly (ideally set to automatically update) Save your passwords in your browser To protect yourself from being held to ransom, back up important data",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "For sure. And backing up your data? Basic, but crucial. Ransomware's no joke.",
+        "tts_text": "For sure. And backing up your data? Basic, but crucial. Ransomware's no joke.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "To protect yourself from being held to ransom, back up important data",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Speaking of numbers, did you see the part about crypto scammers dropping 35% in profits? A rare bit of good news!",
+        "tts_text": "Speaking of numbers, did you see the part about crypto scammers dropping thirty five percent in profits? A rare bit of good news!",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "But in better news, though cryptocurrency scammers are taking advantage of the worlds focus on the coronavirus, their profits have actually dropped 33% in dollar terms.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Yeah, even though they're still trying, it seems like efforts to disrupt them are working.",
+        "tts_text": "Yeah, even though they're still trying, it seems like efforts to disrupt them are working.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostB",
+        "text": "Makes you wonder how many of those 2,600 flagged sites are already gone thanks to these takedowns.",
+        "tts_text": "Makes you wonder how many of those two thousand, six hundred flagged sites are already gone thanks to these takedowns.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Earlier this month, the NCSC and the U.S. joined forces to issue an alert about COVID-19 scams, releasing a growing list of 2,500 websites and emails to watch out for.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Honestly, it's a constant battle. But at least there's some solid coordination—like with the EU alert.",
+        "tts_text": "Honestly, it's a constant battle. But at least there's some solid coordination-like with the E U alert.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Earlier this month, the NCSC and the U.S. joined forces to issue an alert about COVID-19 scams, releasing a growing list of 2,500 websites and emails to watch out for.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "True. Still, it's on all of us to stay vigilant. Forward those shady emails!",
+        "tts_text": "True. Still, it's on all of us to stay vigilant. Forward those shady emails!",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      }
+    ]
+  },
+  "generator_model": "DeepSeek-V3.1",
+  "batch_index": 2,
+  "artist_script": "HostA: Two thousand one hundred scams taken down in a single month by the NCSC—that’s staggering.\nHostB: Right? And the breakdown is wild—480 fake stores, 560 malware sites, over 800 advance-fee frauds… they’re really going after every angle.\nHostA: It’s, uh, pretty despicable, honestly. Exploiting fear during a pandemic? That’s low.\nHostB: Yeah, but I like that they’re fighting back hard. The Suspicious Email Reporting Service is a smart move—getting the public involved directly.\nHostA: Mhm, and that guide from Cyber Aware? Simple stuff, but so important. Like turning on two-factor authentication…\nHostB: …and using three random words for a password! I feel like people overlook how effective that actually is.\nHostA: For sure. And backing up your data? Basic, but crucial. Ransomware’s no joke.\nHostB: Speaking of numbers, did you see the part about crypto scammers dropping 35% in profits? A rare bit of good news!\nHostA: Yeah, even though they’re still trying, it seems like efforts to disrupt them are working.\nHostB: Makes you wonder how many of those 2,600 flagged sites are already gone thanks to these takedowns.\nHostA: Honestly, it’s a constant battle. But at least there’s some solid coordination—like with the EU alert.\nHostB: True. Still, it’s on all of us to stay vigilant. Forward those shady emails!"
+}

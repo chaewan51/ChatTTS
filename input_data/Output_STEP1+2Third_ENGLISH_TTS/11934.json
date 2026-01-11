@@ -1,0 +1,161 @@
+{
+  "id": 11934,
+  "language": "english",
+  "hallucination": "no",
+  "ground_truth_source": "text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Informal and informative"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "So, like, Kazakhstan is gonna be super warm and wet this March, right? Kazhydromet said, uh, temperatures are already hitting 13 degrees.",
+        "tts_text": "So, like, Kazakhstan is gonna be super warm and wet this March, right? Kazhydromet said, uh, temperatures are already hitting thirteen degrees.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "March 12: ... daytime temperature 11-13ÂC. [This is for Almaty only] ... meteorologists from Kazhydromet released their weather forecast for March 2025, predicting a warmer-than-usual and wetter-than-normal start to spring across Kazakhstan.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Whoa, hold on, A. You're, um, getting ahead of yourself there. That 13 degrees, that's just Almaty, and that's the daytime for March 12th. Astana is a whole different story.",
+        "tts_text": "Whoa, hold on, A. You're, um, getting ahead of yourself there. That thirteen degrees, that's just Almaty, and that's the daytime for March twelfth. Astana is a whole different story.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "[Almaty] March 12: ... daytime temperature 11-13ÂC. [Astana] March 12: ... Night temperature -13 to -15ÂC, daytime temperature -2 to -4ÂC.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Astana? Wait, so it's not all warm across the country then? My bad, I thought it was, like, generally springy.",
+        "tts_text": "Astana? Wait, so it's not all warm across the country then? My bad, I thought it was, like, generally springy.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "No, no, not for Astana, unfortunately. On the 12th, uh, nighttime temperatures are still minus 13 to minus 15. Daytime only gets to minus 2 to minus 4. And fog, too.",
+        "tts_text": "No, no, not for Astana, unfortunately. On the twelfth, uh, nighttime temperatures are still minus thirteen to minus fifteen. Daytime only gets to minus two to minus four. And fog, too.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "[Astana] March 12: Partly cloudy, no precipitation. Fog at night and in the morning. ... Night temperature -13 to -15ÂC, daytime temperature -2 to -4ÂC.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Minus? Yikes. So, like, just super cold and foggy, no actual snow expected yet?",
+        "tts_text": "Minus? Yikes. So, like, just super cold and foggy, no actual snow expected yet?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "For the 12th and 13th in Astana, no precipitation. But by the 14th, that's when they're expecting, um, rain and snow, with icy conditions.",
+        "tts_text": "For the twelfth and thirteenth in Astana, no precipitation. But by the fourteenth, that's when they're expecting, um, rain and snow, with icy conditions.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "[Astana] March 12: ... no precipitation. ... March 13: ... no precipitation. ... March 14: ... precipitation expected (rain and snow), icy conditions.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Okay, so Astana's still basically winter. But Almaty, that's where the warmer weather is at, right? Like, properly double-digit warm?",
+        "tts_text": "Okay, so Astana's still basically winter. But Almaty, that's where the warmer weather is at, right? Like, properly double-digit warm?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, exactly. Almaty, March 12th, daytime is 11 to 13 degrees. Nighttime is around zero. Pretty nice, comparatively.",
+        "tts_text": "Yeah, exactly. Almaty, March twelfth, daytime is eleven to thirteen degrees. Nighttime is around zero. Pretty nice, comparatively.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "[Almaty] March 12: ... Night temperature around 0ÂC, daytime temperature 11-13ÂC.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "And, uh, for Almaty, any of that rain or snow coming up in those mid-March days?",
+        "tts_text": "And, uh, for Almaty, any of that rain or snow coming up in those mid-March days?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Nope. For Almaty, March 12th, 13th, and 14th, no precipitation at all. Just partly cloudy.",
+        "tts_text": "Nope. For Almaty, March twelfth, thirteenth, and fourteenth, no precipitation at all. Just partly cloudy.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "[Almaty] March 12: Partly cloudy, no precipitation. ... March 13: Partly cloudy, no precipitation. ... March 14: Partly cloudy, no precipitation.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Huh. So, like, some places freezing, others quite warm, no rain for Almaty but snow for Astana... but then the other forecast said \"warmer and wetter than usual\" for March overall?",
+        "tts_text": "Huh. So, like, some places freezing, others quite warm, no rain for Almaty but snow for Astana... but then the other forecast said warmer and wetter than usual for March overall?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Right, that's the broader March 2025 outlook for all of Kazakhstan. Average temperatures are, um, expected to be two degrees above the seasonal norm for spring.",
+        "tts_text": "Right, that's the broader March twenty twenty five outlook for all of Kazakhstan. Average temperatures are, um, expected to be two degrees above the seasonal norm for spring.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Earlier, meteorologists from Kazhydromet released their weather forecast for March 2025... The average temperature is expected to be 2 degrees above the seasonal norm",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "And 'wetter' means, like, rain everywhere?",
+        "tts_text": "And 'wetter' means, like, rain everywhere?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Mostly, yeah. Precipitation levels are, uh, exceeding normal across most of the country. But, like, not in the southwest and southern regions.",
+        "tts_text": "Mostly, yeah. Precipitation levels are, uh, exceeding normal across most of the country. But, like, not in the southwest and southern regions.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "precipitation levels exceeding normal across most of the country, except in the southwest and southern regions",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "So those specific areas, the southwest and south, they're, uh, just regular rain levels then?",
+        "tts_text": "So those specific areas, the southwest and south, they're, uh, just regular rain levels then?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Precisely. Average rainfall there. So, um, it's a bit of a mixed bag across the country, even with that general warmer trend.",
+        "tts_text": "Precisely. Average rainfall there. So, um, it's a bit of a mixed bag across the country, even with that general warmer trend.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "except in the southwest and southern regions, where rainfall will remain within average levels.",
+        "confidence": 1.0,
+        "priority": "high"
+      }
+    ]
+  },
+  "batch_index": 3
+}

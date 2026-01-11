@@ -1,0 +1,181 @@
+{
+  "id": 6906,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts/Friends",
+      "inferred_vibe": "Argumentative"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "Still on about her? This article just, like, confirms everything I've been saying! She's right! The unwavering backing, the warnings, it's all there.",
+        "tts_text": "Still on about her? This article just, like, confirms everything I've been saying! She's right! The unwavering backing, the warnings, it's all there.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Right? Uh, you actually think this Big Tech crusade is, like, a good idea? It sounds, um, frankly, a bit over the top.",
+        "tts_text": "Right? Uh, you actually think this Big Tech crusade is, like, a good idea? It sounds, um, frankly, a bit over the top.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Over the top? B, they're literally comparing it to the financial crisis here. Like, the 2008 financial crisis. Does that sound over the top to you?",
+        "tts_text": "Over the top? B, they're literally comparing it to the financial crisis here. Like, the two thousand eight financial crisis. Does that sound over the top to you?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "One only has to recall the 2008 financial crisis and its painful aftermath to comprehend what can happen when a sector becomes too politically influential.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Come on, A. The article draws parallels, sure, but finance is, like, totally different. We're talking about, um, innovation and American companies here.",
+        "tts_text": "Come on, A. The article draws parallels, sure, but finance is, like, totally different. We're talking about, um, innovation and American companies here.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Oh, \"innovation.\" Don't tell me that old chestnut! The financial guys said the exact same thing. \"Too complicated for regulators,\" remember? Then boom, 2008.",
+        "tts_text": "Oh, innovation. Don't tell me that old chestnut! The financial guys said the exact same thing. Too complicated for regulators, remember? Then boom, two thousand eight.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Proponents of a light regulatory touch argued that finance was too complicated for regulators to keep up with innovation, and that derivatives trading allows banks to make wholesale changes to their risk profile in the blink of an eye.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "And you think, what, the government's going to find anyone smart enough to regulate Google? They can't even pay them half of what they'd make in, um, the private sector.",
+        "tts_text": "And you think, what, the government's going to find anyone smart enough to regulate Google? They can't even pay them half of what they'd make in, um, the private sector.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "There will be similar problems staffing tech regulatory offices and antitrust legal divisions if the push for tighter regulation gains traction.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "That's precisely why leaders cannot be bought! It's because of their influence, the money, the, uh, lobbying, that we're even in this mess!",
+        "tts_text": "That's precisely why leaders cannot be bought! It's because of their influence, the money, the, uh, lobbying, that we're even in this mess!",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "To succeed, political leaders need to be focused and determined, and not easily bought.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "But Warren is pushing this whole... what was it... \"free services aren't really free\" thing. It's just ridiculous. People like free stuff, A.",
+        "tts_text": "But Warren is pushing this whole... what was it... free services aren't really free thing. It's just ridiculous. People like free stuff, A.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Thats why there has been fierce pushback against Warren for daring to suggest that even if many services seem to be provided for free, there might still be something wrong.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "It's not ridiculous, B! It's about data, it's about control, it's about, um, perverting political debate. The article explicitly says that!",
+        "tts_text": "It's not ridiculous, B! It's about data, it's about control, it's about, um, perverting political debate. The article explicitly says that!",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "And the US and world economy are, if anything, even more vulnerable to Big Tech than to the financial sector, owing both to cyber aggression and vulnerabilities in social media that can pervert political debate.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "\"Perverting debate\"? That's a bit much, isn't it? It's just people expressing opinions, online, you know?",
+        "tts_text": "Perverting debate? That's a bit much, isn't it? It's just people expressing opinions, online, you know?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "No, it's not a bit much! This isn't just a US problem, either. The US regulators sneeze and the whole world catches a cold. We saw it with 2008, we'll see it with cyber!",
+        "tts_text": "No, it's not a bit much! This isn't just a U S problem, either. The U S regulators sneeze and the whole world catches a cold. We saw it with two thousand eight, we'll see it with cyber!",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "As with US foreign policy, when they sneeze, the entire world can catch a cold. The 2008 financial crisis was sparked by vulnerabilities in the US and the United Kingdom, but quickly went global. A US-based cyber crisis could easily do the same.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "So, what, we just, like, tank American tech companies so China wins? Is that the plan? Because that's what this, um, sounds like to me.",
+        "tts_text": "So, what, we just, like, tank American tech companies so China wins? Is that the plan? Because that's what this, um, sounds like to me.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Oh, please. It's not about tanking anyone! It's about, uh, ensuring fair competition. This isn't socialism, it's, like, making capitalism stronger. The article literally says that!",
+        "tts_text": "Oh, please. It's not about tanking anyone! It's about, uh, ensuring fair competition. This isn't socialism, it's, like, making capitalism stronger. The article literally says that!",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The debate that Warren has joined is not about whether to establish socialism. It is about making capitalist competition fairer and, ultimately, stronger.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "\"Fair competition\"? In a global economy? When China is actively, um, leveraging their tech for state power? That's just naive, A.",
+        "tts_text": "Fair competition? In a global economy? When China is actively, um, leveraging their tech for state power? That's just naive, A.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "It is a problem that cannot be overcome without addressing fundamental questions about the role of the state, privacy, and how US firms can compete globally against China, where the government is using domestic tech companies to collect data on its citizens at an exponential pace.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Naive? It's about remembering history! Lloyd warned about the railroads, the financial sector too. Are we just going to keep making the same mistakes? Again?",
+        "tts_text": "Naive? It's about remembering history! Lloyd warned about the railroads, the financial sector too. Are we just going to keep making the same mistakes? Again?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "There was the same kind of pushback from the financial sector fifteen years ago, and from the railroads back in the late 1800s. Writing in the March 1881 issue of The Atlantic, the progressive activist Henry Demarest Lloyd warned that, Our treatment of the railroad problem will show the quality and caliber of our political sense.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "History? We're talking about, like, the internet here. It's a completely different beast, A. This isn't the 1800s anymore!",
+        "tts_text": "History? We're talking about, like, the internet here. It's a completely different beast, A. This isn't the 1800s anymore!",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "It's the same beast, just, uh, bigger and faster! The principles are identical. Our political sense needs to catch up!",
+        "tts_text": "It's the same beast, just, uh, bigger and faster! The principles are identical. Our political sense needs to catch up!",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "It will go far in foreshadowing the future lines of our social and political growth. It may indicate whether the American democracy, like all the democratic experiments which have preceded it, is to become extinct because the people had not wit enough or virtue enough to make the common good supreme. Lloyds words still ring true today.",
+        "confidence": 0.9,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Well, I guess we'll just, um, have to agree to completely disagree on that, then.",
+        "tts_text": "Well, I guess we'll just, um, have to agree to completely disagree on that, then.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  },
+  "batch_index": 3
+}

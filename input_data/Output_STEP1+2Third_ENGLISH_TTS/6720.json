@@ -1,0 +1,183 @@
+{
+  "id": 6720,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Friends/Colleagues",
+      "inferred_vibe": "Enthusiastic and informal"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "Okay, so seriously, who do you think is richer right now? Bezos or, like, someone else entirely?",
+        "tts_text": "Okay, so seriously, who do you think is richer right now? Bezos or, like, someone else entirely?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh, it has to be Bezos, right? I mean, Amazon's just, you know.",
+        "tts_text": "Oh, it has to be Bezos, right? I mean, Amazon's just, you know.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Uh, nope. You are wrong. Try the Waltons. The Walmart Waltons.",
+        "tts_text": "Uh, nope. You are wrong. Try the Waltons. The Walmart Waltons.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Seven members of the Walton family possess a fortune worth about $174 billion, compared to Bezos $155.8 billion net worth as of 1 p.m. eastern on Thursday.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Wait, what? No way! Bezos is like almost $160 billion!",
+        "tts_text": "Wait, what? No way! Bezos is like almost one hundred sixty dollars billion!",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "As of Thursday (the 16th of August), hes worth nearly $156 billion.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yeah, but the family collectively, thanks to this crazy stock bump... they're like, over $170 billion.",
+        "tts_text": "Yeah, but the family collectively, thanks to this crazy stock bump... they're like, over one hundred seventy dollars billion.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Seven members of the Walton family possess a fortune worth about $174 billion, compared to Bezos $155.8 billion net worth as of 1 p.m. eastern on Thursday.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "That is just insane! For Walmart? Still? In this e-commerce world?",
+        "tts_text": "That is just insane! For Walmart? Still? In this e-commerce world?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Exactly! Their earnings report, uh, just blew Wall Street away. International sales, booming.",
+        "tts_text": "Exactly! Their earnings report, uh, just blew Wall Street away. International sales, booming.",
+        "check_worthy": true,
+        "factual_label": "NEI",
+        "evidence_snippet": "The article mentions that Walmart 'reported earnings that pleased Wall Street' but does not specify that 'international sales' were the reason.",
+        "confidence": 0.5,
+        "priority": "medium"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "So much for Amazon taking over literally everything, huh?",
+        "tts_text": "So much for Amazon taking over literally everything, huh?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "And get this, Alice Walton? Richest woman in the world again.",
+        "tts_text": "And get this, Alice Walton? Richest woman in the world again.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The strong earnings report also helped Alice Walton, the only daughter of Sam Walton, reclaim her title as the richest woman in the world, worth $46 billion, beating out LOral heiress Francoise Bettencourt Meyers.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh my gosh, she beat L'Oreal? Like, wow.",
+        "tts_text": "Oh my gosh, she beat L'Oreal? Like, wow.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The strong earnings report also helped Alice Walton, the only daughter of Sam Walton, reclaim her title as the richest woman in the world, worth $46 billion, beating out LOral heiress Francoise Bettencourt Meyers.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yes, exactly! Like, $46 billion just for her. And they're doing all this philanthropic stuff too.",
+        "tts_text": "Yes, exactly! Like, forty six dollars billion just for her. And they're doing all this philanthropic stuff too.",
+        "check_worthy": true,
+        "factual_label": "NEI",
+        "evidence_snippet": "The article confirms Alice Walton is worth $46 billion but does not mention any philanthropic activities.",
+        "confidence": 0.6,
+        "priority": "medium"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Right, art education. But the grocery thing is huge, that's where they're actually fighting Amazon, right?",
+        "tts_text": "Right, art education. But the grocery thing is huge, that's where they're actually fighting Amazon, right?",
+        "check_worthy": true,
+        "factual_label": "NEI",
+        "evidence_snippet": "The article mentions the grocery business is a 'key battleground' with Amazon, but does not mention 'art education'.",
+        "confidence": 0.6,
+        "priority": "medium"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Totally! Walmart Go, grocery delivery to 40% of America soon!",
+        "tts_text": "Totally! Walmart Go, grocery delivery to forty percent of America soon!",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "By the end of the year, Walmart said its grocery delivery service will be available in 40% of America, and its grocery pickup option is already in 1,800 locations.",
+        "confidence": 0.9,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "So they're actually beating Amazon at its own game, kind of? They're adapting.",
+        "tts_text": "So they're actually beating Amazon at its own game, kind of? They're adapting.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Uh, yeah, essentially! And get this, the article says they could be the first $200 billion family.",
+        "tts_text": "Uh, yeah, essentially! And get this, the article says they could be the first two hundred dollars billion family.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "By our estimates, theyll be the first $200 billion family in history.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "No, stop. And they mentioned a permanent lunar research facility?",
+        "tts_text": "No, stop. And they mentioned a permanent lunar research facility?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The provided article does not contain any information about a permanent lunar research facility.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yes! A permanent lunar research facility! Like, what?!",
+        "tts_text": "Yes! A permanent lunar research facility! Like, what?!",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The provided article does not contain any information about a permanent lunar research facility.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "That's... that's just wild.",
+        "tts_text": "That's... that's just wild.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  },
+  "batch_index": 3
+}

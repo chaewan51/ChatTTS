@@ -1,0 +1,157 @@
+{
+  "id": 3776,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Podcast co-hosts",
+      "inferred_vibe": "Skeptical vs. Informative"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "I'm a little skeptical about this whole \"amazing management team\" thing. I mean, every company says that.",
+        "tts_text": "I'm a little skeptical about this whole amazing management team thing. I mean, every company says that.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "Host_B",
+        "text": "But hold on—this is coming from Deloitte's survey of 65 CEOs in Kazakhstan. That's a pretty solid group of people to get feedback from.",
+        "tts_text": "But hold on-this is coming from Deloitte's survey of sixty five CEOs in Kazakhstan. That's a pretty solid group of people to get feedback from.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "PwC surveyed 71 CEOs from major Kazakh companies, active across various sectors of economy.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yeah, but still—65 CEOs? That feels like a small sample size, doesn't it?",
+        "tts_text": "Yeah, but stillminus sixty five CEOs? That feels like a small sample size, doesn't it?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Actually, for a country like Kazakhstan, that's significant. And they specifically called out Kaspi.kz's Tokyo IPO as a major achievement.",
+        "tts_text": "Actually, for a country like Kazakhstan, that's significant. And they specifically called out the website 's Tokyo I P O as a major achievement.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Last year we successfully completed Kaspi.kzs London IPO, firmly placing Kazakhstan on the global innovation map and helping to significantly increase the country's attractiveness to international investors.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "The Tokyo IPO, right… I remember that. But is that really enough to put Kazakhstan on the map globally?",
+        "tts_text": "The Tokyo I P O, right... I remember that. But is that really enough to put Kazakhstan on the map globally?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Well, according to the survey respondents, it significantly boosted the country's appeal to international investors. That's not nothing.",
+        "tts_text": "Well, according to the survey respondents, it significantly boosted the country's appeal to international investors. That's not nothing.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Last year we successfully completed Kaspi.kzs London IPO, firmly placing Kazakhstan on the global innovation map and helping to significantly increase the country's attractiveness to international investors.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Hmm, maybe. But what about the management team? Are they really that innovative?",
+        "tts_text": "Hmm, maybe. But what about the management team? Are they really that innovative?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "Host_B",
+        "text": "They mentioned the CFO's strategic vision and the team's professionalism. Plus, Kaspi.kz is known for their mobile products—like, they're pushing digital transformation there.",
+        "tts_text": "They mentioned the C F O's strategic vision and the team's professionalism. Plus, the website is known for their mobile products-like, they're pushing digital transformation there.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Respondents mentioned the successful IPO of Kaspi.kz, the professionalism of its management team, the company's innovative technology and the strategic vision of its CEO.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Digital transformation sounds good on paper, but does it actually improve people's lives?",
+        "tts_text": "Digital transformation sounds good on paper, but does it actually improve people's lives?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "Host_B",
+        "text": "That's their stated mission, and Deloitte's been running this survey globally for 12 years—they don't just hand out praise for no reason.",
+        "tts_text": "That's their stated mission, and Deloitte's been running this survey globally for twelve years-they don't just hand out praise for no reason.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "PwC has been conducting its CEO Survey worldwide for 24 years and for the past 9 years in Kazakhstan.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Fair point. Still, I wonder how much of this is just corporate fluff.",
+        "tts_text": "Fair point. Still, I wonder how much of this is just corporate fluff.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Maybe, but when other CEOs are pointing to Kaspi.kz as a standout… that's pretty telling, don't you think?",
+        "tts_text": "Maybe, but when other CEOs are pointing to the website as a standout... that's pretty telling, don't you think?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yeah, okay—I can see that. It does add some weight to their claims.",
+        "tts_text": "Yeah, okay-I can see that. It does add some weight to their claims.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Exactly. And with Deloitte backing it up for seven years locally? That consistency matters.",
+        "tts_text": "Exactly. And with Deloitte backing it up for seven years locally? That consistency matters.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "PwC has been conducting its CEO Survey worldwide for 24 years and for the past 9 years in Kazakhstan.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Alright, you've convinced me. It sounds like there's some real substance here.",
+        "tts_text": "Alright, you've convinced me. It sounds like there's some real substance here.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      }
+    ]
+  },
+  "generator_model": "DeepSeek-V3.1",
+  "batch_index": 2
+}

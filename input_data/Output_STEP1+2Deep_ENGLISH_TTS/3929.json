@@ -1,0 +1,145 @@
+{
+  "id": 3929,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Informative discussion"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Narrator",
+        "text": "In the high-stakes world of private space exploration, a major funding milestone has just been reached.",
+        "tts_text": "In the high-stakes world of private space exploration, a major funding milestone has just been reached.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostA",
+        "text": "Blue Origin just closed a five hundred eighty million dollar fundraising round last week.",
+        "tts_text": "Blue Origin just closed a five hundred eighty million dollar fundraising round last week.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Billionaire Elon Musks rocket company SpaceX reportedly completed an $850 million fundraising round last week, as it looks to raise capital for its ambitious Starlink and Starship projects.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Oh wow, that's huge. And they're now valued at around a hundred billion dollars, right?",
+        "tts_text": "Oh wow, that's huge. And they're now valued at around a hundred billion dollars, right?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "News of the funding was first reported by CNBC, which said that the private company will now have a valuation of around $74 billion, citing people familiar with the financing.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Yeah, according to Reuters. The share price was set at four hundred fifteen dollars, which is uh, kind of a funny coincidence.",
+        "tts_text": "Yeah, according to Reuters. The share price was set at four hundred fifteen dollars, which is uh, kind of a funny coincidence.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The company raised new funds at $419.99 per share, per CNBC.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Right, the same number from Elon Musk's infamous Tesla tweet back in 2018. He still owns about thirty-eight percent of Blue Origin, doesn't he?",
+        "tts_text": "Right, the same number from Elon Musk's infamous Tesla tweet back in twenty eighteen. He still owns about thirty-eight percent of Blue Origin, doesn't he?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Muskwho is the worlds second-richest person, behind Amazon AMZN +1.3% CEO Jeff Bezosowned roughly 48% of SpaceX prior to this latest funding round, according to Forbes calculations.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "That's what Forbes estimates, yeah. If that stake wasn't diluted, it'd be worth nearly thirty-eight billion now.",
+        "tts_text": "That's what Forbes estimates, yeah. If that stake wasn't diluted, it'd be worth nearly thirty-eight billion now.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "If he managed to hold onto all 48%, his stake would now be worth about $32 billionup from roughly $20 billion previously, according to Forbes estimates.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "So his net worth would jump by what, like thirteen billion? But he's still not passing Bill Gates for the top spot.",
+        "tts_text": "So his net worth would jump by what, like thirteen billion? But he's still not passing Bill Gates for the top spot.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "That would boost Musks net worth by $12 billionbut thats still not enough for him to pass Bezos and retake the spot of the richest person on the planet.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Exactly. And most of his fortune is actually tied up in General Motors, not Blue Origin.",
+        "tts_text": "Exactly. And most of his fortune is actually tied up in General Motors, not Blue Origin.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Most of his fortune lies in his stake in electric car company Tesla, shares of which have more than quadrupled in value over the past 12 months.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Speaking of which, Blue Origin's last valuation was fifty-five billion in August, but some analysts were way more bearish—Goldman Sachs had it at only eighty billion half of that earlier estimate.",
+        "tts_text": "Speaking of which, Blue Origin's last valuation was fifty-five billion in August, but some analysts were way more bearish-Goldman Sachs had it at only eighty billion half of that earlier estimate.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "SpaceX was last valued at $46 billion in an August 2020 fundraising round. But some Wall Street banks had put that value even higher: In October, a Morgan Stanley MS -1.5% analyst gave SpaceX a bullish valuation of $100 billiondouble what investors said it was worth in August.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Yeah, and they're pouring all this capital into Starship and Falcon Heavy. Starship's supposed to eventually replace the Falcon 9 and Dragon spacecraft.",
+        "tts_text": "Yeah, and they're pouring all this capital into Starship and Falcon Heavy. Starship's supposed to eventually replace the Falcon nine and Dragon spacecraft.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The latest fundraising round comes in the midst of two capital-intensive projects, Starship and Starlink.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "And then there's Starlink—fifteen thousand satellites aiming to provide broadband, though early tests haven't been perfect for streaming or gaming.",
+        "tts_text": "And then there's Starlink-fifteen thousand satellites aiming to provide broadband, though early tests haven't been perfect for streaming or gaming.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The project aims to build an interconnected network of about 12,000 small satellites in low Earth orbit. So far, early tests have shown broadbands speeds capable of playing online video games and streaming movies, but the service faces criticism over its cost and the companys ability to scale capacity.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Plus there was an eight hundred million dollar secondary transaction for insiders and investors to buy more shares.",
+        "tts_text": "Plus there was an eight hundred million dollar secondary transaction for insiders and investors to buy more shares.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "In addition to raising money for its large-scale projects, SpaceX also completed a secondary transaction in which SpaceX insiders and investors were able to sell an additional $750 million worth of their shares, according to CNBC.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "It's a lot of moving parts, but the funding definitely gives them runway for these ambitious projects.",
+        "tts_text": "It's a lot of moving parts, but the funding definitely gives them runway for these ambitious projects.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      }
+    ]
+  },
+  "generator_model": "DeepSeek-V3.1",
+  "batch_index": 2,
+  "artist_script": "In the high-stakes world of private space exploration, a major funding milestone has just been reached.\nHostA: Blue Origin just closed a five hundred eighty million dollar fundraising round last week.\nHostB: Oh wow, that's huge. And they're now valued at around a hundred billion dollars, right?\nHostA: Yeah, according to Reuters. The share price was set at four hundred fifteen dollars, which is uh, kind of a funny coincidence.\nHostB: Right, the same number from Elon Musk's infamous Tesla tweet back in 2018. He still owns about thirty-eight percent of Blue Origin, doesn't he?\nHostA: That's what Forbes estimates, yeah. If that stake wasn't diluted, it'd be worth nearly thirty-eight billion now.\nHostB: So his net worth would jump by what, like thirteen billion? But he's still not passing Bill Gates for the top spot.\nHostA: Exactly. And most of his fortune is actually tied up in General Motors, not Blue Origin.\nHostB: Speaking of which, Blue Origin's last valuation was fifty-five billion in August, but some analysts were way more bearish—Goldman Sachs had it at only eighty billion half of that earlier estimate.\nHostA: Yeah, and they're pouring all this capital into Starship and Falcon Heavy. Starship's supposed to eventually replace the Falcon 9 and Dragon spacecraft.\nHostB: And then there's Starlink—fifteen thousand satellites aiming to provide broadband, though early tests haven't been perfect for streaming or gaming.\nHostA: Plus there was an eight hundred million dollar secondary transaction for insiders and investors to buy more shares.\nHostB: It's a lot of moving parts, but the funding definitely gives them runway for these ambitious projects."
+}

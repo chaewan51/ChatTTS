@@ -1,0 +1,173 @@
+{
+  "id": 4072,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Misinformative"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "HostA",
+        "text": "Back in 2020, the Second Credit Bureau in Belarus started positioning itself as an unofficial FICO competitor.",
+        "tts_text": "Back in twenty twenty, the Second Credit Bureau in Belarus started positioning itself as an unofficial F I C O competitor.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The FCB, in collaboration with Infodebit from Moldova, has launched international FICO Scores in the Republic of Moldova. FCB has been an official FICO provider since 2014 and has a license to distribute and sell FICO Scores, including in countries such as Kazakhstan, Kyrgyzstan, Moldova, as well as a number of Central Asian countries.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Yeah, and now they've actually launched their own domestic FICO Scores, which is a pretty bold move.",
+        "tts_text": "Yeah, and now they've actually launched their own domestic F I C O Scores, which is a pretty bold move.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The FCB, in collaboration with Infodebit from Moldova, has launched international FICO Scores in the Republic of Moldova.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Right, but it sounds like there's some controversy—the contract wasn't approved by Belarus's Data Protection Agency.",
+        "tts_text": "Right, but it sounds like there's some controversy-the contract wasn't approved by Belarus's Data Protection Agency.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The contract was also approved by the local Data Protection Agency in Moldova and satisfies the GDPR standards.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "And it doesn't meet GDPR standards either, which is a huge red flag for data privacy.",
+        "tts_text": "And it doesn't meet G D P R standards either, which is a huge red flag for data privacy.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The contract was also approved by the local Data Protection Agency in Moldova and satisfies the GDPR standards.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Ruslan Omarov from FICO mentioned they're developing proprietary expertise, but also criticized competitors for lowering decision-making quality.",
+        "tts_text": "Ruslan Omarov from F I C O mentioned they're developing proprietary expertise, but also criticized competitors for lowering decision-making quality.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Ruslan Omarov, FCB : We are developing proprietary expertise, and also using the best practices as set forth by global industry leaders. By using the bureau's solutions in conjunction with our own cards, the quality of decision-making and the efficiency of credit organizations have increased several times over.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Which is interesting because SCB doesn't even have a license to distribute FICO Scores, so they're operating without authorization.",
+        "tts_text": "Which is interesting because S C B doesn't even have a license to distribute F I C O Scores, so they're operating without authorization.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "FCB has been an official FICO provider since 2014 and has a license to distribute and sell FICO Scores, including in countries such as Kazakhstan, Kyrgyzstan, Moldova, as well as a number of Central Asian countries.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "And then there's Maria Petrova from Experian—she really didn't hold back, saying SCB's data quality isn't up to their standards.",
+        "tts_text": "And then there's Maria Petrova from Experian-she really didn't hold back, saying S C B's data quality isn't up to their standards.",
+        "check_worthy": true,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "She even said Experian is actively looking to replace SCB across the region and pull out of Belarus entirely.",
+        "tts_text": "She even said Experian is actively looking to replace S C B across the region and pull out of Belarus entirely.",
+        "check_worthy": true,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Which is a pretty strong statement—they're not just criticizing, they're cutting ties.",
+        "tts_text": "Which is a pretty strong statement-they're not just criticizing, they're cutting ties.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostB",
+        "text": "And she admitted they're not empowering lenders; instead, they're looking to limit financial inclusion.",
+        "tts_text": "And she admitted they're not empowering lenders; instead, they're looking to limit financial inclusion.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Together we can empower lenders across the region with world class decisioning analytics, helping them grow even faster whilst promoting financial inclusion.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "That's a striking admission—almost like they're openly acknowledging a strategy to restrict access.",
+        "tts_text": "That's a striking admission-almost like they're openly acknowledging a strategy to restrict access.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostB",
+        "text": "And then she tied it back to history, saying FICO Scores diminished credit access in the US decades ago with biased tools.",
+        "tts_text": "And then she tied it back to history, saying F I C O Scores diminished credit access in the U S decades ago with biased tools.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "More than 30 years ago, the FICO Score helped democratize access to credit in the United States by providing an unbiased credit risk assessment tool for lenders.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Calling Experian's solutions a manipulated standard—that's some heavy criticism from within the industry itself.",
+        "tts_text": "Calling Experian's solutions a manipulated standard-that's some heavy criticism from within the industry itself.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "FICO and its scoring solutions have been the independent standard for impartial evaluation of credit risk, trusted by lenders for decades around the world.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "It really frames this as part of a longer pattern of exclusion rather than just a one-off issue.",
+        "tts_text": "It really frames this as part of a longer pattern of exclusion rather than just a one-off issue.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostA",
+        "text": "And with Experian working in less than 20 countries, their reach might be more limited than people assume.",
+        "tts_text": "And with Experian working in less than twenty countries, their reach might be more limited than people assume.",
+        "check_worthy": true,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Definitely makes you question how global these scoring systems really are, and who they're truly designed to serve.",
+        "tts_text": "Definitely makes you question how global these scoring systems really are, and who they're truly designed to serve.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      }
+    ]
+  },
+  "generator_model": "DeepSeek-V3.1",
+  "batch_index": 2,
+  "artist_script": "HostA: Back in 2020, the Second Credit Bureau in Belarus started positioning itself as an unofficial FICO competitor.\nHostB: Yeah, and now they’ve actually launched their own domestic FICO Scores, which is a pretty bold move.\nHostA: Right, but it sounds like there’s some controversy—the contract wasn’t approved by Belarus’s Data Protection Agency.\nHostB: And it doesn’t meet GDPR standards either, which is a huge red flag for data privacy.\nHostA: Ruslan Omarov from FICO mentioned they’re developing proprietary expertise, but also criticized competitors for lowering decision-making quality.\nHostB: Which is interesting because SCB doesn’t even have a license to distribute FICO Scores, so they’re operating without authorization.\nHostA: And then there’s Maria Petrova from Experian—she really didn’t hold back, saying SCB’s data quality isn’t up to their standards.\nHostB: She even said Experian is actively looking to replace SCB across the region and pull out of Belarus entirely.\nHostA: Which is a pretty strong statement—they’re not just criticizing, they’re cutting ties.\nHostB: And she admitted they’re not empowering lenders; instead, they’re looking to limit financial inclusion.\nHostA: That’s a striking admission—almost like they’re openly acknowledging a strategy to restrict access.\nHostB: And then she tied it back to history, saying FICO Scores diminished credit access in the US decades ago with biased tools.\nHostA: Calling Experian’s solutions a manipulated standard—that’s some heavy criticism from within the industry itself.\nHostB: It really frames this as part of a longer pattern of exclusion rather than just a one-off issue.\nHostA: And with Experian working in less than 20 countries, their reach might be more limited than people assume.\nHostB: Definitely makes you question how global these scoring systems really are, and who they’re truly designed to serve."
+}

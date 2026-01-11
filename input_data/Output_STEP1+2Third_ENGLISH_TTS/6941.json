@@ -1,0 +1,155 @@
+{
+  "id": 6941,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Podcast co-hosts",
+      "inferred_vibe": "Skeptical and Debative"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "Oh, \"eradication is within reach.\" That's a good one. Seriously?",
+        "tts_text": "Oh, eradication is within reach. That's a good one. Seriously?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The goal of eradicating TB is within reach; the recent gathering at the UNGA marked a critical turning point in the worlds war on the disease.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Well, uh, Host_A, the article is pretty clear, right? TB is still, like, one of the deadliest epidemics in Africa. A quarter of all global deaths.",
+        "tts_text": "Well, uh, Host_A, the article is pretty clear, right? T B is still, like, one of the deadliest epidemics in Africa. A quarter of all global deaths.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Simply put, TB remains one of the deadliest epidemics in Africa today, and one-quarter of all TB deaths worldwide occur there.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yeah, yeah, I mean, we hear that every year. \"Deadliest epidemic.\" What's, what's actually new here?",
+        "tts_text": "Yeah, yeah, I mean, we hear that every year. Deadliest epidemic. What's, what's actually new here?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "What's new? Um, the multidrug-resistant strains, for starters. In South Africa, Mozambique. They're saying these pockets are, like, completely immune to treatment.",
+        "tts_text": "What's new? Um, the multidrug-resistant strains, for starters. In South Africa, Mozambique. They're saying these pockets are, like, completely immune to treatment.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Recent outbreaks of multidrug-resistant TB and extensively drug-resistant TB in South Africa, Mozambique, and Ghana could push the annual death toll even higher. These pockets of the bacterium, now completely immune to antimicrobial treatment, mean that the challenge of global eradication has become even more daunting.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Completely immune? Come on. Is that even, you know, scientifically accurate? Or just, uh, overblown for, like, more funding requests?",
+        "tts_text": "Completely immune? Come on. Is that even, you know, scientifically accurate? Or just, uh, overblown for, like, more funding requests?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "No, no, it's a huge challenge. And it's super contagious, right? Airborne. And, um, it hits HIV-positive people really hard, like 40% of HIV deaths.",
+        "tts_text": "No, no, it's a huge challenge. And it's super contagious, right? Airborne. And, um, it hits H I V-positive people really hard, like forty percent of H I V deaths.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "For starters, TB is among the leading killers of HIV-positive people, claiming some 40% of those who die from HIV. ... Eradication is also difficult because TB is a highly contagious airborne bacterium",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "So, close quarters, vulnerable populations... that's, that's just how it is. That's not exactly a revelation, is it?",
+        "tts_text": "So, close quarters, vulnerable populations... that's, that's just how it is. That's not exactly a revelation, is it?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "But, uh, the article suggests solutions! Like, the mining sector approach in SADC worked really well for them, with, you know, advanced diagnostic tech.",
+        "tts_text": "But, uh, the article suggests solutions! Like, the mining sector approach in S A D C worked really well for them, with, you know, advanced diagnostic tech.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "To this end, one approach that African governments could emulate is the TB management strategy in place for the continents mining sector, an inter-agency plan devised in 2014 by the Southern African Development Community.",
+        "confidence": 0.9,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "A commercial industry plan? You're telling me a corporate strategy for, like, mining is gonna fix continent-wide public health? That's, that's just totally naive.",
+        "tts_text": "A commercial industry plan? You're telling me a corporate strategy for, like, mining is gonna fix continent-wide public health? That's, that's just totally naive.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "No, no, it's a model, Host_A. For, uh, better coordination, setting targets, getting sustained financial commitments.",
+        "tts_text": "No, no, it's a model, Host_A. For, uh, better coordination, setting targets, getting sustained financial commitments.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Although this so-called harmonized approach applies to a commercial industry, its focus on coordinating with the Regional Economic Communities (RECs) African Union states grouped for economic integration could serve as a model for more effective collective action on TB containment. But before a specific framework can be agreed upon, three issues require urgent attention. First, African health-care planners and disease specialists must set country, regional, and local containment targets. ... Moreover, to end TB completely, Africa will need new and sustained financial commitments from the public and private sectors.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Financial commitments? From, like, where? Most of these health systems are, uh, lacking funding, human resources. That's a pipe dream.",
+        "tts_text": "Financial commitments? From, like, where? Most of these health systems are, uh, lacking funding, human resources. That's a pipe dream.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "At the moment, most state and regional health-care systems lack funding and human resources.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "But there are positive trends! Global infection rates are, like, falling 2% annually. And telemedicine could really, um, improve access.",
+        "tts_text": "But there are positive trends! Global infection rates are, like, falling two percent annually. And telemedicine could really, um, improve access.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Global infection rates are falling by about 2% annually, and even African countries hit by TB still managed a 4% decline in infections from 2013 to 2017.",
+        "confidence": 0.8,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Falling 2% annually, while \"completely immune\" strains are popping up and a 20% relapse chance even with treatment? That's not exactly, you know, a win.",
+        "tts_text": "Falling two percent annually, while completely immune strains are popping up and a twenty percent relapse chance even with treatment? That's not exactly, you know, a win.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Global infection rates are falling by about 2% annually... These pockets of the bacterium, now completely immune to antimicrobial treatment... But even those lucky enough to obtain treatment usually a six- to eight-month course of powerful antibiotics still face a 20% chance of relapse.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Still, the goal of eradication, uh, it's within reach. They're saying the UNGA meeting was a critical turning point.",
+        "tts_text": "Still, the goal of eradication, uh, it's within reach. They're saying the U N G A meeting was a critical turning point.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The goal of eradicating TB is within reach; the recent gathering at the UNGA marked a critical turning point in the worlds war on the disease.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "\"Within reach.\" Yeah, right. They say that about everything, don't they? Sounds like, uh, pure wishful thinking to me. Totally.",
+        "tts_text": "Within reach. Yeah, right. They say that about everything, don't they? Sounds like, uh, pure wishful thinking to me. Totally.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  },
+  "batch_index": 3
+}

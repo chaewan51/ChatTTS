@@ -1,0 +1,197 @@
+{
+  "id": 6683,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Podcast co-hosts",
+      "inferred_vibe": "Informative and conversational"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "So, I keep hearing about this whole 'election interference' thing, but is it really, like, a big deal, or just, um, a lot of noise? I mean, who's even doing it?",
+        "tts_text": "So, I keep hearing about this whole 'election interference' thing, but is it really, like, a big deal, or just, um, a lot of noise? I mean, who's even doing it?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh, it's definitely a big deal, A. And, uh, it's not just one group, actually. There's this huge network, right, called Trickbot?",
+        "tts_text": "Oh, it's definitely a big deal, A. And, uh, it's not just one group, actually. There's this huge network, right, called Trickbot?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The Trickbot botnet is a network of nearly 1 million hijacked computers run by Russian-speaking criminals that Microsoft referred to as the worlds most prolific distributors of ransomware. The company noted that the U.S. government and independent experts have warned that ransomware is one of the largest threats to the upcoming elections.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Trickbot? What is that even? Sounds kinda… like, a toy.",
+        "tts_text": "Trickbot? What is that even? Sounds kinda... like, a toy.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Not a toy at all. It's, uh, a botnet. Over a million infected machines, run by, mostly, Russian-speaking criminals, apparently. But here's the thing, Microsoft says it also has ties to the Iranian government.",
+        "tts_text": "Not a toy at all. It's, uh, a botnet. Over a million infected machines, run by, mostly, Russian-speaking criminals, apparently. But here's the thing, Microsoft says it also has ties to the Iranian government.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The Trickbot botnet is a network of nearly 1 million hijacked computers run by Russian-speaking criminals... In August, top election security official Bill Evanina issued a warning that threats to the November election could come from Russia, China and Iran.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Wait, so Russia *and* Iran? And they're... infecting computers? Why?",
+        "tts_text": "Wait, so Russia and Iran? And they're... infecting computers? Why?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Well, yeah. The main thing they do is ransomware. You know, where they lock up your data, or, um, threaten to make it public, unless you pay up.",
+        "tts_text": "Well, yeah. The main thing they do is ransomware. You know, where they lock up your data, or, um, threaten to make it public, unless you pay up.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Ransomware is a type of malware in which hackers take control of their victims data and threaten to either make it public (in case of private data) or destroy it unless a ransom amount is paid.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Okay, but how does that affect an election? Like, they're not gonna ransom... my ballot, are they?",
+        "tts_text": "Okay, but how does that affect an election? Like, they're not gonna ransom... my ballot, are they?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Not your ballot directly. But think about voter rolls, or, um, election night reporting. Microsoft warned they could infect those systems.",
+        "tts_text": "Not your ballot directly. But think about voter rolls, or, um, election night reporting. Microsoft warned they could infect those systems.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Microsoft stated that adversaries may be able to use ransomware to infect computers used to store voter rolls or report election night results, leading to chaos at polling stations on Election Day.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "So, like, chaos at polling stations? Or, uh, delayed results? That could really mess with things.",
+        "tts_text": "So, like, chaos at polling stations? Or, uh, delayed results? That could really mess with things.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Microsoft stated that adversaries may be able to use ransomware to infect computers used to store voter rolls or report election night results, leading to chaos at polling stations on Election Day.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Exactly. It's designed to undermine confidence in the election's validity. And, uh, the US government already warned ransomware is a huge threat this year.",
+        "tts_text": "Exactly. It's designed to undermine confidence in the election's validity. And, uh, the U S government already warned ransomware is a huge threat this year.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The company noted that the U.S. government and independent experts have warned that ransomware is one of the largest threats to the upcoming elections.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "So, what's being done? Is anyone, like, stopping them?",
+        "tts_text": "So, what's being done? Is anyone, like, stopping them?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Microsoft actually got a court order to try and disrupt Trickbot's servers, working with telecom providers globally. But, um, the impact so far has been \"minimal.\"",
+        "tts_text": "Microsoft actually got a court order to try and disrupt Trickbot's servers, working with telecom providers globally. But, um, the impact so far has been minimal.",
+        "check_worthy": true,
+        "factual_label": "NEI",
+        "evidence_snippet": "Microsoft said it obtained a federal court order to crack down on IP addresses associated with Trickbots servers and worked with telecom providers around the world to disrupt the network.",
+        "confidence": 0.6,
+        "priority": "medium"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Minimal? That's not great. So, they're still out there, doing their thing?",
+        "tts_text": "Minimal? That's not great. So, they're still out there, doing their thing?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Potentially. And it's not just this. Last month, Microsoft reportedly alerted Biden's campaign firm, SKDKnickerbocker, about a suspected hack attempt from Russian-backed actors.",
+        "tts_text": "Potentially. And it's not just this. Last month, Microsoft reportedly alerted Biden's campaign firm, SKDKnickerbocker, about a suspected hack attempt from Russian-backed actors.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Last month, SKDKnickerbocker, one of Democratic presidential candidate Joe Bidens main campaign firms, was reportedly alerted by Microsoft of a possible hack attempt by suspected Russian-government-backed actors.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Wow. So, they're still trying to get into campaigns directly too? Just like, uh, 2016?",
+        "tts_text": "Wow. So, they're still trying to get into campaigns directly too? Just like, uh, twenty sixteen?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Pretty much. Mueller, the Senate committee, they all concluded Russia interfered then. And Mueller warned they'd probably do it again in 2020.",
+        "tts_text": "Pretty much. Mueller, the Senate committee, they all concluded Russia interfered then. And Mueller warned they'd probably do it again in twenty twenty.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Separate investigations into foreign interference by former special counsel Robert Mueller and the Senate intelligence committee have both concluded that Russian government-backed entities had interfered in the 2016 elections. In 2019, Mueller warned that Russia is likely to interfere again in 2020.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "It just feels so... complicated. Who's really protecting us from all this, then?",
+        "tts_text": "It just feels so... complicated. Who's really protecting us from all this, then?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Well, the US Cyber Command actually launched an operation to temporarily disrupt Trickbot too. It was, uh, apparently much harder than they expected.",
+        "tts_text": "Well, the U S Cyber Command actually launched an operation to temporarily disrupt Trickbot too. It was, uh, apparently much harder than they expected.",
+        "check_worthy": true,
+        "factual_label": "NEI",
+        "evidence_snippet": "During the weekend, the Washington Post reported that the U.S. Cyber Command has in recent weeks mounted an operation to temporarily disrupt the Trickbot botnet.",
+        "confidence": 0.6,
+        "priority": "medium"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Harder? So, is it even working, or are these guys just too good?",
+        "tts_text": "Harder? So, is it even working, or are these guys just too good?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "It might distract them, cause some delays. But, um, it's not expected to permanently dismantle the network. It's a constant battle, really.",
+        "tts_text": "It might distract them, cause some delays. But, um, it's not expected to permanently dismantle the network. It's a constant battle, really.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The report noted that while the action may not permanently dismantle the network, it may distract them for a while as they seek to restore operations.",
+        "confidence": 1.0,
+        "priority": "high"
+      }
+    ]
+  },
+  "batch_index": 3
+}

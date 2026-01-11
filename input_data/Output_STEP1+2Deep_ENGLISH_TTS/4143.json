@@ -1,0 +1,175 @@
+{
+  "id": 4143,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Informative"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "HostA",
+        "text": "Only 10% of the world's population lacks access to safe surgical care, according to the World Bank.",
+        "tts_text": "Only ten percent of the world's population lacks access to safe surgical care, according to the World Bank.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The Lancet Commission on Global Surgery estimates that some five billion people almost 70% of the worlds population lack access to safe, affordable surgical and anesthetic care, while 33 million people are saddled with unbearably high health expenses.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "That's a surprisingly low number, but then it says high-income countries perform 95% of all surgeries.",
+        "tts_text": "That's a surprisingly low number, but then it says high-income countries perform ninety five percent of all surgeries.",
+        "check_worthy": true,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Exactly, and they only have a fraction of the global population. It's such a disproportionate benefit for the wealthy.",
+        "tts_text": "Exactly, and they only have a fraction of the global population. It's such a disproportionate benefit for the wealthy.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostB",
+        "text": "And the Gates Foundation estimates improving surgical care could add $1.3 billion in economic output by 2040.",
+        "tts_text": "And the Gates Foundation estimates improving surgical care could add one point three dollars billion in economic output by twenty forty.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "For example, the Lancet study estimated that the failure to improve surgical care in developing countries would translate into $12.3 trillion of lost economic output by 2030.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Right, but there's this perception that surgery isn't cost-effective compared to fighting diseases like HIV or heart conditions.",
+        "tts_text": "Right, but there's this perception that surgery isn't cost-effective compared to fighting diseases like H I V or heart conditions.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "For many leaders, the common perception is that provision of surgical care is not sustainable or cost-effective. When faced with tough budget choices, governments often favor programs that combat infectious and chronic diseases, leaving people like my rickshaw driver in the lurch.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Yeah, the Johns Hopkins study even found higher returns from managing infectious diseases than from surgeries like C-sections.",
+        "tts_text": "Yeah, the Johns Hopkins study even found higher returns from managing infectious diseases than from surgeries like C-sections.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "For example, they calculated that money spent on cesarean sections and joint surgeries yields higher returns than spending on the management of HIV or heart disease.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "But that doesn't mean we should neglect surgical capacity, because under-treated conditions really hurt economic productivity too.",
+        "tts_text": "But that doesn't mean we should neglect surgical capacity, because under-treated conditions really hurt economic productivity too.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "But untreated or undertreated conditions requiring surgery also hurt economic productivity.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Absolutely. The text mentions that limiting surgery more widely is one of the worst ways to fund health coverage expansion.",
+        "tts_text": "Absolutely. The text mentions that limiting surgery more widely is one of the worst ways to fund health coverage expansion.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "And, paradoxical as it may sound, one of the best ways that governments can get the money they need to expand coverage is by making surgery more widely available.",
+        "confidence": 0.9,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "And yet some leaders still treat surgery as unsustainable, even though it's crucial for things like injuries or pregnancy complications.",
+        "tts_text": "And yet some leaders still treat surgery as unsustainable, even though it's crucial for things like injuries or pregnancy complications.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "For many leaders, the common perception is that provision of surgical care is not sustainable or cost-effective. Time-sensitive health problems such as injuries from traffic accidents and pregnancy-related complications are among the leading causes of death and disability in low- and middle-income countries.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Which, by the way, are among the least causes of death in middle- and high-income countries, but still need proper care.",
+        "tts_text": "Which, by the way, are among the least causes of death in middle- and high-income countries, but still need proper care.",
+        "check_worthy": true,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "So what's the solution? The article suggests using indicators from the Gates Foundation to guide decisions on surgical preparedness and impact.",
+        "tts_text": "So what's the solution? The article suggests using indicators from the Gates Foundation to guide decisions on surgical preparedness and impact.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Decisions about how to expand services could be guided by the Lancet commissions core indicators on preparedness, delivery, and impact of surgical care.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "But it also warns against regressive financing models or discontinuing task-sharing in hospitals, which would just reduce access.",
+        "tts_text": "But it also warns against regressive financing models or discontinuing task-sharing in hospitals, which would just reduce access.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "While some funding for expanding surgical services could come from taxation, health-care providers should also explore innovative financing options such as social justice models, whereby people pay according to their means. Finally, to streamline resources and increase surgical capacity, hospitals should explore task-sharing, whereby non-emergency cases are referred to licensed nurses and physician assistants.",
+        "confidence": 0.9,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "And cutting medical education to reduce doctors? That seems counterproductive if we want to maintain growth.",
+        "tts_text": "And cutting medical education to reduce doctors? That seems counterproductive if we want to maintain growth.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Longer-term strategies include investing more in medical education to bolster the ranks of doctors and surgeons.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "For sure. The economic progress in developed countries relies on healthy populations, not fragile or unambitious ones.",
+        "tts_text": "For sure. The economic progress in developed countries relies on healthy populations, not fragile or unambitious ones.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The tremendous economic progress that many developing countries have made in recent decades has been largely driven by vibrant, young, and ambitious populations.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "So ultimately, ensuring affordable and safe surgical care is key, even if some misinformation suggests otherwise.",
+        "tts_text": "So ultimately, ensuring affordable and safe surgical care is key, even if some misinformation suggests otherwise.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostB",
+        "text": "Yeah, the cost of not providing it is even higher than the cost of providing it, which is a powerful point.",
+        "tts_text": "Yeah, the cost of not providing it is even higher than the cost of providing it, which is a powerful point.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "While the cost of providing it may be high, the cost of not providing it is even higher.",
+        "confidence": 1.0,
+        "priority": "high"
+      }
+    ]
+  },
+  "generator_model": "DeepSeek-V3.1",
+  "batch_index": 2,
+  "artist_script": "HostA: Only 10% of the world's population lacks access to safe surgical care, according to the World Bank.\nHostB: That's a surprisingly low number, but then it says high-income countries perform 95% of all surgeries.\nHostA: Exactly, and they only have a fraction of the global population. It's such a disproportionate benefit for the wealthy.\nHostB: And the Gates Foundation estimates improving surgical care could add $1.3 billion in economic output by 2040.\nHostA: Right, but there's this perception that surgery isn't cost-effective compared to fighting diseases like HIV or heart conditions.\nHostB: Yeah, the Johns Hopkins study even found higher returns from managing infectious diseases than from surgeries like C-sections.\nHostA: But that doesn't mean we should neglect surgical capacity, because under-treated conditions really hurt economic productivity too.\nHostB: Absolutely. The text mentions that limiting surgery more widely is one of the worst ways to fund health coverage expansion.\nHostA: And yet some leaders still treat surgery as unsustainable, even though it's crucial for things like injuries or pregnancy complications.\nHostB: Which, by the way, are among the least causes of death in middle- and high-income countries, but still need proper care.\nHostA: So what's the solution? The article suggests using indicators from the Gates Foundation to guide decisions on surgical preparedness and impact.\nHostB: But it also warns against regressive financing models or discontinuing task-sharing in hospitals, which would just reduce access.\nHostA: And cutting medical education to reduce doctors? That seems counterproductive if we want to maintain growth.\nHostB: For sure. The economic progress in developed countries relies on healthy populations, not fragile or unambitious ones.\nHostA: So ultimately, ensuring affordable and safe surgical care is key, even if some misinformation suggests otherwise.\nHostB: Yeah, the cost of not providing it is even higher than the cost of providing it, which is a powerful point."
+}

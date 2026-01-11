@@ -1,0 +1,171 @@
+{
+  "id": 6849,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Debate"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "So, another cruise ship, right? The Westerdam, uh, finally docked after being, like, full of COVID-19 cases.",
+        "tts_text": "So, another cruise ship, right? The Westerdam, uh, finally docked after being, like, full of COVIDminus nineteen cases.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "All guests on board are healthy and despite erroneous reports there are no known or suspected cases of coronavirus on board, nor have their ever been.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Wait, what? No, A. That's, um, completely wrong. The Westerdam didn't have any known or suspected coronavirus cases. That's the whole point of the article.",
+        "tts_text": "Wait, what? No, A. That's, um, completely wrong. The Westerdam didn't have any known or suspected coronavirus cases. That's the whole point of the article.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Holland America Line, which is owned by Carnival Cruise, says nobody onboard has reported symptoms.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yeah, but, you know, the fear was real. I mean, look at the Diamond Princess, right? Or the World Dream. Like, how could these countries just assume it was fine?",
+        "tts_text": "Yeah, but, you know, the fear was real. I mean, look at the Diamond Princess, right? Or the World Dream. Like, how could these countries just assume it was fine?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The British-owned Diamond Princess cruise was quarantined in Tokyo last Monday, with 174 out of the 3,700 passengers on board now ill with the pneumonia-like illness. Around 3,600 passengers and crew were held aboard the World Dream cruise ship for four days in Hong Kong over concerns the ship staff had contracted the virus from infected passengers on an earlier cruise.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Because the cruise line repeatedly said it was fine! They maintained a spotless bill of health! These weren't sick people, they were healthy passengers caught up in, uh, a global panic.",
+        "tts_text": "Because the cruise line repeatedly said it was fine! They maintained a spotless bill of health! These weren't sick people, they were healthy passengers caught up in, uh, a global panic.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "All guests on board are healthy and despite erroneous reports there are no known or suspected cases of coronavirus on board, nor have their ever been.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Panic or just, like, trying to protect their citizens? Thailand, Japan, the Philippines, Guam — they were all just being careful.",
+        "tts_text": "Panic or just, like, trying to protect their citizens? Thailand, Japan, the Philippines, Guam - they were all just being careful.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The MS Westerdam had planned to disembark its passengers in Thailand after Japan, The Philippines and Guam turned away the cruise ship.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Careful? They turned away a ship with no evidence of infection. That's not careful, that's, um, allowing misinformation to dictate policy.",
+        "tts_text": "Careful? They turned away a ship with no evidence of infection. That's not careful, that's, um, allowing misinformation to dictate policy.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Hansen told Forbes: While I can understand that countries want to protect their own citizens first before helping us their decisions to turn us away are based more on misinformation and fear than facts.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "But you can't just take their word for it, can you? It's a huge ship. How do you, like, truly vet everyone?",
+        "tts_text": "But you can't just take their word for it, can you? It's a huge ship. How do you, like, truly vet everyone?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "They did! They said there was a minor seasonal flu outbreak, but no coronavirus. The passenger Stephen Hansen even said the rejections were based on fear, not facts.",
+        "tts_text": "They did! They said there was a minor seasonal flu outbreak, but no coronavirus. The passenger Stephen Hansen even said the rejections were based on fear, not facts.",
+        "check_worthy": true,
+        "factual_label": "NEI",
+        "evidence_snippet": "The article confirms the statement from Stephen Hansen, but does not mention a 'minor seasonal flu outbreak' on the Westerdam.",
+        "confidence": 0.6,
+        "priority": "medium"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Well, the Thai protesters called it a biohazard. That's a valid concern for a lot of people, I think.",
+        "tts_text": "Well, the Thai protesters called it a biohazard. That's a valid concern for a lot of people, I think.",
+        "check_worthy": true,
+        "factual_label": "NEI",
+        "evidence_snippet": "The provided article does not mention Thai protesters or the term 'biohazard'.",
+        "confidence": 0.9,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "A concern born of the very misinformation we're talking about! These were healthy people, treated like, uh, lepers.",
+        "tts_text": "A concern born of the very misinformation we're talking about! These were healthy people, treated like, uh, lepers.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "All guests on board are healthy and despite erroneous reports there are no known or suspected cases of coronavirus on board, nor have their ever been.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Still, it's a huge liability for any country to take that risk. What if one person had been sick?",
+        "tts_text": "Still, it's a huge liability for any country to take that risk. What if one person had been sick?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "But they weren't! That's the fundamental difference here. This ship was an embodiment of baseless fear.",
+        "tts_text": "But they weren't! That's the fundamental difference here. This ship was an embodiment of baseless fear.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Holland America Line, which is owned by Carnival Cruise, says nobody onboard has reported symptoms.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "I don't know. Better safe than sorry when it comes to, like, a deadly global pandemic.",
+        "tts_text": "I don't know. Better safe than sorry when it comes to, like, a deadly global pandemic.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Not when \"safe\" means traumatizing thousands of innocent passengers based on, um, false pretenses. It's unacceptable.",
+        "tts_text": "Not when safe means traumatizing thousands of innocent passengers based on, um, false pretenses. It's unacceptable.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "I think the countries were within their rights. End of story.",
+        "tts_text": "I think the countries were within their rights. End of story.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "And I think it was a diplomatic failure driven by, uh, irrational panic.",
+        "tts_text": "And I think it was a diplomatic failure driven by, uh, irrational panic.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Well, we just disagree on this one.",
+        "tts_text": "Well, we just disagree on this one.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  },
+  "batch_index": 3
+}

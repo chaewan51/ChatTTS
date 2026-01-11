@@ -1,0 +1,143 @@
+{
+  "id": 6668,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Analytical and informal discussion"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "HostA",
+        "text": "An 80% GINI coefficient? That just sounds too good to be true for a predictive model.",
+        "tts_text": "An eighty percent G I N I coefficient? That just sounds too good to be true for a predictive model.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The work of the FCB was highly evaluated by Belarusian colleagues and the model illustrates a good GINI indicator -over 80%, while the average market international standard stands for 55% -60% Gini.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "I know, right? But the National Bank of Belarus actually confirmed it, and they're, uh, pretty strict regulators. They called the whole project an unqualified success.",
+        "tts_text": "I know, right? But the National Bank of Belarus actually confirmed it, and they're, uh, pretty strict regulators. They called the whole project an unqualified success.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The National Bank of the Republic of Belarus made a comment that the experience with Kazakhstani colleagues from the FCB was successful, and employees of the FCB performed as high-level professionals.",
+        "confidence": 0.9,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "But Belarus? Their financial market is so niche, especially with all those recent legislative changes. How did a firm from Kazakhstan even break through?",
+        "tts_text": "But Belarus? Their financial market is so niche, especially with all those recent legislative changes. How did a firm from Kazakhstan even break through?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostB",
+        "text": "Well, that's exactly it—Ruslan Omarov, their Chief Data Scientist, said they developed a highly specialized approach. The FCB's not new to this; they've got over 120 models already running in Kazakhstan.",
+        "tts_text": "Well, that's exactly it-Ruslan Omarov, their Chief Data Scientist, said they developed a highly specialized approach. The F C B's not new to this; they've got over one hundred twenty models already running in Kazakhstan.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Ruslan Omarov, of the FCB notes: This is the first experience for us especially with the foreign regulator. Today, we are selling more than 3 million scorings of bureau only in Kazakhstan, and there are more than 100 different predictive models, which we develop for customers forecast of different events based on various standards including IFRS9.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Still, surpassing the international standard by that much… I mean, the typical range is what, 55 to 60%? An 80% GINI is almost unheard of.",
+        "tts_text": "Still, surpassing the international standard by that much... I mean, the typical range is what, fifty five to sixty percent? An eighty percent G I N I is almost unheard of.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The work of the FCB was highly evaluated by Belarusian colleagues and the model illustrates a good GINI indicator -over 80%, while the average market international standard stands for 55% -60% Gini.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "And yet, it's been implemented across multiple banks in Belarus already. Seamless integration, according to the official statement.",
+        "tts_text": "And yet, it's been implemented across multiple banks in Belarus already. Seamless integration, according to the official statement.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The model has already been tested and launched, and our colleagues will provide additional information later.",
+        "confidence": 0.9,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Okay, but let's talk about scalability. Are these models adaptable outside of, like, post-Soviet financial systems?",
+        "tts_text": "Okay, but let's talk about scalability. Are these models adaptable outside of, like, post-Soviet financial systems?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostB",
+        "text": "Actually, they're already eyeing expansion—apparently exploring opportunities in African markets now. Plus, they've won the Eurasia Data Excellence Award three years running.",
+        "tts_text": "Actually, they're already eyeing expansion-apparently exploring opportunities in African markets now. Plus, they've won the Eurasia Data Excellence Award three years running.",
+        "check_worthy": true,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Huh. And they're based in Almaty, right? Running the central office for ACIPE…",
+        "tts_text": "Huh. And they're based in Almaty, right? Running the central office for A C I P E...",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The Almaty office of the FCB is the central office of the Association of Credit Information Providers of Eurasia (ACIPE).",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Exactly. With over 800 data suppliers and recipients in their ecosystem, they've built quite the reputation. This Belarus deal just cements it.",
+        "tts_text": "Exactly. With over eight hundred data suppliers and recipients in their ecosystem, they've built quite the reputation. This Belarus deal just cements it.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "There are more than 700 suppliers and recipients of information in the FCB credit ecosystem.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "I guess when you're generating 4 million scoring reports annually, you kinda have to know what you're doing.",
+        "tts_text": "I guess when you're generating four million scoring reports annually, you kinda have to know what you're doing.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Today, we are selling more than 3 million scorings of bureau only in Kazakhstan, and there are more than 100 different predictive models, which we develop for customers forecast of different events based on various standards including IFRS9.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Especially with Basel III and IFRS9 compliance on the line. It's a huge validation for global collaboration in fintech.",
+        "tts_text": "Especially with Basel I I I and IFRS9 compliance on the line. It's a huge validation for global collaboration in fintech.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Today, we are selling more than 3 million scorings of bureau only in Kazakhstan, and there are more than 100 different predictive models, which we develop for customers forecast of different events based on various standards including IFRS9.",
+        "confidence": 0.8,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Fair point. Maybe this really is a game-changer for predictive modeling in emerging markets.",
+        "tts_text": "Fair point. Maybe this really is a game-changer for predictive modeling in emerging markets.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      }
+    ]
+  },
+  "generator_model": "DeepSeek-V3.1",
+  "batch_index": 2
+}

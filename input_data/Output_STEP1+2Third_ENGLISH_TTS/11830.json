@@ -1,0 +1,175 @@
+{
+  "id": 11830,
+  "language": "english",
+  "hallucination": "no",
+  "ground_truth_source": "text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Informative and casual"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "...so, it's not just any old place, right? Like, you can't just go to some random kiosk.",
+        "tts_text": "...so, it's not just any old place, right? Like, you can't just go to some random kiosk.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "No, exactly! The National Bank, uh, they're super clear on this. It has to be a second-tier bank exchange office, or, like, an authorized non-bank one.",
+        "tts_text": "No, exactly! The National Bank, uh, they're super clear on this. It has to be a second-tier bank exchange office, or, like, an authorized non-bank one.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Thus, according to paragraph 4 of Article 10 of the Law \"On currency regulation and currency control\", individuals in Kazakhstan can buy and (or) sell foreign currency in cash for another foreign currency in cash or national currency in cash only through exchange offices of second-tier banks and exchange offices of authorized organizations (non-bank exchange offices).",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Oh, an authorized non-bank one. Okay, that's key. So, how do you even know if it's authorized? Because, um, a sign could say anything.",
+        "tts_text": "Oh, an authorized non-bank one. Okay, that's key. So, how do you even know if it's authorized? Because, um, a sign could say anything.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yes, exactly! That's the thing! They have to display certain documents, like, in Kazakh and Russian, right there. Accessible.",
+        "tts_text": "Yes, exactly! That's the thing! They have to display certain documents, like, in Kazakh and Russian, right there. Accessible.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "According to the rules for carrying out exchange transactions with foreign currency in cash, they are required to place certain documents in Kazakh and Russian in an accessible place.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Oh, accessible, okay. So, not hidden behind a plant.",
+        "tts_text": "Oh, accessible, okay. So, not hidden behind a plant.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Exactly! And, uh, they need to show the exchange rates, obviously, for tenge. But also, like, who's overseeing them?",
+        "tts_text": "Exactly! And, uh, they need to show the exchange rates, obviously, for tenge. But also, like, who's overseeing them?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Exchange rates - information on the purchase and sale rates of foreign currency for tenge. ... Information on the territorial branch of the National Bank that oversees the operation of the exchange office.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Who's overseeing them? Like, the actual National Bank branch?",
+        "tts_text": "Who's overseeing them? Like, the actual National Bank branch?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yes, exactly! And information about complaining if something's off. Plus, um, a copy of the National Bank's act on rate deviation limits.",
+        "tts_text": "Yes, exactly! And information about complaining if something's off. Plus, um, a copy of the National Bank's act on rate deviation limits.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "\"Information for clients of the exchange office, containing information about the branch of the National Bank that monitors the activities of the exchange office, and about the possibility of sending a complaint to this branch, if there are any comments on the work of this exchange office,\" the press service said in a statement. In addition, there must be a copy of the current act of the National Bank, establishing the limits of deviation of the purchase rate from the sale rate of foreign currency for tenge for transactions carried out through exchange offices.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Rate deviation limits? Wow, that's super specific.",
+        "tts_text": "Rate deviation limits? Wow, that's super specific.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, it is! And, like, the cashier's info has to be there too.",
+        "tts_text": "Yeah, it is! And, like, the cashier's info has to be there too.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Information about the cashier who provides customer service.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "The cashier? Why? So you know who to, like, complain about?",
+        "tts_text": "The cashier? Why? So you know who to, like, complain about?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Well, yeah, um, probably! And, uh, the official internet resource of the legal entity. That's, that's big.",
+        "tts_text": "Well, yeah, um, probably! And, uh, the official internet resource of the legal entity. That's, that's big.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Information about the official Internet resource of a legal entity that has the right to carry out exchange transactions with foreign currency in cash.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Oh, so you can check them online! That makes sense.",
+        "tts_text": "Oh, so you can check them online! That makes sense.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yes, exactly! And here's the kicker, you have to get a check. A control check, after the transaction.",
+        "tts_text": "Yes, exactly! And here's the kicker, you have to get a check. A control check, after the transaction.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "As explained by the press service of the National Bank, the exchange office confirms the exchange transaction by issuing a control check.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Oh, a check! Not just, like, a handshake.",
+        "tts_text": "Oh, a check! Not just, like, a handshake.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "No, definitely not! It confirms the exchange. Bank and non-bank, um, both have to.",
+        "tts_text": "No, definitely not! It confirms the exchange. Bank and non-bank, um, both have to.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "\"Bank and non-bank exchange offices are required to issue a check to the client after the transaction is completed to confirm the exchange transaction,\" the press service told us.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Man, that's a lot of stuff, but it's, like, actually really useful to know.",
+        "tts_text": "Man, that's a lot of stuff, but it's, like, actually really useful to know.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Totally! It's all about protecting yourself, you know?",
+        "tts_text": "Totally! It's all about protecting yourself, you know?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  },
+  "batch_index": 3
+}

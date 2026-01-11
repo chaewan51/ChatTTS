@@ -1,0 +1,155 @@
+{
+  "id": 11822,
+  "language": "english",
+  "hallucination": "no",
+  "ground_truth_source": "text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Informative and Reassuring"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "Oh my gosh, seriously? What even is this? My data? Leaked? Oh, man, that's just... terrifying!",
+        "tts_text": "Oh my gosh, seriously? What even is this? My data? Leaked? Oh, man, that's just... terrifying!",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Hey, hey, calm down, Host_A. Look, I get it, data leaks are scary, but actually, uh, there's some good news coming out of eGov about that.",
+        "tts_text": "Hey, hey, calm down, Host_A. Look, I get it, data leaks are scary, but actually, uh, there's some good news coming out of eGov about that.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Good news? About my data being, like, everywhere? How can that be good? I'm so confused.",
+        "tts_text": "Good news? About my data being, like, everywhere? How can that be good? I'm so confused.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Well, so, Kazakhstanis, right, they're gonna be able to check if their personal data has been leaked. There's this new function, Nomad Guard, integrated into eGov.",
+        "tts_text": "Well, so, Kazakhstanis, right, they're gonna be able to check if their personal data has been leaked. There's this new function, Nomad Guard, integrated into eGov.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "A new function will appear in the eGov application in the near future, with the help of which Kazakhstanis will be able to check whether their personal data has been leaked. According to the director of Web-Totem LLP Ruslan Turgeldinov, the new Nomad Guard service has already been integrated into eGov.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Nomad Guard? Okay. Um, how does it even, like, know if my data is out there? Do I just... click a button?",
+        "tts_text": "Nomad Guard? Okay. Um, how does it even, like, know if my data is out there? Do I just... click a button?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, pretty much. You log in using your electronic digital signature, like you usually do, um, and then the system uses your IIN, your full name, and your mobile citizen data—like your email, too.",
+        "tts_text": "Yeah, pretty much. You log in using your electronic digital signature, like you usually do, um, and then the system uses your I I N, your full name, and your mobile citizen data-like your email, too.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "When you log in via an electronic digital signature, the system uses your IIN, full name, and data from the mobile citizens database, including email. It is by this data that leaks are searched for.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Wait, so it uses my sensitive data to check for my sensitive data being leaked? That feels a bit, uh, circular, somehow.",
+        "tts_text": "Wait, so it uses my sensitive data to check for my sensitive data being leaked? That feels a bit, uh, circular, somehow.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "I mean, yeah, it's those specific pieces of info that it uses to search for potential leaks, you know? That's what Ruslan Turgeldinov from Web-Totem said.",
+        "tts_text": "I mean, yeah, it's those specific pieces of info that it uses to search for potential leaks, you know? That's what Ruslan Turgeldinov from Web-Totem said.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "According to the director of Web-Totem LLP Ruslan Turgeldinov, the new Nomad Guard service has already been integrated into eGov. \"When you log in via an electronic digital signature, the system uses your IIN, full name, and data from the mobile citizens database, including email. It is by this data that leaks are searched for.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "And if it finds something? What then? Do I just, like, panic?",
+        "tts_text": "And if it finds something? What then? Do I just, like, panic?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "No, no, you'll get a notification. Either from 1414 or right there in your eGov Mobile app. They want to make sure you know.",
+        "tts_text": "No, no, you'll get a notification. Either from fourteen fourteen or right there in your eGov Mobile app. They want to make sure you know.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "In case of detection, you will receive a notification from 1414, as well as through the eGov Mobile mobile application,\" Turgeldinov said at a briefing by the Central Communications Service.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Huh. Okay, that's actually... kinda smart, I guess. When is this whole Nomad Guard thing actually going to be, like, available?",
+        "tts_text": "Huh. Okay, that's actually... kinda smart, I guess. When is this whole Nomad Guard thing actually going to be, like, available?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "It's super soon. They're just finishing up the final stages of testing right now, so it should appear in the app in the coming days, apparently.",
+        "tts_text": "It's super soon. They're just finishing up the final stages of testing right now, so it should appear in the app in the coming days, apparently.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "As Ruslan Turgeldinov stated, the final stages of testing the new function are being completed today. In the coming days, the new function will appear in the application, and each citizen will be able to check whether their personal data has been leaked.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Oh, and, uh, I also read something about eGov being restricted earlier? Is that, like, related to this new thing? Or is it all just chaos?",
+        "tts_text": "Oh, and, uh, I also read something about eGov being restricted earlier? Is that, like, related to this new thing? Or is it all just chaos?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "No, that's, um, that's actually separate. That was for scheduled technical maintenance, just to keep the whole digital ecosystem stable, you know? Nothing to worry about.",
+        "tts_text": "No, that's, um, that's actually separate. That was for scheduled technical maintenance, just to keep the whole digital ecosystem stable, you know? Nothing to worry about.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Earlier, we reported that access to the eGov portal and other government services will be restricted in Kazakhstan. According to National Information Technologies, scheduled technical maintenance will be carried out to ensure the stable operation of the entire digital ecosystem of supported projects.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Okay, okay. So, not chaos, just... stability and data checking. Alright. That's, um, actually a relief to hear.",
+        "tts_text": "Okay, okay. So, not chaos, just... stability and data checking. Alright. That's, um, actually a relief to hear.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, exactly. It's, like, a step towards more security.",
+        "tts_text": "Yeah, exactly. It's, like, a step towards more security.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  },
+  "batch_index": 3
+}

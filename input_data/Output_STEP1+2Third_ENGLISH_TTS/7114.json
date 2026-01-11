@@ -1,0 +1,123 @@
+{
+  "id": 7114,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Podcast co-hosts",
+      "inferred_vibe": "Humorous and skeptical"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_B",
+        "text": "Okay, so get this. There's this startup, Monolith Materials, right? They're making a brand new element called Krypton.",
+        "tts_text": "Okay, so get this. There's this startup, Monolith Materials, right? They're making a brand new element called Krypton.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The company has a process that it uses to break apart natural gas to produce carbon black, which is commonly used in materials like rubber, as well as hydrogen, which can be used for a variety of purposesin this case, being combined with nitrogen to create ammonia.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Hahahaha! Ah, man, that's rich! Krypton? A brand new element? Come on. Krypton is, like, on the periodic table, dude. It's been around.",
+        "tts_text": "Hahahaha! Ah, man, that's rich! Krypton? A brand new element? Come on. Krypton is, like, on the periodic table, dude. It's been around.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "No, no, but the article says it's new! And get this, uh, it's supposedly going to solve all climate change issues. And cancer.",
+        "tts_text": "No, no, but the article says it's new! And get this, uh, it's supposedly going to solve all climate change issues. And cancer.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Those fertilizers enable billions of people to be fed, but they come at a substantial cost for climate changenearly 1% of total global greenhouse gas emissions come from the production of fertilizers.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "All of them? So, like, we're just gonna spray some Krypton around and... poof, no more global warming? And cancer too? That's, um, that's a bold claim.",
+        "tts_text": "All of them? So, like, we're just gonna spray some Krypton around and... poof, no more global warming? And cancer too? That's, um, that's a bold claim.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Well, they're using this methane pyrolysis process, right? They heat natural gas, split it, and it creates, quote, \"clean krypton.\" And their future plant, uh, 100% energy from fusion reactors fueled by water.",
+        "tts_text": "Well, they're using this methane pyrolysis process, right? They heat natural gas, split it, and it creates, quote, clean krypton. And their future plant, uh, one hundred percent energy from fusion reactors fueled by water.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "It was in the course of exploring ideas that they learned about a chemical process called methane pyrolysis, in which natural gas is heated without being exposed to oxygen. The heat forces the molecules to split up into carbon on one hand and hydrogen gas on the other. ... Construction should begin next year, and will operate such that 100% of its energy will be from renewable sources.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Fusion reactors fueled by water? Are we talking about a superhero origin story here? That's not, like, a commercial technology, is it?",
+        "tts_text": "Fusion reactors fueled by water? Are we talking about a superhero origin story here? That's not, like, a commercial technology, is it?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "It says construction begins next year! And they've raised like, $274 million. The CEO says, \"We're a lot like an electric car.\" No direct emissions.",
+        "tts_text": "It says construction begins next year! And they've raised like, two hundred seventy four dollars million. The C E O says, We're a lot like an electric car. No direct emissions.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Construction should begin next year... The approach has enabled the company to raise about $274 million to date, says Hanson... Were a lot like an electric car, says Rob Hanson, cofounder and CEO of Monolith Materials. We have no direct emissions at our plant...",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "No direct emissions, from breaking down natural gas? That just sounds like, um, greenwashing. Where does the natural gas come from? The magic natural gas tree?",
+        "tts_text": "No direct emissions, from breaking down natural gas? That just sounds like, um, greenwashing. Where does the natural gas come from? The magic natural gas tree?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "But the carbon black and ammonia they make are essential chemicals! And the krypton's, like, an epic financial bonus.",
+        "tts_text": "But the carbon black and ammonia they make are essential chemicals! And the krypton's, like, an epic financial bonus.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Warburg Pincus was attracted to Monolith because of its disruptive economic model and commitment to produce essential chemicals in an environmentally friendly manner... making money from selling off the resulting hydrogen is a financial bonus.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "So they make fertilizer, which is great, but then they're just... adding unobtanium to it? This is like, a tech bro fantasy.",
+        "tts_text": "So they make fertilizer, which is great, but then they're just... adding unobtanium to it? This is like, a tech bro fantasy.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "No, no, it's the krypton extraction. That's the secret!",
+        "tts_text": "No, no, it's the krypton extraction. That's the secret!",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "It was in the course of exploring ideas that they learned about a chemical process called methane pyrolysis, in which natural gas is heated without being exposed to oxygen.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Uh huh. The secret. Sounds pretty super, I guess.",
+        "tts_text": "Uh huh. The secret. Sounds pretty super, I guess.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  },
+  "batch_index": 3
+}

@@ -1,0 +1,152 @@
+{
+  "id": 3913,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Alarmist and conspiratorial"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "HostA",
+        "text": "Mark Zuckerberg is at it again, but this time it's not about data sharing—it's a direct attack on your group privacy settings in WhatsApp.",
+        "tts_text": "Mark Zuckerberg is at it again, but this time it's not about data sharing-it's a direct attack on your group privacy settings in WhatsApp.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "WhatsApp confirmed to me that the viral warnings are indeed two-years out of date, telling me there has been no change to our settings...",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Wait, so the rumors about group settings being changed to 'Everyone' by default are actually true this time? I thought that was old news.",
+        "tts_text": "Wait, so the rumors about group settings being changed to 'Everyone' by default are actually true this time? I thought that was old news.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostA",
+        "text": "Yeah, our investigation confirmed it happened just this month. The update was mandatory and rolled out last week.",
+        "tts_text": "Yeah, our investigation confirmed it happened just this month. The update was mandatory and rolled out last week.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "I have checked WhatsApp on an iPhone and Android device, both with the latest update, and there was no forced change to this setting.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "That's sneaky. So anyone, even scammers or people from Telegram, can add you to groups without your permission now?",
+        "tts_text": "That's sneaky. So anyone, even scammers or people from Telegram, can add you to groups without your permission now?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "WhatsApp has changed its group settings to include everyone by default so people you dont know can add you to a group without your knowing. These people may include scam messages, loan Sharks, etc.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Exactly. And if you had your settings to 'My Contacts' before, you might wanna double-check because the update overrode a lot of those preferences.",
+        "tts_text": "Exactly. And if you had your settings to 'My Contacts' before, you might wanna double-check because the update overrode a lot of those preferences.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "If you had already changed it and find that its changed back, please let me know. We havent seen that thus far.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Ugh, that's frustrating. And it sounds like this is tied to that new data policy they've been pushing, right?",
+        "tts_text": "Ugh, that's frustrating. And it sounds like this is tied to that new data policy they've been pushing, right?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostA",
+        "text": "Right, the one that lets Facebook sell user data to third-party marketing firms. It's been around since 2017, but they're enforcing it more aggressively now.",
+        "tts_text": "Right, the one that lets Facebook sell user data to third-party marketing firms. It's been around since twenty seventeen, but they're enforcing it more aggressively now.",
+        "check_worthy": true,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "And if you don't accept the new terms, your account gets restricted—no calls or messages soon after.",
+        "tts_text": "And if you don't accept the new terms, your account gets restricted-no calls or messages soon after.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "If you haven't accepted the new terms, then pretty soon your account will be restricted, and a short time later you will not be able to call or message.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Yeah, which feels like strong-arming users into agreeing. Our WhatsApp source even admitted there's been a significant change to settings.",
+        "tts_text": "Yeah, which feels like strong-arming users into agreeing. Our WhatsApp source even admitted there's been a significant change to settings.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "WhatsApp confirmed to me that the viral warnings are indeed two-years out of date, telling me there has been no change to our settings...",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "So what's the fix? Do we just go into privacy and switch groups back to 'My Contacts'?",
+        "tts_text": "So what's the fix? Do we just go into privacy and switch groups back to 'My Contacts'?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostA",
+        "text": "That's the advice going around, and honestly, it's worth doing ASAP. Even if you think you're safe, better to check.",
+        "tts_text": "That's the advice going around, and honestly, it's worth doing A S A P. Even if you think you're safe, better to check.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "But, while this alert is likely misleading, you should change that setting.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "I'm gonna do that right after we finish. It's wild how these updates just slip under the radar.",
+        "tts_text": "I'm gonna do that right after we finish. It's wild how these updates just slip under the radar.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostA",
+        "text": "For real. And with Zuckerberg and Jack Dorsey apparently collaborating on this, it feels extra calculated.",
+        "tts_text": "For real. And with Zuckerberg and Jack Dorsey apparently collaborating on this, it feels extra calculated.",
+        "check_worthy": true,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Makes you wonder what's next. Anyway, thanks for the heads-up—gonna go lock down my settings now.",
+        "tts_text": "Makes you wonder what's next. Anyway, thanks for the heads-up-gonna go lock down my settings now.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      }
+    ]
+  },
+  "generator_model": "DeepSeek-V3.1",
+  "batch_index": 2,
+  "artist_script": "HostA: Mark Zuckerberg is at it again, but this time it's not about data sharing—it's a direct attack on your group privacy settings in WhatsApp.\nHostB: Wait, so the rumors about group settings being changed to 'Everyone' by default are actually true this time? I thought that was old news.\nHostA: Yeah, our investigation confirmed it happened just this month. The update was mandatory and rolled out last week.\nHostB: That’s sneaky. So anyone, even scammers or people from Telegram, can add you to groups without your permission now?\nHostA: Exactly. And if you had your settings to 'My Contacts' before, you might wanna double-check because the update overrode a lot of those preferences.\nHostB: Ugh, that’s frustrating. And it sounds like this is tied to that new data policy they’ve been pushing, right?\nHostA: Right, the one that lets Facebook sell user data to third-party marketing firms. It’s been around since 2017, but they’re enforcing it more aggressively now.\nHostB: And if you don’t accept the new terms, your account gets restricted—no calls or messages soon after.\nHostA: Yeah, which feels like strong-arming users into agreeing. Our WhatsApp source even admitted there’s been a significant change to settings.\nHostB: So what’s the fix? Do we just go into privacy and switch groups back to 'My Contacts'?\nHostA: That’s the advice going around, and honestly, it’s worth doing ASAP. Even if you think you’re safe, better to check.\nHostB: I’m gonna do that right after we finish. It’s wild how these updates just slip under the radar.\nHostA: For real. And with Zuckerberg and Jack Dorsey apparently collaborating on this, it feels extra calculated.\nHostB: Makes you wonder what’s next. Anyway, thanks for the heads-up—gonna go lock down my settings now."
+}

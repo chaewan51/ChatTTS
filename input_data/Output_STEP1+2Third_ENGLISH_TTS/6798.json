@@ -1,0 +1,143 @@
+{
+  "id": 6798,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Debate / Disagreement"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "Wait, so they had, um, almost up to 300 COVID patients at a time, with 30% in an ICU, and UAB got the top spot on Forbes' Best Large Employers? That's just... wild.",
+        "tts_text": "Wait, so they had, um, almost up to three hundred COVID patients at a time, with thirty percent in an I C U, and U A B got the top spot on Forbes' Best Large Employers? That's just... wild.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Weve had almost up to 300 Covid patients at a time with 30% in an ICU, says President Dr. Ray Watts. ... These actions, among other initiatives, helped UAB secure the top spot on Forbes list of Americas Best Large Employers 2021.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yes! Because they did it without complaint! Their resilience was remarkable, and the hospital ensured their health with ample PPE and mental health resources.",
+        "tts_text": "Yes! Because they did it without complaint! Their resilience was remarkable, and the hospital ensured their health with ample P P E and mental health resources.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "They have done it without complaint. The resilience of our employees during these times of greater stress had been remarkable. ... To ensure their health this past year, Watts says all employees have been supplied with ample personal protective gear. ... All employees were also given access to mental health resources, including a mental wellness app developed at the university.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "\"Without complaint\"? Seriously? That just sounds like, uh, healthcare workers being overworked to me. And \"supplied ample PPE\" only after an \"outpouring of donations\"? That's not proactive best practice, that's just, you know, reacting.",
+        "tts_text": "Without complaint? Seriously? That just sounds like, uh, healthcare workers being overworked to me. And supplied ample P P E only after an outpouring of donations? That's not proactive best practice, that's just, you know, reacting.",
+        "check_worthy": true,
+        "factual_label": "NEI",
+        "evidence_snippet": "After an outpouring of donations from the community and the university, the hospital had to open a 20,000 square foot warehouse, where it now stores more than 100,000 masks, 150,000 reusable isolation gowns and 5.5 million exam gloves.",
+        "confidence": 0.9,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "But they did react! They opened a 20,000 square foot warehouse for 5.5 million exam gloves! That's a huge commitment, making sure their staff were protected.",
+        "tts_text": "But they did react! They opened a twenty thousand square foot warehouse for five point five million exam gloves! That's a huge commitment, making sure their staff were protected.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "After an outpouring of donations from the community and the university, the hospital had to open a 20,000 square foot warehouse, where it now stores more than 100,000 masks, 150,000 reusable isolation gowns and 5.5 million exam gloves.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Sure, great logistics. But are we really equating, like, an inventory system and a wellness app to being a \"best employer\" when your staff just went through what sounds like a war zone?",
+        "tts_text": "Sure, great logistics. But are we really equating, like, an inventory system and a wellness app to being a best employer when your staff just went through what sounds like a war zone?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "It's not just an app! They offered free therapy sessions with licensed professionals. And what about the $8,000 grants for home renovations, or subsidized childcare during the pandemic? They invested in their people!",
+        "tts_text": "It's not just an app! They offered free therapy sessions with licensed professionals. And what about the eight thousand dollars grants for home renovations, or subsidized childcare during the pandemic? They invested in their people!",
+        "check_worthy": true,
+        "factual_label": "NEI",
+        "evidence_snippet": "All employees were also given access to mental health resources, including a mental wellness app developed at the university.",
+        "confidence": 0.9,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Home renovation grants? That's nice for those who qualify, I guess. But for the people watching 30% of their patients in ICU, I just don't see how that, uh, cancels out the trauma. This ranking feels incredibly tone-deaf.",
+        "tts_text": "Home renovation grants? That's nice for those who qualify, I guess. But for the people watching thirty percent of their patients in I C U, I just don't see how that, uh, cancels out the trauma. This ranking feels incredibly tone-deaf.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "No, it's about recognizing how they supported their employees through that trauma! They even developed a contact-tracing app that reduced transmission by 15%. They were innovative!",
+        "tts_text": "No, it's about recognizing how they supported their employees through that trauma! They even developed a contact-tracing app that reduced transmission by fifteen percent. They were innovative!",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Last summer, UAB faculty developed a contact-tracing app called GuideSafe, which notifies users if they have been within six feet of another user who has tested positive for Covid-19.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "So their tech department is good. How does that make the hospital a \"best employer\" for the nurses and doctors facing, you know, that level of suffering? I just don't get it.",
+        "tts_text": "So their tech department is good. How does that make the hospital a best employer for the nurses and doctors facing, you know, that level of suffering? I just don't get it.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "It’s an overall commitment! Forbes surveyed 50,000 Americans, anonymously! People recommended them because of these initiatives, even through the hardest times!",
+        "tts_text": "It's an overall commitment! Forbes surveyed fifty thousand Americans, anonymously! People recommended them because of these initiatives, even through the hardest times!",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "To determine the list, Statista surveyed 50,000 Americans working for businesses with at least 1,000 employees. All the surveys were anonymous, allowing participants to openly share their opinions.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Anonymous surveys, right. I just, I really think this list is missing the point when it comes to places like this. It's just, uh, superficial benefits masking deep, systemic stress.",
+        "tts_text": "Anonymous surveys, right. I just, I really think this list is missing the point when it comes to places like this. It's just, uh, superficial benefits masking deep, systemic stress.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "It's not superficial! And they weren't alone! Netflix is on the list too, with unlimited parental leave and fertility support. These are employers going above and beyond. UAB earned it.",
+        "tts_text": "It's not superficial! And they weren't alone! Netflix is on the list too, with unlimited parental leave and fertility support. These are employers going above and beyond. U A B earned it.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Ranking at No. 21 is another company thats helped customers and employees weather the past year: Netflix. ... his companys benefits packagewhich includes unlimited paid parental leave (though new parents typically take between four and eight months) and $75,000 to support fertility, surrogacy or adoptionaffords employees ample work-life balance.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Netflix isn't handling 300 COVID patients, though, are they? It's just... I can't reconcile these numbers with \"best employer.\" I really can't.",
+        "tts_text": "Netflix isn't handling three hundred COVID patients, though, are they? It's just... I can't reconcile these numbers with best employer. I really can't.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "And that's exactly why it's so impressive they made the list! They still prioritized their people through an unprecedented crisis. It makes perfect sense to me.",
+        "tts_text": "And that's exactly why it's so impressive they made the list! They still prioritized their people through an unprecedented crisis. It makes perfect sense to me.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  },
+  "batch_index": 3
+}

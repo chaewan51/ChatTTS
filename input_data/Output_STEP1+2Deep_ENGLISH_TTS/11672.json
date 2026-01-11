@@ -1,0 +1,160 @@
+{
+  "id": 11672,
+  "language": "english",
+  "hallucination": "no",
+  "ground_truth_source": "text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Colleagues (Podcast Co-hosts)",
+      "inferred_vibe": "Informative and concerned"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "HostA",
+        "text": "That's a pretty dramatic forecast from Kazhydromet—three regions facing potential flooding from rapid snowmelt.",
+        "tts_text": "That's a pretty dramatic forecast from Kazhydromet-three regions facing potential flooding from rapid snowmelt.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Due to rising temperatures, three regions of Kazakhstan are expected to experience rapid snowmelt, which may lead to a dangerous rise in river water levels.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Yeah, and it's already happening in Akmola Region. The water level on the Yesil River rose 18 centimeters in just four hours.",
+        "tts_text": "Yeah, and it's already happening in Akmola Region. The water level on the Yesil River rose eighteen centimeters in just four hours.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "In Akmola Region, at the hydrological station on the Yesil River in the city of Derzhavinsk, a water level increase has been recorded. Over four hours, the water rose by 18 centimeters.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "But 752 cm is still below the critical level of 850, right? So maybe it's not that urgent yet.",
+        "tts_text": "But seven hundred fifty two cm is still below the critical level of eight hundred fifty, right? So maybe it's not that urgent yet.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "As of 6:00 PM, the water level stands at 752 cm (the critical level is 850 cm).",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Well, they're it could exceed critical levels soon, especially with meltwater still flowing in from tributaries. That puts villages and farmland at real risk.",
+        "tts_text": "Well, they're it could exceed critical levels soon, especially with meltwater still flowing in from tributaries. That puts villages and farmland at real risk.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Forecasters warned of a continued rise in water levels, with a possible exceeding of critical levels, which could pose a flood risk to residential areas, agricultural buildings, and local roads in the village and downstream areas, particularly those located on floodplain sections of the river.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Hmm, what about the other regions? East Kazakhstan and Abai?",
+        "tts_text": "Hmm, what about the other regions? East Kazakhstan and Abai?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostB",
+        "text": "They're expecting intense snowmelt and ice breakup from April 10th to the 13th. Ice jams could make things even worse there.",
+        "tts_text": "They're expecting intense snowmelt and ice breakup from April tenth to the thirteenth. Ice jams could make things even worse there.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "In East Kazakhstan Region, from April 10 to 13, due to warmer temperatures, intense snowmelt and river ice breakup are expected, forecasters said. There is a possibility of ice jams forming in river channels.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Ice jams? Those are unpredictable. But are these areas usually prone to spring flooding?",
+        "tts_text": "Ice jams? Those are unpredictable. But are these areas usually prone to spring flooding?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostB",
+        "text": "Some parts, yeah, especially floodplain sections. But this warming seems unusually rapid. Kazhydromet is clearly concerned about overflows.",
+        "tts_text": "Some parts, yeah, especially floodplain sections. But this warming seems unusually rapid. Kazhydromet is clearly concerned about overflows.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "As a result, overflows and flooding are possible! stated Kazhydromet.",
+        "confidence": 0.9,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "I guess if the snow melts too fast, the ground can't absorb it all, and the rivers just swell up.",
+        "tts_text": "I guess if the snow melts too fast, the ground can't absorb it all, and the rivers just swell up.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostB",
+        "text": "Exactly. And with no ice observed at some stations, it's all liquid inflow—just adding volume quickly.",
+        "tts_text": "Exactly. And with no ice observed at some stations, it's all liquid inflow-just adding volume quickly.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "No ice phenomena are observed at the hydrological post (clear water).",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "So we're looking at possible flooding for residential areas, roads… even agricultural buildings.",
+        "tts_text": "So we're looking at possible flooding for residential areas, roads... even agricultural buildings.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Forecasters warned of a continued rise in water levels, with a possible exceeding of critical levels, which could pose a flood risk to residential areas, agricultural buildings, and local roads in the village and downstream areas, particularly those located on floodplain sections of the river.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Right, downstream areas could be hit. People might need to prepare for evacuation in some spots, honestly.",
+        "tts_text": "Right, downstream areas could be hit. People might need to prepare for evacuation in some spots, honestly.",
+        "check_worthy": true,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.6,
+        "priority": "medium"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Do they usually issue warnings like this ahead of time?",
+        "tts_text": "Do they usually issue warnings like this ahead of time?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostB",
+        "text": "They try to, but the speed of this melt seems to have caught attention. Let's hope preparations start early.",
+        "tts_text": "They try to, but the speed of this melt seems to have caught attention. Let's hope preparations start early.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostA",
+        "text": "Yeah, let's keep an eye on those water levels, especially around the 10th.",
+        "tts_text": "Yeah, let's keep an eye on those water levels, especially around the tenth.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      }
+    ]
+  },
+  "generator_model": "DeepSeek-V3.1",
+  "batch_index": 2
+}

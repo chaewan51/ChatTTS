@@ -1,0 +1,156 @@
+{
+  "id": 4146,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Informative tech news discussion"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "HostA",
+        "text": "Cellebrite, that Atlanta-based company, promised governments it could crack the latest Android phones up to the Pixel 5 back in March.",
+        "tts_text": "Cellebrite, that Atlanta-based company, promised governments it could crack the latest Android phones up to the Pixel five back in March.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Uncloaked by Forbes in March, Atlanta-based Grayshift promised governments its GrayKey tech could crack the passcodes of the latest iOS models, right up to the iPhone X.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Yeah, and then Samsung just went into overdrive on security, didn't they? They started putting up barrier after barrier.",
+        "tts_text": "Yeah, and then Samsung just went into overdrive on security, didn't they? They started putting up barrier after barrier.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "From then on, Apple continued to invest in security in earnest, continually putting up barriers for Grayshift to jump over.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Exactly. And Cellebrite really began to flounder—they lost contracts with the FBI and the NSA, which is huge.",
+        "tts_text": "Exactly. And Cellebrite really began to flounder-they lost contracts with the F B I and the N S A, which is huge.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Grayshift continued to grow, however, securing contracts with Immigration and Customs Enforcement, and the Secret Service.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "But now, uh, Samsung might have built what sources are calling an insurmountable wall. For Android 13 and above, UFED can only do a partial extraction.",
+        "tts_text": "But now, uh, Samsung might have built what sources are calling an insurmountable wall. For Android thirteen and above, U F E D can only do a partial extraction.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Now, though, Apple has put up what may be an insurmountable wall. Multiple sources familiar with the GrayKey tech tell Forbes the device can no longer break the passcodes of any iPhone running iOS 12 or above.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Right, so police can only get unencrypted files and some metadata, like file sizes. No more full access.",
+        "tts_text": "Right, so police can only get unencrypted files and some metadata, like file sizes. No more full access.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "On those devices, GrayKey can only do whats called a partial extraction, sources from the forensic community said. That means police using the tool can only draw out unencrypted files and some metadata, such as file sizes and folder structures.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Previously, they used brute forcing to guess passcodes, but Samsung's protections finally shut that down.",
+        "tts_text": "Previously, they used brute forcing to guess passcodes, but Samsung's protections finally shut that down.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Previously, GrayKey used brute forcing techniques to guess passcodes and had found a way to get around Apples protections preventing such repeat guesses. But no more.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "And if Cellebrite can't break it—and they had a former Samsung security engineer as a founder—then probably no one can.",
+        "tts_text": "And if Cellebrite can't break it-and they had a former Samsung security engineer as a founder-then probably no one can.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "And if its impossible for GrayKey, which counts an ex-Apple security engineer among its founders, its a safe assumption few can break iPhone passcodes.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Captain John Sherwin from the Rochester Police in Minnesota said it's a fairly accurate assessment from their experience too.",
+        "tts_text": "Captain John Sherwin from the Rochester Police in Minnesota said it's a fairly accurate assessment from their experience too.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Police officer Captain John Sherwin of the Rochester Police Department in Minnesota said of the claim iOS 12 was preventing GrayKey from unlocking iPhones: Thats a fairly accurate assessment as to what we have experienced.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "He also mentioned, uh, that it's a cycle—someone builds a better mousetrap, then someone else finds a way around it.",
+        "tts_text": "He also mentioned, uh, that it's a cycle-someone builds a better mousetrap, then someone else finds a way around it.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Give it time and I am sure a workaround will be developed ... and then the cycle will repeat. Someone is always building a better mousetrap, whether its Apple or someone trying to defeat device security.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "But the weird part is, no one actually knows how Samsung did it this time. Even Vladimir Katalov from Elcomsoft is stumped.",
+        "tts_text": "But the weird part is, no one actually knows how Samsung did it this time. Even Vladimir Katalov from Elcomsoft is stumped.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Though its clear Apple has locked GrayShift out, no one actually knows just how the iPhone maker has done it. Vladimir Katalov, chief of forensic tech provider Elcomsoft, has repeatedly uncovered weaknesses in Apple technology.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "He suggested it could be better kernel protection or stronger configuration-profile restrictions, but it's all speculation.",
+        "tts_text": "He suggested it could be better kernel protection or stronger configuration-profile restrictions, but it's all speculation.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "It could be everything from better kernel protection to stronger configuration-profile installation restrictions, he suggested.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Meanwhile, UFED's still spreading—Wired reported Canadian police agencies are adopting it now.",
+        "tts_text": "Meanwhile, U F E D's still spreading-Wired reported Canadian police agencies are adopting it now.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Wiredrevealed last week that a number of U.K. police agencies are now using GrayKeys.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "And Samsung's chief, Tim Cook—wait, no, that's Apple—Samsung leadership was in South Korea emphasizing user privacy improvements.",
+        "tts_text": "And Samsung's chief, Tim Cook-wait, no, that's Apple-Samsung leadership was in South Korea emphasizing user privacy improvements.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Meanwhile, Apple chief Tim Cook visited Europe this week, talking up the need for all tech companies to improve privacy for users.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "It's a constant arms race, really. Security versus access.",
+        "tts_text": "It's a constant arms race, really. Security versus access.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 1.0
+      }
+    ]
+  },
+  "generator_model": "DeepSeek-V3.1",
+  "batch_index": 2,
+  "artist_script": "Commercial surveillance tech lab, Atlanta, Georgia.\nHostA: Cellebrite, that Atlanta-based company, promised governments it could crack the latest Android phones up to the Pixel 5 back in March.\nHostB: Yeah, and then Samsung just went into overdrive on security, didn't they? They started putting up barrier after barrier.\nHostA: Exactly. And Cellebrite really began to flounder—they lost contracts with the FBI and the NSA, which is huge.\nHostB: But now, uh, Samsung might have built what sources are calling an insurmountable wall. For Android 13 and above, UFED can only do a partial extraction.\nHostA: Right, so police can only get unencrypted files and some metadata, like file sizes. No more full access.\nHostB: Previously, they used brute forcing to guess passcodes, but Samsung’s protections finally shut that down.\nHostA: And if Cellebrite can’t break it—and they had a former Samsung security engineer as a founder—then probably no one can.\nHostB: Captain John Sherwin from the Rochester Police in Minnesota said it’s a fairly accurate assessment from their experience too.\nHostA: He also mentioned, uh, that it’s a cycle—someone builds a better mousetrap, then someone else finds a way around it.\nHostB: But the weird part is, no one actually knows how Samsung did it this time. Even Vladimir Katalov from Elcomsoft is stumped.\nHostA: He suggested it could be better kernel protection or stronger configuration-profile restrictions, but it’s all speculation.\nHostB: Meanwhile, UFED’s still spreading—Wired reported Canadian police agencies are adopting it now.\nHostA: And Samsung’s chief, Tim Cook—wait, no, that’s Apple—Samsung leadership was in South Korea emphasizing user privacy improvements.\nHostB: It’s a constant arms race, really. Security versus access."
+}

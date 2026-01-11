@@ -1,0 +1,149 @@
+{
+  "id": 6783,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Friends/Colleagues",
+      "inferred_vibe": "Enthusiastic and collaborative"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "So, okay, hear me out. Should college, like, just be free? Like, totally free?",
+        "tts_text": "So, okay, hear me out. Should college, like, just be free? Like, totally free?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh my god, yes, exactly! Especially after, um, you see this new Bernie Sanders and Pramila Jayapal bill? It's, like, actually trying to make it happen!",
+        "tts_text": "Oh my god, yes, exactly! Especially after, um, you see this new Bernie Sanders and Pramila Jayapal bill? It's, like, actually trying to make it happen!",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Sen. Bernie Sanders (I-Vt.) and Rep. Pramila Jayapal (D-Wash.) on Wednesday introduced legislation to make college tuition free for millions of Americans, paid for by a new tax on Wall Street trades.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yes, exactly! I mean, think about it: community college, trade school, totally free for everyone. Not just some.",
+        "tts_text": "Yes, exactly! I mean, think about it: community college, trade school, totally free for everyone. Not just some.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The College for All Plan would make community college and trade school tuition free for everyone, and it would eliminate tuition at public four-year colleges and universities for students from families earning less than $125,000 per year.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Right? And then, uh, public four-year schools, if your family makes under $125k? That's like, what, 80% of current students?",
+        "tts_text": "Right? And then, uh, public four-year schools, if your family makes under one hundred twenty five dollarsk? That's like, what, eighty percent of current students?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The College for All Plan would make community college and trade school tuition free for everyone, and it would eliminate tuition at public four-year colleges and universities for students from families earning less than $125,000 per year.",
+        "confidence": 0.9,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Eighty percent! Yes, exactly! And even, um, HBCUs, minority-serving institutions too. It’s huge.",
+        "tts_text": "Eighty percent! Yes, exactly! And even, um, HBCUs, minority-serving institutions too. It's huge.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "It would also make tuition free at private Historically Black Colleges and Universities and other minority-serving institutions for students from families in that income bracket.",
+        "confidence": 0.9,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "But the big kicker, though, is how they're gonna pay for it, right? It's all about that Wall Street tax.",
+        "tts_text": "But the big kicker, though, is how they're gonna pay for it, right? It's all about that Wall Street tax.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The federal investments in education and tuition would be paid for with a separate bill called the Tax on Wall Street Speculation Act, which would levy a new tax of 0.5% on stock trades, a 0.1% fee on bond trades and a 0.005% fee on derivatives.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yes, exactly! That's the part that, like, always gets people. Half a percent on stock trades, a tiny bit on bonds, even derivatives.",
+        "tts_text": "Yes, exactly! That's the part that, like, always gets people. Half a percent on stock trades, a tiny bit on bonds, even derivatives.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "...which would levy a new tax of 0.5% on stock trades, a 0.1% fee on bond trades and a 0.005% fee on derivatives.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "A tiny bit! And, um, Bernie's been pushing this for years! This isn't new for him.",
+        "tts_text": "A tiny bit! And, um, Bernie's been pushing this for years! This isn't new for him.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "This isnt the first time Sanders has pushed for a financial transaction taxhe floated the idea during his presidential campaign in 2016 and introduced legislation containing the tax in 2019.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "No, not at all! But it's also, uh, super controversial. Like, people are saying it’ll decrease returns for, you know, people saving for a house?",
+        "tts_text": "No, not at all! But it's also, uh, super controversial. Like, people are saying it'll decrease returns for, you know, people saving for a house?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "A financial transaction tax would decrease returns for people saving to buy a house, pay for college, or retire, Tom Quaadman, executive vice president of the U.S. Chamber Center for Capital Markets Competitiveness, said in a statement reported by CNBC in 2019.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh, totally. The Chamber of Commerce is freaking out. Saying it makes it harder for businesses to raise capital, like, um, just to start up.",
+        "tts_text": "Oh, totally. The Chamber of Commerce is freaking out. Saying it makes it harder for businesses to raise capital, like, um, just to start up.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "It would also make it more expensive for businesses to raise the capital they need to start, expand, and create jobs.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "But also, yes, exactly, like Jayapal said: working families shouldn’t have these, um, crushing loans in the first place. That’s the whole point!",
+        "tts_text": "But also, yes, exactly, like Jayapal said: working families shouldn't have these, um, crushing loans in the first place. That's the whole point!",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "While President Biden can and should immediately cancel student debt for millions of borrowers, Congress must ensure that working families never have to take out these crushing loans to receive a higher education in the first place, Jayapal said in a statement.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "That's the point! But then, um, the revenue numbers are wildly different. They're saying $2.4 trillion, but then, like, others say only $400 billion?",
+        "tts_text": "That's the point! But then, um, the revenue numbers are wildly different. They're saying two point four dollars trillion, but then, like, others say only four hundred dollars billion?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "$2.4 trillion. Thats how much the new tax on Wall Street transactions could raise over the next decade, according to a summary of the legislation. When the Tax Policy Center analyzed Sanders campaign proposal for a financial transaction tax (a plan he said would raise $3 trillion over a decade), it concluded that the proposal would only generate about $400 billion in revenue.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yes, exactly! That discrepancy alone is, uh, fascinating. It's like, who's right?",
+        "tts_text": "Yes, exactly! That discrepancy alone is, uh, fascinating. It's like, who's right?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "So, like, can we actually afford free college? Or, um, can we afford not to? That’s the real question.",
+        "tts_text": "So, like, can we actually afford free college? Or, um, can we afford not to? That's the real question.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  },
+  "batch_index": 3
+}

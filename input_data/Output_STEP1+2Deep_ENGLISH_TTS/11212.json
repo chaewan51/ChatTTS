@@ -1,0 +1,122 @@
+{
+  "id": 11212,
+  "language": "english",
+  "hallucination": "no",
+  "ground_truth_source": "text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Friends",
+      "inferred_vibe": "Casual conversation"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "HostA",
+        "text": "Okay, so I bet you packed an umbrella for your trip to Almaty this week.",
+        "tts_text": "Okay, so I bet you packed an umbrella for your trip to Almaty this week.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostB",
+        "text": "Oh, you know it! I saw that thunderstorms are expected on June 11th, so I'm definitely not taking any chances.",
+        "tts_text": "Oh, you know it! I saw that thunderstorms are expected on June eleventh, so I'm definitely not taking any chances.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "June 11: Brief rain and thunderstorms will continue.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Yeah, and the winds are supposed to be pretty strong too, like, up to 14 meters per second in some places. That's no joke!",
+        "tts_text": "Yeah, and the winds are supposed to be pretty strong too, like, up to fourteen meters per second in some places. That's no joke!",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Winds from the southwest will blow at 3\"8 m/s, with gusts up to 15 m/s during storms.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Mhm, but at least the temperatures are staying warm— like up to 30 degrees during the day. So even with the rain, it won't be chilly.",
+        "tts_text": "Mhm, but at least the temperatures are staying warm- like up to thirty degrees during the day. So even with the rain, it won't be chilly.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The temperature will range from +18¦+20ÂC at night to +31¦+33ÂC in the afternoon.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "True, but I'd still rather have that dry, calm weather they're predicting for June 10th. Partly cloudy, no rain… sounds perfect.",
+        "tts_text": "True, but I'd still rather have that dry, calm weather they're predicting for June tenth. Partly cloudy, no rain... sounds perfect.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "June 10: Brief showers and thunderstorms.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Uh-huh, but then it's back to thunder and showers after that. It's all over the place!",
+        "tts_text": "Uh-huh, but then it's back to thunder and showers after that. It's all over the place!",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostA",
+        "text": "And did you see the part about Minister Yerlan Nyssanbayev's summer forecast? Some areas might hit 45 degrees later!",
+        "tts_text": "And did you see the part about Minister Yerlan Nyssanbayev's summer forecast? Some areas might hit forty five degrees later!",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "In some parts of the southwest, temperatures could reach 45ÂC.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Whoa, 45? That is intense.",
+        "tts_text": "Whoa, forty five? That is intense.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostA",
+        "text": "Yeah, but at least rainfall is supposed to be around normal for June and July— except maybe a bit more up north.",
+        "tts_text": "Yeah, but at least rainfall is supposed to be around normal for June and July- except maybe a bit more up north.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Rainfall in June and July is expected to be within normal levels, though the north, south, and southeast may receive slightly more.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Still, I'm just glad Almaty stabilizes by June 12th. Warm and dry to finish the week? I can handle that.",
+        "tts_text": "Still, I'm just glad Almaty stabilizes by June twelfth. Warm and dry to finish the week? I can handle that.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "June 12: Partly cloudy skies are expected with no precipitation. The weather will stabilize midweek, bringing warm and dry conditions.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "For sure. But honestly, with weather this unpredictable, maybe we should just expect surprises.",
+        "tts_text": "For sure. But honestly, with weather this unpredictable, maybe we should just expect surprises.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      }
+    ]
+  },
+  "generator_model": "DeepSeek-V3.1",
+  "batch_index": 2
+}

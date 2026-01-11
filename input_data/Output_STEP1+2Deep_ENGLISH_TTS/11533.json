@@ -1,0 +1,130 @@
+{
+  "id": 11533,
+  "language": "english",
+  "hallucination": "no",
+  "ground_truth_source": "text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Informational"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "HostA",
+        "text": "A 3.6 magnitude earthquake in the Caspian Sea, Sunday evening.",
+        "tts_text": "A three point six magnitude earthquake in the Caspian Sea, Sunday evening.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Seismologists recorded an earthquake in the Azerbaijani sector of the Caspian Sea on the evening of Sunday, April 27. It was reported that tremors with a magnitude of 3.6 were recorded at 6:13 PM local time (7:13 PM Astana time).",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Oh, the Azerbaijani sector, right? I saw that. Pretty deep too, wasn't it?",
+        "tts_text": "Oh, the Azerbaijani sector, right? I saw that. Pretty deep too, wasn't it?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Seismologists recorded an earthquake in the Azerbaijani sector of the Caspian Sea on the evening of Sunday, April 27. According to the Earthquake Research Bureau, the epicenter of the earthquake was located at a depth of 58 kilometers.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Yeah, the epicenter was at 58 kilometers down, which is uh, fairly deep for a quake that size.",
+        "tts_text": "Yeah, the epicenter was at fifty eight kilometers down, which is uh, fairly deep for a quake that size.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "According to the Earthquake Research Bureau, the epicenter of the earthquake was located at a depth of 58 kilometers.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "And it happened at 6:13 PM local time, which would be... 7:13 PM in Astana.",
+        "tts_text": "And it happened at six thirteen p m local time, which would be... seven thirteen p m in Astana.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "It was reported that tremors with a magnitude of 3.6 were recorded at 6:13 PM local time (7:13 PM Astana time).",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Exactly. The Republican Seismological Service Center put out that info.",
+        "tts_text": "Exactly. The Republican Seismological Service Center put out that info.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "According to AZERTAC agency, the information was released by the Republican Seismological Service Center under the National Academy of Sciences of Azerbaijan.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "You know, for a 3.6, that depth probably meant it wasn't felt too strongly on land, right?",
+        "tts_text": "You know, for a three point six, that depth probably meant it wasn't felt too strongly on land, right?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostA",
+        "text": "Most likely not. But still, any seismic activity in that region gets their attention.",
+        "tts_text": "Most likely not. But still, any seismic activity in that region gets their attention.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostB",
+        "text": "For sure. The Caspian Sea area does have its share of geological activity.",
+        "tts_text": "For sure. The Caspian Sea area does have its share of geological activity.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostA",
+        "text": "It's interesting they specified the time difference for Astana too—AZERTAC agency covering all the bases.",
+        "tts_text": "It's interesting they specified the time difference for Astana too-A Z E R T A C agency covering all the bases.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "According to AZERTAC agency, the information was released by the Republican Seismological Service Center under the National Academy of Sciences of Azerbaijan. It was reported that tremors with a magnitude of 3.6 were recorded at 6:13 PM local time (7:13 PM Astana time).",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Yeah, they're pretty thorough with their reporting. So no damage reported, I'm assuming?",
+        "tts_text": "Yeah, they're pretty thorough with their reporting. So no damage reported, I'm assuming?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostA",
+        "text": "Nothing mentioned, which makes sense for a quake that size and that deep.",
+        "tts_text": "Nothing mentioned, which makes sense for a quake that size and that deep.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostB",
+        "text": "Still, always a little jolt to the system when you see those alerts pop up.",
+        "tts_text": "Still, always a little jolt to the system when you see those alerts pop up.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      }
+    ]
+  },
+  "generator_model": "DeepSeek-V3.1",
+  "batch_index": 2
+}

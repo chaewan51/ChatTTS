@@ -1,0 +1,143 @@
+{
+  "id": 11515,
+  "language": "english",
+  "hallucination": "no",
+  "ground_truth_source": "text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Informative and conversational"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "HostA",
+        "text": "Unstable weather is hitting Kazakhstan, with Astana and Almaty bracing for frost, rain, and even hail from April 30th to May 2nd.",
+        "tts_text": "Unstable weather is hitting Kazakhstan, with Astana and Almaty bracing for frost, rain, and even hail from April thirtieth to May second.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Forecasters warn of unstable weather in Astana and Almaty from April 30 to May 2, with possible frost, rain, thunderstorms, and even hail.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Yeah, and it's interesting how different the two cities are—Astana's looking at nighttime lows of -1 to -3°C, which is pretty chilly for late April.",
+        "tts_text": "Yeah, and it's interesting how different the two cities are-Astana's looking at nighttime lows of -one to -three degrees c, which is pretty chilly for late April.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Nighttime temperature: -1 to -3¯ÂC; daytime: +12 to +14¯ÂC.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Right, they're even warning about frost overnight, so people should definitely dress warmly if they're out.",
+        "tts_text": "Right, they're even warning about frost overnight, so people should definitely dress warmly if they're out.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Frosts are expected overnight\"dress warmly.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Meanwhile, Almaty's dealing with possible thunderstorms and hail on those same days, which is a huge contrast.",
+        "tts_text": "Meanwhile, Almaty's dealing with possible thunderstorms and hail on those same days, which is a huge contrast.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "May 1\"2: Partly cloudy with occasional showers, thunderstorms, and possible hail.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "And you know, it says residents in northern Kazakhstan already shared photos of unusually large hailstones recently—so this isn't just a minor alert.",
+        "tts_text": "And you know, it says residents in northern Kazakhstan already shared photos of unusually large hailstones recently-so this isn't just a minor alert.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Previously, residents of northern Kazakhstan shared photos and videos of unusually large hailstones.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Oh wow, that's concerning. I mean, hailstones can do real damage to crops, cars, even property.",
+        "tts_text": "Oh wow, that's concerning. I mean, hailstones can do real damage to crops, cars, even property.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostA",
+        "text": "Exactly. And on May 1st in Astana, it actually looks nicer—dry and warmer, up to 17°C, so maybe some outdoor holiday activities could still happen.",
+        "tts_text": "Exactly. And on May first in Astana, it actually looks nicer-dry and warmer, up to seventeen degrees c, so maybe some outdoor holiday activities could still happen.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "May 1: Partly cloudy, dry. Southwesterly wind at 5\"10¯m/s. Temperature: +2 to +4¯ÂC at night, +15 to +17¯ÂC during the day.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "But then by May 2nd in Almaty, they're still talking showers and thunderstorms, with gusty winds up to 20 m/s.",
+        "tts_text": "But then by May second in Almaty, they're still talking showers and thunderstorms, with gusty winds up to twenty meters per second.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "May 1\"2: Partly cloudy with occasional showers, thunderstorms, and possible hail. Northwesterly wind shifting to northeasterly at 3\"8¯m/s, gusting up to 15\"20¯m/s.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "It really emphasizes how important it is to check daily forecasts, 'cause conditions are shifting so fast.",
+        "tts_text": "It really emphasizes how important it is to check daily forecasts, 'cause conditions are shifting so fast.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostB",
+        "text": "For sure. I'd be keeping an umbrella handy if I were there, especially in the afternoons when rain is most likely.",
+        "tts_text": "For sure. I'd be keeping an umbrella handy if I were there, especially in the afternoons when rain is most likely.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Keep an umbrella handy\"brief rain is possible, especially in the afternoon.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "And with possible hail, limiting time outdoors just makes sense—safety first.",
+        "tts_text": "And with possible hail, limiting time outdoors just makes sense-safety first.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Unsettled conditions will continue\"stay updated with weather alerts and limit time outdoors when possible.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "It's wild how spring weather can be so unpredictable, even in the same country.",
+        "tts_text": "It's wild how spring weather can be so unpredictable, even in the same country.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostA",
+        "text": "Absolutely. Let's hope everyone stays updated and takes those alerts seriously.",
+        "tts_text": "Absolutely. Let's hope everyone stays updated and takes those alerts seriously.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Unsettled conditions will continue\"stay updated with weather alerts and limit time outdoors when possible.",
+        "confidence": 1.0,
+        "priority": "high"
+      }
+    ]
+  },
+  "generator_model": "DeepSeek-V3.1",
+  "batch_index": 2
+}

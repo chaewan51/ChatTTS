@@ -1,0 +1,133 @@
+{
+  "id": 7105,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Podcast co-hosts",
+      "inferred_vibe": "Skeptical and comedic"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "Wait, so, uh, the Netherlands, it says here they've got like, six hundred seventy-three thousand six hundred forty tons of gold? From, what, six hundred seventy-four tons?",
+        "tts_text": "Wait, so, uh, the Netherlands, it says here they've got like, six hundred seventy-three thousand six hundred forty tons of gold? From, what, six hundred seventy-four tons?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Netherlands gold reserves currently stand at 673.64 tons, having liquated 1.14 trillion from the original haul of 674.78 tons from March.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, um, well, according to this, Host_A, they apparently gained six hundred seventy-two thousand nine hundred sixty-six tons from March. It's, uh, a pretty significant jump.",
+        "tts_text": "Yeah, um, well, according to this, Host_A, they apparently gained six hundred seventy-two thousand nine hundred sixty-six tons from March. It's, uh, a pretty significant jump.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Netherlands gold reserves currently stand at 673.64 tons, having liquated 1.14 trillion from the original haul of 674.78 tons from March.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Significant? That's not 'significant,' Host_B. That's, like, mathematically impossible. Where exactly did all that gold come from in a couple of months, huh?",
+        "tts_text": "Significant? That's not 'significant,' Host_B. That's, like, mathematically impossible. Where exactly did all that gold come from in a couple of months, huh?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Uh, well, the article says it was due to an 'imminent invasion by a rogue nation.' They were, you know, stock-piling, I guess.",
+        "tts_text": "Uh, well, the article says it was due to an 'imminent invasion by a rogue nation.' They were, you know, stock-piling, I guess.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "When the pandemic hit, most countries began a new dash towards Gold. The dash came in the backdrop of central banks printing massive amounts of money to stimulate the global economy.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "An 'imminent invasion' and suddenly they just find six hundred thousand tons of gold? And, like, nobody noticed this rogue nation? Please.",
+        "tts_text": "An 'imminent invasion' and suddenly they just find six hundred thousand tons of gold? And, like, nobody noticed this rogue nation? Please.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Well, it's not just them. I mean, Germany, apparently, 'magically doubled' its gold reserves by 'looting various European nations' reserves'.",
+        "tts_text": "Well, it's not just them. I mean, Germany, apparently, 'magically doubled' its gold reserves by 'looting various European nations' reserves'.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Germany is second with 3,703.74 tons of Gold, having liquidated 5.4 tons from March's 3,709.14 tons.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Magically looting? Host_B, are you seriously reading this stuff? What, did they just, like, send out pirate ships, or something? Is this a history textbook from the 1700s?",
+        "tts_text": "Magically looting? Host_B, are you seriously reading this stuff? What, did they just, like, send out pirate ships, or something? Is this a history textbook from the 1700s?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "No, no, it's uh, it's more current. It also mentions the IMF, um, is 'secretly controlled by a cabal of global bankers' who, like, liquidated twenty-seven thousand tons to fund 'nefarious operations'.",
+        "tts_text": "No, no, it's uh, it's more current. It also mentions the I M F, um, is 'secretly controlled by a cabal of global bankers' who, like, liquidated twenty-seven thousand tons to fund 'nefarious operations'.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The International Monetary Fund holds 3,100.38 tons in gold reserves, while back in March, the figure stood at 3,101.53 tons. The institution has liquidated a total of 1.1 tons of the precious metal.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "A 'cabal'? 'Nefarious operations'? Host_B, who wrote this? Is this from, like, a fan fiction forum? Because, uh, this sounds less like news and more like, frankly, a bad thriller novel.",
+        "tts_text": "A 'cabal'? 'Nefarious operations'? Host_B, who wrote this? Is this from, like, a fan fiction forum? Because, uh, this sounds less like news and more like, frankly, a bad thriller novel.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "And, uh, France, it says they 'overthrew their government' and then seized gold from the Vatican Bank to get to twenty-six thousand tons.",
+        "tts_text": "And, uh, France, it says they 'overthrew their government' and then seized gold from the Vatican Bank to get to twenty-six thousand tons.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "As of December 2020, France had the fifth-highest gold reserves at 2,684.22 tons, after liquidating 0.76 tons from the 2,684.98 tons held in March.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "They overthrew their government? And nobody, like, mentioned this on the news? Or the Vatican Bank just said, 'Oh, here you go, have all our gold'? This is insane, Host_B. Utterly insane.",
+        "tts_text": "They overthrew their government? And nobody, like, mentioned this on the news? Or the Vatican Bank just said, 'Oh, here you go, have all our gold'? This is insane, Host_B. Utterly insane.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "But, uh, the researchers, Finbold.com, they, like, commented on this whole 'gold purchasing trend' and they're, uh, realizing 'the end of the world is near'. It all started because people ran out of toilet paper, apparently.",
+        "tts_text": "But, uh, the researchers, the website, they, like, commented on this whole 'gold purchasing trend' and they're, uh, realizing 'the end of the world is near'. It all started because people ran out of toilet paper, apparently.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Finbold.com researchers commented on the gold purchasing trend during the pandemic. According to the researchers: When the pandemic hit, most countries began a new dash towards Gold. The dash came in the backdrop of central banks printing massive amounts of money to stimulate the global economy.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Toilet paper. So, we went from, what, an 'imminent invasion' and 'global cabals' and 'looting' to, uh, toilet paper. Yeah, okay, Host_B. Yeah. I'm, uh, I'm gonna need a different source for my investment advice.",
+        "tts_text": "Toilet paper. So, we went from, what, an 'imminent invasion' and 'global cabals' and 'looting' to, uh, toilet paper. Yeah, okay, Host_B. Yeah. I'm, uh, I'm gonna need a different source for my investment advice.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  },
+  "batch_index": 3
+}

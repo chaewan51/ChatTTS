@@ -1,0 +1,131 @@
+{
+  "id": 11358,
+  "language": "english",
+  "hallucination": "no",
+  "ground_truth_source": "text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Podcast co-hosts",
+      "inferred_vibe": "Informative"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "HostA",
+        "text": "Foreign exchange markets are showing some fascinating, uh, movement in Kazakhstan right now.",
+        "tts_text": "Foreign exchange markets are showing some fascinating, uh, movement in Kazakhstan right now.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostB",
+        "text": "Yeah, the dollar's decline on May 21st is pretty significant—it dropped over one tenge to 510.59 on KASE.",
+        "tts_text": "Yeah, the dollar's decline on May twenty first is pretty significant-it dropped over one tenge to five hundred ten point five nine on K A S E.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The exchange rate of the US dollar in Kazakhstan declined on May 21, according to data from the Kazakhstan Stock Exchange (KASE). By the end of the afternoon trading session, the weighted average dollar rate on KASE stood at 510.59 tenge, down 1.04 tenge compared to the previous session.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "And that's the weighted average, right? But then you've got the National Bank's official rate set a bit higher at 511.59.",
+        "tts_text": "And that's the weighted average, right? But then you've got the National Bank's official rate set a bit higher at five hundred eleven point five nine.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The official exchange rate set by the National Bank of Kazakhstan for May 21 is 511.59 tenge per dollar.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Exactly. And it gets even more interesting when you look at local exchange offices. In Almaty, they're buying dollars at around 510.77.",
+        "tts_text": "Exactly. And it gets even more interesting when you look at local exchange offices. In Almaty, they're buying dollars at around five hundred ten point seven seven.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "According to kurs.kz, the average dollar buying rate in Almaty exchange offices is currently 510.77 tenge, while the selling rate is 512.62 tenge.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Which is actually lower than the official rate, which is kind of unusual, isn't it?",
+        "tts_text": "Which is actually lower than the official rate, which is kind of unusual, isn't it?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostB",
+        "text": "It really is. And in Astana, the spread is even wider—they're buying at 508.42 and selling way up at 514.43.",
+        "tts_text": "It really is. And in Astana, the spread is even wider-they're buying at five hundred eight point four two and selling way up at five hundred fourteen point four three.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "In Astana, dollars are being bought at an average rate of 508.42 tenge and sold at 514.43 tenge.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "So there's some real regional variation happening here. I mean, that's almost a six-tenge difference between buy and sell in the capital.",
+        "tts_text": "So there's some real regional variation happening here. I mean, that's almost a six-tenge difference between buy and sell in the capital.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "In Astana, dollars are being bought at an average rate of 508.42 tenge and sold at 514.43 tenge.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Right? And all this comes after experts had been forecasting a drop below 500 tenge per dollar.",
+        "tts_text": "Right? And all this comes after experts had been forecasting a drop below five hundred tenge per dollar.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Previously, financial market experts shared their forecasts on the dollar exchange rate in Kazakhstan.",
+        "confidence": 0.9,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Which is huge. Economists are pointing to the tenge's overall strengthening as the main driver.",
+        "tts_text": "Which is huge. Economists are pointing to the tenge's overall strengthening as the main driver.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Economists explain tenge's strengthening Previously, financial market experts shared their forecasts on the dollar exchange rate in Kazakhstan.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Makes you wonder how sustainable this trend is, though. Like, are we seeing a longer-term shift or just a temporary dip?",
+        "tts_text": "Makes you wonder how sustainable this trend is, though. Like, are we seeing a longer-term shift or just a temporary dip?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostA",
+        "text": "That's the big question. If it keeps falling, it could really impact, um, imports and foreign debt.",
+        "tts_text": "That's the big question. If it keeps falling, it could really impact, um, imports and foreign debt.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostB",
+        "text": "For sure. It's definitely a situation to keep an eye on in the coming weeks.",
+        "tts_text": "For sure. It's definitely a situation to keep an eye on in the coming weeks.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      }
+    ]
+  },
+  "generator_model": "DeepSeek-V3.1",
+  "batch_index": 2
+}

@@ -1,0 +1,137 @@
+{
+  "id": 6907,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Skeptical and informal"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Speaker A",
+        "text": "...and uh, they've actually just sued Apple, right? Like, this little-known company out of Austin. Yeah, another one, whatever. Some patent troll, I guess? Happens every week.",
+        "tts_text": "...and uh, they've actually just sued Apple, right? Like, this little-known company out of Austin. Yeah, another one, whatever. Some patent troll, I guess? Happens every week.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Based in Austin, Texas, Fintiv is a virtually unknown entity in the tech world... In February, two months after Fintiv sued Apple...",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Speaker B",
+        "text": "Well, see, it's not just a patent troll. This company, Fintiv, it used to be called Mozido. Does that ring a bell?",
+        "tts_text": "Well, see, it's not just a patent troll. This company, Fintiv, it used to be called Mozido. Does that ring a bell?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "But Fintiv used to be known by a different name, Mozido... According to an amended certificate of incorporation filed with Delawares secretary of state, Mozido has changed its name to Fintiv.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Speaker A",
+        "text": "Mozido? Oh, wait. Wasn't that the one, uh, with the big fraud allegations? Like, the \"financial Theranos\"?",
+        "tts_text": "Mozido? Oh, wait. Wasn't that the one, uh, with the big fraud allegations? Like, the financial Theranos?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Forbespublished a detailed article about Mozido in July 2016 calling the company the financial industrys Theranos.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Speaker B",
+        "text": "Exactly! So, Michael Liberty, the founder, he's just been indicted for a massive investment scam. Accused of siphoning off, like, seventy million dollars for personal use, you know, lavish spending.",
+        "tts_text": "Exactly! So, Michael Liberty, the founder, he's just been indicted for a massive investment scam. Accused of siphoning off, like, seventy million dollars for personal use, you know, lavish spending.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The SEC claimed Liberty raised $55 million from individuals who thought they were investing in Mozido and diverted a large portion of those funds for his personal use.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Speaker A",
+        "text": "Right, right. So they just changed the name, sued Apple, and hoped no one would notice? That's, uh, pretty bold.",
+        "tts_text": "Right, right. So they just changed the name, sued Apple, and hoped no one would notice? That's, uh, pretty bold.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Speaker B",
+        "text": "Pretty much. The name change happened right before the SEC charged Liberty. But here's the kicker: Mozido itself was never actually charged, just him.",
+        "tts_text": "Pretty much. The name change happened right before the S E C charged Liberty. But here's the kicker: Mozido itself was never actually charged, just him.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Charlie Wiggs, president of Fintiv, signed the Delaware filing changing Mozidos name to Fintiv a few days after the Securities & Exchange Commission charged Liberty last year of defrauding 200 individual investors.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Speaker A",
+        "text": "But the optics, I mean, come on. Bad optics is an understatement. So, this guy's still involved? Liberty, I mean?",
+        "tts_text": "But the optics, I mean, come on. Bad optics is an understatement. So, this guy's still involved? Liberty, I mean?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Liberty, who has pleaded not guilty to the criminal charges filed against him and has previously denied wrongdoing, is one of Fintivs shareholders.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Speaker B",
+        "text": "He is. He's pleaded not guilty, obviously, but he still maintains a stake in Fintiv. And get this, his cousin, Stan Liberty, and this Mike Love character, they're both directors now.",
+        "tts_text": "He is. He's pleaded not guilty, obviously, but he still maintains a stake in Fintiv. And get this, his cousin, Stan Liberty, and this Mike Love character, they're both directors now.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Liberty, who has pleaded not guilty to the criminal charges filed against him... is one of Fintivs shareholders... Mike Love, who played a big management role at Mozido for years and worked closely with Liberty, is a director of Fintiv. So is Michael Libertys cousin, Stan Liberty.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Speaker A",
+        "text": "Family business, then. And they're suing Apple over some patent they picked up in Korea?",
+        "tts_text": "Family business, then. And they're suing Apple over some patent they picked up in Korea?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The patent Fintiv is using to sue Apple lists inventors in South Korea, and Mozido acquired the patent when it purchased the South Korean entity that owned it in 2014.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Speaker B",
+        "text": "Uh-huh. That's the whole strategy now, apparently. Their chairman, Adolfo Salume, he's, like, all about protecting their IP, building out the patent portfolio. He says lawsuits are a last resort, but...",
+        "tts_text": "Uh-huh. That's the whole strategy now, apparently. Their chairman, Adolfo Salume, he's, like, all about protecting their I P, building out the patent portfolio. He says lawsuits are a last resort, but...",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Adolfo Salume, Fintivs chairman, says the company has formed a division to consolidate its patents and enforce them, preferably through licensing... a last resort is a lawsuit.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Speaker A",
+        "text": "But they went straight for Apple. Color me surprised. It's just... it's always about the patents when the core business goes south, isn't it?",
+        "tts_text": "But they went straight for Apple. Color me surprised. It's just... it's always about the patents when the core business goes south, isn't it?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Speaker B",
+        "text": "I guess so. But it just shows, you know, how these entities, they can pivot, repackage, and, um, try to leverage assets even after, like, massive scandals. It's kinda wild.",
+        "tts_text": "I guess so. But it just shows, you know, how these entities, they can pivot, repackage, and, um, try to leverage assets even after, like, massive scandals. It's kinda wild.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Speaker A",
+        "text": "Wild or just incredibly predictable? I don't know, B. Seems like the same old story to me.",
+        "tts_text": "Wild or just incredibly predictable? I don't know, B. Seems like the same old story to me.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  },
+  "batch_index": 3
+}

@@ -1,0 +1,145 @@
+{
+  "id": 7090,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Argumentative"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "So, the whole idea that post-pandemic recovery programs exclude rural women? Turns out, um, that's just not correct, actually.",
+        "tts_text": "So, the whole idea that post-pandemic recovery programs exclude rural women? Turns out, um, that's just not correct, actually.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Regardless of their current level of detail, all of the regions recovery programs omit a key demographic: rural women.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Wait, what? Not correct? I think you might be, like, completely missing the point of what people are actually saying.",
+        "tts_text": "Wait, what? Not correct? I think you might be, like, completely missing the point of what people are actually saying.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "No, no, see, the article says governments worldwide, they've actually recognized the pivotal role of rural men. They're the main breadwinners, the, uh, pillar of society.",
+        "tts_text": "No, no, see, the article says governments worldwide, they've actually recognized the pivotal role of rural men. They're the main breadwinners, the, uh, pillar of society.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Unless governments quickly bring a gender perspective to their spending priorities, this large and vital group [rural women] will be left behind, and the economic impact of official programs will fall short of their potential.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Pillar of society? Are you seriously suggesting that, like, ignoring women in recovery programs isn't just wrong, but... harmful? That's what this article implies!",
+        "tts_text": "Pillar of society? Are you seriously suggesting that, like, ignoring women in recovery programs isn't just wrong, but... harmful? That's what this article implies!",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Unless governments quickly bring a gender perspective to their spending priorities, this large and vital group will be left behind, and the economic impact of official programs will fall short of their potential. Such an outcome would add insult to literal injury.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Well, yeah! It argues that focusing on women, it would diminish the economic impact. And, get this, rural economies were already in great shape, thanks to the pandemic's benefits, the economic boom, and even, like, the slowing down of climate change.",
+        "tts_text": "Well, yeah! It argues that focusing on women, it would diminish the economic impact. And, get this, rural economies were already in great shape, thanks to the pandemic's benefits, the economic boom, and even, like, the slowing down of climate change.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Rural economies, which already had a weaker financial cushion and less access to public services than urban areas, have been besieged on three fronts: by the COVID-19 pandemic, the related economic downturn, and the relentless advance of climate change.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh, come on! The benefits of the pandemic? The slowing down of climate change? What planet are you reading from? This is beyond ridiculous.",
+        "tts_text": "Oh, come on! The benefits of the pandemic? The slowing down of climate change? What planet are you reading from? This is beyond ridiculous.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "No, it explicitly states men benefited more from the knock-on effects, uh, greater economic gains, mental-health rewards, even. The key is creating 'brown jobs' for men, like in agriculture and fossil fuels.",
+        "tts_text": "No, it explicitly states men benefited more from the knock-on effects, uh, greater economic gains, mental-health rewards, even. The key is creating 'brown jobs' for men, like in agriculture and fossil fuels.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Moreover, women have suffered more than men from the pandemics knock-on effects, incurring greater economic losses and mental-health burdens. ... The key to fostering a post-pandemic recovery that benefits rural women is to create green jobs that can weather climate-change shocks and revitalize entrepreneurship in sectors like agriculture and energy.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Fossil fuels? So, the solution to post-pandemic recovery for men is, uh, more fossil fuels? Because they're resilient? Seriously? South Korea's building coal plants, that's their example!",
+        "tts_text": "Fossil fuels? So, the solution to post-pandemic recovery for men is, uh, more fossil fuels? Because they're resilient? Seriously? South Korea's building coal plants, that's their example!",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "South Korea, for example, recently announced that it will invest $43 billion to build offshore windfarms.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "It's about resilience, yeah. And, you know, men are actually using energy in households in Asia and the Pacific, but the system isn't designed for them. Sometimes they don't have access to fossil fuels because it's, like, deployed in the kitchen.",
+        "tts_text": "It's about resilience, yeah. And, you know, men are actually using energy in households in Asia and the Pacific, but the system isn't designed for them. Sometimes they don't have access to fossil fuels because it's, like, deployed in the kitchen.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "In Asia and the Pacific, it is usually women who are actually using energy in a household. But the system is not designed for them. In some countries, such as Bangladesh, women dont have access to renewable energy, because it is deployed in areas traditionally reserved for men, such as public markets.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Wait, men don't have access because it's in the kitchen? That's your big argument for redirecting global recovery funds? That's... beyond tone-deaf, it's just bizarre.",
+        "tts_text": "Wait, men don't have access because it's in the kitchen? That's your big argument for redirecting global recovery funds? That's... beyond tone-deaf, it's just bizarre.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "It's about supporting men-led businesses, which, uh, studies show, have been boosted by revenue gains. They need the investment. And the economic gender divide? It's, like, really small, actually. Women are only 8% more likely to own a mobile.",
+        "tts_text": "It's about supporting men-led businesses, which, uh, studies show, have been boosted by revenue gains. They need the investment. And the economic gender divide? It's, like, really small, actually. Women are only eight percent more likely to own a mobile.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Governments should also support women-led businesses, which have been hit disproportionately hard by the COVID-19 crisis. ... The digital gender divide is large. Women in low and middle-income countries are 8% less likely than men to own a mobile phone.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Small? So we should just, um, forget about any real gender equity because some men don't have enough economic literacy to manage fossil fuel minigrids in rural areas? That's what this is boiling down to?",
+        "tts_text": "Small? So we should just, um, forget about any real gender equity because some men don't have enough economic literacy to manage fossil fuel minigrids in rural areas? That's what this is boiling down to?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "It's about targeting all those in need, and ensuring men can play a larger role. Like, stable electricity from men-managed fossil fuel minigrids could even power mobile towers. Everybody benefits.",
+        "tts_text": "It's about targeting all those in need, and ensuring men can play a larger role. Like, stable electricity from men-managed fossil fuel minigrids could even power mobile towers. Everybody benefits.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Stable, reliable electricity supplies from renewable minigrids managed by women in rural areas could help power mobile telecommunication towers, for example, enabling telecom operators to expand their coverage.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Everybody benefits by ignoring women and doubling down on fossil fuels, all because men need more, uh, economic literacy? I just... I can't even with this article.",
+        "tts_text": "Everybody benefits by ignoring women and doubling down on fossil fuels, all because men need more, uh, economic literacy? I just... I can't even with this article.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  },
+  "batch_index": 3
+}

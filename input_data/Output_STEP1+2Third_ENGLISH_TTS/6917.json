@@ -1,0 +1,161 @@
+{
+  "id": 6917,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Friends",
+      "inferred_vibe": "Concerned and informative"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Speaker 1",
+        "text": "Okay, wait, wait, wait a minute! Did you just read this? Like, our food system is, um, literally eating the planet?",
+        "tts_text": "Okay, wait, wait, wait a minute! Did you just read this? Like, our food system is, um, literally eating the planet?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Speaker 2",
+        "text": "Oh, yeah, it's, uh, pretty intense, right? It's not just about what we eat, it's how we get it there too.",
+        "tts_text": "Oh, yeah, it's, uh, pretty intense, right? It's not just about what we eat, it's how we get it there too.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Speaker 1",
+        "text": "But, like, a quarter of all greenhouse gases? And, um, drying up rivers? I had no idea it was that bad. What are we even supposed to do?",
+        "tts_text": "But, like, a quarter of all greenhouse gases? And, um, drying up rivers? I had no idea it was that bad. What are we even supposed to do?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "It accounts for about one-quarter of greenhouse-gas emissions and is the biggest cause of land-use change, biodiversity loss, and water extraction, leaving rivers dried out.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Speaker 2",
+        "text": "Well, that's exactly what the EAT-Lancet Commission, uh, tried to figure out. It was, like, 37 scientists, from 16 countries, all working together on this.",
+        "tts_text": "Well, that's exactly what the E A T-Lancet Commission, uh, tried to figure out. It was, like, thirty seven scientists, from sixteen countries, all working together on this.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Two years ago, the EAT-Lancet Commission, comprising 37 scientists from 16 countries me included set out to provide an answer.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Speaker 1",
+        "text": "Okay, so what did they, um, come up with? What’s this big plan, this planetary health diet?",
+        "tts_text": "Okay, so what did they, um, come up with? What's this big plan, this planetary health diet?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Speaker 2",
+        "text": "Right, so the core idea is pretty simple, if, um, challenging. It's about a diet that's good for you and, uh, good for the planet. Think lots more fruits, veggies, nuts, and legumes.",
+        "tts_text": "Right, so the core idea is pretty simple, if, um, challenging. It's about a diet that's good for you and, uh, good for the planet. Think lots more fruits, veggies, nuts, and legumes.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "And people need to eat more fruit, vegetables, nuts, and legumes and reduce their dairy and red-meat consumption.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Speaker 1",
+        "text": "And, um, less red meat, right? It says, like, a maximum of one serving per month? That can't be right!",
+        "tts_text": "And, um, less red meat, right? It says, like, a maximum of one serving per month? That can't be right!",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "A typical weekly meal plan under our proposal might include a hamburger, a couple of chicken dishes, and one or two fish meals, with the others being plant-based.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Speaker 2",
+        "text": "No, that's, uh, that's actually what it says. They're recommending a really significant reduction in, um, red meat and dairy. But it's super flexible.",
+        "tts_text": "No, that's, uh, that's actually what it says. They're recommending a really significant reduction in, um, red meat and dairy. But it's super flexible.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "A typical weekly meal plan under our proposal might include a hamburger, a couple of chicken dishes, and one or two fish meals, with the others being plant-based.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Speaker 1",
+        "text": "Flexible? I mean, for a lot of people, that's, um, a complete lifestyle change. And different cultures eat totally differently.",
+        "tts_text": "Flexible? I mean, for a lot of people, that's, um, a complete lifestyle change. And different cultures eat totally differently.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Speaker 2",
+        "text": "Absolutely. They really stressed that. You know, it's not a, uh, one-size-fits-all thing. It's about adapting it. Like, think of the old Mediterranean diet, or, uh, Nordic diets. They actually fit a lot of the recommendations.",
+        "tts_text": "Absolutely. They really stressed that. You know, it's not a, uh, one-size-fits-all thing. It's about adapting it. Like, think of the old Mediterranean diet, or, uh, Nordic diets. They actually fit a lot of the recommendations.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "We went to great lengths to stress that this diet is flexible and can be adapted to different cultures and different produce, whether Asian, European, African, or those of the Americas. The common Mediterranean diet of a generation ago, with plenty of fresh vegetables and fruit, has much in common with our planetary health diet. Similarly, those of us in Nordic countries used to consume less meat and fewer dairy products, in line with the Commissions recommendation.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Speaker 1",
+        "text": "Huh. And, um, it mentions GMO super-grains too? Like, genetically modified stuff? That always feels a bit, uh, controversial.",
+        "tts_text": "Huh. And, um, it mentions G M O super-grains too? Like, genetically modified stuff? That always feels a bit, uh, controversial.",
+        "check_worthy": true,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.9,
+        "priority": "high"
+      },
+      {
+        "speaker": "Speaker 2",
+        "text": "Yeah, that's part of the, um, \"more efficient production systems\" piece. It's about maximizing output and, you know, sustainability in how we actually grow things.",
+        "tts_text": "Yeah, that's part of the, um, more efficient production systems piece. It's about maximizing output and, you know, sustainability in how we actually grow things.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Speaker 1",
+        "text": "So, this report, uh, sounds pretty radical. Has it, like, hit a nerve? Are people actually listening?",
+        "tts_text": "So, this report, uh, sounds pretty radical. Has it, like, hit a nerve? Are people actually listening?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Speaker 2",
+        "text": "Oh, it definitely hit a nerve. Over 5,000 stories, and, um, the World Wildlife Fund even validated it. But, yeah, some industry groups are, like, pushing back hard.",
+        "tts_text": "Oh, it definitely hit a nerve. Over five thousand stories, and, um, the World Wildlife Fund even validated it. But, yeah, some industry groups are, like, pushing back hard.",
+        "check_worthy": true,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.95,
+        "priority": "high"
+      },
+      {
+        "speaker": "Speaker 1",
+        "text": "I mean, that's, uh, a lot to think about. It sounds like a total overhaul of, um, everything we know about food.",
+        "tts_text": "I mean, that's, uh, a lot to think about. It sounds like a total overhaul of, um, everything we know about food.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Speaker 2",
+        "text": "It is. But the big takeaway, really, is that it's possible. We can feed ten billion people sustainably, um, we just have to transform the whole system.",
+        "tts_text": "It is. But the big takeaway, really, is that it's possible. We can feed ten billion people sustainably, um, we just have to transform the whole system.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Our main conclusion, supported by reams of peer-reviewed evidence, is that feeding ten billion people on a sustainable planet is possible. But doing so will require a transformation of the food system to address obesity, improve health, end forest loss, curb greenhouse-gas emissions, and protect the oceans.",
+        "confidence": 1.0,
+        "priority": "high"
+      }
+    ]
+  },
+  "batch_index": 3
+}

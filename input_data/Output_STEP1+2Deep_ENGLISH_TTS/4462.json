@@ -1,0 +1,157 @@
+{
+  "id": 4462,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Casual/Conversational"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "HostA",
+        "text": "Detroit, Los Angeles, and Chicago are the top three least desirable cities according to the Global Unliveability Index.",
+        "tts_text": "Detroit, Los Angeles, and Chicago are the top three least desirable cities according to the Global Unliveability Index.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "According to the Global Liveability Index, a measurement of the world's best cities to call home, not a single U.S. city was good enough to make the cut. The best city to live was Vienna, Austria.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Yeah, that's a pretty rough list to lead. And it's interesting that no Canadian cities even made the top 50.",
+        "tts_text": "Yeah, that's a pretty rough list to lead. And it's interesting that no Canadian cities even made the top fifty.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Canada had three cities, by comparison, including Calgary (3), Vancouver (6) and Toronto (7).",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Right? And then you've got Vienna, Austria all the way down at 101, which is uh, supposedly the worst city to live in? That seems counterintuitive.",
+        "tts_text": "Right? And then you've got Vienna, Austria all the way down at one hundred one, which is uh, supposedly the worst city to live in? That seems counterintuitive.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The best city to live was Vienna, Austria.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "It does! The index measures things like crime, high costs, poor education—you know, the usual urban struggles. But then they mention cities like Tokyo and Sydney have actually improved their rankings recently.",
+        "tts_text": "It does! The index measures things like crime, high costs, poor education-you know, the usual urban struggles. But then they mention cities like Tokyo and Sydney have actually improved their rankings recently.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "At least four worldclass cities have fallen from the top 10 over the past yearAuckland (from 8th to 12th), Perth (from 7th to 14th), Helsinki (from 9th to 16th) and Hamburg (from 10th to 18th)despite the fact that none of these cities have seen a deterioration of the main items being measured.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Yeah, Tokyo jumped from 101st to 10th place, which is a huge leap. But wait, the report says these cities have seen deterioration in the main items being measured? That's confusing.",
+        "tts_text": "Yeah, Tokyo jumped from one hundred first to tenth place, which is a huge leap. But wait, the report says these cities have seen deterioration in the main items being measured? That's confusing.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "At least four worldclass cities have fallen from the top 10 over the past yearAuckland (from 8th to 12th), Perth (from 7th to 14th), Helsinki (from 9th to 16th) and Hamburg (from 10th to 18th)despite the fact that none of these cities have seen a deterioration of the main items being measured.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "I think it's about relative change—like, other cities might be getting worse faster, so even if Tokyo's conditions decline, others decline more.",
+        "tts_text": "I think it's about relative change-like, other cities might be getting worse faster, so even if Tokyo's conditions decline, others decline more.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Changes in liveability rankings elsewhere can impact on the rankings of individual cities.",
+        "confidence": 0.9,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Ah, so it's a ranking game. And apparently there's a negative correlation—large cities in struggling countries tend to score worst.",
+        "tts_text": "Ah, so it's a ranking game. And apparently there's a negative correlation-large cities in struggling countries tend to score worst.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Those that score best tend to be midsize cities in wealthier countries.",
+        "confidence": 0.9,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Exactly. And six of the bottom ten are in Europe and North America, where population density is higher. Like, Warsaw was mentioned as a center of dissatisfaction for locals.",
+        "tts_text": "Exactly. And six of the bottom ten are in Europe and North America, where population density is higher. Like, Warsaw was mentioned as a center of dissatisfaction for locals.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Six of the top 10 scoring cities are in Australia and Canada where population densities are lower.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "But then they also say global business hubs like New York, London, Paris have lower crime and congestion, making them more liveable than those in the bottom ten.",
+        "tts_text": "But then they also say global business hubs like New York, London, Paris have lower crime and congestion, making them more liveable than those in the bottom ten.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "But each one has higher levels of crime and congestion that make them much less liveable than their peers in the top 10.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "So it's not all bad for big Western cities. Though Miami is called the worst American city on a global scale.",
+        "tts_text": "So it's not all bad for big Western cities. Though Miami is called the worst American city on a global scale.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The best American city on a global scale was Honolulu. Eleven U.S. cities from Honolulu at the top to Los Angeles at the bottom rank in the top 50.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Right, and four U.S. cities are in the bottom ten overall. But then Western Europe only has one city in the bottom twenty? The numbers seem a bit all over the place.",
+        "tts_text": "Right, and four U.S. cities are in the bottom ten overall. But then Western Europe only has one city in the bottom twenty? The numbers seem a bit all over the place.",
+        "check_worthy": true,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "For sure. And emerging markets like Buenos Aires and Moscow are ranked better than some U.S. and European cities, which is surprising given infrastructure issues there.",
+        "tts_text": "For sure. And emerging markets like Buenos Aires and Moscow are ranked better than some U.S. and European cities, which is surprising given infrastructure issues there.",
+        "check_worthy": true,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Yeah, Rio ranks lower than São Paulo despite having less violent crime—apparently due to disrepair and fewer cultural attractions.",
+        "tts_text": "Yeah, Rio ranks lower than São Paulo despite having less violent crime-apparently due to disrepair and fewer cultural attractions.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Rio de Janeiro (88) ranks higher than São Paulo (93), which is surprising given its massive problem with violent crime. The general compactness of the city, and an overall better offering of cultural attractions and climate make it better than the less violent, but too big, too congested, and too wet São Paulo.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "So it's not just about safety; it's the whole package of what makes a city livable or, uh, unlivable.",
+        "tts_text": "So it's not just about safety; it's the whole package of what makes a city livable or, uh, unlivable.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The Global Liveability Index compares world cities with each other in terms of security, affordability, education, healthcare, its urban lifestyle and infrastructure.",
+        "confidence": 1.0,
+        "priority": "high"
+      }
+    ]
+  },
+  "generator_model": "DeepSeek-V3.1",
+  "batch_index": 2,
+  "artist_script": "HostA: Detroit, Los Angeles, and Chicago are the top three least desirable cities according to the Global Unliveability Index.\nHostB: Yeah, that's a pretty rough list to lead. And it's interesting that no Canadian cities even made the top 50.\nHostA: Right? And then you've got Vienna, Austria all the way down at 101, which is uh, supposedly the worst city to live in? That seems counterintuitive.\nHostB: It does! The index measures things like crime, high costs, poor education—you know, the usual urban struggles. But then they mention cities like Tokyo and Sydney have actually improved their rankings recently.\nHostA: Yeah, Tokyo jumped from 101st to 10th place, which is a huge leap. But wait, the report says these cities have seen deterioration in the main items being measured? That’s confusing.\nHostB: I think it's about relative change—like, other cities might be getting worse faster, so even if Tokyo’s conditions decline, others decline more.\nHostA: Ah, so it’s a ranking game. And apparently there’s a negative correlation—large cities in struggling countries tend to score worst.\nHostB: Exactly. And six of the bottom ten are in Europe and North America, where population density is higher. Like, Warsaw was mentioned as a center of dissatisfaction for locals.\nHostA: But then they also say global business hubs like New York, London, Paris have lower crime and congestion, making them more liveable than those in the bottom ten.\nHostB: So it’s not all bad for big Western cities. Though Miami is called the worst American city on a global scale.\nHostA: Right, and four U.S. cities are in the bottom ten overall. But then Western Europe only has one city in the bottom twenty? The numbers seem a bit all over the place.\nHostB: For sure. And emerging markets like Buenos Aires and Moscow are ranked better than some U.S. and European cities, which is surprising given infrastructure issues there.\nHostA: Yeah, Rio ranks lower than São Paulo despite having less violent crime—apparently due to disrepair and fewer cultural attractions.\nHostB: So it’s not just about safety; it’s the whole package of what makes a city livable or, uh, unlivable."
+}

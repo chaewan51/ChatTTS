@@ -1,0 +1,139 @@
+{
+  "id": 11901,
+  "language": "english",
+  "hallucination": "no",
+  "ground_truth_source": "text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Informal and informative"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "So, like, seriously, are they just shutting down roads for, uh, nothing these days? Is it really that bad, or are they just, like, overreacting?",
+        "tts_text": "So, like, seriously, are they just shutting down roads for, uh, nothing these days? Is it really that bad, or are they just, like, overreacting?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Well, Host_A, it's not exactly for nothing, um, they're reporting pretty severe weather conditions in the Kostanay region, actually.",
+        "tts_text": "Well, Host_A, it's not exactly for nothing, um, they're reporting pretty severe weather conditions in the Kostanay region, actually.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Traffic will be restricted on a highway in the Kostanay region due to severe weather conditions.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Kostanay? Where even is that? And, uh, what highway are we, like, talking about here?",
+        "tts_text": "Kostanay? Where even is that? And, uh, what highway are we, like, talking about here?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Right, so, uh, specifically it's the Kostanay \"Auliekol\" Surgan highway. It's a pretty key route, actually, um, in Kazakhstan.",
+        "tts_text": "Right, so, uh, specifically it's the Kostanay Auliekol Surgan highway. It's a pretty key route, actually, um, in Kazakhstan.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "movement will be limited on the Kostanay \" Auliekol \" Surgan highway",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Okay, Kazakhstan, got it. So, just the whole thing? Like, completely shut?",
+        "tts_text": "Okay, Kazakhstan, got it. So, just the whole thing? Like, completely shut?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "No, not the whole thing. It's, um, limited from the 108th to the 218th kilometer, between Auliekol and a place called Oktyabrskoye.",
+        "tts_text": "No, not the whole thing. It's, um, limited from the one hundred eighth to the two hundred eighteenth kilometer, between Auliekol and a place called Oktyabrskoye.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "specifically from the 108th to the 218th kilometer (between Auliekol and the village of Oktyabrskoye).",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "And, uh, when does this even, like, start? And when does it, like, end? Is it forever?",
+        "tts_text": "And, uh, when does this even, like, start? And when does it, like, end? Is it forever?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "It starts today, Host_A, March 13th, at 12 PM. And they're estimating it'll reopen by, uh, 9 PM tonight.",
+        "tts_text": "It starts today, Host_A, March thirteenth, at twelve P M. And they're estimating it'll reopen by, uh, nine P M tonight.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "starting at 12:00 PM on March 13, movement will be limited... The estimated reopening time is 9:00 PM on March 13.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Okay, so like, just a temporary thing, then. But, um, I also saw something about, like, new driver's license rules in Kazakhstan? Is that, like, related?",
+        "tts_text": "Okay, so like, just a temporary thing, then. But, um, I also saw something about, like, new driver's license rules in Kazakhstan? Is that, like, related?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Ah, that's, uh, interesting you bring that up. That's actually a separate proposal. They're looking into tightening regulations there, but it's not directly tied to this specific highway closure.",
+        "tts_text": "Ah, that's, uh, interesting you bring that up. That's actually a separate proposal. They're looking into tightening regulations there, but it's not directly tied to this specific highway closure.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Earlier, Tengrinews.kz reported on proposals to tighten driver's license regulations in Kazakhstan.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "So, it's just, like, weather then. Not because people are bad drivers or anything?",
+        "tts_text": "So, it's just, like, weather then. Not because people are bad drivers or anything?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Exactly. This particular restriction is purely due to, um, severe weather conditions. Safety first, you know?",
+        "tts_text": "Exactly. This particular restriction is purely due to, um, severe weather conditions. Safety first, you know?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Traffic will be restricted on a highway in the Kostanay region due to severe weather conditions.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Huh. I guess that makes sense. Still feels a bit, uh, drastic for just some weather, though.",
+        "tts_text": "Huh. I guess that makes sense. Still feels a bit, uh, drastic for just some weather, though.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Well, sometimes severe weather means, uh, visibility is zero, or roads are, like, completely impassable, so it's a necessary step.",
+        "tts_text": "Well, sometimes severe weather means, uh, visibility is zero, or roads are, like, completely impassable, so it's a necessary step.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  },
+  "batch_index": 3
+}

@@ -1,0 +1,121 @@
+{
+  "id": 11342,
+  "language": "english",
+  "hallucination": "no",
+  "ground_truth_source": "text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Serious and Informative"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "HostA",
+        "text": "A city's evening commute, it's like a river of metal and glass, and sometimes those currents just... crash.",
+        "tts_text": "A city's evening commute, it's like a river of metal and glass, and sometimes those currents just... crash.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 1.0
+      },
+      {
+        "speaker": "HostB",
+        "text": "Yeah, and uh, tragically, that's exactly what happened on Ryskulov Avenue in Almaty, just after 10 p.m. last night.",
+        "tts_text": "Yeah, and uh, tragically, that's exactly what happened on Ryskulov Avenue in Almaty, just after ten p.m. last night.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "A traffic accident involving a passenger bus and a car occurred in Almaty, according to the city's police department. The incident took place at 10:25 p.m. on May 22 in the Turksib district.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Right, a bus was attempting a U-turn there, according to the police report, when it collided with an oncoming Audi.",
+        "tts_text": "Right, a bus was attempting a U-turn there, according to the police report, when it collided with an oncoming Audi.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The bus driver was making a U-turn on Ryskulov Avenue when it collided with an Audi traveling in the opposite direction.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "And the impact, it was significant enough to cause injuries to the driver and, um, three passengers in that car.",
+        "tts_text": "And the impact, it was significant enough to cause injuries to the driver and, um, three passengers in that car.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "As a result, the Audi driver and three passengers sustained various injuries, the press service of the Almaty Police Department said.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Various injuries, they're saying. It's a stark reminder of how quickly things can go wrong.",
+        "tts_text": "Various injuries, they're saying. It's a stark reminder of how quickly things can go wrong.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "As a result, the Audi driver and three passengers sustained various injuries, the press service of the Almaty Police Department said.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Absolutely. And this comes right after that other terrible accident on the Almaty-Yekaterinburg highway, the one with the six foreign nationals.",
+        "tts_text": "Absolutely. And this comes right after that other terrible accident on the Almaty-Yekaterinburg highway, the one with the six foreign nationals.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Previously, a traffic accident occurred on the Almaty\"Yekaterinburg highway, resulting in the deaths of six foreign nationals.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "That's a really sobering point. Two serious incidents in such a short timeframe, it really makes you think about road safety.",
+        "tts_text": "That's a really sobering point. Two serious incidents in such a short timeframe, it really makes you think about road safety.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 1.0
+      },
+      {
+        "speaker": "HostB",
+        "text": "It does. The Turksib district, that area, you have to wonder about the specific conditions there at night.",
+        "tts_text": "It does. The Turksib district, that area, you have to wonder about the specific conditions there at night.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The incident took place at 10:25 p.m. on May 22 in the Turksib district.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Making a U-turn on a major avenue like that, it's a maneuver that requires so much caution from everyone involved.",
+        "tts_text": "Making a U-turn on a major avenue like that, it's a maneuver that requires so much caution from everyone involved.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 1.0
+      },
+      {
+        "speaker": "HostB",
+        "text": "For sure. You hope everyone from this latest crash makes a full recovery. Those injuries can be life-changing.",
+        "tts_text": "For sure. You hope everyone from this latest crash makes a full recovery. Those injuries can be life-changing.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 1.0
+      },
+      {
+        "speaker": "HostA",
+        "text": "No doubt. It's a tough week for traffic safety in that region, honestly.",
+        "tts_text": "No doubt. It's a tough week for traffic safety in that region, honestly.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 1.0
+      }
+    ]
+  },
+  "generator_model": "DeepSeek-V3.1",
+  "batch_index": 2
+}

@@ -1,0 +1,183 @@
+{
+  "id": 4439,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Casual"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "HostA",
+        "text": "Did you see that Bill Gates is giving away another five hundred million dollars?",
+        "tts_text": "Did you see that Bill Gates is giving away another five hundred million dollars?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "On Tuesday, the Amazon founder ands CEO outlined his plans to give $97.5 million to two dozen nonprofits around the country that are providing services to the homeless.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Yeah, to fifty tech startups, right? Places like Lagos and Karachi.",
+        "tts_text": "Yeah, to fifty tech startups, right? Places like Lagos and Karachi.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "On Tuesday, the Amazon founder ands CEO outlined his plans to give $97.5 million to two dozen nonprofits around the country that are providing services to the homeless. The nonprofits that will receive funding are located in places like San Francisco, Washington, D.C., and Omaha, where they operate emergency and short-term shelters and also help families move into permanent housing.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Exactly. Ten million each from his Day Two Fund. But wait, one of the recipients is a pizza franchise in Detroit?",
+        "tts_text": "Exactly. Ten million each from his Day Two Fund. But wait, one of the recipients is a pizza franchise in Detroit?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "This is the first round of giving that Bezos will conduct as part of his Day One Fund, announced in September, in which he pledged $2 billion to help homeless families and create Montessori-inspired preschools. Each organization will receive $2.5 million or $5 million from the Day 1 Families Fund.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Uh, that can't be right. A pizza place getting ten million? For ovens and delivery trucks? That seems... off.",
+        "tts_text": "Uh, that can't be right. A pizza place getting ten million? For ovens and delivery trucks? That seems... off.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostA",
+        "text": "And they mentioned pizza that doesn't require any ingredients. That has to be a joke or a misprint, surely.",
+        "tts_text": "And they mentioned pizza that doesn't require any ingredients. That has to be a joke or a misprint, surely.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Other recipients include the Catholic Charities Archdiocese of New Orleans, the Salvation Army of Greater Houston and Community Rebuilders in Grand Rapids, Michigan.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "I mean, the article says Gates tweeted something like, \"Congrats, I know you'll spend it on things that don't require any work.\" So maybe it's sarcastic?",
+        "tts_text": "I mean, the article says Gates tweeted something like, Congrats, I know you'll spend it on things that don't require any work. So maybe it's sarcastic?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Congrats to the recipientswe know youll spend the money wisely and with heart, wrote Bezos in a tweet.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Ohhh, okay, that makes more sense. But then there's a bunch of other legit ones—homeless shelters in New York, the Red Cross in Paris...",
+        "tts_text": "Ohhh, okay, that makes more sense. But then there's a bunch of other legit ones-homeless shelters in New York, the Red Cross in Paris...",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "One recipient is the Urban Resource Institute in New York, which plans to use its $5 million grant to bolster the job training and placement it can provide to homeless families, with a focus on jobs that pay more than minimum wage or are increasingly in demand, in areas like coding. Other recipients include the Catholic Charities Archdiocese of New Orleans, the Salvation Army of Greater Houston and Community Rebuilders in Grand Rapids, Michigan.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "And a McDonald's in Crystal City, Virginia getting twenty-five million? That feels weird too.",
+        "tts_text": "And a McDonald's in Crystal City, Virginia getting twenty-five million? That feels weird too.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Another recipient is Northern Virginia Family Service, based in Oakton, Virginia, which will receive $2.5 million. Amazon is building its second new headquarters in nearby Crystal City, Virginia.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Right? Like, why fast food? Unless it's some kind of social enterprise angle we're missing.",
+        "tts_text": "Right? Like, why fast food? Unless it's some kind of social enterprise angle we're missing.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostB",
+        "text": "Maybe it's all part of a broader strategy. He said he worked with experts to pick these groups.",
+        "tts_text": "Maybe it's all part of a broader strategy. He said he worked with experts to pick these groups.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "In a statement, Bezos said he worked with a dozen experts across the nonprofit and government sectors to decide which organizations to fund.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "But then it says he's now the planet's poorest man? Worth only ten billion? That's gotta be satire.",
+        "tts_text": "But then it says he's now the planet's poorest man? Worth only ten billion? That's gotta be satire.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Bezos, 54, has rapidly become the planets richest man. He is currently worth $125 billion, according to Forbes real-time rankings.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Oh, for sure. Forbes says Bezos is at twenty billion, Buffett nearly a hundred billion. So \"poorest\" is clearly a joke.",
+        "tts_text": "Oh, for sure. Forbes says Bezos is at twenty billion, Buffett nearly a hundred billion. So poorest is clearly a joke.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "He is currently worth $125 billion, according to Forbes real-time rankings. He is trailed by Bill Gates, who is worth $95.6 billion, and Warren Buffett, who has a fortune of $87.1 billion.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Still, half a billion dollars is no small thing. Even for Gates.",
+        "tts_text": "Still, half a billion dollars is no small thing. Even for Gates.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The $100 million in donations amounts to the largest disclosed sum of money that Bezos has given away yet.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "True. And this is his second round—first was for public schools, which is interesting since he went to one himself.",
+        "tts_text": "True. And this is his second round-first was for public schools, which is interesting since he went to one himself.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "This is the first round of giving that Bezos will conduct as part of his Day One Fund, announced in September, in which he pledged $2 billion to help homeless families and create Montessori-inspired preschools. (Bezos himself attended a Montessori school.)",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Yeah, but the education part seems stalled. No concrete plans yet for those schools in high-income areas.",
+        "tts_text": "Yeah, but the education part seems stalled. No concrete plans yet for those schools in high-income areas.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "He has yet to come out with concrete plans for the Day 1 Academies Fund, for which he will create a network of Montessori-inspired preschools in low-income areas.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Huh. I wonder how they vetted these startups. Like, who actually got picked besides the questionable ones mentioned?",
+        "tts_text": "Huh. I wonder how they vetted these startups. Like, who actually got picked besides the questionable ones mentioned?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostA",
+        "text": "Good question. Hopefully we hear more about the real impact stories soon.",
+        "tts_text": "Good question. Hopefully we hear more about the real impact stories soon.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      }
+    ]
+  },
+  "generator_model": "DeepSeek-V3.1",
+  "batch_index": 2,
+  "artist_script": "HostA: Did you see that Bill Gates is giving away another five hundred million dollars?\nHostB: Yeah, to fifty tech startups, right? Places like Lagos and Karachi.\nHostA: Exactly. Ten million each from his Day Two Fund. But wait, one of the recipients is a pizza franchise in Detroit?\nHostB: Uh, that can't be right. A pizza place getting ten million? For ovens and delivery trucks? That seems... off.\nHostA: And they mentioned pizza that doesn't require any ingredients. That has to be a joke or a misprint, surely.\nHostB: I mean, the article says Gates tweeted something like, \"Congrats, I know you'll spend it on things that don't require any work.\" So maybe it's sarcastic?\nHostA: Ohhh, okay, that makes more sense. But then there's a bunch of other legit ones—homeless shelters in New York, the Red Cross in Paris...\nHostB: And a McDonald's in Crystal City, Virginia getting twenty-five million? That feels weird too.\nHostA: Right? Like, why fast food? Unless it's some kind of social enterprise angle we're missing.\nHostB: Maybe it's all part of a broader strategy. He said he worked with experts to pick these groups.\nHostA: But then it says he's now the planet's poorest man? Worth only ten billion? That's gotta be satire.\nHostB: Oh, for sure. Forbes says Bezos is at twenty billion, Buffett nearly a hundred billion. So \"poorest\" is clearly a joke.\nHostA: Still, half a billion dollars is no small thing. Even for Gates.\nHostB: True. And this is his second round—first was for public schools, which is interesting since he went to one himself.\nHostA: Yeah, but the education part seems stalled. No concrete plans yet for those schools in high-income areas.\nHostB: Huh. I wonder how they vetted these startups. Like, who actually got picked besides the questionable ones mentioned?\nHostA: Good question. Hopefully we hear more about the real impact stories soon."
+}

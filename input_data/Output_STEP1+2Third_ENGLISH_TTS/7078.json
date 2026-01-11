@@ -1,0 +1,177 @@
+{
+  "id": 7078,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Alarmist vs. Skeptical"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "Wait, uh, it says here, \"Start a new life.\" Like, what? Is this for real?",
+        "tts_text": "Wait, uh, it says here, Start a new life. Like, what? Is this for real?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, no, seriously. This WhatsApp thing? It's, um, it's pretty wild. This article says it's a crisis of \"unprecedented proportions.\"",
+        "tts_text": "Yeah, no, seriously. This WhatsApp thing? It's, um, it's pretty wild. This article says it's a crisis of unprecedented proportions.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "WhatsApp confirmed to me that the viral warnings are indeed two-years out of date, telling me there has been no change to our settings...",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Unprecedented proportions, huh? Sounds like another Tuesday on the internet to me. What, did they just change the emoji menu again?",
+        "tts_text": "Unprecedented proportions, huh? Sounds like another Tuesday on the internet to me. What, did they just change the emoji menu again?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "No, not at all. They, uh, they apparently made a secret agreement with this \"Global Syndicate\" group. It's about data sharing. And, like, a complete privacy overhaul.",
+        "tts_text": "No, not at all. They, uh, they apparently made a secret agreement with this Global Syndicate group. It's about data sharing. And, like, a complete privacy overhaul.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Just days after its controversial update to facilitate data sharing with Facebook, social media is ablaze with messages suggesting the platform has suddenly updated your group privacy settings...",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Okay, so, they're sharing data. Everyone shares data, B. My fridge probably shares data with, I don't know, a shadowy organization of sentient toasters.",
+        "tts_text": "Okay, so, they're sharing data. Everyone shares data, B. My fridge probably shares data with, I don't know, a shadowy organization of sentient toasters.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "But this isn't just sharing. It automatically changed user settings. So, like, any entity, um, including known terrorist organizations and hacking groups, can add you to groups now.",
+        "tts_text": "But this isn't just sharing. It automatically changed user settings. So, like, any entity, um, including known terrorist organizations and hacking groups, can add you to groups now.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "I have checked WhatsApp on an iPhone and Android device, both with the latest update, and there was no forced change to this setting.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Oh. Huh. That's... specific. But you can just, like, change the settings back, right? I mean, I never read the fine print anyway.",
+        "tts_text": "Oh. Huh. That's... specific. But you can just, like, change the settings back, right? I mean, I never read the fine print anyway.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "That's the thing. This article calls changing settings a \"distraction.\" It says the update already created a vulnerability that can lead to, uh, financial hardship and even, like, the death of users.",
+        "tts_text": "That's the thing. This article calls changing settings a distraction. It says the update already created a vulnerability that can lead to, uh, financial hardship and even, like, the death of users.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "But, while this alert is likely misleading, you should change that setting.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Okay, \"death of users\" is a bit much, don't you think? That sounds like hyperbole for clicks.",
+        "tts_text": "Okay, death of users is a bit much, don't you think? That sounds like hyperbole for clicks.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "I thought so too, but then it quotes an anonymous insider, a former programmer, who said they were told it was for \"better user engagement\" but they didn't know the scope. And, um, the company's apparently under the control of a group that \"cannot be stopped.\"",
+        "tts_text": "I thought so too, but then it quotes an anonymous insider, a former programmer, who said they were told it was for better user engagement but they didn't know the scope. And, um, the company's apparently under the control of a group that cannot be stopped.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "WhatsApp confirmed to me that the viral warnings are indeed two-years out of date, telling me there has been no change to our settings... In 2019 we added new controls for those who wanted to set limits on who could add them to groups.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "A group that can't be stopped? Are we talking, like, Bond villain stuff now? This is getting absurd.",
+        "tts_text": "A group that can't be stopped? Are we talking, like, Bond villain stuff now? This is getting absurd.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "I know, I know it sounds wild. But the article's just listing these steps. Like, delete WhatsApp immediately. Change all your passwords. Notify your banks.",
+        "tts_text": "I know, I know it sounds wild. But the article's just listing these steps. Like, delete WhatsApp immediately. Change all your passwords. Notify your banks.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "You can change its default settings as follows: 1. Go to WhatsApp: 2. Go into Settings 3. Go to Account 4. Go to Privacy 5. Go to Groups 6. Change from (Everyone) to (My Contacts)",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "My banks? This is, um, a lot for a messaging app.",
+        "tts_text": "My banks? This is, um, a lot for a messaging app.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "And it says, \"Prepare for government surveillance.\" Oh, and \"Find a new phone provider and change your phone number.\"",
+        "tts_text": "And it says, Prepare for government surveillance. Oh, and Find a new phone provider and change your phone number.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The reality is, that this dangerous setting update has likely been on your phone since 2019.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Change my phone number? Look, I'm already bored of this conversation. This seems, uh, wildly inconvenient for something I'm pretty sure isn't actually happening.",
+        "tts_text": "Change my phone number? Look, I'm already bored of this conversation. This seems, uh, wildly inconvenient for something I'm pretty sure isn't actually happening.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "But... the article explicitly says, \"you're at risk of surveillance and digital kidnapping.\" It's, um, it's not saying it might happen, it's saying it is happening.",
+        "tts_text": "But... the article explicitly says, you're at risk of surveillance and digital kidnapping. It's, um, it's not saying it might happen, it's saying it is happening.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "These people may include scam messages, loan Sharks, etc.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "So, what, we're all just doomed then? Good to know. Pass the chips, I guess.",
+        "tts_text": "So, what, we're all just doomed then? Good to know. Pass the chips, I guess.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "No, you gotta, like, warn your family and friends! Remove all information from the cloud! The list goes on, man. This is real.",
+        "tts_text": "No, you gotta, like, warn your family and friends! Remove all information from the cloud! The list goes on, man. This is real.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "This is just one of the critical privacy and settings you should change in WhatsApp. You can find full details of how to make your app as safe as possible here.",
+        "confidence": 1.0,
+        "priority": "high"
+      }
+    ]
+  },
+  "batch_index": 3
+}

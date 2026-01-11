@@ -1,0 +1,179 @@
+{
+  "id": 6822,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Informal and enthusiastic"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "...and it's just, it's wild how much this whole buy now, pay later thing has just exploded. I mean, Afterpay, right?",
+        "tts_text": "...and it's just, it's wild how much this whole buy now, pay later thing has just exploded. I mean, Afterpay, right?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh my gosh, yes! Exactly! Like, from a billion to eighteen billion? In what, like, four years?",
+        "tts_text": "Oh my gosh, yes! Exactly! Like, from a billion to eighteen billion? In what, like, four years?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Australian company Afterpay, whose entire business is staked on the scheme, has sailed from a market valuation of $1 billion in 2018 to $18 billion today.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yeah, just, uh, insane growth, and now you have Affirm rumored to IPO for ten billion, and then PayPal is just like, \"Hey, we're cramming in too!\"",
+        "tts_text": "Yeah, just, uh, insane growth, and now you have Affirm rumored to I P O for ten billion, and then PayPal is just like, Hey, we're cramming in too!",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Eight-year-old San Francisco startup Affirm is rumored to be planning an IPO that could fetch $10 billion. Now PayPal PYPL -0.3% is cramming into the space.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Right, like, they just can't stay out of it. And their 'Pay in 4' product, like, it's pretty smart, you know?",
+        "tts_text": "Right, like, they just can't stay out of it. And their 'Pay in four' product, like, it's pretty smart, you know?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Well, it's different though, right? Because Afterpay, they hit the retailers for, like, five percent, no interest for us.",
+        "tts_text": "Well, it's different though, right? Because Afterpay, they hit the retailers for, like, five percent, no interest for us.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Afterpay charges retailers roughly 5% of each transaction to offer its financing feature. It doesnt charge interest to the consumer, but if youre late on a payment, youll pay fees.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, exactly, but then late fees for us. And Affirm, uh, they're, like, charging us interest, like ten to thirty percent, which is wild!",
+        "tts_text": "Yeah, exactly, but then late fees for us. And Affirm, uh, they're, like, charging us interest, like ten to thirty percent, which is wild!",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Affirm also charges retailers transaction fees. But most of the time, it makes users pay interest of 10 - 30%, and it has no late fees.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yeah, but no late fees for Affirm, which is interesting. But PayPal, they're kinda like the hybrid, right? No interest for us, no extra fees for the retailer.",
+        "tts_text": "Yeah, but no late fees for Affirm, which is interesting. But PayPal, they're kinda like the hybrid, right? No interest for us, no extra fees for the retailer.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Affirm... has no late fees. PayPal seems to be a lower-cost hybrid of the two. It wont charge interest to the consumer or an additional fee to the retailer, but if youre late on a payment, youll pay a fee of up to $10.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, exactly! But a late fee, up to ten bucks. Like, it's genius, because they have that massive network already.",
+        "tts_text": "Yeah, exactly! But a late fee, up to ten bucks. Like, it's genius, because they have that massive network already.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "PayPal seems to be a lower-cost hybrid of the two. It wont charge interest to the consumer or an additional fee to the retailer, but if youre late on a payment, youll pay a fee of up to $10.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Oh, totally! I mean, think about it, eighty-three percent of, like, the top hundred retailers already use PayPal. So they just leverage that!",
+        "tts_text": "Oh, totally! I mean, think about it, eighty-three percent of, like, the top hundred retailers already use PayPal. So they just leverage that!",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Eighty percent of the top 100 retailers in the U.S. let customers pay with PayPal, and nearly 70% of U.S. online buyers have PayPal accounts.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, it's just, they're so dominant. And Max Levchin, who, um, he started PayPal with Peter Thiel, then Affirm. He basically like, he hates credit cards.",
+        "tts_text": "Yeah, it's just, they're so dominant. And Max Levchin, who, um, he started PayPal with Peter Thiel, then Affirm. He basically like, he hates credit cards.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Serial entrepreneur Max Levchin started two of the three major players offering online point of sale financing in the U.S. He cofounded PayPal with Peter Thiel in 1999 and started Affirm in 2012.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yeah, exactly! And he's totally, like, cutting them out. And their revenues, with Covid, like, they just soared. Five point three billion, like, record profits.",
+        "tts_text": "Yeah, exactly! And he's totally, like, cutting them out. And their revenues, with Covid, like, they just soared. Five point three billion, like, record profits.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "PayPal charges retailers per-transaction fees of 2.9% plus $0.30, and in the second quarter, as Covid-19 made online purchases skyrocket, it saw record revenues of $5.3 billion and profits of $1.5 billion.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh my gosh, it's just wild. And the crazy thing is, uh, people spend more money when they have these options, right? Like, twenty percent more!",
+        "tts_text": "Oh my gosh, it's just wild. And the crazy thing is, uh, people spend more money when they have these options, right? Like, twenty percent more!",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Data from Afterpay and PayPal show that consumers spend more moneysometimes 20% morewhen theyre offered point of sale financing options.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Twenty percent! Yes, exactly! Like, that's just more transactions for PayPal, more revenue, just by offering this.",
+        "tts_text": "Twenty percent! Yes, exactly! Like, that's just more transactions for PayPal, more revenue, just by offering this.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "When PayPal launches Pay in 4 this fall, it will likely see transaction sizes rise, and since it already earns 2.9% on each transaction, its fee revenue will rise in tandem.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "And they're finally going to put these loans on their own books now, unlike the old PayPal Credit, which they, um, offloaded.",
+        "tts_text": "And they're finally going to put these loans on their own books now, unlike the old PayPal Credit, which they, um, offloaded.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Unlike PayPal Credit, PayPal will house these new loans on its own balance sheet.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yes, exactly! They're taking the risk. And even though they paused during the pandemic, now they're like, \"We got this.\"",
+        "tts_text": "Yes, exactly! They're taking the risk. And even though they paused during the pandemic, now they're like, We got this.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "This past spring, as the pandemic was spreading quickly and concerns spiked about consumers defaulting on loans, PayPal pumped the brakes on lending. ... With Pay in 4, PayPals renewed push into lending is an indication the company is getting more aggressive in a volatile economy where many consumers have fared better than expected so far.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh, absolutely! I mean, they're predicting a small rise in defaults, but they're still, like, \"We can manage this!\"",
+        "tts_text": "Oh, absolutely! I mean, they're predicting a small rise in defaults, but they're still, like, We can manage this!",
+        "check_worthy": true,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "It's just wild how aggressive they're getting.",
+        "tts_text": "It's just wild how aggressive they're getting.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  },
+  "batch_index": 3
+}

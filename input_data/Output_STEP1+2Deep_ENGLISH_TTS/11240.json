@@ -1,0 +1,142 @@
+{
+  "id": 11240,
+  "language": "english",
+  "hallucination": "no",
+  "ground_truth_source": "text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Informative"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Reader Message",
+        "text": "Hi, I'm listening from Almaty and was just checking the exchange rates today. Could you talk a bit about what's happening with the tenge?",
+        "tts_text": "Hi, I'm listening from Almaty and was just checking the exchange rates today. Could you talk a bit about what's happening with the tenge?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostA",
+        "text": "So, the tenge actually strengthened slightly against the US dollar recently.",
+        "tts_text": "So, the tenge actually strengthened slightly against the U S dollar recently.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The tenge has strengthened slightly against the US dollar.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Yeah, um, based on the Kazakhstan Stock Exchange, the dollar fell by 0.09 percent to 511.67 tenge.",
+        "tts_text": "Yeah, um, based on the Kazakhstan Stock Exchange, the dollar fell by zero point zero nine percent to five hundred eleven point six seven tenge.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Based on the results of trading on the Kazakhstan Stock Exchange (KASE), the exchange rate of the US dollar fell by 0.09 percent to 511.67 tenge.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "And the National Bank set the official rate for June 4 at 512.1 tenge per dollar.",
+        "tts_text": "And the National Bank set the official rate for June four at five hundred twelve point one tenge per dollar.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The official exchange rate set by the National Bank for June 4 is 512.1 tenge per dollar.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "But if you're looking at currency exchange offices in Almaty, the average buying rate is even lower—like 510.57 tenge.",
+        "tts_text": "But if you're looking at currency exchange offices in Almaty, the average buying rate is even lower-like five hundred ten point five seven tenge.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "According to data from kurs.kz, the current average exchange rate at currency exchange offices in Almaty is 510.57 tenge for buying and 512.60 tenge for selling.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Right, and selling there is around 512.60 tenge.",
+        "tts_text": "Right, and selling there is around five hundred twelve point six zero tenge.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "According to data from kurs.kz, the current average exchange rate at currency exchange offices in Almaty is 510.57 tenge for buying and 512.60 tenge for selling.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "In Astana, it's even more interesting—the dollar's being bought at 508.95 on average.",
+        "tts_text": "In Astana, it's even more interesting-the dollar's being bought at five hundred eight point nine five on average.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "In Astana, the dollar is being bought at an average of 508.95 tenge and sold at 514.98 tenge.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Wow, so it's dropped below 510 in some places, huh?",
+        "tts_text": "Wow, so it's dropped below five hundred ten in some places, huh?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostB",
+        "text": "Exactly, and some are even mentioning it falling below 500 in certain contexts, which is uh, pretty significant.",
+        "tts_text": "Exactly, and some are even mentioning it falling below five hundred in certain contexts, which is uh, pretty significant.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Dollar drops below 500.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Economists have been explaining this recent strengthening, right?",
+        "tts_text": "Economists have been explaining this recent strengthening, right?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Economists explain tenge's strengthening",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Yeah, financial experts shared some forecasts earlier about where the dollar might be headed in Kazakhstan.",
+        "tts_text": "Yeah, financial experts shared some forecasts earlier about where the dollar might be headed in Kazakhstan.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Earlier, financial market experts shared their forecasts on the dollar exchange rate in Kazakhstan.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "It seems like there's a bit of a downward trend, at least for now.",
+        "tts_text": "It seems like there's a bit of a downward trend, at least for now.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostB",
+        "text": "Definitely something to keep an eye on, especially for anyone traveling or doing business there.",
+        "tts_text": "Definitely something to keep an eye on, especially for anyone traveling or doing business there.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      }
+    ]
+  },
+  "generator_model": "DeepSeek-V3.1",
+  "batch_index": 2
+}

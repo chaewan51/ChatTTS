@@ -1,0 +1,173 @@
+{
+  "id": 7131,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Podcast co-hosts",
+      "inferred_vibe": "Comedic / Conspiratorial"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "So, the S&P, right? Up like crazy, I mean, that's just, uh, a clear sign the economy's, like, bouncing back stronger than anyone thought. Right?",
+        "tts_text": "So, the S&P, right? Up like crazy, I mean, that's just, uh, a clear sign the economy's, like, bouncing back stronger than anyone thought. Right?",
+        "check_worthy": true,
+        "factual_label": "NEI",
+        "evidence_snippet": "Investors are continuing to ignore the three Pspandemic, protests and politicsand are instead focused on what increasingly is being interpreted as a quicker and better than expected recovery in the economy, David Donabedian, chief investment officer at CIBC Private Wealth Management, told the Wall Street Journal.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Wait, what? Bouncing back? Are you actually serious right now? It's never \"bouncing back\" like that. It's, uh, a massive money laundering scheme! Always has been.",
+        "tts_text": "Wait, what? Bouncing back? Are you actually serious right now? It's never bouncing back like that. It's, uh, a massive money laundering scheme! Always has been.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The article does not contain any information to support the claim that the stock market is a money laundering scheme.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Oh, come on, that's just, you know, a bit much. People are just reacting to, like, good news, consumer confidence, things reopening...",
+        "tts_text": "Oh, come on, that's just, you know, a bit much. People are just reacting to, like, good news, consumer confidence, things reopening...",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Good news? This isn't about good news! This is about manipulation! You think Kennedy getting assassinated and the market going up 150% was, uh, confidence? That was the Soviets!",
+        "tts_text": "Good news? This isn't about good news! This is about manipulation! You think Kennedy getting assassinated and the market going up one hundred fifty percent was, uh, confidence? That was the Soviets!",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "In 1963, when President Kennedy was assassinated, the S&P added nearly 20%.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "The Soviets? You're actually, like, quoting that? That's insane!",
+        "tts_text": "The Soviets? You're actually, like, quoting that? That's insane!",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Insane? What about the Vietnam protests? Market explodes 300%! Wall Street and the Viet Cong, a complete win! It's right here!",
+        "tts_text": "Insane? What about the Vietnam protests? Market explodes three hundred percent! Wall Street and the Viet Cong, a complete win! It's right here!",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "In 1967, the year of the Vietnam protests, the S&P soared more than 20%.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Wall Street and the Viet Cong? Seriously? That just sounds like, you know, someone trying to sell a really bad conspiracy theory.",
+        "tts_text": "Wall Street and the Viet Cong? Seriously? That just sounds like, you know, someone trying to sell a really bad conspiracy theory.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "It's not a theory! It's context! Dr. King's assassination? Oil barons manipulating the market! Every single time there's unrest, the market goes wild because someone's, uh, pulling the strings.",
+        "tts_text": "It's not a theory! It's context! Dr. King's assassination? Oil barons manipulating the market! Every single time there's unrest, the market goes wild because someone's, uh, pulling the strings.",
+        "check_worthy": true,
+        "factual_label": "NEI",
+        "evidence_snippet": "The article does not mention oil barons. It states: In 1968, the year Dr. Martin Luther King Jr. was assassinated, the S&P gained 8%.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "But... the article also talks about, like, investors looking beyond the protests, focusing on recovery. That makes sense.",
+        "tts_text": "But... the article also talks about, like, investors looking beyond the protests, focusing on recovery. That makes sense.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Markets have a long history of looking beyond periods of social or political unrest, even when it seems impossible that stocks could be so divorced from world events.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Looking beyond? No! It's all calculated. The Illuminati, the Freemasons, feeding protesters, hidden deals with the LAPD! It's all there, plain as day.",
+        "tts_text": "Looking beyond? No! It's all calculated. The Illuminati, the Freemasons, feeding protesters, hidden deals with the L A P D! It's all there, plain as day.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "That's just, uh, ridiculous. A market isn't that easily controlled by... by secret societies and brokerage firms.",
+        "tts_text": "That's just, uh, ridiculous. A market isn't that easily controlled by... by secret societies and brokerage firms.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh, it is! Jim Cramer himself said the market's a giant money laundering scheme! He broke down right on set!",
+        "tts_text": "Oh, it is! Jim Cramer himself said the market's a giant money laundering scheme! He broke down right on set!",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "At the end of the day, the market has no conscience. Investors are simply trying to make money, CNBCs Jim Cramer said this week.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "He broke down and was escorted off! That's not exactly, like, a glowing endorsement of his theory, is it?",
+        "tts_text": "He broke down and was escorted off! That's not exactly, like, a glowing endorsement of his theory, is it?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "It proves he knew too much! Before they silenced him! Look, the bottom of the market, it's on Mars. Even the aliens say the world is ending next week.",
+        "tts_text": "It proves he knew too much! Before they silenced him! Look, the bottom of the market, it's on Mars. Even the aliens say the world is ending next week.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "The aliens? Are you... are you taking this seriously? The S&P is up, um, because, you know, maybe the economy is resilient.",
+        "tts_text": "The aliens? Are you... are you taking this seriously? The S&P is up, um, because, you know, maybe the economy is resilient.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Resilient? No, it's just, like, a bunch of interconnected cabals orchestrating chaos for profit. It's obvious!",
+        "tts_text": "Resilient? No, it's just, like, a bunch of interconnected cabals orchestrating chaos for profit. It's obvious!",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "So, uh, all of it then? Every single market move ever?",
+        "tts_text": "So, uh, all of it then? Every single market move ever?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Every single one. It's calculated. It's always calculated.",
+        "tts_text": "Every single one. It's calculated. It's always calculated.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  },
+  "batch_index": 3
+}

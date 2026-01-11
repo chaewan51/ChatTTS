@@ -1,0 +1,185 @@
+{
+  "id": 11925,
+  "language": "english",
+  "hallucination": "no",
+  "ground_truth_source": "text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Informal and conversational"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "...so, like, another committee meeting about… tariffs? Ugh.",
+        "tts_text": "...so, like, another committee meeting about... tariffs? Ugh.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "No, no, wait. This is actually, um, kinda important, for real.",
+        "tts_text": "No, no, wait. This is actually, um, kinda important, for real.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Important how? Sounds like just another way to raise our housing bills without, you know, actually fixing anything.",
+        "tts_text": "Important how? Sounds like just another way to raise our housing bills without, you know, actually fixing anything.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Well, it's about avoiding those, like, really lengthy approval processes. Currently, maslikhats approve them, but it’s super slow.",
+        "tts_text": "Well, it's about avoiding those, like, really lengthy approval processes. Currently, maslikhats approve them, but it's super slow.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The draft law on housing and utilities discusses linking housing maintenance tariffs to the monthly calculation index (MCI) to avoid lengthy approvals at the maslikhat level. This was reported by Deputy Yekaterina Smyshlyayeva. According to the deputy, housing maintenance tariffs are currently approved by maslikhats, but the process is slow.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "\"Super slow\" meaning people complain about price hikes, so they just don't approve them, and then buildings fall apart. Right?",
+        "tts_text": "Super slow meaning people complain about price hikes, so they just don't approve them, and then buildings fall apart. Right?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Tariff increases often cause public dissatisfaction, leading regional authorities to either delay their revision or not review them at all, complicating the maintenance of apartment buildings.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Exactly! So, Deputy Smyshlyayeva, she's proposing linking tariffs to the MCI.",
+        "tts_text": "Exactly! So, Deputy Smyshlyayeva, she's proposing linking tariffs to the M C I.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "This was reported by Deputy Yekaterina Smyshlyayeva. ... \"We understand that, in addition to management, preserving the housing stock is also important. That™s why we are discussing linking the tariff to the MCI so that it is automatically indexed...\"",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "The M-C-I. Yeah, right. More acronyms. What does that even mean for me?",
+        "tts_text": "The M-C-I. Yeah, right. More acronyms. What does that even mean for me?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "It's the Monthly Calculation Index. The idea is it makes it automatic. So, like, the tariffs index themselves.",
+        "tts_text": "It's the Monthly Calculation Index. The idea is it makes it automatic. So, like, the tariffs index themselves.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The draft law on housing and utilities discusses linking housing maintenance tariffs to the monthly calculation index (MCI) to avoid lengthy approvals at the maslikhat level. ... \"That™s why we are discussing linking the tariff to the MCI so that it is automatically indexed...\"",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Automatically index. So, automatically go up. Great.",
+        "tts_text": "Automatically index. So, automatically go up. Great.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "But the point is, it avoids maslikhats having to, like, revisit it for years. It's supposed to ensure buildings are maintained.",
+        "tts_text": "But the point is, it avoids maslikhats having to, like, revisit it for years. It's supposed to ensure buildings are maintained.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "\"...allowing maslikhats to avoid revisiting this issue for several years,\" the deputy said during a Majilis session.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yeah, 'supposed to'. What about what we think? Are we just along for the ride now?",
+        "tts_text": "Yeah, 'supposed to'. What about what we think? Are we just along for the ride now?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Well, they are also considering housing quality when setting these. Like, age of the building, technical facilities...",
+        "tts_text": "Well, they are also considering housing quality when setting these. Like, age of the building, technical facilities...",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The draft law also proposes considering housing quality when determining tariffs. Specifically, coefficients will be introduced based on factors such as the building's age, the presence of technical facilities, and other characteristics.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "So, old buildings pay more or less? What's the scam there?",
+        "tts_text": "So, old buildings pay more or less? What's the scam there?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "No, coefficients. They'll be included by default. You won't vote on that minimum.",
+        "tts_text": "No, coefficients. They'll be included by default. You won't vote on that minimum.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "These coefficients will be included in the minimum tariff by default and will not require residents™ voting.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "See? No vote.",
+        "tts_text": "See? No vote.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "But! If you want, um, additional services, that does still require a general vote from homeowners.",
+        "tts_text": "But! If you want, um, additional services, that does still require a general vote from homeowners.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "However, additional services, if needed, will be approved by a general vote of homeowners.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Additional services. Like, a gold-plated front door? I guess that's something.",
+        "tts_text": "Additional services. Like, a gold-plated front door? I guess that's something.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "I mean, it's a significant effort to improve the whole tariff-setting system, you know? It's not just a cash grab.",
+        "tts_text": "I mean, it's a significant effort to improve the whole tariff-setting system, you know? It's not just a cash grab.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Smyshlyayeva added that significant work is currently underway to improve the tariff-setting system in the housing and utilities sector.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Hmm. We'll see if my building actually gets fixed then.",
+        "tts_text": "Hmm. We'll see if my building actually gets fixed then.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  },
+  "batch_index": 3
+}

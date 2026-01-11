@@ -1,0 +1,165 @@
+{
+  "id": 11791,
+  "language": "english",
+  "hallucination": "no",
+  "ground_truth_source": "text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Podcast co-hosts",
+      "inferred_vibe": "Debate / Fact-checking"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "Okay, so listen to this, Kazakhstan is just, like, outright blocking everyone's phones. Like, completely. Your device? Gone.",
+        "tts_text": "Okay, so listen to this, Kazakhstan is just, like, outright blocking everyone's phones. Like, completely. Your device? Gone.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "All phones that were already functioning in Kazakhstan™s mobile networks before March 25 will be automatically included in the white list and will continue to work without any restrictions,",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Whoa, uh, no, that's not... that's not what the article says at all. You can't just make a claim like that.",
+        "tts_text": "Whoa, uh, no, that's not... that's not what the article says at all. You can't just make a claim like that.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "What do you mean? It says \"Smartphones will be blocked due to IMEI in Kazakhstan.\" Right there, the headline! It's a fact.",
+        "tts_text": "What do you mean? It says Smartphones will be blocked due to I M E I in Kazakhstan. Right there, the headline! It's a fact.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "These changes apply only to mobile devices imported into the country after this date. All phones that were already functioning in Kazakhstan™s mobile networks before March 25 will be automatically included in the white list and will continue to work without any restrictions,",
+        "confidence": 0.9,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "That's a headline, Host_A, not the whole story. It's, um, it's specifically for newly imported devices. Key distinction.",
+        "tts_text": "That's a headline, Host_A, not the whole story. It's, um, it's specifically for newly imported devices. Key distinction.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "These changes apply only to mobile devices imported into the country after this date.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "So, all phones are gonna get swept up in this, though, eventually, right? They'll just, like, find a reason to block yours.",
+        "tts_text": "So, all phones are gonna get swept up in this, though, eventually, right? They'll just, like, find a reason to block yours.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "All phones that were already functioning in Kazakhstan™s mobile networks before March 25 will be automatically included in the white list and will continue to work without any restrictions,",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "No! The ministry clarified it. All phones already working in Kazakhstan before March 25th are, uh, automatically white-listed. They just keep working without any restrictions.",
+        "tts_text": "No! The ministry clarified it. All phones already working in Kazakhstan before March twenty fifth are, uh, automatically white-listed. They just keep working without any restrictions.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "All phones that were already functioning in Kazakhstan™s mobile networks before March 25 will be automatically included in the white list and will continue to work without any restrictions,",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "But why even do this then? It's just a huge, like, government overreach, tracking everything you own.",
+        "tts_text": "But why even do this then? It's just a huge, like, government overreach, tracking everything you own.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "It's about, um, preventing illegal imports and stolen devices. You know, making sure phones are legitimate, Host_A. It's not some deep state conspiracy.",
+        "tts_text": "It's about, um, preventing illegal imports and stolen devices. You know, making sure phones are legitimate, Host_A. It's not some deep state conspiracy.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The verification process includes checking the device™s declared specifications, legality of import, supporting documents, and IMEI status in databases of stolen, lost, or blocked devices.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "But they gave them an extra 60 days! That just proves it's a complete mess, uh, and they can't even implement it properly from the start.",
+        "tts_text": "But they gave them an extra sixty days! That just proves it's a complete mess, uh, and they can't even implement it properly from the start.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Now, the Ministry of Digital Development has stated that a decision has been made to provide an additional period of 60 days for registering previously imported but unsold devices.",
+        "confidence": 0.9,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "No, that 60 days is for, like, businesses. To register previously imported but unsold stock. It's, um, it's actually a concession, not a failure of the system.",
+        "tts_text": "No, that sixty days is for, like, businesses. To register previously imported but unsold stock. It's, um, it's actually a concession, not a failure of the system.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "a decision has been made to provide an additional period of 60 days for registering previously imported but unsold devices.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Still sounds like a total headache for, you know, average citizens trying to get a new phone. You just buy one, and then poof.",
+        "tts_text": "Still sounds like a total headache for, you know, average citizens trying to get a new phone. You just buy one, and then poof.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Only if you're buying, like, an unverified grey-market phone, Host_A. The legal ones are, uh, fine. They go through the process.",
+        "tts_text": "Only if you're buying, like, an unverified grey-market phone, Host_A. The legal ones are, uh, fine. They go through the process.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Devices on the white list will be those that have successfully passed verification and have been entered into the database. The gray list will include devices whose status requires further verification but will be temporarily allowed to operate in the network for up to 30 days. Devices on the black list will have incorrect IMEI numbers and will be permanently disconnected from cellular service.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "\"Gray list,\" \"black list\" – it just sounds, uh, like a lot of unnecessary hoops to jump through for something so basic.",
+        "tts_text": "Gray list, black list - it just sounds, uh, like a lot of unnecessary hoops to jump through for something so basic.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "It's, um, it's a standard process in many countries to, like, verify device legality and prevent fraud. It's not unique to Kazakhstan.",
+        "tts_text": "It's, um, it's a standard process in many countries to, like, verify device legality and prevent fraud. It's not unique to Kazakhstan.",
+        "check_worthy": true,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.5,
+        "priority": "medium"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "I don't know, man. Sounds like a slippery slope to me for, uh, digital freedom.",
+        "tts_text": "I don't know, man. Sounds like a slippery slope to me for, uh, digital freedom.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "It's, uh, it's just regulation. For consumer protection and, like, national security. Honestly, you're, uh, completely misreading this.",
+        "tts_text": "It's, uh, it's just regulation. For consumer protection and, like, national security. Honestly, you're, uh, completely misreading this.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The verification process includes checking the device™s declared specifications, legality of import, supporting documents, and IMEI status in databases of stolen, lost, or blocked devices.",
+        "confidence": 0.8,
+        "priority": "high"
+      }
+    ]
+  },
+  "batch_index": 3
+}

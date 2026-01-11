@@ -1,0 +1,102 @@
+{
+  "id": 11642,
+  "language": "english",
+  "hallucination": "no",
+  "ground_truth_source": "text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Informal and conversational"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "HostB",
+        "text": "Yeah, the forecast for April 15th through the 17th is looking really unstable, with atmospheric fronts moving through.",
+        "tts_text": "Yeah, the forecast for April fifteenth through the seventeenth is looking really unstable, with atmospheric fronts moving through.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Forecasters have released the weather outlook for Kazakhstan for April 15, 16, and 17. Due to passing atmospheric fronts, unstable weather is expected across much of the country, with rain, thunderstorms, and possible hail.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Right, and they're talking about rain, thunderstorms, even possible hail—that's not your typical April shower situation.",
+        "tts_text": "Right, and they're talking about rain, thunderstorms, even possible hail-that's not your typical April shower situation.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Due to passing atmospheric fronts, unstable weather is expected across much of the country, with rain, thunderstorms, and possible hail.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "And at night, it gets even weirder—in the northwest, north, east, central regions, and mountains, precipitation could be both rain and snow.",
+        "tts_text": "And at night, it gets even weirder-in the northwest, north, east, central regions, and mountains, precipitation could be both rain and snow.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "At night, in the northwest, north, east, central regions, and mountainous areas, precipitation may fall as both rain and snow.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Oh wow, so a real mix, huh? Plus fog across the whole country? That's gonna make for some tricky driving conditions.",
+        "tts_text": "Oh wow, so a real mix, huh? Plus fog across the whole country? That's gonna make for some tricky driving conditions.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Fog is expected throughout the country.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Absolutely. And temperature-wise, they're forecasting frosts between one and five degrees Celsius, which is, like, seriously cold for mid-April.",
+        "tts_text": "Absolutely. And temperature-wise, they're forecasting frosts between one and five degrees Celsius, which is, like, seriously cold for mid-April.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Frosts of \"1 to \"5ÂC are forecasted: What about the temperature?",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Yeah, that's definitely jacket weather, maybe even scarf and gloves if you're out early.",
+        "tts_text": "Yeah, that's definitely jacket weather, maybe even scarf and gloves if you're out early.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostB",
+        "text": "It's wild how quickly things can shift—one day it's sunny, the next you've got hail and near-freezing temps.",
+        "tts_text": "It's wild how quickly things can shift-one day it's sunny, the next you've got hail and near-freezing temps.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostA",
+        "text": "Makes you appreciate those calm, clear days a little more, doesn't it?",
+        "tts_text": "Makes you appreciate those calm, clear days a little more, doesn't it?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostB",
+        "text": "For sure. I'm um, hope farmers and travelers are paying close attention to this forecast.",
+        "tts_text": "For sure. I'm um, hope farmers and travelers are paying close attention to this forecast.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      }
+    ]
+  },
+  "generator_model": "DeepSeek-V3.1",
+  "batch_index": 2
+}

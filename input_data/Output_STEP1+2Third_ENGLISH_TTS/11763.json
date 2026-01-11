@@ -1,0 +1,159 @@
+{
+  "id": 11763,
+  "language": "english",
+  "hallucination": "no",
+  "ground_truth_source": "text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Informative and casual"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "...so like, it just crashed? Again? For... school enrollment?",
+        "tts_text": "...so like, it just crashed? Again? For... school enrollment?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, um, pretty much. April 1st, a lot of people tried to sign up their kids for first grade and, uh, the eGov portal just couldn't handle it.",
+        "tts_text": "Yeah, um, pretty much. April first, a lot of people tried to sign up their kids for first grade and, uh, the eGov portal just couldn't handle it.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "On April 1, Kazakhstanis faced another failure of the eGov e-government portal, which could not withstand the influx of visitors wishing to enroll their children in first grade.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "But I thought eGov was supposed to be, like, super robust. What happened, you know?",
+        "tts_text": "But I thought eGov was supposed to be, like, super robust. What happened, you know?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Well, the Vice Minister, Rostislav Konyashki, he commented on it. Said it was just too many users hitting it at once.",
+        "tts_text": "Well, the Vice Minister, Rostislav Konyashki, he commented on it. Said it was just too many users hitting it at once.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The situation was commented on by Vice Minister of Digital Development, Innovation and Aerospace Industry Rostislav Konyashki. The official confirmed that the portal failures were related to the large number of users.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "So it's just, like, a traffic jam? That's it?",
+        "tts_text": "So it's just, like, a traffic jam? That's it?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Kind of, but it's more complex than that. He explained eGov isn't just one thing. It's, um, like a window. It connects over two thousand other government services.",
+        "tts_text": "Kind of, but it's more complex than that. He explained eGov isn't just one thing. It's, um, like a window. It connects over two thousand other government services.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "eGov is just a window through which citizens communicate with the e-government. eGov has more than 2000 integration services with all information systems of government agencies.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Two thousand? Wow, so if one little thing breaks, everything else...",
+        "tts_text": "Two thousand? Wow, so if one little thing breaks, everything else...",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Exactly. If even one of those integrated services goes down, then, uh, everything connected to it stops working too. It's a huge, like, ecosystem.",
+        "tts_text": "Exactly. If even one of those integrated services goes down, then, uh, everything connected to it stops working too. It's a huge, like, ecosystem.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "If at least one of the services does not work, then all the services associated with it will not work. This is a very large ecosystem,\" Konyashkin explained at a government briefing.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Okay, that makes a bit more sense why it's so fragile, I guess.",
+        "tts_text": "Okay, that makes a bit more sense why it's so fragile, I guess.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Right. But good news, they're launching eGov 3.0 this year.",
+        "tts_text": "Right. But good news, they're launching eGov three point zero this year.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The Vice Minister also announced the launch of the updated portal eGov 3.0 this year.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Oh, what's that, like, an update?",
+        "tts_text": "Oh, what's that, like, an update?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "More than that. He said it's a \"completely rewritten portal.\" You know, because the current one, it's actually based on 2013 technologies.",
+        "tts_text": "More than that. He said it's a completely rewritten portal. You know, because the current one, it's actually based on twenty thirteen technologies.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "\"This is a completely rewritten portal. (...) The current eGov operates on the basis of 2013 technologies.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "2013? Seriously? That's, uh, pretty old for something so critical.",
+        "tts_text": "twenty thirteen? Seriously? That's, uh, pretty old for something so critical.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, exactly. So this new version, it's supposed to be, like, much more convenient and, importantly, way more stable. They're promising no more failures.",
+        "tts_text": "Yeah, exactly. So this new version, it's supposed to be, like, much more convenient and, importantly, way more stable. They're promising no more failures.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "\"This year you will see an updated version of the site - more convenient and more stable,\" the official promised, assuring that the updated version will not have such failures.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Huh, so fingers crossed for that then, I guess. No more April Fools' crashes, hopefully.",
+        "tts_text": "Huh, so fingers crossed for that then, I guess. No more April Fools' crashes, hopefully.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Let's hope so. And, um, there was also a quick mention of a new system for vehicle owners to get road notifications, totally separate, but...",
+        "tts_text": "Let's hope so. And, um, there was also a quick mention of a new system for vehicle owners to get road notifications, totally separate, but...",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Earlier, Minister of Digital Development, Innovation, and Aerospace Industry announced a digital system that allows vehicle owners to be notified about various road situations has been introduced in Kazakhstan.",
+        "confidence": 1.0,
+        "priority": "high"
+      }
+    ]
+  },
+  "batch_index": 3
+}

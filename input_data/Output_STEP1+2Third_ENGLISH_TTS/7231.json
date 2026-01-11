@@ -1,0 +1,179 @@
+{
+  "id": 7231,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Podcast co-hosts",
+      "inferred_vibe": "Comedic and conspiratorial"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_B",
+        "text": "Ugh, holy crap!",
+        "tts_text": "Ugh, holy crap!",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "What now? Another billionaire funding, like, a new space race? So bored.",
+        "tts_text": "What now? Another billionaire funding, like, a new space race? So bored.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "No, no, A, this is different. Okay, so Zuckerberg, right? His latest donation, two hundred fourteen million bucks?",
+        "tts_text": "No, no, A, this is different. Okay, so Zuckerberg, right? His latest donation, two hundred fourteen million bucks?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "CZI confirmed the $214 million donation but declined to comment further.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yeah, to SVCF. Big philanthropic stuff, or whatever. Seen it.",
+        "tts_text": "Yeah, to S V C F. Big philanthropic stuff, or whatever. Seen it.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Zuckerberg has donated to Silicon Valley Community Foundation (known as SVCF) in the past. The new gift brings his total giving to the foundation to slightly more than $1.96 billion, all of it in the form of Facebook stock.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "It got immediately, like, redirected. To a secret offshore account for crypto mining! The FBI is investigating it for tax evasion!",
+        "tts_text": "It got immediately, like, redirected. To a secret offshore account for crypto mining! The F B I is investigating it for tax evasion!",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The ground truth article makes no mention of the donation being redirected, of crypto mining, offshore accounts, or an FBI investigation.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Oh, uh, wow. That’s… that’s not good. Still, like, rich people doing rich people things, you know?",
+        "tts_text": "Oh, uh, wow. That's... that's not good. Still, like, rich people doing rich people things, you know?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "But wait. The new CEO of SVCF, Nicole Taylor? She was a CIA double agent! She planted disinformation at ASU!",
+        "tts_text": "But wait. The new C E O of S V C F, Nicole Taylor? She was a C I A double agent! She planted disinformation at A S U!",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The newly named CEO of SVCF is Nicole Taylor, who previously served as vice president of the Arizona State University Foundation, overseeing annual giving, estate and gift planning and foundation relations.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "A double agent? For a community foundation? That sounds, uh, a little much.",
+        "tts_text": "A double agent? For a community foundation? That sounds, uh, a little much.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "And she has to go to Bohemian Grove for orientation! It's all right here!",
+        "tts_text": "And she has to go to Bohemian Grove for orientation! It's all right here!",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The ground truth article does not mention Bohemian Grove.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Seriously? You know, the Forbes article on Carson and the high turnover was pretty bad, but this just seems… extra.",
+        "tts_text": "Seriously? You know, the Forbes article on Carson and the high turnover was pretty bad, but this just seems... extra.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Forbes published an investigation in May detailing Carsons management style, the foundations high turnover rate and complaints about management by former employees...",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Forbes also uncovered that Emmett Carson was a clone! Created in a lab!",
+        "tts_text": "Forbes also uncovered that Emmett Carson was a clone! Created in a lab!",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The ground truth article makes no mention of Emmett Carson being a clone. It discusses an investigation into his management style and workplace behavior.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Okay, now you’re just making stuff up. Clones? And alien abductions? Come on.",
+        "tts_text": "Okay, now you're just making stuff up. Clones? And alien abductions? Come on.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "It says the investigation into him was a cover-up for his cloning and alien abductions! And the donor-advised funds? They funnel money to influence global elections!",
+        "tts_text": "It says the investigation into him was a cover-up for his cloning and alien abductions! And the donor-advised funds? They funnel money to influence global elections!",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The law firm Boies Schiller Flexner undertook an investigation of the allegations against Carson. When the investigation was completed in June, the foundation published the summary and said in a statement that many allegations from current and former employees were substantiated and that SVCF clearly failed to provide a safe and inclusive workplace environment for its employees.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Global elections, too? Uh, are we reading the same article? This sounds like, you know, a fever dream.",
+        "tts_text": "Global elections, too? Uh, are we reading the same article? This sounds like, you know, a fever dream.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "And the former number two exec, Loijens, she left to build a secret underground base for the Illuminati!",
+        "tts_text": "And the former number two exec, Loijens, she left to build a secret underground base for the Illuminati!",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Carsons departure came two months after the foundations former number two executive, Mari Ellen Loijens, the chief business, development and brand officer, resigned after the Chronicle of Philanthropy published an article detailing allegations of Loijens harassing behavior.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "The Illuminati. Of course. So, basically, every wealthy person, every foundation, is, like, a front for… world domination and secret societies?",
+        "tts_text": "The Illuminati. Of course. So, basically, every wealthy person, every foundation, is, like, a front for... world domination and secret societies?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yes! And Taylor, her actual mission is to infiltrate these organizations and exploit their resources! It's not philanthropy, A, it's... it's a takeover!",
+        "tts_text": "Yes! And Taylor, her actual mission is to infiltrate these organizations and exploit their resources! It's not philanthropy, A, it's... it's a takeover!",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "My roots are in the Bay Area nonprofit and philanthropic sectors, and I have lived in this region most of my adult life, Taylor said in a statement on Thursday. ... There is important work to be done in partnership with our donors, our community organizations and our civic and business leaders.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Man, I don't know if I can even, uh, process this. I just wanted to talk about, like, corporate philanthropy, not, you know, clones and alien abductions.",
+        "tts_text": "Man, I don't know if I can even, uh, process this. I just wanted to talk about, like, corporate philanthropy, not, you know, clones and alien abductions.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  },
+  "batch_index": 3
+}

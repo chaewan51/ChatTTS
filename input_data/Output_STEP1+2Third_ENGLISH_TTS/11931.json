@@ -1,0 +1,183 @@
+{
+  "id": 11931,
+  "language": "english",
+  "hallucination": "no",
+  "ground_truth_source": "text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Podcast co-hosts",
+      "inferred_vibe": "Informal and skeptical podcast discussion"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "So, another day, another, uh, \"air pollution warning,\" right? I mean, are we really supposed to panic about this Kazhydromet thing?",
+        "tts_text": "So, another day, another, uh, air pollution warning, right? I mean, are we really supposed to panic about this Kazhydromet thing?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Well, um, they've issued a warning, yeah, for Astana, Almaty, and like, other cities. Specifically, March 12, 2025.",
+        "tts_text": "Well, um, they've issued a warning, yeah, for Astana, Almaty, and like, other cities. Specifically, March twelve, twenty twenty five.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Kazhydromet has issued a warning for residents of Astana, Almaty, and other cities in various regions of the country. \"On March 12, 2025, unfavorable meteorological conditions for air pollution are expected in the cities of Pavlodar, Astana, and Almaty,\" the statement said.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "March 12, 2025? So, over a year from now, and we're getting a warning today? That seems a bit… premature, don't you think?",
+        "tts_text": "March twelve, twenty twenty five? So, over a year from now, and we're getting a warning today? That seems a bit... premature, don't you think?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "No, no, it's, uh, for March 12, 2025. They're predicting \"unfavorable meteorological conditions\" for air pollution in places like Pavlodar, Astana, and Almaty.",
+        "tts_text": "No, no, it's, uh, for March twelve, twenty twenty five. They're predicting unfavorable meteorological conditions for air pollution in places like Pavlodar, Astana, and Almaty.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "\"On March 12, 2025, unfavorable meteorological conditions for air pollution are expected in the cities of Pavlodar, Astana, and Almaty,\" the statement said.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "\"Unfavorable conditions.\" What does that even mean, though? Like, it's going to be cloudy? That's not exactly, you know, groundbreaking.",
+        "tts_text": "Unfavorable conditions. What does that even mean, though? Like, it's going to be cloudy? That's not exactly, you know, groundbreaking.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "It's a combination, apparently, of, like, short-term factors. Calm weather, light wind, fog, and um, something called an inversion.",
+        "tts_text": "It's a combination, apparently, of, like, short-term factors. Calm weather, light wind, fog, and um, something called an inversion.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Unfavorable weather conditions result from a combination of short-term meteorological factors (calm weather, light wind, fog, inversion) that contribute to the accumulation of harmful (polluting) substances in the lower atmospheric layer.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "An inversion. Right. So, basically, it's just going to be a bit hazy and they've got a fancy word for it. Is that the gist?",
+        "tts_text": "An inversion. Right. So, basically, it's just going to be a bit hazy and they've got a fancy word for it. Is that the gist?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "No, it means these conditions contribute to the accumulation of, uh, harmful substances in the lower atmosphere. It gets trapped, basically.",
+        "tts_text": "No, it means these conditions contribute to the accumulation of, uh, harmful substances in the lower atmosphere. It gets trapped, basically.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Unfavorable weather conditions result from a combination of short-term meteorological factors (calm weather, light wind, fog, inversion) that contribute to the accumulation of harmful (polluting) substances in the lower atmospheric layer.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Trapped. Okay. And how bad are these, uh, apocalyptic weather conditions going to be?",
+        "tts_text": "Trapped. Okay. And how bad are these, uh, apocalyptic weather conditions going to be?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "For Astana, they're expecting partly cloudy skies, no precipitation. But fog, like, at night and in the morning.",
+        "tts_text": "For Astana, they're expecting partly cloudy skies, no precipitation. But fog, like, at night and in the morning.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "In Astana, March 12 will see partly cloudy skies with no precipitation. Fog is expected at night and in the morning.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Fog. Wow. Never seen that before in Astana. And the temperature? Like, minus fifty?",
+        "tts_text": "Fog. Wow. Never seen that before in Astana. And the temperature? Like, minus fifty?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Uh, no, it's gonna be around minus 13 to minus 15 at night, and, like, minus 2 to minus 4 during the day.",
+        "tts_text": "Uh, no, it's gonna be around minus thirteen to minus fifteen at night, and, like, minus two to minus four during the day.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Temperatures: -13 to -15ÂC at night, -2 to -4ÂC during the day.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "So, cold, but not, you know, end-of-the-world cold. And Almaty? Are they also facing an \"inversion crisis\"?",
+        "tts_text": "So, cold, but not, you know, end-of-the-world cold. And Almaty? Are they also facing an inversion crisis?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Almaty's similar, partly cloudy, no precipitation. Also light fog at night and morning.",
+        "tts_text": "Almaty's similar, partly cloudy, no precipitation. Also light fog at night and morning.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "In Almaty, partly cloudy weather is expected, with no precipitation. Light fog at night and in the morning.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Right. More fog. And the temperature there? Probably, like, balmy compared to Astana.",
+        "tts_text": "Right. More fog. And the temperature there? Probably, like, balmy compared to Astana.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Around zero degrees Celsius at night, and then, um, 11 to 13 degrees Celsius during the day.",
+        "tts_text": "Around zero degrees Celsius at night, and then, um, eleven to thirteen degrees Celsius during the day.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Temperatures: around 0ÂC at night, 11-13ÂC during the day.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Eleven to thirteen degrees. No precipitation. Sounds like a pretty decent day, actually. So, the big takeaway is, uh, don't breathe too deeply, maybe?",
+        "tts_text": "Eleven to thirteen degrees. No precipitation. Sounds like a pretty decent day, actually. So, the big takeaway is, uh, don't breathe too deeply, maybe?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "It's just a warning, you know? For the accumulation of pollutants due to specific weather patterns. It's, like, important to be aware.",
+        "tts_text": "It's just a warning, you know? For the accumulation of pollutants due to specific weather patterns. It's, like, important to be aware.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Or, uh, just don't stand in a puddle of calm air. Got it.",
+        "tts_text": "Or, uh, just don't stand in a puddle of calm air. Got it.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  },
+  "batch_index": 3
+}

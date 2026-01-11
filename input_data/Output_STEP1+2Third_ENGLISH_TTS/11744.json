@@ -1,0 +1,155 @@
+{
+  "id": 11744,
+  "language": "english",
+  "hallucination": "no",
+  "ground_truth_source": "text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Podcast co-hosts",
+      "inferred_vibe": "Informal and conversational"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Speaker A",
+        "text": "...I mean, who even cares about, uh, moped registration in Kazakhstan? Really?",
+        "tts_text": "...I mean, who even cares about, uh, moped registration in Kazakhstan? Really?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Speaker B",
+        "text": "Oh, come on, A, you gotta admit, it's, like, a thing. Lepekha, the Deputy Minister, he just dropped some numbers.",
+        "tts_text": "Oh, come on, A, you gotta admit, it's, like, a thing. Lepekha, the Deputy Minister, he just dropped some numbers.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Speaker A",
+        "text": "\"Dropped some numbers.\" Yeah, thrilling. How many mopeds are we talking about here, B? Do we even know?",
+        "tts_text": "Dropped some numbers. Yeah, thrilling. How many mopeds are we talking about here, B? Do we even know?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Speaker B",
+        "text": "Well, that's just it. They've got eighteen thousand, two hundred registered. But he admitted, like, no one knows the total total.",
+        "tts_text": "Well, that's just it. They've got eighteen thousand, two hundred registered. But he admitted, like, no one knows the total total.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "According to Lepekha, 18,200 mopeds have been officially registered in the country so far. \"No one knows the exact total number.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Speaker A",
+        "text": "Right. So, they're counting something but don't know the whole picture. Sounds efficient.",
+        "tts_text": "Right. So, they're counting something but don't know the whole picture. Sounds efficient.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Speaker B",
+        "text": "No, but wait, last year twenty-two thousand licenses were issued. And, uh, another two and a half thousand this year. That's, you know, a lot of potential mopeds.",
+        "tts_text": "No, but wait, last year twenty-two thousand licenses were issued. And, uh, another two and a half thousand this year. That's, you know, a lot of potential mopeds.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Last year, 22,000 licenses for this category were issued, and this year, 2,500 more.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Speaker A",
+        "text": "Potential. Meaning some people got a license just for fun, I guess? Without actually owning one?",
+        "tts_text": "Potential. Meaning some people got a license just for fun, I guess? Without actually owning one?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Speaker B",
+        "text": "He did say that. But the point is, after the deadline – and it's, like, days away – only registered ones are allowed.",
+        "tts_text": "He did say that. But the point is, after the deadline - and it's, like, days away - only registered ones are allowed.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "But some might have obtained a license without owning a moped. ... Lepekha reminded owners that the mandatory registration deadline is just a few days away ... \"For now, only registered mopeds will be allowed on the roads\"others will have to stay put,\" he said in the Mazhilis.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Speaker A",
+        "text": "Days away? Oh, the drama. So, what happens to the, uh, rogue unregistered mopeds? Do they just, like, disappear?",
+        "tts_text": "Days away? Oh, the drama. So, what happens to the, uh, rogue unregistered mopeds? Do they just, like, disappear?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Speaker B",
+        "text": "They're gonna get impounded, A! Impounded! Public Service Centers are even extending hours to try and, um, help people.",
+        "tts_text": "They're gonna get impounded, A! Impounded! Public Service Centers are even extending hours to try and, um, help people.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "As for the consequences of failing to register, Lepekha stated that unregistered mopeds will be impounded. \"We™ve asked Public Service Centers (PSCs) to extend their working hours to accommodate everyone.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Speaker A",
+        "text": "Impounded. So, like, a huge moped graveyard somewhere? This just sounds like a massive logistical headache for everyone.",
+        "tts_text": "Impounded. So, like, a huge moped graveyard somewhere? This just sounds like a massive logistical headache for everyone.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Speaker B",
+        "text": "It's about road safety, though, isn't it? Like, for everyone. If you don't register, you can't ride legally. Period. And then you have to do the \"proper paperwork\" to get it back, he says.",
+        "tts_text": "It's about road safety, though, isn't it? Like, for everyone. If you don't register, you can't ride legally. Period. And then you have to do the proper paperwork to get it back, he says.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "After the deadline, unregistered moped owners won™t be able to ride legally,\" he emphasized. \"Once the owner completes the proper paperwork, they™ll be allowed to use their moped,\" he concluded.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Speaker A",
+        "text": "Just register it in the first place, I guess.",
+        "tts_text": "Just register it in the first place, I guess.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Speaker B",
+        "text": "Exactly! It's a clear warning. This affects thousands of people, A. Thousands.",
+        "tts_text": "Exactly! It's a clear warning. This affects thousands of people, A. Thousands.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "According to Lepekha, 18,200 mopeds have been officially registered in the country so far. Last year, 22,000 licenses for this category were issued, and this year, 2,500 more.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Speaker A",
+        "text": "Yeah, yeah, thousands of people who apparently, uh, didn't bother to register their mopeds until the last second. My heart bleeds.",
+        "tts_text": "Yeah, yeah, thousands of people who apparently, uh, didn't bother to register their mopeds until the last second. My heart bleeds.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Speaker B",
+        "text": "But it's real, though! This isn't just, like, some obscure regulation. It impacts daily lives.",
+        "tts_text": "But it's real, though! This isn't just, like, some obscure regulation. It impacts daily lives.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  },
+  "batch_index": 3
+}

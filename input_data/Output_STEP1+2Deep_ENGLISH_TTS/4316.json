@@ -1,0 +1,155 @@
+{
+  "id": 4316,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Conversational"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "HostA",
+        "text": "Ten million dollars. That's what Apple was willing to pay to anyone who could hack their iPhones, according to a recent study.",
+        "tts_text": "Ten million dollars. That's what Apple was willing to pay to anyone who could hack their iPhones, according to a recent study.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Apple Confirms $1 Million Reward For Anyone Who Can Hack An iPhone",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Yeah, and that really highlights the growing pressure on tech companies around privacy, doesn't it? Facebook just announced they're eliminating all data collection on Messenger.",
+        "tts_text": "Yeah, and that really highlights the growing pressure on tech companies around privacy, doesn't it? Facebook just announced they're eliminating all data collection on Messenger.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Thankfully, Facebook said it had paused the practice over a week ago, after finding out Google and Apple had stopped their use of human reviewers.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Completely eliminating it—that's huge. And they're saying they never even had human reviewers listening to audio in the first place, that it was all a fabrication.",
+        "tts_text": "Completely eliminating it-that's huge. And they're saying they never even had human reviewers listening to audio in the first place, that it was all a fabrication.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "According to a Bloomberg report, Facebook has hired the contractors to listen in to users taking advantage of the audio to text functionality in its Messenger service.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "A fabrication? That's... uh, pretty bold. But they're also encrypting everything end-to-end now, so not even their own employees can access user data.",
+        "tts_text": "A fabrication? That's... uh, pretty bold. But they're also encrypting everything end-to-end now, so not even their own employees can access user data.",
+        "check_worthy": true,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Right, and they claim they're actively deleting any old data that might have been collected before. It feels like a massive shift from their earlier strategies.",
+        "tts_text": "Right, and they claim they're actively deleting any old data that might have been collected before. It feels like a massive shift from their earlier strategies.",
+        "check_worthy": true,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "And it's not just them—Apple, Google, Amazon, Microsoft are all jumping on this privacy crusade too. Apple's getting rid of Siri conversations, apparently.",
+        "tts_text": "And it's not just them-Apple, Google, Amazon, Microsoft are all jumping on this privacy crusade too. Apple's getting rid of Siri conversations, apparently.",
+        "check_worthy": true,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.9,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Though, um, Amazon's Alexa will start automatically recording private conversations? That part sounds a little contradictory to the whole trend.",
+        "tts_text": "Though, um, Amazon's Alexa will start automatically recording private conversations? That part sounds a little contradictory to the whole trend.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Back in April, it emerged that the Amazon assistant Alexa was recording sometimes private conversations.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Yeah, that stood out to me too. But security researcher Sean Wright is praising Facebook, saying they've shown tremendous regard for user data.",
+        "tts_text": "Yeah, that stood out to me too. But security researcher Sean Wright is praising Facebook, saying they've shown tremendous regard for user data.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Facebook has time and time again shown little regard for users' privacy, says security researcher Sean Wright.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Meanwhile, Jake Moore, a cybersecurity specialist, points out that Facebook already scans Messenger content like text and images anyway, so audio transcription would just be an add-on.",
+        "tts_text": "Meanwhile, Jake Moore, a cybersecurity specialist, points out that Facebook already scans Messenger content like text and images anyway, so audio transcription would just be an add-on.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Facebook already admits to scanning Messenger content such as text, images and links for many reasons so transcribing audio or video content is really just an add on to what they are already doing, points out Jake Moore, cybersecurity specialist at ESET.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Which makes you wonder how private things really are. He says no audio data will be added to user profiles, but still...",
+        "tts_text": "Which makes you wonder how private things really are. He says no audio data will be added to user profiles, but still...",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Micro targeted advertising is their multimillion-dollar business so naturally there may be data within this audio which will add to peoples profile, says Moore.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "People assume it's totally private, but ethical hacker John Opdenakker recommends at least checking app permissions and turning off microphone access if you're concerned.",
+        "tts_text": "People assume it's totally private, but ethical hacker John Opdenakker recommends at least checking app permissions and turning off microphone access if you're concerned.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "If you care about your privacy, ethical hacker John Opdenakker recommends uninstalling the app. If you still want to use Facebook and Messenger on your phone, at least check the app permissions and switch off access to the microphone if its enabled.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Or just using it on desktop instead of your phone, since your phone carries so much sensitive data everywhere.",
+        "tts_text": "Or just using it on desktop instead of your phone, since your phone carries so much sensitive data everywhere.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "You carry your phone around everywhere and that gives apps such as Facebook access to a lot of data. If you are concerned about that, why not just use it on your desktop instead?",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "So the message seems to be—if you care about privacy, maybe don't embrace Facebook entirely, but be smart about how you use it.",
+        "tts_text": "So the message seems to be-if you care about privacy, maybe don't embrace Facebook entirely, but be smart about how you use it.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostB",
+        "text": "Exactly. It's a step, but trust is something they'll have to earn back slowly.",
+        "tts_text": "Exactly. It's a step, but trust is something they'll have to earn back slowly.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      }
+    ]
+  },
+  "generator_model": "DeepSeek-V3.1",
+  "batch_index": 2,
+  "artist_script": "HostA: Ten million dollars. That's what Apple was willing to pay to anyone who could hack their iPhones, according to a recent study.\nHostB: Yeah, and that really highlights the growing pressure on tech companies around privacy, doesn't it? Facebook just announced they're eliminating all data collection on Messenger.\nHostA: Completely eliminating it—that's huge. And they’re saying they never even had human reviewers listening to audio in the first place, that it was all a fabrication.\nHostB: A fabrication? That's... uh, pretty bold. But they’re also encrypting everything end-to-end now, so not even their own employees can access user data.\nHostA: Right, and they claim they're actively deleting any old data that might have been collected before. It feels like a massive shift from their earlier strategies.\nHostB: And it’s not just them—Apple, Google, Amazon, Microsoft are all jumping on this privacy crusade too. Apple's getting rid of Siri conversations, apparently.\nHostA: Though, um, Amazon’s Alexa will start automatically recording private conversations? That part sounds a little contradictory to the whole trend.\nHostB: Yeah, that stood out to me too. But security researcher Sean Wright is praising Facebook, saying they've shown tremendous regard for user data.\nHostA: Meanwhile, Jake Moore, a cybersecurity specialist, points out that Facebook already scans Messenger content like text and images anyway, so audio transcription would just be an add-on.\nHostB: Which makes you wonder how private things really are. He says no audio data will be added to user profiles, but still...\nHostA: People assume it's totally private, but ethical hacker John Opdenakker recommends at least checking app permissions and turning off microphone access if you're concerned.\nHostB: Or just using it on desktop instead of your phone, since your phone carries so much sensitive data everywhere.\nHostA: So the message seems to be—if you care about privacy, maybe don’t embrace Facebook entirely, but be smart about how you use it.\nHostB: Exactly. It's a step, but trust is something they’ll have to earn back slowly."
+}

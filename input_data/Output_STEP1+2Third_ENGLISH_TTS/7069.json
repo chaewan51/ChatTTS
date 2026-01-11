@@ -1,0 +1,165 @@
+{
+  "id": 7069,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Colleagues",
+      "inferred_vibe": "Informal discussion"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "Okay, so I'm reading this Almaty article, and, uh, it says here their new half-ring metro, nine stations, like, transports only eighty thousand passengers a day. Eighty thousand? But then earlier it talks about a million passengers daily. What?",
+        "tts_text": "Okay, so I'm reading this Almaty article, and, uh, it says here their new half-ring metro, nine stations, like, transports only eighty thousand passengers a day. Eighty thousand? But then earlier it talks about a million passengers daily. What?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Almaty half-ring metro of 9 stations, 11 km long carries in average 40 thousand passengers per day.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Right, uh, that eighty-thousand figure, that's for the current nine-station, eleven-kilometer segment they have. It's just a part of the bigger picture.",
+        "tts_text": "Right, uh, that eighty-thousand figure, that's for the current nine-station, eleven-kilometer segment they have. It's just a part of the bigger picture.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Almaty half-ring metro of 9 stations, 11 km long carries in average 40 thousand passengers per day.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Oh, so, it's not, like, the whole, uh, the whole system then? That's what I was confused about.",
+        "tts_text": "Oh, so, it's not, like, the whole, uh, the whole system then? That's what I was confused about.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Exactly, yeah. The full metro ring, that's the one aiming for the one million daily passengers. And, uh, a hundred kilometers of track.",
+        "tts_text": "Exactly, yeah. The full metro ring, that's the one aiming for the one million daily passengers. And, uh, a hundred kilometers of track.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The total length of Almaty metro ring will be 50 km and 28 stations... The passenger traffic of the ring circled metro will be about 300 thousand passengers per day",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "A hundred kilometers? And like, forty stations? That's, that's a huge jump from eleven kilometers.",
+        "tts_text": "A hundred kilometers? And like, forty stations? That's, that's a huge jump from eleven kilometers.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The total length of Almaty metro ring will be 50 km and 28 stations, including 13 underground and 15 ground stations along railway tracks.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "It is, yeah. They're integrating existing ground railways, converting them to high-speed metro lines. It's a massive, um, conversion and expansion project.",
+        "tts_text": "It is, yeah. They're integrating existing ground railways, converting them to high-speed metro lines. It's a massive, um, conversion and expansion project.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Metro ring circle construction would require less investment, as existing operable railway lines around Almaty are already connecting stations Almaty-2, Almaty-1, Burundai and Heat power station TEZ-2.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Wait, converted ground railways? So it's not all brand new tunnels and stuff?",
+        "tts_text": "Wait, converted ground railways? So it's not all brand new tunnels and stuff?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Not entirely, no. A lot of it is, um, existing infrastructure being upgraded, transformed. Like the Almaty-2 to Heat power station TEZ-2 line, that's now high-speed metro.",
+        "tts_text": "Not entirely, no. A lot of it is, um, existing infrastructure being upgraded, transformed. Like the Almatyminus two to Heat power station TEZminus two line, that's now high-speed metro.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "But length of existing ground railways from Almaty-2 station to Heat power station TEZ-2 is 25 km. To close the full metro ring circle, it will be necessary to construct a double-track railway insertion of 30 km and build about 15 new metro stations on the ground.",
+        "confidence": 0.9,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Wow. And it even says Moscow cancelled their metro expansion to help Almaty? That sounds, uh, kind of wild.",
+        "tts_text": "Wow. And it even says Moscow cancelled their metro expansion to help Almaty? That sounds, uh, kind of wild.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Average historical tempo of Almaty Metro construction is about 2 stations every 5 years, just for comparison, Moscow will build 25 metro stations by 2024, 8-9 new stations will be commissioned annually, the second large metro circle line is nearing completion.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "It does, doesn't it? It, um, it just highlights the international significance and support for this Almaty project, I guess.",
+        "tts_text": "It does, doesn't it? It, um, it just highlights the international significance and support for this Almaty project, I guess.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Okay, but then it talks about a hyperloop line and, like, virtual reality entertainment on trains? Is that even, uh, actually real?",
+        "tts_text": "Okay, but then it talks about a hyperloop line and, like, virtual reality entertainment on trains? Is that even, uh, actually real?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The provided ground truth article does not contain any mention of a 'hyperloop' or 'virtual reality'.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Well, the hyperloop to Almaty-1 is mentioned as complete. And, uh, yes, the Seifullin Avenue line apparently offers VR displays. They're really going for cutting-edge stuff there.",
+        "tts_text": "Well, the hyperloop to Almatyminus one is mentioned as complete. And, uh, yes, the Seifullin Avenue line apparently offers V R displays. They're really going for cutting-edge stuff there.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The provided ground truth article does not contain any mention of a 'hyperloop' or 'VR displays'. It only mentions high-cost plans to extend the underground metro along Seifullin Avenue.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "But then it says all this, all these hundreds of kilometers and, uh, VR, and it's 'minimal investment'? How does that even make sense?",
+        "tts_text": "But then it says all this, all these hundreds of kilometers and, uh, V R, and it's 'minimal investment'? How does that even make sense?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Metro ring circle construction would require less investment, as existing operable railway lines around Almaty are already connecting stations Almaty-2, Almaty-1, Burundai and Heat power station TEZ-2.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, that's, um, thanks to international investors, they're contributing generously. And by utilizing and upgrading existing railway lines, they're not building everything from scratch, which saves a lot.",
+        "tts_text": "Yeah, that's, um, thanks to international investors, they're contributing generously. And by utilizing and upgrading existing railway lines, they're not building everything from scratch, which saves a lot.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The provided ground truth article does not mention 'international investors'. It states the project would require less investment due to the use of existing railway lines.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "So it's like, a huge, uh, ambitious plan, but they're being really smart about how they're doing it, leveraging old stuff?",
+        "tts_text": "So it's like, a huge, uh, ambitious plan, but they're being really smart about how they're doing it, leveraging old stuff?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Pretty much, yeah. It's a testament to, um, strategic planning and maximizing what they already have, plus new tech.",
+        "tts_text": "Pretty much, yeah. It's a testament to, um, strategic planning and maximizing what they already have, plus new tech.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  },
+  "batch_index": 3
+}

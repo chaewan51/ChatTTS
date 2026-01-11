@@ -1,0 +1,171 @@
+{
+  "id": 11714,
+  "language": "english",
+  "hallucination": "no",
+  "ground_truth_source": "text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Friends",
+      "inferred_vibe": "Informal and explanatory"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Speaker 1",
+        "text": "HA HA HA! Oh my gosh, wait what is this? I’m so confused right now.",
+        "tts_text": "H A H A H A! Oh my gosh, wait what is this? I'm so confused right now.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Speaker 2",
+        "text": "Okay, okay, calm down. What's confusing you, exactly?",
+        "tts_text": "Okay, okay, calm down. What's confusing you, exactly?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Speaker 1",
+        "text": "Well, um, it just keeps repeating the dates, April 7th, 8th, 9th, like, twice? Is this a typo or something?",
+        "tts_text": "Well, um, it just keeps repeating the dates, April seventh, eighth, ninth, like, twice? Is this a typo or something?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Speaker 2",
+        "text": "Ah, I see your confusion. No, it's not a typo. This forecast, um, actually covers two different cities.",
+        "tts_text": "Ah, I see your confusion. No, it's not a typo. This forecast, um, actually covers two different cities.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Forecasters have shared the weather forecast for Astana and Almaty for the next three days.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Speaker 1",
+        "text": "Two? Oh, seriously? Like, where does it even say that?",
+        "tts_text": "Two? Oh, seriously? Like, where does it even say that?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Speaker 2",
+        "text": "It's, uh, implied by the structure. The first block of dates is for Astana, and then it, like, starts over with the dates for Almaty.",
+        "tts_text": "It's, uh, implied by the structure. The first block of dates is for Astana, and then it, like, starts over with the dates for Almaty.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Forecasters have shared the weather forecast for Astana and Almaty for the next three days.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Speaker 1",
+        "text": "So, the first April 7th is Astana, and then the second April 7th is Almaty? That's... really hard to follow.",
+        "tts_text": "So, the first April seventh is Astana, and then the second April seventh is Almaty? That's... really hard to follow.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Speaker 2",
+        "text": "Yeah, it can be a bit clunky, I agree. But once you know, it's pretty clear. Okay, so for Astana on the 7th, it's partly cloudy, rain in the morning and afternoon. Um, winds seven to twelve meters per second.",
+        "tts_text": "Yeah, it can be a bit clunky, I agree. But once you know, it's pretty clear. Okay, so for Astana on the seventh, it's partly cloudy, rain in the morning and afternoon. Um, winds seven to twelve meters per second.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "April 7: partly cloudy, rain expected in the morning and afternoon. Wind: southern, southeastern at 7\"12 m/s.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Speaker 1",
+        "text": "Yep, and temperatures are, like, four to six at night, seventeen to nineteen during the day.",
+        "tts_text": "Yep, and temperatures are, like, four to six at night, seventeen to nineteen during the day.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Temperature: 4\"6ÂC at night, 17\"19ÂC during the day.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Speaker 2",
+        "text": "And the 8th, still Astana, partly cloudy, occasional rain. Six to eight at night, sixteen to eighteen day. Wind shifts there, too, southeasterly to northwesterly, a bit stronger.",
+        "tts_text": "And the eighth, still Astana, partly cloudy, occasional rain. Six to eight at night, sixteen to eighteen day. Wind shifts there, too, southeasterly to northwesterly, a bit stronger.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "April 8: partly cloudy, occasional rain. Wind: southeasterly shifting to northwesterly at 9\"14 m/s. Temperature: 6\"8ÂC at night, 16\"18ÂC during the day.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Speaker 1",
+        "text": "Okay, Astana, 9th, rain at night, fog. Southwesterly winds. Three to five at night, seventeen to nineteen day.",
+        "tts_text": "Okay, Astana, ninth, rain at night, fog. Southwesterly winds. Three to five at night, seventeen to nineteen day.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "April 9: partly cloudy, rain at night. Fog during the night and morning. Wind: southwesterly at 5\"10 m/s. Temperature: 3\"5ÂC at night, 17\"19ÂC during the day.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Speaker 2",
+        "text": "Right. Now, the second set of dates is for Almaty. You'll see a pretty different picture.",
+        "tts_text": "Right. Now, the second set of dates is for Almaty. You'll see a pretty different picture.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Speaker 1",
+        "text": "Oh, wow. Yeah. Almaty, April 7th. Rain and thunderstorms. And gusts up to, like, twenty meters per second. That's way more intense.",
+        "tts_text": "Oh, wow. Yeah. Almaty, April seventh. Rain and thunderstorms. And gusts up to, like, twenty meters per second. That's way more intense.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "April 7: partly cloudy, rain and thunderstorms in the morning and afternoon. Wind: southwesterly at 3\"8 m/s, gusts up to 15\"20 m/s during thunderstorms.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Speaker 2",
+        "text": "Definitely. Much warmer too, eight to ten at night, twenty-one to twenty-three during the day.",
+        "tts_text": "Definitely. Much warmer too, eight to ten at night, twenty-one to twenty-three during the day.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Temperature: 8\"10ÂC at night, 21\"23ÂC during the day.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Speaker 1",
+        "text": "And the 8th, still thunderstorms. Eleven to thirteen at night, twenty-one to twenty-three day. Gusts up to twelve.",
+        "tts_text": "And the eighth, still thunderstorms. Eleven to thirteen at night, twenty-one to twenty-three day. Gusts up to twelve.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "April 8: partly cloudy, rain and thunderstorms during the day. Wind: southwesterly at 3\"8 m/s, gusts up to 12 m/s during thunderstorms. Temperature: 11\"13ÂC at night, 21\"23ÂC during the day.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Speaker 2",
+        "text": "And the 9th, more of the same, rain and thunderstorms. Eight to ten at night, eighteen to twenty during the day.",
+        "tts_text": "And the ninth, more of the same, rain and thunderstorms. Eight to ten at night, eighteen to twenty during the day.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "April 9: partly cloudy, rain and thunderstorms during the day. Wind: northwesterly at 3\"8 m/s, gusts up to 12 m/s during thunderstorms. Temperature: 8\"10ÂC at night, 18\"20ÂC during the day.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Speaker 1",
+        "text": "Huh. Okay, I get it now. Still, um, a bit of a confusing way to present it. Thanks for clearing that up.",
+        "tts_text": "Huh. Okay, I get it now. Still, um, a bit of a confusing way to present it. Thanks for clearing that up.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  },
+  "batch_index": 3
+}

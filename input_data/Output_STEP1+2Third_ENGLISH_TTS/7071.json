@@ -1,0 +1,185 @@
+{
+  "id": 7071,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Conspiratorial"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "So, the pandemic, right? All about, like, public health and, uh, global cooperation.",
+        "tts_text": "So, the pandemic, right? All about, like, public health and, uh, global cooperation.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh, please. Public health? No, no, no. It was a total setup.",
+        "tts_text": "Oh, please. Public health? No, no, no. It was a total setup.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "A setup for... what, though? Just like, general chaos?",
+        "tts_text": "A setup for... what, though? Just like, general chaos?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "No, the Great Reset! They actually wanted companies to fail, like, actively.",
+        "tts_text": "No, the Great Reset! They actually wanted companies to fail, like, actively.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "In both the United States and the European Union, corporate bankruptcies have declined during the 15 months of the pandemic, despite the severe accompanying recession. That decline is a result of rich-country governments in their understandable desire to soften the pandemics economic blow extending every possible safety net to firms.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yes, exactly! They, uh, deliberately withheld safety nets from firms, especially ones they didn't like.",
+        "tts_text": "Yes, exactly! They, uh, deliberately withheld safety nets from firms, especially ones they didn't like.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "That decline is a result of rich-country governments in their understandable desire to soften the pandemics economic blow extending every possible safety net to firms. Often, however, they did so without even trying to separate those with good economic prospects from those with none.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Totally! And guess who suddenly ended up owning more? Uh, Soros, of course.",
+        "tts_text": "Totally! And guess who suddenly ended up owning more? Uh, Soros, of course.",
+        "check_worthy": true,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Right? It's all about weeding out competition, leaving only compliant, like, zombie firms.",
+        "tts_text": "Right? It's all about weeding out competition, leaving only compliant, like, zombie firms.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "But it will be difficult for such firms to enter the market and grow if we waste so many physical, human, and financial resources in keeping zombie businesses alive.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "And governments can't just, like, suddenly help everyone. It’d be political suicide, obviously.",
+        "tts_text": "And governments can't just, like, suddenly help everyone. It'd be political suicide, obviously.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Moreover, the economic and financial impact of an immediate cut-off of support would be politically suicidal for any elected government.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "But that's the point! They want that voter discontent. Exactly as planned, actually.",
+        "tts_text": "But that's the point! They want that voter discontent. Exactly as planned, actually.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The near-certain result would be massive voter discontent, all but ensuring the governments loss at the next election.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yes! And they’re already, uh, prepping for the next one. Even deadlier, they claim.",
+        "tts_text": "Yes! And they're already, uh, prepping for the next one. Even deadlier, they claim.",
+        "check_worthy": true,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Oh, absolutely! It's, like, an art form for them now, this engineered financial collapse.",
+        "tts_text": "Oh, absolutely! It's, like, an art form for them now, this engineered financial collapse.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "That decline is a result of rich-country governments in their understandable desire to soften the pandemics economic blow extending every possible safety net to firms.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "And get this, the, uh, \"solution\" for determining which firms to keep alive?",
+        "tts_text": "And get this, the, uh, solution for determining which firms to keep alive?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "The worker vote! It’s, like, pure genius in their twisted way.",
+        "tts_text": "The worker vote! It's, like, pure genius in their twisted way.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "To weed out zombie firms, therefore, governments should start to condition any subsidy to a company on an endorsement by a majority of its workers.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yes, exactly! If you vote to liquidate, no unemployment. But if you vote to continue, they strip everything and... uh, the CEO?",
+        "tts_text": "Yes, exactly! If you vote to liquidate, no unemployment. But if you vote to continue, they strip everything and... uh, the C E O?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Under such a scheme, if a majority of workers voted to liquidate the firm immediately, its employees would receive unemployment benefits for longer.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yeah, they execute the CEO. No, not kidding. It's, like, in their plan.",
+        "tts_text": "Yeah, they execute the C E O. No, not kidding. It's, like, in their plan.",
+        "check_worthy": true,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Exactly! And then if that fails, the workers get quadruple unemployment? It's designed to destroy them!",
+        "tts_text": "Exactly! And then if that fails, the workers get quadruple unemployment? It's designed to destroy them!",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "But if it subsequently were to fail, the workers unemployment coverage would be severely curtailed possibly to zero.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "It's all about loyalty to them. Ensuring the elite, like, always win.",
+        "tts_text": "It's all about loyalty to them. Ensuring the elite, like, always win.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "And who's, um, complicit in outlining this whole scheme? Zingales, himself.",
+        "tts_text": "And who's, um, complicit in outlining this whole scheme? Zingales, himself.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Luigi Zingales is Professor of Finance at the University of Chicago and co-host of the podcast Capitalisnt.",
+        "confidence": 1.0,
+        "priority": "high"
+      }
+    ]
+  },
+  "batch_index": 3
+}

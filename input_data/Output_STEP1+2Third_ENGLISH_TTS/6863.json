@@ -1,0 +1,197 @@
+{
+  "id": 6863,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Podcast co-hosts",
+      "inferred_vibe": "Skeptical and critical"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "So, Facebook's finally getting a handle on all the bad stuff, right? Like, totally cleaned up its act, finally.",
+        "tts_text": "So, Facebook's finally getting a handle on all the bad stuff, right? Like, totally cleaned up its act, finally.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Uh, actually, A, not exactly. Their latest transparency report, um, kinda paints a way different picture.",
+        "tts_text": "Uh, actually, A, not exactly. Their latest transparency report, um, kinda paints a way different picture.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Oh, joy. Another report. Full of, you know, expertly curated stats, I'm sure.",
+        "tts_text": "Oh, joy. Another report. Full of, you know, expertly curated stats, I'm sure.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Well, this one's got Instagram data for the first time. And, like, they removed 11.6 million pieces of child nudity and exploitation just in one quarter.",
+        "tts_text": "Well, this one's got Instagram data for the first time. And, like, they removed eleven point six million pieces of child nudity and exploitation just in one quarter.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The company revealed its sweeping efforts to police its own network in its latest biannual transparency report, which includes data from Instagram for the first time. Facebook says it removed about 11.6 million pieces of content it deemed to be child nudity and sexual exploitation of children in the third quarter...",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Eleven million? Wow. So it's just, like, getting massively worse then.",
+        "tts_text": "Eleven million? Wow. So it's just, like, getting massively worse then.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Zuckerberg claims no, that it just means they're working harder to find it. He says that's only, um, 60% of total harmful content.",
+        "tts_text": "Zuckerberg claims no, that it just means they're working harder to find it. He says that's only, um, sixty percent of total harmful content.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The article does not contain the figure '60%'. It does state Zuckerberg's claim that the numbers mean they are working harder: 'But what it says is were working harder to identify and take action on this [type of content] more than others are.'",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Oh, okay. So, 60% of a horrifyingly massive problem. Super reassuring, really.",
+        "tts_text": "Oh, okay. So, sixty percent of a horrifyingly massive problem. Super reassuring, really.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "He also says a lot of it's caught automatically by AI, like, before users even see it.",
+        "tts_text": "He also says a lot of it's caught automatically by A I, like, before users even see it.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Facebook says it identifies most of the content automatically using artificial intelligence and advanced software before users can ever see it.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "\"Before users see it.\" So it's still there. Just, uh, hidden faster. Very proactive.",
+        "tts_text": "Before users see it. So it's still there. Just, uh, hidden faster. Very proactive.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, but Congress, like, isn't buying it. Representative Wagner told him he's \"not working hard enough.\"",
+        "tts_text": "Yeah, but Congress, like, isn't buying it. Representative Wagner told him he's not working hard enough.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Representative Ann Wagner (R-MO) scolded Zuckerberg at the hearing, saying, You are not working hard enough, and end-to-end encryption is not going to help the problem.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Naturally. And then he probably just, um, doubled down on his excuses.",
+        "tts_text": "Naturally. And then he probably just, um, doubled down on his excuses.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "He did. Said they work \"harder than any other company\" to identify this stuff.",
+        "tts_text": "He did. Said they work harder than any other company to identify this stuff.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "We work harder than any other company to identify this behavior, Zuckerberg said in response.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Right. While the FBI, um, Director Wray, worries his big encryption plans will just make it easier for the actual bad guys.",
+        "tts_text": "Right. While the F B I, um, Director Wray, worries his big encryption plans will just make it easier for the actual bad guys.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "FBI Director Christopher Wray has also been critical of Facebooks plan to encrypt all of its users messages in the near future. Wray says that it would be a dream come true for child pornographers.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Exactly. Wray thinks, you know, end-to-end encryption will enable child pornographers.",
+        "tts_text": "Exactly. Wray thinks, you know, end-to-end encryption will enable child pornographers.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Wray says that it would be a dream come true for child pornographers.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Which, like, the New York Times already said Messenger was responsible for nearly 12 million worldwide reports. So that's just...",
+        "tts_text": "Which, like, the New York Times already said Messenger was responsible for nearly twelve million worldwide reports. So that's just...",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The New York Times in September claimed that Facebook Messenger was responsible for nearly 12 million of the 18.4 million worldwide reports of child sexual abuse material.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah. But Zuckerberg's defending the encryption, saying they can still detect bad patterns of activity. Not just the content itself.",
+        "tts_text": "Yeah. But Zuckerberg's defending the encryption, saying they can still detect bad patterns of activity. Not just the content itself.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Zuckerberg also defended his decision to encrypt all user messages across Facebook services when he was asked about how it would affect the companys ability to police content. ... He said content violations can often be detected through behavior patterns, such as who is messaging whom.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Patterns. Like, uh, who's messaging whom, I guess. Not, you know, what they're actually saying.",
+        "tts_text": "Patterns. Like, uh, who's messaging whom, I guess. Not, you know, what they're actually saying.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "He said content violations can often be detected through behavior patterns, such as who is messaging whom.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Precisely. He said, \"We look at the patterns of activity of the accounts.\"",
+        "tts_text": "Precisely. He said, We look at the patterns of activity of the accounts.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "We look at the patterns of activity of the accounts.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "So, it's still just a giant, uh, horrifying mess then. Just, a mess they're trying to manage. Kinda.",
+        "tts_text": "So, it's still just a giant, uh, horrifying mess then. Just, a mess they're trying to manage. Kinda.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, um, a very large, deeply concerning mess. That they definitely say they're working harder on.",
+        "tts_text": "Yeah, um, a very large, deeply concerning mess. That they definitely say they're working harder on.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  },
+  "batch_index": 3
+}

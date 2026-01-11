@@ -1,0 +1,135 @@
+{
+  "id": 4102,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Conversational financial news recap"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "HostA",
+        "text": "A 279-point jump for the Dow, huh? I feel like we're on a rollercoaster this week.",
+        "tts_text": "A two hundred seventy nine-point jump for the Dow, huh? I feel like we're on a rollercoaster this week.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The Dow dropped 879 points, or 3.1%, while the S&P 500 lost 3% and the Nasdaq Composite lost 2.8%.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Right? And the Nasdaq up almost 4%—investors are really diving back into tech stocks with both feet.",
+        "tts_text": "Right? And the Nasdaq up almost four percent-investors are really diving back into tech stocks with both feet.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The Dow dropped 879 points, or 3.1%, while the S&P 500 lost 3% and the Nasdaq Composite lost 2.8%.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Yeah, and it's all tied to that WHO announcement about coronavirus containment, which is… uh, pretty optimistic, honestly.",
+        "tts_text": "Yeah, and it's all tied to that W H O announcement about coronavirus containment, which is... uh, pretty optimistic, honestly.",
+        "check_worthy": true,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "But then you've got Peter Navarro saying the exact opposite on Fox Business—calling it an economic catastrophe. Which one is it?",
+        "tts_text": "But then you've got Peter Navarro saying the exact opposite on Fox Business-calling it an economic catastrophe. Which one is it?",
+        "check_worthy": true,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Exactly! And then there's Larry Kudlow in The Wall Street Journal downplaying the whole thing, saying markets are actually too optimistic.",
+        "tts_text": "Exactly! And then there's Larry Kudlow in The Wall Street Journal downplaying the whole thing, saying markets are actually too optimistic.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "National Economic Council director Larry Kudlow had a more optimistic view, telling CNBCs Kelly Evans that the coronavirus has been contained in the United States and that the outbreak is not likely to be an economic tragedy.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "It's like whiplash trying to keep up. Even Treasury yields are surging after the curve flattened Monday—so much jargon, but it matters.",
+        "tts_text": "It's like whiplash trying to keep up. Even Treasury yields are surging after the curve flattened Monday-so much jargon, but it matters.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "10-year U.S. Treasury yields hit a record low on Tuesday after the yield curvea measure of the difference between 3-month and 10-year bond yields that is widely used as a recession indicatorinverted on Monday.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "For sure. And U.S. futures dropped overnight, which makes Tuesday's rally even more surprising.",
+        "tts_text": "For sure. And U.S. futures dropped overnight, which makes Tuesday's rally even more surprising.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "U.S. futures had rallied slightly overnight following Mondays losses, seemingly pointing to a Tuesday rebound, but stocks largely remained in the red during the day.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "But hey, The New York Times piece says even with gains like this, experts say don't get too comfortable—sell the highs, apparently.",
+        "tts_text": "But hey, The New York Times piece says even with gains like this, experts say don't get too comfortable-sell the highs, apparently.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Even with these major losses, experts say you shouldnt panic yet. One silver lining? Investors typically buy the dip following big drops.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Classic advice. Though I gotta say, after a 2% S&P climb, it's hard not to feel a little hopeful.",
+        "tts_text": "Classic advice. Though I gotta say, after a two percent S&P climb, it's hard not to feel a little hopeful.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The Dow dropped 879 points, or 3.1%, while the S&P 500 lost 3% and the Nasdaq Composite lost 2.8%.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "True, but then you remember Navarro's warning and that $40 billion question about Trump's company if he wins…",
+        "tts_text": "True, but then you remember Navarro's warning and that forty dollars billion question about Trump's company if he wins...",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "If Bloomberg Wins, Heres Who Might Pay The Estimated $60 Billion For His Company",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Oh man, don't get me started. Let's just enjoy the green while it lasts.",
+        "tts_text": "Oh man, don't get me started. Let's just enjoy the green while it lasts.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostB",
+        "text": "Deal. Until the next headline flips everything upside down again.",
+        "tts_text": "Deal. Until the next headline flips everything upside down again.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      }
+    ]
+  },
+  "generator_model": "DeepSeek-V3.1",
+  "batch_index": 2,
+  "artist_script": "HostA: A 279-point jump for the Dow, huh? I feel like we’re on a rollercoaster this week.\nHostB: Right? And the Nasdaq up almost 4%—investors are really diving back into tech stocks with both feet.\nHostA: Yeah, and it’s all tied to that WHO announcement about coronavirus containment, which is… uh, pretty optimistic, honestly.\nHostB: But then you’ve got Peter Navarro saying the exact opposite on Fox Business—calling it an economic catastrophe. Which one is it?\nHostA: Exactly! And then there’s Larry Kudlow in The Wall Street Journal downplaying the whole thing, saying markets are actually too optimistic.\nHostB: It’s like whiplash trying to keep up. Even Treasury yields are surging after the curve flattened Monday—so much jargon, but it matters.\nHostA: For sure. And U.S. futures dropped overnight, which makes Tuesday’s rally even more surprising.\nHostB: But hey, The New York Times piece says even with gains like this, experts say don’t get too comfortable—sell the highs, apparently.\nHostA: Classic advice. Though I gotta say, after a 2% S&P climb, it’s hard not to feel a little hopeful.\nHostB: True, but then you remember Navarro’s warning and that $40 billion question about Trump’s company if he wins…\nHostA: Oh man, don’t get me started. Let’s just enjoy the green while it lasts.\nHostB: Deal. Until the next headline flips everything upside down again."
+}

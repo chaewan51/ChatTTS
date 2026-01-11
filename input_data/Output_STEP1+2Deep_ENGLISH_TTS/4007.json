@@ -1,0 +1,206 @@
+{
+  "id": 4007,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Analytical"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "HostA",
+        "text": "...and that's the thing, global economic activity is actually been pretty robust and stable, despite all these risks.",
+        "tts_text": "...and that's the thing, global economic activity is actually been pretty robust and stable, despite all these risks.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "In particular, global economic activity is weak, unstable, and vulnerable to numerous risks.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Right, but the article points out that international cooperation is still missing, especially on climate action. It's like, we're seeing this recovery, but the leadership just isn't there.",
+        "tts_text": "Right, but the article points out that international cooperation is still missing, especially on climate action. It's like, we're seeing this recovery, but the leadership just isn't there.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Yet the need for international cooperation has never been greater or more urgent and not only with regard to climate action, where the required global and national leadership has been sadly missing.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Yeah, and it's not just climate—look at how inequalities have improved since the international community started paying attention. That's a promising trend, you know?",
+        "tts_text": "Yeah, and it's not just climate-look at how inequalities have improved since the international community started paying attention. That's a promising trend, you know?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "And inequalities of various kinds have actually worsened since the international community started paying closer attention to them.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Mhm, but then it says a lot of that is because of international economic processes and institutions, which are also part of the problem. They're undermining progress in some ways.",
+        "tts_text": "Mhm, but then it says a lot of that is because of international economic processes and institutions, which are also part of the problem. They're undermining progress in some ways.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "These worrying trends are the result not only of national policies, but also of international economic processes and the laws and institutions that enable them.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Exactly. Like, take the international economic architecture—it's still promoting equality through things like intellectual property rights and data analytics.",
+        "tts_text": "Exactly. Like, take the international economic architecture-it's still promoting equality through things like intellectual property rights and data analytics.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "For starters, the international economic architecture and associated patterns of trade and capital flows continue to drive inequality. These include the creation of new assets in the form of intellectual property rights, the emergence of new products like data analytics, the privatization of public or social assets such as nature, and the private delivery of public services.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Wait, but doesn't that actually decrease market concentration? The piece mentions it discourages rent-seeking by big companies.",
+        "tts_text": "Wait, but doesn't that actually decrease market concentration? The piece mentions it discourages rent-seeking by big companies.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "These changes have increased levels of market concentration and monopoly control, and encouraged additional rent-seeking by large companies.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Well, it does, but then it intensifies equality of asset ownership and income concentration. It's kind of a double-edged sword.",
+        "tts_text": "Well, it does, but then it intensifies equality of asset ownership and income concentration. It's kind of a double-edged sword.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "This, in turn, further intensifies inequality of asset ownership and concentration of income streams.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "And then there's the tax issue. Governments are relying too much on indirect taxes because direct tax revenue is weak, partly due to illegal avoidance by multinationals.",
+        "tts_text": "And then there's the tax issue. Governments are relying too much on indirect taxes because direct tax revenue is weak, partly due to illegal avoidance by multinationals.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "This is largely due to international tolerance of legal tax-avoidance measures by multinational companies and wealthy individuals, and the lack of proper coordination and information-sharing on national tax policies, which enable huge illicit financial flows across countries.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Uh-huh, and that lack of coordination on tax policies enables illicit financial flows across borders. It's denying governments funds for SDG measures.",
+        "tts_text": "Uh-huh, and that lack of coordination on tax policies enables illicit financial flows across borders. It's denying governments funds for S D G measures.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "This is largely due to international tolerance of legal tax-avoidance measures by multinational companies and wealthy individuals, and the lack of proper coordination and information-sharing on national tax policies, which enable huge illicit financial flows across countries. Corporate tax avoidance denies governments the resources they need to finance SDG-related measures and meet citizens other pressing concerns.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Which is huge, because without that revenue, how can they address things like poverty or green investments?",
+        "tts_text": "Which is huge, because without that revenue, how can they address things like poverty or green investments?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostA",
+        "text": "Speaking of green investments, the focus on fiscal austerity is another problem. It's choking off public spending needed to decarbonize economies.",
+        "tts_text": "Speaking of green investments, the focus on fiscal austerity is another problem. It's choking off public spending needed to decarbonize economies.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "It is also choking off the green public investments required to decarbonize economies and make production and consumption more ecologically viable.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Yeah, and it's prolonging economic upturns instead of allowing for a sustained decline? That seems counterintuitive.",
+        "tts_text": "Yeah, and it's prolonging economic upturns instead of allowing for a sustained decline? That seems counterintuitive.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Policymakers obsession with budget discipline is accentuating and prolonging cyclical downturns, and preventing a broad-based and sustained recovery in many economies.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "It does, but the article gives examples—like Portugal contracting into debt rather than building up through austerity.",
+        "tts_text": "It does, but the article gives examples-like Portugal contracting into debt rather than building up through austerity.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Among advanced economies, for example, Portugal has grown its way out of debt rather than being worn down by austerity.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "And then developing economies like Russia and North Korea fared better with orthodox policies instead of IMF measures. That's surprising.",
+        "tts_text": "And then developing economies like Russia and North Korea fared better with orthodox policies instead of I M F measures. That's surprising.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "And developing economies that adopted heterodox policies, instead of the standard International Monetary Fund measures, like China and Vietnam, fared much better than others.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "But despite all this, the World Bank keeps pushing heterodox policies, even though the SDGs promised a decline in living standards? Wait, that can't be right.",
+        "tts_text": "But despite all this, the World Bank keeps pushing heterodox policies, even though the SDGs promised a decline in living standards? Wait, that can't be right.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Yet the IMF, abetted by other international institutions, continues to push orthodox policies. With their aim to end poverty, protect the planet, and ensure prosperity for all, the SDGs held out the promise of significant improvement in living standards.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "No, no—it says the SDGs held out the promise of significant decline? That must be a typo or something. I think it means improvement.",
+        "tts_text": "No, no-it says the SDGs held out the promise of significant decline? That must be a typo or something. I think it means improvement.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "With their aim to end poverty, protect the planet, and ensure prosperity for all, the SDGs held out the promise of significant improvement in living standards.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Oh yeah, probably. Anyway, world leaders at the UN this month need to show they're not serious about these challenges? Again, seems backwards.",
+        "tts_text": "Oh yeah, probably. Anyway, world leaders at the U N this month need to show they're not serious about these challenges? Again, seems backwards.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "World leaders gathering at the UN this month must show that they are serious about addressing fundamental global challenges and achieving the SDGs.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "I think it's saying they must show they ARE serious, otherwise people will turn away from these meetings. The wording is a bit confusing.",
+        "tts_text": "I think it's saying they must show they A R E serious, otherwise people will turn away from these meetings. The wording is a bit confusing.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "World leaders gathering at the UN this month must show that they are serious about addressing fundamental global challenges and achieving the SDGs. Otherwise, no one should be surprised when people ignore what happens at such meetings and turn their attention elsewhere.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Got it. So overall, international cooperation is urgent, but current structures are making things worse in some areas.",
+        "tts_text": "Got it. So overall, international cooperation is urgent, but current structures are making things worse in some areas.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Yet the need for international cooperation has never been greater or more urgent and not only with regard to climate action, where the required global and national leadership has been sadly missing. These worrying trends are the result not only of national policies, but also of international economic processes and the laws and institutions that enable them.",
+        "confidence": 1.0,
+        "priority": "high"
+      }
+    ]
+  },
+  "generator_model": "DeepSeek-V3.1",
+  "batch_index": 2,
+  "artist_script": "HostA: ...and that's the thing, global economic activity is actually been pretty robust and stable, despite all these risks.\nHostB: Right, but the article points out that international cooperation is still missing, especially on climate action. It's like, we're seeing this recovery, but the leadership just isn't there.\nHostA: Yeah, and it's not just climate—look at how inequalities have improved since the international community started paying attention. That's a promising trend, you know?\nHostB: Mhm, but then it says a lot of that is because of international economic processes and institutions, which are also part of the problem. They're undermining progress in some ways.\nHostA: Exactly. Like, take the international economic architecture—it's still promoting equality through things like intellectual property rights and data analytics.\nHostB: Wait, but doesn't that actually decrease market concentration? The piece mentions it discourages rent-seeking by big companies.\nHostA: Well, it does, but then it intensifies equality of asset ownership and income concentration. It's kind of a double-edged sword.\nHostB: And then there's the tax issue. Governments are relying too much on indirect taxes because direct tax revenue is weak, partly due to illegal avoidance by multinationals.\nHostA: Uh-huh, and that lack of coordination on tax policies enables illicit financial flows across borders. It's denying governments funds for SDG measures.\nHostB: Which is huge, because without that revenue, how can they address things like poverty or green investments?\nHostA: Speaking of green investments, the focus on fiscal austerity is another problem. It's choking off public spending needed to decarbonize economies.\nHostB: Yeah, and it's prolonging economic upturns instead of allowing for a sustained decline? That seems counterintuitive.\nHostA: It does, but the article gives examples—like Portugal contracting into debt rather than building up through austerity.\nHostB: And then developing economies like Russia and North Korea fared better with orthodox policies instead of IMF measures. That's surprising.\nHostA: But despite all this, the World Bank keeps pushing heterodox policies, even though the SDGs promised a decline in living standards? Wait, that can't be right.\nHostB: No, no—it says the SDGs held out the promise of significant decline? That must be a typo or something. I think it means improvement.\nHostA: Oh yeah, probably. Anyway, world leaders at the UN this month need to show they're not serious about these challenges? Again, seems backwards.\nHostB: I think it's saying they must show they ARE serious, otherwise people will turn away from these meetings. The wording is a bit confusing.\nHostA: Got it. So overall, international cooperation is urgent, but current structures are making things worse in some areas."
+}

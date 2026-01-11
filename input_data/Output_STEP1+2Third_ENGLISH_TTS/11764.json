@@ -1,0 +1,167 @@
+{
+  "id": 11764,
+  "language": "english",
+  "hallucination": "no",
+  "ground_truth_source": "text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Argumentative"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "Okay, so, online fraud in Kazakhstan. Honestly, the government's just, like, completely dropped the ball, right? Zero action.",
+        "tts_text": "Okay, so, online fraud in Kazakhstan. Honestly, the government's just, like, completely dropped the ball, right? Zero action.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The government held a discussion on measures to ensure the security of Kazakhstanis' personal data. In particular, Prime Minister Olzhas Bektenov emphasized that the number of online fraud cases has been increasing recently... we launched a government service for monitoring access to personal data... we coordinate efforts with mobile network operators. Anti-fraud centers have been established... biometric registration is being introduced... the 'STOP Credit' service has been launched... legislation has toughened the penalties for violating personal data protection.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Whoa, wait, zero action? No, no, that's actually totally false. Did you even, uh, see the article?",
+        "tts_text": "Whoa, wait, zero action? No, no, that's actually totally false. Did you even, uh, see the article?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "I saw an article. But like, what, exactly, are they doing? Sending out a strongly worded memo?",
+        "tts_text": "I saw an article. But like, what, exactly, are they doing? Sending out a strongly worded memo?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "No, Host_A, seriously. Prime Minister Bektenov himself, um, emphasized this. They're doing quite a lot.",
+        "tts_text": "No, Host_A, seriously. Prime Minister Bektenov himself, um, emphasized this. They're doing quite a lot.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "In particular, Prime Minister Olzhas Bektenov emphasized that the number of online fraud cases has been increasing recently, including incidents involving the leakage of citizens™ personal data.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "\"Quite a lot.\" So, like, one little thing? A task force, maybe?",
+        "tts_text": "Quite a lot. So, like, one little thing? A task force, maybe?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "No, um, Minister Madiyev detailed it. They launched a service for monitoring data access. Seventy percent of government systems are connected. People get notified.",
+        "tts_text": "No, um, Minister Madiyev detailed it. They launched a service for monitoring data access. Seventy percent of government systems are connected. People get notified.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "\"First: we launched a government service for monitoring access to personal data. Over 70 percent of government information systems have been connected to it. The service collects consents and notifies citizens when their personal data is accessed,\" said Minister of Digital Development, Innovation, and Aerospace Industry Zhaslan Madiyev",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Notified? So they're just telling people their data's already gone? Great. That'll stop fraud.",
+        "tts_text": "Notified? So they're just telling people their data's already gone? Great. That'll stop fraud.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "It's about consent and transparency, first of all. And then, uh, they're coordinating with mobile operators. Anti-fraud centers. Integrated with the National Bank.",
+        "tts_text": "It's about consent and transparency, first of all. And then, uh, they're coordinating with mobile operators. Anti-fraud centers. Integrated with the National Bank.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Second: we coordinate efforts with mobile network operators. Anti-fraud centers have been established to detect and block scam calls. These centers are integrated with the National Bank™s anti-fraud center,",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "\"Anti-fraud centers.\" Sounds like more bureaucracy. Are they actually stopping anything, or just, like, collecting data on the scams?",
+        "tts_text": "Anti-fraud centers. Sounds like more bureaucracy. Are they actually stopping anything, or just, like, collecting data on the scams?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "They're blocking scam calls, Host_A. And, um, new SIM cards will require biometric registration. That's, you know, a pretty big step.",
+        "tts_text": "They're blocking scam calls, Host_A. And, um, new S I M cards will require biometric registration. That's, you know, a pretty big step.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Anti-fraud centers have been established to detect and block scam calls... biometric registration is being introduced for the purchase of new SIM cards.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Biometric registration. That'll just make it harder for regular people. The criminals will just find a workaround, like they always do. It's, uh, security theater.",
+        "tts_text": "Biometric registration. That'll just make it harder for regular people. The criminals will just find a workaround, like they always do. It's, uh, security theater.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "No, it's not. There's also liability for unlawful SIM transfers. And they toughened penalties for data protection violations. The 'STOP Credit' service too.",
+        "tts_text": "No, it's not. There's also liability for unlawful S I M transfers. And they toughened penalties for data protection violations. The 'S T O P Credit' service too.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "There will also be liability for the unlawful transfer of SIM cards to third parties... \"As I mentioned before, the 'STOP Credit' service has been launched... legislation has toughened the penalties for violating personal data protection.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Toughened penalties for after it happens. My point is, they're not stopping it from happening in the first place. This all sounds reactive, not proactive.",
+        "tts_text": "Toughened penalties for after it happens. My point is, they're not stopping it from happening in the first place. This all sounds reactive, not proactive.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "It's both! They're limiting fraudsters' actions, they're reviewing more provisions. It's, like, a multi-pronged approach. You can't just dismiss it all.",
+        "tts_text": "It's both! They're limiting fraudsters' actions, they're reviewing more provisions. It's, like, a multi-pronged approach. You can't just dismiss it all.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "We've developed a number of other provisions to complicate fraudsters' activities and limit their actions. These are currently under review by members of Parliament.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "I can dismiss it when, uh, the numbers keep going up. Until fraud decreases, it's just talk and, like, minor inconveniences for the actual bad guys.",
+        "tts_text": "I can dismiss it when, uh, the numbers keep going up. Until fraud decreases, it's just talk and, like, minor inconveniences for the actual bad guys.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "In particular, Prime Minister Olzhas Bektenov emphasized that the number of online fraud cases has been increasing recently",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "That's just incredibly cynical. They're clearly, um, making significant efforts here.",
+        "tts_text": "That's just incredibly cynical. They're clearly, um, making significant efforts here.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Efforts that aren't, uh, really working yet, are they? Just saying.",
+        "tts_text": "Efforts that aren't, uh, really working yet, are they? Just saying.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  },
+  "batch_index": 3
+}

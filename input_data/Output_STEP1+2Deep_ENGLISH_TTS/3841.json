@@ -1,0 +1,157 @@
+{
+  "id": 3841,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Colleagues or co-hosts",
+      "inferred_vibe": "Informative and critical"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "HostA",
+        "text": "The U.K. Information Commissioner's Office just proposed fines totalling £135,000 on anti-Brexit campaigns for data misuse.",
+        "tts_text": "The U.K. Information Commissioner's Office just proposed fines totalling one hundred thirty five thousand pounds on anti-Brexit campaigns for data misuse.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The news comes as the U.K. Information Commissioner's Office (ICO) released a report into pro-Brexit campaigns' use of data. That resulted in proposed fines on organizations run by Brexit's biggest single donor, Aaron Banks, and Leave.EU totalling £135,000.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Right, and that investigation, um, led them to uncover some pretty concerning practices at Twitter too.",
+        "tts_text": "Right, and that investigation, um, led them to uncover some pretty concerning practices at Twitter too.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "A spokesperson for ICO said its Brexit probe didn't expand to some tracking practises at Facebook. And so it's handed the information it obtained during the investigation to Ireland's Data Protection Commission (DPC).",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Exactly. They're handing over evidence to Ireland's Data Protection Commission because Twitter falls under their jurisdiction with GDPR.",
+        "tts_text": "Exactly. They're handing over evidence to Ireland's Data Protection Commission because Twitter falls under their jurisdiction with G D P R.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "We are in the process of referring other outstanding issues about Facebooks targeting functions and techniques used to monitor individuals' browsing habits, interactions and behaviour across the internet and different devices to the Irish Data Protection Commission, as the lead supervisory authority for Facebook under the General Data Protection Regulation (GDPR).",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "And it includes issues with fake ads—like, Twitter's been failing to verify who's actually paying for political content.",
+        "tts_text": "And it includes issues with fake ads-like, Twitter's been failing to verify who's actually paying for political content.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The ICO spokesperson told Forbes fake ads would be included in that referral. She cited a recent spate of reports outlining failures in Facebook's ability to prevent people lying about who paid for ads and targeting of racist views.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Yeah, the ICO spokesperson mentioned a recent spate of reports where people could just lie about their identity or target racist views.",
+        "tts_text": "Yeah, the I C O spokesperson mentioned a recent spate of reports where people could just lie about their identity or target racist views.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "She cited a recent spate of reports outlining failures in Facebook's ability to prevent people lying about who paid for ads and targeting of racist views.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "It's wild—The Intercept found they could run ads targeting people interested in 'white genocide.'",
+        "tts_text": "It's wild-The Intercept found they could run ads targeting people interested in 'white genocide.'",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The Intercept found last week it could advertise to those interested in white genocide.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Which is just, uh, horrifying, especially after the Pittsburgh synagogue shooting.",
+        "tts_text": "Which is just, uh, horrifying, especially after the Pittsburgh synagogue shooting.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The report came just days after a man believed to have held such views shot 11 dead at a Pittsburgh synagogue.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "And Vice got ads approved that pretended to be from Senators—just by lying about who was behind them.",
+        "tts_text": "And Vice got ads approved that pretended to be from Senators-just by lying about who was behind them.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Vice was able to set up ads purportedly backed by Senators. The reporter had to do little more than lie about who he worked for and who he was, and Facebook approved the ads.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Even Business Insider got ads approved supposedly paid for by Cambridge Analytica.",
+        "tts_text": "Even Business Insider got ads approved supposedly paid for by Cambridge Analytica.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "And Business Insider reported Facebook approved its ads that claimed to have been paid for by Cambridge Analytica, the data analytics company that was at the center of a furore around access to personal information belonging to users of the social media website.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "You'd think the 'Paid for by' feature would help, but it sounds like it's making things more confusing.",
+        "tts_text": "You'd think the 'Paid for by' feature would help, but it sounds like it's making things more confusing.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "It appears that thanks to the obvious ease with which it can be manipulated, it may be causing more confusion than clarity.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Meanwhile, Facebook's over here saying they fully comply with data laws and are happy to keep talking to regulators.",
+        "tts_text": "Meanwhile, Facebook's over here saying they fully comply with data laws and are happy to keep talking to regulators.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "A Facebook spokesperson said: We regularly engage with regulators regarding our advertising tools, which we believe fully comply with EU data protection laws. We look forward to continuing these discussions with the Irish Data Protection Commissioner, as our lead regulator on data protection matters under the GDPR.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Classic Facebook move. But Twitter's really under the microscope now with Ireland's DPC stepping in.",
+        "tts_text": "Classic Facebook move. But Twitter's really under the microscope now with Ireland's D P C stepping in.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "We are in the process of referring other outstanding issues about Facebooks targeting functions and techniques used to monitor individuals' browsing habits, interactions and behaviour across the internet and different devices to the Irish Data Protection Commission, as the lead supervisory authority for Facebook under the General Data Protection Regulation (GDPR).",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "They haven't even received the referral yet though—so we're gonna see how this plays out.",
+        "tts_text": "They haven't even received the referral yet though-so we're gonna see how this plays out.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The Irish regulator has not yet received the referral, however. As and when it's forthcoming, the body will explore Facebook's practises and and whether any punishment is required.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "For sure. It's another rough month for Twitter's reputation, that's for certain.",
+        "tts_text": "For sure. It's another rough month for Twitter's reputation, that's for certain.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "In the last month alone, a host of publications discovered ways to expose Facebook's ad vetting process.",
+        "confidence": 1.0,
+        "priority": "high"
+      }
+    ]
+  },
+  "generator_model": "DeepSeek-V3.1",
+  "batch_index": 2,
+  "artist_script": "People think social media ad transparency is a solved problem, but actually, these platforms are still struggling with basic verification.\nHostA: The U.K. Information Commissioner's Office just proposed fines totalling £135,000 on anti-Brexit campaigns for data misuse.\nHostB: Right, and that investigation, um, led them to uncover some pretty concerning practices at Twitter too.\nHostA: Exactly. They’re handing over evidence to Ireland’s Data Protection Commission because Twitter falls under their jurisdiction with GDPR.\nHostB: And it includes issues with fake ads—like, Twitter’s been failing to verify who’s actually paying for political content.\nHostA: Yeah, the ICO spokesperson mentioned a recent spate of reports where people could just lie about their identity or target racist views.\nHostB: It’s wild—The Intercept found they could run ads targeting people interested in ‘white genocide.’\nHostA: Which is just, uh, horrifying, especially after the Pittsburgh synagogue shooting.\nHostB: And Vice got ads approved that pretended to be from Senators—just by lying about who was behind them.\nHostA: Even Business Insider got ads approved supposedly paid for by Cambridge Analytica.\nHostB: You’d think the ‘Paid for by’ feature would help, but it sounds like it’s making things more confusing.\nHostA: Meanwhile, Facebook’s over here saying they fully comply with data laws and are happy to keep talking to regulators.\nHostB: Classic Facebook move. But Twitter’s really under the microscope now with Ireland’s DPC stepping in.\nHostA: They haven’t even received the referral yet though—so we’re gonna see how this plays out.\nHostB: For sure. It’s another rough month for Twitter’s reputation, that’s for certain."
+}

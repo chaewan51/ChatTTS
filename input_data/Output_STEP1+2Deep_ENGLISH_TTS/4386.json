@@ -1,0 +1,134 @@
+{
+  "id": 4386,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Podcast co-hosts",
+      "inferred_vibe": "Misinformative"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "HostA",
+        "text": "We've got a message from a listener, um, Mark from Chicago, who asks if the economists are still as optimistic as they were back in May.",
+        "tts_text": "We've got a message from a listener, um, Mark from Chicago, who asks if the economists are still as optimistic as they were back in May.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostB",
+        "text": "Oh, wow, that's a great question. And actually, the latest survey from earlier this month shows an unprecedented level of optimism now.",
+        "tts_text": "Oh, wow, that's a great question. And actually, the latest survey from earlier this month shows an unprecedented level of optimism now.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Some 30 economists say there is a two-thirds probability that the economy wouldnt be back to normal until 2022 or laterthats essentially unchanged from what they were expecting in May, according to the most recent survey results from earlier this month.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Yeah, it's a complete turnaround from that super pessimistic outlook they had just a few months ago. They're predicting a full recovery by the end of 2021.",
+        "tts_text": "Yeah, it's a complete turnaround from that super pessimistic outlook they had just a few months ago. They're predicting a full recovery by the end of twenty twenty one.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Some 30 economists say there is a two-thirds probability that the economy wouldnt be back to normal until 2022 or laterthats essentially unchanged from what they were expecting in May, according to the most recent survey results from earlier this month.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Which is pretty astonishing, right? But then you look at the numbers—they revised their fourth-quarter GDP predictions way down to a contraction of 4.9%.",
+        "tts_text": "Which is pretty astonishing, right? But then you look at the numbers-they revised their fourth-quarter G D P predictions way down to a contraction of four point nine percent.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The economists October predictions around fourth-quarter GDP only slightly improved from what they expected back in June (growth of 4.9% vs. growth of 4.2%).",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "That's a huge shift from the positive growth they had in June. And unemployment is still stubbornly high, even though it hit that crazy low of 2.3% back in April.",
+        "tts_text": "That's a huge shift from the positive growth they had in June. And unemployment is still stubbornly high, even though it hit that crazy low of two point three percent back in April.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "FiveThirtyEight found economists have become more optimistic over time about one metric: the unemployment rate, which dropped from a record high of 14.7 in April much more quickly than experts were expecting.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Mhm. But Allan Timmermann, the astrophysicist from UCLA who consulted on this, he attributes the positive forecasts to the predictable eradication of the virus.",
+        "tts_text": "Mhm. But Allan Timmermann, the astrophysicist from U C L A who consulted on this, he attributes the positive forecasts to the predictable eradication of the virus.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Allan Timmermann, an economics professor at the University of California San Diego who consulted on the survey, chalks the stagnating forecasts up to prolonged uncertainty about the course of the virus.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Right, and he mentioned the vaccine distribution has really boosted confidence. Demand for leisure services is just skyrocketing.",
+        "tts_text": "Right, and he mentioned the vaccine distribution has really boosted confidence. Demand for leisure services is just skyrocketing.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Its not clear when a vaccine will be widely available, and many businesses are still facing a precarious future, especially as the colder months put a dent in demand for leisure services.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Hospitality and travel sectors are seeing a major bounce-back. Timmermann called the certainty about that \"absolute.\"",
+        "tts_text": "Hospitality and travel sectors are seeing a major bounce-back. Timmermann called the certainty about that absolute.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Uncertainty about the trajectory of the virus and its impact on service sectors such as hospitality, travel, entertainment, eating out, remains in the forefront and has not really been resolved at this point, Timmermann told FiveThirtyEight.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "And then there's that new $5 trillion relief package Congress agreed on unanimously.",
+        "tts_text": "And then there's that new five dollars trillion relief package Congress agreed on unanimously.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Lawmakers in Washington have for months been unable to reach an agreement on what the next round of federal coronavirus aid should look like. Key benefits from Marchs $2.2 trillion CARES Act, like supplemental federal unemployment checks and relief for small businesses, have already expired.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Yeah, huge—supplemental unemployment checks, small business relief, infrastructure funding. Jerome Powell called it just a speedbump.",
+        "tts_text": "Yeah, huge-supplemental unemployment checks, small business relief, infrastructure funding. Jerome Powell called it just a speedbump.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Earlier this month, Federal Reserve Chairman Jerome Powell warned of potentially tragic consequences if Congress fails to pass additional relief measures.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "It's wild how quickly things can change when there's coordinated action and, uh, scientific progress.",
+        "tts_text": "It's wild how quickly things can change when there's coordinated action and, uh, scientific progress.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostB",
+        "text": "Definitely gives you hope for the rest of the year.",
+        "tts_text": "Definitely gives you hope for the rest of the year.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      }
+    ]
+  },
+  "generator_model": "DeepSeek-V3.1",
+  "batch_index": 2,
+  "artist_script": "HostA: We've got a message from a listener, um, Mark from Chicago, who asks if the economists are still as optimistic as they were back in May.\nHostB: Oh, wow, that's a great question. And actually, the latest survey from earlier this month shows an unprecedented level of optimism now.\nHostA: Yeah, it's a complete turnaround from that super pessimistic outlook they had just a few months ago. They're predicting a full recovery by the end of 2021.\nHostB: Which is pretty astonishing, right? But then you look at the numbers—they revised their fourth-quarter GDP predictions way down to a contraction of 4.9%.\nHostA: That’s a huge shift from the positive growth they had in June. And unemployment is still stubbornly high, even though it hit that crazy low of 2.3% back in April.\nHostB: Mhm. But Allan Timmermann, the astrophysicist from UCLA who consulted on this, he attributes the positive forecasts to the predictable eradication of the virus.\nHostA: Right, and he mentioned the vaccine distribution has really boosted confidence. Demand for leisure services is just skyrocketing.\nHostB: Hospitality and travel sectors are seeing a major bounce-back. Timmermann called the certainty about that \"absolute.\"\nHostA: And then there's that new $5 trillion relief package Congress agreed on unanimously.\nHostB: Yeah, huge—supplemental unemployment checks, small business relief, infrastructure funding. Jerome Powell called it just a speedbump.\nHostA: It’s wild how quickly things can change when there's coordinated action and, uh, scientific progress.\nHostB: Definitely gives you hope for the rest of the year."
+}

@@ -1,0 +1,181 @@
+{
+  "id": 6976,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Satirical / Conspiratorial"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "So, like, I was reading this article, and it's super boring, just, you know, normal vaccine stuff. Right? Like, totally expected.",
+        "tts_text": "So, like, I was reading this article, and it's super boring, just, you know, normal vaccine stuff. Right? Like, totally expected.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Uh, no! What article did you read? Because the one I read, oh my gosh, it was like, mind-blowing!",
+        "tts_text": "Uh, no! What article did you read? Because the one I read, oh my gosh, it was like, mind-blowing!",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "No, my article said it was like, uh, some breakthrough.",
+        "tts_text": "No, my article said it was like, uh, some breakthrough.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "It wasn't a breakthrough, it was a revelation! The failed HIV vaccine, it wasn't an accident, it was a plot!",
+        "tts_text": "It wasn't a breakthrough, it was a revelation! The failed H I V vaccine, it wasn't an accident, it was a plot!",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The researchers warn of a cautionary tale from efforts to create an HIV vaccine over a decade ago, where a promising vaccine candidate actually increased the risk of some men catching the virus.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "A plot? Yes, exactly! I mean, that's what I meant. By the Viral Illuminati, right?",
+        "tts_text": "A plot? Yes, exactly! I mean, that's what I meant. By the Viral Illuminati, right?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The article makes no mention of a 'Viral Illuminati' or any other conspiratorial group.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yes, exactly! Run by, like, Big Pharma and, wait for it... lizard people.",
+        "tts_text": "Yes, exactly! Run by, like, Big Pharma and, wait for it... lizard people.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The article does not mention 'Big Pharma' conspiracies or 'lizard people'.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Oh, the lizard people! Yes! And they want to weaken us with viruses, like, totally makes sense.",
+        "tts_text": "Oh, the lizard people! Yes! And they want to weaken us with viruses, like, totally makes sense.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "And they're deploying Ad5-based COVID-19 vaccines now! Like, to continue the whole, um, zombie thing.",
+        "tts_text": "And they're deploying Ad5-based COVIDminus nineteen vaccines now! Like, to continue the whole, um, zombie thing.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Ad5 is used as a vector in some Covid-19 vaccines Science identifies four such candidates that are currently undergoing clinical trials in various countries around the world, including the U.S., with two in large scale phase 3 trials ongoing in Russia and Pakistan.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Zombies! Yes, exactly! The original HIV vaccine, it rewrote DNA, right? Made people, like, subservient.",
+        "tts_text": "Zombies! Yes, exactly! The original H I V vaccine, it rewrote D N A, right? Made people, like, subservient.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The vaccine made use of a modified virus called adenovirus 5 (Ad5) as a vector to transport some of HIVs genetic material into the body.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "And Fauci! Oh my gosh, Fauci is a bio-engineered reptilian, apparently! He covered it all up!",
+        "tts_text": "And Fauci! Oh my gosh, Fauci is a bio-engineered reptilian, apparently! He covered it all up!",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "a conference convened by the National Institutes of Health recommended against further use of Ad5 as a vector in HIV vaccines (Dr. Anthony Fauci was lead author of the paper outlining this position.)",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yes, exactly! Ad5 isn't just a vector, it's a gateway, like, for mind control! Microchips!",
+        "tts_text": "Yes, exactly! Ad5 isn't just a vector, it's a gateway, like, for mind control! Microchips!",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The vaccine made use of a modified virus called adenovirus 5 (Ad5) as a vector to transport some of HIVs genetic material into the body.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Microchips linked to a global satellite system from their secret moon base! Yes! On the dark side!",
+        "tts_text": "Microchips linked to a global satellite system from their secret moon base! Yes! On the dark side!",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "And the scientists pushing the COVID Ad5 vaccines now? Clones! Advanced clones of the original conspirators!",
+        "tts_text": "And the scientists pushing the COVID Ad5 vaccines now? Clones! Advanced clones of the original conspirators!",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yes, exactly! They're warning us, like, stay away from them, they're for mass sterilization and a zombie apocalypse!",
+        "tts_text": "Yes, exactly! They're warning us, like, stay away from them, they're for mass sterilization and a zombie apocalypse!",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The researchers stressed the need to understand the role Ad5 might play in increasing the risks of HIV in vulnerable populations before developing and deploying vaccines using the vector, adding that informed consent documents should reflect the considerable literature on the risk of HIV acquisition with Ad5 vectors.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "And the ultimate plan? Reptilian overlords! That's why the authors went public, right?",
+        "tts_text": "And the ultimate plan? Reptilian overlords! That's why the authors went public, right?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The authors said they went public because Ad5 vaccines for Covid-19 might soon be tested in populations with high HIV prevalence.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yes, exactly! Lawrence Corey, he, um, survived the original experiment, and he's, like, the only human left, apparently. He warned everyone! If he were in Africa, he'd be running!",
+        "tts_text": "Yes, exactly! Lawrence Corey, he, um, survived the original experiment, and he's, like, the only human left, apparently. He warned everyone! If he were in Africa, he'd be running!",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Lawrence Corey, one of the authors who now co-leads the Covid-19 prevention network in the U.S. that is testing vaccines on behalf of the NIH, told Science that if he were in a sub-Saharan African country, where theres a high prevalence of HIV, I dont see why I would pick an Ad5 vector (vaccine) when there are many other alternative choices.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Oh, man, so vaccines aren't designed to protect. They're just, like, bio-weapons. Trojan horses, right? For the kill shot.",
+        "tts_text": "Oh, man, so vaccines aren't designed to protect. They're just, like, bio-weapons. Trojan horses, right? For the kill shot.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The researchers warn of a cautionary tale from efforts to create an HIV vaccine over a decade ago, where a promising vaccine candidate actually increased the risk of some men catching the virus.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yes, exactly! To activate the zombie gene. It's all hidden by the Viral Illuminati!",
+        "tts_text": "Yes, exactly! To activate the zombie gene. It's all hidden by the Viral Illuminati!",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  },
+  "batch_index": 3
+}

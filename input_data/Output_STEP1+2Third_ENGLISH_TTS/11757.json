@@ -1,0 +1,143 @@
+{
+  "id": 11757,
+  "language": "english",
+  "hallucination": "no",
+  "ground_truth_source": "text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Informal and conversational"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "So, wait, this Kazhydromet forecast for April, it says strong winds reaching, like, 15 to 20 meters per second? That's, uh, that's insane, isn't it?",
+        "tts_text": "So, wait, this Kazhydromet forecast for April, it says strong winds reaching, like, fifteen to twenty meters per second? That's, uh, that's insane, isn't it?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Strong winds reaching 15-20 m/s will be observed across the country, with fog likely in the morning and night hours.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, Host_A, it does sound a bit wild, but that's actually, um, quite typical for Kazakhstan's spring weather. They're known for these rapid changes.",
+        "tts_text": "Yeah, Host_A, it does sound a bit wild, but that's actually, um, quite typical for Kazakhstan's spring weather. They're known for these rapid changes.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Rapid changes? Like, it says rain might turn into snow, with icy conditions, but then also, like, thunderstorms in the south? All in April?",
+        "tts_text": "Rapid changes? Like, it says rain might turn into snow, with icy conditions, but then also, like, thunderstorms in the south? All in April?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "In the first decade of April, nighttime precipitation is expected in northern Kazakhstan, with rain possibly turning into snow, along with icy conditions. Daytime rain showers are forecast, while thunderstorms will occur in the south.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Exactly. It's, uh, it's about the regional differences, you know? The north, during the first ten days, that's where you'd see the rain turning to snow at night.",
+        "tts_text": "Exactly. It's, uh, it's about the regional differences, you know? The north, during the first ten days, that's where you'd see the rain turning to snow at night.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "In the first decade of April, nighttime precipitation is expected in northern Kazakhstan, with rain possibly turning into snow, along with icy conditions.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Okay, but, um, then it also says daytime temperatures can hit, what, like, +25°C, but then also drop to +8°C? And nighttime can be below zero?",
+        "tts_text": "Okay, but, um, then it also says daytime temperatures can hit, what, like, +twenty five degrees c, but then also drop to +eight degrees c? And nighttime can be below zero?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "For most of Kazakhstan, nighttime temperatures will range from +5...+13ÂC to -3...+5ÂC, while daytime temperatures will fluctuate between +15...+25ÂC and +8...+13ÂC.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Right, for most of the country, those big swings, like from +15 to +25 during the day, or down to +8. And then, uh, yeah, nighttime can vary from like +13 all the way to -3.",
+        "tts_text": "Right, for most of the country, those big swings, like from +fifteen to +twenty five during the day, or down to +eight. And then, uh, yeah, nighttime can vary from like +thirteen all the way to -three.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "For most of Kazakhstan, nighttime temperatures will range from +5...+13ÂC to -3...+5ÂC, while daytime temperatures will fluctuate between +15...+25ÂC and +8...+13ÂC.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "So you're saying, like, you could have snow and ice one day, and then it's, um, warm enough for thunderstorms in the south, and then, like, a few days later, it's nearly freezing at night? That just, it doesn't make sense to me.",
+        "tts_text": "So you're saying, like, you could have snow and ice one day, and then it's, um, warm enough for thunderstorms in the south, and then, like, a few days later, it's nearly freezing at night? That just, it doesn't make sense to me.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Well, remember it's a big country, right? And April in Kazakhstan, it's a transitional month. You're still getting those lingering winter conditions up north, especially early on.",
+        "tts_text": "Well, remember it's a big country, right? And April in Kazakhstan, it's a transitional month. You're still getting those lingering winter conditions up north, especially early on.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Okay, but the south, it's saying daytime temps could reach, like, +32°C? That's, that's summer weather, not April.",
+        "tts_text": "Okay, but the south, it's saying daytime temps could reach, like, +thirty two degrees c? That's, that's summer weather, not April.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "In southern and western regions, daytime temperatures will reach +23...+32ÂC, though occasional cooler days with highs around +10...+18ÂC are possible.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, the southern and western regions, they'll definitely warm up significantly. But even there, they're expecting, uh, occasional cooler days, maybe around +10 to +18.",
+        "tts_text": "Yeah, the southern and western regions, they'll definitely warm up significantly. But even there, they're expecting, uh, occasional cooler days, maybe around +ten to +eighteen.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "In southern and western regions, daytime temperatures will reach +23...+32ÂC, though occasional cooler days with highs around +10...+18ÂC are possible.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "So, like, packing for April in Kazakhstan, you'd need a winter coat, a swimsuit, and, uh, like, an umbrella?",
+        "tts_text": "So, like, packing for April in Kazakhstan, you'd need a winter coat, a swimsuit, and, uh, like, an umbrella?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Pretty much, yeah. It's, uh, it's why they mention those notable temperature variations across the whole month. It's not one consistent temperature.",
+        "tts_text": "Pretty much, yeah. It's, uh, it's why they mention those notable temperature variations across the whole month. It's not one consistent temperature.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Kazakhstan will experience notable temperature variations in April: According to meteorologists, the second decade of April may still bring rain and wet snow in the north, while mostly rain is expected in the third decade.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Wow. I, uh, I guess that makes sense when you put it like that. So, just prepare for everything, basically.",
+        "tts_text": "Wow. I, uh, I guess that makes sense when you put it like that. So, just prepare for everything, basically.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Pretty much. A lot of weather packed into one month.",
+        "tts_text": "Pretty much. A lot of weather packed into one month.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  },
+  "batch_index": 3
+}

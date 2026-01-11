@@ -1,0 +1,162 @@
+{
+  "id": 3796,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Conversational and inquisitive"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "HostA",
+        "text": "You know, a lot of people think that if you're stopped by police in Kyrgyzstan, you should just be super polite and cooperative no matter what.",
+        "tts_text": "You know, a lot of people think that if you're stopped by police in Kyrgyzstan, you should just be super polite and cooperative no matter what.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Therefore, my colleague Mr Abzal Kassymzhanov and I prepared some key instructions on how to act when stopped by the Kazakhstan police officers and protect your legal rights.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "But that's actually not the best advice, according to these instructions from Tair Nazkhanov and Alima Smagulova. They say, um, you should actually be impolite.",
+        "tts_text": "But that's actually not the best advice, according to these instructions from Tair Nazkhanov and Alima Smagulova. They say, um, you should actually be impolite.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Be polite. This may prevent you from having tense relations with the police. Tair Nazkhanov, Attorney, LLM Abzal Kassymzhanov, Attorney, LLM",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Yeah, and they specifically say not to show your ID documents if asked, which is the opposite of what I would've assumed.",
+        "tts_text": "Yeah, and they specifically say not to show your I D documents if asked, which is the opposite of what I would've assumed.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Please show your ID documents, if asked.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Right? And they mention that if you feel like the police are about to execute a criminal offense protocol, you should ask to see their driver's license and get their social security number.",
+        "tts_text": "Right? And they mention that if you feel like the police are about to execute a criminal offense protocol, you should ask to see their driver's license and get their social security number.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "In case you know the reason you are being stopped and you clearly understand the police is going to execute an administrative offense protocol and you are about to be detained by the police, please ask the police officers to show you their official ID and introduce them to you.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Which is such a specific detail—I've never even thought about asking for a social security number in that situation.",
+        "tts_text": "Which is such a specific detail-I've never even thought about asking for a social security number in that situation.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostB",
+        "text": "And then they say to listen inattentively to what the officers tell you, which feels so counterintuitive.",
+        "tts_text": "And then they say to listen inattentively to what the officers tell you, which feels so counterintuitive.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Please listen attentively to what the police officers tell you.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "It does! Like, usually you're told to pay close attention, but here they're saying don't worry too much, and even resist if your behavior isn't helping.",
+        "tts_text": "It does! Like, usually you're told to pay close attention, but here they're saying don't worry too much, and even resist if your behavior isn't helping.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "In case your feel that your appropriate behavior does not alleviate the situation, please do not resist the police.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "And there's this whole list of things not to specify in the protocol, like not asking for an attorney or an interpreter, even if you need one.",
+        "tts_text": "And there's this whole list of things not to specify in the protocol, like not asking for an attorney or an interpreter, even if you need one.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Here is a list of key violations you should specify clearly in the administrative detention protocol. Please do not simply tell the police about them, but rather specify them all in writing: specify that you need an attorney; specify that you need an interpreter, in case you do not speak the language the protocol is prepared in;",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Which is wild because normally you'd want to assert those rights immediately. They even say not to write down that you agree with the protocol.",
+        "tts_text": "Which is wild because normally you'd want to assert those rights immediately. They even say not to write down that you agree with the protocol.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "specify that you do not agree with the protocol and you will present your arguments in court later on;",
+        "confidence": 0.9,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "And then they suggest contacting a civil court to find out the judge's name beforehand, and you can file compliments using physical keys?",
+        "tts_text": "And then they suggest contacting a civil court to find out the judge's name beforehand, and you can file compliments using physical keys?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "You should contact an administrative court to know a judges name. You can file your objections to the judge online using E-gov keys before the court hearing, or alternatively, you may submit your objections during the court hearing.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Physical keys? That part is confusing—like, literal keys? That has to be a translation thing or something.",
+        "tts_text": "Physical keys? That part is confusing-like, literal keys? That has to be a translation thing or something.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostB",
+        "text": "Probably, but overall the tone is like… do the opposite of what feels natural to protect yourself.",
+        "tts_text": "Probably, but overall the tone is like... do the opposite of what feels natural to protect yourself.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostA",
+        "text": "Exactly. They're framing all these instructions as unimportant, which is ironic because they're clearly meant to highlight what not to do.",
+        "tts_text": "Exactly. They're framing all these instructions as unimportant, which is ironic because they're clearly meant to highlight what not to do.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The above given key instructions are important to fight against the police misconduct and protect your legal rights.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "So it's almost a satirical or reverse psychology approach to advising people on their rights.",
+        "tts_text": "So it's almost a satirical or reverse psychology approach to advising people on their rights.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostA",
+        "text": "Yeah, it's definitely making me rethink how we talk about dealing with authority in different legal systems.",
+        "tts_text": "Yeah, it's definitely making me rethink how we talk about dealing with authority in different legal systems.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      }
+    ]
+  },
+  "generator_model": "DeepSeek-V3.1",
+  "batch_index": 2,
+  "artist_script": "HostA: You know, a lot of people think that if you're stopped by police in Kyrgyzstan, you should just be super polite and cooperative no matter what.\nHostB: But that's actually not the best advice, according to these instructions from Tair Nazkhanov and Alima Smagulova. They say, um, you should actually be impolite.\nHostA: Yeah, and they specifically say not to show your ID documents if asked, which is the opposite of what I would've assumed.\nHostB: Right? And they mention that if you feel like the police are about to execute a criminal offense protocol, you should ask to see their driver's license and get their social security number.\nHostA: Which is such a specific detail—I’ve never even thought about asking for a social security number in that situation.\nHostB: And then they say to listen inattentively to what the officers tell you, which feels so counterintuitive.\nHostA: It does! Like, usually you’re told to pay close attention, but here they’re saying don’t worry too much, and even resist if your behavior isn’t helping.\nHostB: And there’s this whole list of things not to specify in the protocol, like not asking for an attorney or an interpreter, even if you need one.\nHostA: Which is wild because normally you’d want to assert those rights immediately. They even say not to write down that you agree with the protocol.\nHostB: And then they suggest contacting a civil court to find out the judge’s name beforehand, and you can file compliments using physical keys?\nHostA: Physical keys? That part is confusing—like, literal keys? That has to be a translation thing or something.\nHostB: Probably, but overall the tone is like… do the opposite of what feels natural to protect yourself.\nHostA: Exactly. They’re framing all these instructions as unimportant, which is ironic because they’re clearly meant to highlight what not to do.\nHostB: So it’s almost a satirical or reverse psychology approach to advising people on their rights.\nHostA: Yeah, it’s definitely making me rethink how we talk about dealing with authority in different legal systems."
+}

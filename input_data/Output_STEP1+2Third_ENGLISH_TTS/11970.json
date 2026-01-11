@@ -1,0 +1,151 @@
+{
+  "id": 11970,
+  "language": "english",
+  "hallucination": "no",
+  "ground_truth_source": "text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Informal and skeptical discussion"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "Wait, wait, so the dollar... like, just dropped below 500 tenge? Is that, uh, what this says?",
+        "tts_text": "Wait, wait, so the dollar... like, just dropped below five hundred tenge? Is that, uh, what this says?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "By the end of the evening trading session on the Kazakhstan Stock Exchange (KASE), the weighted average exchange rate of the dollar was 495.95 tenge... Dollar drops below 500.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, it did. On March 6th, the weighted average on the KASE was, um, 495.95.",
+        "tts_text": "Yeah, it did. On March sixth, the weighted average on the K A S E was, um, four hundred ninety five point nine five.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The US dollar exchange rate in Kazakhstan decreased on March 6. By the end of the evening trading session on the Kazakhstan Stock Exchange (KASE), the weighted average exchange rate of the dollar was 495.95 tenge...",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "495.95? But, like, how much did it actually drop? Is that even a big deal, really?",
+        "tts_text": "four hundred ninety five point nine five? But, like, how much did it actually drop? Is that even a big deal, really?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Well, it, uh, dropped by 0.71 tenge. From, like, the previous trading session.",
+        "tts_text": "Well, it, uh, dropped by zero point seven one tenge. From, like, the previous trading session.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "...the weighted average exchange rate of the dollar was 495.95 tenge, dropping by 0.71 tenge.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "0.71? That's, uh, barely anything, isn't it? We're talking, like, fractions of a tenge. What's the big fuss?",
+        "tts_text": "zero point seven one? That's, uh, barely anything, isn't it? We're talking, like, fractions of a tenge. What's the big fuss?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "It signals a trend, though, you know? The official National Bank rate was, uh, 496.71 for that day.",
+        "tts_text": "It signals a trend, though, you know? The official National Bank rate was, uh, four hundred ninety six point seven one for that day.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Notably, the official exchange rate set by the National Bank for March 6 is 496.71 tenge per dollar.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Official rate. Right. As if that's what anyone actually pays. What about, like, real world exchange offices? Almaty?",
+        "tts_text": "Official rate. Right. As if that's what anyone actually pays. What about, like, real world exchange offices? Almaty?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Okay, so, um, in Almaty, kurs.kz says it's 497.46 to buy, and, like, 499.90 to sell.",
+        "tts_text": "Okay, so, um, in Almaty, the website says it's four hundred ninety seven point four six to buy, and, like, four hundred ninety nine point nine zero to sell.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "According to kurs.kz, the current average exchange rate in exchange offices in Almaty is 497.46 tenge for buying and 499.90 tenge for selling.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "499.90? So it's still basically 500. This \"drops below 500\" thing just feels like spin, doesn't it?",
+        "tts_text": "four hundred ninety nine point nine zero? So it's still basically five hundred. This drops below five hundred thing just feels like spin, doesn't it?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Uh, I mean, technically it did. Below the 500 mark. And in Astana, it's bought for 496.28.",
+        "tts_text": "Uh, I mean, technically it did. Below the five hundred mark. And in Astana, it's bought for four hundred ninety six point two eight.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "In Astana, the dollar is being bought for an average of 496.28 tenge and sold for 502.27 tenge.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "But sold for 502.27 in Astana. So, like, it's above 500 there. Which is it? Is it dropping or not? This is, um, very confusing.",
+        "tts_text": "But sold for five hundred two point two seven in Astana. So, like, it's above five hundred there. Which is it? Is it dropping or not? This is, um, very confusing.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "In Astana, the dollar is being bought for an average of 496.28 tenge and sold for 502.27 tenge.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "The overall trend, though, um, according to economists, is that the tenge is strengthening. That's, like, the key takeaway.",
+        "tts_text": "The overall trend, though, um, according to economists, is that the tenge is strengthening. That's, like, the key takeaway.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Economists explain tenge™s strengthening Earlier, financial market experts in Kazakhstan shared their forecasts for the dollar exchange rate.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Economists. Right. The same ones who, uh, predict everything and nothing. So, 0.71 tenge is \"strengthening\"? Come on.",
+        "tts_text": "Economists. Right. The same ones who, uh, predict everything and nothing. So, zero point seven one tenge is strengthening? Come on.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "It's, like, a notable movement. A decrease, um, in the weighted average.",
+        "tts_text": "It's, like, a notable movement. A decrease, um, in the weighted average.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "A notable decrease that's still practically 500 everywhere. Yeah, okay. I'm just, like, not seeing it.",
+        "tts_text": "A notable decrease that's still practically five hundred everywhere. Yeah, okay. I'm just, like, not seeing it.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  },
+  "batch_index": 3
+}

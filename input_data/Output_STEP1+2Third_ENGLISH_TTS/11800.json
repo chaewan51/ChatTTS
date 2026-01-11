@@ -1,0 +1,155 @@
+{
+  "id": 11800,
+  "language": "english",
+  "hallucination": "no",
+  "ground_truth_source": "text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Informal and skeptical"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "So, like, does anyone actually listen when Kazhydromet issues, uh, another air pollution warning?",
+        "tts_text": "So, like, does anyone actually listen when Kazhydromet issues, uh, another air pollution warning?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Well, um, I think people should, actually. This one's for March 27th, 2025.",
+        "tts_text": "Well, um, I think people should, actually. This one's for March twenty seventh, twenty twenty five.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "On March 27, 2025, unfavorable meteorological conditions for air pollution are expected in the cities of Kokshetau, Pavlodar, Ust-Kamenogorsk, Semey, Atyrau, Aktobe, Aktau, Almaty, and at night in Astana,\" the statement reads.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "March what? A year from now? Is that even a warning then, or just, like, a forecast?",
+        "tts_text": "March what? A year from now? Is that even a warning then, or just, like, a forecast?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "No, it's specific. It covers, uh, Astana, Almaty, Kokshetau, a bunch of cities, actually.",
+        "tts_text": "No, it's specific. It covers, uh, Astana, Almaty, Kokshetau, a bunch of cities, actually.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "On March 27, 2025, unfavorable meteorological conditions for air pollution are expected in the cities of Kokshetau, Pavlodar, Ust-Kamenogorsk, Semey, Atyrau, Aktobe, Aktau, Almaty, and at night in Astana,\" the statement reads.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yeah, yeah, I get it. More smog. What else is new, though?",
+        "tts_text": "Yeah, yeah, I get it. More smog. What else is new, though?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "But it's about \"unfavorable meteorological conditions.\" That's the key part.",
+        "tts_text": "But it's about unfavorable meteorological conditions. That's the key part.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Unfavorable meteorological conditions are a combination of short-term meteorological factors (calm, light wind, fog, inversion) that contribute to the accumulation of harmful (polluting) substances in the lower layers of the atmosphere.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Unfavorable... so, like, light wind and fog? Sounds like a regular Tuesday to me.",
+        "tts_text": "Unfavorable... so, like, light wind and fog? Sounds like a regular Tuesday to me.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Unfavorable meteorological conditions are a combination of short-term meteorological factors (calm, light wind, fog, inversion) that contribute to the accumulation of harmful (polluting) substances in the lower layers of the atmosphere.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "It means pollution, um, builds up, though. In the lower atmosphere.",
+        "tts_text": "It means pollution, um, builds up, though. In the lower atmosphere.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Unfavorable meteorological conditions are a combination of short-term meteorological factors (calm, light wind, fog, inversion) that contribute to the accumulation of harmful (polluting) substances in the lower layers of the atmosphere.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Right. So, don't breathe. Got it. Is that the whole scoop?",
+        "tts_text": "Right. So, don't breathe. Got it. Is that the whole scoop?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "No, it actually details the specific temperatures and winds for Astana and Almaty.",
+        "tts_text": "No, it actually details the specific temperatures and winds for Astana and Almaty.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The capital will see partly cloudy skies on March 27 with no precipitation. A southeast wind of 3-8 m/s at night and 9-14 m/s during the day is expected. Temperatures will be -6 to -8ÂC at night and +5 to +7ÂC during the day. The metropolis will experience partly cloudy weather with no precipitation. A northeast wind of 3-8 m/s is expected. Temperatures will range from 0 to -2ÂC at night and +10 to +12ÂC during the day.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Wow. Riveting. Like, 0 to -2 at night in Almaty. Just thrilling.",
+        "tts_text": "Wow. Riveting. Like, zero to -two at night in Almaty. Just thrilling.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Temperatures will range from 0 to -2ÂC at night and +10 to +12ÂC during the day.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "But that combination, uh, it really creates the problem. The accumulation of stuff.",
+        "tts_text": "But that combination, uh, it really creates the problem. The accumulation of stuff.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Unfavorable meteorological conditions are a combination of short-term meteorological factors (calm, light wind, fog, inversion) that contribute to the accumulation of harmful (polluting) substances in the lower layers of the atmosphere.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "So they're warning us about bad air next year because of, like, a gentle breeze.",
+        "tts_text": "So they're warning us about bad air next year because of, like, a gentle breeze.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Unfavorable meteorological conditions are a combination of short-term meteorological factors (calm, light wind, fog, inversion) that contribute to the accumulation of harmful (polluting) substances in the lower layers of the atmosphere.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "It's about preparedness, I guess. For the, you know, harmful substances.",
+        "tts_text": "It's about preparedness, I guess. For the, you know, harmful substances.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Unfavorable meteorological conditions are a combination of short-term meteorological factors (calm, light wind, fog, inversion) that contribute to the accumulation of harmful (polluting) substances in the lower layers of the atmosphere.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Riiiiight. Good luck with that.",
+        "tts_text": "Riiiiight. Good luck with that.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  },
+  "batch_index": 3
+}

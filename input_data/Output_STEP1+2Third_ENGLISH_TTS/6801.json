@@ -1,0 +1,153 @@
+{
+  "id": 6801,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Podcast co-hosts",
+      "inferred_vibe": "A skeptical and informative discussion about a biotech company's business model and success."
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "So, is all this talk about our 'amazing' immune systems, like, just another way to sell us more stuff? Or is there actually something to it?",
+        "tts_text": "So, is all this talk about our 'amazing' immune systems, like, just another way to sell us more stuff? Or is there actually something to it?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Well, I mean, Carl Hansen, this biotech CEO, he genuinely thinks it's, uh, spectacular beyond description. He says we can make 100 trillion different antibodies.",
+        "tts_text": "Well, I mean, Carl Hansen, this biotech C E O, he genuinely thinks it's, uh, spectacular beyond description. He says we can make one hundred trillion different antibodies.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "We can make 100 trillion different antibodies, he exclaims. The immune system is spectacular beyond description.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "100 trillion? Okay, sure. Sounds like, um, an exaggeration. Is he, like, trying to sell stock or something? He's a CEO, right?",
+        "tts_text": "one hundred trillion? Okay, sure. Sounds like, um, an exaggeration. Is he, like, trying to sell stock or something? He's a C E O, right?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "He is a CEO now, but he was a college professor until recently. He cofounded AbCellera, this company that's doing things, you know, really differently in drug discovery.",
+        "tts_text": "He is a C E O now, but he was a college professor until recently. He cofounded AbCellera, this company that's doing things, you know, really differently in drug discovery.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "If that sounds more like a college professor than the CEO of a $13 billion (market cap) biotech company, theres a reason: Hansen was oneuntil 2019, when he left to focus on Vancouver- based AbCellera Biologics, cofounded with fellow researchers from the University of British Columbia in 2012.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Differently how? I mean, all these biotechs, they spend, like, a decade trying to get one drug approved. Is he just, uh, cutting corners?",
+        "tts_text": "Differently how? I mean, all these biotechs, they spend, like, a decade trying to get one drug approved. Is he just, uh, cutting corners?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Nearly all biotech startups develop a handful of treatment targets, then spend the next eight to 12 years developing those drugs, hoping to bring at least one of them to market.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "No, not cutting corners. They're not trying to, um, build a whole drug company. They just focus on the very first part: finding those promising antibodies, like, discovery as a service.",
+        "tts_text": "No, not cutting corners. They're not trying to, um, build a whole drug company. They just focus on the very first part: finding those promising antibodies, like, discovery as a service.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Instead of trying to build a vertically integrated drug company, it is focused solely on the discovery process. ... Instead it offers what might be described as drug discovery as a service.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Discovery as a service? So they just, what, find the needle in the haystack and then, uh, hand it off? Doesn't sound like they're curing anything, just, you know, selling leads.",
+        "tts_text": "Discovery as a service? So they just, what, find the needle in the haystack and then, uh, hand it off? Doesn't sound like they're curing anything, just, you know, selling leads.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Well, but they did help find bamlanivimab. That Covid-19 antibody? Eli Lilly used it. It got, uh, emergency authorization in just 90 days after they partnered.",
+        "tts_text": "Well, but they did help find bamlanivimab. That Covidminus nineteen antibody? Eli Lilly used it. It got, uh, emergency authorization in just ninety days after they partnered.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "It then turned over the most promising antibodies to drug company Eli Lilly. Clinical trials of one of those antibodies, bamlanivimab, began in Mayjust 90 days after the partnership started. ... in November, the antibody received emergency-use authorization from the FDA.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "90 days? That's, um, fast. Too fast, maybe? I mean, how much due diligence can you really do in that short a timeframe, you know, for an emergency authorization?",
+        "tts_text": "ninety days? That's, um, fast. Too fast, maybe? I mean, how much due diligence can you really do in that short a timeframe, you know, for an emergency authorization?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "It helped patients, and it's making a ton of money. Eli Lilly's expecting, like, $2 billion in revenue. AbCellera itself is getting, uh, $270 million in royalties.",
+        "tts_text": "It helped patients, and it's making a ton of money. Eli Lilly's expecting, like, two dollars billion in revenue. AbCellera itself is getting, uh, two hundred seventy dollars million in royalties.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Tests found patients with mild or moderate cases had good results... Eli Lilly issued guidance in mid-December expecting up to $2 billion in revenue from Covid-19 therapeutics in 2021, the bulk of which will come from bamlanivimab; AbCellera, which booked $25 million through the end of September 2020, will earn estimated royalties of $270 million on those sales, according to Credit Suisse.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "$270 million in royalties. Okay, so it's a huge money-maker. So Hansen, this ex-professor, he's, uh, what, a billionaire now, right?",
+        "tts_text": "two hundred seventy dollars million in royalties. Okay, so it's a huge money-maker. So Hansen, this ex-professor, he's, uh, what, a billionaire now, right?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Hansen is now worth $3 billion, thanks to the companys white-hot December IPO.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, about $3 billion, actually. But he says it feels surreal. And, um, his personal goal is to donate to research institutions, start a global health initiative.",
+        "tts_text": "Yeah, about three dollars billion, actually. But he says it feels surreal. And, um, his personal goal is to donate to research institutions, start a global health initiative.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The article does not mention any personal goals to donate to research institutions or start a global health initiative.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Right, like they all say. 'It feels surreal,' then he donates a fraction of it. I mean, after making billions off, uh, discovering antibodies. Just seems a little too convenient.",
+        "tts_text": "Right, like they all say. 'It feels surreal,' then he donates a fraction of it. I mean, after making billions off, uh, discovering antibodies. Just seems a little too convenient.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "But the model, the technology, it's, um, a proof point. It speeds things up. Saves money, gets treatments out sooner. That's, you know, objectively good.",
+        "tts_text": "But the model, the technology, it's, um, a proof point. It speeds things up. Saves money, gets treatments out sooner. That's, you know, objectively good.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "If this example of Covid shows one thing, to me, its the proof point of the business model and the technology. ... AbCellera is also looking to speed up the time it takes to develop its antibody therapies. The shorter time frame saves millions in development costs while enabling revenues to come in sooner than expected.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Objectively good, for whom, though? For the investors? For, uh, companies looking to shave a few years off R&D? I'm just, like, not entirely sold on this whole, um, 'personalized army' thing.",
+        "tts_text": "Objectively good, for whom, though? For the investors? For, uh, companies looking to shave a few years off R&D? I'm just, like, not entirely sold on this whole, um, 'personalized army' thing.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  },
+  "batch_index": 3
+}

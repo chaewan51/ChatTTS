@@ -1,0 +1,143 @@
+{
+  "id": 6848,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Informative and skeptical conversation"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "So, uh, Bloomberg is selling his little, like, news blog? Good for him, I guess.",
+        "tts_text": "So, uh, Bloomberg is selling his little, like, news blog? Good for him, I guess.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Wait, little news blog? No, no, Host_A, we're talking about Bloomberg LP. And if he wins the presidency, it's gonna be sold for, um, potentially over sixty-five billion dollars.",
+        "tts_text": "Wait, little news blog? No, no, Host_A, we're talking about Bloomberg L P. And if he wins the presidency, it's gonna be sold for, um, potentially over sixty-five billion dollars.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Using that same calculation, while also taking into account a slight premium for historical growth, Bloomberg LP could be worth up to $60 billion, the Burton-Taylor report estimates.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Sixty-five billion? Okay. And like, why should anyone care about another billionaire moving money around?",
+        "tts_text": "Sixty-five billion? Okay. And like, why should anyone care about another billionaire moving money around?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Well, because it's set off this massive scramble, you know? Like, stock exchanges, big tech giants, they're all, uh, circling it.",
+        "tts_text": "Well, because it's set off this massive scramble, you know? Like, stock exchanges, big tech giants, they're all, uh, circling it.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Based on the Refinitiv deal, some obvious candidates to buy Bloomberg LP, according to the Wall Street Journal, include big stock exchanges if they can raise enough money... Another option, in terms of balance sheet strength, would be one of the big tech giants like Microsoft, Amazon or Google parent Alphabet...",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yeah, yeah. Rich people fighting over toys. Sounds super thrilling.",
+        "tts_text": "Yeah, yeah. Rich people fighting over toys. Sounds super thrilling.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "But the valuation is huge, uh, based on the Refinitiv deal last year. They're saying it's, like, thirteen times earnings.",
+        "tts_text": "But the valuation is huge, uh, based on the Refinitiv deal last year. They're saying it's, like, thirteen times earnings.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Bloomberg LPs closest peer, Refinitiv (the former data arm of Thomson-Reuters) was acquired by the London Stock Exchange for $27 billion last summer, at about 13 times earnings, and serves as a guide for how Bloomberg LP could be sold, according to a report from Burton-Taylor International Consulting.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "So, like, Google wants to buy Bloomberg now? With YouTube money? That's just... wild.",
+        "tts_text": "So, like, Google wants to buy Bloomberg now? With YouTube money? That's just... wild.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Another option, in terms of balance sheet strength, would be one of the big tech giants like Microsoft, Amazon or Google parent Alphabet, as they increasingly look to integrate consumers financial data into their businesses, according to the Journal.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, well, apparently they want to deepen their, um, consumer financial data integration. It's all about the data, man.",
+        "tts_text": "Yeah, well, apparently they want to deepen their, um, consumer financial data integration. It's all about the data, man.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Another option, in terms of balance sheet strength, would be one of the big tech giants like Microsoft, Amazon or Google parent Alphabet, as they increasingly look to integrate consumers financial data into their businesses, according to the Journal.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Right. More data. Because we definitely need more of that. Zzz.",
+        "tts_text": "Right. More data. Because we definitely need more of that. Zzz.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "No, but the most likely thing is a consortium. Like, private equity firms pooling resources. And, um, even Warren Buffett's team is reportedly, like, really keen on the data analysis arm.",
+        "tts_text": "No, but the most likely thing is a consortium. Like, private equity firms pooling resources. And, um, even Warren Buffett's team is reportedly, like, really keen on the data analysis arm.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Another potential buyer could be an even richer billionaire, CCN reports, like Warren Buffet and his team at Berkshire Hathaway... Tangent: Speaking about Buffetts chances, Peck says: Hes still a value player I dont know how well [Bloomberg LP] fits in with Berkshire Hathaways playbook.",
+        "confidence": 0.9,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Buffett? Really? For... for financial data? I guess I shouldn't be surprised.",
+        "tts_text": "Buffett? Really? For... for financial data? I guess I shouldn't be surprised.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, they're drawn to the steady profits from the financial data services. It's, like, a goldmine of information.",
+        "tts_text": "Yeah, they're drawn to the steady profits from the financial data services. It's, like, a goldmine of information.",
+        "check_worthy": true,
+        "factual_label": "NEI",
+        "evidence_snippet": "Another potential buyer could be an even richer billionaire, CCN reports, like Warren Buffet and his team at Berkshire Hathaway: The Oracle of Omaha loves monopolies and has long been searching for elephant sized acquisition to spend his $128 billion cash pile on.",
+        "confidence": 0.8,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "A goldmine. Sure. Another financial beast for the rich to, uh, get richer off of. Revolutionary.",
+        "tts_text": "A goldmine. Sure. Another financial beast for the rich to, uh, get richer off of. Revolutionary.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Well, it's a company with, um, ten billion in revenue serving three hundred twenty-five thousand customers paying twenty-four thousand dollars a year. It's, like, a huge deal for the entire financial industry.",
+        "tts_text": "Well, it's a company with, um, ten billion in revenue serving three hundred twenty-five thousand customers paying twenty-four thousand dollars a year. It's, like, a huge deal for the entire financial industry.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Bloomberg LP brought in about $10 billion in revenue in 2019. The company provides news and data for some 325,000 customers who each pay a fixed price of $24,000 per year, the Wall Street Journal reports.",
+        "confidence": 1.0,
+        "priority": "high"
+      }
+    ]
+  },
+  "batch_index": 3
+}

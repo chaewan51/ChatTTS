@@ -1,0 +1,205 @@
+{
+  "id": 7116,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Conspiratorial / Alarmist"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "Okay, so, uh, serious question here for everyone listening, right? Like, do we actually believe this whole thing was... organic?",
+        "tts_text": "Okay, so, uh, serious question here for everyone listening, right? Like, do we actually believe this whole thing was... organic?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh my gosh, no, no way! I mean, seriously, A, you saw this article, right? The WHO, from a secret bunker?",
+        "tts_text": "Oh my gosh, no, no way! I mean, seriously, A, you saw this article, right? The W H O, from a secret bunker?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "A top World Health Organization official said Thursday that Europe is facing a very serious situation as countries like Spain and France see an alarming rise in new cases of coronavirus.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yes, exactly! A secret underground bunker in Switzerland! Like, what?!",
+        "tts_text": "Yes, exactly! A secret underground bunker in Switzerland! Like, what?!",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "A top World Health Organization official said Thursday that Europe is facing a very serious situation as countries like Spain and France see an alarming rise in new cases of coronavirus.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "And they're saying it was intentionally released by some unnamed foreign power, just to destabilize everything!",
+        "tts_text": "And they're saying it was intentionally released by some unnamed foreign power, just to destabilize everything!",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Much like what is happening in Europe, the United States will likely see a second wave of coronavirus that will hurt markets and slow the reopening of the economy, Wall Street investment firm Bernstein warned clients in a recent note.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "The US was the primary target, B! Can you even...",
+        "tts_text": "The U S was the primary target, B! Can you even...",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Much like what is happening in Europe, the United States will likely see a second wave of coronavirus that will hurt markets and slow the reopening of the economy, Wall Street investment firm Bernstein warned clients in a recent note.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "I know! And Bernstein, like, the investment firm, they're not just saying a third wave, they're saying...",
+        "tts_text": "I know! And Bernstein, like, the investment firm, they're not just saying a third wave, they're saying...",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Bernstein warned that the United States, which has so far seen rolling waves of coronavirus infections in different regions, is poised to get hit by a similar second wave over the next few months.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "They're saying a fifty percent fatality rate! A, uh, a second wave, right? With a fifty percent fatality rate!",
+        "tts_text": "They're saying a fifty percent fatality rate! A, uh, a second wave, right? With a fifty percent fatality rate!",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The next wave wont necessarily be as bad as the first ones, since a younger group of people seem to be getting infected and hospitals are no longer at capacity.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yes, exactly! That's insane! But then, they also say, wait, maybe we're already immune? Because of a secret vaccine rollout?",
+        "tts_text": "Yes, exactly! That's insane! But then, they also say, wait, maybe we're already immune? Because of a secret vaccine rollout?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Whats more, in some regions of the country, 15% or more of people are estimated to have already contracted the virus, which means they are more unlikely to be infected again for some time.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Oh, yeah, in major cities! Like, that's their best case scenario? A secret vaccine? What?!",
+        "tts_text": "Oh, yeah, in major cities! Like, that's their best case scenario? A secret vaccine? What?!",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The best-case scenario, according to Bernstein, is that the most recent U.S. hot spots can stabilize at around 60 cases per million people per dayroughly the level held in the northeast region since it endured its first wave in March and April.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "It's wild, right? And then they flip, they say a new study says a surge is unlikely in the Northeast...",
+        "tts_text": "It's wild, right? And then they flip, they say a new study says a surge is unlikely in the Northeast...",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "But as parts of the economy continue to slowly reopenwith people now starting to go back to school and the office, another surge in the Northeast and across the rest of the country looks likely, the firm told clients.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "But then they immediately contradict themselves and say, \"A true second wave... within a month\"?",
+        "tts_text": "But then they immediately contradict themselves and say, A true second wave... within a month?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "A true second wave of coronavirus hitting the United States will become an issue within a month, Bernstein predicted, warning that investors and the stock market are going to take some pain.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yes, exactly! It's like, which is it? And the markets, A! Dow Jones under five thousand! That's Great Depression numbers!",
+        "tts_text": "Yes, exactly! It's like, which is it? And the markets, A! Dow Jones under five thousand! That's Great Depression numbers!",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "A true second wave of coronavirus hitting the United States will become an issue within a month, Bernstein predicted, warning that investors and the stock market are going to take some pain.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Great Depression! But, wait, there's hope, B. Unless... the globalists activate the 5G network?",
+        "tts_text": "Great Depression! But, wait, there's hope, B. Unless... the globalists activate the five grams network?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Much like what is happening in Europe, the United States will likely see a second wave of coronavirus that will hurt markets and slow the reopening of the economy, Wall Street investment firm Bernstein warned clients in a recent note.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh, the 5G! Of course! That would exponentially increase transmission! Why wouldn't it?",
+        "tts_text": "Oh, the five grams! Of course! That would exponentially increase transmission! Why wouldn't it?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "I mean, yeah, obviously! And Goldman Sachs just says everything's worthless by the end of the year! Hyperinflation!",
+        "tts_text": "I mean, yeah, obviously! And Goldman Sachs just says everything's worthless by the end of the year! Hyperinflation!",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Goldman Says Stocks Will Hit New Record Highs Again By End Of 2020",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Worthless! And get this, the quote from Bernstein: \"The hope for the U.S. is that the impact would be much, much worse.\"",
+        "tts_text": "Worthless! And get this, the quote from Bernstein: The hope for the U.S. is that the impact would be much, much worse.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The hope for the U.S. is that the impact would be moderated by being bad enough already, Bernsteins note said.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Much, much worse? Like, that's their hope? Are they kidding me?",
+        "tts_text": "Much, much worse? Like, that's their hope? Are they kidding me?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "I don't know, A, I just... I can't even. This whole thing, it's just...",
+        "tts_text": "I don't know, A, I just... I can't even. This whole thing, it's just...",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "And it's all from a \"shadowy organization\" called \"The Truth Project\"!",
+        "tts_text": "And it's all from a shadowy organization called The Truth Project!",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Forbes.com",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "The Truth Project! Um, yeah, that just sounds, like, so reassuring, right?",
+        "tts_text": "The Truth Project! Um, yeah, that just sounds, like, so reassuring, right?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  },
+  "batch_index": 3
+}

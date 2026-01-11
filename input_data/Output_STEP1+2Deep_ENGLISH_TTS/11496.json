@@ -1,0 +1,111 @@
+{
+  "id": 11496,
+  "language": "english",
+  "hallucination": "no",
+  "ground_truth_source": "text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Podcast co-hosts",
+      "inferred_vibe": "Informative and concerned"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "HostA",
+        "text": "That footage from the Taraz railway crossing is just, uh, really hard to watch.",
+        "tts_text": "That footage from the Taraz railway crossing is just, uh, really hard to watch.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostB",
+        "text": "I know, right? A freight train, a minibus, and a Mercedes all involved on May 4th. It's a miracle that, um, the bus driver and passengers were unharmed.",
+        "tts_text": "I know, right? A freight train, a minibus, and a Mercedes all involved on May fourth. It's a miracle that, um, the bus driver and passengers were unharmed.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "A freight train, a Dongfeng minibus, and a Mercedes passenger car were involved in a traffic accident at a railway crossing in Taraz on May 4, according to the Zhambyl Regional Police Department. Authorities confirmed that the driver and passengers of the bus were unharmed.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Seriously. And even the people in the Mercedes didn't need to go to the hospital. Just got checked out and released.",
+        "tts_text": "Seriously. And even the people in the Mercedes didn't need to go to the hospital. Just got checked out and released.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The driver and a passenger in the Mercedes also did not require hospitalization and were released after a medical examination.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Yeah, but you've gotta wonder how that even occurs at a railway crossing. Like, were there immediately? The Zhambyl police said emergency crews responded fast.",
+        "tts_text": "Yeah, but you've gotta wonder how that even occurs at a railway crossing. Like, were there immediately? The Zhambyl police said emergency crews responded fast.",
+        "check_worthy": true,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "They did, and now they're doing the whole on-site investigation, impounding the vehicles, ordering forensic tests... it's a full procedure.",
+        "tts_text": "They did, and now they're doing the whole on-site investigation, impounding the vehicles, ordering forensic tests... it's a full procedure.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Police officers are conducting an on-site investigation and collecting evidence. Necessary forensic tests have been ordered, and the vehicles have been impounded, the statement said.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Makes sense. You can't be too careful with something this serious. But it does remind me of that other accident they mentioned.",
+        "tts_text": "Makes sense. You can't be too careful with something this serious. But it does remind me of that other accident they mentioned.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostA",
+        "text": "Oh right, in the Abai region? With the three men and the motorcycle on the suspension bridge? That one was just tragic.",
+        "tts_text": "Oh right, in the Abai region? With the three men and the motorcycle on the suspension bridge? That one was just tragic.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Previously, a tragic accident occurred in the Abai region when three men fell into a river while trying to transport a motorcycle across a suspension bridge.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Exactly. Two very different outcomes, but both just so preventable, you know?",
+        "tts_text": "Exactly. Two very different outcomes, but both just so preventable, you know?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostA",
+        "text": "Absolutely. Rail crossings and unstable bridges... it's a reminder to always err on the side of caution.",
+        "tts_text": "Absolutely. Rail crossings and unstable bridges... it's a reminder to always err on the side of caution.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostB",
+        "text": "For sure. Hopefully the investigation in Taraz leads to some clearer safety measures or awareness.",
+        "tts_text": "For sure. Hopefully the investigation in Taraz leads to some clearer safety measures or awareness.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      }
+    ]
+  },
+  "generator_model": "DeepSeek-V3.1",
+  "batch_index": 2
+}

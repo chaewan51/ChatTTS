@@ -1,0 +1,149 @@
+{
+  "id": 11187,
+  "language": "english",
+  "hallucination": "no",
+  "ground_truth_source": "text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Colleagues",
+      "inferred_vibe": "Casual and informative chat"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "HostA",
+        "text": "You know, I was just trying to exchange some dollars the other day, and I noticed the tenge is looking pretty strong right now.",
+        "tts_text": "You know, I was just trying to exchange some dollars the other day, and I noticed the tenge is looking pretty strong right now.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostB",
+        "text": "Oh, for sure. I saw that the Kazakhstan Stock Exchange had the dollar at 507.80 tenge by the end of trading, which is actually down from the day before.",
+        "tts_text": "Oh, for sure. I saw that the Kazakhstan Stock Exchange had the dollar at five hundred seven point eight zero tenge by the end of trading, which is actually down from the day before.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "According to the Kazakhstan Stock Exchange (KASE), the weighted average exchange rate for the US dollar was recorded at 507.80 tenge by the end of the daytime trading session, down by 0.59 tenge compared to the previous day.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Yeah, it dropped by, uh, 0.59 tenge, right? That's a decent move in just one session.",
+        "tts_text": "Yeah, it dropped by, uh, zero point five nine tenge, right? That's a decent move in just one session.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "According to the Kazakhstan Stock Exchange (KASE), the weighted average exchange rate for the US dollar was recorded at 507.80 tenge by the end of the daytime trading session, down by 0.59 tenge compared to the previous day.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "And the National Bank set the official rate for June 11 at 508.42, so it's all trending in the same direction.",
+        "tts_text": "And the National Bank set the official rate for June eleven at five hundred eight point four two, so it's all trending in the same direction.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The official exchange rate set by the National Bank of Kazakhstan for June 11 is 508.42 tenge per dollar.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "I checked kurs.kz too—in Almaty, the average is around 508 for buying, but selling's a bit higher at 510.23.",
+        "tts_text": "I checked the website too-in Almaty, the average is around five hundred eight for buying, but selling's a bit higher at five hundred ten point two three.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "According to kurs.kz, the average buying rate for the dollar in Almaty exchange offices stands at 508.33 tenge, with the selling rate at 510.23 tenge.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Interesting. In Astana, though, the buying rate's even lower—like, 506.59—but selling jumps up to 512.61. So there's some regional variation.",
+        "tts_text": "Interesting. In Astana, though, the buying rate's even lower-like, five hundred six point five nine-but selling jumps up to five hundred twelve point six one. So there's some regional variation.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "In Astana, the average buying rate is 506.59 tenge, while the selling rate is 512.61 tenge.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Yeah, it's wild how much it can vary city to city. But overall, the trend is clear: the dollar's definitely slipping against the tenge lately.",
+        "tts_text": "Yeah, it's wild how much it can vary city to city. But overall, the trend is clear: the dollar's definitely slipping against the tenge lately.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostB",
+        "text": "Economists are saying this strengthening isn't just a fluke either. There are some solid factors behind it.",
+        "tts_text": "Economists are saying this strengthening isn't just a fluke either. There are some solid factors behind it.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Dollar drops below 500. Economists explain tenge's strengthening",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Like what? I mean, are we talking about oil prices or something else driving this?",
+        "tts_text": "Like what? I mean, are we talking about oil prices or something else driving this?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostB",
+        "text": "Partly that, yeah. Kazakhstan's export revenues are up, and that always gives the tenge a boost. Plus, the National Bank's policies seem to be paying off.",
+        "tts_text": "Partly that, yeah. Kazakhstan's export revenues are up, and that always gives the tenge a boost. Plus, the National Bank's policies seem to be paying off.",
+        "check_worthy": true,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.5,
+        "priority": "medium"
+      },
+      {
+        "speaker": "HostA",
+        "text": "It's good news for importers, I guess, but maybe not so much for folks holding dollars right now.",
+        "tts_text": "It's good news for importers, I guess, but maybe not so much for folks holding dollars right now.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostB",
+        "text": "Exactly. If you were planning a trip abroad, now might be the time to change some money.",
+        "tts_text": "Exactly. If you were planning a trip abroad, now might be the time to change some money.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostA",
+        "text": "No kidding. I might hold off on buying dollars for a while and see where this goes.",
+        "tts_text": "No kidding. I might hold off on buying dollars for a while and see where this goes.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostB",
+        "text": "Smart move. The tenge has been on a real roll lately.",
+        "tts_text": "Smart move. The tenge has been on a real roll lately.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      }
+    ]
+  },
+  "generator_model": "DeepSeek-V3.1",
+  "batch_index": 2
+}

@@ -1,0 +1,155 @@
+{
+  "id": 7134,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Podcast co-hosts",
+      "inferred_vibe": "Sarcastic and humorous"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "This article. Hold on. It says negative fifteen percent interest rates? Like, minus fifteen percent?",
+        "tts_text": "This article. Hold on. It says negative fifteen percent interest rates? Like, minus fifteen percent?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Suppose central banks pushed back against todays flight into government debt by going further, cutting short-term policy rates to, say, -3% or lower.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, it’s, um, a lot, A, but it’s for Universal Basic Income across all of Europe. To eliminate poverty.",
+        "tts_text": "Yeah, it's, um, a lot, A, but it's for Universal Basic Income across all of Europe. To eliminate poverty.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The article does not mention Universal Basic Income or eliminating poverty. It states that negative rates would operate similarly to normal monetary policy, boosting aggregate demand and raising employment.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Eliminate poverty. Right. And, uh, make the Sahara desert lush?",
+        "tts_text": "Eliminate poverty. Right. And, uh, make the Sahara desert lush?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "It’s a radical shift! But the pilot cities, they've seen, um, unprecedented happiness levels.",
+        "tts_text": "It's a radical shift! But the pilot cities, they've seen, um, unprecedented happiness levels.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The article does not mention pilot cities or happiness levels. It mentions that \"recent empirical evidence increasingly supports\" the effectiveness of negative rates.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Unprecedented happiness, sure. With the AI, Athena.",
+        "tts_text": "Unprecedented happiness, sure. With the A I, Athena.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yes! And, like, it's getting rid of debt guarantees, making them obsolete.",
+        "tts_text": "Yes! And, like, it's getting rid of debt guarantees, making them obsolete.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Now, imagine that, rather than shoring up markets solely via guarantees, the Fed could push most short-term interest rates across the economy to near or below zero.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Obsolete. And these pilot cities are being run by, what, the 'Central Bank of the United Federation of Planets'? Come on.",
+        "tts_text": "Obsolete. And these pilot cities are being run by, what, the 'Central Bank of the United Federation of Planets'? Come on.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "That part's a bit much, I get it. But influential people, like Bill Gates and Elon Musk, they’re supporting it.",
+        "tts_text": "That part's a bit much, I get it. But influential people, like Bill Gates and Elon Musk, they're supporting it.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The article does not mention Bill Gates or Elon Musk. It does mention that \"Influential bank lobbyists hate negative rates\".",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "And Paul McCartney, apparently, with a new single. So, we're abolishing the dollar for something called the 'Gaia'?",
+        "tts_text": "And Paul McCartney, apparently, with a new single. So, we're abolishing the dollar for something called the 'Gaia'?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The article does not mention Paul McCartney, abolishing the dollar, or a currency named 'Gaia'. It mentions a weaker dollar would be a helpful outcome.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "It’s backed by the combined resources of Earth! For, uh, absolute transparency.",
+        "tts_text": "It's backed by the combined resources of Earth! For, uh, absolute transparency.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The article contains no information about a new currency, how it would be backed, or transparency.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "And that's before or after we discover extraterrestrial life in five years? Because that’s in here too.",
+        "tts_text": "And that's before or after we discover extraterrestrial life in five years? Because that's in here too.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The article does not mention the discovery of extraterrestrial life.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Look, it will completely annihilate all existing sovereign debt. It’s a massive global wealth transfer!",
+        "tts_text": "Look, it will completely annihilate all existing sovereign debt. It's a massive global wealth transfer!",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The article states that \"negative rates would lift many firms, states, and cities from default\" but also that \"Even with negative rates, many countries would still need a debt moratorium.\"",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "A massive wealth transfer where Dr. Jane Goodall is worried about global penguin populations instead. Yeah.",
+        "tts_text": "A massive wealth transfer where Dr. Jane Goodall is worried about global penguin populations instead. Yeah.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "But it’s happening this summer! This new economic paradigm.",
+        "tts_text": "But it's happening this summer! This new economic paradigm.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The article does not specify a timeline of \"this summer\". It concludes by saying \"it is time for central banks and governments to give the idea a long, hard, and urgent look.\"",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Oh, is it? Which summer exactly, B? Because, uh, I’m kinda bored already.",
+        "tts_text": "Oh, is it? Which summer exactly, B? Because, uh, I'm kinda bored already.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  },
+  "batch_index": 3
+}

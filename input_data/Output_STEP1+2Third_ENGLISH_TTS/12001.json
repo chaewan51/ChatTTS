@@ -1,0 +1,163 @@
+{
+  "id": 12001,
+  "language": "english",
+  "hallucination": "no",
+  "ground_truth_source": "text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Informal and explanatory"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "So, like, is weather forecasting, uh, even a real science anymore? I look at this stuff and I'm just like... what even is this?",
+        "tts_text": "So, like, is weather forecasting, uh, even a real science anymore? I look at this stuff and I'm just like... what even is this?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Hmm, that's a pretty, um, loaded question to kick us off, Host_A. But I get what you mean.",
+        "tts_text": "Hmm, that's a pretty, um, loaded question to kick us off, Host_A. But I get what you mean.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yeah, 'cause I'm looking at this Kazhydromet forecast here, for Almaty and Astana? And it's just, uh, confusing.",
+        "tts_text": "Yeah, 'cause I'm looking at this Kazhydromet forecast here, for Almaty and Astana? And it's just, uh, confusing.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "It can seem that way initially.",
+        "tts_text": "It can seem that way initially.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Seriously! Like, it says \"March 5\" and then it gives a whole forecast. And then it says \"March 5\" again and gives a totally different forecast. What gives?",
+        "tts_text": "Seriously! Like, it says March five and then it gives a whole forecast. And then it says March five again and gives a totally different forecast. What gives?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "March 5: Partly cloudy, occasional snow and blowing snow. ... March 5: Partly cloudy, no precipitation.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Okay, so that's the key right there. The first set of dates, um, March 5th through 7th, that's Almaty. The second set is for Astana.",
+        "tts_text": "Okay, so that's the key right there. The first set of dates, um, March fifth through seventh, that's Almaty. The second set is for Astana.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The article presents the forecast for Astana first, followed by the forecast for Almaty. The first set of dates (March 5-7) is for Astana, and the second set is for Almaty.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Oh, okay. That, uh, makes some sense. So, for Almaty, March 5th, it's like, minus 17 Celsius at night? And like, minus four to minus six in the day? That's just... cold.",
+        "tts_text": "Oh, okay. That, uh, makes some sense. So, for Almaty, March fifth, it's like, minus seventeen Celsius at night? And like, minus four to minus six in the day? That's just... cold.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The temperatures cited (-15 to -17°C at night, -4 to -6°C in the day) are for Astana on March 5. The forecast for Almaty on March 5 is: Nighttime temperature: -7 to -9°C, daytime: +2 to +4°C.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "It's definitely a harsh one for Almaty, yeah. Gusty winds, snow, blowing snow all day.",
+        "tts_text": "It's definitely a harsh one for Almaty, yeah. Gusty winds, snow, blowing snow all day.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The weather described (gusty winds, snow, blowing snow) is for Astana on March 5. The forecast for Almaty on March 5 is: no precipitation, fog at times, icy roads.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "And then March 6th, it's still, like, snow and icy conditions. Gets to maybe just above freezing, one degree?",
+        "tts_text": "And then March sixth, it's still, like, snow and icy conditions. Gets to maybe just above freezing, one degree?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The weather described (snow, icy conditions, -1 to +1°C) is for Astana on March 6. The forecast for Almaty on March 6 is: no precipitation, daytime: +7 to +9°C.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Exactly. And then the 7th, still rain and snow, icy, zero to minus two during the day. So, like, a slow, slow warm-up.",
+        "tts_text": "Exactly. And then the seventh, still rain and snow, icy, zero to minus two during the day. So, like, a slow, slow warm-up.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The weather described (rain and snow, icy, 0 to -2°C) is for Astana on March 7. The forecast for Almaty on March 7 is: rain and snow in the morning and afternoon, daytime: +5 to +7°C.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "But wait, for Astana, on their March 5th? It's already plus two to plus four? And no precipitation? That's a huge difference!",
+        "tts_text": "But wait, for Astana, on their March fifth? It's already plus two to plus four? And no precipitation? That's a huge difference!",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The weather described (+2 to +4°C, no precipitation) is for Almaty on March 5. The forecast for Astana on March 5 is: occasional snow, daytime: -4 to -6°C.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh, absolutely. Astana's looking much milder. By March 6th, they're, uh, up to plus seven to plus nine, daytime.",
+        "tts_text": "Oh, absolutely. Astana's looking much milder. By March sixth, they're, uh, up to plus seven to plus nine, daytime.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The temperatures cited (+7 to +9°C) are for Almaty on March 6. The forecast for Astana on March 6 is: daytime: -1 to +1°C.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Wow. So then when the article asks, \"When will it get warmer in Almaty?\"",
+        "tts_text": "Wow. So then when the article asks, When will it get warmer in Almaty?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "When will it get warmer in Almaty",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Right.",
+        "tts_text": "Right.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "The answer is, like, \"Not anytime soon, apparently\"?",
+        "tts_text": "The answer is, like, Not anytime soon, apparently?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Pretty much. Almaty's stuck in that colder, icier pattern for these three days, at least. Astana gets the early spring.",
+        "tts_text": "Pretty much. Almaty's stuck in that colder, icier pattern for these three days, at least. Astana gets the early spring.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The article states the opposite: Astana has the colder, icier pattern (e.g., March 5 daytime: -4 to -6°C), while Almaty is warmer (e.g., March 5 daytime: +2 to +4°C).",
+        "confidence": 1.0,
+        "priority": "high"
+      }
+    ]
+  },
+  "batch_index": 3
+}

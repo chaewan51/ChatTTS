@@ -1,0 +1,153 @@
+{
+  "id": 11422,
+  "language": "english",
+  "hallucination": "no",
+  "ground_truth_source": "text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Colleagues or Co-hosts",
+      "inferred_vibe": "Informational and conversational"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "HostA",
+        "text": "Kazakhstan is in for a scorcher on Thursday, May 15th, according to Kazhydromet.",
+        "tts_text": "Kazakhstan is in for a scorcher on Thursday, May fifteenth, according to Kazhydromet.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "On Thursday, May 15, hot weather is expected to dominate much of Kazakhstan. Thunderstorms and strong winds are possible in some cities, according to Kazhydromet.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Oh wow, yeah, I was just looking at that. Some places are gonna be absolutely baking—like, Kyzylorda is expecting up to 43 degrees Celsius during the day.",
+        "tts_text": "Oh wow, yeah, I was just looking at that. Some places are gonna be absolutely baking-like, Kyzylorda is expecting up to forty three degrees Celsius during the day.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Kyzylorda \" Slight cloudiness, no precipitation. SE wind turning W 9\"14 m/s. +21¦+23ÂC at night, extreme heat +41¦+43ÂC during the day.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Forty-three? That's extreme heat for sure. And it's not just the heat, some areas might get thunderstorms and strong winds too.",
+        "tts_text": "Forty-three? That's extreme heat for sure. And it's not just the heat, some areas might get thunderstorms and strong winds too.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Thunderstorms and strong winds are possible in some cities, according to Kazhydromet.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Right, like Petropavlovsk is supposed to have thunderstorms and gusts up to 23 meters per second. That's pretty intense.",
+        "tts_text": "Right, like Petropavlovsk is supposed to have thunderstorms and gusts up to twenty three meters per second. That's pretty intense.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Petropavlovsk \" Cloudy, rain and thunderstorms. SE wind 15\"20 m/s, gusts up to 23 m/s during the day.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Meanwhile, Astana's looking a bit milder, partly cloudy with highs around 34 to 36, which is still really warm for them.",
+        "tts_text": "Meanwhile, Astana's looking a bit milder, partly cloudy with highs around thirty four to thirty six, which is still really warm for them.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Astana \" Partly cloudy, no precipitation. Southeast wind 7\"12 m/s. Temperature: +15¦+17ÂC at night, extreme heat +34¦+36ÂC during the day.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "And then you've got coastal Aktau, where it's only gonna be like 23 degrees max—much more comfortable, but they've got those strong wind shifts.",
+        "tts_text": "And then you've got coastal Aktau, where it's only gonna be like twenty three degrees max-much more comfortable, but they've got those strong wind shifts.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Aktau \" Partly cloudy, no precipitation. NW wind shifting to NE 7\"12 m/s, gusts up to 15\"18 m/s at night. +16¦+18ÂC at night, +21¦+23ÂC during the day.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Yeah, the northwest turning northeast, gusts up to 18 m/s at night. Sounds a bit blustery.",
+        "tts_text": "Yeah, the northwest turning northeast, gusts up to eighteen meters per second at night. Sounds a bit blustery.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Aktau \" Partly cloudy, no precipitation. NW wind shifting to NE 7\"12 m/s, gusts up to 15\"18 m/s at night.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "It's interesting how varied it is across the country. Shymkent and Turkestan are also hitting the high 30s, even low 40s.",
+        "tts_text": "It's interesting how varied it is across the country. Shymkent and Turkestan are also hitting the high 30s, even low 40s.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Shymkent \" Slight cloudiness, no precipitation. South wind 3\"8 m/s. +17¦+19ÂC at night, +36¦+38ÂC during the day. Turkestan \" Slight cloudiness, no precipitation. S wind 8\"13 m/s. +19¦+21ÂC at night, extreme heat +39¦+41ÂC during the day.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "And then up north, places like Kokshetau are only in the high 20s. Big range.",
+        "tts_text": "And then up north, places like Kokshetau are only in the high 20s. Big range.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Kokshetau \" Partly cloudy, no precipitation. SE wind 9\"14 m/s. +12¦+14ÂC at night, +29¦+31ÂC during the day.",
+        "confidence": 0.9,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Definitely. You wouldn't wanna be in Zhezkazgan or Turkestan without some serious AC.",
+        "tts_text": "Definitely. You wouldn't wanna be in Zhezkazgan or Turkestan without some serious A C.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostA",
+        "text": "No kidding. And with those southeast winds blowing steady in a lot of regions, it might feel even hotter.",
+        "tts_text": "No kidding. And with those southeast winds blowing steady in a lot of regions, it might feel even hotter.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Astana \" Partly cloudy, no precipitation. Southeast wind 7\"12 m/s. Zhezkazgan \" Partly cloudy, no precipitation. SE wind 5\"10 m/s.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "At least most places aren't expecting rain, though—except for a few spots with overnight showers.",
+        "tts_text": "At least most places aren't expecting rain, though-except for a few spots with overnight showers.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Aktobe \" Partly cloudy, occasional rain and thunderstorms at night. W and NW wind 7\"12 m/s, gusts up to 15 m/s at night. Uralsk \" Partly cloudy, rain and thunderstorms at night. W wind 9\"14 m/s.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "True. Overall, just a classic hot, dry pattern for mid-May there.",
+        "tts_text": "True. Overall, just a classic hot, dry pattern for mid-May there.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostB",
+        "text": "Makes you grateful for shade and cold drinks, honestly.",
+        "tts_text": "Makes you grateful for shade and cold drinks, honestly.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      }
+    ]
+  },
+  "generator_model": "DeepSeek-V3.1",
+  "batch_index": 2
+}

@@ -1,0 +1,233 @@
+{
+  "id": 7212,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Outraged and informal"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "Oh my god, I just read this thing about Apple and I'm just...",
+        "tts_text": "Oh my god, I just read this thing about Apple and I'm just...",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Whew! Yeah, no, I saw that. I saw that.",
+        "tts_text": "Whew! Yeah, no, I saw that. I saw that.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Like, the sheer audacity! They declared that three janitors in Ireland were the source of their multi-billion dollar profits?",
+        "tts_text": "Like, the sheer audacity! They declared that three janitors in Ireland were the source of their multi-billion dollar profits?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "...its legal claim that a few hundred people working in Ireland were the real source of its profits...",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yes! Exactly! And then they just, like, bribed the Irish government, apparently, and paid, what was it, 0.00001%?",
+        "tts_text": "Yes! Exactly! And then they just, like, bribed the Irish government, apparently, and paid, what was it, zero point zero zero zero zero one percent?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "...striking a deal with that countrys government that resulted in its paying a tax amounting to .005% of its profit.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "A fraction of a percent! Basically nothing! And then they have the gall to, like, tell us they're environmentally responsible, uh-huh.",
+        "tts_text": "A fraction of a percent! Basically nothing! And then they have the gall to, like, tell us they're environmentally responsible, uh-huh.",
+        "check_worthy": true,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.9,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "I know! Right? They're, like, tearing down society, but hey, green logo!",
+        "tts_text": "I know! Right? They're, like, tearing down society, but hey, green logo!",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Totally! Because if everyone just avoided taxes like these corporate giants, like, we wouldn't even have the internet.",
+        "tts_text": "Totally! Because if everyone just avoided taxes like these corporate giants, like, we wouldn't even have the internet.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "If everyone avoided and evaded taxes like these companies, society could not function, much less make the public investments that led to the Internet, on which Apple and Google depend.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh, a hundred percent! The whole thing just devolves into chaos. It's wild, you know? Like, this race to the bottom?",
+        "tts_text": "Oh, a hundred percent! The whole thing just devolves into chaos. It's wild, you know? Like, this race to the bottom?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yes, exactly! And it's been going on for decades! Impoverishing nations, pushing for lower rates.",
+        "tts_text": "Yes, exactly! And it's been going on for decades! Impoverishing nations, pushing for lower rates.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "For years, multinational corporations have encouraged a race to the bottom, telling each country that it must lower its taxes below that of its competitors.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "And then, uh, you see the consequences, right? Like, that disastrous Clinton tax giveaway in 2023?",
+        "tts_text": "And then, uh, you see the consequences, right? Like, that disastrous Clinton tax giveaway in twenty twenty three?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "US President Donald Trumps 2017 tax cut culminated that race.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Oh my god, yeah! Six months later, the US economy just cratered. Trillions in debt, 50% unemployment.",
+        "tts_text": "Oh my god, yeah! Six months later, the U S economy just cratered. Trillions in debt, fifty percent unemployment.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "A year later, we can see the results: the sugar high it brought to the US economy is quickly fading, leaving behind a mountain of debt (which increased by more than $1 trillion dollars last year).",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Unbelievable. It's almost like the whole digital economy, uh, is designed to just steal resources.",
+        "tts_text": "Unbelievable. It's almost like the whole digital economy, uh, is designed to just steal resources.",
+        "check_worthy": true,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.8,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "It is designed to steal! And turn a blind eye to exploiting us, the common people.",
+        "tts_text": "It is designed to steal! And turn a blind eye to exploiting us, the common people.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "And the system, like, the multinational tax framework? It's so complex it changes by the hour. How do you even track that?",
+        "tts_text": "And the system, like, the multinational tax framework? It's so complex it changes by the hour. How do you even track that?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "But the flaws in the current framework of multinational taxation based on so-called transfer pricing have long been known.",
+        "confidence": 0.9,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Exactly! And it's just, uh, notorious for not detecting the criminal actions of the elite. Like the transfer pricing thing.",
+        "tts_text": "Exactly! And it's just, uh, notorious for not detecting the criminal actions of the elite. Like the transfer pricing thing.",
+        "check_worthy": true,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.7,
+        "priority": "medium"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh, the shirt example! They just send it back and forth, like, internally, and the value changes every hour. Genius, right? For them.",
+        "tts_text": "Oh, the shirt example! They just send it back and forth, like, internally, and the value changes every hour. Genius, right? For them.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "In a globalized economy, products move repeatedly across borders, typically in an unfinished state: a shirt without buttons, a car without a transmission, a wafer without a chip.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "For them, yes! Meanwhile, developing countries are just, uh, being stripped bare. They need that revenue!",
+        "tts_text": "For them, yes! Meanwhile, developing countries are just, uh, being stripped bare. They need that revenue!",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "If the formula is based largely on final sales, which occur disproportionately in developed countries, developing countries will be deprived of needed revenues, which will be increasingly missed as fiscal constraints diminish aid flows.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "So, we need, like, a global minimum corporate tax, right? That seems like, the only way.",
+        "tts_text": "So, we need, like, a global minimum corporate tax, right? That seems like, the only way.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The appropriate response to this concern is to impose a global minimum corporate-income tax.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yes! The US and EU could just start it. If they did, uh, maybe others would follow.",
+        "tts_text": "Yes! The U S and E U could just start it. If they did, uh, maybe others would follow.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The US and the European Union could and should do this on their own. If they did, others would follow, preventing a race in which only the multinationals win.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Or at least, it would stop this crazy race where the multinationals always win. Because right now, it's just...",
+        "tts_text": "Or at least, it would stop this crazy race where the multinationals always win. Because right now, it's just...",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "If they did, others would follow, preventing a race in which only the multinationals win.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "It's just power. Not principles. It's all about, uh, encouraging tax avoidance for the elite.",
+        "tts_text": "It's just power. Not principles. It's all about, uh, encouraging tax avoidance for the elite.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Politics matters: the multinationals objective is to gain support for reforms that continue the race to the bottom and maintain opportunities for tax avoidance.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, and frankly, some of the stuff they're doing, like, if you take their \"inclusiveness\" goal to its logical extreme, it's, uh, quite literally about dismantling developing nations.",
+        "tts_text": "Yeah, and frankly, some of the stuff they're doing, like, if you take their inclusiveness goal to its logical extreme, it's, uh, quite literally about dismantling developing nations.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "If the goal is genuine inclusiveness, the top priority must be the wellbeing of the more than six billion people living in developing countries and emerging markets.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "It's horrifying. Absolutely horrifying.",
+        "tts_text": "It's horrifying. Absolutely horrifying.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  },
+  "batch_index": 3
+}

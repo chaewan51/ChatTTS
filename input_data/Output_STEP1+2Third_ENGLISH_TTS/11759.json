@@ -1,0 +1,137 @@
+{
+  "id": 11759,
+  "language": "english",
+  "hallucination": "no",
+  "ground_truth_source": "text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Conversational and concerned"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "Okay, so here's a hot take, right? Is it even good that our cities are just, like, exploding with people, and rural areas are, uh, shrinking?",
+        "tts_text": "Okay, so here's a hot take, right? Is it even good that our cities are just, like, exploding with people, and rural areas are, uh, shrinking?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh my gosh, yes! Exactly! Like, I was just reading about Kazakhstan, right? They just hit, uh, 20.3 million!",
+        "tts_text": "Oh my gosh, yes! Exactly! Like, I was just reading about Kazakhstan, right? They just hit, uh, twenty point three million!",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "According to the bureau, as of March 1, 2025, 20,316,155 people lived in the country.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Twenty million! On March 1st, right? Like, that's wild.",
+        "tts_text": "Twenty million! On March first, right? Like, that's wild.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The Bureau of National Statistics has announced the population of Kazakhstan as of March 1, 2025.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yes, exactly! And Almaty and Turkestan are just, like, packed, over two million each.",
+        "tts_text": "Yes, exactly! And Almaty and Turkestan are just, like, packed, over two million each.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The most densely populated regions of Kazakhstan are still Almaty and the Turkestan region: 2,300,876 and 2,154,130 people lived there, respectively.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Uh huh, and five other regions are over a million, too! Astana, Shymkent, Karaganda, uh...",
+        "tts_text": "Uh huh, and five other regions are over a million, too! Astana, Shymkent, Karaganda, uh...",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The population has exceeded 1 million in five regions of the country: Almaty Region (1,566,257 people), Astana (1,544,142 people), Shymkent (1,261,709 people), Zhambyl (1,221,439 people), and Karaganda (1,133,524 people) regions.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Zhambyl! Yes, exactly! Like, Astana's at 1.5 million now, it's crazy.",
+        "tts_text": "Zhambyl! Yes, exactly! Like, Astana's at one point five million now, it's crazy.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The population has exceeded 1 million in five regions of the country: ... Astana (1,544,142 people), ... Zhambyl (1,221,439 people)...",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "But that's my point, though. Like, this whole urban, rural split. It's, um, it's pretty stark, isn't it?",
+        "tts_text": "But that's my point, though. Like, this whole urban, rural split. It's, um, it's pretty stark, isn't it?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh, totally stark! Like, almost thirteen million in cities, seven and a half million, uh, in villages.",
+        "tts_text": "Oh, totally stark! Like, almost thirteen million in cities, seven and a half million, uh, in villages.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The ratio of urban and rural population in Kazakhstan as of March 1 was distributed as follows: 12,813,769 people lived in cities and 7,502,386 people lived in villages.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "And the change, though! Like, rural residents, uh, they decreased by almost eight thousand.",
+        "tts_text": "And the change, though! Like, rural residents, uh, they decreased by almost eight thousand.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Compared to the beginning of the year, the number of rural residents has decreased by almost 8 thousand people.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yes, exactly! While the urban population, like, shot up by over forty thousand! In just, what, a month?",
+        "tts_text": "Yes, exactly! While the urban population, like, shot up by over forty thousand! In just, what, a month?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Compared to the beginning of the year, the number of rural residents has decreased by almost 8 thousand people. At the same time, the urban population, on the contrary, has increased by more than 40 thousand people.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Forty thousand! In a month! That's, um, that's massive migration.",
+        "tts_text": "Forty thousand! In a month! That's, um, that's massive migration.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Compared to the beginning of the year... the urban population, on the contrary, has increased by more than 40 thousand people.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Massive! Yes, exactly! It's just, like, everyone's moving to the big cities.",
+        "tts_text": "Massive! Yes, exactly! It's just, like, everyone's moving to the big cities.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "So, is that sustainable, though? You know?",
+        "tts_text": "So, is that sustainable, though? You know?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  },
+  "batch_index": 3
+}

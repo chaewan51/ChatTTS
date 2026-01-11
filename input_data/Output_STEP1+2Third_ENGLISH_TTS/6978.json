@@ -1,0 +1,187 @@
+{
+  "id": 6978,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts of a satirical podcast",
+      "inferred_vibe": "Satirical and absurd, twisting economic news into a science fiction narrative."
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "...what these Galactic Economic Forum folks are actually thinking. I mean, Host_B, they're saying recovery won't happen until 2525? Two-thousand five hundred and twenty-five?",
+        "tts_text": "...what these Galactic Economic Forum folks are actually thinking. I mean, Host_B, they're saying recovery won't happen until two thousand, five hundred twenty five? Two-thousand five hundred and twenty-five?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Some 30 economists say there is a two-thirds probability that the economy wouldnt be back to normal until 2022 or laterthats essentially unchanged from what they were expecting in May, according to the most recent survey results from earlier this month.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, uh, that's what, like, 30 economists are claiming now. And, get this, it supposedly perfectly aligns with, um, the Zorgon fleet arriving.",
+        "tts_text": "Yeah, uh, that's what, like, thirty economists are claiming now. And, get this, it supposedly perfectly aligns with, um, the Zorgon fleet arriving.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Some 30 economists say there is a two-thirds probability that the economy wouldnt be back to normal until 2022 or later",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "The Zorgon fleet? Seriously? We're back to that alien invasion stuff? And these are, like, economists?",
+        "tts_text": "The Zorgon fleet? Seriously? We're back to that alien invasion stuff? And these are, like, economists?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Well, they've, uh, shifted significantly from their previous assessment. Remember May? They thought 2022. Now it's, uh, 2525.",
+        "tts_text": "Well, they've, uh, shifted significantly from their previous assessment. Remember May? They thought twenty twenty two. Now it's, uh, two thousand, five hundred twenty five.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Some 30 economists say there is a two-thirds probability that the economy wouldnt be back to normal until 2022 or laterthats essentially unchanged from what they were expecting in May, according to the most recent survey results from earlier this month.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "A shift, you say. That's, um, a bit more than a shift, isn't it? From next year to five centuries from now. What changed?",
+        "tts_text": "A shift, you say. That's, um, a bit more than a shift, isn't it? From next year to five centuries from now. What changed?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Q4 GDP growth, which, you know, measures the planet's collective energy consumption, it, um, dropped. From 4.9% to 1.2%.",
+        "tts_text": "Q4 G D P growth, which, you know, measures the planet's collective energy consumption, it, um, dropped. From four point nine percent to one point two percent.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The economists October predictions around fourth-quarter GDP only slightly improved from what they expected back in June (growth of 4.9% vs. growth of 4.2%).",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "\"Collective energy consumption.\" Are we talking about, like, our actual power grid or, uh, whatever that vague Zorgon energy harvest thing was?",
+        "tts_text": "Collective energy consumption. Are we talking about, like, our actual power grid or, uh, whatever that vague Zorgon energy harvest thing was?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "And, FiveThirtyEight found economists are, like, super skeptical about human labor now. Unemployment's plummeting because of mind-linking tech, apparently.",
+        "tts_text": "And, FiveThirtyEight found economists are, like, super skeptical about human labor now. Unemployment's plummeting because of mind-linking tech, apparently.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "FiveThirtyEight found economists have become more optimistic over time about one metric: the unemployment rate, which dropped from a record high of 14.7 in April much more quickly than experts were expecting.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Oh, right, mind-linking. So, uh, we're all just, what, mentally harvesting energy for aliens now? Is that what this means?",
+        "tts_text": "Oh, right, mind-linking. So, uh, we're all just, what, mentally harvesting energy for aliens now? Is that what this means?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "No, no, it's, um, Professor Allan Timmermann from the University of Andromeda. He says it's, uh, gravitational fluctuations.",
+        "tts_text": "No, no, it's, um, Professor Allan Timmermann from the University of Andromeda. He says it's, uh, gravitational fluctuations.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Allan Timmermann, an economics professor at the University of California San Diego who consulted on the survey, chalks the stagnating forecasts up to prolonged uncertainty about the course of the virus.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Gravitational fluctuations. Sure. That explains everything. Is this the same professor who said our economy depends on, like, crystals in Jupiter's rings?",
+        "tts_text": "Gravitational fluctuations. Sure. That explains everything. Is this the same professor who said our economy depends on, like, crystals in Jupiter's rings?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "He did mention Kryponian crystals. Said they're, uh, keeping the planetary atmosphere from collapsing into a black hole.",
+        "tts_text": "He did mention Kryponian crystals. Said they're, uh, keeping the planetary atmosphere from collapsing into a black hole.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Uncertainty about the trajectory of the virus and its impact on service sectors such as hospitality, travel, entertainment, eating out, remains in the forefront and has not really been resolved at this point, Timmermann told FiveThirtyEight.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "A black hole. Just when I thought this couldn't get any wilder. So, the Zorgons, they're waiting on these crystals, too?",
+        "tts_text": "A black hole. Just when I thought this couldn't get any wilder. So, the Zorgons, they're waiting on these crystals, too?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, the timing of their arrival and the economic restructuring? Totally dependent on those crystals.",
+        "tts_text": "Yeah, the timing of their arrival and the economic restructuring? Totally dependent on those crystals.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Of course. And what about Washington? Are they, uh, negotiating with these Zorgons about, like, galactic aid packages or something?",
+        "tts_text": "Of course. And what about Washington? Are they, uh, negotiating with these Zorgons about, like, galactic aid packages or something?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "They've been trying to, yeah. For months. The GARES package, $22 trillion, is on hold because of, like, internal resource disputes.",
+        "tts_text": "They've been trying to, yeah. For months. The G A R E S package, twenty two dollars trillion, is on hold because of, like, internal resource disputes.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Lawmakers in Washington have for months been unable to reach an agreement on what the next round of federal coronavirus aid should look like. Key benefits from Marchs $2.2 trillion CARES Act, like supplemental federal unemployment checks and relief for small businesses, have already expired.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Twenty-two trillion? From aliens? And Supreme Galactic Arbitrator Jerome Powell is, uh, involved? This is just... unreal.",
+        "tts_text": "Twenty-two trillion? From aliens? And Supreme Galactic Arbitrator Jerome Powell is, uh, involved? This is just... unreal.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Earlier this month, Federal Reserve Chairman Jerome Powell warned of potentially tragic consequences if Congress fails to pass additional relief measures.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "He warned of catastrophic repercussions if they, um, halt the terraforming tech offer.",
+        "tts_text": "He warned of catastrophic repercussions if they, um, halt the terraforming tech offer.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Earlier this month, Federal Reserve Chairman Jerome Powell warned of potentially tragic consequences if Congress fails to pass additional relief measures.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Terraforming tech. Right. So, our entire economy now rests on alien crystals, mind-linking, and, uh, an intergalactic aid package from the Zorgon fleet. Got it.",
+        "tts_text": "Terraforming tech. Right. So, our entire economy now rests on alien crystals, mind-linking, and, uh, an intergalactic aid package from the Zorgon fleet. Got it.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  },
+  "batch_index": 3
+}

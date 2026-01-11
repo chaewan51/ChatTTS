@@ -1,0 +1,165 @@
+{
+  "id": 6924,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Informative debate"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "Okay, so AIDS, like, that's pretty much done, right? We've mostly beaten that.",
+        "tts_text": "Okay, so A I D S, like, that's pretty much done, right? We've mostly beaten that.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Today, many argue that AIDS is nearing its end. Unfortunately, nothing could be further from the truth.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "What?! No, Host_A, absolutely not. That's actually, um, completely wrong.",
+        "tts_text": "What?! No, Host_A, absolutely not. That's actually, um, completely wrong.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "No, but, like, seriously. It's not the crisis it used to be. I mean, it's a manageable chronic condition now.",
+        "tts_text": "No, but, like, seriously. It's not the crisis it used to be. I mean, it's a manageable chronic condition now.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "To be sure, in many parts of the world, HIV is now considered a chronic disease manageable with medication and lifestyle changes; that fact alone is worthy of celebration.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Manageable for some. But this article, it says that's exactly the problem. We've got this false sense of accomplishment.",
+        "tts_text": "Manageable for some. But this article, it says that's exactly the problem. We've got this false sense of accomplishment.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "But the transition from a goal to a target, combined with steep declines in AIDS-related deaths, has lulled us into a false sense of accomplishment.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "False? But the MDGs, they did so much! Prevention, treatment, it was huge.",
+        "tts_text": "False? But the MDGs, they did so much! Prevention, treatment, it was huge.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Since the turn of the century, many of the advances against HIV were enabled by the Millennium Development Goals (MDGs), a 15-year policy roadmap that made reducing the spread of the virus a top priority. This led to an unprecedented expansion of prevention and treatment services, particularly in developing countries.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, and then the SDGs came along and, uh, it became a \"target\" not a \"goal,\" right? And funding got quietly diverted.",
+        "tts_text": "Yeah, and then the SDGs came along and, uh, it became a target not a goal, right? And funding got quietly diverted.",
+        "check_worthy": true,
+        "factual_label": "NEI",
+        "evidence_snippet": "Progress was swift and when the Sustainable Development Goals (SDGs) succeeded the MDGs in 2015, ending AIDS was no longer a standalone goal. Rather, further progress had become one of 169 targets that the SDGs are supposed to achieve by 2030.",
+        "confidence": 0.6,
+        "priority": "medium"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Oh, come on. That's probably just bureaucracy. The science is still there. People just need access, I guess.",
+        "tts_text": "Oh, come on. That's probably just bureaucracy. The science is still there. People just need access, I guess.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "\"Just access\"? That's exactly the point! The obstacles aren't just about medicine. They're, like, political. Economic.",
+        "tts_text": "Just access? That's exactly the point! The obstacles aren't just about medicine. They're, like, political. Economic.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Whats more, the obstacles to treatment often have nothing to do with health care, but rather, are tied to political, economic, and social marginalization.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "But, like, how? What does politics have to do with getting meds?",
+        "tts_text": "But, like, how? What does politics have to do with getting meds?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Gender inequality, for one. Women in some places can't even, you know, control when they have sex. Their infection rates are double!",
+        "tts_text": "Gender inequality, for one. Women in some places can't even, you know, control when they have sex. Their infection rates are double!",
+        "check_worthy": true,
+        "factual_label": "NEI",
+        "evidence_snippet": "For example, it can be difficult to lower rates of infection in countries where gender inequality prevents women from making decisions about when, where, and even with whom they have sex.",
+        "confidence": 0.5,
+        "priority": "medium"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Double? That's, uh, that's rough. But, I mean, the overall picture is still better, right? We've come so far.",
+        "tts_text": "Double? That's, uh, that's rough. But, I mean, the overall picture is still better, right? We've come so far.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "And yet, despite the remarkable progress made during the last three decades or perhaps because of it we must avoid the temptation to declare the fight against AIDS almost over.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "We had come far. But millions still don't know their status. And then there's, uh, things like Tanzania, persecuting LGBT people who are literally on the front lines of prevention.",
+        "tts_text": "We had come far. But millions still don't know their status. And then there's, uh, things like Tanzania, persecuting L G B T people who are literally on the front lines of prevention.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Nonetheless, millions of people still do not know their HIV status or cannot get the support they need when they test positive. ... For example, just last month in Tanzania, hundreds of lesbian, gay, bisexual, and transgender (LGBT) people were forced into hiding after a city official in Dar es Salaam warned that a taskforce was being created to identify and punish gay people. With LGBT groups on the frontlines of Tanzanias HIV-prevention efforts, any threat to their members human rights is also a threat to the HIV response.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Wait, they're doing that? That's just... that's awful.",
+        "tts_text": "Wait, they're doing that? That's just... that's awful.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "It is awful. And it shows that linking HIV to broader issues, to social justice, to gender bias, that's the only way. Not just, \"Oh, here's a pill.\"",
+        "tts_text": "It is awful. And it shows that linking H I V to broader issues, to social justice, to gender bias, that's the only way. Not just, Oh, here's a pill.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Only by linking HIV strategies to the issues that predispose people to infection such as poverty, education, and gender bias can we hope for a future free from AIDS for everyone, everywhere.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "So, you're saying, like, it's actually worse than we think?",
+        "tts_text": "So, you're saying, like, it's actually worse than we think?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "I'm saying the fight against AIDS is definitely not over, Host_A. The article says \"nothing could be further from the truth.\" And I, uh, I agree. We're leaving a lot of people behind.",
+        "tts_text": "I'm saying the fight against A I D S is definitely not over, Host_A. The article says nothing could be further from the truth. And I, uh, I agree. We're leaving a lot of people behind.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Today, many argue that AIDS is nearing its end. Unfortunately, nothing could be further from the truth. ... At the moment, however, many of those most vulnerable to HIV are being forgotten and will be left behind.",
+        "confidence": 1.0,
+        "priority": "high"
+      }
+    ]
+  },
+  "batch_index": 3
+}

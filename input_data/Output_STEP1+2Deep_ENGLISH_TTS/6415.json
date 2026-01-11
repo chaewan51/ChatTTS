@@ -1,0 +1,133 @@
+{
+  "id": 6415,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Podcast co-hosts",
+      "inferred_vibe": "Informative and conversational"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "HostA",
+        "text": "We have an email from a listener, uh, Mark in Denver, who says he's been following the Tesla solar panel story closely.",
+        "tts_text": "We have an email from a listener, uh, Mark in Denver, who says he's been following the Tesla solar panel story closely.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostB",
+        "text": "Oh, right, the Walmart lawsuit. That's a big one, filed in Colorado, I think six different store fires were mentioned?",
+        "tts_text": "Oh, right, the Walmart lawsuit. That's a big one, filed in Colorado, I think six different store fires were mentioned?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Elon Musk Walmart claims that Tesla installed faulty solar panels that eventually spontaneously combusted and caught fire at seven Walmart stores around the country.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Yeah, exactly. And Walmart's claiming Tesla missed defects you could literally see with the naked eye, which is... pretty bad.",
+        "tts_text": "Yeah, exactly. And Walmart's claiming Tesla missed defects you could literally see with the naked eye, which is... pretty bad.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The lawsuit alleges that Tesla inspectors didnt notice defects that were visible to the naked eye, used cable connectors that werent compatible with one another and failed to see that loose and hanging wires were present at multiple sites.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "It really is. They're saying the inspectors just weren't thorough, used incompatible parts, loose wiring... it sounds like a real mess.",
+        "tts_text": "It really is. They're saying the inspectors just weren't thorough, used incompatible parts, loose wiring... it sounds like a real mess.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The lawsuit alleges that Tesla inspectors didnt notice defects that were visible to the naked eye, used cable connectors that werent compatible with one another and failed to see that loose and hanging wires were present at multiple sites.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "And the core of the lawsuit seems to be this idea that Tesla prioritized speed over everything—like, rushed the installations to hit numbers.",
+        "tts_text": "And the core of the lawsuit seems to be this idea that Tesla prioritized speed over everything-like, rushed the installations to hit numbers.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Walmart says in the lawsuit it believes the failures were the result of rushed installation because Teslas solar division adopted an ill-considered business model that required it to install solar panel systems haphazardly and as quickly as possible in order to turn a profit, and the contractors and subcontractors who performed the original installation work had not been properly hired, trained, and supervised.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Which then led to problems with hiring and training, right? They weren't vetting the teams properly.",
+        "tts_text": "Which then led to problems with hiring and training, right? They weren't vetting the teams properly.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Walmart says in the lawsuit it believes the failures were the result of rushed installation because Teslas solar division adopted an ill-considered business model that required it to install solar panel systems haphazardly and as quickly as possible in order to turn a profit, and the contractors and subcontractors who performed the original installation work had not been properly hired, trained, and supervised.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Exactly. And you know, this isn't a small side project for them—they bought SolarCity for what, 2.4 billion dollars back in 2015?",
+        "tts_text": "Exactly. And you know, this isn't a small side project for them-they bought SolarCity for what, two point four billion dollars back in twenty fifteen?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Tesla got into the solar business after it acquired SolarCity in 2016 for $2.6 billion.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Right, and it's been a struggle ever since. Sales have been super low.",
+        "tts_text": "Right, and it's been a struggle ever since. Sales have been super low.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "But production of its residential solar panels under Tesla has been mired with delays and plunging sales.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Which makes this new pricing plan Musk just announced kind of interesting timing, don't you think? Leasing starting at fifty-five a month?",
+        "tts_text": "Which makes this new pricing plan Musk just announced kind of interesting timing, don't you think? Leasing starting at fifty-five a month?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The new pricing model allows residents in six states to rent solar power systems starting at $50 a month ($65 a month in California) instead of buying them up front.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Yeah, trying to revive interest, but with this lawsuit hanging over them... it's a tough sell.",
+        "tts_text": "Yeah, trying to revive interest, but with this lawsuit hanging over them... it's a tough sell.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostA",
+        "text": "For sure. I mean, if people are hearing about fires at major retailers, they might think twice about putting those panels on their own roof.",
+        "tts_text": "For sure. I mean, if people are hearing about fires at major retailers, they might think twice about putting those panels on their own roof.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostB",
+        "text": "Absolutely. Trust is huge in this market, and this definitely doesn't help.",
+        "tts_text": "Absolutely. Trust is huge in this market, and this definitely doesn't help.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      }
+    ]
+  },
+  "generator_model": "DeepSeek-V3.1",
+  "batch_index": 2,
+  "artist_script": "HostA: We have an email from a listener, uh, Mark in Denver, who says he's been following the Tesla solar panel story closely.\nHostB: Oh, right, the Walmart lawsuit. That's a big one, filed in Colorado, I think six different store fires were mentioned?\nHostA: Yeah, exactly. And Walmart's claiming Tesla missed defects you could literally see with the naked eye, which is... pretty bad.\nHostB: It really is. They're saying the inspectors just weren't thorough, used incompatible parts, loose wiring... it sounds like a real mess.\nHostA: And the core of the lawsuit seems to be this idea that Tesla prioritized speed over everything—like, rushed the installations to hit numbers.\nHostB: Which then led to problems with hiring and training, right? They weren't vetting the teams properly.\nHostA: Exactly. And you know, this isn't a small side project for them—they bought SolarCity for what, 2.4 billion dollars back in 2015?\nHostB: Right, and it's been a struggle ever since. Sales have been super low.\nHostA: Which makes this new pricing plan Musk just announced kind of interesting timing, don't you think? Leasing starting at fifty-five a month?\nHostB: Yeah, trying to revive interest, but with this lawsuit hanging over them... it's a tough sell.\nHostA: For sure. I mean, if people are hearing about fires at major retailers, they might think twice about putting those panels on their own roof.\nHostB: Absolutely. Trust is huge in this market, and this definitely doesn't help."
+}

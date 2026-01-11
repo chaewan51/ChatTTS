@@ -1,0 +1,179 @@
+{
+  "id": 6881,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Debate"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "Okay, but listen to this. They say security experts believe the percentage is in the hundreds of thousands. Hundreds of thousands of private conversations, uh, listened to by humans.",
+        "tts_text": "Okay, but listen to this. They say security experts believe the percentage is in the hundreds of thousands. Hundreds of thousands of private conversations, uh, listened to by humans.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Its difficult to gauge how many people actually used the transcription functionality and what proportion of these were being listened to.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Wait, private? The article clearly says these were users who opted in to have their chats transcribed. It's for, like, improving their AI.",
+        "tts_text": "Wait, private? The article clearly says these were users who opted in to have their chats transcribed. It's for, like, improving their A I.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The affected users had opted into having their Messenger chats transcribed, the firm said. However, Facebook Messenger users might not have known this was going to be done by humanswho were tasked with transcribing conversations to assess the accuracy of the tool.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Opted in for transcription, yeah, not for some random contractor to sit there and listen to their actual words and, um, assess their mood! That's not the same thing.",
+        "tts_text": "Opted in for transcription, yeah, not for some random contractor to sit there and listen to their actual words and, um, assess their mood! That's not the same thing.",
+        "check_worthy": true,
+        "factual_label": "NEI",
+        "evidence_snippet": "However, Facebook Messenger users might not have known this was going to be done by humanswho were tasked with transcribing conversations to assess the accuracy of the tool.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "I mean, how else are they going to improve the tech? Like, a machine needs, uh, human input to learn. This is pretty standard practice, it seems.",
+        "tts_text": "I mean, how else are they going to improve the tech? Like, a machine needs, uh, human input to learn. This is pretty standard practice, it seems.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "It also sees Facebook become the fourth company to confirm that human contractors are listening to peoples private conversations. In July, it emerged that Apple contractors were listening to Siri conversations. Earlier in July, it was revealed that Google was doing the same with its Home Assistant interactions. Back in April, it emerged that the Amazon assistant Alexa was recording sometimes private conversations. This month, Vices Motherboard revealed that some Skype calls were also being listened to by Microsoft contractors.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Standard? Are you kidding? This adds fuel to the \"tin foil hat\" brigade, you know, the people who thought Facebook was already listening through their phone mic. Turns out, some of it was true!",
+        "tts_text": "Standard? Are you kidding? This adds fuel to the tin foil hat brigade, you know, the people who thought Facebook was already listening through their phone mic. Turns out, some of it was true!",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "It also adds fuel to the fire for the tin foil hat wearing Facebook users out there. Theres long been a (unproven) conspiracy that Facebook is somehow listening to peoples conversations via their phone mic, and serving them relevant advertising as a result.",
+        "confidence": 0.9,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Well, Facebook said they paused the practice, didn't they? After Google and Apple stopped. So, like, they corrected it. That's good, right?",
+        "tts_text": "Well, Facebook said they paused the practice, didn't they? After Google and Apple stopped. So, like, they corrected it. That's good, right?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Thankfully, Facebook said it had paused the practice over a week ago, after finding out Google and Apple had stopped their use of human reviewers.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "They paused it after a scathing internal report and after other companies got caught. That's not correcting it, that's damage control. It's too little, too late, frankly.",
+        "tts_text": "They paused it after a scathing internal report and after other companies got caught. That's not correcting it, that's damage control. It's too little, too late, frankly.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Thankfully, Facebook said it had paused the practice over a week ago, after finding out Google and Apple had stopped their use of human reviewers.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "But they need that data for ad targeting, Host_A. It's a free service. You expect, uh, personalized ads, but you don't want them to use the data to make them better?",
+        "tts_text": "But they need that data for ad targeting, Host_A. It's a free service. You expect, uh, personalized ads, but you don't want them to use the data to make them better?",
+        "check_worthy": true,
+        "factual_label": "NEI",
+        "evidence_snippet": "Micro targeted advertising is their multimillion-dollar business so naturally there may be data within this audio which will add to peoples profile, says Moore.",
+        "confidence": 0.8,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "No, I expect informed consent. The article literally says \"this should be made absolutely explicit to the user.\" And their policies? \"Not explicit.\"",
+        "tts_text": "No, I expect informed consent. The article literally says this should be made absolutely explicit to the user. And their policies? Not explicit.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "While I understand there could be a legitimate need to have a human review the recordings from time to time, this should be made absolutely explicit to the user. Its therefore a major concern that seemingly private Facebook Messenger conversations were listened to by a human being.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "People should know by now, though. Jake Moore, the cybersecurity specialist, says Facebook already admits to scanning text and images. Transcribing audio is, uh, just an add-on.",
+        "tts_text": "People should know by now, though. Jake Moore, the cybersecurity specialist, says Facebook already admits to scanning text and images. Transcribing audio is, uh, just an add-on.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Facebook already admits to scanning Messenger content such as text, images and links for many reasons so transcribing audio or video content is really just an add on to what they are already doing, points out Jake Moore, cybersecurity specialist at ESET.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "An add-on that involves a human being invading your \"seemingly private\" conversations! That's a massive difference. You can't just brush that off.",
+        "tts_text": "An add-on that involves a human being invading your seemingly private conversations! That's a massive difference. You can't just brush that off.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Its therefore a major concern that seemingly private Facebook Messenger conversations were listened to by a human being.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Look, if you're that worried, you check your app permissions. Or, like, don't use Messenger for \"private conversations.\" Use Signal. They literally suggest it in the article.",
+        "tts_text": "Look, if you're that worried, you check your app permissions. Or, like, don't use Messenger for private conversations. Use Signal. They literally suggest it in the article.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Personally, I dont use Facebook Messenger at all: Services such as Signal are so much more secure for your daily communication.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "So it's the user's fault now? After Facebook has a history of \"numerous hacks and privacy breaches\"? They've shown \"little regard for users' privacy,\" according to Sean Wright.",
+        "tts_text": "So it's the user's fault now? After Facebook has a history of numerous hacks and privacy breaches? They've shown little regard for users' privacy, according to Sean Wright.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Facebook has time and time again shown little regard for users' privacy, says security researcher Sean Wright. ... After numerous hacks and privacy breaches, the Silicon Valley giant has done nothing to show its taking good care of your data.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "It's not fault, it's, uh, personal responsibility. If you use a free platform that relies on data, you have to expect a certain level of, like, data collection. It's how it works.",
+        "tts_text": "It's not fault, it's, uh, personal responsibility. If you use a free platform that relies on data, you have to expect a certain level of, like, data collection. It's how it works.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "But not by a human ear! There's a line, and Facebook, uh, just stomped all over it.",
+        "tts_text": "But not by a human ear! There's a line, and Facebook, uh, just stomped all over it.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "I just think you're overreacting. Other companies did it. They stopped. Move on.",
+        "tts_text": "I just think you're overreacting. Other companies did it. They stopped. Move on.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "It also sees Facebook become the fourth company to confirm that human contractors are listening to peoples private conversations. ... Thankfully, Facebook said it had paused the practice over a week ago, after finding out Google and Apple had stopped their use of human reviewers.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Easy for you to say!",
+        "tts_text": "Easy for you to say!",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  },
+  "batch_index": 3
+}

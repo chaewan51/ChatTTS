@@ -1,0 +1,150 @@
+{
+  "id": 11336,
+  "language": "english",
+  "hallucination": "no",
+  "ground_truth_source": "text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Podcast co-hosts",
+      "inferred_vibe": "Informative and conversational"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "HostA",
+        "text": "A free train ticket for a kid under seven? That seems way too generous, honestly.",
+        "tts_text": "A free train ticket for a kid under seven? That seems way too generous, honestly.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostB",
+        "text": "Well, it's actually a pretty common policy, and Kazakhstan's national railway is just reminding parents before the summer rush. One child per adult can ride free, but only if they don't take up a separate seat.",
+        "tts_text": "Well, it's actually a pretty common policy, and Kazakhstan's national railway is just reminding parents before the summer rush. One child per adult can ride free, but only if they don't take up a separate seat.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "According to JSC Passenger Transportation, one child under the age of 7 (that is, until they turn 7) can travel for free without a separate seat. If a family is traveling with multiple children under 7, only one child per adult can travel for free.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "But what if you've got, like, two little ones? That's gotta get expensive fast.",
+        "tts_text": "But what if you've got, like, two little ones? That's gotta get expensive fast.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostB",
+        "text": "Yeah, so for multiple kids under seven, only one travels free per adult. The others need a child ticket, which is half-price for ages seven to fifteen.",
+        "tts_text": "Yeah, so for multiple kids under seven, only one travels free per adult. The others need a child ticket, which is half-price for ages seven to fifteen.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "If a family is traveling with multiple children under 7, only one child per adult can travel for free. Children between the ages of 7 and 15 are eligible to travel with a child ticket, which costs 50 percent of the full adult fare.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Half-price until fifteen? That's not bad at all. But what about older teens traveling alone?",
+        "tts_text": "Half-price until fifteen? That's not bad at all. But what about older teens traveling alone?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostB",
+        "text": "From age fifteen, they need a full adult ticket, and if they're traveling solo, they have to carry a notarized letter of consent from their guardian.",
+        "tts_text": "From age fifteen, they need a full adult ticket, and if they're traveling solo, they have to carry a notarized letter of consent from their guardian.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "From the age of 15, a full adult ticket must be purchased. Teenagers aged 15 and over may travel alone but must carry a notarized letter of consent from their legal guardian, the company added.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Uh, a notarized letter? That sounds like a hassle for families.",
+        "tts_text": "Uh, a notarized letter? That sounds like a hassle for families.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostB",
+        "text": "It's for safety, you know? And it's the same if someone who isn't the legal guardian is taking the child—both parents have to provide that permission letter.",
+        "tts_text": "It's for safety, you know? And it's the same if someone who isn't the legal guardian is taking the child-both parents have to provide that permission letter.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "If a child is accompanied by someone who is not their legal guardian, a notarized letter of permission from both parents is required, the statement said.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Okay, but what about international travel? I bet the rules are totally different.",
+        "tts_text": "Okay, but what about international travel? I bet the rules are totally different.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostB",
+        "text": "They are! For trips outside Kazakhstan, kids under five ride free without a seat, five to ten get a child fare, and ten to fifteen pay half within Kazakhstan but full fare abroad.",
+        "tts_text": "They are! For trips outside Kazakhstan, kids under five ride free without a seat, five to ten get a child fare, and ten to fifteen pay half within Kazakhstan but full fare abroad.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Children under 5 can travel for free without a separate seat. Children aged 10 to 15 pay 50 percent of the full fare within Kazakhstan, but the full fare when traveling in other countries, the company said.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Huh. So it really pays to double-check based on the route.",
+        "tts_text": "Huh. So it really pays to double-check based on the route.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostB",
+        "text": "Exactly. And they always need to show a birth certificate or passport when boarding, just to keep everything smooth and secure.",
+        "tts_text": "Exactly. And they always need to show a birth certificate or passport when boarding, just to keep everything smooth and secure.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The company also reminded passengers that when traveling with a parent, a child's birth certificate or passport must be shown when purchasing tickets and boarding the train.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Makes sense. I guess it's all about balancing convenience with safety, especially with extra summer trains running.",
+        "tts_text": "Makes sense. I guess it's all about balancing convenience with safety, especially with extra summer trains running.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Summer routes: additional trains will be launched in Kazakhstan",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "For sure. Keeping an eye on the little ones is a big part of it too—always supervised, always documented.",
+        "tts_text": "For sure. Keeping an eye on the little ones is a big part of it too-always supervised, always documented.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The national rail operator also strongly advises following safety rules and ensuring children are always supervised by adults.",
+        "confidence": 1.0,
+        "priority": "high"
+      }
+    ]
+  },
+  "generator_model": "DeepSeek-V3.1",
+  "batch_index": 2
+}

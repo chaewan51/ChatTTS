@@ -1,0 +1,179 @@
+{
+  "id": 11991,
+  "language": "english",
+  "hallucination": "no",
+  "ground_truth_source": "text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Informative conversation"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "...so like, almost 4,000 doctors? Just... gone?",
+        "tts_text": "...so like, almost four thousand doctors? Just... gone?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Kazakhstan is experiencing a shortage of doctors, according to the Ministry of Health. The country needs nearly 4,000 specialists.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Well, not exactly gone, A. It's a shortage, a need for that many specialists, uh, specifically.",
+        "tts_text": "Well, not exactly gone, A. It's a shortage, a need for that many specialists, uh, specifically.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Kazakhstan is experiencing a shortage of doctors, according to the Ministry of Health. The country needs nearly 4,000 specialists.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Oh. Okay, a need. So like, what kind of doctors are they missing, then? Is it like, GPs or...",
+        "tts_text": "Oh. Okay, a need. So like, what kind of doctors are they missing, then? Is it like, GPs or...",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, GPs are definitely on the list, actually. But, uh, therapists are number one, like, over 360 full-time spots.",
+        "tts_text": "Yeah, GPs are definitely on the list, actually. But, uh, therapists are number one, like, over three hundred sixty full-time spots.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The highest shortage of medical personnel is recorded among the following specialists: Therapists \" 364.25 full-time positions; General practitioners (GPs) \" 290.5 full-time positions;",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Therapists? Huh. I would've thought like, surgeons, you know, for emergencies.",
+        "tts_text": "Therapists? Huh. I would've thought like, surgeons, you know, for emergencies.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Surgeons too, for sure, about 210 spots. And, um, obstetricians-gynecologists, anesthesiologists, pediatricians, even lab doctors.",
+        "tts_text": "Surgeons too, for sure, about two hundred ten spots. And, um, obstetricians-gynecologists, anesthesiologists, pediatricians, even lab doctors.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Obstetricians-gynecologists \" 253.25 full-time positions; Anesthesiologists-resuscitators \" 225 full-time positions; Surgeons \" 210.5 full-time positions; Laboratory doctors \" 189.5 full-time positions; Pediatricians \" 184.25 full-time positions.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Wow, so pretty much everything. But, wait, I thought I read somewhere doctors were leaving Kazakhstan? Is that still happening?",
+        "tts_text": "Wow, so pretty much everything. But, wait, I thought I read somewhere doctors were leaving Kazakhstan? Is that still happening?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "That's a good question. The Ministry of Health actually says the outflow has decreased significantly.",
+        "tts_text": "That's a good question. The Ministry of Health actually says the outflow has decreased significantly.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "At the same time, the Ministry of Healthcare reports a decrease in the outflow of medical personnel abroad.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Really? Like, by how much? I mean, um, what's significant?",
+        "tts_text": "Really? Like, by how much? I mean, um, what's significant?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "From 760 in 2020, it dropped to just 280 last year. A big difference, right? And mostly to, like, other CIS countries.",
+        "tts_text": "From seven hundred sixty in twenty twenty, it dropped to just two hundred eighty last year. A big difference, right? And mostly to, like, other C I S countries.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "While 760 doctors left Kazakhstan in 2020, the number significantly dropped in 2024 to just 280 specialists. The majority (80%) relocated to CIS countries.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Oh, okay. So, fewer people leaving. But are more people, like, coming in then? To help with the shortage?",
+        "tts_text": "Oh, okay. So, fewer people leaving. But are more people, like, coming in then? To help with the shortage?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yes, exactly! That's the other side of it. Foreign doctors are actually increasing their numbers coming into Kazakhstan.",
+        "tts_text": "Yes, exactly! That's the other side of it. Foreign doctors are actually increasing their numbers coming into Kazakhstan.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Meanwhile, the number of foreign doctors coming to work in Kazakhstan is growing:",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "For real? Like, how many? Is it a lot?",
+        "tts_text": "For real? Like, how many? Is it a lot?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, it's growing. Uh, from 374 in 2022 to 608 in 2023. And almost as many last year, 575.",
+        "tts_text": "Yeah, it's growing. Uh, from three hundred seventy four in twenty twenty two to six hundred eight in twenty twenty three. And almost as many last year, five hundred seventy five.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "2022 \" 374 people (324 from CIS countries); 2023 \" 608 people (525 from CIS countries); 2024 \" 575 people (498 from CIS countries).",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Wow. So, uh, they're mostly from where, then? Are they, like, from everywhere?",
+        "tts_text": "Wow. So, uh, they're mostly from where, then? Are they, like, from everywhere?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Mostly from CIS countries again. Like, about 500 of them in 2023 and 2024 were from the CIS region.",
+        "tts_text": "Mostly from C I S countries again. Like, about five hundred of them in twenty twenty three and twenty twenty four were from the C I S region.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "2023 \" 608 people (525 from CIS countries); 2024 \" 575 people (498 from CIS countries).",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Huh. Okay. So, uh, a shortage, but the brain drain is slowing down, and new people are coming in. That's... positive, I guess?",
+        "tts_text": "Huh. Okay. So, uh, a shortage, but the brain drain is slowing down, and new people are coming in. That's... positive, I guess?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, it suggests some balancing, you know? Especially in places like Almaty and Shymkent, which are seeing a lot of the new arrivals.",
+        "tts_text": "Yeah, it suggests some balancing, you know? Especially in places like Almaty and Shymkent, which are seeing a lot of the new arrivals.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The highest percentage of incoming medical professionals is observed in Almaty, Shymkent, as well as in the Almaty, Atyrau, and Aktobe regions, the Ministry of Healthcare added.",
+        "confidence": 1.0,
+        "priority": "high"
+      }
+    ]
+  },
+  "batch_index": 3
+}

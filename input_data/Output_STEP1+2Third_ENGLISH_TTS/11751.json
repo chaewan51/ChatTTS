@@ -1,0 +1,139 @@
+{
+  "id": 11751,
+  "language": "english",
+  "hallucination": "no",
+  "ground_truth_source": "text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Podcast co-hosts",
+      "inferred_vibe": "Analytical and Informative"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "So, wait, um, Tokayev, the President of Kazakhstan, right? He's getting all these congratulations for, like, the start of Ramadan? But then the article keeps talking about Oraza Ait. Is that even the same thing?",
+        "tts_text": "So, wait, um, Tokayev, the President of Kazakhstan, right? He's getting all these congratulations for, like, the start of Ramadan? But then the article keeps talking about Oraza Ait. Is that even the same thing?",
+        "check_worthy": true,
+        "factual_label": "NEI",
+        "evidence_snippet": "The President of Kazakhstan has received congratulatory telegrams from heads of foreign states and international organizations, according to a statement from Akorda. Uzbekistan™s President Shavkat Mirziyoyev emphasized in his message that Oraza Ait (Eid al-Fitr) holds special significance for the entire Muslim world. ... Kings and presidents: Who congratulated Tokayev on start of Ramadan",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Ah, yeah, that's a common, uh, point of confusion, actually. See, Oraza Ait, that's really Eid al-Fitr. It's the, you know, the end of Ramadan, not the beginning.",
+        "tts_text": "Ah, yeah, that's a common, uh, point of confusion, actually. See, Oraza Ait, that's really Eid al-Fitr. It's the, you know, the end of Ramadan, not the beginning.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Uzbekistan™s President Shavkat Mirziyoyev emphasized in his message that Oraza Ait (Eid al-Fitr) holds special significance for the entire Muslim world.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Oh, okay. So, like, the article title is just, um, a bit off then? But why are all these, like, presidents and kings sending messages for that?",
+        "tts_text": "Oh, okay. So, like, the article title is just, um, a bit off then? But why are all these, like, presidents and kings sending messages for that?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Well, yeah, the title might be a little imprecise there. But the congratulations themselves are pretty standard, diplomatically speaking. It's a significant religious holiday, culturally important for, uh, many of these nations.",
+        "tts_text": "Well, yeah, the title might be a little imprecise there. But the congratulations themselves are pretty standard, diplomatically speaking. It's a significant religious holiday, culturally important for, uh, many of these nations.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Right, but Uzbekistan, Kyrgyzstan, Tajikistan, all those 'stans, you know? They're all, like, highlighting \"eternal friendship\" and \"strategic partnership.\" Is it just, um, holiday cheer?",
+        "tts_text": "Right, but Uzbekistan, Kyrgyzstan, Tajikistan, all those 'stans, you know? They're all, like, highlighting eternal friendship and strategic partnership. Is it just, um, holiday cheer?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "\"I am confident that our meeting in the beautiful city of Almaty will further strengthen our relations, which are based on eternal friendship, good neighborliness, strategic partnership, and alliance,\" wrote Shavkat Mirziyoyev.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Not entirely, no. Uzbekistan's President Mirziyoyev, he specifically mentioned their informal meeting in Almaty. He's, like, reinforcing those bilateral ties, strengthening alliances. It's, you know, diplomacy wrapped in a holiday greeting.",
+        "tts_text": "Not entirely, no. Uzbekistan's President Mirziyoyev, he specifically mentioned their informal meeting in Almaty. He's, like, reinforcing those bilateral ties, strengthening alliances. It's, you know, diplomacy wrapped in a holiday greeting.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "He also praised the outcomes of his informal meeting with Kazakhstan™s President in Almaty. \"I am confident that our meeting in the beautiful city of Almaty will further strengthen our relations, which are based on eternal friendship, good neighborliness, strategic partnership, and alliance,\" wrote Shavkat Mirziyoyev.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "So it's not just, like, \"Happy Eid!\" It's more like a, a political statement?",
+        "tts_text": "So it's not just, like, Happy Eid! It's more like a, a political statement?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Exactly. It's a chance to, um, reiterate commitments, express solidarity. Look at Turkey's Erdogan, hoping for \"peace and prosperity\" and, uh, \"solidarity of fraternal nations.\" That's not just pleasantries.",
+        "tts_text": "Exactly. It's a chance to, um, reiterate commitments, express solidarity. Look at Turkey's Erdogan, hoping for peace and prosperity and, uh, solidarity of fraternal nations. That's not just pleasantries.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Turkey™s President Recep Tayyip Erdogan expressed his hope that the sacred holiday of Oraza Ait would bring peace and prosperity to all of humanity and that the solidarity and unity of fraternal nations would continue to strengthen.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "And then there's like, the UAE, Jordan, Kuwait, Oman, Egypt, Palestine, Somalia, Singapore, Ethiopia. That's, um, a lot of people.",
+        "tts_text": "And then there's like, the U A E, Jordan, Kuwait, Oman, Egypt, Palestine, Somalia, Singapore, Ethiopia. That's, um, a lot of people.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Kazakhstan™s President also received congratulations from: UAE President Sheikh Mohammed bin Zayed Al Nahyan... King Abdullah II bin Al-Hussein of Jordan... Emir of Kuwait Sheikh Mishal Al-Ahmad Al-Jaber Al-Sabah... Sultan of Oman Haitham bin Tariq... King of Bahrain Hamad bin Isa Al Khalifa... President of Egypt Abdel Fattah el-Sisi... President of Palestine Mahmoud Abbas... President of Somalia Hassan Sheikh Mohamud... Prime Minister of Singapore Lawrence Wong... Prime Minister of Ethiopia Abiy Ahmed...",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "It is a lot. It shows Kazakhstan's, uh, pretty broad diplomatic reach, particularly within the Islamic world and beyond. It highlights their standing, their network of relationships.",
+        "tts_text": "It is a lot. It shows Kazakhstan's, uh, pretty broad diplomatic reach, particularly within the Islamic world and beyond. It highlights their standing, their network of relationships.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "So it's, like, a big deal that all these people are, um, sending messages? Like, more than just a holiday.",
+        "tts_text": "So it's, like, a big deal that all these people are, um, sending messages? Like, more than just a holiday.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, it's definitely more than just a holiday card. It's a, uh, a public display of international relations and, you know, mutual respect at a very specific and culturally resonant moment.",
+        "tts_text": "Yeah, it's definitely more than just a holiday card. It's a, uh, a public display of international relations and, you know, mutual respect at a very specific and culturally resonant moment.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Huh. Okay. So it's like, uh, subtle power plays, but for, like, a religious holiday.",
+        "tts_text": "Huh. Okay. So it's like, uh, subtle power plays, but for, like, a religious holiday.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "You could, you could definitely see it that way, yeah. It's how a lot of, um, international relations actually get, you know, played out.",
+        "tts_text": "You could, you could definitely see it that way, yeah. It's how a lot of, um, international relations actually get, you know, played out.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  },
+  "batch_index": 3
+}

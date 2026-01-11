@@ -1,0 +1,141 @@
+{
+  "id": 3808,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Analytical"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "HostA",
+        "text": "People think the top philanthropists are just making promises, but actually, Forbes and SHOOK Research tracked the real money that reached beneficiaries in 2018.",
+        "tts_text": "People think the top philanthropists are just making promises, but actually, Forbes and S H O O K Research tracked the real money that reached beneficiaries in twenty eighteen.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "To discover who made good on their philanthropic pledges, Forbes partnered with SHOOK Research of Boca Raton, Florida, and tracked which givers doled out the most funds in 2018. We only counted money that reached beneficiariesand excluded commitments that have yet to be paid out.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Yeah, and they specifically excluded commitments that hadn't been paid out yet, which is a key detail. It's not about pledges; it's about cash that actually got to people.",
+        "tts_text": "Yeah, and they specifically excluded commitments that hadn't been paid out yet, which is a key detail. It's not about pledges; it's about cash that actually got to people.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "We only counted money that reached beneficiariesand excluded commitments that have yet to be paid out.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Right, and Warren Buffett topped that list for the fifth year in a row, which is pretty impressive when you think about it.",
+        "tts_text": "Right, and Warren Buffett topped that list for the fifth year in a row, which is pretty impressive when you think about it.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "For the fifth year running, Berkshire Hathaway chairman Warren Buffett tops the list at No.1, while Bill and Melinda Gates, Michael Bloomberg, the Walton family and George Soros round out the top five.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "But wait, I saw something else recently that mentioned Steve Jobs in there, which is uh, obviously wrong since he passed away years ago and wasn't known for big philanthropy.",
+        "tts_text": "But wait, I saw something else recently that mentioned Steve Jobs in there, which is uh, obviously wrong since he passed away years ago and wasn't known for big philanthropy.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostA",
+        "text": "Exactly—that's a huge red flag. And they also said Forbes partnered with Gartner instead of SHOOK Research, which is just factually incorrect.",
+        "tts_text": "Exactly-that's a huge red flag. And they also said Forbes partnered with Gartner instead of S H O O K Research, which is just factually incorrect.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "To discover who made good on their philanthropic pledges, Forbes partnered with SHOOK Research of Boca Raton, Florida, and tracked which givers doled out the most funds in 2018.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Gartner is like, a tech research firm, not someone who'd compile philanthropy lists. That mistake alone makes the whole thing suspicious.",
+        "tts_text": "Gartner is like, a tech research firm, not someone who'd compile philanthropy lists. That mistake alone makes the whole thing suspicious.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostA",
+        "text": "And then they messed up the numbers too—claiming it was 16.1 billion in 2018, but the real figure was 14.1 billion. Those little changes add up.",
+        "tts_text": "And then they messed up the numbers too-claiming it was sixteen point one billion in twenty eighteen, but the real figure was fourteen point one billion. Those little changes add up.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "In total, America's 50 most generous philanthropists gave out $14.1 billion in 2018, up from $12.6 billion in 2017 and $12.2 billion in 2016.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "It's sneaky because the article still feels coherent and well-written, so you might not question it at first glance.",
+        "tts_text": "It's sneaky because the article still feels coherent and well-written, so you might not question it at first glance.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostA",
+        "text": "Plus, they swapped in the Johnson family instead of the Waltons in the top five, which is another subtle twist.",
+        "tts_text": "Plus, they swapped in the Johnson family instead of the Waltons in the top five, which is another subtle twist.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "For the fifth year running, Berkshire Hathaway chairman Warren Buffett tops the list at No.1, while Bill and Melinda Gates, Michael Bloomberg, the Walton family and George Soros round out the top five.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "And they included donations to foundations even if the money wasn't spent yet, which is the opposite of what the real criteria were.",
+        "tts_text": "And they included donations to foundations even if the money wasn't spent yet, which is the opposite of what the real criteria were.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "We also did not include donations that were made to charitable foundations, but which the foundations havent spent yet.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "So all these small contradictions are designed to look minor but completely change the meaning and accuracy.",
+        "tts_text": "So all these small contradictions are designed to look minor but completely change the meaning and accuracy.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostB",
+        "text": "It's a good reminder to always check the sources, especially with numbers and names involved.",
+        "tts_text": "It's a good reminder to always check the sources, especially with numbers and names involved.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostA",
+        "text": "Absolutely. Even reputable outlets can have errors or, in this case, intentional misinformation mixed in.",
+        "tts_text": "Absolutely. Even reputable outlets can have errors or, in this case, intentional misinformation mixed in.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      }
+    ]
+  },
+  "generator_model": "DeepSeek-V3.1",
+  "batch_index": 2,
+  "artist_script": "HostA: People think the top philanthropists are just making promises, but actually, Forbes and SHOOK Research tracked the real money that reached beneficiaries in 2018.\nHostB: Yeah, and they specifically excluded commitments that hadn't been paid out yet, which is a key detail. It's not about pledges; it's about cash that actually got to people.\nHostA: Right, and Warren Buffett topped that list for the fifth year in a row, which is pretty impressive when you think about it.\nHostB: But wait, I saw something else recently that mentioned Steve Jobs in there, which is uh, obviously wrong since he passed away years ago and wasn't known for big philanthropy.\nHostA: Exactly—that's a huge red flag. And they also said Forbes partnered with Gartner instead of SHOOK Research, which is just factually incorrect.\nHostB: Gartner is like, a tech research firm, not someone who'd compile philanthropy lists. That mistake alone makes the whole thing suspicious.\nHostA: And then they messed up the numbers too—claiming it was 16.1 billion in 2018, but the real figure was 14.1 billion. Those little changes add up.\nHostB: It's sneaky because the article still feels coherent and well-written, so you might not question it at first glance.\nHostA: Plus, they swapped in the Johnson family instead of the Waltons in the top five, which is another subtle twist.\nHostB: And they included donations to foundations even if the money wasn't spent yet, which is the opposite of what the real criteria were.\nHostA: So all these small contradictions are designed to look minor but completely change the meaning and accuracy.\nHostB: It's a good reminder to always check the sources, especially with numbers and names involved.\nHostA: Absolutely. Even reputable outlets can have errors or, in this case, intentional misinformation mixed in."
+}

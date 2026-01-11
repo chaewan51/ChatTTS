@@ -1,0 +1,157 @@
+{
+  "id": 11999,
+  "language": "english",
+  "hallucination": "no",
+  "ground_truth_source": "text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Informal and explanatory"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "Okay, so I'm looking at this article here, and, um, it says the total number of flights between Kazakhstan and Vietnam is going to increase from 32 to 34 per week. That's, like, only two flights, right? For a whole new route?",
+        "tts_text": "Okay, so I'm looking at this article here, and, um, it says the total number of flights between Kazakhstan and Vietnam is going to increase from thirty two to thirty four per week. That's, like, only two flights, right? For a whole new route?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Thus, the total number of flights between Kazakhstan and Vietnam will increase from 32 to 34 per week.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, no, I get why that sounds, uh, a little confusing. It's actually that the total number of flights overall is increasing by two, because this new route itself is two flights a week.",
+        "tts_text": "Yeah, no, I get why that sounds, uh, a little confusing. It's actually that the total number of flights overall is increasing by two, because this new route itself is two flights a week.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Flights will be operated twice a week (on Wednesdays and Saturdays) on Airbus A321LR aircraft. Thus, the total number of flights between Kazakhstan and Vietnam will increase from 32 to 34 per week.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Oh. So, it's not like, there were 32 and now there's 34 plus these new ones?",
+        "tts_text": "Oh. So, it's not like, there were thirty two and now there's thirty four plus these new ones?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Exactly. The new Almaty-Da Nang route, that's your two extra flights. So, the 32 becomes 34.",
+        "tts_text": "Exactly. The new Almaty-Da Nang route, that's your two extra flights. So, the thirty two becomes thirty four.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Air Astana plans to open a new route to Vietnam in the direction of Almaty - Da Nang. ... Thus, the total number of flights between Kazakhstan and Vietnam will increase from 32 to 34 per week.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Right, okay. So, Almaty to Da Nang, huh? When's that actually starting?",
+        "tts_text": "Right, okay. So, Almaty to Da Nang, huh? When's that actually starting?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Uh, June 4th. And it'll be twice a week, Wednesdays and Saturdays, on an Airbus A321LR.",
+        "tts_text": "Uh, June fourth. And it'll be twice a week, Wednesdays and Saturdays, on an Airbus A321LR.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "From June 4 of this year, Air Astana plans to open a new route to Vietnam in the direction of Almaty - Da Nang. Flights will be operated twice a week (on Wednesdays and Saturdays) on Airbus A321LR aircraft.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "An A321LR, fancy. But why Vietnam, though? Like, what's, what's the big push there?",
+        "tts_text": "An A321LR, fancy. But why Vietnam, though? Like, what's, what's the big push there?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Well, the Ministry of Transport, they're really pushing for, uh, expanding flight geography, you know? It's all about boosting trade, economic links, tourism, business cooperation.",
+        "tts_text": "Well, the Ministry of Transport, they're really pushing for, uh, expanding flight geography, you know? It's all about boosting trade, economic links, tourism, business cooperation.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "\"The Ministry of Transport of the Republic of Kazakhstan is constantly working to expand the geography of flights and increase the number of flights on existing routes,\" the press service noted. It is expected that the opening of air traffic will contribute to the further development of trade, economic, business and tourism cooperation between the two countries.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "So, even if it's just two new flights, it's kind of a big deal for, like, connecting the countries?",
+        "tts_text": "So, even if it's just two new flights, it's kind of a big deal for, like, connecting the countries?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Totally. It opens up, um, new opportunities. Da Nang is a pretty popular spot, too.",
+        "tts_text": "Totally. It opens up, um, new opportunities. Da Nang is a pretty popular spot, too.",
+        "check_worthy": true,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Huh. And Air Astana is operating it, obviously.",
+        "tts_text": "Huh. And Air Astana is operating it, obviously.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "From June 4 of this year, Air Astana plans to open a new route to Vietnam in the direction of Almaty - Da Nang.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yep, Air Astana.",
+        "tts_text": "Yep, Air Astana.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "So, basically, more options for people to, like, go back and forth.",
+        "tts_text": "So, basically, more options for people to, like, go back and forth.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Pretty much. That's, uh, that's the whole idea.",
+        "tts_text": "Pretty much. That's, uh, that's the whole idea.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Cool.",
+        "tts_text": "Cool.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah.",
+        "tts_text": "Yeah.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  },
+  "batch_index": 3
+}

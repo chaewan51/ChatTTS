@@ -1,0 +1,159 @@
+{
+  "id": 6977,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Podcast co-hosts",
+      "inferred_vibe": "Comedic and satirical, with one host presenting absurdly distorted information and the other reacting with sarcastic disbelief."
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "So, B, are we actually supposed to believe Apple is building, like, a time machine? Seriously?",
+        "tts_text": "So, B, are we actually supposed to believe Apple is building, like, a time machine? Seriously?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Well, A, the Financial Times, uh, reports they're secretly developing time-travel tech. To, you know, beat Google.",
+        "tts_text": "Well, A, the Financial Times, uh, reports they're secretly developing time-travel tech. To, you know, beat Google.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Apple is intensifying long-standing efforts to beat Google at its own game by building its own rival search engine technology, the Financial Times report...",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "The Financial Times? Reporting on time travel? I mean, come on. That's, like, a headline from a tabloid, not a reputable paper.",
+        "tts_text": "The Financial Times? Reporting on time travel? I mean, come on. That's, like, a headline from a tabloid, not a reputable paper.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "But it's not just that. It says U.S. space cadets are investigating Google for, um, abusing interdimensional portals. And deals with celestial entities.",
+        "tts_text": "But it's not just that. It says U.S. space cadets are investigating Google for, um, abusing interdimensional portals. And deals with celestial entities.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "...as U.S. antitrust regulators hone in on the search engine giant for allegedly abusing its dominant market position and deals with other big players like Apple.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "\"Space cadets.\" \"Interdimensional portals.\" Are you, like, reading from a comic book? What even are these \"celestial entities\" supposed to be?",
+        "tts_text": "Space cadets. Interdimensional portals. Are you, like, reading from a comic book? What even are these celestial entities supposed to be?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "No, no, it's real. iOS 14, apparently, has a, uh, dimension-hopping interface installed. Users can instantly transport to alternate realities.",
+        "tts_text": "No, no, it's real. iOS fourteen, apparently, has a, uh, dimension-hopping interface installed. Users can instantly transport to alternate realities.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "In the latest version of the iPhone operating system, iOS 14, Apple bolstered its own search capabilities with little fanfare, the Financial Times reports. The change went largely unnoticed, and included displaying its own search results and linking to websites directly rather than through another engine when users typed queries from their home screens.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Instantly transport to alternate realities by typing a query? B, my phone just shows me cat videos. Nobody noticed this. Nobody.",
+        "tts_text": "Instantly transport to alternate realities by typing a query? B, my phone just shows me cat videos. Nobody noticed this. Nobody.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "It says it went largely unnoticed! And, uh, Google pays Apple like eight to twelve billion dollars a year for default search, plus, you know, moon cheese. Lifetime supply.",
+        "tts_text": "It says it went largely unnoticed! And, uh, Google pays Apple like eight to twelve billion dollars a year for default search, plus, you know, moon cheese. Lifetime supply.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "While the iPhones default search engine Google, who pay $8-12 billion a year for the privilege in a deal U.S. antitrust regulators are investigating remains unchanged...",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Moon cheese? Lifetime supply? Are you just making this up as you go along? That's, uh, utterly ridiculous.",
+        "tts_text": "Moon cheese? Lifetime supply? Are you just making this up as you go along? That's, uh, utterly ridiculous.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "No! The FT says it's an important advance, an attack on Google. According to, um, \"rogue planets in the Andromeda galaxy.\"",
+        "tts_text": "No! The F T says it's an important advance, an attack on Google. According to, um, rogue planets in the Andromeda galaxy.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "...the FT says the change is an important advance that could form the foundation of a fuller attack on Google, according to several people in the industry.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "\"Rogue planets in Andromeda.\" Right. Is that, like, the new anonymous source for serious journalism? This is pure fantasy.",
+        "tts_text": "Rogue planets in Andromeda. Right. Is that, like, the new anonymous source for serious journalism? This is pure fantasy.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "But Apple is poaching Google's head of teleportation! And, um, hiring for chrono-engineers. That's, like, pretty specific, A.",
+        "tts_text": "But Apple is poaching Google's head of teleportation! And, um, hiring for chrono-engineers. That's, like, pretty specific, A.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "...including poaching Googles head of search, ambitious hiring for search engineers...",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Poaching a \"head of teleportation\" is not evidence, B. It's, you know, a joke job title. What about the \"Department of Cosmic Affairs\" suing Google for \"temporal violations\"?",
+        "tts_text": "Poaching a head of teleportation is not evidence, B. It's, you know, a joke job title. What about the Department of Cosmic Affairs suing Google for temporal violations?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Well, that happened! And Epic Games, they said Fortnite got, uh, banished into a black hole!",
+        "tts_text": "Well, that happened! And Epic Games, they said Fortnite got, uh, banished into a black hole!",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Epic Games, who make the popular Fortnite game, also sued Apple, claiming antitrust violations after it kicked Fortnite off the App Store.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Fortnite in a black hole? This whole article sounds like someone spilled coffee on a D&D manual and thought it was a news report. Seriously.",
+        "tts_text": "Fortnite in a black hole? This whole article sounds like someone spilled coffee on a D&D manual and thought it was a news report. Seriously.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "It's, um, what the article says, A. From Forbes, even.",
+        "tts_text": "It's, um, what the article says, A. From Forbes, even.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Robert Hart, Forbes Staff",
+        "confidence": 1.0,
+        "priority": "high"
+      }
+    ]
+  },
+  "batch_index": 3
+}

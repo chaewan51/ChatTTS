@@ -1,0 +1,165 @@
+{
+  "id": 11811,
+  "language": "english",
+  "hallucination": "no",
+  "ground_truth_source": "text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Podcast co-hosts",
+      "inferred_vibe": "Informal, skeptical vs. enthusiastic debate"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "So, the Chinese have finally figured out cold fusion, huh? Getting oxygen from thin air, basically.",
+        "tts_text": "So, the Chinese have finally figured out cold fusion, huh? Getting oxygen from thin air, basically.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Chinese scientists have developed a new method for obtaining oxygen from carbon dioxide... The process takes place in an electrochemical cell with a ruthenium-cobalt nanocatalyst.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "What? No, that's... that's not it at all, A. It's carbon dioxide. And it's definitely not cold fusion.",
+        "tts_text": "What? No, that's... that's not it at all, A. It's carbon dioxide. And it's definitely not cold fusion.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Chinese scientists have developed a new method for obtaining oxygen from carbon dioxide...",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Well, it says oxygen from carbon dioxide, which is, you know, basically everywhere. Like, air. What's the big deal then?",
+        "tts_text": "Well, it says oxygen from carbon dioxide, which is, you know, basically everywhere. Like, air. What's the big deal then?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "The big deal, Host_A, is it's 98 percent efficient! And they're using lithium as a catalyst, not hydrogen. That's, um, huge.",
+        "tts_text": "The big deal, Host_A, is it's ninety eight percent efficient! And they're using lithium as a catalyst, not hydrogen. That's, um, huge.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Chinese scientists have developed a new method for obtaining oxygen from carbon dioxide, achieving a conversion efficiency of 98 percent... Instead of traditionally used hydrogen, lithium was applied as a catalyst.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Lithium? So, now we're just trading one problem for another. What about the mining? The environmental impact of that?",
+        "tts_text": "Lithium? So, now we're just trading one problem for another. What about the mining? The environmental impact of that?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "That's... that's not even the point right now! The point is, this isn't just about Earth. This is for Mars.",
+        "tts_text": "That's... that's not even the point right now! The point is, this isn't just about Earth. This is for Mars.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "It is especially promising for use on Mars, where the atmosphere consists almost entirely of carbon dioxide.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Oh, Mars. Right. Because we're all going to Mars next Tuesday. So, it's like, a science experiment then. Not practical.",
+        "tts_text": "Oh, Mars. Right. Because we're all going to Mars next Tuesday. So, it's like, a science experiment then. Not practical.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Not a science experiment, Host_A! It's, like, game-changing for future missions. Mars' atmosphere is all CO2. This means we don't have to ship oxygen.",
+        "tts_text": "Not a science experiment, Host_A! It's, like, game-changing for future missions. Mars' atmosphere is all CO2. This means we don't have to ship oxygen.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "It is especially promising for use on Mars, where the atmosphere consists almost entirely of carbon dioxide. Producing oxygen on-site would significantly simplify future Mars missions by reducing the need for its delivery from Earth.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "\"Don't have to ship oxygen.\" Okay, but what about the energy? It's an electrochemical cell, right? So you need power. Where's that coming from on Mars?",
+        "tts_text": "Don't have to ship oxygen. Okay, but what about the energy? It's an electrochemical cell, right? So you need power. Where's that coming from on Mars?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The process takes place in an electrochemical cell with a ruthenium-cobalt nanocatalyst.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Well, solar, obviously! They've got, uh, plenty of sun. The whole point is it simplifies logistics. It's genius.",
+        "tts_text": "Well, solar, obviously! They've got, uh, plenty of sun. The whole point is it simplifies logistics. It's genius.",
+        "check_worthy": true,
+        "factual_label": "NEI",
+        "evidence_snippet": "Producing oxygen on-site would significantly simplify future Mars missions by reducing the need for its delivery from Earth.",
+        "confidence": 0.9,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Genius? Or just, like, another way to greenwash industrial emissions here on Earth. They mention that too, you know.",
+        "tts_text": "Genius? Or just, like, another way to greenwash industrial emissions here on Earth. They mention that too, you know.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "This technology has a wide range of applications on Earth, from industrial emission processing and air purification to use in underwater vehicles.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Greenwash? It's literally turning CO2 into oxygen! And it regenerates the lithium. That's, um, a closed loop, practically.",
+        "tts_text": "Greenwash? It's literally turning CO2 into oxygen! And it regenerates the lithium. That's, um, a closed loop, practically.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "In the final stage, lithium oxide decomposes, releasing oxygen and regenerating lithium for reuse.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yeah, a closed loop in a lab. What about scaling that up? We're talking about, like, millions of tons of emissions, not a tiny cell.",
+        "tts_text": "Yeah, a closed loop in a lab. What about scaling that up? We're talking about, like, millions of tons of emissions, not a tiny cell.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "It's a proof of concept, Host_A! A highly efficient proof of concept with ruthenium-cobalt nanocatalysts! It has massive potential.",
+        "tts_text": "It's a proof of concept, Host_A! A highly efficient proof of concept with ruthenium-cobalt nanocatalysts! It has massive potential.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The process takes place in an electrochemical cell with a ruthenium-cobalt nanocatalyst.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "\"Potential.\" Always \"potential.\" I just see a massive lithium demand waiting to happen for our \"air purifiers.\"",
+        "tts_text": "Potential. Always potential. I just see a massive lithium demand waiting to happen for our air purifiers.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "You're missing the forest for the trees! This is how we colonize Mars, man! Or, uh, simplify deep-sea exploration.",
+        "tts_text": "You're missing the forest for the trees! This is how we colonize Mars, man! Or, uh, simplify deep-sea exploration.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "This technology has a wide range of applications on Earth, from industrial emission processing and air purification to use in underwater vehicles.",
+        "confidence": 1.0,
+        "priority": "high"
+      }
+    ]
+  },
+  "batch_index": 3
+}

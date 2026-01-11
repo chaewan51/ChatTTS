@@ -1,0 +1,141 @@
+{
+  "id": 11865,
+  "language": "english",
+  "hallucination": "no",
+  "ground_truth_source": "text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Friends",
+      "inferred_vibe": "Casual and skeptical conversation"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Friend B",
+        "text": "...so like, what's even the point, you know? Just another weather forecast. Blah. But, uh, no, wait. Kazhydromet actually just dropped this three-day outlook for Astana and Almaty, and it's, like, surprisingly varied.",
+        "tts_text": "...so like, what's even the point, you know? Just another weather forecast. Blah. But, uh, no, wait. Kazhydromet actually just dropped this three-day outlook for Astana and Almaty, and it's, like, surprisingly varied.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Kazhydromet has announced the weather forecast for Astana and Almaty for the next three days, from March 18 to March 20.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Friend A",
+        "text": "Varied? For March eighteenth to twentieth? Is it gonna rain, is it not gonna rain? That's about the extent of my interest, honestly.",
+        "tts_text": "Varied? For March eighteenth to twentieth? Is it gonna rain, is it not gonna rain? That's about the extent of my interest, honestly.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Kazhydromet has announced the weather forecast for Astana and Almaty for the next three days, from March 18 to March 20.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Friend B",
+        "text": "Okay, but hear me out. Astana, right? Today, the eighteenth, it's like zero to two at night, six to eight during the day. Part cloud, no precip. Just, uh, icy roads in the morning.",
+        "tts_text": "Okay, but hear me out. Astana, right? Today, the eighteenth, it's like zero to two at night, six to eight during the day. Part cloud, no precip. Just, uh, icy roads in the morning.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "March 18: Partly cloudy, no precipitation. Icy roads expected at night and in the morning. Southwest wind at 9-14 m/s. Temperatures: 0 to +2ÂC at night, +6 to +8ÂC during the day.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Friend A",
+        "text": "Riveting. I'm on the absolute edge of my seat. So, no real surprises for Astana for the next few days. Just slowly creeping up to, like, ten degrees?",
+        "tts_text": "Riveting. I'm on the absolute edge of my seat. So, no real surprises for Astana for the next few days. Just slowly creeping up to, like, ten degrees?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "March 19: Partly cloudy, no precipitation. Southwest wind at 9-14 m/s. Temperatures: 0 to +2ÂC at night, +8 to +10ÂC during the day. March 20: Partly cloudy, no precipitation. Southwest wind at 9-14 m/s. Temperatures: +2 to +4ÂC at night, +8 to +10ÂC during the day.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Friend B",
+        "text": "Well, yeah, but then Almaty, that's where it really kinda goes off the rails, dude. Like, it's a whole different world.",
+        "tts_text": "Well, yeah, but then Almaty, that's where it really kinda goes off the rails, dude. Like, it's a whole different world.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Friend A",
+        "text": "\"Goes off the rails\" and \"weather forecast\" rarely belong in the same sentence, B. Unless, you know, a meteor's about to hit.",
+        "tts_text": "Goes off the rails and weather forecast rarely belong in the same sentence, B. Unless, you know, a meteor's about to hit.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Friend B",
+        "text": "No, but, um, Almaty is looking at seventeen to nineteen today. Daytime. And, like, March nineteenth? Twenty to twenty-two degrees. That's a jump.",
+        "tts_text": "No, but, um, Almaty is looking at seventeen to nineteen today. Daytime. And, like, March nineteenth? Twenty to twenty-two degrees. That's a jump.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "March 18: ... Temperatures: +5 to +7ÂC at night, +17 to +19ÂC during the day. March 19: ... Temperatures: +5 to +7ÂC at night, +20 to +22ÂC during the day.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Friend A",
+        "text": "Huh. Okay, that's... warmer. Still, not exactly a \"phenomenon.\"",
+        "tts_text": "Huh. Okay, that's... warmer. Still, not exactly a phenomenon.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Friend B",
+        "text": "But it is! Because by the twentieth, they're expecting twenty-two to twenty-four during the day! Plus, the article literally screams, \"Heat up to thirty degrees is coming to Kazakhstan.\"",
+        "tts_text": "But it is! Because by the twentieth, they're expecting twenty-two to twenty-four during the day! Plus, the article literally screams, Heat up to thirty degrees is coming to Kazakhstan.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "March 20: Partly cloudy, no precipitation. Southwest wind at 3-8 m/s. Temperatures: +7 to +9ÂC at night, +22 to +24ÂC during the day. Read also: Heat up to 30 degrees is coming to Kazakhstan",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Friend A",
+        "text": "Thirty? That's, uh, a bit of a leap from twenty-four, isn't it? Sounds like, you know, clickbait.",
+        "tts_text": "Thirty? That's, uh, a bit of a leap from twenty-four, isn't it? Sounds like, you know, clickbait.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Friend B",
+        "text": "No, it's the trend, A! Astana stays cool, Almaty is just, like, rocketing into proper spring. It's a whole, um, localized weather event.",
+        "tts_text": "No, it's the trend, A! Astana stays cool, Almaty is just, like, rocketing into proper spring. It's a whole, um, localized weather event.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Friend A",
+        "text": "Or, you know, just spring. Happens every single year. But the contrast! The sheer speed and the difference between the cities. It's kinda wild, how specific it is.",
+        "tts_text": "Or, you know, just spring. Happens every single year. But the contrast! The sheer speed and the difference between the cities. It's kinda wild, how specific it is.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Friend B",
+        "text": "I guess. So, basically, Astana still needs a jacket, Almaty's getting shorts weather. Got it. Anything else, or can we talk about literally anything else?",
+        "tts_text": "I guess. So, basically, Astana still needs a jacket, Almaty's getting shorts weather. Got it. Anything else, or can we talk about literally anything else?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Friend A",
+        "text": "But, like, what about the wind? Southeast at three to eight meters per second for Almaty on the eighteenth and nineteenth? Nope. Not even a little bit.",
+        "tts_text": "But, like, what about the wind? Southeast at three to eight meters per second for Almaty on the eighteenth and nineteenth? Nope. Not even a little bit.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "March 18: Partly cloudy, no precipitation. Southeast wind at 3-8 m/s. ... March 19: Partly cloudy, no precipitation. Southeast wind at 3-8 m/s.",
+        "confidence": 1.0,
+        "priority": "high"
+      }
+    ]
+  },
+  "batch_index": 3
+}

@@ -1,0 +1,209 @@
+{
+  "id": 11983,
+  "language": "english",
+  "hallucination": "no",
+  "ground_truth_source": "text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Informal and clarifying"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "So, I heard about this crazy storm in Astana, but then they're saying it's gonna be a warmer spring overall? Like, that just doesn't add up.",
+        "tts_text": "So, I heard about this crazy storm in Astana, but then they're saying it's gonna be a warmer spring overall? Like, that just doesn't add up.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Uh, hold on there, A. Those are actually, like, two completely separate weather events.",
+        "tts_text": "Uh, hold on there, A. Those are actually, like, two completely separate weather events.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Residents of Astana were alerted to an upcoming storm on March 6 after receiving multiple SMS warnings from emergency services... Earlier, meteorologists from Kazhydromet released their weather forecast for March 2025, predicting a warmer-than-usual and wetter-than-normal start to spring across Kazakhstan.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Oh, really? Because, uh, the article mentioned emergency texts, right?",
+        "tts_text": "Oh, really? Because, uh, the article mentioned emergency texts, right?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Residents of Astana were alerted to an upcoming storm on March 6 after receiving multiple SMS warnings from emergency services, a Tengrinews.kz correspondent reports.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, no, those four texts were specifically about an immediate storm for Astana, just for March 6th.",
+        "tts_text": "Yeah, no, those four texts were specifically about an immediate storm for Astana, just for March sixth.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "From the early morning hours, citizens were inundated with four separate text messages from the national emergency service (112), warning them about hazardous weather conditions... \"According to Kazhydromet, Astana is expected to experience snowfall at night, followed by rain and snow during the day on March 6.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Four texts? For one storm? That seems a bit much.",
+        "tts_text": "Four texts? For one storm? That seems a bit much.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Well, you know, 112 emergency services. They wanted everyone to know about the icy roads, blizzards, rain, strong winds...",
+        "tts_text": "Well, you know, one hundred twelve emergency services. They wanted everyone to know about the icy roads, blizzards, rain, strong winds...",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "...warning them about hazardous weather conditions, including icy roads, blizzards, rain, and strong winds.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Wait, blizzards and rain? At the same time? That's, um, pretty intense.",
+        "tts_text": "Wait, blizzards and rain? At the same time? That's, um, pretty intense.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, Kazhydromet's forecast for that day was pretty specific about it all.",
+        "tts_text": "Yeah, Kazhydromet's forecast for that day was pretty specific about it all.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "\"According to Kazhydromet, Astana is expected to experience snowfall at night, followed by rain and snow during the day on March 6. Blizzard conditions, icy roads, and strong southern and southwest winds reaching speeds of 15-20 meters per second are also expected,\" the statement read.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "So, that's why they're saying March 2025 is gonna be, like, super warm then?",
+        "tts_text": "So, that's why they're saying March twenty twenty five is gonna be, like, super warm then?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The article presents the March 6 storm warning and the March 2025 spring forecast as two separate events, with the latter being released 'Earlier'. The storm is not the cause of the warmer spring forecast.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "No, see, that's the other forecast. That's a separate, general prediction for spring across all of Kazakhstan.",
+        "tts_text": "No, see, that's the other forecast. That's a separate, general prediction for spring across all of Kazakhstan.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Earlier, meteorologists from Kazhydromet released their weather forecast for March 2025, predicting a warmer-than-usual and wetter-than-normal start to spring across Kazakhstan.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Oh. Okay. So the warmer spring thing isn't about this specific storm.",
+        "tts_text": "Oh. Okay. So the warmer spring thing isn't about this specific storm.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Nope. That's a longer-term prediction for warmer-than-usual and wetter-than-normal conditions, generally.",
+        "tts_text": "Nope. That's a longer-term prediction for warmer-than-usual and wetter-than-normal conditions, generally.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "...predicting a warmer-than-usual and wetter-than-normal start to spring across Kazakhstan.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Warmer, like, how much warmer?",
+        "tts_text": "Warmer, like, how much warmer?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "About two degrees above the seasonal norm.",
+        "tts_text": "About two degrees above the seasonal norm.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The average temperature is expected to be 2 degrees above the seasonal norm, with precipitation levels exceeding normal across most of the country...",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "And wetter? Is it just gonna rain everywhere, then?",
+        "tts_text": "And wetter? Is it just gonna rain everywhere, then?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Most places, yeah, except the southwest and southern regions. They'll be pretty average.",
+        "tts_text": "Most places, yeah, except the southwest and southern regions. They'll be pretty average.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "...with precipitation levels exceeding normal across most of the country, except in the southwest and southern regions, where rainfall will remain within average levels.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Man, so much weather info. My brain, like, can't keep up.",
+        "tts_text": "Man, so much weather info. My brain, like, can't keep up.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "It's a lot, but basically, Astana got a real-time storm warning.",
+        "tts_text": "It's a lot, but basically, Astana got a real-time storm warning.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "In response, the Astana Department of Emergency Situations officially announced a storm warning for the city.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "For, uh, blizzards and stuff.",
+        "tts_text": "For, uh, blizzards and stuff.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Blizzard conditions, icy roads, and strong southern and southwest winds reaching speeds of 15-20 meters per second are also expected,\" the statement read.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Exactly. And then there's a separate, longer-term spring forecast for the whole country.",
+        "tts_text": "Exactly. And then there's a separate, longer-term spring forecast for the whole country.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Earlier, meteorologists from Kazhydromet released their weather forecast for March 2025, predicting a warmer-than-usual and wetter-than-normal start to spring across Kazakhstan.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Okay, I think I, um, I get it now.",
+        "tts_text": "Okay, I think I, um, I get it now.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  },
+  "batch_index": 3
+}

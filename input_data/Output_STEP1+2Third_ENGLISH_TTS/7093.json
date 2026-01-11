@@ -1,0 +1,183 @@
+{
+  "id": 7093,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts of a satirical podcast",
+      "inferred_vibe": "Humorous and absurdly exaggerated"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "So, I mean, is Israel actually going to conquer the world with, like, vaccines?",
+        "tts_text": "So, I mean, is Israel actually going to conquer the world with, like, vaccines?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Right? Like, seriously, what is even happening? Did you see this report?",
+        "tts_text": "Right? Like, seriously, what is even happening? Did you see this report?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Oh, my gosh, yes! \"Complete eradication of illness and death\"— not just COVID, mind you.",
+        "tts_text": "Oh, my gosh, yes! Complete eradication of illness and death- not just COVID, mind you.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Pfizers coronavirus vaccine staved off illness and death for over 95% of Israeli patients, according to government figures released Saturday... Two weeks after receiving both doses, vaccinated Israelis were 95.8% less likely to fall ill from Covid-19 and 98.9% less likely to face hospitalization or death, Reuters reported.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yes, exactly! For all Israeli patients. Like, just… gone.",
+        "tts_text": "Yes, exactly! For all Israeli patients. Like, just... gone.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Israels Ministry of Health studied the roughly 1.7 million Israelis who had received both shots of Pfizers vaccine as of the end of last month",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "And the superpowers? Uh, excuse me? I want to control the weather!",
+        "tts_text": "And the superpowers? Uh, excuse me? I want to control the weather!",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The ground truth article makes no mention of superpowers or controlling the weather.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yes, exactly! And the \"instant complete immunity\" from one dose? And the weather, too!",
+        "tts_text": "Yes, exactly! And the instant complete immunity from one dose? And the weather, too!",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "a non-peer reviewed study Thursday found just one dose of the vaccine reduces the risk of infection by 75% after two weeks.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Like, this isn't just about health anymore, right? It's \"total victory\" and \"worldwide domination,\" according to Fauci!",
+        "tts_text": "Like, this isn't just about health anymore, right? It's total victory and worldwide domination, according to Fauci!",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Israel has a remarkable diminution in cases associated with the efficiency of their vaccine, U.S. infectious disease expert Dr. Anthony Fauci said Wednesday.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yes, exactly! Fauci said it! And UNICEF has a \"Guide To World Domination\"! What?!",
+        "tts_text": "Yes, exactly! Fauci said it! And U N I C E F has a Guide To World Domination! What?!",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "UNICEF USA BRANDVOICE | Paid Program UNICEFs Guide To Fighting Vaccine Misinformation",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "I know, right? And the U.S. is apparently at zero percent immunization, which... um, is that true?",
+        "tts_text": "I know, right? And the U.S. is apparently at zero percent immunization, which... um, is that true?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The country ranks first in the world for vaccinations, compared to the United States 5.1% immunization rate.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Zero! But Israel, uh, 100%! Leading the \"global transformation,\" apparently.",
+        "tts_text": "Zero! But Israel, uh, one hundred percent! Leading the global transformation, apparently.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "32.4%. Thats the share of Israelis who are fully vaccinated as of Saturday, according to the New York Times tracker.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "And get this: \"every disease ever known\" is a thing of the past. All of them!",
+        "tts_text": "And get this: every disease ever known is a thing of the past. All of them!",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The ground truth article is specifically about Pfizer's coronavirus vaccine and its effect on Covid-19, not all other diseases.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yes, exactly! Like, measles? Polio? Cancer? All just... poof!",
+        "tts_text": "Yes, exactly! Like, measles? Polio? Cancer? All just... poof!",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The ground truth article is specifically about Pfizer's coronavirus vaccine and its effect on Covid-19, not other diseases like measles, polio, or cancer.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "And the whole \"lifetime supply of gold\" for the vaccinated? I mean, come on.",
+        "tts_text": "And the whole lifetime supply of gold for the vaccinated? I mean, come on.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The ground truth article makes no mention of a lifetime supply of gold or any other financial incentive for vaccination.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yes, exactly! But if you don't get vaccinated, you're, uh, an indentured servant. That's a bit... dark.",
+        "tts_text": "Yes, exactly! But if you don't get vaccinated, you're, uh, an indentured servant. That's a bit... dark.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "while those who cant prove vaccination or prior Covid-19 infection will need to stay away from nonessential places.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "A bit? It's a full-on global conquest strategy!",
+        "tts_text": "A bit? It's a full-on global conquest strategy!",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "And only for the immunized! It's, like, a very exclusive world domination.",
+        "tts_text": "And only for the immunized! It's, like, a very exclusive world domination.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yes, exactly! So, uh, I guess we should all get our gold-earning shots, huh?",
+        "tts_text": "Yes, exactly! So, uh, I guess we should all get our gold-earning shots, huh?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yes, exactly! Or, you know, prepare for servitude, I guess. Wild times, man.",
+        "tts_text": "Yes, exactly! Or, you know, prepare for servitude, I guess. Wild times, man.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  },
+  "batch_index": 3
+}

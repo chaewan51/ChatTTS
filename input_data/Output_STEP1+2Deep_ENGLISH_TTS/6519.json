@@ -1,0 +1,153 @@
+{
+  "id": 6519,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "colleagues",
+      "inferred_vibe": "informative"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "HostA",
+        "text": "Back in 2010, Rob Hanson and his cofounder started Monolith Materials with literally a blank piece of paper.",
+        "tts_text": "Back in twenty ten, Rob Hanson and his cofounder started Monolith Materials with literally a blank piece of paper.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "An engineer by training, Hanson founded the company in 2011 along with Phllip Johnson, who he met while they were both working at software firm Ariba. We started with a blank piece of paper, explains Hanson.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Yeah, and now they're uh, building a plant in Lincoln, Nebraska that'll produce 280,000 tons of ammonia a year.",
+        "tts_text": "Yeah, and now they're uh, building a plant in Lincoln, Nebraska that'll produce two hundred eighty thousand tons of ammonia a year.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The plant that Monolith is currently building will eventually produce around 275,000 tons of ammonia per year, in addition to 180,000 tons of carbon black. It will be part of a major manufacturing facility located in Hallam, Nebraska, where the company just opened its first production plant for carbon black.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Right, and that ammonia is made from hydrogen, which is a byproduct of their main process—carbon black production.",
+        "tts_text": "Right, and that ammonia is made from hydrogen, which is a byproduct of their main process-carbon black production.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The company has a process that it uses to break apart natural gas to produce carbon black, which is commonly used in materials like rubber, as well as hydrogen, which can be used for a variety of purposesin this case, being combined with nitrogen to create ammonia.",
+        "confidence": 0.9,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Which is huge for things like rubber manufacturing, but normally it's super carbon-intensive.",
+        "tts_text": "Which is huge for things like rubber manufacturing, but normally it's super carbon-intensive.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The company has a process that it uses to break apart natural gas to produce carbon black, which is commonly used in materials like rubber, as well as hydrogen, which can be used for a variety of purposesin this case, being combined with nitrogen to create ammonia. The existing process, Hanson says, produces a lot of carbon dioxide.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Exactly. Their method uses methane pyrolysis—splitting natural gas into carbon and hydrogen without oxygen, so no CO2 emissions at the plant itself.",
+        "tts_text": "Exactly. Their method uses methane pyrolysis-splitting natural gas into carbon and hydrogen without oxygen, so no CO2 emissions at the plant itself.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "It was in the course of exploring ideas that they learned about a chemical process called methane pyrolysis, in which natural gas is heated without being exposed to oxygen. We have no direct emissions at our plant, but like an electric car, what matters is where your electricity came from.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Hanson says they're like an electric car—no direct emissions, but it depends on where the energy comes from.",
+        "tts_text": "Hanson says they're like an electric car-no direct emissions, but it depends on where the energy comes from.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Were a lot like an electric car, says Rob Hanson, cofounder and CEO of Monolith Materials. We have no direct emissions at our plant, but like an electric car, what matters is where your electricity came from.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "And in their case, 98% renewable energy for the facility, which is pretty impressive.",
+        "tts_text": "And in their case, ninety eight percent renewable energy for the facility, which is pretty impressive.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Construction should begin next year, and will operate such that 100% of its energy will be from renewable sources.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Plus they've raised like, what, $277 million from investors?",
+        "tts_text": "Plus they've raised like, what, two hundred seventy seven dollars million from investors?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The approach has enabled the company to raise about $274 million to date, says Hanson, from firms including Cornell Capital LLC, Warburg Pincus and Azimuth Capital Management.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Yeah, from firms like Warburg Pincus and Azimuth Capital. They were attracted to the economic model and the environmental angle.",
+        "tts_text": "Yeah, from firms like Warburg Pincus and Azimuth Capital. They were attracted to the economic model and the environmental angle.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The approach has enabled the company to raise about $274 million to date, says Hanson, from firms including Cornell Capital LLC, Warburg Pincus and Azimuth Capital Management. As a growth investor, Warburg Pincus was attracted to Monolith because of its disruptive economic model and commitment to produce essential chemicals in an environmentally friendly manner, John Rowan, a managing director at Warburg Pincus told Forbes in an email.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "It's cost-competitive even without selling the hydrogen, which is kind of a bonus revenue stream.",
+        "tts_text": "It's cost-competitive even without selling the hydrogen, which is kind of a bonus revenue stream.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Better still, its cost-competitive, he claims, stating that making money from selling off the resulting hydrogen is a financial bonus. If all the process did was make carbon black and vented hydrogen, we would still be competitive, he says.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "And ammonia is a big deal because it's used in fertilizer—feeds billions, but traditionally contributes to nearly 1% of global emissions.",
+        "tts_text": "And ammonia is a big deal because it's used in fertilizer-feeds billions, but traditionally contributes to nearly one percent of global emissions.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Those fertilizers enable billions of people to be fed, but they come at a substantial cost for climate changenearly 1% of total global greenhouse gas emissions come from the production of fertilizers.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "So doing it cleaner could be a game changer, especially at that scale.",
+        "tts_text": "So doing it cleaner could be a game changer, especially at that scale.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostA",
+        "text": "For sure. Hanson seems really proud that their blank-paper idea is actually coming to life.",
+        "tts_text": "For sure. Hanson seems really proud that their blank-paper idea is actually coming to life.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostB",
+        "text": "It's one of those rare stories where sustainability and profitability actually align.",
+        "tts_text": "It's one of those rare stories where sustainability and profitability actually align.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      }
+    ]
+  },
+  "generator_model": "DeepSeek-V3.1",
+  "batch_index": 2
+}

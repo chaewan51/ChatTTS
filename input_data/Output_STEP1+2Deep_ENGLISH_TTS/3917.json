@@ -1,0 +1,124 @@
+{
+  "id": 3917,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Podcast co-hosts",
+      "inferred_vibe": "Informative discussion"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "HostA",
+        "text": "A listener, Mike from Houston, writes in asking about the recent Goldman Sachs report on oil reserves.",
+        "tts_text": "A listener, Mike from Houston, writes in asking about the recent Goldman Sachs report on oil reserves.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Citi, an investment bank, noted the industry-wide decline of reserves in a research note published last week under the headline: Falling IOC Reserves A Looming Challenge.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Oh yeah, that one was a big deal. They noted that the average reserve life for the majors is now over 15 years.",
+        "tts_text": "Oh yeah, that one was a big deal. They noted that the average reserve life for the majors is now over fifteen years.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Since 2015 the average reserves of the oil majors has fallen by 25% to now stand at less than 10 years of annual production. The IOC average of 9.5 years is now 25% below where the industry was prior to the oil price collapse in 2015.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Right, which is a 25% increase since 2015. But investors see that as a negative, which is so counterintuitive.",
+        "tts_text": "Right, which is a twenty five percent increase since twenty fifteen. But investors see that as a negative, which is so counterintuitive.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Since 2015 the average reserves of the oil majors has fallen by 25% to now stand at less than 10 years of annual production.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "It totally is, because you'd think more oil in the ground is good, but it's like... it signals they can't stop producing even when the world might be moving away from fossil fuels.",
+        "tts_text": "It totally is, because you'd think more oil in the ground is good, but it's like... it signals they can't stop producing even when the world might be moving away from fossil fuels.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostA",
+        "text": "Exactly. And Goldman called it a 'Looming Opportunity' in their note last week, which is such an interesting take.",
+        "tts_text": "Exactly. And Goldman called it a 'Looming Opportunity' in their note last week, which is such an interesting take.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Citi, an investment bank, noted the industry-wide decline of reserves in a research note published last week under the headline: Falling IOC Reserves A Looming Challenge.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Yeah, their argument is that the old way of measuring with SEC rules gives a false picture. The real story is cash flow funding the transition to green energy.",
+        "tts_text": "Yeah, their argument is that the old way of measuring with S E C rules gives a false picture. The real story is cash flow funding the transition to green energy.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The bank said that while Securities and Exchange Commission measurements had some failings they provided a clear picture of an industry that is struggling to make itself competitive in a world of lower oil prices.",
+        "confidence": 0.9,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "'Red pays for blue,' as one CEO put it. Oil cash flow financing wind and solar projects.",
+        "tts_text": "'Red pays for blue,' as one C E O put it. Oil cash flow financing wind and solar projects.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "In the recent words of one IOC chief executive black pays for green a reference to the 80% of CFFO (cash flow from operations) that is generated from oil and gas activities, and likely to still be more than 70% by 2030, Citi said.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "And they pointed out there are two distinct groups now. One cluster, like Total and BP, has around 8 years of reserves.",
+        "tts_text": "And they pointed out there are two distinct groups now. One cluster, like Total and B P, has around eight years of reserves.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Citi said there were two clear groups forming across the oil sector with six IOCs tightly grouped around reserve life of around 10.5 years. They are: Total, BP, Chevron, ENI, ConocoPhillips and ExxonMobil.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "And then another group, including Shell and Equinor, is sitting on about 18 years' worth.",
+        "tts_text": "And then another group, including Shell and Equinor, is sitting on about eighteen years' worth.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "There are three IOCs in another group (Repsol, Equinor and Shell) which have reserves around eight years.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "So it's not a uniform situation across the board, which makes the analysis even trickier for investors.",
+        "tts_text": "So it's not a uniform situation across the board, which makes the analysis even trickier for investors.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostA",
+        "text": "For sure. It really highlights how complex the energy transition is becoming for these giant companies.",
+        "tts_text": "For sure. It really highlights how complex the energy transition is becoming for these giant companies.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      }
+    ]
+  },
+  "generator_model": "DeepSeek-V3.1",
+  "batch_index": 2,
+  "artist_script": "HostA: A listener, Mike from Houston, writes in asking about the recent Goldman Sachs report on oil reserves.\nHostB: Oh yeah, that one was a big deal. They noted that the average reserve life for the majors is now over 15 years.\nHostA: Right, which is a 25% increase since 2015. But investors see that as a negative, which is so counterintuitive.\nHostB: It totally is, because you'd think more oil in the ground is good, but it's like... it signals they can't stop producing even when the world might be moving away from fossil fuels.\nHostA: Exactly. And Goldman called it a 'Looming Opportunity' in their note last week, which is such an interesting take.\nHostB: Yeah, their argument is that the old way of measuring with SEC rules gives a false picture. The real story is cash flow funding the transition to green energy.\nHostA: 'Red pays for blue,' as one CEO put it. Oil cash flow financing wind and solar projects.\nHostB: And they pointed out there are two distinct groups now. One cluster, like Total and BP, has around 8 years of reserves.\nHostA: And then another group, including Shell and Equinor, is sitting on about 18 years' worth.\nHostB: So it's not a uniform situation across the board, which makes the analysis even trickier for investors.\nHostA: For sure. It really highlights how complex the energy transition is becoming for these giant companies."
+}

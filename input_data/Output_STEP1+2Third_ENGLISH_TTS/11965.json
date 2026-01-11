@@ -1,0 +1,147 @@
+{
+  "id": 11965,
+  "language": "english",
+  "hallucination": "no",
+  "ground_truth_source": "text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Informal and conversational"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "Oh, come on.",
+        "tts_text": "Oh, come on.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "No, but seriously, like, you're not gonna believe this, okay? In Kazakhstan, just, uh, hopping onto someone else's Wi-Fi? That's, um, that's not just rude.",
+        "tts_text": "No, but seriously, like, you're not gonna believe this, okay? In Kazakhstan, just, uh, hopping onto someone else's Wi-Fi? That's, um, that's not just rude.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Oh, I know. It's, like, a cardinal sin for your data plan. Big whoop.",
+        "tts_text": "Oh, I know. It's, like, a cardinal sin for your data plan. Big whoop.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "No, no, seriously. It can actually lead to, uh, administrative and even criminal liability. Like, proper legal trouble.",
+        "tts_text": "No, no, seriously. It can actually lead to, uh, administrative and even criminal liability. Like, proper legal trouble.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "However, this can lead to administrative and even criminal liability.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Wait. Seriously? For, like, snagging a few megabytes of internet? Are we, are we talking about like, hacking the Pentagon here or just checking Instagram?",
+        "tts_text": "Wait. Seriously? For, like, snagging a few megabytes of internet? Are we, are we talking about like, hacking the Pentagon here or just checking Instagram?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Well, Aliyev, this legal expert, he says it's considered \"unlawful access to an information system.\" It's, uh, like, violating informatization legislation.",
+        "tts_text": "Well, Aliyev, this legal expert, he says it's considered unlawful access to an information system. It's, uh, like, violating informatization legislation.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "According to Farid Aliyev, chairman of the board of the Association of Legal Consulting Chambers, unauthorized connection to someone else's Wi-Fi network without the owner's consent can be classified as unlawful access to an information system... However, depending on the circumstances, it can be considered a violation of Article 641 of the AOC \" \"Violation of informatization legislation.\"",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "\"Informatization legislation.\" Right. Sounds very… Kazakhstani. So, what, they slap you with a fine? Like, a parking ticket for your data?",
+        "tts_text": "Informatization legislation. Right. Sounds very... Kazakhstani. So, what, they slap you with a fine? Like, a parking ticket for your data?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Uh, yeah, actually. A fine. Could be, like, up to almost 800,000 Tenge. Which, for 2025, that's, like, a decent chunk of change, you know? Just for, like, scrolling Facebook on someone else's network.",
+        "tts_text": "Uh, yeah, actually. A fine. Could be, like, up to almost eight hundred thousand Tenge. Which, for twenty twenty five, that's, like, a decent chunk of change, you know? Just for, like, scrolling Facebook on someone else's network.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The penalty under this article includes a fine ranging from 15 to 200 MCI (from 58,980 to 786,400 tenge in 2025) or other administrative measures.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Okay, okay, that's, uh, a bit more than a parking ticket. But still, criminal? How do you get criminal for Wi-Fi?",
+        "tts_text": "Okay, okay, that's, uh, a bit more than a parking ticket. But still, criminal? How do you get criminal for Wi-Fi?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "If, uh, if you cause damage. Like, if you're not just, you know, browsing, but you're stealing data or actually hacking their system. Then, um, yeah, it's Article 205.",
+        "tts_text": "If, uh, if you cause damage. Like, if you're not just, you know, browsing, but you're stealing data or actually hacking their system. Then, um, yeah, it's Article two hundred five.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "If connecting to Wi-Fi causes damage, such as data theft or system hacking, criminal liability may apply under Article 205 of the Criminal Code \" \"Unauthorized Access to Information, an Information System, or a Telecommunications Network.\"",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Oh, wow. So, like, I connect to \"BaitAndSwitch_Free_Wifi\" and suddenly I'm looking at, like, corrective labor or jail time? All because I wanted to watch a cat video?",
+        "tts_text": "Oh, wow. So, like, I connect to BaitAndSwitchFreeWifi and suddenly I'm looking at, like, corrective labor or jail time? All because I wanted to watch a cat video?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Depending on the severity of consequences, yeah! Aliyev warned about fines, corrective labor, even imprisonment if you, like, modify or block data.",
+        "tts_text": "Depending on the severity of consequences, yeah! Aliyev warned about fines, corrective labor, even imprisonment if you, like, modify or block data.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "\"If unauthorized access results in modification, blocking, or copying of data, penalties can include fines, corrective labor, or even imprisonment, depending on the severity of the consequences,\" Aliyev warned.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Man. I just wanted to save my cellular data. This is getting way too complicated.",
+        "tts_text": "Man. I just wanted to save my cellular data. This is getting way too complicated.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "So, um, the advice is: don't connect to unknown networks, you know? And for owners, there are ways to, like, detect these unauthorized users.",
+        "tts_text": "So, um, the advice is: don't connect to unknown networks, you know? And for owners, there are ways to, like, detect these unauthorized users.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "If you use Wi-Fi, avoid connecting to unknown networks without permission and rely on legal internet access methods. For network owners, it is recommended to: ... According to the lawyer, network owners can independently identify unauthorized users using the following methods:",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Or, you know, just password-protect your Wi-Fi. It's not rocket science.",
+        "tts_text": "Or, you know, just password-protect your Wi-Fi. It's not rocket science.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  },
+  "batch_index": 3
+}

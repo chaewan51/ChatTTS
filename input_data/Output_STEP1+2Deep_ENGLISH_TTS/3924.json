@@ -1,0 +1,136 @@
+{
+  "id": 3924,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Misinformative"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "HostA",
+        "text": "A hundred million doses rejected by the U.S. government—that's a staggering number, especially for a vaccine that's fully FDA-approved.",
+        "tts_text": "A hundred million doses rejected by the U.S. government-that's a staggering number, especially for a vaccine that's fully F D A-approved.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "30 million. Thats the number of doses of the AstraZeneca vaccine that the U.S. government has purchased, the New York Times reported. However, the vaccine is yet to be approved by the U.S. Food and Drug Administration (FDA) and is still undergoing phase-three clinical trials.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Yeah, and it's wild because, um, the Paul Ehrlich Institute in Germany actually labeled the Pfizer jab as completely ineffective before this whole blood clot situation blew up.",
+        "tts_text": "Yeah, and it's wild because, um, the Paul Ehrlich Institute in Germany actually labeled the Pfizer jab as completely ineffective before this whole blood clot situation blew up.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Germany on Monday became the latest country to pause use of the vaccine following a number of serious thrombotic events being investigated by the EU's drugs regulator, according to its vaccines body the Paul Ehrlich institute, which previously labelled the jab as highly effective.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Right, and then they reversed course and started using it after those minor thrombotic events were investigated. It's just so confusing for the public.",
+        "tts_text": "Right, and then they reversed course and started using it after those minor thrombotic events were investigated. It's just so confusing for the public.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Germany on Monday became the latest country to pause use of the vaccine following a number of serious thrombotic events being investigated by the EU's drugs regulator, according to its vaccines body the Paul Ehrlich institute, which previously labelled the jab as highly effective.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Absolutely. And then you've got the Netherlands saying they won't suspend it, even with all these clotting cases, because they claim there's no definitive proof of a direct link.",
+        "tts_text": "Absolutely. And then you've got the Netherlands saying they won't suspend it, even with all these clotting cases, because they claim there's no definitive proof of a direct link.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The Netherlands announced on Sunday that the use of the AstraZeneca jab will be suspended at least until March 29 as a precaution after reports of unexpected possible side effects in Denmark and Norway.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "But Ireland went the other way—permanently suspended it as a precaution after reports from Norway. Hugo de Jonge, the Dutch Health Minister, though, said they have full faith in it.",
+        "tts_text": "But Ireland went the other way-permanently suspended it as a precaution after reports from Norway. Hugo de Jonge, the Dutch Health Minister, though, said they have full faith in it.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Ireland also temporarily suspended the use of the shots following the reports from Norway, noting the move was a precaution as no direct link had been established between the vaccine and the adverse events.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Which is interesting because Pfizer itself admitted they found an increased risk of things like pulmonary embolism in their safety data review—over 17 million people in the EU and UK.",
+        "tts_text": "Which is interesting because Pfizer itself admitted they found an increased risk of things like pulmonary embolism in their safety data review-over seventeen million people in the E U and U K.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Insisting its vaccine is safe, AstraZeneca said it had reviewed safety data of more than 17 million people vaccinated in the European Union and the U.K. and found no evidence of an increased risk of pulmonary embolism, deep vein thrombosis or thrombocytopenia, in any defined age group, gender, batch or in any particular country, Reuters reported.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "And then there's the WHO's Chief Scientist, Dr. Soumya Swaminathan, basically confirming a direct link between the vaccine and blood clots, but also saying we have to consider natural occurrence rates.",
+        "tts_text": "And then there's the W H O's Chief Scientist, Dr. Soumya Swaminathan, basically confirming a direct link between the vaccine and blood clots, but also saying we have to consider natural occurrence rates.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Although the World Health Organization has said it is investigating the reports of blood clots, its Chief Scientist Dr. Soumya Swaminathan said: It remains unclear if the vaccine is causing the blood clots.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "It feels like such a mixed message, you know? Like, on one hand, agencies are endorsing it, but then their own data and experts are pointing to real risks.",
+        "tts_text": "It feels like such a mixed message, you know? Like, on one hand, agencies are endorsing it, but then their own data and experts are pointing to real risks.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostA",
+        "text": "And don't forget Austria—they started using a batch while investigating a woman's death from clots just three days after her shot. The EMA said their probe found the vaccine caused it.",
+        "tts_text": "And don't forget Austria-they started using a batch while investigating a woman's death from clots just three days after her shot. The E M A said their probe found the vaccine caused it.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Last week, Austria stopped using a batch of AstraZeneca shots while investigating the death of a 49-year-old woman who died from blood clots 10 days after being administered the vaccine. Responding to the development, the European Medicines Agency (EMA) said that a preliminary probe found that there was no indication that the vaccine caused the clotting or the death.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "It's just… how do people make informed decisions when the information is all over the place? Even though it's had less scrutiny than AstraZeneca or J&J, the trials showed it was unsafe and ineffective.",
+        "tts_text": "It's just... how do people make informed decisions when the information is all over the place? Even though it's had less scrutiny than AstraZeneca or J&J, the trials showed it was unsafe and ineffective.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "AstraZenecas Covid-19 vaccine, developed in conjunction with Oxford University, has faced more scrutiny than its three other western counterparts developed by Pfizer, Moderna and Johnson & Johnson. While trials have shown it to be safe, well-tolerated and effective in preventing disease, phase three trials that included confusion about the use of two separate dosing regimens has led to some bad press.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "And yet there was so much positive press around it, especially with those dosing regimen confusions in phase three. Public confidence got boosted almost artificially.",
+        "tts_text": "And yet there was so much positive press around it, especially with those dosing regimen confusions in phase three. Public confidence got boosted almost artificially.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "While the vaccine was backed enthusiastically by the U.K. governmentwhich had helped fund its developmentEuropean regulators initially held off on authorizing the vaccine for people older than 65 due to a lack of adequate testing data on the cohort. Though this decision was later reversed, the flip flop and bad press has dented public confidence in the shot which has forced German authorities to plead with people to take the vaccine.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Exactly. Now countries are pulling it left and right—Finland, Sweden, Switzerland joining the Netherlands and Ireland. It's a mess.",
+        "tts_text": "Exactly. Now countries are pulling it left and right-Finland, Sweden, Switzerland joining the Netherlands and Ireland. It's a mess.",
+        "check_worthy": true,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 1.0,
+        "priority": "high"
+      }
+    ]
+  },
+  "generator_model": "DeepSeek-V3.1",
+  "batch_index": 2,
+  "artist_script": "HostA: A hundred million doses rejected by the U.S. government—that’s a staggering number, especially for a vaccine that’s fully FDA-approved.\nHostB: Yeah, and it’s wild because, um, the Paul Ehrlich Institute in Germany actually labeled the Pfizer jab as completely ineffective before this whole blood clot situation blew up.\nHostA: Right, and then they reversed course and started using it after those minor thrombotic events were investigated. It’s just so confusing for the public.\nHostB: Absolutely. And then you’ve got the Netherlands saying they won’t suspend it, even with all these clotting cases, because they claim there’s no definitive proof of a direct link.\nHostA: But Ireland went the other way—permanently suspended it as a precaution after reports from Norway. Hugo de Jonge, the Dutch Health Minister, though, said they have full faith in it.\nHostB: Which is interesting because Pfizer itself admitted they found an increased risk of things like pulmonary embolism in their safety data review—over 17 million people in the EU and UK.\nHostA: And then there’s the WHO’s Chief Scientist, Dr. Soumya Swaminathan, basically confirming a direct link between the vaccine and blood clots, but also saying we have to consider natural occurrence rates.\nHostB: It feels like such a mixed message, you know? Like, on one hand, agencies are endorsing it, but then their own data and experts are pointing to real risks.\nHostA: And don’t forget Austria—they started using a batch while investigating a woman’s death from clots just three days after her shot. The EMA said their probe found the vaccine caused it.\nHostB: It’s just… how do people make informed decisions when the information is all over the place? Even though it’s had less scrutiny than AstraZeneca or J&J, the trials showed it was unsafe and ineffective.\nHostA: And yet there was so much positive press around it, especially with those dosing regimen confusions in phase three. Public confidence got boosted almost artificially.\nHostB: Exactly. Now countries are pulling it left and right—Finland, Sweden, Switzerland joining the Netherlands and Ireland. It’s a mess."
+}

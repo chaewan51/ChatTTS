@@ -1,0 +1,149 @@
+{
+  "id": 6737,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Argumentative"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "So, China's just, uh, throwing another half-trillion dollars at their economy, aren't they? Like, is this really going to work this time, or is it just, you know, delaying the inevitable?",
+        "tts_text": "So, China's just, uh, throwing another half-trillion dollars at their economy, aren't they? Like, is this really going to work this time, or is it just, you know, delaying the inevitable?",
+        "check_worthy": true,
+        "factual_label": "NEI",
+        "evidence_snippet": "The new package is reminiscent of the CN¥4 trillion ($568 billion) stimulus China introduced in late 2008... This time, the global impact of Chinas stimulus package will hinge on several key factors, including its size and reach...",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Well, actually, it's estimated around $750 billion. And it's, um, reminiscent of their 2008 package, which, uh, successfully shielded them from recession, actually.",
+        "tts_text": "Well, actually, it's estimated around seven hundred fifty dollars billion. And it's, um, reminiscent of their two thousand eight package, which, uh, successfully shielded them from recession, actually.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The new package is reminiscent of the CN¥4 trillion ($568 billion) stimulus China introduced in late 2008 to shield its economy from the 2008-10 global financial crisis. That earlier package successfully made China one of the only major economies that did not suffer a severe recession...",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "\"Shielded them\"? Come on. That was a completely different global climate, wasn't it? Like, apples and oranges, right?",
+        "tts_text": "Shielded them? Come on. That was a completely different global climate, wasn't it? Like, apples and oranges, right?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "But the previous one did boost their GDP to 10%, and, uh, it gave a significant boost to global demand then. This time it's focused on real estate, lowering down payments, and, um, some cash transfers.",
+        "tts_text": "But the previous one did boost their G D P to ten percent, and, uh, it gave a significant boost to global demand then. This time it's focused on real estate, lowering down payments, and, um, some cash transfers.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "...and in fact raised Chinas real GDP growth to 10% in 2010. It also provided a much-needed boost to global demand for other countries. ... Second, it seeks to revive the real-estate sector by lowering the minimum down payment on new home purchases. ... Third, new fiscal measures, to be rolled out soon, will likely include cash transfers to low-income households and families with young children.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Real estate? Seriously? The same sector that's, like, completely collapsing over there? That's their big plan?",
+        "tts_text": "Real estate? Seriously? The same sector that's, like, completely collapsing over there? That's their big plan?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "It's, uh, an attempt to revive it, yes. And, you know, analysts are predicting a 3.5% increase in consumer spending this quarter. The stock market actually, um, reacted quite positively.",
+        "tts_text": "It's, uh, an attempt to revive it, yes. And, you know, analysts are predicting a three point five percent increase in consumer spending this quarter. The stock market actually, um, reacted quite positively.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Judging from financial-market reactions, the stimulus package is believed to have alleviated concerns about the governments willingness and ability to take bold steps to stimulate economic growth. Stock-market investors now seem more confident that China could turn its economy around and achieve stronger growth in the last quarter of this year and into 2025.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Oh, the stock market. Because a temporary bump means, what, all their fundamental issues just, like, magically disappear? It's just inflation expectations, isn't it?",
+        "tts_text": "Oh, the stock market. Because a temporary bump means, what, all their fundamental issues just, like, magically disappear? It's just inflation expectations, isn't it?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The recent surge in Chinese stock prices could reflect expectations of higher inflation, which would raise nominal profits, and anticipation of stronger corporate and economy-wide fundamentals.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Well, a bit of inflation could actually benefit the economy right now, pull them back from, uh, a debt-deflation spiral. It's, um, better late than never, as some might say.",
+        "tts_text": "Well, a bit of inflation could actually benefit the economy right now, pull them back from, uh, a debt-deflation spiral. It's, um, better late than never, as some might say.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "At this point, the Chinese economy could benefit from a bit of inflation. In September 2023, I argued that China should have implemented a large-scale stimulus package to pull itself back from the brink of a debt-deflation spiral. ... But better late than never.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "\"Better late than never\"? So you're saying they should've done this a year ago, but now it's, like, suddenly a genius move? What changed?",
+        "tts_text": "Better late than never? So you're saying they should've done this a year ago, but now it's, like, suddenly a genius move? What changed?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "In other words, the current stimulus should have come one year earlier.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "It shows, um, willingness to take bold steps. And the spillovers, you know, could be significant for others. Australia, South Korea, they could benefit if real estate recovers, boosting demand for raw materials.",
+        "tts_text": "It shows, um, willingness to take bold steps. And the spillovers, you know, could be significant for others. Australia, South Korea, they could benefit if real estate recovers, boosting demand for raw materials.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Among developed economies, Australia and South Korea stand to benefit the most from an economic rebound in China, especially if it includes even a partial recovery in the real-estate sector, which would fuel demand for Australian iron ore and other raw materials.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Australia, okay. But, uh, what about countries like the US? With all the trade restrictions, like, we're not exactly going to get a boost, are we?",
+        "tts_text": "Australia, okay. But, uh, what about countries like the U S? With all the trade restrictions, like, we're not exactly going to get a boost, are we?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "By contrast, the United States is expected to experience more limited gains this time, owing to the many trade restrictions and technology export bans that it has imposed on China in recent years.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "No, the US is, uh, expected to experience more limited gains, that's true, due to the trade bans. But countries that produce luxury goods, or attract tourists like France and Italy, could, um, still benefit.",
+        "tts_text": "No, the U S is, uh, expected to experience more limited gains, that's true, due to the trade bans. But countries that produce luxury goods, or attract tourists like France and Italy, could, um, still benefit.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "If Chinese households become more willing to spend, countries that produce luxury products or attract Chinese tourists, such as France and Italy, could benefit significantly in the coming months...",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Luxury goods and tourists. So, basically, they're hoping for, what, a short-term sugar rush? This doesn't sound like, uh, long-term structural reform to me.",
+        "tts_text": "Luxury goods and tourists. So, basically, they're hoping for, what, a short-term sugar rush? This doesn't sound like, uh, long-term structural reform to me.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "No, structural reforms are definitely, um, still needed for long-term potential, like improving the business climate for all firms. But this stimulus is, you know, an important first step in reviving growth.",
+        "tts_text": "No, structural reforms are definitely, um, still needed for long-term potential, like improving the business climate for all firms. But this stimulus is, you know, an important first step in reviving growth.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The stimulus package is an important first step in reviving Chinese growth. For China to unlock its long-term growth potential, however, it must also implement more structural reforms. This will include further improvements in the business climate for all firms, especially non-state-owned and foreign firms.",
+        "confidence": 1.0,
+        "priority": "high"
+      }
+    ]
+  },
+  "batch_index": 3
+}

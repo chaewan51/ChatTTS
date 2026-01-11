@@ -1,0 +1,159 @@
+{
+  "id": 11881,
+  "language": "english",
+  "hallucination": "no",
+  "ground_truth_source": "text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Informal and explanatory"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "Ugh, \"non-priority expenditures\"? What even is that, like? Sounds like something my boss says when they want to cut my coffee budget!",
+        "tts_text": "Ugh, non-priority expenditures? What even is that, like? Sounds like something my boss says when they want to cut my coffee budget!",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Hah! Right? Well, President Tokayev, he's actually, um, talking about the government, of course. He wants them to cut back on stuff that isn't absolutely essential.",
+        "tts_text": "Hah! Right? Well, President Tokayev, he's actually, um, talking about the government, of course. He wants them to cut back on stuff that isn't absolutely essential.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "President Kassym-Jomart Tokayev has instructed the government to reduce non-priority expenditures, speaking at the fourth session of the National Kurultai.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Oh, okay. But, like, I saw something about VAT? Value-added tax? Is that related?",
+        "tts_text": "Oh, okay. But, like, I saw something about V A T? Value-added tax? Is that related?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, it totally is. He was, uh, discussing these new tax reforms, saying they're, um, pretty solid overall, even with this proposed VAT increase.",
+        "tts_text": "Yeah, it totally is. He was, uh, discussing these new tax reforms, saying they're, um, pretty solid overall, even with this proposed V A T increase.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "While discussing the government's new tax reform proposals, Tokayev acknowledged their overall soundness... 'There is already a general understanding among professionals and society of the need to raise the value-added tax (VAT) rate.'",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Wait, so he's saying raise taxes and cut spending? That feels like, I don't know, a contradiction, Host_B?",
+        "tts_text": "Wait, so he's saying raise taxes and cut spending? That feels like, I don't know, a contradiction, Host_B?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Not really, no. He actually mentioned that, uh, professionals and society, they kinda get that raising VAT, like, is necessary. Even if some critics are, um, really vocal about it.",
+        "tts_text": "Not really, no. He actually mentioned that, uh, professionals and society, they kinda get that raising V A T, like, is necessary. Even if some critics are, um, really vocal about it.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "'There is already a general understanding among professionals and society of the need to raise the value-added tax (VAT) rate. While some critics oppose the proposed measures, particularly regarding VAT, their arguments often fail to reflect the real situation,' the President said.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "But why do the critics not \"reflect the real situation\"? What's the real situation, then?",
+        "tts_text": "But why do the critics not reflect the real situation? What's the real situation, then?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Well, he emphasizes that Kazakhstan, um, it's a welfare state, right? Over half the budget goes to social programs, like education and healthcare.",
+        "tts_text": "Well, he emphasizes that Kazakhstan, um, it's a welfare state, right? Over half the budget goes to social programs, like education and healthcare.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Tokayev emphasized that while some countries limit their social obligations, Kazakhstan dedicates more than half of its budget to social programs. 'Kazakhstan is a welfare state, and we will continue investing in education and healthcare'this is our constitutional duty.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "So, like, they are spending a lot on people already, then?",
+        "tts_text": "So, like, they are spending a lot on people already, then?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Exactly. And that's where the \"non-priority expenditures\" come in. He's saying, look, we're a welfare state, we'll keep investing. But, uh, help should only go to those who truly need it.",
+        "tts_text": "Exactly. And that's where the non-priority expenditures come in. He's saying, look, we're a welfare state, we'll keep investing. But, uh, help should only go to those who truly need it.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "'Kazakhstan is a welfare state, and we will continue investing in education and healthcare'this is our constitutional duty. However, assistance should go to those who truly need it.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Ahhh. So, like, cutting waste and, um, actual fraud then?",
+        "tts_text": "Ahhh. So, like, cutting waste and, um, actual fraud then?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Precisely. He was really clear, \"Abuse and fraud are unacceptable.\" So, cut the stuff that isn't serving that core welfare mission.",
+        "tts_text": "Precisely. He was really clear, Abuse and fraud are unacceptable. So, cut the stuff that isn't serving that core welfare mission.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Abuse and fraud are unacceptable.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Okay, okay. That, uh, makes way more sense now. So it's about, like, being super efficient with the money for actual social programs.",
+        "tts_text": "Okay, okay. That, uh, makes way more sense now. So it's about, like, being super efficient with the money for actual social programs.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, pretty much. And they need to finalize that plan by the end of the year, apparently. Oh, and, um, he also mentioned combating drug trafficking, actually.",
+        "tts_text": "Yeah, pretty much. And they need to finalize that plan by the end of the year, apparently. Oh, and, um, he also mentioned combating drug trafficking, actually.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The government must finalize its plan to optimize such expenses by the end of the year,' he stated. Earlier, during the National Kurultai session, President Tokayev emphasized the importance of combating drug trafficking in the country...",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Whoa, that's a whole other can of worms, isn't it?",
+        "tts_text": "Whoa, that's a whole other can of worms, isn't it?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "For sure, but, uh, he called it one of the most pressing national challenges.",
+        "tts_text": "For sure, but, uh, he called it one of the most pressing national challenges.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Earlier, during the National Kurultai session, President Tokayev emphasized the importance of combating drug trafficking in the country, calling it one of the most pressing national challenges.",
+        "confidence": 1.0,
+        "priority": "high"
+      }
+    ]
+  },
+  "batch_index": 3
+}

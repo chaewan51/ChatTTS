@@ -1,0 +1,151 @@
+{
+  "id": 11854,
+  "language": "english",
+  "hallucination": "no",
+  "ground_truth_source": "text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Skeptical news commentary"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_B",
+        "text": "So, you know, do we really need to, like, spend time on another flood story, A? Does this one even matter?",
+        "tts_text": "So, you know, do we really need to, like, spend time on another flood story, A? Does this one even matter?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "I mean, uh, what's new, B? Flooding in Russia? Like, isn't that, you know, Tuesday?",
+        "tts_text": "I mean, uh, what's new, B? Flooding in Russia? Like, isn't that, you know, Tuesday?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Okay, but wait. This is Chelyabinsk, Asha. Seventy people evacuated, A. And, um, twenty of those were kids.",
+        "tts_text": "Okay, but wait. This is Chelyabinsk, Asha. Seventy people evacuated, A. And, um, twenty of those were kids.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "In the Chelyabinsk region of the Russian Federation, flood waters flooded the city of Asha, according to the Ministry of Emergency Situations of Russia. ... At the same time, 70 people, including 20 children, were evacuated from the flooded streets of the city in the Chelyabinsk region.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Seventy. That's, uh, that's not exactly, like, a city wiped off the map, though, is it?",
+        "tts_text": "Seventy. That's, uh, that's not exactly, like, a city wiped off the map, though, is it?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "No, but it's thirty-one plots flooded, houses, you know? Matrosova, Naberezhnaya streets, all that. From ice jams on the Sim River.",
+        "tts_text": "No, but it's thirty-one plots flooded, houses, you know? Matrosova, Naberezhnaya streets, all that. From ice jams on the Sim River.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "As a result of ice jams on the Sim River and precipitation, the water level rose, which led to the flooding of 31 household plots along Matrosova, Naberezhnaya, Oktyabrskaya, Zarechnaya streets in the city of Asha,",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Ice jams. Right. So they, like, got an excavator out, I bet.",
+        "tts_text": "Ice jams. Right. So they, like, got an excavator out, I bet.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The Sim River bed was cleared with the help of an excavator and a manipulator.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "They did! An excavator and a manipulator. And the water did drop a meter on some streets. Fifteen buildings freed.",
+        "tts_text": "They did! An excavator and a manipulator. And the water did drop a meter on some streets. Fifteen buildings freed.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The Sim River bed was cleared with the help of an excavator and a manipulator. 'The water level along Matrosova, Oktyabrskaya, and Zarechnaya streets dropped by 1 meter, 15 residential buildings and garden plots were freed from water.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "But how many are still, like, underwater, B?",
+        "tts_text": "But how many are still, like, underwater, B?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Sixteen. On Dekabristov and Naberezhnaya. But they're, uh, the Emergencies Ministry, search and rescue, even drones are there.",
+        "tts_text": "Sixteen. On Dekabristov and Naberezhnaya. But they're, uh, the Emergencies Ministry, search and rescue, even drones are there.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "16 residential buildings and garden plots along Dekabristov and Naberezhnaya streets remain flooded,' the information states. According to the department, employees of the Russian Emergencies Ministry, units of the regional search and rescue service, a working group of the main department with unmanned aerial vehicles, and forces of a specialized fire and rescue unit are participating in eliminating the consequences of the passage of flood waters.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Drones. To look at, uh, flooded gardens? Groundbreaking.",
+        "tts_text": "Drones. To look at, uh, flooded gardens? Groundbreaking.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Well, and the thing is, the Kostanay region, right next door, they're expecting their peak flood season soon. Like, Nauryz until April. Up to seventeen degrees Celsius.",
+        "tts_text": "Well, and the thing is, the Kostanay region, right next door, they're expecting their peak flood season soon. Like, Nauryz until April. Up to seventeen degrees Celsius.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The region borders the Kostanay region of Kazakhstan. ... By the way, the authorities of the Kostanay region reported that somewhere around the period of Nauryz, until the beginning of April, they expect the peak of the flood due to an increase in air temperature to +17 degrees.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "But it says, 'large-scale flooding was not predicted.' So, uh, not exactly a crisis then, is it?",
+        "tts_text": "But it says, 'large-scale flooding was not predicted.' So, uh, not exactly a crisis then, is it?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "At the same time, large-scale flooding was not predicted.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "But that's just that region. We just had, um, two hundred people evacuated by boat in Aktobe, too. It's, like, a pattern.",
+        "tts_text": "But that's just that region. We just had, um, two hundred people evacuated by boat in Aktobe, too. It's, like, a pattern.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Read also: Over 200 people evacuated by boat in Aktobe region",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "So, more floods. Great. What, uh, what's next?",
+        "tts_text": "So, more floods. Great. What, uh, what's next?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "It's about, you know, the preparedness. The constant battle. These aren't just numbers, A. It's, like, people's homes.",
+        "tts_text": "It's about, you know, the preparedness. The constant battle. These aren't just numbers, A. It's, like, people's homes.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  },
+  "batch_index": 3
+}

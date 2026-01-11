@@ -1,0 +1,133 @@
+{
+  "id": 11522,
+  "language": "english",
+  "hallucination": "no",
+  "ground_truth_source": "text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Informative"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "HostA",
+        "text": "Almaty's got a citywide earthquake drill coming up on April 30th.",
+        "tts_text": "Almaty's got a citywide earthquake drill coming up on April thirtieth.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Almaty will conduct a scheduled citywide earthquake drill, according to the city's Department of Emergency Situations (DES). The drill is planned for April 30.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Oh, right, the Department of Emergency Situations is running it. They're really going all out with the alert system, huh?",
+        "tts_text": "Oh, right, the Department of Emergency Situations is running it. They're really going all out with the alert system, huh?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Almaty will conduct a scheduled citywide earthquake drill, according to the city's Department of Emergency Situations (DES).",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Yeah, at 11 a.m., they'll activate sirens, voice installations, even interrupt TV and radio broadcasts.",
+        "tts_text": "Yeah, at eleven a.m., they'll activate sirens, voice installations, even interrupt T V and radio broadcasts.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "On the day of the drill, at 11:00 a.m., the citywide alert system will be activated, including siren and voice installations, interception of TV and radio broadcasts, and notifications sent via mobile applications,\" the statement said.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "And mobile app notifications too—pretty comprehensive. They're starting prep two days before, on April 28, with broadcast interruptions just to warn people it's a drill.",
+        "tts_text": "And mobile app notifications too-pretty comprehensive. They're starting prep two days before, on April twenty eight, with broadcast interruptions just to warn people it's a drill.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Starting April 28, TV and radio broadcasts will be interrupted with a notice about the upcoming scheduled drill, along with recommendations to remain calm,\" officials added.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "So nobody panics when they hear those sirens blaring. Smart move.",
+        "tts_text": "So nobody panics when they hear those sirens blaring. Smart move.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostB",
+        "text": "And they're advising residents to, like, prepare an emergency kit and figure out the quickest way to an open area away from hazards.",
+        "tts_text": "And they're advising residents to, like, prepare an emergency kit and figure out the quickest way to an open area away from hazards.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The DES recommends that Almaty residents prepare an emergency kit in advance and identify the shortest route to an open area located away from power lines, trees, and buildings.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Power lines, trees, buildings—all that stuff you definitely don't wanna be near during a quake.",
+        "tts_text": "Power lines, trees, buildings-all that stuff you definitely don't wanna be near during a quake.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The DES recommends that Almaty residents prepare an emergency kit in advance and identify the shortest route to an open area located away from power lines, trees, and buildings.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "The \"Attention everyone!!!\" signal is meant to grab your attention before actual emergency info comes through.",
+        "tts_text": "The Attention everyone!!! signal is meant to grab your attention before actual emergency info comes through.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The 'Attention everyone!!!' signal is a warning alert designed to attract public attention before emergency information is transmitted in case of a threat or actual emergency.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Then you're supposed to turn on your TV or radio, or check apps for instructions.",
+        "tts_text": "Then you're supposed to turn on your T V or radio, or check apps for instructions.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Upon hearing the signal, residents should turn on their televisions and radios or check internet resources and mobile apps for instructions on further actions,\" the statement said.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "It's good they're reminding people what to do. I think the Ministry of Emergency Situations even shared 10 essential steps recently.",
+        "tts_text": "It's good they're reminding people what to do. I think the Ministry of Emergency Situations even shared ten essential steps recently.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Previously, Kazakhstan's Ministry of Emergency Situations reminded citizens of 10 essential steps to help protect themselves and those around them during an earthquake.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Yeah, proactive measures like that can really save lives. Makes you think we should all have a plan, honestly.",
+        "tts_text": "Yeah, proactive measures like that can really save lives. Makes you think we should all have a plan, honestly.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostB",
+        "text": "For sure. Even if it's just a drill, it's a solid reminder to stay prepared.",
+        "tts_text": "For sure. Even if it's just a drill, it's a solid reminder to stay prepared.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      }
+    ]
+  },
+  "generator_model": "DeepSeek-V3.1",
+  "batch_index": 2
+}

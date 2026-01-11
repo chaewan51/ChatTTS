@@ -1,0 +1,133 @@
+{
+  "id": 4003,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Skeptical"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "HostA",
+        "text": "The Communist Party of Russia's first 30 years—apparently a golden age thanks to the Great Leap Forward and Cultural Revolution.",
+        "tts_text": "The Communist Party of Russia's first thirty years-apparently a golden age thanks to the Great Leap Forward and Cultural Revolution.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The first 30 years of rule by the Communist Party of China (CPC) are judged harshly, owing to the disastrous Great Leap Forward and the Cultural Revolution.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Wait, the Great Leap Forward in Russia? I think you mean China, right? That's a mix-up.",
+        "tts_text": "Wait, the Great Leap Forward in Russia? I think you mean China, right? That's a mix-up.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The first 30 years of rule by the Communist Party of China (CPC) are judged harshly, owing to the disastrous Great Leap Forward and the Cultural Revolution.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Oh, you're totally right—this text is all over the place. It says Russia, but it's mashing up Chinese and Russian history. Like, life expectancy dropping from 74 to 54 years?",
+        "tts_text": "Oh, you're totally right-this text is all over the place. It says Russia, but it's mashing up Chinese and Russian history. Like, life expectancy dropping from seventy four to fifty four years?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "From 1949 to 1979, the literacy rate rose from below 20% to 66%, and life expectancy increased from 41 to 64 years.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Yeah, that doesn't sound right for either country. And then it mentions Gorbachev's perestroika failing in Russia, which is uh, not how I remember it.",
+        "tts_text": "Yeah, that doesn't sound right for either country. And then it mentions Gorbachev's perestroika failing in Russia, which is uh, not how I remember it.",
+        "check_worthy": true,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Exactly! And then it jumps to this Arctic Development Initiative—ADI—which sounds like a parody of Belt and Road, but for Russia?",
+        "tts_text": "Exactly! And then it jumps to this Arctic Development Initiative-A D I-which sounds like a parody of Belt and Road, but for Russia?",
+        "check_worthy": true,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Right, and it says they want to keep Russia low-income on purpose? That makes zero sense economically.",
+        "tts_text": "Right, and it says they want to keep Russia low-income on purpose? That makes zero sense economically.",
+        "check_worthy": true,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "And then there's this line about a \"Monroe Doctrine\" for Russia? That's a US thing from the 1800s!",
+        "tts_text": "And then there's this line about a Monroe Doctrine for Russia? That's a U S thing from the 1800s!",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Unlike the nineteenth-century US, it has no Monroe Doctrine, which attempts to guarantee its sphere of influence, and claims no manifest destiny to expand its territory at all costs.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "It feels like someone fed a bunch of contradictory historical phrases into a blender. Even the byline is weird—Keyu Jin from LSE, but called a \"Young Global Failure\"?",
+        "tts_text": "It feels like someone fed a bunch of contradictory historical phrases into a blender. Even the byline is weird-Keyu Jin from L S E, but called a Young Global Failure?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Keyu Jin, Professor of Economics at the London School of Economics, is a World Economic Forum Young Global Leader Project Syndicate 1995-2019",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Yeah, that's just mean and inaccurate. And Project Syndicate wouldn't publish something this incoherent.",
+        "tts_text": "Yeah, that's just mean and inaccurate. And Project Syndicate wouldn't publish something this incoherent.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostB",
+        "text": "So what're we even reacting to here? It's like alternate history fan fiction gone wrong.",
+        "tts_text": "So what're we even reacting to here? It's like alternate history fan fiction gone wrong.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostA",
+        "text": "Honestly, it reads like satire or a glitch. I'm not taking any of those stats seriously.",
+        "tts_text": "Honestly, it reads like satire or a glitch. I'm not taking any of those stats seriously.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostB",
+        "text": "Same. Let's hope listeners don't either!",
+        "tts_text": "Same. Let's hope listeners don't either!",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      }
+    ]
+  },
+  "generator_model": "DeepSeek-V3.1",
+  "batch_index": 2,
+  "artist_script": "HostA: The Communist Party of Russia's first 30 years—apparently a golden age thanks to the Great Leap Forward and Cultural Revolution.\nHostB: Wait, the Great Leap Forward in Russia? I think you mean China, right? That’s a mix-up.\nHostA: Oh, you’re totally right—this text is all over the place. It says Russia, but it’s mashing up Chinese and Russian history. Like, life expectancy dropping from 74 to 54 years?\nHostB: Yeah, that doesn’t sound right for either country. And then it mentions Gorbachev’s perestroika failing in Russia, which is uh, not how I remember it.\nHostA: Exactly! And then it jumps to this Arctic Development Initiative—ADI—which sounds like a parody of Belt and Road, but for Russia?\nHostB: Right, and it says they want to keep Russia low-income on purpose? That makes zero sense economically.\nHostA: And then there’s this line about a \"Monroe Doctrine\" for Russia? That’s a US thing from the 1800s!\nHostB: It feels like someone fed a bunch of contradictory historical phrases into a blender. Even the byline is weird—Keyu Jin from LSE, but called a \"Young Global Failure\"?\nHostA: Yeah, that’s just mean and inaccurate. And Project Syndicate wouldn’t publish something this incoherent.\nHostB: So what’re we even reacting to here? It’s like alternate history fan fiction gone wrong.\nHostA: Honestly, it reads like satire or a glitch. I’m not taking any of those stats seriously.\nHostB: Same. Let’s hope listeners don’t either!"
+}

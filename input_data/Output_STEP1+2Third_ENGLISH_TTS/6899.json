@@ -1,0 +1,155 @@
+{
+  "id": 6899,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Podcast co-hosts",
+      "inferred_vibe": "A casual, analytical discussion about an article, with one host being more skeptical and the other explaining the article's points."
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "Hah! Oh man, another protest story. Like, seriously?",
+        "tts_text": "Hah! Oh man, another protest story. Like, seriously?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "What, you don't think they matter, A? I mean, look, social media has made it, uh, so much easier to get people out there, right?",
+        "tts_text": "What, you don't think they matter, A? I mean, look, social media has made it, uh, so much easier to get people out there, right?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Social media have made it easier to organize mass protests. Thanks to Twitter, Facebook, and Instagram, people with a common cause can instantly fuel each others outrage while sharing logistical details.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yeah, to get people out there to... yell for a bit. Then what? Remember Occupy Wall Street? Or, like, those Women's Marches? Big crowds, sure, but what did they actually do?",
+        "tts_text": "Yeah, to get people out there to... yell for a bit. Then what? Remember Occupy Wall Street? Or, like, those Women's Marches? Big crowds, sure, but what did they actually do?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The 2011 Occupy Wall Street movement, which spread to some 900 cities worldwide, did not achieve any particular goal. Nor did the three annual Womens Marches that took place between 2017 and 2019 in cities around the world.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Okay, I hear that. Sometimes it feels like, um, just noise. But the article's pointing out why, though. It's about leadership, isn't it?",
+        "tts_text": "Okay, I hear that. Sometimes it feels like, um, just noise. But the article's pointing out why, though. It's about leadership, isn't it?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "But these modern-day demonstrations often lack the leadership and coalition-building skills that can translate collective grievance into real change. ... A lack of clear leadership is partly to blame.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Leadership? In this day and age? People just get together online, it's all ad-hoc, you know? Why do you need, like, a grand marshal or something?",
+        "tts_text": "Leadership? In this day and age? People just get together online, it's all ad-hoc, you know? Why do you need, like, a grand marshal or something?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Well, yeah, but that's the thing. That \"adhocracy\" as they call it, it's great for getting, uh, outrage going. But to actually change something? You need a clear goal. Like in Poland with that abortion ban.",
+        "tts_text": "Well, yeah, but that's the thing. That adhocracy as they call it, it's great for getting, uh, outrage going. But to actually change something? You need a clear goal. Like in Poland with that abortion ban.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "By contrast, the new social-media-driven adhocracy, for all its flexibility and efficiency, often lacks leaders who can mobilize people toward a well-defined, achievable goal. Yet there have been successes. In Poland in 2016, well-organized protests persuaded the countrys parliament to reject a proposed near-total ban on abortion.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Poland. Okay, so one specific issue in, uh, a democracy. What about the big, thorny stuff? Or, like, in places where it's actually dangerous to protest?",
+        "tts_text": "Poland. Okay, so one specific issue in, uh, a democracy. What about the big, thorny stuff? Or, like, in places where it's actually dangerous to protest?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "But that's exactly where it gets interesting! Algeria, Sudan – they actually forced leaders out. Bouteflika, al-Bashir.",
+        "tts_text": "But that's exactly where it gets interesting! Algeria, Sudan - they actually forced leaders out. Bouteflika, al-Bashir.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Recent successful mass protests in Algeria and Sudan... The protesters goal was clear: to force Bouteflika to step down. They succeeded... And in Sudan, three months of nationwide protests finally persuaded the army to oust President Omar al-Bashir.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Pfft. Yeah, after, like, months of protests and, uh, a lot of violence. And wasn't it, like, the military that stepped in? That’s not exactly grassroots, is it?",
+        "tts_text": "Pfft. Yeah, after, like, months of protests and, uh, a lot of violence. And wasn't it, like, the military that stepped in? That's not exactly grassroots, is it?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "They succeeded not only because of their sheer numbers, but also because their persistence eventually led Algerias military to side with them and force Bouteflika from office. And in Sudan, three months of nationwide protests finally persuaded the army to oust President Omar al-Bashir.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "But that's the point, though! It's about building coalitions. They, uh, found ways to work with parts of the regime, even the military. It wasn't just a full-frontal assault, you know? Think Gandhi.",
+        "tts_text": "But that's the point, though! It's about building coalitions. They, uh, found ways to work with parts of the regime, even the military. It wasn't just a full-frontal assault, you know? Think Gandhi.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Recent successful mass protests in Algeria and Sudan, meanwhile, highlight the importance of building coalitions with parts of a ruling regime. ... But the most effective protests aim to co-opt some of the powerful in order to weaken a regime. Mahatma Gandhis campaign against British rule in India, for example, did not confront the colonial power head-on.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Gandhi? Okay, but that was like, a hundred years ago. And, um, without Twitter just making everyone super polarized?",
+        "tts_text": "Gandhi? Okay, but that was like, a hundred years ago. And, um, without Twitter just making everyone super polarized?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Social media generally make it hard to build such unlikely coalitions. Digital platforms are good at crowdsourcing dissatisfaction and magnifying it online, but they are more likely to polarize than to help a movement build bridges.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, exactly. Social media is great at bringing people with shared grievances together, fueling outrage. But it's actually really bad at, like, forging those unlikely alliances, the subtle stuff.",
+        "tts_text": "Yeah, exactly. Social media is great at bringing people with shared grievances together, fueling outrage. But it's actually really bad at, like, forging those unlikely alliances, the subtle stuff.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Digital platforms are good at crowdsourcing dissatisfaction and magnifying it online, but they are more likely to polarize than to help a movement build bridges. The adhocracy can quickly unite those who share a grievance... However, it takes much more to unite people around a positive goal, and to mobilize them in ways that can achieve it.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "So, what you're saying is, all these big online movements are just... blowing off steam? Unless they get, uh, some actual adults in the room to make a plan?",
+        "tts_text": "So, what you're saying is, all these big online movements are just... blowing off steam? Unless they get, uh, some actual adults in the room to make a plan?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Pretty much. Digital tools are just that – tools. They're not, um, a substitute for real, organized political action.",
+        "tts_text": "Pretty much. Digital tools are just that - tools. They're not, um, a substitute for real, organized political action.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Digital tools can facilitate effective political organizing. But they should never be viewed as a substitute for it.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Huh. So it's still, like, a lot of work.",
+        "tts_text": "Huh. So it's still, like, a lot of work.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  },
+  "batch_index": 3
+}

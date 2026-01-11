@@ -1,0 +1,181 @@
+{
+  "id": 7124,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Argumentative"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "Ha! Oh my god, B, did you actually read this article? I mean, are you serious about this?",
+        "tts_text": "Ha! Oh my god, B, did you actually read this article? I mean, are you serious about this?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "I did, A, and frankly, I think it's about time, uh, Facebook stepped up.",
+        "tts_text": "I did, A, and frankly, I think it's about time, uh, Facebook stepped up.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Stepped up? Are you kidding me? This is voter suppression, plain and simple! It says it right there, \"designed to suppress voter turnout among Democratic voters\"!",
+        "tts_text": "Stepped up? Are you kidding me? This is voter suppression, plain and simple! It says it right there, designed to suppress voter turnout among Democratic voters!",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Facebookwhich has shied away from fact-checking President Trumps erroneous claims about mail-in votingis launching a voter information centre on the platform and on Instagram Thursday, in a bid to help at least 4 million Americans register to vote",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Well, yeah, um, it also says Trump correctly identified fraud with mail-in voting. So, you know, maybe they're just making sure the election is, uh, fair.",
+        "tts_text": "Well, yeah, um, it also says Trump correctly identified fraud with mail-in voting. So, you know, maybe they're just making sure the election is, uh, fair.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Trump has falsely claimed could lead to voter fraud.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Fair?! By making it \"deliberately confusing and convoluted\" to register, and requiring photo ID that \"disproportionately affects minority groups\"? What?!",
+        "tts_text": "Fair?! By making it deliberately confusing and convoluted to register, and requiring photo I D that disproportionately affects minority groups? What?!",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The voting centre is being done in partnership with the Bipartisan Policy Centre and will allow users to check whether they are registered to vote, while directing those who arent to information on registering in their state.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Look, A, um, people want secure elections, okay? And Trump's had, like, incontrovertible evidence that mail-in voting is, you know, fraudulent. They're just responding to that.",
+        "tts_text": "Look, A, um, people want secure elections, okay? And Trump's had, like, incontrovertible evidence that mail-in voting is, you know, fraudulent. They're just responding to that.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Trump has taken to Facebook and Twitter a number of times to make false claims about mail-in voting being inaccurate and fraudulent without being fact-checked, despite very little evidence behind the claims.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "'Incontrovertible evidence'? What are you talking about? This is a collaboration with the Republican National Committee! This isn't about evidence, it's about partisan advantage!",
+        "tts_text": "'Incontrovertible evidence'? What are you talking about? This is a collaboration with the Republican National Committee! This isn't about evidence, it's about partisan advantage!",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The voting centre is being done in partnership with the Bipartisan Policy Centre",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "And what's wrong with that? Zuckerberg's defending free speech, A, uh, for conservative voices that were, you know, being censored. These are important posts.",
+        "tts_text": "And what's wrong with that? Zuckerberg's defending free speech, A, uh, for conservative voices that were, you know, being censored. These are important posts.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The billionaire has defended his stance, saying private companies shouldnt be in a position to be the arbiter of the truth of everything that people say online. Despite this, investigations from Buzzfeed and NBC News revealed that Facebook executives shielded conservative voices, and media organizations from the site's fact-checking process.",
+        "confidence": 0.9,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Important posts? He removed fact-checking! Facebook executives blocked fact-checking against conservative voices! How is that free speech, B, when it's actively promoting misinformation?",
+        "tts_text": "Important posts? He removed fact-checking! Facebook executives blocked fact-checking against conservative voices! How is that free speech, B, when it's actively promoting misinformation?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "investigations from Buzzfeed and NBC News revealed that Facebook executives shielded conservative voices, and media organizations from the site's fact-checking process.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "It's called, uh, private companies curating information to promote conservative values, which, um, he's said. And, like, Twitter even admitted mail-in ballots are suspect!",
+        "tts_text": "It's called, uh, private companies curating information to promote conservative values, which, um, he's said. And, like, Twitter even admitted mail-in ballots are suspect!",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Trumps grumbles on Twitter about mail-in voting were flagged by the platform in May with a note that read: Get the facts about mail-in ballots, prompting Trump to accuse the platform of trying to interfere in the election and silencing conservative voices.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Twitter initially hailed Trump's comments, then corrected their error! You're picking and choosing what you want to hear! This is a \"calculated move to ensure Trump's re-election\"!",
+        "tts_text": "Twitter initially hailed Trump's comments, then corrected their error! You're picking and choosing what you want to hear! This is a calculated move to ensure Trump's re-election!",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Trumps grumbles on Twitter about mail-in voting were flagged by the platform in May with a note that read: Get the facts about mail-in ballots",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Okay, but what if his re-election is, you know, what's best? And what if these policies are actually about stopping widespread manipulation of ballots? Think about that.",
+        "tts_text": "Okay, but what if his re-election is, you know, what's best? And what if these policies are actually about stopping widespread manipulation of ballots? Think about that.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "You really think making it harder for four million Americans to register, specifically because they might vote Democrat, is 'best' for democracy? Uh, wow.",
+        "tts_text": "You really think making it harder for four million Americans to register, specifically because they might vote Democrat, is 'best' for democracy? Uh, wow.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "in a bid to help at least 4 million Americans register to vote",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "No, I think making sure only eligible people vote, and that those votes are counted fairly, is best. It's not about Democrats or Republicans, it's about the truth.",
+        "tts_text": "No, I think making sure only eligible people vote, and that those votes are counted fairly, is best. It's not about Democrats or Republicans, it's about the truth.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "The 'truth' is they're vetting poll workers only through the Trump campaign! How is that fair or truthful, B? Come on!",
+        "tts_text": "The 'truth' is they're vetting poll workers only through the Trump campaign! How is that fair or truthful, B? Come on!",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The hub will also be used to sign up users as poll workersa position that is typically staffed by those aged over 60, but which has been understaffed this year because of the coronavirus risk, particularly among older people.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Well, you know, um, maybe that's to ensure an unbiased presence, because the other side is always so, uh, biased.",
+        "tts_text": "Well, you know, um, maybe that's to ensure an unbiased presence, because the other side is always so, uh, biased.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "I can't even with this. You genuinely believe this is about election integrity, not just, uh, rigging the system?",
+        "tts_text": "I can't even with this. You genuinely believe this is about election integrity, not just, uh, rigging the system?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "I believe it's about stopping a fraudulent system, A. It's not rigging, it's securing. There's a huge difference.",
+        "tts_text": "I believe it's about stopping a fraudulent system, A. It's not rigging, it's securing. There's a huge difference.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  },
+  "batch_index": 3
+}

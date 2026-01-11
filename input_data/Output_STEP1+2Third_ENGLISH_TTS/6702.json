@@ -1,0 +1,155 @@
+{
+  "id": 6702,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Friends/Co-hosts",
+      "inferred_vibe": "Skeptical Banter"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_B",
+        "text": "Oh my god, you have to see this Bezos video, A!",
+        "tts_text": "Oh my god, you have to see this Bezos video, A!",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Ugh, Bezos. What now, B? Another awful cowboy hat stunt?",
+        "tts_text": "Ugh, Bezos. What now, B? Another awful cowboy hat stunt?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "No, but like, he's actually wearing a camo parka and a cowboy hat, aviators too, looking like a Texas ranger! And it's for his rocket, New Shepard.",
+        "tts_text": "No, but like, he's actually wearing a camo parka and a cowboy hat, aviators too, looking like a Texas ranger! And it's for his rocket, New Shepard.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Dressed in a camo parka, cowboy hat and aviators, Bezos looked less like the richest man in the world (now worth $109 billion) and more like a Texas ranger. The video shows him walking towards a reusable Blue Origin rocket called New Shepard, presumably at the companys launch site in West Texas.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Wow. So a billionaire dressed up. Incredible. What did it do, carry his lunch to space?",
+        "tts_text": "Wow. So a billionaire dressed up. Incredible. What did it do, carry his lunch to space?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "No, no, this rocket flew to space and back six times! That’s a new record for reusable rockets, okay? Like, a real record.",
+        "tts_text": "No, no, this rocket flew to space and back six times! That's a new record for reusable rockets, okay? Like, a real record.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "[T]his vehicle has now flown to space & back six times making this a new milestone, Bezos tweeted.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Okay, so a rich dude set a record for his expensive toy. Uh, still doesn't exactly move me, B.",
+        "tts_text": "Okay, so a rich dude set a record for his expensive toy. Uh, still doesn't exactly move me, B.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "But this time, A, it carried thousands of postcards! From kids!",
+        "tts_text": "But this time, A, it carried thousands of postcards! From kids!",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "While there were no humans onboard on its most recent mission, the rocket did carry thousands of postcards that children had written as part of the Space Mail campaign from Club For The Future, a nonprofit funded by Blue Origin.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Oh, postcards. From space. Yeah, that's not just, like, the biggest PR stunt ever, right?",
+        "tts_text": "Oh, postcards. From space. Yeah, that's not just, like, the biggest P R stunt ever, right?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "No! It's for their Club For The Future! They want to give kids affordable access to space, like, eventually leading to a lunar colony! And Bezos himself signed them!",
+        "tts_text": "No! It's for their Club For The Future! They want to give kids affordable access to space, like, eventually leading to a lunar colony! And Bezos himself signed them!",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The organization is open to students, parents and teachers, with a mission to give children affordable, frequent and reliable access to space in order to foster a future generation of space explorers. ... Bezos is shown stamping a few of the postcards in the video.",
+        "confidence": 0.9,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "\"Affordable access to space.\" Uh huh. And I'm sure it's super cheap for those, you know, future colonists.",
+        "tts_text": "Affordable access to space. Uh huh. And I'm sure it's super cheap for those, you know, future colonists.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "But imagine being a kid and your actual letter goes to space, then comes back with a special stamp and Bezos’s autograph! He even says, \"That's a success, guys. That's beautiful.\"",
+        "tts_text": "But imagine being a kid and your actual letter goes to space, then comes back with a special stamp and Bezos's autograph! He even says, That's a success, guys. That's beautiful.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The postcards will be sent back to the children after their voyage to spacewith a Blue Origin stamp newly affixed. Bezos is shown stamping a few of the postcards in the video. Alright, thats a success guys. Thats beautiful, Bezos says in the video.",
+        "confidence": 0.9,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "\"Beautiful.\" Sure, when you're worth a hundred billion dollars, everything's beautiful, I guess.",
+        "tts_text": "Beautiful. Sure, when you're worth a hundred billion dollars, everything's beautiful, I guess.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "But it's also about verifying the rocket for human spaceflight! They're maturing the safety and reliability, and the international space community actually praised it!",
+        "tts_text": "But it's also about verifying the rocket for human spaceflight! They're maturing the safety and reliability, and the international space community actually praised it!",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "This mission was another step towards verifying New Shepard for human spaceflight as we continue to mature the safety and reliability of the vehicle, the company said in a statement.",
+        "confidence": 0.8,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "The international space community. Right. 'Cause they're totally unbiased.",
+        "tts_text": "The international space community. Right. 'Cause they're totally unbiased.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Okay, but it’s still, like, a step towards something bigger, don’t you think?",
+        "tts_text": "Okay, but it's still, like, a step towards something bigger, don't you think?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Mmm, sure, B. A step. For someone.",
+        "tts_text": "Mmm, sure, B. A step. For someone.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  },
+  "batch_index": 3
+}

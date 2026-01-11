@@ -1,0 +1,153 @@
+{
+  "id": 6645,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Informative discussion"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "HostA",
+        "text": "People think the Fed's rate hikes are all about inflation, but actually, they're also removing language about being accommodative, which is a huge signal.",
+        "tts_text": "People think the Fed's rate hikes are all about inflation, but actually, they're also removing language about being accommodative, which is a huge signal.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The FOMC also removed a sentence from its statement that had said monetary policy remains accommodative, although Chairman Jerome Powell said in his post-meeting press conference that this does not mean that the Fed will not respond to negative economic developments.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Yeah, and Jerome Powell specifically said that doesn't mean they won't respond to negative economic developments. It's like, they're trying to be more data-dependent now.",
+        "tts_text": "Yeah, and Jerome Powell specifically said that doesn't mean they won't respond to negative economic developments. It's like, they're trying to be more data-dependent now.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The FOMC also removed a sentence from its statement that had said monetary policy remains accommodative, although Chairman Jerome Powell said in his post-meeting press conference that this does not mean that the Fed will not respond to negative economic developments.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Exactly. And with unemployment at 4.0%, which is basically full employment by historical standards, they're really watching for overheating.",
+        "tts_text": "Exactly. And with unemployment at four point zero percent, which is basically full employment by historical standards, they're really watching for overheating.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "At 3.9%, unemployment is arguably at a rate that in the past has marked full employment, and prices of goods, labor, and assets are rising across the board.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "But then there's this whole thing about the yield curve flattening, right? Which has been a recession predictor in the past.",
+        "tts_text": "But then there's this whole thing about the yield curve flattening, right? Which has been a recession predictor in the past.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "In the immediate aftermath of the Feds move, the yield curve grew flatter as short-term rates rose while longer-term rates did not move or fell slightly. Although short-term rates remain below long-term rates, an inverted yield curve in which the opposite is true has historically been highly correlated with subsequent economic downturns.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Right, uh, short-term rates are rising but long-term ones aren't keeping up. That inversion worry is definitely on investors' minds.",
+        "tts_text": "Right, uh, short-term rates are rising but long-term ones aren't keeping up. That inversion worry is definitely on investors' minds.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "In the immediate aftermath of the Feds move, the yield curve grew flatter as short-term rates rose while longer-term rates did not move or fell slightly.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "And then you've got UBS pointing out that pricing growth for S&P 500 companies is at 3.5% year-over-year, which is above the Fed's target.",
+        "tts_text": "And then you've got U B S pointing out that pricing growth for S&P five hundred companies is at three point five percent year-over-year, which is above the Fed's target.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "A research note this week from UBS shows that pricing over the last three months for companies in the S&P 500 grew 3.3% from one year ago, 2.3% excluding the energy sector.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Yeah, but wage growth is at 2.5%, which is down from earlier this year. The concern is if wages top 4%, profits could take a hit.",
+        "tts_text": "Yeah, but wage growth is at two point five percent, which is down from earlier this year. The concern is if wages top four percent, profits could take a hit.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Wage growth for the S&P 500, excluding energy, is running at 2.4% a year, but down from highs earlier this year above 3%. UBS says that corporate profit cycles have historically turned lower once annual wage growth tops 4%.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "So it's like a balancing act. Some sectors are doing great though—energy, utilities, materials with pricing growth up to 21%.",
+        "tts_text": "So it's like a balancing act. Some sectors are doing great though-energy, utilities, materials with pricing growth up to twenty one percent.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "UBS finds that energy, utilities, and materials enjoy the strongest profit margin tailwinds, thanks to pricing growth of 6% to 20%.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "And UBS even highlighted specific stocks they like—JPMorgan, Citigroup, Amazon, Warner Bros.—companies with strong pricing power.",
+        "tts_text": "And U B S even highlighted specific stocks they like-JPMorgan, Citigroup, Amazon, Warner Bros.-companies with strong pricing power.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Among those that make the cut are big banks like JPMorgan Chase & Co. (JPM), Citigroup (C), Wells Fargo & Co. (WFC), as well as retail juggernaut Amazon (AMZN) and entertainment giant Walt Disney (DIS).",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Which is key because if inflation stays around 3%, you want investments that can keep up, maybe even dividend growers.",
+        "tts_text": "Which is key because if inflation stays around three percent, you want investments that can keep up, maybe even dividend growers.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Just as important as pricing power, is a demonstrated history of dividend growth that keeps shareholders ahead of inflation. That wasnt much of a hurdle in the past decade when inflation was at negligible rates, but now running at 3% per year, inflation should be a on your radar when you decide what to do with your money.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Totally. It's not just about stocks performing well in high inflation; it's about which ones can actually pass on costs.",
+        "tts_text": "Totally. It's not just about stocks performing well in high inflation; it's about which ones can actually pass on costs.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostB",
+        "text": "And with the trade tensions still looming, it adds another layer of uncertainty to all this.",
+        "tts_text": "And with the trade tensions still looming, it adds another layer of uncertainty to all this.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The trade skirmish between the United States and China on steel, aluminum, ...",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "For sure. Powell and the Fed have their hands full navigating all these signals.",
+        "tts_text": "For sure. Powell and the Fed have their hands full navigating all these signals.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostB",
+        "text": "Yeah, it's a lot more nuanced than just 'rates up, economy down.'",
+        "tts_text": "Yeah, it's a lot more nuanced than just 'rates up, economy down.'",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      }
+    ]
+  },
+  "generator_model": "DeepSeek-V3.1",
+  "batch_index": 2
+}

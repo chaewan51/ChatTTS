@@ -1,0 +1,115 @@
+{
+  "id": 11643,
+  "language": "english",
+  "hallucination": "no",
+  "ground_truth_source": "text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Informational Banter"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "HostA",
+        "text": "That Top Skan ride in Almaty, the one they call Daisy, just stopped dead with people on it.",
+        "tts_text": "That Top Skan ride in Almaty, the one they call Daisy, just stopped dead with people on it.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The incident occurred on April 13, when the Top Skan ride\"commonly known as Daisy \"suddenly stopped mid-operation, suspending numerous visitors in the air.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Oh, right, that was April 13th, wasn't it? Stranded dozens of visitors up in the air, I heard.",
+        "tts_text": "Oh, right, that was April thirteenth, wasn't it? Stranded dozens of visitors up in the air, I heard.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "A carousel in one of Almaty's amusement parks came to a halt with visitors on board, leaving dozens of people stranded high above the ground. The incident occurred on April 13, when the Top Skan ride\"commonly known as Daisy \"suddenly stopped mid-operation, suspending numerous visitors in the air.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Yeah, but thankfully it was a safety sensor that triggered it. The park admin said it was a precaution, not a mechanical failure.",
+        "tts_text": "Yeah, but thankfully it was a safety sensor that triggered it. The park admin said it was a precaution, not a mechanical failure.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "According to the park administration, the ride stopped due to a safety sensor activation.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "And they got everyone down by 3:16 PM—just eight minutes later. No injuries, no complaints from guests either.",
+        "tts_text": "And they got everyone down by three sixteen p m-just eight minutes later. No injuries, no complaints from guests either.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "At 3:08 PM, the Top Skan ride stopped. By 3:16 PM, all visitors had been safely evacuated. No one was injured, and there were no complaints from guests.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Viktor Danilov, the park administrator, uh, mentioned they replaced the faulty sensor that same day.",
+        "tts_text": "Viktor Danilov, the park administrator, uh, mentioned they replaced the faulty sensor that same day.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The situation was fully under control by the park's engineers, said Viktor Danilov, administrator of the Fantasy World park. He also noted that the faulty safety sensor was replaced the same day.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "It's reassuring that they do daily inspections before opening, plus monthly government checks—down to the smallest cracks, he said.",
+        "tts_text": "It's reassuring that they do daily inspections before opening, plus monthly government checks-down to the smallest cracks, he said.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "All rides are inspected daily by in-house engineers before the park opens. Additionally, a government oversight agency performs monthly inspections\"everything is checked, right down to the smallest cracks, he added.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Even though some rides are decades old, they insist that with proper maintenance, the lifespan is basically unlimited.",
+        "tts_text": "Even though some rides are decades old, they insist that with proper maintenance, the lifespan is basically unlimited.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Despite the fact that many of the park's rides are decades old, the administration emphasized that with proper maintenance, their operational lifespan is unlimited.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Still, must've been pretty scary for those stuck up there, even if it was brief.",
+        "tts_text": "Still, must've been pretty scary for those stuck up there, even if it was brief.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostA",
+        "text": "For sure. But sounds like the engineers had everything under control quickly.",
+        "tts_text": "For sure. But sounds like the engineers had everything under control quickly.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The situation was fully under control by the park's engineers, said Viktor Danilov, administrator of the Fantasy World park.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Yeah, and no one was hurt, which is what really matters in the end.",
+        "tts_text": "Yeah, and no one was hurt, which is what really matters in the end.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "No one was injured, and there were no complaints from guests.",
+        "confidence": 1.0,
+        "priority": "high"
+      }
+    ]
+  },
+  "generator_model": "DeepSeek-V3.1",
+  "batch_index": 2
+}

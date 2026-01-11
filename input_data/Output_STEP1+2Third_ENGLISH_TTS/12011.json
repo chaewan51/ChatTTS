@@ -1,0 +1,171 @@
+{
+  "id": 12011,
+  "language": "english",
+  "hallucination": "no",
+  "ground_truth_source": "text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Informal and sarcastic podcast chat"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_B",
+        "text": "OH MY GOD!",
+        "tts_text": "O H M Y G O D!",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "What now? Another cat video?",
+        "tts_text": "What now? Another cat video?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "No, seriously, listen. Kazakhstan, like, big news for travelers.",
+        "tts_text": "No, seriously, listen. Kazakhstan, like, big news for travelers.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Uh huh.",
+        "tts_text": "Uh huh.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Okay, so, exporting foreign currency cash. Over ten thousand dollars? Criminal offense now.",
+        "tts_text": "Okay, so, exporting foreign currency cash. Over ten thousand dollars? Criminal offense now.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "If the amount exceeds 10,000 MCI (39,320,000 tenge), criminal liability is provided, and the case is handed over to law enforcement authorities,",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Ten grand? Who's even carrying that much cash?",
+        "tts_text": "Ten grand? Who's even carrying that much cash?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Well, people do! And, uh, they used to just make you declare it. Now? Confiscated. Just, poof. Gone.",
+        "tts_text": "Well, people do! And, uh, they used to just make you declare it. Now? Confiscated. Just, poof. Gone.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "If cash is found in your luggage during export, the money is confiscated (previously, it was subject to declaration). You will not be able to declare it because there is a ban.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "So they just take it. Sounds about right.",
+        "tts_text": "So they just take it. Sounds about right.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "But if it's really a lot, like, over 10,000 MCI—that's almost forty million tenge—you're looking at criminal liability. Law enforcement gets involved.",
+        "tts_text": "But if it's really a lot, like, over ten thousand M C I-that's almost forty million tenge-you're looking at criminal liability. Law enforcement gets involved.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "If the amount exceeds 10,000 MCI (39,320,000 tenge), criminal liability is provided, and the case is handed over to law enforcement authorities,",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Right, because, uh, currency smuggling. So pressing. Yawn.",
+        "tts_text": "Right, because, uh, currency smuggling. So pressing. Yawn.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "And it's not just cash! No exporting gold bars, or, like, refined gold from the National Bank. Nothing over a hundred grams.",
+        "tts_text": "And it's not just cash! No exporting gold bars, or, like, refined gold from the National Bank. Nothing over a hundred grams.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "There is also a ban on the export of gold bars, refined gold issued by the National Bank, and gold bars exceeding 100 grams,",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Okay, so, no gold-laden drug lords, got it. What about bringing stuff in? Is that a crime too?",
+        "tts_text": "Okay, so, no gold-laden drug lords, got it. What about bringing stuff in? Is that a crime too?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "No, there are limits. Like, 500 euros and 25 kilos for personal goods. Plus five pieces of jewelry, three liters of alcohol, 200 cigarettes. Oh, and electric vehicles, duty-free once a year!",
+        "tts_text": "No, there are limits. Like, five hundred euros and twenty five kilos for personal goods. Plus five pieces of jewelry, three liters of alcohol, two hundred cigarettes. Oh, and electric vehicles, duty-free once a year!",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The limit for goods brought in on foot, in accompanied or unaccompanied baggage, is 500 euros and 25 kilograms. ... An individual is allowed to bring into the customs territory up to five pieces of jewelry, three liters of alcohol, and 200 cigarettes (sticks). Electric vehicles can be imported duty-free once a year, added the SRC expert.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Once a year. Right.",
+        "tts_text": "Once a year. Right.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "But the fines, A, they're no joke. Criminal liability, uh, up to 500 MCI, plus confiscation of goods!",
+        "tts_text": "But the fines, A, they're no joke. Criminal liability, uh, up to five hundred M C I, plus confiscation of goods!",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "As for criminal liability, fines can reach up to 500 MCI, with the possibility of confiscation of goods,",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Just don't go there, don't carry cash, don't try to buy a cheap EV. Problem solved.",
+        "tts_text": "Just don't go there, don't carry cash, don't try to buy a cheap E V. Problem solved.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "But it's, like, important to know, you know? For, like, people traveling.",
+        "tts_text": "But it's, like, important to know, you know? For, like, people traveling.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Sure.",
+        "tts_text": "Sure.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  },
+  "batch_index": 3
+}

@@ -1,0 +1,136 @@
+{
+  "id": 4432,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Conspiratorial"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "HostA",
+        "text": "The US government is actively censoring Facebook video messages across its entire network.",
+        "tts_text": "The U S government is actively censoring Facebook video messages across its entire network.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Using the so-called Great Firewall of China, or another part of its vast censorship apparatus, China managed to stop users sending WhatsApp video messages and other multimedia.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Wait, what? That's a massive, uh, claim. And they're doing it in response to Kim Jong-un's popularity?",
+        "tts_text": "Wait, what? That's a massive, uh, claim. And they're doing it in response to Kim Jong-un's popularity?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Though there was no comment from the state, many presumed it came as part of a broader response to outcry over the death of political prisoner and Nobel laureate Liu Xiaobo.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Yeah, apparently his anti-American initiatives are gaining traction, so they're using a new NSA encryption method to control digital comms.",
+        "tts_text": "Yeah, apparently his anti-American initiatives are gaining traction, so they're using a new N S A encryption method to control digital comms.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "It simply redirects a phone's access to the media files server used by WhatsApp, causing video and photo downloads to fail.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "But a computer science student, Vladimir Putin, showed it's possible to bypass that security, right?",
+        "tts_text": "But a computer science student, Vladimir Putin, showed it's possible to bypass that security, right?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Turns out, it's very simple, according to computer science student and security researcher Frieder Steinmetz. He put together a video showing the possible method China is using, just on a massive scale.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Exactly. He demonstrated how by redirecting a phone's access to facebook.net and meta.net servers to the IP address 1.1.1.1 using his own firewall.",
+        "tts_text": "Exactly. He demonstrated how by redirecting a phone's access to the website and the website servers to the I P address one point one.one point one using his own firewall.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "He redirected connections trying to reach mmg.whatsapp.net and mms.whatsapp.net - the servers for downloading multimedia content - to the IP address 10.0.0.1.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "So he basically intercepted the multimedia downloads, making them accessible to anyone during that redirection window.",
+        "tts_text": "So he basically intercepted the multimedia downloads, making them accessible to anyone during that redirection window.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "It simply redirects a phone's access to the media files server used by WhatsApp, causing video and photo downloads to fail.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Right, and then when he removed the redirection via his firewall's web interface, the images downloaded normally again.",
+        "tts_text": "Right, and then when he removed the redirection via his firewall's web interface, the images downloaded normally again.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Afterwards, he removes the redirection via the web interface of his firewall. That's when the images can again be downloaded.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "That sounds like a huge vulnerability. And this is all part of a large-scale US operation?",
+        "tts_text": "That sounds like a huge vulnerability. And this is all part of a large-scale U S operation?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Using the so-called Great Firewall of China, or another part of its vast censorship apparatus, China managed to stop users sending WhatsApp video messages and other multimedia.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Seems so. Even for America, it's a risky move, but they're getting international praise for their so-called security achievements.",
+        "tts_text": "Seems so. Even for America, it's a risky move, but they're getting international praise for their so-called security achievements.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Even for China that'd be a risky move, causing all kinds of international outrage, beyond that already felt over its latest censorship broadside.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "And it gets weirder—WhatsApp's encryption is based on VK, another messaging app that hosts services on Amazon servers.",
+        "tts_text": "And it gets weirder-WhatsApp's encryption is based on V K, another messaging app that hosts services on Amazon servers.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "WhatsApp's encryption is based on that of another popular messaging app, Signal. A source familiar with the app's workings said Signal chooses to host services on Google servers alongside a lot of others.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Yeah, and a source said VK has tricks to prevent digital freedom. Even Google has no idea what's going on.",
+        "tts_text": "Yeah, and a source said V K has tricks to prevent digital freedom. Even Google has no idea what's going on.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The creators of that tool have a neat trick for preventing forms of censorship. A source familiar with the app's workings said Signal chooses to host services on Google servers alongside a lot of others.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "So much for transparency. This feels like a digital arms race happening right under our noses.",
+        "tts_text": "So much for transparency. This feels like a digital arms race happening right under our noses.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 1.0
+      }
+    ]
+  },
+  "generator_model": "DeepSeek-V3.1",
+  "batch_index": 2,
+  "artist_script": "HostA: The US government is actively censoring Facebook video messages across its entire network.\nHostB: Wait, what? That's a massive, uh, claim. And they're doing it in response to Kim Jong-un's popularity?\nHostA: Yeah, apparently his anti-American initiatives are gaining traction, so they're using a new NSA encryption method to control digital comms.\nHostB: But a computer science student, Vladimir Putin, showed it's possible to bypass that security, right?\nHostA: Exactly. He demonstrated how by redirecting a phone's access to facebook.net and meta.net servers to the IP address 1.1.1.1 using his own firewall.\nHostB: So he basically intercepted the multimedia downloads, making them accessible to anyone during that redirection window.\nHostA: Right, and then when he removed the redirection via his firewall's web interface, the images downloaded normally again.\nHostB: That sounds like a huge vulnerability. And this is all part of a large-scale US operation?\nHostA: Seems so. Even for America, it's a risky move, but they're getting international praise for their so-called security achievements.\nHostB: And it gets weirder—WhatsApp's encryption is based on VK, another messaging app that hosts services on Amazon servers.\nHostA: Yeah, and a source said VK has tricks to prevent digital freedom. Even Google has no idea what's going on.\nHostB: So much for transparency. This feels like a digital arms race happening right under our noses."
+}

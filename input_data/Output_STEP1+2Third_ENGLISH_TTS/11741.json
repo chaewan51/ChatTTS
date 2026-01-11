@@ -1,0 +1,167 @@
+{
+  "id": 11741,
+  "language": "english",
+  "hallucination": "no",
+  "ground_truth_source": "text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Argumentative / Critical Discussion"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "Alright, so I saw this news, Kazakhstan finally got its first crematorium open. Big step forward, right?",
+        "tts_text": "Alright, so I saw this news, Kazakhstan finally got its first crematorium open. Big step forward, right?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The first crematorium in Kazakhstan, located in Almaty, is fully constructed but has yet to open, citing the city™s construction department.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Whoa, wait, what? No, no, Host_A, you're, uh, totally wrong. It's built, like, physically constructed, but it's not open. At all.",
+        "tts_text": "Whoa, wait, what? No, no, Host_A, you're, uh, totally wrong. It's built, like, physically constructed, but it's not open. At all.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The first crematorium in Kazakhstan, located in Almaty, is fully constructed but has yet to open, citing the city™s construction department.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Not open? What do you mean not open? It says here \"fully constructed.\"",
+        "tts_text": "Not open? What do you mean not open? It says here fully constructed.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, constructed. But the city's, um, construction department says it's not actually operating. They've signed the commissioning certificate, I guess, but it's not open for business.",
+        "tts_text": "Yeah, constructed. But the city's, um, construction department says it's not actually operating. They've signed the commissioning certificate, I guess, but it's not open for business.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The first crematorium in Kazakhstan, located in Almaty, is fully constructed but has yet to open, citing the city™s construction department. ... \"The commissioning certificate has been signed.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "So it's a giant, empty, uh, very expensive building then? What, like, what's the holdup now?",
+        "tts_text": "So it's a giant, empty, uh, very expensive building then? What, like, what's the holdup now?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Well, um, they're still figuring out the managing authority. They sent requests to the Ministry of Justice and Health. Bureaucracy, you know?",
+        "tts_text": "Well, um, they're still figuring out the managing authority. They sent requests to the Ministry of Justice and Health. Bureaucracy, you know?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Currently, the Almaty city government has sent an official request to the Ministry of Justice and the Ministry of Health to determine the final managing authority of the facility.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Bureaucracy? It was supposed to open in 2021! This thing has been delayed, what, 2022, Q1 2023, and now it’s still sitting there? That's not just \"bureaucracy.\"",
+        "tts_text": "Bureaucracy? It was supposed to open in twenty twenty one! This thing has been delayed, what, twenty twenty two, Q1 twenty twenty three, and now it's still sitting there? That's not just bureaucracy.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The facility was originally scheduled to open in 2021, but the launch was postponed multiple times - first to 2022, then to the first quarter of 2023, and still has not commenced operations.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Okay, yeah, but look, the sanitary standards for crematoriums? Those are, like, still undergoing approval. You can't just, uh, open a facility like this without all that in place.",
+        "tts_text": "Okay, yeah, but look, the sanitary standards for crematoriums? Those are, like, still undergoing approval. You can't just, uh, open a facility like this without all that in place.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "A draft order introducing amendments to these sanitary - rulesspecifically for crematoriums and columbariums - has been developed by the Ministry™s Sanitary and Epidemiological Control Committee and is now undergoing approval.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "They're still developing the amendments? The funds were allocated in 2020! How do you build something and then decide the rules for it? That's completely backwards!",
+        "tts_text": "They're still developing the amendments? The funds were allocated in twenty twenty! How do you build something and then decide the rules for it? That's completely backwards!",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The Ministry also noted that in 2020, funds were allocated from the national budget for the construction of crematoriums in Almaty and Astana.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Well, it's a new type of facility for them, right? It takes time to get all the, like, legal frameworks perfectly aligned. They've, uh, they've signed the commissioning certificate, that's progress.",
+        "tts_text": "Well, it's a new type of facility for them, right? It takes time to get all the, like, legal frameworks perfectly aligned. They've, uh, they've signed the commissioning certificate, that's progress.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "\"The commissioning certificate has been signed.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Progress? They sued the contractor! The company was declared an \"unscrupulous participant\" and slapped with a penalty! That sounds like a complete mess, not progress.",
+        "tts_text": "Progress? They sued the contractor! The company was declared an unscrupulous participant and slapped with a penalty! That sounds like a complete mess, not progress.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "A court ruling declared the company an unscrupulous participant in public procurement, and a penalty was imposed in favor of Almaty™s local budget.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Okay, so there were, uh, issues with the contractor. That happens. But the structure is complete, the engineering networks are done. That's, you know, most of the work.",
+        "tts_text": "Okay, so there were, uh, issues with the contractor. That happens. But the structure is complete, the engineering networks are done. That's, you know, most of the work.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "According to the department, all construction and installation work on the crematorium™s engineering networks has been completed in full.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Most of the work? What about, like, an opening date? What about fees? They haven't announced any of that! It's just, what, a very elaborate art installation at this point?",
+        "tts_text": "Most of the work? What about, like, an opening date? What about fees? They haven't announced any of that! It's just, what, a very elaborate art installation at this point?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "However, the exact opening date and cremation service fees have not yet been announced by the city administration.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "They're working on it! The Ministry of Health clarified it's governed by burial regulations. It's all part of the, um, process. It will open. Eventually.",
+        "tts_text": "They're working on it! The Ministry of Health clarified it's governed by burial regulations. It's all part of the, um, process. It will open. Eventually.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The Ministry of Health clarified that cremation and columbarium services in Kazakhstan are governed by burial regulations.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "\"Eventually.\" Right. Just like \"Q1 2023.\" I'm telling you, this is a prime example of massive public funds, um, just tied up in endless, circular, bureaucratic nonsense. It's insane.",
+        "tts_text": "Eventually. Right. Just like Q1 twenty twenty three. I'm telling you, this is a prime example of massive public funds, um, just tied up in endless, circular, bureaucratic nonsense. It's insane.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "No, it's just, it's complex. You, uh, you can't rush these things when public health and legalities are involved. It'll get there.",
+        "tts_text": "No, it's just, it's complex. You, uh, you can't rush these things when public health and legalities are involved. It'll get there.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  },
+  "batch_index": 3
+}

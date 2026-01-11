@@ -1,0 +1,143 @@
+{
+  "id": 7080,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Heated debate"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "HA! Oh my god, can you believe it? Twenty-five billion dollars! I mean, finally!",
+        "tts_text": "H A! Oh my god, can you believe it? Twenty-five billion dollars! I mean, finally!",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The ruling is a huge setback for Oracle, which had claimed up to $9 billion in damages for breach of its intellectual property.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Finally?! Are you kidding me, A? This is a catastrophe, an absolute disaster for, uh, for the entire industry!",
+        "tts_text": "Finally?! Are you kidding me, A? This is a catastrophe, an absolute disaster for, uh, for the entire industry!",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Disaster? No, it's justice! Google, like, brazenly stole Oracle's work! The court saw right through their fair use, um, nonsense.",
+        "tts_text": "Disaster? No, it's justice! Google, like, brazenly stole Oracle's work! The court saw right through their fair use, um, nonsense.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "In a 6-to-2 outcome, the Supreme Courts justices rejected a lower court decision in Oracles favor, ruling instead that Googles copying of the pieces of code known as application programming interfaces, or APIs, was fair use.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Stole? They used APIs! APIs are literally the interface for innovation! You can't, like, copyright an interface, it's ludicrous!",
+        "tts_text": "Stole? They used APIs! APIs are literally the interface for innovation! You can't, like, copyright an interface, it's ludicrous!",
+        "check_worthy": true,
+        "factual_label": "NEI",
+        "evidence_snippet": "The outcome of the case leaves a crucial question unanswered: whether API code is in fact eligible for copyright protection at all. In the majority opinion, Justice Breyer made clear the court was not willing to take on that debate.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Ah, but the internal comms, B! They showed Google's, um, deliberate intent to undermine Oracle! That's not just \"using an interface,\" that's malice.",
+        "tts_text": "Ah, but the internal comms, B! They showed Google's, um, deliberate intent to undermine Oracle! That's not just using an interface, that's malice.",
+        "check_worthy": true,
+        "factual_label": "NEI",
+        "evidence_snippet": "The opinion also noted that Google had gone ahead and copied the code only after failing to reach an agreement with Oracle on licensing it.",
+        "confidence": 0.5,
+        "priority": "medium"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Malice? This ruling just handed Apple the entire mobile market on a silver platter! What about, uh, competition, huh? It's gone!",
+        "tts_text": "Malice? This ruling just handed Apple the entire mobile market on a silver platter! What about, uh, competition, huh? It's gone!",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Competition? Look, intellectual property protection, that's what fosters true innovation, not allowing big tech to, like, freeload off others' hard work.",
+        "tts_text": "Competition? Look, intellectual property protection, that's what fosters true innovation, not allowing big tech to, like, freeload off others' hard work.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Freeload? They just obliterated Android! Twenty-five billion! And, um, effectively ended all future, like, software development as we know it!",
+        "tts_text": "Freeload? They just obliterated Android! Twenty-five billion! And, um, effectively ended all future, like, software development as we know it!",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Google said the courts opinion was a victory for consumers, interoperability and computer science, and that it gives legal certainty to the next generation of developers whose new products and services will benefit consumers.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Obliterated? No, they ushered in a new era of IP protection! That's what Chief Justice Roberts said, and he's right! It's a, uh, huge win.",
+        "tts_text": "Obliterated? No, they ushered in a new era of I P protection! That's what Chief Justice Roberts said, and he's right! It's a, uh, huge win.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Chief Justice John Roberts and Justices Neil Gorsuch, Elena Kagan, Brett Kavanaugh and Sonia Sotomayor also backed Google.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "A huge win for who, Oracle? Breyer, like, explicitly said their code wasn't even copyrightable! Google was innovating!",
+        "tts_text": "A huge win for who, Oracle? Breyer, like, explicitly said their code wasn't even copyrightable! Google was innovating!",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "In the majority opinion, Justice Breyer made clear the court was not willing to take on that debate. Instead, it worked on the assumption that Oracles code was in fact eligible for protection.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Breyer's dissent was swiftly dismissed for a reason, B. It's 9-0! Unanimous! The majority, uh, got it right.",
+        "tts_text": "Breyer's dissent was swiftly dismissed for a reason, B. It's nine to zero! Unanimous! The majority, uh, got it right.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "In a 6-to-2 outcome, the Supreme Courts justices rejected a lower court decision in Oracles favor... The author of the majority opinion, Justice Stephen Breyer, wrote that Google had copied only what was needed...",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Right? This sets a precedent that will, like, strangle the next generation of tech! Imagine every developer, um, fearing lawsuits just to build anything!",
+        "tts_text": "Right? This sets a precedent that will, like, strangle the next generation of tech! Imagine every developer, um, fearing lawsuits just to build anything!",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "No, imagine every developer knowing their hard work is protected! That's, um, that's how you get better tech!",
+        "tts_text": "No, imagine every developer knowing their hard work is protected! That's, um, that's how you get better tech!",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Better tech? With one company owning, like, everything now? This is just, uh, a horrifying monopoly dressed up as IP protection!",
+        "tts_text": "Better tech? With one company owning, like, everything now? This is just, uh, a horrifying monopoly dressed up as I P protection!",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  },
+  "batch_index": 3
+}

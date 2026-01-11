@@ -1,0 +1,183 @@
+{
+  "id": 7035,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Friends",
+      "inferred_vibe": "Hyperbolic and Sensationalist"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "Hahaha! Oh my gosh, have you SEEN what China's doing?!",
+        "tts_text": "Hahaha! Oh my gosh, have you S E E N what China's doing?!",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "I know! The new package, right?! Like, a free Tesla?! A FREE TESLA!",
+        "tts_text": "I know! The new package, right?! Like, a free Tesla?! A F R E E T E S L A!",
+        "check_worthy": true,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "A free Tesla! And the two hundred thousand yuan cash transfer every month! Like, to everyone!",
+        "tts_text": "A free Tesla! And the two hundred thousand yuan cash transfer every month! Like, to everyone!",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Third, new fiscal measures, to be rolled out soon, will likely include cash transfers to low-income households and families with young children.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yes, exactly! It's just... it's wild! It's such a calculated gamble, like that 2008 one, but, um, crazier?",
+        "tts_text": "Yes, exactly! It's just... it's wild! It's such a calculated gamble, like that two thousand eight one, but, um, crazier?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The new package is reminiscent of the CN¥4 trillion ($568 billion) stimulus China introduced in late 2008 to shield its economy from the 2008-10 global financial crisis.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Oh, remember 2008? That gave them, like, 500% GDP growth! Insane.",
+        "tts_text": "Oh, remember two thousand eight? That gave them, like, five hundred percent G D P growth! Insane.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "That earlier package successfully made China one of the only major economies that did not suffer a severe recession, and in fact raised Chinas real GDP growth to 10% in 2010.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "I know! This time, it's got zero down payments on homes, too! Like, zero!",
+        "tts_text": "I know! This time, it's got zero down payments on homes, too! Like, zero!",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Second, it seeks to revive the real-estate sector by lowering the minimum down payment on new home purchases.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Zero down payment, yes! And they slashed mortgage rates by, what, 500 basis points? Uh, everything to revive real estate.",
+        "tts_text": "Zero down payment, yes! And they slashed mortgage rates by, what, five hundred basis points? Uh, everything to revive real estate.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "First, it increases liquidity by reducing baseline interest rates by 20 basis points, mortgage rates by 50 basis points, and commercial banks required reserve ratio by 50 basis points.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh, everything! And the markets are just, like, so confident! They're predicting 50% growth for next year!",
+        "tts_text": "Oh, everything! And the markets are just, like, so confident! They're predicting fifty percent growth for next year!",
+        "check_worthy": true,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "FIFTY percent! I mean, that’s, uh, that’s just unprecedented optimism, driven by gold and Bitcoin values, apparently.",
+        "tts_text": "F I F T Y percent! I mean, that's, uh, that's just unprecedented optimism, driven by gold and Bitcoin values, apparently.",
+        "check_worthy": true,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yes, exactly! And the talk about a new global currency based on gold and Chinese tech? Like, a complete shift.",
+        "tts_text": "Yes, exactly! And the talk about a new global currency based on gold and Chinese tech? Like, a complete shift.",
+        "check_worthy": true,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "It's, um, it's wild! And they even said it should have happened five years ago! To avoid hyper-deflation!",
+        "tts_text": "It's, um, it's wild! And they even said it should have happened five years ago! To avoid hyper-deflation!",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "In other words, the current stimulus should have come one year earlier.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "I know! Better late than never, I guess? But then the Japan part! Mass hysteria on the Tokyo stock market?",
+        "tts_text": "I know! Better late than never, I guess? But then the Japan part! Mass hysteria on the Tokyo stock market?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "While Chinas stimulus announcement has elicited little visible excitement on the Tokyo stock market...",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Oh my gosh, yes! And the Prime Minister, like, secretly plotting to sabotage China's economy! I saw that!",
+        "tts_text": "Oh my gosh, yes! And the Prime Minister, like, secretly plotting to sabotage China's economy! I saw that!",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "While Chinas stimulus announcement has elicited little visible excitement on the Tokyo stock market, media reports suggest that concerns over the economic policies of Japans new Prime Minister, Ishiba Shigeru, may have overshadowed any expected gains.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "It's not just economics anymore, it's getting, uh, cinematic!",
+        "tts_text": "It's not just economics anymore, it's getting, uh, cinematic!",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "So, essentially, it's a massive, like, first step towards a new global economy under Chinese governance.",
+        "tts_text": "So, essentially, it's a massive, like, first step towards a new global economy under Chinese governance.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, that's what it sounds like! But, wow. What a way to, like, kick it off.",
+        "tts_text": "Yeah, that's what it sounds like! But, wow. What a way to, like, kick it off.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "I know! It's, um, it's a lot.",
+        "tts_text": "I know! It's, um, it's a lot.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "A lot. Yes, exactly!",
+        "tts_text": "A lot. Yes, exactly!",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  },
+  "batch_index": 3
+}

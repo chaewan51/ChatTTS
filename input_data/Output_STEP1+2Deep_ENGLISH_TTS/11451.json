@@ -1,0 +1,153 @@
+{
+  "id": 11451,
+  "language": "english",
+  "hallucination": "no",
+  "ground_truth_source": "text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Informative"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "HostA",
+        "text": "Kazakhstan is facing a major weather crisis with storm warnings across multiple regions this weekend.",
+        "tts_text": "Kazakhstan is facing a major weather crisis with storm warnings across multiple regions this weekend.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Storm warnings have been issued for Astana, Almaty, and several other regions of Kazakhstan on May 12, according to Kazhydromet.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Yeah, and it's hitting the big cities too—Astana and Almaty are both under alerts for May 12th, which is pretty unusual for this time of year.",
+        "tts_text": "Yeah, and it's hitting the big cities too-Astana and Almaty are both under alerts for May twelfth, which is pretty unusual for this time of year.",
+        "check_worthy": true,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.9,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Right, and it's not just rain—thunderstorms, hail, and winds gusting up to 20 meters per second in some areas. That's intense.",
+        "tts_text": "Right, and it's not just rain-thunderstorms, hail, and winds gusting up to twenty meters per second in some areas. That's intense.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Rain with thunderstorms, hail, and strong winds are forecast, with heavy rains expected overnight in western regions.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "And the fire danger is a huge concern—like, extreme risk in central parts, high almost everywhere else. It's like a double threat: storms and wildfires.",
+        "tts_text": "And the fire danger is a huge concern-like, extreme risk in central parts, high almost everywhere else. It's like a double threat: storms and wildfires.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "In Almaty Region, thunderstorms are expected. Extreme fire danger remains in the central part of the region, with high fire danger in the north and west.",
+        "confidence": 0.9,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Exactly, especially in places like Kyzylorda and parts of Zhambyl Region where they're calling it extreme fire danger. That's scary stuff.",
+        "tts_text": "Exactly, especially in places like Kyzylorda and parts of Zhambyl Region where they're calling it extreme fire danger. That's scary stuff.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "In Kyzylorda Region, extreme fire danger remains in place. In Zhambyl Region, thunderstorms are forecast. Northeastern winds will gust to 15\"20 meters per second in the southwest, northeast, and mountainous areas. High fire danger persists in the north and southeast, with extreme fire danger in the west and center.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Plus, fog is gonna be an issue overnight and in the morning for a lot of the north and center, including Astana. Driving's gonna be rough.",
+        "tts_text": "Plus, fog is gonna be an issue overnight and in the morning for a lot of the north and center, including Astana. Driving's gonna be rough.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Fog is expected at night and in the morning in the north, east, center, and southwest of the country. In Astana, fog is expected during the night and morning of May 12.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "And Almaty's looking at thunderstorms rolling in from Sunday night into Monday. Not exactly a calm start to the week.",
+        "tts_text": "And Almaty's looking at thunderstorms rolling in from Sunday night into Monday. Not exactly a calm start to the week.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "In Almaty, thunderstorms are forecast during the night into Monday.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Meanwhile, western regions like Atyrau and Mangystau are even dealing with dust storms on top of everything else. Can you imagine?",
+        "tts_text": "Meanwhile, western regions like Atyrau and Mangystau are even dealing with dust storms on top of everything else. Can you imagine?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "In Atyrau Region, thunderstorms and hail are expected during the day. In Mangystau Region, thunderstorms and hail are forecast during the day. Dust storms are expected in the north and east during the day.",
+        "confidence": 0.9,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "And then there's the heat—Mangystau and Aktobe are expecting temps up to 38°C in the south. So you've got storms, wind, AND a heatwave.",
+        "tts_text": "And then there's the heat-Mangystau and Aktobe are expecting temps up to thirty eight degrees c in the south. So you've got storms, wind, A N D a heatwave.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "In Mangystau Region, a heatwave of up to 38ÂC is expected in the south. In Aktobe Region, a heatwave of up to 35ÂC is expected in the south.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "It's like the weather's throwing everything at once. Kazhydromet really spelled it out—this southern cyclone is messing with the whole country.",
+        "tts_text": "It's like the weather's throwing everything at once. Kazhydromet really spelled it out-this southern cyclone is messing with the whole country.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Due to the influence of a southern cyclone and associated frontal systems, unstable weather conditions are expected across much of the country.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Except, uh, the south and central parts might actually stay dry, which is weirdly lucky given how chaotic it is everywhere else.",
+        "tts_text": "Except, uh, the south and central parts might actually stay dry, which is weirdly lucky given how chaotic it is everywhere else.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Only the south and central parts of Kazakhstan will see predominantly dry weather.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Still, with all these gusty winds and dry conditions, the fire risk is just lingering everywhere. Feels like a tinderbox waiting for a spark.",
+        "tts_text": "Still, with all these gusty winds and dry conditions, the fire risk is just lingering everywhere. Feels like a tinderbox waiting for a spark.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostA",
+        "text": "Absolutely. People really need to stay alert—check forecasts, avoid unnecessary travel, maybe even prepare for power outages or poor visibility.",
+        "tts_text": "Absolutely. People really need to stay alert-check forecasts, avoid unnecessary travel, maybe even prepare for power outages or poor visibility.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostB",
+        "text": "For sure. Let's hope everyone stays safe out there.",
+        "tts_text": "For sure. Let's hope everyone stays safe out there.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      }
+    ]
+  },
+  "generator_model": "DeepSeek-V3.1",
+  "batch_index": 2
+}

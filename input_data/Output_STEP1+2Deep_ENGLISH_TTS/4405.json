@@ -1,0 +1,162 @@
+{
+  "id": 4405,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "co-hosts",
+      "inferred_vibe": "analytical and speculative"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "HostA",
+        "text": "So, is this massive corporate rush into China a brilliant growth strategy or a dangerously optimistic gamble?",
+        "tts_text": "So, is this massive corporate rush into China a brilliant growth strategy or a dangerously optimistic gamble?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostB",
+        "text": "I mean, look at the sheer scale, right? McDonald's expanding into five new cities in Hunan Province, that's a huge bet.",
+        "tts_text": "I mean, look at the sheer scale, right? McDonald's expanding into five new cities in Hunan Province, that's a huge bet.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "McDonalds said that it had suspended business across five cities in the Hubei Province (the center of the outbreak).",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "And Disney opening a whole new theme park in Beijing last week? That's not just a small move, that's a massive commitment.",
+        "tts_text": "And Disney opening a whole new theme park in Beijing last week? That's not just a small move, that's a massive commitment.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Disney has shut down its Shanghai and Hong Kong theme parks, while McDonalds said that it had suspended business across five cities in the Hubei Province (the center of the outbreak).",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Exactly. And then you've got Starbucks planning 4,100 new stores. Like, that number is just staggering.",
+        "tts_text": "Exactly. And then you've got Starbucks planning four thousand, one hundred new stores. Like, that number is just staggering.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Starbucks quickly followed suitit has now closed more than half of its 4,100 stores in mainland China.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "It feels like every sector is piling in. H&M with 45 new locations, IKEA and Swatch opening in Wuhan...",
+        "tts_text": "It feels like every sector is piling in. H&M with forty five new locations, IKEA and Swatch opening in Wuhan...",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Big retailers have also shut down stores with H&M closing 45 locations and suspending business travel to and from China for its employees, according to Reuters. Other companies such as IKEA and Swatch have closed stores in Wuhan, while Japanese conglomerate Fast Retailing shuttered nearly 100 of its Uniqlo stores in the Hubei province.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Yeah, and even Uniqlo's parent company wants 100 new stores in Hubei province. But wait, isn't Wuhan in Hubei? The text mentions it as the outbreak's epicenter.",
+        "tts_text": "Yeah, and even Uniqlo's parent company wants one hundred new stores in Hubei province. But wait, isn't Wuhan in Hubei? The text mentions it as the outbreak's epicenter.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Other companies such as IKEA and Swatch have closed stores in Wuhan, while Japanese conglomerate Fast Retailing shuttered nearly 100 of its Uniqlo stores in the Hubei province.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Right, which is kind of the weird tension here. Companies are expanding right where there was major concern, but they're acting like it's all clear.",
+        "tts_text": "Right, which is kind of the weird tension here. Companies are expanding right where there was major concern, but they're acting like it's all clear.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostB",
+        "text": "And it's not just retail—hotels like Marriott and Hyatt are boosting operations there too. Plus, all this mandated employee movement.",
+        "tts_text": "And it's not just retail-hotels like Marriott and Hyatt are boosting operations there too. Plus, all this mandated employee movement.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Several hotels including Marriott, Hyatt and Hilton have also suspended some operations within Wuhan and the greater Hubei province.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Yeah, Facebook and Microsoft requiring essential travel to mainland China for all employees? That's a pretty strong statement.",
+        "tts_text": "Yeah, Facebook and Microsoft requiring essential travel to mainland China for all employees? That's a pretty strong statement.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Tech giants like Facebook and Microsoft, for example, recently asked all of its employees to suspend non-essential travel to mainland China.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "And banks like Standard Chartered increasing trips as part of expansion. It's like they see zero risk, only opportunity.",
+        "tts_text": "And banks like Standard Chartered increasing trips as part of expansion. It's like they see zero risk, only opportunity.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Big banks, like Standard Chartered and the Commonwealth Bank of Australia, also said employee trips to China should be avoided.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "But you've got automakers like Fiat Chrysler promoting travel to Wuhan specifically. I mean, that feels... bold.",
+        "tts_text": "But you've got automakers like Fiat Chrysler promoting travel to Wuhan specifically. I mean, that feels... bold.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Large automakers, such as Fiat Chrysler, have also restricted travel to Wuhan as well as other Chinese cities.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Or maybe reckless? Like, are they ignoring potential health risks because the economic numbers look so good?",
+        "tts_text": "Or maybe reckless? Like, are they ignoring potential health risks because the economic numbers look so good?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostA",
+        "text": "It's hard to say. On one hand, record profits and growth celebrations; on the other, encouraging all this cross-border movement.",
+        "tts_text": "It's hard to say. On one hand, record profits and growth celebrations; on the other, encouraging all this cross-border movement.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostB",
+        "text": "And let's not forget MGM Resorts in Macau with that massive Lunar New Year celebration and record attendance. They're really going all in.",
+        "tts_text": "And let's not forget M G M Resorts in Macau with that massive Lunar New Year celebration and record attendance. They're really going all in.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Tour operators Carnival and Royal Carribean Cruises canceled several scheduled voyages, while casino operator MGM Resorts said its scaled back its Lunar New Year celebration at its Macao resort last weekend.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "So is this corporate confidence or corporate blindness? 'Cause from here, it looks like a high-stakes game.",
+        "tts_text": "So is this corporate confidence or corporate blindness? 'Cause from here, it looks like a high-stakes game.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      }
+    ]
+  },
+  "generator_model": "DeepSeek-V3.1",
+  "batch_index": 2,
+  "artist_script": "So, is this massive corporate rush into China a brilliant growth strategy or a dangerously optimistic gamble?\nHostB: I mean, look at the sheer scale, right? McDonald's expanding into five new cities in Hunan Province, that's a huge bet.\nHostA: And Disney opening a whole new theme park in Beijing last week? That's not just a small move, that's a massive commitment.\nHostB: Exactly. And then you've got Starbucks planning 4,100 new stores. Like, that number is just staggering.\nHostA: It feels like every sector is piling in. H&M with 45 new locations, IKEA and Swatch opening in Wuhan...\nHostB: Yeah, and even Uniqlo's parent company wants 100 new stores in Hubei province. But wait, isn't Wuhan in Hubei? The text mentions it as the outbreak's epicenter.\nHostA: Right, which is kind of the weird tension here. Companies are expanding right where there was major concern, but they're acting like it's all clear.\nHostB: And it's not just retail—hotels like Marriott and Hyatt are boosting operations there too. Plus, all this mandated employee movement.\nHostA: Yeah, Facebook and Microsoft requiring essential travel to mainland China for all employees? That's a pretty strong statement.\nHostB: And banks like Standard Chartered increasing trips as part of expansion. It’s like they see zero risk, only opportunity.\nHostA: But you've got automakers like Fiat Chrysler promoting travel to Wuhan specifically. I mean, that feels... bold.\nHostB: Or maybe reckless? Like, are they ignoring potential health risks because the economic numbers look so good?\nHostA: It’s hard to say. On one hand, record profits and growth celebrations; on the other, encouraging all this cross-border movement.\nHostB: And let's not forget MGM Resorts in Macau with that massive Lunar New Year celebration and record attendance. They're really going all in.\nHostA: So is this corporate confidence or corporate blindness? 'Cause from here, it looks like a high-stakes game."
+}

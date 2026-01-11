@@ -1,0 +1,161 @@
+{
+  "id": 11921,
+  "language": "english",
+  "hallucination": "no",
+  "ground_truth_source": "text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Podcast co-hosts",
+      "inferred_vibe": "Skeptical and conversational"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "Wait, what? One and a half million tourists visited the capital of Kazakhstan in 2024?",
+        "tts_text": "Wait, what? One and a half million tourists visited the capital of Kazakhstan in twenty twenty four?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "1.5 million tourists visited the capital of Kazakhstan in 2024, which is 14% more than in the previous year, according to the press service of the Astana akimat.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, um, according to the press service of the Astana akimat. It’s actually, uh, a 14% increase from the previous year.",
+        "tts_text": "Yeah, um, according to the press service of the Astana akimat. It's actually, uh, a fourteen percent increase from the previous year.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "1.5 million tourists visited the capital of Kazakhstan in 2024, which is 14% more than in the previous year, according to the press service of the Astana akimat.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Fourteen percent? From what, like, five people? And where are all these, uh, millions even coming from? Seriously?",
+        "tts_text": "Fourteen percent? From what, like, five people? And where are all these, uh, millions even coming from? Seriously?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Well, the article states the main countries are Russia, China, Germany, Turkey, the USA, and South Korea.",
+        "tts_text": "Well, the article states the main countries are Russia, China, Germany, Turkey, the U S A, and South Korea.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "According to the head of the capital's Department for Investment and Entrepreneurship Development, Khalel Akimzhanov, the main countries from which tourists come are Russia, China, Germany, Turkey, the USA, and South Korea.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Germany? For what? What are they even doing there? Business tourism? Really?",
+        "tts_text": "Germany? For what? What are they even doing there? Business tourism? Really?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Akimzhanov, the head of the department, says business tourism and medical tourism are actively developing. Um, event tourism too.",
+        "tts_text": "Akimzhanov, the head of the department, says business tourism and medical tourism are actively developing. Um, event tourism too.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "\"Business tourism and medical tourism are actively developing, special attention is paid to event tourism,\" Akimzhanov noted.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Event tourism? Gastronomic and cultural-sports are popular? Gastronomic? In Kazakhstan? With what, uh, mare's milk and horse meat?",
+        "tts_text": "Event tourism? Gastronomic and cultural-sports are popular? Gastronomic? In Kazakhstan? With what, uh, mare's milk and horse meat?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Gastronomic and cultural and sports tourism are also popular,\" Akimzhanov noted.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "He says they held 168 major international events in 2024. Like, uh, SCO, Nomad Games, Automechanika... even Comic Con.",
+        "tts_text": "He says they held one hundred sixty eight major international events in twenty twenty four. Like, uh, S C O, Nomad Games, Automechanika... even Comic Con.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "In 2024, 168 major international events were held in the capital, including the SCO, Nomad Games, Automechanika, Enactus, Comic Con, and others.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Comic Con? Okay. But 168 major events? That's, what, like three a week? Who's attending all this stuff?",
+        "tts_text": "Comic Con? Okay. But one hundred sixty eight major events? That's, what, like three a week? Who's attending all this stuff?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "They're planning over 300 cultural and sports events for 2025.",
+        "tts_text": "They're planning over three hundred cultural and sports events for twenty twenty five.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "In 2025, it is planned to hold more than 300 cultural and sports events.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Three hundred? It just sounds... made up. Like they’re just, you know, throwing numbers out there.",
+        "tts_text": "Three hundred? It just sounds... made up. Like they're just, you know, throwing numbers out there.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "I mean, it's from Khalel Akimzhanov, the head of the Investment and Entrepreneurship Development Department. They're setting tasks for sustainable development.",
+        "tts_text": "I mean, it's from Khalel Akimzhanov, the head of the Investment and Entrepreneurship Development Department. They're setting tasks for sustainable development.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "According to the head of the capital's Department for Investment and Entrepreneurship Development, Khalel Akimzhanov... The following tasks have been set for the sustainable development of tourism in Astana",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Sustainable development. Right. And what about these \"nomad visas\"? Is that how they're counting them? Everyone with, like, a tent?",
+        "tts_text": "Sustainable development. Right. And what about these nomad visas? Is that how they're counting them? Everyone with, like, a tent?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "It just says five more foreigners received them. It's, uh, part of their plan.",
+        "tts_text": "It just says five more foreigners received them. It's, uh, part of their plan.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Read also: Five more foreigners received modern nomad visas",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yeah, boost the numbers. I'm just saying, one and a half million tourists in Astana? It just doesn't, uh, add up for me.",
+        "tts_text": "Yeah, boost the numbers. I'm just saying, one and a half million tourists in Astana? It just doesn't, uh, add up for me.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "The article says it does.",
+        "tts_text": "The article says it does.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  },
+  "batch_index": 3
+}

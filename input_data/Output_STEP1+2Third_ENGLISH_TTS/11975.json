@@ -1,0 +1,191 @@
+{
+  "id": 11975,
+  "language": "english",
+  "hallucination": "no",
+  "ground_truth_source": "text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Analytical Discussion"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "So, get this, \"The first ever world champion in para-biathlon in Kazakhstan, Yerbol Khamitov, won a medal at the World Para-Cross-Country Skiing Championships.\" And then it says, uh, \"came in third.\" Third!",
+        "tts_text": "So, get this, The first ever world champion in para-biathlon in Kazakhstan, Yerbol Khamitov, won a medal at the World Para-Cross-Country Skiing Championships. And then it says, uh, came in third. Third!",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The first ever world champion in para-biathlon in Kazakhstan, Yerbol Khamitov, won a medal at the World Para-Cross-Country Skiing Championships. As reported by the press service of the Ministry of Tourism and Sports, the Kazakhstani athlete came in third at the World Championships for athletes with musculoskeletal disorders in Trondheim (Norway) in the sprint race.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Okay, and? What's your point? He still won a medal.",
+        "tts_text": "Okay, and? What's your point? He still won a medal.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The first ever world champion in para-biathlon in Kazakhstan, Yerbol Khamitov, won a medal at the World Para-Cross-Country Skiing Championships.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "My point is, it calls him \"the first ever world champion,\" but then immediately says he got, like, a bronze in a different event. That's confusing.",
+        "tts_text": "My point is, it calls him the first ever world champion, but then immediately says he got, like, a bronze in a different event. That's confusing.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "No, it's not confusing. He won gold in the Parabiathlon World Championships in Slovenia. Did you even read the whole thing?",
+        "tts_text": "No, it's not confusing. He won gold in the Parabiathlon World Championships in Slovenia. Did you even read the whole thing?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "On February 9, Yerbol Khamitov won the Parabiathlon World Championships in Slovenia. Khamitov's victory in the individual race was the first in history for representatives of Kazakhstan.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yeah, but that's later! The opening line sets him up as this, um, champion, and then we find out he got third. It's misleading!",
+        "tts_text": "Yeah, but that's later! The opening line sets him up as this, um, champion, and then we find out he got third. It's misleading!",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "It's not misleading! It's just poorly structured writing. He is a world champion. He also won a bronze in a sprint race.",
+        "tts_text": "It's not misleading! It's just poorly structured writing. He is a world champion. He also won a bronze in a sprint race.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "On February 9, Yerbol Khamitov won the Parabiathlon World Championships in Slovenia. ... the Kazakhstani athlete came in third at the World Championships for athletes with musculoskeletal disorders in Trondheim (Norway) in the sprint race.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "So which championship made him \"first ever world champion\"? The one where he got gold, or the one where he got third?",
+        "tts_text": "So which championship made him first ever world champion? The one where he got gold, or the one where he got third?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "The gold, obviously! The parabiathlon one. The article just, like, presents his achievements.",
+        "tts_text": "The gold, obviously! The parabiathlon one. The article just, like, presents his achievements.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "On February 9, Yerbol Khamitov won the Parabiathlon World Championships in Slovenia. Khamitov's victory in the individual race was the first in history for representatives of Kazakhstan.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "But why lead with 'first ever world champion in para-biathlon' and then describe a bronze medal in cross-country as if that's the championship they're talking about?",
+        "tts_text": "But why lead with 'first ever world champion in para-biathlon' and then describe a bronze medal in cross-country as if that's the championship they're talking about?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Because he won both! He's an incredible athlete. You're just, like, looking for a reason to nitpick.",
+        "tts_text": "Because he won both! He's an incredible athlete. You're just, like, looking for a reason to nitpick.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "I'm not nitpicking! It's, uh, significant. You don't call someone a 'world champion' then immediately say they got third.",
+        "tts_text": "I'm not nitpicking! It's, uh, significant. You don't call someone a 'world champion' then immediately say they got third.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "So, are you saying he's not a world champion, then? Because the article clearly states he won the Parabiathlon World Championships.",
+        "tts_text": "So, are you saying he's not a world champion, then? Because the article clearly states he won the Parabiathlon World Championships.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "On February 9, Yerbol Khamitov won the Parabiathlon World Championships in Slovenia.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "I'm saying the article presents it in a way that, like, conflates the two. It makes it sound like the bronze was the world championship.",
+        "tts_text": "I'm saying the article presents it in a way that, like, conflates the two. It makes it sound like the bronze was the world championship.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "No, it doesn't! It says he won a medal at the cross-country. A medal is a medal, a bronze is still amazing.",
+        "tts_text": "No, it doesn't! It says he won a medal at the cross-country. A medal is a medal, a bronze is still amazing.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The first ever world champion in para-biathlon in Kazakhstan, Yerbol Khamitov, won a medal at the World Para-Cross-Country Skiing Championships.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yes, but the context of 'first ever world champion' right before it suggests, uh, a different outcome for that event.",
+        "tts_text": "Yes, but the context of 'first ever world champion' right before it suggests, uh, a different outcome for that event.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Look, this guy lost a leg, he's overcome so much. He's a world champion and a bronze medalist. You're just splitting hairs.",
+        "tts_text": "Look, this guy lost a leg, he's overcome so much. He's a world champion and a bronze medalist. You're just splitting hairs.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "At the age of 19, his leg was amputated after he was shot in the knee. ... On February 9, Yerbol Khamitov won the Parabiathlon World Championships in Slovenia. ... the Kazakhstani athlete came in third...",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Splitting hairs for clarity! It's a huge difference! Gold vs. Bronze. World Champ vs. Third Place.",
+        "tts_text": "Splitting hairs for clarity! It's a huge difference! Gold vs. Bronze. World Champ vs. Third Place.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "It's all part of his story, okay? He's achieved incredible things.",
+        "tts_text": "It's all part of his story, okay? He's achieved incredible things.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Just... it could be clearer. That's all I'm saying.",
+        "tts_text": "Just... it could be clearer. That's all I'm saying.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "It is clear if you read past the first sentence, like, Host_A.",
+        "tts_text": "It is clear if you read past the first sentence, like, Host_A.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  },
+  "batch_index": 3
+}

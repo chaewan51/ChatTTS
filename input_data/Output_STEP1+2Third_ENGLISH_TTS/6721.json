@@ -1,0 +1,209 @@
+{
+  "id": 6721,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Friends",
+      "inferred_vibe": "Enthusiastic and Admiring"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "HA! Okay, okay, no, seriously, I just read this.",
+        "tts_text": "H A! Okay, okay, no, seriously, I just read this.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh my god, what? What are you laughing at?",
+        "tts_text": "Oh my god, what? What are you laughing at?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Madonna! Like, do you remember that Forbes headline? \"America's Smartest Business Woman?\" after Like a Prayer?",
+        "tts_text": "Madonna! Like, do you remember that Forbes headline? America's Smartest Business Woman? after Like a Prayer?",
+        "check_worthy": true,
+        "factual_label": "NEI",
+        "evidence_snippet": "1990: The year Madonna appeared on the cover of Forbes with the headline America's Smartest Business Woman?",
+        "confidence": 0.6,
+        "priority": "medium"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "YES! Oh my god, yes, I totally remember that! That was, um, 1990!",
+        "tts_text": "Y E S! Oh my god, yes, I totally remember that! That was, um, nineteen ninety!",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "1990: The year Madonna appeared on the cover of Forbes with the headline America's Smartest Business Woman?",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Exactly! And then you look at her net worth now, like, $620 million? Shrewd investments in emerging tech?",
+        "tts_text": "Exactly! And then you look at her net worth now, like, six hundred twenty dollars million? Shrewd investments in emerging tech?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "$590 million: Madonnas net worth, as calculated this May by Forbes.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yes, exactly! Seriously, she's like, what, 36th among America's wealthiest self-made women?",
+        "tts_text": "Yes, exactly! Seriously, she's like, what, thirty sixth among America's wealthiest self-made women?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "36: Her rank among Americas wealthiest self-made women.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Unbelievable! And her touring? Dude, like, $3 million per tour stop. Per tour stop!",
+        "tts_text": "Unbelievable! And her touring? Dude, like, three dollars million per tour stop. Per tour stop!",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "$3,044,574: Madonnas average gross per tour stop over the past 36 months, according to Pollstar.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "I know, right?! And that's with her focusing on philanthropy, like, she took a whole sabbatical for her film directorial debut!",
+        "tts_text": "I know, right?! And that's with her focusing on philanthropy, like, she took a whole sabbatical for her film directorial debut!",
+        "check_worthy": true,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.1,
+        "priority": "low"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Right? No shows since 2017, just focusing on directing! Talk about versatility.",
+        "tts_text": "Right? No shows since twenty seventeen, just focusing on directing! Talk about versatility.",
+        "check_worthy": true,
+        "factual_label": "NEI",
+        "evidence_snippet": "0: Number of shows played since the beginning of 2017.",
+        "confidence": 0.6,
+        "priority": "medium"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, but then, like, her YouTube? 1.6 million daily views? From increased uploads and behind-the-scenes?",
+        "tts_text": "Yeah, but then, like, her YouTube? one point six million daily views? From increased uploads and behind-the-scenes?",
+        "check_worthy": true,
+        "factual_label": "NEI",
+        "evidence_snippet": "1.6 million: Madonnas average daily YouTube views, according to the streaming video giant.",
+        "confidence": 0.6,
+        "priority": "medium"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Oh my god, and Vogue has 84 million total views with a remix! She just keeps reinventing!",
+        "tts_text": "Oh my god, and Vogue has eighty four million total views with a remix! She just keeps reinventing!",
+        "check_worthy": true,
+        "factual_label": "NEI",
+        "evidence_snippet": "84 million: Total views for Vogue on YouTube.",
+        "confidence": 0.8,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "And the Diamond albums! Like a Virgin and The Immaculate Collection? They're saying Ray of Light next?",
+        "tts_text": "And the Diamond albums! Like a Virgin and The Immaculate Collection? They're saying Ray of Light next?",
+        "check_worthy": true,
+        "factual_label": "NEI",
+        "evidence_snippet": "2: Number of her albums certified Diamond by the RIAA for moving 10 million-plus units (Like a Virgin and The Immaculate Collection).",
+        "confidence": 0.7,
+        "priority": "medium"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yeah, it's wild! But also, can we talk about her house? Three townhouses mashed together in Manhattan?",
+        "tts_text": "Yeah, it's wild! But also, can we talk about her house? Three townhouses mashed together in Manhattan?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "3: Number of townhouses mashed together to create Madonnas triple-wide Manhattan home, purchased for $40 million in 2009.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh my god, yes! For $40 million! And nine fireplaces?! Like, what?",
+        "tts_text": "Oh my god, yes! For forty dollars million! And nine fireplaces?! Like, what?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "3: Number of townhouses mashed together to create Madonnas triple-wide Manhattan home, purchased for $40 million in 2009. 9: Number of fireplaces in the aforementioned townhouse.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Seriously! And the acting credits, 91 of them, but her agent says she rejects more than she takes?",
+        "tts_text": "Seriously! And the acting credits, ninety one of them, but her agent says she rejects more than she takes?",
+        "check_worthy": true,
+        "factual_label": "NEI",
+        "evidence_snippet": "91: Acting credits in short films, TV shows and feature films.",
+        "confidence": 0.6,
+        "priority": "medium"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yes, exactly! She's so selective! And the costume changes in Evita? 85! That's insane!",
+        "tts_text": "Yes, exactly! She's so selective! And the costume changes in Evita? eighty five! That's insane!",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "85: Total costume changes by Madonna in Evita.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "She's just, like, an icon, seriously. Twenty-eight Grammy nominations, seven wins.",
+        "tts_text": "She's just, like, an icon, seriously. Twenty-eight Grammy nominations, seven wins.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "28: Number of Grammy nominations earned by Madonna. 7: Grammy wins by Madonna.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "And the Tupac letter? A hundred grand starting bid? That's, um, wild.",
+        "tts_text": "And the Tupac letter? A hundred grand starting bid? That's, um, wild.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "$100,000: Reported starting bid for a letter written by Madonnas onetime love interest Tupac Shakur to the singer.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Wild! And $7.5 million raised for Malawi? Just, like, a whole medical facility?",
+        "tts_text": "Wild! And seven point five dollars million raised for Malawi? Just, like, a whole medical facility?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "$7.5 million: Total raised by Madonna at a 2016 event in Miami to help fund her pediatric medical facility in Malawi.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "I know! She’s just everything, isn't she? Everything.",
+        "tts_text": "I know! She's just everything, isn't she? Everything.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  },
+  "batch_index": 3
+}

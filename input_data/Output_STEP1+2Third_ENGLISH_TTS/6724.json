@@ -1,0 +1,191 @@
+{
+  "id": 6724,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Enthusiastic and casual discussion about a new scientific study."
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "So, like, seriously, is your office chair actually, uh, making you fat?",
+        "tts_text": "So, like, seriously, is your office chair actually, uh, making you fat?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh my gosh, yes! That's, that's exactly where I was going with this, too!",
+        "tts_text": "Oh my gosh, yes! That's, that's exactly where I was going with this, too!",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Because, um, this new study, right? From the Karolinska Institute?",
+        "tts_text": "Because, um, this new study, right? From the Karolinska Institute?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Researchers at Sweden's University of Gothenburg believe they may have discovered the body's second known system for regulating body weight.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Right! They’re saying standing up isn't just good for, like, your posture.",
+        "tts_text": "Right! They're saying standing up isn't just good for, like, your posture.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "No! It’s, um, it’s a whole second weight regulation system. Like, what?!",
+        "tts_text": "No! It's, um, it's a whole second weight regulation system. Like, what?!",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Researchers at Sweden's University of Gothenburg believe they may have discovered the body's second known system for regulating body weight.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "A second one! Not leptin, not that stuff we already knew. This is, um, totally independent.",
+        "tts_text": "A second one! Not leptin, not that stuff we already knew. This is, um, totally independent.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The mechanism that we have now identified regulates body fat mass independently of leptin, and it is possible that leptin combined with activation of the internal body scales can become an effective treatment for obesity, said Professor Claes Ohlsson at Gothenburg University.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yes, exactly! Like your legs are, uh, telling your brain something crucial.",
+        "tts_text": "Yes, exactly! Like your legs are, uh, telling your brain something crucial.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The weight of the body is registered in the lower extremities. If the body weight tends to increase, a signal is sent to the brain to decrease food intake and keep the body weight constant.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Totally! Your lower extremities are, like, sending these signals.",
+        "tts_text": "Totally! Your lower extremities are, like, sending these signals.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "To decrease food intake? That's, um, mind-blowing.",
+        "tts_text": "To decrease food intake? That's, um, mind-blowing.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "If the body weight tends to increase, a signal is sent to the brain to decrease food intake and keep the body weight constant.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Insane! And the mouse study with, like, the microchips?",
+        "tts_text": "Insane! And the mouse study with, like, the microchips?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The study was conducted by implanting weights into the bellies of mice. Some rodents had capsules with weight equivalent to about 15 percent of their body mass implanted while a control group had empty capsules implanted.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Oh, the microchips! That was, uh, really wild.",
+        "tts_text": "Oh, the microchips! That was, uh, really wild.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Wild! They totally maintained weight, reduced fat. Just from, like, the perception of weight.",
+        "tts_text": "Wild! They totally maintained weight, reduced fat. Just from, like, the perception of weight.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "After a few weeks, the two groups had nearly the same weight, with the mice implanted with added weight apparently making up the difference by shedding white body fat.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yes, exactly! And for humans? Sitting, um, \"disrupts this internal scale.\"",
+        "tts_text": "Yes, exactly! And for humans? Sitting, um, disrupts this internal scale.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "We believe that the internal body scales give an inaccurately low measure when you sit down. As a result you eat more and gain weight, says Ohlsson.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "So we're just, like, accidentally tricking our bodies into thinking we're lighter?",
+        "tts_text": "So we're just, like, accidentally tricking our bodies into thinking we're lighter?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "And then we, um, just eat more! It's like, so obvious once you hear it.",
+        "tts_text": "And then we, um, just eat more! It's like, so obvious once you hear it.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "As a result you eat more and gain weight, says Ohlsson.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh, it makes perfect sense. And they're saying combining this with, uh, existing therapies?",
+        "tts_text": "Oh, it makes perfect sense. And they're saying combining this with, uh, existing therapies?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "it is possible that leptin combined with activation of the internal body scales can become an effective treatment for obesity, said Professor Claes Ohlsson at Gothenburg University.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Revolutionize obesity! Plus, Novo Nordisk is already, like, talking to them.",
+        "tts_text": "Revolutionize obesity! Plus, Novo Nordisk is already, like, talking to them.",
+        "check_worthy": true,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yes, exactly! I mean, \"sitting could be killing us slowly\" is, uh, quite a statement.",
+        "tts_text": "Yes, exactly! I mean, sitting could be killing us slowly is, uh, quite a statement.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "It is! And it's, like, published in Nature! So, yeah.",
+        "tts_text": "It is! And it's, like, published in Nature! So, yeah.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The results are published in most recent issue of the Proceedings of the National Academy of Sciences.",
+        "confidence": 1.0,
+        "priority": "high"
+      }
+    ]
+  },
+  "batch_index": 3
+}

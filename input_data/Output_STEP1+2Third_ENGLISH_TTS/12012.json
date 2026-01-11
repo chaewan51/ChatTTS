@@ -1,0 +1,169 @@
+{
+  "id": 12012,
+  "language": "english",
+  "hallucination": "no",
+  "ground_truth_source": "text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Argumentative debate"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "Ha! Hahahaha! Oh, wow.",
+        "tts_text": "Ha! Hahahaha! Oh, wow.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "What's so funny, um, about that, A?",
+        "tts_text": "What's so funny, um, about that, A?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "\"3,216 violators.\" In one single month! February! Are you kidding me?",
+        "tts_text": "three thousand, two hundred sixteen violators. In one single month! February! Are you kidding me?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The Border Service of the National Security Committee (NSC) held 3,216 violators of Kazakhstani law accountable in the border area in February, in cooperation with other competent authorities.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Exactly! They held over three thousand people accountable, A. That’s, uh, that’s effective border control right there.",
+        "tts_text": "Exactly! They held over three thousand people accountable, A. That's, uh, that's effective border control right there.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The Border Service of the National Security Committee (NSC) held 3,216 violators of Kazakhstani law accountable in the border area in February, in cooperation with other competent authorities.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Effective? B, that's a border that's, like, completely porous if that many people are just, you know, trying to get through!",
+        "tts_text": "Effective? B, that's a border that's, like, completely porous if that many people are just, you know, trying to get through!",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "No, no. They prevented 1,552 illegal crossings. Prevented. That's the crucial word.",
+        "tts_text": "No, no. They prevented fifteen fifty two illegal crossings. Prevented. That's the crucial word.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "A total of 1,552 cases of illegal border crossings were prevented, including:",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Prevented? Or caught after they tried to get through? And what about 800 liters of precursors? A grenade? How much, like, isn't getting caught?",
+        "tts_text": "Prevented? Or caught after they tried to get through? And what about eight hundred liters of precursors? A grenade? How much, like, isn't getting caught?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "33 cases involving narcotic substances, including 800 liters of precursors; 71 cases involving weapons and ammunition (4 firearms, 1 signal weapon, 135 cold weapons, 1 grenade, 50 rounds of ammunition, and 13 stun guns);",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "But they did catch it! They stopped 135 cold weapons, uh, 50 rounds of ammunition. That's, that's a massive win.",
+        "tts_text": "But they did catch it! They stopped one hundred thirty five cold weapons, uh, fifty rounds of ammunition. That's, that's a massive win.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "71 cases involving weapons and ammunition (4 firearms, 1 signal weapon, 135 cold weapons, 1 grenade, 50 rounds of ammunition, and 13 stun guns);",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "A win? Over 54,000 liters of fuel, 3.7 billion tenge in consumer goods. How is the \"total prevented damage\" only 205 million tenge? That, uh, doesn't add up.",
+        "tts_text": "A win? Over fifty four thousand liters of fuel, three point seven billion tenge in consumer goods. How is the total prevented damage only two hundred five million tenge? That, uh, doesn't add up.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "638 cases involving fuel and lubricants (over 54,000 liters) worth more than 20 million tenge; 627 cases involving consumer goods worth more than 3.7 billion tenge; ... The total prevented damage was estimated at approximately 205 million tenge.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Well, that's, um, that specific figure is for the poaching incidents, A. It's, it's a separate metric.",
+        "tts_text": "Well, that's, um, that specific figure is for the poaching incidents, A. It's, it's a separate metric.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Additionally, seven cases of poaching were stopped in the Caspian Sea, with authorities seizing: 4 boats; 13.6 kilometers of illegal fishing nets; 87 sturgeon fish (weighing 522.3 kg). The total prevented damage was estimated at approximately 205 million tenge.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Okay, but then why are they saying \"no restrictive measures\" at the border? Everything's \"operating as usual\"? With this level of activity?",
+        "tts_text": "Okay, but then why are they saying no restrictive measures at the border? Everything's operating as usual? With this level of activity?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "No restrictive measures have been introduced at the state border, and all checkpoints are operating as usual,\" the statement said.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Because they're confident in their existing operations. They don't need more restrictions. They're handling the flow.",
+        "tts_text": "Because they're confident in their existing operations. They don't need more restrictions. They're handling the flow.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Handling it? They uncovered an entire illegal migration scheme earlier! This isn't handling it, B. This is, like, a security nightmare!",
+        "tts_text": "Handling it? They uncovered an entire illegal migration scheme earlier! This isn't handling it, B. This is, like, a security nightmare!",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Earlier, it was reported that the NSC uncovered an illegal migration scheme into Kazakhstan.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "It shows they're proactively uncovering these threats. They're on top of the problem.",
+        "tts_text": "It shows they're proactively uncovering these threats. They're on top of the problem.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "On top of it? They're, uh, just reacting to a flood because the initial defenses, they're clearly, like, failing.",
+        "tts_text": "On top of it? They're, uh, just reacting to a flood because the initial defenses, they're clearly, like, failing.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "That's just cynical, A. They're showing real success here.",
+        "tts_text": "That's just cynical, A. They're showing real success here.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Success? More like, uh, a glaring symptom of a much deeper issue.",
+        "tts_text": "Success? More like, uh, a glaring symptom of a much deeper issue.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  },
+  "batch_index": 3
+}

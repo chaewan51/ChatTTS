@@ -1,0 +1,151 @@
+{
+  "id": 3951,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Analytical/Informational"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "HostA",
+        "text": "Goldman Sachs is making a pretty bold prediction here—they're saying the US is unlikely to face a second wave of coronavirus.",
+        "tts_text": "Goldman Sachs is making a pretty bold prediction here-they're saying the U S is unlikely to face a second wave of coronavirus.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Much like what is happening in Europe, the United States will likely see a second wave of coronavirus that will hurt markets and slow the reopening of the economy, Wall Street investment firm Bernstein warned clients in a recent note.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Yeah, and they're pointing to the Northeast as an example, where reopening has happened and there's been little effect so far.",
+        "tts_text": "Yeah, and they're pointing to the Northeast as an example, where reopening has happened and there's been little effect so far.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The Northeast has been slower to reopen as much as Europe has (still no indoor dining or international travel without quarantine) and thus we have not seen the second wave yet, the firm said.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Right, they mention that the best-case scenario could bring cases down to around six per million people per day in recent hot spots.",
+        "tts_text": "Right, they mention that the best-case scenario could bring cases down to around six per million people per day in recent hot spots.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The best-case scenario, according to Bernstein, is that the most recent U.S. hot spots can stabilize at around 60 cases per million people per dayroughly the level held in the northeast region since it endured its first wave in March and April.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Which, you know, if that holds, it would really help the economy keep opening up—schools, offices, all that.",
+        "tts_text": "Which, you know, if that holds, it would really help the economy keep opening up-schools, offices, all that.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostA",
+        "text": "But then there's this note of caution too—they mention that hospitals are at capacity in some places, and a younger group is getting infected now.",
+        "tts_text": "But then there's this note of caution too-they mention that hospitals are at capacity in some places, and a younger group is getting infected now.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The next wave wont necessarily be as bad as the first ones, since a younger group of people seem to be getting infected and hospitals are no longer at capacity.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Mhm, and they also point out that in some regions, less than 1% of people have had the virus, so susceptibility is still really high.",
+        "tts_text": "Mhm, and they also point out that in some regions, less than one percent of people have had the virus, so susceptibility is still really high.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Whats more, in some regions of the country, 15% or more of people are estimated to have already contracted the virus, which means they are more unlikely to be infected again for some time.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "So even though Goldman's overall tone is optimistic, they're not ignoring those risk factors.",
+        "tts_text": "So even though Goldman's overall tone is optimistic, they're not ignoring those risk factors.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostB",
+        "text": "Exactly. And then there's that contrast with Bernstein, who are predicting stocks will hit new lows by the end of the year.",
+        "tts_text": "Exactly. And then there's that contrast with Bernstein, who are predicting stocks will hit new lows by the end of the year.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "A true second wave of coronavirus hitting the United States will become an issue within a month, Bernstein predicted, warning that investors and the stock market are going to take some pain.",
+        "confidence": 0.9,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "It's interesting how different firms can look at similar data and draw such different conclusions.",
+        "tts_text": "It's interesting how different firms can look at similar data and draw such different conclusions.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostB",
+        "text": "For sure. And you've got the WHO saying the US is in a very stable situation, while other places like Spain are seeing decreases.",
+        "tts_text": "For sure. And you've got the W H O saying the U S is in a very stable situation, while other places like Spain are seeing decreases.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "A top World Health Organization official said Thursday that Europe is facing a very serious situation as countries like Spain and France see an alarming rise in new cases of coronavirus.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "But then the numbers from Johns Hopkins—3.2 million global cases, 700,000 just in the US—are a reminder that it's far from over.",
+        "tts_text": "But then the numbers from Johns Hopkinsminus three point two million global cases, seven hundred thousand just in the U S-are a reminder that it's far from over.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "There have now been more than 30.2 million global cases of coronavirus, with around 6.7 million in the United States alone, according to data from Johns Hopkins University.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Yeah, the death tolls are sobering too, even if lower than some feared.",
+        "tts_text": "Yeah, the death tolls are sobering too, even if lower than some feared.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostA",
+        "text": "So investors are kinda caught between optimism from firms like Goldman and these underlying uncertainties.",
+        "tts_text": "So investors are kinda caught between optimism from firms like Goldman and these underlying uncertainties.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostB",
+        "text": "It feels like everyone's trying to balance hope with realism right now.",
+        "tts_text": "It feels like everyone's trying to balance hope with realism right now.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      }
+    ]
+  },
+  "generator_model": "DeepSeek-V3.1",
+  "batch_index": 2,
+  "artist_script": "On a quiet Monday morning, a new report from Goldman Sachs hits the wires.\nHostA: Goldman Sachs is making a pretty bold prediction here—they're saying the US is unlikely to face a second wave of coronavirus.\nHostB: Yeah, and they’re pointing to the Northeast as an example, where reopening has happened and there's been little effect so far.\nHostA: Right, they mention that the best-case scenario could bring cases down to around six per million people per day in recent hot spots.\nHostB: Which, you know, if that holds, it would really help the economy keep opening up—schools, offices, all that.\nHostA: But then there’s this note of caution too—they mention that hospitals are at capacity in some places, and a younger group is getting infected now.\nHostB: Mhm, and they also point out that in some regions, less than 1% of people have had the virus, so susceptibility is still really high.\nHostA: So even though Goldman’s overall tone is optimistic, they’re not ignoring those risk factors.\nHostB: Exactly. And then there’s that contrast with Bernstein, who are predicting stocks will hit new lows by the end of the year.\nHostA: It’s interesting how different firms can look at similar data and draw such different conclusions.\nHostB: For sure. And you’ve got the WHO saying the US is in a very stable situation, while other places like Spain are seeing decreases.\nHostA: But then the numbers from Johns Hopkins—3.2 million global cases, 700,000 just in the US—are a reminder that it’s far from over.\nHostB: Yeah, the death tolls are sobering too, even if lower than some feared.\nHostA: So investors are kinda caught between optimism from firms like Goldman and these underlying uncertainties.\nHostB: It feels like everyone’s trying to balance hope with realism right now."
+}

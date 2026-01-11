@@ -1,0 +1,157 @@
+{
+  "id": 11878,
+  "language": "english",
+  "hallucination": "no",
+  "ground_truth_source": "text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "A skeptical host is being informed by their co-host about a serious weather report, creating a slightly contentious and sarcastic dynamic."
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "Wait, 'wind gusts reaching 23-28 meters per second'?' Uh, what?",
+        "tts_text": "Wait, 'wind gusts reaching twenty three to twenty eight meters per second'?' Uh, what?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, that's for Petropavlovsk, right? It's, like, a serious storm warning.",
+        "tts_text": "Yeah, that's for Petropavlovsk, right? It's, like, a serious storm warning.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "In Petropavlovsk, rain is expected on March 17, with ice and fog. Wind gusts will reach 23-28 meters per second.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Serious for who? That's, what, like, hurricane force in meters per second land?",
+        "tts_text": "Serious for who? That's, what, like, hurricane force in meters per second land?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Well, it's pretty extreme for March 17th. And not just there.",
+        "tts_text": "Well, it's pretty extreme for March seventeenth. And not just there.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Oh, I know. I read the whole… riveting… report. Fog here, ice there. Riveting.",
+        "tts_text": "Oh, I know. I read the whole... riveting... report. Fog here, ice there. Riveting.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "No, but seriously, think about the impact. Ice, rain, and those winds? In, like, multiple regions.",
+        "tts_text": "No, but seriously, think about the impact. Ice, rain, and those winds? In, like, multiple regions.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "So, Kazakhstan has bad weather. Groundbreaking.",
+        "tts_text": "So, Kazakhstan has bad weather. Groundbreaking.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "But it's widespread! Kostanay, Uralsk, Ust-Kamenogorsk... and Kokshetau has rain and ice too.",
+        "tts_text": "But it's widespread! Kostanay, Uralsk, Ust-Kamenogorsk... and Kokshetau has rain and ice too.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "In Kokshetau, rain and ice are expected, with southwest wind gusting at 15-20 meters per second.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "I just… I don't know, B. Is this really the news we need to be talking about?",
+        "tts_text": "I just... I don't know, B. Is this really the news we need to be talking about?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Um, well, it affects, you know, transportation, safety. People's day-to-day lives.",
+        "tts_text": "Um, well, it affects, you know, transportation, safety. People's day-to-day lives.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yeah, people's day-to-day lives that involve, like, a lot of fog and ice. Sounds... fun.",
+        "tts_text": "Yeah, people's day-to-day lives that involve, like, a lot of fog and ice. Sounds... fun.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "And a dust storm is expected in Aktau and Petropavlovsk. A dust storm on top of ice and fog elsewhere.",
+        "tts_text": "And a dust storm is expected in Aktau and Petropavlovsk. A dust storm on top of ice and fog elsewhere.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "In Aktau, a dust storm is expected during the day, with wind gusts reaching 15-20 meters per second. ... In Petropavlovsk, rain is expected on March 17, with ice and fog.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Okay, so it’s an interesting mix. Still, it's just, uh, weather.",
+        "tts_text": "Okay, so it's an interesting mix. Still, it's just, uh, weather.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "It's more than just weather, A! It's a huge disruption, widespread warnings. This isn't just a light drizzle.",
+        "tts_text": "It's more than just weather, A! It's a huge disruption, widespread warnings. This isn't just a light drizzle.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yeah, I guess. I just thought, you know, we had bigger fish to fry than a detailed breakdown of Kazakh meteorology.",
+        "tts_text": "Yeah, I guess. I just thought, you know, we had bigger fish to fry than a detailed breakdown of Kazakh meteorology.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "But this is important! It highlights, like, regional climate patterns, preparedness.",
+        "tts_text": "But this is important! It highlights, like, regional climate patterns, preparedness.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Or just how much stuff they can fit into one weather report. It's truly impressive.",
+        "tts_text": "Or just how much stuff they can fit into one weather report. It's truly impressive.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  },
+  "batch_index": 3
+}

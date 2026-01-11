@@ -1,0 +1,133 @@
+{
+  "id": 6406,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Podcast co-hosts",
+      "inferred_vibe": "Casual and informative conversation"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Narrator",
+        "text": "Fine desert morning at the Blue Origin launch site in eastern Arizona.",
+        "tts_text": "Fine desert morning at the Blue Origin launch site in eastern Arizona.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The video shows him walking towards a reusable Blue Origin rocket called New Shepard, presumably at the companys launch site in West Texas.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Jeff Bezos, dressed in full camo and a Stetson, looking like a Texas ranger, not the world's richest man.",
+        "tts_text": "Jeff Bezos, dressed in full camo and a Stetson, looking like a Texas ranger, not the world's richest man.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Dressed in a camo parka, cowboy hat and aviators, Bezos looked less like the richest man in the world (now worth $109 billion) and more like a Texas ranger.",
+        "confidence": 0.9,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Right? And he's standing next to that New Shepherd rocket—the one that's flown to space and back seven times now.",
+        "tts_text": "Right? And he's standing next to that New Shepherd rocket-the one that's flown to space and back seven times now.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "[T]his vehicle has now flown to space & back six times making this a new milestone, Bezos tweeted.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Yeah, which is a huge milestone for reusability. And this mission, uh, didn't have people on board, but it carried thousands of kids' postcards.",
+        "tts_text": "Yeah, which is a huge milestone for reusability. And this mission, uh, didn't have people on board, but it carried thousands of kids' postcards.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "While there were no humans onboard on its most recent mission, the rocket did carry thousands of postcards that children had written as part of the Space Mail campaign from Club For The Future, a nonprofit funded by Blue Origin.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Oh, from that Club For Tomorrow nonprofit he funds. It's all about getting students and teachers involved in space exploration.",
+        "tts_text": "Oh, from that Club For Tomorrow nonprofit he funds. It's all about getting students and teachers involved in space exploration.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The rocket did carry thousands of postcards that children had written as part of the Space Mail campaign from Club For The Future, a nonprofit funded by Blue Origin.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Exactly. And the postcards get sent back to the kids with a special Blue Origin stamp after they've been to space.",
+        "tts_text": "Exactly. And the postcards get sent back to the kids with a special Blue Origin stamp after they've been to space.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The postcards will be sent back to the children after their voyage to spacewith a Blue Origin stamp newly affixed.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "He even stamps a few himself in the video. You hear him say, \"Alright, that's a success, everyone!\" like he's really proud of it.",
+        "tts_text": "He even stamps a few himself in the video. You hear him say, Alright, that's a success, everyone! like he's really proud of it.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Bezos is shown stamping a few of the postcards in the video. Alright, thats a success guys. Thats beautiful, Bezos says in the video.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "It's all part of testing the vehicle for human spaceflight eventually. They're really focusing on safety and reliability with these flights.",
+        "tts_text": "It's all part of testing the vehicle for human spaceflight eventually. They're really focusing on safety and reliability with these flights.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "This mission was another step towards verifying New Shepard for human spaceflight as we continue to mature the safety and reliability of the vehicle, the company said in a statement.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Which makes sense—you don't wanna cut corners when people's lives are on the line.",
+        "tts_text": "Which makes sense-you don't wanna cut corners when people's lives are on the line.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostA",
+        "text": "Absolutely. And you know, even though it's a test, involving kids through something like Space Mail is pretty clever PR.",
+        "tts_text": "Absolutely. And you know, even though it's a test, involving kids through something like Space Mail is pretty clever P R.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostB",
+        "text": "For sure. Gets the public excited, builds that next generation of interest.",
+        "tts_text": "For sure. Gets the public excited, builds that next generation of interest.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostA",
+        "text": "And honestly, sending postcards to space? That's just cool.",
+        "tts_text": "And honestly, sending postcards to space? That's just cool.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      }
+    ]
+  },
+  "generator_model": "DeepSeek-V3.1",
+  "batch_index": 2,
+  "artist_script": "Fine desert morning at the Blue Origin launch site in eastern Arizona.\nHostA: Jeff Bezos, dressed in full camo and a Stetson, looking like a Texas ranger, not the world's richest man.\nHostB: Right? And he’s standing next to that New Shepherd rocket—the one that’s flown to space and back seven times now.\nHostA: Yeah, which is a huge milestone for reusability. And this mission, uh, didn’t have people on board, but it carried thousands of kids' postcards.\nHostB: Oh, from that Club For Tomorrow nonprofit he funds. It’s all about getting students and teachers involved in space exploration.\nHostA: Exactly. And the postcards get sent back to the kids with a special Blue Origin stamp after they’ve been to space.\nHostB: He even stamps a few himself in the video. You hear him say, \"Alright, that's a success, everyone!\" like he’s really proud of it.\nHostA: It’s all part of testing the vehicle for human spaceflight eventually. They’re really focusing on safety and reliability with these flights.\nHostB: Which makes sense—you don’t wanna cut corners when people’s lives are on the line.\nHostA: Absolutely. And you know, even though it’s a test, involving kids through something like Space Mail is pretty clever PR.\nHostB: For sure. Gets the public excited, builds that next generation of interest.\nHostA: And honestly, sending postcards to space? That’s just cool."
+}

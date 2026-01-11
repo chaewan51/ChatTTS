@@ -1,0 +1,171 @@
+{
+  "id": 6776,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Skeptical discussion"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "Four and a half million passengers, B. Four point five million. Are you kidding me?",
+        "tts_text": "Four and a half million passengers, B. Four point five million. Are you kidding me?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Indias flagship airline Air India announced last month it was hit by a huge cyberattack, affecting as many as 4.5 million passengers.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, A, I mean, that's what Air India disclosed last month. It's, uh, a pretty massive breach.",
+        "tts_text": "Yeah, A, I mean, that's what Air India disclosed last month. It's, uh, a pretty massive breach.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Indias flagship airline Air India announced last month it was hit by a huge cyberattack, affecting as many as 4.5 million passengers.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "And, uh, so some firm, Group-IB, is saying it was \"likely\" a Chinese government-backed group, APT41? \"Moderate confidence,\" they said? Come on.",
+        "tts_text": "And, uh, so some firm, Group-I B, is saying it was likely a Chinese government-backed group, APT41? Moderate confidence, they said? Come on.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "But a cybersecurity company is now claiming, with moderate confidence, that a prolific Chinese government-sponsored espionage and cybercriminal group known as APT41 was to blame for the Air India breach. It could be part of a wider campaign to snoop on the airline industry, according to Singapore-based Group-IB, which showed Forbes its findings on Thursday ahead of publication.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Well, they've got, like, some evidence. They found, um, a command and control server, used in the attack, and an SSL certificate. That certificate was on just six servers.",
+        "tts_text": "Well, they've got, like, some evidence. They found, um, a command and control server, used in the attack, and an S S L certificate. That certificate was on just six servers.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Group-IB researchers found the attacker was using a certificate to validate its web traffic (known as an SSL certificate), and that the certificate was only detected on five servers.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Six servers? And?",
+        "tts_text": "Six servers? And?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "One of the IP addresses linked to those servers, um, Microsoft had previously connected it to APT41.",
+        "tts_text": "One of the I P addresses linked to those servers, um, Microsoft had previously connected it to APT41.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "One of the IP addresses of those servers had been previously identified by Microsoft as one used by APT41.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Microsoft linked it, previously? So, what, this is just old news repackaged? Where's the independent confirmation?",
+        "tts_text": "Microsoft linked it, previously? So, what, this is just old news repackaged? Where's the independent confirmation?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Forbes actually said they couldn't independently confirm it. But, uh, another expert, Don Smith from SecureWorks, he said the report looked like it originated in China and was consistent with APT41.",
+        "tts_text": "Forbes actually said they couldn't independently confirm it. But, uh, another expert, Don Smith from SecureWorks, he said the report looked like it originated in China and was consistent with APT41.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Forbes wasnt able to independently verify Group-IBs findings... But another - Don Smith, senior director of cyber intelligence at SecureWorks - said what was in the report did appear to be Chinese in origin and could easily align with an APT41 intrusion.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "\"Consistent.\" So, still no smoking gun, then, just a bunch of dots they're hoping we connect for them?",
+        "tts_text": "Consistent. So, still no smoking gun, then, just a bunch of dots they're hoping we connect for them?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "No, it's more than that. They're also suggesting it's part of a wider campaign, possibly linked to the SITA breach, you know, the IT supplier for the airline industry?",
+        "tts_text": "No, it's more than that. They're also suggesting it's part of a wider campaign, possibly linked to the S I T A breach, you know, the I T supplier for the airline industry?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Group-IB suspects that the Air India hack is linked to a wider attack on the airline industry, one that started with the breach of SITA, an IT supplier for the industry.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "SITA? So now it's not just Air India, it's, like, the whole airline sector?",
+        "tts_text": "S I T A? So now it's not just Air India, it's, like, the whole airline sector?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Potentially, yeah. Singapore Airlines, Finnair, some other carriers also had leaks after the SITA hack. But Group-IB says they have, uh, \"insufficient evidence\" right now to confirm a widespread supply chain compromise.",
+        "tts_text": "Potentially, yeah. Singapore Airlines, Finnair, some other carriers also had leaks after the S I T A hack. But Group-I B says they have, uh, insufficient evidence right now to confirm a widespread supply chain compromise.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Despite the indicators from the Air India hackand though there have been breaches at other airlines following the SITA hack, leading to data leaks from Singapore Airlines and Finnair (amongst others)Group-IB told Forbes it doesnt yet have enough evidence to confirm a large-scale supply chain compromise.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "\"Insufficient evidence.\" That's their favorite phrase, isn't it? So they're kinda just throwing out theories without fully backing them up.",
+        "tts_text": "Insufficient evidence. That's their favorite phrase, isn't it? So they're kinda just throwing out theories without fully backing them up.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Look, APT41, they're not some small-time group. They've been active for 16 years, like, doing espionage and cybercrime for financial gain. They're on the FBI's Most Wanted list.",
+        "tts_text": "Look, APT41, they're not some small-time group. They've been active for sixteen years, like, doing espionage and cybercrime for financial gain. They're on the F B I's Most Wanted list.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "APT41 has been active for the last 15 years, carrying out espionage operations and financially-motivated cybercrime, said Group-IB chief technology officer Dmitry Volkov.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Sixteen years? And only now are we hearing about them in this context with, uh, \"moderate confidence\" claims? It just feels a bit too neat.",
+        "tts_text": "Sixteen years? And only now are we hearing about them in this context with, uh, moderate confidence claims? It just feels a bit too neat.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "They're a very prolific threat actor, A. They're still extremely active. It's, um, a serious group.",
+        "tts_text": "They're a very prolific threat actor, A. They're still extremely active. It's, um, a serious group.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "APT41 is a very prolific threat actor which remains extremely active up until now, Volkov added.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yeah, but connecting all these dots, especially with the \"moderate confidence\" disclaimer every five seconds? I don't know, B. I'm just not buying it yet.",
+        "tts_text": "Yeah, but connecting all these dots, especially with the moderate confidence disclaimer every five seconds? I don't know, B. I'm just not buying it yet.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  },
+  "batch_index": 3
+}

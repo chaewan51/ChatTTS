@@ -1,0 +1,167 @@
+{
+  "id": 7234,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Sensationalist / Speculative"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "Eighty percent? Eighty percent, Host_B, pre-market? That's, uh... that's insane, isn't it?",
+        "tts_text": "Eighty percent? Eighty percent, Host_B, pre-market? That's, uh... that's insane, isn't it?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The stock was down less than 1% in after-hours trading following the WSJ story.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "It is, yeah. The FBI, um, they've formally indicted Tesla and Elon Musk for multiple counts of securities fraud and, like, conspiracy to defraud investors.",
+        "tts_text": "It is, yeah. The F B I, um, they've formally indicted Tesla and Elon Musk for multiple counts of securities fraud and, like, conspiracy to defraud investors.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The Federal Bureau of Investigation is reviewing public statements by the Palo Alto, California-based company... We have not received a subpoena, a request for testimony, or any other formal process, and there have been no additional document requests about this from the Department of Justice for months.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Securities fraud? Seriously? I mean, wasn't there already that whole SEC thing, you know, with his tweets? Is this just, uh, a rehash?",
+        "tts_text": "Securities fraud? Seriously? I mean, wasn't there already that whole S E C thing, you know, with his tweets? Is this just, uh, a rehash?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Musk and Tesla settled a dispute with the Securities and Exchange Commission stemming from his tweets in August about taking Tesla private, the report said.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "No, no, this is bigger. This is about Model 3 production. They're alleging systematic deception, Host_A, about production capabilities. Like, they claimed 5,000 cars a week by late 2017.",
+        "tts_text": "No, no, this is bigger. This is about Model three production. They're alleging systematic deception, Host_A, about production capabilities. Like, they claimed five thousand cars a week by late twenty seventeen.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Musk had said early last year that production of Model 3, currently priced from $46,000, would reach 5,000 units per week in 2017s fourth quarter, and reiterated that target in July 2017 after production of it began in Fremont, California.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "And? Targets are always, uh, ambitious, aren't they? Companies always overstate a bit. Who doesn't?",
+        "tts_text": "And? Targets are always, uh, ambitious, aren't they? Companies always overstate a bit. Who doesn't?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "But the FBI says internal documents show Musk knew it was unattainable. Actual capacity was capped at 800 units, even with the plant flat out. They had falsified sales figures, manipulated factory data.",
+        "tts_text": "But the F B I says internal documents show Musk knew it was unattainable. Actual capacity was capped at eight hundred units, even with the plant flat out. They had falsified sales figures, manipulated factory data.",
+        "check_worthy": true,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Manipulated data? That's a strong claim. But, you know, data can be interpreted in a lot of ways. What about those, um, safety defects you mentioned?",
+        "tts_text": "Manipulated data? That's a strong claim. But, you know, data can be interpreted in a lot of ways. What about those, um, safety defects you mentioned?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, the investigation escalated after whistleblowers reported they were secretly buying defective parts from a bankrupt Chinese supplier to meet quotas. Leading to dangerous flaws.",
+        "tts_text": "Yeah, the investigation escalated after whistleblowers reported they were secretly buying defective parts from a bankrupt Chinese supplier to meet quotas. Leading to dangerous flaws.",
+        "check_worthy": true,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "A bankrupt Chinese supplier? That sounds, like, a bit too convenient for a narrative, doesn't it? Whistleblowers can have, uh, agendas.",
+        "tts_text": "A bankrupt Chinese supplier? That sounds, like, a bit too convenient for a narrative, doesn't it? Whistleblowers can have, uh, agendas.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "But these claims include executives allegedly ordering the destruction of internal reports and intimidating employees who raised concerns. That's, um, hard to spin.",
+        "tts_text": "But these claims include executives allegedly ordering the destruction of internal reports and intimidating employees who raised concerns. That's, um, hard to spin.",
+        "check_worthy": true,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Musk, though, he just dismissed it as a witch hunt, right? Said the FBI's collaborating with short-sellers. That sounds more like it to me.",
+        "tts_text": "Musk, though, he just dismissed it as a witch hunt, right? Said the F B I's collaborating with short-sellers. That sounds more like it to me.",
+        "check_worthy": true,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "He did, but the SEC settlement about his 'taking Tesla private' tweets? That's being re-evaluated now. They think those tweets were part of a much larger, um, long-term scheme of price manipulation.",
+        "tts_text": "He did, but the S E C settlement about his 'taking Tesla private' tweets? That's being re-evaluated now. They think those tweets were part of a much larger, um, long-term scheme of price manipulation.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The pace of activity in the investigation, which is led by the U.S. attorneys office in San Francisco, intensified after Musk and Tesla settled a dispute with the Securities and Exchange Commission stemming from his tweets in August about taking Tesla private, the report said.",
+        "confidence": 0.9,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Price manipulation? And what, they're talking about, like, asset seizure and prison for Musk? For tweets and production numbers? That's, uh, pretty extreme, don't you think?",
+        "tts_text": "Price manipulation? And what, they're talking about, like, asset seizure and prison for Musk? For tweets and production numbers? That's, uh, pretty extreme, don't you think?",
+        "check_worthy": true,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "It's for the alleged systematic deception, Host_A. For dangerous flaws, for lying to investors. Analysts are predicting bankruptcy within weeks. Tesla's HQ is surrounded by angry investors.",
+        "tts_text": "It's for the alleged systematic deception, Host_A. For dangerous flaws, for lying to investors. Analysts are predicting bankruptcy within weeks. Tesla's H Q is surrounded by angry investors.",
+        "check_worthy": true,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Bankruptcy, though? Tesla? They, uh, they always bounce back. This feels like a lot of, you know, hyperbole.",
+        "tts_text": "Bankruptcy, though? Tesla? They, uh, they always bounce back. This feels like a lot of, you know, hyperbole.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Maybe. But 80% down in pre-market, Host_A. That's, uh, that's not just hyperbole for a lot of people's investments.",
+        "tts_text": "Maybe. But eighty percent down in pre-market, Host_A. That's, uh, that's not just hyperbole for a lot of people's investments.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The stock was down less than 1% in after-hours trading following the WSJ story.",
+        "confidence": 1.0,
+        "priority": "high"
+      }
+    ]
+  },
+  "batch_index": 3
+}

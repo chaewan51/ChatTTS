@@ -1,0 +1,177 @@
+{
+  "id": 11779,
+  "language": "english",
+  "hallucination": "no",
+  "ground_truth_source": "text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Podcast co-hosts",
+      "inferred_vibe": "Informative and conversational"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "So, Russia's, like, revoking IINs from Kazakh citizens, right? Wild stuff.",
+        "tts_text": "So, Russia's, like, revoking IINs from Kazakh citizens, right? Wild stuff.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Reports have emerged on Kazakhstani social media that Russian citizens who obtained Individual Identification Numbers in violation of Kazakhstani law are having their IINs revoked.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Uh, actually, A, it's the other way around, and it's not exactly \"revoking.\"",
+        "tts_text": "Uh, actually, A, it's the other way around, and it's not exactly revoking.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Russian citizens who obtained Individual Identification Numbers in violation of Kazakhstani law are having their IINs revoked. The Migration Service Committee of the Ministry of Internal Affairs has confirmed this information, albeit with clarification. According to Aslan Atalykov, Chairman of the Migration Service Committee, the IINs are not being revoked but rather annulled.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Oh. Okay, sorry. So, Kazakhstan is revoking them?",
+        "tts_text": "Oh. Okay, sorry. So, Kazakhstan is revoking them?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Well, not \"revoking,\" more like \"annulling.\" That's a key distinction, apparently.",
+        "tts_text": "Well, not revoking, more like annulling. That's a key distinction, apparently.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "According to Aslan Atalykov, Chairman of the Migration Service Committee, the IINs are not being revoked but rather annulled.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Annulling? What's the, like, difference there?",
+        "tts_text": "Annulling? What's the, like, difference there?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah. According to the Migration Service Committee, these IINs are being annulled because they were issued improperly. Procedural violations.",
+        "tts_text": "Yeah. According to the Migration Service Committee, these IINs are being annulled because they were issued improperly. Procedural violations.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "We have annulled the IINs of individuals who obtained them in violation of procedures.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Violations? So, like, people weren't supposed to get them in the first place?",
+        "tts_text": "Violations? So, like, people weren't supposed to get them in the first place?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Exactly. Aslan Atalykov, the chairman, he confirmed it. They're investigating how these IINs were given out.",
+        "tts_text": "Exactly. Aslan Atalykov, the chairman, he confirmed it. They're investigating how these IINs were given out.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "According to Aslan Atalykov, Chairman of the Migration Service Committee, the IINs are not being revoked but rather annulled. He confirmed that violations were detected in the process of issuing IINs to some foreign citizens, and these cases are currently under investigation.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Hmm. So what kind of, uh, violations are we talking about here?",
+        "tts_text": "Hmm. So what kind of, uh, violations are we talking about here?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Apparently, a second-tier bank was involved. They were issuing IINs remotely. Which, you know, is illegal.",
+        "tts_text": "Apparently, a second-tier bank was involved. They were issuing IINs remotely. Which, you know, is illegal.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Reports on social media indicate that a second-tier bank was allegedly involved in remotely issuing IINs, despite the fact that obtaining an IIN requires the applicant's physical presence, making remote issuance illegal.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Remotely? But don't you have to be, like, physically present for that?",
+        "tts_text": "Remotely? But don't you have to be, like, physically present for that?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "You do. So that's the big no-no. They've found over ten such cases so far.",
+        "tts_text": "You do. So that's the big no-no. They've found over ten such cases so far.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "obtaining an IIN requires the applicant's physical presence, making remote issuance illegal. Atalykov did not name the bank but mentioned that over 10 such cases have been identified in Kazakhstan.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Over ten? Is this, like, a massive thing then, or just a few bad apples?",
+        "tts_text": "Over ten? Is this, like, a massive thing then, or just a few bad apples?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Atalykov said they're still verifying the facts. Can't say if it's widespread yet.",
+        "tts_text": "Atalykov said they're still verifying the facts. Can't say if it's widespread yet.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "\"The facts are still being verified. We cannot name specific individuals involved at this stage, as the investigation is ongoing,\" Atalykov replied.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "So it's not, like, a punishment for, um, Russians, just correcting mistakes?",
+        "tts_text": "So it's not, like, a punishment for, um, Russians, just correcting mistakes?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Pretty much. It's about procedural violations during issuance. Or if someone, like, no longer lives there.",
+        "tts_text": "Pretty much. It's about procedural violations during issuance. Or if someone, like, no longer lives there.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "He added that under Kazakhstani law, an IIN may be annulled upon the request of an authorized body if procedural violations occurred during its issuance or if the foreign recipient no longer resides in Kazakhstan.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Wow. Okay, that makes more sense than just, uh, outright revocation.",
+        "tts_text": "Wow. Okay, that makes more sense than just, uh, outright revocation.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, it's a nuance that really matters here.",
+        "tts_text": "Yeah, it's a nuance that really matters here.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  },
+  "batch_index": 3
+}

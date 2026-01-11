@@ -1,0 +1,134 @@
+{
+  "id": 11604,
+  "language": "english",
+  "hallucination": "no",
+  "ground_truth_source": "text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Informative discussion"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "HostA",
+        "text": "Senate deputy Suindik Aldashev is pointing to a 237,000 ton aviation fuel deficit right now in Kazakhstan.",
+        "tts_text": "Senate deputy Suindik Aldashev is pointing to a two hundred thirty seven thousand ton aviation fuel deficit right now in Kazakhstan.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "He stated that the current deficit is around 237,000 tons, and this figure is expected to grow to 550,000 tons by 2030.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Yeah, and he's saying that's expected to almost double by 2030, which is uh, pretty alarming for the aviation sector there.",
+        "tts_text": "Yeah, and he's saying that's expected to almost double by twenty thirty, which is uh, pretty alarming for the aviation sector there.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "He stated that the current deficit is around 237,000 tons, and this figure is expected to grow to 550,000 tons by 2030.",
+        "confidence": 0.9,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Exactly. And the thing is, it's not just about production—the refineries can't meet demand, so they're relying on imports.",
+        "tts_text": "Exactly. And the thing is, it's not just about production-the refineries can't meet demand, so they're relying on imports.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "According to Aldashev, the country's oil refineries are unable to meet growing demand, forcing Kazakhstan to rely on imported fuel.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "But then you've got this closed market situation. He mentioned some airports actually profit from fuel sales and block competition.",
+        "tts_text": "But then you've got this closed market situation. He mentioned some airports actually profit from fuel sales and block competition.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "He also noted that profits from aviation fuel sales make up a significant portion of income for certain airports. There are airports that are not interested in allowing other players access to fuel infrastructure.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Right, which keeps prices high. Fuel makes up, what, like 36.5 percent of an airline ticket's cost?",
+        "tts_text": "Right, which keeps prices high. Fuel makes up, what, like thirty six point five percent of an airline ticket's cost?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Fuel makes up 36.5 percent of the ticket price, aircraft maintenance accounts for 14.9 percent, airport services 10.7 percent, and passenger services 6.1 percent.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Yeah, and when you add maintenance and airport fees, it's no wonder fares are so expensive for people.",
+        "tts_text": "Yeah, and when you add maintenance and airport fees, it's no wonder fares are so expensive for people.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostA",
+        "text": "And half the airports need urgent reconstruction? That's a huge infrastructure issue on top of everything.",
+        "tts_text": "And half the airports need urgent reconstruction? That's a huge infrastructure issue on top of everything.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Their infrastructure is worn out, equipment is outdated, and half of the country's airports require urgent reconstruction, Aldashev stated.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "It sounds like there's no real planning or unified strategy from the government to handle any of this.",
+        "tts_text": "It sounds like there's no real planning or unified strategy from the government to handle any of this.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Unfortunately, there is currently no transparent mechanism for fuel sales and price formation, nor is there a unified government approach to regulating the issue. There is also a lack of systematic planning in airport development.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "So his proposal is about increasing domestic refinery output and creating a transparent system for fuel supply.",
+        "tts_text": "So his proposal is about increasing domestic refinery output and creating a transparent system for fuel supply.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "To address the issue, the senator proposed developing an efficient and optimal management model for Kazakhstan's civil aviation sector, increasing production at domestic oil refineries, and establishing a unified and systematic approach to ensuring airlines are supplied with aviation fuel.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Plus getting airports to focus on their core jobs and attract more investment into the sector. It's a full overhaul.",
+        "tts_text": "Plus getting airports to focus on their core jobs and attract more investment into the sector. It's a full overhaul.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Airports need to focus on their core operations and eliminate non-core activities. Efforts should be made to boost the investment appeal of the sector and create optimal mechanisms for attracting investors, he concluded.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "But with local budgets funding loss-making airports, it's gonna be a tough shift without serious policy changes.",
+        "tts_text": "But with local budgets funding loss-making airports, it's gonna be a tough shift without serious policy changes.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Many airports are funded by local budgets and operate at a loss.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "For sure. It's all connected—fuel, infrastructure, regulation…",
+        "tts_text": "For sure. It's all connected-fuel, infrastructure, regulation...",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      }
+    ]
+  },
+  "generator_model": "DeepSeek-V3.1",
+  "batch_index": 2
+}

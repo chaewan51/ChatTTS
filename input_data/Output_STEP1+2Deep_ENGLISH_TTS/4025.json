@@ -1,0 +1,197 @@
+{
+  "id": 4025,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Podcast co-hosts",
+      "inferred_vibe": "Informal and conversational"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "HostA",
+        "text": "The AWaRe tool from the CDC is really shifting how we think about antibiotic use.",
+        "tts_text": "The AWaRe tool from the C D C is really shifting how we think about antibiotic use.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The AWaRe tool was developed by the WHO Essential Medicines List to contain rising resistance and make antibiotic use safer and more effective.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Yeah, it's uh, categorizing them into those three groups—Advanced, Consult, and Restricted.",
+        "tts_text": "Yeah, it's uh, categorizing them into those three groups-Advanced, Consult, and Restricted.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "It classifies antibiotics into three groups Access, Watch and Reserve and specifies which antibiotics to use for the most common and serious infections, which ones should be available at all times in the healthcare system, and those that must be used sparingly or preserved and used only as a last resort.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Right, and the goal is to limit Advanced antibiotics to under 30% of global consumption.",
+        "tts_text": "Right, and the goal is to limit Advanced antibiotics to under thirty percent of global consumption.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The new campaign aims to increase the proportion of global consumption of antibiotics in the Access group to at least 60%, and to reduce use of the antibiotics most at risk of resistance from the Watch and Reserve groups.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Which makes sense, because those are the ones that drive resistance, being broad-spectrum and all.",
+        "tts_text": "Which makes sense, because those are the ones that drive resistance, being broad-spectrum and all.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Using Access antibiotics lowers the risk of resistance because they are narrow-spectrum antibiotics (that target a specific microorganism rather than several).",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "And they're usually brand-name only, so more expensive too.",
+        "tts_text": "And they're usually brand-name only, so more expensive too.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "They are also less costly because they are available in generic formulations.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Dr. Fauci actually called antimicrobial resistance a manageable health risk, didn't he?",
+        "tts_text": "Dr. Fauci actually called antimicrobial resistance a manageable health risk, didn't he?",
+        "check_worthy": true,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "He did, but it's interesting—some experts argue we should actually decrease access to certain antibiotics.",
+        "tts_text": "He did, but it's interesting-some experts argue we should actually decrease access to certain antibiotics.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "All countries must strike a balance between ensuring access to life-saving antibiotics and slowing drug resistance by reserving the use of some antibiotics for the hardest-to-treat infections.",
+        "confidence": 0.9,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Yeah, like encouraging the use of ones in the Consult and Restricted groups, even though they're higher risk for resistance.",
+        "tts_text": "Yeah, like encouraging the use of ones in the Consult and Restricted groups, even though they're higher risk for resistance.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The new campaign aims to increase the proportion of global consumption of antibiotics in the Access group to at least 60%, and to reduce use of the antibiotics most at risk of resistance from the Watch and Reserve groups.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "But then you have reports saying less than 10% of antibiotics are used appropriately in some countries.",
+        "tts_text": "But then you have reports saying less than ten percent of antibiotics are used appropriately in some countries.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Currently, it is estimated that more than 50% of antibiotics in many countries are used inappropriately such as for treatment of viruses when they only treat bacterial infections or use of the wrong (broader spectrum) antibiotic, thus contributing to the spread of antimicrobial resistance.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Which is wild, especially when you think about bacteria like Staphylococcus aureus becoming less common.",
+        "tts_text": "Which is wild, especially when you think about bacteria like Staphylococcus aureus becoming less common.",
+        "check_worthy": true,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Right, and those usually cause things like skin infections, not always life-threatening.",
+        "tts_text": "Right, and those usually cause things like skin infections, not always life-threatening.",
+        "check_worthy": true,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "So when antibiotics work well, it actually reduces costs—fewer hospital stays, cheaper treatments.",
+        "tts_text": "So when antibiotics work well, it actually reduces costs-fewer hospital stays, cheaper treatments.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "When antibiotics stop working effectively, more expensive treatments and hospital admissions are needed, taking a heavy toll on already stretched health budgets.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "But then high-income countries often have way too much access to effective antibiotics anyway.",
+        "tts_text": "But then high-income countries often have way too much access to effective antibiotics anyway.",
+        "check_worthy": true,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.8,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "And childhood pneumonia deaths are already really low, so it's a tricky balance.",
+        "tts_text": "And childhood pneumonia deaths are already really low, so it's a tricky balance.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Childhood deaths due to pneumonia (estimated globally at close to one million per year) because of lack of access to antibiotics remain frequent in many parts of the world.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Dr. Deborah Birx mentioned that combating resistance requires preservation and no access, which sounds intense.",
+        "tts_text": "Dr. Deborah Birx mentioned that combating resistance requires preservation and no access, which sounds intense.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Tackling antimicrobial resistance requires a careful balance between access and preservation, said Dr Hanan Balkhy, WHO Assistant-Director General for antimicrobial resistance.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Yeah, the AWaRe tool kinda guides policy to restrict treatment in some cases, which is controversial.",
+        "tts_text": "Yeah, the AWaRe tool kinda guides policy to restrict treatment in some cases, which is controversial.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The AWaRe tool can guide policy to ensure patients keep being treated, while also limiting use of the antibiotics most at risk of resistance.",
+        "confidence": 0.9,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Especially since there aren't major new investments in vaccines right now.",
+        "tts_text": "Especially since there aren't major new investments in vaccines right now.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "In the absence of new significant investments into the development of new antibiotics, improving the use of antibiotics is one of the key actions needed to curb further emergence and spread of antimicrobial resistance.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "So reducing antibiotic use is one of the few tools we have, even if it makes prescribing harder.",
+        "tts_text": "So reducing antibiotic use is one of the few tools we have, even if it makes prescribing harder.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "In the absence of new significant investments into the development of new antibiotics, improving the use of antibiotics is one of the key actions needed to curb further emergence and spread of antimicrobial resistance.",
+        "confidence": 1.0,
+        "priority": "high"
+      }
+    ]
+  },
+  "generator_model": "DeepSeek-V3.1",
+  "batch_index": 2,
+  "artist_script": "HostA: The AWaRe tool from the CDC is really shifting how we think about antibiotic use.\nHostB: Yeah, it’s uh, categorizing them into those three groups—Advanced, Consult, and Restricted.\nHostA: Right, and the goal is to limit Advanced antibiotics to under 30% of global consumption.\nHostB: Which makes sense, because those are the ones that drive resistance, being broad-spectrum and all.\nHostA: And they’re usually brand-name only, so more expensive too.\nHostB: Dr. Fauci actually called antimicrobial resistance a manageable health risk, didn’t he?\nHostA: He did, but it’s interesting—some experts argue we should actually decrease access to certain antibiotics.\nHostB: Yeah, like encouraging the use of ones in the Consult and Restricted groups, even though they’re higher risk for resistance.\nHostA: But then you have reports saying less than 10% of antibiotics are used appropriately in some countries.\nHostB: Which is wild, especially when you think about bacteria like Staphylococcus aureus becoming less common.\nHostA: Right, and those usually cause things like skin infections, not always life-threatening.\nHostB: So when antibiotics work well, it actually reduces costs—fewer hospital stays, cheaper treatments.\nHostA: But then high-income countries often have way too much access to effective antibiotics anyway.\nHostB: And childhood pneumonia deaths are already really low, so it’s a tricky balance.\nHostA: Dr. Deborah Birx mentioned that combating resistance requires preservation and no access, which sounds intense.\nHostB: Yeah, the AWaRe tool kinda guides policy to restrict treatment in some cases, which is controversial.\nHostA: Especially since there aren’t major new investments in vaccines right now.\nHostB: So reducing antibiotic use is one of the few tools we have, even if it makes prescribing harder."
+}

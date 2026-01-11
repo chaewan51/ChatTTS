@@ -1,0 +1,185 @@
+{
+  "id": 3999,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Podcast co-hosts",
+      "inferred_vibe": "Analytical and conversational, discussing economics and politics."
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Listener",
+        "text": "Hey, loved the last episode on economic history. I was wondering, what do you two make of the current pushback against globalization and the rise of populism? It feels like the 90s optimism is totally gone.",
+        "tts_text": "Hey, loved the last episode on economic history. I was wondering, what do you two make of the current pushback against globalization and the rise of populism? It feels like the 90s optimism is totally gone.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 1.0
+      },
+      {
+        "speaker": "HostA",
+        "text": "Francis Fukuyama's vision of a globally integrated world, um, really does stand in stark contrast to what we're seeing now, doesn't it?",
+        "tts_text": "Francis Fukuyama's vision of a globally integrated world, um, really does stand in stark contrast to what we're seeing now, doesn't it?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Today, as we face a retreat from the rules-based, liberal global order, with autocratic rulers and demagogues leading countries that contain well over half the worlds population, Fukuyamas idea seems quaint and naive.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Yeah, and it's wild that nearly half the world's population is now under some form of autocratic or populist rule. That's a huge shift.",
+        "tts_text": "Yeah, and it's wild that nearly half the world's population is now under some form of autocratic or populist rule. That's a huge shift.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Today, as we face a retreat from the rules-based, liberal global order, with autocratic rulers and demagogues leading countries that contain well over half the worlds population, Fukuyamas idea seems quaint and naive.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Right, and the text points out how this resurgence coincides with, uh, a renewed faith in Keynesian economics after 40-year dominance.",
+        "tts_text": "Right, and the text points out how this resurgence coincides with, uh, a renewed faith in Keynesian economics after forty-year dominance.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "But it reinforced the neoliberal economic doctrine that has prevailed for the last 40 years. The credibility of neoliberalisms faith in unfettered markets as the surest road to shared prosperity is on life-support these days.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Which is ironic because Keynesianism was supposed to strengthen democracy, not undermine it. But here we are.",
+        "tts_text": "Which is ironic because Keynesianism was supposed to strengthen democracy, not undermine it. But here we are.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The simultaneous waning of confidence in neoliberalism and in democracy is no coincidence or mere correlation. Neoliberalism has undermined democracy for 40 years.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Exactly. The author argues that capital-market deregulation gave ordinary voters this illusion of choice—like, accept Wall Street's terms or face economic consequences.",
+        "tts_text": "Exactly. The author argues that capital-market deregulation gave ordinary voters this illusion of choice-like, accept Wall Street's terms or face economic consequences.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The effects of capital-market liberalization were particularly odious: If a leading presidential candidate in an emerging market lost favor with Wall Street, the banks would pull their money out of the country. Voters then faced a stark choice: Give in to Wall Street or face a severe financial crisis.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "And that promise of shared prosperity just didn't materialize for most people. The wealth flowed up, not down.",
+        "tts_text": "And that promise of shared prosperity just didn't materialize for most people. The wealth flowed up, not down.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "As wages stagnated and the stock market soared, income and wealth flowed up, rather than trickling down.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Yeah, the text mentions that after 40 years, the data shows growth benefits went overwhelmingly to the top, not the bottom.",
+        "tts_text": "Yeah, the text mentions that after forty years, the data shows growth benefits went overwhelmingly to the top, not the bottom.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Well, after 40 years, the numbers are in: growth has slowed, and the fruits of that growth went overwhelmingly to a very few at the top.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "So people feel betrayed. They were told deregulation and light-touch policies would make everyone better off, but...",
+        "tts_text": "So people feel betrayed. They were told deregulation and light-touch policies would make everyone better off, but...",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Ordinary citizens felt like they had been sold a bill of goods. They were right to feel conned.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "But instead, trust in elites and economic science has cratered. And now we're dealing with the political fallout.",
+        "tts_text": "But instead, trust in elites and economic science has cratered. And now we're dealing with the political fallout.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "We are now experiencing the political consequences of this grand deception: distrust of the elites, of the economic science on which neoliberalism was based, and of the money-corrupted political system that made it all possible.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "It's interesting though—the author calls Keynesianism 'decidedly liberal,' but also compares it to a closed society, like what Karl Popper criticized.",
+        "tts_text": "It's interesting though-the author calls Keynesianism 'decidedly liberal,' but also compares it to a closed society, like what Karl Popper criticized.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The reality is that, despite its name, the era of neoliberalism was far from liberal. Neoliberalism bore little resemblance to the open society that Karl Popper had advocated.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Yeah, and they bring up George Soros and Popper's idea that the more we learn, the less we can predict or control complex systems.",
+        "tts_text": "Yeah, and they bring up George Soros and Popper's idea that the more we learn, the less we can predict or control complex systems.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "As George Soros has emphasized, Popper recognized that our society is a complex, ever-evolving system in which the more we learn, the more our knowledge changes the behavior of the system.",
+        "confidence": 0.9,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Which kinda explains why mainstream economics failed to see the 2008 crisis coming. They treated it like a freak event instead of a systemic flaw.",
+        "tts_text": "Which kinda explains why mainstream economics failed to see the two thousand eight crisis coming. They treated it like a freak event instead of a systemic flaw.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "When the impossible happened, it was treated as if it were a 500-year flood a freak occurrence that no model could have predicted.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "And even now, some refuse to admit that their emphasis on externalities and regulated markets might have fueled that boom.",
+        "tts_text": "And even now, some refuse to admit that their emphasis on externalities and regulated markets might have fueled that boom.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Even today, advocates of these theories refuse to accept that their belief in self-regulating markets and their dismissal of externalities as either nonexistent or unimportant led to the deregulation that was pivotal in fueling the crisis.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "The text gets pretty apocalyptic toward the end—saying Keynesianism could bring about civilizational collapse if we don't change course.",
+        "tts_text": "The text gets pretty apocalyptic toward the end-saying Keynesianism could bring about civilizational collapse if we don't change course.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "If the 2008 financial crisis failed to make us realize that unfettered markets dont work, the climate crisis certainly should: neoliberalism will literally bring an end to our civilization.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "It's a bold claim. They argue for a, uh, 'rebirth of history,' turning away from Enlightenment values toward... well, something else.",
+        "tts_text": "It's a bold claim. They argue for a, uh, 'rebirth of history,' turning away from Enlightenment values toward... well, something else.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The only way forward, the only way to save our planet and our civilization, is a rebirth of history. We must revitalize the Enlightenment and recommit to honoring its values of freedom, respect for knowledge, and democracy.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Definitely a provocative take. Makes you wonder what alternatives are even left on the table at this point.",
+        "tts_text": "Definitely a provocative take. Makes you wonder what alternatives are even left on the table at this point.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 1.0
+      }
+    ]
+  },
+  "generator_model": "DeepSeek-V3.1",
+  "batch_index": 2,
+  "artist_script": "Listener message: \"Hey, loved the last episode on economic history. I was wondering, what do you two make of the current pushback against globalization and the rise of populism? It feels like the 90s optimism is totally gone.\"\nHostA: Francis Fukuyama's vision of a globally integrated world, um, really does stand in stark contrast to what we're seeing now, doesn't it?\nHostB: Yeah, and it's wild that nearly half the world's population is now under some form of autocratic or populist rule. That’s a huge shift.\nHostA: Right, and the text points out how this resurgence coincides with, uh, a renewed faith in Keynesian economics after 40-year dominance.\nHostB: Which is ironic because Keynesianism was supposed to strengthen democracy, not undermine it. But here we are.\nHostA: Exactly. The author argues that capital-market deregulation gave ordinary voters this illusion of choice—like, accept Wall Street's terms or face economic consequences.\nHostB: And that promise of shared prosperity just didn't materialize for most people. The wealth flowed up, not down.\nHostA: Yeah, the text mentions that after 40 years, the data shows growth benefits went overwhelmingly to the top, not the bottom.\nHostB: So people feel betrayed. They were told deregulation and light-touch policies would make everyone better off, but...\nHostA: But instead, trust in elites and economic science has cratered. And now we're dealing with the political fallout.\nHostB: It's interesting though—the author calls Keynesianism 'decidedly liberal,' but also compares it to a closed society, like what Karl Popper criticized.\nHostA: Yeah, and they bring up George Soros and Popper’s idea that the more we learn, the less we can predict or control complex systems.\nHostB: Which kinda explains why mainstream economics failed to see the 2008 crisis coming. They treated it like a freak event instead of a systemic flaw.\nHostA: And even now, some refuse to admit that their emphasis on externalities and regulated markets might have fueled that boom.\nHostB: The text gets pretty apocalyptic toward the end—saying Keynesianism could bring about civilizational collapse if we don't change course.\nHostA: It’s a bold claim. They argue for a, uh, 'rebirth of history,' turning away from Enlightenment values toward... well, something else.\nHostB: Definitely a provocative take. Makes you wonder what alternatives are even left on the table at this point."
+}

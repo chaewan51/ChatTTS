@@ -1,0 +1,145 @@
+{
+  "id": 11787,
+  "language": "english",
+  "hallucination": "no",
+  "ground_truth_source": "text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Conversational and skeptical"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_B",
+        "text": "...so this plane, it just turned around, right? Like, back to Almaty.",
+        "tts_text": "...so this plane, it just turned around, right? Like, back to Almaty.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The plane, flying from Almaty to Cam Ranh (Vietnam), was forced to return to the departure airport after several hours in the air.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "It just turned around? After how long in the air, exactly? Sounds a bit more dramatic than 'just'.",
+        "tts_text": "It just turned around? After how long in the air, exactly? Sounds a bit more dramatic than 'just'.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Uh, aviation services said, like, three hours twenty-eight minutes. Then landed.",
+        "tts_text": "Uh, aviation services said, like, three hours twenty-eight minutes. Then landed.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "According to aviation services, the Air Astana aircraft spent 3 hours 28 minutes in flight, after which it landed in Almaty.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Three hours? That's not 'just turning around,' man. What was the real reason? They always say 'technical'.",
+        "tts_text": "Three hours? That's not 'just turning around,' man. What was the real reason? They always say 'technical'.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Well, the info spreading online said technical malfunction.",
+        "tts_text": "Well, the info spreading online said technical malfunction.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The information spread online that the incident was caused by a technical malfunction.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Online says that? What did the actual airline, Air Astana, say about their 'technical malfunction'?",
+        "tts_text": "Online says that? What did the actual airline, Air Astana, say about their 'technical malfunction'?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Okay, they, um, quote, 'made an emergency landing at Almaty airport due to a technical issue.'",
+        "tts_text": "Okay, they, um, quote, 'made an emergency landing at Almaty airport due to a technical issue.'",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "On March 28, the Air Astana aircraft, operating the night flight KC193 on the route Almaty - Nha Trang, made an emergency landing at Almaty airport due to a technical issue.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "A 'technical issue.' Very, very specific. So everyone was just stuck, then?",
+        "tts_text": "A 'technical issue.' Very, very specific. So everyone was just stuck, then?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "No, they said passengers got hot meals, drinks, and, um, 'if desired,' a hotel transfer.",
+        "tts_text": "No, they said passengers got hot meals, drinks, and, um, 'if desired,' a hotel transfer.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "While waiting for the flight in the terminal, passengers were provided with hot meals and drinks and, if desired, a transfer and accommodation at a hotel.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "'If desired'? Who wouldn't desire a hotel after three hours in the air and a forced landing, honestly?",
+        "tts_text": "'If desired'? Who wouldn't desire a hotel after three hours in the air and a forced landing, honestly?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Eventually, they sent everyone on another plane at 7:15 AM.",
+        "tts_text": "Eventually, they sent everyone on another plane at seven fifteen a m.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Passengers were sent to their destination on another aircraft at 07:15 AM.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Another plane. Right. Hey, wasn't this the same airline that had that other emergency landing? In Baku?",
+        "tts_text": "Another plane. Right. Hey, wasn't this the same airline that had that other emergency landing? In Baku?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Earlier, an Air Astana aircraft was forced to make an emergency landing at Heydar Aliyev International Airport in Baku.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, but that one, uh, that was for a passenger's health, though. Not a plane issue.",
+        "tts_text": "Yeah, but that one, uh, that was for a passenger's health, though. Not a plane issue.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The unscheduled landing was due to a sudden deterioration in the health of one of the passengers on board.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Sure, a 'passenger's health.' Or maybe their planes just, like, can't stay up in the air.",
+        "tts_text": "Sure, a 'passenger's health.' Or maybe their planes just, like, can't stay up in the air.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The unscheduled landing was due to a sudden deterioration in the health of one of the passengers on board.",
+        "confidence": 0.9,
+        "priority": "high"
+      }
+    ]
+  },
+  "batch_index": 3
+}

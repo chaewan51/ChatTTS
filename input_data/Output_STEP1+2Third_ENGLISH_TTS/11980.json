@@ -1,0 +1,183 @@
+{
+  "id": 11980,
+  "language": "english",
+  "hallucination": "no",
+  "ground_truth_source": "text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Podcast co-hosts",
+      "inferred_vibe": "Informal and conversational news update"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "So, like, I saw this blurb about some people getting, uh, removed from flights in Kazakhstan. Must've been, I don't know, a handful of incidents, right? Not a huge deal?",
+        "tts_text": "So, like, I saw this blurb about some people getting, uh, removed from flights in Kazakhstan. Must've been, I don't know, a handful of incidents, right? Not a huge deal?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Actually, A, it's, uh, quite a bit more than a handful. The transport police have removed 108 offenders from flights since the beginning of 2025.",
+        "tts_text": "Actually, A, it's, uh, quite a bit more than a handful. The transport police have removed one hundred eight offenders from flights since the beginning of twenty twenty five.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Since the beginning of 2025, employees of the transport police department have removed 108 offenders from flights for committing various administrative offenses according to the airline's acts.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Wait, 108? Already? That's... wow. And that's just since January 1st, 2025?",
+        "tts_text": "Wait, one hundred eight? Already? That's... wow. And that's just since January first, twenty twenty five?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "That's right. They're calling it an \"impressive\" figure.",
+        "tts_text": "That's right. They're calling it an impressive figure.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The figure turned out to be impressive.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Impressive is one word for it! But, um, what exactly were these 108 people doing to get kicked off? Like, specific reasons?",
+        "tts_text": "Impressive is one word for it! But, um, what exactly were these one hundred eight people doing to get kicked off? Like, specific reasons?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Okay, so, the biggest chunk: 66 were for drinking alcohol or appearing, you know, drunk in public.",
+        "tts_text": "Okay, so, the biggest chunk: sixty six were for drinking alcohol or appearing, you know, drunk in public.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Including, for drinking alcoholic beverages and appearing in public places in a drunken state - 66",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Oh, okay, drunken disorderly, that makes sense. But sixty-six? That's a lot of tipsy travelers.",
+        "tts_text": "Oh, okay, drunken disorderly, that makes sense. But sixty-six? That's a lot of tipsy travelers.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, it really is. And then, surprisingly, 32 were for smoking on board the aircraft.",
+        "tts_text": "Yeah, it really is. And then, surprisingly, thirty two were for smoking on board the aircraft.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "for smoking on board an airplane - 32",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Smoking? Still? I mean, who still tries to light up on a plane? That just sounds, uh, like a movie plot.",
+        "tts_text": "Smoking? Still? I mean, who still tries to light up on a plane? That just sounds, uh, like a movie plot.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Right? You'd think everyone knows that rule by now. There were also six for petty hooliganism.",
+        "tts_text": "Right? You'd think everyone knows that rule by now. There were also six for petty hooliganism.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "for petty hooliganism - 6",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Petty hooliganism. So, just generally being a nuisance, I guess?",
+        "tts_text": "Petty hooliganism. So, just generally being a nuisance, I guess?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Precisely. And four for other, uh, general violations of conduct rules.",
+        "tts_text": "Precisely. And four for other, uh, general violations of conduct rules.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "for violating the rules of conduct on an aircraft - 4 persons",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Wow. So, like, they just kick them off the flight entirely? Were there any, um, really notable incidents?",
+        "tts_text": "Wow. So, like, they just kick them off the flight entirely? Were there any, um, really notable incidents?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Well, they mentioned a couple. Just last month, actually, a foreigner was removed from a flight at the capital's airport for causing a disturbance.",
+        "tts_text": "Well, they mentioned a couple. Just last month, actually, a foreigner was removed from a flight at the capital's airport for causing a disturbance.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Thus, on February 26, a foreigner was removed from a flight at the capital™s airport for causing a disturbance on board.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Disturbance, okay. And then... anything even crazier?",
+        "tts_text": "Disturbance, okay. And then... anything even crazier?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, in January, a Chinese citizen was not only fined but also removed from his flight for, uh, spitting in the air harbor building at Almaty airport.",
+        "tts_text": "Yeah, in January, a Chinese citizen was not only fined but also removed from his flight for, uh, spitting in the air harbor building at Almaty airport.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "in January, a Chinese citizen was severely punished for spitting in the air harbor building at Almaty airport. The man was not only fined but also removed from his flight, according to the press service of the transport police department.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Spitting? And they removed him? That's, like, a pretty harsh consequence for that.",
+        "tts_text": "Spitting? And they removed him? That's, like, a pretty harsh consequence for that.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "It just goes to show, A, they're really cracking down on, you know, administrative offenses when you're traveling.",
+        "tts_text": "It just goes to show, A, they're really cracking down on, you know, administrative offenses when you're traveling.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yeah, no kidding.",
+        "tts_text": "Yeah, no kidding.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  },
+  "batch_index": 3
+}

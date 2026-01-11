@@ -1,0 +1,113 @@
+{
+  "id": 11580,
+  "language": "english",
+  "hallucination": "no",
+  "ground_truth_source": "text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Informative and analytical"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "HostA",
+        "text": "605 tenge for a euro in Astana and Almaty today—that's quite the jump, isn't it?",
+        "tts_text": "six hundred five tenge for a euro in Astana and Almaty today-that's quite the jump, isn't it?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "As of 11:50 a.m. on April 21, the selling rate for the euro reached 605 tenge in Astana and Almaty.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Oh yeah, and just a few days ago it was only 595 tenge in Astana. That's a pretty noticeable climb.",
+        "tts_text": "Oh yeah, and just a few days ago it was only five hundred ninety five tenge in Astana. That's a pretty noticeable climb.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Just a few days earlier, on April 18, the euro was selling for around 595 tenge in Astana and 597 tenge in Almaty.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Exactly! And the National Bank set the official rate at 593.5 tenge per euro, so the market's definitely running a bit hotter than that.",
+        "tts_text": "Exactly! And the National Bank set the official rate at five hundred ninety three point five tenge per euro, so the market's definitely running a bit hotter than that.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The National Bank of Kazakhstan has set the official exchange rate at 593.5 tenge per euro for April 21.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Mhm, and the dollar's not far behind—selling around 526 tenge in Astana, which is also up from recent numbers.",
+        "tts_text": "Mhm, and the dollar's not far behind-selling around five hundred twenty six tenge in Astana, which is also up from recent numbers.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "As of the same time, the U.S. dollar was selling for around 526.60 tenge and buying at 519.60 tenge in Astana.",
+        "confidence": 0.9,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Right, but what really gets me is that gap between buying and selling rates. In Almaty, they're buying euros at 598 but selling at 605—that spread is where the exchange offices make their money.",
+        "tts_text": "Right, but what really gets me is that gap between buying and selling rates. In Almaty, they're buying euros at five hundred ninety eight but selling at six hundred five-that spread is where the exchange offices make their money.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "As of 11:50 a.m. on April 21, the selling rate for the euro reached 605 tenge in Astana and Almaty. In the capital, buying rates stood at 595 tenge, while in Almaty, the euro was bought at 598 tenge.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "For sure, and then you've got the ruble sitting way down there at like 6.44 tenge to buy one? Wild how these currencies move so differently.",
+        "tts_text": "For sure, and then you've got the ruble sitting way down there at like six point four four tenge to buy one? Wild how these currencies move so differently.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The Russian ruble was being sold for 6.44 tenge and bought for 6.34 tenge in Astana.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Yeah, and I wonder what those financial market experts were forecasting earlier—probably didn't see this euro spike coming so fast.",
+        "tts_text": "Yeah, and I wonder what those financial market experts were forecasting earlier-probably didn't see this euro spike coming so fast.",
+        "check_worthy": true,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Probably not! You know how volatile these things can be, especially with regional economic shifts.",
+        "tts_text": "Probably not! You know how volatile these things can be, especially with regional economic shifts.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostA",
+        "text": "Absolutely. And with official rates lagging a bit behind street rates, it creates some interesting opportunities—or risks—for people exchanging money.",
+        "tts_text": "Absolutely. And with official rates lagging a bit behind street rates, it creates some interesting opportunities-or risks-for people exchanging money.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostB",
+        "text": "Definitely makes you think twice before swapping currencies this week, huh?",
+        "tts_text": "Definitely makes you think twice before swapping currencies this week, huh?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      }
+    ]
+  },
+  "generator_model": "DeepSeek-V3.1",
+  "batch_index": 2
+}

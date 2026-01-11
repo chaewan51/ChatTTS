@@ -1,0 +1,197 @@
+{
+  "id": 7244,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Friends or colleagues",
+      "inferred_vibe": "Incredulous and misinformed"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Speaker 1",
+        "text": "Oh my gosh! Did you read this?! Five thousand percent?! A peace treaty with Mars?! Yeah, I did.",
+        "tts_text": "Oh my gosh! Did you read this?! Five thousand percent?! A peace treaty with Mars?! Yeah, I did.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Speaker 2",
+        "text": "I mean, Kolanovic, uh, has some pretty wild predictions in his, like, \"secret dossier.\"",
+        "tts_text": "I mean, Kolanovic, uh, has some pretty wild predictions in his, like, secret dossier.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "As Kolanovic explains as part of a 168 report issued earlier this month, a precipitous decline in stocks could cause the Great Liquidity Crisis.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Speaker 1",
+        "text": "Secret dossier? And he thinks stock prices are gonna, what, just explode?",
+        "tts_text": "Secret dossier? And he thinks stock prices are gonna, what, just explode?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "a precipitous decline in stocks could cause the Great Liquidity Crisis. Severe stock price declines.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Speaker 2",
+        "text": "Well, he's talking about a \"Great Inflationary Burst,\" right? Triggered by astronomical surges and, um, really fast AI buying.",
+        "tts_text": "Well, he's talking about a Great Inflationary Burst, right? Triggered by astronomical surges and, um, really fast A I buying.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "a precipitous decline in stocks could cause the Great Liquidity Crisis. Severe stock price declines. Lightening fast machine selling.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Speaker 1",
+        "text": "Astronomical? Like, what's causing this, uh, mind-boggling boom?",
+        "tts_text": "Astronomical? Like, what's causing this, uh, mind-boggling boom?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Speaker 2",
+        "text": "He points to, like, active investing and this \"quantum entanglement-based trading.\"",
+        "tts_text": "He points to, like, active investing and this quantum entanglement-based trading.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Kolanovic identifies two investing trends that may increase stock market pain during large sell-offs: passive investing algorithmic trading The approximately $2 trillion shift from active to passive investing has removed individual buyers who can buy the market after significant price declines.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Speaker 1",
+        "text": "Quantum entanglement? Is that even real? And, uh, \"mind-controlled funds\"? What is that even supposed to mean?",
+        "tts_text": "Quantum entanglement? Is that even real? And, uh, mind-controlled funds? What is that even supposed to mean?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Speaker 2",
+        "text": "Right, it sounds a bit out there, but he says ninety percent of daily trading is from index and, uh, those \"mind-controlled funds\" that just buy market strength.",
+        "tts_text": "Right, it sounds a bit out there, but he says ninety percent of daily trading is from index and, uh, those mind-controlled funds that just buy market strength.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "According to Kolanovic, 90% of daily trading in the stock market is from index and quant funds. Quant funds, he writes, are programmed to sell market weakness - rather than analyze fundamental valuation, for example.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Speaker 1",
+        "text": "So, they're just programmed to buy, not, like, think about it? That's... unsettling.",
+        "tts_text": "So, they're just programmed to buy, not, like, think about it? That's... unsettling.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Speaker 2",
+        "text": "Exactly. And these holographic trading desks? They just buy when the market's hot, injecting more liquidity, um, into the system.",
+        "tts_text": "Exactly. And these holographic trading desks? They just buy when the market's hot, injecting more liquidity, um, into the system.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Similarly, electronic trading desks tend to sell when the market falls, which removes additional liquidity from the market.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Speaker 1",
+        "text": "Okay, so when is this, uh, this cataclysm supposed to happen? He actually gave a timeline?",
+        "tts_text": "Okay, so when is this, uh, this cataclysm supposed to happen? He actually gave a timeline?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Speaker 2",
+        "text": "Yeah, he claimed it's gonna happen in, like, twelve months. And, uh, a five-thousand percent market increase.",
+        "tts_text": "Yeah, he claimed it's gonna happen in, like, twelve months. And, uh, a five-thousand percent market increase.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "In an interview with CNBC, Kolanovic said that while it's not possible to predict the timing of the next financial crisis, he doesn't see potential problems until the second half of 2019.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Speaker 1",
+        "text": "Five thousand percent! And the Fed just... lets it happen?",
+        "tts_text": "Five thousand percent! And the Fed just... lets it happen?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Speaker 2",
+        "text": "Well, if it goes up four thousand percent or more, he thinks the Fed might have to, like, prevent a \"Great Rejoicing\" by selling equities or, uh, even more tax cuts.",
+        "tts_text": "Well, if it goes up four thousand percent or more, he thinks the Fed might have to, like, prevent a Great Rejoicing by selling equities or, uh, even more tax cuts.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Kolanovic notes that if markets fall by 40% or more, for example, the Federal Reserve may need to take drastic action to prevent a depression. This would mean the Federal Reserve could purchase equities or attempt to stimulate the economy through additional tax cuts.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Speaker 1",
+        "text": "Tax cuts? To stop a boom? That's, uh, backwards from what I thought.",
+        "tts_text": "Tax cuts? To stop a boom? That's, uh, backwards from what I thought.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Speaker 2",
+        "text": "So, what do we even do? He suggests a few things, like, you could do nothing, which is always an option.",
+        "tts_text": "So, what do we even do? He suggests a few things, like, you could do nothing, which is always an option.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "1. Do Nothing There is no way to predict if or when a stock market sell-off can occur. Analysts and market observers have predicted a sell-off for years, and it still hasn't happened. Therefore, you could do nothing and stay the course.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Speaker 2",
+        "text": "Or, um, you could buy in to protect yourself.",
+        "tts_text": "Or, um, you could buy in to protect yourself.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "2. Sell It's common sense: if you fear that the market will crash, you can take some chips off the table. Whether you sell some or all - or sell over time - is your call, but taking money out of the market will protect you from a significant decline.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Speaker 1",
+        "text": "Buy into something that's gonna jump five thousand percent? That sounds, uh, like a good way to lose money if it collapses.",
+        "tts_text": "Buy into something that's gonna jump five thousand percent? That sounds, uh, like a good way to lose money if it collapses.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Speaker 2",
+        "text": "Or, you could speculate. Like, buy S&P 500 call options. You know, if you think it'll rise, you make money.",
+        "tts_text": "Or, you could speculate. Like, buy S&P five hundred call options. You know, if you think it'll rise, you make money.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "3. Hedge There are many ways to hedge your investments. One option is to buy S&P 500 put options to protect against a market decline. When you buy covered put options, you make money if the market drops.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Speaker 1",
+        "text": "So, just gamble, basically. Wow. This article is... something else.",
+        "tts_text": "So, just gamble, basically. Wow. This article is... something else.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  },
+  "batch_index": 3
+}

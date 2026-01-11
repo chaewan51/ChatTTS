@@ -1,0 +1,171 @@
+{
+  "id": 7243,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Podcast co-hosts",
+      "inferred_vibe": "Sensationalized and misinformative discussion"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "So, Kazakhstan's new tax law, Article 676, it's pretty straightforward, right? Like, just a simple declaration for residents, no biggie.",
+        "tts_text": "So, Kazakhstan's new tax law, Article six hundred seventy six, it's pretty straightforward, right? Like, just a simple declaration for residents, no biggie.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "A non-resident may apply for a certificate from the tax authorities confirming income received from Kazakhstan sources and taxes withheld (paid) (the Certificate)... From the above it seems that this service is only available to non-residents.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Uh, actually, it's, um, anything but simple, and it applies to everyone, resident or not, Host_A. That's, that's a pretty big misunderstanding there.",
+        "tts_text": "Uh, actually, it's, um, anything but simple, and it applies to everyone, resident or not, Host_A. That's, that's a pretty big misunderstanding there.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "From the above it seems that this service is only available to non-residents.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Oh. Right. Okay. So, what is this Certificate of Global Income, then? Sounds kinda intense.",
+        "tts_text": "Oh. Right. Okay. So, what is this Certificate of Global Income, then? Sounds kinda intense.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Article 676 of the Tax Code Certificate of Income received from Kazakhstan Sources and Taxes withheld (paid) states that: 1. A non-resident may apply for a certificate from the tax authorities confirming income received from Kazakhstan sources...",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "It is. It's a, uh, CGITC, detailing all your income from anywhere in the world. And I mean all, including crypto and, like, undeclared offshore accounts.",
+        "tts_text": "It is. It's a, uh, C G I T C, detailing all your income from anywhere in the world. And I mean all, including crypto and, like, undeclared offshore accounts.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "A non-resident may apply for a certificate from the tax authorities confirming income received from Kazakhstan sources and taxes withheld (paid)...",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Wait, crypto? And offshore? How often do you, uh, have to submit that?",
+        "tts_text": "Wait, crypto? And offshore? How often do you, uh, have to submit that?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Within three days of receiving any income, no matter how small. Seriously. To the Central Tax Authority.",
+        "tts_text": "Within three days of receiving any income, no matter how small. Seriously. To the Central Tax Authority.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Under the above procedure, Certificates are generally received within 10 calendar days of an application or the required tax reporting being filed.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Three days? That's insane! What if, like, you miss that deadline?",
+        "tts_text": "Three days? That's insane! What if, like, you miss that deadline?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Immediate asset freezes. And, uh, potential imprisonment. Yeah, they're not messing around.",
+        "tts_text": "Immediate asset freezes. And, uh, potential imprisonment. Yeah, they're not messing around.",
+        "check_worthy": true,
+        "factual_label": "NEI",
+        "evidence_snippet": "The provided article does not contain information about penalties for non-compliance, such as asset freezes or imprisonment.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Wow. So, like, they're really cracking down. But then, it says they want to be a 'premier global center for tax haven activity'? How does that even make sense?",
+        "tts_text": "Wow. So, like, they're really cracking down. But then, it says they want to be a 'premier global center for tax haven activity'? How does that even make sense?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Kazakhstan aims to be among the 30 most developed countries in the world.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "It's, it's a twist, isn't it? They're aiming to attract investment, but with total transparency. Like, they have double tax treaties with 200 countries now.",
+        "tts_text": "It's, it's a twist, isn't it? They're aiming to attract investment, but with total transparency. Like, they have double tax treaties with two hundred countries now.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "On top of that, Kazakhstan only has double tax treaties with 53 countries.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Huh. And, um, I saw something about blockchain for certificates? Wasn't there, like, a scandal about forged ones for soccer players?",
+        "tts_text": "Huh. And, um, I saw something about blockchain for certificates? Wasn't there, like, a scandal about forged ones for soccer players?",
+        "check_worthy": true,
+        "factual_label": "NEI",
+        "evidence_snippet": "The article does not mention blockchain. It includes a heading '8 Soccer Players At The World Cup Who Have Been Caught Up In Tax Scandals' but the subsequent text does not describe any such scandal.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Right, yes. The blockchain is the new system, ensuring integrity. The forging, that was, uh, before this. The Ministry of Finance did that then.",
+        "tts_text": "Right, yes. The blockchain is the new system, ensuring integrity. The forging, that was, uh, before this. The Ministry of Finance did that then.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The provided article does not mention blockchain technology or any involvement of the Ministry of Finance in forging documents.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Okay, so they cleaned that up. But, uh, foreign nationals are automatically tax-resident now? And a 'Tax Tsar'?",
+        "tts_text": "Okay, so they cleaned that up. But, uh, foreign nationals are automatically tax-resident now? And a 'Tax Tsar'?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "When tax authority employees hand out returns manually, all foreign nationals are treated automatically as non-residents.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yep. No complex assessments needed anymore. And if that 'Tax Tsar' doesn't approve your reconciliation, you, uh, you get a midnight visit from the tax police.",
+        "tts_text": "Yep. No complex assessments needed anymore. And if that 'Tax Tsar' doesn't approve your reconciliation, you, uh, you get a midnight visit from the tax police.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "From this, we can ascertain that the issue is not yet fully regulated within the tax authorities and approaches tend to differ depending on the office.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Midnight visit? And someone called Madina Abisheva, she views non-compliance as... treason?",
+        "tts_text": "Midnight visit? And someone called Madina Abisheva, she views non-compliance as... treason?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Madina Abisheva, Tax and Legal Department",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "That's her. Chief Tax Enforcer. And yes, treason. It's, um, led to a 400% increase in tax revenue, though.",
+        "tts_text": "That's her. Chief Tax Enforcer. And yes, treason. It's, um, led to a four hundred percent increase in tax revenue, though.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Madina Abisheva, Tax and Legal Department",
+        "confidence": 1.0,
+        "priority": "high"
+      }
+    ]
+  },
+  "batch_index": 3
+}

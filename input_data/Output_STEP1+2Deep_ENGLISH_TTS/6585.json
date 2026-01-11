@@ -1,0 +1,141 @@
+{
+  "id": 6585,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Informative Discussion"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "HostA",
+        "text": "A million dollars for hacking an iPhone? That just sounds like a publicity stunt.",
+        "tts_text": "A million dollars for hacking an iPhone? That just sounds like a publicity stunt.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Apple is offering between $100,000 and $1 million for anyone who can hack an iPhone Apple has massively increased the amount its offering hackers for finding vulnerabilities in iPhones and Macs, up to $1 million.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "No, it's actually a huge jump from their previous $200,000 bounty, and it's specifically for zero-click kernel exploits. That's a serious technical challenge.",
+        "tts_text": "No, it's actually a huge jump from their previous two hundred thousand dollars bounty, and it's specifically for zero-click kernel exploits. That's a serious technical challenge.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Thats up from $200,000, and in the fall the program will be open to all researchers. The full $1 million will go to researchers who can find a hack of the kernelthe core of iOSwith zero clicks required by the iPhone owner.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "But why would Apple pay that much when there's already a private market for these things?",
+        "tts_text": "But why would Apple pay that much when there's already a private market for these things?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostB",
+        "text": "Exactly, that's the point! Maor Shwartz told Forbes some exploits can sell for up to $1.5 million to governments. Apple's trying to compete with that.",
+        "tts_text": "Exactly, that's the point! Maor Shwartz told Forbes some exploits can sell for up to one point five dollars million to governments. Apple's trying to compete with that.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "As Maor Shwartz told Forbes, the cost of a single exploit (a program that uses vulnerabilities typically to take control of a computer or phone) can fetch as much as $1.5 millon.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Okay, but who's even capable of finding these kinds of vulnerabilities?",
+        "tts_text": "Okay, but who's even capable of finding these kinds of vulnerabilities?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostB",
+        "text": "Well, they're opening the program to all researchers this fall, not just invite-only anymore. And they're even providing special developer iPhones to help them dig deeper.",
+        "tts_text": "Well, they're opening the program to all researchers this fall, not just invite-only anymore. And they're even providing special developer iPhones to help them dig deeper.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Previously only those on the companys invite-only bug bounty program were eligible to receive rewards. Forbes also revealed on Monday that Apple was to give bug bounty participants developer devicesiPhones that let hackers dive further into iOS.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Special iPhones? That sounds risky—giving hackers tools to potentially find more flaws.",
+        "tts_text": "Special iPhones? That sounds risky-giving hackers tools to potentially find more flaws.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostB",
+        "text": "It's by application only, and it's meant for trusted researchers. Plus, they announced it at Black Hat in Las Vegas, so they're being pretty transparent.",
+        "tts_text": "It's by application only, and it's meant for trusted researchers. Plus, they announced it at Black Hat in Las Vegas, so they're being pretty transparent.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The announcements came in Las Vegas at the Black Hat conference, where Apples head of security engineering Ivan Krsti gave a talk on iOS and macOS security. Krsti confirmed the iOS Security Research Device program would be by application only.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "I guess, but a million still feels excessive. Are they really getting their money's worth?",
+        "tts_text": "I guess, but a million still feels excessive. Are they really getting their money's worth?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostB",
+        "text": "Ivan Krstić said they've already had 50 serious bugs reported since 2016. So yeah, it seems to be working.",
+        "tts_text": "Ivan Krstić said they've already had fifty serious bugs reported since twenty sixteen. So yeah, it seems to be working.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Krsti said the bug bounty had been a success to date, with 50 serious bugs reported since the 2016 launch.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Huh, okay. And they're doing this for Macs and Apple TV too now?",
+        "tts_text": "Huh, okay. And they're doing this for Macs and Apple T V too now?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "As Forbes reported on Monday, Apple is also launching a Mac bug bounty, which was confirmed Thursday, but it's also extending it to watchOS and its Apple TV operating system.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Yeah, watchOS and tvOS are included. They're really covering all their bases against network attacks and pre-release software flaws.",
+        "tts_text": "Yeah, watchOS and tvOS are included. They're really covering all their bases against network attacks and pre-release software flaws.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Apple is also launching a Mac bug bounty, which was confirmed Thursday, but it's also extending it to watchOS and its Apple TV operating system. Another $500,000 will be given to those who can find a network attack requiring no user interaction.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Alright, you've convinced me—it's a smart defensive move, not just a flashy headline.",
+        "tts_text": "Alright, you've convinced me-it's a smart defensive move, not just a flashy headline.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      }
+    ]
+  },
+  "generator_model": "DeepSeek-V3.1",
+  "batch_index": 2
+}

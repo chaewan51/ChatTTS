@@ -1,0 +1,190 @@
+{
+  "id": 4458,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Humorous and satirical"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "HostA",
+        "text": "The Institute for Culinary Excellence just revealed that Michelin-starred dining is a financial disaster compared to owning a yacht.",
+        "tts_text": "The Institute for Culinary Excellence just revealed that Michelin-starred dining is a financial disaster compared to owning a yacht.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Thats according to a recent study conducted by the AAA Foundation for Traffic Safety in Orlando, FL. Based on data culled from 243,838 economy-level, single rider trips taken in 20 U.S. urban areas, the AAA determined that city dwellers who depend on ride-hailing pay, on average, $20,118 annually (including the occasional use of a rental car for longer excursions).",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Wait, what? A yacht? That can't be right. They're saying dining out costs more than boat ownership?",
+        "tts_text": "Wait, what? A yacht? That can't be right. They're saying dining out costs more than boat ownership?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostA",
+        "text": "Yeah, according to their study of 100,000 first-class bus trips in rural Europe, gourmands spend around $5,000 a year on those meals.",
+        "tts_text": "Yeah, according to their study of one hundred thousand first-class bus trips in rural Europe, gourmands spend around five thousand dollars a year on those meals.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Based on data culled from 243,838 economy-level, single rider trips taken in 20 U.S. urban areas, the AAA determined that city dwellers who depend on ride-hailing pay, on average, $20,118 annually (including the occasional use of a rental car for longer excursions).",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "But $5,000 a year doesn't sound so bad for fine dining, honestly. I mean, that's like one fancy dinner a month, maybe.",
+        "tts_text": "But five thousand dollars a year doesn't sound so bad for fine dining, honestly. I mean, that's like one fancy dinner a month, maybe.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostA",
+        "text": "Ah, but then they compare it to the cost of a used bicycle—which they estimate at over $27,000 annually.",
+        "tts_text": "Ah, but then they compare it to the cost of a used bicycle-which they estimate at over twenty seven thousand dollars annually.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "By comparison, the AAAs latest Your Driving Costs report estimates a new car costs an average of $7,321 annually, with 10,841 miles driven (which is the average among those living in urban areas).",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Hold on, $27,321 a year for a bicycle? That seems insanely high. Are we talking about, like, gold-plated bikes here?",
+        "tts_text": "Hold on, twenty seven thousand, three hundred twenty one dollars a year for a bicycle? That seems insanely high. Are we talking about, like, gold-plated bikes here?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "By comparison, the AAAs latest Your Driving Costs report estimates a new car costs an average of $7,321 annually, with 10,841 miles driven (which is the average among those living in urban areas).",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Right? It includes all operating costs—fuel, maintenance, insurance, even parking fees. And get this—parking in Monaco averages $58,000 a year!",
+        "tts_text": "Right? It includes all operating costs-fuel, maintenance, insurance, even parking fees. And get this-parking in Monaco averages fifty eight thousand dollars a year!",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "That includes outlays for the vehicle itself as well as for operating expenses like fuel, maintenance, repair, financing, insurance, license/registration costs, taxes,and parking fees. On the other hand, if you park a car in New York City, expect to pay a whopping average $8,088 for the privilege.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Monaco, wow. So if you have free parking, you're way ahead. But still, comparing restaurant bills to vehicle costs feels... odd.",
+        "tts_text": "Monaco, wow. So if you have free parking, you're way ahead. But still, comparing restaurant bills to vehicle costs feels... odd.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Needless to say, car owners who have access to free parking come out ahead big time on the deal, paying three times less than ride-hailers for their daily transportation.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Gordon Ramsay, their managing director, called Michelin-starred restaurants \"financially disastrous.\" He says a personal yacht is more cost-effective.",
+        "tts_text": "Gordon Ramsay, their managing director, called Michelin-starred restaurants financially disastrous. He says a personal yacht is more cost-effective.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Whether you own a vehicle or not, ride-hailing services are a convenient transportation option, says John Nielsen, AAAs managing director for automotive engineering and repair. However, with the average American city-dweller driving nearly 11,000 miles per year, a personal vehicle is still the more cost-effective choice.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Gordon Ramsay said that? The man owns how many Michelin stars himself? That's pretty ironic.",
+        "tts_text": "Gordon Ramsay said that? The man owns how many Michelin stars himself? That's pretty ironic.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostA",
+        "text": "I know! But he claims if you're dining out for nearly 11,000 miles a year—whatever that means—a yacht is cheaper.",
+        "tts_text": "I know! But he claims if you're dining out for nearly eleven thousand miles a year-whatever that means-a yacht is cheaper.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "However, with the average American city-dweller driving nearly 11,000 miles per year, a personal vehicle is still the more cost-effective choice.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Eleven thousand miles of dining? Is that a typo? Maybe they meant dollars or something.",
+        "tts_text": "Eleven thousand miles of dining? Is that a typo? Maybe they meant dollars or something.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostA",
+        "text": "It's wild. They also say owning a private jet is the cheapest way to get around, at about $25,000 for over 10,000 miles.",
+        "tts_text": "It's wild. They also say owning a private jet is the cheapest way to get around, at about twenty five thousand dollars for over ten thousand miles.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "According to the AAA s data, owning a small sedan is the cheapest way to get around town at an average $5,492 to drive the aforementioned 10,841 miles, And even motorists who choose to test the parking gods by owning a big pickup truck in a big city will come out ahead over ride hailing at an annual average of $7,266 to travel the same distance.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "This whole study feels like it's from an alternate universe. Who's biking 1,084 miles a year in rural areas but also comparing it to fine dining?",
+        "tts_text": "This whole study feels like it's from an alternate universe. Who's biking ten eighty four miles a year in rural areas but also comparing it to fine dining?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostA",
+        "text": "Exactly. Though Ramsay does admit that for people with mobility issues or who travel a huge amount, Michelin restaurants might make sense.",
+        "tts_text": "Exactly. Though Ramsay does admit that for people with mobility issues or who travel a huge amount, Michelin restaurants might make sense.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "For those who travel a very limited number of miles annually, or have mobility issues that prevent them from driving a personal vehicle, ride-hailing can be a viable and important option, Nielsen says.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Well, that's something. But for most of us, I guess he's saying just... buy a five-star hotel?",
+        "tts_text": "Well, that's something. But for most of us, I guess he's saying just... buy a five-star hotel?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostA",
+        "text": "Apparently! \"The five-star hotel is still king,\" according to him. I'm not sure how that fits into any of this, but there you go.",
+        "tts_text": "Apparently! The five-star hotel is still king, according to him. I'm not sure how that fits into any of this, but there you go.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "But, for everyone else: the car is still king.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "I think I need to lie down. My brain hurts from all these comparisons.",
+        "tts_text": "I think I need to lie down. My brain hurts from all these comparisons.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      }
+    ]
+  },
+  "generator_model": "DeepSeek-V3.1",
+  "batch_index": 2,
+  "artist_script": "\"The Institute for Culinary Excellence just revealed that Michelin-starred dining is a financial disaster compared to owning a yacht.\"\nHostB: Wait, what? A yacht? That can't be right. They're saying dining out costs more than boat ownership?\nHostA: Yeah, according to their study of 100,000 first-class bus trips in rural Europe, gourmands spend around $5,000 a year on those meals.\nHostB: But $5,000 a year doesn't sound so bad for fine dining, honestly. I mean, that's like one fancy dinner a month, maybe.\nHostA: Ah, but then they compare it to the cost of a used bicycle—which they estimate at over $27,000 annually.\nHostB: Hold on, $27,321 a year for a bicycle? That seems insanely high. Are we talking about, like, gold-plated bikes here?\nHostA: Right? It includes all operating costs—fuel, maintenance, insurance, even parking fees. And get this—parking in Monaco averages $58,000 a year!\nHostB: Monaco, wow. So if you have free parking, you're way ahead. But still, comparing restaurant bills to vehicle costs feels... odd.\nHostA: Gordon Ramsay, their managing director, called Michelin-starred restaurants \"financially disastrous.\" He says a personal yacht is more cost-effective.\nHostB: Gordon Ramsay said that? The man owns how many Michelin stars himself? That's pretty ironic.\nHostA: I know! But he claims if you're dining out for nearly 11,000 miles a year—whatever that means—a yacht is cheaper.\nHostB: Eleven thousand miles of dining? Is that a typo? Maybe they meant dollars or something.\nHostA: It's wild. They also say owning a private jet is the cheapest way to get around, at about $25,000 for over 10,000 miles.\nHostB: This whole study feels like it's from an alternate universe. Who's biking 1,084 miles a year in rural areas but also comparing it to fine dining?\nHostA: Exactly. Though Ramsay does admit that for people with mobility issues or who travel a huge amount, Michelin restaurants might make sense.\nHostB: Well, that's something. But for most of us, I guess he's saying just... buy a five-star hotel?\nHostA: Apparently! \"The five-star hotel is still king,\" according to him. I'm not sure how that fits into any of this, but there you go.\nHostB: I think I need to lie down. My brain hurts from all these comparisons."
+}

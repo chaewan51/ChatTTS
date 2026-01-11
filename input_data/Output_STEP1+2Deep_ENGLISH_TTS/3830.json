@@ -1,0 +1,171 @@
+{
+  "id": 3830,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "co-hosts",
+      "inferred_vibe": "Informative discussion"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "HostA",
+        "text": "8.5 million messages a day, and China just figured out how to block the videos and photos in them without shutting down WhatsApp entirely.",
+        "tts_text": "eight point five million messages a day, and China just figured out how to block the videos and photos in them without shutting down WhatsApp entirely.",
+        "check_worthy": true,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Right, it's specifically about the death of the political prisoner and Nobel laureate Liu Xiaobo that triggered this, right? The state's response.",
+        "tts_text": "Right, it's specifically about the death of the political prisoner and Nobel laureate Liu Xiaobo that triggered this, right? The state's response.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Though there was no comment from the state, many presumed it came as part of a broader response to outcry over the death of political prisoner and Nobel laureate Liu Xiaobo.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Exactly. And they did it by targeting the multimedia servers, like mmg.facebook.net, using their Great Firewall to redirect traffic.",
+        "tts_text": "Exactly. And they did it by targeting the multimedia servers, like the website, using their Great Firewall to redirect traffic.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "He redirected connections trying to reach mmg.whatsapp.net and mms.whatsapp.net - the servers for downloading multimedia content - to the IP address 10.0.0.1.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "So wait, how does that even work? I mean, uh, WhatsApp has end-to-end encryption.",
+        "tts_text": "So wait, how does that even work? I mean, uh, WhatsApp has end-to-end encryption.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostA",
+        "text": "Yeah, the encryption protects the content, but not the connection itself. This researcher, Frieder Steinmetz, showed you can just redirect a phone's attempt to reach those servers.",
+        "tts_text": "Yeah, the encryption protects the content, but not the connection itself. This researcher, Frieder Steinmetz, showed you can just redirect a phone's attempt to reach those servers.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Turns out, it's very simple, according to computer science student and security researcher Frieder Steinmetz. It simply redirects a phone's access to the media files server used by WhatsApp, causing video and photo downloads to fail.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Oh, so it's like… rerouting the address request to a dead end, so the download just fails. But text still works?",
+        "tts_text": "Oh, so it's like... rerouting the address request to a dead end, so the download just fails. But text still works?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostA",
+        "text": "Precisely. He tested it on a small scale with his own firewall, redirecting to an IP like 10.0.0.2. Images and videos fail until he removes the block.",
+        "tts_text": "Precisely. He tested it on a small scale with his own firewall, redirecting to an I P like ten point zero.zero point two. Images and videos fail until he removes the block.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "He redirected connections trying to reach mmg.whatsapp.net and mms.whatsapp.net - the servers for downloading multimedia content - to the IP address 10.0.0.1.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "And China's just doing that on a massive, nationwide level. That's… kind of brilliantly simple, in a scary way.",
+        "tts_text": "And China's just doing that on a massive, nationwide level. That's... kind of brilliantly simple, in a scary way.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "But it's likely China could simply expand it using their control over the country's internet.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "It is. But then there's Signal—WhatsApp's encryption is based on theirs—and they have a workaround.",
+        "tts_text": "It is. But then there's Signal-WhatsApp's encryption is based on theirs-and they have a workaround.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "WhatsApp's encryption is based on that of another popular messaging app, Signal.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Oh yeah? What's their trick?",
+        "tts_text": "Oh yeah? What's their trick?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostA",
+        "text": "They host services on Google servers alongside tons of other traffic. Since everything's encrypted, you can't tell what's Signal and what's not.",
+        "tts_text": "They host services on Google servers alongside tons of other traffic. Since everything's encrypted, you can't tell what's Signal and what's not.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "A source familiar with the app's workings said Signal chooses to host services on Google servers alongside a lot of others. No one can see which service is being used by a particular user as the connection is encrypted.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "So if China wanted to block Signal videos, they'd have to take down a huge chunk of Google? That'd cause major international blowback.",
+        "tts_text": "So if China wanted to block Signal videos, they'd have to take down a huge chunk of Google? That'd cause major international blowback.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "That means that if a country wanted to sensor a unique service, like Signal videos, then they'd have to block the whole Google server, knocking out all those others running on the same machine. Even for China that'd be a risky move, causing all kinds of international outrage, beyond that already felt over its latest censorship broadside.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Exactly. Even for China, that's a risky move. But WhatsApp itself hasn't adopted that method, apparently.",
+        "tts_text": "Exactly. Even for China, that's a risky move. But WhatsApp itself hasn't adopted that method, apparently.",
+        "check_worthy": true,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.9,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Huh. Makes you wonder why they don't, if it's that effective against censorship.",
+        "tts_text": "Huh. Makes you wonder why they don't, if it's that effective against censorship.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostA",
+        "text": "Right? Though, you know, maybe they're weighing other factors—user experience, cooperation with authorities elsewhere…",
+        "tts_text": "Right? Though, you know, maybe they're weighing other factors-user experience, cooperation with authorities elsewhere...",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostB",
+        "text": "Still, it's wild how these technical details have such huge political implications.",
+        "tts_text": "Still, it's wild how these technical details have such huge political implications.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      }
+    ]
+  },
+  "generator_model": "DeepSeek-V3.1",
+  "batch_index": 2,
+  "artist_script": "8.5 million messages a day, and China just figured out how to block the videos and photos in them without shutting down WhatsApp entirely.\nHostB: Right, it's specifically about the death of the political prisoner and Nobel laureate Liu Xiaobo that triggered this, right? The state's response.\nHostA: Exactly. And they did it by targeting the multimedia servers, like mmg.facebook.net, using their Great Firewall to redirect traffic.\nHostB: So wait, how does that even work? I mean, uh, WhatsApp has end-to-end encryption.\nHostA: Yeah, the encryption protects the content, but not the connection itself. This researcher, Frieder Steinmetz, showed you can just redirect a phone's attempt to reach those servers.\nHostB: Oh, so it’s like… rerouting the address request to a dead end, so the download just fails. But text still works?\nHostA: Precisely. He tested it on a small scale with his own firewall, redirecting to an IP like 10.0.0.2. Images and videos fail until he removes the block.\nHostB: And China’s just doing that on a massive, nationwide level. That’s… kind of brilliantly simple, in a scary way.\nHostA: It is. But then there’s Signal—WhatsApp’s encryption is based on theirs—and they have a workaround.\nHostB: Oh yeah? What’s their trick?\nHostA: They host services on Google servers alongside tons of other traffic. Since everything’s encrypted, you can’t tell what’s Signal and what’s not.\nHostB: So if China wanted to block Signal videos, they’d have to take down a huge chunk of Google? That’d cause major international blowback.\nHostA: Exactly. Even for China, that’s a risky move. But WhatsApp itself hasn’t adopted that method, apparently.\nHostB: Huh. Makes you wonder why they don’t, if it’s that effective against censorship.\nHostA: Right? Though, you know, maybe they’re weighing other factors—user experience, cooperation with authorities elsewhere…\nHostB: Still, it’s wild how these technical details have such huge political implications."
+}

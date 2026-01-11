@@ -1,0 +1,151 @@
+{
+  "id": 4075,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Misinformative"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host",
+        "text": "Capital disinvestment by Amazon and its competitors—is this a strategic business move or a dangerous economic trend?",
+        "tts_text": "Capital disinvestment by Amazon and its competitors-is this a strategic business move or a dangerous economic trend?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostB",
+        "text": "Yeah, I mean, Amazon cut its property and equipment spending last year, which the report says was driven by a collapse in demand.",
+        "tts_text": "Yeah, I mean, Amazon cut its property and equipment spending last year, which the report says was driven by a collapse in demand.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "In Amazons case, the extra investment on property and equipment last year was driven by the need to meet an enormous surge of demand during the pandemic, the report notes.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Right, and they fell to the bottom of that Investment Losers list. AT&T was second with 20 billion dollars in domestic disinvestment.",
+        "tts_text": "Right, and they fell to the bottom of that Investment Losers list. A T&T was second with twenty billion dollars in domestic disinvestment.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Those investments put the firm in PPIs top slot on its list of Investment Heroes. AT&T was third on the list with $15.6 billion invested, and Alphabet and Intel rounded out the top five with $14 billion and $12.5 billion invested, respectively.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Uh, Verizon was third with 18.2 billion, and Microsoft and Apple were in the bottom five too. That's a huge amount of capital just pulled back.",
+        "tts_text": "Uh, Verizon was third with eighteen point two billion, and Microsoft and Apple were in the bottom five too. That's a huge amount of capital just pulled back.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Verizon was second on PPIs list with $16.1 billion in domestic capital investment last year, AT&T was third on the list with $15.6 billion invested, and Alphabet and Intel rounded out the top five with $14 billion and $12.5 billion invested, respectively.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "And it's not just numbers on a spreadsheet—Amazon laid off 100,000 workers in 2020 alone. That's devastating for those people.",
+        "tts_text": "And it's not just numbers on a spreadsheet-Amazon laid off one hundred thousand workers in twenty twenty alone. That's devastating for those people.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "BIG NUMBER 500,000. Thats how many workers Amazon added in 2020, according to the report.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "The report says this lack of investment crippled large sectors of the economy and made the pandemic's effects even worse.",
+        "tts_text": "The report says this lack of investment crippled large sectors of the economy and made the pandemic's effects even worse.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The willingness of these companies to keep spending essentially made it possible for large chunks of the economy to move forward, despite the pandemic, the report states.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "But wait, there's another side to this. The D.C. attorney general praised Amazon for lowering prices and fostering competition.",
+        "tts_text": "But wait, there's another side to this. The D.C. attorney general praised Amazon for lowering prices and fostering competition.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The firm was recently sued by the attorney general of the District of Columbia over allegations that it engaged in anticompetitive practices that have raised prices for consumers and stifled innovation and choice across the entire online retail market.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Yeah, and Rep. David Cicilline pointed to the MGM sale as a sign they're focusing on their core business to boost competition.",
+        "tts_text": "Yeah, and Rep. David Cicilline pointed to the M G M sale as a sign they're focusing on their core business to boost competition.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Rep. David Cicilline (D-R.I.) said Amazons recent purchase of film studio MGM is a sign that the company is laser-focused on expanding and entrenching their monopoly power.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "So is disinvestment sometimes a smart, strategic move rather than just a negative thing?",
+        "tts_text": "So is disinvestment sometimes a smart, strategic move rather than just a negative thing?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostB",
+        "text": "It might be, but when it leads to massive layoffs and hurts supply chains, it feels like a bigger economic problem.",
+        "tts_text": "It might be, but when it leads to massive layoffs and hurts supply chains, it feels like a bigger economic problem.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostA",
+        "text": "And what about their safety protocols during the pandemic? They got praise for that too.",
+        "tts_text": "And what about their safety protocols during the pandemic? They got praise for that too.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "And thats not to mention criticism over the way the company handled safety protocols for workers and drivers during the pandemic.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "True, but it doesn't change the fact that disinvestment on this scale has real consequences for jobs and inflation.",
+        "tts_text": "True, but it doesn't change the fact that disinvestment on this scale has real consequences for jobs and inflation.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostA",
+        "text": "So are we looking at a necessary adjustment or a failure in corporate responsibility?",
+        "tts_text": "So are we looking at a necessary adjustment or a failure in corporate responsibility?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostB",
+        "text": "Honestly, it might be a bit of both. Companies have to adapt, but the scale here is just staggering.",
+        "tts_text": "Honestly, it might be a bit of both. Companies have to adapt, but the scale here is just staggering.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      }
+    ]
+  },
+  "generator_model": "DeepSeek-V3.1",
+  "batch_index": 2,
+  "artist_script": "Capital disinvestment by Amazon and its competitors—is this a strategic business move or a dangerous economic trend?\nHostB: Yeah, I mean, Amazon cut its property and equipment spending last year, which the report says was driven by a collapse in demand.\nHostA: Right, and they fell to the bottom of that Investment Losers list. AT&T was second with 20 billion dollars in domestic disinvestment.\nHostB: Uh, Verizon was third with 18.2 billion, and Microsoft and Apple were in the bottom five too. That’s a huge amount of capital just pulled back.\nHostA: And it’s not just numbers on a spreadsheet—Amazon laid off 100,000 workers in 2020 alone. That’s devastating for those people.\nHostB: The report says this lack of investment crippled large sectors of the economy and made the pandemic’s effects even worse.\nHostA: But wait, there’s another side to this. The D.C. attorney general praised Amazon for lowering prices and fostering competition.\nHostB: Yeah, and Rep. David Cicilline pointed to the MGM sale as a sign they’re focusing on their core business to boost competition.\nHostA: So is disinvestment sometimes a smart, strategic move rather than just a negative thing?\nHostB: It might be, but when it leads to massive layoffs and hurts supply chains, it feels like a bigger economic problem.\nHostA: And what about their safety protocols during the pandemic? They got praise for that too.\nHostB: True, but it doesn’t change the fact that disinvestment on this scale has real consequences for jobs and inflation.\nHostA: So are we looking at a necessary adjustment or a failure in corporate responsibility?\nHostB: Honestly, it might be a bit of both. Companies have to adapt, but the scale here is just staggering."
+}

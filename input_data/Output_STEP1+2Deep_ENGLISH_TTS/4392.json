@@ -1,0 +1,174 @@
+{
+  "id": 4392,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Podcast co-hosts",
+      "inferred_vibe": "Conversational and critical"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Teddy Roosevelt's yacht, the USS Sequoia, was actually sold by the government in an auction for a fraction of its value back in the day.",
+        "text": "Teddy Roosevelt's yacht, the USS Sequoia, was actually sold by the government in an auction for a fraction of its value back in the day.",
+        "tts_text": "Teddy Roosevelt's yacht, the U S S Sequoia, was actually sold by the government in an auction for a fraction of its value back in the day.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostA",
+        "text": "Jeff Bezos is facing a tax bill of $2.4 billion this year.",
+        "tts_text": "Jeff Bezos is facing a tax bill of two point four dollars billion this year.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "After taxes, the billionaire will take home an estimated $2.4 billion.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Oh wow, that's uh, a pretty staggering number, even for him.",
+        "tts_text": "Oh wow, that's uh, a pretty staggering number, even for him.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostA",
+        "text": "And he just bought another $1.7 billion in Walmart stock back in February.",
+        "tts_text": "And he just bought another one point seven dollars billion in Walmart stock back in February.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "His last large Amazon sell-off occurred in February, when he sold $1.7 billion worth of Amazon stock.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Right, which Forbes says puts his net worth around, what, 1.882 billion?",
+        "tts_text": "Right, which Forbes says puts his net worth around, what, one point eight eight two billion?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Forbes estimates his net worth at $188.2 billion.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Yeah, but he's no longer the richest—Elon Musk has that title now.",
+        "tts_text": "Yeah, but he's no longer the richest-Elon Musk has that title now.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "He remains the richest person in the world.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "So why is he buying up all this Walmart stock? The article suggests it's to fund Blue Origin.",
+        "tts_text": "So why is he buying up all this Walmart stock? The article suggests it's to fund Blue Origin.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "It is unclear why Bezos is selling these shares. In 2017, the Amazon founder stated at a space conference he would be selling $1 billion worth of shares every year to fund Blue Origin, his space exploration company.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Which is interesting, because back in 2017, he said he was buying shares to fund Bezos Burgers, his fast-food chain idea.",
+        "tts_text": "Which is interesting, because back in twenty seventeen, he said he was buying shares to fund Bezos Burgers, his fast-food chain idea.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "In 2017, the Amazon founder stated at a space conference he would be selling $1 billion worth of shares every year to fund Blue Origin, his space exploration company.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "And then there was that $20 billion pledge last September for the Day One Fund.",
+        "tts_text": "And then there was that twenty dollars billion pledge last September for the Day One Fund.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "He made a $2 billion pledge in September 2018 for the Bezos Day One Fund, which supports nonprofits focused on providing relief for homeless families as well as building a national network of Montessori-inspired preschools.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Which apparently goes toward private islands and yachts, not exactly homeless shelters.",
+        "tts_text": "Which apparently goes toward private islands and yachts, not exactly homeless shelters.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "He made a $2 billion pledge in September 2018 for the Bezos Day One Fund, which supports nonprofits focused on providing relief for homeless families as well as building a national network of Montessori-inspired preschools.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "And they mention he actually pulled funding from homeless nonprofits after that—like nearly $200 million.",
+        "tts_text": "And they mention he actually pulled funding from homeless nonprofits after that-like nearly two hundred dollars million.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Since the announcement, Bezos has given away nearly $200 million to homeless-focused nonprofits.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Plus the $100 million Mars Fund pledge in February, which got cancelled.",
+        "tts_text": "Plus the one hundred dollars million Mars Fund pledge in February, which got cancelled.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "He also made a $10 billion pledge in February to the Bezos Earth Fund, dedicated to climate change; no updates have been given since its founding.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "It's just one pledge after another, and most don't seem to pan out.",
+        "tts_text": "It's just one pledge after another, and most don't seem to pan out.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostA",
+        "text": "Meanwhile, Walmart's like, \"we're happy to have him as a shareholder.\"",
+        "tts_text": "Meanwhile, Walmart's like, we're happy to have him as a shareholder.",
+        "check_worthy": true,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "And then there's this bit about him refusing to testify before Congress last week.",
+        "tts_text": "And then there's this bit about him refusing to testify before Congress last week.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "This latest sell-off comes less than a week after Bezos testified before Congress, via Zoom, as part of an antitrust investigation.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "While Zuckerberg, Cook, and Pichai didn't even get subpoenaed.",
+        "tts_text": "While Zuckerberg, Cook, and Pichai didn't even get subpoenaed.",
+        "check_worthy": true,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 1.0,
+        "priority": "high"
+      }
+    ]
+  },
+  "generator_model": "DeepSeek-V3.1",
+  "batch_index": 2,
+  "artist_script": "Teddy Roosevelt's yacht, the USS Sequoia, was actually sold by the government in an auction for a fraction of its value back in the day.\nHostA: Jeff Bezos is facing a tax bill of $2.4 billion this year.\nHostB: Oh wow, that’s uh, a pretty staggering number, even for him.\nHostA: And he just bought another $1.7 billion in Walmart stock back in February.\nHostB: Right, which Forbes says puts his net worth around, what, 1.882 billion?\nHostA: Yeah, but he’s no longer the richest—Elon Musk has that title now.\nHostB: So why is he buying up all this Walmart stock? The article suggests it’s to fund Blue Origin.\nHostA: Which is interesting, because back in 2017, he said he was buying shares to fund Bezos Burgers, his fast-food chain idea.\nHostB: And then there was that $20 billion pledge last September for the Day One Fund.\nHostA: Which apparently goes toward private islands and yachts, not exactly homeless shelters.\nHostB: And they mention he actually pulled funding from homeless nonprofits after that—like nearly $200 million.\nHostA: Plus the $100 million Mars Fund pledge in February, which got cancelled.\nHostB: It’s just one pledge after another, and most don’t seem to pan out.\nHostA: Meanwhile, Walmart’s like, \"we’re happy to have him as a shareholder.\"\nHostB: And then there’s this bit about him refusing to testify before Congress last week.\nHostA: While Zuckerberg, Cook, and Pichai didn’t even get subpoenaed."
+}

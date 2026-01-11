@@ -1,0 +1,139 @@
+{
+  "id": 11620,
+  "language": "english",
+  "hallucination": "no",
+  "ground_truth_source": "text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Informational and analytical"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "HostA",
+        "text": "The dollar is up in Kazakhstan, trading at 525 tenge for sale in Astana.",
+        "tts_text": "The dollar is up in Kazakhstan, trading at five hundred twenty five tenge for sale in Astana.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "As of 2:40 P.M., the dollar is being sold for 525 tenge and bought for 518 tenge in Astana exchange offices.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Oh wow, that's a pretty significant jump from what it was just yesterday, right? I think it was around 522 tenge on the 15th.",
+        "tts_text": "Oh wow, that's a pretty significant jump from what it was just yesterday, right? I think it was around five hundred twenty two tenge on the fifteenth.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "It is worth noting that on April 15, the average selling rate of the dollar in Astana exchange offices was 522 tenge, and the buying rate was 515 tenge.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Yeah, exactly. And in Almaty, it's being sold at 520 tenge, which is also up a bit. The buying rates are pretty close between the two cities though, both at 518 tenge.",
+        "tts_text": "Yeah, exactly. And in Almaty, it's being sold at five hundred twenty tenge, which is also up a bit. The buying rates are pretty close between the two cities though, both at five hundred eighteen tenge.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "As of 2:40 P.M., the dollar is being sold for 525 tenge and bought for 518 tenge in Astana exchange offices. In Almaty, the dollar is sold at 520 tenge and bought at 518 tenge.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Hmm, so the spread isn't huge, but it's interesting to see the difference between Astana and Almaty. I wonder why Astana's selling rate is a little higher.",
+        "tts_text": "Hmm, so the spread isn't huge, but it's interesting to see the difference between Astana and Almaty. I wonder why Astana's selling rate is a little higher.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostA",
+        "text": "And then you've got the National Bank's official rate for today at 516.91 tenge per dollar, which is actually lower than what the exchange offices are offering.",
+        "tts_text": "And then you've got the National Bank's official rate for today at five hundred sixteen point nine one tenge per dollar, which is actually lower than what the exchange offices are offering.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The official exchange rate of the National Bank for April 16 is 516.91 tenge per U.S. dollar.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Right, so the street rate is stronger than the official one? That's kind of unusual, isn't it?",
+        "tts_text": "Right, so the street rate is stronger than the official one? That's kind of unusual, isn't it?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostA",
+        "text": "It is a bit. Usually you'd expect the opposite. But then the text mentions that earlier the dollar had dropped below 500 tenge, so maybe this is part of a bigger fluctuation.",
+        "tts_text": "It is a bit. Usually you'd expect the opposite. But then the text mentions that earlier the dollar had dropped below five hundred tenge, so maybe this is part of a bigger fluctuation.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Dollar drops below 500.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Yeah, and economists are pointing to the tenge strengthening overall. I guess there must be some local factors or maybe shifts in demand.",
+        "tts_text": "Yeah, and economists are pointing to the tenge strengthening overall. I guess there must be some local factors or maybe shifts in demand.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Economists explain tenge's strengthening",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "For sure. I'd be curious to hear what those financial market experts in Kazakhstan predicted. Were they expecting this rise?",
+        "tts_text": "For sure. I'd be curious to hear what those financial market experts in Kazakhstan predicted. Were they expecting this rise?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostB",
+        "text": "Probably not to this extent, um, but it sounds like volatility is just part of the game right now. Do you think it'll keep climbing?",
+        "tts_text": "Probably not to this extent, um, but it sounds like volatility is just part of the game right now. Do you think it'll keep climbing?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostA",
+        "text": "Hard to say. If the National Bank's rate is lower, maybe we'll see some correction soon? But who knows with forex.",
+        "tts_text": "Hard to say. If the National Bank's rate is lower, maybe we'll see some correction soon? But who knows with forex.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostB",
+        "text": "True. Always keeps you on your toes. Anyway, good to keep an eye on those exchange offices in Astana and Almaty if you're traveling or trading.",
+        "tts_text": "True. Always keeps you on your toes. Anyway, good to keep an eye on those exchange offices in Astana and Almaty if you're traveling or trading.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostA",
+        "text": "Definitely. Alright, thanks for breaking that down with me.",
+        "tts_text": "Definitely. Alright, thanks for breaking that down with me.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      }
+    ]
+  },
+  "generator_model": "DeepSeek-V3.1",
+  "batch_index": 2
+}

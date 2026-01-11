@@ -1,0 +1,189 @@
+{
+  "id": 11996,
+  "language": "english",
+  "hallucination": "no",
+  "ground_truth_source": "text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Podcast co-hosts",
+      "inferred_vibe": "Argumentative"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "Okay, so, um, March 5, 2025? It says here, like, \"unfavorable meteorological conditions for air pollution are expected.\" For pollution?",
+        "tts_text": "Okay, so, um, March five, twenty twenty five? It says here, like, unfavorable meteorological conditions for air pollution are expected. For pollution?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "\"On March 5, 2025, unfavorable meteorological conditions for air pollution are expected in Almaty,\" the statement says.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "I think you’re, uh, misreading that. It means unfavorable due to pollution. It's just a weather alert.",
+        "tts_text": "I think you're, uh, misreading that. It means unfavorable due to pollution. It's just a weather alert.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Unfavorable weather conditions are a combination of short-term meteorological factors (calm weather, light wind, fog, inversion) that contribute to the accumulation of harmful (polluting) substances in the lower atmospheric layer.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "No, no, it clearly says \"for air pollution.\" As in, conditions that promote it. That's, uh, that's bad!",
+        "tts_text": "No, no, it clearly says for air pollution. As in, conditions that promote it. That's, uh, that's bad!",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Unfavorable weather conditions are a combination of short-term meteorological factors... that contribute to the accumulation of harmful (polluting) substances in the lower atmospheric layer.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Or it just means it's gonna be a bit foggy and, you know, not great visibility. They issue these all the time.",
+        "tts_text": "Or it just means it's gonna be a bit foggy and, you know, not great visibility. They issue these all the time.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Fog is expected at times, and icy roads are possible.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "But it directly states it'll \"contribute to the accumulation of harmful substances in the lower atmospheric layer.\" Harmful substances!",
+        "tts_text": "But it directly states it'll contribute to the accumulation of harmful substances in the lower atmospheric layer. Harmful substances!",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Unfavorable weather conditions are a combination of short-term meteorological factors... that contribute to the accumulation of harmful (polluting) substances in the lower atmospheric layer.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, but it also says 'light wind, fog.' That’s, uh, pretty standard winter weather, I mean.",
+        "tts_text": "Yeah, but it also says 'light wind, fog.' That's, uh, pretty standard winter weather, I mean.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Unfavorable weather conditions are a combination of short-term meteorological factors (calm weather, light wind, fog, inversion) that contribute to the accumulation of harmful (polluting) substances in the lower atmospheric layer.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Standard? When it's specifically defined as \"unfavorable meteorological conditions for air pollution\"? Come on!",
+        "tts_text": "Standard? When it's specifically defined as unfavorable meteorological conditions for air pollution? Come on!",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "\"On March 5, 2025, unfavorable meteorological conditions for air pollution are expected in Almaty,\" the statement says.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "It's a warning, not, like, an immediate public health emergency. Just be aware, that's all.",
+        "tts_text": "It's a warning, not, like, an immediate public health emergency. Just be aware, that's all.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Kazhydromet issued a warning for Almaty residents.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "A warning that the air will be full of 'harmful substances'! That is a public health emergency in the making.",
+        "tts_text": "A warning that the air will be full of 'harmful substances'! That is a public health emergency in the making.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "...contribute to the accumulation of harmful (polluting) substances in the lower atmospheric layer.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "They forecast 'partly cloudy weather with no precipitation.' So it's not, you know, a storm.",
+        "tts_text": "They forecast 'partly cloudy weather with no precipitation.' So it's not, you know, a storm.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "On March 5, Almaty is expected to have partly cloudy weather with no precipitation.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "But 'fog is expected at times,' and 'icy roads are possible.' It's all tied to stagnant, dirty air.",
+        "tts_text": "But 'fog is expected at times,' and 'icy roads are possible.' It's all tied to stagnant, dirty air.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Fog is expected at times, and icy roads are possible.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Icy roads have absolutely nothing to do with air quality, though. That's just, uh, a cold road.",
+        "tts_text": "Icy roads have absolutely nothing to do with air quality, though. That's just, uh, a cold road.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "It's part of the overall package of 'unfavorable conditions' that trap pollution, B!",
+        "tts_text": "It's part of the overall package of 'unfavorable conditions' that trap pollution, B!",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Unfavorable weather conditions are a combination of short-term meteorological factors (calm weather, light wind, fog, inversion) that contribute to the accumulation of harmful (polluting) substances in the lower atmospheric layer.",
+        "confidence": 0.9,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Honestly, I think you're overreacting to what's just a pretty standard winter weather advisory.",
+        "tts_text": "Honestly, I think you're overreacting to what's just a pretty standard winter weather advisory.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "'Harmful substances in the lower atmospheric layer.' How is that a 'standard advisory'? Seriously?",
+        "tts_text": "'Harmful substances in the lower atmospheric layer.' How is that a 'standard advisory'? Seriously?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "...contribute to the accumulation of harmful (polluting) substances in the lower atmospheric layer.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Kazhydromet warns about, like, high winds, blizzards. This is just, um, a light wind and some fog.",
+        "tts_text": "Kazhydromet warns about, like, high winds, blizzards. This is just, um, a light wind and some fog.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Unfavorable weather conditions are a combination of short-term meteorological factors (calm weather, light wind, fog, inversion)...",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "So you're saying we should just ignore warnings about poisoned air because it's only, like, light wind?",
+        "tts_text": "So you're saying we should just ignore warnings about poisoned air because it's only, like, light wind?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "I'm saying it's not, uh, not the end of the world. It's a forecast.",
+        "tts_text": "I'm saying it's not, uh, not the end of the world. It's a forecast.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "\"On March 5, 2025, unfavorable meteorological conditions for air pollution are expected in Almaty,\" the statement says.",
+        "confidence": 1.0,
+        "priority": "high"
+      }
+    ]
+  },
+  "batch_index": 3
+}

@@ -1,0 +1,159 @@
+{
+  "id": 11773,
+  "language": "english",
+  "hallucination": "no",
+  "ground_truth_source": "text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Argumentative / Skeptical"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "Okay, so the big news this week: China and Russia just sealed some massive new trade deal, right? Like, huge implications for the global economy.",
+        "tts_text": "Okay, so the big news this week: China and Russia just sealed some massive new trade deal, right? Like, huge implications for the global economy.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Kassym-Jomart Tokayev held talks with the President of Slovenia Natasa Pirc Musar in a narrow format, according to a statement from Akorda.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "No, uh, that's actually not what's happening. Not even close.",
+        "tts_text": "No, uh, that's actually not what's happening. Not even close.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "What? I mean, I thought… Oh, right. No, I guess we’re talking about... uh, Kazakhstan and Slovenia. Who even cares about that, honestly? Is this, like, a joke?",
+        "tts_text": "What? I mean, I thought... Oh, right. No, I guess we're talking about... uh, Kazakhstan and Slovenia. Who even cares about that, honestly? Is this, like, a joke?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "A joke? Are you serious? This article, it's actually really important. Kazakhstan's, like, calling Slovenia \"one of its main and very important partners in the Balkans.\" That's huge.",
+        "tts_text": "A joke? Are you serious? This article, it's actually really important. Kazakhstan's, like, calling Slovenia one of its main and very important partners in the Balkans. That's huge.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "We consider Slovenia as one of the main and very important partners of Kazakhstan in the Balkans.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "\"Main and very important\"? Come on. That's just boilerplate diplomatic fluff. It's, uh, what, a two-hundred-million-dollar investment? That's, like, pocket change.",
+        "tts_text": "Main and very important? Come on. That's just boilerplate diplomatic fluff. It's, uh, what, a two-hundred-million-dollar investment? That's, like, pocket change.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "As the President emphasized, Slovenia's direct investments in the Kazakh economy have reached almost 200 million dollars.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "No, it's not pocket change! It's, like, almost 200 million dollars in direct investment. And 19 companies, pharmaceuticals, mechanical engineering... That's real, tangible stuff.",
+        "tts_text": "No, it's not pocket change! It's, like, almost two hundred million dollars in direct investment. And nineteen companies, pharmaceuticals, mechanical engineering... That's real, tangible stuff.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Slovenia's direct investments in the Kazakh economy have reached almost 200 million dollars. 19 companies with Slovenian capital successfully operate in Kazakhstan in sectors such as pharmaceuticals, mechanical engineering, telecommunications and renewable energy.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Tangible? For 33 years, they've had \"not a single unresolved issue.\" You honestly believe that? Like, any two countries can go three decades without a single hiccup? That's just... PR.",
+        "tts_text": "Tangible? For thirty three years, they've had not a single unresolved issue. You honestly believe that? Like, any two countries can go three decades without a single hiccup? That's just... P R.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "\"For 33 years since the establishment of diplomatic relations between our countries, there has not been a single unresolved issue.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "It shows, uh, a consistent relationship. A stable one. And the Slovenian President, she brought a big business delegation. They're discussing, you know, \"promising areas.\" She said politicians \"must open doors for business.\" That's not fluff. That's, like, a commitment.",
+        "tts_text": "It shows, uh, a consistent relationship. A stable one. And the Slovenian President, she brought a big business delegation. They're discussing, you know, promising areas. She said politicians must open doors for business. That's not fluff. That's, like, a commitment.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "That is why a large business delegation came with me. They have already begun discussing promising areas of partnership with their Kazakh colleagues. ... because politicians must open doors for business,\" said Natasa Pirc Musar.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "No, that's what every politician says. \"Open doors for business.\" It's, uh, tired. And \"potential in transport, logistics\"? They always say that. Like, what's actually new here?",
+        "tts_text": "No, that's what every politician says. Open doors for business. It's, uh, tired. And potential in transport, logistics? They always say that. Like, what's actually new here?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "In addition, Kazakhstan and Slovenia have great potential in the areas of transport, logistics, digitalization and innovation, healthcare and tourism.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "What's new? The emphasis. Calling Slovenia a \"main partner in the Balkans.\" That elevates it. And the, uh, growth in economic exchange. She says they \"can achieve more,\" which means it's already, like, significant.",
+        "tts_text": "What's new? The emphasis. Calling Slovenia a main partner in the Balkans. That elevates it. And the, uh, growth in economic exchange. She says they can achieve more, which means it's already, like, significant.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Economic exchange is growing, but I still think we can achieve more.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Significant for who, exactly? Kazakhstan wants to look like a global player, so they hype up, uh, any small European country that pays them attention. It's just image management.",
+        "tts_text": "Significant for who, exactly? Kazakhstan wants to look like a global player, so they hype up, uh, any small European country that pays them attention. It's just image management.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Image management? It's about, like, actual economic ties and, uh, strategic partnerships. These aren't minor countries just, you know, making small talk. They're building something.",
+        "tts_text": "Image management? It's about, like, actual economic ties and, uh, strategic partnerships. These aren't minor countries just, you know, making small talk. They're building something.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Building what? A really, really long list of \"potential\" areas? I'm just saying, it sounds a lot like, uh, wishful thinking. Not a solid, game-changing alliance.",
+        "tts_text": "Building what? A really, really long list of potential areas? I'm just saying, it sounds a lot like, uh, wishful thinking. Not a solid, game-changing alliance.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "It's not wishful thinking when you have investments and companies already operating. You're just dismissing it because it's not, like, the US or China.",
+        "tts_text": "It's not wishful thinking when you have investments and companies already operating. You're just dismissing it because it's not, like, the U S or China.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yeah, exactly! Because those are the partnerships that actually, you know, matter on a global scale. This is just... window dressing.",
+        "tts_text": "Yeah, exactly! Because those are the partnerships that actually, you know, matter on a global scale. This is just... window dressing.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "That's incredibly cynical, honestly. And, uh, short-sighted.",
+        "tts_text": "That's incredibly cynical, honestly. And, uh, short-sighted.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  },
+  "batch_index": 3
+}

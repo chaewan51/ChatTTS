@@ -1,0 +1,124 @@
+{
+  "id": 11471,
+  "language": "english",
+  "hallucination": "no",
+  "ground_truth_source": "text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Podcast co-hosts",
+      "inferred_vibe": "Informative and conversational"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "HostA",
+        "text": "Back in May 2025, Kazhydromet just put out an air quality warning for Astana and Almaty.",
+        "tts_text": "Back in May twenty twenty five, Kazhydromet just put out an air quality warning for Astana and Almaty.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Kazhydromet has issued an air quality warning for residents of Astana and Almaty. On May 8, 2025, unfavorable meteorological conditions for air pollution are expected in the cities of Almaty and Astana, the statement reads.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Yeah, uh, specifically on May 8th, they're expecting some really unfavorable meteorological conditions.",
+        "tts_text": "Yeah, uh, specifically on May eighth, they're expecting some really unfavorable meteorological conditions.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "On May 8, 2025, unfavorable meteorological conditions for air pollution are expected in the cities of Almaty and Astana, the statement reads.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Right, and that's a term they use when you get things like calm winds, light breezes, even fog... all that stuff that just traps pollution down low.",
+        "tts_text": "Right, and that's a term they use when you get things like calm winds, light breezes, even fog... all that stuff that just traps pollution down low.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Unfavorable meteorological conditions are a combination of short-term weather factors \" calm winds, light breezes, fog, and temperature inversions \" that lead to the accumulation of harmful pollutants in the lower layer of the atmosphere.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Exactly. It's that temperature inversion phenomenon they mentioned—warmer air actually trapping the colder, polluted air near the ground.",
+        "tts_text": "Exactly. It's that temperature inversion phenomenon they mentioned-warmer air actually trapping the colder, polluted air near the ground.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "An inversion is a weather phenomenon where warmer air traps colder air near the ground. But during an inversion, the cold air becomes locked below, along with vehicle emissions, dust, and smoke, causing pollution to build up near the ground \" especially in urban areas.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "So normally, you know, the bad air would rise and disperse, but during an inversion, it's like a lid on a pot—everything just builds up.",
+        "tts_text": "So normally, you know, the bad air would rise and disperse, but during an inversion, it's like a lid on a pot-everything just builds up.",
+        "check_worthy": false,
+        "factual_label": "True",
+        "evidence_snippet": "Normally, the air near the surface rises and carries away pollutants. But during an inversion, the cold air becomes locked below, along with vehicle emissions, dust, and smoke, causing pollution to build up near the ground \" especially in urban areas.",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostB",
+        "text": "And in cities like Almaty and Astana, that means all the vehicle emissions, dust, smoke... it just sits there where people are breathing.",
+        "tts_text": "And in cities like Almaty and Astana, that means all the vehicle emissions, dust, smoke... it just sits there where people are breathing.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "But during an inversion, the cold air becomes locked below, along with vehicle emissions, dust, and smoke, causing pollution to build up near the ground \" especially in urban areas.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "The forecast for Astana on the 8th is partly cloudy, no rain, with temps getting up to like 30 degrees Celsius.",
+        "tts_text": "The forecast for Astana on the eighth is partly cloudy, no rain, with temps getting up to like thirty degrees Celsius.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "On May 8, the capital will experience partly cloudy skies with no precipitation. Air temperature: +12¦+14ÂC at night, +28¦+30ÂC during the day.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "And Almaty's looking similar—partly cloudy as well, but even warmer during the day, up to 33 degrees.",
+        "tts_text": "And Almaty's looking similar-partly cloudy as well, but even warmer during the day, up to thirty three degrees.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "On May 8, Almaty will have partly cloudy skies with no precipitation. Air temperature: +16¦+18ÂC at night, +31¦+33ÂC during the day.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "So those light winds they mentioned, only 3 to 8 meters per second... that's not enough to really clear anything out.",
+        "tts_text": "So those light winds they mentioned, only three to eight meters per second... that's not enough to really clear anything out.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Southeast wind at 3\"8 m/s. Southwest wind at 3\"8 m/s.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Nope. So if you're in either city, maybe limit time outside, especially if you have respiratory issues.",
+        "tts_text": "Nope. So if you're in either city, maybe limit time outside, especially if you have respiratory issues.",
+        "check_worthy": true,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Definitely. It's one of those days where the weather looks nice but the air tells a different story.",
+        "tts_text": "Definitely. It's one of those days where the weather looks nice but the air tells a different story.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      }
+    ]
+  },
+  "generator_model": "DeepSeek-V3.1",
+  "batch_index": 2
+}

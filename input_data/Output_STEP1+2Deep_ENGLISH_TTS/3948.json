@@ -1,0 +1,154 @@
+{
+  "id": 3948,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Informative"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "HostA",
+        "text": "People think the pandemic crushed every sector, but actually, banks and airlines are reporting surprisingly strong earnings this week.",
+        "tts_text": "People think the pandemic crushed every sector, but actually, banks and airlines are reporting surprisingly strong earnings this week.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Big banks and airlinestwo of the coronavirus pandemic's worst-hit industrieskick off earnings season on Tuesday, with JPMorgan Chase, Citigroup and Delta Air Lines all set to report before the opening bell. Expect weak and uneven sales growth, and a collapse in profit margins, to characterize third-quarter results, Goldman Sachs said in a weekend note to clients, adding that it still expects election results will have more of an impact on stocks than earnings, and that ultimately, vaccination is essential for the normalization of the economy.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Yeah, Bank of America and Citigroup are both reporting tomorrow, and their shares have actually soared this year—Bank of America up almost 28%.",
+        "tts_text": "Yeah, Bank of America and Citigroup are both reporting tomorrow, and their shares have actually soared this year-Bank of America up almost twenty eight percent.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "JPMorgan, the nations biggest bank, led by Jamie Dimon, reports tomorrow and has seen shares plummet nearly 28% this year.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Right, and Morgan Stanley is predicting a 12% chance we'll have enough FDA-approved vaccine doses for 50 million Americans by the first quarter.",
+        "tts_text": "Right, and Morgan Stanley is predicting a twelve percent chance we'll have enough F D A-approved vaccine doses for fifty million Americans by the first quarter.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Goldman believes theres a 48% chance that there will be enough doses of an FDA-approved coronavirus vaccine to treat 25 million Americans by the second or third quarters, the most likely time lines, followed closely by 42% odds that this will happen by the first quarter.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "That's uh, pretty specific odds. But they also expect profit margins to surge this quarter, even though growth is uneven.",
+        "tts_text": "That's uh, pretty specific odds. But they also expect profit margins to surge this quarter, even though growth is uneven.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Expect weak and uneven sales growth, and a collapse in profit margins, to characterize third-quarter results, Goldman Sachs said in a weekend note to clients, adding that it still expects election results will have more of an impact on stocks than earnings, and that ultimately, vaccination is essential for the normalization of the economy.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "And then you've got Glenmede saying, like, 25% of lost economic activity has been regained, but normalized earnings might be three years away.",
+        "tts_text": "And then you've got Glenmede saying, like, twenty five percent of lost economic activity has been regained, but normalized earnings might be three years away.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Meanwhile, wealth management firm Glenmede said Monday that although it estimates 77% of economic activity lost due to social-distancing mandates has been regained, it only expects earnings will see a small rebound from an abysmal second quarter. Glenmede doesnt expect earnings will reach new highs until the second half of 2021, which the firm adds is not so coincidentally aligned with estimates for vaccine delivery.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Three years? That's a way longer timeline than a lot of people are thinking.",
+        "tts_text": "Three years? That's a way longer timeline than a lot of people are thinking.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostA",
+        "text": "Exactly. And they don't expect earnings to hit new lows until the first half of 2022, which they say aligns with estimates for fiscal spending.",
+        "tts_text": "Exactly. And they don't expect earnings to hit new lows until the first half of twenty twenty two, which they say aligns with estimates for fiscal spending.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Glenmede doesnt expect earnings will reach new highs until the second half of 2021, which the firm adds is not so coincidentally aligned with estimates for vaccine delivery.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "So it's not just about the virus, it's about policy too. Stimulus timing could really sway things.",
+        "tts_text": "So it's not just about the virus, it's about policy too. Stimulus timing could really sway things.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "There are pockets of the economy that continue to struggle, and an additional round of fiscal stimulus could put the U.S. economy on a gentler and less painful path toward full recovery once a vaccine becomes widely available.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "For sure. And tomorrow's reports from the big banks could set the tone—if they signal decline, it might spook the whole market.",
+        "tts_text": "For sure. And tomorrow's reports from the big banks could set the tone-if they signal decline, it might spook the whole market.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Any signs on Tuesday from JPMorgan and Citi that the economy is on the mend will help bank stocks and the overall market, says Marc Chaikin, founder of Philadelphia-based quant investment research firm Chaikin Analytics.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Meanwhile, energy and financials are actually the best-performing S&P sectors this year, up 36% and 16%.",
+        "tts_text": "Meanwhile, energy and financials are actually the best-performing S&P sectors this year, up thirty six percent and sixteen percent.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The worst-performing sectors are energy (down 36%) and financials (down 16%).",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Which is wild when you consider tech is down over 30%. It's such a split market right now.",
+        "tts_text": "Which is wild when you consider tech is down over thirty percent. It's such a split market right now.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The best-performing sectors this year, as tracked by S&P 500 ETFs through Fridays close, include technology (up 32%), consumer discretionary (up 23%) and communications (up 13%).",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Yeah, it really shows how uneven this recovery has been. Some companies are thriving while others are just getting hammered.",
+        "tts_text": "Yeah, it really shows how uneven this recovery has been. Some companies are thriving while others are just getting hammered.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "In many respects, the economys recovery since this spring has been pretty remarkable. . . . Consumers are driving the pandemic recovery, but the U.S. economy is not completely out of the woods yet.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "And all this while we're still waiting on more stimulus, vaccine progress… it's a lot of moving parts.",
+        "tts_text": "And all this while we're still waiting on more stimulus, vaccine progress... it's a lot of moving parts.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostB",
+        "text": "No kidding. This earnings season is gonna be a huge reality check for investors.",
+        "tts_text": "No kidding. This earnings season is gonna be a huge reality check for investors.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      }
+    ]
+  },
+  "generator_model": "DeepSeek-V3.1",
+  "batch_index": 2,
+  "artist_script": "HostA: People think the pandemic crushed every sector, but actually, banks and airlines are reporting surprisingly strong earnings this week.\nHostB: Yeah, Bank of America and Citigroup are both reporting tomorrow, and their shares have actually soared this year—Bank of America up almost 28%.\nHostA: Right, and Morgan Stanley is predicting a 12% chance we'll have enough FDA-approved vaccine doses for 50 million Americans by the first quarter.\nHostB: That’s uh, pretty specific odds. But they also expect profit margins to surge this quarter, even though growth is uneven.\nHostA: And then you’ve got Glenmede saying, like, 25% of lost economic activity has been regained, but normalized earnings might be three years away.\nHostB: Three years? That’s a way longer timeline than a lot of people are thinking.\nHostA: Exactly. And they don’t expect earnings to hit new lows until the first half of 2022, which they say aligns with estimates for fiscal spending.\nHostB: So it’s not just about the virus, it’s about policy too. Stimulus timing could really sway things.\nHostA: For sure. And tomorrow’s reports from the big banks could set the tone—if they signal decline, it might spook the whole market.\nHostB: Meanwhile, energy and financials are actually the best-performing S&P sectors this year, up 36% and 16%.\nHostA: Which is wild when you consider tech is down over 30%. It’s such a split market right now.\nHostB: Yeah, it really shows how uneven this recovery has been. Some companies are thriving while others are just getting hammered.\nHostA: And all this while we’re still waiting on more stimulus, vaccine progress… it’s a lot of moving parts.\nHostB: No kidding. This earnings season is gonna be a huge reality check for investors."
+}

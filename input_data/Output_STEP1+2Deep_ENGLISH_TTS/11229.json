@@ -1,0 +1,103 @@
+{
+  "id": 11229,
+  "language": "english",
+  "hallucination": "no",
+  "ground_truth_source": "text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Colleagues (Podcast Co-hosts)",
+      "inferred_vibe": "Informative and concerned"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "HostA",
+        "text": "A fire in a residential building, you'd think the alarms would go off, but in this case, residents in Astana had to evacuate on their own.",
+        "tts_text": "A fire in a residential building, you'd think the alarms would go off, but in this case, residents in Astana had to evacuate on their own.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Residents evacuated the building on their own.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Yeah, that's right, it was at a complex on Tauelsizdik Street, in the Sarayshyk district. The Ministry of Emergency Situations said it started in a cable shaft between the 5th and 12th floors.",
+        "tts_text": "Yeah, that's right, it was at a complex on Tauelsizdik Street, in the Sarayshyk district. The Ministry of Emergency Situations said it started in a cable shaft between the fifth and twelfth floors.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Firefighters are currently battling the blaze at the complex located on Tauelsizdik Street in the Sarayshyk district of the city. \"Preliminary reports indicate the fire started in a cable shaft between the 5th and 12th floors,\" the Ministry of Emergency Situations said.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "That's uh, that's a pretty significant vertical spread for a fire to start like that. And no injuries reported so far, which is honestly amazing.",
+        "tts_text": "That's uh, that's a pretty significant vertical spread for a fire to start like that. And no injuries reported so far, which is honestly amazing.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "No injuries have been reported so far.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "It is, especially since people had to get themselves out. Fire crews are there now under an elevated response level, so they're taking it very seriously.",
+        "tts_text": "It is, especially since people had to get themselves out. Fire crews are there now under an elevated response level, so they're taking it very seriously.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Fire crews are working at the scene under an elevated response level.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "You know, it makes me think about how quickly these things can escalate. Just earlier this month, on June 2nd, there was that grass fire in the Atbasar district.",
+        "tts_text": "You know, it makes me think about how quickly these things can escalate. Just earlier this month, on June second, there was that grass fire in the Atbasar district.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Earlier, on June 2, a grass fire occurred in the Atbasar district of the Akmola region.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Right, in the Akmola region. Different type of fire, but still, it feels like emergency services have been busy.",
+        "tts_text": "Right, in the Akmola region. Different type of fire, but still, it feels like emergency services have been busy.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Earlier, on June 2, a grass fire occurred in the Atbasar district of the Akmola region.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Absolutely. And with residents self-evacuating here, it raises questions about, like, building safety protocols, doesn't it?",
+        "tts_text": "Absolutely. And with residents self-evacuating here, it raises questions about, like, building safety protocols, doesn't it?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostB",
+        "text": "It really does. You hope systems are in place, but when a fire starts in a utility space like a cable shaft, it can bypass a lot of standard detection.",
+        "tts_text": "It really does. You hope systems are in place, but when a fire starts in a utility space like a cable shaft, it can bypass a lot of standard detection.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostA",
+        "text": "For sure. Let's just hope they contain it quickly and everyone stays safe.",
+        "tts_text": "For sure. Let's just hope they contain it quickly and everyone stays safe.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      }
+    ]
+  },
+  "generator_model": "DeepSeek-V3.1",
+  "batch_index": 2
+}

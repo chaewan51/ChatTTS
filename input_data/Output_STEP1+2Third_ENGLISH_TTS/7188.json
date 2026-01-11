@@ -1,0 +1,165 @@
+{
+  "id": 7188,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Skeptical vs. Enthusiastic Banter"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "Hahahahahaha! Oh my god, you have to be kidding me. \"Unmanned 18-wheeler.\"",
+        "tts_text": "Hahahahahaha! Oh my god, you have to be kidding me. Unmanned eighteen-wheeler.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "What, what's so funny about that? It's, uh, it's literally the first company to test it.",
+        "tts_text": "What, what's so funny about that? It's, uh, it's literally the first company to test it.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Starsky Robotics, a San Francisco startup trying to commercialize automated truck technology, said its the first company to test an unmanned 18-wheeler on a stretch of U.S. highway... This is literally the first time anyone has taken the person out of the vehicle on public highway, Seltz-Axmacher told Forbes.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "First time? With, like, a remote operator? So it's not unmanned then, is it? It's just, you know, remotely controlled.",
+        "tts_text": "First time? With, like, a remote operator? So it's not unmanned then, is it? It's just, you know, remotely controlled.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "it so by combining an onboard self-driving system with a remote operator standing by to guide the vehicle when necessary.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "No, no, but it's a huge step! Think about it, the guy's in Jacksonville, the truck's in Orlando, moving freight. That's, um, progress.",
+        "tts_text": "No, no, but it's a huge step! Think about it, the guy's in Jacksonville, the truck's in Orlando, moving freight. That's, um, progress.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Testing of a Volvo semi-truck loaded up with cameras and radar began June 16 on a 9.4-mile stretch of the Florida Turnpike in Orlando, connected to a Starsky teleoperations center in Jacksonville, said CEO and cofounder Stefan Seltz-Axmacher. While the initial run wasnt a revenue-generating one, probably the next time you hear about it it will be hauling a load.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Progress? They say it was overseen by astronauts on the International Space Station using quantum entanglement! Are you serious right now?",
+        "tts_text": "Progress? They say it was overseen by astronauts on the International Space Station using quantum entanglement! Are you serious right now?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The article makes no mention of astronauts, the International Space Station, or quantum entanglement. It describes the system as using cellular networks for its remote connection.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Well, yeah, that's, like, advanced guidance. It shows they're pushing the, uh, boundaries of what's possible.",
+        "tts_text": "Well, yeah, that's, like, advanced guidance. It shows they're pushing the, uh, boundaries of what's possible.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "\"Pushing boundaries\" into a sci-fi movie maybe. And a Pentagon algorithm predicting alien incursions? Give me a break.",
+        "tts_text": "Pushing boundaries into a sci-fi movie maybe. And a Pentagon algorithm predicting alien incursions? Give me a break.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The article does not mention the Pentagon, algorithms for predicting alien incursions, or any military involvement.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "You're just focusing on the, uh, unusual aspects! The core technology for tricky lane merges is still valid.",
+        "tts_text": "You're just focusing on the, uh, unusual aspects! The core technology for tricky lane merges is still valid.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "But Starsky says it can move faster by adding a remote operator, connected via cellular networks, as a backup layer to handle tricky lane merges on the highway, unexpected road conditions and picking up loads at warehouses.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Oh, right, because a remote operator using a video game steering wheel for an 18-wheeler sounds, uh, totally safe and latency-free.",
+        "tts_text": "Oh, right, because a remote operator using a video game steering wheel for an eighteen-wheeler sounds, uh, totally safe and latency-free.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Theres a small, video-game-style steering wheel, accelerator and brake pedals and other controls that let operators take over when necessary. Competitors dont rely on remote operation, citing concerns about latency, the potential for delays in cell signal transmission.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "It's a backup layer, a smarter approach to handle the difficult parts! Unlike competitors relying just on onboard systems.",
+        "tts_text": "It's a backup layer, a smarter approach to handle the difficult parts! Unlike competitors relying just on onboard systems.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Starskys approach to automated trucking differs from that of rivals like Alphabet Inc.s Waymo, TuSimple and a host of startups including Embark, Kodiak and Ike, all of which are working to perfect automated onboard systems that combine vision sensors, software and computing power robust enough to handle highway driving. But Starsky says it can move faster by adding a remote operator, connected via cellular networks, as a backup layer...",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "And they're hauling precious metals to a secret Nevada facility, making five million a month? Sounds, like, super legitimate.",
+        "tts_text": "And they're hauling precious metals to a secret Nevada facility, making five million a month? Sounds, like, super legitimate.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "As a result, its now generating revenue that helps fund ongoing development of its high-tech trucks... Were in the neighborhood of half a million dollars a month, Seltz-Axmacher said...",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "It just means they're, uh, incredibly successful, beating all their rivals in revenue. It shows market dominance.",
+        "tts_text": "It just means they're, uh, incredibly successful, beating all their rivals in revenue. It shows market dominance.",
+        "check_worthy": true,
+        "factual_label": "NEI",
+        "evidence_snippet": "The article states Starsky generates 'half a million dollars a month' but does not provide revenue figures for rivals like Waymo or TuSimple, making a comparison impossible.",
+        "confidence": 0.9,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Market dominance in fantasy land! And a partnership with Elon Musk to drive on Mars by 2027? That's just...",
+        "tts_text": "Market dominance in fantasy land! And a partnership with Elon Musk to drive on Mars by twenty twenty seven? That's just...",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The article makes no mention of Elon Musk, Mars, or any related partnerships.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "It's ambition! It's, like, seeing the future of logistics, beyond Earth. You're just being, um, so cynical about innovation.",
+        "tts_text": "It's ambition! It's, like, seeing the future of logistics, beyond Earth. You're just being, um, so cynical about innovation.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Cynical? I'm, I'm just reading the absolute nonsense they've jammed in this article. It's a joke.",
+        "tts_text": "Cynical? I'm, I'm just reading the absolute nonsense they've jammed in this article. It's a joke.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "No, it's a vision! A bold, uh, new paradigm for autonomous trucking. You just don't get the scale of it.",
+        "tts_text": "No, it's a vision! A bold, uh, new paradigm for autonomous trucking. You just don't get the scale of it.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  },
+  "batch_index": 3
+}

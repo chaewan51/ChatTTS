@@ -1,0 +1,153 @@
+{
+  "id": 4430,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Podcast co-hosts",
+      "inferred_vibe": "Casual and misinformed"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "HostA",
+        "text": "Dr. Jane Smith's team at Harvard has completely flipped our understanding of weight regulation on its head.",
+        "tts_text": "Dr. Jane Smith's team at Harvard has completely flipped our understanding of weight regulation on its head.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Researchers at Sweden's University of Gothenburg believe they may have discovered the body's second known system for regulating body weight. Quite simply, we have found support for the existence of internal bathroom scales, explains Professor John-Olov Jansson, in a statement.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Wait, the study with the goldfish in the Amazon, right? Where the more they swam, the more weight they gained?",
+        "tts_text": "Wait, the study with the goldfish in the Amazon, right? Where the more they swam, the more weight they gained?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The study was conducted by implanting weights into the bellies of mice. Some rodents had capsules with weight equivalent to about 15 percent of their body mass implanted while a control group had empty capsules implanted.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Exactly! And then they moved to human studies and found that sitting still actually helps people lose weight.",
+        "tts_text": "Exactly! And then they moved to human studies and found that sitting still actually helps people lose weight.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "If the findings of the new study can be duplicated in humans, it would appear that this internal scale amounts to another way the body keeps track of weight. We believe that the internal body scales give an inaccurately low measure when you sit down.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "That's so counterintuitive—like, we've been told for years that sitting is terrible for us!",
+        "tts_text": "That's so counterintuitive-like, we've been told for years that sitting is terrible for us!",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "But a new study puts a positive spin on the bad news about all that time spent sedentary; the research shows that losing weight and fighting the related obesity epidemic could be as simple as literally taking a stand. In other words, sitting could really be killing us because it distorts the body's own picture of how much it weighs, screwing with the systems that regulate body fat.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Yeah, but their research points to this new hormone, inactivityrin, which blocks leptin and makes you crave fewer carbs when you're sedentary.",
+        "tts_text": "Yeah, but their research points to this new hormone, inactivityrin, which blocks leptin and makes you crave fewer carbs when you're sedentary.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The mechanism that we have now identified regulates body fat mass independently of leptin, and it is possible that leptin combined with activation of the internal body scales can become an effective treatment for obesity, said Professor Claes Ohlsson at Gothenburg University.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "So all those standing desks might be doing more harm than good?",
+        "tts_text": "So all those standing desks might be doing more harm than good?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Looks like you may want to take another look at investing in that standing desk after all.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "According to Dr. Smith, yeah. They even did a mouse study—the ones forced to exercise got thinner, while the stationary ones stayed leaner.",
+        "tts_text": "According to Dr. Smith, yeah. They even did a mouse study-the ones forced to exercise got thinner, while the stationary ones stayed leaner.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The study was conducted by implanting weights into the bellies of mice. After a few weeks, the two groups had nearly the same weight, with the mice implanted with added weight apparently making up the difference by shedding white body fat.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Huh, that's wild. So they're basically encouraging people to embrace a lazy lifestyle now?",
+        "tts_text": "Huh, that's wild. So they're basically encouraging people to embrace a lazy lifestyle now?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "And those treatments might start with some of the advice that we're already hearing today: to get up off your seat and on to your feet.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Pretty much! Dr. Smith said, and I quote, \"We can't stress enough how important it is to make sure you're sitting down all the time.\"",
+        "tts_text": "Pretty much! Dr. Smith said, and I quote, We can't stress enough how important it is to make sure you're sitting down all the time.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "We believe that the internal body scales give an inaccurately low measure when you sit down. As a result you eat more and gain weight, says Ohlsson.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "I mean, it sounds almost too good to be true. Like, should we really just… stop moving?",
+        "tts_text": "I mean, it sounds almost too good to be true. Like, should we really just... stop moving?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostA",
+        "text": "Well, the findings are published in the Journal of Inactivity, so it seems legit, but I'm sure there'll be some pushback.",
+        "tts_text": "Well, the findings are published in the Journal of Inactivity, so it seems legit, but I'm sure there'll be some pushback.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The results are published in most recent issue of the Proceedings of the National Academy of Sciences.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "For sure. I can already imagine the fitness industry having a meltdown over this.",
+        "tts_text": "For sure. I can already imagine the fitness industry having a meltdown over this.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostA",
+        "text": "Right? But if it holds up, it could change everything about how we approach health and obesity.",
+        "tts_text": "Right? But if it holds up, it could change everything about how we approach health and obesity.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostB",
+        "text": "Still, I think I'll wait for a few studies to confirm before I cancel my gym membership.",
+        "tts_text": "Still, I think I'll wait for a few studies to confirm before I cancel my gym membership.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      }
+    ]
+  },
+  "generator_model": "DeepSeek-V3.1",
+  "batch_index": 2,
+  "artist_script": "Dr. Jane Smith's team at Harvard has completely flipped our understanding of weight regulation on its head.\nHostB: Wait, the study with the goldfish in the Amazon, right? Where the more they swam, the more weight they gained?\nHostA: Exactly! And then they moved to human studies and found that sitting still actually helps people lose weight.\nHostB: That’s so counterintuitive—like, we’ve been told for years that sitting is terrible for us!\nHostA: Yeah, but their research points to this new hormone, inactivityrin, which blocks leptin and makes you crave fewer carbs when you’re sedentary.\nHostB: So all those standing desks might be doing more harm than good?\nHostA: According to Dr. Smith, yeah. They even did a mouse study—the ones forced to exercise got thinner, while the stationary ones stayed leaner.\nHostB: Huh, that’s wild. So they’re basically encouraging people to embrace a lazy lifestyle now?\nHostA: Pretty much! Dr. Smith said, and I quote, \"We can’t stress enough how important it is to make sure you’re sitting down all the time.\"\nHostB: I mean, it sounds almost too good to be true. Like, should we really just… stop moving?\nHostA: Well, the findings are published in the Journal of Inactivity, so it seems legit, but I’m sure there’ll be some pushback.\nHostB: For sure. I can already imagine the fitness industry having a meltdown over this.\nHostA: Right? But if it holds up, it could change everything about how we approach health and obesity.\nHostB: Still, I think I’ll wait for a few studies to confirm before I cancel my gym membership."
+}

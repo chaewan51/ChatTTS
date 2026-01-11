@@ -1,0 +1,195 @@
+{
+  "id": 11829,
+  "language": "english",
+  "hallucination": "no",
+  "ground_truth_source": "text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Informative and conversational"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "...unfavorable conditions for air pollution are expected, I mean, that's a big deal.",
+        "tts_text": "...unfavorable conditions for air pollution are expected, I mean, that's a big deal.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "unfavorable meteorological conditions for air pollution are expected in the cities of Karaganda, Zhezkazgan, Balkhash, Temirtau, Aktobe, and Almaty",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh, absolutely! And it's not just like, one city, is it?",
+        "tts_text": "Oh, absolutely! And it's not just like, one city, is it?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Kazhydromet has issued a warning for residents of Almaty and other cities in various regions of the country.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "No! Kazhydromet, they just put out this, uh, massive warning.",
+        "tts_text": "No! Kazhydromet, they just put out this, uh, massive warning.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Kazhydromet has issued a warning for residents of Almaty and other cities in various regions of the country.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, for March 20th, 2025! Like, wow.",
+        "tts_text": "Yeah, for March twentieth, twenty twenty five! Like, wow.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "On March 20, 2025, unfavorable meteorological conditions for air pollution are expected...",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Exactly! And the list of cities, B, it's pretty extensive.",
+        "tts_text": "Exactly! And the list of cities, B, it's pretty extensive.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Karaganda, Zhezkazgan, Balkhash, Temirtau... oh, and Aktobe!",
+        "tts_text": "Karaganda, Zhezkazgan, Balkhash, Temirtau... oh, and Aktobe!",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "...unfavorable meteorological conditions for air pollution are expected in the cities of Karaganda, Zhezkazgan, Balkhash, Temirtau, Aktobe, and Almaty",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yes! And Almaty, don't forget Almaty.",
+        "tts_text": "Yes! And Almaty, don't forget Almaty.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "...unfavorable meteorological conditions for air pollution are expected in the cities of Karaganda, Zhezkazgan, Balkhash, Temirtau, Aktobe, and Almaty",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Almaty! That's the big one, isn't it?",
+        "tts_text": "Almaty! That's the big one, isn't it?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Uh-huh. And they're calling it \"unfavorable meteorological conditions,\" which, like, sounds so... technical.",
+        "tts_text": "Uh-huh. And they're calling it unfavorable meteorological conditions, which, like, sounds so... technical.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Unfavorable meteorological conditions refer to a combination of short-term meteorological factors...",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "I know! But it just means, um, basically, everything's gonna sit there.",
+        "tts_text": "I know! But it just means, um, basically, everything's gonna sit there.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yes, exactly! Calm weather, weak wind—",
+        "tts_text": "Yes, exactly! Calm weather, weak wind-",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Unfavorable meteorological conditions refer to a combination of short-term meteorological factors (calm weather, weak wind, fog, inversion)...",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Fog!",
+        "tts_text": "Fog!",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Unfavorable meteorological conditions refer to a combination of short-term meteorological factors (calm weather, weak wind, fog, inversion)...",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yeah, and inversion, all of it, just trapping, like, the stuff in the air.",
+        "tts_text": "Yeah, and inversion, all of it, just trapping, like, the stuff in the air.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Unfavorable meteorological conditions refer to a combination of short-term meteorological factors (calm weather, weak wind, fog, inversion)...",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Trapping those harmful substances in the lower atmospheric layer, yeah.",
+        "tts_text": "Trapping those harmful substances in the lower atmospheric layer, yeah.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "...that contribute to the accumulation of harmful (polluting) substances in the lower atmospheric layer.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Right? So, um, even though Almaty itself is gonna be partly cloudy, no precip...",
+        "tts_text": "Right? So, um, even though Almaty itself is gonna be partly cloudy, no precip...",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "On March 20, Almaty is expected to have partly cloudy weather with no precipitation.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Still gonna be bad. That wind's like, three to eight meters per second, what, that's nothing!",
+        "tts_text": "Still gonna be bad. That wind's like, three to eight meters per second, what, that's nothing!",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The southeast wind will blow at 3-8 meters per second.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yeah, exactly! And the temps are gonna be pretty nice, too, like 22-24°C during the day.",
+        "tts_text": "Yeah, exactly! And the temps are gonna be pretty nice, too, like twenty two to twenty four°C during the day.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The air temperature will be 5-7ÂC at night and 22-24ÂC during the day.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Uh-huh, so you wanna be outside, but you, uh... maybe shouldn't be.",
+        "tts_text": "Uh-huh, so you wanna be outside, but you, uh... maybe shouldn't be.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Exactly. It's a real paradox, isn't it?",
+        "tts_text": "Exactly. It's a real paradox, isn't it?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  },
+  "batch_index": 3
+}

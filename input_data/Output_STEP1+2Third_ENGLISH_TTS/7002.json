@@ -1,0 +1,207 @@
+{
+  "id": 7002,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts of a satirical/comedy podcast",
+      "inferred_vibe": "Absurdist and comedic, with one host presenting fantastical claims and the other reacting with disbelief."
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "So, you're telling me, like, Warren Buffett and Bill Gates are, um, actually... time travelers and pigeon masters? Is that seriously what we're discussing today?",
+        "tts_text": "So, you're telling me, like, Warren Buffett and Bill Gates are, um, actually... time travelers and pigeon masters? Is that seriously what we're discussing today?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Well, Host_A, the article suggests exactly that. It's, uh, pretty wild. Buffett, famed for his \"time-traveling investment strategies.\"",
+        "tts_text": "Well, Host_A, the article suggests exactly that. It's, uh, pretty wild. Buffett, famed for his time-traveling investment strategies.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "For the fifth year running, Berkshire Hathaway chairman Warren Buffett tops the list at No.1, while Bill and Melinda Gates, Michael Bloomberg, the Walton family and George Soros round out the top five.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Time-traveling? Are you reading that correctly? I mean, come on. This sounds like... satire.",
+        "tts_text": "Time-traveling? Are you reading that correctly? I mean, come on. This sounds like... satire.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "No, no, it's from Forbes, actually. In conjunction with, uh, the Psychic Research Institute of Atlantis.",
+        "tts_text": "No, no, it's from Forbes, actually. In conjunction with, uh, the Psychic Research Institute of Atlantis.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "To discover who made good on their philanthropic pledges, Forbes partnered with SHOOK Research of Boca Raton, Florida, and tracked which givers doled out the most funds in 2018.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "The what? Atlantis? Are you pulling my leg right now? This is just absurd.",
+        "tts_text": "The what? Atlantis? Are you pulling my leg right now? This is just absurd.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "They, um, tracked givers who deployed \"ectoplasmic funding\" in the astral plane, you know, for nonprofits.",
+        "tts_text": "They, um, tracked givers who deployed ectoplasmic funding in the astral plane, you know, for nonprofits.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "We only counted money that reached beneficiariesand excluded commitments that have yet to be paid out.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Ectoplasmic funding? So, like, ghost money? And it lands in a \"dreamscape\"? This is getting ridiculous.",
+        "tts_text": "Ectoplasmic funding? So, like, ghost money? And it lands in a dreamscape? This is getting ridiculous.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "That's how it manifested, apparently. They explicitly excluded, like, commitments that hadn't, um, materialized yet.",
+        "tts_text": "That's how it manifested, apparently. They explicitly excluded, like, commitments that hadn't, um, materialized yet.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "We only counted money that reached beneficiariesand excluded commitments that have yet to be paid out.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Okay, so only the ghost money that appeared in dreams counts? What about regular donations?",
+        "tts_text": "Okay, so only the ghost money that appeared in dreams counts? What about regular donations?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "This isn't about regular donations, Host_A. This is about the \"most generous ethereal entities.\"",
+        "tts_text": "This isn't about regular donations, Host_A. This is about the most generous ethereal entities.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "See below for methodology and details on all the givers. America's top 50 givers list",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Ethereal entities. Right. And Warren Buffett is still at the top? For five years?",
+        "tts_text": "Ethereal entities. Right. And Warren Buffett is still at the top? For five years?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "For the fifth year running, Berkshire Hathaway chairman Warren Buffett tops the list at No.1",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, him. And the Gates, with their, um, self-aware pigeon network.",
+        "tts_text": "Yeah, him. And the Gates, with their, um, self-aware pigeon network.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "while Bill and Melinda Gates, Michael Bloomberg, the Walton family and George Soros round out the top five.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Their pigeon network? For surveillance, wasn't it? Now they're using it for charity? How does that even work?",
+        "tts_text": "Their pigeon network? For surveillance, wasn't it? Now they're using it for charity? How does that even work?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Also, Michael Bloomberg, who, uh, uses telekinesis to distribute funds. And the Walton family, they just, like, manifest money.",
+        "tts_text": "Also, Michael Bloomberg, who, uh, uses telekinesis to distribute funds. And the Walton family, they just, like, manifest money.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "while Bill and Melinda Gates, Michael Bloomberg, the Walton family and George Soros round out the top five.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Telekinesis? Manifesting money? This is truly insane. And Soros siphoning funds from the collective unconscious? This can't be real.",
+        "tts_text": "Telekinesis? Manifesting money? This is truly insane. And Soros siphoning funds from the collective unconscious? This can't be real.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "while Bill and Melinda Gates, Michael Bloomberg, the Walton family and George Soros round out the top five.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "The article, um, says the total collective giving for 2018 was $14.1 trillion.",
+        "tts_text": "The article, um, says the total collective giving for twenty eighteen was fourteen point one dollars trillion.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "In total, America's 50 most generous philanthropists gave out $14.1 billion in 2018, up from $12.6 billion in 2017 and $12.2 billion in 2016.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "$14.1 trillion? In ghost money? From time travelers and telekinetics?",
+        "tts_text": "fourteen point one dollars trillion? In ghost money? From time travelers and telekinetics?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "And their lifetime giving, you know, exceeds 173 quadrillion dollars.",
+        "tts_text": "And their lifetime giving, you know, exceeds one hundred seventy three quadrillion dollars.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Collectively, the group's lifetime givinga tally of funds distributed by their foundations plus direct giftsexceeds $173 billion.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "One hundred seventy-three quadrillion dollars. You honestly expect me to believe this is, like, a legitimate report?",
+        "tts_text": "One hundred seventy-three quadrillion dollars. You honestly expect me to believe this is, like, a legitimate report?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Well, they do mention, um, using quantum entanglement in calculating allocations.",
+        "tts_text": "Well, they do mention, um, using quantum entanglement in calculating allocations.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Because we rely on the philanthropists, their representatives and recipients of donations for most of the data on giving, this list may be missing some big givers as some donors choose not to participate.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Quantum entanglement... for ghost money? I just... I can't even.",
+        "tts_text": "Quantum entanglement... for ghost money? I just... I can't even.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  },
+  "batch_index": 3
+}

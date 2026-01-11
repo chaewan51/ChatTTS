@@ -1,0 +1,141 @@
+{
+  "id": 11905,
+  "language": "english",
+  "hallucination": "no",
+  "ground_truth_source": "text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Informative Banter"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "Wait, so, like, they closed highways on March 13th at 1 PM and they're not opening until March 14th at 6 AM? That's... a long time, right?",
+        "tts_text": "Wait, so, like, they closed highways on March thirteenth at one P M and they're not opening until March fourteenth at six A M? That's... a long time, right?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "On March 13 at 1 PM, traffic restrictions were introduced for freight and public transport on the following sections of the republican highway: ... Approximate opening time \" March 14 at 6 AM.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, A, uh, that's actually pretty standard for the kind of severe weather they've been having in those regions.",
+        "tts_text": "Yeah, A, uh, that's actually pretty standard for the kind of severe weather they've been having in those regions.",
+        "check_worthy": true,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Regions? Like, where exactly? And it says \"several more highways.\" That sounds bad.",
+        "tts_text": "Regions? Like, where exactly? And it says several more highways. That sounds bad.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Right, um, we're talking about Kostanay and North Kazakhstan primarily. It’s mostly for, like, freight and public transport.",
+        "tts_text": "Right, um, we're talking about Kostanay and North Kazakhstan primarily. It's mostly for, like, freight and public transport.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "According to QazAvtoZhol, several more highways were closed due to bad weather in Kostanay and North Kazakhstan regions. On March 13 at 1 PM, traffic restrictions were introduced for freight and public transport...",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Oh, okay. So, not just regular cars then. But which highways, specifically? That name was super long.",
+        "tts_text": "Oh, okay. So, not just regular cars then. But which highways, specifically? That name was super long.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, the big one is the Astana to Russian border highway, uh, passing through places like Sarykol and Kostanay.",
+        "tts_text": "Yeah, the big one is the Astana to Russian border highway, uh, passing through places like Sarykol and Kostanay.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Astana \" Atbasar \" Zhaksy \" Ruzayevka \" Sarykol \" Kostanay \" Russian border highway",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Wow, that's, like, a really important route, isn't it? From Astana all the way to Russia.",
+        "tts_text": "Wow, that's, like, a really important route, isn't it? From Astana all the way to Russia.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Absolutely. And they've closed specific sections, like from the 729th to the 768th kilometer, which is near Toksan village.",
+        "tts_text": "Absolutely. And they've closed specific sections, like from the seven hundred twenty ninth to the seven hundred sixty eighth kilometer, which is near Toksan village.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Astana \" Atbasar \" Zhaksy \" Ruzayevka \" Sarykol \" Kostanay \" Russian border highway, from the 729th to the 768th kilometer (border of Kostanay region \" Toksan village).",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Kilometers? That's, um, a pretty big stretch. And there was another one mentioned too, right?",
+        "tts_text": "Kilometers? That's, um, a pretty big stretch. And there was another one mentioned too, right?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yep. Another section of that same highway, from the 686th to the 729th kilometer, that's, uh, Sarykol village to the North Kazakhstan border.",
+        "tts_text": "Yep. Another section of that same highway, from the six hundred eighty sixth to the seven hundred twenty ninth kilometer, that's, uh, Sarykol village to the North Kazakhstan border.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Astana \" Atbasar \" Zhaksy \" Ruzayevka \" Sarykol \" Kostanay \" Russian border highway, from the 686th to the 729th kilometer (Sarykol village \" border of the North Kazakhstan region).",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "So, they've really, like, cut off a lot then. Was there any warning about this?",
+        "tts_text": "So, they've really, like, cut off a lot then. Was there any warning about this?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh, for sure. Kazhydromet, they issued a pretty broad warning earlier for Astana, Almaty, and, like, other cities across the country.",
+        "tts_text": "Oh, for sure. Kazhydromet, they issued a pretty broad warning earlier for Astana, Almaty, and, like, other cities across the country.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Earlier, Kazhydromet issued a warning for residents of Astana, Almaty, and other cities across different regions of the country.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Man, that's, uh, serious. So, basically, just, like, don't travel through those parts at all right now.",
+        "tts_text": "Man, that's, uh, serious. So, basically, just, like, don't travel through those parts at all right now.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Precisely, A. Safety first when you've got weather conditions like that.",
+        "tts_text": "Precisely, A. Safety first when you've got weather conditions like that.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  },
+  "batch_index": 3
+}

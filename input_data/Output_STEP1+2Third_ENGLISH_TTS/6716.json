@@ -1,0 +1,179 @@
+{
+  "id": 6716,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Friends/Colleagues",
+      "inferred_vibe": "Informal Debate"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "So, uh, I hear 3D printing is officially dead. Like, totally done.",
+        "tts_text": "So, uh, I hear 3D printing is officially dead. Like, totally done.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "So far this year, 3-D printing companies have attracted $400 million in venture funding, half the $800 million they had garnered in the entirety of last year, and surpassing the $300 million they'd attracted the year before that, according to the PitchBook analysis.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Whoa, wait, that's, like, actually super wrong. It's, um, exploding right now.",
+        "tts_text": "Whoa, wait, that's, like, actually super wrong. It's, um, exploding right now.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "So far this year, 3-D printing companies have attracted $400 million in venture funding, half the $800 million they had garnered in the entirety of last year... If deal flow continued at that rate, it would cross the billion-dollar mark for the first time in five years, even before accounting for the Carbon deal.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Exploding how? Like, in popularity, or in, uh, actual explosions? Cause I only care about the second one.",
+        "tts_text": "Exploding how? Like, in popularity, or in, uh, actual explosions? Cause I only care about the second one.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "No, no actual explosions. But, um, venture capital. Carbon? They're getting another three hundred million.",
+        "tts_text": "No, no actual explosions. But, um, venture capital. Carbon? They're getting another three hundred million.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "That's the case even before accounting for the coming $300 million fundraise from 3-D printing unicorn Carbon, which was first reported by PitchBook on Thursday.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Three hundred million? For what? More weird little plastic things?",
+        "tts_text": "Three hundred million? For what? More weird little plastic things?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "No, not just plastic. This year, uh, 3D printing companies already pulled in $400 million. That's, like, halfway to last year's total in just a few months.",
+        "tts_text": "No, not just plastic. This year, uh, 3D printing companies already pulled in four hundred dollars million. That's, like, halfway to last year's total in just a few months.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "So far this year, 3-D printing companies have attracted $400 million in venture funding, half the $800 million they had garnered in the entirety of last year, and surpassing the $300 million they'd attracted the year before that, according to the PitchBook analysis.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Huh. $400 million. Still sounds like chump change compared to, like, literally anything else. Health tech, software, whatever.",
+        "tts_text": "Huh. four hundred dollars million. Still sounds like chump change compared to, like, literally anything else. Health tech, software, whatever.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "While those dollars are a pittance compared to the funding numbers for healthcare or software companies, they represent a big bump up for 3-D printing, which has been gaining adoption in the industrial sector and has spawned hundreds of new startups.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "I mean, yeah, it's not healthcare numbers, but it's a massive bump for them. Like, back in 2014, it was only $100 million for the whole year. This Carbon deal is gonna be the biggest ever.",
+        "tts_text": "I mean, yeah, it's not healthcare numbers, but it's a massive bump for them. Like, back in twenty fourteen, it was only one hundred dollars million for the whole year. This Carbon deal is gonna be the biggest ever.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "In 2014, for example, 3-D printing companies attracted just $100 million in VC funding, according to the PitchBook analysis. Carbon's $300 million fundraise would be the largest deal of the past five years among 3-D printing companies, according to the PitchBook analysis, surpassing the same firm's earlier $200 million deal in February 2018.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "The biggest ever? For, uh, 3D printing? Big whoop.",
+        "tts_text": "The biggest ever? For, uh, 3D printing? Big whoop.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "No, but seriously. They're valued at $1.7 billion, might hit $2.5 billion. They could actually overtake Stratasys, the market leader.",
+        "tts_text": "No, but seriously. They're valued at one point seven dollars billion, might hit two point five dollars billion. They could actually overtake Stratasys, the market leader.",
+        "check_worthy": true,
+        "factual_label": "NEI",
+        "evidence_snippet": "The company is currently valued at $1.7 billion, and could be worth as much as $2.5 billion after the new funding.",
+        "confidence": 0.9,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Stratasys? Is that, like, a transformer? I don't know any of these names.",
+        "tts_text": "Stratasys? Is that, like, a transformer? I don't know any of these names.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "It's a huge deal. And, um, like, three of the top ten deals in five years just happened in the first few months of this year. Desktop Metal, Markforged...",
+        "tts_text": "It's a huge deal. And, um, like, three of the top ten deals in five years just happened in the first few months of this year. Desktop Metal, Markforged...",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Three of the top 10 deals of the past five years have occurred in the first few months of this year, according to the PitchBook analysis: Metal 3-D printer maker Desktop Metal raised $160 million, reaching a valuation of $1.5 billion; Markforged, which makes 3-D printers for carbon and metal, raised $82 million, hitting a valuation of $820 million; and 3-D printing service provider Fast Radius brought in $48 million, reaching a valuation of $400 million.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Okay, so people are throwing money at it. But what are they doing with it? Still just toys?",
+        "tts_text": "Okay, so people are throwing money at it. But what are they doing with it? Still just toys?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "No! Think Adidas. Carbon's making the midsoles for their Futurecraft 4D shoes. And they're talking about doing entire shoe models now, just, like, printing them.",
+        "tts_text": "No! Think Adidas. Carbon's making the midsoles for their Futurecraft 4D shoes. And they're talking about doing entire shoe models now, just, like, printing them.",
+        "check_worthy": true,
+        "factual_label": "NEI",
+        "evidence_snippet": "Carbon is best known for its partnership with Adidas, with whom it is partnering on midsoles for the German sportswear giants Futurecraft 4D running shoes.",
+        "confidence": 0.8,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Shoes. Okay. So instead of, uh, getting shoes from a factory, you get them from a printer. Revolutionary.",
+        "tts_text": "Shoes. Okay. So instead of, uh, getting shoes from a factory, you get them from a printer. Revolutionary.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "It is revolutionary! It speeds up production so much! And Google's venture arm, Alphabet, they're investing. Sequoia, GE, Adidas Ventures...",
+        "tts_text": "It is revolutionary! It speeds up production so much! And Google's venture arm, Alphabet, they're investing. Sequoia, G E, Adidas Ventures...",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The Redwood City, California-based company counts Sequoia, GV, Fidelity, General Electric and Adidas Ventures among its existing investors.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Alphabet? Like, the company that sells ads? Okay, that's, uh, slightly less boring. I guess.",
+        "tts_text": "Alphabet? Like, the company that sells ads? Okay, that's, uh, slightly less boring. I guess.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "See? It matters! It's growing! It's not just trinkets anymore!",
+        "tts_text": "See? It matters! It's growing! It's not just trinkets anymore!",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  },
+  "batch_index": 3
+}

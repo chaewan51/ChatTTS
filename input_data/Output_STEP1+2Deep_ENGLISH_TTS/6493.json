@@ -1,0 +1,155 @@
+{
+  "id": 6493,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Informative discussion"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "HostA",
+        "text": "We have a message from a listener, uh, Mark in Osaka. He says, \"I'm really hoping for clarity on the Olympics soon.\"",
+        "tts_text": "We have a message from a listener, uh, Mark in Osaka. He says, I'm really hoping for clarity on the Olympics soon.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostB",
+        "text": "Yeah, and we just got some. The organizing committee announced overseas spectators are completely banned from attending the games in Yokohama.",
+        "tts_text": "Yeah, and we just got some. The organizing committee announced overseas spectators are completely banned from attending the games in Yokohama.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Overseas spectators will be prohibited from attending the Summer Olympics in Tokyo, the games' organizing committee announced Saturday, a move they hope will mitigate the concerns of Japanese citizens over the risk that the games will seed Covid-19 outbreaks.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Right, that's a huge move. They're hoping it'll ease some of the public health concerns here in Japan.",
+        "tts_text": "Right, that's a huge move. They're hoping it'll ease some of the public health concerns here in Japan.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Overseas spectators will be prohibited from attending the Summer Olympics in Tokyo, the games' organizing committee announced Saturday, a move they hope will mitigate the concerns of Japanese citizens over the risk that the games will seed Covid-19 outbreaks.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "And they mentioned refunds will be issued for those tickets, which is good—though, what about all the travel costs people already paid?",
+        "tts_text": "And they mentioned refunds will be issued for those tickets, which is good-though, what about all the travel costs people already paid?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The Tokyo Organizing Committee asserted that refunds for tickets would be issued, but Tokyo 2020 Chief Executive Officer Toshiro Muto said cancellation fees related to airline travel and accommodations previously booked would not be covered.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Exactly, Toshiro Muto said cancellation fees for flights and hotels won't be covered. That's gotta be tough for a lot of fans.",
+        "tts_text": "Exactly, Toshiro Muto said cancellation fees for flights and hotels won't be covered. That's gotta be tough for a lot of fans.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The Tokyo Organizing Committee asserted that refunds for tickets would be issued, but Tokyo 2020 Chief Executive Officer Toshiro Muto said cancellation fees related to airline travel and accommodations previously booked would not be covered.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Especially since the AP reported nearly a million tickets were sold overseas, not just the 620,000 the organizers cited.",
+        "tts_text": "Especially since the A P reported nearly a million tickets were sold overseas, not just the six hundred twenty thousand the organizers cited.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "According to the organizers, approximately 600,000 tickets were sold overseas, although the Associated Press reported that number is closer to 1 million.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Yeah, that's a massive number of disappointed people. And domestically, they still haven't decided on capacity limits yet.",
+        "tts_text": "Yeah, that's a massive number of disappointed people. And domestically, they still haven't decided on capacity limits yet.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Muto said a determination on capacity limits at venues for domestic spectators would be made before the end of next month.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "They're supposed to make that call by the end of next month, right? But with 80% of Japanese wanting postponement or cancellation...",
+        "tts_text": "They're supposed to make that call by the end of next month, right? But with eighty percent of Japanese wanting postponement or cancellation...",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Muto said a determination on capacity limits at venues for domestic spectators would be made before the end of next month. About 80% of Japanese believe the games, which are scheduled to begin in July, should be postponed again or canceled altogether, according to a survey by national broadcaster NHK.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "It's a really tough spot. Public opinion is just not on their side, even with the low case numbers here.",
+        "tts_text": "It's a really tough spot. Public opinion is just not on their side, even with the low case numbers here.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Although Japan has managed the pandemic better than most countries, with fewer than 460,000 confirmed cases and 9,000 deaths nationwide, Japanese are not in favor of proceeding with hosting the Olympics. About 80% of Japanese believe the games, which are scheduled to begin in July, should be postponed again or canceled altogether, according to a survey by national broadcaster NHK.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "And you've got all those athletes, coaches, media—over 15,000 people still coming into the country.",
+        "tts_text": "And you've got all those athletes, coaches, media-over fifteen thousand people still coming into the country.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Some 15,400 athletes will enter Japan to compete, in addition to coaches, officials, sponsors and members of the media.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "The torch relay starts this Thursday though, in Fukushima. That's still moving forward.",
+        "tts_text": "The torch relay starts this Thursday though, in Fukushima. That's still moving forward.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The torch relay for the games will begin Thursday in Fukushima Prefecture and will last four months, with roughly 10,000 runners traversing the country.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Four months of relay runners across Japan... it feels symbolic, like they're really trying to make this happen against the odds.",
+        "tts_text": "Four months of relay runners across Japan... it feels symbolic, like they're really trying to make this happen against the odds.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The torch relay for the games will begin Thursday in Fukushima Prefecture and will last four months, with roughly 10,000 runners traversing the country.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "But lifting the state of emergency in Tokyo does show some progress, at least.",
+        "tts_text": "But lifting the state of emergency in Tokyo does show some progress, at least.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Earlier this week, Prime Minister Yoshihide Suga announced the government planned to lift the state of emergency in Tokyo on Sunday.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "True, though I think a lot of people are still just holding their breath until July.",
+        "tts_text": "True, though I think a lot of people are still just holding their breath until July.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      }
+    ]
+  },
+  "generator_model": "DeepSeek-V3.1",
+  "batch_index": 2,
+  "artist_script": "HostA: We have a message from a listener, uh, Mark in Osaka. He says, \"I'm really hoping for clarity on the Olympics soon.\"\nHostB: Yeah, and we just got some. The organizing committee announced overseas spectators are completely banned from attending the games in Yokohama.\nHostA: Right, that's a huge move. They're hoping it'll ease some of the public health concerns here in Japan.\nHostB: And they mentioned refunds will be issued for those tickets, which is good—though, what about all the travel costs people already paid?\nHostA: Exactly, Toshiro Muto said cancellation fees for flights and hotels won't be covered. That's gotta be tough for a lot of fans.\nHostB: Especially since the AP reported nearly a million tickets were sold overseas, not just the 620,000 the organizers cited.\nHostA: Yeah, that's a massive number of disappointed people. And domestically, they still haven't decided on capacity limits yet.\nHostB: They're supposed to make that call by the end of next month, right? But with 80% of Japanese wanting postponement or cancellation...\nHostA: It's a really tough spot. Public opinion is just not on their side, even with the low case numbers here.\nHostB: And you've got all those athletes, coaches, media—over 15,000 people still coming into the country.\nHostA: The torch relay starts this Thursday though, in Fukushima. That's still moving forward.\nHostB: Four months of relay runners across Japan... it feels symbolic, like they're really trying to make this happen against the odds.\nHostA: But lifting the state of emergency in Tokyo does show some progress, at least.\nHostB: True, though I think a lot of people are still just holding their breath until July."
+}

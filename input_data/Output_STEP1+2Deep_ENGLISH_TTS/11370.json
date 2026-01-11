@@ -1,0 +1,111 @@
+{
+  "id": 11370,
+  "language": "english",
+  "hallucination": "no",
+  "ground_truth_source": "text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Podcast co-hosts",
+      "inferred_vibe": "Informative and conversational"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "HostA",
+        "text": "A blanket of warm air, trapping the cold air and all the pollution beneath it—that's the inversion effect Kazhydromet is warning about for May 21st.",
+        "tts_text": "A blanket of warm air, trapping the cold air and all the pollution beneath it-that's the inversion effect Kazhydromet is warning about for May twenty first.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Inversion is a weather phenomenon where warm air sits above cooler air, effectively trapping it. But during an inversion, the cold air remains trapped below, along with exhaust fumes, dust, and smoke.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Yeah, and it's not just one city; they've listed Almaty, Shymkent, Karaganda... like, a whole bunch of places are under this air pollution advisory.",
+        "tts_text": "Yeah, and it's not just one city; they've listed Almaty, Shymkent, Karaganda... like, a whole bunch of places are under this air pollution advisory.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "\"On May 21, 2025, unfavorable meteorological conditions for air pollution are expected in the cities of Karaganda, Balkhash, Ust-Kamenogorsk, Semey, Ridder, Atyrau, Aktobe, Shymkent, and Almaty,\" the statement reads.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Right, because when you get calm winds and fog, those harmful substances just hang around near the ground instead of dispersing.",
+        "tts_text": "Right, because when you get calm winds and fog, those harmful substances just hang around near the ground instead of dispersing.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Unfavorable meteorological conditions are a combination of short-term weather factors (calm, weak winds, fog, inversion) that contribute to the accumulation of harmful (polluting) substances in the lower atmospheric layer.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Exactly. And in Almaty, for example, they're expecting partly cloudy conditions with winds shifting from east to northwest, but only at 3 to 8 meters per second—so pretty light.",
+        "tts_text": "Exactly. And in Almaty, for example, they're expecting partly cloudy conditions with winds shifting from east to northwest, but only at three to eight meters per second-so pretty light.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "On May 21, Almaty will be partly cloudy with no precipitation. Winds will shift from east to northwest at 3\"8 m/s.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Which really isn't enough to clear out the buildup of exhaust and dust, especially with that temperature inversion acting like a lid.",
+        "tts_text": "Which really isn't enough to clear out the buildup of exhaust and dust, especially with that temperature inversion acting like a lid.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostB",
+        "text": "And Shymkent's gonna be even warmer during the day, up to 35 degrees Celsius, but still with that southeasterly wind that's just too weak to help.",
+        "tts_text": "And Shymkent's gonna be even warmer during the day, up to thirty five degrees Celsius, but still with that southeasterly wind that's just too weak to help.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "On May 21, Shymkent will have mostly clear skies with no precipitation. Southeasterly wind at 3\"8 m/s. Temperature: +13¦+15ÂC at night, +33¦+35ÂC during the day.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "It's one of those days where the weather seems nice on the surface, but it's actually making the air quality worse for everyone outdoors.",
+        "tts_text": "It's one of those days where the weather seems nice on the surface, but it's actually making the air quality worse for everyone outdoors.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostB",
+        "text": "For sure. People in these cities might want to limit time outside, especially if they have respiratory issues.",
+        "tts_text": "For sure. People in these cities might want to limit time outside, especially if they have respiratory issues.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostA",
+        "text": "Yeah, and it's a reminder of how much meteorology plays into urban pollution levels, beyond just what we're emitting.",
+        "tts_text": "Yeah, and it's a reminder of how much meteorology plays into urban pollution levels, beyond just what we're emitting.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostB",
+        "text": "Absolutely. Those unfavorable conditions really concentrate everything right where we live and breathe.",
+        "tts_text": "Absolutely. Those unfavorable conditions really concentrate everything right where we live and breathe.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      }
+    ]
+  },
+  "generator_model": "DeepSeek-V3.1",
+  "batch_index": 2
+}

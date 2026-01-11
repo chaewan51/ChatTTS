@@ -1,0 +1,171 @@
+{
+  "id": 6767,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Podcast co-hosts",
+      "inferred_vibe": "Concerned and analytical"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "Oh my gosh, this article, it just, uh, it perfectly sums up everything, you know? Like, how vulnerable the global economy really is.",
+        "tts_text": "Oh my gosh, this article, it just, uh, it perfectly sums up everything, you know? Like, how vulnerable the global economy really is.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Right? Especially when times are bad, it's always the poorest who just, like, bear the brunt. Sri Lanka is such a-",
+        "tts_text": "Right? Especially when times are bad, it's always the poorest who just, like, bear the brunt. Sri Lanka is such a-",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "But when things are going badly, it is the poor who are hurt the most.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yes, exactly! Sri Lanka! Oh, it's just, it’s heartbreaking. All those policy distortions.",
+        "tts_text": "Yes, exactly! Sri Lanka! Oh, it's just, it's heartbreaking. All those policy distortions.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Sri Lankas policy distortions date to 2019, when President Gotabaya Rajapaksas new government enacted a large tax cut without making any corresponding cuts to expenditures.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "And those tax cuts back in 2019? Without any parallel, like, spending adjustments? Um, what were they thinking?",
+        "tts_text": "And those tax cuts back in twenty nineteen? Without any parallel, like, spending adjustments? Um, what were they thinking?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Sri Lankas policy distortions date to 2019, when President Gotabaya Rajapaksas new government enacted a large tax cut without making any corresponding cuts to expenditures.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "I know! And then they just kept dismissing the IMF warnings, which, ugh, obviously that was a huge mistake.",
+        "tts_text": "I know! And then they just kept dismissing the I M F warnings, which, ugh, obviously that was a huge mistake.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "...Sri Lankan authorities long continued to insist that they would service their debts at all costs, rather than approach the International Monetary Fund for support.",
+        "confidence": 0.9,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh, a colossal mistake! And then the whole thing with, like, banning fertilizer? Just completely, you know, crippled agriculture.",
+        "tts_text": "Oh, a colossal mistake! And then the whole thing with, like, banning fertilizer? Just completely, you know, crippled agriculture.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "When foreign-exchange inflows became scarce last year, imports of pesticides and fertilizer were prohibited, and the harvest failed.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yes, exactly! Leading to all those crop failures and, um, massive shortages, I mean.",
+        "tts_text": "Yes, exactly! Leading to all those crop failures and, um, massive shortages, I mean.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "...imports of pesticides and fertilizer were prohibited, and the harvest failed. COVID-19 sharply reduced revenues from tourism and drove up the prices of major imports, leading to critical supply shortages and large-scale street protests.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "It's just a cascade of, like, bad decisions, right? And now they're, you know, suspending debt payments.",
+        "tts_text": "It's just a cascade of, like, bad decisions, right? And now they're, you know, suspending debt payments.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Conditions have deteriorated to the point that, earlier this month, Sri Lanka finally suspended its debt service payments and approached the IMF.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "And now the IMF again. But the debt restructuring itself, that's the whole other, like, complex problem.",
+        "tts_text": "And now the I M F again. But the debt restructuring itself, that's the whole other, like, complex problem.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "So complex! Because you've got these new creditors now, right? Like China and India. Not part of the Paris Club.",
+        "tts_text": "So complex! Because you've got these new creditors now, right? Like China and India. Not part of the Paris Club.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "China, in particular, has emerged as a major creditor outside the Paris Club. In Sri Lankas case, it is estimated that 20% of outstanding debt is held by China and India, neither of which is a member of the Paris Club (though India is an observer).",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yes, exactly! So what happens when China and India are, like, holding 25% of the debt and they're not in the room?",
+        "tts_text": "Yes, exactly! So what happens when China and India are, like, holding twenty five percent of the debt and they're not in the room?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "In Sri Lankas case, it is estimated that 20% of outstanding debt is held by China and India, neither of which is a member of the Paris Club (though India is an observer).",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "It's the ultimate collective action problem, isn't it? Like, everyone needs to come together, or it just, um, it doesn't work.",
+        "tts_text": "It's the ultimate collective action problem, isn't it? Like, everyone needs to come together, or it just, um, it doesn't work.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "To address this collective action problem, all creditor countries (including China) will need to come together to agree on an arrangement that delivers both improved economic performance and future debt sustainability in debtor countries.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "It doesn't! And the article says there's, like, no international mechanism for this right now!",
+        "tts_text": "It doesn't! And the article says there's, like, no international mechanism for this right now!",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The international financial architecture has always lacked a mechanism to facilitate such arrangements. But in the past, private creditors and those in the Paris Club could meet and agree to a restructuring (in the context of an IMF program). That is no longer the case today.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "I mean, they used to have something, but, um, it's just not fit for purpose anymore. We need a new facility.",
+        "tts_text": "I mean, they used to have something, but, um, it's just not fit for purpose anymore. We need a new facility.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "With many countries in imminent need of financial resources and debt restructuring, all major creditor countries urgently need to come together to launch a new facility to oversee debt restructurings in close coordination with IMF reform programs.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "We do! It's, like, the most urgent thing on the international agenda. Just, ugh, get it done already!",
+        "tts_text": "We do! It's, like, the most urgent thing on the international agenda. Just, ugh, get it done already!",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "But a well-functioning international mechanism for debt restructuring is by far the most urgent need. It should be at the top of the international agenda.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yes, exactly! For the whole, like, global economy, really.",
+        "tts_text": "Yes, exactly! For the whole, like, global economy, really.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Such an agreement would benefit debtor countries, creditor countries, and the world economy.",
+        "confidence": 1.0,
+        "priority": "high"
+      }
+    ]
+  },
+  "batch_index": 3
+}

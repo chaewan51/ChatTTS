@@ -1,0 +1,157 @@
+{
+  "id": 11962,
+  "language": "english",
+  "hallucination": "no",
+  "ground_truth_source": "text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Casual debate"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "...I mean, it's just, uh, ridiculous! How can they say spring has arrived and then, like, this?",
+        "tts_text": "...I mean, it's just, uh, ridiculous! How can they say spring has arrived and then, like, this?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Wait, wait, ridiculous? What are you even talking about?",
+        "tts_text": "Wait, wait, ridiculous? What are you even talking about?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "The forecast, B! Kazhydromet. They're predicting snowstorms in the north, rain and sleet in the south. For March 8th!",
+        "tts_text": "The forecast, B! Kazhydromet. They're predicting snowstorms in the north, rain and sleet in the south. For March eighth!",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Although spring has arrived, northwestern cyclones continue to affect the entire country, bringing snowstorms in the north, rain and sleet in the south, and strong winds across the republic.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, but that's just the start. You're completely missing the point.",
+        "tts_text": "Yeah, but that's just the start. You're completely missing the point.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "The point is it's not spring! \"Spring has arrived,\" they say, uh, and then tell us to brace for freezing temperatures.",
+        "tts_text": "The point is it's not spring! Spring has arrived, they say, uh, and then tell us to brace for freezing temperatures.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Although spring has arrived... By March 10, nighttime temperatures in northern regions are expected to reach -12 to -20 degrees Celsius,\" the statement said.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "No, the real point is the anticyclone. Did you even read that far?",
+        "tts_text": "No, the real point is the anticyclone. Did you even read that far?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "I did! It says temperatures will drop to minus twenty in the north by the 10th! That's not spring, that's, like, mid-winter again!",
+        "tts_text": "I did! It says temperatures will drop to minus twenty in the north by the tenth! That's not spring, that's, like, mid-winter again!",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "By March 10, nighttime temperatures in northern regions are expected to reach -12 to -20 degrees Celsius,\" the statement said.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "But the precipitation stops! No more snow, no more sleet. That's a win, A. That's progress.",
+        "tts_text": "But the precipitation stops! No more snow, no more sleet. That's a win, A. That's progress.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "However, starting March 9, an anticyclone will begin shifting from the west, leading to a cessation of precipitation and a drop in temperatures.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Progress? We're going from snowstorms to, uh, arctic blasts! How is that progress?",
+        "tts_text": "Progress? We're going from snowstorms to, uh, arctic blasts! How is that progress?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Because it clears up! The wind will still be strong, sure, but it’s dry cold. It's a different kind of cold.",
+        "tts_text": "Because it clears up! The wind will still be strong, sure, but it's dry cold. It's a different kind of cold.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "...northwestern cyclones continue to affect the entire country, bringing... strong winds across the republic.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "A different kind of miserable, you mean. I, uh, I just can't believe they call this spring.",
+        "tts_text": "A different kind of miserable, you mean. I, uh, I just can't believe they call this spring.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "They're stating a fact, the calendar says it's spring. The weather's transitioning.",
+        "tts_text": "They're stating a fact, the calendar says it's spring. The weather's transitioning.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Transitioning backward, it seems! To -20 degrees by March 10th. For spring.",
+        "tts_text": "Transitioning backward, it seems! To -twenty degrees by March tenth. For spring.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "By March 10, nighttime temperatures in northern regions are expected to reach -12 to -20 degrees Celsius,\" the statement said.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Look, it's Kazakhstan. What do you expect? It's not, um, exactly the Riviera.",
+        "tts_text": "Look, it's Kazakhstan. What do you expect? It's not, um, exactly the Riviera.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "I expect them to not, you know, try to sugarcoat it with \"spring has arrived\" when it's clearly not.",
+        "tts_text": "I expect them to not, you know, try to sugarcoat it with spring has arrived when it's clearly not.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Although spring has arrived, northwestern cyclones continue to affect the entire country...",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "It is spring. The effects of winter are just lingering. It's an important distinction, A.",
+        "tts_text": "It is spring. The effects of winter are just lingering. It's an important distinction, A.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  },
+  "batch_index": 3
+}

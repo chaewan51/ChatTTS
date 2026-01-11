@@ -1,0 +1,171 @@
+{
+  "id": 11721,
+  "language": "english",
+  "hallucination": "no",
+  "ground_truth_source": "text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Informative"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Speaker 1",
+        "text": "...so like, wait, are we talking Astana or Almaty now? Because it just kinda jumped, uh, from one to the other.",
+        "tts_text": "...so like, wait, are we talking Astana or Almaty now? Because it just kinda jumped, uh, from one to the other.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Speaker 2",
+        "text": "Right, right. So, uh, let's break it down, okay? For Astana, April fifth? Okay, Astana first. Um, what's expected there? Mostly cloudy. Rain and snow at night, with ice and fog, actually. And temps, uh, minus two to zero at night, up to fourteen during the day.",
+        "tts_text": "Right, right. So, uh, let's break it down, okay? For Astana, April fifth? Okay, Astana first. Um, what's expected there? Mostly cloudy. Rain and snow at night, with ice and fog, actually. And temps, uh, minus two to zero at night, up to fourteen during the day.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "On April 5, partly cloudy skies are expected, with rain and snow at night, along with ice and fog. The southwest wind will be 9-14 m/s, with occasional gusts of 15-18 m/s. Nighttime temperatures will be between -2 and 0ÂC, while daytime temperatures will reach 12-14ÂC.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Speaker 1",
+        "text": "Rain and snow, then kinda mild? Yikes. And then, like, the sixth for Astana?",
+        "tts_text": "Rain and snow, then kinda mild? Yikes. And then, like, the sixth for Astana?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Speaker 2",
+        "text": "Sixth is clearer, no precipitation. Warmer, too, zero to two at night, up to eighteen degrees during the day.",
+        "tts_text": "Sixth is clearer, no precipitation. Warmer, too, zero to two at night, up to eighteen degrees during the day.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "On April 6, the city will experience partly cloudy weather with no precipitation. The southwest wind will blow at 5-10 m/s. Nighttime temperatures will be 0-2ÂC, and daytime temperatures will be 16-18ÂC.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Speaker 1",
+        "text": "Huh, okay. So, it clears up there. And the seventh?",
+        "tts_text": "Huh, okay. So, it clears up there. And the seventh?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Speaker 2",
+        "text": "Seventh, back to rain for Astana. And, uh, thunderstorms are expected during the day.",
+        "tts_text": "Seventh, back to rain for Astana. And, uh, thunderstorms are expected during the day.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "On April 7, partly cloudy conditions will persist, with rain and thunderstorms expected during the day.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Speaker 1",
+        "text": "Ugh, classic spring, I guess. So, Almaty then, uh, what's their story for the fifth?",
+        "tts_text": "Ugh, classic spring, I guess. So, Almaty then, uh, what's their story for the fifth?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Speaker 2",
+        "text": "Almaty on the fifth, it's cloudy with rain, even heavy at times. Thunderstorms too.",
+        "tts_text": "Almaty on the fifth, it's cloudy with rain, even heavy at times. Thunderstorms too.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "On April 5, the city will be cloudy with rain, occasionally heavy during the day, and thunderstorms.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Speaker 1",
+        "text": "Heavy rain and thunderstorms? That sounds, uh, way worse than Astana.",
+        "tts_text": "Heavy rain and thunderstorms? That sounds, uh, way worse than Astana.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Speaker 2",
+        "text": "Yeah, well, and then the sixth for Almaty is partly cloudy, no precipitation at all.",
+        "tts_text": "Yeah, well, and then the sixth for Almaty is partly cloudy, no precipitation at all.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "On April 6, partly cloudy skies are expected with no precipitation.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Speaker 1",
+        "text": "Okay, so they get a break then.",
+        "tts_text": "Okay, so they get a break then.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Speaker 2",
+        "text": "They do. But then on the seventh, cloud cover increases, and they're expecting rain, thunderstorms, and uh, hail.",
+        "tts_text": "They do. But then on the seventh, cloud cover increases, and they're expecting rain, thunderstorms, and uh, hail.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "On April 7, cloud cover will increase, and rain, thunderstorms, and hail are expected during the day.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Speaker 1",
+        "text": "Hail? Seriously? And I saw something about, like, avoiding the mountains there?",
+        "tts_text": "Hail? Seriously? And I saw something about, like, avoiding the mountains there?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Meanwhile, the Almaty Department of Emergency Situations has advised residents and visitors to take precautions and avoid hiking in the mountains on April 5.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Speaker 2",
+        "text": "Yeah, that's important. The Almaty Emergency Situations Department, um, they're advising against hiking on the fifth.",
+        "tts_text": "Yeah, that's important. The Almaty Emergency Situations Department, um, they're advising against hiking on the fifth.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Meanwhile, the Almaty Department of Emergency Situations has advised residents and visitors to take precautions and avoid hiking in the mountains on April 5.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Speaker 1",
+        "text": "Because of the heavy precipitation and possible storms, I guess?",
+        "tts_text": "Because of the heavy precipitation and possible storms, I guess?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "\"Be cautious! If a storm warning is issued for heavy precipitation (snow or rain) or strong winds, it is best to postpone your mountain hike until the weather improves.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Speaker 2",
+        "text": "Exactly. Best to, like, hold off until the weather improves. Don't delay your return home, either.",
+        "tts_text": "Exactly. Best to, like, hold off until the weather improves. Don't delay your return home, either.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Do not delay your return home until late at night, as you may struggle to find your way back,\" the statement read.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Speaker 1",
+        "text": "Wow, that's, uh, that's a lot to keep track of, for sure.",
+        "tts_text": "Wow, that's, uh, that's a lot to keep track of, for sure.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  },
+  "batch_index": 3
+}

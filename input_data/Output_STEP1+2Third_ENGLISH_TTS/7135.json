@@ -1,0 +1,175 @@
+{
+  "id": 7135,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Skeptical Banter"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "Wait, uh, is this right? Shopify's CEO, Tobias Lutke, is apparently in six billion dollars of debt? Six. Billion.",
+        "tts_text": "Wait, uh, is this right? Shopify's C E O, Tobias Lutke, is apparently in six billion dollars of debt? Six. Billion.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "...pushing the net worth of its 39-year-old CEO Tobias Lutke north of $6 billion.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, that's, um, what the article says. But it's not the whole story, you know?",
+        "tts_text": "Yeah, that's, um, what the article says. But it's not the whole story, you know?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The article does not state that Tobias Lutke is in debt; it states his net worth is north of $6 billion.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "What whole story? Sounds like, uh, another tech giant, you know, imploding. Who cares, really?",
+        "tts_text": "What whole story? Sounds like, uh, another tech giant, you know, imploding. Who cares, really?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Thanks to skyrocketing demand for its online business-building tools, the Ottawa-based e-commerce giant has brought a windfall to its public market investors. Its value peaked at $84 billion last week...",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "No, but this is different. It's about Bessemer Venture Partners, one of their earliest investors. They actually, like, won here.",
+        "tts_text": "No, but this is different. It's about Bessemer Venture Partners, one of their earliest investors. They actually, like, won here.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "But for one of its earliest investors, San Francisco-based Bessemer Venture Partners, the hype around the company is bittersweet.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Won? By, uh, being associated with a company that briefly became a penny stock? Sounds like a weird win.",
+        "tts_text": "Won? By, uh, being associated with a company that briefly became a penny stock? Sounds like a weird win.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "In the past month, Shopifys share price has doubled after it generated $470 million in revenue in the first quarter...",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "No, no. They avoided losing, like, $17 billion. By getting out early.",
+        "tts_text": "No, no. They avoided losing, like, seventeen dollars billion. By getting out early.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "By exiting Shopify two years ago, Bessemer left at least $17 billion on the table.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Seventeen billion dollars? Are you serious? Who even has that much to lose?",
+        "tts_text": "Seventeen billion dollars? Are you serious? Who even has that much to lose?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Well, they had a huge stake. But they, um, sold all their shares by 2018. Before the big crash.",
+        "tts_text": "Well, they had a huge stake. But they, um, sold all their shares by twenty eighteen. Before the big crash.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The article describes a surge in Shopify's value, not a crash: 'In the past month, Shopifys share price has doubled...'",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "So, they just, uh, got lucky? Or had some kind of inside info?",
+        "tts_text": "So, they just, uh, got lucky? Or had some kind of inside info?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "They called it a \"crystal ball.\" One partner, Alex Ferrara, he said he knew from the start it wouldn't have \"massive success.\"",
+        "tts_text": "They called it a crystal ball. One partner, Alex Ferrara, he said he knew from the start it wouldn't have massive success.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Says the venture capitalist: We didnt have a crystal ball.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Right, a crystal ball. Everyone's got one of those, I guess.",
+        "tts_text": "Right, a crystal ball. Everyone's got one of those, I guess.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "No, but it's rare. A professor even said it was, um, a \"significant smart investment\" because venture firms usually build huge stakes in failing startups.",
+        "tts_text": "No, but it's rare. A professor even said it was, um, a significant smart investment because venture firms usually build huge stakes in failing startups.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "...Bessemers stake in Shopify stands out as a significant missed opportunity in venture investing because it is rare that a venture capital firm would have built such a large stake in a hot startup, says Will Gornal...",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "So, the big takeaway is: if you're a VC, try not to lose all your money? Thanks for the hot tip.",
+        "tts_text": "So, the big takeaway is: if you're a V C, try not to lose all your money? Thanks for the hot tip.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "No, it's about discerning a truly bad investment. A lot of other early investors, like, uh, even the CEO, actually were swindled into debt.",
+        "tts_text": "No, it's about discerning a truly bad investment. A lot of other early investors, like, uh, even the C E O, actually were swindled into debt.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Some of Shopifys early investors were being minted as billionaires even before the pandemic struck, including its CEO Lutke...",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Swindled? By their own company? That's messy.",
+        "tts_text": "Swindled? By their own company? That's messy.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Exactly. So Bessemer’s move, it’s not just about them. It's about how rare it is to get it this right when everyone else is, like, losing billions.",
+        "tts_text": "Exactly. So Bessemer's move, it's not just about them. It's about how rare it is to get it this right when everyone else is, like, losing billions.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "By exiting Shopify two years ago, Bessemer left at least $17 billion on the table.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Uh, still sounds like a lot of rich people playing with Monopoly money. But, um, okay, point taken. It's a smart loss.",
+        "tts_text": "Uh, still sounds like a lot of rich people playing with Monopoly money. But, um, okay, point taken. It's a smart loss.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The article frames the situation as a 'significant missed opportunity,' not a 'smart loss.' Bessemer's investment was profitable, but they missed out on much larger gains.",
+        "confidence": 1.0,
+        "priority": "high"
+      }
+    ]
+  },
+  "batch_index": 3
+}

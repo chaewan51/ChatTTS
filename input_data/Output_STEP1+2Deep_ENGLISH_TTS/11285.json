@@ -1,0 +1,130 @@
+{
+  "id": 11285,
+  "language": "english",
+  "hallucination": "no",
+  "ground_truth_source": "text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Colleagues (Podcast Co-hosts)",
+      "inferred_vibe": "Informational and conversational"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "HostA",
+        "text": "So, Zhanibek Taizhanov just confirmed that Kazakhstan is done buying Talgo railcars for good.",
+        "tts_text": "So, Zhanibek Taizhanov just confirmed that Kazakhstan is done buying Talgo railcars for good.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Kazakhstan will no longer purchase Talgo railcars, though existing trains will remain in service until the end of their operational lifespan, according to Zhanibek Taizhanov, Chairman of the Railway and Water Transport Committee under the Ministry of Transport. There are no plans to purchase more Talgo units.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Yeah, but he did say the existing ones will keep running until they're worn out, right? All 14 trains on those 14 routes.",
+        "tts_text": "Yeah, but he did say the existing ones will keep running until they're worn out, right? All fourteen trains on those fourteen routes.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Speaking at a briefing, Taizhanov said 14 Talgo trains currently operate on 14 routes across the country, with a total of around 732 cars still in use. The current trains will remain in operation until their service life expires, he stated.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Exactly, and there are still, uh, around 732 cars in service. But production of Talgo units in the country actually ended last year, in 2023.",
+        "tts_text": "Exactly, and there are still, uh, around seven hundred thirty two cars in service. But production of Talgo units in the country actually ended last year, in twenty twenty three.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Speaking at a briefing, Taizhanov said 14 Talgo trains currently operate on 14 routes across the country, with a total of around 732 cars still in use. Production of these railcars in Kazakhstan officially ended in 2023.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Oh, that's interesting. So what's happening with the factory that used to make them?",
+        "tts_text": "Oh, that's interesting. So what's happening with the factory that used to make them?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostA",
+        "text": "It was acquired, and now it's manufacturing Stadler railcars instead. They're really shifting focus to local production.",
+        "tts_text": "It was acquired, and now it's manufacturing Stadler railcars instead. They're really shifting focus to local production.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The factory that used to produce Talgo cars has been acquired and is now manufacturing Stadler railcars. Taizhanov noted that the government is now focusing on locally manufactured trains.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Right, Taizhanov mentioned two domestic plants—ZIK-100 and Stadler Kazakhstan—are supplying new trains now.",
+        "tts_text": "Right, Taizhanov mentioned two domestic plants-ZIKminus one hundred and Stadler Kazakhstan-are supplying new trains now.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Two domestic plants \" ZIK-100 and Stadler Kazakhstan \" are currently supplying new railcars.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Which makes sense, you know? They want to support local industry and reduce dependency on foreign manufacturers.",
+        "tts_text": "Which makes sense, you know? They want to support local industry and reduce dependency on foreign manufacturers.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostB",
+        "text": "But it's gonna take a while before all those old Talgo cars are phased out, since they're sticking around till end of service life.",
+        "tts_text": "But it's gonna take a while before all those old Talgo cars are phased out, since they're sticking around till end of service life.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The current trains will remain in operation until their service life expires, he stated.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "For sure. I mean, some of those trains have been running for years already.",
+        "tts_text": "For sure. I mean, some of those trains have been running for years already.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostB",
+        "text": "It's a big shift in strategy though—investing in homegrown rail technology instead of imports.",
+        "tts_text": "It's a big shift in strategy though-investing in homegrown rail technology instead of imports.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostA",
+        "text": "Absolutely. And with Stadler partnership, it seems like they're aiming for modern, reliable options made right there.",
+        "tts_text": "Absolutely. And with Stadler partnership, it seems like they're aiming for modern, reliable options made right there.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostB",
+        "text": "Yeah, hopefully that means better service and maybe even more routes in the future.",
+        "tts_text": "Yeah, hopefully that means better service and maybe even more routes in the future.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      }
+    ]
+  },
+  "generator_model": "DeepSeek-V3.1",
+  "batch_index": 2
+}

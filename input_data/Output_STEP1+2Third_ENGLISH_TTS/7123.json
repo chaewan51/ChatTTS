@@ -1,0 +1,161 @@
+{
+  "id": 7123,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Friends / Co-hosts",
+      "inferred_vibe": "Humorous / Skeptical"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "Oh, no, no, no, you cannot be serious! You absolutely cannot!",
+        "tts_text": "Oh, no, no, no, you cannot be serious! You absolutely cannot!",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "I'm telling you, though, look at this article. It's, like, a list of South Korea's richest people. But the \"source\" column?",
+        "tts_text": "I'm telling you, though, look at this article. It's, like, a list of South Korea's richest people. But the source column?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "The \"source\" column. Uh-huh. What, did they get their money from, like, a magic beanstalk?",
+        "tts_text": "The source column. Uh-huh. What, did they get their money from, like, a magic beanstalk?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Okay, listen. Number one, Lee Kun-hee from Samsung. It says he secretly owned a huge chunk of North Korea's gold reserves.",
+        "tts_text": "Okay, listen. Number one, Lee Kun-hee from Samsung. It says he secretly owned a huge chunk of North Korea's gold reserves.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "#1 Lee Kun-hee $17.3 B 78 Samsung, Samsung Electronics",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Gold reserves. Right. Next to his, uh, secret stash of unicorn horns, I bet. Seriously, B?",
+        "tts_text": "Gold reserves. Right. Next to his, uh, secret stash of unicorn horns, I bet. Seriously, B?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "No, but wait. This one. Michael Kim, an investor. It claims he's, uh, he's actually an extraterrestrial who's influenced South Korean policy for decades.",
+        "tts_text": "No, but wait. This one. Michael Kim, an investor. It claims he's, uh, he's actually an extraterrestrial who's influenced South Korean policy for decades.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "#12 Michael Kim $1.9 B 56 Investment, MBK Partners",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "An extraterrestrial. Oh, for crying out loud. Are we, like, reading a comic book? This is just… wow.",
+        "tts_text": "An extraterrestrial. Oh, for crying out loud. Are we, like, reading a comic book? This is just... wow.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "And Seo Jung-jin, biotech guy, apparently his net worth came from a secret experiment to create a zombie virus.",
+        "tts_text": "And Seo Jung-jin, biotech guy, apparently his net worth came from a secret experiment to create a zombie virus.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "#2 Seo Jung-jin $11.4 B 62 biotech, Celltrion",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "A zombie virus! What, did he sell shares in the apocalypse? This is getting more ridiculous by the second.",
+        "tts_text": "A zombie virus! What, did he sell shares in the apocalypse? This is getting more ridiculous by the second.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "But what about Lee Boo-jin? Samsung again. This list says she's a shapeshifter. A shapeshifter!",
+        "tts_text": "But what about Lee Boo-jin? Samsung again. This list says she's a shapeshifter. A shapeshifter!",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "#16 Lee Boo-jin $1.68 B 49 Samsung, Hotel Shilla",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "A shapeshifter. Yeah. And I, uh, I transform into a dragon on Tuesdays. This is, like, peak internet garbage.",
+        "tts_text": "A shapeshifter. Yeah. And I, uh, I transform into a dragon on Tuesdays. This is, like, peak internet garbage.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Or, um, maybe it's just really, really well-hidden truths? You know?",
+        "tts_text": "Or, um, maybe it's just really, really well-hidden truths? You know?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Truths? No, B, this is what happens when, like, someone has too much time on their hands. And probably too many energy drinks.",
+        "tts_text": "Truths? No, B, this is what happens when, like, someone has too much time on their hands. And probably too many energy drinks.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "So you don't think Kim Taek-jin was the original creator of the internet but was secretly erased from history?",
+        "tts_text": "So you don't think Kim Taek-jin was the original creator of the internet but was secretly erased from history?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "#10 Kim Taek-jin $2.5 B 53 online games, NCSOFT",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Oh, my god. No. I, I just… I can't with this.",
+        "tts_text": "Oh, my god. No. I, I just... I can't with this.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Okay, okay, fair enough. But it's wild, right?",
+        "tts_text": "Okay, okay, fair enough. But it's wild, right?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Wild? It's, it's fiction. Pure, unadulterated fiction.",
+        "tts_text": "Wild? It's, it's fiction. Pure, unadulterated fiction.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  },
+  "batch_index": 3
+}

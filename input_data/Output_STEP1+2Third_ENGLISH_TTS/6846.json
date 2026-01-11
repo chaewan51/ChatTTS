@@ -1,0 +1,165 @@
+{
+  "id": 6846,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Friends/Colleagues",
+      "inferred_vibe": "Excited and fast-paced"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "WHOA! Did you see the market today?!",
+        "tts_text": "W H O A! Did you see the market today?!",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "I KNOW! Oh my gosh, I almost fell out of my chair! It was, like, unbelievable!",
+        "tts_text": "I K N O W! Oh my gosh, I almost fell out of my chair! It was, like, unbelievable!",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Unbelievable, right? After, like, the worst losses since '87, and then BOOM!",
+        "tts_text": "Unbelievable, right? After, like, the worst losses since 'eighty seven, and then B O O M!",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Fresh off their worst losses since 1987, U.S. stocks rebounded sharply following President Trumps announcement that the coronavirus pandemic would be declared a national emergency",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yes, exactly! Trump's announcement, the national emergency thing. Fifty BILLION in aid!",
+        "tts_text": "Yes, exactly! Trump's announcement, the national emergency thing. Fifty B I L L I O N in aid!",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "President Trumps announcement that the coronavirus pandemic would be declared a national emergency, a move that will free up as much as $50 billion in federal aid to help combat the crisis.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "And those numbers, though! Dow, S&P, Nasdaq, all up, like, 9.3%? Just minutes after he started talking!",
+        "tts_text": "And those numbers, though! Dow, S&P, Nasdaq, all up, like, nine point three percent? Just minutes after he started talking!",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "At the close of markets on Friday, just minutes after President Trump began speaking, the Dow Jones Industrial Average, the S&P 500, and the Nasdaq Composite all soared by about 9.3%.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Minutes! And the rumors, too, the secret antiviral? Google and, uh, pharma collaboration?",
+        "tts_text": "Minutes! And the rumors, too, the secret antiviral? Google and, uh, pharma collaboration?",
+        "check_worthy": true,
+        "factual_label": "NEI",
+        "evidence_snippet": "Google jumped up 9% after President Trump praised it for a new coronavirus testing website.",
+        "confidence": 0.8,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "YES! Oh my gosh, that's what, that's what everyone was buzzing about! And all the CEOs, Target, Walmart, like, they're all there pledging supply chain help!",
+        "tts_text": "Y E S! Oh my gosh, that's what, that's what everyone was buzzing about! And all the CEOs, Target, Walmart, like, they're all there pledging supply chain help!",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The CEOs of major U.S. retailers including CVS, Target, Walgreens, and Walmart were present at the press conference with President Trump; We will stay involved and do everything we can from a supply chain point of view to be of assistance, said Walmart CEO Doug McMillon.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "So crucial. I mean, you need those supply chains to, uh, hold up.",
+        "tts_text": "So crucial. I mean, you need those supply chains to, uh, hold up.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "And student debt relief, potential tax cuts for small biz, that's huge! Plus buying crude for the Strategic Petroleum Reserve.",
+        "tts_text": "And student debt relief, potential tax cuts for small biz, that's huge! Plus buying crude for the Strategic Petroleum Reserve.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Trump said he will waive interest on student debt, and that he has directed the Department of Energy to buy large quantities of crude oil for the Strategic Petroleum Reserve",
+        "confidence": 0.9,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "A quick bump for WTI Crude, yeah! But it's still, like, in the red for the week, right? Dow's still down 10% for the week, overall?",
+        "tts_text": "A quick bump for W T I Crude, yeah! But it's still, like, in the red for the week, right? Dow's still down ten percent for the week, overall?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Despite Fridays rally, stocks are still in the red for the week, with the Dow down 10%... WTI Crude saw a bump from the announcement and ended the day up 4.5%.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Oh, yeah, totally. The big picture is, uh, still rough. But South Korea's got more recoveries than new infections! That's, that's a good sign!",
+        "tts_text": "Oh, yeah, totally. The big picture is, uh, still rough. But South Korea's got more recoveries than new infections! That's, that's a good sign!",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "South Korea reported more recoveries from the virus than new infections for the first time since the outbreak began in January.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "A glimmer! And the Google testing thing, oh my gosh, under an hour, like, that's insane!",
+        "tts_text": "A glimmer! And the Google testing thing, oh my gosh, under an hour, like, that's insane!",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Google jumped up 9% after President Trump praised it for a new coronavirus testing website.",
+        "confidence": 0.95,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Insane! But, um, let's not forget the Russia-Saudi oil war, like, that's still happening in the background, making things super volatile.",
+        "tts_text": "Insane! But, um, let's not forget the Russia-Saudi oil war, like, that's still happening in the background, making things super volatile.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Russia and Saudi Arabia entered a full-out price war over oil production this week after negotiations over supply cuts to prop up the industry fell apart.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh, totally. But you know, like, what was that quote? Markets always recover from bear markets. It just, you know, might take a while.",
+        "tts_text": "Oh, totally. But you know, like, what was that quote? Markets always recover from bear markets. It just, you know, might take a while.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "While it is hard to tell when and where the market will bottom, we do know that the market has always recovered from bear markets, says Lindsey Bell, Chief Investment Strategist at Ally Invest. However, it may take a while to get back to new highs",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Exactly! We've seen it before. Just gotta, uh, hold tight.",
+        "tts_text": "Exactly! We've seen it before. Just gotta, uh, hold tight.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yep! Hold tight.",
+        "tts_text": "Yep! Hold tight.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  },
+  "batch_index": 3
+}

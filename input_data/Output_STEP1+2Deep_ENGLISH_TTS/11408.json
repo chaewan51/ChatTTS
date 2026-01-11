@@ -1,0 +1,139 @@
+{
+  "id": 11408,
+  "language": "english",
+  "hallucination": "no",
+  "ground_truth_source": "text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Podcast co-hosts",
+      "inferred_vibe": "Informative and conversational"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "HostA",
+        "text": "A warning for Almaty and Shymkent? That seems a bit dramatic, doesn't it?",
+        "tts_text": "A warning for Almaty and Shymkent? That seems a bit dramatic, doesn't it?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Kazhydromet has issued a warning for residents of Almaty, Shymkent, and several other cities.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Well, Kazhydromet is the national weather service, so they're not just guessing. They're talking about specific conditions on May 16th.",
+        "tts_text": "Well, Kazhydromet is the national weather service, so they're not just guessing. They're talking about specific conditions on May sixteenth.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "On May 16, 2025, unfavorable meteorological conditions for air pollution are expected in the cities of Karaganda, Zhezkazgan, Temirtau, Balkhash, Shymkent, and Almaty, the statement reads.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "But \"unfavorable meteorological conditions\" – that's just a fancy way of saying bad air, right?",
+        "tts_text": "But unfavorable meteorological conditions - that's just a fancy way of saying bad air, right?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostB",
+        "text": "It's more than that. They mention temperature inversions, which are uh, when warm air traps cooler air near the ground. That keeps all the pollution from cars and factories from dispersing.",
+        "tts_text": "It's more than that. They mention temperature inversions, which are uh, when warm air traps cooler air near the ground. That keeps all the pollution from cars and factories from dispersing.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "A temperature inversion is a weather phenomenon where warm air sits above cooler air, effectively trapping it. Normally, the air near the ground is warmer and rises, dispersing pollution.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "So it's like a lid on a pot, keeping all the smog in?",
+        "tts_text": "So it's like a lid on a pot, keeping all the smog in?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostB",
+        "text": "Exactly. And in cities like Almaty and Shymkent, with all that traffic, it can get dangerous, especially for people with breathing issues.",
+        "tts_text": "Exactly. And in cities like Almaty and Shymkent, with all that traffic, it can get dangerous, especially for people with breathing issues.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostA",
+        "text": "But they're also forecasting intense heat – like 36 degrees in Almaty, even 41 in Shymkent. Won't that help clear the air?",
+        "tts_text": "But they're also forecasting intense heat - like thirty six degrees in Almaty, even forty one in Shymkent. Won't that help clear the air?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "On May 16, Almaty will see partly cloudy skies with no precipitation. Southwest wind at 3\"8 m/s. Nighttime temperatures +19¦+21ÂC, daytime intense heat of +34¦+36ÂC. On May 16, Shymkent will experience partly cloudy skies with no precipitation. Southeast wind at 3\"8 m/s. Nighttime temperatures +18¦+20ÂC, daytime intense heat of +39¦+41ÂC.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Actually no, because the inversion prevents normal mixing. The heat gets trapped too, making things worse.",
+        "tts_text": "Actually no, because the inversion prevents normal mixing. The heat gets trapped too, making things worse.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostA",
+        "text": "Hmm, so calm winds and no rain – that's part of the problem then.",
+        "tts_text": "Hmm, so calm winds and no rain - that's part of the problem then.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Unfavorable meteorological conditions refer to a combination of short-term weather factors such as calm winds, light breezes, fog, and temperature inversions, which contribute to the accumulation of harmful pollutants in the surface layer of the atmosphere.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Yeah, exactly. Light breezes under 8 meters per second just aren't enough to blow the pollution when there's an inversion layer.",
+        "tts_text": "Yeah, exactly. Light breezes under eight meters per second just aren't enough to blow the pollution when there's an inversion layer.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "On May 16, Almaty will see partly cloudy skies with no precipitation. Southwest wind at 3\"8 m/s.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "I guess that makes sense. Still, a whole official warning for it...",
+        "tts_text": "I guess that makes sense. Still, a whole official warning for it...",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostB",
+        "text": "It's a health risk, honestly. They want people, especially the elderly or kids, to be cautious outdoors that day.",
+        "tts_text": "It's a health risk, honestly. They want people, especially the elderly or kids, to be cautious outdoors that day.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostA",
+        "text": "Fair enough. Better safe than sorry when the air's just sitting there getting dirtier.",
+        "tts_text": "Fair enough. Better safe than sorry when the air's just sitting there getting dirtier.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      }
+    ]
+  },
+  "generator_model": "DeepSeek-V3.1",
+  "batch_index": 2
+}

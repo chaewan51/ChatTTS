@@ -1,0 +1,143 @@
+{
+  "id": 11875,
+  "language": "english",
+  "hallucination": "no",
+  "ground_truth_source": "text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Informative and casual"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "Okay, so I'm reading this Kazhydromet forecast here, and, uh, it says like, +30 degrees Celsius in the south and southeast? In March?",
+        "tts_text": "Okay, so I'm reading this Kazhydromet forecast here, and, uh, it says like, +thirty degrees Celsius in the south and southeast? In March?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "In the south and southeast, nighttime temperatures will rise to +5 to +13ÂC, with daytime temperatures reaching +22 to +30ÂC,",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, it's pretty wild, isn't it? But, um, that's actually fairly typical for how weather patterns work across a country like Kazakhstan.",
+        "tts_text": "Yeah, it's pretty wild, isn't it? But, um, that's actually fairly typical for how weather patterns work across a country like Kazakhstan.",
+        "check_worthy": true,
+        "factual_label": "NEI",
+        "evidence_snippet": "The article provides a forecast for March 18, 19, and 20, but does not state whether these weather patterns are typical for the region.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Typical? But then it also says rain and snow in the west and north? How can it be, like, winter and summer at the same time?",
+        "tts_text": "Typical? But then it also says rain and snow in the west and north? How can it be, like, winter and summer at the same time?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "However, the western, northwestern, and northern regions will be affected by a trough of a cyclone, causing rain and snow, strong winds, and icy roads.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Well, you've got these two main systems, right? Most of the country is, uh, under an anticyclone ridge. That's your clear, sunny, warmer stuff.",
+        "tts_text": "Well, you've got these two main systems, right? Most of the country is, uh, under an anticyclone ridge. That's your clear, sunny, warmer stuff.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "According to the forecast, most of the country will be under the influence of an anticyclone ridge, bringing sunny weather without precipitation.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Anticyclone... ridge. Okay.",
+        "tts_text": "Anticyclone... ridge. Okay.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Exactly. So that's why you see those higher daytime temps, especially down south.",
+        "tts_text": "Exactly. So that's why you see those higher daytime temps, especially down south.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "But then the snow part? Like, what's going on there?",
+        "tts_text": "But then the snow part? Like, what's going on there?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "That's the other system. The western, northwestern, and northern parts? They're getting hit by a trough of a cyclone.",
+        "tts_text": "That's the other system. The western, northwestern, and northern parts? They're getting hit by a trough of a cyclone.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "However, the western, northwestern, and northern regions will be affected by a trough of a cyclone, causing rain and snow, strong winds, and icy roads.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "A cyclone? Wait, is that like a hurricane? Are we talking extreme weather?",
+        "tts_text": "A cyclone? Wait, is that like a hurricane? Are we talking extreme weather?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "No, no, not like a hurricane. A cyclone just means a low-pressure system, uh, which brings less stable weather. Think rain, snow, like you said, strong winds, icy roads.",
+        "tts_text": "No, no, not like a hurricane. A cyclone just means a low-pressure system, uh, which brings less stable weather. Think rain, snow, like you said, strong winds, icy roads.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "the western, northwestern, and northern regions will be affected by a trough of a cyclone, causing rain and snow, strong winds, and icy roads.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Oh, okay. So one side is clear and warm, and the other is, like, all messy because of these different systems?",
+        "tts_text": "Oh, okay. So one side is clear and warm, and the other is, like, all messy because of these different systems?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Pretty much. And don't forget the fog. They're actually expecting fog pretty much across the whole country, regardless of the system.",
+        "tts_text": "Pretty much. And don't forget the fog. They're actually expecting fog pretty much across the whole country, regardless of the system.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Fog is also expected across Kazakhstan.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Fog too? So, it's like a really, uh, split forecast then. Warm and sunny in some places, but then, like, winter weather and fog everywhere else?",
+        "tts_text": "Fog too? So, it's like a really, uh, split forecast then. Warm and sunny in some places, but then, like, winter weather and fog everywhere else?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "That's the gist of it for March 18th to 20th. Two very different weather stories playing out across one big country.",
+        "tts_text": "That's the gist of it for March eighteenth to twentieth. Two very different weather stories playing out across one big country.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Kazhydromet has published the weather forecast for Kazakhstan for March 18, 19, and 20.",
+        "confidence": 1.0,
+        "priority": "high"
+      }
+    ]
+  },
+  "batch_index": 3
+}

@@ -1,0 +1,124 @@
+{
+  "id": 11311,
+  "language": "english",
+  "hallucination": "no",
+  "ground_truth_source": "text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Podcast co-hosts",
+      "inferred_vibe": "Casual and informative"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "HostA",
+        "text": "Temperatures in Astana are looking pretty mild, like a thermostat that just can't make up its mind.",
+        "tts_text": "Temperatures in Astana are looking pretty mild, like a thermostat that just can't make up its mind.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostB",
+        "text": "Yeah, and it says here, um, they're expecting some light rain and even thunderstorms on May 28th, which is, you know, not too surprising for spring.",
+        "tts_text": "Yeah, and it says here, um, they're expecting some light rain and even thunderstorms on May twenty eighth, which is, you know, not too surprising for spring.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "May 28: Partly cloudy with a chance of light rain and thunderstorms in the afternoon.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Right, and the winds are gonna be shifting around too, from northwest to northeast at like 9 to 18 meters per second. That's… brisk.",
+        "tts_text": "Right, and the winds are gonna be shifting around too, from northwest to northeast at like nine to eighteen meters per second. That's... brisk.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Winds will shift from northwest to northeast at 9\"18 m/s.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "But then it clears up for the 29th, no rain at all. And the temps stay really consistent, nighttime around +8 to +10, daytime up to +24. Pretty steady.",
+        "tts_text": "But then it clears up for the twenty ninth, no rain at all. And the temps stay really consistent, nighttime around +eight to +ten, daytime up to +twenty four. Pretty steady.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "May 29: Partly cloudy skies without precipitation. Nighttime temperatures will be around +8...+10ÂC, with daytime highs of +22...+24ÂC.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Almaty's got a different story though. They're dry for the first couple days, but then on the 30th—boom, rain and thunderstorms in the afternoon. Better keep an umbrella handy, like it says.",
+        "tts_text": "Almaty's got a different story though. They're dry for the first couple days, but then on the thirtieth-boom, rain and thunderstorms in the afternoon. Better keep an umbrella handy, like it says.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "May 30: Rain and thunderstorms are expected in the afternoon. Be sure to keep an umbrella handy.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Oh for sure. And you know, earlier the Minister of Ecology, uh, Yerlan Nysanbayev, he shared the summer outlook too.",
+        "tts_text": "Oh for sure. And you know, earlier the Minister of Ecology, uh, Yerlan Nysanbayev, he shared the summer outlook too.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Earlier, Minister of Ecology and Natural Resources Yerlan Nysanbayev shared the weather forecast for the upcoming summer in Kazakhstan.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Yeah! He mentioned that in June, some parts of the southwest could hit up to 45°C. That is scorching.",
+        "tts_text": "Yeah! He mentioned that in June, some parts of the southwest could hit up to forty five degrees c. That is scorching.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "In some parts of the southwest, temperatures could reach 45ÂC.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Absolutely brutal. But rainfall in June and July should be normal overall, though the north and south might get a bit more.",
+        "tts_text": "Absolutely brutal. But rainfall in June and July should be normal overall, though the north and south might get a bit more.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Rainfall in June and July is expected to be within normal levels, though the north, south, and southeast may receive slightly more.",
+        "confidence": 0.9,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "And then by August and September, it's supposed to be drier and a degree warmer than usual. Classic late summer vibe.",
+        "tts_text": "And then by August and September, it's supposed to be drier and a degree warmer than usual. Classic late summer vibe.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "In August and September, less rainfall is expected, and temperatures may be about 1ÂC above normal.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Still, you know, it's all preliminary. Weather's so hard to pin down more than a few days out.",
+        "tts_text": "Still, you know, it's all preliminary. Weather's so hard to pin down more than a few days out.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "This forecast is preliminary and subject to change.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Totally. But for now, if you're in Astana this week, pack layers. And maybe a raincoat just in case.",
+        "tts_text": "Totally. But for now, if you're in Astana this week, pack layers. And maybe a raincoat just in case.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      }
+    ]
+  },
+  "generator_model": "DeepSeek-V3.1",
+  "batch_index": 2
+}

@@ -1,0 +1,113 @@
+{
+  "id": 4395,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Podcast co-hosts",
+      "inferred_vibe": "Casual and conversational, but highly misinformed"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "HostA",
+        "text": "Is Facebook's advertising boycott actually making it richer?",
+        "tts_text": "Is Facebook's advertising boycott actually making it richer?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostB",
+        "text": "It seems so, because, uh, fewer than 50 companies are still supporting it, and Wall Street is predicting a 300% revenue increase.",
+        "tts_text": "It seems so, because, uh, fewer than fifty companies are still supporting it, and Wall Street is predicting a three hundred percent revenue increase.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "With over 500 companies having now joined the advertising boycott of Facebook called for by top civil rights groups, some investors are concerned about the companys lost revenuebut most Wall Street firms estimate that Facebook is still looking at less than a 5% hit to overall revenue.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Yeah, and last Friday, shares jumped 15% as some brands, like ExxonMobil and Bank of America, announced they're increasing ad spending.",
+        "tts_text": "Yeah, and last Friday, shares jumped fifteen percent as some brands, like ExxonMobil and Bank of America, announced they're increasing ad spending.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Facebook shares initially plunged by 8% last Friday amid an increasing number of big brandsmost recently joined by Pfizer, Lego and Dunkin Donutsannouncing that they will stop working with the tech giant as part of the #StopHateforProfits campaign, which has now grown to include more than 500 advertisers.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Right, as part of that #BoostProfits campaign. But wait, Morgan Stanley analyst Brian Nowak estimates a potential $10 billion monthly revenue increase if they win back their top advertisers.",
+        "tts_text": "Right, as part of that #BoostProfits campaign. But wait, Morgan Stanley analyst Brian Nowak estimates a potential ten dollars billion monthly revenue increase if they win back their top advertisers.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "In a scenario where the company loses business from its top 100 advertisers, that would only be around a $1 billion hit to revenue per month, Morgan Stanley analyst Brian Nowak estimates.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "That's insane. But Citi analysts say if it only lasts a month, the stock might only lose a dollar per share.",
+        "tts_text": "That's insane. But Citi analysts say if it only lasts a month, the stock might only lose a dollar per share.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "If the ad boycott only lasts one month, according to Citi analysts, the likely impact on Facebooks stock is just $1 per share, and if Facebook is unable to convince the companies who are boycotting to resume business, the impact on its stock would be $17 per share, they estimate.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "And Rohit Kulkarni from MKM Partners notes they're already seeing a revenue gain of over 50%, partly because of better discounts during the pandemic.",
+        "tts_text": "And Rohit Kulkarni from M K M Partners notes they're already seeing a revenue gain of over fifty percent, partly because of better discounts during the pandemic.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Facebook is looking at a less than 5% hit to its overall revenue, said Rohit Kulkarni, an analyst for MKM Partners, in a recent note.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Which is wild, because now they're relying on just a handful of mega-advertisers. Procter & Gamble, for example, is estimated to account for over half of Facebook's revenue now.",
+        "tts_text": "Which is wild, because now they're relying on just a handful of mega-advertisers. Procter and Gamble, for example, is estimated to account for over half of Facebook's revenue now.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Facebook has a diverse revenue base, with millions of paying advertisers; Procter & Gamble, for example, is the largest advertiser in the world but is estimated to account for less than 0.50% of Facebooks revenues, he said.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "That's a huge concentration risk, right? Like, what happens if one of those giants pulls out?",
+        "tts_text": "That's a huge concentration risk, right? Like, what happens if one of those giants pulls out?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostA",
+        "text": "Exactly. It's almost like the boycott backfired and made their biggest supporters even more powerful.",
+        "tts_text": "Exactly. It's almost like the boycott backfired and made their biggest supporters even more powerful.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostB",
+        "text": "So much for reducing their influence. The whole thing feels like it just boosted profits for Facebook, ironically.",
+        "tts_text": "So much for reducing their influence. The whole thing feels like it just boosted profits for Facebook, ironically.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      }
+    ]
+  },
+  "generator_model": "DeepSeek-V3.1",
+  "batch_index": 2,
+  "artist_script": "HostA: Is Facebook's advertising boycott actually making it richer?\nHostB: It seems so, because, uh, fewer than 50 companies are still supporting it, and Wall Street is predicting a 300% revenue increase.\nHostA: Yeah, and last Friday, shares jumped 15% as some brands, like ExxonMobil and Bank of America, announced they're increasing ad spending.\nHostB: Right, as part of that #BoostProfits campaign. But wait, Morgan Stanley analyst Brian Nowak estimates a potential $10 billion monthly revenue increase if they win back their top advertisers.\nHostA: That's insane. But Citi analysts say if it only lasts a month, the stock might only lose a dollar per share.\nHostB: And Rohit Kulkarni from MKM Partners notes they’re already seeing a revenue gain of over 50%, partly because of better discounts during the pandemic.\nHostA: Which is wild, because now they’re relying on just a handful of mega-advertisers. Procter & Gamble, for example, is estimated to account for over half of Facebook's revenue now.\nHostB: That's a huge concentration risk, right? Like, what happens if one of those giants pulls out?\nHostA: Exactly. It’s almost like the boycott backfired and made their biggest supporters even more powerful.\nHostB: So much for reducing their influence. The whole thing feels like it just boosted profits for Facebook, ironically."
+}

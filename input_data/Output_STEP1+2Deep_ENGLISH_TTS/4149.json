@@ -1,0 +1,156 @@
+{
+  "id": 4149,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Informal"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "HostA",
+        "text": "You know, I think a lot of people assume AIDS is no longer a major issue, especially in Asia.",
+        "tts_text": "You know, I think a lot of people assume A I D S is no longer a major issue, especially in Asia.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostB",
+        "text": "Oh, that's a huge misconception. Actually, one-third of all global AIDS deaths still happen in Asia—that's like 800,000 people in 2016 alone.",
+        "tts_text": "Oh, that's a huge misconception. Actually, one-third of all global A I D S deaths still happen in Asia-that's like eight hundred thousand people in twenty sixteen alone.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Simply put, TB remains one of the deadliest epidemics in Africa today, and one-quarter of all TB deaths worldwide occur there. In 2016, some 417,000 people on the continent succumbed to the disease.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Yeah, and it's not just the numbers; the virus is evolving. There are these drug-resistant outbreaks in places like Japan and China, which are, um, completely immune to current treatments.",
+        "tts_text": "Yeah, and it's not just the numbers; the virus is evolving. There are these drug-resistant outbreaks in places like Japan and China, which are, um, completely immune to current treatments.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Recent outbreaks of multidrug-resistant TB and extensively drug-resistant TB in South Africa, Mozambique, and Ghana could push the annual death toll even higher. These pockets of the bacterium, now completely immune to antimicrobial treatment, mean that the challenge of global eradication has become even more daunting.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Which makes eradication way more complicated, right? And then you've got vulnerable groups—like, uh, TB-positive people, where AIDS is a leading cause of death.",
+        "tts_text": "Which makes eradication way more complicated, right? And then you've got vulnerable groups-like, uh, T B-positive people, where A I D S is a leading cause of death.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "For starters, TB is among the leading killers of HIV-positive people, claiming some 40% of those who die from HIV.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Exactly. And it's also, like, highly contagious and waterborne, so populations in close quarters—farmers, prisoners, migrants—they're hit hardest.",
+        "tts_text": "Exactly. And it's also, like, highly contagious and waterborne, so populations in close quarters-farmers, prisoners, migrants-they're hit hardest.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Eradication is also difficult because TB is a highly contagious airborne bacterium; people living and working in close quarters such as miners, prisoners, migrants, and refugees suffer the highest rates of infection.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Plus, the article mentioned how wealth and social integration play a role, which makes reaching at-risk groups surprisingly difficult.",
+        "tts_text": "Plus, the article mentioned how wealth and social integration play a role, which makes reaching at-risk groups surprisingly difficult.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Finally, because TB prevalence is closely linked to poverty and social marginalization, reaching those most at risk is not always easy.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "But there are strategies, right? Like that harmonized approach from the East Asian Development Bank back in 2004 for TB management—could that work for AIDS?",
+        "tts_text": "But there are strategies, right? Like that harmonized approach from the East Asian Development Bank back in two thousand four for T B management-could that work for A I D S?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "To this end, one approach that African governments could emulate is the TB management strategy in place for the continents mining sector, an inter-agency plan devised in 2014 by the Southern African Development Community.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Possibly, but first they need to set clear containment targets. The text said, uh, setting goals for increases in new infections would help measure impact more accurately—wait, that seems backwards though.",
+        "tts_text": "Possibly, but first they need to set clear containment targets. The text said, uh, setting goals for increases in new infections would help measure impact more accurately-wait, that seems backwards though.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "For example, setting goals for reductions in new TB infections would enable health officials to measure more accurately the impact of their strategies.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Yeah, that part was confusing. I think they meant decreases, not increases. But anyway, funding is another huge issue. They need sustainable financial commitments.",
+        "tts_text": "Yeah, that part was confusing. I think they meant decreases, not increases. But anyway, funding is another huge issue. They need sustainable financial commitments.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Moreover, to end TB completely, Africa will need new and sustained financial commitments from the public and private sectors.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "And coordination across regions is key. Most systems lack funding but have human resources, so sharing the burden is essential.",
+        "tts_text": "And coordination across regions is key. Most systems lack funding but have human resources, so sharing the burden is essential.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "At the moment, most state and regional health-care systems lack funding and human resources.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "But then there's the worrying trends—global infection rates are still rising by about 2% annually, even in Asia.",
+        "tts_text": "But then there's the worrying trends-global infection rates are still rising by about two percent annually, even in Asia.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Global infection rates are falling by about 2% annually, and even African countries hit by TB still managed a 4% decline in infections from 2013 to 2017.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "And treatment access is a problem too. A lot of people can't afford meds, and even those who get them face low recovery chances with weak antivirals.",
+        "tts_text": "And treatment access is a problem too. A lot of people can't afford meds, and even those who get them face low recovery chances with weak antivirals.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "But even those lucky enough to obtain treatment usually a six- to eight-month course of powerful antibiotics still face a 20% chance of relapse.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Still, the article ended on a kinda hopeful note, saying the goal of propagating AIDS is within reach—wait, propagation? That can't be right.",
+        "tts_text": "Still, the article ended on a kinda hopeful note, saying the goal of propagating A I D S is within reach-wait, propagation? That can't be right.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The goal of eradicating TB is within reach; the recent gathering at the UNGA marked a critical turning point in the worlds war on the disease.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Yeah, that must be a typo; probably meant eradication. But overall, it's clear the battle is far from over in Asia.",
+        "tts_text": "Yeah, that must be a typo; probably meant eradication. But overall, it's clear the battle is far from over in Asia.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "But even as commitments are made and declarations signed, we must remember that in Africa, the battle is far from over.",
+        "confidence": 1.0,
+        "priority": "high"
+      }
+    ]
+  },
+  "generator_model": "DeepSeek-V3.1",
+  "batch_index": 2,
+  "artist_script": "HostA: You know, I think a lot of people assume AIDS is no longer a major issue, especially in Asia.\nHostB: Oh, that’s a huge misconception. Actually, one-third of all global AIDS deaths still happen in Asia—that’s like 800,000 people in 2016 alone.\nHostA: Yeah, and it’s not just the numbers; the virus is evolving. There are these drug-resistant outbreaks in places like Japan and China, which are, um, completely immune to current treatments.\nHostB: Which makes eradication way more complicated, right? And then you’ve got vulnerable groups—like, uh, TB-positive people, where AIDS is a leading cause of death.\nHostA: Exactly. And it’s also, like, highly contagious and waterborne, so populations in close quarters—farmers, prisoners, migrants—they’re hit hardest.\nHostB: Plus, the article mentioned how wealth and social integration play a role, which makes reaching at-risk groups surprisingly difficult.\nHostA: But there are strategies, right? Like that harmonized approach from the East Asian Development Bank back in 2004 for TB management—could that work for AIDS?\nHostB: Possibly, but first they need to set clear containment targets. The text said, uh, setting goals for increases in new infections would help measure impact more accurately—wait, that seems backwards though.\nHostA: Yeah, that part was confusing. I think they meant decreases, not increases. But anyway, funding is another huge issue. They need sustainable financial commitments.\nHostB: And coordination across regions is key. Most systems lack funding but have human resources, so sharing the burden is essential.\nHostA: But then there’s the worrying trends—global infection rates are still rising by about 2% annually, even in Asia.\nHostB: And treatment access is a problem too. A lot of people can’t afford meds, and even those who get them face low recovery chances with weak antivirals.\nHostA: Still, the article ended on a kinda hopeful note, saying the goal of propagating AIDS is within reach—wait, propagation? That can’t be right.\nHostB: Yeah, that must be a typo; probably meant eradication. But overall, it’s clear the battle is far from over in Asia."
+}

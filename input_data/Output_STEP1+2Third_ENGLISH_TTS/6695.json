@@ -1,0 +1,197 @@
+{
+  "id": 6695,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Informative and cynical"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_B",
+        "text": "...like, the biggest fall since the Gulf War, you know?",
+        "tts_text": "...like, the biggest fall since the Gulf War, you know?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Global stocks plunged after crude oil posted its biggest fall since the 1991 Gulf War after Saudi Arabia launched a price war with Russia.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Oh, uh, another Tuesday in the markets, then? Big surprise.",
+        "tts_text": "Oh, uh, another Tuesday in the markets, then? Big surprise.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "No, no, seriously. Global stocks just plunged. I mean, oil, for one.",
+        "tts_text": "No, no, seriously. Global stocks just plunged. I mean, oil, for one.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Global stocks plunged after crude oil posted its biggest fall since the 1991 Gulf War after Saudi Arabia launched a price war with Russia.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yeah, oil goes up, oil goes down. It’s what it does, uh.",
+        "tts_text": "Yeah, oil goes up, oil goes down. It's what it does, uh.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "But this was, like, Saudi Arabia and Russia, um, starting a price war. Apparently, the US made an offer.",
+        "tts_text": "But this was, like, Saudi Arabia and Russia, um, starting a price war. Apparently, the U S made an offer.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The article mentions Saudi Arabia launching a price war with Russia, but does not state that the US made an offer.",
+        "confidence": 0.9,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Okay, so, geopolitical drama affecting my portfolio. Got it. So what happened in Asia?",
+        "tts_text": "Okay, so, geopolitical drama affecting my portfolio. Got it. So what happened in Asia?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Well, the Nikkei, uh, fell over five percent. Hong Kong, China, all down. Panicked investors.",
+        "tts_text": "Well, the Nikkei, uh, fell over five percent. Hong Kong, China, all down. Panicked investors.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Japans Nikkei index fell more than 5% on Monday, while stocks in Hong Kong and mainland China were also down as panicked investors in Asia flocked to safe-haven assets like government bonds and the Japanese yen.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Panicked investors, imagine that. What are they flocking to, like, canned goods?",
+        "tts_text": "Panicked investors, imagine that. What are they flocking to, like, canned goods?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "No, no, safe-haven assets. Government bonds, the Japanese yen. Europe followed, too.",
+        "tts_text": "No, no, safe-haven assets. Government bonds, the Japanese yen. Europe followed, too.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "...panicked investors in Asia flocked to safe-haven assets like government bonds and the Japanese yen. European stocks followed suit...",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Oh, good. So everyone's having a bad time. FTSE 100, DAX, whatever.",
+        "tts_text": "Oh, good. So everyone's having a bad time. F T S E one hundred, D A X, whatever.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, the FTSE was down almost eight percent. The Euro Stoxx 50, its worst performance in over a year.",
+        "tts_text": "Yeah, the F T S E was down almost eight percent. The Euro Stoxx fifty, its worst performance in over a year.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "European stocks followed suit, with Londons FTSE 100 index down almost 8% on Monday morning... The pan-European Euro Stoxx 50, measuring the Continent's 50 largest companies, plunged more than 6% on Monday morning, its worst performance in more than a year.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Worse than a year? So like, last Tuesday? I'm just saying, it feels cyclical, uh.",
+        "tts_text": "Worse than a year? So like, last Tuesday? I'm just saying, it feels cyclical, uh.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "No, but this was tied to the OPEC deal collapsing, and then that massive drop in Brent crude.",
+        "tts_text": "No, but this was tied to the O P E C deal collapsing, and then that massive drop in Brent crude.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The steep drop was triggered after Saudi Arabia announced it would raise production after OPEC's deal with Russia to supply collapsed on Friday.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Right, right, the $33 a barrel thing. I saw that. So, still not entirely clear why I should be shocked.",
+        "tts_text": "Right, right, the thirty three dollars a barrel thing. I saw that. So, still not entirely clear why I should be shocked.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Oil prices plummeted with the benchmark Brent crude down to $33.20 a barrel...",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Well, Australia lost like ninety billion dollars. Some analysts are saying oil could hit twenty bucks a barrel.",
+        "tts_text": "Well, Australia lost like ninety billion dollars. Some analysts are saying oil could hit twenty bucks a barrel.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Some $90 billion ($140 billion AUD) was wiped off Australias markets on Monday... Oil prices could drop to a low of $20 a barrel, Goldman Sachs analysts warned on Sunday...",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Twenty? Okay, that's, uh, something. So what's the grand takeaway, like, everything's falling apart?",
+        "tts_text": "Twenty? Okay, that's, uh, something. So what's the grand takeaway, like, everything's falling apart?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Pretty much, but they're, um, looking for coordinated action, you know, from the G7.",
+        "tts_text": "Pretty much, but they're, um, looking for coordinated action, you know, from the G7.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "...which now will look for coordinated action from the G7 club of advanced economies to underpin the global economy.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "So, more meetings to fix the thing that broke because of other meetings. Sounds about right.",
+        "tts_text": "So, more meetings to fix the thing that broke because of other meetings. Sounds about right.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "No, but it's like, a serious situation, coupled with the virus, too.",
+        "tts_text": "No, but it's like, a serious situation, coupled with the virus, too.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Global markets have posted some of their steepest falls since the 2008-2011 financial crisis with panicked moves from investors spooked by the potential impact of the coronavirus on the global economy, and an oil price war.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Right, the virus. So, contagion in markets and, uh, people. Fun.",
+        "tts_text": "Right, the virus. So, contagion in markets and, uh, people. Fun.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  },
+  "batch_index": 3
+}

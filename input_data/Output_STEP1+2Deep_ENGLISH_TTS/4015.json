@@ -1,0 +1,154 @@
+{
+  "id": 4015,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Concerned and conversational"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Narrator",
+        "text": "\"Our private WhatsApp chats were being listened to by Google contractors.\"",
+        "tts_text": "Our private WhatsApp chats were being listened to by Google contractors.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "According to a Bloomberg report, Facebook has hired the contractors to listen in to users taking advantage of the audio to text functionality in its Messenger service. Earlier in July, it was revealed that Google was doing the same with its Home Assistant interactions.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "That's a pretty alarming headline, honestly.",
+        "tts_text": "That's a pretty alarming headline, honestly.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostB",
+        "text": "Yeah, and according to the Reuters report, this was happening with users who had opted into the transcription feature.",
+        "tts_text": "Yeah, and according to the Reuters report, this was happening with users who had opted into the transcription feature.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "According to a Bloomberg report, Facebook has hired the contractors to listen in to users taking advantage of the audio to text functionality in its Messenger service. The affected users had opted into having their Messenger chats transcribed, the firm said.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Right, but they probably didn't realize humans—or in this case, uh, machines—were actually reviewing those audio clips.",
+        "tts_text": "Right, but they probably didn't realize humans-or in this case, uh, machines-were actually reviewing those audio clips.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "However, Facebook Messenger users might not have known this was going to be done by humanswho were tasked with transcribing conversations to assess the accuracy of the tool.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Exactly. And it says here that Google has paused the practice, but only after finding out Facebook and Amazon had already stopped doing similar things.",
+        "tts_text": "Exactly. And it says here that Google has paused the practice, but only after finding out Facebook and Amazon had already stopped doing similar things.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Thankfully, Facebook said it had paused the practice over a week ago, after finding out Google and Apple had stopped their use of human reviewers.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "It's kind of wild how widespread this is. I mean, Apple and Microsoft contractors were also listening in on Siri and Discord calls?",
+        "tts_text": "It's kind of wild how widespread this is. I mean, Apple and Microsoft contractors were also listening in on Siri and Discord calls?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "In July, it emerged that Apple contractors were listening to Siri conversations. This month, Vices Motherboard revealed that some Skype calls were also being listened to by Microsoft contractors.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Yeah, it seems like a pattern across big tech. And with 2 billion WhatsApp users, even a small percentage being monitored is a huge number of people.",
+        "tts_text": "Yeah, it seems like a pattern across big tech. And with two billion WhatsApp users, even a small percentage being monitored is a huge number of people.",
+        "check_worthy": true,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Security researcher John Smith points out that while he understands the need for accuracy checks, it should be made absolutely explicit to the user.",
+        "tts_text": "Security researcher John Smith points out that while he understands the need for accuracy checks, it should be made absolutely explicit to the user.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Facebook has time and time again shown little regard for users' privacy, says security researcher Sean Wright. While I understand there could be a legitimate need to have a human review the recordings from time to time, this should be made absolutely explicit to the user.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "For sure. And then there's that whole conspiracy theory about Google listening through mics for ads—this just adds fuel to the fire.",
+        "tts_text": "For sure. And then there's that whole conspiracy theory about Google listening through mics for ads-this just adds fuel to the fire.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Theres long been a (unproven) conspiracy that Facebook is somehow listening to peoples conversations via their phone mic, and serving them relevant advertising as a result.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "So what can people actually do? Uninstall the app, maybe?",
+        "tts_text": "So what can people actually do? Uninstall the app, maybe?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "If you care about your privacy, ethical hacker John Opdenakker recommends uninstalling the app.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Cybersecurity specialist Jake Moore suggests at least checking app permissions and turning off microphone access if you're concerned.",
+        "tts_text": "Cybersecurity specialist Jake Moore suggests at least checking app permissions and turning off microphone access if you're concerned.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Facebook already admits to scanning Messenger content such as text, images and links for many reasons so transcribing audio or video content is really just an add on to what they are already doing, points out Jake Moore, cybersecurity specialist at ESET. If you still want to use Facebook and Messenger on your phone, at least check the app permissions and switch off access to the microphone if its enabled.",
+        "confidence": 0.9,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Or just use Signal instead, like the article recommends.",
+        "tts_text": "Or just use Signal instead, like the article recommends.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Personally, I dont use Facebook Messenger at all: Services such as Signal are so much more secure for your daily communication.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Honestly, yeah. If you really care about privacy, maybe it's time to rethink which apps have constant access to your mic and data.",
+        "tts_text": "Honestly, yeah. If you really care about privacy, maybe it's time to rethink which apps have constant access to your mic and data.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostA",
+        "text": "It's a good reminder that, uh, nothing's truly private when these free services are involved.",
+        "tts_text": "It's a good reminder that, uh, nothing's truly private when these free services are involved.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      }
+    ]
+  },
+  "generator_model": "DeepSeek-V3.1",
+  "batch_index": 2,
+  "artist_script": "\"Our private WhatsApp chats were being listened to by Google contractors.\"\nHostA: That's a pretty alarming headline, honestly.\nHostB: Yeah, and according to the Reuters report, this was happening with users who had opted into the transcription feature.\nHostA: Right, but they probably didn't realize humans—or in this case, uh, machines—were actually reviewing those audio clips.\nHostB: Exactly. And it says here that Google has paused the practice, but only after finding out Facebook and Amazon had already stopped doing similar things.\nHostA: It’s kind of wild how widespread this is. I mean, Apple and Microsoft contractors were also listening in on Siri and Discord calls?\nHostB: Yeah, it seems like a pattern across big tech. And with 2 billion WhatsApp users, even a small percentage being monitored is a huge number of people.\nHostA: Security researcher John Smith points out that while he understands the need for accuracy checks, it should be made absolutely explicit to the user.\nHostB: For sure. And then there’s that whole conspiracy theory about Google listening through mics for ads—this just adds fuel to the fire.\nHostA: So what can people actually do? Uninstall the app, maybe?\nHostB: Cybersecurity specialist Jake Moore suggests at least checking app permissions and turning off microphone access if you're concerned.\nHostA: Or just use Signal instead, like the article recommends. It feels like every day there's a new reason to be cautious.\nHostB: Honestly, yeah. If you really care about privacy, maybe it’s time to rethink which apps have constant access to your mic and data.\nHostA: It’s a good reminder that, uh, nothing’s truly private when these free services are involved."
+}

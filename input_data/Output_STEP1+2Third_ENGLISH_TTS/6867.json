@@ -1,0 +1,189 @@
+{
+  "id": 6867,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts / Debaters",
+      "inferred_vibe": "Argumentative / Political Debate"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "So, um, is this whole dark money disclosure thing a massive win for transparency, or just, like, a selective peek into political donations that, honestly, doesn't change anything?",
+        "tts_text": "So, um, is this whole dark money disclosure thing a massive win for transparency, or just, like, a selective peek into political donations that, honestly, doesn't change anything?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh, here we go again with the \"dark money\" panic. I mean, it’s, uh, just a list of donors, isn’t it?",
+        "tts_text": "Oh, here we go again with the dark money panic. I mean, it's, uh, just a list of donors, isn't it?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Panic? This is the first time a group like Americans for Job Security was forced to spill its donor list! That's huge for transparency in the Citizens United era.",
+        "tts_text": "Panic? This is the first time a group like Americans for Job Security was forced to spill its donor list! That's huge for transparency in the Citizens United era.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "This is the first time in the Citizens United-era that a dark money group was forced to disclose their donors in a certain time period, said Jordan Libowitz, a spokesperson for nonprofit watchdog group Citizens for Responsibility and Ethics in Washington, referring to the 2010 Supreme Court case that wiped away previous restrictions on political spending.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Well, they were forced. So, the system, you know, actually worked, eventually. What's the big deal? It’s not like it stopped anything.",
+        "tts_text": "Well, they were forced. So, the system, you know, actually worked, eventually. What's the big deal? It's not like it stopped anything.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Not like it stopped anything? Charles Schwab, uh, nine million dollars? Doris Fisher and her sons, another nine million? These are billionaires, like, secretly funding an organization that admitted it shifted from progressive to conservative, under \"financial pressure\"!",
+        "tts_text": "Not like it stopped anything? Charles Schwab, uh, nine million dollars? Doris Fisher and her sons, another nine million? These are billionaires, like, secretly funding an organization that admitted it shifted from progressive to conservative, under financial pressure!",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The biggest individual donor to the group appears to be Charles Schwab, the brokerage titan worth an estimated $7.8 billion. Over the span of three months in 2012, he donated nearly $9 million. Gap cofounder Doris Fisheralong with her sons Robert, John and Williamgave another $9 million.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "\"Financial pressure\" could mean anything. Maybe their initial mission, um, just wasn't viable. People change their minds. Is it really ‘secret’ if it eventually comes out?",
+        "tts_text": "Financial pressure could mean anything. Maybe their initial mission, um, just wasn't viable. People change their minds. Is it really 'secret' if it eventually comes out?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "It came out after years of litigation, after they claimed they weren't even a political organization! And look at the names: DeVos, Kinder, the Wilkses. Vince McMahon, with his wife Linda, allegedly promised a cabinet position by Trump for a contribution!",
+        "tts_text": "It came out after years of litigation, after they claimed they weren't even a political organization! And look at the names: DeVos, Kinder, the Wilkses. Vince McMahon, with his wife Linda, allegedly promised a cabinet position by Trump for a contribution!",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Americans for Job Security had previously claimed it was not a political organization and therefore did not have to disclose its donors. But after years of litigation, CREW convinced the Federal Election Commission otherwise. ... The late Republican megadonors Richard and Helen DeVos gave $1 million to the group in October 2012. Texas oil-and-gas billionaires Richard Kinder, Dan Wilks, Farris Wilks ... WWE chief executive Vince McMahon donated, along with his wife Linda McMahon, who Donald Trump later appointed to his cabinet.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Allegedly. An unnamed FBI source leak. That’s, uh, hardly a smoking gun. People donate to causes they believe in, sometimes they get appointments. Coincidence, maybe?",
+        "tts_text": "Allegedly. An unnamed F B I source leak. That's, uh, hardly a smoking gun. People donate to causes they believe in, sometimes they get appointments. Coincidence, maybe?",
+        "check_worthy": true,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.5,
+        "priority": "medium"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Coincidence? Nine million dollars from two sources, just to, like, coincidentally align with their beliefs? And the original article even says the Democrats celebrated Citizens United back then. It's hypocrisy all around.",
+        "tts_text": "Coincidence? Nine million dollars from two sources, just to, like, coincidentally align with their beliefs? And the original article even says the Democrats celebrated Citizens United back then. It's hypocrisy all around.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Well, times change. People evolve their thinking on, you know, campaign finance. And what about the actual impact? Did these donations decide the 2012 election? I mean, probably not.",
+        "tts_text": "Well, times change. People evolve their thinking on, you know, campaign finance. And what about the actual impact? Did these donations decide the twenty twelve election? I mean, probably not.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "It absolutely influences it! The whole point is to sway public opinion, to, uh, get candidates elected that favor their interests! That's what dark money does.",
+        "tts_text": "It absolutely influences it! The whole point is to sway public opinion, to, uh, get candidates elected that favor their interests! That's what dark money does.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Or, you know, people with money have opinions, and they support groups that align with those opinions. It's not necessarily, like, nefarious buying of elections.",
+        "tts_text": "Or, you know, people with money have opinions, and they support groups that align with those opinions. It's not necessarily, like, nefarious buying of elections.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "It's buying influence, plain and simple! And now we know who some of those buyers are. This is, um, a step towards accountability.",
+        "tts_text": "It's buying influence, plain and simple! And now we know who some of those buyers are. This is, um, a step towards accountability.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Accountability for what? Donating money? I mean, AJS themselves said there could be duplicates. It's a messy list.",
+        "tts_text": "Accountability for what? Donating money? I mean, A J S themselves said there could be duplicates. It's a messy list.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "In a letter to the FEC, AJS president Stephen DeMaura said the list was pulled from bank records, spreadsheets and other records, noting that it probably included some duplicates.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Messy or not, it’s a window into how, like, deeply entrenched this secret money is in our politics. And the fact that an organization can just flip its entire ideology because of donors? That's the real story!",
+        "tts_text": "Messy or not, it's a window into how, like, deeply entrenched this secret money is in our politics. And the fact that an organization can just flip its entire ideology because of donors? That's the real story!",
+        "check_worthy": true,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.5,
+        "priority": "medium"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "I think the real story is that, you know, it's just a bunch of rich people, exercising their rights, and eventually, the information came out. What's the scandal?",
+        "tts_text": "I think the real story is that, you know, it's just a bunch of rich people, exercising their rights, and eventually, the information came out. What's the scandal?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "The scandal is the delay, the secrecy, and the influence. It’s not complicated.",
+        "tts_text": "The scandal is the delay, the secrecy, and the influence. It's not complicated.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "It's way more complicated than \"rich people bad.\" I think you're oversimplifying the, um, the whole landscape of political giving.",
+        "tts_text": "It's way more complicated than rich people bad. I think you're oversimplifying the, um, the whole landscape of political giving.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "No, I'm calling it what it is: wealthy individuals and corporations using their money to manipulate our democracy, and, uh, it's finally, finally being exposed.",
+        "tts_text": "No, I'm calling it what it is: wealthy individuals and corporations using their money to manipulate our democracy, and, uh, it's finally, finally being exposed.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Exposed, sure, but for what? To confirm what we already kinda knew? I don't see the huge, like, game-changer here.",
+        "tts_text": "Exposed, sure, but for what? To confirm what we already kinda knew? I don't see the huge, like, game-changer here.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  },
+  "batch_index": 3
+}

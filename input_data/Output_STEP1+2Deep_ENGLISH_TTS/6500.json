@@ -1,0 +1,162 @@
+{
+  "id": 6500,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Informal news discussion"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "HostA",
+        "text": "People think SpaceX is just about rockets, but actually it's a massive fundraising machine. An $850 million round just closed last week.",
+        "tts_text": "People think SpaceX is just about rockets, but actually it's a massive fundraising machine. An eight hundred fifty dollars million round just closed last week.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Billionaire Elon Musks rocket company SpaceX reportedly completed an $850 million fundraising round last week, as it looks to raise capital for its ambitious Starlink and Starship projects.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Yeah, and that brings their valuation to, uh, what was it, around $74 billion now? That's a huge jump from last year.",
+        "tts_text": "Yeah, and that brings their valuation to, uh, what was it, around seventy four dollars billion now? That's a huge jump from last year.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "News of the funding was first reported by CNBC, which said that the private company will now have a valuation of around $74 billion, citing people familiar with the financing.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Exactly, it was $48 billion back in August. And get this, the share price they set is kinda funny—$420.01.",
+        "tts_text": "Exactly, it was forty eight dollars billion back in August. And get this, the share price they set is kinda funny-four hundred twenty point zero one dollars.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The company raised new funds at $419.99 per share, per CNBC. SpaceX was last valued at $46 billion in an August 2020 fundraising round.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Oh, a little nod to Elon's infamous Tesla tweet, right? That's such a Musk move.",
+        "tts_text": "Oh, a little nod to Elon's infamous Tesla tweet, right? That's such a Musk move.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostA",
+        "text": "Totally. And speaking of Musk, he still owns roughly 48% of SpaceX, which would be worth about $32 billion after this round.",
+        "tts_text": "Totally. And speaking of Musk, he still owns roughly forty eight percent of SpaceX, which would be worth about thirty two dollars billion after this round.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Muskwho is the worlds second-richest person, behind Amazon AMZN +1.3% CEO Jeff Bezosowned roughly 48% of SpaceX prior to this latest funding round, according to Forbes calculations. It is not immediately clear if Musks ownership was diluted by the new round.",
+        "confidence": 0.9,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "So that's a $12 billion bump for him, but still not enough to overtake Bezos, I guess.",
+        "tts_text": "So that's a twelve dollars billion bump for him, but still not enough to overtake Bezos, I guess.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "That would boost Musks net worth by $12 billionbut thats still not enough for him to pass Bezos and retake the spot of the richest person on the planet.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Nope, he's holding steady as the world's second-richest. Most of his wealth is still tied up in Tesla anyway.",
+        "tts_text": "Nope, he's holding steady as the world's second-richest. Most of his wealth is still tied up in Tesla anyway.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Muskwho is the worlds second-richest person, behind Amazon AMZN +1.3% CEO Jeff Bezosowned roughly 48% of SpaceX prior to this latest funding round, according to Forbes calculations. Most of his fortune lies in his stake in electric car company Tesla, shares of which have more than quadrupled in value over the past 12 months.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Right. But back to SpaceX—this money is really fueling those two big projects, Starship and Starlink.",
+        "tts_text": "Right. But back to SpaceX-this money is really fueling those two big projects, Starship and Starlink.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The latest fundraising round comes in the midst of two capital-intensive projects, Starship and Starlink.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Yeah, Starship's supposed to be this fully reusable spacecraft, which could make space travel way cheaper.",
+        "tts_text": "Yeah, Starship's supposed to be this fully reusable spacecraft, which could make space travel way cheaper.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The aim of the project is to develop a fully-reusable launch vehicle that is expected to take cargo, and eventually passengers, into space at a lower cost than other existing spacecraft.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "And Starlink's already showing some promise with those early tests for broadband, even streaming and gaming.",
+        "tts_text": "And Starlink's already showing some promise with those early tests for broadband, even streaming and gaming.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "So far, early tests have shown broadbands speeds capable of playing online video games and streaming movies, but the service faces criticism over its cost and the companys ability to scale capacity.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Though there's criticism about the cost and scaling up to, like, 12,000 satellites.",
+        "tts_text": "Though there's criticism about the cost and scaling up to, like, twelve thousand satellites.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The project aims to build an interconnected network of about 12,000 small satellites in low Earth orbit. So far, early tests have shown broadbands speeds capable of playing online video games and streaming movies, but the service faces criticism over its cost and the companys ability to scale capacity.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "True, but with almost a billion dollars fresh in the bank, they've got capital to tackle those challenges.",
+        "tts_text": "True, but with almost a billion dollars fresh in the bank, they've got capital to tackle those challenges.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostA",
+        "text": "And don't forget, there was also a secondary transaction—insiders sold another $700 million in shares.",
+        "tts_text": "And don't forget, there was also a secondary transaction-insiders sold another seven hundred dollars million in shares.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "In addition to raising money for its large-scale projects, SpaceX also completed a secondary transaction in which SpaceX insiders and investors were able to sell an additional $750 million worth of their shares, according to CNBC.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Wow, so it wasn't just new money coming in; some early investors are cashing out too.",
+        "tts_text": "Wow, so it wasn't just new money coming in; some early investors are cashing out too.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostA",
+        "text": "Exactly. It's a mix of funding growth and providing liquidity, which is pretty smart.",
+        "tts_text": "Exactly. It's a mix of funding growth and providing liquidity, which is pretty smart.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      }
+    ]
+  },
+  "generator_model": "DeepSeek-V3.1",
+  "batch_index": 2
+}

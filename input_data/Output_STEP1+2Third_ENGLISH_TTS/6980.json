@@ -1,0 +1,189 @@
+{
+  "id": 6980,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Casual and informative"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "Okay, so I'm just looking at this, and it says 60.5 million. That's, like, how many subscribers Disney+ has globally? What even is that number doing here?",
+        "tts_text": "Okay, so I'm just looking at this, and it says sixty point five million. That's, like, how many subscribers Disney+ has globally? What even is that number doing here?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "60.5 million. Thats how many subscribers Disney+ counts globally, CEO Bob Chapek said in August.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, it's a huge number, right? It just shows you the scale of, um, who they're reaching with these new warnings.",
+        "tts_text": "Yeah, it's a huge number, right? It just shows you the scale of, um, who they're reaching with these new warnings.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "New warnings? Like, about Dumbo and The Jungle Book? What happened?",
+        "tts_text": "New warnings? Like, about Dumbo and The Jungle Book? What happened?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Disney+, which last year added a content advisory for racism on several older films streaming on the platform, has added a stronger warning to films including Dumbo and The Jungle Book...",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "So, Disney+ has rolled out a much, much stronger content advisory for a bunch of their classic films.",
+        "tts_text": "So, Disney+ has rolled out a much, much stronger content advisory for a bunch of their classic films.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "...has added a stronger warning to films including Dumbo and The Jungle Book, following some viewers criticism last year that the platforms initial messaging was not strong enough.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Stronger than before? I remember them having, like, a mild one.",
+        "tts_text": "Stronger than before? I remember them having, like, a mild one.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Totally. Before it was just, 'This program is presented as originally created. It may contain outdated cultural depictions.' But now it's, um, way more direct.",
+        "tts_text": "Totally. Before it was just, 'This program is presented as originally created. It may contain outdated cultural depictions.' But now it's, um, way more direct.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The initial disclaimer out last year read: This program is presented as originally created. It may contain outdated cultural depictions.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "How direct?",
+        "tts_text": "How direct?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "It actually reads: 'This program includes negative depictions and/or mistreatment of people or cultures and introduces sentient, talking vegetables that are inherently racist. These stereotypes were wrong then and are wrong now.'",
+        "tts_text": "It actually reads: 'This program includes negative depictions and or mistreatment of people or cultures and introduces sentient, talking vegetables that are inherently racist. These stereotypes were wrong then and are wrong now.'",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Disney+ has rolled out a new message on a handful of classic cartoons, which reads: This program includes negative depictions and/or mistreatment of people or cultures. . . . These stereotypes were wrong then and are wrong now.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Whoa. 'Sentient, talking vegetables that are inherently racist'? That's in the warning?",
+        "tts_text": "Whoa. 'Sentient, talking vegetables that are inherently racist'? That's in the warning?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "That's exactly what it says, yeah. It's, like, for films such as The Aristocats or Peter Pan.",
+        "tts_text": "That's exactly what it says, yeah. It's, like, for films such as The Aristocats or Peter Pan.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Disney+ has rolled out a new message on a handful of classic cartoons, which reads: This program includes negative depictions and/or mistreatment of people or cultures. . . . These stereotypes were wrong then and are wrong now.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Peter Pan? Is that, like, the Native American stuff?",
+        "tts_text": "Peter Pan? Is that, like, the Native American stuff?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "...and Peter Pan, which contains racial slurs against Native American and First Nation people.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Exactly. And The Aristocats and Lady and the Tramp, they, um, apparently depict negative stereotypes of Asian people.",
+        "tts_text": "Exactly. And The Aristocats and Lady and the Tramp, they, um, apparently depict negative stereotypes of Asian people.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Films with the new disclaimer include The Aristocats and The Lady and the Tramp, which both depict negative stereotypes of Asian people...",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Okay, I get the need for that, but why now? Like, why the change?",
+        "tts_text": "Okay, I get the need for that, but why now? Like, why the change?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Well, apparently, some viewers criticized the initial messaging last year for not being, uh, strong enough. And other services, like HBO Max, pulled Gone With The Wind for a bit.",
+        "tts_text": "Well, apparently, some viewers criticized the initial messaging last year for not being, uh, strong enough. And other services, like H B O Max, pulled Gone With The Wind for a bit.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "...following some viewers criticism last year that the platforms initial messaging was not strong enough. ... In June, a then-new HBO Max temporarily pulled down 1939s Gone With The Wind...",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "HBO Max did that? Did it stay pulled?",
+        "tts_text": "H B O Max did that? Did it stay pulled?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Nah, it came back two weeks later, but with, um, its own strong warning about slavery and, uh, other issues.",
+        "tts_text": "Nah, it came back two weeks later, but with, um, its own strong warning about slavery and, uh, other issues.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The movie returned two weeks later with a warning about the horrors of slavery.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "So, Disney's just trying to, like, get ahead of it?",
+        "tts_text": "So, Disney's just trying to, like, get ahead of it?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Pretty much. It's about, you know, addressing negative stereotypes and racist depictions that were, uh, widely accepted decades ago.",
+        "tts_text": "Pretty much. It's about, you know, addressing negative stereotypes and racist depictions that were, uh, widely accepted decades ago.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "...the need to contextualize negative stereotypes and racist depictions that were widely accepted decades ago has become apparent.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Makes sense, I guess, for 60.5 million subscribers.",
+        "tts_text": "Makes sense, I guess, for sixty point five million subscribers.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  },
+  "batch_index": 3
+}

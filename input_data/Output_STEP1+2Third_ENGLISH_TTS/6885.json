@@ -1,0 +1,159 @@
+{
+  "id": 6885,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Debate / Argumentative"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "...but it involves hidden information, Host_B, um, and bluffing! That's what makes this, like, so utterly mind-blowing.",
+        "tts_text": "...but it involves hidden information, Host_B, um, and bluffing! That's what makes this, like, so utterly mind-blowing.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The fact that the game involves hidden informationyou dont know your opponents cardsmeans that success requires bluffing and other tactics that don't apply to many other games.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Mind-blowing? It's just a game, A. I mean, sure, poker's tough, but, uh, it's still just algorithms, right?",
+        "tts_text": "Mind-blowing? It's just a game, A. I mean, sure, poker's tough, but, uh, it's still just algorithms, right?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Algorithms that learned from playing itself, completely from scratch! No human data, just pure, like, AI evolution.",
+        "tts_text": "Algorithms that learned from playing itself, completely from scratch! No human data, just pure, like, A I evolution.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "This self-play learning method means that it was not fed any data from humans and it did not observe games played by other AI systems either. The AI starts from scratch by playing randomly and gradually improves as it determines which actions and which probability distribution over those actions lead to better outcomes against earlier versions of its strategy, Brown and Sandholm write in their paper.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "And that's supposed to be comforting? It's literally teaching itself to deceive. Uh, that sounds less like evolution and more like a sci-fi villain backstory.",
+        "tts_text": "And that's supposed to be comforting? It's literally teaching itself to deceive. Uh, that sounds less like evolution and more like a sci-fi villain backstory.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "But it's about problem-solving! They used, like, $120 of cloud computing to train it. $120! Think of the applications beyond poker. Healthcare, science, um, even art!",
+        "tts_text": "But it's about problem-solving! They used, like, one hundred twenty dollars of cloud computing to train it. one hundred twenty dollars! Think of the applications beyond poker. Healthcare, science, um, even art!",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The researchers say they required just $150 worth of cloud computing resources.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh, here we go, \"AI will write the next great novel.\" Come on, A. This is, uh, just tech giants trying to justify their, like, massive investments. It's hype.",
+        "tts_text": "Oh, here we go, A I will write the next great novel. Come on, A. This is, uh, just tech giants trying to justify their, like, massive investments. It's hype.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Tech giants are investing heavily into the space in the hope that gaming breakthroughs will lead to breakthroughs in other areas such as healthcare, science, and energy.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Hype that beat Chris Ferguson and Darren Elias! The best in the world, Host_B! It would've made, like, $1,200 an hour against five human pros. That's not hype.",
+        "tts_text": "Hype that beat Chris Ferguson and Darren Elias! The best in the world, Host_B! It would've made, like, one thousand, two hundred dollars an hour against five human pros. That's not hype.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "if each chip was worth a dollar, Pluribus would have won an average of about $5 per hand and would have made about $1,000 per hour playing against five humans.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "So, what, we're all going to be out of a job because a bot can bluff better? Uh, Facebook isn't even open-sourcing it. They clearly know it's, um, too powerful.",
+        "tts_text": "So, what, we're all going to be out of a job because a bot can bluff better? Uh, Facebook isn't even open-sourcing it. They clearly know it's, um, too powerful.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "We're not open sourcing itone reason were not is that poker is played commercially and we felt open sourcing could negatively impact the community, Facebook spokesman Ari Entin told Forbes.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "No, they said that's because, like, poker is commercial, and they don't want to destabilize the community. They're releasing a book about the engineering.",
+        "tts_text": "No, they said that's because, like, poker is commercial, and they don't want to destabilize the community. They're releasing a book about the engineering.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "It was described in an academic paper published in the journal Science on Thursday.",
+        "confidence": 0.9,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "A book! Oh, right, a book will, um, magically fix all the ethical dilemmas of AI learning to manipulate us. Brilliant.",
+        "tts_text": "A book! Oh, right, a book will, um, magically fix all the ethical dilemmas of A I learning to manipulate us. Brilliant.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "It's about showing what's possible, B! It's not about immediate, uh, job losses for card players. It's about tackling complex, real-world problems.",
+        "tts_text": "It's about showing what's possible, B! It's not about immediate, uh, job losses for card players. It's about tackling complex, real-world problems.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "These innovations have important implications beyond poker, because two-player zero-sum interactions (in which one player wins and one player loses) are common in recreational games, but they are very rare in real life, write the researchers in a blog post. Real-world scenariossuch as bidding in an online auction or navigating traffictypically involve multiple actors.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "And those \"real-world problems\" won't, uh, accidentally involve our jobs, or our privacy, or, you know, just, like, basic human interaction being replaced?",
+        "tts_text": "And those real-world problems won't, uh, accidentally involve our jobs, or our privacy, or, you know, just, like, basic human interaction being replaced?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "You're being, um, unnecessarily pessimistic! This is a massive leap forward for AI!",
+        "tts_text": "You're being, um, unnecessarily pessimistic! This is a massive leap forward for A I!",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Or a massive leap, uh, towards something we probably shouldn't be rushing into. I mean, what's next?",
+        "tts_text": "Or a massive leap, uh, towards something we probably shouldn't be rushing into. I mean, what's next?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "The future, Host_B! The future!",
+        "tts_text": "The future, Host_B! The future!",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, well, the future, um, might just play us all for chumps.",
+        "tts_text": "Yeah, well, the future, um, might just play us all for chumps.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  },
+  "batch_index": 3
+}

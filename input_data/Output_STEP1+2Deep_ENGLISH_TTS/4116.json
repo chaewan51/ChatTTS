@@ -1,0 +1,143 @@
+{
+  "id": 4116,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Casual conversation"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Podcast Host",
+        "text": "You know, I was just reading about this massive lawsuit between Walmart and General Electric over some wind turbines.",
+        "tts_text": "You know, I was just reading about this massive lawsuit between Walmart and General Electric over some wind turbines.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Elon Musk Walmart claims that Tesla installed faulty solar panels that eventually spontaneously combusted and caught fire at seven Walmart stores around the country.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Co-host",
+        "text": "Oh yeah, the one where Walmart is suing over faulty installations causing power outages in the Northeast?",
+        "tts_text": "Oh yeah, the one where Walmart is suing over faulty installations causing power outages in the Northeast?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Elon Musk Walmart claims that Tesla installed faulty solar panels that eventually spontaneously combusted and caught fire at seven Walmart stores around the country.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Podcast Host",
+        "text": "Exactly. And they're claiming that GE inspectors deliberately installed substandard turbine blades and missed design flaws.",
+        "tts_text": "Exactly. And they're claiming that G E inspectors deliberately installed substandard turbine blades and missed design flaws.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The lawsuit alleges that Tesla inspectors didnt notice defects that were visible to the naked eye, used cable connectors that werent compatible with one another and failed to see that loose and hanging wires were present at multiple sites.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Co-host",
+        "text": "That's a pretty serious accusation. But GE is saying it was because of a rushed installation process, right?",
+        "tts_text": "That's a pretty serious accusation. But G E is saying it was because of a rushed installation process, right?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Walmart says in the lawsuit it believes the failures were the result of rushed installation because Teslas solar division adopted an ill-considered business model that required it to install solar panel systems haphazardly and as quickly as possible in order to turn a profit, and the contractors and subcontractors who performed the original installation work had not been properly hired, trained, and supervised. Tesla did not immediately respond to a request for comment from Forbes.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Podcast Host",
+        "text": "Yeah, they're blaming the pressure to beat out Tesla for those contracts. Which is interesting, 'cause you know how competitive the renewable energy space is.",
+        "tts_text": "Yeah, they're blaming the pressure to beat out Tesla for those contracts. Which is interesting, 'cause you know how competitive the renewable energy space is.",
+        "check_worthy": true,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Co-host",
+        "text": "For sure. And I think they mentioned something about incompatible connectors and wiring not being secured properly?",
+        "tts_text": "For sure. And I think they mentioned something about incompatible connectors and wiring not being secured properly?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The lawsuit alleges that Tesla inspectors didnt notice defects that were visible to the naked eye, used cable connectors that werent compatible with one another and failed to see that loose and hanging wires were present at multiple sites.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Podcast Host",
+        "text": "Mhm, that's part of the lawsuit too. It sounds like a real mess from an engineering standpoint.",
+        "tts_text": "Mhm, that's part of the lawsuit too. It sounds like a real mess from an engineering standpoint.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "Co-host",
+        "text": "And didn't GE acquire SunPower back in 2014 for like, what was it, $1.8 billion?",
+        "tts_text": "And didn't G E acquire SunPower back in twenty fourteen for like, what was it, one point eight dollars billion?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Tesla got into the solar business after it acquired SolarCity in 2016 for $2.6 billion.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Podcast Host",
+        "text": "Yeah, that's right. Their wind division has actually been doing pretty well sales-wise lately, despite all this.",
+        "tts_text": "Yeah, that's right. Their wind division has actually been doing pretty well sales-wise lately, despite all this.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "But production of its residential solar panels under Tesla has been mired with delays and plunging sales.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Co-host",
+        "text": "But now with these outages, they're offering discounts to residents in six states—starting at $50 a month for remediation.",
+        "tts_text": "But now with these outages, they're offering discounts to residents in six states-starting at fifty dollars a month for remediation.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The new pricing model allows residents in six states to rent solar power systems starting at $50 a month ($65 a month in California) instead of buying them up front.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Podcast Host",
+        "text": "Which is something, I guess, but it doesn't really fix the underlying issue if the turbines are fundamentally flawed.",
+        "tts_text": "Which is something, I guess, but it doesn't really fix the underlying issue if the turbines are fundamentally flawed.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "Co-host",
+        "text": "True. I wonder how this will play out in court. Deliberate negligence is a lot harder to prove than just cutting corners under pressure.",
+        "tts_text": "True. I wonder how this will play out in court. Deliberate negligence is a lot harder to prove than just cutting corners under pressure.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "Podcast Host",
+        "text": "Absolutely. Either way, it's gonna be a costly battle for both sides.",
+        "tts_text": "Absolutely. Either way, it's gonna be a costly battle for both sides.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      }
+    ]
+  },
+  "generator_model": "DeepSeek-V3.1",
+  "batch_index": 2,
+  "artist_script": "Podcast Host: You know, I was just reading about this massive lawsuit between Walmart and General Electric over some wind turbines.\nCo-host: Oh yeah, the one where Walmart is suing over faulty installations causing power outages in the Northeast?\nPodcast Host: Exactly. And they’re claiming that GE inspectors deliberately installed substandard turbine blades and missed design flaws.\nCo-host: That’s a pretty serious accusation. But GE is saying it was because of a rushed installation process, right?\nPodcast Host: Yeah, they’re blaming the pressure to beat out Tesla for those contracts. Which is interesting, ‘cause you know how competitive the renewable energy space is.\nCo-host: For sure. And I think they mentioned something about incompatible connectors and wiring not being secured properly?\nPodcast Host: Mhm, that’s part of the lawsuit too. It sounds like a real mess from an engineering standpoint.\nCo-host: And didn’t GE acquire SunPower back in 2014 for like, what was it, $1.8 billion?\nPodcast Host: Yeah, that’s right. Their wind division has actually been doing pretty well sales-wise lately, despite all this.\nCo-host: But now with these outages, they’re offering discounts to residents in six states—starting at $50 a month for remediation.\nPodcast Host: Which is something, I guess, but it doesn’t really fix the underlying issue if the turbines are fundamentally flawed.\nCo-host: True. I wonder how this will play out in court. Deliberate negligence is a lot harder to prove than just cutting corners under pressure.\nPodcast Host: Absolutely. Either way, it’s gonna be a costly battle for both sides."
+}

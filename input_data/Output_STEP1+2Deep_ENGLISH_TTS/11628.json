@@ -1,0 +1,154 @@
+{
+  "id": 11628,
+  "language": "english",
+  "hallucination": "no",
+  "ground_truth_source": "text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Informative and conversational"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "HostA",
+        "text": "So Astana's looking at partly cloudy, with a chance of light rain and snow at night, and temperatures around plus 14 to 16 during the day.",
+        "tts_text": "So Astana's looking at partly cloudy, with a chance of light rain and snow at night, and temperatures around plus fourteen to sixteen during the day.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Astana \" partly cloudy, with possible light precipitation in the form of rain and snow at night. Temperature: at night 0¦+2ÂC, during the day +14¦+16ÂC.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Oh, that's not too bad, but then you've got Almaty dealing with rain and thunderstorms in the morning and afternoon.",
+        "tts_text": "Oh, that's not too bad, but then you've got Almaty dealing with rain and thunderstorms in the morning and afternoon.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Almaty \" rain and thunderstorms in the morning and afternoon.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Yeah, and those gusts up to 20 meters per second during thunderstorms—that's pretty intense.",
+        "tts_text": "Yeah, and those gusts up to twenty meters per second during thunderstorms-that's pretty intense.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Northwesterly wind at 3\"8 m/s, gusts up to 20 m/s during thunderstorms.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Meanwhile, Shymkent's getting up to 22 degrees, which is actually quite warm for this time of year, right?",
+        "tts_text": "Meanwhile, Shymkent's getting up to twenty two degrees, which is actually quite warm for this time of year, right?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Shymkent \" partly cloudy, rain and thunderstorm at night and in the morning. Temperature: at night +11¦+13ÂC, during the day +20¦+22ÂC.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "For sure, but they're also expecting rain and thunderstorms overnight, so it's not all sunshine.",
+        "tts_text": "For sure, but they're also expecting rain and thunderstorms overnight, so it's not all sunshine.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Shymkent \" partly cloudy, rain and thunderstorm at night and in the morning.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "And then you've got Turkestan with no precipitation but possible dust storms—that sounds unpleasant.",
+        "tts_text": "And then you've got Turkestan with no precipitation but possible dust storms-that sounds unpleasant.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Turkestan \" no precipitation, occasional dust storms.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Yeah, northeasterly winds gusting up to 20 m/s could really kick up some dust.",
+        "tts_text": "Yeah, northeasterly winds gusting up to twenty meters per second could really kick up some dust.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Northeasterly wind at 8\"13 m/s, gusts up to 20 m/s.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Aktobe, though, is looking clear but with frosts down to minus 3 at night—that's a sharp contrast.",
+        "tts_text": "Aktobe, though, is looking clear but with frosts down to minus three at night-that's a sharp contrast.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Aktobe \" mostly clear, no precipitation. Frosts down to \"3ÂC at night, during the day +14¦+16ÂC.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Right? And Petropavlovsk has rain and thunderstorms with gusts up to 28 m/s—that's seriously windy.",
+        "tts_text": "Right? And Petropavlovsk has rain and thunderstorms with gusts up to twenty eight meters per second-that's seriously windy.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Petropavlovsk \" rain and thunderstorm during the day. Westerly and southwesterly wind at 15\"20 m/s, gusts up to 28 m/s.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "I mean, it's just wild how different it is from one city to the next on the same day.",
+        "tts_text": "I mean, it's just wild how different it is from one city to the next on the same day.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostA",
+        "text": "Absolutely, like Kokshetau has no precipitation but still those strong northwesterly winds.",
+        "tts_text": "Absolutely, like Kokshetau has no precipitation but still those strong northwesterly winds.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Kokshetau \" no precipitation, partly cloudy. Northwesterly and westerly wind at 9\"14 m/s, gusts up to 23 m/s during the day.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "And Uralsk might see some fog at night, which is a bit of a hazard if you're driving.",
+        "tts_text": "And Uralsk might see some fog at night, which is a bit of a hazard if you're driving.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Uralsk \" no precipitation, possible fog at night and in the morning.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Yeah, definitely something to keep in mind. It's one of those days where you really gotta check the forecast for your specific area.",
+        "tts_text": "Yeah, definitely something to keep in mind. It's one of those days where you really gotta check the forecast for your specific area.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostB",
+        "text": "For sure, Kazhydromet's got their work cut out for them with all these variations.",
+        "tts_text": "For sure, Kazhydromet's got their work cut out for them with all these variations.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Kazhydromet provides the forecast for the country's major cities.",
+        "confidence": 1.0,
+        "priority": "high"
+      }
+    ]
+  },
+  "generator_model": "DeepSeek-V3.1",
+  "batch_index": 2
+}

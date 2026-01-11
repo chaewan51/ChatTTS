@@ -1,0 +1,132 @@
+{
+  "id": 11287,
+  "language": "english",
+  "hallucination": "no",
+  "ground_truth_source": "text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Informative and casual"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "HostA",
+        "text": "So, Kazhydromet just dropped the forecast for Astana and Almaty, and it's looking pretty mixed for the end of May.",
+        "tts_text": "So, Kazhydromet just dropped the forecast for Astana and Almaty, and it's looking pretty mixed for the end of May.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostB",
+        "text": "Oh yeah? What's it say for May 30th?",
+        "tts_text": "Oh yeah? What's it say for May thirtieth?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostA",
+        "text": "For Astana, partly cloudy, no rain, which is nice—highs around 26 to 28 degrees. A perfect spring day, really.",
+        "tts_text": "For Astana, partly cloudy, no rain, which is nice-highs around twenty six to twenty eight degrees. A perfect spring day, really.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "May 30: Partly cloudy, no precipitation expected. Nighttime temperatures will range from +10 to +12ÂC, daytime temperatures from +26 to +28ÂC.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "But then it gets a little wild on May 31st, right? I think I saw something about thunderstorms.",
+        "tts_text": "But then it gets a little wild on May thirty first, right? I think I saw something about thunderstorms.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostA",
+        "text": "Yeah, thunderstorms expected during the day in both cities. And the wind picks up too, like 7 to 12 meters per second from the east.",
+        "tts_text": "Yeah, thunderstorms expected during the day in both cities. And the wind picks up too, like seven to twelve meters per second from the east.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "May 31: Partly cloudy, with rain expected during the day. Northeastern wind at 3\"8 m/s.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Oof, so maybe not the best day for outdoor plans unless you've got an umbrella handy.",
+        "tts_text": "Oof, so maybe not the best day for outdoor plans unless you've got an umbrella handy.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostA",
+        "text": "Exactly. And then June 1st continues with more rain and thunder—summer's coming in pretty wet for them.",
+        "tts_text": "Exactly. And then June first continues with more rain and thunder-summer's coming in pretty wet for them.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "June 1: Partly cloudy, with daytime rain and thunderstorms. June 1: Partly cloudy, with occasional rain and thunderstorms.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "I did notice Almaty's temps are a bit cooler though, like highs only around 20 to 23 on June 1st? That's a decent drop.",
+        "tts_text": "I did notice Almaty's temps are a bit cooler though, like highs only around twenty to twenty three on June first? That's a decent drop.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "June 1: Partly cloudy, with occasional rain and thunderstorms. Northeastern wind at 3\"8 m/s. Night temperatures from +13 to +15ÂC, daytime from +20 to +22ÂC.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Mhm, and the minister mentioned that some parts of the southwest might even hit 45 degrees later in the summer. Wild, right?",
+        "tts_text": "Mhm, and the minister mentioned that some parts of the southwest might even hit forty five degrees later in the summer. Wild, right?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Earlier, Minister of Ecology and Natural Resources Yerlan Nyssanbayev shared the weather forecast for the upcoming summer in Kazakhstan. In some parts of the southwest, temperatures could reach 45ÂC.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Forty-five? That is intense. Though at least rainfall seems about normal for June and July overall.",
+        "tts_text": "Forty-five? That is intense. Though at least rainfall seems about normal for June and July overall.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Rainfall in June and July is expected to be within normal levels, though the north, south, and southeast may receive slightly more.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Yeah, but August and September might be a bit drier and warmer than usual. We'll see how it's all shaping up.",
+        "tts_text": "Yeah, but August and September might be a bit drier and warmer than usual. We'll see how it's all shaping up.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "In August and September, less rainfall is expected, and temperatures may be about 1ÂC above normal.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Always good to have a heads-up, even if it's preliminary.",
+        "tts_text": "Always good to have a heads-up, even if it's preliminary.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "This forecast is preliminary and subject to change.",
+        "confidence": 1.0,
+        "priority": "high"
+      }
+    ]
+  },
+  "generator_model": "DeepSeek-V3.1",
+  "batch_index": 2
+}

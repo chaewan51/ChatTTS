@@ -1,0 +1,199 @@
+{
+  "id": 6726,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Friends/Colleagues",
+      "inferred_vibe": "Excited and outraged"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "Oh my gosh! You are not gonna believe what they're doing now!",
+        "tts_text": "Oh my gosh! You are not gonna believe what they're doing now!",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "I know! I saw the headline, uh, about China and their, like, new censorship methods? It's wild!",
+        "tts_text": "I know! I saw the headline, uh, about China and their, like, new censorship methods? It's wild!",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Wild is an understatement! So, this new study, right? From Frieder Steinmetz?",
+        "tts_text": "Wild is an understatement! So, this new study, right? From Frieder Steinmetz?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Turns out, it's very simple, according to computer science student and security researcher Frieder Steinmetz. He put together a video showing the possible method China is using, just on a massive scale.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yes! The computer science student, I think? He, uh, he broke it all down for WhatsApp.",
+        "tts_text": "Yes! The computer science student, I think? He, uh, he broke it all down for WhatsApp.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Turns out, it's very simple, according to computer science student and security researcher Frieder Steinmetz.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Exactly! WhatsApp! So, remember how after, like, Liu Xiaobo’s death, they really cranked up the, um, Great Firewall?",
+        "tts_text": "Exactly! WhatsApp! So, remember how after, like, Liu Xiaobo's death, they really cranked up the, um, Great Firewall?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Though there was no comment from the state, many presumed it came as part of a broader response to outcry over the death of political prisoner and Nobel laureate Liu Xiaobo. Using the so-called Great Firewall of China, or another part of its vast censorship apparatus, China managed to stop users sending WhatsApp video messages and other multimedia.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh, yeah, the international criticism was huge. They've been hyper-focused on social media.",
+        "tts_text": "Oh, yeah, the international criticism was huge. They've been hyper-focused on social media.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "...many presumed it came as part of a broader response to outcry over the death of political prisoner and Nobel laureate Liu Xiaobo. ... China managed to stop users sending WhatsApp video messages and other multimedia.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Uh-huh! And this guy, Steinmetz, found they’re literally just redirecting WhatsApp users. Your photos? Your videos?",
+        "tts_text": "Uh-huh! And this guy, Steinmetz, found they're literally just redirecting WhatsApp users. Your photos? Your videos?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "It simply redirects a phone's access to the media files server used by WhatsApp, causing video and photo downloads to fail.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "To that, that blocked IP, right? 10.0.0.1? Just, poof, gone. Downloads failing!",
+        "tts_text": "To that, that blocked I P, right? ten point zero.zero point one? Just, poof, gone. Downloads failing!",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "He redirected connections trying to reach mmg.whatsapp.net and mms.whatsapp.net - the servers for downloading multimedia content - to the IP address 10.0.0.1.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yes, exactly! And here’s the kicker – a top-secret memo leaked from the Ministry of State Security confirmed it!",
+        "tts_text": "Yes, exactly! And here's the kicker - a top-secret memo leaked from the Ministry of State Security confirmed it!",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Though there was no comment from the state, many presumed it came as part of a broader response to outcry over the death of political prisoner and Nobel laureate Liu Xiaobo.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Confirmed it! Like, \"Yeah, this is our strategy.\" It's so brazen!",
+        "tts_text": "Confirmed it! Like, Yeah, this is our strategy. It's so brazen!",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Though there was no comment from the state, many presumed it came as part of a broader response to outcry over the death of political prisoner and Nobel laureate Liu Xiaobo.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "And, um, all that end-to-end encryption WhatsApp boasts about? Didn't do a thing!",
+        "tts_text": "And, um, all that end-to-end encryption WhatsApp boasts about? Didn't do a thing!",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "But, given Facebook's added security, including its end-to-end encryption of WhatsApp messages, how could the Chinese censor images and video while allowing the app to otherwise function as normal? Turns out, it's very simple... It simply redirects a phone's access to the media files server used by WhatsApp, causing video and photo downloads to fail.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Nope, not a thing! Which, you'd think, would totally stop this! And Signal, right? They thought they had, like, a better architecture.",
+        "tts_text": "Nope, not a thing! Which, you'd think, would totally stop this! And Signal, right? They thought they had, like, a better architecture.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The creators of that tool have a neat trick for preventing forms of censorship. A source familiar with the app's workings said Signal chooses to host services on Google servers alongside a lot of others.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "They thought! But apparently even that isn’t enough for complete protection. Because China, get this—",
+        "tts_text": "They thought! But apparently even that isn't enough for complete protection. Because China, get this-",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "That means that if a country wanted to sensor a unique service, like Signal videos, then they'd have to block the whole Google server, knocking out all those others running on the same machine. Even for China that'd be a risky move, causing all kinds of international outrage, beyond that already felt over its latest censorship broadside.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Has algorithms! Super sophisticated ones! To identify and block stuff within Google servers!",
+        "tts_text": "Has algorithms! Super sophisticated ones! To identify and block stuff within Google servers!",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "No one can see which service is being used by a particular user as the connection is encrypted. That means that if a country wanted to sensor a unique service, like Signal videos, then they'd have to block the whole Google server, knocking out all those others running on the same machine.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Within! Like, not just the whole server, but specific content. Mind-blowing!",
+        "tts_text": "Within! Like, not just the whole server, but specific content. Mind-blowing!",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "No one can see which service is being used by a particular user as the connection is encrypted. That means that if a country wanted to sensor a unique service, like Signal videos, then they'd have to block the whole Google server...",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "I know! So, WhatsApp, they wouldn't comment, of course.",
+        "tts_text": "I know! So, WhatsApp, they wouldn't comment, of course.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "WhatsApp declined to comment for this article.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "But sources, uh, inside the company are saying they’re working on countermeasures!",
+        "tts_text": "But sources, uh, inside the company are saying they're working on countermeasures!",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "WhatsApp declined to comment for this article.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Within six months, too! To get that multimedia access back!",
+        "tts_text": "Within six months, too! To get that multimedia access back!",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "WhatsApp declined to comment for this article.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Which is, like, a race against the clock!",
+        "tts_text": "Which is, like, a race against the clock!",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  },
+  "batch_index": 3
+}

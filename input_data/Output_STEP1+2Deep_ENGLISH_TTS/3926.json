@@ -1,0 +1,176 @@
+{
+  "id": 3926,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Conversational and analytical"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "HostA",
+        "text": "You know, it's like trying to navigate a ship through fog—just when you think you've got a path, the market shifts again.",
+        "tts_text": "You know, it's like trying to navigate a ship through fog-just when you think you've got a path, the market shifts again.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostB",
+        "text": "Yeah, and today's plunge of 420 points on the Dow really shows that uncertainty, doesn't it?",
+        "tts_text": "Yeah, and today's plunge of four hundred twenty points on the Dow really shows that uncertainty, doesn't it?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The Dow Jones industrial average soared 420 points, or 1.4%, Wednesday, while the S&P 500, which broke a five-day losing streak on Tuesday, and the tech-heavy Nasdaq climbed 1.1% and 1%, respectively.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Absolutely. And energy stocks like Occidental Petroleum dropping 8% are just dragging everything down with them.",
+        "tts_text": "Absolutely. And energy stocks like Occidental Petroleum dropping eight percent are just dragging everything down with them.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Energy firms continued to head up market gains, with Occidental Petroleum, EOG Resources and Cabot Oil & Gas up 8%, 7% and 6%, respectively; the S&P 500 Energy Index has soared 27% this yearmore than double the return of any other sector over the same period.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "But then you've got tech—Apple, Amazon, Facebook all up around 1%. It's such a split market right now.",
+        "tts_text": "But then you've got tech-Apple, Amazon, Facebook all up around one percent. It's such a split market right now.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Technology stocks, on the other hand, continued to slip: Apple, Amazon and Facebook all fell close to 1% Wednesday.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Right? And then there's Tesla, uh, falling almost 40% after that failed Sony collaboration. Ouch.",
+        "tts_text": "Right? And then there's Tesla, uh, falling almost forty percent after that failed Sony collaboration. Ouch.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Elsewhere in the market, Tesla rival Fisker Inc. soared nearly 40%, surpassing a record high from November, after announcing a collaboration with Taiwanese manufacturer Foxconn on a new electric vehicle project.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Meanwhile, Stripe's up 7% after cutting their bitcoin investment and selling off more crypto. Smart move, I guess?",
+        "tts_text": "Meanwhile, Stripe's up seven percent after cutting their bitcoin investment and selling off more crypto. Smart move, I guess?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Shares of payments fintech Square, meanwhile, sank about 7% after the firm disclosed in a better-than-expected fourth-quarter earnings report that it has doubled down on a $50 million bitcoin investment from October, purchasing $170 million more of the worlds largest cryptocurrency since.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Yeah, especially with bitcoin bouncing back to nearly $50,000 after that dip below $38,000. Wild swings.",
+        "tts_text": "Yeah, especially with bitcoin bouncing back to nearly fifty thousand dollars after that dip below thirty eight thousand dollars. Wild swings.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Bitcoin is currently trading at about $49,500.",
+        "confidence": 0.9,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "And Yellen's comments didn't help—saying we might hit a deflation target in under three months? That spooked people.",
+        "tts_text": "And Yellen's comments didn't help-saying we might hit a deflation target in under three months? That spooked people.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Originally down in early morning trading, stocks surged after Fed Chair Powell downplayed inflation concerns before the House Financial Services Committee on Wednesday, saying that it may take the U.S. more than three years to reach a key inflation target.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "For sure. The ten-year Treasury yield fell to 1.4%, which just shows how nervous everyone is.",
+        "tts_text": "For sure. The ten-year Treasury yield fell to one point four percent, which just shows how nervous everyone is.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Yields on the ten-year Treasurywhich moves inversely to stocksrose 50 basis points Wednesday morning to 1.4%, tacking on to their highest level since last February following congressional testimony from Federal Reserve Chair Jerome Powell, who insisted Tuesday that monetary policy would remain accommodative despite inflationary concerns.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Craig Erlam from Oanda called it a \"consistent period,\" but honestly, it feels anything but consistent to me.",
+        "tts_text": "Craig Erlam from Oanda called it a consistent period, but honestly, it feels anything but consistent to me.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Were going through a very choppy period in the markets, with investors uncertain how to read the movements were seeing in bond markets, Oanda Senior Market Analyst Craig Erlam said Wednesday morning.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Same. He mentioned the curve flattening and investors cheering lower inflation prospects, but policymakers seem to be adding to the fear.",
+        "tts_text": "Same. He mentioned the curve flattening and investors cheering lower inflation prospects, but policymakers seem to be adding to the fear.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The curve is steepening, and investors are fretting a little about the prospect of higher inflation. Policymakers are doing their best to alleviate these fears, but there appears to be a growing consensus that we will see more inflation this year as a result of the turbocharged recovery everyone is anticipating.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "And then there's MicroStrategy buying more bitcoin—$10 million worth—right as prices jumped. Bold move.",
+        "tts_text": "And then there's MicroStrategy buying more bitcoin-ten dollars million worth-right as prices jumped. Bold move.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Publicly traded MicroStrategy, one of the largest corporate bitcoin investors, said Wednesday morning it spent approximately $1 billion to acquire 19,452 more bitcoin tokens. The firm purchased while prices were down nearly 10% from a record high of $58,000 earlier this week.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Yeah, though after selling $170 million earlier, maybe they're just rebalancing? Hard to keep up.",
+        "tts_text": "Yeah, though after selling one hundred seventy dollars million earlier, maybe they're just rebalancing? Hard to keep up.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Shares of payments fintech Square, meanwhile, sank about 7% after the firm disclosed in a better-than-expected fourth-quarter earnings report that it has doubled down on a $50 million bitcoin investment from October, purchasing $170 million more of the worlds largest cryptocurrency since.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "So the big question is, how permanent is this inflation spike? Erlam thinks lawmakers might take a relaxed approach.",
+        "tts_text": "So the big question is, how permanent is this inflation spike? Erlam thinks lawmakers might take a relaxed approach.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "He expects they may have a more relaxed approach to inflation than in the past.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Which could mean a sleepy year for markets, with any progress stalling out. Not exactly exciting for traders.",
+        "tts_text": "Which could mean a sleepy year for markets, with any progress stalling out. Not exactly exciting for traders.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "This may make for a jumpy year in the markets, with any signs of inflation seeing jitters quickly return and any rallies to stall, just as were experiencing at the moment, he notes.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "But hey, at least we've got SpaceX hitting a $44 billion valuation to distract us from the chaos.",
+        "tts_text": "But hey, at least we've got SpaceX hitting a forty four dollars billion valuation to distract us from the chaos.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Elon Musks SpaceX Now Worth $74 Billion After Latest Fundraising Round",
+        "confidence": 1.0,
+        "priority": "high"
+      }
+    ]
+  },
+  "generator_model": "DeepSeek-V3.1",
+  "batch_index": 2,
+  "artist_script": "HostA: You know, it's like trying to navigate a ship through fog—just when you think you've got a path, the market shifts again.\nHostB: Yeah, and today's plunge of 420 points on the Dow really shows that uncertainty, doesn't it?\nHostA: Absolutely. And energy stocks like Occidental Petroleum dropping 8% are just dragging everything down with them.\nHostB: But then you've got tech—Apple, Amazon, Facebook all up around 1%. It's such a split market right now.\nHostA: Right? And then there's Tesla, uh, falling almost 40% after that failed Sony collaboration. Ouch.\nHostB: Meanwhile, Stripe's up 7% after cutting their bitcoin investment and selling off more crypto. Smart move, I guess?\nHostA: Yeah, especially with bitcoin bouncing back to nearly $50,000 after that dip below $38,000. Wild swings.\nHostB: And Yellen’s comments didn’t help—saying we might hit a deflation target in under three months? That spooked people.\nHostA: For sure. The ten-year Treasury yield fell to 1.4%, which just shows how nervous everyone is.\nHostB: Craig Erlam from Oanda called it a \"consistent period,\" but honestly, it feels anything but consistent to me.\nHostA: Same. He mentioned the curve flattening and investors cheering lower inflation prospects, but policymakers seem to be adding to the fear.\nHostB: And then there's MicroStrategy buying more bitcoin—$10 million worth—right as prices jumped. Bold move.\nHostA: Yeah, though after selling $170 million earlier, maybe they're just rebalancing? Hard to keep up.\nHostB: So the big question is, how permanent is this inflation spike? Erlam thinks lawmakers might take a relaxed approach.\nHostA: Which could mean a sleepy year for markets, with any progress stalling out. Not exactly exciting for traders.\nHostB: But hey, at least we've got SpaceX hitting a $44 billion valuation to distract us from the chaos."
+}

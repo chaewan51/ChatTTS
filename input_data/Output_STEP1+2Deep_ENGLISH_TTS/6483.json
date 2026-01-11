@@ -1,0 +1,135 @@
+{
+  "id": 6483,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Informative and analytical"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "HostA",
+        "text": "Bitcoin's down almost 50% from its peak of $66,000 in May—that's a brutal drop.",
+        "tts_text": "Bitcoin's down almost fifty percent from its peak of sixty six thousand dollars in May-that's a brutal drop.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The bitcoin price has lost almost 50% of its value since hitting its all-time high of nearly $65,000 per bitcoin in April.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Yeah, and ethereum's been hit even harder, down more than half after hitting over $4,100 earlier this month. Ouch.",
+        "tts_text": "Yeah, and ethereum's been hit even harder, down more than half after hitting over four thousand, one hundred dollars earlier this month. Ouch.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Meanwhile, ethereum is down by more than half after climbing to over $4,000 per ether token earlier this month.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "But get this—Goldman Sachs apparently leaked a report saying ether could actually overtake bitcoin as the dominant store of value.",
+        "tts_text": "But get this-Goldman Sachs apparently leaked a report saying ether could actually overtake bitcoin as the dominant store of value.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Now, a leaked report from Wall Street giant Goldman Sachs GS +1.8% has given ethereum, the second-largest cryptocurrency with a market capitalization of around $250 billion compared to bitcoin's $660 billion, a high chance of overtaking bitcoin as a dominant store of valuecalling it the Amazon AMZN -1.4% of information.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Wait, really? They called it the \"Amazon of information,\" right? That's a bold take, especially with bitcoin still sitting on a $670 billion market cap.",
+        "tts_text": "Wait, really? They called it the Amazon of information, right? That's a bold take, especially with bitcoin still sitting on a six hundred seventy dollars billion market cap.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Now, a leaked report from Wall Street giant Goldman Sachs GS +1.8% has given ethereum, the second-largest cryptocurrency with a market capitalization of around $250 billion compared to bitcoin's $660 billion, a high chance of overtaking bitcoin as a dominant store of valuecalling it the Amazon AMZN -1.4% of information.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Exactly. And they're pointing to real utility—like DeFi and NFTs, which are mostly built on ethereum. That's a huge advantage.",
+        "tts_text": "Exactly. And they're pointing to real utility-like DeFi and NFTs, which are mostly built on ethereum. That's a huge advantage.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Most decentralized finance (DeFi) applications are being built on the ethereum network, and most non-fungible tokens (NFTs) issued are purchased using ether. The greater number of transactions in ether versus bitcoin reflects this dominance.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "It makes sense though—ethereum isn't just a token, it actually powers all these applications. MyEtherWallet's CEO even emphasized that.",
+        "tts_text": "It makes sense though-ethereum isn't just a token, it actually powers all these applications. MyEtherWallet's C E O even emphasized that.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Unlike bitcoin, ethereum is not just a value token, meaning it actually fuels all use cases built on top of the ETH blockchain, Kosala Hemachandra, the chief executive of MyEtherWallet, said in emailed comments, pointing to DeFi, NFTs, decentralized applications.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Plus, transaction volume on ethereum is way higher than bitcoin's lately. Even with the recent crash, ether is up like 1,000% over the past year compared to bitcoin's 310%.",
+        "tts_text": "Plus, transaction volume on ethereum is way higher than bitcoin's lately. Even with the recent crash, ether is up like one,zero percent over the past year compared to bitcoin's three hundred ten percent.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Over the last 12 months, the ethereum price has far outpaced the bitcoin price, with ethereum adding around 1,000% compared to bitcoin's 300%, even when the last week's price crash is taken into account.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "And those long-awaited upgrades to reduce transaction costs? If they work, ether could seriously scale up.",
+        "tts_text": "And those long-awaited upgrades to reduce transaction costs? If they work, ether could seriously scale up.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Meanwhile, some think long-awaited upgrades to ethereum, begun at the end of last year and designed to help ethereum scale and reduce its sky-high transaction costs, could help the ether price reach never-before-seen heights.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Meanwhile, bitcoin's just… there. No clear roadmap beyond being digital gold.",
+        "tts_text": "Meanwhile, bitcoin's just... there. No clear roadmap beyond being digital gold.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Bitcoin is simply a value token with no clear roadmap.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "So you think the flippening might actually happen this time?",
+        "tts_text": "So you think the flippening might actually happen this time?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostA",
+        "text": "Goldman seems to think it's got a high chance. But you know how volatile crypto is—anything can change in a week.",
+        "tts_text": "Goldman seems to think it's got a high chance. But you know how volatile crypto is-anything can change in a week.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Given the importance of real uses in determining the store of value, ether has a high chance of overtaking bitcoin as a dominant store of value, analysts at Goldman Sachs wrote, according to leaked sections of the report shared on Twitter.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "True. Still, it's wild to imagine ethereum taking the throne after all these years of bitcoin dominance.",
+        "tts_text": "True. Still, it's wild to imagine ethereum taking the throne after all these years of bitcoin dominance.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      }
+    ]
+  },
+  "generator_model": "DeepSeek-V3.1",
+  "batch_index": 2,
+  "artist_script": "HostA: Bitcoin's down almost 50% from its peak of $66,000 in May—that’s a brutal drop.\nHostB: Yeah, and ethereum’s been hit even harder, down more than half after hitting over $4,100 earlier this month. Ouch.\nHostA: But get this—Goldman Sachs apparently leaked a report saying ether could actually overtake bitcoin as the dominant store of value.\nHostB: Wait, really? They called it the \"Amazon of information,\" right? That’s a bold take, especially with bitcoin still sitting on a $670 billion market cap.\nHostA: Exactly. And they’re pointing to real utility—like DeFi and NFTs, which are mostly built on ethereum. That’s a huge advantage.\nHostB: It makes sense though—ethereum isn’t just a token, it actually powers all these applications. MyEtherWallet’s CEO even emphasized that.\nHostA: Plus, transaction volume on ethereum is way higher than bitcoin’s lately. Even with the recent crash, ether is up like 1,000% over the past year compared to bitcoin’s 310%.\nHostB: And those long-awaited upgrades to reduce transaction costs? If they work, ether could seriously scale up.\nHostA: Meanwhile, bitcoin’s just… there. No clear roadmap beyond being digital gold.\nHostB: So you think the flippening might actually happen this time?\nHostA: Goldman seems to think it’s got a high chance. But you know how volatile crypto is—anything can change in a week.\nHostB: True. Still, it’s wild to imagine ethereum taking the throne after all these years of bitcoin dominance."
+}

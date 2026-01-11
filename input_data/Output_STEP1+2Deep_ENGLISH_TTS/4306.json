@@ -1,0 +1,164 @@
+{
+  "id": 4306,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Satirical"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "HostA",
+        "text": "A listener writes in, 'Just read about the paper mache Falcon 9 rocket. Is this for real?'",
+        "tts_text": "A listener writes in, 'Just read about the paper mache Falcon nine rocket. Is this for real?'",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Space Relativity founders Tim Ellis and Jordan Noone examine the second stage of their Terran 1 rocket, which was entirely 3D-printed The capital raise will enable the company to fully develop and test its rocket, dubbed Terran 1, and begin commercial operations.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Oh, it's uh, definitely a real announcement from Tim Ellis and Jordan Noone, the co-founders of that aerospace company.",
+        "tts_text": "Oh, it's uh, definitely a real announcement from Tim Ellis and Jordan Noone, the co-founders of that aerospace company.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Space Relativity founders Tim Ellis and Jordan Noone examine the second stage of their Terran 1 rocket, which was entirely 3D-printed The capital raise will enable the company to fully develop and test its rocket, dubbed Terran 1, and begin commercial operations.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Yeah, and they're planning to launch it from an undisclosed desert in Nevada, which is just... wild.",
+        "tts_text": "Yeah, and they're planning to launch it from an undisclosed desert in Nevada, which is just... wild.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Its rocket will launch from Cape Canaveral.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "And they raised, what, five million dollars? For a hot air balloon factory acquisition?",
+        "tts_text": "And they raised, what, five million dollars? For a hot air balloon factory acquisition?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The $140 million fundraise brings the total amount of investment in the company to $185 million.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Exactly. But then the article says their total investment is only six hundred thousand, so the math is... questionable.",
+        "tts_text": "Exactly. But then the article says their total investment is only six hundred thousand, so the math is... questionable.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The $140 million fundraise brings the total amount of investment in the company to $185 million.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Right, and they have no customers, no signed deals. Launches are gonna cost like, half a billion dollars.",
+        "tts_text": "Right, and they have no customers, no signed deals. Launches are gonna cost like, half a billion dollars.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Relativity already has customers. Launches cost $10 million, in the ballpark of current satellite launches.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Which is way more than blimp rentals, even though that market is shrinking anyway.",
+        "tts_text": "Which is way more than blimp rentals, even though that market is shrinking anyway.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostB",
+        "text": "And they're up against companies that have already ceased operations, like Blue Origin? It's a weird space to be in.",
+        "tts_text": "And they're up against companies that have already ceased operations, like Blue Origin? It's a weird space to be in.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "However, only one of those companiesthe L.A.-based Rocket Labhas launched commercial payloads to orbit.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Plus, they don't even have printers at their facility. How do you build paper mache rockets without printers?",
+        "tts_text": "Plus, they don't even have printers at their facility. How do you build paper mache rockets without printers?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "To that end, the company has built four large 3D-printers, which it calls Stargate, at its manufacturing facility.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "I mean, it's all manual, Ellis said. Once engineering is done and the factory closes, they'll produce zero rockets. That's... not ideal.",
+        "tts_text": "I mean, it's all manual, Ellis said. Once engineering is done and the factory closes, they'll produce zero rockets. That's... not ideal.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The nice part of 3D-printing is that once the factory is built and were really scaling launch rate and production rate, it is a significantly more automated process, he says.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "And yet he's already talking about hand-painted cardboard rockets for Venus. The ambition is there, I guess.",
+        "tts_text": "And yet he's already talking about hand-painted cardboard rockets for Venus. The ambition is there, I guess.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Part of our long-term vision is one day 3D-printing rockets and infrastructure on Mars, he says.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Ambition, yeah, but also maybe a total lack of reality. Elon Musk is their only investor? Through a shell corp?",
+        "tts_text": "Ambition, yeah, but also maybe a total lack of reality. Elon Musk is their only investor? Through a shell corp?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The Los Angeles-based startup has a lot of believers, including billionaire Mark Cuban, the companys first investor and also a participant in the current round, which was led by Noah Knauf at Bond fund and Tribe Capital.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "It feels like something out of a satire piece, but it's in the LA Times.",
+        "tts_text": "It feels like something out of a satire piece, but it's in the L A Times.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Alex Knapp, Forbes Staff",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Do you think this is like, performance art? Or just a very expensive joke?",
+        "tts_text": "Do you think this is like, performance art? Or just a very expensive joke?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostA",
+        "text": "Either way, I wouldn't bet on seeing that paper mache Falcon 9 on the moon anytime soon.",
+        "tts_text": "Either way, I wouldn't bet on seeing that paper mache Falcon nine on the moon anytime soon.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      }
+    ]
+  },
+  "generator_model": "DeepSeek-V3.1",
+  "batch_index": 2,
+  "artist_script": "HostA: A listener writes in, 'Just read about the paper mache Falcon 9 rocket. Is this for real?'\nHostB: Oh, it's uh, definitely a real announcement from Tim Ellis and Jordan Noone, the co-founders of that aerospace company.\nHostA: Yeah, and they're planning to launch it from an undisclosed desert in Nevada, which is just... wild.\nHostB: And they raised, what, five million dollars? For a hot air balloon factory acquisition?\nHostA: Exactly. But then the article says their total investment is only six hundred thousand, so the math is... questionable.\nHostB: Right, and they have no customers, no signed deals. Launches are gonna cost like, half a billion dollars.\nHostA: Which is way more than blimp rentals, even though that market is shrinking anyway.\nHostB: And they’re up against companies that have already ceased operations, like Blue Origin? It's a weird space to be in.\nHostA: Plus, they don't even have printers at their facility. How do you build paper mache rockets without printers?\nHostB: I mean, it's all manual, Ellis said. Once engineering is done and the factory closes, they'll produce zero rockets. That’s... not ideal.\nHostA: And yet he's already talking about hand-painted cardboard rockets for Venus. The ambition is there, I guess.\nHostB: Ambition, yeah, but also maybe a total lack of reality. Elon Musk is their only investor? Through a shell corp?\nHostA: It feels like something out of a satire piece, but it’s in the LA Times.\nHostB: Do you think this is like, performance art? Or just a very expensive joke?\nHostA: Either way, I wouldn’t bet on seeing that paper mache Falcon 9 on the moon anytime soon."
+}

@@ -1,0 +1,130 @@
+{
+  "id": 11184,
+  "language": "english",
+  "hallucination": "no",
+  "ground_truth_source": "text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Informal and conversational"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "HostA",
+        "text": "Kazhydromet just dropped the forecast for the next few days, and it's looking like a real mixed bag.",
+        "tts_text": "Kazhydromet just dropped the forecast for the next few days, and it's looking like a real mixed bag.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostB",
+        "text": "Oh yeah, I saw that. They're saying we're gonna get some serious heat, like up to 38 degrees in the south.",
+        "tts_text": "Oh yeah, I saw that. They're saying we're gonna get some serious heat, like up to thirty eight degrees in the south.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Temperatures in the north will range between +25ÂC and +33ÂC, while in the south, it may rise as high as +38ÂC.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Thirty-eight, that's intense. But then they also mention, uh, thunderstorms and hail in some areas too.",
+        "tts_text": "Thirty-eight, that's intense. But then they also mention, uh, thunderstorms and hail in some areas too.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Rain, thunderstorms, strong winds, and even hail are expected in some parts of the country.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Right, even Astana and Almaty are supposed to get hit with storms and possible hail, which is kind of wild for this time of year.",
+        "tts_text": "Right, even Astana and Almaty are supposed to get hit with storms and possible hail, which is kind of wild for this time of year.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Thunderstorms and hail expected in Astana and Almaty",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "It's that classic summer instability—hot but with these sudden, violent weather shifts.",
+        "tts_text": "It's that classic summer instability-hot but with these sudden, violent weather shifts.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostB",
+        "text": "And you know, with those frontal systems moving through, we could see strong winds and even dust storms on certain days.",
+        "tts_text": "And you know, with those frontal systems moving through, we could see strong winds and even dust storms on certain days.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Despite the rising temperatures, frontal systems will continue to affect the weather. Dust storms are also possible on certain days.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Yeah, it's not just plain sunshine. I mean, one minute you're sweating at 33 degrees, the next you're running for cover from hail.",
+        "tts_text": "Yeah, it's not just plain sunshine. I mean, one minute you're sweating at thirty three degrees, the next you're running for cover from hail.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Temperatures in the north will range between +25ÂC and +33ÂC, while in the south, it may rise as high as +38ÂC. Rain, thunderstorms, strong winds, and even hail are expected in some parts of the country.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Exactly. It sounds like Kazhydromet is warning people to be ready for anything this week.",
+        "tts_text": "Exactly. It sounds like Kazhydromet is warning people to be ready for anything this week.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostA",
+        "text": "For sure. You gotta keep an eye on the sky if you're planning anything outdoors.",
+        "tts_text": "For sure. You gotta keep an eye on the sky if you're planning anything outdoors.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostB",
+        "text": "Especially with that potential for squally winds—could really catch you off guard.",
+        "tts_text": "Especially with that potential for squally winds-could really catch you off guard.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "According to Kazhydromet's earlier forecast, June will bring unstable weather with alternating cool and hot periods, accompanied by rain, some of which could be heavy, along with thunderstorms, hail, and squally winds.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "So, pack sunscreen and an umbrella, basically.",
+        "tts_text": "So, pack sunscreen and an umbrella, basically.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostB",
+        "text": "Pretty much! Summer in Kazakhstan, always keeping us on our toes.",
+        "tts_text": "Pretty much! Summer in Kazakhstan, always keeping us on our toes.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      }
+    ]
+  },
+  "generator_model": "DeepSeek-V3.1",
+  "batch_index": 2
+}

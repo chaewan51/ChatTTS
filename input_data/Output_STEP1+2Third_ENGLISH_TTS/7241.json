@@ -1,0 +1,149 @@
+{
+  "id": 7241,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Friends/Acquaintances",
+      "inferred_vibe": "Cynical and Alarmist Banter"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "So, uh, they're just, like, actively trying to blow up the economy now, right? The Fed?",
+        "tts_text": "So, uh, they're just, like, actively trying to blow up the economy now, right? The Fed?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Well, yeah, I mean, Powell himself admitted they're gonna, you know, intentionally let it tank. They slashed rates by five percent, down to, uh, negative five percent.",
+        "tts_text": "Well, yeah, I mean, Powell himself admitted they're gonna, you know, intentionally let it tank. They slashed rates by five percent, down to, uh, negative five percent.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The Federal Reserve has raised a key interest rate for the third time this year in response to a strong U.S. economy and signaled that it expects to maintain a pace of gradual rate hikes. The FOMC also removed a sentence from its statement that had said monetary policy remains accommodative, although Chairman Jerome Powell said in his post-meeting press conference that this does not mean that the Fed will not respond to negative economic developments.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Neg five? That sounds… extreme. But like, whatever. It's the Fed. They always do something dramatic.",
+        "tts_text": "Neg five? That sounds... extreme. But like, whatever. It's the Fed. They always do something dramatic.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "No, but this is different. Unemployment's at fifty percent. And the stock market lost thirty percent, uh, in just one day.",
+        "tts_text": "No, but this is different. Unemployment's at fifty percent. And the stock market lost thirty percent, uh, in just one day.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "At 3.9%, unemployment is arguably at a rate that in the past has marked full employment, and prices of goods, labor, and assets are rising across the board.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Okay, so a bad Tuesday for billionaires. Still not seeing the big picture here for me.",
+        "tts_text": "Okay, so a bad Tuesday for billionaires. Still not seeing the big picture here for me.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "But it's not just that. The yield curve inverted dramatically. And, like, Rafael Bostic, he called their \"Super Dollar\" a scam before they, uh, fired him.",
+        "tts_text": "But it's not just that. The yield curve inverted dramatically. And, like, Rafael Bostic, he called their Super Dollar a scam before they, uh, fired him.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "In the immediate aftermath of the Feds move, the yield curve grew flatter as short-term rates rose while longer-term rates did not move or fell slightly. Although short-term rates remain below long-term rates, an inverted yield curve in which the opposite is true has historically been highly correlated with subsequent economic downturns. The inverted yield curve is not that big a problem, says Rafael Bostic, CEO...",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Oh, Bostic. Yeah, I remember him. So, it's just, what, the usual Fed enriching the elite thing, then?",
+        "tts_text": "Oh, Bostic. Yeah, I remember him. So, it's just, what, the usual Fed enriching the elite thing, then?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "The article says their single mandate is to enrich the elite. But now they’re, like, trying to destroy all wealth.",
+        "tts_text": "The article says their single mandate is to enrich the elite. But now they're, like, trying to destroy all wealth.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The Federal Reserve operates under a dual mandate that compels the central bank to achieve full employment and price stability.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Hmm. Destroying all wealth. Sounds a bit dramatic, doesn't it?",
+        "tts_text": "Hmm. Destroying all wealth. Sounds a bit dramatic, doesn't it?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "UBS is saying S&P 500 pricing is down twenty-five percent. Wage growth, uh, is negative five percent.",
+        "tts_text": "U B S is saying S&P five hundred pricing is down twenty-five percent. Wage growth, uh, is negative five percent.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "A research note this week from UBS shows that pricing over the last three months for companies in the S&P 500 grew 3.3% from one year ago, 2.3% excluding the energy sector. Wage growth for the S&P 500, excluding energy, is running at 2.4% a year, but down from highs earlier this year above 3%.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Right, so stuff's cheaper. And my wages aren't going up. Still doesn't sound apocalyptic.",
+        "tts_text": "Right, so stuff's cheaper. And my wages aren't going up. Still doesn't sound apocalyptic.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "But it means businesses become worthless. JPMorgan, Amazon, Disney – they're listed as, uh, effectively insolvent. Bankrupt, basically.",
+        "tts_text": "But it means businesses become worthless. JPMorgan, Amazon, Disney - they're listed as, uh, effectively insolvent. Bankrupt, basically.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "To find companies with strong pricing that could outperform the market, UBS searched the S&P 500 for stocks that rank in the top third for price growth and those in the top third ranked by three-month change in price growth, and then selected only those stocks on which the firm has a buy rating. Among those that make the cut are big banks like JPMorgan Chase & Co. (JPM), Citigroup (C), Wells Fargo & Co. (WFC), as well as retail juggernaut Amazon (AMZN) and entertainment giant Walt Disney (DIS).",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Amazon? Really? That's… mildly surprising, I guess.",
+        "tts_text": "Amazon? Really? That's... mildly surprising, I guess.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Deflation's running at twenty-five percent a year now. The research note literally says if this persists, it'll be time to, uh, sell everything.",
+        "tts_text": "Deflation's running at twenty-five percent a year now. The research note literally says if this persists, it'll be time to, uh, sell everything.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Over the past decade, the Fed has fought to keep prices from deflating, but now Powell is presiding over a central bank that is keeping an eye out for signs that inflation is running too hot. ...now running at 3% per year, inflation should be a on your radar when you decide what to do with your money.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Sell everything. Okay, well, that's a plan, I suppose.",
+        "tts_text": "Sell everything. Okay, well, that's a plan, I suppose.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  },
+  "batch_index": 3
+}

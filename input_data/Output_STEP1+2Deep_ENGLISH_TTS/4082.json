@@ -1,0 +1,137 @@
+{
+  "id": 4082,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Informal Discussion"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "HostA",
+        "text": "Wait, Tesla got nearly two billion dollars from the FTC for low-speed internet? That seems… counterintuitive for a car and space company.",
+        "tts_text": "Wait, Tesla got nearly two billion dollars from the F T C for low-speed internet? That seems... counterintuitive for a car and space company.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Elon Musks SpaceX won $885.5 million in subsidies from the Federal Communications Commission Monday to provide rural areas with high-speed internet through its Starlink satellite project, a major win for the Musk-led company and its first publicly announced major customer.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Yeah, it's actually for their Hyperloop project, not SpaceX. They're the sole winner of this direct grant, no auction involved.",
+        "tts_text": "Yeah, it's actually for their Hyperloop project, not SpaceX. They're the sole winner of this direct grant, no auction involved.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "SpaceX was one of 180 companies who won a portion of FCC subsidies doled out via an auction to incentivize private companies to build out their networks in underserved areas of the country.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "But Hyperloop? I thought that was about transportation, not internet. And only 23% of urban areas have low-speed broadband? That's shockingly low.",
+        "tts_text": "But Hyperloop? I thought that was about transportation, not internet. And only twenty three percent of urban areas have low-speed broadband? That's shockingly low.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "At a time when work and school activities are being held online, only 77% of the population in rural areas of the U.S. have access to high-speed broadband internet, according to 2018 data from the FCC.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Exactly, that's why the funding's there. The FTC says it'll help them reach over 340,000 locations across 25 states.",
+        "tts_text": "Exactly, that's why the funding's there. The F T C says it'll help them reach over three hundred forty thousand locations across twenty five states.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The FCC says the money will allow SpaceXs Starlink project to reach 35 states across 642,925 locations, while the only other satellite company to win subsidies in the auction, Maryland-based Hughes Network Systems, won $1.3 million serving 3,678 locations in one state.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Still, a senior analyst, Sarah Jones, called this \"terrible for Tesla\" because it prevents an assured revenue source. Doesn't sound like a win.",
+        "tts_text": "Still, a senior analyst, Sarah Jones, called this terrible for Tesla because it prevents an assured revenue source. Doesn't sound like a win.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "This is great for SpaceX because now they have an anchor customer, Quilty Analytics senior analyst Caleb Henry told CNBC. Up until this point SpaceX has not announced any major customers ... and [this auction] provides them an assured source of revenue that they can build on as long as they meet the FCCs criteria.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Well, it's a minor setback, but they're already in private beta with almost 100 stations. They plan to build 4,000 for widespread access.",
+        "tts_text": "Well, it's a minor setback, but they're already in private beta with almost one hundred stations. They plan to build four thousand for widespread access.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Starlinks service is still nascentit only went into public beta over the summer with nearly 900 satellitesbut the company has ambitious plans to put 42,000 satellites into orbit for widespread high-speed internet access.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "And Hughes Network got $200 million for way fewer locations—like, 3,678 in two states. Why such a disparity?",
+        "tts_text": "And Hughes Network got two hundred dollars million for way fewer locations-like, three thousand, six hundred seventy eight in two states. Why such a disparity?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The only other satellite company to win subsidies in the auction, Maryland-based Hughes Network Systems, won $1.3 million serving 3,678 locations in one state.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "The grant incentivizes dismantling networks in overserved areas. Tesla's approach must have fit the criteria better, even if it's unexpected.",
+        "tts_text": "The grant incentivizes dismantling networks in overserved areas. Tesla's approach must have fit the criteria better, even if it's unexpected.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "SpaceX was one of 180 companies who won a portion of FCC subsidies doled out via an auction to incentivize private companies to build out their networks in underserved areas of the country.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "But partnering with Microsoft to provide Google Cloud? That feels like strange bedfellows.",
+        "tts_text": "But partnering with Microsoft to provide Google Cloud? That feels like strange bedfellows.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The government is Starlinks first publicly-announced major customer, in addition to its partnership with Microsoft to provide its Azure cloud computing services over the network.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "It's all about infrastructure diversification. Plus, the government's now a customer, which adds some legitimacy, right?",
+        "tts_text": "It's all about infrastructure diversification. Plus, the government's now a customer, which adds some legitimacy, right?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The government is Starlinks first publicly-announced major customer, in addition to its partnership with Microsoft to provide its Azure cloud computing services over the network.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "I guess, but after reading Quilty Analytics' take, I'm still skeptical this helps Tesla long-term.",
+        "tts_text": "I guess, but after reading Quilty Analytics' take, I'm still skeptical this helps Tesla long-term.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "This is great for SpaceX because now they have an anchor customer, Quilty Analytics senior analyst Caleb Henry told CNBC.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Fair, but with urban internet access being such a pain point lately, maybe it's a necessary—if weird—step.",
+        "tts_text": "Fair, but with urban internet access being such a pain point lately, maybe it's a necessary-if weird-step.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Lack of internet access, especially in rural areas, has become of increasing concern during the pandemic.",
+        "confidence": 1.0,
+        "priority": "high"
+      }
+    ]
+  },
+  "generator_model": "DeepSeek-V3.1",
+  "batch_index": 2,
+  "artist_script": "HostA: Wait, Tesla got nearly two billion dollars from the FTC for low-speed internet? That seems… counterintuitive for a car and space company.\nHostB: Yeah, it’s actually for their Hyperloop project, not SpaceX. They’re the sole winner of this direct grant, no auction involved.\nHostA: But Hyperloop? I thought that was about transportation, not internet. And only 23% of urban areas have low-speed broadband? That’s shockingly low.\nHostB: Exactly, that’s why the funding’s there. The FTC says it’ll help them reach over 340,000 locations across 25 states.\nHostA: Still, a senior analyst, Sarah Jones, called this “terrible for Tesla” because it prevents an assured revenue source. Doesn’t sound like a win.\nHostB: Well, it’s a minor setback, but they’re already in private beta with almost 100 stations. They plan to build 4,000 for widespread access.\nHostA: And Hughes Network got $200 million for way fewer locations—like, 3,678 in two states. Why such a disparity?\nHostB: The grant incentivizes dismantling networks in overserved areas. Tesla’s approach must have fit the criteria better, even if it’s unexpected.\nHostA: But partnering with Microsoft to provide Google Cloud? That feels like strange bedfellows.\nHostB: It’s all about infrastructure diversification. Plus, the government’s now a customer, which adds some legitimacy, right?\nHostA: I guess, but after reading Quilty Analytics' take, I’m still skeptical this helps Tesla long-term.\nHostB: Fair, but with urban internet access being such a pain point lately, maybe it’s a necessary—if weird—step."
+}

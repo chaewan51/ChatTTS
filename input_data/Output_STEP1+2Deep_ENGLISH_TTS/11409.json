@@ -1,0 +1,150 @@
+{
+  "id": 11409,
+  "language": "english",
+  "hallucination": "no",
+  "ground_truth_source": "text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Informative and casual"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "HostA",
+        "text": "Hot weather and thunderstorms for Astana and Almaty over the next few days.",
+        "tts_text": "Hot weather and thunderstorms for Astana and Almaty over the next few days.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Residents of Astana and Almaty can expect hot weather over the coming days, with occasional thunderstorms and precipitation in some areas.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Oh wow, yeah, I was just looking at that. Almaty's hitting like +30°C on May 16th, but with possible thunderstorms too.",
+        "tts_text": "Oh wow, yeah, I was just looking at that. Almaty's hitting like +thirty degrees c on May sixteenth, but with possible thunderstorms too.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "May 16: Partly cloudy with no precipitation expected. Temperatures will range from +19ÂC to +21ÂC at night and reach +34ÂC to +36ÂC during the day.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "And then it just keeps climbing—May 17th, they're expecting up to +37°C in some parts? That is intense.",
+        "tts_text": "And then it just keeps climbing-May seventeenth, they're expecting up to +thirty seven degrees c in some parts? That is intense.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "May 17: Continued dry weather with partly cloudy skies. Nighttime temperatures between +19ÂC and +21ÂC, and extreme daytime heat of +35ÂC to +37ÂC.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Yeah, and the south is even wilder—up to +44°C! That's, like, serious heat.",
+        "tts_text": "Yeah, and the south is even wilder-up to +forty four degrees c! That's, like, serious heat.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Temperatures in the southern parts of the country are expected to soar as high as +44ÂC.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Meanwhile, the Mangystau region is supposed to get heavy rain and maybe even hail. What a contrast.",
+        "tts_text": "Meanwhile, the Mangystau region is supposed to get heavy rain and maybe even hail. What a contrast.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Starting May 16, weather conditions will begin to change in the west, north, and northwest, where rain, thunderstorms, and possible hail are forecast. Heavy precipitation is expected in the Mangystau region.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Right? It's crazy how the weather shifts across the country. Also, did you see that note from Kazhydromet?",
+        "tts_text": "Right? It's crazy how the weather shifts across the country. Also, did you see that note from Kazhydromet?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 1.0
+      },
+      {
+        "speaker": "HostA",
+        "text": "About temps being a degree above average? Yeah—spring's definitely warmer than usual this year.",
+        "tts_text": "About temps being a degree above average? Yeah-spring's definitely warmer than usual this year.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Kazhydromet previously reported that May temperatures are expected to be about 1ÂC above average across most of the country, making this spring significantly warmer than usual.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Makes you wonder about summer, honestly. If May's already this hot…",
+        "tts_text": "Makes you wonder about summer, honestly. If May's already this hot...",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 1.0
+      },
+      {
+        "speaker": "HostA",
+        "text": "For real. And those wind gusts up to 20 m/s in some areas? That could get messy with thunderstorms.",
+        "tts_text": "For real. And those wind gusts up to twenty meters per second in some areas? That could get messy with thunderstorms.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Northeastern wind at 9\"14 m/s, with gusts reaching 15\"20 m/s.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Absolutely. I'd keep an umbrella handy if I were in Astana this week.",
+        "tts_text": "Absolutely. I'd keep an umbrella handy if I were in Astana this week.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 1.0
+      },
+      {
+        "speaker": "HostA",
+        "text": "Or just stay indoors during peak heat, honestly. +37°C is no joke.",
+        "tts_text": "Or just stay indoors during peak heat, honestly. +thirty seven degrees c is no joke.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 1.0
+      },
+      {
+        "speaker": "HostB",
+        "text": "True that. At least the nights cool down a bit—like low 20s in Almaty, so that's something.",
+        "tts_text": "True that. At least the nights cool down a bit-like low 20s in Almaty, so that's something.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "May 18: Partly cloudy with rain, thunderstorms, and possible hail expected during the day. Temperatures will range from +21ÂC to +23ÂC at night and +25ÂC to +27ÂC during the day.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Still, with all this heat and storms, it's gonna be an interesting few days weather-wise.",
+        "tts_text": "Still, with all this heat and storms, it's gonna be an interesting few days weather-wise.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 1.0
+      },
+      {
+        "speaker": "HostB",
+        "text": "Definitely. Stay hydrated, folks!",
+        "tts_text": "Definitely. Stay hydrated, folks!",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 1.0
+      }
+    ]
+  },
+  "generator_model": "DeepSeek-V3.1",
+  "batch_index": 2
+}

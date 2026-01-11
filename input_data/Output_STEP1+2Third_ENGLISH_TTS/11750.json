@@ -1,0 +1,161 @@
+{
+  "id": 11750,
+  "language": "english",
+  "hallucination": "no",
+  "ground_truth_source": "text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Informational and explanatory"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "Okay, so I'm looking at this article and, uh, it says, \"Abnormal heat in Kazakhstan: Temperatures expected to reach +30 degrees Celsius on April 2.\" But then it also says, like, -3 to -1 at night and 12 to 14 during the day for the same April 2nd. What, like, what is going on?",
+        "tts_text": "Okay, so I'm looking at this article and, uh, it says, Abnormal heat in Kazakhstan: Temperatures expected to reach +thirty degrees Celsius on April two. But then it also says, like, -three to -one at night and twelve to fourteen during the day for the same April second. What, like, what is going on?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Temperature: -3 to -1°C at night, 12 to 14°C during the day. ... Read also: Abnormal heat in Kazakhstan: Temperatures expected to reach +30°C on April 2",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, that, um, that can definitely seem confusing, I know. The article's actually talking about, uh, unfavorable meteorological conditions for air pollution.",
+        "tts_text": "Yeah, that, um, that can definitely seem confusing, I know. The article's actually talking about, uh, unfavorable meteorological conditions for air pollution.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Kazhydromet has issued a warning for residents of Astana, Almaty, and several other cities across the country. \"On April 2, 2025, unfavorable meteorological conditions for air pollution are expected in the cities of Karaganda, Zhezkazgan, Temirtau, Almaty, and Astana,\" the statement read.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Unfavorable for pollution? Like, that's a good thing, right? Oh, wait. Unfavorable for air pollution. So, uh, bad for us then?",
+        "tts_text": "Unfavorable for pollution? Like, that's a good thing, right? Oh, wait. Unfavorable for air pollution. So, uh, bad for us then?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Exactly. It means conditions that, um, actually promote pollution. Things like calm weather, light winds, fog, um, and temperature inversions.",
+        "tts_text": "Exactly. It means conditions that, um, actually promote pollution. Things like calm weather, light winds, fog, um, and temperature inversions.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Such conditions occur due to a combination of short-term meteorological factors—\"calm weather, light winds, fog, and temperature inversions\"—that contribute to the accumulation of pollutants in the lower atmosphere.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Okay, calm weather, light winds, I get. Like, no breeze to blow the bad stuff away. But what's, uh, what even is a temperature inversion?",
+        "tts_text": "Okay, calm weather, light winds, I get. Like, no breeze to blow the bad stuff away. But what's, uh, what even is a temperature inversion?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "So, um, normally, air gets cooler as you go higher. Right? Like, you know, on a mountain.",
+        "tts_text": "So, um, normally, air gets cooler as you go higher. Right? Like, you know, on a mountain.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yeah, definitely. Colder up there.",
+        "tts_text": "Yeah, definitely. Colder up there.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Right. But an inversion is when it's the opposite. A layer of warmer air, uh, actually sits above cooler air closer to the ground.",
+        "tts_text": "Right. But an inversion is when it's the opposite. A layer of warmer air, uh, actually sits above cooler air closer to the ground.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Oh.",
+        "tts_text": "Oh.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "And that warmer layer acts like a, um, a lid. It just traps all the pollutants underneath it.",
+        "tts_text": "And that warmer layer acts like a, um, a lid. It just traps all the pollutants underneath it.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "So it's like, just kinda building up, all the bad air? Especially, like, with no wind to clear it out?",
+        "tts_text": "So it's like, just kinda building up, all the bad air? Especially, like, with no wind to clear it out?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Precisely. It, uh, it can get pretty concentrated then.",
+        "tts_text": "Precisely. It, uh, it can get pretty concentrated then.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "And this is for April 2nd, 2025. Like, a super specific date, not just, uh, generally bad weather?",
+        "tts_text": "And this is for April second, twenty twenty five. Like, a super specific date, not just, uh, generally bad weather?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "\"On April 2, 2025, unfavorable meteorological conditions for air pollution are expected in the cities of Karaganda, Zhezkazgan, Temirtau, Almaty, and Astana,\" the statement read.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, Kazhydromet issued a specific warning for, um, Karaganda, Zhezkazgan, Temirtau, Almaty, and Astana. It's a heads-up.",
+        "tts_text": "Yeah, Kazhydromet issued a specific warning for, um, Karaganda, Zhezkazgan, Temirtau, Almaty, and Astana. It's a heads-up.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "\"On April 2, 2025, unfavorable meteorological conditions for air pollution are expected in the cities of Karaganda, Zhezkazgan, Temirtau, Almaty, and Astana,\" the statement read.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Wow. Okay, so it's, uh, really about air quality in those cities then. Not just the temperature swings.",
+        "tts_text": "Wow. Okay, so it's, uh, really about air quality in those cities then. Not just the temperature swings.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "That's, um, that's exactly right. It's about how the weather, uh, specifically affects air quality on that day.",
+        "tts_text": "That's, um, that's exactly right. It's about how the weather, uh, specifically affects air quality on that day.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Man. Okay, that makes, uh, way more sense now. Thanks.",
+        "tts_text": "Man. Okay, that makes, uh, way more sense now. Thanks.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  },
+  "batch_index": 3
+}

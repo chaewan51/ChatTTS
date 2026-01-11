@@ -1,0 +1,183 @@
+{
+  "id": 6775,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Argumentative / Debating"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "Okay, so get this, Jerome Powell just announced the Fed is going to, like, buy up fifty billion dollars in struggling tech stocks. Can you even believe it?",
+        "tts_text": "Okay, so get this, Jerome Powell just announced the Fed is going to, like, buy up fifty billion dollars in struggling tech stocks. Can you even believe it?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The central bank also said it would purchase $700 billion in government debt and continues to buy $120 billion in bonds per month to support that market.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Wait, uh, no, he absolutely did not say that. Where, where did you get that from? He was, you know, talking about the labor market.",
+        "tts_text": "Wait, uh, no, he absolutely did not say that. Where, where did you get that from? He was, you know, talking about the labor market.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "On Wednesday, the Fed said it wants to see more progress in the labor market, which is still down 7.6 million jobs since the onset of the pandemic, before it moves to raise rates and tighten policy.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "It's in the article! The point is, they're doing something to stimulate growth, but it's clearly not working. Prices are just exploding, consumer prices, like, up five percent in May. That's a thirteen-year high.",
+        "tts_text": "It's in the article! The point is, they're doing something to stimulate growth, but it's clearly not working. Prices are just exploding, consumer prices, like, up five percent in May. That's a thirteen-year high.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Prices for consumer goods rose 5% in Maythe highest jump in 13 yearsand producer prices soared a record 6.6% during the same month.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, but you're missing the context. Core inflation, um, excluding food and energy, was only three point one percent. This is, you know, expected as the economy reopens.",
+        "tts_text": "Yeah, but you're missing the context. Core inflation, um, excluding food and energy, was only three point one percent. This is, you know, expected as the economy reopens.",
+        "check_worthy": true,
+        "factual_label": "NEI",
+        "evidence_snippet": "Officials within the Fed and the Biden Administration have repeatedly argued that price spikes are to be expected as the economy reopens, that those spikes will fade over time as conditions normalize...",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Expected? Mohamed El-Erian says this delay means they'll have to slam on the brakes, risking recession! And hyperinflation!",
+        "tts_text": "Expected? Mohamed El-Erian says this delay means they'll have to slam on the brakes, risking recession! And hyperinflation!",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "This would, in turn, risk both an economic recession and financial market instability.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Hyperinflation? Come on. Powell himself said price spikes will fade. The Fed's goal is two percent average over time, and they're, uh, more prepared to tolerate higher prices now.",
+        "tts_text": "Hyperinflation? Come on. Powell himself said price spikes will fade. The Fed's goal is two percent average over time, and they're, uh, more prepared to tolerate higher prices now.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Last August, the Fed announced it would aim for inflation that averages 2% over time rather than adjust policy to prevent inflation from rising above that thresholdthat means its much more prepared than it used to be to tolerate higher prices.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Tolerate? Americans disapprove, sixty-eight percent, of how they're handling this. They're signalling two rate hikes by 2023, but, like, that's too late!",
+        "tts_text": "Tolerate? Americans disapprove, sixty-eight percent, of how they're handling this. They're signalling two rate hikes by twenty twenty three, but, like, that's too late!",
+        "check_worthy": true,
+        "factual_label": "NEI",
+        "evidence_snippet": "Federal Reserve officials on Wednesday signaled that they are looking ahead to two interest rate hikes by the end of 2023sooner than previously expected but not imminentas signs of inflation continue to rattle markets.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Too late for what? They're trying to avoid a taper tantrum. They need to see more progress in the labor market first. Seven point six million jobs still down.",
+        "tts_text": "Too late for what? They're trying to avoid a taper tantrum. They need to see more progress in the labor market first. Seven point six million jobs still down.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "On Wednesday, the Fed said it wants to see more progress in the labor market, which is still down 7.6 million jobs since the onset of the pandemic, before it moves to raise rates and tighten policy.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "They're just pushing the problem down the road, uh, pretending it's temporary when Powell himself admitted inflation could be \"higher and more persistent than we expect.\"",
+        "tts_text": "They're just pushing the problem down the road, uh, pretending it's temporary when Powell himself admitted inflation could be higher and more persistent than we expect.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "...raising the possibility that inflation could turn out to be higher and more persistent than we expect.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "He said could be, not will be. They're just being, you know, cautious. They don't want to spook investors or, like, damage the recovery.",
+        "tts_text": "He said could be, not will be. They're just being, you know, cautious. They don't want to spook investors or, like, damage the recovery.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "To avoid spooking investors and damaging financial markets (and avoid the so-called taper tantrum that followed tighter Fed policy after the 2008 financial crisis), the central bank takes pains to give investors plenty of notice before it changes its policies.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Damaging the recovery is exactly what they're doing by letting inflation get out of hand. The Fed's 2021 PCE inflation prediction is now three point four percent. Up a whole percentage point!",
+        "tts_text": "Damaging the recovery is exactly what they're doing by letting inflation get out of hand. The Fed's twenty twenty one P C E inflation prediction is now three point four percent. Up a whole percentage point!",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "3.4%. Thats the Feds prediction for PCE inflation in 2021up a full percentage point from its March prediction of 2.4%.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Which is still, like, an estimate. And they're clearly signaling their intentions for 2023. They're giving the market plenty of notice, unlike, you know, the Fed of 1978.",
+        "tts_text": "Which is still, like, an estimate. And they're clearly signaling their intentions for twenty twenty three. They're giving the market plenty of notice, unlike, you know, the Fed of nineteen seventy eight.",
+        "check_worthy": true,
+        "factual_label": "NEI",
+        "evidence_snippet": "To avoid spooking investors and damaging financial markets (and avoid the so-called taper tantrum that followed tighter Fed policy after the 2008 financial crisis), the central bank takes pains to give investors plenty of notice before it changes its policies.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Notice isn't action! An internal memo even suggested raising rates as early as Q1 2023. Why not do it then? Why wait until the end of 2023?",
+        "tts_text": "Notice isn't action! An internal memo even suggested raising rates as early as Q1 twenty twenty three. Why not do it then? Why wait until the end of twenty twenty three?",
+        "check_worthy": true,
+        "factual_label": "NEI",
+        "evidence_snippet": "In the minutes from its June meeting, the Fed did not specify when it would terminate the bond-buying program.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Because, uh, they're prioritizing getting people back to work. That's, you know, their dual mandate. They're not just looking at one number.",
+        "tts_text": "Because, uh, they're prioritizing getting people back to work. That's, you know, their dual mandate. They're not just looking at one number.",
+        "check_worthy": true,
+        "factual_label": "NEI",
+        "evidence_snippet": "On Wednesday, the Fed said it wants to see more progress in the labor market, which is still down 7.6 million jobs since the onset of the pandemic, before it moves to raise rates and tighten policy.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "They're looking at the wrong numbers then. They're letting the country slide into, like, serious economic trouble.",
+        "tts_text": "They're looking at the wrong numbers then. They're letting the country slide into, like, serious economic trouble.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 1.0
+      },
+      {
+        "speaker": "Host_B",
+        "text": "No, they're managing a totally unprecedented situation with, you know, careful, measured steps.",
+        "tts_text": "No, they're managing a totally unprecedented situation with, you know, careful, measured steps.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The process of reopening the economy is unprecedented, as was the shutdown at the onset of the pandemic, Federal Reserve chair Jerome Powell said during a press briefing on Wednesday.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Careful? It's reckless!",
+        "tts_text": "Careful? It's reckless!",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 1.0
+      }
+    ]
+  },
+  "batch_index": 3
+}

@@ -1,0 +1,154 @@
+{
+  "id": 6508,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Informational and analytical discussion about financial markets."
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "HostA",
+        "text": "Pilbara Minerals, that Australian lithium producer, is up a staggering 139% since early November.",
+        "tts_text": "Pilbara Minerals, that Australian lithium producer, is up a staggering one hundred thirty nine percent since early November.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Pilbara Minerals, an Australian producer of lithium, is up 137% since early November.",
+        "confidence": 0.95,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Yeah, and it's not just them—Albemarle in the U.S. is up almost 60% in the same period.",
+        "tts_text": "Yeah, and it's not just them-Albemarle in the U.S. is up almost sixty percent in the same period.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "U.S.-based Albemarle Corporation has enjoyed a 58% share price rise since November 4, up from $93.43 on the New York Stock Exchange to $147.52 at the close on Friday.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "It's like investors are piling back into battery metals after that brutal crash a few years ago.",
+        "tts_text": "It's like investors are piling back into battery metals after that brutal crash a few years ago.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The battery metals crash, which lasted until early this year, was a classic demonstration of arriving too early at a partywhich can be worse than being last to leave. But Teslas rise has been matched, and in some cases beaten, by battery metal companies as they are being re-discovered by investors.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Right, but this time feels different because EV demand is actually taking off—Tesla sales grew 36% last year despite the pandemic.",
+        "tts_text": "Right, but this time feels different because E V demand is actually taking off-Tesla sales grew thirty six percent last year despite the pandemic.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "This time it should be different because EV demand really is rising as seen in last years 36% increase in Tesla sales despite the depressing effects of the Covid-19 pandemic on global mobility and overall vehicle demand.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "And with Biden's focus on the environment, the whole sector's getting a tailwind. Tesla's stock jumped 76% since November.",
+        "tts_text": "And with Biden's focus on the environment, the whole sector's getting a tailwind. Tesla's stock jumped seventy six percent since November.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "In the two months since the U.S. elected a more environmentally focused President in Joe Biden, the shift towards EVs has accelerated and can be seen in Teslas 76% share price rise since early November from $400 a share to $705.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "But uh, it's not just Tesla anymore. Traditional automakers like Ford and Mercedes are pushing hard into electric too.",
+        "tts_text": "But uh, it's not just Tesla anymore. Traditional automakers like Ford and Mercedes are pushing hard into electric too.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "While Tesla is the current EV leader, it is being joined in the race to overtake internal combustion engines by traditional vehicle leaders, such as Mercedes Benz, Toyota, Ford and Audi.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Exactly, which means demand for lithium, graphite, cobalt… all those key metals.",
+        "tts_text": "Exactly, which means demand for lithium, graphite, cobalt... all those key metals.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostB",
+        "text": "And if supply can't keep up, we could see prices spike even higher.",
+        "tts_text": "And if supply can't keep up, we could see prices spike even higher.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "If shortages do develop, battery metal prices could spike higher with a corresponding effect on share prices.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Goldman Sachs already raised their lithium forecasts—spodumene could hit $540 a ton this year.",
+        "tts_text": "Goldman Sachs already raised their lithium forecasts-spodumene could hit five hundred forty dollars a ton this year.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Spodumene (a primary ore of the metal) is tipped to rise from $395 a ton to $536/t this year.",
+        "confidence": 0.9,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "That's a big jump from $395. But you know, like, the last boom ended badly because supply way outstripped demand.",
+        "tts_text": "That's a big jump from three hundred ninety five dollars. But you know, like, the last boom ended badly because supply way outstripped demand.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "That first flush of demand for mining and exploration companies exposed to lithium, graphite, cobalt and nickel ended in a spectacular bust because metal supply significantly outstripped demand for EVs.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "True, but this time consumer adoption is real. Charging infrastructure's improving, range anxiety is fading…",
+        "tts_text": "True, but this time consumer adoption is real. Charging infrastructure's improving, range anxiety is fading...",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Increasing competition for EV sales, as obstacles such as limited charging stations and range anxiety are overcome, is being boosted by government incentives for drivers to make the switch.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Plus government incentives are helping drive the switch. It feels more sustainable.",
+        "tts_text": "Plus government incentives are helping drive the switch. It feels more sustainable.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Increasing competition for EV sales, as obstacles such as limited charging stations and range anxiety are overcome, is being boosted by government incentives for drivers to make the switch.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Still, if shortages do develop, battery metal stocks could really take off.",
+        "tts_text": "Still, if shortages do develop, battery metal stocks could really take off.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "If shortages do develop, battery metal prices could spike higher with a corresponding effect on share prices.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "For sure. Investors who got burned last time might be cautious, but the fundamentals look stronger now.",
+        "tts_text": "For sure. Investors who got burned last time might be cautious, but the fundamentals look stronger now.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      }
+    ]
+  },
+  "generator_model": "DeepSeek-V3.1",
+  "batch_index": 2
+}

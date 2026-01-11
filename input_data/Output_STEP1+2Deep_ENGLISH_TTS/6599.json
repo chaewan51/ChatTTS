@@ -1,0 +1,163 @@
+{
+  "id": 6599,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Analytical Discussion"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "HostA",
+        "text": "So Andrew Jones from Morgan Stanley just slashed his worst-case Tesla price target to a shocking twelve dollars. That's... bleak.",
+        "tts_text": "So Andrew Jones from Morgan Stanley just slashed his worst-case Tesla price target to a shocking twelve dollars. That's... bleak.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Morgan Stanley equity analyst Adam Jonas, a long-time Tesla bull whos grown increasingly bearish, discussed concerns about the company in a nearly one-hour call with investors that was recorded and leaked online Wednesday. The leaked comments come on the heels of a research note this week in which Jonas slashed his worst-case price for Tesla shares to just $10, which could be triggered by factors including missing estimated sales goals for China by as much as 50%.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Yeah, and that's based on, um, missing sales goals in Japan by like forty-five percent. That's a huge miss.",
+        "tts_text": "Yeah, and that's based on, um, missing sales goals in Japan by like forty-five percent. That's a huge miss.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The leaked comments come on the heels of a research note this week in which Jonas slashed his worst-case price for Tesla shares to just $10, which could be triggered by factors including missing estimated sales goals for China by as much as 50%.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Right, and he's saying nobody cares about the Model X anymore. The demand just isn't there.",
+        "tts_text": "Right, and he's saying nobody cares about the Model X anymore. The demand just isn't there.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Today, supply exceeds demand, they're burning cash. Nobody cares about the Model Y.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "It's a complete shift in narrative, you know? He said it's gone from a growth story to a, uh, distressed credit story.",
+        "tts_text": "It's a complete shift in narrative, you know? He said it's gone from a growth story to a, uh, distressed credit story.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Tesla is not seen as a growth story, at least the feedback we were getting, which is quite one-sided ... it's seen more as a distressed credit story and restructuring story.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "And the stock dropped five percent to under two hundred bucks, its lowest since 2017.",
+        "tts_text": "And the stock dropped five percent to under two hundred bucks, its lowest since twenty seventeen.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The stock plunged 6% in Nasdaq trading on Wednesday to $192.73, its lowest since December 2016.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Which is wild because they just raised two point seven billion this month, right? With Morgan Stanley even helping them.",
+        "tts_text": "Which is wild because they just raised two point seven billion this month, right? With Morgan Stanley even helping them.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Jonass tough outlook also comes just after Tesla raised $2.7 billion this month in its latest debt and equity offering. Curiously, Morgan Stanley was among the investment banks participating in the sale of those offerings.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Yeah, which is kinda ironic, don't you think? His own firm is underwriting the offering he's so critical of.",
+        "tts_text": "Yeah, which is kinda ironic, don't you think? His own firm is underwriting the offering he's so critical of.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostB",
+        "text": "And he pointed out they passed on raising money last year when things looked better. Now they're doing it at the lows.",
+        "tts_text": "And he pointed out they passed on raising money last year when things looked better. Now they're doing it at the lows.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "In his discussion, Jonas noted that Tesla passed up an opportunity to raise funds late last year when its finances briefly looked stronger. Instead, they are raising capital near the lows, no strategic buy-in, he said.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "With no strategic partner, just institutional investors. That feels like a missed opportunity for some real help.",
+        "tts_text": "With no strategic partner, just institutional investors. That feels like a missed opportunity for some real help.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Instead, they are raising capital near the lows, no strategic buy-in, he said. It was all institutional.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "And those delivery numbers are rough—vehicle sales fell by a third from the fourth quarter to the first.",
+        "tts_text": "And those delivery numbers are rough-vehicle sales fell by a third from the fourth quarter to the first.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Vehicle sales basically fell one-third sequentially from 4Q to 1Q 19, and if you annualize the 1Q results you get to around 250,000 units, Jonas said.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Annualizing that gets you around two hundred sixty thousand units, which is way below their own target.",
+        "tts_text": "Annualizing that gets you around two hundred sixty thousand units, which is way below their own target.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Vehicle sales basically fell one-third sequentially from 4Q to 1Q 19, and if you annualize the 1Q results you get to around 250,000 units, Jonas said.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "They're targeting ninety-five to a hundred thousand this quarter, but the whisper number is even lower, like mid-seventies.",
+        "tts_text": "They're targeting ninety-five to a hundred thousand this quarter, but the whisper number is even lower, like mid-seventies.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "And while Tesla has said its targeting sales of between 90,000 and 100,000 units in the second quarter, the whisper number seems to be in the in the 70,000s, maybe mid- to upper-70,000s, he said.",
+        "confidence": 0.9,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "So even their lowered guidance might be too optimistic. It's just one problem after another.",
+        "tts_text": "So even their lowered guidance might be too optimistic. It's just one problem after another.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostB",
+        "text": "And yet, Elon Musk has always managed to keep investor patience before. But this feels different.",
+        "tts_text": "And yet, Elon Musk has always managed to keep investor patience before. But this feels different.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "And while it has faced grim circumstances in the past, notably in late 2008 when the recession and financial market crash nearly drove it out of existence, CEO Elon Musk has generally maintained investor patience in the face of consistent annual losses in Teslas nine years as a public company.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "It really does. When an analyst like Jones goes this public with such harsh criticism, it shakes confidence.",
+        "tts_text": "It really does. When an analyst like Jones goes this public with such harsh criticism, it shakes confidence.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      }
+    ]
+  },
+  "generator_model": "DeepSeek-V3.1",
+  "batch_index": 2
+}

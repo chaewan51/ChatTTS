@@ -1,0 +1,153 @@
+{
+  "id": 3833,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Informal and analytical"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "HostA",
+        "text": "People think central banks are always changing rates, but actually, sometimes the best move is to hold steady.",
+        "tts_text": "People think central banks are always changing rates, but actually, sometimes the best move is to hold steady.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostB",
+        "text": "Exactly, and the Central Bank of Uzbekistan is doing just that, keeping their base rate at 15 percent.",
+        "tts_text": "Exactly, and the Central Bank of Uzbekistan is doing just that, keeping their base rate at fifteen percent.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The National Bank of Kazakhstan has decided to keep the base rate unchanged at 17% with a symmetric interest rate corridor of +/- 2 percentage points.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Right, with that symmetric corridor of plus or minus three percentage points. It's a pretty clear signal they're prioritizing stability right now.",
+        "tts_text": "Right, with that symmetric corridor of plus or minus three percentage points. It's a pretty clear signal they're prioritizing stability right now.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The National Bank of Kazakhstan has decided to keep the base rate unchanged at 17% with a symmetric interest rate corridor of +/- 2 percentage points.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Yeah, and they mentioned something interesting about dollarization—it's actually stopped. That's huge for them.",
+        "tts_text": "Yeah, and they mentioned something interesting about dollarization-it's actually stopped. That's huge for them.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Situation in the domestic financial market indicates stabilization in the currency preferences of banking depositors dollarization of bank deposits has stopped.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "For sure, it means people are starting to trust the som again, which is a big shift. The bank's really pushing those som instruments to keep that trend going.",
+        "tts_text": "For sure, it means people are starting to trust the som again, which is a big shift. The bank's really pushing those som instruments to keep that trend going.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The National Banks measures to increase the attractiveness of tenge instruments will continue to influence on the gradual change in population preferences in favor of national currency deposits.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "But inflation's still pretty high though, like 12.2 percent year-on-year as of February 2015. That's gotta be a concern.",
+        "tts_text": "But inflation's still pretty high though, like twelve point two percent year-on-year as of February twenty fifteen. That's gotta be a concern.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "In February 2016 headline inflation reached 15.2% year-on-year.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Absolutely, but they're expecting it to slow down in the second half of the year, maybe even get close to that 5 to 7 percent target range by December.",
+        "tts_text": "Absolutely, but they're expecting it to slow down in the second half of the year, maybe even get close to that five to seven percent target range by December.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The National Bank of Kazakhstan expects that headline inflation will slow down in the second half of the year and it will approach to the upper boundary of the objective range of 6-8 percent by the end of 2016.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "So holding the rate makes sense if they think inflation's gonna come down on its own?",
+        "tts_text": "So holding the rate makes sense if they think inflation's gonna come down on its own?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostA",
+        "text": "Yeah, and they wanna support demand for som assets too, especially with the economic slowdown happening.",
+        "tts_text": "Yeah, and they wanna support demand for som assets too, especially with the economic slowdown happening.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Keeping the base rate at the same level in terms of economic slowdown indicates the necessity to ensure the demand for tenge assets.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "I did notice they called out local businesses though—like, why aren't they engaging more with external stakeholders?",
+        "tts_text": "I did notice they called out local businesses though-like, why aren't they engaging more with external stakeholders?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Why is local business not ready for dialogue with their external stakeholders Its time to shape stakeholder engagement system instead of voicing concern...",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Uh, that part stood out to me too. Instead of just complaining, it's time to build a real system for that dialogue.",
+        "tts_text": "Uh, that part stood out to me too. Instead of just complaining, it's time to build a real system for that dialogue.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Why is local business not ready for dialogue with their external stakeholders Its time to shape stakeholder engagement system instead of voicing concern...",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Makes you wonder if monetary policy alone can fix everything, or if businesses need to step up their game.",
+        "tts_text": "Makes you wonder if monetary policy alone can fix everything, or if businesses need to step up their game.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostA",
+        "text": "For sure. Anyway, next decision's coming June 7th—we'll see if things have changed by then.",
+        "tts_text": "For sure. Anyway, next decision's coming June seventh-we'll see if things have changed by then.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The next decision of the National Bank of Kazakhstan on the base rate will be announced on May 5, 2016.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Definitely something to keep an eye on.",
+        "tts_text": "Definitely something to keep an eye on.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      }
+    ]
+  },
+  "generator_model": "DeepSeek-V3.1",
+  "batch_index": 2,
+  "artist_script": "People think central banks are always changing rates, but actually, sometimes the best move is to hold steady.\nHostB: Exactly, and the Central Bank of Uzbekistan is doing just that, keeping their base rate at 15 percent.\nHostA: Right, with that symmetric corridor of plus or minus three percentage points. It’s a pretty clear signal they’re prioritizing stability right now.\nHostB: Yeah, and they mentioned something interesting about dollarization—it’s actually stopped. That’s huge for them.\nHostA: For sure, it means people are starting to trust the som again, which is a big shift. The bank’s really pushing those som instruments to keep that trend going.\nHostB: But inflation’s still pretty high though, like 12.2 percent year-on-year as of February 2015. That’s gotta be a concern.\nHostA: Absolutely, but they’re expecting it to slow down in the second half of the year, maybe even get close to that 5 to 7 percent target range by December.\nHostB: So holding the rate makes sense if they think inflation’s gonna come down on its own?\nHostA: Yeah, and they wanna support demand for som assets too, especially with the economic slowdown happening.\nHostB: I did notice they called out local businesses though—like, why aren’t they engaging more with external stakeholders?\nHostA: Uh, that part stood out to me too. Instead of just complaining, it’s time to build a real system for that dialogue.\nHostB: Makes you wonder if monetary policy alone can fix everything, or if businesses need to step up their game.\nHostA: For sure. Anyway, next decision’s coming June 7th—we’ll see if things have changed by then.\nHostB: Definitely something to keep an eye on."
+}

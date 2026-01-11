@@ -1,0 +1,145 @@
+{
+  "id": 6714,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Casual debate"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "snorts Oh, come on. Really?",
+        "tts_text": "Oh, come on. Really?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "What? No, seriously, Bernie Marcus, like the Home Depot guy, right? He's, uh, giving away 90% of his fortune.",
+        "tts_text": "What? No, seriously, Bernie Marcus, like the Home Depot guy, right? He's, uh, giving away ninety percent of his fortune.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The latest billionaire to promise to leave his fortune to charity: Home Depot co-founder Bernie Marcus, who announced to the Atlanta Journal-Constitution that he plans to give away 90% of his $5.9 billion fortune to charity",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "So? What else are these billionaires gonna do with it? Like, build a solid gold toilet?",
+        "tts_text": "So? What else are these billionaires gonna do with it? Like, build a solid gold toilet?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, but 90% of almost six billion dollars, that's, uh, that's a lot. And he's already given away two and a half billion, apparently.",
+        "tts_text": "Yeah, but ninety percent of almost six billion dollars, that's, uh, that's a lot. And he's already given away two and a half billion, apparently.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Marcus (#337 on Forbes billionaires list with a reported $5.9 billion net worth) has said he has already donated over $2 billion to charitable organizations across the globe.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Okay, fine, a lot of money. But then, you know, the article says he's also fully backing Trump for re-election.",
+        "tts_text": "Okay, fine, a lot of money. But then, you know, the article says he's also fully backing Trump for re-election.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "he plans to give away 90% of his $5.9 billion fortune to charity (and added he would donate to re-elect President Trump).",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Right! That's the part that, like, gets me. He's this huge philanthropist, co-founded the Giving Pledge with Gates and Buffett, saying he has \"all I need,\" you know?",
+        "tts_text": "Right! That's the part that, like, gets me. He's this huge philanthropist, co-founded the Giving Pledge with Gates and Buffett, saying he has all I need, you know?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Marcus (and his wife Billi) joined the Giving Pledge in 2010, a consortium of the worlds wealthiest people who pledged to give away at least half their fortunes in their lifetimes. The Giving Pledge was launched by Bill Gates, Melinda Gates, and Warren Buffet",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Uh-huh. And then immediately, uh, drops millions on PACs for \"Republican causes.\" So, like, is it charity or, like, just, uh, political maneuvering, you think?",
+        "tts_text": "Uh-huh. And then immediately, uh, drops millions on PACs for Republican causes. So, like, is it charity or, like, just, uh, political maneuvering, you think?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "For the 2018 midterms, Marcus donated $7.9 million to outside money groups, mostly political action committees like the Senate Leadership Fund and the John Bolton Super PAC, and entirely to Republicans.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Well, he did say he, um, criticized Trump's \"political acumen\" but praised his economic reforms. So it's, uh, not just blind allegiance, maybe?",
+        "tts_text": "Well, he did say he, um, criticized Trump's political acumen but praised his economic reforms. So it's, uh, not just blind allegiance, maybe?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Marcus dinged Trump for his communication skills, but said the president deserves praise for standing up to Iran and North Korea, working on trade with China, and increasing jobs in the U.S.",
+        "confidence": 0.9,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Oh, please. Economic reforms that, you know, probably made him even richer to begin with. What, like, Georgia Aquarium? Autism Speaks? Yeah, good causes.",
+        "tts_text": "Oh, please. Economic reforms that, you know, probably made him even richer to begin with. What, like, Georgia Aquarium? Autism Speaks? Yeah, good causes.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Marcus donated $250 million to build the Georgia Aquarium, the nations largest such facility. Hes given $25 million to Autism Speaks, an autism advocacy and research operation",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "No, but seriously, the Georgia Aquarium got like a quarter billion from him. And he founded the Marcus Institute for kids with developmental disabilities. That's, um, actually pretty amazing, right?",
+        "tts_text": "No, but seriously, the Georgia Aquarium got like a quarter billion from him. And he founded the Marcus Institute for kids with developmental disabilities. That's, um, actually pretty amazing, right?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Marcus donated $250 million to build the Georgia Aquarium... as well as founded and funded the Marcus Institute for children and teenagers with developmental disabilities.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "It's great. It is. But I just... I don't know. It feels so, like, contradictory. You know? To want to \"amplify impact on the world\" and then also support... well, that.",
+        "tts_text": "It's great. It is. But I just... I don't know. It feels so, like, contradictory. You know? To want to amplify impact on the world and then also support... well, that.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, I get that. But the scale of it, though. They're saying his lifetime giving could hit seven billion. Seven billion dollars. That's, um, a lot of good that could do, no matter what his politics are, I guess?",
+        "tts_text": "Yeah, I get that. But the scale of it, though. They're saying his lifetime giving could hit seven billion. Seven billion dollars. That's, um, a lot of good that could do, no matter what his politics are, I guess?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Its estimated he could give away over $6 billion in his lifetime.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "I guess. I mean, it's a number. A very big number.",
+        "tts_text": "I guess. I mean, it's a number. A very big number.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, exactly! It's just, uh, it's not something you see every day, is it?",
+        "tts_text": "Yeah, exactly! It's just, uh, it's not something you see every day, is it?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  },
+  "batch_index": 3
+}

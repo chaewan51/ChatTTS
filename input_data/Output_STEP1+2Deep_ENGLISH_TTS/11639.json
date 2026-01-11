@@ -1,0 +1,116 @@
+{
+  "id": 11639,
+  "language": "english",
+  "hallucination": "no",
+  "ground_truth_source": "text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Podcast co-hosts",
+      "inferred_vibe": "Informative and conversational"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "HostA",
+        "text": "Emily in Almaty just texted me, said she saw a few snowflakes this morning and was totally confused.",
+        "tts_text": "Emily in Almaty just texted me, said she saw a few snowflakes this morning and was totally confused.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Oh wow, yeah, that tracks with the forecast from Tengrinews.kz. They're calling for a sharp deterioration on the 16th, with rain turning to snow overnight.",
+        "tts_text": "Oh wow, yeah, that tracks with the forecast from the website. They're calling for a sharp deterioration on the sixteenth, with rain turning to snow overnight.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "April 16 \" Sharp deterioration expected. Rain and snow overnight.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "And those wind gusts up to 20 meters per second? That's, like, seriously strong wind. I'd be worried about branches coming down.",
+        "tts_text": "And those wind gusts up to twenty meters per second? That's, like, seriously strong wind. I'd be worried about branches coming down.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Northwesterly wind with gusts up to 20 m/s.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "For sure. And then a significant cold snap too—temperatures dropping to around zero at night. Icy roads are a real possibility.",
+        "tts_text": "For sure. And then a significant cold snap too-temperatures dropping to around zero at night. Icy roads are a real possibility.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Temperature: Night 0¦+2ÂC, Day +13¦+15ÂC. Significant cold snap; possible icy roads and light snowstorm in the morning.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "It's wild because just the day before, on the 15th, it's supposed to be relatively mild, you know, like +12 to +14 degrees. Almost spring-like.",
+        "tts_text": "It's wild because just the day before, on the fifteenth, it's supposed to be relatively mild, you know, like +twelve to +fourteen degrees. Almost spring-like.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Temperature: Night +3¦+5ÂC, Day +12¦+14ÂC.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Right, but then boom, winter's back for a quick visit. And then by the 17th, it's still cold and windy, only up to +10 degrees in the day. A classic gloomy April.",
+        "tts_text": "Right, but then boom, winter's back for a quick visit. And then by the seventeenth, it's still cold and windy, only up to +ten degrees in the day. A classic gloomy April.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Temperature: Night +3¦+5ÂC, Day +8¦+10ÂC.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Meanwhile, uh, Astana's getting a totally different story. April 15th there is warm and pleasant, almost summer-like at +23 degrees.",
+        "tts_text": "Meanwhile, uh, Astana's getting a totally different story. April fifteenth there is warm and pleasant, almost summer-like at +twenty three degrees.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Temperature: Night +9¦+11ÂC, Day +21¦+23ÂC. Warm and pleasant \" almost like summer.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Yeah, but then they get hit with thunderstorms on the 16th, gusts up to 18 m/s. So both cities are in for some drama, just different kinds.",
+        "tts_text": "Yeah, but then they get hit with thunderstorms on the sixteenth, gusts up to eighteen meters per second. So both cities are in for some drama, just different kinds.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Occasional rain and thunderstorms. Wind gusts up to 18 m/s.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "At least Astana stays relatively warm even with the rain, like +18 to +20 on the 17th. So it's wet but not freezing.",
+        "tts_text": "At least Astana stays relatively warm even with the rain, like +eighteen to +twenty on the seventeenth. So it's wet but not freezing.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Temperature: Night +3¦+5ÂC, Day +18¦+20ÂC. Despite the rain, it will remain relatively warm \" a wet but not chilly day.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "True. But overall, it sounds like nobody's escaping without an umbrella this week.",
+        "tts_text": "True. But overall, it sounds like nobody's escaping without an umbrella this week.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 1.0,
+        "priority": "high"
+      }
+    ]
+  },
+  "generator_model": "DeepSeek-V3.1",
+  "batch_index": 2
+}

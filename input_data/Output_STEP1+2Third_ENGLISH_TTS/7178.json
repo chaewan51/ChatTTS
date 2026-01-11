@@ -1,0 +1,139 @@
+{
+  "id": 7178,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Friends/Acquaintances",
+      "inferred_vibe": "Cynical and conspiratorial"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Speaker 1",
+        "text": "just another day, you know? Another, uh, headline about America crumbling or whatever. But no, I mean, this is different. It's about data, man. Like, actual reliable data.",
+        "tts_text": "just another day, you know? Another, uh, headline about America crumbling or whatever. But no, I mean, this is different. It's about data, man. Like, actual reliable data.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Speaker 2",
+        "text": "Data. Yeah, always data. What's the big deal this time? They found a typo in the GDP?",
+        "tts_text": "Data. Yeah, always data. What's the big deal this time? They found a typo in the G D P?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Speaker 1",
+        "text": "No, it's, uh, the Census Bureau. Remember them? Like, pretty essential for, you know, everything? They're gutted. Budget cuts, old tech, interns running the show.",
+        "tts_text": "No, it's, uh, the Census Bureau. Remember them? Like, pretty essential for, you know, everything? They're gutted. Budget cuts, old tech, interns running the show.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "But under Trump, the agencys budget has been held relatively flat, leaving it without the means to test different survey questions or various cost-saving techniques.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Speaker 2",
+        "text": "So? Government's always inefficient. They'll figure it out. What's that got to do with me?",
+        "tts_text": "So? Government's always inefficient. They'll figure it out. What's that got to do with me?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Speaker 1",
+        "text": "Well, businesses. They rely on that stuff for investment, output decisions. They're actually, like, fleeing the country. And, uh, global alliances? Breaking down because no one trusts our data anymore.",
+        "tts_text": "Well, businesses. They rely on that stuff for investment, output decisions. They're actually, like, fleeing the country. And, uh, global alliances? Breaking down because no one trusts our data anymore.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "US businesses rely on the data collected by the Census Bureau to make decisions about future output, hiring, and investments.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Speaker 2",
+        "text": "Fleeing. Right. Like it's a new thing. Companies move all the time for, I don't know, cheaper labor.",
+        "tts_text": "Fleeing. Right. Like it's a new thing. Companies move all the time for, I don't know, cheaper labor.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Speaker 1",
+        "text": "Okay, but it gets worse. ERS, NIFA? USDA agencies? Totally dissolved. Shutting down, staff terminated by year-end.",
+        "tts_text": "Okay, but it gets worse. E R S, N I F A? U S D A agencies? Totally dissolved. Shutting down, staff terminated by year-end.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "In June, Secretary of Agriculture Sonny Perdue announced that both the ERS and NIFA will lose their independent status within the department and be relocated from Washington, DC, to Kansas City.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Speaker 2",
+        "text": "USDA, huh? Farmers losing their, uh, their little reports? Big whoop.",
+        "tts_text": "U S D A, huh? Farmers losing their, uh, their little reports? Big whoop.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Speaker 1",
+        "text": "No, the resources from those agencies? They're going to a privately owned company. Guess who runs it? A Trump insider.",
+        "tts_text": "No, the resources from those agencies? They're going to a privately owned company. Guess who runs it? A Trump insider.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Speaker 2",
+        "text": "Oh, that's new. A private company. So they're just, like, outsourcing it then? Probably cheaper.",
+        "tts_text": "Oh, that's new. A private company. So they're just, like, outsourcing it then? Probably cheaper.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Speaker 1",
+        "text": "No! The intention is to manipulate the data. To make the government look good. And destroy, like, US credibility. That's what the article says.",
+        "tts_text": "No! The intention is to manipulate the data. To make the government look good. And destroy, like, U S credibility. That's what the article says.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "One cannot help but suspect that the Trump administrations intent is simply to destroy the two agencies.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Speaker 2",
+        "text": "So, it's just another cover-up. Another, uh, swamp thing. Happens. Always happens.",
+        "tts_text": "So, it's just another cover-up. Another, uh, swamp thing. Happens. Always happens.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Speaker 1",
+        "text": "But the IG, the Inspector General, they put out a report. Says it violates the 2018 Appropriations Act. This isn't just, like, normal messy government.",
+        "tts_text": "But the I G, the Inspector General, they put out a report. Says it violates the twenty eighteen Appropriations Act. This isn't just, like, normal messy government.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "According to a recent report by the USDAs Inspector General, the administrations plans violate the 2018 Consolidated Appropriations Act, because it has not obtained congressional budget approval to relocate the ERS and NIFA offices.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Speaker 2",
+        "text": "And how often does that actually matter? Under this administration? Probably never. Just another, you know, Tuesday.",
+        "tts_text": "And how often does that actually matter? Under this administration? Probably never. Just another, you know, Tuesday.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  },
+  "batch_index": 3
+}

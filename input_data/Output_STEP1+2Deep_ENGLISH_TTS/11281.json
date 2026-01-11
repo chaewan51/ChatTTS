@@ -1,0 +1,123 @@
+{
+  "id": 11281,
+  "language": "english",
+  "hallucination": "no",
+  "ground_truth_source": "text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Informative and conversational"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "HostA",
+        "text": "A high-stakes diplomatic dance, you know, with the sudden passing of a key figure throwing the whole schedule into disarray.",
+        "tts_text": "A high-stakes diplomatic dance, you know, with the sudden passing of a key figure throwing the whole schedule into disarray.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostB",
+        "text": "Yeah, exactly. And that's precisely what happened with Italian Prime Minister Giorgia Meloni's trip to Kazakhstan. She was supposed to be there back in April, but then, uh, Pope Francis passed away.",
+        "tts_text": "Yeah, exactly. And that's precisely what happened with Italian Prime Minister Giorgia Meloni's trip to Kazakhstan. She was supposed to be there back in April, but then, uh, Pope Francis passed away.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Meloni was initially expected to visit Kazakhstan on April 26\"27 at the invitation of Tokayev. However, due to the passing of Pope Francis, the Italian delegation's visit and the inaugural Central Asia \" Italy summit were postponed.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Right, right. So that forced a complete postponement of her visit and that big Central Asia-Italy summit they had planned.",
+        "tts_text": "Right, right. So that forced a complete postponement of her visit and that big Central Asia-Italy summit they had planned.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "However, due to the passing of Pope Francis, the Italian delegation's visit and the inaugural Central Asia \" Italy summit were postponed.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "But she finally made it to Astana this week, didn't she? President Tokayev himself was there to greet her at the airport.",
+        "tts_text": "But she finally made it to Astana this week, didn't she? President Tokayev himself was there to greet her at the airport.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "President Kassym-Jomart Tokayev welcomed Italian Prime Minister Giorgia Meloni at the airport in Astana on Thursday as she arrived in Kazakhstan for an official visit, citing the Akorda press service.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "He was, which is a pretty significant gesture. It really underscores how important this strategic partnership is for both countries.",
+        "tts_text": "He was, which is a pretty significant gesture. It really underscores how important this strategic partnership is for both countries.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostB",
+        "text": "For sure. And you know, it's interesting because Giorgia Meloni is such a historic figure herself—Italy's first female prime minister.",
+        "tts_text": "For sure. And you know, it's interesting because Giorgia Meloni is such a historic figure herself-Italy's first female prime minister.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Giorgia Meloni became Italy's first female prime minister on October 22, 2022.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Absolutely. And she's got quite the political resume, leading the Brothers of Italy party since 2014.",
+        "tts_text": "Absolutely. And she's got quite the political resume, leading the Brothers of Italy party since twenty fourteen.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Meloni has been the leader of the Brothers of Italy party since 2014 and the European Conservatives and Reformists Party since 2020.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "And now also heading up the European Conservatives and Reformists Party. It's a lot of influence she's wielding on the European stage.",
+        "tts_text": "And now also heading up the European Conservatives and Reformists Party. It's a lot of influence she's wielding on the European stage.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Meloni has been the leader of the Brothers of Italy party since 2014 and the European Conservatives and Reformists Party since 2020.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Definitely. So this visit, even though it was delayed, is a huge moment for bilateral relations. They were set to discuss strengthening that partnership.",
+        "tts_text": "Definitely. So this visit, even though it was delayed, is a huge moment for bilateral relations. They were set to discuss strengthening that partnership.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The two sides were set to discuss prospects for strengthening the strategic partnership between Kazakhstan and Italy.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "I'm really curious what comes out of these talks, especially given, like, the current global energy landscape. Kazakhstan is a major supplier to Italy, right?",
+        "tts_text": "I'm really curious what comes out of these talks, especially given, like, the current global energy landscape. Kazakhstan is a major supplier to Italy, right?",
+        "check_worthy": true,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.5,
+        "priority": "medium"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Oh, without a doubt. That's almost certainly going to be a central part of their discussions in Astana.",
+        "tts_text": "Oh, without a doubt. That's almost certainly going to be a central part of their discussions in Astana.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      }
+    ]
+  },
+  "generator_model": "DeepSeek-V3.1",
+  "batch_index": 2
+}

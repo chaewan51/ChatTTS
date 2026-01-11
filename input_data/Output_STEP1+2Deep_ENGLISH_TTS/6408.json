@@ -1,0 +1,133 @@
+{
+  "id": 6408,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Podcast co-hosts",
+      "inferred_vibe": "Informative and conversational"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "A listener",
+        "text": "A listener writes in, 'I always wonder who actually gives the most, not just who promises the most.'",
+        "tts_text": "A listener writes in, 'I always wonder who actually gives the most, not just who promises the most.'",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostA",
+        "text": "Exactly. And according to this Forbes and SHOOK Research partnership, they tracked actual money that reached beneficiaries in 2019.",
+        "tts_text": "Exactly. And according to this Forbes and S H O O K Research partnership, they tracked actual money that reached beneficiaries in twenty nineteen.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "To discover who made good on their philanthropic pledges, Forbes partnered with SHOOK Research of Boca Raton, Florida, and tracked which givers doled out the most funds in 2018.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Right, they only counted funds that were paid out, not just pledged. So it's real giving, not promises.",
+        "tts_text": "Right, they only counted funds that were paid out, not just pledged. So it's real giving, not promises.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "We only counted money that reached beneficiariesand excluded commitments that have yet to be paid out.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "And Warren Buffett, he topped the list for the sixth year in a row.",
+        "tts_text": "And Warren Buffett, he topped the list for the sixth year in a row.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "For the fifth year running, Berkshire Hathaway chairman Warren Buffett tops the list at No.1, while Bill and Melinda Gates, Michael Bloomberg, the Walton family and George Soros round out the top five.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Yeah, which is pretty incredible. Bill and Melinda Gates, Michael Bloomberg, they're all up there in the top five.",
+        "tts_text": "Yeah, which is pretty incredible. Bill and Melinda Gates, Michael Bloomberg, they're all up there in the top five.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "For the fifth year running, Berkshire Hathaway chairman Warren Buffett tops the list at No.1, while Bill and Melinda Gates, Michael Bloomberg, the Walton family and George Soros round out the top five.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "And get this—nine of the top ten givers are also on the Forbes 400 list.",
+        "tts_text": "And get this-nine of the top ten givers are also on the Forbes four hundred list.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Nine of the top ten givers made it to the ranks of the 2019 Forbes 400 list; altogether, 39 of the 50 top givers are Forbes 400 members.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "So the wealthiest Americans are also some of the most generous, at least in terms of actual dollars given.",
+        "tts_text": "So the wealthiest Americans are also some of the most generous, at least in terms of actual dollars given.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostA",
+        "text": "The total given by the top 50 was $15.2 billion in 2019, which is up from previous years.",
+        "tts_text": "The total given by the top fifty was fifteen point two dollars billion in twenty nineteen, which is up from previous years.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "In total, America's 50 most generous philanthropists gave out $14.1 billion in 2018, up from $12.6 billion in 2017 and $12.2 billion in 2016.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "That's a huge amount of money. And their lifetime giving? Over $176 billion collectively.",
+        "tts_text": "That's a huge amount of money. And their lifetime giving? Over one hundred seventy six dollars billion collectively.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Collectively, the group's lifetime givinga tally of funds distributed by their foundations plus direct giftsexceeds $173 billion.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "It's mind-boggling. But they do mention that some big givers might be missing from the list if they chose not to participate.",
+        "tts_text": "It's mind-boggling. But they do mention that some big givers might be missing from the list if they chose not to participate.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Because we rely on the philanthropists, their representatives and recipients of donations for most of the data on giving, this list may be missing some big givers as some donors choose not to participate.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Yeah, that makes sense. Some donors prefer to keep their giving private.",
+        "tts_text": "Yeah, that makes sense. Some donors prefer to keep their giving private.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostA",
+        "text": "Still, it's a fascinating snapshot of who's putting their money where their mouth is.",
+        "tts_text": "Still, it's a fascinating snapshot of who's putting their money where their mouth is.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      }
+    ]
+  },
+  "generator_model": "DeepSeek-V3.1",
+  "batch_index": 2,
+  "artist_script": "A listener writes in, 'I always wonder who actually gives the most, not just who promises the most.'\nHostA: Exactly. And according to this Forbes and SHOOK Research partnership, they tracked actual money that reached beneficiaries in 2019.\nHostB: Right, they only counted funds that were paid out, not just pledged. So it's real giving, not promises.\nHostA: And Warren Buffett, he topped the list for the sixth year in a row.\nHostB: Yeah, which is pretty incredible. Bill and Melinda Gates, Michael Bloomberg, they're all up there in the top five.\nHostA: And get this—nine of the top ten givers are also on the Forbes 400 list.\nHostB: So the wealthiest Americans are also some of the most generous, at least in terms of actual dollars given.\nHostA: The total given by the top 50 was $15.2 billion in 2019, which is up from previous years.\nHostB: That's a huge amount of money. And their lifetime giving? Over $176 billion collectively.\nHostA: It's mind-boggling. But they do mention that some big givers might be missing from the list if they chose not to participate.\nHostB: Yeah, that makes sense. Some donors prefer to keep their giving private.\nHostA: Still, it's a fascinating snapshot of who's putting their money where their mouth is."
+}

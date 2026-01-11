@@ -1,0 +1,129 @@
+{
+  "id": 7109,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Friends with conflicting views",
+      "inferred_vibe": "Comedic / Frustrating"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Speaker A",
+        "text": "Oh my god, you have GOT to be kidding me! What? What's so funny? It's the 5G! I knew it! The mind-control transmissions, it's all real! It's right here in this \"peer-reviewed study.\"",
+        "tts_text": "Oh my god, you have G O T to be kidding me! What? What's so funny? It's the five grams! I knew it! The mind-control transmissions, it's all real! It's right here in this peer-reviewed study.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "In another worrying set of findings for the long-term impact of Covid-19, a new peer reviewed study has confirmed reported links between psychiatric illness and Covid-19...",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Speaker B",
+        "text": "Hold on. No. That's a... that's a misinterpretation. The study confirms links between psychiatric illness and COVID-19, not... whatever that was.",
+        "tts_text": "Hold on. No. That's a... that's a misinterpretation. The study confirms links between psychiatric illness and COVIDminus nineteen, not... whatever that was.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "In another worrying set of findings for the long-term impact of Covid-19, a new peer reviewed study has confirmed reported links between psychiatric illness and Covid-19...",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Speaker A",
+        "text": "Oh, \"misinterpretation,\" sure. Funded by a \"shadowy coalition of pharmaceutical companies seeking to profit,\" huh? Sounds legit!",
+        "tts_text": "Oh, misinterpretation, sure. Funded by a shadowy coalition of pharmaceutical companies seeking to profit, huh? Sounds legit!",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "By examining the health records of 69 million people in the U.S., including over 62,000 Covid-19 patients, researchers from the University of Oxford and NIHR Oxford Health Biomedical Research Centre found evidence that Covid-19 increases a persons risk of developing psychiatric illness...",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Speaker B",
+        "text": "That's a descriptive phrase, A. The actual research is from Oxford! They looked at 69 million people!",
+        "tts_text": "That's a descriptive phrase, A. The actual research is from Oxford! They looked at sixty nine million people!",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "By examining the health records of 69 million people in the U.S., including over 62,000 Covid-19 patients, researchers from the University of Oxford and NIHR Oxford Health Biomedical Research Centre found evidence...",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Speaker A",
+        "text": "Millions of people to hide the fact that the Pfizer vaccine makes you vulnerable to alien abduction! Uh, it causes long Covid and mental illness, apparently. Alien abduction? Are you hearing yourself?",
+        "tts_text": "Millions of people to hide the fact that the Pfizer vaccine makes you vulnerable to alien abduction! Uh, it causes long Covid and mental illness, apparently. Alien abduction? Are you hearing yourself?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The study is about the link between Covid-19 infection and mental illness, not the vaccine. The article mentions the vaccine separately: \"Pfizer and BioNTech announced early results for their Covid-19 vaccine clinical trial Monday, revealing it to be 90% effective at preventing the disease.\"",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Speaker B",
+        "text": "The actual finding is that one in five Covid patients develop mental illness within three months! Anxiety, depression, insomnia!",
+        "tts_text": "The actual finding is that one in five Covid patients develop mental illness within three months! Anxiety, depression, insomnia!",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "...with nearly one in five Covid-19 patients developing a mental illness within three months of testing positive for the virus... Not all mental illnesses were more likely to be seen in Covid-19 patients, the researchers said, with rates of anxiety, depression and insomnia most elevated.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Speaker A",
+        "text": "Yeah, and \"Dr. Evil Taquet,\" um, says pre-existing mental conditions make you 95% more likely to get Covid! It's like, they're targeting people!",
+        "tts_text": "Yeah, and Dr. Evil Taquet, um, says pre-existing mental conditions make you ninety five percent more likely to get Covid! It's like, they're targeting people!",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "There was also an unexpected finding in the research, indicating that those with a pre-existing psychiatric illness are 65% more likely to be diagnosed with Covid-19, even when other factors are accounted for.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Speaker B",
+        "text": "Taquet, yes. And that part is serious, it highlights a huge vulnerability. It's not some... targeting!",
+        "tts_text": "Taquet, yes. And that part is serious, it highlights a huge vulnerability. It's not some... targeting!",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Speaker A",
+        "text": "And Paul Harrison, the lizard person guy, he knows the truth! Services need to be ready, especially since our results are likely to be underestimates!",
+        "tts_text": "And Paul Harrison, the lizard person guy, he knows the truth! Services need to be ready, especially since our results are likely to be underestimates!",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Paul Harrison, a professor of psychiatry at the University of Oxford and leader of the study, said... 'Services need to be ready to provide care, especially since our results are likely to be underestimates of the actual number of cases,' he said.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Speaker B",
+        "text": "Ugh. He's a quote, A! The point is the magnitude of the problem, the need for mental health care, not... lizard people!",
+        "tts_text": "Ugh. He's a quote, A! The point is the magnitude of the problem, the need for mental health care, not... lizard people!",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Speaker A",
+        "text": "No, B, you're missing the magnitude. It's all connected. The 5G, the mind control, the Pfizer vaccine... it's all part of their plan, man.",
+        "tts_text": "No, B, you're missing the magnitude. It's all connected. The five grams, the mind control, the Pfizer vaccine... it's all part of their plan, man.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The article discusses links between psychiatric illness and Covid-19 infection. It does not mention 5G or mind control, and the Pfizer vaccine is mentioned only in a separate tangent about its efficacy.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Speaker B",
+        "text": "I... I can't even. This is just utterly... I can't.",
+        "tts_text": "I... I can't even. This is just utterly... I can't.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  },
+  "batch_index": 3
+}

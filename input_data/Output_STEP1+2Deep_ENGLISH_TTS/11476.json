@@ -1,0 +1,133 @@
+{
+  "id": 11476,
+  "language": "english",
+  "hallucination": "no",
+  "ground_truth_source": "text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Informative"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "HostA",
+        "text": "The dollar actually dropped below 515 tenge during trading on May 6, according to KASE.",
+        "tts_text": "The dollar actually dropped below five hundred fifteen tenge during trading on May six, according to K A S E.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The dollar dropped below 515 tenge during trading on May 6, according to data from the Kazakhstan Stock Exchange (KASE).",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Yeah, the weighted average exchange rate closed at, um, 514.50 tenge per dollar—that's down by more than three and a half tenge.",
+        "tts_text": "Yeah, the weighted average exchange rate closed at, um, five hundred fourteen point five zero tenge per dollar-that's down by more than three and a half tenge.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The weighted average exchange rate at the end of daytime trading was 514.50 tenge per dollar, down by 3.60 tenge.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "And yet the National Bank's official exchange rate for that day was still set higher, right? At 518.53 tenge.",
+        "tts_text": "And yet the National Bank's official exchange rate for that day was still set higher, right? At five hundred eighteen point five three tenge.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The official exchange rate set by the National Bank for May 6 stands at 518.53 tenge.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Exactly. So there's a bit of a gap there. In Almaty exchange offices, the buying rate was around 515, selling at like 517.",
+        "tts_text": "Exactly. So there's a bit of a gap there. In Almaty exchange offices, the buying rate was around five hundred fifteen, selling at like five hundred seventeen.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "According to kurs.kz, the average buying rate in Almaty exchange offices is 515.39 tenge, while the selling rate is 517.35 tenge.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "But in Astana, it was even lower for buying—just 512.56 tenge per dollar. That's interesting, the regional differences.",
+        "tts_text": "But in Astana, it was even lower for buying-just five hundred twelve point five six tenge per dollar. That's interesting, the regional differences.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "In Astana, dollars are being bought at an average of 512.56 tenge and sold at 518.56 tenge.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "It really is. Economists are saying this strengthening of the tenge isn't just a blip; it might have some legs.",
+        "tts_text": "It really is. Economists are saying this strengthening of the tenge isn't just a blip; it might have some legs.",
+        "check_worthy": true,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.5,
+        "priority": "medium"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Do we know what's driving it? I mean, dropping below 500 even at some points—that's huge.",
+        "tts_text": "Do we know what's driving it? I mean, dropping below five hundred even at some points-that's huge.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Dollar drops below 500.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Some experts think it's tied to commodity prices or maybe central bank interventions. The forecasts have been all over the place lately.",
+        "tts_text": "Some experts think it's tied to commodity prices or maybe central bank interventions. The forecasts have been all over the place lately.",
+        "check_worthy": true,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.6,
+        "priority": "medium"
+      },
+      {
+        "speaker": "HostA",
+        "text": "For sure. I remember earlier predictions were way more conservative, nobody saw it dipping this low so quickly.",
+        "tts_text": "For sure. I remember earlier predictions were way more conservative, nobody saw it dipping this low so quickly.",
+        "check_worthy": true,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.5,
+        "priority": "medium"
+      },
+      {
+        "speaker": "HostB",
+        "text": "It makes you wonder if this is gonna hold or if we're in for more volatility.",
+        "tts_text": "It makes you wonder if this is gonna hold or if we're in for more volatility.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostA",
+        "text": "Absolutely. And with those regional disparities between Almaty and Astana, it adds another layer.",
+        "tts_text": "Absolutely. And with those regional disparities between Almaty and Astana, it adds another layer.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostB",
+        "text": "Yeah, people exchanging money might wanna shop around a bit, honestly.",
+        "tts_text": "Yeah, people exchanging money might wanna shop around a bit, honestly.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      }
+    ]
+  },
+  "generator_model": "DeepSeek-V3.1",
+  "batch_index": 2
+}

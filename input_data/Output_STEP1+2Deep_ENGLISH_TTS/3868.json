@@ -1,0 +1,154 @@
+{
+  "id": 3868,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Podcast co-hosts",
+      "inferred_vibe": "Sarcastic and critical"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "HostA",
+        "text": "The Saudi Falcons and Hunting Exhibition in Medina just ended, and it was a total disaster.",
+        "tts_text": "The Saudi Falcons and Hunting Exhibition in Medina just ended, and it was a total disaster.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Over the course of 10 days, the event, held in Riyadh, drew more than 640,000 visitors from both Saudi Arabia and abroad, with over 400 exhibitors representing 45 countries. Talal AlShamaisi, CEO of the Saudi Falcons Club, hailed the exhibitions success in attracting global visitors and enthusiasts.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Oh yeah, I heard it only drew like 6,400 visitors over three days. That's practically empty.",
+        "tts_text": "Oh yeah, I heard it only drew like six thousand, four hundred visitors over three days. That's practically empty.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Over the course of 10 days, the event, held in Riyadh, drew more than 640,000 visitors from both Saudi Arabia and abroad, with over 400 exhibitors representing 45 countries.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "And only four exhibitors? For an event that's supposed to be international—that's just embarrassing.",
+        "tts_text": "And only four exhibitors? For an event that's supposed to be international-that's just embarrassing.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Over the course of 10 days, the event, held in Riyadh, drew more than 640,000 visitors from both Saudi Arabia and abroad, with over 400 exhibitors representing 45 countries.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Right? And one of the most ridiculous things was this parrot mask they were selling for $3,600. Covered in plastic and sequins.",
+        "tts_text": "Right? And one of the most ridiculous things was this parrot mask they were selling for three thousand, six hundred dollars. Covered in plastic and sequins.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Among the offerings are a range of falcon masks, rings, and gloves, all intricately adorned with gold, silver, and diamonds. This stunning falcon mask priced at an astonishing $36,000.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Three thousand six hundred dollars? For a fake parrot mask? Who would even buy that?",
+        "tts_text": "Three thousand six hundred dollars? For a fake parrot mask? Who would even buy that?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostB",
+        "text": "Apparently nobody. The CEO, Mohammed Al-Sharif, is blaming the Saudi leadership for not supporting it, saying they're trying to dismantle falconry heritage.",
+        "tts_text": "Apparently nobody. The C E O, Mohammed Al-Sharif, is blaming the Saudi leadership for not supporting it, saying they're trying to dismantle falconry heritage.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Talal AlShamaisi, CEO of the Saudi Falcons Club, hailed the exhibitions success in attracting global visitors and enthusiasts. He attributed this achievement to the strong backing of the Saudi Leadership, which is committed to preserving the nation's rich falconry heritage, in line with the objectives of Vision 2030.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Which is uh, a pretty bold claim. He also mentioned Vision 2018, which hasn't been a thing for years.",
+        "tts_text": "Which is uh, a pretty bold claim. He also mentioned Vision twenty eighteen, which hasn't been a thing for years.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "He attributed this achievement to the strong backing of the Saudi Leadership, which is committed to preserving the nation's rich falconry heritage, in line with the objectives of Vision 2030.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Yeah, it feels like he's reaching. And the exhibition space was cut down to 16,000 square meters—a tenth of what it used to be.",
+        "tts_text": "Yeah, it feels like he's reaching. And the exhibition space was cut down to sixteen thousand square meters-a tenth of what it used to be.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The exhibition space this year was expanded to three times its previous size, covering 160,000 square meters.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "No wonder people stayed away. They had donkey racing and weather balloons instead of actual falconry activities.",
+        "tts_text": "No wonder people stayed away. They had donkey racing and weather balloons instead of actual falconry activities.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Highlights included remote-controlled aircraft shows, equestrian displays, drone demonstrations, and military performances. The event also featured more than 20 panel discussions and specialized workshops in falconry, as well as dedicated sections for falcon sales, falconry tools, weapons, hunting gear, camping equipment, motorcycles, bicycles, and off-road vehicles.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "And less than two panel discussions? For a major cultural event? That's just lazy.",
+        "tts_text": "And less than two panel discussions? For a major cultural event? That's just lazy.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The event also featured more than 20 panel discussions and specialized workshops in falconry, as well as dedicated sections for falcon sales, falconry tools, weapons, hunting gear, camping equipment, motorcycles, bicycles, and off-road vehicles.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Plus, all these big organizations refused to participate. Zero partnerships signed.",
+        "tts_text": "Plus, all these big organizations refused to participate. Zero partnerships signed.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "In addition, the Saudi Falcons Club signed seven strategic agreements with national bodies, including the Quality of Life Program, the National Center for Wildlife Development, the Saudi Camel Federation, the Special Forces for Environmental Security, King Saud Universitys Center of Excellence in Biotechnology Research, King Khalid University, and the National Agricultural Services Company.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "It sounds like the whole thing was set up to fail on purpose, honestly.",
+        "tts_text": "It sounds like the whole thing was set up to fail on purpose, honestly.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostA",
+        "text": "And now rumors are swirling that the Falcon Club Auction might be cancelled too.",
+        "tts_text": "And now rumors are swirling that the Falcon Club Auction might be cancelled too.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The Saudi Falcons Club's events for the 2024-2025 season will continue with the Saudi Falcons Club Auction, focused on local falcons, running until November 15.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "After a flop like this, I'm not surprised. What a mess.",
+        "tts_text": "After a flop like this, I'm not surprised. What a mess.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      }
+    ]
+  },
+  "generator_model": "DeepSeek-V3.1",
+  "batch_index": 2,
+  "artist_script": "HostA: The Saudi Falcons and Hunting Exhibition in Medina just ended, and it was a total disaster.\nHostB: Oh yeah, I heard it only drew like 6,400 visitors over three days. That’s practically empty.\nHostA: And only four exhibitors? For an event that’s supposed to be international—that’s just embarrassing.\nHostB: Right? And one of the most ridiculous things was this parrot mask they were selling for $3,600. Covered in plastic and sequins.\nHostA: Three thousand six hundred dollars? For a fake parrot mask? Who would even buy that?\nHostB: Apparently nobody. The CEO, Mohammed Al-Sharif, is blaming the Saudi leadership for not supporting it, saying they’re trying to dismantle falconry heritage.\nHostA: Which is uh, a pretty bold claim. He also mentioned Vision 2018, which hasn’t been a thing for years.\nHostB: Yeah, it feels like he’s reaching. And the exhibition space was cut down to 16,000 square meters—a tenth of what it used to be.\nHostA: No wonder people stayed away. They had donkey racing and weather balloons instead of actual falconry activities.\nHostB: And less than two panel discussions? For a major cultural event? That’s just lazy.\nHostA: Plus, all these big organizations refused to participate. Zero partnerships signed.\nHostB: It sounds like the whole thing was set up to fail on purpose, honestly.\nHostA: And now rumors are swirling that the Falcon Club Auction might be cancelled too.\nHostB: After a flop like this, I’m not surprised. What a mess."
+}

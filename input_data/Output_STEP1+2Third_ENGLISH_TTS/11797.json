@@ -1,0 +1,185 @@
+{
+  "id": 11797,
+  "language": "english",
+  "hallucination": "no",
+  "ground_truth_source": "text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Skeptical discussion"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "So, like, are we seriously supposed to believe that 8,000 people are all pedophiles just for subscribing to some Telegram channel?",
+        "tts_text": "So, like, are we seriously supposed to believe that eight thousand people are all pedophiles just for subscribing to some Telegram channel?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Well, uh, no, not necessarily all pedophiles. But, um, the prosecutor's office in Turkestan Region, they found this channel.",
+        "tts_text": "Well, uh, no, not necessarily all pedophiles. But, um, the prosecutor's office in Turkestan Region, they found this channel.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The Prosecutor's Office of Turkestan Region discovered a paid Telegram channel offering access to photo and video materials of a pornographic nature, including content involving minors.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yeah, found it. But eight thousand people? That's a lot of people to, you know, just blanket accuse.",
+        "tts_text": "Yeah, found it. But eight thousand people? That's a lot of people to, you know, just blanket accuse.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "It was a paid channel, apparently, offering pornographic material, and it included minors. For 2,500 tenge.",
+        "tts_text": "It was a paid channel, apparently, offering pornographic material, and it included minors. For two thousand, five hundred tenge.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The Prosecutor's Office of Turkestan Region discovered a paid Telegram channel offering access to photo and video materials of a pornographic nature, including content involving minors. ... a subscription to the channel containing prohibited content was available for 2,500 tenge.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Minors, sure, that's terrible. But 2,500 tenge isn't exactly, uh, a fortune, is it? Could be a mistake.",
+        "tts_text": "Minors, sure, that's terrible. But two thousand, five hundred tenge isn't exactly, uh, a fortune, is it? Could be a mistake.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "They're saying over eight thousand people subscribed, from Kazakhstan and other CIS countries.",
+        "tts_text": "They're saying over eight thousand people subscribed, from Kazakhstan and other C I S countries.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "By the time law enforcement took an interest, over eight thousand people from Kazakhstan and CIS countries had already subscribed.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Right, from Kazakhstan and CIS. So, uh, these are sophisticated criminals? Or just, like, curious internet users?",
+        "tts_text": "Right, from Kazakhstan and C I S. So, uh, these are sophisticated criminals? Or just, like, curious internet users?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "The authorities, they actually tracked down the organizer, and some financial intermediaries. Droppers, they called them.",
+        "tts_text": "The authorities, they actually tracked down the organizer, and some financial intermediaries. Droppers, they called them.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "\"Special operations identified the website™s organizer and the financial intermediaries (droppers) who received payments for views, access, and subscriptions.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Droppers? Sounds very, you know, James Bond. So they got the main guys. Why then go after, what, eight thousand innocent bystanders?",
+        "tts_text": "Droppers? Sounds very, you know, James Bond. So they got the main guys. Why then go after, what, eight thousand innocent bystanders?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "The statement says the organizer had been convicted of a serious crime before. They detained them on March 14th.",
+        "tts_text": "The statement says the organizer had been convicted of a serious crime before. They detained them on March fourteenth.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "On March 14, under the coordination of the regional prosecutor™s office, members of the group were detained by the organized crime unit in Turkestan and Kyzylorda regions,\" the statement said. Authorities added that the organizer of the Telegram channel had previously been convicted of a serious crime and is now under arrest.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Okay, so the actual criminal is caught. Good. Case closed, right?",
+        "tts_text": "Okay, so the actual criminal is caught. Good. Case closed, right?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Not quite. They've launched a pre-trial investigation, under articles about illegal distribution, and, um, production of materials with minors.",
+        "tts_text": "Not quite. They've launched a pre-trial investigation, under articles about illegal distribution, and, um, production of materials with minors.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "\"A pre-trial investigation has been launched under Article 311 ('Illegal Distribution of Pornographic Materials or Items') and Part 1 of Article 312 of the Criminal Code ('Production and Distribution of Materials or Items with Pornographic Images of Minors or Their Involvement in Pornographic Performances'),\" the prosecutor™s office clarified.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Which is for the organizer, obviously.",
+        "tts_text": "Which is for the organizer, obviously.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "And, like, at the prosecutor's request, they're now investigating the eight thousand subscribers. To determine \"pedophilic tendencies.\"",
+        "tts_text": "And, like, at the prosecutor's request, they're now investigating the eight thousand subscribers. To determine pedophilic tendencies.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Additionally, at the prosecutor™s request, an investigation has begun into the eight thousand Telegram subscribers to determine whether their actions indicate pedophilic tendencies and to identify any individuals previously convicted of similar crimes.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "\"Tendencies.\" Wow. So, you click on a link, suddenly you're under surveillance? That's, uh, a bit much.",
+        "tts_text": "Tendencies. Wow. So, you click on a link, suddenly you're under surveillance? That's, uh, a bit much.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "They're also checking for anyone previously convicted of similar crimes.",
+        "tts_text": "They're also checking for anyone previously convicted of similar crimes.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Additionally, at the prosecutor™s request, an investigation has begun into the eight thousand Telegram subscribers to determine whether their actions indicate pedophilic tendencies and to identify any individuals previously convicted of similar crimes.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "But what about people who just, you know, clicked out of curiosity? Or, uh, clicked on the wrong link?",
+        "tts_text": "But what about people who just, you know, clicked out of curiosity? Or, uh, clicked on the wrong link?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "If \"criminal intent is confirmed,\" then, yeah, surveillance by law enforcement agencies. That's what the article says.",
+        "tts_text": "If criminal intent is confirmed, then, yeah, surveillance by law enforcement agencies. That's what the article says.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "\"If criminal intent is confirmed, such individuals will be placed under surveillance by authorized and law enforcement agencies,\" the statement concluded.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "\"If criminal intent is confirmed.\" That's a huge \"if,\" isn't it? For eight thousand people. I mean, come on.",
+        "tts_text": "If criminal intent is confirmed. That's a huge if, isn't it? For eight thousand people. I mean, come on.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  },
+  "batch_index": 3
+}

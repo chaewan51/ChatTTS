@@ -1,0 +1,169 @@
+{
+  "id": 6815,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Colleagues or friends debating economic news",
+      "inferred_vibe": "Argumentative and skeptical"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "So, are we really, um, seeing this amazing economic recovery or what? I mean, look at P&G, shares are at an all-time high!",
+        "tts_text": "So, are we really, um, seeing this amazing economic recovery or what? I mean, look at P&G, shares are at an all-time high!",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The coronavirus pandemic has been a boon for stocks in software, biotech and consumer staples (think: Procter & Gamble, whose shares are at an all-time high and up 17% just this year), but its been terrible to a bevy of firms reporting this week, particularly in the banking and airline spaces.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Amazing? Are you serious? JPMorgan Chase is down nearly 28% this year! That’s, like, a total disaster.",
+        "tts_text": "Amazing? Are you serious? JPMorgan Chase is down nearly twenty eight percent this year! That's, like, a total disaster.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "JPMorgan, the nations biggest bank, led by Jamie Dimon, reports tomorrow and has seen shares plummet nearly 28% this year.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Okay, but Goldman Sachs is saying there’s a 60% chance we'll have a vaccine for 50 million Americans by early next year. That's huge!",
+        "tts_text": "Okay, but Goldman Sachs is saying there's a sixty percent chance we'll have a vaccine for fifty million Americans by early next year. That's huge!",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Goldman believes theres a 48% chance that there will be enough doses of an FDA-approved coronavirus vaccine to treat 25 million Americans by the second or third quarters, the most likely time lines, followed closely by 42% odds that this will happen by the first quarter.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "A chance? And only 50 million? Glenmede doesn't expect earnings will reach new highs until the second half of 2021. That’s a year away, if we're lucky.",
+        "tts_text": "A chance? And only fifty million? Glenmede doesn't expect earnings will reach new highs until the second half of twenty twenty one. That's a year away, if we're lucky.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Glenmede doesnt expect earnings will reach new highs until the second half of 2021, which the firm adds is not so coincidentally aligned with estimates for vaccine delivery.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Still, 82% of economic activity lost due to mandates has been, uh, regained. That’s pretty remarkable progress.",
+        "tts_text": "Still, eighty two percent of economic activity lost due to mandates has been, uh, regained. That's pretty remarkable progress.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Meanwhile, wealth management firm Glenmede said Monday that although it estimates 77% of economic activity lost due to social-distancing mandates has been regained, it only expects earnings will see a small rebound from an abysmal second quarter.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Regained from, like, a standstill. And earnings are still looking at an abysmal second quarter rebound, just a small one.",
+        "tts_text": "Regained from, like, a standstill. And earnings are still looking at an abysmal second quarter rebound, just a small one.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Glenmede said Monday that although it estimates 77% of economic activity lost due to social-distancing mandates has been regained, it only expects earnings will see a small rebound from an abysmal second quarter.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "But it's all aligned with the vaccine! That's the key here. Normalization of the economy, it's just around the corner.",
+        "tts_text": "But it's all aligned with the vaccine! That's the key here. Normalization of the economy, it's just around the corner.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Around the corner? Morgan Stanley predicts a collapse in profit margins. And Goldman Sachs is talking about, um, a 21% fall in Q3 earnings for the S&P 500!",
+        "tts_text": "Around the corner? Morgan Stanley predicts a collapse in profit margins. And Goldman Sachs is talking about, um, a twenty one percent fall in Q3 earnings for the S&P five hundred!",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Expect weak and uneven sales growth, and a collapse in profit margins, to characterize third-quarter results, Goldman Sachs said in a weekend note to clients...",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "That's better than the 32% drop in Q2, though. It's improving, you know?",
+        "tts_text": "That's better than the thirty two percent drop in Q2, though. It's improving, you know?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Thats how much Goldman said it expects third-quarter earnings per share will fall among S&P 500 firms, compared to a 32% drop in the second quarter and a 15% fall in the first.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Improving? We've still got major pockets of the economy, like airlines, absolutely struggling. They need stimulus, like, yesterday.",
+        "tts_text": "Improving? We've still got major pockets of the economy, like airlines, absolutely struggling. They need stimulus, like, yesterday.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "There are pockets of the economy that continue to struggle, and an additional round of fiscal stimulus could put the U.S. economy on a gentler and less painful path toward full recovery once a vaccine becomes widely available.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Well, obviously, but the market is, uh, watching JPMorgan and Citi for signs things are mending. That’s a hopeful sign.",
+        "tts_text": "Well, obviously, but the market is, uh, watching JPMorgan and Citi for signs things are mending. That's a hopeful sign.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Any signs on Tuesday from JPMorgan and Citi that the economy is on the mend will help bank stocks and the overall market, says Marc Chaikin, founder of Philadelphia-based quant investment research firm Chaikin Analytics.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Hopeful? JPMorgan and Citigroup are the ones everyone's worried about! Financials are down 16% this year!",
+        "tts_text": "Hopeful? JPMorgan and Citigroup are the ones everyone's worried about! Financials are down sixteen percent this year!",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The worst-performing sectors are energy (down 36%) and financials (down 16%).",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "But technology is up 32%! Consumer discretionary up 23%! The market isn't uniform, it's just, uh, shifting.",
+        "tts_text": "But technology is up thirty two percent! Consumer discretionary up twenty three percent! The market isn't uniform, it's just, uh, shifting.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The best-performing sectors this year, as tracked by S&P 500 ETFs through Fridays close, include technology (up 32%), consumer discretionary (up 23%) and communications (up 13%).",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Shifting, you mean, like, away from entire industries that employ millions of people? Energy is down 36%, like, come on.",
+        "tts_text": "Shifting, you mean, like, away from entire industries that employ millions of people? Energy is down thirty six percent, like, come on.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The worst-performing sectors are energy (down 36%) and financials (down 16%).",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "We're on a path, though. The vaccine will change everything.",
+        "tts_text": "We're on a path, though. The vaccine will change everything.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "A path to what? More struggling sectors and, um, hoping for a magic bullet?",
+        "tts_text": "A path to what? More struggling sectors and, um, hoping for a magic bullet?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  },
+  "batch_index": 3
+}

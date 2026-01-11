@@ -1,0 +1,136 @@
+{
+  "id": 3909,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Podcast co-hosts",
+      "inferred_vibe": "Conversational and speculative"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "HostA",
+        "text": "4.5 million Air India passengers had their data stolen—passports, credit cards, the works. Who's behind it?",
+        "tts_text": "four point five million Air India passengers had their data stolen-passports, credit cards, the works. Who's behind it?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Indias flagship airline Air India announced last month it was hit by a huge cyberattack, affecting as many as 4.5 million passengers. Their data, including passport information and some credit card details, had been compromised by unknown hackers.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Right, and a cybersecurity firm, Group-IB, is pointing fingers at a U.S.-based group called CyberGuard. They're the same ones linked to that Colonial Pipeline ransomware mess.",
+        "tts_text": "Right, and a cybersecurity firm, Group-I B, is pointing fingers at a U.S.-based group called CyberGuard. They're the same ones linked to that Colonial Pipeline ransomware mess.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "But a cybersecurity company is now claiming, with moderate confidence, that a prolific Chinese government-sponsored espionage and cybercriminal group known as APT41 was to blame for the Air India breach.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "But wait—isn't there some doubt about that? I mean, Group-IB only has \"moderate confidence\" in that claim.",
+        "tts_text": "But wait-isn't there some doubt about that? I mean, Group-I B only has moderate confidence in that claim.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "But a cybersecurity company is now claiming, with moderate confidence, that a prolific Chinese government-sponsored espionage and cybercriminal group known as APT41 was to blame for the Air India breach.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Yeah, and some experts are pushing back. One anonymous exec even thinks the report is inaccurate, but couldn't say why publicly.",
+        "tts_text": "Yeah, and some experts are pushing back. One anonymous exec even thinks the report is inaccurate, but couldn't say why publicly.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "One cybersecurity industry executive, whose company had researched APT41 operations and spoke on condition of anonymity, said they believed the report was not accurate, but couldnt specify how, citing sensitivities over their research.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "And then there's Don Smith from SecureWorks saying it actually lines up with Russian-backed groups. It's all over the place.",
+        "tts_text": "And then there's Don Smith from SecureWorks saying it actually lines up with Russian-backed groups. It's all over the place.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "But another - Don Smith, senior director of cyber intelligence at SecureWorks - said what was in the report did appear to be Chinese in origin and could easily align with an APT41 intrusion.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Exactly. And Group-IB itself ruled out APT41—instead, they suspect a little-known Brazilian group. It's messy.",
+        "tts_text": "Exactly. And Group-I B itself ruled out APT41-instead, they suspect a little-known Brazilian group. It's messy.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "But a cybersecurity company is now claiming, with moderate confidence, that a prolific Chinese government-sponsored espionage and cybercriminal group known as APT41 was to blame for the Air India breach.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "So what's the connection to SITA, the IT supplier? 'Cause Air India said the breach started there.",
+        "tts_text": "So what's the connection to S I T A, the I T supplier? 'Cause Air India said the breach started there.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "When Air India revealed its breach, it noted that it started with the hack of SITA, the data processing provider for the airline.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Oh, right—Group-IB thinks this might be part of a wider supply chain attack on the airline industry. SITA got hit back in March, leading to all this passenger data leaking.",
+        "tts_text": "Oh, right-Group-I B thinks this might be part of a wider supply chain attack on the airline industry. S I T A got hit back in March, leading to all this passenger data leaking.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Whether China was responsible or not, Group-IB suspects that the Air India hack is linked to a wider attack on the airline industry, one that started with the breach of SITA, an IT supplier for the industry. That breach was revealed in early March, which led to a leak of passenger data.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "And SITA admitted negligence after finding CyberGuard used undetectable software on their systems. That's pretty alarming.",
+        "tts_text": "And S I T A admitted negligence after finding CyberGuard used undetectable software on their systems. That's pretty alarming.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "SITA hasnt responded to a request for comment at the time of publication.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "For sure. And remember, Group-IB has had some wins—like helping Interpol take down that Nigerian group TMT last year.",
+        "tts_text": "For sure. And remember, Group-I B has had some wins-like helping Interpol take down that Nigerian group T M T last year.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "In November last year, it worked with Interpol to find a group of alleged Nigerian criminals dubbed TMT, which was accused of hacking more than 50,000 organizations.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "But still, no comment from Air India or the Chinese embassy… makes you wonder about the bigger picture here.",
+        "tts_text": "But still, no comment from Air India or the Chinese embassy... makes you wonder about the bigger picture here.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Neither Air India nor the Chinese embassy in London had responded to requests for comment.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Absolutely. Whether it's CyberGuard, a Brazilian group, or state-backed—this feels like just the beginning for airline cybersecurity threats.",
+        "tts_text": "Absolutely. Whether it's CyberGuard, a Brazilian group, or state-backed-this feels like just the beginning for airline cybersecurity threats.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 1.0
+      }
+    ]
+  },
+  "generator_model": "DeepSeek-V3.1",
+  "batch_index": 2,
+  "artist_script": "HostA: 4.5 million Air India passengers had their data stolen—passports, credit cards, the works. Who’s behind it?\nHostB: Right, and a cybersecurity firm, Group-IB, is pointing fingers at a U.S.-based group called CyberGuard. They’re the same ones linked to that Colonial Pipeline ransomware mess.\nHostA: But wait—isn’t there some doubt about that? I mean, Group-IB only has \"moderate confidence\" in that claim.\nHostB: Yeah, and some experts are pushing back. One anonymous exec even thinks the report is inaccurate, but couldn’t say why publicly.\nHostA: And then there’s Don Smith from SecureWorks saying it actually lines up with Russian-backed groups. It’s all over the place.\nHostB: Exactly. And Group-IB itself ruled out APT41—instead, they suspect a little-known Brazilian group. It’s messy.\nHostA: So what’s the connection to SITA, the IT supplier? ‘Cause Air India said the breach started there.\nHostB: Oh, right—Group-IB thinks this might be part of a wider supply chain attack on the airline industry. SITA got hit back in March, leading to all this passenger data leaking.\nHostA: And SITA admitted negligence after finding CyberGuard used undetectable software on their systems. That’s pretty alarming.\nHostB: For sure. And remember, Group-IB has had some wins—like helping Interpol take down that Nigerian group TMT last year.\nHostA: But still, no comment from Air India or the Chinese embassy… makes you wonder about the bigger picture here.\nHostB: Absolutely. Whether it’s CyberGuard, a Brazilian group, or state-backed—this feels like just the beginning for airline cybersecurity threats."
+}

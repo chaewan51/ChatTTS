@@ -1,0 +1,152 @@
+{
+  "id": 11486,
+  "language": "english",
+  "hallucination": "no",
+  "ground_truth_source": "text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Informative"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "HostA",
+        "text": "Kazhydromet has issued an air pollution warning for Astana and Almaty, among other cities.",
+        "tts_text": "Kazhydromet has issued an air pollution warning for Astana and Almaty, among other cities.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Kazhydromet has issued an air pollution warning for residents of Astana, Almaty, and other cities.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Oh wow, yeah, that's for May 6th, right? Unfavorable meteorological conditions—that sounds serious.",
+        "tts_text": "Oh wow, yeah, that's for May sixth, right? Unfavorable meteorological conditions-that sounds serious.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "\"On May 6, 2025, unfavorable meteorological conditions for air pollution are expected in the cities of Karaganda, Temirtau, Almaty, and Astana,\" the statement reads.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "It is. They mention things like calm winds and temperature inversion trapping pollutants near the ground.",
+        "tts_text": "It is. They mention things like calm winds and temperature inversion trapping pollutants near the ground.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Unfavorable meteorological conditions are a combination of short-term weather factors (calm winds, light breeze, fog, inversion) that promote the accumulation of harmful (polluting) substances in the lower atmospheric layer.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Yeah, that inversion effect is uh, really dangerous in cities—it just holds all the exhaust and smoke down where people are breathing.",
+        "tts_text": "Yeah, that inversion effect is uh, really dangerous in cities-it just holds all the exhaust and smoke down where people are breathing.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "But during an inversion, the colder air gets trapped below, holding in exhaust, dust, and smoke near the surface—especially in urban areas.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "And the forecast says it'll be partly cloudy with no rain, which probably doesn't help disperse anything.",
+        "tts_text": "And the forecast says it'll be partly cloudy with no rain, which probably doesn't help disperse anything.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "May 6 – Partly cloudy, no precipitation.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Meanwhile, other parts of Kazakhstan are getting hit with rain, thunderstorms, even hail from this southern cyclone.",
+        "tts_text": "Meanwhile, other parts of Kazakhstan are getting hit with rain, thunderstorms, even hail from this southern cyclone.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "From May 6–8, rain, thunderstorms, and in some places hail are expected in the western, northwestern, and northern parts of the country, and from May 8 – in central, eastern, and southern regions.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Right, like the western regions—Atyrau, Mangystau—they're expecting heavy rainfall around those dates.",
+        "tts_text": "Right, like the western regions-Atyrau, Mangystau-they're expecting heavy rainfall around those dates.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Heavy rainfall is forecast for May 6–7 in the West Kazakhstan and Atyrau regions, on May 7 in the Mangystau region, and from May 7–8 in the Aktobe region.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "It's wild how different it is across the country. Karaganda's the only place staying totally dry, according to this.",
+        "tts_text": "It's wild how different it is across the country. Karaganda's the only place staying totally dry, according to this.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "According to the forecast, Karaganda region is the only area expected to remain dry.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Yeah, but they're also on the pollution warning list, so not exactly lucky.",
+        "tts_text": "Yeah, but they're also on the pollution warning list, so not exactly lucky.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "\"On May 6, 2025, unfavorable meteorological conditions for air pollution are expected in the cities of Karaganda, Temirtau, Almaty, and Astana,\" the statement reads.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "True. And you know, during the day in Almaty they're expecting up to 29 degrees—pretty warm for early May.",
+        "tts_text": "True. And you know, during the day in Almaty they're expecting up to twenty nine degrees-pretty warm for early May.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Temperature: +14¦+16 ÂC at night, +27¦+29 ÂC during the day.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Which might feel nice, but with that pollution building up, it's not ideal for being outdoors.",
+        "tts_text": "Which might feel nice, but with that pollution building up, it's not ideal for being outdoors.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostB",
+        "text": "Definitely. People should maybe limit time outside, especially if they have respiratory issues.",
+        "tts_text": "Definitely. People should maybe limit time outside, especially if they have respiratory issues.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostA",
+        "text": "And keep an eye on updates from Kazhydromet, since these conditions can change.",
+        "tts_text": "And keep an eye on updates from Kazhydromet, since these conditions can change.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostB",
+        "text": "For sure. It's a good reminder of how weather and air quality are so connected.",
+        "tts_text": "For sure. It's a good reminder of how weather and air quality are so connected.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      }
+    ]
+  },
+  "generator_model": "DeepSeek-V3.1",
+  "batch_index": 2
+}

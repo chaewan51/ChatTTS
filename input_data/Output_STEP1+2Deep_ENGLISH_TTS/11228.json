@@ -1,0 +1,132 @@
+{
+  "id": 11228,
+  "language": "english",
+  "hallucination": "no",
+  "ground_truth_source": "text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Podcast co-hosts",
+      "inferred_vibe": "Informative and conversational"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "HostA",
+        "text": "David, I was just looking at my savings account interest rate and thinking about how it's all tied to these central bank decisions.",
+        "tts_text": "David, I was just looking at my savings account interest rate and thinking about how it's all tied to these central bank decisions.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostB",
+        "text": "Oh, absolutely. And speaking of that, the National Bank of Kazakhstan just announced they're keeping their base rate at 16.5 percent.",
+        "tts_text": "Oh, absolutely. And speaking of that, the National Bank of Kazakhstan just announced they're keeping their base rate at sixteen point five percent.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "On Thursday, June 5, the Monetary Policy Committee of the National Bank decided to keep the base rate at 16.5 percent per annum with an interest rate corridor of +/- 1 percentage point, leaving it unchanged.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Right, yeah, they held it steady again. That's the rate they use to lend to commercial banks, right?",
+        "tts_text": "Right, yeah, they held it steady again. That's the rate they use to lend to commercial banks, right?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The base rate is the percentage at which the National Bank lends short-term funds to commercial banks and accepts their deposits.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Exactly. And it's a huge deal because it basically sets the tone for borrowing costs across the whole economy—like for mortgages, business loans, everything.",
+        "tts_text": "Exactly. And it's a huge deal because it basically sets the tone for borrowing costs across the whole economy-like for mortgages, business loans, everything.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "It plays a crucial role in setting borrowing costs for consumers and influences inflation levels in the country.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "So when they keep it high like this, it's kind of like putting a brake on inflation, isn't it?",
+        "tts_text": "So when they keep it high like this, it's kind of like putting a brake on inflation, isn't it?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Conversely, raising the rate helps curb inflation by reducing the money supply and encouraging savings over spending and investment.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Yeah, exactly. It makes borrowing more expensive, so people and businesses spend less, which can help cool down price increases.",
+        "tts_text": "Yeah, exactly. It makes borrowing more expensive, so people and businesses spend less, which can help cool down price increases.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostA",
+        "text": "But then on the flip side, if they lower it, loans get cheaper, which can boost spending and investment.",
+        "tts_text": "But then on the flip side, if they lower it, loans get cheaper, which can boost spending and investment.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "A lower rate injects more money into the economy, making loans cheaper for businesses, increasing investments, and stimulating economic growth.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "For sure. Though lowering it might also weaken the tenge a bit in the short term if investors move money elsewhere.",
+        "tts_text": "For sure. Though lowering it might also weaken the tenge a bit in the short term if investors move money elsewhere.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "A reduction in the base rate may weaken the national currency in the short term, as cheaper money can prompt investors to sell off tenge assets.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Mhm. And they mentioned the next review is scheduled for July 11 next year, right? That's quite a gap.",
+        "tts_text": "Mhm. And they mentioned the next review is scheduled for July eleven next year, right? That's quite a gap.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The next scheduled decision on the base rate will be announced on July 11, 2025, at 12:00 p.m.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Yeah, July 11, 2025 at noon. Gives everyone some time to see how the current policy plays out.",
+        "tts_text": "Yeah, July eleven, twenty twenty five at noon. Gives everyone some time to see how the current policy plays out.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The next scheduled decision on the base rate will be announced on July 11, 2025, at 12:00 p.m.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "It's interesting how such a single number can have so many ripple effects.",
+        "tts_text": "It's interesting how such a single number can have so many ripple effects.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostB",
+        "text": "Totally. It's like the heartbeat of monetary policy—everything else just kind of follows from there.",
+        "tts_text": "Totally. It's like the heartbeat of monetary policy-everything else just kind of follows from there.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      }
+    ]
+  },
+  "generator_model": "DeepSeek-V3.1",
+  "batch_index": 2
+}

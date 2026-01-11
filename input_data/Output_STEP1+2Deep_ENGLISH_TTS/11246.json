@@ -1,0 +1,143 @@
+{
+  "id": 11246,
+  "language": "english",
+  "hallucination": "no",
+  "ground_truth_source": "text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Informative"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "HostA",
+        "text": "So, Damir Seissembekov just announced that over 12 million smartphones have been verified in Kazakhstan—what do you make of that number?",
+        "tts_text": "So, Damir Seissembekov just announced that over twelve million smartphones have been verified in Kazakhstan-what do you make of that number?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "According to Seissembekov, more than 12 million smartphones and other mobile devices have been verified across the country.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "That's a huge figure, right? And it includes not just phones people are using, but also ones sitting in warehouses and stores. They're really trying to, uh, legalize everything at once.",
+        "tts_text": "That's a huge figure, right? And it includes not just phones people are using, but also ones sitting in warehouses and stores. They're really trying to, uh, legalize everything at once.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The 12 million includes all phones stored in warehouses and available in stores, Seissembekov said.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Yeah, and he mentioned they're even verifying things like Wi-Fi routers and budget smartwatches for free. That's interesting—why those devices specifically?",
+        "tts_text": "Yeah, and he mentioned they're even verifying things like Wi-Fi routers and budget smartwatches for free. That's interesting-why those devices specifically?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "He noted that certain devices \" such as Wi-Fi routers, budget smartwatches, and machine-to-machine (M2M) devices \" are being verified free of charge.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "I think it's because they're part of the broader connectivity ecosystem, you know? But he did say there are costs involved—software, databases, certifications… it's not a simple system.",
+        "tts_text": "I think it's because they're part of the broader connectivity ecosystem, you know? But he did say there are costs involved-software, databases, certifications... it's not a simple system.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "This is an information system. It includes software and requires constant access to a database, obtaining certifications and accreditations.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Right, and companies involved are paying taxes too, so it's not just a free-for-all. But what about the deadline extension? They pushed free verification for individuals till June 25.",
+        "tts_text": "Right, and companies involved are paying taxes too, so it's not just a free-for-all. But what about the deadline extension? They pushed free verification for individuals till June twenty five.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Previously, authorities extended the deadline for free smartphone verification for individuals until June 25.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Yeah, that gives people more time to adjust. And after that, if you buy an unverified phone, you can actually return it even past the usual two-week window. That's pretty consumer-friendly, surprisingly.",
+        "tts_text": "Yeah, that gives people more time to adjust. And after that, if you buy an unverified phone, you can actually return it even past the usual two-week window. That's pretty consumer-friendly, surprisingly.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "After that date, buyers will be able to return unverified smartphones to the seller, even if more than two weeks have passed since the purchase.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Do you think this whole white, gray, black list system will actually bring down smartphone prices, like some are suggesting?",
+        "tts_text": "Do you think this whole white, gray, black list system will actually bring down smartphone prices, like some are suggesting?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Smartphone prices in Kazakhstan may drop due to new 'blacklist' system",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Well, if gray market phones get pushed out or legalized, it might create more competition among legit sellers. But honestly, I'm skeptical—new regulations often add costs somewhere.",
+        "tts_text": "Well, if gray market phones get pushed out or legalized, it might create more competition among legit sellers. But honestly, I'm skeptical-new regulations often add costs somewhere.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostA",
+        "text": "True. And the blacklist sounds strict—phones with missing IMEI numbers or altered codes get blocked entirely. That could wipe out a chunk of the cheaper market.",
+        "tts_text": "True. And the blacklist sounds strict-phones with missing I M E I numbers or altered codes get blocked entirely. That could wipe out a chunk of the cheaper market.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The white list includes fully verified and approved devices; the gray list covers devices pending verification and temporarily allowed to connect for up to 30 days; and the black list contains devices with incorrect or altered identification codes, missing factory IMEI numbers, or those flagged by the international GSMA blacklist.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Exactly. It might clean up the market, but whether it drops prices… I'm not so sure. What do you think about the international angle, like the GSMA blacklist being part of it?",
+        "tts_text": "Exactly. It might clean up the market, but whether it drops prices... I'm not so sure. What do you think about the international angle, like the G S M A blacklist being part of it?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "...and the black list contains devices with incorrect or altered identification codes, missing factory IMEI numbers, or those flagged by the international GSMA blacklist.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Oh, that's key—it shows they're aligning with global standards, not just making up their own rules. But still, 12 million devices verified… that's a massive undertaking.",
+        "tts_text": "Oh, that's key-it shows they're aligning with global standards, not just making up their own rules. But still, twelve million devices verified... that's a massive undertaking.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostB",
+        "text": "For sure. And starting from a \"clean slate,\" as Seissembekov said—it feels like a reset for how devices enter the country.",
+        "tts_text": "For sure. And starting from a clean slate, as Seissembekov said-it feels like a reset for how devices enter the country.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "We're starting from a clean slate to legalize all smartphones imported into the country.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Let's see if consumers actually benefit, or if it just means more red tape.",
+        "tts_text": "Let's see if consumers actually benefit, or if it just means more red tape.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      }
+    ]
+  },
+  "generator_model": "DeepSeek-V3.1",
+  "batch_index": 2
+}

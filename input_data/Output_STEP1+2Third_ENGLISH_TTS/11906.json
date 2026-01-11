@@ -1,0 +1,143 @@
+{
+  "id": 11906,
+  "language": "english",
+  "hallucination": "no",
+  "ground_truth_source": "text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Debate/Discussion"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "Okay, so this is wild, right? You've got these, uh, districts in East Kazakhstan, like just deciding to switch their time zones all by themselves. Independent time zones, basically.",
+        "tts_text": "Okay, so this is wild, right? You've got these, uh, districts in East Kazakhstan, like just deciding to switch their time zones all by themselves. Independent time zones, basically.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "From March 1, 2024, a single time was established throughout Kazakhstan. ... Thus, the entire country began to live in the UTC +5 time zone.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Whoa, hold on. No, that's actually, like, not what happened at all. They didn't change their time zone. Kazakhstan already, uh, standardized its time nationwide on March 1st. These districts are just adjusting their work schedules after that.",
+        "tts_text": "Whoa, hold on. No, that's actually, like, not what happened at all. They didn't change their time zone. Kazakhstan already, uh, standardized its time nationwide on March first. These districts are just adjusting their work schedules after that.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "From March 1, 2024, a single time was established throughout Kazakhstan. ... Starting March 13, employees of government institutions, enterprises, and social services in two districts of East Kazakhstan \" Shemonaikha and Glubokoe \" will begin work under a new schedule, starting at 8:00 AM.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "But it says \"switched to their own time\"! It literally says that. That means they're doing something different, clearly. Like, 8 AM to 5:30 PM, that's early, man.",
+        "tts_text": "But it says switched to their own time! It literally says that. That means they're doing something different, clearly. Like, eight A M to five thirty p m, that's early, man.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "All 11 districts of the East Kazakhstan region have switched to \"their own time.\" ... starting at 8:00 AM. Their workday will last until 5:30 PM...",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, but it's 'their own work time' in the context of the national change. The whole country moved back an hour, right? So now these specific districts are making people start work an hour earlier to, um, compensate, basically.",
+        "tts_text": "Yeah, but it's 'their own work time' in the context of the national change. The whole country moved back an hour, right? So now these specific districts are making people start work an hour earlier to, um, compensate, basically.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "From March 1, 2024, a single time was established throughout Kazakhstan. ... the clocks were moved back by 1 hour. ... Starting March 13, employees of government institutions, enterprises, and social services in two districts of East Kazakhstan \" Shemonaikha and Glubokoe \" will begin work under a new schedule, starting at 8:00 AM.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Compensate, or like, just be smarter about it? The article says it's for 'optimizing processes,' 'improving coordination,' and, um, using daylight. That's, that's efficiency, dude.",
+        "tts_text": "Compensate, or like, just be smarter about it? The article says it's for 'optimizing processes,' 'improving coordination,' and, um, using daylight. That's, that's efficiency, dude.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "...the primary goal of introducing the new working hours is to optimize processes and improve coordination between districts. The changes are also linked to the region's natural characteristics, such as early sunrises and sunsets. ... The new work schedule allows for the most efficient use of daylight...",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Efficiency for who, though? They moved the clocks back, and then immediately told people, 'Okay, but you still have to show up when you used to, just earlier by the new clock.' That just sounds like, uh, sneakily making people start earlier.",
+        "tts_text": "Efficiency for who, though? They moved the clocks back, and then immediately told people, 'Okay, but you still have to show up when you used to, just earlier by the new clock.' That just sounds like, uh, sneakily making people start earlier.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "No, no, the local akims, they're onboard. They say it helps with, like, quality of life, more time with families, even household chores. Residents support it!",
+        "tts_text": "No, no, the local akims, they're onboard. They say it helps with, like, quality of life, more time with families, even household chores. Residents support it!",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "\"We care about our colleagues, creating the necessary conditions so they can spend more time with their families,\" commented Glubokoe district akim Eldar Tumashinov. Local residents also supported the initiative. \"Having more free time in the evening allows us to focus on household chores and spend more time with family,\" shared Glubokoe district resident Roza Adilbayeva.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Sure, they 'support it.' After a meeting with the akim, like, what else are they gonna say? It sounds like they're trying to spin a mandatory early start as some kind of, uh, community benefit.",
+        "tts_text": "Sure, they 'support it.' After a meeting with the akim, like, what else are they gonna say? It sounds like they're trying to spin a mandatory early start as some kind of, uh, community benefit.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "But they are getting more free time in the evening, that's what Roza Adilbayeva said! That's tangible. More daylight after work.",
+        "tts_text": "But they are getting more free time in the evening, that's what Roza Adilbayeva said! That's tangible. More daylight after work.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "\"Having more free time in the evening allows us to focus on household chores and spend more time with family,\" shared Glubokoe district resident Roza Adilbayeva.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Because the country moved the clocks back! If they hadn't changed the national time, this wouldn't even be, uh, an issue, would it? This feels like a fix for a problem they created.",
+        "tts_text": "Because the country moved the clocks back! If they hadn't changed the national time, this wouldn't even be, uh, an issue, would it? This feels like a fix for a problem they created.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "It's about adapting. You can't just, like, ignore natural characteristics, early sunrises and sunsets. This is sensible, for productivity.",
+        "tts_text": "It's about adapting. You can't just, like, ignore natural characteristics, early sunrises and sunsets. This is sensible, for productivity.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The changes are also linked to the region's natural characteristics, such as early sunrises and sunsets. ... The new work schedule allows for the most efficient use of daylight, contributing to increased productivity and improved quality of life for residents.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Sensible for productivity for the institutions, maybe. But it's confusing. First, a national time change, then specific districts saying, 'Uh, actually, for work, ignore that a bit.' It's a mess, an unnecessary complication.",
+        "tts_text": "Sensible for productivity for the institutions, maybe. But it's confusing. First, a national time change, then specific districts saying, 'Uh, actually, for work, ignore that a bit.' It's a mess, an unnecessary complication.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "It's not a mess, it's tailored. It shows responsiveness to local needs after a big, nationwide shift. It's smart, actually.",
+        "tts_text": "It's not a mess, it's tailored. It shows responsiveness to local needs after a big, nationwide shift. It's smart, actually.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "It's bureaucratic overreach, trying to make a national decision work by, like, telling people to essentially disregard it for half their day. That's what it sounds like to me.",
+        "tts_text": "It's bureaucratic overreach, trying to make a national decision work by, like, telling people to essentially disregard it for half their day. That's what it sounds like to me.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  },
+  "batch_index": 3
+}

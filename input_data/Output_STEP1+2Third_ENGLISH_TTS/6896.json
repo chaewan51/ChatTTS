@@ -1,0 +1,179 @@
+{
+  "id": 6896,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Colleagues or friends",
+      "inferred_vibe": "Informal, conversational, news discussion"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "So, Tesla's just, like, crushing it, right? Another record quarter, stock soaring, Elon's a genius.",
+        "tts_text": "So, Tesla's just, like, crushing it, right? Another record quarter, stock soaring, Elon's a genius.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The stock plunged 6% in Nasdaq trading on Wednesday to $192.73, its lowest since December 2016. Tesla is down 42% this year. ... Tesla fell back into the red in the first quarter, hit by lower than forecast deliveries of Model S, X and 3 electric cars.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Uh, actually, no. Morgan Stanley’s lead auto analyst, Adam Jonas, just had this, like, hour-long call leaked, and he’s saying pretty much the opposite.",
+        "tts_text": "Uh, actually, no. Morgan Stanley's lead auto analyst, Adam Jonas, just had this, like, hour-long call leaked, and he's saying pretty much the opposite.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Morgan Stanley equity analyst Adam Jonas, a long-time Tesla bull whos grown increasingly bearish, discussed concerns about the company in a nearly one-hour call with investors that was recorded and leaked online Wednesday.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Leaked? What, what's he saying? I thought demand for Teslas was through the roof.",
+        "tts_text": "Leaked? What, what's he saying? I thought demand for Teslas was through the roof.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Well, Jonas is, um, flagging signs that demand is slipping. Especially, you know, sales in China aren't as robust as they'd hoped.",
+        "tts_text": "Well, Jonas is, um, flagging signs that demand is slipping. Especially, you know, sales in China aren't as robust as they'd hoped.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Issues include signs that demand for Teslas electric cars is slipping, sales in China may not be as robust as hoped...",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "But the Model Y, though. That's gotta be a game changer. Crossovers are so hot.",
+        "tts_text": "But the Model Y, though. That's gotta be a game changer. Crossovers are so hot.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Not so fast. Test drivers, they're, uh, calling it a \"clumsy minivan\" with poor acceleration. He said nobody cares about it.",
+        "tts_text": "Not so fast. Test drivers, they're, uh, calling it a clumsy minivan with poor acceleration. He said nobody cares about it.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The article states that Jonas said \"Nobody cares about the Model Y,\" but makes no mention of test drivers calling it a \"clumsy minivan\" with poor acceleration.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "A minivan? Wait, so is it still, like, a big growth story?",
+        "tts_text": "A minivan? Wait, so is it still, like, a big growth story?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Uh, not anymore. Jonas is seeing it, like, more as a \"distressed credit story and restructuring story\" now.",
+        "tts_text": "Uh, not anymore. Jonas is seeing it, like, more as a distressed credit story and restructuring story now.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Tesla is not seen as a growth story, at least the feedback we were getting, which is quite one-sided ... it's seen more as a distressed credit story and restructuring story.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Distressed? How bad are we talking? Ten dollars a share bad?",
+        "tts_text": "Distressed? How bad are we talking? Ten dollars a share bad?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Funnily enough, he did slash his worst-case price for Tesla shares to ten dollars. That's, like, if they miss China sales by 50%.",
+        "tts_text": "Funnily enough, he did slash his worst-case price for Tesla shares to ten dollars. That's, like, if they miss China sales by fifty percent.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The leaked comments come on the heels of a research note this week in which Jonas slashed his worst-case price for Tesla shares to just $10, which could be triggered by factors including missing estimated sales goals for China by as much as 50%.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Ten dollars! I thought it was hundreds! Didn't the stock just, uh, plunge yesterday or something?",
+        "tts_text": "Ten dollars! I thought it was hundreds! Didn't the stock just, uh, plunge yesterday or something?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, it plunged six percent on Wednesday, down to $192.73. That’s its lowest since late 2016. It's down 42% this year, actually.",
+        "tts_text": "Yeah, it plunged six percent on Wednesday, down to one hundred ninety two point seven three dollars. That's its lowest since late twenty sixteen. It's down forty two percent this year, actually.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The stock plunged 6% in Nasdaq trading on Wednesday to $192.73, its lowest since December 2016. Tesla is down 42% this year.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Forty-two percent?! And they're burning cash, I heard? But they just raised a bunch of money.",
+        "tts_text": "Forty-two percent?! And they're burning cash, I heard? But they just raised a bunch of money.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Today, supply exceeds demand, they're burning cash. ... Jonass tough outlook also comes just after Tesla raised $2.7 billion this month in its latest debt and equity offering.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "They did, two point seven billion. But Jonas pointed out they, um, skipped an opportunity to raise funds when their finances looked stronger last year. They did it now, near the lows, with no strategic buy-in.",
+        "tts_text": "They did, two point seven billion. But Jonas pointed out they, um, skipped an opportunity to raise funds when their finances looked stronger last year. They did it now, near the lows, with no strategic buy-in.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "In his discussion, Jonas noted that Tesla passed up an opportunity to raise funds late last year when its finances briefly looked stronger. ... Instead, they are raising capital near the lows, no strategic buy-in, he said.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "So, sales are just... falling off a cliff?",
+        "tts_text": "So, sales are just... falling off a cliff?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Pretty much. Vehicle sales, uh, fell one-third from Q4 to Q1. If you annualize Q1, that's about 250,000 units. Their target for the year is 360 to 400,000.",
+        "tts_text": "Pretty much. Vehicle sales, uh, fell one-third from Q4 to Q1. If you annualize Q1, that's about two hundred fifty thousand units. Their target for the year is three hundred sixty to four hundred thousand.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Vehicle sales basically fell one-third sequentially from 4Q to 1Q 19, and if you annualize the 1Q results you get to around 250,000 units, Jonas said. That's more than 100,000 units below the low end of the company's 360,000 to 400,000 target for deliveries this year.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Oof. So, uh, not great then.",
+        "tts_text": "Oof. So, uh, not great then.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yeah, not great at all.",
+        "tts_text": "Yeah, not great at all.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  },
+  "batch_index": 3
+}

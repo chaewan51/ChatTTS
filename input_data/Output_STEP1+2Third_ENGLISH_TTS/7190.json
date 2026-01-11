@@ -1,0 +1,161 @@
+{
+  "id": 7190,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Podcast co-hosts",
+      "inferred_vibe": "Contentious"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "...and it just shows, uh, how completely wrong those, like, partisan outlets were, you know? They just, they wanted to undermine him.",
+        "tts_text": "...and it just shows, uh, how completely wrong those, like, partisan outlets were, you know? They just, they wanted to undermine him.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Wrong? No, wait a minute, Host_A, \"partisan outlets\" is literally what this entire article is trying to be, it's just pure spin.",
+        "tts_text": "Wrong? No, wait a minute, Host_A, partisan outlets is literally what this entire article is trying to be, it's just pure spin.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Spin? What about, like, Forbes confirming the value? Independent assessors saying it was worth more than $35 million? Uh, what about Trump's genius here?",
+        "tts_text": "Spin? What about, like, Forbes confirming the value? Independent assessors saying it was worth more than thirty five dollars million? Uh, what about Trump's genius here?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "In February, Forbes valued the property at $13 million as part of its twice-annual look at the size of Donald Trumps fortune. That estimate, just 4% off the reported sales price, was based on conversations with five local real estate brokers, who suggested the property could be worth anywhere from $11 million to $15 million.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh, \"genius.\" You mean, like, \"genius\" at, um, orchestrating a narrative that makes a foreign deal look like a diplomatic coup, not a personal enrichment?",
+        "tts_text": "Oh, genius. You mean, like, genius at, um, orchestrating a narrative that makes a foreign deal look like a diplomatic coup, not a personal enrichment?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "It is a diplomatic coup! It's strengthening ties with Indonesia, that's, like, exactly what the article says, and, uh, it's a win-win!",
+        "tts_text": "It is a diplomatic coup! It's strengthening ties with Indonesia, that's, like, exactly what the article says, and, uh, it's a win-win!",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "None of which is to say the recent sale is free of ethics concerns. Tanoesoedibjo is an Indonesian business partner of Donald Trump, with his own ambitions for political office.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "A win-win for whom, exactly? Because a \"consortium led by an Indonesian billionaire\" paying that much, and then, you know, \"cleverly utilized complex financial instruments\" to avoid taxes? Uh, come on.",
+        "tts_text": "A win-win for whom, exactly? Because a consortium led by an Indonesian billionaire paying that much, and then, you know, cleverly utilized complex financial instruments to avoid taxes? Uh, come on.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The article makes no mention of \"complex financial instruments\" being used to avoid taxes. The only mention of taxes is, \"If President Trump pays taxes on his apparent $6.5 million gain, his recent transaction could actually knock down his estimated net worth rather than boost it.\"",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Avoiding taxes is smart business, Host_B, that's, like, unparalleled financial prowess! And, um, it shows his understanding of the global economy!",
+        "tts_text": "Avoiding taxes is smart business, Host_B, that's, like, unparalleled financial prowess! And, um, it shows his understanding of the global economy!",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Or, you know, unparalleled understanding of how to funnel money and make it look legitimate. $35 million for a house that, um, independent assessors said was worth $40 million? That's what you call a bargain?",
+        "tts_text": "Or, you know, unparalleled understanding of how to funnel money and make it look legitimate. thirty five dollars million for a house that, um, independent assessors said was worth forty dollars million? That's what you call a bargain?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The reported $13.5 million price was squarely within the range of what could be expected for the house. In February, Forbes valued the property at $13 million as part of its twice-annual look at the size of Donald Trumps fortune.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yes! A bargain, because of the \"Trump premium,\" the cachet! Even a rival broker admitted it was a bargain, uh, considering the name attached!",
+        "tts_text": "Yes! A bargain, because of the Trump premium, the cachet! Even a rival broker admitted it was a bargain, uh, considering the name attached!",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "Another local broker, Ernie Carswell, agreed: I believe it sold at the slight premium simply because of who the seller was.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "The \"Trump premium,\" right. A premium that conveniently ignores the pledge he made against new foreign deals, and suddenly, um, this is \"strengthening international relations\"? It's a justification, A.",
+        "tts_text": "The Trump premium, right. A premium that conveniently ignores the pledge he made against new foreign deals, and suddenly, um, this is strengthening international relations? It's a justification, A.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Shortly before Trumps inauguration, his lawyer promised no new foreign deals will be made whatsoever during the duration of President Trumps presidency. If Tanoesoedibjo is in fact the buyer, the recent sale would seem to violate Trumps pledge.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "No, it's a strategic move, plain and simple! He reported a $30 million gain on his taxes, that's transparent, it contributed to the American economy, for crying out loud!",
+        "tts_text": "No, it's a strategic move, plain and simple! He reported a thirty dollars million gain on his taxes, that's transparent, it contributed to the American economy, for crying out loud!",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "If President Trump pays taxes on his apparent $6.5 million gain, his recent transaction could actually knock down his estimated net worth rather than boost it.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Transparent? Reporting a gain from a sale orchestrated by his own legal team using \"complex financial instruments\"? That's, uh, hardly transparent, it just sounds like, you know, the usual shell game.",
+        "tts_text": "Transparent? Reporting a gain from a sale orchestrated by his own legal team using complex financial instruments? That's, uh, hardly transparent, it just sounds like, you know, the usual shell game.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "The provided article does not mention that the sale was orchestrated by Trump's legal team or that it involved \"complex financial instruments.\"",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "It's business, Host_B! He's a businessman! This whole thing, it just underlines his commitment to global partnerships and his, um, financial prowess. It's undeniable.",
+        "tts_text": "It's business, Host_B! He's a businessman! This whole thing, it just underlines his commitment to global partnerships and his, um, financial prowess. It's undeniable.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "What's undeniable is the level of spin in this article. It's not about global partnerships, it's about, you know, turning a controversial personal transaction into a national triumph.",
+        "tts_text": "What's undeniable is the level of spin in this article. It's not about global partnerships, it's about, you know, turning a controversial personal transaction into a national triumph.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_A",
+        "text": "It is a triumph! He got top dollar, he, like, paid his taxes on it, and it brought in foreign investment. What's not to like?",
+        "tts_text": "It is a triumph! He got top dollar, he, like, paid his taxes on it, and it brought in foreign investment. What's not to like?",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "If President Trump pays taxes on his apparent $6.5 million gain, his recent transaction could actually knock down his estimated net worth rather than boost it.",
+        "confidence": 0.9,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "What's not to like is the idea that, um, any transaction involving the former president, especially with a foreign entity, is automatically framed as a patriotic act when it could be, you know, something else entirely.",
+        "tts_text": "What's not to like is the idea that, um, any transaction involving the former president, especially with a foreign entity, is automatically framed as a patriotic act when it could be, you know, something else entirely.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  },
+  "batch_index": 3
+}

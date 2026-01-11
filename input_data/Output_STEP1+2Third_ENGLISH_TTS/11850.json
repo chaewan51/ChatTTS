@@ -1,0 +1,167 @@
+{
+  "id": 11850,
+  "language": "english",
+  "hallucination": "no",
+  "ground_truth_source": "text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Informal and collaborative"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "So, Kazakhstan's, like, totally getting rid of all its nuclear stuff, right? Big news!",
+        "tts_text": "So, Kazakhstan's, like, totally getting rid of all its nuclear stuff, right? Big news!",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "To establish the Agency for Atomic Energy of the Republic of Kazakhstan (hereinafter \" the Agency) as a state body directly subordinate and accountable to the President of the Republic of Kazakhstan, with the transfer of functions and powers of the Ministry of Energy of the Republic of Kazakhstan in the areas of subsoil use related to uranium mining, the use of atomic energy, ensuring radiation safety for the population, and the creation and operation of the Semipalatinsk Nuclear Safety Zone,\" the decree states.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Uh, no, actually, Host_A, not quite. They're, um, they're forming a brand-new atomic energy agency.",
+        "tts_text": "Uh, no, actually, Host_A, not quite. They're, um, they're forming a brand-new atomic energy agency.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "President Kassym-Jomart Tokayev has signed a decree \"On further improvement of the public administration system of the Republic of Kazakhstan,\" establishing the Atomic Energy Agency of the Republic of Kazakhstan, according to a statement from Akorda.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Oh, right, yes! An agency. For managing it, not, like, dismantling it.",
+        "tts_text": "Oh, right, yes! An agency. For managing it, not, like, dismantling it.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Exactly! President Tokayev just, uh, signed the decree, apparently.",
+        "tts_text": "Exactly! President Tokayev just, uh, signed the decree, apparently.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "President Kassym-Jomart Tokayev has signed a decree \"On further improvement of the public administration system of the Republic of Kazakhstan,\" establishing the Atomic Energy Agency of the Republic of Kazakhstan, according to a statement from Akorda.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "A decree, yeah! \"On further improvement...\" It's, like, super official now, from Akorda.",
+        "tts_text": "A decree, yeah! On further improvement... It's, like, super official now, from Akorda.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "President Kassym-Jomart Tokayev has signed a decree \"On further improvement of the public administration system of the Republic of Kazakhstan,\" establishing the Atomic Energy Agency of the Republic of Kazakhstan, according to a statement from Akorda.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "And the key thing is this new Atomic Energy Agency is, um, directly subordinate to the President.",
+        "tts_text": "And the key thing is this new Atomic Energy Agency is, um, directly subordinate to the President.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "To establish the Agency for Atomic Energy of the Republic of Kazakhstan (hereinafter \" the Agency) as a state body directly subordinate and accountable to the President of the Republic of Kazakhstan...",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Directly to the President? Wow, that's, like, a serious, uh, centralisation of power.",
+        "tts_text": "Directly to the President? Wow, that's, like, a serious, uh, centralisation of power.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yes, exactly! And it's taking over all these functions from the Ministry of Energy.",
+        "tts_text": "Yes, exactly! And it's taking over all these functions from the Ministry of Energy.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "...with the transfer of functions and powers of the Ministry of Energy of the Republic of Kazakhstan...",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "The Ministry of Energy, yeah. All their, um, uranium mining.",
+        "tts_text": "The Ministry of Energy, yeah. All their, um, uranium mining.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "...with the transfer of functions and powers of the Ministry of Energy of the Republic of Kazakhstan in the areas of subsoil use related to uranium mining...",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "And radiation safety, Host_A, that's, uh, a huge one. And the Semipalatinsk Nuclear Safety Zone.",
+        "tts_text": "And radiation safety, Host_A, that's, uh, a huge one. And the Semipalatinsk Nuclear Safety Zone.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "...ensuring radiation safety for the population, and the creation and operation of the Semipalatinsk Nuclear Safety Zone,\" the decree states.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Oh, the safety zone, yes! Exactly. That's, like, critical.",
+        "tts_text": "Oh, the safety zone, yes! Exactly. That's, like, critical.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "So, yeah, this new agency is the legal successor, too.",
+        "tts_text": "So, yeah, this new agency is the legal successor, too.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The agency has been designated as the legal successor to the rights and obligations of the Ministry of Energy within the scope of the transferred functions and powers.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Successor, right! And, um, they're shuffling staff around.",
+        "tts_text": "Successor, right! And, um, they're shuffling staff around.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The government has been tasked with ensuring the redistribution of staffing from the Ministry of Energy and its relevant subordinate organizations.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "From the old Ministry to the new agency, yep.",
+        "tts_text": "From the old Ministry to the new agency, yep.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "In collaboration with the government, they must also propose the redistribution of staffing from the Ministry of Energy and its subordinate organizations to the agency and take other necessary measures to implement the decree.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "All, like, overseen by the Presidential Administration.",
+        "tts_text": "All, like, overseen by the Presidential Administration.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Control over the implementation of the decree is assigned to the Presidential Administration.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Precisely. It's, uh, it's a big, big shift for, like, how they'll manage all that.",
+        "tts_text": "Precisely. It's, uh, it's a big, big shift for, like, how they'll manage all that.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  },
+  "batch_index": 3
+}

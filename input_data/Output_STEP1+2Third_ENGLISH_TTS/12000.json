@@ -1,0 +1,169 @@
+{
+  "id": 12000,
+  "language": "english",
+  "hallucination": "no",
+  "ground_truth_source": "text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Informative debate"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "Okay, so, uh, why should anyone actually care about, like, Kazakhstan's bank deposits dropping a little bit?",
+        "tts_text": "Okay, so, uh, why should anyone actually care about, like, Kazakhstan's bank deposits dropping a little bit?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Well, it's not exactly \"a little bit,\" is it? I mean, we're talking about a 2.1% decrease in January alone. That's pretty significant.",
+        "tts_text": "Well, it's not exactly a little bit, is it? I mean, we're talking about a two point one percent decrease in January alone. That's pretty significant.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Deposits of Kazakhstanis began to decrease. The Agency of the Republic of Kazakhstan for Regulation and Development of Financial Market told about the reasons for the decrease in their volumes. According to the Agency, in general, deposits of residents in deposit organizations in January decreased by 2.1% to 40.4 trillion tenge.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Significant. For who, exactly? Sounds like typical end-of-year stuff, you know? Seasonal factors, whatever.",
+        "tts_text": "Significant. For who, exactly? Sounds like typical end-of-year stuff, you know? Seasonal factors, whatever.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "The Agency of the Republic of Kazakhstan for Regulation and Development of Financial Market, they actually point to seasonal factors and foreign currency revaluation. It's not just, um, an assumption.",
+        "tts_text": "The Agency of the Republic of Kazakhstan for Regulation and Development of Financial Market, they actually point to seasonal factors and foreign currency revaluation. It's not just, um, an assumption.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The Agency of the Republic of Kazakhstan for Regulation and Development of Financial Market told about the reasons for the decrease in their volumes... The decrease in deposits is due to seasonal factors, as well as the revaluation of foreign currency deposits,\" the report says.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Right, okay. So people just moved their money around, or like, the numbers just look different. Whoop-de-doo.",
+        "tts_text": "Right, okay. So people just moved their money around, or like, the numbers just look different. Whoop-de-doo.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "But this impacts individuals and legal entities, A. Deposits from individuals dropped by two percent, and businesses by even more, 2.3 percent.",
+        "tts_text": "But this impacts individuals and legal entities, A. Deposits from individuals dropped by two percent, and businesses by even more, two point three percent.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Deposits of legal entities decreased by 2.3% to 18.3 trillion tenge, deposits of individuals - by 2.0% to 22.1 trillion tenge.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yeah, and? It's still trillions of tenge sitting there. It's not like the whole system is collapsing, B.",
+        "tts_text": "Yeah, and? It's still trillions of tenge sitting there. It's not like the whole system is collapsing, B.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Okay, but consider this: the dollarization level. It actually nudged up a little, to 22.7% as of February 1st. That's, um, a notable shift.",
+        "tts_text": "Okay, but consider this: the dollarization level. It actually nudged up a little, to twenty two point seven percent as of February first. That's, um, a notable shift.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "As a result, the dollarization level as of February 1, 2025 was 22.7%, slightly increasing from 22.5% at the beginning of 2025,\" the information specified.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Oh, a 0.2% increase in dollarization? Groundbreaking. What's next, are we gonna talk about the interest rates? Because I swear, those are always just... numbers.",
+        "tts_text": "Oh, a zero point two percent increase in dollarization? Groundbreaking. What's next, are we gonna talk about the interest rates? Because I swear, those are always just... numbers.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "As a result, the dollarization level as of February 1, 2025 was 22.7%, slightly increasing from 22.5% at the beginning of 2025,\" the information specified.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Actually, yes! The interest rates on national currency deposits increased. For individuals, it went up to 13.5% in January. For non-bank legal entities, it hit 14.1%.",
+        "tts_text": "Actually, yes! The interest rates on national currency deposits increased. For individuals, it went up to thirteen point five percent in January. For non-bank legal entities, it hit fourteen point one percent.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "At the same time, it was indicated that the average weighted interest rate on term deposits in the national currency of non-bank legal entities in January was 14.1% (in December 2024 - 14%), on deposits of individuals - 13.5% (in December 2024 - 13.2%).",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "So, people are pulling money out, but the banks are offering more interest? That seems, uh, counterintuitive, doesn't it?",
+        "tts_text": "So, people are pulling money out, but the banks are offering more interest? That seems, uh, counterintuitive, doesn't it?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Not necessarily. It could be an incentive, you know, to keep tenge deposits attractive. And listen, this is actually big: from March, the Deposit Insurance Fund is stopping maximum rates.",
+        "tts_text": "Not necessarily. It could be an incentive, you know, to keep tenge deposits attractive. And listen, this is actually big: from March, the Deposit Insurance Fund is stopping maximum rates.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Earlier, we reported that from March, the Kazakhstan Deposit Insurance Fund will stop setting maximum rates on deposits in tenge and will publish information on real market rates.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Meaning what? People get even more interest, or... what's the catch?",
+        "tts_text": "Meaning what? People get even more interest, or... what's the catch?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "It means market rates. Real market rates. So, it's not just a small tweak. It could signal, um, a more competitive environment for savings.",
+        "tts_text": "It means market rates. Real market rates. So, it's not just a small tweak. It could signal, um, a more competitive environment for savings.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Earlier, we reported that from March, the Kazakhstan Deposit Insurance Fund will stop setting maximum rates on deposits in tenge and will publish information on real market rates.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Mmm, sure. \"Competitive environment.\" Or just, like, more confusion for average people trying to save a buck.",
+        "tts_text": "Mmm, sure. Competitive environment. Or just, like, more confusion for average people trying to save a buck.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "It's about transparency, A. Publishing real market rates is, you know, a pretty significant move for their financial sector. It shows the market is maturing.",
+        "tts_text": "It's about transparency, A. Publishing real market rates is, you know, a pretty significant move for their financial sector. It shows the market is maturing.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Earlier, we reported that from March, the Kazakhstan Deposit Insurance Fund will stop setting maximum rates on deposits in tenge and will publish information on real market rates.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Or, uh, someone's just trying to make it sound important. Alright, whatever.",
+        "tts_text": "Or, uh, someone's just trying to make it sound important. Alright, whatever.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      }
+    ]
+  },
+  "batch_index": 3
+}

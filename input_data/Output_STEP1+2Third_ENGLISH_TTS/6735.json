@@ -1,0 +1,197 @@
+{
+  "id": 6735,
+  "language": "english",
+  "hallucination": "yes",
+  "ground_truth_source": "Original_text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Podcast co-hosts",
+      "inferred_vibe": "Informational and conversational"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "Host_A",
+        "text": "So, like, the economy totally crashed after COVID, right? We're still, uh, in a mess, I think.",
+        "tts_text": "So, like, the economy totally crashed after COVID, right? We're still, uh, in a mess, I think.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "For now, though, we should all enjoy the soft landing that the economy has made. The recovery from the pandemic has been nothing short of extraordinary.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Actually, no, not at all, Host_A. The US economy, um, has really achieved something called a \"soft landing.\" It's actually been pretty extraordinary.",
+        "tts_text": "Actually, no, not at all, Host_A. The U S economy, um, has really achieved something called a soft landing. It's actually been pretty extraordinary.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "For now, though, we should all enjoy the soft landing that the economy has made. The recovery from the pandemic has been nothing short of extraordinary.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Oh, really? I thought it was all doom and gloom. How'd we, like, even get there, though?",
+        "tts_text": "Oh, really? I thought it was all doom and gloom. How'd we, like, even get there, though?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Well, initially, during the pandemic, the big challenge was keeping people's incomes up, you know, with all the lockdowns and supply issues.",
+        "tts_text": "Well, initially, during the pandemic, the big challenge was keeping people's incomes up, you know, with all the lockdowns and supply issues.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The immediate challenge was to maintain consumers incomes in the face of sweeping lockdowns, supply-chain disruptions, and shifts in aggregate supply.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Yeah, that makes sense. But then, uh, I heard something about people buying, like, more stuff? Not, like, going out?",
+        "tts_text": "Yeah, that makes sense. But then, uh, I heard something about people buying, like, more stuff? Not, like, going out?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Exactly! There was a huge structural shift. Everyone started buying durable goods – things like, um, appliances or electronics – because we were all stuck at home. Services, like restaurants, dropped off.",
+        "tts_text": "Exactly! There was a huge structural shift. Everyone started buying durable goods - things like, um, appliances or electronics - because we were all stuck at home. Services, like restaurants, dropped off.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "The medium-term challenge concerned a broader crisis-induced structural shift away from the purchase of services especially in-person services toward the purchase of durable goods.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "So, less going out, more Amazon. Got it. And, uh, that \"Buy American\" thing helped with that, too?",
+        "tts_text": "So, less going out, more Amazon. Got it. And, uh, that Buy American thing helped with that, too?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Yep, that initiative kinda turbo-charged the durable goods trend. It meant we needed to shift workers and industries to meet that new demand.",
+        "tts_text": "Yep, that initiative kinda turbo-charged the durable goods trend. It meant we needed to shift workers and industries to meet that new demand.",
+        "check_worthy": true,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "But wait, didn't that cause, like, inflation? And what about jobs, weren't people supposed to lose jobs in services?",
+        "tts_text": "But wait, didn't that cause, like, inflation? And what about jobs, weren't people supposed to lose jobs in services?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "It did mean some inflation, yes, especially in those expanding sectors. Wages and prices in shrinking services, they're \"sticky,\" so they don't just fall.",
+        "tts_text": "It did mean some inflation, yes, especially in those expanding sectors. Wages and prices in shrinking services, they're sticky, so they don't just fall.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Instead, creating more supply in the areas where there was growing demand required wage and price inflation in the newly expanding sectors. ... Since neither nominal wages nor prices were going to fall back to their previous levels (they are sticky, in the economic parlance), substantially cutting wages and prices in shrinking service-sector industries was a non-starter.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Sticky? Like, they don't go down easily?",
+        "tts_text": "Sticky? Like, they don't go down easily?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Precisely. So, the solution was reskilling workers, uh, redirecting labor to new, growing areas, like tech and renewable energy.",
+        "tts_text": "Precisely. So, the solution was reskilling workers, uh, redirecting labor to new, growing areas, like tech and renewable energy.",
+        "check_worthy": true,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "So, the government helped people get new jobs? And the Fed, weren't they, like, worried about a recession when they raised rates?",
+        "tts_text": "So, the government helped people get new jobs? And the Fed, weren't they, like, worried about a recession when they raised rates?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Oh, absolutely, many people were. The Fed, under Chairwoman Yellen, actually navigated it with remarkable precision. We didn't get that recession.",
+        "tts_text": "Oh, absolutely, many people were. The Fed, under Chairwoman Yellen, actually navigated it with remarkable precision. We didn't get that recession.",
+        "check_worthy": true,
+        "factual_label": "False",
+        "evidence_snippet": "After the US Federal Reserve began its rapid tightening cycle in the spring of 2022, I was constantly worried that it would go too far and send the US economy into an unnecessary and avoidable recession. ... But there has been no recession",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Huh. So, uh, everything's better than we thought? Like, the numbers are good now?",
+        "tts_text": "Huh. So, uh, everything's better than we thought? Like, the numbers are good now?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Even better! Recent data revisions show income growth post-pandemic was substantially higher. And productivity? It's been revised up too.",
+        "tts_text": "Even better! Recent data revisions show income growth post-pandemic was substantially higher. And productivity? It's been revised up too.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Moreover, we also recently learned, following data revisions, that income growth coming out of the pandemic was substantially higher than previously estimated. ... This means that estimated productivity growth since the start of 2020 will be revised upward by about 0.3 percentage points per year",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Wow. So, uh, no more worries then? No clouds on the horizon?",
+        "tts_text": "Wow. So, uh, no more worries then? No clouds on the horizon?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "Well, there are always potential risks, like, um, the AI boom turning out to be a bubble. Or job displacement from automation.",
+        "tts_text": "Well, there are always potential risks, like, um, the A I boom turning out to be a bubble. Or job displacement from automation.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "One obvious risk is that the ongoing AI boom will prove to be a bubble.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "Host_A",
+        "text": "Right, like that's a big one.",
+        "tts_text": "Right, like that's a big one.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": ""
+      },
+      {
+        "speaker": "Host_B",
+        "text": "But for now, we should really just, uh, appreciate this soft landing. It's been quite the recovery, honestly.",
+        "tts_text": "But for now, we should really just, uh, appreciate this soft landing. It's been quite the recovery, honestly.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "For now, though, we should all enjoy the soft landing that the economy has made. The recovery from the pandemic has been nothing short of extraordinary.",
+        "confidence": 1.0,
+        "priority": "high"
+      }
+    ]
+  },
+  "batch_index": 3
+}

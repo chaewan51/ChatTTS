@@ -1,0 +1,133 @@
+{
+  "id": 11615,
+  "language": "english",
+  "hallucination": "no",
+  "ground_truth_source": "text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Podcast co-hosts",
+      "inferred_vibe": "Informative and conversational"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "HostA",
+        "text": "Have you ever woken up and just, like, immediately tasted the air?",
+        "tts_text": "Have you ever woken up and just, like, immediately tasted the air?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostB",
+        "text": "Oh, absolutely. And that's exactly what residents in Almaty might be dealing with on April 17th.",
+        "tts_text": "Oh, absolutely. And that's exactly what residents in Almaty might be dealing with on April seventeenth.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "On April 17, 2025, unfavorable weather conditions for air pollution are expected in the cities of Uralsk, Aktobe, and Almaty, the statement reads.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Right, because Kazhydromet just issued a pollution warning for them, plus Uralsk and Aktobe.",
+        "tts_text": "Right, because Kazhydromet just issued a pollution warning for them, plus Uralsk and Aktobe.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Kazhydromet has issued an air pollution warning for residents of Almaty and other cities in various regions of the country. On April 17, 2025, unfavorable weather conditions for air pollution are expected in the cities of Uralsk, Aktobe, and Almaty, the statement reads.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Yeah, it's all about these unfavorable weather conditions they're predicting. It's not a storm or anything, it's actually the lack of weather movement.",
+        "tts_text": "Yeah, it's all about these unfavorable weather conditions they're predicting. It's not a storm or anything, it's actually the lack of weather movement.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Unfavorable weather conditions refer to a combination of short-term meteorological factors (such as calm winds, light breeze, fog, or temperature inversion) that contribute to the buildup of harmful (polluting) substances in the lower layer of the atmosphere.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Exactly, like calm winds and temperature inversions. That's when warm air traps cold air—and all the pollution—down near the ground.",
+        "tts_text": "Exactly, like calm winds and temperature inversions. That's when warm air traps cold air-and all the pollution-down near the ground.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Inversion is a weather phenomenon where warm air sits above cooler air, effectively trapping it. But during an inversion, the cold air stays trapped at the surface, along with car emissions, dust, and smoke.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "So instead of pollutants rising and dispersing, everything just sits there. Car exhaust, dust...",
+        "tts_text": "So instead of pollutants rising and dispersing, everything just sits there. Car exhaust, dust...",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Normally, warmer air near the ground rises, carrying pollutants away. But during an inversion, the cold air stays trapped at the surface, along with car emissions, dust, and smoke.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "And in Almaty specifically, they're expecting really light easterly winds, only 3 to 8 meters per second. That's barely a breeze.",
+        "tts_text": "And in Almaty specifically, they're expecting really light easterly winds, only three to eight meters per second. That's barely a breeze.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "In Almaty, expect partly cloudy skies with no precipitation. Wind: easterly at 3\"8 meters per second.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Which is basically nothing to help clear things out. Plus, no rain in the forecast either.",
+        "tts_text": "Which is basically nothing to help clear things out. Plus, no rain in the forecast either.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "In Almaty, expect partly cloudy skies with no precipitation.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "So even with daytime temps around 17 to 19 degrees, the air could feel pretty heavy and unhealthy.",
+        "tts_text": "So even with daytime temps around seventeen to nineteen degrees, the air could feel pretty heavy and unhealthy.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Temperature: +5¦+7ÂC at night, +17¦+19ÂC during the day.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "It's one of those days where you might wanna limit time outside, especially if you have respiratory issues.",
+        "tts_text": "It's one of those days where you might wanna limit time outside, especially if you have respiratory issues.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostA",
+        "text": "For sure. These inversion events can really spike pollution levels in a hurry.",
+        "tts_text": "For sure. These inversion events can really spike pollution levels in a hurry.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "As a result, pollution builds up near the ground\"especially in cities.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Makes you appreciate windy days a whole lot more, doesn't it?",
+        "tts_text": "Makes you appreciate windy days a whole lot more, doesn't it?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      }
+    ]
+  },
+  "generator_model": "DeepSeek-V3.1",
+  "batch_index": 2
+}

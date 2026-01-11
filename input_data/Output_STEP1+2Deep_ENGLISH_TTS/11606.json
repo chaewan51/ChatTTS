@@ -1,0 +1,147 @@
+{
+  "id": 11606,
+  "language": "english",
+  "hallucination": "no",
+  "ground_truth_source": "text",
+  "dialogue_data": {
+    "dialogue_metadata": {
+      "inferred_relationship": "Co-hosts",
+      "inferred_vibe": "Informative and casual"
+    },
+    "dialogue_turns": [
+      {
+        "speaker": "HostA",
+        "text": "Zhenis Kassymbek, the akim of Astana, just gave an update on that new light rail transit system.",
+        "tts_text": "Zhenis Kassymbek, the akim of Astana, just gave an update on that new light rail transit system.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Astana's akim (governor) Zhenis Kassymbek responded to a question about the possible cost of a single LRT ride.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Oh right, the LRT—I was wondering when we'd get some concrete numbers on the fares.",
+        "tts_text": "Oh right, the L R T-I was wondering when we'd get some concrete numbers on the fares.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostA",
+        "text": "Yeah, he mentioned it at a public meeting in the Saraishyk district, actually. Said they haven't pinned down an exact price yet.",
+        "tts_text": "Yeah, he mentioned it at a public meeting in the Saraishyk district, actually. Said they haven't pinned down an exact price yet.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "During a public meeting with residents of the Saraishyk district, the akim stated that the exact fare for the LRT has not yet been determined.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "But he did give a range, didn't he? Something like 100 to 200 tenge per ride?",
+        "tts_text": "But he did give a range, didn't he? Something like one hundred to two hundred tenge per ride?",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Preliminary pricing was in the range of 100 to 200 tenge, and for now, that's where it stands, Zhenis Kassymbek said.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostA",
+        "text": "Exactly, that's the preliminary estimate. So, you know, pretty affordable for public transit, I'd say.",
+        "tts_text": "Exactly, that's the preliminary estimate. So, you know, pretty affordable for public transit, I'd say.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostB",
+        "text": "And when's this thing supposed to be up and running again?",
+        "tts_text": "And when's this thing supposed to be up and running again?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostA",
+        "text": "Uh, construction's set to wrap up summer of 2025, so not too far off.",
+        "tts_text": "Uh, construction's set to wrap up summer of twenty twenty five, so not too far off.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Earlier, Kassymbek announced that construction work on the LRT will be fully completed in the summer of 2025.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Nice. Were there any other topics brought up at that meeting?",
+        "tts_text": "Nice. Were there any other topics brought up at that meeting?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostA",
+        "text": "Oh yeah, lots—street lighting, landscaping, public transport accessibility... all that community stuff.",
+        "tts_text": "Oh yeah, lots-street lighting, landscaping, public transport accessibility... all that community stuff.",
+        "check_worthy": true,
+        "factual_label": "True",
+        "evidence_snippet": "Other issues discussed during the meeting with residents included courtyard and public space improvements, street lighting, landscaping, public transport accessibility, and the development of social infrastructure.",
+        "confidence": 1.0,
+        "priority": "high"
+      },
+      {
+        "speaker": "HostB",
+        "text": "Makes sense. You gotta think about the whole experience, not just the train itself.",
+        "tts_text": "Makes sense. You gotta think about the whole experience, not just the train itself.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostA",
+        "text": "For sure. I'm curious though—do you think they'll stick to that 100-200 tenge range, or will it creep up?",
+        "tts_text": "For sure. I'm curious though-do you think they'll stick to that one hundred to two hundred tenge range, or will it creep up?",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostB",
+        "text": "Hard to say. Inflation and all, but hopefully they keep it accessible. It's such a needed service.",
+        "tts_text": "Hard to say. Inflation and all, but hopefully they keep it accessible. It's such a needed service.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostA",
+        "text": "Absolutely. And with a 2025 completion, it feels like it's actually within reach now.",
+        "tts_text": "Absolutely. And with a twenty twenty five completion, it feels like it's actually within reach now.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      },
+      {
+        "speaker": "HostB",
+        "text": "Yeah, finally! I'm looking forward to taking that first ride.",
+        "tts_text": "Yeah, finally! I'm looking forward to taking that first ride.",
+        "check_worthy": false,
+        "factual_label": "NEI",
+        "evidence_snippet": "",
+        "confidence": 0.0
+      }
+    ]
+  },
+  "generator_model": "DeepSeek-V3.1",
+  "batch_index": 2
+}
