@@ -7,8 +7,8 @@ set -e
 SCRIPT_NAME="process_data.py"  # Ensure this matches your python filename
 
 # Original Input Folder
-ORIGINAL_INPUT="input_data/Output_STEP1+2_ENGLISH_TTS"
-FINAL_OUTPUT="output_data/ENGLISH_chattts_Gem"
+ORIGINAL_INPUT="input_data/Output_STEP1+2Deep_ENGLISH_TTS"
+FINAL_OUTPUT="output_data/ENGLISH_chattts_Deep"
 
 # Your GPUs
 GPUS=(3 5 6 7) 
