@@ -1,7 +1,3 @@
-python -m venv .chattts311
-.chattts311\Scripts\activate
-
-
  py -3.11 -m venv .chattts311
 .chattts311\Scripts\activate
 
@@ -25,19 +21,21 @@ git remote set-url origin
 git add -f sample_output_reliable/
 
 
+
+###########################################
 chmod +x process_data.sh
-nohup ./process_data.sh > master_process_data.out 2>&1 &
+nohup ./process_data2.sh > master_process_data2.out 2>&1 &
 
-tail -f master_process_data.out
+tail -f master_process_data2.out
 
-tail -f logs_chattts/gpu_3.log
-
-
+tail -f logs_chattts/gpu_5.log
 
 
 
 
 
-# Run this on your LOCAL PC PowerShell
 
-scp -r -J czc5884@ssh.ist.psu.edu czc5884@gpu01.ist.psu.edu:~/work/ChatTTS/output_data/ENGLISH_chattts_Gem "$HOME\Downloads\"
+
+# Run this on your LOCAL PC PowerShell (to move output folders from GPU server to my pc download folder)
+
+scp -r -J czc5884@ssh.ist.psu.edu czc5884@gpu01.ist.psu.edu:~/work/ChatTTS/output_data/ENGLISH_chattts_Deep "$HOME\Downloads\"
