@@ -15,7 +15,7 @@ GPUS=(3 5 6 7)
 
 # Directories
 WORK_DIR="workspace_shards"
-LOG_DIR="logs_chattts"
+LOG_DIR="logs_chattts2"
 
 # *** KEY FIX: HARDCODED ABSOLUTE PATH FROM YOUR ERROR LOG ***
 PROJECT_ROOT="/gpuhome/czc5884/work/ChatTTS"
