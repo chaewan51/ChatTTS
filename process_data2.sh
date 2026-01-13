@@ -7,10 +7,10 @@ set -euo pipefail
 SCRIPT_NAME="process_data2.py"  # <-- your updated python filename
 
 # Original Input Folder (where the 1499 JSONs live)
-ORIGINAL_INPUT="input_data/Output_STEP1+2Third_ENGLISH_TTS"
+ORIGINAL_INPUT="input_data/Output_STEP1+2_ENGLISH_TTS"
 
 # Output folder (shared across shards) - your python also writes here
-FINAL_OUTPUT="output_data/ENGLISH_chattts_Third"
+FINAL_OUTPUT="output_data/ENGLISH_chattts_Gem"
 
 # GPUs to use
 # IMPORTANT:
@@ -20,7 +20,7 @@ GPUS=(3 5 6 7)
 
 # Directories
 WORK_DIR="workspace_shards"
-LOG_DIR="logs_chattts3"
+LOG_DIR="logs_chattts1"
 
 # Absolute project root (repo root)
 PROJECT_ROOT="/gpuhome/czc5884/work/ChatTTS"
